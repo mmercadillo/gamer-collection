@@ -69,9 +69,9 @@ La web está diseñada para funcionar directamente desde GitHub Pages.
 
 ## 🚀 Publicar en GitHub Pages
 
-1. Subí todo este contenido a un nuevo repositorio de GitHub
-2. Activá GitHub Pages desde "Settings" > "Pages"
-3. Seleccioná la rama `main` y la carpeta `/ (root)`
+1. Subir todo este contenido a un nuevo repositorio de GitHub
+2. Activar GitHub Pages desde "Settings" > "Pages"
+3. Seleccionar la rama `main` y la carpeta `/ (root)`
 4. Tu sitio estará online en:  
    `https://<tu-usuario>.github.io/<nombre-del-repositorio>/`
 
