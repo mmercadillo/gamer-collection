@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Age of Empires",
+    "url": "juegos/age-of-empires/",
+    "plataforma": "Windows 95/98",
+    "estado": "Muy bueno"
+  },
+  {
+    "titulo": "The Dig",
+    "url": "juegos/the-dig/",
+    "plataforma": "DOS",
+    "estado": "Bueno"
+  },
+  {
+    "titulo": "Command & Conquer",
+    "url": "juegos/command-conquer/",
+    "plataforma": "Windows 95",
+    "estado": "Excelente"
+  }
+]

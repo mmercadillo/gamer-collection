@@ -72,16 +72,49 @@
   <a class="back" href="../index.html">← Volver al catálogo</a>
   <h1>Bigbox games</h1>
   <table>
-    <tr>
-      <th>Título</th>
-      <th>Plataforma</th>
-      <th>Estado</th>
-    </tr>
-    <tr>
-      <td><a href="juegos/age-of-empires/">Age of Empires</a></td>
-      <td>Windows 95/98</td>
-      <td>Muy bueno</td>
-    </tr>
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Plataforma</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-juegos">
+      <!-- Contenido generado dinámicamente -->
+    </tbody>
   </table>
+
+  <script>
+    fetch("juegos.json")
+      .then(res => res.json())
+      .then(juegos => {
+        const tabla = document.getElementById("tabla-juegos");
+        juegos.forEach(juego => {
+          const fila = document.createElement("tr");
+
+          const titulo = document.createElement("td");
+          const enlace = document.createElement("a");
+          enlace.href = juego.url;
+          enlace.textContent = juego.titulo;
+          titulo.appendChild(enlace);
+
+          const plataforma = document.createElement("td");
+          plataforma.textContent = juego.plataforma;
+
+          const estado = document.createElement("td");
+          estado.textContent = juego.estado;
+
+          fila.appendChild(titulo);
+          fila.appendChild(plataforma);
+          fila.appendChild(estado);
+          tabla.appendChild(fila);
+        });
+      })
+      .catch(err => {
+        console.error("Error cargando juegos.json:", err);
+        const tabla = document.getElementById("tabla-juegos");
+        tabla.innerHTML = "<tr><td colspan='3'>Error al cargar la lista de juegos.</td></tr>";
+      });
+  </script>
 </body>
 </html>

@@ -78,26 +78,48 @@
 <body>
   <div class="container">
     <h1>Mi colección</h1>
-    <p>Seleccioná una categoría para ver el contenido:</p>
+    <p>Selecciona una categoría para ver el contenido:</p>
 
     <table>
-      <tr>
-        <th>Categoría</th>
-        <th>Acceder</th>
-      </tr>
-      <tr>
-        <td>BigBox</td>
-        <td><a href="bigbox/index.html">Ir al contenido</a></td>
-      </tr>
-      <tr>
-        <td>FX Games</td>
-        <td><a href="fx-games/index.html">Ir al contenido</a></td>
-      </tr>
-      <tr>
-        <td>Bestseller Series</td>
-        <td><a href="bestseller-series/index.html">Ir al contenido</a></td>
-      </tr>
+      <thead>
+        <tr>
+          <th>Categoría</th>
+          <th>Acceder</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-categorias">
+        <!-- Se carga dinámicamente -->
+      </tbody>
     </table>
   </div>
+
+  <script>
+    fetch("categorias.json")
+      .then(res => res.json())
+      .then(categorias => {
+        const tabla = document.getElementById("tabla-categorias");
+        categorias.forEach(cat => {
+          const tr = document.createElement("tr");
+
+          const tdNombre = document.createElement("td");
+          tdNombre.textContent = cat.nombre;
+
+          const tdLink = document.createElement("td");
+          const a = document.createElement("a");
+          a.href = cat.url;
+          a.textContent = "Ir al contenido";
+          tdLink.appendChild(a);
+
+          tr.appendChild(tdNombre);
+          tr.appendChild(tdLink);
+          tabla.appendChild(tr);
+        });
+      })
+      .catch(err => {
+        const tabla = document.getElementById("tabla-categorias");
+        tabla.innerHTML = "<tr><td colspan='2'>Error al cargar las categorías.</td></tr>";
+        console.error("Error cargando categorias.json:", err);
+      });
+  </script>
 </body>
 </html>

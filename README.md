@@ -2,7 +2,7 @@
 
 Este proyecto es una página estática en HTML, CSS y JavaScript que muestra una colección personal de videojuegos físicos (BigBox, FX Games, Bestseller Series, etc.).
 
-La web está diseñada para funcionar directamente desde GitHub Pages.
+Toda la información se carga dinámicamente desde archivos JSON, por lo que no es necesario editar los archivos HTML manualmente.
 
 ---
 
@@ -10,27 +10,61 @@ La web está diseñada para funcionar directamente desde GitHub Pages.
 
 ```
 📂 raiz/
-├── index.html                ← Página principal con categorías
+├── index.html              ← Página principal con lista de categorías
+├── categorias.json         ← Lista de categorías (nombre + URL)
 ├── bigbox/
-│   ├── index.html           ← Listado de juegos BigBox
+│   ├── index.html          ← Plantilla de categoría (no se edita)
+│   ├── juegos.json         ← Lista de juegos (título, plataforma, etc.)
 │   └── juegos/
-│       └── nombre-del-juego/
-│           ├── index.html   ← Plantilla genérica (no se edita más)
-│           ├── game.json    ← Datos dinámicos del juego
-│           └── img/         ← Imágenes (000.jpg, 001.jpg, ...)
+│       └── age-of-empires/
+│           ├── index.html  ← Plantilla de ficha individual (no se edita)
+│           ├── game.json   ← Información del juego
+│           └── img/        ← Imágenes (000.jpg, 001.jpg, ...)
 ├── fx-games/
 │   └── ...
 ```
 
 ---
 
-## ✍️ Cómo añadir un nuevo juego
+## ✍️ Cómo añadir una nueva categoría
 
-1. 📂 Ir a la carpeta correspondiente a la categoría (`bigbox`, `fx-games`, etc.)
-2. 📁 Crear una nueva carpeta dentro de `juegos/` con el nombre del juego (sin espacios ni acentos)
-3. 📝 Copiar dentro el archivo `index.html` plantilla (es el mismo para todos los juegos)
-4. 📸 Añadir imágenes a la subcarpeta `img/` con nombre `000.jpg`, `001.jpg`, `002.jpg`, ...
-5. ✏️ Crear el archivo `game.json` con el siguiente formato:
+1. 📁 Crear una carpeta para la categoría, por ejemplo: `fx-games/`
+2. Copiar dentro el `index.html` de categoría (es una plantilla que carga datos dinámicos)
+3. Crear un archivo `juegos.json` con la lista de juegos, por ejemplo:
+
+```json
+[
+  {
+    "titulo": "Nombre del juego",
+    "url": "juegos/nombre-del-juego/",
+    "plataforma": "Plataforma",
+    "estado": "Estado"
+  }
+]
+```
+
+4. Añadir la categoría al archivo raíz `categorias.json`:
+
+```json
+[
+  {
+    "nombre": "FX Games",
+    "url": "fx-games/index.html"
+  }
+]
+```
+
+---
+
+## 🕹️ Cómo añadir un nuevo juego a una categoría
+
+1. 📁 Crear una carpeta para el juego dentro de `juegos/`
+2. Copiar dentro:
+   - `index.html` (plantilla que no se edita)
+   - `game.json` con la información del juego
+   - Carpeta `img/` con imágenes numeradas (`000.jpg`, `001.jpg`, etc.)
+
+Ejemplo de `game.json`:
 
 ```json
 {
@@ -47,13 +81,9 @@ La web está diseñada para funcionar directamente desde GitHub Pages.
 }
 ```
 
-✅ ¡No es necesario tocar el HTML! El contenido se carga automáticamente desde `game.json`.
+3. Añadir el juego al `juegos.json` de la categoría correspondiente.
 
-6. 🔗 Editar el `index.html` de la categoría y añadir una nueva fila a la tabla con:
-   - Título
-   - Plataforma
-   - Estado
-   - Enlace al juego
+✅ ¡No es necesario modificar ningún archivo HTML!
 
 ---
 
@@ -61,31 +91,31 @@ La web está diseñada para funcionar directamente desde GitHub Pages.
 
 - Sitio responsive (funciona en móvil y escritorio)
 - Galería de imágenes con scroll horizontal y Lightbox2
-- Datos de cada juego cargados desde un JSON (`game.json`)
-- Solo es necesario mantener imágenes y JSON — el HTML queda fijo
-- Código plano, sin frameworks ni build
+- Datos de juegos y categorías cargados desde archivos JSON
+- Plantillas HTML reutilizables
+- Mantenimiento simple y escalable
 
 ---
 
 ## 🚀 Publicar en GitHub Pages
 
-1. Subir todo este contenido a un nuevo repositorio de GitHub
-2. Activar GitHub Pages desde "Settings" > "Pages"
-3. Seleccionar la rama `main` y la carpeta `/ (root)`
-4. Tu sitio estará online en:  
+1. Subí todo el contenido a un repositorio de GitHub
+2. Activá GitHub Pages desde "Settings" > "Pages"
+3. Seleccioná la rama `main` y la carpeta `/ (root)`
+4. Accedé al sitio en:  
    `https://<tu-usuario>.github.io/<nombre-del-repositorio>/`
 
 ---
 
 ## 🛠️ Ideas futuras
 
-- Filtro por género o plataforma
+- Filtros por género o plataforma
 - Buscador por título
-- Sistema de reserva/contacto
-- Generador automático de fichas desde CSV
+- Contacto o formulario para interesados
+- Generador automático desde hoja de cálculo
 
 ---
 
 ## 📬 Contacto
 
-Este proyecto es personal. Si tienes sugerencias o quieres colaborar, ¡escribime!
+Este proyecto es personal. Si tenés sugerencias o querés colaborar, ¡escribime!
