@@ -2,27 +2,75 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Age of Empires (BigBox)</title>
+  <title>Age of Empires</title>
+  <!-- Lightbox2 -->
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
+
   <style>
-    body { font-family: sans-serif; background: #f0f0f0; padding: 2em; }
-    .container { max-width: 800px; margin: auto; background: white; padding: 2em; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
-    img { width: 100%; margin-bottom: 1em; border-radius: 10px; }
-    h1 { margin-bottom: 0.5em; }
-    ul { line-height: 1.6; }
-    a.back { display: inline-block; margin-top: 2em; text-decoration: none; color: #0077cc; }
+    body {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      padding: 2em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    h1 {
+      margin-bottom: 0.5em;
+    }
+
+    ul {
+      line-height: 1.6;
+    }
+
+    a.back {
+      display: inline-block;
+      margin-top: 2em;
+      text-decoration: none;
+      color: #0077cc;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Age of Empires (BigBox)</h1>
+    <h1>Age of Empires</h1>
 
-    <img src="img/caja.jpg" alt="Caja de Age of Empires">
-    <img src="img/cd.jpg" alt="CD del juego">
-    <img src="img/manual.jpg" alt="Manual del juego">
+    <div class="gallery">
+      <a href="https://picsum.photos/id/1018/1200/800" data-lightbox="aoe" data-title="Caja de Age of Empires">
+        <img src="https://picsum.photos/id/1018/600/400" alt="Caja del juego">
+      </a>
+      <a href="https://picsum.photos/id/1025/1200/800" data-lightbox="aoe" data-title="CD del juego">
+        <img src="https://picsum.photos/id/1025/600/400" alt="CD del juego">
+      </a>
+      <a href="https://picsum.photos/id/1035/1200/800" data-lightbox="aoe" data-title="Manual del juego">
+        <img src="https://picsum.photos/id/1035/600/400" alt="Manual del juego">
+      </a>
+    </div>
 
+    <p><strong>Formato:</strong> BigBox</p>
     <p><strong>Plataforma:</strong> PC CD-ROM</p>
     <p><strong>Estado:</strong> Muy bueno</p>
-    <p><strong>Precio:</strong> 60 €</p>
 
     <h2>Descripción</h2>
     <p>Age of Empires es un juego de estrategia en tiempo real lanzado por Ensemble Studios en 1997. Esta edición Big Box incluye la caja original, CD-ROM, manual y material promocional.</p>
