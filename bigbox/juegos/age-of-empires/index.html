@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Age of Empires</title>
+  <title id="page-title">Ficha del juego</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Lightbox2 -->
@@ -72,7 +72,6 @@
 
     h1 {
       margin-bottom: 0.5em;
-      font-size: 1.6em;
     }
 
     ul {
@@ -91,7 +90,6 @@
       color: #0077cc;
     }
 
-    /* Responsive ajustes */
     @media (max-width: 600px) {
       body {
         padding: 1em;
@@ -113,7 +111,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Age of Empires</h1>
+    <h1 id="titulo">Cargando...</h1>
 
     <!-- Imagen principal -->
     <a href="" id="main-link" data-lightbox="galeria" data-title="">
@@ -124,24 +122,41 @@
     <div class="thumbnails" id="thumbnails"></div>
 
     <p><strong>Formato:</strong> BigBox</p>
-    <p><strong>Plataforma:</strong> Windows 95/98</p>
-    <p><strong>Estado:</strong> Muy bueno</p>
-    <p><strong>Género:</strong> Estrategia en tiempo real</p>
+    <p><strong>Plataforma:</strong> <span id="plataforma"></span></p>
+    <p><strong>Estado:</strong> <span id="estado"></span></p>
+    <p><strong>Género:</strong> <span id="genero"></span></p>
 
     <h2>Descripción</h2>
-    <p>Age of Empires es un juego de estrategia en tiempo real lanzado por Ensemble Studios en 1997. Esta edición Big Box incluye la caja original, CD-ROM, manual y material promocional.</p>
+    <p id="descripcion"></p>
 
     <h2>Incluye</h2>
-    <ul>
-      <li>Caja original (Big Box)</li>
-      <li>CD original sin rayones</li>
-      <li>Manual de instrucciones completo</li>
-    </ul>
+    <ul id="incluye"></ul>
 
     <a class="back" href="../../index.html">← Volver al catálogo</a>
   </div>
 
   <script>
+    // Cargar datos del juego
+    fetch("game.json")
+      .then(res => res.json())
+      .then(data => {
+        document.title = data.titulo;
+        document.getElementById("page-title").textContent = data.titulo;
+        document.getElementById("titulo").textContent = data.titulo;
+        document.getElementById("plataforma").textContent = data.plataforma;
+        document.getElementById("estado").textContent = data.estado;
+        document.getElementById("genero").textContent = data.genero;
+        document.getElementById("descripcion").textContent = data.descripcion;
+
+        const ul = document.getElementById("incluye");
+        data.incluye.forEach(item => {
+          const li = document.createElement("li");
+          li.textContent = item;
+          ul.appendChild(li);
+        });
+      });
+
+    // Cargar galería de imágenes
     const extensions = [".jpg", ".jpeg", ".png"];
     const path = "img/";
     const maxImages = 1000;
