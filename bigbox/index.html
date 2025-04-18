@@ -3,11 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <title>Bigbox games</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: sans-serif; padding: 2em; background: #f4f4f4; }
-    table { border-collapse: collapse; width: 100%; background: white; }
-    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
-    th { background: #eee; }
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      background: #f4f4f4;
+    }
+
+    h1 {
+      margin-top: 1em;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 1em;
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #eee;
+    }
+
+    /* Responsive móvil */
+    @media (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+
+      tr {
+        margin-bottom: 1em;
+        background: #fff;
+        border-radius: 6px;
+        padding: 1em;
+        box-shadow: 0 0 4px rgba(0,0,0,0.1);
+      }
+
+      th {
+        display: none;
+      }
+
+      td {
+        border: none;
+        padding: 6px 0;
+      }
+
+      td:first-child {
+        font-weight: bold;
+      }
+    }
   </style>
 </head>
 <body>
@@ -15,15 +73,15 @@
   <h1>Bigbox games</h1>
   <table>
     <tr>
-        <th>Título</th>
-        <th>Plataforma</th>
-        <th>Estado</th>
-    </tr>    
+      <th>Título</th>
+      <th>Plataforma</th>
+      <th>Estado</th>
+    </tr>
     <tr>
-        <td><a href="juegos/age-of-empires/">Age of Empires</a></td>
-        <td>Windows 95/98</td>
-        <td>Muy bueno</td>
-      </tr>
+      <td><a href="juegos/age-of-empires/">Age of Empires</a></td>
+      <td>Windows 95/98</td>
+      <td>Muy bueno</td>
+    </tr>
   </table>
 </body>
 </html>

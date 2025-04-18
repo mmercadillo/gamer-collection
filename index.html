@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Gamer collection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: sans-serif;
@@ -42,6 +43,35 @@
 
     a:hover {
       text-decoration: underline;
+    }
+
+    /* Responsive para móvil */
+    @media (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+
+      tr {
+        margin-bottom: 1em;
+        background: #f9f9f9;
+        border-radius: 6px;
+        padding: 1em;
+        box-shadow: 0 0 4px #ccc;
+      }
+
+      th {
+        display: none;
+      }
+
+      td {
+        border: none;
+        padding: 0.5em 0;
+      }
+
+      td:first-child {
+        font-weight: bold;
+      }
     }
   </style>
 </head>

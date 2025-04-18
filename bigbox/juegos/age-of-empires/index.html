@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Age of Empires</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Lightbox2 -->
   <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
@@ -27,10 +28,13 @@
     #main-image {
       width: 100%;
       max-width: 600px;
+      height: 400px;
+      object-fit: contain;
       display: block;
       margin: 0 auto 1em;
       border-radius: 10px;
       cursor: pointer;
+      background-color: #f4f4f4;
     }
 
     .thumbnails {
@@ -68,10 +72,16 @@
 
     h1 {
       margin-bottom: 0.5em;
+      font-size: 1.6em;
     }
 
     ul {
       line-height: 1.6;
+      padding-left: 1em;
+    }
+
+    p {
+      margin: 0.5em 0;
     }
 
     a.back {
@@ -79,6 +89,25 @@
       margin-top: 2em;
       text-decoration: none;
       color: #0077cc;
+    }
+
+    /* Responsive ajustes */
+    @media (max-width: 600px) {
+      body {
+        padding: 1em;
+      }
+
+      .container {
+        padding: 1.2em;
+      }
+
+      #main-image {
+        height: 280px;
+      }
+
+      .thumbnails img {
+        width: 60px;
+      }
     }
   </style>
 </head>
@@ -96,8 +125,8 @@
 
     <p><strong>Formato:</strong> BigBox</p>
     <p><strong>Plataforma:</strong> Windows 95/98</p>
-    <p><strong>Genero:</strong> Estrategia en tiempo real</p>
     <p><strong>Estado:</strong> Muy bueno</p>
+    <p><strong>Género:</strong> Estrategia en tiempo real</p>
 
     <h2>Descripción</h2>
     <p>Age of Empires es un juego de estrategia en tiempo real lanzado por Ensemble Studios en 1997. Esta edición Big Box incluye la caja original, CD-ROM, manual y material promocional.</p>
@@ -145,7 +174,6 @@
           lightboxLink.style.display = "none";
           document.body.appendChild(lightboxLink);
 
-          // Mostrar la primera imagen como principal
           if (!firstLoaded) {
             mainImage.src = url;
             mainImage.alt = `Imagen ${num}`;
@@ -155,7 +183,6 @@
             firstLoaded = true;
           }
 
-          // Al hacer clic en miniatura, cambiar imagen principal
           thumb.addEventListener("click", () => {
             mainImage.src = url;
             mainImage.alt = `Imagen ${num}`;
