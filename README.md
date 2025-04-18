@@ -88,4 +88,4 @@ La web está diseñada para funcionar directamente desde GitHub Pages.
 
 ## 📬 Contacto
 
-Este proyecto es personal. Si tenés sugerencias o querés colaborar, ¡escribime!
+Este proyecto es personal. Si tienes sugerencias o quieres colaborar, ¡escribime!
