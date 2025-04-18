@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Age of Empires</title>
+
   <!-- Lightbox2 -->
   <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
@@ -25,12 +26,13 @@
 
     .gallery {
       display: flex;
-      flex-direction: column;
       gap: 1em;
+      flex-wrap: wrap;
+      margin-bottom: 2em;
     }
 
     .gallery img {
-      width: 100%;
+      max-width: 200px;
       height: auto;
       border-radius: 10px;
       display: block;
@@ -57,14 +59,14 @@
     <h1>Age of Empires</h1>
 
     <div class="gallery">
-      <a href="https://picsum.photos/id/1018/1200/800" data-lightbox="aoe" data-title="Caja de Age of Empires">
-        <img src="https://picsum.photos/id/1018/600/400" alt="Caja del juego">
+      <a href="img/caja.jpg" data-lightbox="aoe" data-title="Caja de Age of Empires">
+        <img src="img/caja.jpg" alt="Caja del juego">
       </a>
-      <a href="https://picsum.photos/id/1025/1200/800" data-lightbox="aoe" data-title="CD del juego">
-        <img src="https://picsum.photos/id/1025/600/400" alt="CD del juego">
+      <a href="img/cd.jpg" data-lightbox="aoe" data-title="CD del juego">
+        <img src="img/cd.jpg" alt="CD del juego">
       </a>
-      <a href="https://picsum.photos/id/1035/1200/800" data-lightbox="aoe" data-title="Manual del juego">
-        <img src="https://picsum.photos/id/1035/600/400" alt="Manual del juego">
+      <a href="img/manual.jpg" data-lightbox="aoe" data-title="Manual del juego">
+        <img src="img/manual.jpg" alt="Manual del juego">
       </a>
     </div>
 
