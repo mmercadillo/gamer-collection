@@ -1,20 +1,1512 @@
 [
-  {
-    "titulo": "Age of Empires",
-    "url": "juegos/age-of-empires/",
-    "plataforma": "Windows 95/98",
-    "estado": "Muy bueno"
-  },
-  {
-    "titulo": "The Dig",
-    "url": "juegos/the-dig/",
-    "plataforma": "DOS",
-    "estado": "Bueno"
-  },
-  {
-    "titulo": "Command & Conquer",
-    "url": "juegos/command-conquer/",
-    "plataforma": "Windows 95",
-    "estado": "Excelente"
-  }
-]
+    {
+      "titulo": "Age of Empires",
+      "url": "juegos/age-of-empires/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "0882224084390"
+    },
+    {
+      "titulo": "Age of Empires II. Edición Gold",
+      "url": "juegos/age-of-empires-ii-edicion-gold/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Age of Empires II. The Conquerors. Expansion",
+      "url": "juegos/age-of-empires-ii-the-conquerors-expansion/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "0882224084390"
+    },
+    {
+      "titulo": "Age of Empires. Gold Edition",
+      "url": "juegos/age-of-empires-gold-edition/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "0659556098605"
+    },
+    {
+      "titulo": "Age of Empires. Rise of Rome",
+      "url": "juegos/age-of-empires-rise-of-rome/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "0882224084390"
+    },
+    {
+      "titulo": "Age of Mythology",
+      "url": "juegos/age-of-mythology/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "0882224084390"
+    },
+    {
+      "titulo": "3D Power Tank",
+      "url": "juegos/3d-power-tank/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "A Sangre Fría",
+      "url": "juegos/a-sangre-fria/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Revolution Software",
+      "distribuidor": "Eidos Interactive"
+    },
+    {
+      "titulo": "Abomination: The Nemesis Project",
+      "url": "juegos/abomination-the-nemesis-project/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Hothouse Creations",
+      "distribuidor": "Eidos Interactive"
+    },
+    {
+      "titulo": "Absolute Pinball",
+      "url": "juegos/absolute-pinball/",
+      "plataforma": "DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Spidersoft Ltd.",
+      "distribuidor": "21st Century Entertainment Ltd."
+    },
+    {
+      "titulo": "Adidas Power Soccer",
+      "url": "juegos/adidas-power-soccer/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Psygnosis",
+      "distribuidor": "Psygnosis"
+    },
+    {
+      "titulo": "Advanced Civilization",
+      "url": "juegos/advanced-civilization/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Avalon Hill",
+      "distribuidor": "Avalon Hill"
+    },
+    {
+      "titulo": "Alien Paranoia",
+      "url": "juegos/alien-paranoia/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Allied General",
+      "url": "juegos/allied-general/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations",
+      "distribuidor": "Mindscape"
+    },
+    {
+      "titulo": "Allied General (Gold Reserve)",
+      "url": "juegos/allied-general-gold-reserve/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations",
+      "distribuidor": "Mindscape"
+    },
+    {
+      "titulo": "AMOC",
+      "url": "juegos/amoc/",
+      "plataforma": "Desconocido",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Advanced Civilization",
+      "url": "juegos/advanced-civilization/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Avalon Hill",
+      "distribuidor": "Avalon Hill"
+    },
+    {
+      "titulo": "Alien Paranoia",
+      "url": "juegos/alien-paranoia/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Allied General",
+      "url": "juegos/allied-general/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations",
+      "distribuidor": "Mindscape"
+    },
+    {
+      "titulo": "Allied General (Gold Reserve)",
+      "url": "juegos/allied-general-gold-reserve/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations",
+      "distribuidor": "Mindscape"
+    },
+    {
+      "titulo": "AMOC",
+      "url": "juegos/amoc/",
+      "plataforma": "Desconocido",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Arcania: Gothic 4",
+      "url": "juegos/arcania-gothic-4/",
+      "plataforma": "Windows XP/Vista/7",
+      "estado": "Sin-verificar",
+      "desarrollador": "Spellbound Entertainment",
+      "distribuidor": "JoWooD Entertainment"
+    },
+    {
+      "titulo": "Arcatera: La Hermandad Oscura",
+      "url": "juegos/arcatera-la-hermandad-oscura/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Decisive Battles of WWII: The Ardennes Offensive",
+      "url": "juegos/decisive-battles-of-wwii-the-ardennes-offensive/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Studies Group",
+      "distribuidor": "Strategic Simulations, Inc."
+    },
+    {
+      "titulo": "Assault Rigs",
+      "url": "juegos/assault-rigs/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Psygnosis",
+      "distribuidor": "Psygnosis"
+    },
+    {
+      "titulo": "ATAC: La Guerra Secreta Contra las Drogas",
+      "url": "juegos/atac-la-guerra-secreta-contra-las-drogas/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Argonaut Software",
+      "distribuidor": "MicroProse / ERBE"
+    },
+    {
+      "titulo": "Back to Baghdad",
+      "url": "juegos/back-to-baghdad/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Military Simulations",
+      "distribuidor": "Military Simulations"
+    },
+    {
+      "titulo": "Baldur's Gate",
+      "url": "juegos/baldurs-gate/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "BioWare",
+      "distribuidor": "Interplay Entertainment"
+    },
+    {
+      "titulo": "Baldur's Gate II",
+      "url": "juegos/baldurs-gate-ii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "BioWare",
+      "distribuidor": "Interplay Entertainment"
+    },
+    {
+      "titulo": "Barça Manager 2000",
+      "url": "juegos/barca-manager-2000/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Anco Software Ltd.",
+      "distribuidor": "Ubisoft"
+    },
+    {
+      "titulo": "Battle Realms",
+      "url": "juegos/battle-realms/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "estado": "Sin-verificar",
+      "desarrollador": "Liquid Entertainment",
+      "distribuidor": "Crave Entertainment"
+    },
+    {
+      "titulo": "Black Dahlia",
+      "url": "juegos/black-dahlia/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Take-Two Interactive",
+      "distribuidor": "Take-Two Interactive"
+    },
+    {
+      "titulo": "Blade Runner",
+      "url": "juegos/blade-runner/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Westwood Studios",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Bram Stoker's Dracula",
+      "url": "juegos/bram-stokers-dracula/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Psygnosis",
+      "distribuidor": "Sony Imagesoft"
+    },
+    {
+      "titulo": "Broken Sword II: Las Fuerzas del Mal",
+      "url": "juegos/broken-sword-ii-las-fuerzas-del-mal/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Revolution Software",
+      "distribuidor": "Virgin Interactive Entertainment"
+    },
+    {
+      "titulo": "Broken Sword: La Leyenda de los Templarios",
+      "url": "juegos/broken-sword-la-leyenda-de-los-templarios/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Revolution Software",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Caesar",
+      "url": "juegos/caesar/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Impressions Games",
+      "distribuidor": "Sierra On-Line"
+    },
+    {
+      "titulo": "Caesar III",
+      "url": "juegos/caesar-iii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Impressions Games",
+      "distribuidor": "Sierra Studios"
+    },
+    {
+      "titulo": "Call to Power II",
+      "url": "juegos/call-to-power-ii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "BreakAway Games",
+      "distribuidor": "Activision"
+    },
+    {
+      "titulo": "Capitalism Plus",
+      "url": "juegos/capitalism-plus/",
+      "plataforma": "Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Enlight",
+      "distribuidor": "Interactive Magic"
+    },
+    {
+      "titulo": "Cleopatra: La Reina del Nilo",
+      "url": "juegos/cleopatra-la-reina-del-nilo/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "BreakAway Games",
+      "distribuidor": "Sierra Entertainment"
+    },
+    {
+      "titulo": "Colin McRae Rally",
+      "url": "juegos/colin-mcrae-rally/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Codemasters",
+      "distribuidor": "Codemasters"
+    },
+    {
+      "titulo": "Command & Conquer",
+      "url": "juegos/command-and-conquer/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Westwood Studios",
+      "distribuidor": "Virgin Interactive Entertainment"
+    },
+    {
+      "titulo": "Command & Conquer: Red Alert",
+      "url": "juegos/command-and-conquer-red-alert/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Westwood Studios",
+      "distribuidor": "Virgin Interactive Entertainment"
+    },
+    {
+      "titulo": "Command & Conquer: Red Alert – Counterstrike",
+      "url": "juegos/command-and-conquer-red-alert-counterstrike/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Westwood Studios",
+      "distribuidor": "Virgin Interactive Entertainment"
+    },
+    {
+      "titulo": "Command & Conquer: Red Alert – The Aftermath",
+      "url": "juegos/command-and-conquer-red-alert-the-aftermath/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Westwood Studios",
+      "distribuidor": "Virgin Interactive Entertainment"
+    },
+    {
+      "titulo": "Command & Conquer: Tiberian Sun",
+      "url": "juegos/command-and-conquer-tiberian-sun/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Westwood Studios",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Commandos: Más Allá del Deber",
+      "url": "juegos/commandos-mas-alla-del-deber/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Pyro Studios",
+      "distribuidor": "Eidos Interactive"
+    },
+    {
+      "titulo": "Complete Onside Soccer",
+      "url": "juegos/complete-onside-soccer/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Motivetime Ltd.",
+      "distribuidor": "Telstar Electronic Studios Ltd."
+    },
+    {
+      "titulo": "Conflict Zone",
+      "url": "juegos/conflict-zone/",
+      "plataforma": "Windows 98/ME/2000",
+      "estado": "Sin-verificar",
+      "desarrollador": "MASA Group",
+      "distribuidor": "Ubisoft"
+    },
+    {
+      "titulo": "Conqueror A.D. 1086",
+      "url": "juegos/conqueror-ad-1086/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Software Sorcery",
+      "distribuidor": "Sierra On-Line"
+    },
+    {
+      "titulo": "Creature Shock",
+      "url": "juegos/creature-shock/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Argonaut Games",
+      "distribuidor": "Virgin Interactive Entertainment"
+    },
+    {
+      "titulo": "Crusader: No Remorse",
+      "url": "juegos/crusader-no-remorse/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Origin Systems",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Curse of Enchantia",
+      "url": "juegos/curse-of-enchantia/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Core Design Ltd.",
+      "distribuidor": "Virgin Games, Inc."
+    },
+    {
+      "titulo": "Darkstone: Evil Reigns",
+      "url": "juegos/darkstone-evil-reigns/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Delphine Software International",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Death Rally",
+      "url": "juegos/death-rally/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Remedy Entertainment",
+      "distribuidor": "3D Realms"
+    },
+    {
+      "titulo": "Decathlon Games",
+      "url": "juegos/decathlon-games/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Delta Force 2",
+      "url": "juegos/delta-force-2/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "NovaLogic",
+      "distribuidor": "NovaLogic"
+    },
+    {
+      "titulo": "Delta Force: Land Warrior",
+      "url": "juegos/delta-force-land-warrior/",
+      "plataforma": "Windows 98/ME/2000",
+      "estado": "Sin-verificar",
+      "desarrollador": "NovaLogic",
+      "distribuidor": "NovaLogic"
+    },
+    {
+      "titulo": "Delta Force: The Art of War",
+      "url": "juegos/delta-force-the-art-of-war/",
+      "plataforma": "Windows 98/ME/2000",
+      "estado": "Sin-verificar",
+      "desarrollador": "NovaLogic",
+      "distribuidor": "NovaLogic"
+    },
+    {
+      "titulo": "Descent II",
+      "url": "juegos/descent-ii/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Parallax Software",
+      "distribuidor": "Interplay Productions"
+    },
+    {
+      "titulo": "Diablo",
+      "url": "juegos/diablo/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Blizzard North",
+      "distribuidor": "Blizzard Entertainment"
+    },
+    {
+      "titulo": "Diablo II",
+      "url": "juegos/diablo-ii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Blizzard North",
+      "distribuidor": "Blizzard Entertainment"
+    },
+    {
+      "titulo": "Diablo II: Lord of Destruction",
+      "url": "juegos/diablo-ii-lord-of-destruction/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Blizzard North",
+      "distribuidor": "Blizzard Entertainment"
+    },
+    {
+      "titulo": "Dino Crisis",
+      "url": "juegos/dino-crisis/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Capcom Production Studio 4",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Druuna: Morbus Gravis",
+      "url": "juegos/druuna-morbus-gravis/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Artematica",
+      "distribuidor": "Microids"
+    },
+    {
+      "titulo": "Duelo de Hechiceros",
+      "url": "juegos/duelo-de-hechiceros/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Mythos Games",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Dungeon Keeper 2",
+      "url": "juegos/dungeon-keeper-2/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Bullfrog Productions",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Egipto 1156 a.C.: La Tumba del Faraón",
+      "url": "juegos/egipto-1156-ac-la-tumba-del-faraon/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Canal+ Multimedia, Cryo Interactive, Réunion des Musées Nationaux",
+      "distribuidor": "Friendware"
+    },
+    {
+      "titulo": "Egipto II: La Profecía de Heliópolis",
+      "url": "juegos/egipto-ii-la-profecia-de-heliopolis/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive, Réunion des Musées Nationaux",
+      "distribuidor": "Friendware"
+    },
+    {
+      "titulo": "El Rey Arturo: El Secreto de Merlín",
+      "url": "juegos/el-rey-arturo-el-secreto-de-merlin/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive Entertainment, Index+",
+      "distribuidor": "Friendware"
+    },
+    {
+      "titulo": "El Rey Arturo: Los Orígenes de la Tabla Redonda",
+      "url": "juegos/el-rey-arturo-los-origenes-de-la-tabla-redonda/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive Entertainment",
+      "distribuidor": "Friendware"
+    },
+    {
+      "titulo": "Empire Deluxe",
+      "url": "juegos/empire-deluxe/",
+      "plataforma": "MS-DOS, Windows 3.x",
+      "estado": "Sin-verificar",
+      "desarrollador": "White Wolf Productions",
+      "distribuidor": "New World Computing"
+    },
+    {
+      "titulo": "Enemy Engaged: Apache vs Havoc",
+      "url": "juegos/enemy-engaged-apache-vs-havoc/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Razorworks",
+      "distribuidor": "Empire Interactive"
+    },
+    {
+      "titulo": "Euro Tour Cycling",
+      "url": "juegos/euro-tour-cycling/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia"
+    },
+    {
+      "titulo": "ExcaliBug",
+      "url": "juegos/excalibug/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Enigma Software Productions",
+      "distribuidor": "Dinamic Multimedia"
+    },
+    {
+      "titulo": "Extreme Games ESPN 2",
+      "url": "juegos/extreme-games-espn-2/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Sony Interactive Studios America",
+      "distribuidor": "Sony Computer Entertainment"
+    },
+    {
+      "titulo": "F1 Racing Simulation",
+      "url": "juegos/f1-racing-simulation/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ubisoft",
+      "distribuidor": "Ubisoft"
+    },
+    {
+      "titulo": "Fantasy General",
+      "url": "juegos/fantasy-general/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations, Inc.",
+      "distribuidor": "Mindscape"
+    },
+    {
+      "titulo": "Faraón",
+      "url": "juegos/faraon/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Impressions Games",
+      "distribuidor": "Sierra Studios"
+    },
+    {
+      "titulo": "Fausto: Los 7 Misterios del Alma",
+      "url": "juegos/fausto-los-7-misterios-del-alma/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive",
+      "distribuidor": "Cryo Interactive"
+    },
+    {
+      "titulo": "Formula One 99",
+      "url": "juegos/formula-one-99/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Studio 33",
+      "distribuidor": "Psygnosis"
+    },
+    {
+      "titulo": "Frankenstein: Through the Eyes of the Monster",
+      "url": "juegos/frankenstein-through-the-eyes-of-the-monster/",
+      "plataforma": "Windows 3.1, Mac OS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Amazing Media",
+      "distribuidor": "Interplay Entertainment"
+    },
+    {
+      "titulo": "FX Fighter Turbo",
+      "url": "juegos/fx-fighter-turbo/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "Argonaut Software Ltd.",
+      "distribuidor": "GTE Entertainment"
+    },
+    {
+      "titulo": "Gabriel Knight 3: Blood of the Sacred, Blood of the Damned",
+      "url": "juegos/gabriel-knight-3-blood-of-the-sacred-blood-of-the-damned/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Sierra Studios",
+      "distribuidor": "Sierra Studios"
+    },
+    {
+      "titulo": "Gangsters: Organized Crime",
+      "url": "juegos/gangsters-organized-crime/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Hothouse Creations",
+      "distribuidor": "Eidos Interactive"
+    },
+    {
+      "titulo": "Grand Prix 3",
+      "url": "juegos/grand-prix-3/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "MicroProse",
+      "distribuidor": "Hasbro Interactive"
+    },
+    {
+      "titulo": "Grouch",
+      "url": "juegos/grouch/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Revistronic Games",
+      "distribuidor": "Revistronic Games"
+    },
+    {
+      "titulo": "Gunman Chronicles",
+      "url": "juegos/gunman-chronicles/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Rewolf Software",
+      "distribuidor": "Sierra Studios"
+    },
+    {
+      "titulo": "Heart of China",
+      "url": "juegos/heart-of-china/",
+      "plataforma": "MS-DOS, Amiga, Macintosh",
+      "estado": "Sin-verificar",
+      "desarrollador": "Dynamix",
+      "distribuidor": "Sierra On-Line"
+    },
+    {
+      "titulo": "Heavy Gear",
+      "url": "juegos/heavy-gear/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Activision",
+      "distribuidor": "Activision"
+    },
+    {
+      "titulo": "Heimdall 2",
+      "url": "juegos/heimdall-2/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "The 8th Day",
+      "distribuidor": "Core Design"
+    },
+    {
+      "titulo": "Hellboy: Asylum Seeker",
+      "url": "juegos/hellboy-asylum-seeker/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Studios North America",
+      "distribuidor": "Cryo Studios North America"
+    },
+    {
+      "titulo": "Heroes of Might and Magic IV",
+      "url": "juegos/heroes-of-might-and-magic-iv/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "New World Computing",
+      "distribuidor": "3DO"
+    },
+    {
+      "titulo": "Heroes of Might and Magic",
+      "url": "juegos/heroes-of-might-and-magic/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "New World Computing",
+      "distribuidor": "New World Computing"
+    },
+    {
+      "titulo": "Heroes of Might and Magic V: Gold Edition",
+      "url": "juegos/heroes-of-might-and-magic-v-gold-edition/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Nival Interactive",
+      "distribuidor": "Ubisoft"
+    },
+    {
+      "titulo": "Homeworld: Cataclysm",
+      "url": "juegos/homeworld-cataclysm/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Barking Dog Studios",
+      "distribuidor": "Sierra Studios"
+    },
+    {
+      "titulo": "Hostile Waters: Antaeus Rising",
+      "url": "juegos/hostile-waters-antaeus-rising/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Rage Software",
+      "distribuidor": "Funbox Media Ltd"
+    },
+    {
+      "titulo": "International Rugby League",
+      "url": "juegos/international-rugby-league/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "The Creative Assembly",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Iron Man / X-O Manowar in Heavy Metal",
+      "url": "juegos/iron-man-xo-manowar-in-heavy-metal/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Realtime Associates",
+      "distribuidor": "Acclaim Entertainment"
+    },
+    {
+      "titulo": "Ishar II: Messengers of Doom",
+      "url": "juegos/ishar-ii-messengers-of-doom/",
+      "plataforma": "MS-DOS, Amiga, Atari ST, Atari Falcon, Macintosh",
+      "estado": "Sin-verificar",
+      "desarrollador": "Silmarils",
+      "distribuidor": "Silmarils"
+    },
+    {
+      "titulo": "La Ruta hacia el Dorado",
+      "url": "juegos/la-ruta-hacia-el-dorado/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Revolution Software",
+      "distribuidor": "Ubisoft"
+    },
+    {
+      "titulo": "Lands of Lore II: Guardians of Destiny",
+      "url": "juegos/lands-of-lore-ii-guardians-of-destiny/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Westwood Studios",
+      "distribuidor": "Virgin Interactive Entertainment"
+    },
+    {
+      "titulo": "Longbow 2",
+      "url": "juegos/longbow-2/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Origin Systems",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Loom",
+      "url": "juegos/loom/",
+      "plataforma": "MS-DOS, Amiga, Macintosh",
+      "estado": "Sin-verificar",
+      "desarrollador": "LucasArts",
+      "distribuidor": "LucasArts"
+    },
+    {
+      "titulo": "Lost Eden",
+      "url": "juegos/lost-eden/",
+      "plataforma": "MS-DOS, Macintosh, 3DO, CD-i",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Louvre: La Maldición Final",
+      "url": "juegos/louvre-la-maldicion-final/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Reunion des Musées Nationaux, Wanadoo Edition",
+      "distribuidor": "Wanadoo Edition"
+    },
+    {
+      "titulo": "M.A.X.: Mechanized Assault & Exploration",
+      "url": "juegos/max-mechanized-assault-exploration/",
+      "plataforma": "MS-DOS, Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Interplay Productions",
+      "distribuidor": "Interplay Productions"
+    },
+    {
+      "titulo": "Majesty: The Fantasy Kingdom Sim",
+      "url": "juegos/majesty-the-fantasy-kingdom-sim/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cyberlore Studios",
+      "distribuidor": "Infogrames"
+    },
+    {
+      "titulo": "Manic Karts",
+      "url": "juegos/manic-karts/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Manic Media Productions Ltd.",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Mega Sports",
+      "url": "juegos/mega-sports/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Messiah",
+      "url": "juegos/messiah/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Shiny Entertainment",
+      "distribuidor": "Interplay Entertainment"
+    },
+    {
+      "titulo": "Misión Critical",
+      "url": "juegos/mision-critical/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Legend Entertainment",
+      "distribuidor": "Legend Entertainment"
+    },
+    {
+      "titulo": "Misión Humanity",
+      "url": "juegos/mision-humanity/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Techland",
+      "distribuidor": "EON Digital Entertainment"
+    },
+    {
+      "titulo": "Morpheus",
+      "url": "juegos/morpheus/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Soap Bubble Productions",
+      "distribuidor": "Piranha Interactive Publishing"
+    },
+    {
+      "titulo": "Multi SIM",
+      "url": "juegos/multi-sim/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "NASCAR Revolution",
+      "url": "juegos/nascar-revolution/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Stormfront Studios",
+      "distribuidor": "EA Sports"
+    },
+    {
+      "titulo": "Navy Strike",
+      "url": "juegos/navy-strike/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Rowan Software Ltd.",
+      "distribuidor": "Empire Interactive"
+    },
+    {
+      "titulo": "NBA Live 2000",
+      "url": "juegos/nba-live-2000/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "EA Canada",
+      "distribuidor": "EA Sports"
+    },
+    {
+      "titulo": "NBA Live 95",
+      "url": "juegos/nba-live-95/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Hitmen Productions",
+      "distribuidor": "EA Sports"
+    },
+    {
+      "titulo": "NBA Live 97",
+      "url": "juegos/nba-live-97/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "EA Sports",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Need for Speed: Special Edition",
+      "url": "juegos/need-for-speed-special-edition/",
+      "plataforma": "MS-DOS, Windows 95",
+      "estado": "Sin-verificar",
+      "desarrollador": "EA Canada",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Neverwinter Nights 2: Lawful Good",
+      "url": "juegos/neverwinter-nights-2-lawful-good/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Obsidian Entertainment",
+      "distribuidor": "Atari"
+    },
+    {
+      "titulo": "NHL 2000",
+      "url": "juegos/nhl-2000/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "EA Canada",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Olympic Soccer: Atlanta 1996",
+      "url": "juegos/olympic-soccer-atlanta-1996/",
+      "plataforma": "MS-DOS, PlayStation, SEGA Saturn, 3DO",
+      "estado": "Sin-verificar",
+      "desarrollador": "Silicon Dreams Studio",
+      "distribuidor": "U.S. Gold Ltd."
+    },
+    {
+      "titulo": "Panzer Commander: WWII Tank Simulator",
+      "url": "juegos/panzer-commander-wwii-tank-simulator/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations, Inc.",
+      "distribuidor": "Strategic Simulations, Inc."
+    },
+    {
+      "titulo": "Panzer General II",
+      "url": "juegos/panzer-general-ii/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations, Inc.",
+      "distribuidor": "Strategic Simulations, Inc."
+    },
+    {
+      "titulo": "Panzer General II: Allied General",
+      "url": "juegos/panzer-general-ii-allied-general/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations, Inc.",
+      "distribuidor": "Strategic Simulations, Inc."
+    },
+    {
+      "titulo": "Panzer General III",
+      "url": "juegos/panzer-general-iii/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations, Inc.",
+      "distribuidor": "Mattel Interactive"
+    },
+    {
+      "titulo": "Patrician II",
+      "url": "juegos/patrician-ii/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ascaron Entertainment",
+      "distribuidor": "Infogrames Europe SA"
+    },
+    {
+      "titulo": "PC Fútbol 2000: Selección Española Europa 2000",
+      "url": "juegos/pc-futbol-2000-seleccion-espanola-europa-2000/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia"
+    },
+    {
+      "titulo": "PC Fútbol 2001",
+      "url": "juegos/pc-futbol-2001/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia"
+    },
+    {
+      "titulo": "Pool of Radiance",
+      "url": "juegos/pool-of-radiance/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations, Inc.",
+      "distribuidor": "Strategic Simulations, Inc."
+    },
+    {
+      "titulo": "Pool of Radiance: Ruins of Myth Drannor",
+      "url": "juegos/pool-of-radiance-ruins-of-myth-drannor/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Stormfront Studios",
+      "distribuidor": "Ubisoft"
+    },
+    {
+      "titulo": "Power F1",
+      "url": "juegos/power-f1/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Teque London",
+      "distribuidor": "Eidos Interactive"
+    },
+    {
+      "titulo": "Primera División Stars",
+      "url": "juegos/primera-division-stars/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Pro Pinball: Fantastic Journey",
+      "url": "juegos/pro-pinball-fantastic-journey/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cunning Developments",
+      "distribuidor": "Empire Interactive"
+    },
+    {
+      "titulo": "Rally Championship",
+      "url": "juegos/rally-championship/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Warthog Plc",
+      "distribuidor": "SCi Games Ltd."
+    },
+    {
+      "titulo": "Re-Volt",
+      "url": "juegos/re-volt/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Acclaim Studios London",
+      "distribuidor": "Acclaim Entertainment"
+    },
+    {
+      "titulo": "Resurrection",
+      "url": "juegos/resurrection/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Ring: El Anillo de los Nibelungos",
+      "url": "juegos/ring-el-anillo-de-los-nibelungos/",
+      "plataforma": "Windows, Mac OS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Arxel Tribe",
+      "distribuidor": "Cryo Interactive"
+    },
+    {
+      "titulo": "Riverworld",
+      "url": "juegos/riverworld/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive",
+      "distribuidor": "Cryo Interactive"
+    },
+    {
+      "titulo": "S.T.O.R.M.",
+      "url": "juegos/storm/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Scooby-Doo: Peligro en la Ciudad Fantasma",
+      "url": "juegos/scooby-doo-peligro-en-la-ciudad-fantasma/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "TerraGlyph Interactive Studios",
+      "distribuidor": "The Learning Company"
+    },
+    {
+      "titulo": "Scotland Yard: A la Búsqueda de Mister X",
+      "url": "juegos/scotland-yard-a-la-busqueda-de-mister-x/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "Secret Weapons of the Luftwaffe",
+      "url": "juegos/secret-weapons-of-the-luftwaffe/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Lucasfilm Games",
+      "distribuidor": "Lucasfilm Games"
+    },
+    {
+      "titulo": "Shadow Man",
+      "url": "juegos/shadow-man/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Acclaim Studios Teesside",
+      "distribuidor": "Acclaim Entertainment"
+    },
+    {
+      "titulo": "Shogun: Total War",
+      "url": "juegos/shogun-total-war/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Creative Assembly",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Sid Meier's Civilization II",
+      "url": "juegos/sid-meiers-civilization-ii/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "MicroProse",
+      "distribuidor": "MicroProse"
+    },
+    {
+      "titulo": "Sidney 2000",
+      "url": "juegos/sidney-2000/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Attention to Detail",
+      "distribuidor": "Eidos Interactive"
+    },
+    {
+      "titulo": "Silver",
+      "url": "juegos/silver/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Infogrames",
+      "distribuidor": "Infogrames"
+    },
+    {
+      "titulo": "SimCity 3000",
+      "url": "juegos/simcity-3000/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Maxis",
+      "distribuidor": "Electronic Arts"
+    },
+    {
+      "titulo": "Spearhead",
+      "url": "juegos/spearhead/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Spearhead Games",
+      "distribuidor": "Spearhead Games"
+    },
+    {
+      "titulo": "Squad Leader",
+      "url": "juegos/squad-leader/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Random Games",
+      "distribuidor": "Hasbro Interactive"
+    },
+    {
+      "titulo": "Star General",
+      "url": "juegos/star-general/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Catware",
+      "distribuidor": "Strategic Simulations, Inc."
+    },
+    {
+      "titulo": "Starship Troopers",
+      "url": "juegos/starship-troopers/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strangelite",
+      "distribuidor": "Empire Interactive"
+    },
+    {
+      "titulo": "Steel Panthers",
+      "url": "juegos/steel-panthers/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Strategic Simulations, Inc.",
+      "distribuidor": "Strategic Simulations, Inc."
+    },
+    {
+      "titulo": "Stunt GP",
+      "url": "juegos/stunt-gp/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Team17",
+      "distribuidor": "Titus Software"
+    },
+    {
+      "titulo": "Subway 2050",
+      "url": "juegos/subway-2050/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Supervirilidad",
+      "url": "juegos/supervirilidad/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "SWAT 3: Close Quarters Battle",
+      "url": "juegos/swat-3-close-quarters-battle/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Sierra Northwest",
+      "distribuidor": "Sierra Entertainment"
+    },
+    {
+      "titulo": "The Gene Machine",
+      "url": "juegos/the-gene-machine/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Divide By Zero",
+      "distribuidor": "Vic Tokai"
+    },
+    {
+      "titulo": "The Longest Journey",
+      "url": "juegos/the-longest-journey/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Funcom",
+      "distribuidor": "Funcom"
+    },
+    {
+      "titulo": "The X-Files: The Game",
+      "url": "juegos/the-x-files-the-game/",
+      "plataforma": "Windows, Mac OS, PlayStation",
+      "estado": "Sin-verificar",
+      "desarrollador": "HyperBole Studios",
+      "distribuidor": "Fox Interactive"
+    },
+    {
+      "titulo": "TILT",
+      "url": "juegos/tilt/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Time Machine: Las Nuevas Aventuras de la Máquina del Tiempo",
+      "url": "juegos/time-machine-las-nuevas-aventuras-de-la-maquina-del-tiempo/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive",
+      "distribuidor": "Friendware"
+    },
+    {
+      "titulo": "Times of Conflict",
+      "url": "juegos/times-of-conflict/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Eugen Systems",
+      "distribuidor": "Microïds"
+    },
+    {
+      "titulo": "TOCA: Touring Car Championship",
+      "url": "juegos/toca-touring-car-championship/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Codemasters",
+      "distribuidor": "Codemasters"
+    },
+    {
+      "titulo": "Tom Clancy's Ghost Recon: Collector's Pack",
+      "url": "juegos/tom-clancys-ghost-recon-collectors-pack/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Red Storm Entertainment",
+      "distribuidor": "Ubisoft"
+    },
+    {
+      "titulo": "Tom Clancy's Rainbow Six 3: Raven Shield",
+      "url": "juegos/tom-clancys-rainbow-six-3-raven-shield/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Red Storm Entertainment, Ubisoft Montreal",
+      "distribuidor": "Ubisoft"
+    },
+    {
+      "titulo": "Tom Clancy's Rainbow Six: Covert Ops Essentials",
+      "url": "juegos/tom-clancys-rainbow-six-covert-ops-essentials/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Magic Lantern Playware, Zombie Studios, Red Storm Entertainment",
+      "distribuidor": "Red Storm Entertainment"
+    },
+    {
+      "titulo": "Tomcat Alley",
+      "url": "juegos/tomcat-alley/",
+      "plataforma": "Sega CD",
+      "estado": "Sin-verificar",
+      "desarrollador": "The Code Monkeys",
+      "distribuidor": "Sega"
+    },
+    {
+      "titulo": "Total Annihilation",
+      "url": "juegos/total-annihilation/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cavedog Entertainment",
+      "distribuidor": "GT Interactive"
+    },
+    {
+      "titulo": "Traitors Gate",
+      "url": "juegos/traitors-gate/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Daydream Software AB",
+      "distribuidor": "The Adventure Company"
+    },
+    {
+      "titulo": "Transarctica",
+      "url": "juegos/transarctica/",
+      "plataforma": "MS-DOS, Amiga, Atari ST, Atari Falcon, Macintosh",
+      "estado": "Sin-verificar",
+      "desarrollador": "Silmarils",
+      "distribuidor": "Silmarils"
+    },
+    {
+      "titulo": "Tzar: El Poder de la Corona",
+      "url": "juegos/tzar-el-poder-de-la-corona/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive"
+    },
+    {
+      "titulo": "UEFA Manager 2000",
+      "url": "juegos/uefa-manager-2000/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Bubball",
+      "distribuidor": "Infogrames Europe SA"
+    },
+    {
+      "titulo": "Unreal Tournament",
+      "url": "juegos/unreal-tournament/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Epic Games",
+      "distribuidor": "GT Interactive"
+    },
+    {
+      "titulo": "Urban Chaos",
+      "url": "juegos/urban-chaos/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Mucky Foot Productions",
+      "distribuidor": "Eidos Interactive"
+    },
+    {
+      "titulo": "V-Rally: Multiplayer Championship Edition",
+      "url": "juegos/v-rally-multiplayer-championship-edition/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Infogrames",
+      "distribuidor": "Infogrames"
+    },
+    {
+      "titulo": "Vampire: The Masquerade – Redemption",
+      "url": "juegos/vampire-the-masquerade-redemption/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Nihilistic Software",
+      "distribuidor": "Activision"
+    },
+    {
+      "titulo": "Versalles: Complot en la Corte del Rey Sol",
+      "url": "juegos/versalles-complot-en-la-corte-del-rey-sol/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive Entertainment",
+      "distribuidor": "Friendware"
+    },
+    {
+      "titulo": "Virtual Karys",
+      "url": "juegos/virtual-karys/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Desconocido",
+      "distribuidor": "Desconocido"
+    },
+    {
+      "titulo": "Viva Football",
+      "url": "juegos/viva-football/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Crimson Studio",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Warrior Kings",
+      "url": "juegos/warrior-kings/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Black Cactus",
+      "distribuidor": "Strategy First"
+    },
+    {
+      "titulo": "Wartorn",
+      "url": "juegos/wartorn/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Stray Kite Studios",
+      "distribuidor": "Stray Kite Studios"
+    },
+    {
+      "titulo": "Z: The Bitmap Brothers",
+      "url": "juegos/z-the-bitmap-brothers/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "The Bitmap Brothers",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Zone Raiders",
+      "url": "juegos/zone-raiders/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    }
+  ]

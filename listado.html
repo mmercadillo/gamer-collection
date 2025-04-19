@@ -22,6 +22,15 @@
       color: #0077cc;
     }
 
+    input#buscador {
+      width: 100%;
+      padding: 10px;
+      margin: 1em 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
     table {
       border-collapse: collapse;
       width: 100%;
@@ -71,11 +80,16 @@
 <body>
   <a class="back" href="index.html">← Volver al inicio</a>
   <h1 id="titulo-categoria">Juegos</h1>
+
+  <input type="text" id="buscador" placeholder="Buscar juego por título...">
+
   <table>
     <thead>
       <tr>
         <th>Título</th>
         <th>Plataforma</th>
+        <th>Desarrollador</th>
+        <th>Distribuidor</th>
         <th>Estado</th>
       </tr>
     </thead>
@@ -96,7 +110,9 @@
       fetch(`${categoria}/juegos.json`)
         .then(res => res.json())
         .then(juegos => {
+          juegos.sort((a, b) => a.titulo.localeCompare(b.titulo, 'es', { sensitivity: 'base' }));
           const tabla = document.getElementById("tabla-juegos");
+
           juegos.forEach(juego => {
             const tr = document.createElement("tr");
 
@@ -110,19 +126,38 @@
             const tdPlataforma = document.createElement("td");
             tdPlataforma.textContent = juego.plataforma;
 
+            const tdDesarrollador = document.createElement("td");
+            tdDesarrollador.textContent = juego.desarrollador || "—";
+
+            const tdDistribuidor = document.createElement("td");
+            tdDistribuidor.textContent = juego.distribuidor || "—";
+
             const tdEstado = document.createElement("td");
             tdEstado.textContent = juego.estado;
 
             tr.appendChild(tdTitulo);
             tr.appendChild(tdPlataforma);
+            tr.appendChild(tdDesarrollador);
+            tr.appendChild(tdDistribuidor);
             tr.appendChild(tdEstado);
 
             tabla.appendChild(tr);
           });
+
+          // Buscador
+          document.getElementById("buscador").addEventListener("input", function () {
+            const filtro = this.value.toLowerCase();
+            const filas = document.querySelectorAll("#tabla-juegos tr");
+
+            filas.forEach(fila => {
+              const texto = fila.querySelector("td").textContent.toLowerCase();
+              fila.style.display = texto.includes(filtro) ? "" : "none";
+            });
+          });
         })
         .catch(err => {
           const tabla = document.getElementById("tabla-juegos");
-          tabla.innerHTML = "<tr><td colspan='3'>Error al cargar los juegos.</td></tr>";
+          tabla.innerHTML = "<tr><td colspan='5'>Error al cargar los juegos.</td></tr>";
           console.error("Error cargando juegos.json:", err);
         });
     }

@@ -1,14 +1,17 @@
 [
   {
     "nombre": "BigBox",
+    "slug": "bigbox",
     "url": "listado.html?categoria=bigbox"
   },
   {
     "nombre": "FX Games",
+    "slug": "fx-games",
     "url": "listado.html?categoria=fx-games"
   },
   {
     "nombre": "Bestseller Series",
+    "slug": "bestseller-series",
     "url": "listado.html?categoria=bestseller-series"
   }
 ]

@@ -81,6 +81,9 @@
     <p><strong>Plataforma:</strong> <span id="plataforma"></span></p>
     <p><strong>Estado:</strong> <span id="estado"></span></p>
     <p><strong>Género:</strong> <span id="genero"></span></p>
+    <p><strong>Desarrollador:</strong> <span id="desarrollador"></span></p>
+    <p><strong>Distribuidor:</strong> <span id="distribuidor"></span></p>
+    <p><strong>EAN:</strong> <span id="ean"></span></p>
     <h2>Descripción</h2>
     <p id="descripcion"></p>
     <h2>Incluye</h2>
@@ -106,6 +109,9 @@
           document.getElementById("estado").textContent = data.estado;
           document.getElementById("genero").textContent = data.genero;
           document.getElementById("descripcion").textContent = data.descripcion;
+          document.getElementById("desarrollador").textContent = data.desarrollador || "Desconocido";
+          document.getElementById("distribuidor").textContent = data.distribuidor || "Desconocido";
+          document.getElementById("ean").textContent = data.ean || "Sin especificar";
 
           const ul = document.getElementById("incluye");
           data.incluye.forEach(item => {
