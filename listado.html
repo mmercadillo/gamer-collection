@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Listado de juegos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      background: #f4f4f4;
+    }
+
+    h1 {
+      margin-top: 1em;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 1em;
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #eee;
+    }
+
+    /* Responsive móvil */
+    @media (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+
+      tr {
+        margin-bottom: 1em;
+        background: #fff;
+        border-radius: 6px;
+        padding: 1em;
+        box-shadow: 0 0 4px rgba(0,0,0,0.1);
+      }
+
+      th {
+        display: none;
+      }
+
+      td {
+        border: none;
+        padding: 6px 0;
+      }
+
+      td:first-child {
+        font-weight: bold;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="back" href="index.html">← Volver al inicio</a>
+  <h1 id="titulo-categoria">Juegos</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Plataforma</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-juegos">
+      <!-- Se carga dinámicamente -->
+    </tbody>
+  </table>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const categoria = params.get("categoria");
+
+    if (!categoria) {
+      document.body.innerHTML = "<p style='text-align:center;'>No se indicó ninguna categoría.</p>";
+    } else {
+      document.getElementById("titulo-categoria").textContent = categoria.charAt(0).toUpperCase() + categoria.slice(1) + " Games";
+
+      fetch(`${categoria}/juegos.json`)
+        .then(res => res.json())
+        .then(juegos => {
+          const tabla = document.getElementById("tabla-juegos");
+          juegos.forEach(juego => {
+            const tr = document.createElement("tr");
+
+            const tdTitulo = document.createElement("td");
+            const a = document.createElement("a");
+            a.href = `detalle.html?categoria=${categoria}&juego=${juego.url.split("/").pop()}`;
+            a.textContent = juego.titulo;
+            tdTitulo.appendChild(a);
+
+            const tdPlataforma = document.createElement("td");
+            tdPlataforma.textContent = juego.plataforma;
+
+            const tdEstado = document.createElement("td");
+            tdEstado.textContent = juego.estado;
+
+            tr.appendChild(tdTitulo);
+            tr.appendChild(tdPlataforma);
+            tr.appendChild(tdEstado);
+
+            tabla.appendChild(tr);
+          });
+        })
+        .catch(err => {
+          const tabla = document.getElementById("tabla-juegos");
+          tabla.innerHTML = "<tr><td colspan='3'>Error al cargar los juegos.</td></tr>";
+          console.error("Error cargando juegos.json:", err);
+        });
+    }
+  </script>
+</body>
+</html>
