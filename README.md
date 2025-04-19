@@ -1,8 +1,12 @@
 # 🎮 Colección de Videojuegos en Formato Físico
 
-Este proyecto es una página estática en HTML, CSS y JavaScript que muestra una colección personal de videojuegos físicos (BigBox, FX Games, Bestseller Series, etc.).
+Este proyecto es una página estática desarrollada en HTML, CSS y JavaScript para mostrar una colección personal de videojuegos físicos (BigBox, FX Games, Bestseller Series, etc.).
 
-Toda la información se carga dinámicamente desde archivos JSON, por lo que no es necesario editar los archivos HTML manualmente.
+Toda la información se carga dinámicamente desde archivos JSON, y solo se utilizan tres HTMLs reutilizables:
+
+- `index.html` → Página principal (categorías)
+- `listado.html` → Listado dinámico de juegos por categoría
+- `detalle.html` → Ficha de juego individual
 
 ---
 
@@ -10,27 +14,38 @@ Toda la información se carga dinámicamente desde archivos JSON, por lo que no 
 
 ```
 📂 raiz/
-├── index.html              ← Página principal con lista de categorías
-├── categorias.json         ← Lista de categorías (nombre + URL)
-├── bigbox/
-│   ├── index.html          ← Plantilla de categoría (no se edita)
-│   ├── juegos.json         ← Lista de juegos (título, plataforma, etc.)
-│   └── juegos/
-│       └── age-of-empires/
-│           ├── index.html  ← Plantilla de ficha individual (no se edita)
-│           ├── game.json   ← Información del juego
-│           └── img/        ← Imágenes (000.jpg, 001.jpg, ...)
-├── fx-games/
-│   └── ...
+├── index.html              ← Página principal
+├── listado.html            ← Lista de juegos dinámica
+├── detalle.html            ← Detalle de juego dinámica
+├── categorias.json         ← Lista de categorías
+
+📂 bigbox/
+├── juegos.json             ← Lista de juegos de BigBox
+└── juegos/
+    └── age-of-empires/
+        ├── game.json       ← Datos del juego
+        └── img/            ← Imágenes (000.jpg, 001.jpg, ...)
 ```
+
+---
+
+## 🧭 Navegación
+
+- Página principal:  
+  `index.html`
+
+- Listado de una categoría:  
+  `listado.html?categoria=bigbox`
+
+- Ficha de un juego:  
+  `detalle.html?categoria=bigbox&juego=age-of-empires`
 
 ---
 
 ## ✍️ Cómo añadir una nueva categoría
 
-1. 📁 Crear una carpeta para la categoría, por ejemplo: `fx-games/`
-2. Copiar dentro el `index.html` de categoría (es una plantilla que carga datos dinámicos)
-3. Crear un archivo `juegos.json` con la lista de juegos, por ejemplo:
+1. Crear una carpeta con el nombre de la categoría, por ejemplo: `fx-games/`
+2. Crear el archivo `juegos.json` con contenido como este:
 
 ```json
 [
@@ -43,28 +58,23 @@ Toda la información se carga dinámicamente desde archivos JSON, por lo que no 
 ]
 ```
 
-4. Añadir la categoría al archivo raíz `categorias.json`:
+3. Añadir esa categoría en `categorias.json` de la raíz:
 
 ```json
 [
   {
     "nombre": "FX Games",
-    "url": "fx-games/index.html"
+    "url": "fx-games"
   }
 ]
 ```
 
 ---
 
-## 🕹️ Cómo añadir un nuevo juego a una categoría
+## 🕹️ Cómo añadir un nuevo juego
 
-1. 📁 Crear una carpeta para el juego dentro de `juegos/`
-2. Copiar dentro:
-   - `index.html` (plantilla que no se edita)
-   - `game.json` con la información del juego
-   - Carpeta `img/` con imágenes numeradas (`000.jpg`, `001.jpg`, etc.)
-
-Ejemplo de `game.json`:
+1. Crear carpeta del juego en la ruta: `categoria/juegos/nombre-del-juego/`
+2. Crear `game.json` con este formato:
 
 ```json
 {
@@ -72,50 +82,58 @@ Ejemplo de `game.json`:
   "plataforma": "Plataforma",
   "estado": "Estado del juego",
   "genero": "Género",
-  "descripcion": "Descripción detallada del juego.",
+  "descripcion": "Descripción del juego.",
   "incluye": [
     "Caja original",
     "Manual",
-    "CD/DVD sin rayones"
+    "CD sin rayones"
   ]
 }
 ```
 
-3. Añadir el juego al `juegos.json` de la categoría correspondiente.
+3. Añadir imágenes en la carpeta `img/` con nombres `000.jpg`, `001.jpg`, etc.
+4. Añadir entrada del juego en el `juegos.json` de la categoría correspondiente.
 
-✅ ¡No es necesario modificar ningún archivo HTML!
+✅ No es necesario modificar ningún HTML.
 
 ---
 
-## ✅ Características
+## ✅ Ventajas
 
 - Sitio responsive (funciona en móvil y escritorio)
-- Galería de imágenes con scroll horizontal y Lightbox2
-- Datos de juegos y categorías cargados desde archivos JSON
-- Plantillas HTML reutilizables
-- Mantenimiento simple y escalable
+- Galería con Lightbox2 y scroll horizontal
+- Fichas de juegos cargadas con JSON
+- Navegación 100% dinámica
+- Mantenimiento muy simple
 
 ---
 
-## 🚀 Publicar en GitHub Pages
+## 🚀 Probar en local
 
-1. Subí todo el contenido a un repositorio de GitHub
-2. Activá GitHub Pages desde "Settings" > "Pages"
-3. Seleccioná la rama `main` y la carpeta `/ (root)`
-4. Accedé al sitio en:  
-   `https://<tu-usuario>.github.io/<nombre-del-repositorio>/`
+Para desarrollo, puedes usar un servidor local con Python:
+
+```bash
+python3 -m http.server 8000
+```
+
+Y acceder a:
+
+- `http://localhost:8000/`
+- `http://localhost:8000/listado.html?categoria=bigbox`
+- `http://localhost:8000/detalle.html?categoria=bigbox&juego=age-of-empires`
 
 ---
 
-## 🛠️ Ideas futuras
+## 🌐 Publicar en GitHub Pages
 
-- Filtros por género o plataforma
-- Buscador por título
-- Contacto o formulario para interesados
-- Generador automático desde hoja de cálculo
+1. Subir todo a un repositorio en GitHub
+2. Activar GitHub Pages desde Settings > Pages
+3. Seleccionar la rama `main` y carpeta `/ (root)`
+4. Acceder al sitio en:  
+   `https://<tu-usuario>.github.io/<repo>/`
 
 ---
 
 ## 📬 Contacto
 
-Este proyecto es personal. Si tenés sugerencias o querés colaborar, ¡escribime!
+Este proyecto es personal. Si quieres sugerir mejoras o colaborar, ¡bienvenido!
