@@ -18,6 +18,15 @@
       "ean": "805529051041"
     },
     {
+      "titulo": "Age of Empires II.",
+      "url": "juegos/age-of-empires-ii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": ""
+    },
+    {
       "titulo": "Age of Empires II. The Conquerors. Expansion",
       "url": "juegos/age-of-empires-ii-the-conquerors-expansion/",
       "plataforma": "Windows 95/98",
@@ -26,6 +35,15 @@
       "distribuidor": "Microsoft",
       "ean": "0882224084390"
     },
+    {
+      "titulo": "Age of Empires II. The Conquerors. Expansion",
+      "url": "juegos/age-of-empires-ii-the-conquerors-expansion-2/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "0882224084390"
+    },    
     {
       "titulo": "Age of Empires. Gold Edition",
       "url": "juegos/age-of-empires-gold-edition/",
@@ -113,15 +131,23 @@
       "titulo": "Allied General",
       "url": "juegos/allied-general/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
+      "estado": "Verificado",
       "desarrollador": "Strategic Simulations",
       "distribuidor": "Mindscape"
     },
     {
+      "titulo": "Arcanum: Hechizos y engranajes",
+      "url": "juegos/arcanum-hechizos-engranajes/",
+      "plataforma": "Windows 95/98",
+      "estado": "Verificado",
+      "desarrollador": "Strategic Simulations",
+      "distribuidor": "Mindscape"
+    },    
+    {
       "titulo": "Allied General (Gold Reserve)",
       "url": "juegos/allied-general-gold-reserve/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
+      "estado": "Verificado",
       "desarrollador": "Strategic Simulations",
       "distribuidor": "Mindscape"
     },
@@ -1245,6 +1271,22 @@
       "desarrollador": "Catware",
       "distribuidor": "Strategic Simulations, Inc."
     },
+    {
+      "titulo": "StarCraft",
+      "url": "juegos/starcraft/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Blizzard",
+      "distribuidor": "Blizzard"
+    },    
+    {
+      "titulo": "StarCraft. Brood War. Expansion Set",
+      "url": "juegos/starcraft-brood-war-expansion-set/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Blizzard",
+      "distribuidor": "Blizzard"
+    },      
     {
       "titulo": "Starship Troopers",
       "url": "juegos/starship-troopers/",
