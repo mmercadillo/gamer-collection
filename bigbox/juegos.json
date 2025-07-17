@@ -336,6 +336,14 @@
       "distribuidor": "Sierra Studios"
     },
     {
+      "titulo": "Call to Power",
+      "url": "juegos/call-to-power/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "BreakAway Games",
+      "distribuidor": "Activision"
+    },    
+    {
       "titulo": "Call to Power II",
       "url": "juegos/call-to-power-ii/",
       "plataforma": "Windows 95/98",
@@ -616,6 +624,14 @@
       "distribuidor": "New World Computing"
     },
     {
+      "titulo": "Empire Earth",
+      "url": "juegos/empire-earth/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "White Wolf Productions",
+      "distribuidor": "New World Computing"
+    },    
+    {
       "titulo": "Enemy Engaged: Apache vs Havoc",
       "url": "juegos/enemy-engaged-apache-vs-havoc/",
       "plataforma": "Windows 95/98",
@@ -776,6 +792,14 @@
       "distribuidor": "Cryo Studios North America"
     },
     {
+      "titulo": "Hellfire",
+      "url": "juegos/hellfire/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Sierra",
+      "distribuidor": "Sierra"
+    },    
+    {
       "titulo": "Heroes of Might and Magic IV",
       "url": "juegos/heroes-of-might-and-magic-iv/",
       "plataforma": "Windows",
@@ -798,7 +822,7 @@
       "estado": "Sin-verificar",
       "desarrollador": "Nival Interactive",
       "distribuidor": "Ubisoft"
-    },
+    },   
     {
       "titulo": "Homeworld: Cataclysm",
       "url": "juegos/homeworld-cataclysm/",
@@ -866,11 +890,19 @@
     {
       "titulo": "Loom",
       "url": "juegos/loom/",
-      "plataforma": "MS-DOS, Amiga, Macintosh",
+      "plataforma": "MS-DOS",
       "estado": "Sin-verificar",
       "desarrollador": "LucasArts",
       "distribuidor": "LucasArts"
     },
+    {
+      "titulo": "Loom",
+      "url": "juegos/loom-2/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "LucasArts",
+      "distribuidor": "LucasArts"
+    },    
     {
       "titulo": "Lost Eden",
       "url": "juegos/lost-eden/",
@@ -911,6 +943,14 @@
       "desarrollador": "Manic Media Productions Ltd.",
       "distribuidor": "Virgin Interactive"
     },
+    {
+      "titulo": "Maniac Mansion",
+      "url": "juegos/maniac-mansion/",
+      "plataforma": "MS-DOS",
+      "estado": "Sin-verificar",
+      "desarrollador": "Manic Media Productions Ltd.",
+      "distribuidor": "Virgin Interactive"
+    },    
     {
       "titulo": "Mega Sports",
       "url": "juegos/mega-sports/",
@@ -1136,6 +1176,14 @@
       "distribuidor": "SCi Games Ltd."
     },
     {
+      "titulo": "Return to Monkey Island",
+      "url": "juegos/return-to-monkey-island/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Warthog Plc",
+      "distribuidor": "SCi Games Ltd."
+    },    
+    {
       "titulo": "Re-Volt",
       "url": "juegos/re-volt/",
       "plataforma": "Windows",
@@ -1175,6 +1223,14 @@
       "desarrollador": "Desconocido",
       "distribuidor": "Desconocido"
     },
+    {
+      "titulo": "Sam & Max. Hit the road",
+      "url": "juegos/sam-and-max-hit-the-road/",
+      "plataforma": "Ms-DOS 5x",
+      "estado": "Sin-verificar",
+      "desarrollador": "Nival Interactive",
+      "distribuidor": "Ubisoft"
+    },     
     {
       "titulo": "Scooby-Doo: Peligro en la Ciudad Fantasma",
       "url": "juegos/scooby-doo-peligro-en-la-ciudad-fantasma/",
@@ -1550,5 +1606,102 @@
       "estado": "Sin-verificar",
       "desarrollador": "Image Space Incorporated",
       "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "War in the Gulf",
+      "url": "juegos/war-in-the-gulf/",
+      "plataforma": "Ms-DOS 5.x",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "RollerCoaster Tycoon",
+      "url": "juegos/rollercoaster-tycoon/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Silent hunter II",
+      "url": "juegos/silent-hunter-ii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "African Safari. Trophy Hunter",
+      "url": "juegos/african-safari-trophy-hunter/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Sydney 2000",
+      "url": "juegos/sydney-2000/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "I-War",
+      "url": "juegos/i-war/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Close Combat IV",
+      "url": "juegos/close-combat-iv/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Duke Nuken 3-D",
+      "url": "juegos/duke-nuken-3d/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Battleground. 1815 Waterloo",
+      "url": "juegos/battleground-1815-waterloo/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Gadget",
+      "url": "juegos/gadget/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Return to Zork",
+      "url": "juegos/return-to-zork/",
+      "plataforma": "Ms-DOS 5.x",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Return to Zork",
+      "url": "juegos/return-to-zork-2/",
+      "plataforma": "Ms-DOS 5.x",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
     }
+
   ]
