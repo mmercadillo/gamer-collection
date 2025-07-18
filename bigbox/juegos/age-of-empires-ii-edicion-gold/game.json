@@ -1,11 +1,12 @@
 {
-  "titulo": "Age of Empires II. Edición Gold",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "titulo": "Age of Empires II: Gold Edition",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Real-time strategy",
   "desarrollador": "Ensemble Studios",
   "distribuidor": "Microsoft",
-  "ean": "805529051041",
-  "descripcion": "",
-  "incluye": []
+  "ean": "0805529051041, 805529132085, 755142110444",
+  "descripcion": "Edición especial lanzada en 2001 que combina 'Age of Empires II: The Age of Kings' y su expansión 'The Conquerors'. Incluye campañas históricas, multijugador, editor de escenarios y el robusto motor Genie.",
+  "incluye": [
+  ]
 }

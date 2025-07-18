@@ -1,11 +1,12 @@
 {
   "titulo": "Command & Conquer: Red Alert",
-  "plataforma": "MS-DOS, Windows 95",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows 95, Windows 98, Windows NT 4.0, PlayStation",
+  "estado": "Verificado",
+  "genero": "Real‑time strategy",
   "desarrollador": "Westwood Studios",
-  "distribuidor": "Virgin Interactive Entertainment",
+  "distribuidor": "Virgin Interactive, Electronic Arts",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "RTS lanzado en 1996 como precuela al Command & Conquer original. Enfrenta a las fuerzas Aliadas contra la Unión Soviética en una historia alternativa ambientada tras el asesinato de Hitler. Incluye campañas para ambos bandos, multijugador, vídeos FMV con Kane, búsqueda de recursos (mineral y gemas), y unidades icónicas como Tanques Tesla y Chronosphere.",
+  "incluye": [
+  ]
 }

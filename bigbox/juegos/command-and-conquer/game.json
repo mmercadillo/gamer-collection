@@ -1,11 +1,11 @@
 {
   "titulo": "Command & Conquer",
-  "plataforma": "MS-DOS, Windows 95",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows 95, Windows 98, Windows NT 4.0, Windows 2000, Sega Saturn, PlayStation, Mac OS, Nintendo 64",
+  "estado": "Verificado",
+  "genero": "Real‑time strategy",
   "desarrollador": "Westwood Studios",
-  "distribuidor": "Virgin Interactive Entertainment",
-  "ean": "",
-  "descripcion": "",
+  "distribuidor": "Virgin Interactive, Electronic Arts",
+  "ean": "0052145830455",
+  "descripcion": "RTS clásico de 1995 que definió el género. Enfrenta a la Global Defense Initiative (GDI) contra la Brotherhood of Nod en una guerra por el control del Tiberio. Incluye campañas para un jugador, multijugador, vídeos FMV protagonizados por Joseph D. Kucan (como Kane), y un mapa estratégico global. Vendió más de 3 millones de copias y su código fue abierto en febrero de 2025.",
   "incluye": []
 }

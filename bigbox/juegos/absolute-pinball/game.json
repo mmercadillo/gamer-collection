@@ -1,11 +1,11 @@
 {
   "titulo": "Absolute Pinball",
-  "plataforma": "DOS",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Spidersoft Ltd.",
-  "distribuidor": "21st Century Entertainment Ltd.",
+  "plataforma": "MS-DOS 5.0, MS-DOS 6.0, MS-DOS 6.22, MS-DOS 7.0",
+  "estado": "Verificado",
+  "genero": "Arcade / Pinball",
+  "desarrollador": "Unique Development Studios",
+  "distribuidor": "21st Century Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de pinball para PC (1996) con cuatro mesas temáticas: Desert Run, Aquatic Adventure, The Dream Factory y Balls ’n Beats. Gráficos en 2D sobre DOS, resolución ajustable y enfoque en realismo de física y animaciones.",
   "incluye": []
 }

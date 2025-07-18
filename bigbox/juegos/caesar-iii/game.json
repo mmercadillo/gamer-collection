@@ -1,11 +1,11 @@
 {
   "titulo": "Caesar III",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 98, Windows ME, Windows 2000, Windows XP, Mac OS",
+  "estado": "Verificado",
+  "genero": "City‑building / Simulation",
   "desarrollador": "Impressions Games",
-  "distribuidor": "Sierra Studios",
+  "distribuidor": "Sierra On‑Line",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Siguiente entrega de la saga Roma, lanzada en septiembre de 1998. Asumes el rol de gobernador provincial para diseñar, gestionar y expandir ciudades en el Imperio Romano. Incluye campañas ramificadas (‘pacíficas’ o ‘militares’), sistema de 'walkers' para distribución de servicios, amenazas naturales y militares, y un modo libre ‘City Construction Kit’. Su mecánica profunda y gráficos isométricos fueron muy bien recibidos.",
   "incluye": []
 }

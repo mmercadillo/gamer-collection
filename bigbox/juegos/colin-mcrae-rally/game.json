@@ -1,11 +1,11 @@
 {
   "titulo": "Colin McRae Rally",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows 95, Windows 98, Windows NT 4.0, Windows 2000, PlayStation, Game Boy Color",
+  "estado": "Verificado",
+  "genero": "Racing Simulation",
   "desarrollador": "Codemasters",
-  "distribuidor": "Codemasters",
-  "ean": "",
-  "descripcion": "",
+  "distribuidor": "Codemasters, Sony Computer Entertainment (PlayStation), THQ (GBC)",
+  "ean": "0722242517381",
+  "descripcion": "Simulador de rally realista lanzado en 1998, basado en la temporada del Campeonato Mundial de Rally de 1998, que incluye automóviles como el Subaru Impreza WRC, tecnología de modelado láser y modalidades para Novato, Intermedio y Experto. Soporta multijugador LAN en PC, pantalla dividida en PlayStation y versión portátil para Game Boy Color.",
   "incluye": []
 }

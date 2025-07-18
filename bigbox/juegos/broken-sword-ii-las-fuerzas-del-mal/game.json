@@ -1,11 +1,11 @@
 {
   "titulo": "Broken Sword II: Las Fuerzas del Mal",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0, Windows 2000, Windows 7/10 (Remastered), PlayStation",
+  "estado": "Verificado",
+  "genero": "Point‑and‑click adventure",
   "desarrollador": "Revolution Software",
-  "distribuidor": "Virgin Interactive Entertainment",
-  "ean": "",
-  "descripcion": "",
+  "distribuidor": "Virgin Interactive, Revolution Software (Remastered)",
+  "ean": "0650008199048",
+  "descripcion": "Segunda entrega de la saga Broken Sword (1997), controlas a George Stobbart y en partes a Nico Collard en una aventura global que mezcla misterio, humor y mitología Maya. La versión Remastered (2010‑11) añade gráficos mejorados, sistema de pistas, diario interactivo, cómic de Dave Gibbons y audio regrabado.",
   "incluye": []
 }

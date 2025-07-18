@@ -1,11 +1,11 @@
 {
   "titulo": "Age of Empires",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Real-time strategy",
   "desarrollador": "Ensemble Studios",
   "distribuidor": "Microsoft",
-  "ean": "0882224084390",
-  "descripcion": "",
+  "ean": "",
+  "descripcion": "Juego de estrategia en tiempo real lanzado en 1997. Guias una civilización desde la Edad de Piedra hasta la Edad de Hierro a través de 12 culturas, gestionando recursos, desarrollando tecnologías y combatiendo en campañas históricas y escenarios generados al azar. Incluye modos multijugador, editor de escenarios y un potente motor Genie.",
   "incluye": []
 }

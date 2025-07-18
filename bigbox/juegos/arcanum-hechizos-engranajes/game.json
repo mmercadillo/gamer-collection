@@ -1,11 +1,11 @@
 {
   "titulo": "Arcanum: Hechizos y engranajes",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Role‑playing",
+  "desarrollador": "Troika Games",
+  "distribuidor": "Sierra On‑Line",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG isométrico de 2001 ambientado en un mundo donde la tecnología steampunk y la magia coexisten en tensión. Después de que su dirigible sea derribado, el protagonista explora el continente, eligiendo entre magia o tecnología, influenciando la historia y resolución de misiones. Destaca por su libertad de creación de personaje, tres estilos de combate (tiempo real, por turnos, rápido), y su ambientación única.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
   "titulo": "Allied General (Gold Reserve)",
-  "plataforma": "Windows 95/98",
-  "estado": "Caja interior deformada",
-  "genero": "",
-  "desarrollador": "Strategic Simulations",
-  "distribuidor": "Mindscape",
-  "ean": "",
-  "descripcion": "",
+  "plataforma": "Windows 3.1, Windows 95, Windows 98, Windows NT 4.0, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Turn-based strategy / Wargame",
+  "desarrollador": "Halestorm / SSI Special Projects Group",
+  "distribuidor": "Strategic Simulations Inc. / Mindscape",
+  "ean": "5000000064915, 0628553012099",
+  "descripcion": "Edición 'Gold Reserve' (Big Box) de Allied General (1995). Secuela de Panzer General ambientada en la II Guerra Mundial, centrada en campañas aliadas (soviética, británica, americana). Incluye manual, hojas de referencia, CD de instalación y escenario adicionales, manteniendo el clásico combate táctico por turnos con soporte por e‑mail.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
   "titulo": "Caesar",
-  "plataforma": "MS-DOS",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows, Amiga, Atari ST, Macintosh",
+  "estado": "Verificado",
+  "genero": "City-building / Simulation",
   "desarrollador": "Impressions Games",
-  "distribuidor": "Sierra On-Line",
+  "distribuidor": "Sierra On‑Line",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de construcción de ciudades ambientado en la Antigua Roma, lanzado en 1992. Asumes el rol de gobernador provincial, gestionas urbanismo, recursos, servicios y defensa militar para satisfacer al emperador. Incluye suministro de agua, educación, ocio y ejército, con guerras manejadas mediante enlace con Cohort II. Lanzado inicialmente para Amiga y portado a DOS, Mac, Atari ST y Windows.",
   "incluye": []
 }

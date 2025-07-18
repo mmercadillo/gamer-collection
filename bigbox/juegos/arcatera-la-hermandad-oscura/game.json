@@ -1,11 +1,11 @@
 {
   "titulo": "Arcatera: La Hermandad Oscura",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Role‑playing (RPG)",
+  "desarrollador": "Westka Interactive",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG de fantasía lanzado en 2000. Ambientado en la ciudad de Senora, controlas a uno de cuatro personajes (guerrero, ladrón, mago o monje) para descubrir y enfrentarte a una misteriosa Hermandad Oscura. El tiempo avanza constantemente y el juego tiene un límite de tres semanas de tiempo de juego, múltiples finales y un sistema de combate en tiempo real con pausa.",
   "incluye": []
 }

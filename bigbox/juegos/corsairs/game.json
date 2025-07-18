@@ -1,11 +1,11 @@
 {
   "titulo": "Corsairs",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Cryo Interactive",
-  "distribuidor": "Friendware",
-  "ean": "",
-  "descripcion": "",
+  "plataforma": "Windows 95, Windows 98, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Strategy / Action / Adventure",
+  "desarrollador": "Microïds",
+  "distribuidor": "Microïds",
+  "ean": "0663296100337",
+  "descripcion": "RTS con elementos de acción-aventura lanzado en marzo de 1999. Encarnas a un corsario al servicio de Inglaterra, Francia, España o los Países Bajos. Combina gestión de flotas y comercio con combates navales en tiempo real y abordajes, exploración de puertos y búsqueda de fortuna en el Caribe, Madagascar y costas australianas.",
   "incluye": []
 }

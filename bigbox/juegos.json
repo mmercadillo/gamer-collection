@@ -144,8 +144,8 @@
       "distribuidor": "Mindscape"
     },
     {
-      "titulo": "AMOC",
-      "url": "juegos/amoc/",
+      "titulo": "AMOK",
+      "url": "juegos/amok/",
       "plataforma": "Desconocido",
       "estado": "Sin-verificar",
       "desarrollador": "Desconocido",
@@ -1878,6 +1878,58 @@
       "estado": "Sin-verificar",
       "desarrollador": "New World Computing",
       "distribuidor": "3DO"
+    },
+    {
+      "titulo": "Neverwinter Nights 2: Chaotic Evil",
+      "url": "juegos/neverwinter-nights-2-chaotic-evil/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Obsidian Entertainment",
+      "distribuidor": "Atari"
+    },
+    {
+      "titulo": "Neverwinter Nights 2: Lawful Good",
+      "url": "juegos/neverwinter-nights-2-lawful-good-2/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Obsidian Entertainment",
+      "distribuidor": "Atari"
+    },
+    {
+      "titulo": "Age of Empires III",
+      "url": "juegos/age-of-empires-iii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Diablo II. Battle Chest",
+      "url": "juegos/diablo-ii-battle-chest/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Age of Empires. Edición coleccionistas",
+      "url": "juegos/age-of-empires-edicion-coleccionistas/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Age of Empires. Edición coleccionistas",
+      "url": "juegos/age-of-empires-edicion-coleccionistas-2/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
     }
 
   ]

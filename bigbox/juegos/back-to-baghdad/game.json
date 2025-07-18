@@ -1,11 +1,11 @@
 {
   "titulo": "Back to Baghdad",
-  "plataforma": "MS-DOS",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS 6.2",
+  "estado": "Verificado",
+  "genero": "Combat flight simulator",
   "desarrollador": "Military Simulations",
   "distribuidor": "Military Simulations",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de vuelo táctico lanzado en 1995 para MS‑DOS. Pilotas un F‑16 en misiones aéreas sobre Irak, basadas en imágenes satelitales del Departamento de Defensa de EE.UU. Incluye 40 misiones 'one‑off', modelado realista del avión y su aviónica con renderer software.",
   "incluye": []
 }

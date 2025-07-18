@@ -1,11 +1,11 @@
 {
   "titulo": "Abomination: The Nemesis Project",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Action, Real-time tactics",
   "desarrollador": "Hothouse Creations",
   "distribuidor": "Eidos Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de acción táctica en tiempo real ambientado en un EE.UU. post‑apocalíptico tras una plaga mutagénica. Diriges un escuadrón de marines bio‑ingenierizados para erradicar criaturas conocidas como “The Brood” y su secta fanática “The Faithful”. Destaca por su atmósfera sombría, modo de pausa táctica y escenarios generados proceduralmente.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
   "titulo": "Age of Empires. Gold Edition",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Real-time strategy",
   "desarrollador": "Ensemble Studios",
   "distribuidor": "Microsoft",
-  "ean": "0659556098605",
-  "descripcion": "",
+  "ean": "0659556098605, 5017783556360, 4012160164061",
+  "descripcion": "Edición que reúne el juego original 'Age of Empires' y su expansión 'The Rise of Rome' en un solo disco (1999). Gestionas civilizaciones desde la Edad de Piedra hasta Roma en campañas históricas y escenarios, con multijugador, editor de escenarios y motor Genie.",
   "incluye": []
 }

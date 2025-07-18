@@ -1,11 +1,11 @@
 {
   "titulo": "Vampire: The Masquerade – Redemption",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows 2000, Windows ME, Windows NT",
+  "estado": "Verificado",
+  "genero": "Role-playing",
   "desarrollador": "Nihilistic Software",
   "distribuidor": "Activision",
-  "ean": "",
-  "descripcion": "",
+  "ean": "5017783556032",
+  "descripcion": "Videojuego de rol ambientado en el universo 'World of Darkness'. Controlas a Christof Romuald, un cruzado convertido en vampiro, en una historia que abarca la Europa medieval y el mundo moderno. El juego combina combate en tiempo real, uso de disciplinas vampíricas y una narrativa profunda centrada en la redención y la pérdida de humanidad.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
   "titulo": "Call to Power II",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "BreakAway Games",
+  "plataforma": "Windows XP, Windows 7, Windows 8, Windows 10",
+  "estado": "Verificado",
+  "genero": "Turn‑based strategy / 4X",
+  "desarrollador": "Activision",
   "distribuidor": "Activision",
-  "ean": "",
-  "descripcion": "",
+  "ean": "5030917009310",
+  "descripcion": "Secuela del ‘Civilization: Call to Power’ lanzada en noviembre de 2000. Amplía la experiencia 4X desde la Edad Antigua hasta 2300 d.C., con condiciones de victoria diplomática, por puntos, Bloodlust y Gaia Controller. Incluye multijugador TCP/IP/IPX, mods mediante SLIC, y parches comunitarios como Apolyton Edition.",
   "incluye": []
 }

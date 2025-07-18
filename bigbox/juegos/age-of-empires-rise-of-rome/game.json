@@ -1,11 +1,12 @@
 {
-  "titulo": "Age of Empires. Rise of Rome",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "titulo": "Age of Empires: The Rise of Rome",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0 (SP3+), Windows 2000",
+  "estado": "Verificado",
+  "genero": "Real-time strategy",
   "desarrollador": "Ensemble Studios",
   "distribuidor": "Microsoft",
-  "ean": "0882224084390",
-  "descripcion": "",
-  "incluye": []
+  "ean": "",
+  "descripcion": "Expansión de 1998 para Age of Empires que añade cuatro nuevas civilizaciones (Romanos, Cartagineses, Palmirenos y Macedonios), cinco unidades únicas, nuevas tecnologías, campañas históricas sobre Roma y mejoras de calidad de vida como cola de producción de unidades y límite de población ampliado.",
+  "incluye": [
+  ]
 }

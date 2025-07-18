@@ -1,11 +1,12 @@
 {
   "titulo": "Crusader: No Remorse",
-  "plataforma": "MS-DOS, Windows 95",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows 10+ (via GOG), PlayStation, Sega Saturn, Mac OS",
+  "estado": "Verificado",
+  "genero": "Action / Shooter isométrico",
   "desarrollador": "Origin Systems",
   "distribuidor": "Electronic Arts",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "ean": "0078829003991, 5030930010829",
+  "descripcion": "Shooter isométrico lanzado en agosto de 1995 (PC) donde encarnas a un Silencer que se rebela contra el opresivo World Economic Consortium. Destaca por gráficos SVGA 640×480, niveles destructibles, FMV, gran arsenal (bombas de proximidad, pistolas, lanzallamas), y puertos en consola en 1997.",
+  "incluye": [
+  ]
 }

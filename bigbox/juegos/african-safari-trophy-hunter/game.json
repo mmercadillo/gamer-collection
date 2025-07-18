@@ -1,11 +1,11 @@
 {
-  "titulo": "African Safari. Trophy Hunter",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Military Simulations",
-  "distribuidor": "Military Simulations",
+  "titulo": "African Safari: Trophy Hunter 3D",
+  "plataforma": "Windows 95, Windows 98, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Simulation / Sports",
+  "desarrollador": "Quantum Axcess",
+  "distribuidor": "WizardWorks Group, Inc.",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulación de caza en primera persona ambientada en una safari africana. Armado con fusiles y herramientas de rastreo, persigues elefantes, cebras, antílopes y más a través de matorrales, sabanas y humedales. Incluye múltiples armas, binocular, brújula y entornos generados 3D con atmósfera de caza realista.",
   "incluye": []
 }

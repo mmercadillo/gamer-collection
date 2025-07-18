@@ -1,11 +1,11 @@
 {
   "titulo": "Alien Paranoia",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
+  "plataforma": "Windows 95, Windows 98, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Action / 3D platform",
+  "desarrollador": "Eclipse Software",
+  "distribuidor": "Dinamic Multimedia, Akaei plc, Russobit‑M",
+  "ean": "5037120206161",
+  "descripcion": "Juego de acción y plataformas 3D de 2000. Controlas a 'M', un alienígena biocibernético atrapado en un planeta hostil. Recoge tornillos para reparar tu nave, enfrenta enemigos con láser, boomerang y ataques cuerpo a cuerpo, atraviesas cinco escenarios temáticos (cuevas, desierto, costa), cada uno con colección de piezas y jefe final en la última etapa.",
   "incluye": []
 }

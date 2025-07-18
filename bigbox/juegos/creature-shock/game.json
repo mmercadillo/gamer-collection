@@ -1,11 +1,11 @@
 {
   "titulo": "Creature Shock",
-  "plataforma": "MS-DOS",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Argonaut Games",
-  "distribuidor": "Virgin Interactive Entertainment",
-  "ean": "",
-  "descripcion": "",
+  "plataforma": "MS-DOS, 3DO Interactive Multiplayer, CD-i, Sega Saturn, PlayStation",
+  "estado": "Verificado",
+  "genero": "Dungeon crawler / Rail shooter",
+  "desarrollador": "Argonaut Software",
+  "distribuidor": "Virgin Interactive, Data East (Saturn/PS)",
+  "ean": "4961082500092, 013252017030",
+  "descripcion": "Shooter sci‑fi de 1994 que combina fases en rail‑shooter pre‑renderizadas con exploración en primera persona en un escenario de horror espacial. Sigues al comandante Jason Barr investigando una señal extraña desde una nave alienígena cerca de Saturno, enfrentándote a criaturas letales con puntos débiles específicos y secciones de pilotaje en entorno 3D.",
   "incluye": []
 }

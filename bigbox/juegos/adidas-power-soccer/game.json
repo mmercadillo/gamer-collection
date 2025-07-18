@@ -1,11 +1,11 @@
 {
   "titulo": "Adidas Power Soccer",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Sports",
   "desarrollador": "Psygnosis",
   "distribuidor": "Psygnosis",
-  "ean": "",
-  "descripcion": "",
+  "ean": "0711719695127",
+  "descripcion": "Simulador/arcade de fútbol lanzado en 1996 para PlayStation y Windows. Incluye modo simulado y arcade con movimientos especiales como el Predator Shot, animación mediante captura de movimiento, varias cámaras, comentarios en varios idiomas y competición de liga y torneos.",
   "incluye": []
 }

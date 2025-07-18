@@ -1,11 +1,11 @@
 {
   "titulo": "Blade Runner",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Point-and-click adventure",
   "desarrollador": "Westwood Studios",
   "distribuidor": "Virgin Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica en tiempo real ambientada en el universo de la película Blade Runner. Juegas como el agente Ray McCoy en 2019 Los Ángeles, investigando replicantes a través de gráficos pre‑renderizados y personajes en voxel. Destaca por su narrativa ramificada, multipl‑endings (13 finales posibles) y escenas FMV creadas por Westwood, con actores del film original.",
   "incluye": []
 }

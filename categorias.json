@@ -13,5 +13,10 @@
     "nombre": "Bestseller Series",
     "slug": "bestseller-series",
     "url": "listado.html?categoria=bestseller-series"
+  },
+  {
+    "nombre": "Dinamic Multimedia",
+    "slug": "dinamic-multimedia",
+    "url": "listado.html?categoria=dinamic-multimedia"
   }
 ]

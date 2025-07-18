@@ -1,11 +1,11 @@
 {
   "titulo": "Assault Rigs",
-  "plataforma": "MS-DOS",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows 3.1, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Vehicular combat / Action",
   "desarrollador": "Psygnosis",
   "distribuidor": "Psygnosis",
-  "ean": "",
-  "descripcion": "",
+  "ean": "0053203019188, 711719615620, 711719440529",
+  "descripcion": "Juego de combate vehicular en túneles virtuales en 3D lanzado en 1996. Controlas una plataforma‑tanque llamada 'Rig', recoges gemas, destruyes armas y enemigos, y resuelves puzzles con elevadores y bloques móviles en más de 40 niveles. Incluye modo multijugador vía enlace serial/juego en red en PC y cables Link en PlayStation.",
   "incluye": []
 }

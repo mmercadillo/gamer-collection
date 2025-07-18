@@ -1,11 +1,11 @@
 {
   "titulo": "Black Dahlia",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Take-Two Interactive",
-  "distribuidor": "Take-Two Interactive",
+  "plataforma": "Windows 95, Windows 98, Windows NT 4.0, Windows 2000",
+  "estado": "Verificado",
+  "genero": "Interactive movie / Point‑and‑click adventure",
+  "desarrollador": "Take‑Two Interactive",
+  "distribuidor": "Take‑Two Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura interactiva con película de acción real lanzada en 1998. Sigues al agente Pearson, que investiga conexiones entre asesinatos en serie (el caso de la Dalia Negra) y rituales nazis/u occultismos. Cuenta con actores de Hollywood como Dennis Hopper y Teri Garr, rompecabezas visuales, escenas FMV y múltiple final según decisiones.",
   "incluye": []
 }
