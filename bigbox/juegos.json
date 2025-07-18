@@ -112,14 +112,6 @@
       "distribuidor": "Psygnosis"
     },
     {
-      "titulo": "Advanced Civilization",
-      "url": "juegos/advanced-civilization/",
-      "plataforma": "MS-DOS",
-      "estado": "Sin-verificar",
-      "desarrollador": "Avalon Hill",
-      "distribuidor": "Avalon Hill"
-    },
-    {
       "titulo": "Alien Paranoia",
       "url": "juegos/alien-paranoia/",
       "plataforma": "Windows 95/98",
@@ -968,8 +960,8 @@
       "distribuidor": "Interplay Entertainment"
     },
     {
-      "titulo": "Misión Critical",
-      "url": "juegos/mision-critical/",
+      "titulo": "Mission Critical",
+      "url": "juegos/mission-critical/",
       "plataforma": "Windows",
       "estado": "Sin-verificar",
       "desarrollador": "Legend Entertainment",
@@ -1368,8 +1360,8 @@
       "distribuidor": "Titus Software"
     },
     {
-      "titulo": "Subway 2050",
-      "url": "juegos/subway-2050/",
+      "titulo": "Subwar 2050",
+      "url": "juegos/subwar-2050/",
       "plataforma": "Windows",
       "estado": "Sin-verificar",
       "desarrollador": "Desconocido",
@@ -1702,6 +1694,190 @@
       "estado": "Sin-verificar",
       "desarrollador": "Image Space Incorporated",
       "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Myst III. Exile",
+      "url": "juegos/myst-iii-exile/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Battle Isle. The Andosia War",
+      "url": "juegos/battle-isle-the-andosia-war/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Dungeon Keeper",
+      "url": "juegos/dungeon-keeper/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "X-Wing Vs. Tie Fighter",
+      "url": "juegos/x-wing-vs-tie-fighter/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "Star Wars. Episodio I. La Amenaza fantasma",
+      "url": "juegos/star-wars-episodio-i-la-amenaza-fantasma/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Image Space Incorporated",
+      "distribuidor": "Virgin Interactive"
+    },
+    {
+      "titulo": "The X-Files: The Game",
+      "url": "juegos/the-x-files-the-game-2/",
+      "plataforma": "Windows, Mac OS, PlayStation",
+      "estado": "Sin-verificar",
+      "desarrollador": "HyperBole Studios",
+      "distribuidor": "Fox Interactive"
+    },
+    {
+      "titulo": "Scotland Yard: A la Búsqueda de Mister X",
+      "url": "juegos/scotland-yard-a-la-busqueda-de-mister-x-2/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "King's Quest IV",
+      "url": "juegos/kings-quest-iv/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "King's Quest VI",
+      "url": "juegos/kings-quest-vi/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "King's Quest V",
+      "url": "juegos/kings-quest-v/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "Deo Gratias",
+      "url": "juegos/deo-gratias/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "King's Quest VI",
+      "url": "juegos/kings-quest-vi-2/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "Zork. Grand Inquisitor",
+      "url": "juegos/zork-grand-inquisitor/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "Heist",
+      "url": "juegos/heist/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "Imperium Galactica",
+      "url": "juegos/imperium-galactica/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "Atlantis",
+      "url": "juegos/atlantis/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "Pompeya. La Leyenda del Vesubio",
+      "url": "juegos/pompeya-la-leyenda-del-vesubio/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "BitBarons GmbH, Korion Interactive",
+      "distribuidor": "Markt+Technik Verlag GmbH"
+    },
+    {
+      "titulo": "Heavy Gear",
+      "url": "juegos/heavy-gear-2/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Activision",
+      "distribuidor": "Activision"
+    },
+    {
+      "titulo": "Flash Point. KOREA",
+      "url": "juegos/flash-point-korea/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "Activision",
+      "distribuidor": "Activision"
+    },    
+    {
+      "titulo": "Heroes of Might and Magic II",
+      "url": "juegos/heroes-of-might-and-magic-ii/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "New World Computing",
+      "distribuidor": "3DO"
+    },    
+    {
+      "titulo": "Heroes of Might and Magic III",
+      "url": "juegos/heroes-of-might-and-magic-iii/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "New World Computing",
+      "distribuidor": "3DO"
+    },    
+    {
+      "titulo": "Corsairs",
+      "url": "juegos/corsairs/",
+      "plataforma": "Windows",
+      "estado": "Sin-verificar",
+      "desarrollador": "New World Computing",
+      "distribuidor": "3DO"
+    },    
+    {
+      "titulo": "FX Chess",
+      "url": "juegos/fx-chess/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "New World Computing",
+      "distribuidor": "3DO"
     }
 
   ]
