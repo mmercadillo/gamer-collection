@@ -1,11 +1,11 @@
 {
   "titulo": "Delta Force: Land Warrior",
-  "plataforma": "Windows 98/ME/2000",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows 2000, Windows XP, Windows Vista, Windows 7/8/10",
+  "estado": "Verificado",
+  "genero": "Tactical first‑person shooter",
   "desarrollador": "NovaLogic",
   "distribuidor": "NovaLogic",
-  "ean": "",
-  "descripcion": "",
+  "ean": "0753799097897",
+  "descripcion": "Tercer título de la saga, lanzado en noviembre de 2000. Utiliza el nuevo motor poligonal Voxel Space 32 y presenta 30 misiones globales (África, Indonesia, Egipto, Sudamérica). Introduce equipo avanzado (OICW), 27 armas, opciones de inserción táctica (helicóptero/paracaídas), IA realista y multijugador (PvP hasta 50, coop para 4). Incluye editor de mapas.",
   "incluye": []
 }

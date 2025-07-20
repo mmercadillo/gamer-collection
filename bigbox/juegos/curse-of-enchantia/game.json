@@ -1,11 +1,11 @@
 {
   "titulo": "Curse of Enchantia",
-  "plataforma": "MS-DOS",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Core Design Ltd.",
-  "distribuidor": "Virgin Games, Inc.",
-  "ean": "",
-  "descripcion": "",
+  "plataforma": "MS-DOS, Amiga",
+  "estado": "Verificado",
+  "genero": "Adventure / Point-and-click",
+  "desarrollador": "Core Design",
+  "distribuidor": "Core Design, Virgin Games (CD-ROM PC)",
+  "ean": "5020717200536, 5020717200192",
+  "descripcion": "Aventura gráfica de 1992 donde un adolescente llamado Brad es transportado por una bruja a Enchantia y debe escapar resolviendo puzzles sin texto ni diálogos, solo con iconos y acción. Destaca por sus animaciones rotoscópicas, gráficos coloridos y mecánicas poco convencionales para la época.",
   "incluye": []
 }

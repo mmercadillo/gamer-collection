@@ -1,11 +1,11 @@
 {
   "titulo": "Darkstone: Evil Reigns",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows 2000, Windows XP, PlayStation",
+  "estado": "Verificado",
+  "genero": "Action role‑playing",
   "desarrollador": "Delphine Software International",
-  "distribuidor": "Electronic Arts",
-  "ean": "",
-  "descripcion": "",
+  "distribuidor": "Electronic Arts (EU), Gathering of Developers (NA, PC), Take‑Two Interactive (NA, PS)",
+  "ean": "5030931025532, 5030930025533, 5030947025533, 5030934025539",
+  "descripcion": "ARPG clásico de 1999 ambientado en el mundo de Uma: debes reunir siete cristales para reconstruir el ‘Time Orb’ y vencer al dragón Draak. Ofrece exploración, mazmorras generadas, sistema de clases, multijugador cooperativo (hasta 4 jugadores), y versión para PS en 2001 con contenidos añadidos.",
   "incluye": []
 }

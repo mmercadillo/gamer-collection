@@ -1,11 +1,12 @@
 {
   "titulo": "Dungeon Keeper 2",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows 2000, Windows XP, Windows 10/11 (GOG/Steam)",
+  "estado": "Verificado",
+  "genero": "Real‑time strategy / God game / Dungeon management",
   "desarrollador": "Bullfrog Productions",
   "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Secuela lanzada en junio de 1999, lleva la gestión de mazmorras al 3D completo con soporte para hardware gráfico acelerado. Construyes y defiendes tu calabozo en el reino de Harmonia recolectando gemas del portal, gestionando criaturas y compitiendo contra otros Keepers o héroes. Incluye modos como campaña, escaramuza, 'My Pet Dungeon' y multijugador LAN/IPX/TCP‑IP para 2–4 jugadores.",
+  "incluye": [
+  ]
 }

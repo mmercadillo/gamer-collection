@@ -1,11 +1,13 @@
 {
   "titulo": "Diablo",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Macintosh (Classic Mac OS), PlayStation",
+  "estado": "Verificado",
+  "genero": "Action role‑playing / Dungeon crawler",
   "desarrollador": "Blizzard North",
-  "distribuidor": "Blizzard Entertainment",
+  "distribuidor": "Blizzard Entertainment, Electronic Arts (PS1)",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Lanzado a finales de 1996/enero de 1997, este ARPG icónico te lleva al reino de Khanduras para enfrentarte a demonios y a Diablo en mazmorras generadas aleatoriamente. Fue pionero del género hack‑and‑slash, con multiplayer a través de Battle.net, ciclo de misiones dinámico y tres clases jugables (Guerrero, Pícara, Hechicero).",
+  "incluye": [
+    "Hellfire (expansión, 1997)"
+  ]
 }

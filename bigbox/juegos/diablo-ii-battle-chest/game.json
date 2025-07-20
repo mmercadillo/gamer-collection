@@ -1,11 +1,12 @@
 {
-  "titulo": "Diablo II. Battle Chest",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "titulo": "Diablo II: Battle Chest",
+  "plataforma": "Windows 95, Windows 98, Windows 2000, Windows XP, Classic Mac OS, macOS",
+  "estado": "Verificado",
+  "genero": "Action role‑playing / Hack‑and‑slash",
+  "desarrollador": "Blizzard North",
+  "distribuidor": "Blizzard Entertainment",
+  "ean": "0020626717304",
+  "descripcion": "Pack que incluye *Diablo II* (2000) y su expansión *Lord of Destruction* (2001), junto con manuales, banda sonora, guía oficial y contenido extra. Permitía multijugador LAN y Battle.net, e introdujo dos nuevas clases (Assassin, Druid), modos adicionales (mercenarios, runas) y compatibilidad moderna.",
+  "incluye": [
+  ]
 }
