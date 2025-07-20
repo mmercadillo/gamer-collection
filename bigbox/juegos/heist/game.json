@@ -1,11 +1,11 @@
 {
   "titulo": "Heist",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Avalon Hill",
-  "distribuidor": "Avalon Hill",
+  "plataforma": "Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Acción / Estrategia / Sigilo / Crimen",
+  "desarrollador": "Virgin Interactive Entertainment (Europe) Ltd.",
+  "distribuidor": "Virgin Interactive Entertainment (Europe) Ltd.",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de acción y estrategia isométrica ambientado en el espionaje y el robo. Diriges un equipo de especialistas (hackers, ladrones, tiradores) en una serie de más de 20 atracos —gasolineras, bancos, trenes o casinos— con planificación en tiempo real, infiltración, desactivación de alarmas y escape. Cada miembro tiene habilidades únicas, y el juego destaca por su sistema de 'calor' (alerta policial) y la necesidad de una ejecución precisa :contentReference[oaicite:0]{index=0}.",
   "incluye": []
 }

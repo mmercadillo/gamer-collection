@@ -1,11 +1,11 @@
 {
   "titulo": "Hellfire",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Sierra",
-  "distribuidor": "Sierra",
+  "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Action RPG / Hack and Slash / Expansión",
+  "desarrollador": "Synergistic Software (una división de Sierra On‑Line)",
+  "distribuidor": "Sierra On‑Line",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Expansión lanzada en 1997 para Diablo (1996). Incluye nuevas mazmorras (‘The Nest’ y ‘The Crypt’), un nuevo villano final (Na‑Krul), la clase de personaje 'Monje' y acceso a dos clases ocultas (Bárbaro y Bardo) mediante trucos. También agrega nuevos objetos, hechizos, santuarios, mejoras de interfaz y la posibilidad de correr en Tristán. No es compatible con Battle.net y su contenido es independiente del multijugador en línea :contentReference[oaicite:1]{index=1}.",
   "incluye": []
 }

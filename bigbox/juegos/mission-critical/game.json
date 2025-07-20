@@ -1,11 +1,11 @@
 {
   "titulo": "Mission Critical",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows 95",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Ciencia ficción",
   "desarrollador": "Legend Entertainment",
   "distribuidor": "Legend Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica de ciencia ficción lanzada en noviembre de 1995. Ambientada en el año 2134, el jugador asume el rol de un miembro de la tripulación de la nave USS Lexington, quien debe completar una misión secreta en el planeta Persephone tras un ataque sorpresa. El juego combina exploración en primera persona, resolución de puzzles y combates tácticos en tiempo real. Destaca por sus gráficos en 3D, escenas con actores reales y una narrativa profunda.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
   "titulo": "Empire Deluxe",
   "plataforma": "MS-DOS, Windows 3.x",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "estado": "Verificado",
+  "genero": "Estrategia por turnos / Guerra / Conquista territorial",
   "desarrollador": "White Wolf Productions",
   "distribuidor": "New World Computing",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Versión ampliada del clásico 'Empire', este juego de estrategia por turnos permite a los jugadores conquistar territorios mediante unidades terrestres, navales y aéreas. Incluye tres versiones jugables: Standard, Deluxe y Enhanced, cada una con diferentes reglas y gráficos. Es considerado uno de los pioneros del género 4X, con un enfoque en la exploración, expansión y enfrentamiento estratégico.",
   "incluye": []
 }

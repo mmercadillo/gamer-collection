@@ -1,11 +1,11 @@
 {
   "titulo": "Empire Earth",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "White Wolf Productions",
-  "distribuidor": "New World Computing",
+  "plataforma": "Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Estrategia en tiempo real (RTS) / Historia / Conquista",
+  "desarrollador": "Stainless Steel Studios",
+  "distribuidor": "Sierra Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia en tiempo real que abarca más de 500.000 años de historia, desde la Prehistoria hasta un futuro cercano. El jugador dirige una civilización a lo largo de 14 épocas diferentes, gestionando recursos, tecnología, diplomacia y unidades militares. Incluye campañas históricas, un potente editor de escenarios y modo multijugador. Considerado por muchos como el sucesor espiritual de Age of Empires.",
   "incluye": []
 }

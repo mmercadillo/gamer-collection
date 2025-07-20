@@ -1,11 +1,11 @@
 {
   "titulo": "Heroes of Might and Magic V: Gold Edition",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows XP, Windows Vista, Windows 7, Windows 10",
+  "estado": "Verificado",
+  "genero": "Estrategia por turnos / Fantasía / 4X / Compilación",
   "desarrollador": "Nival Interactive",
   "distribuidor": "Ubisoft",
-  "ean": "",
-  "descripcion": "",
+  "ean": "3307215655429",
+  "descripcion": "Edición recopilatoria lanzada el 26 de octubre de 2007 en Europa, incluye el juego base Heroes V (2006) y las dos expansiones: Hammers of Fate (noviembre 2006) y Tribes of the East (octubre 2007). Añade nuevo contenido como la raza Enanos, la tribu Orca, campañas ampliadas, nuevos hechizos, artefactos y un generador de mapas. También incluye una DVD de extras con trailers, diarios de desarrollo y vídeos conceptuales.", 
   "incluye": []
 }

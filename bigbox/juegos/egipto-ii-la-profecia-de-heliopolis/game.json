@@ -1,11 +1,11 @@
 {
   "titulo": "Egipto II: La Profecía de Heliópolis",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Cryo Interactive, Réunion des Musées Nationaux",
-  "distribuidor": "Friendware",
+  "plataforma": "Windows 95, Windows 98, Windows XP",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Point & Click / Histórica",
+  "desarrollador": "Cryo Interactive",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela espiritual de 'Egipto 1156 a.C.', ambientada esta vez en la ciudad de Heliópolis durante el reinado de Akhenatón. Interpretas a una joven sacerdotisa llamada Tifet, que debe investigar el brote de una epidemia mortal. El juego mantiene el estilo point & click con gráficos pre-renderizados y busca ofrecer una experiencia educativa fiel a la historia del Antiguo Egipto.",
   "incluye": []
 }

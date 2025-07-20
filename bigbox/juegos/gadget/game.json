@@ -1,11 +1,11 @@
 {
-  "titulo": "Gadget",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Bubball",
-  "distribuidor": "Infogrames Europe SA",
+  "titulo": "Gadget: Invention, Travel & Adventure",
+  "plataforma": "Windows 3.x, Windows 95, Mac OS (clásico)",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Interactiva / Ciencia ficción / Visual novel",
+  "desarrollador": "Synergy Inc.",
+  "distribuidor": "Synergy Interactive / Panasonic Interactive Media",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica experimental con una fuerte carga visual y narrativa, ambientada en un mundo retrofuturista con estética art déco y steampunk. Asumes el papel de un agente que investiga la desaparición de científicos y un misterioso artefacto llamado 'Gadget'. La jugabilidad se basa en exploración guiada y observación, con énfasis en la atmósfera y la historia en lugar de los puzles tradicionales.",
   "incluye": []
 }

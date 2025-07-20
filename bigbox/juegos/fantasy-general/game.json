@@ -1,11 +1,11 @@
 {
   "titulo": "Fantasy General",
   "plataforma": "MS-DOS, Windows 95",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Strategic Simulations, Inc.",
-  "distribuidor": "Mindscape",
+  "estado": "Verificado",
+  "genero": "Estrategia por turnos / Fantasía / Táctica militar",
+  "desarrollador": "Strategic Simulations, Inc. (SSI)",
+  "distribuidor": "Mindscape / SSI",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia por turnos ambientado en un mundo de fantasía, basado en el sistema de juego de Panzer General. Controlas ejércitos compuestos por unidades de caballería, infantería, criaturas mágicas y héroes legendarios en batallas tácticas sobre mapas hexagonales. Ofrece cuatro campañas con caminos ramificados, evolución de unidades y una rica variedad de escenarios, combinando profundidad estratégica con ambientación épica.",
   "incluye": []
 }

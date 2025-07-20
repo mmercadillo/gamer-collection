@@ -1,11 +1,12 @@
 {
   "titulo": "Egipto 1156 a.C.: La Tumba del Faraón",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Canal+ Multimedia, Cryo Interactive, Réunion des Musées Nationaux",
-  "distribuidor": "Friendware",
+  "plataforma": "Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Point & Click / Histórica",
+  "desarrollador": "Cryo Interactive",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Aventura gráfica desarrollada por Cryo y ambientada en el antiguo Egipto durante el reinado de Ramsés III. Interpretas a Ramosé, hijo de un arquitecto acusado injustamente de saquear tumbas reales. Tu misión será investigar, explorar tumbas y resolver acertijos para demostrar su inocencia. El juego combina fidelidad histórica con gráficos pre-renderizados y una narrativa inmersiva.",
+  "incluye": [
+  ]
 }

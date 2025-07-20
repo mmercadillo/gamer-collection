@@ -1,11 +1,11 @@
 {
   "titulo": "Multi SIM",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "plataforma": "MS-DOS, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Simulación / Estrategia / Multideporte",
+  "desarrollador": "Dinamic Multimedia",
+  "distribuidor": "Dinamic Multimedia",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de simulación y estrategia multideporte lanzado a finales de los años 90 por Dinamic Multimedia. En Multi SIM el jugador gestiona un equipo deportivo en distintas disciplinas, tomando decisiones sobre entrenamiento, estrategia y gestión financiera. Destaca por su enfoque realista y su variedad de deportes incluidos, pensado para aficionados a la gestión deportiva y simuladores estratégicos.",
   "incluye": []
 }

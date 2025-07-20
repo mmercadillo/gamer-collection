@@ -1,11 +1,11 @@
 {
   "titulo": "Ishar II: Messengers of Doom",
-  "plataforma": "MS-DOS, Amiga, Atari ST, Atari Falcon, Macintosh",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows",
+  "estado": "Verificado",
+  "genero": "Role‑playing game / RPG",
   "desarrollador": "Silmarils",
   "distribuidor": "Silmarils",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG en primera persona lanzado en 1993, segunda entrega de la saga Ishar. Ambientado en un archipiélago de fantasía, permite importar el grupo del primer juego o reclutar nuevos miembros. Incluye combate en tiempo real, ciclo día‑noche, mascotas aliadas, elaboración de pociones y exploración de ocho islas con ambientaciones variadas. Fue elogiado por su mundo extenso y sistema táctico mejorado :contentReference[oaicite:1]{index=1}.",
   "incluye": []
 }

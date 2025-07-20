@@ -1,11 +1,11 @@
 {
-  "titulo": "Flash Point. KOREA",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Activision",
-  "distribuidor": "Activision",
+  "titulo": "Flash Point: Korea",
+  "plataforma": "Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Simulación de vuelo / Combate aéreo / Militar moderno",
+  "desarrollador": "G2 Interactive",
+  "distribuidor": "Virgin Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de combate aéreo que recrea un conflicto ficticio entre Corea del Norte y del Sur. El jugador pilota cazas modernos como el F-16 Fighting Falcon en misiones que combinan realismo técnico con accesibilidad. Ofrece campañas con narrativa geopolítica, vuelo libre, entrenamiento y modo multijugador. Destaca por su enfoque táctico y representación del entorno coreano en los años 90.",
   "incluye": []
 }

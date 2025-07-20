@@ -1,11 +1,11 @@
 {
   "titulo": "I-War",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Bubball",
-  "distribuidor": "Infogrames Europe SA",
+  "plataforma": "Windows",
+  "estado": "Verificado",
+  "genero": "Simulación de combate espacial / Ciencia ficción",
+  "desarrollador": "Particle Systems",
+  "distribuidor": "Infogrames",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de combate espacial estrenado en noviembre de 1997 en Europa (como I‑War) y en agosto de 1998 en América (como Independence War). Destaca por su modelo de vuelo newtoniano, con física realista e inercia, y por una campaña de unas 40 misiones con múltiples ramificaciones y finales alternativos. Fue muy bien valorado por su innovador enfoque dentro del género :contentReference[oaicite:1]{index=1}.",
   "incluye": []
 }

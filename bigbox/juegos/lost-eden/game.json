@@ -1,11 +1,11 @@
 {
   "titulo": "Lost Eden",
-  "plataforma": "MS-DOS, Macintosh, 3DO, CD-i",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows (compatible moderno)",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Fantasía / Dinosaurios",
   "desarrollador": "Cryo Interactive",
   "distribuidor": "Virgin Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica lanzada en marzo de 1995, ambientada en un mundo alternativo donde humanos y dinosaurios inteligentes coexisten. El jugador controla a Adam, príncipe de Mo, en su misión por restaurar la paz y reconstruir las Ciudadelas destruidas por el tirano Moorkus Rex. El juego utiliza gráficos 3D prerenderizados y una narrativa en primera persona, con una banda sonora compuesta por Stéphane Picq.",
   "incluye": []
 }

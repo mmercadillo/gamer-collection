@@ -1,11 +1,11 @@
 {
   "titulo": "El Rey Arturo: El Secreto de Merlín",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Cryo Interactive Entertainment, Index+",
-  "distribuidor": "Friendware",
+  "plataforma": "Windows 95, Windows 98, Windows XP",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Point & Click / Fantasía / Histórica",
+  "desarrollador": "Cryo Interactive",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica ambientada en la Bretaña medieval, con una narrativa inspirada en las leyendas artúricas. Controlas a Bradwen, caballero dividido entre la fe cristiana y la tradición celta, en dos campañas paralelas según la vía que elijas. El juego ofrece exploración, diálogos ramificados y elementos mitológicos, con una representación rica del folclore artúrico y un enfoque educativo.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
   "titulo": "Homeworld: Cataclysm",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Estrategia en tiempo real / Ciencia ficción / Espacial",
   "desarrollador": "Barking Dog Studios",
   "distribuidor": "Sierra Studios",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Expansión independiente de Homeworld lanzada en septiembre de 2000. Desarrollada por Barking Dog Studios (con ayuda de Relic para el motor), ofrece 17 misiones centradas en una amenaza de nanobots llamada 'la Bestia', combates espaciales tácticos, mejoras al motor gráfico y de interfaz, nueva capacidad de aceleración temporal hasta ×8, actualizaciones de naves y uso de la pantalla de sensores para dar órdenes de combate :contentReference[oaicite:1]{index=1}.",
   "incluye": []
 }

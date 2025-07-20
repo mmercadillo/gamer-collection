@@ -1,11 +1,11 @@
 {
   "titulo": "ExcaliBug",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Enigma Software Productions",
-  "distribuidor": "Dinamic Multimedia",
+  "plataforma": "Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Estrategia en tiempo real / Humor / Fantasía",
+  "desarrollador": "Index+",
+  "distribuidor": "France Telecom Multimedia / Wanadoo Edition",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia en tiempo real con una ambientación humorística en la que insectos antropomórficos protagonizan una parodia del mito artúrico. Controlas a un ejército de bichos en su lucha por la mítica espada ExcaliBug. Combina mecánicas de combate, gestión de recursos y exploración en entornos variados y coloridos, todo ello con un estilo gráfico caricaturesco y muchas referencias cómicas.",
   "incluye": []
 }

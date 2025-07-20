@@ -1,11 +1,11 @@
 {
   "titulo": "Enemy Engaged: Apache vs Havoc",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Simulación de combate / Vuelo / Militar",
   "desarrollador": "Razorworks",
   "distribuidor": "Empire Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de vuelo de combate que permite pilotar dos helicópteros de ataque icónicos: el AH-64D Apache Longbow estadounidense y el Mi-28N Havoc B ruso. Ofrece campañas dinámicas en tiempo real con conflictos realistas, modelado detallado de vuelo y sistemas de armamento, así como soporte multijugador. Destacado por su fidelidad táctica y realismo en el campo de batalla.",
   "incluye": []
 }

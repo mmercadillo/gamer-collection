@@ -1,11 +1,11 @@
 {
   "titulo": "Lands of Lore II: Guardians of Destiny",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows",
+  "estado": "Verificado",
+  "genero": "Action RPG / Aventura / Fantasía",
   "desarrollador": "Westwood Studios",
-  "distribuidor": "Virgin Interactive Entertainment",
+  "distribuidor": "Virgin Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela de Lands of Lore: The Throne of Chaos, lanzada en septiembre de 1997. Mezcla acción RPG en tiempo real, aventura y resolución de puzles en primera persona. Sigues a Luther, un héroe maldito capaz de transformarse en humano, lagarto o bestia para superar obstáculos y enemigos. Ofrece varios finales según tus decisiones, escenas FMV, y un mundo de fantasía con exploración libre.",
   "incluye": []
 }
