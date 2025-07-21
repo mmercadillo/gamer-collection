@@ -1,11 +1,11 @@
 {
   "titulo": "Need for Speed: Special Edition",
-  "plataforma": "MS-DOS, Windows 95",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "EA Canada",
+  "plataforma": "MS-DOS, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Carreras / Simulación",
+  "desarrollador": "EA Seattle (EA Canada)",
   "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Edición mejorada del primer Need for Speed, lanzada en 1996 para PC. Añade dos pistas nuevas (Burnt Sienna y Transtropolis), cambios en el motor gráfico, opciones de hora del día, banda sonora completa en el juego, soporte para DirectX 2, red IPX/TCP‑IP y multijugador para hasta 8 jugadores. Último título de la serie con compatibilidad para MS‑DOS antes de que la franquicia pasase exclusivamente a Windows.",
   "incluye": []
 }

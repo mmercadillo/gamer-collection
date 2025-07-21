@@ -1,11 +1,11 @@
 {
   "titulo": "Traitors Gate",
-  "plataforma": "Windows",
+  "plataforma": "Windows 95/98/Me, Mac OS (Classic)",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Daydream Software AB",
-  "distribuidor": "The Adventure Company",
+  "genero": "Aventura gráfica / Point-and-click",
+  "desarrollador": "Daydream Software",
+  "distribuidor": "DreamCatcher Interactive (Norteamérica), FX Interactive (España)",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Traitors Gate es una aventura gráfica en primera persona lanzada en 1999. Sigues a 'Raven', un agente especial que debe infiltrarse en la Torre de Londres para reemplazar las joyas de la Corona por réplicas controladas. El juego se caracteriza por sus entornos prerenderizados fotorrealistas, más de 1200 posibles rutas, límite de tiempo de 12 horas y el uso de herramientas como ganzúas, PDA, linterna y cámara :contentReference[oaicite:2]{index=2}.",
   "incluye": []
 }

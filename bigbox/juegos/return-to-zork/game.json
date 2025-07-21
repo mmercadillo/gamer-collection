@@ -1,11 +1,11 @@
 {
   "titulo": "Return to Zork",
-  "plataforma": "Ms-DOS 5.x",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Bubball",
-  "distribuidor": "Infogrames Europe SA",
+  "plataforma": "MS‑DOS, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Point & Click / Fantasía",
+  "desarrollador": "Activision (Infocom)",
+  "distribuidor": "Activision",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica lanzada en agosto de 1993 para MS‑DOS, con una versión compatible para Windows 95/98. Retoma el universo de Zork con gráficos point‑&‑click y secuencias de vídeo en vivo con actores. La historia transcurre después de los juegos originales de texto, investigando una anomalía oscura en el Valle de los Gorriones, y ofrece múltiples formas de resolver puzzles, estado emocional en diálogos y un sistema de cámara y grabación fotográfica.",
   "incluye": []
 }

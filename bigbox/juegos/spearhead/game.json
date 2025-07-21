@@ -1,11 +1,11 @@
 {
   "titulo": "Spearhead",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Spearhead Games",
-  "distribuidor": "Spearhead Games",
+  "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Simulación de tanques / Acción táctica",
+  "desarrollador": "Zombie Studios, MAK Technologies, Inc.",
+  "distribuidor": "Interactive Magic (EE. UU.), Midas Interactive (EU)",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador/acción de tanques lanzado en agosto de 1998 para Windows. Controlas un M1A2 Abrams en misiones tácticas del tipo 'Operation Removal' en el norte de África. Incluye 20 misiones individuales, campaña desértica, editor de misiones y multijugador hasta 12 jugadores por LAN/internet.",  
   "incluye": []
 }

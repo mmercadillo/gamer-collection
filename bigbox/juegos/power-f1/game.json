@@ -1,11 +1,10 @@
 {
   "titulo": "Power F1",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Teque London",
-  "distribuidor": "Eidos Interactive",
+  "plataforma": "MS-DOS, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Carreras / Fórmula 1 / Simulación",
+  "desarrollador": "Teque London Ltd.",
+  "distribuidor": "Domark / Eidos Interactive",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Juego de carreras de Fórmula 1 con licencia oficial de la temporada 1996, lanzado en 1996 (Europa) y 1997 (EE. UU.). Incluye coches, pilotos y circuitos reales de la temporada, vista en primera y tercera persona, soporte para volante/joystick, multijugador LAN/IPX y pantalla partida para dos jugadores."
 }

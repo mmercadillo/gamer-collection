@@ -1,11 +1,10 @@
 {
-  "titulo": "Scooby-Doo: Peligro en la Ciudad Fantasma",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "TerraGlyph Interactive Studios",
+  "titulo": "Scooby‑Doo: Peligro en la Ciudad Fantasma",
+  "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Point & Click / Infantil",
+  "desarrollador": "TerraGlyph Interactive Studios (The Learning Company)",
   "distribuidor": "The Learning Company",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Lanzado el 14 de octubre de 2000, este título educativo de la saga Scooby‑Doo permite a Mystery Inc. investigar misterios en la ciudad fantasma de Los Burritos. Con varios sospechosos, pistas aleatorias, minijuegos —como lanzar tartas— y animaciones, ofrece más de 25 áreas explorables en un juego pensado para niños entre 5 y 10 años."
 }

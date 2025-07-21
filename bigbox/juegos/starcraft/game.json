@@ -1,11 +1,10 @@
 {
   "titulo": "StarCraft",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Blizzard",
-  "distribuidor": "Blizzard",
+  "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Estrategia en tiempo real / Ciencia ficción",
+  "desarrollador": "Blizzard Entertainment",
+  "distribuidor": "Blizzard Entertainment",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Revolucionario juego de estrategia en tiempo real lanzado el 31 de marzo de 1998. Ambientado en el sector Koprulu, enfrenta tres facciones únicas –Terran, Zerg, Protoss– con campañas separadas en una narrativa épica. Introdujo equilibrio de razas, multijugador online (Battle.net), editor de mapas y cinemáticas integradas."
 }

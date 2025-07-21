@@ -1,11 +1,10 @@
 {
   "titulo": "NHL 2000",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Deportes / Hockey sobre hielo / Simulación",
   "desarrollador": "EA Canada",
-  "distribuidor": "Electronic Arts",
+  "distribuidor": "EA Sports",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Videojuego de hockey sobre hielo lanzado en septiembre de 1999. Incluye 28 equipos de la NHL (con los expansionistas Atlanta Thrashers), modos temporada, playoffs, torneo internacional, temporada dinámica (Franchise mode) de hasta 10 años, draft de novatos, rostros personalizados mediante fotografías y comentaristas Bill Clement y Jim Hughson."
 }

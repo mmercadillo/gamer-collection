@@ -1,11 +1,11 @@
 {
   "titulo": "War in the Gulf",
-  "plataforma": "Ms-DOS 5.x",
+  "plataforma": "MS-DOS",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "The Bitmap Brothers",
-  "distribuidor": "Virgin Interactive",
+  "genero": "Simulación / Estrategia / Vehicular (tanque)",
+  "desarrollador": "Oxford Digital Enterprises",
+  "distribuidor": "Empire Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "War in the Gulf es un simulador de tanques lanzado en 1993 para MS‑DOS. Tercera entrega de la serie iniciada con Team Yankee, presenta combates en el Golfo Pérsico hipotéticos tras una segunda invasión iraquí a Kuwait. Se controla un pelotón de 16 tanques (divididos en cuatro unidades), manejando movimiento y disparo mediante una pantalla dividida y control exclusivo con ratón. Introduce gestión económica: destruir ciertas estructuras da dinero, mientras que destruir civiles lo resta. Combina vista arcade con modo táctico y mejoras de IA respecto a entregas anteriores :contentReference[oaicite:2]{index=2}.",
   "incluye": []
 }

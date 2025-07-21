@@ -1,11 +1,11 @@
 {
-  "titulo": "NBA Live 97",
-  "plataforma": "MS-DOS, Windows 95",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "titulo": "NBA Live 97",
+  "plataforma": "MS-DOS, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Deportes / Baloncesto / Simulación",
   "desarrollador": "EA Sports",
-  "distribuidor": "Electronic Arts",
+  "distribuidor": "EA Sports",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Tercera entrega de la saga NBA Live, lanzada en 1996. Incluye plantillas completas de la temporada NBA 1996‑97, soporte para modos temporada, playoffs y exhibición. Fue el primer NBA Live en usar jugadores poligonales en PC (MS‑DOS y Windows) y ofreció opciones de crear jugadores, ediciones de plantilla y multiplayer por LAN/modem.",
   "incluye": []
 }

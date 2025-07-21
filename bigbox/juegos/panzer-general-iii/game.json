@@ -1,11 +1,11 @@
 {
-  "titulo": "Panzer General III",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "titulo": "Panzer General III: Scorched Earth",
+  "plataforma": "Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Wargame / Estrategia por turnos / Segunda Guerra Mundial",
   "desarrollador": "Strategic Simulations, Inc.",
-  "distribuidor": "Mattel Interactive",
+  "distribuidor": "Strategic Simulations, Inc.",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Tercera entrega de la serie, lanzada el 28 de septiembre de 2000. Centrada en el Frente Oriental de la Segunda Guerra Mundial, permite comandar campañas como Alemania o la URSS, con cuatro campañas principales, mapas en 3D, gráficos climáticos mejorados, generador de batallas y multijugador para hasta 4 jugadores.",
   "incluye": []
 }

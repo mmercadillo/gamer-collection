@@ -1,11 +1,11 @@
 {
-  "titulo": "PC Fútbol 2001",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "titulo": "PC Fútbol 2001",
+  "plataforma": "Windows 95, Windows 98, Windows XP",
+  "estado": "Verificado",
+  "genero": "Deportes / Fútbol / Simulación y Gestión",
   "desarrollador": "Dinamic Multimedia",
   "distribuidor": "Dinamic Multimedia",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Última entrega de PC Fútbol por Dinamic Multimedia, lanzada en diciembre de 2001. Combina simulación de gestión y partidos en 3D, con modo Euromanager, copas virtuales, multijugador online (hasta 4 jugadores) y control de jugadores en cancha. Incluye ligas mayoritarias de Europa (España, Inglaterra, Italia, Francia, Alemania, Bélgica, Portugal, Escocia) y Argentina, con bases de datos y estadios actualizados.",
   "incluye": []
 }

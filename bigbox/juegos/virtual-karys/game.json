@@ -1,11 +1,11 @@
 {
-  "titulo": "Virtual Karys",
-  "plataforma": "Windows",
+  "titulo": "Virtual Karts",
+  "plataforma": "MS‑DOS (1995)",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Carreras / Simulación de karts",
+  "desarrollador": "MPS Labs",
+  "distribuidor": "MicroProse",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Virtual Karts es un simulador de karts en MS‑DOS lanzado en 1995. Incluye doce circuitos ambientados en ciudades como Nueva York, Baltimore y San Francisco, con tres clases de motor, cuatro tipos de chasis y ajuste avanzado de neumáticos y relaciones de cambios. Puede jugarse en primeras o terceras personas, ofrece gráficos VGA/SVGA y multijugador para hasta ocho jugadores vía red local :contentReference[oaicite:2]{index=2}.",
   "incluye": []
 }

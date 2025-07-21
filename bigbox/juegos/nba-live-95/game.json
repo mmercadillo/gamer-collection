@@ -1,11 +1,11 @@
 {
-  "titulo": "NBA Live 95",
-  "plataforma": "MS-DOS",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Hitmen Productions",
+  "titulo": "NBA Live 95",
+  "plataforma": "MS-DOS, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Deportes / Baloncesto / Simulación",
+  "desarrollador": "EA Canada (Hitmen Productions)",
   "distribuidor": "EA Sports",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Primer título de la saga NBA Live, lanzado en octubre de 1994. Introdujo perspectiva isométrica en el terreno de juego, control del 'turbo' y el medidor T‑meter para tiros libres. Incluye todas las plantillas de la temporada 1994‑95 (equipos All‑Star incluidos) y funciones de modo temporada, playoffs y exhibición, con resolución SVGA y sonido digital en PC.",
   "incluye": []
 }

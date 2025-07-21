@@ -1,11 +1,11 @@
 {
-  "titulo": "Pompeya. La Leyenda del Vesubio",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Pompeya: La leyenda del Vesubio",
+  "plataforma": "Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Aventura gráfica / Educativo / Fantasía histórica",
+  "desarrollador": "Arxel Tribe (en colaboración con Réunion des Musées Nationaux y Soprintendenza Archeologica di Pompei)",
+  "distribuidor": "Cryo Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica lanzada en 2000. Controlas al cartógrafo Adrian Blake en una misión para salvar a su prometida Sophia en Pompeya días antes de la erupción del Vesubio en el año 79 d.C. Emplea gráficos prerenderizados, recorrido en point‑&‑click y una enciclopedia interactiva con datos históricos sobre la Pompeya romana.",
   "incluye": []
 }

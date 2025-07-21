@@ -1,11 +1,11 @@
 {
-  "titulo": "Resurrection",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Resurrection: Return of the Black Dragon",
+  "plataforma": "Windows 95, Windows 98, Windows ME",
+  "estado": "Verificado",
+  "genero": "Acción / Aventura / Fantasía",
+  "desarrollador": "Nebula Entertainment",
+  "distribuidor": "Dinamic Multimedia",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de acción y aventura lanzado en el año 2000. Tres guerreros unen fuerzas en una épica misión para evitar que un dios demoníaco resucite al temido Dragón Negro, cuya existencia amenaza con devorar millones de almas.",
   "incluye": []
 }

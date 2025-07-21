@@ -1,11 +1,10 @@
 {
-  "titulo": "SimCity 3000",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "titulo": "SimCity 3000",
+  "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Simulación / Construcción de ciudades",
   "desarrollador": "Maxis",
   "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Lanzado el 31 de enero de 1999 para PC Windows, es la tercera entrega principal de SimCity. Introduce gestión de residuos, agricultura, negocios interurbanos, trato con vecinos (agua, energía, basura), banda sonora jazz/new‑age, asesores dinámicos, y un ticker de noticias humorístico. La versión mejorada ‘Unlimited’ salió en mayo de 2000 con nuevos desastres, escenarios, edificios regionales y editor de mapas."
 }

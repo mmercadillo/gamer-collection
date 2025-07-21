@@ -1,11 +1,11 @@
 {
   "titulo": "Olympic Soccer: Atlanta 1996",
-  "plataforma": "MS-DOS, PlayStation, SEGA Saturn, 3DO",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS-DOS, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Deportes / Fútbol / Juegos Olímpicos",
   "desarrollador": "Silicon Dreams Studio",
-  "distribuidor": "U.S. Gold Ltd.",
+  "distribuidor": "U.S. Gold",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego oficial de fútbol de los Juegos Olímpicos de Atlanta 1996, lanzado en 1996 para PC. Incluye 32 selecciones nacionales, modos arcade, copa olímpica y liga, distintos estadios oficiales, control ampliado y comentarios de Alan Green.",
   "incluye": []
 }

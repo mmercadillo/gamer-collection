@@ -1,11 +1,11 @@
 {
   "titulo": "TILT",
-  "plataforma": "Windows",
+  "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Pinball",
+  "desarrollador": "NMS Software",
+  "distribuidor": "Cryo Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "TILT es un juego de pinball digital que ofrece varias mesas temáticas con gráficos detallados y físicas realistas. Destaca por su ambientación variada, efectos visuales llamativos y una banda sonora adaptada a cada mesa. Fue uno de los títulos de pinball más completos en su época para PC.",
   "incluye": []
 }

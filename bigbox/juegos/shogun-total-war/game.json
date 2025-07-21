@@ -1,11 +1,11 @@
 {
   "titulo": "Shogun: Total War",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Creative Assembly",
+  "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+  "estado": "Verificado",
+  "genero": "Estrategia por turnos / Tácticas en tiempo real / Histórica",
+  "desarrollador": "The Creative Assembly",
   "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia por turnos con batallas tácticas en tiempo real ambientado en el Japón del periodo Sengoku. Lanzado el 12 de junio de 2000 en Norteamérica y el 16 de junio de 2000 en Europa. Incluye campaña estratégica, combates en 3D, diplomacia, espionaje y economía. Su éxito dio inicio a la saga Total War.",
   "incluye": []
 }

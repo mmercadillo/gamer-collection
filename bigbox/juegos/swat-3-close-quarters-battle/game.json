@@ -1,11 +1,11 @@
 {
   "titulo": "SWAT 3: Close Quarters Battle",
-  "plataforma": "Windows",
+  "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
+  "genero": "Táctico / Shooter en primera persona",
   "desarrollador": "Sierra Northwest",
   "distribuidor": "Sierra Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "SWAT 3 es un shooter táctico en primera persona en el que asumes el papel de un miembro del equipo SWAT del Departamento de Policía de Los Ángeles. El juego se enfoca en operaciones antiterroristas realistas y requiere planificación, precisión y cumplimiento de reglas estrictas de enfrentamiento. Fue aclamado por su realismo y su enfoque táctico frente a otros FPS más arcade de la época.",
   "incluye": []
 }

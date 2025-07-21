@@ -1,11 +1,11 @@
 {
   "titulo": "Star General",
-  "plataforma": "Windows",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Catware",
+  "plataforma": "MS‑DOS, Windows 95, Windows 98",
+  "estado": "Verificado",
+  "genero": "Wargame por turnos / Estrategia 4X / Ciencia ficción",
+  "desarrollador": "Catware (SSI)",
   "distribuidor": "Strategic Simulations, Inc.",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Última entrega de la serie 5‑Star General, publicada en diciembre de 1996. Utiliza el motor de Panzer General adaptado al espacio: gestiona flotas, conquista planetas, desarrolla infraestructuras, tecnología y combate en dos niveles (espacial y superficie planetaria). Ofrece campañas, escenarios y editor de misiones.",
   "incluye": []
 }

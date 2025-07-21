@@ -1,11 +1,11 @@
 {
   "titulo": "Total Annihilation",
-  "plataforma": "Windows",
+  "plataforma": "Windows 95/98/NT/2000, Mac OS (Classic)",
   "estado": "Sin-verificar",
-  "genero": "",
+  "genero": "Estrategia en tiempo real",
   "desarrollador": "Cavedog Entertainment",
   "distribuidor": "GT Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Total Annihilation es un innovador juego de estrategia en tiempo real lanzado el 30 de septiembre de 1997. Fue el primer RTS en presentar unidades y terreno en 3D, y su escala de batalla, inteligencia artificial avanzada, agrupamiento de unidades y el uso del 'Commander' central revolucionaron el género :contentReference[oaicite:1]{index=1}. El jugador construye bases, gestiona recursos (metal y energía), entrena ejércitos y se enfrenta en campañas tanto para el bando Arm como Core. Vendió más de un millón de copias, recibió múltiples premios (GameSpot GOTY 1997, mejor RTS de todos los tiempos según GameSpy 2004) y aún es influyente gracias a motores como Spring :contentReference[oaicite:2]{index=2}.",
   "incluye": []
 }

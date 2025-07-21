@@ -1,11 +1,10 @@
 {
   "titulo": "Pool of Radiance",
-  "plataforma": "MS-DOS",
-  "estado": "Sin-verificar",
-  "genero": "",
+  "plataforma": "MS‑DOS, Windows (a través de DOSBox en sistemas modernos)",
+  "estado": "Verificado",
+  "genero": "RPG / Rol táctico / Fantasía",
   "desarrollador": "Strategic Simulations, Inc.",
   "distribuidor": "Strategic Simulations, Inc.",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Lanzado en junio de 1988, fue el primer videojuego oficial basado en el sistema AD&D y marcó el inicio de la serie Gold Box. Ambientado en los Reinos Olvidados, el jugador lidera hasta seis aventureros para limpiar la ciudad de Phlan de criaturas malignas. Combina exploración en vista en primera persona con combates tácticos por turnos en cuadrícula. Permitía exportar personajes a secuelas como *Curse of the Azure Bonds* y *Pools of Darkness*."
 }
