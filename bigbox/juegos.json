@@ -288,6 +288,14 @@
       "distribuidor": "Virgin Interactive"
     },
     {
+      "titulo": "Runaway. A Road Aventure",
+      "url": "juegos/runaway-a-road-aventure/",
+      "plataforma": "Windows 95/98/Me",
+      "estado": "Sin-verificar",
+      "desarrollador": "Pendulo Studios",
+      "distribuidor": "Dinamic Multimedia"
+    },
+    {
       "titulo": "Bram Stoker's Dracula",
       "url": "juegos/bram-stokers-dracula/",
       "plataforma": "MS-DOS",
@@ -678,6 +686,22 @@
       "estado": "Sin-verificar",
       "desarrollador": "Impressions Games",
       "distribuidor": "Sierra Studios"
+    },
+    {
+      "titulo": "Faraón",
+      "url": "juegos/faraon-2/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Impressions Games",
+      "distribuidor": "Sierra Studios"
+    },
+    {
+      "titulo": "Moratl Kombat 3",
+      "url": "juegos/mortal-kombat-3/",
+      "plataforma": "MS‑DOS, Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Midway Games",
+      "distribuidor": "GT Interactive"
     },
     {
       "titulo": "Fausto: Los 7 Misterios del Alma",
