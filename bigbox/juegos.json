@@ -1954,6 +1954,15 @@
       "desarrollador": "Ensemble Studios",
       "distribuidor": "Microsoft",
       "ean": "805529051041"
+    },
+    {
+      "titulo": "Iron Assault",
+      "url": "juegos/iron-assault/",
+      "plataforma": "Ms-DOS 5.x, Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Graffiti",
+      "distribuidor": "Virgin Interactive Entertainment",
+      "ean": ""
     }
 
   ]
