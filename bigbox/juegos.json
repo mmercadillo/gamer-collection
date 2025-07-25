@@ -922,7 +922,15 @@
     {
       "titulo": "Lost Eden",
       "url": "juegos/lost-eden/",
-      "plataforma": "MS-DOS, Macintosh, 3DO, CD-i",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Cryo Interactive",
+      "distribuidor": "Virgin Interactive"
+    },    
+    {
+      "titulo": "Lost Eden",
+      "url": "juegos/lost-eden-2/",
+      "plataforma": "Windows 95/98",
       "estado": "Sin-verificar",
       "desarrollador": "Cryo Interactive",
       "distribuidor": "Virgin Interactive"
