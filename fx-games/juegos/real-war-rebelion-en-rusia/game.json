@@ -1,11 +1,18 @@
 {
-  "titulo": "Z: The Bitmap Brothers",
-  "plataforma": "MS‑DOS 6.x, Windows 95/98 ",
-  "estado": "Sin-verificar",
-  "genero": "Estrategia en tiempo real / Táctica en tiempo real",
-  "desarrollador": "The Bitmap Brothers",
-  "distribuidor": "Renegade Software (Reino Unido), Virgin Interactive (Europa/US), TickTock Games / Rebellion (re‑releases)",
-  "ean": "",
-  "descripcion": "Z es un juego de estrategia en tiempo real lanzado en 1996, en el que dos ejércitos de robots (rojo y azul) compiten por el control de sectores en varios planetas. A diferencia de otros RTS, no hay recolección de recursos ni construcción: basta con capturar zonas y unidades existentes. Destaca por su ritmo rápido, IA agresiva, humor irreverente y un diseño de misiones por planetas (5 planetas con 4 misiones cada uno). En 1998 se lanzó una versión para Windows 95 con expansión de niveles y editor (‘Z 95 & Expansion’), y en 2014/2025 se relanzó digitalmente en PC por TickTock/Rebellion (steam, GOG, DOSBox) :contentReference[oaicite:2]{index=2}",
-  "incluye": []
+  "titulo": "Real War: Rebelión en Rusia",
+  "plataforma": "Windows 95/98/XP",
+  "estado": "Verificado",
+  "genero": "Estrategia en tiempo real / Militar",
+  "desarrollador": "Rival Interactive",
+  "distribuidor": "FX Interactive",
+  "EAN": "8436010150140",
+  "descripcion": "Real War: Rebelión en Rusia es una expansión independiente del juego original *Real War*, lanzado en 2001. Ambientado en un contexto de guerra moderna, el jugador asume el rol de comandante de las fuerzas rusas o de la coalición internacional en una serie de misiones tácticas. El juego ofrece una jugabilidad centrada en la estrategia militar, con unidades terrestres, aéreas y navales, y escenarios que incluyen operaciones en territorio ruso.",
+  "incluye": [
+    "Campaña en 24 escenarios",
+    "13 mapas aleatorios",
+    "3 misiones extra de entrenamiento",
+    "Guía de unidades",
+    "Árbol de estructuras",
+    "Trucos"
+  ]
 }

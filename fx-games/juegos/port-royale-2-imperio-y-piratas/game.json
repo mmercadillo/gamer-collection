@@ -1,11 +1,11 @@
 {
-  "titulo": "Z: The Bitmap Brothers",
-  "plataforma": "MS‑DOS 6.x, Windows 95/98 ",
-  "estado": "Sin-verificar",
-  "genero": "Estrategia en tiempo real / Táctica en tiempo real",
-  "desarrollador": "The Bitmap Brothers",
-  "distribuidor": "Renegade Software (Reino Unido), Virgin Interactive (Europa/US), TickTock Games / Rebellion (re‑releases)",
-  "ean": "",
-  "descripcion": "Z es un juego de estrategia en tiempo real lanzado en 1996, en el que dos ejércitos de robots (rojo y azul) compiten por el control de sectores en varios planetas. A diferencia de otros RTS, no hay recolección de recursos ni construcción: basta con capturar zonas y unidades existentes. Destaca por su ritmo rápido, IA agresiva, humor irreverente y un diseño de misiones por planetas (5 planetas con 4 misiones cada uno). En 1998 se lanzó una versión para Windows 95 con expansión de niveles y editor (‘Z 95 & Expansion’), y en 2014/2025 se relanzó digitalmente en PC por TickTock/Rebellion (steam, GOG, DOSBox) :contentReference[oaicite:2]{index=2}",
-  "incluye": []
+  "titulo": "Port Royale 2: Imperio y Piratas",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Verificado",
+  "genero": "Estrategia en tiempo real / Simulación comercial",
+  "desarrollador": "Ascaron Entertainment",
+  "distribuidor": "FX Interactive",
+  "EAN": "8436010151180",
+  "descripcion": "Port Royale 2: Imperio y Piratas es un juego de estrategia en tiempo real ambientado en el Caribe del siglo XVII. El jugador asume el papel de un aventurero que puede dedicarse al comercio, la piratería o la política, con el objetivo de construir un imperio en la región. El juego permite establecer rutas comerciales, construir flotas, participar en batallas navales y conquistar ciudades. Además, incluye un sistema de rangos navales y la posibilidad de obtener una patente de corso para actuar legalmente como corsario.",
+  "incluye": ""
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "Z: The Bitmap Brothers",
-  "plataforma": "MS‑DOS 6.x, Windows 95/98 ",
+  "titulo": "Las Cruzadas",
+  "plataforma": "Windows XP/Vista/7",
   "estado": "Sin-verificar",
-  "genero": "Estrategia en tiempo real / Táctica en tiempo real",
-  "desarrollador": "The Bitmap Brothers",
-  "distribuidor": "Renegade Software (Reino Unido), Virgin Interactive (Europa/US), TickTock Games / Rebellion (re‑releases)",
-  "ean": "",
-  "descripcion": "Z es un juego de estrategia en tiempo real lanzado en 1996, en el que dos ejércitos de robots (rojo y azul) compiten por el control de sectores en varios planetas. A diferencia de otros RTS, no hay recolección de recursos ni construcción: basta con capturar zonas y unidades existentes. Destaca por su ritmo rápido, IA agresiva, humor irreverente y un diseño de misiones por planetas (5 planetas con 4 misiones cada uno). En 1998 se lanzó una versión para Windows 95 con expansión de niveles y editor (‘Z 95 & Expansion’), y en 2014/2025 se relanzó digitalmente en PC por TickTock/Rebellion (steam, GOG, DOSBox) :contentReference[oaicite:2]{index=2}",
-  "incluye": []
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "FX Interactive",
+  "distribuidor": "FX Interactive",
+  "EAN": "8436013463658",
+  "descripcion": "Las Cruzadas es un juego de estrategia en tiempo real que permite al jugador revivir las campañas militares emprendidas por los cristianos europeos entre los siglos XI y XIII con el objetivo de recuperar Jerusalén y otros lugares sagrados del control musulmán. El juego combina elementos históricos con mecánicas de gestión de recursos, construcción de ejércitos y tácticas de combate, ofreciendo una experiencia inmersiva en los conflictos medievales.",
+  "incluye": ""
 }

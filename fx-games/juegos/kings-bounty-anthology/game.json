@@ -1,11 +1,15 @@
 {
-  "titulo": "Z: The Bitmap Brothers",
-  "plataforma": "MS‑DOS 6.x, Windows 95/98 ",
-  "estado": "Sin-verificar",
-  "genero": "Estrategia en tiempo real / Táctica en tiempo real",
-  "desarrollador": "The Bitmap Brothers",
-  "distribuidor": "Renegade Software (Reino Unido), Virgin Interactive (Europa/US), TickTock Games / Rebellion (re‑releases)",
-  "ean": "",
-  "descripcion": "Z es un juego de estrategia en tiempo real lanzado en 1996, en el que dos ejércitos de robots (rojo y azul) compiten por el control de sectores en varios planetas. A diferencia de otros RTS, no hay recolección de recursos ni construcción: basta con capturar zonas y unidades existentes. Destaca por su ritmo rápido, IA agresiva, humor irreverente y un diseño de misiones por planetas (5 planetas con 4 misiones cada uno). En 1998 se lanzó una versión para Windows 95 con expansión de niveles y editor (‘Z 95 & Expansion’), y en 2014/2025 se relanzó digitalmente en PC por TickTock/Rebellion (steam, GOG, DOSBox) :contentReference[oaicite:2]{index=2}",
-  "incluye": []
+  "titulo": "King's Bounty Anthology",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Verificado",
+  "genero": "Estrategia por turnos / RPG táctico",
+  "desarrollador": "Katauri Interactive",
+  "distribuidor": "FX Interactive",
+  "EAN": "8436010154204",
+  "descripcion": "King's Bounty Anthology es una recopilación que incluye tres títulos de la saga King's Bounty: 'The Legend', 'Armored Princess' y su expansión 'Crossworlds'. Esta edición ofrece una experiencia completa de estrategia por turnos con elementos de rol, ambientada en un mundo fantástico lleno de batallas tácticas, exploración y gestión de ejércitos.",
+  "incluye": [
+    "King's Bounty: The Legend",
+    "King's Bounty: Armored Princess",
+    "King's Bounty: Crossworlds"
+  ]
 }

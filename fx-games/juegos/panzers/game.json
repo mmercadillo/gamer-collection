@@ -1,11 +1,11 @@
 {
-  "titulo": "Z: The Bitmap Brothers",
-  "plataforma": "MS‑DOS 6.x, Windows 95/98 ",
-  "estado": "Sin-verificar",
-  "genero": "Estrategia en tiempo real / Táctica en tiempo real",
-  "desarrollador": "The Bitmap Brothers",
-  "distribuidor": "Renegade Software (Reino Unido), Virgin Interactive (Europa/US), TickTock Games / Rebellion (re‑releases)",
-  "ean": "",
-  "descripcion": "Z es un juego de estrategia en tiempo real lanzado en 1996, en el que dos ejércitos de robots (rojo y azul) compiten por el control de sectores en varios planetas. A diferencia de otros RTS, no hay recolección de recursos ni construcción: basta con capturar zonas y unidades existentes. Destaca por su ritmo rápido, IA agresiva, humor irreverente y un diseño de misiones por planetas (5 planetas con 4 misiones cada uno). En 1998 se lanzó una versión para Windows 95 con expansión de niveles y editor (‘Z 95 & Expansion’), y en 2014/2025 se relanzó digitalmente en PC por TickTock/Rebellion (steam, GOG, DOSBox) :contentReference[oaicite:2]{index=2}",
-  "incluye": []
+  "titulo": "Panzers",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Verificado",
+  "genero": "Estrategia en tiempo real / Tácticas",
+  "desarrollador": "StormRegion",
+  "distribuidor": "FX Interactive",
+  "EAN": "8436010151067",
+  "descripcion": "Panzers es un juego de estrategia en tiempo real ambientado en la Segunda Guerra Mundial. El jugador asume el control de diferentes facciones, incluyendo el ejército alemán, soviético y aliado occidental, a través de diversas campañas que abarcan desde la invasión de Polonia hasta la batalla de Berlín. El juego destaca por su enfoque táctico, gráficos en 3D y un sistema de unidades que ganan experiencia a lo largo de las misiones.",
+  "incluye": ""
 }
