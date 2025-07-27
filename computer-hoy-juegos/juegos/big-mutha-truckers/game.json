@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Big Mutha Truckers",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Conducción / Acción",
+  "desarrollador": "Eutechnyx",
+  "distribuidor": "Empire Interactive",
+  "EAN": "",
+  "descripcion": "Conduce enormes camiones a lo largo del condado de Hick, transportando mercancías y compitiendo con otros camioneros en una carrera por heredar el negocio familiar.",
+  "incluye": ""
 }

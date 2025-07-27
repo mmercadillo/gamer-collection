@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Rainbow Six: Rogue Spear",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Shooter táctico en primera persona",
+  "desarrollador": "Red Storm Entertainment",
+  "distribuidor": "Red Storm Entertainment / Ubisoft",
+  "EAN": "",
+  "descripcion": "Segunda entrega de la saga Rainbow Six, centrada en la acción táctica y realista. Planifica operaciones encubiertas, lidera a tu equipo antiterrorista y ejecuta misiones con precisión quirúrgica.",
+  "incluye": ""
 }

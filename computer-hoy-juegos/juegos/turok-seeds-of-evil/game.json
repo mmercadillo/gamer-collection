@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Turok: Seeds of Evil",
+  "plataforma": "Windows 95/98/ME",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Shooter en primera persona",
+  "desarrollador": "Iguana Entertainment",
+  "distribuidor": "Acclaim Entertainment",
+  "EAN": "",
+  "descripcion": "Secuela del aclamado shooter *Turok: Dinosaur Hunter*, con nuevos enemigos, escenarios más grandes y un arsenal brutal. Viaja por mundos alienígenas y enfréntate a criaturas letales en esta aventura cargada de acción.",
+  "incluye": ""
 }

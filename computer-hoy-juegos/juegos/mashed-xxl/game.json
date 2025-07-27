@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Mashed XXL",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Carreras / Combate vehicular",
+  "desarrollador": "Supersonic Software",
+  "distribuidor": "Empire Interactive",
+  "EAN": "",
+  "descripcion": "Juego de carreras caóticas con vista cenital, en el que hasta cuatro jugadores compiten en circuitos llenos de trampas, armas y explosiones. Diversión multijugador frenética con mucha acción.",
+  "incluye": ""
 }

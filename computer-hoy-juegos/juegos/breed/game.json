@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Breed",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Shooter en primera persona",
+  "desarrollador": "Brat Designs",
+  "distribuidor": "CDV Software Entertainment",
+  "EAN": "",
+  "descripcion": "Shooter futurista que combina combates terrestres y espaciales. Defiende la Tierra de una invasión alienígena liderando escuadrones en intensas misiones de acción.",
+  "incluye": ""
 }

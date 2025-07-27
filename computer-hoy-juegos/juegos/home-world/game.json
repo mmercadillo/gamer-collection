@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Homeworld",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia en tiempo real / Ciencia ficción",
+  "desarrollador": "Relic Entertainment",
+  "distribuidor": "Sierra Studios",
+  "EAN": "",
+  "descripcion": "Pionero en la estrategia en 3D total, Homeworld te pone al mando de una flota espacial en una odisea épica por recuperar el planeta natal perdido. Ofrece batallas tácticas con total libertad de movimiento espacial.",
+  "incluye": ""
 }

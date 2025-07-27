@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Legacy of Kain: Soul Reaver",
+  "plataforma": "Windows 95/98/ME",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Aventura / Hack and Slash",
+  "desarrollador": "Crystal Dynamics",
+  "distribuidor": "Eidos Interactive",
+  "EAN": "",
+  "descripcion": "Ambientado en el oscuro mundo de Nosgoth, encarnas a Raziel, un vampiro convertido en espectro, en una aventura épica de venganza, exploración, acertijos ambientales y combates en tiempo real.",
+  "incluye": ""
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Blade: The Edge of Darkness",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Aventura",
+  "desarrollador": "Rebel Act Studios",
+  "distribuidor": "Codemasters",
+  "EAN": "",
+  "descripcion": "Un juego de acción con elementos de rol ambientado en un oscuro mundo de fantasía. Elige entre cuatro héroes y lucha contra criaturas demoníacas en brutales combates cuerpo a cuerpo.",
+  "incluye": ""
 }

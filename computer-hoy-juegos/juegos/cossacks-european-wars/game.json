@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Cossacks: European Wars",
+  "plataforma": "Windows 95/98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "GSC Game World",
+  "distribuidor": "CDV Software Entertainment",
+  "EAN": "",
+  "descripcion": "Juego de estrategia en tiempo real ambientado entre los siglos XVII y XVIII en Europa. Participa en batallas históricas con miles de unidades simultáneamente en pantalla.",
+  "incluye": ""
 }

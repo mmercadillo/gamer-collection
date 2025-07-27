@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Patrician II: Fortuna, Poder y Victoria",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia / Gestión económica",
+  "desarrollador": "Ascaron",
+  "distribuidor": "FX Interactive",
+  "EAN": "",
+  "descripcion": "Simulador económico ambientado en la Liga Hanseática del siglo XIV. Como comerciante ambicioso, deberás expandir tu imperio mercantil, influir políticamente y alcanzar el poder absoluto.",
+  "incluye": ""
 }

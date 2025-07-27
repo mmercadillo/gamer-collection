@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Battle Realms",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Liquid Entertainment",
+  "distribuidor": "Ubisoft",
+  "EAN": "",
+  "descripcion": "Juego de estrategia ambientado en un mundo inspirado en el Japón feudal, donde la gestión de recursos y las decisiones tácticas son clave para la victoria.",
+  "incluye": ""
 }

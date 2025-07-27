@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Soul Reaver 2",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Aventura / Hack and Slash",
+  "desarrollador": "Crystal Dynamics",
+  "distribuidor": "Eidos Interactive",
+  "EAN": "",
+  "descripcion": "Secuela directa de *Legacy of Kain: Soul Reaver*, en la que controlas a Raziel en su búsqueda de venganza y verdad a través de un mundo gótico lleno de misterios, paradojas temporales y combates intensos.",
+  "incluye": ""
 }

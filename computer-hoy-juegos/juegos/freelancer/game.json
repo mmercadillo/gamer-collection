@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Freelancer",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Simulación espacial / Acción / Rol",
+  "desarrollador": "Digital Anvil",
+  "distribuidor": "Microsoft Game Studios",
+  "EAN": "",
+  "descripcion": "Un juego de simulación espacial en el que puedes explorar libremente una galaxia, comerciar, combatir y aceptar misiones como piloto independiente en un universo persistente lleno de facciones y conflictos.",
+  "incluye": ""
 }

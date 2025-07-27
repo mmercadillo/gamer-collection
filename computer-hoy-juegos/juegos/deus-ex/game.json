@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Deus Ex",
+  "plataforma": "Windows 98/ME/2000",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Rol / Cyberpunk",
+  "desarrollador": "Ion Storm",
+  "distribuidor": "Eidos Interactive",
+  "EAN": "",
+  "descripcion": "Una aclamada mezcla de shooter en primera persona y juego de rol, ambientado en un futuro distópico. Toma decisiones que afectan la historia mientras mejoras tus habilidades como agente nano-augmentado.",
+  "incluye": ""
 }

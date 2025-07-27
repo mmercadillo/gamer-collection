@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Söldner: Secret Wars",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Shooter táctico en tercera persona / Simulación militar",
+  "desarrollador": "Wings Simulations",
+  "distribuidor": "JoWooD Productions",
+  "EAN": "",
+  "descripcion": "Shooter táctico con énfasis en operaciones militares realistas, combates por tierra, mar y aire, y un amplio arsenal de vehículos y armamento. Ofrece modos para un jugador y multijugador a gran escala.",
+  "incluye": ""
 }

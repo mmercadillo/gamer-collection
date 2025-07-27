@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "NYR: New York Race",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Carreras futuristas",
+  "desarrollador": "Kalisto Entertainment",
+  "distribuidor": "Wanadoo Edition",
+  "EAN": "",
+  "descripcion": "Juego de carreras futuristas ambientado en el universo de la película *El Quinto Elemento*, con vehículos voladores compitiendo a través de los rascacielos de Nueva York en el siglo XXIII.",
+  "incluye": ""
 }

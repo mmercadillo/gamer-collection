@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Re-Volt",
+  "plataforma": "Windows 95/98/ME",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Carreras / Arcade",
+  "desarrollador": "Acclaim Studios London",
+  "distribuidor": "Acclaim Entertainment",
+  "EAN": "",
+  "descripcion": "Divertido juego de carreras con coches teledirigidos en circuitos ambientados en lugares cotidianos como jardines, supermercados y museos. Incluye armas, saltos y un multijugador muy adictivo.",
+  "incluye": ""
 }

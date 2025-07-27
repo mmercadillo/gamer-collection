@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
+  "titulo": "Tomb Raider",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Aventura / Plataformas",
+  "desarrollador": "Core Design",
+  "distribuidor": "Eidos Interactive",
+  "EAN": "",
+  "descripcion": "El clásico que dio origen a una de las sagas más icónicas. Acompaña a Lara Croft en su primera aventura, explorando antiguas ruinas, resolviendo puzles y enfrentándote a enemigos en tumbas olvidadas.",
+  "incluye": ""
 }

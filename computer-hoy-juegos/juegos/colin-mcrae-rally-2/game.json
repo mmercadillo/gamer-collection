@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Colin McRae Rally 2.0",
+  "plataforma": "Windows 95/98/ME/2000",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Conducción / Rally",
+  "desarrollador": "Codemasters",
+  "distribuidor": "Codemasters",
+  "EAN": "",
+  "descripcion": "Segunda entrega de la aclamada saga de rally, con mejoras en la física, más vehículos y circuitos reales. Uno de los referentes del género de conducción.",
+  "incluye": ""
 }

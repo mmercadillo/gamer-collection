@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "El Secreto del Nautilus",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Aventura gráfica / Point & Click",
+  "desarrollador": "Cryo Interactive",
+  "distribuidor": "Microïds",
+  "EAN": "",
+  "descripcion": "Inspirado en la obra de Julio Verne, este juego de aventura te pone en la piel de un científico que explora el legendario submarino Nautilus en busca de respuestas a antiguos secretos.",
+  "incluye": ""
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "SWAT 3: Close Quarters Battle",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Shooter táctico en primera persona",
+  "desarrollador": "Sierra Northwest",
+  "distribuidor": "Sierra Studios",
+  "EAN": "",
+  "descripcion": "Shooter táctico en el que lideras un equipo SWAT en misiones realistas de alto riesgo. Planea cada operación, usa tácticas no letales y toma decisiones críticas en situaciones de rehenes y terrorismo.",
+  "incluye": ""
 }

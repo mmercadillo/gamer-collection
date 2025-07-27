@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Racing Simulation 2",
+  "plataforma": "Windows 95/98/ME",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Simulación de conducción / Fórmula 1",
+  "desarrollador": "Ubisoft",
+  "distribuidor": "Ubisoft",
+  "EAN": "",
+  "descripcion": "Simulador de Fórmula 1 realista, con circuitos y coches inspirados en el campeonato, aunque sin licencia oficial. Ofrece múltiples modos de juego y una física exigente para los amantes del automovilismo.",
+  "incluye": ""
 }

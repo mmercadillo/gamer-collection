@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Industry Giant",
+  "plataforma": "Windows 95/98/ME",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia / Gestión económica",
+  "desarrollador": "JoWooD Productions",
+  "distribuidor": "Interactive Magic",
+  "EAN": "",
+  "descripcion": "Simulador económico en el que gestionas todo el proceso industrial: desde la producción de materias primas hasta la venta de productos en tiendas, con el objetivo de construir un imperio empresarial.",
+  "incluye": ""
 }

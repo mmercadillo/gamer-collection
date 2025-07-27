@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
+  "titulo": "Tomb Raider II",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Aventura / Plataformas",
+  "desarrollador": "Core Design",
+  "distribuidor": "Eidos Interactive",
+  "EAN": "",
+  "descripcion": "Segunda entrega de las aventuras de Lara Croft. Explora templos, palacios y cuevas submarinas en busca de la Daga de Xian, enfrentándote a trampas mortales y enemigos armados en escenarios más variados y detallados.",
+  "incluye": ""
 }

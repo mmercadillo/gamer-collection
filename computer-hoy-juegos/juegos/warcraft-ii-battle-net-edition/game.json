@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Warcraft II: Battle.net Edition",
+  "plataforma": "Windows 95/98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia en tiempo real / Fantasía",
+  "desarrollador": "Blizzard Entertainment",
+  "distribuidor": "Blizzard Entertainment",
+  "EAN": "",
+  "descripcion": "Edición especial del clásico *Warcraft II* que incluye el juego original y su expansión *Beyond the Dark Portal*, adaptados para el multijugador en línea a través de Battle.net. Orcos y humanos se enfrentan en épicas batallas de fantasía.",
+  "incluye": ""
 }

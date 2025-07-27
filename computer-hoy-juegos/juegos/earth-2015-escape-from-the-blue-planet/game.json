@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Earth 2150: Escape from the Blue Planet",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Reality Pump",
+  "distribuidor": "TopWare Interactive",
+  "EAN": "",
+  "descripcion": "Juego de estrategia futurista en el que tres facciones luchan por escapar de la Tierra antes de que el planeta sea destruido. Con construcción de bases, ciclos día/noche y clima dinámico.",
+  "incluye": ""
 }

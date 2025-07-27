@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Knight Shift",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia en tiempo real / Rol",
+  "desarrollador": "Reality Pump",
+  "distribuidor": "Zuxxez Entertainment",
+  "EAN": "",
+  "descripcion": "Un híbrido entre estrategia en tiempo real y juego de rol, con una ambientación de fantasía y un tono humorístico. Ofrece tanto una campaña estratégica como un modo RPG con progresión de personajes.",
+  "incluye": ""
 }

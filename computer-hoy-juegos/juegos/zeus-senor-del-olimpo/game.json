@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Zeus: Señor del Olimpo",
+  "plataforma": "Windows 95/98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia / Construcción de ciudades",
+  "desarrollador": "Impressions Games",
+  "distribuidor": "Sierra Studios",
+  "EAN": "",
+  "descripcion": "Juego de estrategia y construcción de ciudades ambientado en la antigua Grecia. Construye polis, invoca a los dioses del Olimpo, enfréntate a criaturas mitológicas y forja un imperio en campañas inspiradas en la mitología clásica.",
+  "incluye": ""
 }

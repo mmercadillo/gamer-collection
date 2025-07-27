@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Tomb Raider: Chronicles",
+  "plataforma": "Windows 95/98/ME",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Aventura / Plataformas",
+  "desarrollador": "Core Design",
+  "distribuidor": "Eidos Interactive",
+  "EAN": "",
+  "descripcion": "Quinta entrega de la saga Tomb Raider, que narra varias aventuras pasadas de Lara Croft a través de los recuerdos de sus allegados tras su desaparición. Nuevos escenarios, enemigos y desafíos en un homenaje a la saga clásica.",
+  "incluye": ""
 }

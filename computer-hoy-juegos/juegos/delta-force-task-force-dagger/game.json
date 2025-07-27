@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Delta Force: Task Force Dagger",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Shooter táctico en primera persona",
+  "desarrollador": "Zombie Studios",
+  "distribuidor": "NovaLogic",
+  "EAN": "",
+  "descripcion": "Shooter táctico ambientado en operaciones militares reales en Afganistán. Elige entre distintas unidades de fuerzas especiales y cumple misiones de infiltración y combate.",
+  "incluye": ""
 }

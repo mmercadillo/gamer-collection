@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
+  "titulo": "Tomb Raider III",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Aventura / Plataformas",
+  "desarrollador": "Core Design",
+  "distribuidor": "Eidos Interactive",
+  "EAN": "",
+  "descripcion": "Tercera entrega de la saga Tomb Raider, en la que Lara Croft viaja por todo el mundo en busca de antiguos artefactos creados a partir de un meteorito. Incluye niveles más complejos, rutas alternativas y mejoras gráficas.",
+  "incluye": ""
 }

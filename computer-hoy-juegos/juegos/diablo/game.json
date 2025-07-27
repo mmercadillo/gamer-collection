@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
+  "titulo": "Diablo",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Rol",
+  "desarrollador": "Blizzard Entertainment",
+  "distribuidor": "Blizzard Entertainment",
+  "EAN": "",
+  "descripcion": "Clásico juego de rol de acción en el que desciendes a las profundidades de la catedral de Tristán para enfrentarte a hordas demoníacas y derrotar al mismísimo Diablo.",
+  "incluye": ""
 }

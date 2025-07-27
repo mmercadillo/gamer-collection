@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Ground Control",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia táctica en tiempo real",
+  "desarrollador": "Massive Entertainment",
+  "distribuidor": "Sierra Studios",
+  "EAN": "",
+  "descripcion": "Juego de estrategia táctica en tiempo real ambientado en un futuro de guerras interplanetarias. A diferencia de otros RTS, Ground Control no tiene construcción de bases, centrándose en el combate y la gestión de unidades.",
+  "incluye": ""
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Dungeon Siege",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Rol",
+  "desarrollador": "Gas Powered Games",
+  "distribuidor": "Microsoft Game Studios",
+  "EAN": "",
+  "descripcion": "Explora el reino de Ehb en este RPG de acción con combates en tiempo real y un sistema de progresión sin clases, donde las habilidades mejoran según su uso.",
+  "incluye": ""
 }

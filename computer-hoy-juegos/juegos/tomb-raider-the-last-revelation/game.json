@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Tomb Raider: The Last Revelation",
+  "plataforma": "Windows 95/98/ME",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Aventura / Plataformas",
+  "desarrollador": "Core Design",
+  "distribuidor": "Eidos Interactive",
+  "EAN": "",
+  "descripcion": "En esta cuarta entrega de la saga, Lara Croft regresa a Egipto para enfrentarse a una amenaza ancestral desatada por error. Una aventura centrada en puzles, exploración y narrativa, con entornos interconectados y una historia más madura.",
+  "incluye": ""
 }

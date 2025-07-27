@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "American Conquest",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "GSC Game World",
+  "distribuidor": "FX Interactive",
+  "EAN": "",
+  "descripcion": "Revive la conquista del Nuevo Mundo en este juego de estrategia histórica, donde controlas potencias europeas o civilizaciones indígenas en batallas épicas.",
+  "incluye": ""
 }

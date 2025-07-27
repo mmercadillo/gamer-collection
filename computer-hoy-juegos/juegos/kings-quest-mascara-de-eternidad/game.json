@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
+  "titulo": "King's Quest: Máscara de la Eternidad",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Aventura gráfica / Acción",
+  "desarrollador": "Sierra Studios",
+  "distribuidor": "Sierra Studios",
+  "EAN": "",
+  "descripcion": "La octava entrega de la legendaria saga King's Quest, que mezcla elementos de aventura gráfica clásica con acción en tercera persona. Controla a Connor en su misión para restaurar la Máscara de la Eternidad y salvar el mundo.",
+  "incluye": ""
 }

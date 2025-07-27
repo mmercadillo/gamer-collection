@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Starsky & Hutch",
+  "plataforma": "Windows 98/ME/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Acción / Conducción",
+  "desarrollador": "Mind's Eye Productions",
+  "distribuidor": "Empire Interactive",
+  "EAN": "",
+  "descripcion": "Juego de acción y conducción basado en la popular serie de televisión de los años 70. Conduce el icónico coche rojo y blanco, persigue criminales y participa en misiones cooperativas al estilo arcade.",
+  "incluye": ""
 }

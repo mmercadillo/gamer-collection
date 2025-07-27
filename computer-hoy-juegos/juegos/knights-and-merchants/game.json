@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Knights and Merchants",
+  "plataforma": "Windows 95/98/ME",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Estrategia en tiempo real / Gestión",
+  "desarrollador": "Joymania Entertainment",
+  "distribuidor": "TopWare Interactive",
+  "EAN": "",
+  "descripcion": "Juego de estrategia medieval que combina construcción de ciudades, gestión de recursos y batallas tácticas. Destaca por su compleja cadena económica y estilo visual clásico.",
+  "incluye": ""
 }
