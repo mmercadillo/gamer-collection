@@ -77,7 +77,7 @@
       <img id="main-image" src="" alt="Imagen principal">
     </a>
     <div class="thumbnails" id="thumbnails"></div>
-    <p><strong>Formato:</strong> BigBox</p>
+    <p><strong>Formato:</strong></p>
     <p><strong>Plataforma:</strong> <span id="plataforma"></span></p>
     <p><strong>Estado:</strong> <span id="estado"></span></p>
     <p><strong>Género:</strong> <span id="genero"></span></p>
@@ -114,6 +114,9 @@
           document.getElementById("ean").textContent = data.ean || "Sin especificar";
 
           const ul = document.getElementById("incluye");
+          const liFotos = document.createElement("li");
+          liFotos.textContent = 'Ver fotos';
+          ul.appendChild(liFotos);
           data.incluye.forEach(item => {
             const li = document.createElement("li");
             li.textContent = item;
