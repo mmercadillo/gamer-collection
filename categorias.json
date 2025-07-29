@@ -18,5 +18,10 @@
     "nombre": "Dinamic Multimedia",
     "slug": "dinamic-multimedia",
     "url": "listado.html?categoria=dinamic-multimedia"
+  },
+  {
+    "nombre": "Serie: Los Sims",
+    "slug": "serie-los-sims",
+    "url": "listado.html?categoria=serie-los-sims"
   }
 ]
