@@ -1,11 +1,11 @@
 {
   "titulo": "Los Sims",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin‑verificar",
-  "genero": "Acción 3D / Arcade",
-  "desarrollador": "ElectroTech",
-  "distribuidor": "FX Interactive",
-  "EAN": "8436010150169",
-  "descripcion": "Acción 3D destructible con 25 misiones (6 multijugador originalmente), disco CD‑ROM, manual e instrucciones con mapas.",
+  "plataforma": "Windows 95/98/ME/2000",
+  "estado": "Sin-verificar",
+  "genero": "Simulacion de vida / Gestion",
+  "desarrollador": "Maxis",
+  "distribuidor": "Electronic Arts",
+  "ean": "",
+  "descripcion": "El juego original de simulación de vida que revolucionó el género. Crea personajes, diseña casas y gestiona cada aspecto de la vida cotidiana de tus Sims.",
   "incluye": ""
 }

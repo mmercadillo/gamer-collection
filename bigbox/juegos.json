@@ -1980,6 +1980,24 @@
       "desarrollador": "Graffiti",
       "distribuidor": "Virgin Interactive Entertainment",
       "ean": ""
+    },
+    {
+      "titulo": "Drácula. Resurección",
+      "url": "juegos/dracula-resurreccion/",
+      "plataforma": "Windows 98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Graffiti",
+      "distribuidor": "Virgin Interactive Entertainment",
+      "ean": ""
+    },
+    {
+      "titulo": "Star Wars. Rebel assault II. The hidden empire",
+      "url": "juegos/star-wars-rebel-assault-ii-the-hidden-empire/",
+      "plataforma": "Windows 98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Graffiti",
+      "distribuidor": "Virgin Interactive Entertainment",
+      "ean": ""
     }
 
   ]
