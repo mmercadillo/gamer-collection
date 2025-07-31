@@ -96,8 +96,16 @@
       "distribuidor": ""
     },
     {
-      "titulo": "Los Sims 2 pack",
-      "url": "juegos/los-sims-2-pack/",
+      "titulo": "Los Sims 2",
+      "url": "juegos/los-sims-2/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "",
+      "distribuidor": ""
+    },
+    {
+      "titulo": "Los Sims 2. Universitarios",
+      "url": "juegos/los-sims-2-universitarios/",
       "plataforma": "Windows 95/98",
       "estado": "Sin-verificar",
       "desarrollador": "",
