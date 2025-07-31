@@ -1,11 +1,11 @@
 {
-  "titulo": "Dino Crisis",
-  "plataforma": "Windows 95, Windows 98, Windows 2000",
-  "estado": "Verificado",
-  "genero": "Survival horror / Action-adventure",
-  "desarrollador": "Capcom Production Studio 4",
-  "distribuidor": "Capcom",
-  "ean": "4976219355681",
-  "descripcion": "Survival horror de acción lanzado en julio 1999 (JP) / enero 2000 (Global). Dirigido por Shinji Mikami (Resident Evil), presenta dinosaurios con IA agresiva en entornos 3D en tiempo real. La agente Regina debe explorar una instalación en Ibis Island, resolver puzzles, administrar recursos limitados e intentar escapar viva. Más de 2,4 M copias vendidas y relanzado en PSN, GOG y Steam para Windows modernos.",
-  "incluye": []
+  "titulo": "Star Wars: Rebel Assault II – The Hidden Empire",
+  "plataforma": "Windows 95/98",
+  "estado": "Sin-verificar",
+  "genero": "Accion / Shooter sobre railes",
+  "desarrollador": "LucasArts",
+  "distribuidor": "LucasArts",
+  "ean": "",
+  "descripcion": "Secuela del exitoso Rebel Assault, combina escenas cinemáticas en vídeo con fases de disparos sobre raíles y combates espaciales. Una experiencia interactiva ambientada en el universo de Star Wars.",
+  "incluye": ""
 }
