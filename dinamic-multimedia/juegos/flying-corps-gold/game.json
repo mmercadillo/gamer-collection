@@ -1,11 +1,11 @@
 {
-  "titulo": "Resurrection",
-  "plataforma": "Windows 95/98",
+  "titulo": "Flying Corps Gold",
+  "plataforma": "MS‑DOS y Windows 95 (con soporte Direct3D/3dfx)",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Simulación de vuelo (Primera Guerra Mundial)",
+  "desarrollador": "Rowan Software",
+  "distribuidor": "Dinamic Multimedia",
+  "ean": "8426239092241",
+  "descripcion": "Reedición de Flying Corps (1996) con soporte Direct3D y tarjetas 3dfx, campaña adicional, editor de misiones y multijugador.",
+  "incluye": ""
 }

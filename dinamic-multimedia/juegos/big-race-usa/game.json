@@ -1,11 +1,11 @@
 {
-  "titulo": "Resurrection",
-  "plataforma": "Windows 95/98",
+  "titulo": "Big Race USA",
+  "plataforma": "Windows 95/98/NT 4.0",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Pinball (simulación)",
+  "desarrollador": "Cunning Developments",
+  "distribuidor": "Dinamic Multimedia",
+  "ean": "8426239092227",
+  "descripcion": "Videojuego de pinball ambientado en un viaje por carretera por Estados Unidos, con minijuegos y mesas detalladas en distintas ciudades.",
+  "incluye": ""
 }

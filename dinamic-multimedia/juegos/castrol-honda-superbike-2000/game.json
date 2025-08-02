@@ -1,11 +1,11 @@
 {
-  "titulo": "Resurrection",
-  "plataforma": "Windows 95/98",
+  "titulo": "Castrol Honda Superbike 2000",
+  "plataforma": "Windows 95/98/NT 4.0 (compatibilidad XP/Vista)",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "Carreras de motos (licensed)",
+  "desarrollador": "Interactive Entertainment Ltd.",
+  "distribuidor": "Dinamic Multimedia",
+  "ean": "8426239092005",
+  "descripcion": "Título de carreras de motocicletas con licencia del equipo Castrol Honda (Honda RVF750 RC45), incluye modo Campeonato, Práctica, Entrenamiento y opciones de realismo configurable, multijugador LAN/split‑screen.",
+  "incluye": ""
 }

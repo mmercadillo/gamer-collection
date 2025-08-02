@@ -1,11 +1,11 @@
 {
-  "titulo": "Resurrection",
+  "titulo": "Grand Touring",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Carreras de circuito",
+  "desarrollador": "Elite Systems Ltd.",
+  "distribuidor": "Dinamic Multimedia",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Juego de carreras de circuito con más de 20 pistas, vehículos sin licencia oficial llamados genéricamente (coupe, saloon, etc.), modos arcade y simulación, soporte multijugador LAN/serial hasta 8 jugadores, clima dinámico, día/noche.",
+  "incluye": ""
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "Resurrection",
-  "plataforma": "Windows 95/98",
+  "titulo": "Get Medieval",
+  "plataforma": "Windows 95",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Hack and slash / dungeon crawl",
+  "desarrollador": "Monolith Productions",
+  "distribuidor": "Monolith Productions / Microïds",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Juego de acción y mazmorras desde vista cenital, similar a Gauntlet. Permite hasta 4 jugadores en hotseat o red, incluye editor de niveles ‘GMedit’ y 40 niveles en modo Dragon Quest.",
+  "incluye": ""
 }

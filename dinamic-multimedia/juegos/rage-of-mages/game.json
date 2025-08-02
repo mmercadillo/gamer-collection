@@ -1,11 +1,11 @@
 {
-  "titulo": "Resurrection",
+  "titulo": "Rage of Mages",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
-  "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "genero": "RPG / Estrategia en tiempo real",
+  "desarrollador": "Nival Interactive",
+  "distribuidor": "Dinamic Multimedia",
+  "ean": "8426239090704",
+  "descripcion": "Juego de rol con elementos de estrategia en tiempo real ambientado en un mundo de fantasía. Controla héroes, recluta unidades y enfréntate a campañas con objetivos variados en combates tácticos isométricos.",
+  "incluye": ""
 }

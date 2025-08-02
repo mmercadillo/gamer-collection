@@ -1,11 +1,11 @@
 {
-  "titulo": "Resurrection",
-  "plataforma": "Windows 95/98",
+  "titulo": "Pizza Syndicate",
+  "plataforma": "Windows",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Simulación / Gestión empresarial",
+  "desarrollador": "Software 2000",
+  "distribuidor": "Dinamic Multimedia",
   "ean": "",
-  "descripcion": "",
-  "incluye": []
+  "descripcion": "Simulación de negocio de cadena de pizzerías con componente criminal (‘syndicate’), ambientado en ciudades internacionales, en donde gestionas local, menú, marketing, personal y actividades mafiosas.",
+  "incluye": ""
 }
