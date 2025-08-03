@@ -23,5 +23,10 @@
     "nombre": "Serie: Los Sims",
     "slug": "serie-los-sims",
     "url": "listado.html?categoria=serie-los-sims"
+  },
+  {
+    "nombre": "Serie: Assassin's Creed",
+    "slug": "serie-assassins-creed",
+    "url": "listado.html?categoria=serie-assassins-creed"
   }
 ]

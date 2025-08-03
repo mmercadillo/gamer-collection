@@ -1,1 +1,146 @@
-[]
+[
+    {
+      "titulo": "Allien versus Predator",
+      "url": "juegos/allien-vs-predator/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Caesar III",
+      "url": "juegos/caesar-iii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Empire Earth",
+      "url": "juegos/empire-earth/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Diablo",
+      "url": "juegos/diablo/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Diablo II",
+      "url": "juegos/diablo-ii/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Diablo II. Expansion set",
+      "url": "juegos/diablo-ii-expansion-set/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "F.E.A.R. Gold edition",
+      "url": "juegos/fear-gold-edition/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Gabriel Knight 3",
+      "url": "juegos/gabriel-knight-3/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Ground control",
+      "url": "juegos/ground-control/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Leisure Suite Larry",
+      "url": "juegos/leisure-suite-larry/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Scarface. El precio del poder",
+      "url": "juegos/scarface-el-precio-del-poder/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Starcarft",
+      "url": "juegos/starcraft/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "SWAT 3. Elite edition",
+      "url": "juegos/swat-3-elite-edition/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "The Simpsons. Hit & run",
+      "url": "juegos/the-simpsons-hit-and-run/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Warcraft III. Raign of chaos",
+      "url": "juegos/warcraft-iii-reign-of-chaos/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    },
+    {
+      "titulo": "Warcraft III. Frozen Throne",
+      "url": "juegos/warcraft-iii-frozen-throne/",
+      "plataforma": "Windows 95/98",
+      "estado": "Sin-verificar",
+      "desarrollador": "Ensemble Studios",
+      "distribuidor": "Microsoft",
+      "ean": "805529051041"
+    }
+]
