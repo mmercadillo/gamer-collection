@@ -1,6 +1,6 @@
 {
   "titulo": "Duke Nukem 3D",
-  "plataforma": "MS‑DOS, Windows 95, Windows 98, Windows NT 4.0, Windows 2000, Windows XP, Macintosh (Classic OS), PlayStation, Sega Saturn",
+  "plataforma": "MS‑DOS, Windows 95, Windows 98, Windows NT 4.0, Windows 2000, Windows XP",
   "estado": "Verificado",
   "genero": "First‑person shooter",
   "desarrollador": "3D Realms (alias Apogee/3D Realms Team)",
@@ -8,6 +8,5 @@
   "ean": "",
   "descripcion": "Lanzado en abril de 1996 para PC, este shooter de acción rápida con el motor Build enfrentó a Duke con una invasión alienígena en la Tierra. Introdujo exploración de niveles no lineales, armas icónicas, interacciones con el entorno (puertas, bares, paneles), modo multijugador en LAN/Internet y una narrativa irreverente cargada de humor adulto. Se consolidó como referente del género FPS junto a Doom y Quake :contentReference[oaicite:2]{index=2}.",
   "incluye": [
-    "Duke Nukem 3D: Atomic Edition (expansión oficial, añade bot support, niveles extras)"
   ]
 }

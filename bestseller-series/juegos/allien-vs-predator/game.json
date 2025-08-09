@@ -1,11 +1,11 @@
 {
-  "titulo": "Caesar III",
+  "titulo": "Aliens Versus Predator",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "City-building · Estrategia",
-  "desarrollador": "Impressions Games",
-  "distribuidor": "Sierra / BestSeller Series",
+  "genero": "First-person shooter",
+  "desarrollador": "Rebellion Developments",
+  "distribuidor": "Fox Interactive",
   "ean": "",
-  "descripcion": "Juego de construcción de ciudades ambientado en el Imperio Romano, originalmente lanzado en septiembre de 1998, parte de la serie City Building de Sierra y reeditado en España dentro de la serie BestSeller.",
-  "incluye": ""
+  "descripcion": "Shooter en primera persona basado en la franquicia Alien vs Predator, con tres campañas jugables como Alien, Predator o Marine colonial, cada una con habilidades únicas y ambientación tensa y atmosférica.",
+  "incluye": []
 }
