@@ -1,11 +1,11 @@
 {
-  "titulo": "The Moon Project",
+  "titulo": "Earth 2150: The Moon Project",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "TopWare Programmy (editado por Dinamic Multimedia)",
+  "distribuidor": "Dinamic Multimedia",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela independiente de Earth 2150 en la que la Corporación Lunar descubre un proyecto secreto en la Luna. Ofrece nuevas campañas, unidades, tecnología, terreno lunar, editor de misiones y mejoras en el motor 3D.",
   "incluye": []
 }

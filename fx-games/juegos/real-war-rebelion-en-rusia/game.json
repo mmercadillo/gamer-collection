@@ -5,14 +5,8 @@
   "genero": "Estrategia en tiempo real / Militar",
   "desarrollador": "Rival Interactive",
   "distribuidor": "FX Interactive",
-  "EAN": "8436010150140",
+  "ean": "8436010150140",
   "descripcion": "Real War: Rebelión en Rusia es una expansión independiente del juego original *Real War*, lanzado en 2001. Ambientado en un contexto de guerra moderna, el jugador asume el rol de comandante de las fuerzas rusas o de la coalición internacional en una serie de misiones tácticas. El juego ofrece una jugabilidad centrada en la estrategia militar, con unidades terrestres, aéreas y navales, y escenarios que incluyen operaciones en territorio ruso.",
   "incluye": [
-    "Campaña en 24 escenarios",
-    "13 mapas aleatorios",
-    "3 misiones extra de entrenamiento",
-    "Guía de unidades",
-    "Árbol de estructuras",
-    "Trucos"
   ]
 }

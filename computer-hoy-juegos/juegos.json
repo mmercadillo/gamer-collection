@@ -2,451 +2,401 @@
     {
       "titulo": "American conquest",
       "url": "juegos/american-conquest/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "GSC Game World",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Battle realms",
       "url": "juegos/battle-realms/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Liquid Entertainment",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
       "titulo": "Beach life",
       "url": "juegos/beach-life/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Deep Red Games",
+      "distribuidor": "Eidos Interactive",
       "ean": ""
     },
     {
       "titulo": "Big Mutha truckers",
       "url": "juegos/big-mutha-truckers/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Eutechnyx",
+      "distribuidor": "Empire Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Blade. The edge of darkness",
+      "titulo": "Blade: The Edge of Darkness",
       "url": "juegos/blade-the-edge-of-darkness",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Rebel Act Studios",
+      "distribuidor": "Codemasters",
+      "ean": ""
     },
     {
       "titulo": "Breed",
       "url": "juegos/breed",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Brat Designs",
+      "distribuidor": "CDV Software Entertainment",
+      "ean": ""
     },
     {
-      "titulo": "Colin Mcrae rally 2",
+      "titulo": "Colin McRae Rally 2.0",
       "url": "juegos/colin-mcrae-rally-2",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME/2000",
+      "desarrollador": "Codemasters",
+      "distribuidor": "Codemasters",
+      "ean": ""
     },
     {
       "titulo": "Combat flight simulator",
       "url": "juegos/combat-flight-simulator",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
+      "desarrollador": "Microsoft",
       "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "ean": ""
     },
     {
-      "titulo": "Cossacks. European wars",
+      "titulo": "Cossacks: European Wars",
       "url": "juegos/cossacks-european-wars",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME/2000/XP",
+      "desarrollador": "GSC Game World",
+      "distribuidor": "CDV Software Entertainment",
+      "ean": ""
     },
     {
-      "titulo": "Delta force. Task force dagger",
+      "titulo": "Delta Force: Task Force Dagger",
       "url": "juegos/delta-force-task-force-dagger",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Zombie Studios",
+      "distribuidor": "NovaLogic",
+      "ean": ""
     },
     {
       "titulo": "Deus Ex",
       "url": "juegos/deus-ex",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000",
+      "desarrollador": "Ion Storm",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
     {
       "titulo": "Diablo",
       "url": "juegos/diablo",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "desarrollador": "Blizzard Entertainment",
+      "distribuidor": "Blizzard Entertainment",
+      "ean": ""
     },
     {
       "titulo": "Dungeon Siege",
       "url": "juegos/dungeon-siege",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Gas Powered Games",
+      "distribuidor": "Microsoft Game Studios",
+      "ean": ""
     },
     {
-      "titulo": "Earth 2015. Escape from the blue planet",
-      "url": "juegos/earth-2015-escape-from-the-blue-planet",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "titulo": "Earth 2150: Escape from the Blue Planet",
+      "url": "juegos/earth-2150-escape-from-the-blue-planet",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Reality Pump",
+      "distribuidor": "TopWare Interactive",
+      "ean": ""
     },
     {
       "titulo": "El secreto del Nautilus",
       "url": "juegos/el-secreto-del-nautilus",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Cryo Interactive",
+      "distribuidor": "Microïds",
+      "ean": ""
     },
     {
-      "titulo": "Faraon",
+      "titulo": "Faraón",
       "url": "juegos/faraon",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME/2000",
+      "desarrollador": "Impressions Games",
+      "distribuidor": "Sierra Studios",
+      "ean": ""
     },
     {
       "titulo": "Forsaken",
       "url": "juegos/forsaken",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "desarrollador": "Probe Entertainment",
+      "distribuidor": "Acclaim Entertainment",
+      "ean": ""
     },
     {
       "titulo": "Freelancer",
       "url": "juegos/freelancer",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Digital Anvil",
+      "distribuidor": "Microsoft Game Studios",
+      "ean": ""
     },
     {
       "titulo": "Ghost Master",
       "url": "juegos/ghost-master",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Sick Puppies",
+      "distribuidor": "Empire Interactive",
+      "ean": ""
     },
     {
       "titulo": "Ground Control",
       "url": "juegos/ground-control",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Massive Entertainment",
+      "distribuidor": "Sierra Studios",
+      "ean": ""
     },
     {
-      "titulo": "Home World",
+      "titulo": "Homeworld",
       "url": "juegos/home-world",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Relic Entertainment",
+      "distribuidor": "Sierra Studios",
+      "ean": ""
     },
     {
       "titulo": "Industry Giant",
       "url": "juegos/industry-giant",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "JoWooD Productions",
+      "distribuidor": "Interactive Magic",
+      "ean": ""
     },
     {
-      "titulo": "Kingpin. Life of crime",
+      "titulo": "Kingpin: Life of Crime",
       "url": "juegos/kingpin-life-of-crime",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "desarrollador": "Xatrix Entertainment",
+      "distribuidor": "Interplay Entertainment",
+      "ean": ""
     },
     {
-      "titulo": "King's Quest. Mascara de eternidad",
+      "titulo": "King's Quest: Máscara de la Eternidad",
       "url": "juegos/kings-quest-mascara-de-eternidad",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "desarrollador": "Sierra Studios",
+      "distribuidor": "Sierra Studios",
+      "ean": ""
     },
     {
       "titulo": "Knights and Merchants",
       "url": "juegos/knights-and-merchants",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "Joymania Entertainment",
+      "distribuidor": "TopWare Interactive",
+      "ean": ""
     },
     {
       "titulo": "Knight Shift",
       "url": "juegos/knight-shift",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Reality Pump",
+      "distribuidor": "Zuxxez Entertainment",
+      "ean": ""
     },
     {
-      "titulo": "Leisure Larry collection",
+      "titulo": "Leisure Suit Larry Collection",
       "url": "juegos/leisure-larry-collection",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "desarrollador": "Sierra On-Line",
+      "distribuidor": "Sierra On-Line",
+      "ean": ""
     },
     {
       "titulo": "Mashed XXL",
       "url": "juegos/mashed-xxl",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Supersonic Software",
+      "distribuidor": "Empire Interactive",
+      "ean": ""
     },
     {
       "titulo": "Nascar racing 4",
       "url": "juegos/nascar-racing-4",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Papyrus Design Group",
+      "distribuidor": "Sierra Sports",
+      "ean": ""
     },
     {
-      "titulo": "NYR. New York Race",
+      "titulo": "NYR: New York Race",
       "url": "juegos/nyr-new-york-race",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Kalisto Entertainment",
+      "distribuidor": "Wanadoo Edition",
+      "ean": ""
     },
     {
-      "titulo": "Patrician II. Fortuna, poder, victoria.",
+      "titulo": "Patrician II: Fortuna, Poder y Victoria",
       "url": "juegos/patrician-ii-fortuna-poder-victoria",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Ascaron",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Racing Simulation 2",
       "url": "juegos/racing-simulation-2",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "Ubisoft",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
-      "titulo": "Rainbow Six. Rogue Spear",
+      "titulo": "Rainbow Six: Rogue Spear",
       "url": "juegos/rainbow-six-rogue-spear",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Red Storm Entertainment",
+      "distribuidor": "Red Storm Entertainment / Ubisoft",
+      "ean": ""
     },
     {
       "titulo": "Re-volt",
       "url": "juegos/re-volt",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "Acclaim Studios London",
+      "distribuidor": "Acclaim Entertainment",
+      "ean": ""
     },
     {
       "titulo": "Shadow Man",
       "url": "juegos/shadow-man",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "Acclaim Studios Teesside",
+      "distribuidor": "Acclaim Entertainment",
+      "ean": ""
     },
     {
       "titulo": "Söldner: Secret Wars",
       "url": "juegos/soldner-secret-wars",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Wings Simulations",
+      "distribuidor": "JoWooD Productions",
+      "ean": ""
     },
     {
       "titulo": "Soul Reaver 2",
       "url": "juegos/soul-reaver-2",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Crystal Dynamics",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Soul Reaver. Legacy of Kain",
+      "titulo": "Legacy of Kain: Soul Reaver",
       "url": "juegos/soul-reaver-legacy-of-kain",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "Crystal Dynamics",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
     {
       "titulo": "Starsky & Hutch",
       "url": "juegos/starsky-and-hutch",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Mind's Eye Productions",
+      "distribuidor": "Empire Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Swat 3. Close Quarters Battle",
+      "titulo": "SWAT 3: Close Quarters Battle",
       "url": "juegos/swat-3-close-quarters-battle",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Sierra Northwest",
+      "distribuidor": "Sierra Studios",
+      "ean": ""
     },
     {
       "titulo": "The Italian Job",
       "url": "juegos/the-italian-job",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Climax Brighton",
+      "distribuidor": "SCi Games",
+      "ean": ""
     },
     {
       "titulo": "Tomb Raider",
       "url": "juegos/tomb-raider",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "desarrollador": "Core Design",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Tomb Raider. Chronicles",
+      "titulo": "Tomb Raider: Chronicles",
       "url": "juegos/tomb-raider-chronicles",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "Core Design",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Tomb raider II",
+      "titulo": "Tomb Raider II",
       "url": "juegos/tomb-raider-ii",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "desarrollador": "Core Design",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
     {
       "titulo": "Tomb raider III",
       "url": "juegos/tomb-raider-iii",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "desarrollador": "Core Design",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Tomb Raider. The last revelation",
+      "titulo": "Tomb Raider: The Last Revelation",
       "url": "juegos/tomb-raider-the-last-revelation",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "Core Design",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Turok. Seeds of evil",
+      "titulo": "Turok: Seeds of Evil",
       "url": "juegos/turok-seeds-of-evil",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME",
+      "desarrollador": "Iguana Entertainment",
+      "distribuidor": "Acclaim Entertainment",
+      "ean": ""
     },
     {
-      "titulo": "Vegas. Make it Big!",
+      "titulo": "Vegas: Make It Big",
       "url": "juegos/vegas-make-it-big",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 98/ME/2000/XP",
+      "desarrollador": "Deep Red Games",
+      "distribuidor": "Empire Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Warcraft II. Battle.net Edition",
+      "titulo": "Warcraft II: Battle.net Edition",
       "url": "juegos/warcraft-ii-battle-net-edition",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME/2000/XP",
+      "desarrollador": "Blizzard Entertainment",
+      "distribuidor": "Blizzard Entertainment",
+      "ean": ""
     },
     {
-      "titulo": "Zeus. Señor del Olimpo",
+      "titulo": "Zeus: Señor del Olimpo",
       "url": "juegos/zeus-senor-del-olimpo",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "0882224084390"
+      "plataforma": "Windows 95/98/ME/2000/XP",
+      "desarrollador": "Impressions Games",
+      "distribuidor": "Sierra Studios",
+      "ean": ""
     }
   ]

@@ -3,261 +3,261 @@
       "titulo": "Mega Sports",
       "url": "juegos/mega-sports/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Deportes (colección)",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Alien Paranoia",
       "url": "juegos/alien-paranoia/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98, Windows 2000",
+      "genero": "Action / 3D platform",
+      "desarrollador": "Eclipse Software",
+      "distribuidor": "Dinamic Multimedia, Akaei plc, Russobit‑M",
+      "ean": "5037120206161"
     },
     {
-      "titulo": "PC Fútbol 2001",
+      "titulo": "PC Fútbol 2001",
       "url": "juegos/pc-futbol-2001/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98, Windows XP",
+      "genero": "Deportes / Fútbol / Simulación y Gestión",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "The Moon Project",
       "url": "juegos/the-moon-project/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "TopWare Programmy (editado por Dinamic Multimedia)",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Euro Tour Cycling",
       "url": "juegos/euro-tour-cycling/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 98, Windows ME, Windows 2000, Windows XP",
+      "genero": "Simulación deportiva / Ciclismo / Gestión",
+      "desarrollador": "City Interactive",
+      "distribuidor": "City Interactive",
+      "ean": ""
     },
     {
       "titulo": "Grouch",
       "url": "juegos/grouch/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98, Windows ME, Windows XP",
+      "genero": "Acción / Beat 'em up / Hack & Slash / Fantasía",
+      "desarrollador": "Rebelmind",
+      "distribuidor": "Xicat Interactive / Dinamic Multimedia (España)",
+      "ean": ""
     },
     {
-      "titulo": "Enemy Engaged",
+      "titulo": "Enemy Engaged: Apache vs Havoc",
       "url": "juegos/enemy-engaged/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98, Windows ME, Windows 2000, Windows XP",
+      "genero": "Simulación de combate / Vuelo / Militar",
+      "desarrollador": "Razorworks",
+      "distribuidor": "Empire Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Resurrection",
+      "titulo": "Resurrection: Return of the Black Dragon",
       "url": "juegos/resurrection/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98, Windows ME",
+      "genero": "Acción / Aventura / Fantasía",
+      "desarrollador": "Nebula Entertainment",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Multi Sim",
       "url": "juegos/multi-sim/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "MS-DOS, Windows 95, Windows 98",
+      "genero": "Simulación / Estrategia / Multideporte",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Live! Boxing",
       "url": "juegos/live-boxing/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Deportes / Boxeo",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
-      "titulo": "Pro Pinball. Fantastic Journey",
+      "titulo": "Pro Pinball: Fantastic Journey",
       "url": "juegos/pro-pinball-fantastic-journey/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98, Windows ME",
+      "genero": "Simulación / Pinball",
+      "desarrollador": "Cunning Developments",
+      "distribuidor": "Empire Interactive",
+      "ean": ""
     },
     {
-      "titulo": "PC Fútbol 2000. Selección Española",
+      "titulo": "PC Fútbol 2000: Selección Española – Europa 2000",
       "url": "juegos/pc-futbol-2000-seleccion-espanola/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98",
+      "genero": "Deportes / Fútbol / Simulación",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Excalibug",
       "url": "juegos/excalibug/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98",
+      "genero": "Estrategia en tiempo real / Humor / Fantasía",
+      "desarrollador": "Index+",
+      "distribuidor": "France Telecom Multimedia / Wanadoo Edition",
+      "ean": ""
     },
     {
       "titulo": "La Prisión",
       "url": "juegos/la-prision/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "MMORPG / RPG",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Alien Paranoia",
       "url": "juegos/alien-paranoia-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95, Windows 98, Windows 2000",
+      "genero": "Action / 3D platform",
+      "desarrollador": "Eclipse Software",
+      "distribuidor": "Dinamic Multimedia, Akaei plc, Russobit‑M",
+      "ean": "5037120206161"
     },
     {
       "titulo": "Rage of mages",
       "url": "juegos/rage-of-mages/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "RPG / Estrategia en tiempo real",
+      "desarrollador": "Nival Interactive",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": "8426239090704"
     },
     {
-      "titulo": "Kids 1",
+      "titulo": "Dinamic Kids 1",
       "url": "juegos/kids-1/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Educativo",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Radical Drive",
       "url": "juegos/radical-drive/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Arcade / Carreras",
+      "desarrollador": "",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Tribal Rage",
       "url": "juegos/tribal-rage/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Estrategia en tiempo real (RTS)",
+      "desarrollador": "Disintegrator / TalonSoft",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
-      "titulo": "Big race. USA",
+      "titulo": "Big Race USA",
       "url": "juegos/big-race-usa/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95/98/NT 4.0",
+      "genero": "Pinball (simulación)",
+      "desarrollador": "Cunning Developments",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": "8426239092227"
     },
     {
       "titulo": "Multi 3D",
       "url": "juegos/multi-3d/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Pack de juegos 3D (acción, carreras, shooter)",
+      "desarrollador": "Variado (juegos incluidos)",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
-      "titulo": "101 Airborne en Normandia",
+      "titulo": "101: Airborne en Normandía",
       "url": "juegos/101-airborne-en-normandia/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Estrategia táctica por turnos",
+      "desarrollador": "Interactive Simulations",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": "8426239090506"
     },
     {
-      "titulo": "PC atletismo 2000. Extended edition",
+      "titulo": "PC Atletismo 2000: Extended Edition",
       "url": "juegos/pc-atletismo-2000-extended-edition/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Deportes (atletismo/mánager)",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Get Medieval",
       "url": "juegos/get-medieval/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95",
+      "genero": "Hack and slash / dungeon crawl",
+      "desarrollador": "Monolith Productions",
+      "distribuidor": "Monolith Productions / Microïds",
+      "ean": ""
     },
     {
-      "titulo": "Castrol Honda. Superbike 2000",
+      "titulo": "Castrol Honda Superbike 2000",
       "url": "juegos/castrol-honda-superbike-2000/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 95/98/NT 4.0 (compatibilidad XP/Vista)",
+      "genero": "Carreras de motos (licensed)",
+      "desarrollador": "Interactive Entertainment Ltd.",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": "8426239092005"
     },
     {
       "titulo": "Grand Touring",
       "url": "juegos/grand-touring/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Carreras de circuito",
+      "desarrollador": "Elite Systems Ltd.",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
-      "titulo": "Multi Sports 2000",
+      "titulo": "Multisports 2000",
       "url": "juegos/multi-sports-2000/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Deportes (pack de minijuegos)",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Pizza Syndicate",
       "url": "juegos/pizza-syndicate/",
       "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "genero": "Simulación / Gestión empresarial",
+      "desarrollador": "Software 2000",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": ""
     },
     {
       "titulo": "Flying Corps Gold",
       "url": "juegos/flying-corps-gold/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "MS‑DOS y Windows 95 (con soporte Direct3D/3dfx)",
+      "genero": "Simulación de vuelo (Primera Guerra Mundial)",
+      "desarrollador": "Rowan Software",
+      "distribuidor": "Dinamic Multimedia",
+      "ean": "8426239092241"
     }
 ]

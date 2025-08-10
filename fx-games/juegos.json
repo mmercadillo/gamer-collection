@@ -1,1306 +1,1460 @@
 [    
     {
-      "titulo": "Crazy Taxi 3",
+      "titulo": "Crazy Taxi 3: High Roller",
       "url": "juegos/crazy-taxi-3/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / XP",
+      "genero": "Carreras arcade",
+      "desarrollador": "Hitmaker (Sega)",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Crazy Taxi",
       "url": "juegos/crazy-taxi/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / 2000 / XP",
+      "genero": "Carreras arcade",
+      "desarrollador": "Hitmaker (Sega)",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Crazy Machines",
       "url": "juegos/crazy-machines/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista",
+      "genero": "Puzle / Física / Construcción de máquinas",
+      "desarrollador": "FAKT Software",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152217"
     },
     {
       "titulo": "Cossacks Anthology",
       "url": "juegos/cossacks-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / XP / Vista / 7",
+      "genero": "Estrategia en tiempo real / Gran escala histórica",
+      "desarrollador": "GSC Game World",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010151456"
     },
     {
       "titulo": "Conquistadores del Nuevo Mundo",
       "url": "juegos/conquistadores-del-nuevo-mundo/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7 / 8",
+      "genero": "RPG táctico por turnos / Estrategia histórica",
+      "desarrollador": "Logic Artists",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Colin McRae Rally 2.0",
+      "titulo": "Colin McRae Rally 2.0",
       "url": "juegos/colin-mcrae-rally-2-0/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "Carreras / Simulación de rally",
+      "desarrollador": "Codemasters",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150541"
     },
     {
-      "titulo": "Colin McRae Rally 04",
+      "titulo": "Colin McRae Rally 04",
       "url": "juegos/colin-mcrae-rally-04/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / 2000 / XP / Vista (SP1) / 7",
+      "genero": "Carreras / Simulación de rally",
+      "desarrollador": "Codemasters",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Colin McRae Dirt 2",
+      "titulo": "Colin McRae: DiRT 2",
       "url": "juegos/colin-mcrae-dirt-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "Carreras / Rally off-road",
+      "desarrollador": "Codemasters",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "City Simulator",
       "url": "juegos/city-simulator/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1‑SP2) / 7 / 8",
+      "genero": "Simulación / Colección de construcción de ciudades",
+      "desarrollador": "Varias (Haemimont Games, Monte Cristo, etc.)",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010155706"
     },
     {
       "titulo": "City Life Premium",
       "url": "juegos/city-life-premium/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "Simulación / Construcción de ciudades",
+      "desarrollador": "Monte Cristo",
+      "distribuidor": "FX Interactive",
+      "EAN": "8436010152903"
     },
     {
       "titulo": "Cities XL",
       "url": "juegos/cities-xl/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP SP3 / Vista SP1 / 7",
+      "genero": "Simulación / Construcción de ciudades",
+      "desarrollador": "Monte Cristo",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154501"
     },
     {
       "titulo": "Superbike 2000",
       "url": "juegos/superbike-2000/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98",
+      "genero": "Carreras / Motociclismo",
+      "desarrollador": "Milestone",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Caos en Deponia",
       "url": "juegos/caos-en-deponia/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7/8",
+      "genero": "Aventura gráfica / Point-and-click",
+      "desarrollador": "Daedalic Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Call of Juarez. Oro",
+      "titulo": "Call of Juarez – Edición Oro",
       "url": "juegos/call-of-juarez-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Shooter en primera persona / Western",
+      "desarrollador": "Techland",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Blood Bowl. Legendary Edition",
+      "titulo": "Blood Bowl: Legendary Edition",
       "url": "juegos/blood-bowl-legendary-edition/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "Deporte / Estrategia por turnos",
+      "desarrollador": "Cyanide Studios",
+      "distribuidor": "Focus Home Interactive (FX Interactive en España)",
+      "ean": ""
     },
     {
-      "titulo": "Avencast",
+      "titulo": "Avencast: Rise of the Mage",
       "url": "juegos/avencast/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Acción / RPG",
+      "desarrollador": "ClockStone Studio",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Enemy Engaged. Apache Havoc",
+      "titulo": "Enemy Engaged: Apache/Havoc",
       "url": "juegos/enemy-engaged-apache-havoc/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / XP",
+      "genero": "Simulador de combate aéreo",
+      "desarrollador": "Razorworks",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "American Conquest. Edicion Oro",
       "url": "juegos/american-conquest-edicion-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "GSC Game World",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010151456"
     },
     {
-      "titulo": "American Conquest. Anthology",
+      "titulo": "American Conquest Anthology",
       "url": "juegos/american-conquest-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / 2000 / XP / Vista",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "GSC Game World",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Alea Iacta Est. El Imperio Romano en guerra",
+      "titulo": "Alea Iacta Est: El Imperio Romano en Guerra",
       "url": "juegos/alea-iacta-est-el-imperio-romano-en-guerra/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia por turnos / Gran estrategia histórica",
+      "desarrollador": "AGEOD",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154976"
     },
     {
-      "titulo": "Ajedrez Premium. Fritz2",
+      "titulo": "Ajedrez Premium Fritz 2",
       "url": "juegos/ajedrez-premium-fritz2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98",
+      "genero": "Ajedrez / Entrenamiento y análisis",
+      "desarrollador": "ChessBase GmbH",
+      "distribuidor": "FX Interactive",
+      "ean": "9783866818033"
     },
     {
       "titulo": "After the War",
       "url": "juegos/after-the-war/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98",
+      "genero": "Acción / Aventura en tercera persona",
+      "desarrollador": "Creoteam (Buka Entertainment)",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Death to Spies",
+      "titulo": "Death to Spies: Edición Oro",
       "url": "juegos/death-to-spies/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 2000 / XP / Vista / 7",
+      "genero": "Acción / Sigilo en tercera persona",
+      "desarrollador": "Haggard Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152774"
     },
     {
-      "titulo": "Death to Spies. Anthology",
+      "titulo": "Death to Spies: Anthology",
       "url": "juegos/death-to-spies-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 2000 / XP / Vista / 7",
+      "genero": "Acción / Sigilo en tercera persona",
+      "desarrollador": "Haggard Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154068"
     },
     {
       "titulo": "Delta Force 2",
       "url": "juegos/delta-force-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 2000 / XP / Vista",
+      "genero": "Tiro táctico en primera persona",
+      "desarrollador": "NovaLogic",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Delta Force. Black Hawk Down",
+      "titulo": "Delta Force: Black Hawk Down",
       "url": "juegos/delta-force-black-hawk-down/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / 2000 / XP",
+      "genero": "Tiro en primera persona / Shooter táctico",
+      "desarrollador": "NovaLogic",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Disciples II. Anthology",
+      "titulo": "Disciples II: Anthology",
       "url": "juegos/disciples-ii-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia por turnos / RPG táctico",
+      "desarrollador": "Strategy First",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152392"
     },
     {
-      "titulo": "Disciples III. Renaissance",
+      "titulo": "Disciples III: Renaissance",
       "url": "juegos/disciples-iii-renaissance/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP SP2 / Vista / 7",
+      "genero": "Estrategia por turnos / RPG táctico",
+      "desarrollador": "Akella (.dat)",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Disciples III. Resurrection",
+      "titulo": "Disciples III: Resurrection",
       "url": "juegos/disciples-iii-resurrection/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP SP2 / Vista / 7",
+      "genero": "Estrategia por turnos / RPG táctico",
+      "desarrollador": "Akella (.dat)",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Dracula. Origin",
+      "titulo": "Dracula: Origin",
       "url": "juegos/dracula-origin/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP SP2 / Vista",
+      "genero": "Aventura gráfica / Point-and-click",
+      "desarrollador": "Frogwares",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Dracula II",
+      "titulo": "Dracula II: The Last Sanctuary",
       "url": "juegos/dracula-ii/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / XP",
+      "genero": "Aventura gráfica / Point-and-click",
+      "desarrollador": "Cryo Interactive / Wanadoo Edition",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Dragon's Lair. 20 Aniversario",
+      "titulo": "Dragon's Lair – Edición 20º Aniversario",
       "url": "juegos/dragons-lair-20-aniversario/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / XP",
+      "genero": "Arcade interactivo / Quick Time Events",
+      "desarrollador": "Digital Leisure (en colaboración con Don Bluth)",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Drakensang",
+      "titulo": "Drakensang: The Dark Eye",
       "url": "juegos/drakensang/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP SP2 / Vista / 7",
+      "genero": "RPG / Acción por turnos",
+      "desarrollador": "Radon Labs",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Drakensang. Anthology",
       "url": "juegos/drakensang-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "RPG / Acción por turnos",
+      "desarrollador": "Radon Labs",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153337"
     },
     {
-      "titulo": "Drakensang. Phileasson's secret",
+      "titulo": "Drakensang: Phileasson's Secret",
       "url": "juegos/drakensang-phileassons-secret/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "RPG / Acción por turnos (expansión)",
+      "desarrollador": "Radon Labs",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152880"
     },
     {
-      "titulo": "Drakensang. The River of Time",
+      "titulo": "Drakensang: The River of Time",
       "url": "juegos/drakensang-the-river-of-time/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "RPG / Acción por turnos",
+      "desarrollador": "Radon Labs",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152866"
     },
     {
-      "titulo": "Dungeons. The Dark Lord",
+      "titulo": "Dungeons: The Dark Lord",
       "url": "juegos/dungeons-the-dark-lord/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP SP2 / Vista / 7",
+      "genero": "Estrategia / Simulación / RPG",
+      "desarrollador": "Realmforge Studios",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153566"
     },
     {
       "titulo": "Dungeons. ",
       "url": "juegos/dungeons/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "Estrategia / Simulación / Gestión de mazmorras",
+      "desarrollador": "Realmforge Studios",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Eador. Masters of the Broken World",
+      "titulo": "Eador: Masters of the Broken World",
       "url": "juegos/eador-masters-of-the-broken-world/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP SP3 / Vista / 7",
+      "genero": "Estrategia por turnos / Rol táctico",
+      "desarrollador": "Snowbird Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154792"
     },
     {
-      "titulo": "El Primer Templario. En busca del Santo Grial",
+      "titulo": "El Primer Templario: En Busca del Santo Grial",
       "url": "juegos/el-primer-templario-en-busca-del-santo-grial/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "Acción / Aventura cooperativa",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154099"
     },
     {
-      "titulo": "Fx Fútbol. Temporada 2013/14",
+      "titulo": "FX Fútbol: Temporada 2013/14",
       "url": "juegos/fx-futbol-temporada-2013-14/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7/8",
+      "genero": "Manager Deportivo",
+      "desarrollador": "Crocodile Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013464808"
     },
     {
       "titulo": "Fx Fútbol 2.0",
       "url": "juegos/fx-futbol-2-0/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7/8",
+      "genero": "Manager Deportivo",
+      "desarrollador": "Crox Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013465058"
     },
     {
       "titulo": "El Rey Arturo",
       "url": "juegos/el-rey-arturo/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "Estrategia por turnos con batallas en tiempo real / Gestión fantástica",
+      "desarrollador": "Neocore Games",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Emergency 4. Edición Oro",
+      "titulo": "Emergency 4: Edición Oro",
       "url": "juegos/emergency-4-edicion-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP (SP3) / Vista (SP1) / 7",
+      "genero": "Simulación / Estrategia en tiempo real",
+      "desarrollador": "Sixteen Tons Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Estrategia Histórica",
       "url": "juegos/estrategia-historica/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / XP",
+      "genero": "Estrategia en tiempo real / Histórica",
+      "desarrollador": "CDV Software / GSC Game World / Nival Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010151159"
     },
     {
-      "titulo": "F22 Total Airwar",
+      "titulo": "F‑22 Total Air War",
       "url": "juegos/f22-total-airwar/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / ME",
+      "genero": "Simulador de vuelo / Combate aéreo moderno",
+      "desarrollador": "Digital Image Design",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150220"
     },
     {
-      "titulo": "Flatout 2",
+      "titulo": "FlatOut 2",
       "url": "juegos/flatout-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / 2000 / XP",
+      "genero": "Carreras arcade / Demolición",
+      "desarrollador": "Bugbear Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Football generation",
       "url": "juegos/football-generation/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / ME / 2000 / XP",
+      "genero": "Deporte / Fútbol",
+      "desarrollador": "Trecision S.p.A.",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Fritz 5",
+      "titulo": "Fritz 5 – Ajedrez Premium",
       "url": "juegos/fritz-5/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / ME",
+      "genero": "Ajedrez / Entrenamiento",
+      "desarrollador": "ChessBase / Frans Morsch",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Fritz 6",
+      "titulo": "Fritz 6 – Ajedrez Premium",
       "url": "juegos/fritz-6/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / ME / XP",
+      "genero": "Ajedrez / Entrenamiento y análisis",
+      "desarrollador": "ChessBase GmbH",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150541"
     },
     {
       "titulo": "Fritz 8",
       "url": "juegos/fritz-8/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "Ajedrez",
+      "desarrollador": "ChessBase",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Fx Chess plus",
       "url": "juegos/fx-chess-plus/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Ajedrez",
       "desarrollador": "",
-      "distribuidor": ""
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Imperium Total. Anthology",
+      "titulo": "Imperivm Total Anthology",
       "url": "juegos/imperium-total-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / City‑building (compilación)",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154648"
     },
     {
-      "titulo": "Imperium Online",
+      "titulo": "Imperivm Online",
       "url": "juegos/imperium-online/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Gestión de ciudades (MMORTS)",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Imperium Civitas III",
+      "titulo": "Imperivm Civitas III",
       "url": "juegos/imperium-civitas-iii/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia / City‑building",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152316"
     },
     {
-      "titulo": "Imperium Civitas II",
+      "titulo": "Imperivm Civitas II",
       "url": "juegos/imperium-civitas-ii/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia / City‑building",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010151784"
     },
     {
-      "titulo": "Imperium Civitas",
+      "titulo": "Imperivm Civitas",
       "url": "juegos/imperium-civitas/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia y gestión de ciudades",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013461517"
     },
     {
-      "titulo": "Imperium Civitas. Anthology",
+      "titulo": "Imperivm Civitas Anthology",
       "url": "juegos/imperium-civitas-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia / City‑building",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153160"
     },
     {
-      "titulo": "Imperium. Anthology",
+      "titulo": "Imperivm Anthology",
       "url": "juegos/imperium-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Haemimont Games / FX Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013463382"
     },
     {
-      "titulo": "Imperium III. Las Grandes Batallas de Roma",
+      "titulo": "Imperivm III: Las Grandes Batallas de Roma",
       "url": "juegos/imperium-iii-las-grandes-batallas-de-roma/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia / Táctica en tiempo real",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150671"
     },
     {
-      "titulo": "Imperium II. La Conquista de Hispania",
+      "titulo": "Imperivm II: La Conquista de Hispania",
       "url": "juegos/imperium-ii-la-conquista-de-hispania/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia en tiempo real / RPG",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Imperium. La Guerra de las Galias",
+      "titulo": "Imperivm: La Guerra de las Galias",
       "url": "juegos/imperium-la-guerra-de-las-galias/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / RPG (Real Time Conquest)",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150442"
     },
     {
-      "titulo": "Imperio de los mares. Anthology",
+      "titulo": "Imperio de los Mares Anthology",
       "url": "juegos/imperio-de-los-mares-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia naval",
+      "desarrollador": "Por definir",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013463658"
     },
     {
       "titulo": "Hollywood Monsters 2",
       "url": "juegos/hollywood-monsters-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Aventura gráfica",
+      "desarrollador": "Pendulo Studios",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013463788"
     },
     {
       "titulo": "Hollywood Monsters",
       "url": "juegos/hollywood-monsters/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98/XP",
+      "genero": "Aventura gráfica",
+      "desarrollador": "Pendulo Studios",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013460169"
     },
     {
       "titulo": "Half Life",
       "url": "juegos/half-life/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98/ME/2000/XP",
+      "genero": "Shooter en primera persona",
+      "desarrollador": "Valve",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013461166"
     },
     {
-      "titulo": "Grandes batallas medievales. Anthology",
+      "titulo": "Grandes Batallas Medievales Anthology",
       "url": "juegos/grandes-batallas-medievales-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Por definir",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013463757"
     },
     {
       "titulo": "Fx Fútbol 2015",
       "url": "juegos/fx-futbol-2015/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7/8",
+      "genero": "Manager Deportivo",
+      "desarrollador": "Crox Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013465362"
     },
     {
       "titulo": "Fx Fútbol",
       "url": "juegos/fx-futbol/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Manager Deportivo",
+      "desarrollador": "Crocodile Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013464570"
     },
     {
-      "titulo": "Jack Keane. Al rescate del Imperio Británico",
+      "titulo": "Jack Keane: Al rescate del Imperio Británico",
       "url": "juegos/jack-keane-al-rescate-del-imperio-britanico/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Aventura gráfica / Point-and-click",
+      "desarrollador": "Deck13 Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010151807"
     },
     {
       "titulo": "Kings of adventure",
       "url": "juegos/kings-of-adventure/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Aventura gráfica",
+      "desarrollador": "Diversos",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010155584"
     },
     {
-      "titulo": "King's Bounty. Anthology",
+      "titulo": "King's Bounty Anthology",
       "url": "juegos/kings-bounty-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia por turnos / RPG táctico",
+      "desarrollador": "Katauri Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154204"
     },
     {
-      "titulo": "King's Bounty. Armored Princess",
+      "titulo": "King's Bounty: Armored Princess",
       "url": "juegos/kings-bounty-armored-princess/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia táctica / RPG",
+      "desarrollador": "Katauri Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152453"
     },
     {
-      "titulo": "King's Bounty. Crossworlds. Torneo de campeones",
+      "titulo": "King's Bounty: Crossworlds – Torneo de Campeones",
       "url": "juegos/kings-bounty-crossworlds-torneo-de-campeones/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia táctica / RPG",
+      "desarrollador": "Katauri Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153061"
     },
     {
-      "titulo": "Zerzura. La ciudad prohibida",
+      "titulo": "Zersura: La Ciudad Prohibida",
       "url": "juegos/zersura-la-ciudad-prohibida/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Aventura / Puzles",
+      "desarrollador": "Imaginarium",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Las Cruzadas",
       "url": "juegos/las-cruzadas/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "FX Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436013463658"
     },
     {
       "titulo": "La fuga de Deponia",
       "url": "juegos/la-fuga-de-deponia/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Aventura gráfica / Point-and-click",
+      "desarrollador": "Daedalic Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154884"
     },
     {
       "titulo": "Lucius",
       "url": "juegos/lucius/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Aventura de terror / Sigilo",
+      "desarrollador": "Shiver Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154167"
     },
     {
       "titulo": "Mars Invader",
       "url": "juegos/mars-invader/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98/Me/2000/XP",
+      "genero": "Shoot 'em up / Arcade",
+      "desarrollador": "FX Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150749"
     },
     {
-      "titulo": "Men of War. Assault Squad",
+      "titulo": "Men of War: Assault Squad",
       "url": "juegos/men-of-war-assault-squad/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Tácticas",
+      "desarrollador": "Digitalmindsoft",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153733"
     },
     {
-      "titulo": "Men of War. Coleccionista",
+      "titulo": "Men of War: Edición Coleccionista",
       "url": "juegos/men-of-war-coleccionista/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Tácticas",
+      "desarrollador": "Digitalmindsoft",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154969"
     },
     {
-      "titulo": "Men of War. Condemned Heroes",
+      "titulo": "Men of War: Condemned Heroes",
       "url": "juegos/men-of-war-condemned-heroes/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia táctica en tiempo real",
+      "desarrollador": "1C-SoftClub",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153832"
     },
     {
-      "titulo": "Men of War. Edición Oro",
+      "titulo": "Men of War: Edición Oro",
       "url": "juegos/men-of-war-edicion-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Tácticas",
+      "desarrollador": "Digitalmindsoft",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153580"
     },
     {
-      "titulo": "Men of War. Vietnam",
+      "titulo": "Men of War: Vietnam",
       "url": "juegos/men-of-war-vietnam/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia táctica en tiempo real",
+      "desarrollador": "1C Company",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154181"
     },
     {
       "titulo": "Mind Training",
       "url": "juegos/mind-training/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Entrenamiento cognitivo / Bienestar",
+      "desarrollador": "MindHabits Inc.",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152104"
     },
     {
       "titulo": "Morpheus",
       "url": "juegos/morpheus/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98/Me",
+      "genero": "Aventura gráfica / Point-and-click",
+      "desarrollador": "Soap Bubble Productions",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150055"
     },
     {
-      "titulo": "Moto GP. Ultimate racing technology",
+      "titulo": "MotoGP: Ultimate Racing Technology",
       "url": "juegos/moto-gp-ultimate-racing-technology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Simulador de motociclismo / Carreras",
+      "desarrollador": "Climax Brighton",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150749"
     },
     {
-      "titulo": "Moto GP. Ultimate racing technology 2",
+      "titulo": "MotoGP: Ultimate Racing Technology 2",
       "url": "juegos/moto-gp-ultimate-racing-technology-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Simulador de motociclismo / Carreras",
+      "desarrollador": "Climax Brighton",
+      "distribuidor": "FX Interactive",
+      "ean": "4005209039482"
     },
     {
       "titulo": "New York Crimes",
       "url": "juegos/new-york-crimes/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Aventura gráfica / Thriller",
+      "desarrollador": "Pendulo Studios",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153535"
     },
     {
-      "titulo": "4x4 Offroad drive",
+      "titulo": "Off‑Road Drive 4x4",
       "url": "juegos/4x4-offroad-drive/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98",
+      "genero": "Carreras / Simulación todoterreno",
+      "desarrollador": "1C‑Avalon",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153436"
     },
     {
-      "titulo": "Omerta. City of Gangsters",
+      "titulo": "Omertá: City of Gangsters",
       "url": "juegos/omerta-city-of-gangsters/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia táctica por turnos / Simulación",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154471"
     },
     {
-      "titulo": "Painkiller. Edición Oro",
+      "titulo": "Painkiller: Edición de Oro",
       "url": "juegos/painkiller-edicion-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "FPS / Acción / Hordas",
+      "desarrollador": "People Can Fly",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152321"
     },
     {
-      "titulo": "Patrician II. Fortuna, poder, victoria",
+      "titulo": "atrician II: Fortuna, poder y victoria",
       "url": "juegos/patrician-ii-poder-fortuna-victoria/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98/Me/2000/XP",
+      "genero": "Simulación comercial / Estrategia en tiempo real",
+      "desarrollador": "Ascaron Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150541"
     },
     {
-      "titulo": "Patrician III. Imperio de los mares",
+      "titulo": "Patrician III: Imperio de los Mares",
       "url": "juegos/patrician-iii-imperio-de-los-mares/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Simulación comercial",
+      "desarrollador": "Ascaron Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150466"
     },
     {
-      "titulo": "Patrician IV. Imperio de los mares. Edición Oro",
+      "titulo": "Patrician IV: Imperio de los Mares – Edición Oro",
       "url": "juegos/patrician-iv-imperio-de-los-mares-edicion-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Simulación económica / Estrategia en tiempo real",
+      "desarrollador": "Gaming Minds Studios",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152835"
     },
     {
-      "titulo": "Patrician IV. Imperio de los mares",
+      "titulo": "Patrician IV: Imperio de los Mares",
       "url": "juegos/patrician-iv-imperio-de-los-mares/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Simulación económica / Estrategia en tiempo real",
+      "desarrollador": "Gaming Minds Studios",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010152822"
     },
     {
       "titulo": "Panzers",
       "url": "juegos/panzers/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Tácticas",
+      "desarrollador": "StormRegion",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010151067"
     },
     {
-      "titulo": "Panzers II",
+      "titulo": "Codename: Panzers – Phase Two",
       "url": "juegos/panzers-ii/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia táctica en tiempo real",
+      "desarrollador": "Stormregion",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150933"
     },
     {
-      "titulo": "Pc Atletismo. Edición oro",
+      "titulo": "PC Atletismo: Edición de Oro",
       "url": "juegos/pc-atletismo-edicion-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98/Me/2000/XP",
+      "genero": "Deportes / Atletismo",
+      "desarrollador": "Dinamic Multimedia",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150374"
     },
     {
       "titulo": "Port Royale. Oro, poder y piratas",
       "url": "juegos/port-royale-oro-poder-y-piratas/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Simulación comercial",
+      "desarrollador": "Ascaron Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010151180"
     },
     {
-      "titulo": "Port Royale 2. Imperio y piratas",
+      "titulo": "Port Royale 2: Imperio y Piratas",
       "url": "juegos/port-royale-2-imperio-y-piratas/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Simulación comercial",
+      "desarrollador": "Ascaron Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010151180"
     },
     {
       "titulo": "3D Power Tank",
       "url": "juegos/3d-power-tank/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98",
+      "genero": "Acción 3D / Arcade",
+      "desarrollador": "ElectroTech",
+      "distribuidor": "FX Interactive",
+      "EAN": "8436010150169"
     },
     {
       "titulo": "Pro Farm Simulator",
       "url": "juegos/pro-farm-simulator/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7/8",
+      "genero": "Simulación agrícola",
+      "desarrollador": "United Independent Entertainment GmbH",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010154915"
     },
     {
       "titulo": "Pro Race Driver",
       "url": "juegos/pro-race-driver/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista",
+      "genero": "Simulación de carreras / Automovilismo",
+      "desarrollador": "Codemasters",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150749"
     },
     {
-      "titulo": "Racedriver Grid",
-      "url": "juegos/racedriver-grid/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "titulo": "Race Driver: GRID",
+      "url": "juegos/race-driver-grid/",
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Simulador de carreras / Arcade",
+      "desarrollador": "Codemasters",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153614"
     },
     {
       "titulo": "Rayman",
       "url": "juegos/rayman/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98",
+      "genero": "Plataformas",
+      "desarrollador": "Ubisoft",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150000"
     },
     {
       "titulo": "Real war",
       "url": "juegos/real-war/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98/XP",
+      "genero": "Estrategia en tiempo real / Militar",
+      "desarrollador": "Rival Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010150140"
     },
     {
-      "titulo": "Real war. Rebelión en Rusia",
+      "titulo": "Real War: Rebelión en Rusia",
       "url": "juegos/real-war-rebelion-en-rusia/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95/98/XP",
+      "genero": "Estrategia en tiempo real / Militar",
+      "desarrollador": "Rival Interactive",
+      "distribuidor": "FX Interactive",
+      "EeanAN": "8436010150140"
     },
     {
-      "titulo": "Real warfare. Anthology",
+      "titulo": "Real Warfare Anthology",
       "url": "juegos/real-warfare-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Unicorn Games Studio",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Real warfare 2. Las Cruzadas del Norte",
+      "titulo": "Real Warfare 2: Las Cruzadas del Norte",
       "url": "juegos/real-warfare-2-las-cruzadas-del-norte/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real / Tácticas históricas",
+      "desarrollador": "Unicorn Games Studio",
+      "distribuidor": "FX Interactive",
+      "ean": "8436010153696"
     },
     {
       "titulo": "Robin Hood",
       "url": "juegos/robin-hood/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Spellbound Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Roland Garros 2000",
       "url": "juegos/roland-garros-2000/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / ME",
+      "genero": "Deportes / Tenis",
+      "desarrollador": "Infogrames",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Runaway",
       "url": "juegos/runaway/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP / Vista",
+      "genero": "Aventura gráfica",
+      "desarrollador": "Pendulo Studios",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Runaway 2",
+      "titulo": "Runaway 2: The Dream of the Turtle",
       "url": "juegos/runaway-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista",
+      "genero": "Aventura gráfica",
+      "desarrollador": "Pendulo Studios",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Supreme Snowboarding",
       "url": "juegos/supreme-snowboarding/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98",
+      "genero": "Deportes / Snowboard",
+      "desarrollador": "Radical Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Submarine Titans",
       "url": "juegos/submarine-titans/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Ellipsis Arts",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Strike Fighters",
       "url": "juegos/strike-fighters/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Simulador de vuelo / Combate aéreo",
+      "desarrollador": "Third Wire Productions",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "StarCraft",
       "url": "juegos/starcraft/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Blizzard Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sparta II. Las conquistas de Alejandro Magno",
+      "titulo": "Sparta II: Las Conquistas de Alejandro Magno",
       "url": "juegos/spartta-ii-las-conquistas-de-alejandro-magno/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Creative Edge Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sparta. La batallas de las Termópilas",
+      "titulo": "Sparta: La Batalla de las Termópilas",
       "url": "juegos/sparta-la-batalla-de-las-termopilas/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Creative Edge Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sniper. Ghost Warrior",
+      "titulo": "Sniper: Ghost Warrior",
       "url": "juegos/sniper-ghost-warrior/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Shooter táctico / Sigilo",
+      "desarrollador": "City Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Ski Alpin",
       "url": "juegos/ski-alpin/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98",
+      "genero": "Deportes / Esquí",
+      "desarrollador": "Blue Byte",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sim. Anthology",
+      "titulo": "Sim Anthology",
       "url": "juegos/sim-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Simulación / Estrategia",
+      "desarrollador": "Maxis",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Silverfall. La profecía del señor de las tinieblas",
+      "titulo": "Silverfall: La Profecía del Señor de las Tinieblas",
       "url": "juegos/silverfall-la-profecia-del-señor-de-las-tinieblas/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista",
+      "genero": "Rol / Acción",
+      "desarrollador": "Monte Cristo",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sid Meier's. Civilization II",
+      "titulo": "Sid Meier's Civilization II",
       "url": "juegos/sid-meiers-civilization-ii/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "MS-DOS 6.x, Windows 95/98",
+      "genero": "Estrategia por turnos",
+      "desarrollador": "MicroProse",
+      "distribuidor": "MicroProse / FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Sherlock Holmes y el Rey de los ladrones",
       "url": "juegos/sherlock-holmes-y-el-rey-de-los-ladrones/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Aventura gráfica / Misterio",
+      "desarrollador": "Frogwares",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sherlock Holmes. La Aventura",
+      "titulo": "Sherlock Holmes: La Aventura",
       "url": "juegos/sherlock-holmes-la-aventura/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Aventura gráfica / Misterio",
+      "desarrollador": "Frogwares",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sherlock Holmes contra Jack el destripador",
+      "titulo": "Sherlock Holmes contra Jack el Destripador",
       "url": "juegos/sherlock-holmes-contra-jack-el-destripador/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Aventura gráfica / Misterio",
+      "desarrollador": "Frogwares",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sherlock Holmes. Anthology",
+      "titulo": "Sherlock Holmes Anthology",
       "url": "juegos/sherlock-holmes-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Aventura gráfica / Misterio",
+      "desarrollador": "Frogwares",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sega Rally. Championship",
+      "titulo": "Sega Rally Championship",
       "url": "juegos/sega-rally-championship/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98",
+      "genero": "Carreras / Rally",
+      "desarrollador": "SEGA",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Sacred. La leyenda del arma sagrada",
+      "titulo": "Sacred: La Leyenda del Arma Sagrada",
       "url": "juegos/sacred-la-leyenda-del-arma-sagrada/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Rol / Acción",
+      "desarrollador": "Ascaron Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Sacred",
       "url": "juegos/sacred/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Rol / Acción",
+      "desarrollador": "Ascaron Entertainment",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "The Art of War",
       "url": "juegos/the-art-of-war/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Enigma Software Productions",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "The Fallen",
       "url": "juegos/the-fallen/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Aventura / Acción",
+      "desarrollador": "Altar Interactive",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "The House of the Death",
       "url": "juegos/the-house-of-the-death/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Aventura gráfica / Terror",
+      "desarrollador": "Artex Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "The House of the Death 2",
       "url": "juegos/the-house-of-the-death-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Aventura gráfica / Terror",
+      "desarrollador": "Artex Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "The Longest Journey",
       "url": "juegos/the-longest-journey/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Aventura gráfica / Fantasía",
+      "desarrollador": "Funcom",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "TOCA Race Driver 2",
       "url": "juegos/toca-race-driver-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista",
+      "genero": "Carreras / Simulación",
+      "desarrollador": "Codemasters",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Torrente",
       "url": "juegos/torrente/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Aventura / Acción",
+      "desarrollador": "Pyro Studios",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Trackmania Original. Oro",
+      "titulo": "TrackMania Original Oro",
       "url": "juegos/trackmania-original-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Carreras / Arcade",
+      "desarrollador": "Nadeo",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Trackmania Forever",
       "url": "juegos/trackmania-forever/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Carreras / Arcade",
+      "desarrollador": "Nadeo",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Trainz Simulator 12",
       "url": "juegos/trainz-simulator-12/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Simulación / Trenes",
+      "desarrollador": "N3V Games",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Trials 2. Second edition",
+      "titulo": "Trials 2: Second Edition",
       "url": "juegos/trials-2-second-edition/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Carreras / Motocross",
+      "desarrollador": "RedLynx",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Traitors Gate",
       "url": "juegos/traitors-gate/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Aventura / Puzles",
+      "desarrollador": "Daylight Productions",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Tropico. Coleccionista",
+      "titulo": "Tropico Coleccionista",
       "url": "juegos/tropico-coleccionista/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia / Simulación",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Tropico. Global Power",
+      "titulo": "Tropico: Global Power",
       "url": "juegos/tropico-global-power/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia / Simulación",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Tropico 4",
       "url": "juegos/tropico-4/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia / Simulación",
+      "desarrollador": "Haemimont Games",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Turok",
       "url": "juegos/turok/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Shooter en primera persona",
+      "desarrollador": "Propaganda Games",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "TZAR. El poder de la corona",
+      "titulo": "Tzar: El Poder de la Corona",
       "url": "juegos/tzar-el-poder-de-la-corona/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Quicksilver Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "TZAR. Anthology",
+      "titulo": "Tzar Anthology",
       "url": "juegos/tzar-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Quicksilver Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "TZAR. Edición de Oro",
+      "titulo": "Tzar: Edición de Oro",
       "url": "juegos/tzar-edicion-de-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Quicksilver Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "TZAR. Excalibur y el Rey Arturo",
+      "titulo": "Tzar: Excalibur y el Rey Arturo",
       "url": "juegos/tzar-excalibur-y-el-rey-arturo/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Quicksilver Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "TZAR. Los Dominios de la Magia",
+      "titulo": "Tzar: Los Dominios de la Magia",
       "url": "juegos/tzar-los-dominios-de-la-magia/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Quicksilver Software",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "V-Rally 2. Expert Edition",
+      "titulo": "V-Rally 2: Expert Edition",
       "url": "juegos/v-rally-2-expert-edition/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Carreras / Rally",
+      "desarrollador": "Virtual Studio",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "Virtua Tennis",
       "url": "juegos/virtua-tennis/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Deportes / Tenis",
+      "desarrollador": "Sega",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "VIVA Football",
       "url": "juegos/viva-football/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Deportes / Fútbol",
+      "desarrollador": "Infogrames",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "X-Plane 8. Flight Simulator",
+      "titulo": "X-Plane 8 Flight Simulator",
       "url": "juegos/x-plane-8-flight-simulator/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Simulación / Vuelo",
+      "desarrollador": "Laminar Research",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "X-Plane 7. Flight Simulator",
+      "titulo": "X-Plane 7 Flight Simulator",
       "url": "juegos/x-plane-7-flight-simulator/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Simulación / Vuelo",
+      "desarrollador": "Laminar Research",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "World War II. Battle of Britain",
+      "titulo": "World War II: Battle of Britain",
       "url": "juegos/world-war-ii-battle-of-britain/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Simulador de vuelo / Combate aéreo",
+      "desarrollador": "Shockwave Productions",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
       "titulo": "WorldShift",
       "url": "juegos/worldshift/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows XP / Vista / 7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Black Sea Studios",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "Wings of Pray. Edición de Oro",
+      "titulo": "Wings of Pray: Edición de Oro",
       "url": "juegos/wings-of-pray-edicion-de-oro/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 95 / 98 / XP",
+      "genero": "Simulador de vuelo / Combate aéreo",
+      "desarrollador": "Loyalist Technologies",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
     {
-      "titulo": "War & Magic. Anthology",
+      "titulo": "War and Magic Anthology",
       "url": "juegos/war-and-magic-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
-    },
-    {
-      "titulo": "War & Magic. Anthology",
-      "url": "juegos/war-and-magic-anthology/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "",
-      "distribuidor": ""
+      "plataforma": "Windows 98 / XP",
+      "genero": "Estrategia / Rol",
+      "desarrollador": "New World Computing",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     }
 ]

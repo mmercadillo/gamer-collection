@@ -1,11 +1,11 @@
 {
   "titulo": "Ajedrez Premium Fritz 2",
-  "plataforma": "Windows (CD‑ROM)",
+  "plataforma": "Windows 95/98",
   "estado": "Sin‑verificar",
   "genero": "Ajedrez / Entrenamiento y análisis",
   "desarrollador": "ChessBase GmbH",
   "distribuidor": "FX Interactive",
-  "EAN": "9783866818033",
+  "ean": "9783866818033",
   "descripcion": "Programa de ajedrez completo con motor Fritz 2, funciones de entrenamiento, análisis automático, motor estilo Stockfish‑NNUE, base de datos de partidas, interfaz Fritz 17 y suscripción Premium.",
   "incluye": ""
 }
