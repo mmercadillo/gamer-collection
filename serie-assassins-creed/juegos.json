@@ -1,92 +1,92 @@
 [
     {
-      "titulo": "Assassin's creed. Revelations",
+      "titulo": "Assassin's Creed: Revelations",
       "url": "juegos/assassins-creed-revelations/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP SP3 / Vista SP2 / 7 SP1",
+      "genero": "Acción-aventura · Sigilo · Mundo abierto",
+      "desarrollador": "Ubisoft Montreal",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
-      "titulo": "Assassin's creed. Unity",
+      "titulo": "Assassin's Creed Unity",
       "url": "juegos/assassins-creed-unity/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 7 SP1 / 8 / 8.1",
+      "genero": "Acción-aventura · Sigilo · Mundo abierto · Cooperativo",
+      "desarrollador": "Ubisoft Montreal",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
-      "titulo": "Assassin's creed II",
+      "titulo": "Assassin's Creed II",
       "url": "juegos/assassins-creed-ii/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Acción-aventura · Sigilo · Mundo abierto",
+      "desarrollador": "Ubisoft Montreal",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
       "titulo": "Assassin's creed. Black flag",
       "url": "juegos/assassins-creed-black-flag/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 7/8/10/11",
+      "genero": "Acción-aventura · Mundo abierto",
+      "desarrollador": "Ubisoft Montreal",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
-      "titulo": "Assassin's creed. Rogue",
+      "titulo": "Assassin's Creed Rogue",
       "url": "juegos/assassins-creed-rogue/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 7 SP1 / 8 / 8.1",
+      "genero": "Acción-aventura · Sigilo · Mundo abierto",
+      "desarrollador": "Ubisoft Sofia",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
-      "titulo": "Assassin's creed. Hermandad",
+      "titulo": "Assassin's Creed: Hermandad",
       "url": "juegos/assassins-creed-hermandad/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Acción-aventura · Sigilo",
+      "desarrollador": "Ubisoft Montreal",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
-      "titulo": "Assassin's creed. Syndicate",
+      "titulo": "Assassin's Creed Syndicate",
       "url": "juegos/assassins-creed-syndicate/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows 7 SP1 / 8.1 / 10",
+      "genero": "Acción-aventura · Sigilo · Mundo abierto",
+      "desarrollador": "Ubisoft Quebec",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
       "titulo": "Assassin's creed III",
       "url": "juegos/assassins-creed-iii/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows Vista/7/8 (lanzamiento original), Windows 7/8.1/10 (Remastered)",
+      "genero": "Acción-aventura · Mundo abierto",
+      "desarrollador": "Ubisoft Montreal",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
-      "titulo": "Assassin's creed. Libertation HD",
+      "titulo": "Assassin's Creed: Liberation HD",
       "url": "juegos/assassins-creed-liberation-hd/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows Vista SP2 / 7 SP1 / 8 / 8.1",
+      "genero": "Acción-aventura · Sigilo · Mundo abierto",
+      "desarrollador": "Ubisoft Sofia",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     },
     {
-      "titulo": "Assassin's creed IV. Black flag",
+      "titulo": "Assassin's Creed IV: Black Flag",
       "url": "juegos/assassins-creed-iv-black-flag/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows Vista SP2 / 7 SP1 / 8 / 10",
+      "genero": "Acción-aventura · Mundo abierto · Sigilo",
+      "desarrollador": "Ubisoft Montreal",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     }
 ]
