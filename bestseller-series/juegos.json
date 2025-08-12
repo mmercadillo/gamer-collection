@@ -125,5 +125,23 @@
       "desarrollador": "Blizzard Entertainment",
       "distribuidor": "Blizzard Entertainment / Sierra Entertainment",
       "ean": "3348542200777"
+    },
+    {
+      "titulo": "Lords of the Realm III",
+      "url": "juegos/lords-of-the-realm-iii/",
+      "plataforma": "Windows XP/2000",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Impressions Games",
+      "distribuidor": "Sierra Entertainment",
+      "ean": ""
+    },
+    {
+      "titulo": "NASCAR Racing 2002 Season",
+      "url": "juegos/nascar-racing-2002-season/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "Simulación / Carreras",
+      "desarrollador": "Papyrus Design Group",
+      "distribuidor": "Sierra Entertainment",
+      "ean": ""
     }
 ]
