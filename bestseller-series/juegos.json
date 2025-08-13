@@ -143,5 +143,23 @@
       "desarrollador": "Papyrus Design Group",
       "distribuidor": "Sierra Entertainment",
       "ean": ""
+    },
+    {
+      "titulo": "Gunman",
+      "url": "juegos/gunman-chronicles/",
+      "plataforma": "Windows 95/98/ME/2000",
+      "genero": "Disparos en primera persona",
+      "desarrollador": "Rewolf Software",
+      "distribuidor": "Sierra Entertainment",
+      "ean": ""
+    },
+    {
+      "titulo": "The Operative: No one lives forever",
+      "url": "juegos/the-operative-no-one-lives-forever/",
+      "plataforma": "Windows 95/98/ME/2000",
+      "genero": "Disparos en primera persona",
+      "desarrollador": "Rewolf Software",
+      "distribuidor": "Sierra Entertainment",
+      "ean": ""
     }
 ]
