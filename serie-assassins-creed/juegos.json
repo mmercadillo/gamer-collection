@@ -88,5 +88,14 @@
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
       "ean": ""
+    },
+    {
+      "titulo": "Assassin's Creed",
+      "url": "juegos/assassins-creed/",
+      "plataforma": "Windows XP/Vista",
+      "genero": "Acción / Aventura",
+      "desarrollador": "Ubisoft Montreal",
+      "distribuidor": "Ubisoft",
+      "ean": ""
     }
 ]

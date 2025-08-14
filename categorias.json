@@ -20,6 +20,16 @@
     "url": "listado.html?categoria=dinamic-multimedia"
   },
   {
+    "nombre": "Computer Hoy Juegos",
+    "slug": "computer-hoy-juegos",
+    "url": "listado.html?categoria=computer-hoy-juegos"
+  },
+  {
+    "nombre": "Codegame",
+    "slug": "codegame",
+    "url": "listado.html?categoria=codegame"
+  },
+  {
     "nombre": "Serie: Los Sims",
     "slug": "serie-los-sims",
     "url": "listado.html?categoria=serie-los-sims"
