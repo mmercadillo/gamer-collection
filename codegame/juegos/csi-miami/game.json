@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "CSI: Miami",
+  "plataforma": "Windows 98/Me/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Aventura gráfica",
+  "desarrollador": "369 Interactive",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica basada en la serie de televisión CSI: Miami, donde el jugador colabora con el equipo de Horatio Caine para resolver crímenes mediante investigación forense y recopilación de pruebas.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Midtown Madness",
+  "plataforma": "Windows 98/Me",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Conducción",
+  "desarrollador": "Angel Studios",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de conducción en mundo abierto ambientado en la ciudad de Chicago, que permite al jugador competir en carreras urbanas, explorar libremente y participar en diferentes modos de juego.",
   "incluye": []
 }

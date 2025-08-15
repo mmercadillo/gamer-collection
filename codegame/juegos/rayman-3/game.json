@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Rayman 3: Hoodlum Havoc",
+  "plataforma": "Windows 98/Me/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Plataformas",
+  "desarrollador": "Ubisoft Montpellier",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Tercera entrega de la saga Rayman, un juego de plataformas en 3D donde el héroe sin extremidades debe enfrentarse a los Hoodlums para salvar el Claro de los Sueños, utilizando nuevas habilidades y poderes temporales.",
   "incluye": []
 }

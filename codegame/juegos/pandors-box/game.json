@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
+  "titulo": "Pandora's Box",
   "plataforma": "Windows 95/98",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Rompecabezas",
+  "desarrollador": "Microsoft Game Studios",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rompecabezas diseñado por Alexey Pajitnov, creador de Tetris, en el que el jugador resuelve distintos tipos de enigmas para capturar a las criaturas escapadas de la mítica caja de Pandora.",
   "incluye": []
 }

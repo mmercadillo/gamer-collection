@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Peter Jackson's King Kong: The Official Game of the Movie",
+  "plataforma": "Windows 2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Acción y aventura",
+  "desarrollador": "Ubisoft Montpellier",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de acción y aventura basado en la película de Peter Jackson, que permite al jugador vivir la historia desde dos perspectivas: como el explorador Jack Driscoll y como el gigantesco gorila King Kong.",
   "incluye": []
 }

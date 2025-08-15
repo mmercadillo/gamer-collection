@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Tom Clancy's Ghost Recon: Advanced Warfighter",
+  "plataforma": "Windows XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Disparos táctico en primera persona",
+  "desarrollador": "Red Storm Entertainment",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Entrega de la saga Ghost Recon ambientada en un futuro cercano, que incorpora tecnología militar avanzada y un sistema de mando mejorado para coordinar al escuadrón en misiones tácticas.",
   "incluye": []
 }

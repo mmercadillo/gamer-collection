@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Prince of Persia: El Alma del Guerrero",
+  "plataforma": "Windows 2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Acción y aventura",
+  "desarrollador": "Ubisoft Montreal",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Segunda entrega de la trilogía Sands of Time, donde el Príncipe debe enfrentarse al temible Dahaka para cambiar su destino, en una aventura más oscura y con un sistema de combate ampliado.",
   "incluye": []
 }

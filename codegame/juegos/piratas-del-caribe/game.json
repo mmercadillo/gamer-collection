@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Piratas del Caribe",
+  "plataforma": "Windows 98/Me/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Rol y acción",
+  "desarrollador": "Akella",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol y acción en mundo abierto ambientado en el Caribe del siglo XVII, donde el jugador explora islas, combate en batallas navales y participa en misiones inspiradas en la vida pirata.",
   "incluye": []
 }

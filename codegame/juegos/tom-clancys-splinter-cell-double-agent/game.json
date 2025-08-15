@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Tom Clancy's Splinter Cell: Double Agent",
+  "plataforma": "Windows 2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Sigilo y acción",
+  "desarrollador": "Ubisoft Shanghai",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Cuarta entrega de la saga Splinter Cell en la que Sam Fisher debe infiltrarse como agente doble en una organización terrorista, equilibrando sus lealtades y tomando decisiones que afectan al desarrollo de la historia.",
   "incluye": []
 }

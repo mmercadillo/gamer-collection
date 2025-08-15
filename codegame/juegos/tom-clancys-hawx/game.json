@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Tom Clancy's H.A.W.X.",
+  "plataforma": "Windows XP/Vista",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Simulación de vuelo y combate",
+  "desarrollador": "Ubisoft Romania",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de combate aéreo ambientado en un futuro cercano, donde el jugador pilota cazas modernos y utiliza sistemas avanzados de asistencia para completar misiones estratégicas alrededor del mundo.",
   "incluye": []
 }

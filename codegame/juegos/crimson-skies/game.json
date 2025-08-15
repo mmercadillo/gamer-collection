@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Crimson Skies",
+  "plataforma": "Windows 98/Me/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Simulación de vuelo y combate",
+  "desarrollador": "Zipper Interactive",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de simulación aérea y combate ambientado en una versión alternativa de los años 30, donde el jugador pilota aviones personalizados en combates llenos de acción y estilo pulp.",
   "incluye": []
 }

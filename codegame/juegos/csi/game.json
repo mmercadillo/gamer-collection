@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "CSI: Crime Scene Investigation",
+  "plataforma": "Windows 98/Me/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Aventura gráfica",
+  "desarrollador": "369 Interactive",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica basada en la serie de televisión CSI, en la que el jugador asume el papel de un investigador forense resolviendo casos mediante la recopilación de pistas y el análisis de evidencias.",
   "incluye": []
 }

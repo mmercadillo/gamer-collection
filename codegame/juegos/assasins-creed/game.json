@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Assassin's Creed",
+  "plataforma": "Windows XP/Vista",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Acción y aventura",
+  "desarrollador": "Ubisoft Montreal",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de acción y aventura en mundo abierto ambientado durante la Tercera Cruzada, donde el jugador controla a Altaïr, un maestro asesino que debe eliminar objetivos clave para alterar el curso de la historia.",
   "incluye": []
 }

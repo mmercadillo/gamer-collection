@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "The Elder Scrolls III: Morrowind",
+  "plataforma": "Windows 98/Me/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Rol",
+  "desarrollador": "Bethesda Game Studios",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol de mundo abierto ambientado en la isla de Vvardenfell, en la provincia de Morrowind, donde el jugador crea su personaje y explora un vasto mundo lleno de misiones, facciones y libertad de acción.",
   "incluye": []
 }

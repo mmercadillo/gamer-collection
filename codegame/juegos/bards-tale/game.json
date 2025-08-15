@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "The Bard's Tale",
+  "plataforma": "Windows XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Rol y aventura",
+  "desarrollador": "inXile Entertainment",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol y aventura con tono humorístico donde el jugador encarna a un trovador cínico que, acompañado de criaturas invocadas, se embarca en una misión para rescatar a una misteriosa joven.",
   "incluye": []
 }

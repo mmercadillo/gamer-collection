@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Uru: Ages Beyond Myst",
+  "plataforma": "Windows 98/Me/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Aventura gráfica",
+  "desarrollador": "Cyan Worlds",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica en tercera persona ambientada en el universo de Myst, que combina exploración de mundos detallados y resolución de rompecabezas, con un modo multijugador opcional.",
   "incluye": []
 }

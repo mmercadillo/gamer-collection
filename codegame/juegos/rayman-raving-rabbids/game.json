@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Rayman Raving Rabbids",
+  "plataforma": "Windows XP/Vista",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Minijuegos y fiesta",
+  "desarrollador": "Ubisoft Montpellier",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de minijuegos protagonizado por Rayman y los alocados conejos Rabbids, donde el jugador debe superar pruebas absurdas y divertidas para frustrar los planes de invasión de los conejos.",
   "incluye": []
 }

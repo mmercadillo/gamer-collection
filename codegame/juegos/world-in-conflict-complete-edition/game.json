@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "World in Conflict: Complete Edition",
+  "plataforma": "Windows XP/Vista",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Estrategia en tiempo real táctica",
+  "desarrollador": "Massive Entertainment",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Edición completa de World in Conflict que incluye el juego base y la expansión Soviet Assault, ofreciendo batallas tácticas en tiempo real ambientadas en un escenario ficticio de la Guerra Fría que escala a un conflicto global.",
   "incluye": []
 }

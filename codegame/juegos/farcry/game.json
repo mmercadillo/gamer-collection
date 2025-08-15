@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Far Cry",
+  "plataforma": "Windows 98/Me/2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Disparos en primera persona",
+  "desarrollador": "Crytek",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de disparos en primera persona ambientado en un archipiélago tropical, donde el jugador asume el papel de un exsoldado que debe enfrentarse a mercenarios y criaturas mutantes mientras descubre un oscuro experimento.",
   "incluye": []
 }

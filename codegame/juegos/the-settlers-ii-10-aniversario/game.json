@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "The Settlers II: 10º Aniversario",
+  "plataforma": "Windows 2000/XP",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Estrategia y construcción",
+  "desarrollador": "Blue Byte",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Remake del clásico The Settlers II con gráficos 3D y jugabilidad actualizada, en el que el jugador debe construir y gestionar un asentamiento mientras explora y conquista nuevas tierras.",
   "incluye": []
 }
