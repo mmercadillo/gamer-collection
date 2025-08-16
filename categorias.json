@@ -38,5 +38,15 @@
     "nombre": "Serie: Assassin's Creed",
     "slug": "serie-assassins-creed",
     "url": "listado.html?categoria=serie-assassins-creed"
+  },
+  {
+    "nombre": "Games for windows",
+    "slug": "games-for-windows",
+    "url": "listado.html?categoria=games-for-windows"
+  },
+  {
+    "nombre": "Formato DVD/CD",
+    "slug": "formato-dvd-cd",
+    "url": "listado.html?categoria=formato-dvd-cd"
   }
 ]
