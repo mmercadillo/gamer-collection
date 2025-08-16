@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "BioShock 2",
+  "plataforma": "Windows XP/Vista/7",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Acción, Shooter en primera persona",
+  "desarrollador": "2K Marin",
+  "distribuidor": "2K Games",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Segunda entrega de la saga BioShock que devuelve al jugador a Rapture, esta vez en el papel de un Big Daddy, combinando acción en primera persona con poderes plasmídicos.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "The Witcher",
+  "plataforma": "Windows XP/Vista",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "RPG",
+  "desarrollador": "CD Projekt Red",
+  "distribuidor": "Atari",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol basado en la saga literaria de Andrzej Sapkowski, donde el jugador encarna a Geralt de Rivia en un oscuro mundo de fantasía lleno de decisiones morales y combates con espada y magia.",
   "incluye": []
 }

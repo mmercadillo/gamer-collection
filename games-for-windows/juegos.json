@@ -1,137 +1,137 @@
 [
     {
-      "titulo": "Juego Base",
+      "titulo": "Age of Empires III: Colección Completa",
       "url": "juegos/age-of-empires-iii-coleccion-completa/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real",
       "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "distribuidor": "Microsoft Game Studios",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Alpha Protocol: Tu Decisión es tu Arma",
       "url": "juegos/alpha-protocol-tu-decision-es-tu-arma/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "RPG de acción",
+      "desarrollador": "Obsidian Entertainment",
+      "distribuidor": "SEGA",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "BioShock 2",
       "url": "juegos/bioshock-2/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Acción, Shooter en primera persona",
+      "desarrollador": "2K Marin",
+      "distribuidor": "2K Games",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Codegame: Panzers. Cold War",
       "url": "juegos/codegame-panzers-cold-war/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "InnoGlow",
+      "distribuidor": "FX Interactive",
+      "ean": ""
     },
-        {
-      "titulo": "Juego Base",
+    {
+      "titulo": "Dawn of War II: Chaos Rising",
       "url": "juegos/dawn-of-war-chaos-rising/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Relic Entertainment",
+      "distribuidor": "THQ",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
-      "url": "juegos/juempire-earth-iii/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "titulo": "Empire Earth III",
+      "url": "juegos/empire-earth-iii/",
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Mad Doc Software",
+      "distribuidor": "Sierra Entertainment",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
-      "url": "juegos/jukane-and-lynch-death-men/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "titulo": "Kane & Lynch: Dead Men",
+      "url": "juegos/kane-and-lynch-death-men/",
+      "plataforma": "Windows XP/Vista",
+      "genero": "Acción, Shooter en tercera persona",
+      "desarrollador": "IO Interactive",
+      "distribuidor": "Eidos Interactive",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Lost Planet: Extreme Condition",
       "url": "juegos/lost-planet-extreme-condition/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista",
+      "genero": "Acción, Shooter en tercera persona",
+      "desarrollador": "Capcom",
+      "distribuidor": "Capcom",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Port Royale 3",
       "url": "juegos/port-royale-3/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Estrategia, Simulación",
+      "desarrollador": "Gaming Minds Studios",
+      "distribuidor": "Kalypso Media",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Risen",
       "url": "juegos/risen/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "RPG",
+      "desarrollador": "Piranha Bytes",
+      "distribuidor": "Deep Silver",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Sacred 2: Fallen Angel",
       "url": "juegos/sacred-2-fallen-angel/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista",
+      "genero": "RPG, Acción",
+      "desarrollador": "Ascaron",
+      "distribuidor": "cdv Software Entertainment",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Sid Meier's Civilization IV: Complete",
       "url": "juegos/sid-meiers-civilization-iv-complete/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia por turnos",
+      "desarrollador": "Firaxis Games",
+      "distribuidor": "2K Games",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Stormrise",
       "url": "juegos/stormrise/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Creative Assembly",
+      "distribuidor": "SEGA",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "Supreme Commander: Forged Alliance",
       "url": "juegos/supreme-commander-forged-alliance/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista",
+      "genero": "Estrategia en tiempo real",
+      "desarrollador": "Gas Powered Games",
+      "distribuidor": "THQ",
+      "ean": ""
     },
         {
-      "titulo": "Juego Base",
+      "titulo": "The Witcher",
       "url": "juegos/the-witcher/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "plataforma": "Windows XP/Vista",
+      "genero": "RPG",
+      "desarrollador": "CD Projekt Red",
+      "distribuidor": "Atari",
+      "ean": ""
     }
 ]

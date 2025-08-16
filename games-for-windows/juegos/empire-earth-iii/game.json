@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Empire Earth III",
+  "plataforma": "Windows XP/Vista",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Mad Doc Software",
+  "distribuidor": "Sierra Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Tercera entrega de la saga Empire Earth que permite dirigir civilizaciones desde la prehistoria hasta el futuro, con tres facciones principales y un enfoque más simplificado en la gestión.",
   "incluye": []
 }

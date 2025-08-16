@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
+  "titulo": "Risen",
+  "plataforma": "Windows XP/Vista/7",
   "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "genero": "RPG",
+  "desarrollador": "Piranha Bytes",
+  "distribuidor": "Deep Silver",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol en tercera persona ambientado en una isla volcánica llena de criaturas, mazmorras y facciones enfrentadas, donde las elecciones del jugador influyen en la historia.",
   "incluye": []
 }
