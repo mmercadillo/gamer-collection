@@ -53,5 +53,10 @@
     "nombre": "Serie: EA Sports",
     "slug": "serie-ea-sports",
     "url": "listado.html?categoria=serie-ea-sports"
+  },
+  {
+    "nombre": "Serie: Lucas Arts Legends",
+    "slug": "serie-lucas-arts-legends",
+    "url": "listado.html?categoria=serie-lucas-arts-legends"
   }
 ]
