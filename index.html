@@ -86,49 +86,44 @@
           <th>Acceder</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <td>BigBox</td>
-          <td><a href="listado.html?categoria=bigbox">Ir al contenido</a></td>
-        </tr>
-        <tr>
-          <td>FX Games</td>
-          <td><a href="listado.html?categoria=fx-games">Ir al contenido</a></td>
-        </tr>
-        <tr>
-          <td>Bestseller Series</td>
-          <td><a href="listado.html?categoria=bestseller-series">Ir al contenido</a></td>
-        </tr>
-        <tr>
-          <td>Dinamic Multimedia</td>
-          <td><a href="listado.html?categoria=dinamic-multimedia">Ir al contenido</a></td>
-        </tr>        
-        <tr>
-          <td>Revista Computer Hoy - Juegos</td>
-          <td><a href="listado.html?categoria=computer-hoy-juegos">Ir al contenido</a></td>
-        </tr>   
-        <tr>
-          <td>Serie: Los Sims</td>
-          <td><a href="listado.html?categoria=serie-los-sims">Ir al contenido</a></td>
-        </tr>    
-        <tr>
-          <td>Serie: Assasin's creed</td>
-          <td><a href="listado.html?categoria=serie-assassins-creed">Ir al contenido</a></td>
-        </tr>           
-        <tr>
-          <td>Codegame</td>
-          <td><a href="listado.html?categoria=codegame">Ir al contenido</a></td>
-        </tr>    
-        <tr>
-          <td>Games for windows</td>
-          <td><a href="listado.html?categoria=games-for-windows">Ir al contenido</a></td>
-        </tr>               
-        <tr>
-          <td>Formato DVD/CD</td>
-          <td><a href="listado.html?categoria=formato-dvd-cd">Ir al contenido</a></td>
-        </tr>    
+      <tbody id="tabla-categorias">
+        <!-- Se carga dinámicamente -->
       </tbody>
     </table>
+    <script>
+
+      fetch(`categorias.json`)
+        .then(res => res.json())
+        .then(categorias => {
+          categorias.sort((a, b) => a.slug.localeCompare(b.slug, 'es', { sensitivity: 'base' }));
+          const tabla = document.getElementById("tabla-categorias");
+
+          categorias.forEach(categoria => {
+            const tr = document.createElement("tr");
+
+             const tdNombreCat = document.createElement("td");
+             tdNombreCat.textContent = categoria.nombre;
+
+            const tdVerjuegos = document.createElement("td");
+            const a = document.createElement("a");
+            const url = categoria.url.replace(/\/$/, "").split("/").pop();
+            a.href = `${url}`;
+            a.textContent = 'Ver juegos';
+            tdVerjuegos.appendChild(a);
+
+            tr.appendChild(tdNombreCat);
+            tr.appendChild(tdVerjuegos);
+
+            tabla.appendChild(tr);
+          });
+        })
+        .catch(err => {
+          const tabla = document.getElementById("tabla-categorias");
+          tabla.innerHTML = "<tr><td colspan='5'>Error al cargar los juegos.</td></tr>";
+          console.error("Error cargando juegos.json:", err);
+        });
+
+      </script>    
   </div>
 </body>
 </html>

@@ -48,5 +48,10 @@
     "nombre": "Formato DVD/CD",
     "slug": "formato-dvd-cd",
     "url": "listado.html?categoria=formato-dvd-cd"
+  },
+  {
+    "nombre": "Serie: EA Sports",
+    "slug": "serie-ea-sports",
+    "url": "listado.html?categoria=serie-ea-sports"
   }
 ]
