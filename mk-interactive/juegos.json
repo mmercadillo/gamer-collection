@@ -1,0 +1,65 @@
+[
+    {
+      "titulo": "CivCity: Roma",
+      "url": "juegos/civcity-roma/",
+      "plataforma": "Windows XP",
+      "genero": "Estrategia / City-building",
+      "desarrollador": "FireFly Studios, Firaxis Games",
+      "distribuidor": "2K Games",
+      "ean": ""
+    },
+    {
+      "titulo": "Iron Storm",
+      "url": "juegos/iron-storm/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "Acción / Shooter en primera persona",
+      "desarrollador": "4X Studios",
+      "distribuidor": "MK Interactive",
+      "ean": ""
+    },
+    {
+      "titulo": "Vietcong: Purple Haze",
+      "url": "juegos/vietcong-purple-haze/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "Acción / Shooter táctico en primera persona",
+      "desarrollador": "Pterodon, Illusion Softworks",
+      "distribuidor": "MK Interactive",
+      "ean": ""
+    },
+    {
+      "titulo": "Inquisition",
+      "url": "juegos/inquisition/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "Acción / Aventura",
+      "desarrollador": "4X Studios",
+      "distribuidor": "MK Interactive",
+      "ean": ""
+    },
+    {
+      "titulo": "Vietcong",
+      "url": "juegos/vietcong/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "Acción / Shooter táctico en primera persona",
+      "desarrollador": "Pterodon, Illusion Softworks",
+      "distribuidor": "MK Interactive",
+      "ean": ""
+    },
+    {
+      "titulo": "Vietcong 2",
+      "url": "juegos/vietcong-2/",
+      "plataforma": "Windows 2000/XP",
+      "genero": "Acción / Shooter táctico en primera persona",
+      "desarrollador": "Pterodon, Illusion Softworks",
+      "distribuidor": "MK Interactive",
+      "ean": ""
+    },
+    {
+      "titulo": "Post Mortem",
+      "url": "juegos/post-mortem/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "Aventura gráfica",
+      "desarrollador": "Microids",
+      "distribuidor": "MK Interactive",
+      "ean": ""
+    }
+]

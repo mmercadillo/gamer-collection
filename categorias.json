@@ -58,5 +58,15 @@
     "nombre": "Serie: Lucas Arts Legends",
     "slug": "serie-lucas-arts-legends",
     "url": "listado.html?categoria=serie-lucas-arts-legends"
+  },
+  {
+    "nombre": "MK Interactive",
+    "slug": "mk-interactive",
+    "url": "listado.html?categoria=mk-interactive"
+  },
+  {
+    "nombre": "Otros",
+    "slug": "otros",
+    "url": "listado.html?categoria=otros"
   }
 ]
