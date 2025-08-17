@@ -68,5 +68,25 @@
     "nombre": "Otros",
     "slug": "otros",
     "url": "listado.html?categoria=otros"
+  },
+  {
+    "nombre": "World of warcraft",
+    "slug": "world-of-warcraft",
+    "url": "listado.html?categoria=world-of-warcraft"
+  },
+  {
+    "nombre": "PC fútbol",
+    "slug": "pc-futbol",
+    "url": "listado.html?categoria=pc-futbol"
+  },
+  {
+    "nombre": "Ediciones especiales",
+    "slug": "ediciones-especiales",
+    "url": "listado.html?categoria=ediciones-especiales"
+  },
+  {
+    "nombre": "Mortadelo y Filemón",
+    "slug": "mortadelo-y-filemon",
+    "url": "listado.html?categoria=mortadelo-y-filemon"
   }
 ]
