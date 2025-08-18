@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Farming Simulator 2013",
+  "plataforma": "Windows XP/Vista/7/8",
+  "estado": "Sin verificar",
+  "genero": "Simulación",
+  "desarrollador": "GIANTS Software",
+  "distribuidor": "Focus Home Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador agrícola en el que el jugador gestiona su propia granja. Incluye cultivo de campos, cría de animales y uso de maquinaria agrícola realista de marcas licenciadas. Ofrece un mundo abierto, economía dinámica y soporte para mods creados por la comunidad.",
   "incluye": []
 }

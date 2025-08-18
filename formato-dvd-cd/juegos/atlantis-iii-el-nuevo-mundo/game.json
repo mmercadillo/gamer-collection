@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Atlantis III: El Nuevo Mundo",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Aventura, Puzzle",
+  "desarrollador": "Cryo Interactive",
+  "distribuidor": "Cryo Interactive / DreamCatcher Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica en la que el jugador explora mundos fantásticos y resuelve puzzles para descubrir los secretos de Atlantis. Combina exploración, interacción con el entorno y resolución de enigmas para avanzar en la historia de la civilización perdida.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Lionheart: Legacy of the Crusader",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG)",
+  "desarrollador": "Reflexive Entertainment, Black Isle Studios",
+  "distribuidor": "Interplay Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol ambientado en una historia alternativa tras la Tercera Cruzada, donde un cataclismo mágico ha cambiado el curso de la historia. Combina combates en tiempo real con pausa táctica, exploración y toma de decisiones en un mundo que mezcla hechos históricos con elementos fantásticos.",
   "incluye": []
 }

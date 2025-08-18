@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Warhammer 40,000: Dawn of War – Soulstorm",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Relic Entertainment",
+  "distribuidor": "THQ",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Expansión de Dawn of War que añade dos nuevas facciones, campañas adicionales y combates espaciales. El jugador dirige ejércitos en tiempo real en el universo de Warhammer 40.000, gestionando unidades, recursos y estrategias en mapas terrestres y orbitales.",
   "incluye": []
 }

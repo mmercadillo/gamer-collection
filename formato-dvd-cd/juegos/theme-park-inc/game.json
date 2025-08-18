@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Theme Park Inc.",
+  "plataforma": "Windows 95/98/Me/2000",
+  "estado": "Sin verificar",
+  "genero": "Simulación / Estrategia",
+  "desarrollador": "Bullfrog Productions",
+  "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de simulación en el que el jugador gestiona y expande un parque de atracciones, ocupándose de la administración, el diseño de las atracciones y la satisfacción de los visitantes.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Venetica",
+  "plataforma": "Windows XP/Vista",
+  "estado": "Sin verificar",
+  "genero": "Rol / Acción",
+  "desarrollador": "Deck13 Interactive",
+  "distribuidor": "DTP Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG de acción en tercera persona ambientado en una Venecia fantástica del siglo XVI, donde la protagonista Scarlett, hija de la Muerte, debe usar sus poderes sobrenaturales para enfrentarse a una amenaza oscura.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Delta Force: Black Hawk Down",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Shooter en primera persona, Táctico",
+  "desarrollador": "NovaLogic",
+  "distribuidor": "NovaLogic",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter táctico basado en hechos reales durante la guerra en Somalia. El jugador participa en misiones de operaciones especiales como Delta Force, incluyendo asaltos, rescates y combates urbanos, con énfasis en estrategia y coordinación en tiempo real.",
   "incluye": []
 }

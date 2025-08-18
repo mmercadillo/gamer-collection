@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Need for Speed: Underground",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Carreras",
+  "desarrollador": "EA Black Box",
+  "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Entrega de la saga Need for Speed centrada en la cultura del tuning y las carreras callejeras nocturnas. Introduce un modo historia con progresión, personalización estética y de rendimiento para los coches, y competiciones como sprint, circuito y drag.",
   "incluye": []
 }

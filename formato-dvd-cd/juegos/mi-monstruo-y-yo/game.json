@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Mi Monstruo y Yo",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Aventura, Infantil",
+  "desarrollador": "Nerlaska Studio",
+  "distribuidor": "Planeta DeAgostini Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Videojuego de aventura y minijuegos orientado al público infantil basado en la película 'Mi monstruo y yo' (Water Horse: Legend of the Deep). El jugador interactúa con el monstruo Nessie en distintos escenarios, resolviendo actividades y acompañando su crecimiento.",
   "incluye": []
 }

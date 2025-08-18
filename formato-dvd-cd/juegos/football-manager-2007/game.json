@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Football Manager 2007",
+  "plataforma": "Windows 2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Deportes, Gestión",
+  "desarrollador": "Sports Interactive",
+  "distribuidor": "SEGA",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de gestión futbolística en el que el jugador asume el rol de entrenador y mánager de un club. Permite controlar fichajes, tácticas, entrenamientos, economía y relaciones con jugadores y directiva, con una extensa base de datos de ligas y equipos de todo el mundo.",
   "incluye": []
 }

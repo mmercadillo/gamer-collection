@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Reservoir Dogs",
+  "plataforma": "Windows 2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción / Shooter en tercera persona",
+  "desarrollador": "Volatile Games",
+  "distribuidor": "Eidos Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Videojuego basado en la película de Quentin Tarantino. Permite jugar las escenas posteriores al atraco fallido, con mecánicas de disparos, conducción y un sistema de moralidad que valora la violencia frente al uso de tácticas intimidatorias.",
   "incluye": []
 }

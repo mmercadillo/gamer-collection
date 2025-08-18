@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Tomb Raider: Legend",
+  "plataforma": "Windows 2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción / Aventura",
+  "desarrollador": "Crystal Dynamics",
+  "distribuidor": "Eidos Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Entrega que revitaliza la saga Tomb Raider con un nuevo motor gráfico y un enfoque renovado en la acción y la exploración. Lara Croft viaja por todo el mundo en busca de un antiguo artefacto legendario.",
   "incluye": []
 }

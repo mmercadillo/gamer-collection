@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Max Payne",
+  "plataforma": "Windows 95/98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción, Disparos en tercera persona",
+  "desarrollador": "Remedy Entertainment",
+  "distribuidor": "Gathering of Developers, 3D Realms, Rockstar Games",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de acción en tercera persona que introdujo la mecánica de 'bullet time' para ralentizar la acción. El jugador controla a Max Payne, un detective de Nueva York que busca venganza tras el asesinato de su familia, enfrentándose a mafias y conspiraciones en una historia con estilo de novela gráfica.",
   "incluye": []
 }

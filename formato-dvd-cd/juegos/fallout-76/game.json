@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Fallout 76",
+  "plataforma": "Windows 7/8/10",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG), Mundo abierto, Multijugador en línea",
+  "desarrollador": "Bethesda Game Studios",
+  "distribuidor": "Bethesda Softworks",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Entrega multijugador de la saga Fallout ambientada en Virginia Occidental, 25 años después de la guerra nuclear. Los jugadores salen del Refugio 76 para explorar un vasto mundo abierto postapocalíptico, recolectar recursos, construir asentamientos y colaborar o competir con otros supervivientes en línea.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "The Technomancer",
+  "plataforma": "Windows 7/8/10",
+  "estado": "Sin verificar",
+  "genero": "Rol / Acción",
+  "desarrollador": "Spiders",
+  "distribuidor": "Focus Home Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG de acción ambientado en Marte, donde el jugador encarna a un Technomancer, un guerrero con poderes eléctricos, que debe sobrevivir en un mundo hostil dominado por corporaciones y facciones rivales.",
   "incluye": []
 }

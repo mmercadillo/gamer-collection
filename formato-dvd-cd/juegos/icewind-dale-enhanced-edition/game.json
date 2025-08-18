@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Icewind Dale: Enhanced Edition",
+  "plataforma": "Windows XP/Vista/7/8/10",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG)",
+  "desarrollador": "Beamdog, Overhaul Games",
+  "distribuidor": "Beamdog, Atari",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Versión mejorada del clásico RPG de mazmorras basado en Dungeons & Dragons. Incluye la campaña original Icewind Dale, las expansiones Heart of Winter y Trials of the Luremaster, mejoras gráficas, interfaz actualizada y nuevas clases, hechizos y objetos.",
   "incluye": []
 }

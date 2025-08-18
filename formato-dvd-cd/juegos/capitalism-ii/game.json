@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Capitalism II",
+  "plataforma": "Windows 95/98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Simulación, Estrategia Empresarial",
+  "desarrollador": "Enlight",
+  "distribuidor": "Ubi Soft / Enlight Software",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de negocios que permite al jugador crear y gestionar su propio imperio empresarial. Incluye producción, marketing, finanzas, investigación y expansión en distintos mercados, ofreciendo un enfoque profundo de la economía y la estrategia corporativa.",
   "incluye": []
 }

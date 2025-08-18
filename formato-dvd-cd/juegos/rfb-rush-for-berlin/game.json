@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "RFB: Rush for Berlin",
+  "plataforma": "Windows 2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Stormregion",
+  "distribuidor": "Deep Silver",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia en tiempo real ambientado en la Segunda Guerra Mundial. Permite controlar a las potencias Aliadas o del Eje en la carrera final hacia Berlín, con énfasis en tácticas militares y misiones históricas.",
   "incluye": []
 }

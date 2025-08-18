@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Terrorist Takedown",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción / Shooter en primera persona",
+  "desarrollador": "City Interactive",
+  "distribuidor": "City Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter en primera persona de bajo presupuesto en el que el jugador participa en operaciones militares contra células terroristas, utilizando diferentes armas y vehículos en misiones ambientadas en Oriente Medio.",
   "incluye": []
 }

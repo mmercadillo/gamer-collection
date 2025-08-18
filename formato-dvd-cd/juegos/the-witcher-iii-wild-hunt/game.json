@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "The Witcher III: Wild Hunt",
+  "plataforma": "Windows 7/8/10",
+  "estado": "Sin verificar",
+  "genero": "Rol / Acción",
+  "desarrollador": "CD Projekt Red",
+  "distribuidor": "CD Projekt / Bandai Namco",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Tercera entrega de la saga The Witcher, un RPG de mundo abierto en el que Geralt de Rivia emprende un viaje épico para encontrar a Ciri mientras enfrenta a la Cacería Salvaje. Destaca por su narrativa madura, su extenso mundo y sus múltiples decisiones morales.",
   "incluye": []
 }

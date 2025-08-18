@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Strategic Command 2: Blitzkrieg",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia / Gran estrategia",
+  "desarrollador": "Fury Software",
+  "distribuidor": "Battlefront.com",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela de Strategic Command que amplía el alcance de la simulación de la Segunda Guerra Mundial con un nuevo motor gráfico, más opciones diplomáticas y campañas personalizables.",
   "incluye": []
 }

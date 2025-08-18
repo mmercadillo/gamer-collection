@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Diablo II",
+  "plataforma": "Windows 95/98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG), Acción",
+  "desarrollador": "Blizzard North",
+  "distribuidor": "Blizzard Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG de acción en perspectiva isométrica donde el jugador elige entre varias clases de héroe para enfrentarse a hordas de enemigos y demonios. Incluye exploración de mazmorras, progresión de personaje, adquisición de objetos y un modo multijugador online a través de Battle.net.",
   "incluye": []
 }

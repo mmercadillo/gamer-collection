@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Supreme Commander 2",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Gas Powered Games",
+  "distribuidor": "Square Enix",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela del aclamado Supreme Commander, un juego de estrategia en tiempo real a gran escala donde el jugador controla ejércitos futuristas y participa en batallas masivas con unidades terrestres, aéreas y navales.",
   "incluye": []
 }

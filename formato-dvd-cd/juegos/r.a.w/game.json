@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "R.A.W.: Realms of Ancient War",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Rol / Acción",
+  "desarrollador": "Wizarbox",
+  "distribuidor": "Focus Home Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG de acción estilo hack and slash en el que el jugador puede elegir entre un guerrero, un mago o un pícaro para luchar contra hordas de enemigos en un mundo de fantasía oscura, solo o en modo cooperativo.",
   "incluye": []
 }

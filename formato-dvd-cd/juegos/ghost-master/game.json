@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Ghost Master",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia, Simulación",
+  "desarrollador": "Sick Puppies",
+  "distribuidor": "Empire Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia y simulación en el que el jugador asume el papel de un 'Maestro Fantasma' que debe asustar a humanos utilizando distintos fantasmas con habilidades únicas. Combina humor, puzles y gestión de recursos paranormales en escenarios variados.",
   "incluye": []
 }

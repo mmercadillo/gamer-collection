@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Trainz",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Simulación / Trenes",
+  "desarrollador": "Auran",
+  "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de trenes que permite al jugador conducir locomotoras, gestionar rutas ferroviarias y crear escenarios personalizados con un completo editor.",
   "incluye": []
 }

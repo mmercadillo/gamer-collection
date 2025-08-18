@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Soldier of Fortune II: Double Helix",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción / Shooter en primera persona",
+  "desarrollador": "Raven Software",
+  "distribuidor": "Activision",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter realista en primera persona en el que el jugador asume el papel de John Mullins, un mercenario que combate organizaciones terroristas internacionales. Destaca por su violencia explícita, escenarios variados y misiones tácticas.",
   "incluye": []
 }

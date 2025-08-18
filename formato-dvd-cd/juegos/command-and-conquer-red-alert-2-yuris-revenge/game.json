@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Command & Conquer: Red Alert 2 – Yuri's Revenge",
+  "plataforma": "Windows 95/98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Westwood Studios",
+  "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Expansión de Command & Conquer: Red Alert 2 que introduce a la facción de Yuri y nuevas campañas. El jugador dirige ejércitos en tiempo real, construye bases, gestiona recursos y combate enemigos utilizando unidades y habilidades especiales en diversos escenarios de estrategia militar.",
   "incluye": []
 }

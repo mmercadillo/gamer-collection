@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Return to Castle Wolfenstein",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción / Shooter en primera persona",
+  "desarrollador": "Gray Matter Interactive / Nerve Software",
+  "distribuidor": "Activision",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter en primera persona que reimagina el clásico Wolfenstein 3D. El jugador controla a B.J. Blazkowicz en una misión contra los nazis, enfrentándose a soldados, experimentos ocultistas y criaturas sobrenaturales en la Segunda Guerra Mundial.",
   "incluye": []
 }

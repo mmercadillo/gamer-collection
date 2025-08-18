@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "LEGO Star Wars: El Videojuego",
+  "plataforma": "Windows 2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción, Aventura",
+  "desarrollador": "Traveller's Tales",
+  "distribuidor": "Eidos Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Videojuego de acción y aventura que combina el universo de Star Wars con el estilo LEGO. Permite jugar los episodios I, II y III controlando a personajes icónicos en niveles con plataformas, combates y puzles, en modo individual o cooperativo.",
   "incluye": []
 }

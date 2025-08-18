@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Colin McRae Rally 3",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Carreras, Rally",
+  "desarrollador": "Codemasters",
+  "distribuidor": "Codemasters",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador de rally donde el jugador compite en distintas etapas y campeonatos oficiales. Incluye conducción realista, gestión de vehículos, condiciones climáticas variables y múltiples modos de juego, ofreciendo una experiencia de rally auténtica.",
   "incluye": []
 }

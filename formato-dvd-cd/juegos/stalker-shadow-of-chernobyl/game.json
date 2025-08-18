@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+  "plataforma": "Windows 2000/XP/Vista",
+  "estado": "Sin verificar",
+  "genero": "Acción / Shooter en primera persona",
+  "desarrollador": "GSC Game World",
+  "distribuidor": "THQ",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter de supervivencia con elementos de rol ambientado en la Zona de Exclusión de Chernóbil. El jugador explora un mundo abierto lleno de mutantes, facciones hostiles y anomalías mientras busca respuestas a un misterioso pasado.",
   "incluye": []
 }

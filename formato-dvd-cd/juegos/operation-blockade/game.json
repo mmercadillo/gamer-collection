@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Operation Blockade",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción, Disparos en primera persona",
+  "desarrollador": "Professor Fog's Workshop",
+  "distribuidor": "Infogrames",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de acción ambientado en la Segunda Guerra Mundial. El jugador controla una batería de defensa costera y debe resistir oleadas de ataques enemigos por tierra, mar y aire, utilizando diferentes armas pesadas para proteger la base.",
   "incluye": []
 }

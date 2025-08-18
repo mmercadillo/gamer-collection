@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Frostpunk",
+  "plataforma": "Windows 7/8/10",
+  "estado": "Sin verificar",
+  "genero": "Estrategia, Simulación, Supervivencia",
+  "desarrollador": "11 bit studios",
+  "distribuidor": "11 bit studios",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia y supervivencia en una ciudad postapocalíptica helada. El jugador debe gestionar recursos, tomar decisiones morales y mantener con vida a los habitantes de la última ciudad de la Tierra en un entorno gélido, equilibrando la eficiencia con la humanidad.",
   "incluye": []
 }

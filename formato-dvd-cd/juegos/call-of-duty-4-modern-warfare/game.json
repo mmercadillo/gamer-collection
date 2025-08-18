@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Call of Duty 4: Modern Warfare",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Shooter en primera persona",
+  "desarrollador": "Infinity Ward",
+  "distribuidor": "Activision",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter en primera persona ambientado en conflictos modernos. El jugador asume el rol de soldados de distintas unidades en misiones intensas que combinan combate, estrategia y narrativa cinematográfica, tanto en campañas para un solo jugador como en modos multijugador.",
   "incluye": []
 }

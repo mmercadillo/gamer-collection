@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Rome: Total War",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia / Gran estrategia",
+  "desarrollador": "Creative Assembly",
+  "distribuidor": "Activision",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Entrega de la saga Total War ambientada en la Antigua Roma. Combina gestión por turnos en un mapa estratégico con batallas en tiempo real, ofreciendo la posibilidad de controlar ejércitos, diplomacia y economía en la época clásica.",
   "incluye": []
 }

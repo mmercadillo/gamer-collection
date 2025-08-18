@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Prey",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Disparos en primera persona, Immersive sim",
+  "desarrollador": "Arkane Studios (Austin)",
+  "distribuidor": "Bethesda Softworks",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de disparos en primera persona con elementos de simulación inmersiva. Ambientado en la estación espacial Talos I, el jugador controla a Morgan Yu tras un experimento fallido con alienígenas Typhon. Combina combate, sigilo, habilidades humanas y Typhon, crafteo con reciclaje de objetos y exploración no lineal.",
   "incluye": []
 }

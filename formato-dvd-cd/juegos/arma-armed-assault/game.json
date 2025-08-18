@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Arma: Armed Assault",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Shooter táctico en primera persona, Militar",
+  "desarrollador": "Bohemia Interactive",
+  "distribuidor": "Codemasters",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter táctico militar en primera persona centrado en simulación realista de combate. El jugador participa en misiones modernas con vehículos, armas auténticas y estrategia táctica, en entornos abiertos y desafiantes que requieren coordinación y planificación.",
   "incluye": []
 }

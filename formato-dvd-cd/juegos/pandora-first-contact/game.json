@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Pandora: First Contact",
+  "plataforma": "Windows XP/Vista/7/8",
+  "estado": "Sin verificar",
+  "genero": "Estrategia por turnos, 4X",
+  "desarrollador": "Proxy Studios",
+  "distribuidor": "Slitherine Software",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia 4X de ciencia ficción en el que distintas facciones compiten por colonizar y dominar un planeta alienígena. Combina exploración, expansión, explotación de recursos y exterminio, con un fuerte énfasis en la investigación tecnológica y el combate militar.",
   "incluye": []
 }

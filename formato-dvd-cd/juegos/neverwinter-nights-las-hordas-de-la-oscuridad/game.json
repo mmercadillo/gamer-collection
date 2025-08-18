@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Neverwinter Nights: Hordes of the Underdark",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG)",
+  "desarrollador": "BioWare",
+  "distribuidor": "Atari",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Segunda expansión de Neverwinter Nights. Ambientada en el inframundo de los Reinos Olvidados, ofrece una campaña épica de alto nivel, nuevos conjuros, habilidades, prestigiosas clases de personaje y criaturas adicionales. Está diseñada para personajes avanzados que continúan sus aventuras tras la expansión Shadows of Undrentide.",
   "incluye": []
 }

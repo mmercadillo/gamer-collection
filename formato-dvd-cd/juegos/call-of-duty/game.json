@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Call of Duty",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Shooter en primera persona, Guerra",
+  "desarrollador": "Infinity Ward",
+  "distribuidor": "Activision",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter en primera persona ambientado en la Segunda Guerra Mundial. El jugador participa en campañas históricas, combatiendo en distintos frentes y misiones que incluyen disparos, estrategia táctica y narrativa cinematográfica.",
   "incluye": []
 }

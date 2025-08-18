@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Martin Mystère: Operación Dorian Gray",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Aventura gráfica",
+  "desarrollador": "Artematica",
+  "distribuidor": "GMX Media",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica basada en el cómic italiano Martin Mystère. El jugador, en el papel del investigador del mismo nombre, debe resolver el misterioso asesinato de un científico en una historia que mezcla arqueología, enigmas y elementos sobrenaturales.",
   "incluye": []
 }

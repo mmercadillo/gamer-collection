@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Vietcong",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción táctica / Shooter en primera persona",
+  "desarrollador": "Pterodon / Illusion Softworks",
+  "distribuidor": "Gathering of Developers",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter táctico ambientado en la Guerra de Vietnam en el que el jugador asume el papel de un comandante de las Fuerzas Especiales estadounidenses, liderando a su escuadrón en misiones de selva con un fuerte énfasis en la estrategia y la inmersión.",
   "incluye": []
 }

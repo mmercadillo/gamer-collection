@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Halo: Combat Evolved",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Disparos en primera persona",
+  "desarrollador": "Bungie",
+  "distribuidor": "Microsoft Game Studios, Gearbox Software (versión PC)",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter en primera persona que introduce al Jefe Maestro y al universo Halo. El jugador combate contra el Covenant en el misterioso anillo Halo, combinando intensas batallas, vehículos y una narrativa épica de ciencia ficción.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Gothic III",
+  "plataforma": "Windows 2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG)",
+  "desarrollador": "Piranha Bytes",
+  "distribuidor": "JoWooD Productions",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Tercera entrega de la saga Gothic. El jugador, en el papel del Héroe Sin Nombre, explora el vasto continente de Myrtana, sumido en la guerra entre humanos y orcos. Ofrece un extenso mundo abierto, decisiones morales que afectan la historia y un sistema de combate mejorado respecto a sus predecesores.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Imperial Glory",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia por turnos, Estrategia en tiempo real",
+  "desarrollador": "Pyro Studios",
+  "distribuidor": "Eidos Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Videojuego de estrategia ambientado en el periodo de las Guerras Napoleónicas. Combina gestión por turnos de un imperio con batallas en tiempo real terrestres y navales, permitiendo controlar a las grandes potencias europeas de la época.",
   "incluye": []
 }

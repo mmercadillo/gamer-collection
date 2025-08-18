@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Monopoly Tycoon",
+  "plataforma": "Windows 95/98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia, Simulación económica",
+  "desarrollador": "Deep Red Games",
+  "distribuidor": "Infogrames",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Versión de Monopoly en formato de simulación económica y construcción de ciudades. El jugador construye edificios residenciales, comerciales e industriales en parcelas inspiradas en el tablero clásico, compitiendo contra otros magnates para generar beneficios y dominar la ciudad.",
   "incluye": []
 }

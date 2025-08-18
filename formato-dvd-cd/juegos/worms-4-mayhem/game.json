@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Worms 4: Mayhem",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia / Acción por turnos",
+  "desarrollador": "Team17",
+  "distribuidor": "Codemasters",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Entrega de la clásica saga Worms que introduce un nuevo motor gráfico 3D y más posibilidades de personalización, manteniendo el humor y la jugabilidad de combates por turnos.",
   "incluye": []
 }

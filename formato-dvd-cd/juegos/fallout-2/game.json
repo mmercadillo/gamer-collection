@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Fallout 2",
+  "plataforma": "Windows 95/98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG)",
+  "desarrollador": "Black Isle Studios",
+  "distribuidor": "Interplay Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Segunda entrega de la saga Fallout, ambientada 80 años después del juego original. El jugador controla al 'Elegido', descendiente del protagonista anterior, en una misión para encontrar el GECK y salvar a su aldea. Mantiene el estilo isométrico, combates por turnos y gran libertad de decisión que afecta la historia y el mundo.",
   "incluye": []
 }

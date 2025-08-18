@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Platoon",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Digital Reality",
+  "distribuidor": "Monte Cristo Multimedia",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia en tiempo real basado en la película homónima de Oliver Stone. Ambientado en la Guerra de Vietnam, el jugador controla escuadrones de soldados en misiones tácticas, con énfasis en la moral, la cobertura y el terreno selvático.",
   "incluye": []
 }

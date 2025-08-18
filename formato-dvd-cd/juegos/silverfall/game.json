@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Silverfall",
+  "plataforma": "Windows XP/Vista",
+  "estado": "Sin verificar",
+  "genero": "Rol / Acción",
+  "desarrollador": "Monte Cristo",
+  "distribuidor": "Monte Cristo / Focus Home Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG de acción ambientado en un mundo de fantasía donde el jugador debe elegir entre la senda de la naturaleza o la tecnología. Incluye combate en tiempo real, personalización de personajes y escenarios isométricos.",
   "incluye": []
 }

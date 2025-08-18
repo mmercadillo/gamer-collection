@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Sid Meier's SimGolf",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Simulación / Deportes",
+  "desarrollador": "Firaxis Games",
+  "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de simulación en el que el jugador diseña y gestiona su propio campo de golf, mientras participa en torneos y compite con otros golfistas en un entorno lleno de humor característico de la saga Sim.",
   "incluye": []
 }

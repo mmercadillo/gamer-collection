@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Operation Flashpoint: Gold Upgrade",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Simulación militar, Disparos en primera persona",
+  "desarrollador": "Bohemia Interactive",
+  "distribuidor": "Codemasters",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Edición especial que actualiza el juego original Operation Flashpoint: Cold War Crisis incluyendo la expansión Red Hammer y contenido adicional. Ofrece campañas militares realistas ambientadas en la Guerra Fría con énfasis en táctica, estrategia y simulación bélica.",
   "incluye": []
 }

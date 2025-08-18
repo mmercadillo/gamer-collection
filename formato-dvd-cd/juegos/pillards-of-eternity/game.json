@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Pillars of Eternity",
+  "plataforma": "Windows Vista/7/8/10",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG)",
+  "desarrollador": "Obsidian Entertainment",
+  "distribuidor": "Paradox Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol isométrico inspirado en los clásicos de los años 90 como Baldur's Gate e Icewind Dale. El jugador crea un personaje y explora el mundo de Eora, con un sistema de combate en tiempo real con pausa táctica y una narrativa profunda centrada en elecciones y consecuencias.",
   "incluye": []
 }

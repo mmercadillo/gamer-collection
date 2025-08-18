@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Star Wars Jedi Knight II: Jedi Outcast",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción / Shooter en primera y tercera persona",
+  "desarrollador": "Raven Software",
+  "distribuidor": "LucasArts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Entrega de la saga Jedi Knight en la que el jugador controla a Kyle Katarn, combinando combate con sable de luz y uso de la Fuerza con tiroteos clásicos en primera persona dentro del universo Star Wars.",
   "incluye": []
 }

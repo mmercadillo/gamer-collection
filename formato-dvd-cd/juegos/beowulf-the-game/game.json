@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Beowulf: The Game",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Acción, Aventura",
+  "desarrollador": "Ubisoft",
+  "distribuidor": "Ubisoft",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de acción y aventura basado en la película 'Beowulf'. El jugador controla al héroe homónimo, enfrentándose a monstruos y enemigos en combates cuerpo a cuerpo, explorando niveles inspirados en la narrativa épica y cumpliendo objetivos para avanzar en la historia.",
   "incluye": []
 }

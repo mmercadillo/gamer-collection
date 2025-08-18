@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Delta Force",
+  "plataforma": "Windows 95/98/Me/2000",
+  "estado": "Sin verificar",
+  "genero": "Shooter en primera persona, Táctico",
+  "desarrollador": "NovaLogic",
+  "distribuidor": "NovaLogic",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter táctico en primera persona centrado en operaciones militares de élite. El jugador participa en misiones internacionales como Delta Force, combinando acción directa y estrategia, con énfasis en la precisión, el sigilo y el cumplimiento de objetivos militares específicos.",
   "incluye": []
 }

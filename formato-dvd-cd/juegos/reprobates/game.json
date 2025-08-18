@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Reprobates",
+  "plataforma": "Windows XP/Vista",
+  "estado": "Sin verificar",
+  "genero": "Aventura gráfica",
+  "desarrollador": "Centauri Production",
+  "distribuidor": "dtp entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica en tercera persona en la que el protagonista, Adam, despierta en un misterioso campamento tras un accidente de tráfico. Junto a otros personajes atrapados, deberá resolver enigmas y descubrir la verdad detrás de su situación.",
   "incluye": []
 }

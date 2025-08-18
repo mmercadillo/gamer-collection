@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Sid Meier's Railroads!",
+  "plataforma": "Windows XP/Vista",
+  "estado": "Sin verificar",
+  "genero": "Estrategia / Simulación",
+  "desarrollador": "Firaxis Games",
+  "distribuidor": "2K Games",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de simulación y estrategia empresarial en el que el jugador construye y gestiona su propio imperio ferroviario, diseñando rutas, compitiendo con rivales y optimizando el transporte de mercancías y pasajeros.",
   "incluye": []
 }

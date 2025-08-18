@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Retorno a la Isla Misteriosa",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Aventura gráfica / Point & Click",
+  "desarrollador": "Kheops Studio",
+  "distribuidor": "The Adventure Company / Microïds",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Aventura gráfica inspirada en la novela de Julio Verne 'La Isla Misteriosa'. El jugador controla a Mina, una náufraga que debe sobrevivir explorando la isla, resolviendo puzles y descubriendo secretos relacionados con el Capitán Nemo.",
   "incluye": []
 }

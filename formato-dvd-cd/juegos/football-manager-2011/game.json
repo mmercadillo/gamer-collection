@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Football Manager 2011",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Deportes, Gestión",
+  "desarrollador": "Sports Interactive",
+  "distribuidor": "SEGA",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Entrega de la saga de simulación futbolística centrada en la gestión de clubes. El jugador asume el papel de entrenador, controlando fichajes, tácticas, entrenamientos y economía, con una base de datos realista de jugadores y equipos de todo el mundo.",
   "incluye": []
 }

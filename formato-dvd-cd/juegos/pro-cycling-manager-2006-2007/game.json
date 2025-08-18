@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Pro Cycling Manager 2006-2007",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Simulación / Deportes",
+  "desarrollador": "Cyanide Studio",
+  "distribuidor": "Focus Home Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Edición 2006-2007 del simulador de ciclismo en el que el jugador gestiona un equipo profesional, planifica temporadas completas y compite en las principales carreras internacionales, incluyendo el Tour de Francia.",
   "incluye": []
 }

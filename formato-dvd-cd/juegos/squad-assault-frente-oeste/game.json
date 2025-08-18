@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Squad Assault: Frente Oeste",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia táctica en tiempo real",
+  "desarrollador": "Freedom Games",
+  "distribuidor": "Matrix Games",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia táctica en tiempo real ambientado en la Segunda Guerra Mundial. El jugador dirige escuadras de soldados en combates detallados, con énfasis en la táctica, la línea de visión y la cobertura.",
   "incluye": []
 }

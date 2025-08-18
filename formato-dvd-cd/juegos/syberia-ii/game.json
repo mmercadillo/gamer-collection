@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Syberia II",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Aventura gráfica / Point & Click",
+  "desarrollador": "Microids",
+  "distribuidor": "Microids",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela directa de Syberia en la que Kate Walker continúa su viaje junto a Hans Voralberg hacia la legendaria isla de Syberia, en una aventura gráfica llena de misterio, puzzles y escenarios detallados.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
+  "titulo": "Streets of SimCity",
   "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "estado": "Sin verificar",
+  "genero": "Acción / Conducción",
+  "desarrollador": "Maxis",
+  "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Spin-off de la saga SimCity que permite conducir vehículos por las ciudades creadas en SimCity 2000. Combina acción con conducción en un entorno urbano abierto.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Midway Arcade Treasures",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Compilación, Arcade",
+  "desarrollador": "Digital Eclipse",
+  "distribuidor": "Midway Games",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Compilación de juegos arcade clásicos de Midway, incluyendo títulos como Defender, Gauntlet, Joust, Paperboy y Rampage. Ofrece emulación fiel de los originales y extras como entrevistas y material adicional.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Warhammer 40,000: Dawn of War III",
+  "plataforma": "Windows 7/8/10",
+  "estado": "Sin verificar",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Relic Entertainment",
+  "distribuidor": "Sega",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Tercera entrega de la saga Dawn of War, combinando estrategia en tiempo real y elementos tácticos heroicos. El jugador controla facciones del universo Warhammer 40.000, gestionando recursos, unidades y héroes con habilidades únicas en campañas y combates multijugador.",
   "incluye": []
 }

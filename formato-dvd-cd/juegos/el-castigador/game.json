@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "El Castigador",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción, Disparos en tercera persona",
+  "desarrollador": "Kuju Entertainment",
+  "distribuidor": "MicroProse, THQ",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Videojuego basado en el personaje de cómic 'The Punisher'. El jugador controla a Frank Castle, usando armas y tácticas para combatir a la mafia y criminales en distintos entornos urbanos, combinando acción intensa con elementos de investigación y combate estratégico.",
   "incluye": []
 }

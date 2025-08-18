@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Faery: Legends of Avalon",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG)",
+  "desarrollador": "Spiders",
+  "distribuidor": "Focus Home Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol ambientado en un mundo de fantasía inspirado en mitos y leyendas. El jugador crea un personaje hada y explora reinos mágicos como Avalon y Yggdrasil, completando misiones, participando en combates por turnos y tomando decisiones que influyen en el desarrollo de la historia.",
   "incluye": []
 }

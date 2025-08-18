@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Fallout 3",
+  "plataforma": "Windows XP/Vista",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG), Acción, Mundo abierto",
+  "desarrollador": "Bethesda Game Studios",
+  "distribuidor": "Bethesda Softworks",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Tercera entrega principal de la saga Fallout, ambientada en el Yermo Capital tras una guerra nuclear. El jugador controla al 'Habitante del Refugio 101' en su búsqueda de su padre, explorando un vasto mundo abierto postapocalíptico con sistema de combate en primera y tercera persona, además del sistema V.A.T.S. para ataques tácticos.",
   "incluye": []
 }

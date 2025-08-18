@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Kult: Heretic Kingdoms",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG), Acción",
+  "desarrollador": "3D People",
+  "distribuidor": "Project Three Interactive",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de rol y acción con vista isométrica ambientado en un oscuro mundo de fantasía donde la religión ha sido prohibida. El jugador encarna a una Inquisidora que debe luchar contra herejes y fuerzas malignas, combinando exploración, combates en tiempo real y un sistema de 'memoria' para personalizar habilidades.",
   "incluye": []
 }

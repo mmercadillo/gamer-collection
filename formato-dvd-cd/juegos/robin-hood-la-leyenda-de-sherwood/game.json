@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Robin Hood: La Leyenda de Sherwood",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia táctica en tiempo real",
+  "desarrollador": "Spellbound Entertainment",
+  "distribuidor": "Microids",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Juego de estrategia táctica en tiempo real inspirado en títulos como Commandos y Desperados. El jugador controla a Robin Hood y a sus compañeros en misiones de sigilo y combate contra las tropas del Sheriff de Nottingham.",
   "incluye": []
 }

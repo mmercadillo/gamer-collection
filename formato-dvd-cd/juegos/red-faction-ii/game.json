@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Red Faction II",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Acción / Shooter en primera persona",
+  "desarrollador": "Volition",
+  "distribuidor": "THQ",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Shooter en primera persona ambientado en un futuro distópico. El jugador se une a un grupo de rebeldes para derrocar a un gobierno corrupto, con el motor Geo-Mod que permite la destrucción de escenarios.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Dreamfall: The Longest Journey",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Aventura gráfica",
+  "desarrollador": "Funcom",
+  "distribuidor": "Funcom",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela de The Longest Journey que combina narrativa profunda con exploración en mundos paralelos. El jugador controla a Zoe Castillo, resolviendo puzles, interactuando con personajes y desentrañando una historia de intriga, magia y tecnología en universos conectados.",
   "incluye": []
 }

@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Dungeons II",
+  "plataforma": "Windows XP/Vista/7/8",
+  "estado": "Sin verificar",
+  "genero": "Estrategia, Simulación",
+  "desarrollador": "Realmforge Studios",
+  "distribuidor": "Kalypso Media",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela de Dungeons, combinando construcción de mazmorras y estrategia en tiempo real. El jugador gestiona su propio inframundo, reclutando criaturas, diseñando trampas y expandiendo su dominio mientras enfrenta héroes y ejércitos que intentan invadir su territorio.",
   "incluye": []
 }

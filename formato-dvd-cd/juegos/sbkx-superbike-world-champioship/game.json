@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "SBK X: Superbike World Championship",
+  "plataforma": "Windows XP/Vista/7",
+  "estado": "Sin verificar",
+  "genero": "Simulación / Carreras",
+  "desarrollador": "Milestone",
+  "distribuidor": "Black Bean Games",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Simulador oficial del Campeonato Mundial de Superbikes 2010. Incluye todos los pilotos, equipos y circuitos de la temporada, con modos de simulación realista y arcade, además de un modo carrera completo.",
   "incluye": []
 }

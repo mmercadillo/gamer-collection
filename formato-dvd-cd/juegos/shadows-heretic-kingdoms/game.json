@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Shadows: Heretic Kingdoms",
+  "plataforma": "Windows 7/8/10",
+  "estado": "Sin verificar",
+  "genero": "Rol / Acción",
+  "desarrollador": "Games Farm",
+  "distribuidor": "bitComposer Games",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "RPG de acción isométrico en el que el jugador controla al Devorador de Almas, un demonio que puede absorber las almas de héroes caídos y alternar entre el mundo de los vivos y de las sombras para enfrentarse a enemigos y resolver desafíos.",
   "incluye": []
 }

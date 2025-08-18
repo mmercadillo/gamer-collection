@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Homeworld 2",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Estrategia en tiempo real",
+  "desarrollador": "Relic Entertainment",
+  "distribuidor": "Sierra Entertainment",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela del innovador Homeworld. Juego de estrategia en tiempo real completamente en 3D, donde el jugador dirige flotas espaciales en un universo en expansión. Ofrece combates tácticos, gestión de recursos, construcción de naves y una campaña épica de ciencia ficción.",
   "incluye": []
 }

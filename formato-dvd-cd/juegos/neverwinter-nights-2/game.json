@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Neverwinter Nights 2",
+  "plataforma": "Windows XP/Vista",
+  "estado": "Sin verificar",
+  "genero": "Rol (RPG)",
+  "desarrollador": "Obsidian Entertainment",
+  "distribuidor": "Atari",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Secuela del clásico juego de rol basado en Dungeons & Dragons. Ofrece una nueva campaña en los Reinos Olvidados con énfasis en narrativa, elecciones morales y gestión de grupo. Incluye un motor gráfico mejorado, editor de campañas y soporte para multijugador.",
   "incluye": []
 }

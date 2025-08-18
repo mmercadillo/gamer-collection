@@ -1,11 +1,11 @@
 {
-  "titulo": "3D Power Tank",
-  "plataforma": "Windows 95/98",
-  "estado": "Sin-verificar",
-  "genero": "",
-  "desarrollador": "Desconocido",
-  "distribuidor": "Desconocido",
+  "titulo": "Harry Potter y la Cámara Secreta",
+  "plataforma": "Windows 98/Me/2000/XP",
+  "estado": "Sin verificar",
+  "genero": "Aventura, Acción",
+  "desarrollador": "KnowWonder",
+  "distribuidor": "Electronic Arts",
   "ean": "",
-  "descripcion": "",
+  "descripcion": "Videojuego basado en la segunda entrega de la saga de J.K. Rowling. El jugador controla a Harry Potter en su segundo año en Hogwarts, resolviendo puzles, lanzando hechizos y enfrentándose a criaturas mágicas mientras descubre el misterio de la Cámara Secreta.",
   "incluye": []
 }
