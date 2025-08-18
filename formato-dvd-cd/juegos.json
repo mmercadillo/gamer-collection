@@ -1,11 +1,993 @@
 [
     {
-      "titulo": "Juego Base",
-      "url": "juegos/juego-base/",
-      "plataforma": "Windows 95/98",
-      "estado": "Sin-verificar",
-      "desarrollador": "Ensemble Studios",
-      "distribuidor": "Microsoft",
-      "ean": "805529051041"
+      "titulo": "",
+      "url": "juegos/1917-project-helios-collectors-edition/",
+
+    },
+    {
+      "titulo": "",
+      "url": "juegos/age-of-empires-iii/",
+
+    },
+    {
+      "titulo": "",
+      "url": "juegos/age-of-mithology-the-titans/",
+
+    },
+    {
+      "titulo": "",
+      "url": "juegos/alone-in-the-dark/",
+
+    },
+    {
+      "titulo": "",
+      "url": "juegos/apb-all-points-bulletin/",
+
+    },
+    {
+      "titulo": "",
+      "url": "juegos/arma-armed-assault/",
+
+    },
+    {
+      "titulo": "",
+      "url": "juegos/army-men-sarges-heroes/",
+
+    },
+    {
+      "titulo": "",
+      "url": "juegos/art-of-murder-fbi-confidential/",
+
+    },
+    {
+      "titulo": "",
+      "url": "juegos/atlantis-iii-el-nuevo-mundo/",
+
+    },    
+    {
+      "titulo": "",
+      "url": "juegos/baldurs-gate-ii-shadows-of-amn/",
+
+    },  
+    {
+      "titulo": "",
+      "url": "juegos/battlefield-bad-company-2/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/belief-betrayal-el-medallon-de-judas/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/beowulf-the-game/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/black-and-white/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/black-and-white-2/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/black-mirror/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/call-of-duty/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/call-of-duty-4-modern-warfare/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/call-of-duty-la-gran-ofensiva/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/capitalism-ii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/chicago-1930/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/codename-outbrake/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/collin-mcrae-dirt/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/collin-mcrae-rally-3/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/command-and-conquer-red-alert-2/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/command-and-conquer-red-alert-2-yuris-revenge/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/commandos-strike-force/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/crimson-cows-cycling-evolution/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/d-day/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/dawn-of-magic/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/dawn-of-war-iii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/dawn-of-war-soulstorm/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/death-to-spies/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/delta-force/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/delta-force-2/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/delta-force-black-hawk-down/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/delta-force-land-warrior/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/demonicon/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/diablo-ii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/disciples-ii-dark-prophecy/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/divinity-ii-ego-draconis/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/dracula-3-la-senda-del-dragon/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/dragons-dogma-dark-arisen/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/dreamfall-the-longest-journey/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/dune/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/dungeons-ii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/el-castigador/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/empire-earth-ii-gold-edition/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/empire-earth-the-art-of-conquest/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/empires-los-albores-de-la-era-moderna/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/enclave/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/europa-iv-universalis/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/faery-legends-of-avalon/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/fallout-2/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/fallout-3/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/fallout-76/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/farming-simulator-2013/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/fear-perseus-mandate/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/final-conquest-la-conquista-del-imperio-de-las-sombras/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/football-manager-2007/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/football-manager-2011/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/freedom-fighters/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/frost-punk/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/gary-grigsbys-world-at-war/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/ghost-master/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/gothic/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/gothic-ii-gold-edition/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/gothic-iii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/grand-theft-auto-san-andreas/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/gun/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/haegemonia-the-solon-heritage/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/halo/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/harry-potter-y-la-camara-secreta/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/hearts-or-iron-iii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/heroes-of-the-pacific/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/homeworld-2/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/icewind-dale-enhanced-edition/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/imperial-glory/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/in-memoriam-2-the-last-ritual/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/inner-chains/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/jack-el-destripador-new-york-1991/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/kingdomcom-deliverance/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/kohan-ii-kings-of-war/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/kult-heretic-kingdoms/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/la-guerra-civil-espanola-sombras-de-guerra/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/lego-star-wars-el-videojuego/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/leisure-suite-larry-magna-cum-laude/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/life-is-strange-before-the-storm/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/lionheart-legacy-of-the-crusader/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/los-increibles/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/los-miserables-el-destino-de-cosette/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/lula-3d/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/marranos-en-gueraa/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/martin-mystere-operacion-dorian-gray/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/max-payne/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/max-payne-2-the-fall-of-max-payne/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/medal-of-honor-pacific-assault/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/medieval-total-war/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/megadrive-classic-collection-volume-4/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/men-of-valor/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/mi-monstruo-y-yo/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/midway-arcade-treasures/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/monopoly-tycoon/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/mount-and-blade/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/need-for-speed-underground/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/neverwinter-nights-2/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/neverwinter-nights-las-hordas-de-la-oscuridad/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/operation-blockade/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/operation-flaspoint/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/operation-flaspoint-dragon-rising/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/operation-flaspoint-gold-upgrade/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/overlord/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/pandora-first-contact/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/pariah/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/pillards-of-eternity/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/platoon/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/praetorians/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/prey/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/prince-of-persia-las-arenas-del-tiempo/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/prince-of-persia-las-dos-coronas/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/pro-cycling-manager-2006-2007/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/pro-cycling-manager-2015/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/pro-cycling-manager-2017/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/puertas-de-troya/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/quake-4/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/r.a.w/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/red-faction-ii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/reprobates/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/reservoir-dogs/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/retorno-a-la-isla-misteriosa/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/return-to-castle-of-wolfstein/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/rfb-rush-for-berlin/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/ride-to-hell-retribution/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/risen-2-dark-waters/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/robin-hood-la-leyenda-de-sherwood/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/roge-stormers/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/romance-con-un-vampiro/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/rome-total-war/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/rome-total-war-alexander/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/rome-total-war-ii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/runaway-a-twist-of-fate/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/rune/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sacred-2-ice-and-blood/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sbkx-superbike-world-champioship/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/secrets-of-the-vatican-the-holy-lance/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sensible-soccer-2006/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/shadows-awakening/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/shadows-heretic-kingdoms/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sid-meiers-civilization-beyond-earth-rising-tide/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sid-meiers-civilization-iii-conquests/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sid-meiers-civilization-v/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sid-meiers-civilization-v-cambia-el-mundo/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sid-meiers-civilization-v-dioses-y-reyes/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sid-meiers-railroads/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sid-meiers-sim-golf/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/silverfall/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/sim-city-4/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/simon-the-soccerer-4-chaos-happens/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/soldier-of-fortune-ii-double-helix/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/spell-force-the-breath-of-winter/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/spore/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/squad-assault-frente-oeste/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/stalker-shadow-of-chernobyl/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/star-wars-jedi-knight-ii-jedi-outcast/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/strategic-command-2-blitzkrieg/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/strategic-command-la-segunda-guerra-mundial/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/streets-of-sim-city/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/stronghold-3/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/stronghold-legends/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/supreme-commander-2/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/syberia-ii/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/synorome/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/taito-legends-i/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/technomancer/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/terrorist-takedown/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/the-gladiators-of-rome/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/the-inner-world-the-last-wind-monk/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/the-stronghold-collection/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/the-witcher-iii-wild-hunt/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/theme-park-inc/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/timeshift/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/titan-quest/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/tomb-raider-legend/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/total-war-anthology/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/trainz/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/tropico/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/tyranny/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/venetica/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/vietcong/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/vietcong-fist-alpha/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/war-for-the-overlord/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/war-leaders-clash-of-nations/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/warhammer-total-war/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/warrior-full-spectrum/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/world-war-ii-prisioner-of-war/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/worms-4-mayhem/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/x-el-videojuego-oficial/",
+
+    }, 
+    {
+      "titulo": "",
+      "url": "juegos/yo-presidente-objetivo-la-moncloa/",
+
     }
+    
 ]
