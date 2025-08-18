@@ -1,6 +1,6 @@
 [
     {
-      "titulo": "Allien versus Predator",
+      "titulo": "Alliens vs. Predator",
       "url": "juegos/allien-vs-predator/",
       "plataforma": "Windows 95/98",
       "desarrollador": "Rebellion Developments",
@@ -160,6 +160,42 @@
       "genero": "Disparos en primera persona",
       "desarrollador": "Rewolf Software",
       "distribuidor": "Sierra Entertainment",
+      "ean": ""
+    },
+    {
+      "titulo": "No One Lives Forever 2: A Spy in H.A.R.M.'s Way",
+      "url": "juegos/no-one-lives-forever-2/",
+      "plataforma": "Windows 98",
+      "genero": "FPS / Sigilo",
+      "desarrollador": "Monolith Productions",
+      "distribuidor": "Sierra Entertainment (Best Seller Series)",
+      "ean": ""
+    },
+    {
+      "titulo": "La jungla de cristal: Nakatomi Plaza",
+      "url": "juegos/la-jungla-de-cristal/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "FPS (First‑Person Shooter)",
+      "desarrollador": "Piranha Games",
+      "distribuidor": "Sierra Entertainment (Best Seller Series)",
+      "ean": ""
+    },
+    {
+      "titulo": "Homeworld: Cataclysm",
+      "url": "juegos/homeworld-cataclysm/",
+      "plataforma": "Windows 95/98/ME/2000",
+      "genero": "Estrategia en tiempo real (RTS)",
+      "desarrollador": "Barking Dog Studios",
+      "distribuidor": "Sierra Studios (Best Seller Series)",
+      "ean": ""
+    },
+    {
+      "titulo": "Aliens vs. Predator 2",
+      "url": "juegos/allien-vs-predator-2/",
+      "plataforma": "Windows 98/ME/2000/XP",
+      "genero": "FPS",
+      "desarrollador": "Monolith Productions",
+      "distribuidor": "Sierra On‑Line (Best Seller Series)",
       "ean": ""
     }
 ]
