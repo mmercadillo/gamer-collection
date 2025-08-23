@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Entertainment",
   "ean": "",
   "descripcion": "Videojuego de estrategia en tiempo real ambientado en la Edad Media que combina gestión de reinos y batallas tácticas en tiempo real, ofreciendo campañas para un jugador y modos multijugador.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "ean": "",
   "estado": "Sin verificar",
   "descripcion": "Videojuego de acción en primera persona lanzado en 2002, basado en la película La Jungla de Cristal. Distribuido por Sierra Entertainment y potencialmente reeditado dentro de la serie Best Seller Series en Europa.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

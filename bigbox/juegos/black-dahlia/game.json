@@ -7,5 +7,7 @@
   "distribuidor": "Take‑Two Interactive",
   "ean": "",
   "descripcion": "Aventura interactiva con película de acción real lanzada en 1998. Sigues al agente Pearson, que investiga conexiones entre asesinatos en serie (el caso de la Dalia Negra) y rituales nazis/u occultismos. Cuenta con actores de Hollywood como Dennis Hopper y Teri Garr, rompecabezas visuales, escenas FMV y múltiple final según decisiones.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

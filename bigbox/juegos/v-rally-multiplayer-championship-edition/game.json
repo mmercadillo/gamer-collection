@@ -7,5 +7,7 @@
   "distribuidor": "Infogrames Europe",
   "ean": "",
   "descripcion": "Versión para PC del primer V‑Rally lanzada en junio de 1999 en Europa. Incluye texturas mejoradas, soporte para juegos en línea vía LAN, modo campeonato con ocho rallies y 42 etapas, además de sintonización avanzada de vehículos y clima dinámico. Basado en el motor del original de PlayStation, mejora gráficos y añade multijugador en PC. :contentReference[oaicite:1]{index=1}",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

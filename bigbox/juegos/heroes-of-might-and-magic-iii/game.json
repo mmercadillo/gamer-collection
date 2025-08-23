@@ -7,5 +7,7 @@
   "distribuidor": "The 3DO Company",
   "ean": "",
   "descripcion": "Tercera entrega de la saga, lanzada originalmente el 28 de febrero de 1999 para Windows. Ambientada en el continente de Antagarich, ofrece siete campañas, soft de combate por turnos y gestión de héroes que lideran ejércitos de criaturas míticas. Introduce mejoras como capa subterránea, condiciones de victoria variables y ocho facciones jugables. Fue muy aclamado y recibió dos expansiones oficiales y una edición completa en 2000 :contentReference[oaicite:1]{index=1}.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

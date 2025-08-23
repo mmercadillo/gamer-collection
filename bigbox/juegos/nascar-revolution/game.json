@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Juego de carreras de stock cars lanzado el 16 de febrero de 1999. Permite competir en 17 pistas oficiales de la NASCAR Cup Series, con pilotos reales como Dale Earnhardt y Kyle Petty. Incluye modos de juego como carrera individual, multijugador en línea y modo temporada. Ofrece personalización del vehículo, condiciones climáticas variables y paradas en boxes realistas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

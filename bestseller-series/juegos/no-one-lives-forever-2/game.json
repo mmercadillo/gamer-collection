@@ -7,5 +7,7 @@
   "ean": "",
   "estado": "Sin verificar",
   "descripcion": "Secuela del aclamado No One Lives Forever, lanzada en 2002 para PC. FPS con fuerte componente de sigilo y humor ambientado en la Guerra Fría, con la agente Cate Archer como protagonista. Fue reeditado en la línea económica Best Seller Series por Sierra.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

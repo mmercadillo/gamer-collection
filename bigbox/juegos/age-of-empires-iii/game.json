@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft Game Studios, MacSoft & Destineer (Mac)",
   "ean": "",
   "descripcion": "Tercera entrega de la saga, lanzada en 2005 (PC) y 2006 (Mac). Ambientada en la época de la colonia europea en América (1492–1876), incorpora el sistema ‘Home City’ y motor Bang!, combinando estrategia en tiempo real con elementos de rol. Incluye modo campaña, multijugador, editor de escenarios y fuertes innovaciones gráficas y de física.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

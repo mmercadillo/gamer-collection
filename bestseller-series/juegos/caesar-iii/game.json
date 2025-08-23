@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Entertainment",
   "ean": "",
   "descripcion": "Juego de estrategia y construcción ambientado en la Antigua Roma, donde el jugador asume el papel de gobernador y debe gestionar el desarrollo de la ciudad, su economía y la defensa frente a amenazas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

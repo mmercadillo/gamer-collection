@@ -7,5 +7,7 @@
   "distribuidor": "Strategic Simulations, Inc.",
   "ean": "",
   "descripcion": "Wargame por turnos lanzado el 30 de septiembre de 1997. Usando el motor 'Living Battlefield', abarca campañas desde la Guerra Civil Española (1938) hasta escenarios hipotéticos de post‑1945. Presenta mapas hexagonales, niebla de guerra realista, editor de escenarios, ocho tipos de unidades (infantería, tanques, artillería, aviones…) y modo multijugador por red o correo electrónico. Muy aclamado por su IA polaca y profundidad táctica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

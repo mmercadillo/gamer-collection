@@ -7,6 +7,7 @@
   "distribuidor": "Blizzard Entertainment",
   "ean": "0020626709293",
   "descripcion": "Secuela lanzada en junio de 2000. Continúa tras los eventos del primer Diablo, con cinco clases jugables (Amazona, Nigromante, Bárbaro, Hechicera, Paladín), campaña épica en cuatro actos en Santuario y multijugador para hasta 8 jugadores vía Battle.net o LAN. Introdujo sistema de ítems mejorado, runas, jefes únicos y comunidad activa que aún perdura.",
-  "incluye": [
-  ]
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

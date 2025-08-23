@@ -7,5 +7,7 @@
   "distribuidor": "Desconocido",
   "ean": "",
   "descripcion": "",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

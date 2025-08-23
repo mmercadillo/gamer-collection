@@ -7,5 +7,7 @@
   "distribuidor": "Sierra On‑Line",
   "ean": "",
   "descripcion": "Quinta entrega de la saga, lanzada el 9 de noviembre de 1990 para MS‑DOS y posteriormente adaptada a Windows 3.x. Marca un salto visual con gráficos VGA a 256 colores y primer uso de interfaz gráfica point‑&‑click en la serie, reemplazando el parser de texto. La historia sigue al rey Graham tras el rapto de su familia por el hechicero Mordack, y debe rescatarles en la tierra de Serenia con la ayuda del búho Cedric. Se publicaron versiones en disquetes (EGA/VGA) y CD‑ROM con voces e introduce música digital, sonido AdLib/MT‑32 y resolución 320×200 :contentReference[oaicite:1]{index=1}.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

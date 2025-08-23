@@ -7,5 +7,7 @@
   "distribuidor": "NovaLogic",
   "ean": "",
   "descripcion": "Secuela lanzada en noviembre de 1999 para PC. Utiliza el motor Voxel Space 32 con entornos al aire libre, misiones globales contra terroristas en escenarios rurales y urbanos, énfasis en realismo balístico y viento, con multijugador de hasta 50 jugadores en NovaWorld.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

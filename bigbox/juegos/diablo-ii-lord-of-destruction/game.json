@@ -7,5 +7,7 @@
   "distribuidor": "Blizzard Entertainment",
   "ean": "",
   "descripcion": "Expansión oficial lanzada el 29 de junio de 2001 que añade un quinto acto ambientado en Monte Arreat, las nuevas clases Asesina y Druida, ítems especiales como runas y estatutos, sistema de runas mágicas (‘runewords’), y mejoras en la jugabilidad y stash. También incluye campaña cooperativa y multijugador vía Battle.net y LAN.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

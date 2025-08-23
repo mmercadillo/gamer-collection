@@ -7,5 +7,7 @@
   "distribuidor": "Dinamic Multimedia",
   "ean": "",
   "descripcion": "Última entrega de PC Fútbol por Dinamic Multimedia, lanzada en diciembre de 2001. Combina simulación de gestión y partidos en 3D, con modo Euromanager, copas virtuales, multijugador online (hasta 4 jugadores) y control de jugadores en cancha. Incluye ligas mayoritarias de Europa (España, Inglaterra, Italia, Francia, Alemania, Bélgica, Portugal, Escocia) y Argentina, con bases de datos y estadios actualizados.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

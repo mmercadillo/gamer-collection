@@ -7,5 +7,7 @@
   "distribuidor": "Sierra / BestSeller Series (España)",
   "ean": "3348542173217",
   "descripcion": "Primera entrega de la saga Diablo (1996), RPG de acción y mazmorras. Incluye campaña para un jugador y multijugador, lanzado en España como parte de la serie BestSeller.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

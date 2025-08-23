@@ -6,7 +6,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "The Rise & Rule of Ancient Empires",
@@ -15,7 +18,10 @@
     "genero": "Estrategia por turnos / Construcción de imperios",
     "desarrollador": "Impressions Games",
     "distribuidor": "Sierra On-Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Empires II: Gold Edition",
@@ -24,7 +30,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft",
-    "ean": "0805529051041, 805529132085, 755142110444"
+    "ean": "0805529051041, 805529132085, 755142110444",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Empires II: The Age of Kings",
@@ -33,7 +42,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Empires II. The Conquerors. Expansion",
@@ -42,7 +54,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft",
-    "ean": "0659556460693, 0805529051034, 805529132061"
+    "ean": "0659556460693, 0805529051034, 805529132061",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Empires II. The Conquerors. Expansion",
@@ -51,7 +66,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft",
-    "ean": "0659556460693, 0805529051034, 805529132061"
+    "ean": "0659556460693, 0805529051034, 805529132061",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Age of Empires. Gold Edition",
@@ -60,7 +78,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft",
-    "ean": "0659556098605, 5017783556360, 4012160164061"
+    "ean": "0659556098605, 5017783556360, 4012160164061",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Empires: The Rise of Rome",
@@ -69,7 +90,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Mythology",
@@ -78,7 +102,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft Game Studios",
-    "ean": "8712206084440"
+    "ean": "8712206084440",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "3D Power Tank",
@@ -87,7 +114,10 @@
     "genero": "Action",
     "desarrollador": "ElectroTECH",
     "distribuidor": "Akaei plc",
-    "ean": "8436010150169"
+    "ean": "8436010150169",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "A Sangre Fría",
@@ -96,7 +126,10 @@
     "genero": "Aventura gráfica / Acción sigilosa",
     "desarrollador": "Revolution Software",
     "distribuidor": "Ubisoft (PC, Europa), DreamCatcher (PC, Norteamérica), Sony Computer Entertainment (PlayStation)",
-    "ean": "711719168027"
+    "ean": "711719168027",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Abomination: The Nemesis Project",
@@ -105,7 +138,10 @@
     "genero": "Action, Real-time tactics",
     "desarrollador": "Hothouse Creations",
     "distribuidor": "Eidos Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Absolute Pinball",
@@ -114,7 +150,10 @@
     "genero": "Arcade / Pinball",
     "desarrollador": "Unique Development Studios",
     "distribuidor": "21st Century Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Adidas Power Soccer",
@@ -123,7 +162,10 @@
     "genero": "Sports",
     "desarrollador": "Psygnosis",
     "distribuidor": "Psygnosis",
-    "ean": "0711719695127"
+    "ean": "0711719695127",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Alien Paranoia",
@@ -132,7 +174,10 @@
     "genero": "Action / 3D platform",
     "desarrollador": "Eclipse Software",
     "distribuidor": "Dinamic Multimedia, Akaei plc, Russobit‑M",
-    "ean": "5037120206161"
+    "ean": "5037120206161",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Allied General",
@@ -141,7 +186,10 @@
     "genero": "Turn-based strategy / Wargame",
     "desarrollador": "Halestorm / SSI Special Projects Group",
     "distribuidor": "Strategic Simulations Inc. / Mindscape",
-    "ean": "0628553012099"
+    "ean": "0628553012099",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Arcanum: Hechizos y engranajes",
@@ -150,7 +198,10 @@
     "genero": "Role‑playing",
     "desarrollador": "Troika Games",
     "distribuidor": "Sierra On‑Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Allied General (Gold Reserve)",
@@ -159,7 +210,10 @@
     "genero": "Turn-based strategy / Wargame",
     "desarrollador": "Halestorm / SSI Special Projects Group",
     "distribuidor": "Strategic Simulations Inc. / Mindscape",
-    "ean": "5000000064915, 0628553012099"
+    "ean": "5000000064915, 0628553012099",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "AMOK",
@@ -168,7 +222,10 @@
     "genero": "Action / Vehicular mech shooter",
     "desarrollador": "Lemon (Scavenger, Inc.)",
     "distribuidor": "Scavenger, Inc.",
-    "ean": "0742725113169"
+    "ean": "0742725113169",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Advanced Civilization",
@@ -177,7 +234,10 @@
     "genero": "Strategy / Turn-based tactics",
     "desarrollador": "Avalon Hill Game Company",
     "distribuidor": "Avalon Hill",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Allied General",
@@ -186,7 +246,10 @@
     "genero": "Turn-based strategy / Wargame",
     "desarrollador": "Halestorm / SSI Special Projects Group",
     "distribuidor": "Strategic Simulations Inc. / Mindscape",
-    "ean": "0628553012099"
+    "ean": "0628553012099",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Allied General (Gold Reserve)",
@@ -195,7 +258,10 @@
     "genero": "Turn-based strategy / Wargame",
     "desarrollador": "Halestorm / SSI Special Projects Group",
     "distribuidor": "Strategic Simulations Inc. / Mindscape",
-    "ean": "5000000064915, 0628553012099"
+    "ean": "5000000064915, 0628553012099",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "AMOK",
@@ -204,7 +270,10 @@
     "genero": "Action / Vehicular mech shooter",
     "desarrollador": "Lemon (Scavenger, Inc.)",
     "distribuidor": "Scavenger, Inc.",
-    "ean": "0742725113169"
+    "ean": "0742725113169",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Arcania: Gothic 4",
@@ -213,7 +282,10 @@
     "genero": "Action role-playing",
     "desarrollador": "Spellbound Entertainment",
     "distribuidor": "JoWooD (PC EU), DreamCatcher (PC NA), Nordic Games (consolas)",
-    "ean": "0625904730428, 0625904730640, 4607170313471"
+    "ean": "0625904730428, 0625904730640, 4607170313471",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Arcatera: La Hermandad Oscura",
@@ -222,7 +294,10 @@
     "genero": "Role‑playing (RPG)",
     "desarrollador": "Westka Interactive",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Decisive Battles of WWII: The Ardennes Offensive",
@@ -231,7 +306,10 @@
     "genero": "Turn‑based strategy / Wargame",
     "desarrollador": "Strategic Studies Group",
     "distribuidor": "Strategic Simulations, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Assault Rigs",
@@ -240,7 +318,10 @@
     "genero": "Vehicular combat / Action",
     "desarrollador": "Psygnosis",
     "distribuidor": "Psygnosis",
-    "ean": "0053203019188, 711719615620, 711719440529"
+    "ean": "0053203019188, 711719615620, 711719440529",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "ATAC: La Guerra Secreta Contra las Drogas",
@@ -249,7 +330,10 @@
     "genero": "Simulation / Strategy / Flight",
     "desarrollador": "Argonaut Software",
     "distribuidor": "MicroProse (desarrollo), ERBE (España)",
-    "ean": "8420224013358, 5015352590180"
+    "ean": "8420224013358, 5015352590180",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Back to Baghdad",
@@ -258,7 +342,10 @@
     "genero": "Combat flight simulator",
     "desarrollador": "Military Simulations",
     "distribuidor": "Military Simulations",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Baldur's Gate",
@@ -267,7 +354,10 @@
     "genero": "Role‑playing",
     "desarrollador": "BioWare",
     "distribuidor": "Interplay Productions",
-    "ean": "0040421366521, 020626715638, 5026102007339"
+    "ean": "0040421366521, 020626715638, 5026102007339",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Baldur's Gate II: Shadows of Amn",
@@ -276,7 +366,10 @@
     "genero": "Role‑playing",
     "desarrollador": "BioWare",
     "distribuidor": "Interplay Productions",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Barça Manager 2000",
@@ -285,7 +378,10 @@
     "genero": "Sports / Management",
     "desarrollador": "Anco Software",
     "distribuidor": "Ubisoft",
-    "ean": "3307212805490, 790561507420"
+    "ean": "3307212805490, 790561507420",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Battle Realms",
@@ -294,7 +390,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Liquid Entertainment",
     "distribuidor": "Crave Entertainment / Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Black Dahlia",
@@ -303,7 +402,10 @@
     "genero": "Interactive movie / Point‑and‑click adventure",
     "desarrollador": "Take‑Two Interactive",
     "distribuidor": "Take‑Two Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Blade Runner",
@@ -312,7 +414,10 @@
     "genero": "Point-and-click adventure",
     "desarrollador": "Westwood Studios",
     "distribuidor": "Virgin Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Runaway: A Road Adventure",
@@ -321,7 +426,10 @@
     "genero": "Aventura gráfica / Point-and-click",
     "desarrollador": "Pendulo Studios",
     "distribuidor": "Dinamic Multimedia",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Bram Stoker’s Dracula",
@@ -330,7 +438,10 @@
     "genero": "First‑person shooter (DOS) / Action platformer (console)",
     "desarrollador": "Psygnosis",
     "distribuidor": "Sony Imagesoft (consolas), Psygnosis (PC/Amiga)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Broken Sword II: Las Fuerzas del Mal",
@@ -339,7 +450,10 @@
     "genero": "Point‑and‑click adventure",
     "desarrollador": "Revolution Software",
     "distribuidor": "Virgin Interactive, Revolution Software (Remastered)",
-    "ean": "0650008199048"
+    "ean": "0650008199048",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Broken Sword: La Leyenda de los Templarios",
@@ -348,7 +462,10 @@
     "genero": "Point‑and‑click adventure",
     "desarrollador": "Revolution Software",
     "distribuidor": "Virgin Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Caesar",
@@ -357,7 +474,10 @@
     "genero": "City-building / Simulation",
     "desarrollador": "Impressions Games",
     "distribuidor": "Sierra On‑Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Caesar III",
@@ -366,7 +486,10 @@
     "genero": "City‑building / Simulation",
     "desarrollador": "Impressions Games",
     "distribuidor": "Sierra On‑Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Civilization: Call to Power",
@@ -375,7 +498,10 @@
     "genero": "Turn‑based strategy / 4X",
     "desarrollador": "Activision",
     "distribuidor": "Activision, Loki Software (Linux), MacSoft (Mac)",
-    "ean": "0722242517381"
+    "ean": "0722242517381",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Call to Power II",
@@ -384,7 +510,10 @@
     "genero": "Turn‑based strategy / 4X",
     "desarrollador": "Activision",
     "distribuidor": "Activision",
-    "ean": "5030917009310"
+    "ean": "5030917009310",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Capitalism Plus",
@@ -393,7 +522,10 @@
     "genero": "Business simulation / Strategy",
     "desarrollador": "Enlight Software",
     "distribuidor": "Broderbund / Interactive Magic",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Cleopatra: La Reina del Nilo",
@@ -402,7 +534,10 @@
     "genero": "City‑building / Strategy",
     "desarrollador": "BreakAway Games",
     "distribuidor": "Sierra Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   }
   {
     "titulo": "Colin McRae Rally",
@@ -411,7 +546,10 @@
     "genero": "Racing Simulation",
     "desarrollador": "Codemasters",
     "distribuidor": "Codemasters, Sony Computer Entertainment (PlayStation), THQ (GBC)",
-    "ean": "0722242517381"
+    "ean": "0722242517381",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Command & Conquer",
@@ -420,7 +558,10 @@
     "genero": "Real‑time strategy",
     "desarrollador": "Westwood Studios",
     "distribuidor": "Virgin Interactive, Electronic Arts",
-    "ean": "0052145830455"
+    "ean": "0052145830455",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Command & Conquer: Red Alert",
@@ -429,7 +570,10 @@
     "genero": "Real‑time strategy",
     "desarrollador": "Westwood Studios",
     "distribuidor": "Virgin Interactive, Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Command & Conquer: Red Alert – Counterstrike",
@@ -438,7 +582,10 @@
     "genero": "Real‑time strategy",
     "desarrollador": "Westwood Studios",
     "distribuidor": "Virgin Interactive, Electronic Arts",
-    "ean": "0052145831087"
+    "ean": "0052145831087",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Command & Conquer: Red Alert – The Aftermath",
@@ -447,7 +594,10 @@
     "genero": "Real‑time strategy",
     "desarrollador": "Westwood Studios",
     "distribuidor": "Virgin Interactive, Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Command & Conquer: Tiberian Sun",
@@ -456,7 +606,10 @@
     "genero": "Real‑time strategy",
     "desarrollador": "Westwood Studios",
     "distribuidor": "Electronic Arts",
-    "ean": "5030935023343"
+    "ean": "5030935023343",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Commandos: Más Allá del Deber",
@@ -465,7 +618,10 @@
     "genero": "Táctico en tiempo real / Stealth",
     "desarrollador": "Pyro Studios",
     "distribuidor": "Eidos Interactive",
-    "ean": "5032921005869, 0788687109611, 5037999003717, 788687109611"
+    "ean": "5032921005869, 0788687109611, 5037999003717, 788687109611",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Complete Onside Soccer",
@@ -474,7 +630,10 @@
     "genero": "Sports / Soccer",
     "desarrollador": "Motivetime Ltd. (Elite Systems)",
     "distribuidor": "Telstar Electronic Studios",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Conflict Zone",
@@ -483,7 +642,10 @@
     "genero": "Real‑time strategy",
     "desarrollador": "MASA Group (Mathématiques Appliquées S.A.)",
     "distribuidor": "Ubisoft",
-    "ean": "0008888610199"
+    "ean": "0008888610199",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Conqueror: A.D. 1086",
@@ -492,7 +654,10 @@
     "genero": "Strategy / Role-playing",
     "desarrollador": "Software Sorcery",
     "distribuidor": "Sierra On-Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Creature Shock",
@@ -501,7 +666,10 @@
     "genero": "Dungeon crawler / Rail shooter",
     "desarrollador": "Argonaut Software",
     "distribuidor": "Virgin Interactive, Data East (Saturn/PS)",
-    "ean": "4961082500092, 013252017030"
+    "ean": "4961082500092, 013252017030",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Crusader: No Remorse",
@@ -510,7 +678,10 @@
     "genero": "Action / Shooter isométrico",
     "desarrollador": "Origin Systems",
     "distribuidor": "Electronic Arts",
-    "ean": "0078829003991, 5030930010829"
+    "ean": "0078829003991, 5030930010829",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Curse of Enchantia",
@@ -519,7 +690,10 @@
     "genero": "Adventure / Point-and-click",
     "desarrollador": "Core Design",
     "distribuidor": "Core Design, Virgin Games (CD-ROM PC)",
-    "ean": "5020717200536, 5020717200192"
+    "ean": "5020717200536, 5020717200192",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Darkstone: Evil Reigns",
@@ -528,7 +702,10 @@
     "genero": "Action role‑playing",
     "desarrollador": "Delphine Software International",
     "distribuidor": "Electronic Arts (EU), Gathering of Developers (NA, PC), Take‑Two Interactive (NA, PS)",
-    "ean": "5030931025532, 5030930025533, 5030947025533, 5030934025539"
+    "ean": "5030931025532, 5030930025533, 5030947025533, 5030934025539",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Death Rally",
@@ -537,7 +714,10 @@
     "genero": "Vehicular combat / Racing",
     "desarrollador": "Remedy Entertainment",
     "distribuidor": "Apogee Software (GT Interactive)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Decathlon Games",
@@ -546,7 +726,10 @@
     "genero": "",
     "desarrollador": "Desconocido",
     "distribuidor": "Desconocido",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Delta Force 2",
@@ -555,7 +738,10 @@
     "genero": "Tactical first‑person shooter",
     "desarrollador": "NovaLogic",
     "distribuidor": "NovaLogic",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Delta Force: Land Warrior",
@@ -564,7 +750,10 @@
     "genero": "Tactical first‑person shooter",
     "desarrollador": "NovaLogic",
     "distribuidor": "NovaLogic",
-    "ean": "0753799097897"
+    "ean": "0753799097897",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Delta Force: The Art of War",
@@ -573,7 +762,10 @@
     "genero": "Tactical first‑person shooter",
     "desarrollador": "NovaLogic",
     "distribuidor": "NovaLogic",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Descent II",
@@ -582,7 +774,10 @@
     "genero": "First‑person shooter",
     "desarrollador": "Parallax Software",
     "distribuidor": "Interplay Productions, MacPlay, SoftKey",
-    "ean": "040421001491"
+    "ean": "040421001491",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Diablo",
@@ -591,7 +786,10 @@
     "genero": "Action role‑playing / Dungeon crawler",
     "desarrollador": "Blizzard North",
     "distribuidor": "Blizzard Entertainment, Electronic Arts (PS1)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Diablo II",
@@ -600,7 +798,10 @@
     "genero": "Action role‑playing / Hack‑and‑slash",
     "desarrollador": "Blizzard North",
     "distribuidor": "Blizzard Entertainment",
-    "ean": "0020626709293"
+    "ean": "0020626709293",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   }
   {
     "titulo": "Diablo II: Lord of Destruction",
@@ -609,7 +810,10 @@
     "genero": "Action role‑playing / Hack‑and‑slash",
     "desarrollador": "Blizzard North",
     "distribuidor": "Blizzard Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Dino Crisis",
@@ -618,7 +822,10 @@
     "genero": "Survival horror / Action-adventure",
     "desarrollador": "Capcom Production Studio 4",
     "distribuidor": "Capcom",
-    "ean": "4976219355681"
+    "ean": "4976219355681",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Druuna: Morbus Gravis",
@@ -627,7 +834,10 @@
     "genero": "Adventure / Survival horror",
     "desarrollador": "Artematica",
     "distribuidor": "Microids (MC2‑Microïds)",
-    "ean": "3342184386653"
+    "ean": "3342184386653",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Duelo de Hechiceros",
@@ -636,7 +846,10 @@
     "genero": "Real‑time strategy / Action RPG",
     "desarrollador": "Mythos Games (Julian Gollop)",
     "distribuidor": "Virgin Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Dungeon Keeper 2",
@@ -645,7 +858,10 @@
     "genero": "Real‑time strategy / God game / Dungeon management",
     "desarrollador": "Bullfrog Productions",
     "distribuidor": "Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Egipto 1156 a.C.: La Tumba del Faraón",
@@ -654,7 +870,10 @@
     "genero": "Aventura gráfica / Point & Click / Histórica",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Egipto II: La Profecía de Heliópolis",
@@ -663,7 +882,10 @@
     "genero": "Aventura gráfica / Point & Click / Histórica",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "El Rey Arturo: El Secreto de Merlín",
@@ -672,7 +894,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía / Histórica",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "El Rey Arturo: Los Orígenes de la Tabla Redonda",
@@ -681,7 +906,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía / Histórica",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Empire Deluxe",
@@ -690,7 +918,10 @@
     "genero": "Estrategia por turnos / Guerra / Conquista territorial",
     "desarrollador": "White Wolf Productions",
     "distribuidor": "New World Computing",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Empire Earth",
@@ -699,7 +930,10 @@
     "genero": "Estrategia en tiempo real (RTS) / Historia / Conquista",
     "desarrollador": "Stainless Steel Studios",
     "distribuidor": "Sierra Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Enemy Engaged: Apache vs Havoc",
@@ -708,7 +942,10 @@
     "genero": "Simulación de combate / Vuelo / Militar",
     "desarrollador": "Razorworks",
     "distribuidor": "Empire Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Euro Tour Cycling",
@@ -717,7 +954,10 @@
     "genero": "Simulación deportiva / Ciclismo / Gestión",
     "desarrollador": "City Interactive",
     "distribuidor": "City Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "ExcaliBug",
@@ -726,7 +966,10 @@
     "genero": "Estrategia en tiempo real / Humor / Fantasía",
     "desarrollador": "Index+",
     "distribuidor": "France Telecom Multimedia / Wanadoo Edition",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Extreme Games ESPN 2",
@@ -735,7 +978,10 @@
     "genero": "Carreras / Deportes extremos / Arcade",
     "desarrollador": "Sony Interactive Studios America",
     "distribuidor": "Sony Computer Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "F1 Racing Simulation",
@@ -744,7 +990,10 @@
     "genero": "Simulación de conducción / Fórmula 1 / Realismo",
     "desarrollador": "Ubisoft",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Fantasy General",
@@ -753,7 +1002,10 @@
     "genero": "Estrategia por turnos / Fantasía / Táctica militar",
     "desarrollador": "Strategic Simulations, Inc. (SSI)",
     "distribuidor": "Mindscape / SSI",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Faraón",
@@ -762,7 +1014,10 @@
     "genero": "Estrategia / City-builder / Gestión histórica",
     "desarrollador": "Impressions Games",
     "distribuidor": "Sierra Studios",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Faraón",
@@ -771,7 +1026,10 @@
     "genero": "Estrategia / City-builder / Gestión histórica",
     "desarrollador": "Impressions Games",
     "distribuidor": "Sierra Studios",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Mortal Kombat 3",
@@ -780,7 +1038,10 @@
     "genero": "Lucha / Arcade",
     "desarrollador": "Midway Games (Wolf Unit arcade), Sculptured Software (PC DOS), Williams Development (Windows/PlayStation)",
     "distribuidor": "GT Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Fausto: Los 7 Misterios del Alma",
@@ -789,7 +1050,10 @@
     "genero": "Aventura gráfica / Point & Click / Psicológica / Fantasía oscura",
     "desarrollador": "Arxel Tribe",
     "distribuidor": "Cryo Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Formula One 99",
@@ -798,7 +1062,10 @@
     "genero": "Simulación de conducción / Fórmula 1 / Deportes de motor",
     "desarrollador": "Studio 33",
     "distribuidor": "Psygnosis",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Frankenstein: Through the Eyes of the Monster",
@@ -807,7 +1074,10 @@
     "genero": "Aventura gráfica / Point & Click / Terror / Ciencia ficción",
     "desarrollador": "Amazing Media",
     "distribuidor": "Interplay Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "FX Fighter Turbo",
@@ -816,7 +1086,10 @@
     "genero": "Lucha 3D / Arcade / Ciencia ficción",
     "desarrollador": "Argonaut Software",
     "distribuidor": "GTE Entertainment / BMG Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Gabriel Knight 3: Blood of the Sacred, Blood of the Damned",
@@ -825,7 +1098,10 @@
     "genero": "Aventura gráfica / Misterio / Sobrenatural / Investigación",
     "desarrollador": "Sierra Studios",
     "distribuidor": "Sierra Studios",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Gangsters: Organized Crime",
@@ -834,7 +1110,10 @@
     "genero": "Estrategia / Gestión criminal / Táctica en tiempo real",
     "desarrollador": "Hothouse Creations",
     "distribuidor": "Eidos Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Grand Prix 3",
@@ -843,7 +1122,10 @@
     "genero": "Simulación de conducción / Fórmula 1 / Realismo",
     "desarrollador": "MicroProse",
     "distribuidor": "Hasbro Interactive / MicroProse",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Grouch",
@@ -852,7 +1134,10 @@
     "genero": "Acción / Beat 'em up / Hack & Slash / Fantasía",
     "desarrollador": "Rebelmind",
     "distribuidor": "Xicat Interactive / Dinamic Multimedia (España)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Gunman Chronicles",
@@ -861,7 +1146,10 @@
     "genero": "Shooter en primera persona (FPS) / Ciencia ficción / Acción",
     "desarrollador": "Rewolf Software",
     "distribuidor": "Sierra Studios",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Heart of China",
@@ -870,7 +1158,10 @@
     "genero": "Aventura gráfica / Point & Click / Cinemática / Romance / Aventura",
     "desarrollador": "Dynamix",
     "distribuidor": "Sierra On-Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Heavy Gear",
@@ -879,7 +1170,10 @@
     "genero": "Simulación táctica / Shooter en primera persona / Mechas / Ciencia ficción",
     "desarrollador": "Activision",
     "distribuidor": "Activision",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Heimdall 2: Into the Hall of Worlds",
@@ -888,7 +1182,10 @@
     "genero": "Aventura / Acción / Mitología nórdica / RPG ligero",
     "desarrollador": "The 8th Day",
     "distribuidor": "Core Design",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Hellboy: Asylum Seeker",
@@ -897,7 +1194,10 @@
     "genero": "Acción / Aventura / Tercera persona / Horror",
     "desarrollador": "Cryo Studios North America (PC), Hoplite Research (PlayStation)",
     "distribuidor": "Cryo Interactive (PC), DreamCatcher Interactive (PlayStation)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Hellfire",
@@ -906,7 +1206,10 @@
     "genero": "Action RPG / Hack and Slash / Expansión",
     "desarrollador": "Synergistic Software (una división de Sierra On‑Line)",
     "distribuidor": "Sierra On‑Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Heroes of Might and Magic IV",
@@ -915,7 +1218,10 @@
     "genero": "Estrategia por turnos / Fantasía / 4X",
     "desarrollador": "New World Computing",
     "distribuidor": "The 3DO Company",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Heroes of Might and Magic: A Strategic Quest",
@@ -924,7 +1230,10 @@
     "genero": "Estrategia por turnos / Fantasía / 4X",
     "desarrollador": "New World Computing",
     "distribuidor": "New World Computing",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Heroes of Might and Magic V: Gold Edition",
@@ -933,7 +1242,10 @@
     "genero": "Estrategia por turnos / Fantasía / 4X / Compilación",
     "desarrollador": "Nival Interactive",
     "distribuidor": "Ubisoft",
-    "ean": "3307215655429"
+    "ean": "3307215655429",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },   
   {
     "titulo": "Homeworld: Cataclysm",
@@ -942,7 +1254,10 @@
     "genero": "Estrategia en tiempo real / Ciencia ficción / Espacial",
     "desarrollador": "Barking Dog Studios",
     "distribuidor": "Sierra Studios",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Hostile Waters: Antaeus Rising",
@@ -951,7 +1266,10 @@
     "genero": "Estrategia en tiempo real / Acción / Ciencia ficción",
     "desarrollador": "Rage Software",
     "distribuidor": "Rage Software (Europa), Interplay Entertainment (Norteamérica)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "International Rugby League",
@@ -960,7 +1278,10 @@
     "genero": "Deportes / Rugby league / Isométrico",
     "desarrollador": "Creative Assembly",
     "distribuidor": "Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Iron Man / X-O Manowar in Heavy Metal",
@@ -969,7 +1290,10 @@
     "genero": "Acción / Beat 'em up / Shooter / Arcade",
     "desarrollador": "Realtime Associates",
     "distribuidor": "Acclaim Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Ishar II: Messengers of Doom",
@@ -978,7 +1302,10 @@
     "genero": "Role‑playing game / RPG",
     "desarrollador": "Silmarils",
     "distribuidor": "Silmarils",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "La Ruta hacia el Dorado",
@@ -987,7 +1314,10 @@
     "genero": "Aventura gráfica / Point & Click / Infantil",
     "desarrollador": "Revolution Software",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Lands of Lore II: Guardians of Destiny",
@@ -996,7 +1326,10 @@
     "genero": "Action RPG / Aventura / Fantasía",
     "desarrollador": "Westwood Studios",
     "distribuidor": "Virgin Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Jane's Longbow 2",
@@ -1005,7 +1338,10 @@
     "genero": "Simulación de vuelo / Combate aéreo / Militar",
     "desarrollador": "Origin Systems",
     "distribuidor": "Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Loom",
@@ -1014,7 +1350,10 @@
     "genero": "Aventura gráfica / Fantasía / Música",
     "desarrollador": "Lucasfilm Games (hoy LucasArts)",
     "distribuidor": "Lucasfilm Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Loom",
@@ -1023,7 +1362,10 @@
     "genero": "Aventura gráfica / Fantasía / Música",
     "desarrollador": "Lucasfilm Games (hoy LucasArts)",
     "distribuidor": "Lucasfilm Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Lost Eden",
@@ -1032,7 +1374,10 @@
     "genero": "Aventura gráfica / Estrategia ligera",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Virgin Interactive Entertainment, Interplay Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Lost Eden",
@@ -1041,7 +1386,10 @@
     "genero": "Aventura gráfica / Estrategia ligera",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Virgin Interactive Entertainment, Interplay Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Louvre: La Maldición Final",
@@ -1050,7 +1398,10 @@
     "genero": "Aventura gráfica / Acción / Puzzles",
     "desarrollador": "Arxel Tribe",
     "distribuidor": "Microids",
-    "ean": "3563650029199"
+    "ean": "3563650029199",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "M.A.X.: Mechanized Assault & Exploration",
@@ -1059,7 +1410,10 @@
     "genero": "Estrategia por turnos / Ciencia ficción / Táctica",
     "desarrollador": "Interplay Productions",
     "distribuidor": "Interplay Productions",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Majesty: The Fantasy Kingdom Sim",
@@ -1068,7 +1422,10 @@
     "genero": "Estrategia en tiempo real / Simulación / Fantasía",
     "desarrollador": "Cyberlore Studios",
     "distribuidor": "Hasbro Interactive / MicroProse",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Manic Karts",
@@ -1077,7 +1434,10 @@
     "genero": "Carreras / Karting / Arcade",
     "desarrollador": "Manic Media Productions Ltd.",
     "distribuidor": "Virgin Interactive Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Maniac Mansion",
@@ -1086,7 +1446,10 @@
     "genero": "Aventura gráfica / Point & Click / Comedia de terror",
     "desarrollador": "Lucasfilm Games (hoy LucasArts)",
     "distribuidor": "Lucasfilm Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Mega Sports",
@@ -1095,7 +1458,10 @@
     "genero": "Compilado / Deportes",
     "desarrollador": "Dinamic Multimedia",
     "distribuidor": "Dinamic Multimedia",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Messiah",
@@ -1104,7 +1470,10 @@
     "genero": "Acción / Aventura / Cyberpunk",
     "desarrollador": "Shiny Entertainment",
     "distribuidor": "Interplay Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Mission Critical",
@@ -1113,7 +1482,10 @@
     "genero": "Aventura gráfica / Ciencia ficción",
     "desarrollador": "Legend Entertainment",
     "distribuidor": "Legend Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Mission: Humanity",
@@ -1122,7 +1494,10 @@
     "genero": "Estrategia en tiempo real / Ciencia ficción",
     "desarrollador": "Techland",
     "distribuidor": "EON Digital Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Morpheus",
@@ -1131,7 +1506,10 @@
     "genero": "Aventura gráfica / Misterio / Suspense",
     "desarrollador": "Soap Bubble Productions",
     "distribuidor": "Piranha Interactive Publishing",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   }
   {
     "titulo": "Multi SIM",
@@ -1140,7 +1518,10 @@
     "genero": "Simulación / Estrategia / Multideporte",
     "desarrollador": "Dinamic Multimedia",
     "distribuidor": "Dinamic Multimedia",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "NASCAR Revolution",
@@ -1149,7 +1530,10 @@
     "genero": "Carreras / Simulación / Automovilismo",
     "desarrollador": "Stormfront Studios",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Navy Strike",
@@ -1158,7 +1542,10 @@
     "genero": "Simulación / Estrategia / Combate aéreo",
     "desarrollador": "Rowan Software Ltd.",
     "distribuidor": "Empire Interactive Europe Ltd.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "NBA Live 2000",
@@ -1167,7 +1554,10 @@
     "genero": "Deportes / Baloncesto / Simulación",
     "desarrollador": "EA Canada",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "NBA Live 95",
@@ -1176,7 +1566,10 @@
     "genero": "Deportes / Baloncesto / Simulación",
     "desarrollador": "EA Canada (Hitmen Productions)",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "NBA Live 97",
@@ -1185,7 +1578,10 @@
     "genero": "Deportes / Baloncesto / Simulación",
     "desarrollador": "EA Sports",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Need for Speed: Special Edition",
@@ -1194,7 +1590,10 @@
     "genero": "Carreras / Simulación",
     "desarrollador": "EA Seattle (EA Canada)",
     "distribuidor": "Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Neverwinter Nights 2: Lawful Good",
@@ -1203,7 +1602,10 @@
     "genero": "RPG / Rol táctico / Fantasía",
     "desarrollador": "Obsidian Entertainment",
     "distribuidor": "Atari Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "NHL 2000",
@@ -1212,7 +1614,10 @@
     "genero": "Deportes / Hockey sobre hielo / Simulación",
     "desarrollador": "EA Canada",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Olympic Soccer: Atlanta 1996",
@@ -1221,7 +1626,10 @@
     "genero": "Deportes / Fútbol / Juegos Olímpicos",
     "desarrollador": "Silicon Dreams Studio",
     "distribuidor": "U.S. Gold",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Panzer Commander: WWII Tank Simulator",
@@ -1230,7 +1638,10 @@
     "genero": "Simulación de vehículo / Tanques / Segunda Guerra Mundial",
     "desarrollador": "Ultimation Inc.",
     "distribuidor": "Strategic Simulations Inc. (SSI)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Panzer General II",
@@ -1239,7 +1650,10 @@
     "genero": "Wargame / Estrategia por turnos / Segunda Guerra Mundial",
     "desarrollador": "Strategic Simulations, Inc.",
     "distribuidor": "Strategic Simulations, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Panzer General II: Allied General",
@@ -1248,7 +1662,10 @@
     "genero": "Wargame por turnos / Segunda Guerra Mundial",
     "desarrollador": "Strategic Simulations, Inc.",
     "distribuidor": "Strategic Simulations, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Panzer General III: Scorched Earth",
@@ -1257,7 +1674,10 @@
     "genero": "Wargame / Estrategia por turnos / Segunda Guerra Mundial",
     "desarrollador": "Strategic Simulations, Inc.",
     "distribuidor": "Strategic Simulations, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Patrician II: Quest for Power",
@@ -1266,7 +1686,10 @@
     "genero": "Simulación económica / Comercio / Estrategia en tiempo real",
     "desarrollador": "Ascaron Entertainment",
     "distribuidor": "Infogrames Europe / FX Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "PC Fútbol 2000: Selección Española – Europa 2000",
@@ -1275,7 +1698,10 @@
     "genero": "Deportes / Fútbol / Simulación",
     "desarrollador": "Dinamic Multimedia",
     "distribuidor": "Dinamic Multimedia",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "PC Fútbol 2001",
@@ -1284,7 +1710,10 @@
     "genero": "Deportes / Fútbol / Simulación y Gestión",
     "desarrollador": "Dinamic Multimedia",
     "distribuidor": "Dinamic Multimedia",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Pool of Radiance",
@@ -1293,7 +1722,10 @@
     "genero": "RPG / Rol táctico / Fantasía",
     "desarrollador": "Strategic Simulations, Inc.",
     "distribuidor": "Strategic Simulations, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Pool of Radiance: Ruins of Myth Drannor",
@@ -1302,7 +1734,10 @@
     "genero": "RPG / Rol táctico / Fantasía",
     "desarrollador": "Stormfront Studios",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Power F1",
@@ -1311,7 +1746,10 @@
     "genero": "Carreras / Fórmula 1 / Simulación",
     "desarrollador": "Teque London Ltd.",
     "distribuidor": "Domark / Eidos Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Primera División Stars",
@@ -1320,7 +1758,10 @@
     "genero": "Deportes / Fútbol / Gestión de jugadores",
     "desarrollador": "Electronic Arts UK Ltd., Software Creations Ltd.",
     "distribuidor": "Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Pro Pinball: Fantastic Journey",
@@ -1329,7 +1770,10 @@
     "genero": "Simulación / Pinball",
     "desarrollador": "Cunning Developments",
     "distribuidor": "Empire Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Rally Championship",
@@ -1338,7 +1782,10 @@
     "genero": "Carreras / Rally / Simulación",
     "desarrollador": "Warthog Games",
     "distribuidor": "Actualize (Europress)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Return to Monkey Island",
@@ -1347,7 +1794,10 @@
     "genero": "Aventura gráfica / Point & Click",
     "desarrollador": "Terrible Toybox",
     "distribuidor": "Devolver Digital",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Re‑Volt",
@@ -1356,7 +1806,10 @@
     "genero": "Carreras / RC cars / Arcade",
     "desarrollador": "Acclaim Studios London",
     "distribuidor": "Acclaim Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Resurrection: Return of the Black Dragon",
@@ -1365,7 +1818,10 @@
     "genero": "Acción / Aventura / Fantasía",
     "desarrollador": "Nebula Entertainment",
     "distribuidor": "Dinamic Multimedia",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Ring: El Anillo de los Nibelungos",
@@ -1374,7 +1830,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía / Ciencia ficción",
     "desarrollador": "Arxel Tribe",
     "distribuidor": "Cryo Interactive (Friendware en España)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Riverworld",
@@ -1383,7 +1842,10 @@
     "genero": "Estrategia en tiempo real / Ciencia ficción / Fantasía",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Cryo Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "S.T.O.R.M.",
@@ -1392,7 +1854,10 @@
     "genero": "Arcade / Shooter / Acción submarina",
     "desarrollador": "Virtual Studio",
     "distribuidor": "American Softworks Corporation",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Sam & Max: Hit the Road",
@@ -1401,7 +1866,10 @@
     "genero": "Aventura gráfica / Point & Click / Comedia",
     "desarrollador": "LucasArts (Steve Purcell)",
     "distribuidor": "LucasArts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },     
   {
     "titulo": "Scooby‑Doo: Peligro en la Ciudad Fantasma",
@@ -1410,7 +1878,10 @@
     "genero": "Aventura gráfica / Point & Click / Infantil",
     "desarrollador": "TerraGlyph Interactive Studios (The Learning Company)",
     "distribuidor": "The Learning Company",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Scotland Yard: A la Búsqueda de Mister X",
@@ -1419,7 +1890,10 @@
     "genero": "Estrategia / Aventura / Deductivo",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Ravensburger Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Secret Weapons of the Luftwaffe",
@@ -1428,7 +1902,10 @@
     "genero": "Simulación de vuelo / Combate aéreo / Segunda Guerra Mundial",
     "desarrollador": "Totally Games (Lucasfilm Games)",
     "distribuidor": "Lucasfilm Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Shadow Man",
@@ -1436,7 +1913,10 @@
     "genero": "Acción‑aventura / Horror / Metroidvania 3D",
     "desarrollador": "Acclaim Studios Teesside",
     "distribuidor": "Acclaim Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Shogun: Total War",
@@ -1445,7 +1925,10 @@
     "genero": "Estrategia por turnos / Tácticas en tiempo real / Histórica",
     "desarrollador": "The Creative Assembly",
     "distribuidor": "Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Sid Meier's Civilization II",
@@ -1454,7 +1937,10 @@
     "genero": "Estrategia por turnos / 4X / Histórica",
     "desarrollador": "MicroProse (MPS Labs)",
     "distribuidor": "MicroProse",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Sidney 2000",
@@ -1463,7 +1949,10 @@
     "genero": "Deportes / Multievento olímpico",
     "desarrollador": "Attention to Detail",
     "distribuidor": "Eidos Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Silver",
@@ -1472,7 +1961,10 @@
     "genero": "Acción/RPG / Fantasía",
     "desarrollador": "Spiral House",
     "distribuidor": "Infogrames",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "SimCity 3000",
@@ -1481,7 +1973,10 @@
     "genero": "Simulación / Construcción de ciudades",
     "desarrollador": "Maxis",
     "distribuidor": "Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Spearhead",
@@ -1490,7 +1985,10 @@
     "genero": "Simulación de tanques / Acción táctica",
     "desarrollador": "Zombie Studios, MAK Technologies, Inc.",
     "distribuidor": "Interactive Magic (EE. UU.), Midas Interactive (EU)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Avalon Hill's Squad Leader",
@@ -1499,7 +1997,10 @@
     "genero": "Estrategia por turnos / Combate táctico / Segunda Guerra Mundial",
     "desarrollador": "Random Games",
     "distribuidor": "Hasbro Interactive (MicroProse label)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Star General",
@@ -1508,7 +2009,10 @@
     "genero": "Wargame por turnos / Estrategia 4X / Ciencia ficción",
     "desarrollador": "Catware (SSI)",
     "distribuidor": "Strategic Simulations, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "StarCraft",
@@ -1517,7 +2021,10 @@
     "genero": "Estrategia en tiempo real / Ciencia ficción",
     "desarrollador": "Blizzard Entertainment",
     "distribuidor": "Blizzard Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "StarCraft: Brood War – Expansion Set",
@@ -1526,7 +2033,10 @@
     "genero": "Estrategia en tiempo real / Ciencia ficción / Expansion Pack",
     "desarrollador": "Blizzard Entertainment, Saffire Entertainment",
     "distribuidor": "Blizzard Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },      
   {
     "titulo": "Starship Troopers",
@@ -1535,7 +2045,10 @@
     "genero": "Estrategia en tiempo real / Táctica / Ciencia ficción",
     "desarrollador": "Blue Tongue Entertainment (SSI en MS‑DOS)",
     "distribuidor": "Strategic Simulations, Inc. / Hasbro Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Steel Panthers",
@@ -1544,7 +2057,10 @@
     "genero": "Estrategia por turnos / Wargame táctico / Segunda Guerra Mundial",
     "desarrollador": "Strategic Simulations, Inc. (Gary Grigsby y Keith Brors)",
     "distribuidor": "Strategic Simulations, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Stunt GP",
@@ -1553,7 +2069,10 @@
     "genero": "Carreras / Coches RC / Arcade",
     "desarrollador": "Team17 Software Limited",
     "distribuidor": "Eon Digital Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Subwar 2050",
@@ -1562,7 +2081,10 @@
     "genero": "Simulador de combate submarino / Ciencia ficción",
     "desarrollador": "Particle Systems Ltd.",
     "distribuidor": "MicroProse Software, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Supervirilidad",
@@ -1571,7 +2093,10 @@
     "genero": "",
     "desarrollador": "Desconocido",
     "distribuidor": "Desconocido",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "SWAT 3: Close Quarters Battle",
@@ -1580,7 +2105,10 @@
     "genero": "Táctico / Shooter en primera persona",
     "desarrollador": "Sierra Northwest",
     "distribuidor": "Sierra Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "The Gene Machine",
@@ -1589,7 +2117,10 @@
     "genero": "Aventura gráfica",
     "desarrollador": "Divide By Zero",
     "distribuidor": "Vic Tokai / Coconuts Japan / DreamCatcher Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "The Longest Journey",
@@ -1598,7 +2129,10 @@
     "genero": "Aventura gráfica",
     "desarrollador": "Funcom",
     "distribuidor": "IQ Media Nordic / Dinamic Multimedia (España)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "The X-Files: The Game",
@@ -1607,7 +2141,10 @@
     "genero": "Aventura interactiva / FMV",
     "desarrollador": "HyperBole Studios",
     "distribuidor": "Fox Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "TILT",
@@ -1616,7 +2153,10 @@
     "genero": "Pinball",
     "desarrollador": "NMS Software",
     "distribuidor": "Cryo Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Time Machine: Las Nuevas Aventuras de la Máquina del Tiempo",
@@ -1625,7 +2165,10 @@
     "genero": "Aventura gráfica",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Cryo Interactive / FX Interactive (España)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Times of Conflict",
@@ -1634,7 +2177,10 @@
     "genero": "Estrategia en tiempo real",
     "desarrollador": "Insomnia Entertainment",
     "distribuidor": "Mindscape",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "TOCA: Touring Car Championship",
@@ -1643,7 +2189,10 @@
     "genero": "Carreras / Automovilismo",
     "desarrollador": "Codemasters",
     "distribuidor": "Codemasters",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Tom Clancy's Ghost Recon: Collector's Pack",
@@ -1652,7 +2201,10 @@
     "genero": "Shooter táctico / FPS",
     "desarrollador": "Red Storm Entertainment",
     "distribuidor": "Ubi Soft Entertainment Software",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Tom Clancy's Rainbow Six 3: Raven Shield",
@@ -1661,7 +2213,10 @@
     "genero": "Shooter táctico / FPS",
     "desarrollador": "Ubisoft Montréal, Ubisoft Milán, Red Storm Entertainment",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Tom Clancy's Rainbow Six: Covert Ops Essentials",
@@ -1670,7 +2225,10 @@
     "genero": "Shooter táctico / FPS",
     "desarrollador": "Red Storm Entertainment, Magic Lantern Playware, Zombie Studios",
     "distribuidor": "Red Storm Entertainment (Ubi Soft para distribución europea)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Tomcat Alley",
@@ -1679,7 +2237,10 @@
     "genero": "Acción / FMV / Simulación de vuelo",
     "desarrollador": "The Code Monkeys (PC), The Code Monkeys (Sega CD)",
     "distribuidor": "Sega",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Total Annihilation",
@@ -1688,7 +2249,10 @@
     "genero": "Estrategia en tiempo real",
     "desarrollador": "Cavedog Entertainment",
     "distribuidor": "GT Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Traitors Gate",
@@ -1697,7 +2261,10 @@
     "genero": "Aventura gráfica / Point-and-click",
     "desarrollador": "Daydream Software",
     "distribuidor": "DreamCatcher Interactive (Norteamérica), FX Interactive (España)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Transarctica",
@@ -1706,7 +2273,10 @@
     "genero": "Estrategia / Aventura",
     "desarrollador": "Silmarils",
     "distribuidor": "Silmarils",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Tzar: El Poder de la Corona",
@@ -1715,7 +2285,10 @@
     "genero": "Estrategia en tiempo real",
     "desarrollador": "Haemimont Games",
     "distribuidor": "TalonSoft / FX Interactive (España)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "UEFA Manager 2000",
@@ -1724,7 +2297,10 @@
     "genero": "Simulación / Estrategia deportiva (fútbol)",
     "desarrollador": "Bubball",
     "distribuidor": "Infogrames Europe SA",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Unreal Tournament",
@@ -1733,7 +2309,10 @@
     "genero": "Shooter en primera persona / Arcade",
     "desarrollador": "Epic Games, Digital Extremes",
     "distribuidor": "GT Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Urban Chaos",
@@ -1742,7 +2321,10 @@
     "genero": "Action‑Adventure / Shooter",
     "desarrollador": "Mucky Foot Productions",
     "distribuidor": "Eidos Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "V‑Rally: Multiplayer Championship Edition",
@@ -1751,7 +2333,10 @@
     "genero": "Carreras / Simulación de rally",
     "desarrollador": "Eden Studios, Infogrames Multimedia",
     "distribuidor": "Infogrames Europe",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Vampire: The Masquerade – Redemption",
@@ -1760,7 +2345,10 @@
     "genero": "Rol / Acción",
     "desarrollador": "Nihilistic Software",
     "distribuidor": "Activision",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Versalles: Complot en la Corte del Rey Sol",
@@ -1769,7 +2357,10 @@
     "genero": "Aventura histórica / Educativo",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Cryo Interactive, Canal+ Multimedia, Réunion des Musées Nationaux",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Virtual Karts",
@@ -1778,7 +2369,10 @@
     "genero": "Carreras / Simulación de karts",
     "desarrollador": "MPS Labs",
     "distribuidor": "MicroProse",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Viva Football",
@@ -1787,7 +2381,10 @@
     "genero": "Deporte (fútbol)",
     "desarrollador": "Crimson Studio",
     "distribuidor": "Virgin Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Warrior Kings",
@@ -1796,7 +2393,10 @@
     "genero": "Estrategia en tiempo real",
     "desarrollador": "Black Cactus",
     "distribuidor": "Microids",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Wartorn",
@@ -1805,7 +2405,10 @@
     "genero": "Táctico en tiempo real / Roguelite",
     "desarrollador": "Stray Kite Studios",
     "distribuidor": "Stray Kite Studios",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Z: The Bitmap Brothers",
@@ -1814,7 +2417,10 @@
     "genero": "Estrategia en tiempo real / Táctica en tiempo real",
     "desarrollador": "The Bitmap Brothers",
     "distribuidor": "Renegade Software (Reino Unido), Virgin Interactive (Europa/US), TickTock Games / Rebellion (re‑releases)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Zone Raiders",
@@ -1823,7 +2429,10 @@
     "genero": "Combate vehicular / Carreras",
     "desarrollador": "Image Space Incorporated",
     "distribuidor": "Virgin Interactive Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "War in the Gulf",
@@ -1832,7 +2441,10 @@
     "genero": "Simulación / Estrategia / Vehicular (tanque)",
     "desarrollador": "Oxford Digital Enterprises",
     "distribuidor": "Empire Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "RollerCoaster Tycoon",
@@ -1841,7 +2453,10 @@
     "genero": "Simulación de construcción y gestión / Parc de atracciones",
     "desarrollador": "Chris Sawyer",
     "distribuidor": "Hasbro Interactive / Infogrames (posteriormente Atari Interactive)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Silent hunter II",
@@ -1850,7 +2465,10 @@
     "genero": "Simulación / Combate submarino / Segunda Guerra Mundial",
     "desarrollador": "Aeon Electronic Entertainment, completado por Ultimation Inc.",
     "distribuidor": "Ubi Soft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "African Safari: Trophy Hunter 3D",
@@ -1859,7 +2477,10 @@
     "genero": "Simulation / Sports",
     "desarrollador": "Quantum Axcess",
     "distribuidor": "WizardWorks Group, Inc.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Sydney 2000",
@@ -1868,7 +2489,10 @@
     "genero": "Deportes / Multievento olímpico",
     "desarrollador": "Attention to Detail",
     "distribuidor": "Eidos Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "I-War",
@@ -1877,7 +2501,10 @@
     "genero": "Simulación de combate espacial / Ciencia ficción",
     "desarrollador": "Particle Systems",
     "distribuidor": "Infogrames",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Close Combat IV",
@@ -1886,7 +2513,10 @@
     "genero": "Real‑time strategy / Wargame",
     "desarrollador": "Atomic Games",
     "distribuidor": "Strategic Simulations Inc. (SSI)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Duke Nukem 3D",
@@ -1895,7 +2525,10 @@
     "genero": "First‑person shooter",
     "desarrollador": "3D Realms (alias Apogee/3D Realms Team)",
     "distribuidor": "FormGen (PC), GT Interactive (retail), Sega (Saturn/PlayStation in some regions)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Battleground. 1815 Waterloo",
@@ -1904,7 +2537,10 @@
     "genero": "Turn-based strategy / Computer wargame",
     "desarrollador": "TalonSoft",
     "distribuidor": "TalonSoft (EE.UU.), Empire Interactive (UE), Bomico (Alemania)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Gadget: Invention, Travel & Adventure",
@@ -1913,7 +2549,10 @@
     "genero": "Aventura gráfica / Interactiva / Ciencia ficción / Visual novel",
     "desarrollador": "Synergy Inc.",
     "distribuidor": "Synergy Interactive / Panasonic Interactive Media",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Return to Zork",
@@ -1922,7 +2561,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía",
     "desarrollador": "Activision (Infocom)",
     "distribuidor": "Activision",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Return to Zork",
@@ -1931,7 +2573,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía",
     "desarrollador": "Activision (Infocom)",
     "distribuidor": "Activision",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Myst III: Exile",
@@ -1940,7 +2585,10 @@
     "genero": "Aventura gráfica / Puzle / Primera persona",
     "desarrollador": "Presto Studios",
     "distribuidor": "Ubisoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Battle Isle: The Andosia War",
@@ -1949,7 +2597,10 @@
     "genero": "Turn-based strategy",
     "desarrollador": "Cauldron",
     "distribuidor": "Blue Byte",
-    "ean": "4014092002435"
+    "ean": "4014092002435",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Dungeon Keeper",
@@ -1958,7 +2609,10 @@
     "genero": "Real‑time strategy / God game / Dungeon management",
     "desarrollador": "Bullfrog Productions",
     "distribuidor": "Electronic Arts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Star Wars: X‑Wing vs. TIE Fighter",
@@ -1967,7 +2621,10 @@
     "genero": "Simulación espacial / Combate",
     "desarrollador": "Totally Games",
     "distribuidor": "LucasArts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Star Wars: Episodio I – La Amenaza Fantasma",
@@ -1976,7 +2633,10 @@
     "genero": "Acción/Aventura",
     "desarrollador": "Big Ape Productions",
     "distribuidor": "LucasArts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "The X-Files: The Game",
@@ -1985,7 +2645,10 @@
     "genero": "Aventura interactiva / FMV",
     "desarrollador": "HyperBole Studios",
     "distribuidor": "Fox Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Scotland Yard: A la Búsqueda de Mister X",
@@ -1994,7 +2657,10 @@
     "genero": "Estrategia / Aventura / Deductivo",
     "desarrollador": "Cryo Interactive",
     "distribuidor": "Ravensburger Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "King's Quest IV: The Perils of Rosella",
@@ -2003,7 +2669,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía",
     "desarrollador": "Sierra On‑Line",
     "distribuidor": "Sierra On‑Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "King’s Quest VI: Heir Today, Gone Tomorrow",
@@ -2012,7 +2681,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía",
     "desarrollador": "Sierra On‑Line",
     "distribuidor": "Sierra On‑Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "King's Quest V: Absence Makes the Heart Go Yonder!",
@@ -2021,7 +2693,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía",
     "desarrollador": "Sierra On‑Line",
     "distribuidor": "Sierra On‑Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Deo Gratias",
@@ -2030,7 +2705,10 @@
     "genero": "Strategy / Tactics (God‑game)",
     "desarrollador": "Cryo Interactive Entertainment",
     "distribuidor": "Cryo Interactive Entertainment, France Télécom Multimedia",
-    "ean": "3554540450025"
+    "ean": "3554540450025",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "King's Quest VI: Heir Today, Gone Tomorrow",
@@ -2039,7 +2717,10 @@
     "genero": "Aventura gráfica / Point & Click / Fantasía",
     "desarrollador": "Sierra On‑Line",
     "distribuidor": "Sierra On‑Line",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Zork: Grand Inquisitor",
@@ -2048,7 +2729,10 @@
     "genero": "Aventura gráfica / Point-and-click",
     "desarrollador": "Activision",
     "distribuidor": "Activision",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Heist",
@@ -2057,7 +2741,10 @@
     "genero": "Acción / Estrategia / Sigilo / Crimen",
     "desarrollador": "Virgin Interactive Entertainment (Europe) Ltd.",
     "distribuidor": "Virgin Interactive Entertainment (Europe) Ltd.",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Imperium Galactica",
@@ -2066,7 +2753,10 @@
     "genero": "4X / Estrategia / Ciencia ficción",
     "desarrollador": "Digital Reality",
     "distribuidor": "GT Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Atlantis: The Lost Tales",
@@ -2075,7 +2765,10 @@
     "genero": "Adventure",
     "desarrollador": "Cryo Interactive Entertainment",
     "distribuidor": "Cryo Interactive / DreamCatcher (NA)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Pompeya: La leyenda del Vesubio",
@@ -2084,7 +2777,10 @@
     "genero": "Aventura gráfica / Educativo / Fantasía histórica",
     "desarrollador": "Arxel Tribe (en colaboración con Réunion des Musées Nationaux y Soprintendenza Archeologica di Pompei)",
     "distribuidor": "Cryo Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Heavy Gear",
@@ -2093,7 +2789,10 @@
     "genero": "Simulación táctica / Shooter en primera persona / Mechas / Ciencia ficción",
     "desarrollador": "Activision",
     "distribuidor": "Activision",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Flash Point: Korea",
@@ -2102,7 +2801,10 @@
     "genero": "Simulación de vuelo / Combate aéreo / Militar moderno",
     "desarrollador": "G2 Interactive",
     "distribuidor": "Virgin Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Heroes of Might and Magic II: The Succession Wars",
@@ -2111,7 +2813,10 @@
     "genero": "Estrategia por turnos / Fantasía / 4X",
     "desarrollador": "New World Computing",
     "distribuidor": "The 3DO Company",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Heroes of Might and Magic III: The Restoration of Erathia",
@@ -2120,7 +2825,10 @@
     "genero": "Estrategia por turnos / Fantasía / 4X",
     "desarrollador": "New World Computing",
     "distribuidor": "The 3DO Company",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "Corsairs",
@@ -2129,7 +2837,10 @@
     "genero": "Strategy / Action / Adventure",
     "desarrollador": "Microïds",
     "distribuidor": "Microïds",
-    "ean": "0663296100337"
+    "ean": "0663296100337",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },    
   {
     "titulo": "FX Chess",
@@ -2138,7 +2849,10 @@
     "genero": "Ajedrez / Estrategia / Educativo",
     "desarrollador": "Rebel Company / FX Interactive",
     "distribuidor": "FX Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Neverwinter Nights 2: Chaotic Evil",
@@ -2147,7 +2861,10 @@
     "genero": "RPG / Rol táctico / Fantasía",
     "desarrollador": "Obsidian Entertainment",
     "distribuidor": "Atari Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Neverwinter Nights 2: Lawful Good",
@@ -2156,7 +2873,10 @@
     "genero": "RPG / Rol táctico / Fantasía",
     "desarrollador": "Obsidian Entertainment",
     "distribuidor": "Atari Interactive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Empires III",
@@ -2165,7 +2885,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft Game Studios, MacSoft & Destineer (Mac)",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Diablo II: Battle Chest",
@@ -2174,7 +2897,10 @@
     "genero": "Action role‑playing / Hack‑and‑slash",
     "desarrollador": "Blizzard North",
     "distribuidor": "Blizzard Entertainment",
-    "ean": "0020626717304"
+    "ean": "0020626717304",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Empires. Edición coleccionistas",
@@ -2183,7 +2909,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft / Ubisoft (Exclusive packaging)",
-    "ean": "5017783024272, 8712206083979"
+    "ean": "5017783024272, 8712206083979",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Age of Empires. Edición coleccionistas",
@@ -2192,7 +2921,10 @@
     "genero": "Real-time strategy",
     "desarrollador": "Ensemble Studios",
     "distribuidor": "Microsoft / Ubisoft (Exclusive packaging)",
-    "ean": "5017783024272, 8712206083979"
+    "ean": "5017783024272, 8712206083979",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Iron Assault",
@@ -2201,7 +2933,10 @@
     "genero": "Simulación / Acción / Vehicular (mech)",
     "desarrollador": "Graffiti",
     "distribuidor": "Virgin Interactive Entertainment",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Drácula: Resurrección",
@@ -2210,7 +2945,10 @@
     "genero": "Aventura gráfica / Point & Click",
     "desarrollador": "Index+ / France Telecom Multimedia",
     "distribuidor": "Microïds",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Star Wars: Rebel Assault II – The Hidden Empire",
@@ -2219,7 +2957,10 @@
     "genero": "Accion / Shooter sobre railes",
     "desarrollador": "LucasArts",
     "distribuidor": "LucasArts",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "America: No Peace Beyond the Line!",
@@ -2228,7 +2969,10 @@
     "genero": "Estrategia en tiempo real (RTS)",
     "desarrollador": "Related Designs",
     "distribuidor": "Data Becker",
-    "ean": "4003646468223"
+    "ean": "4003646468223",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   }
 
 ]

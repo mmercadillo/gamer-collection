@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Edición mejorada del primer Need for Speed, lanzada en 1996 para PC. Añade dos pistas nuevas (Burnt Sienna y Transtropolis), cambios en el motor gráfico, opciones de hora del día, banda sonora completa en el juego, soporte para DirectX 2, red IPX/TCP‑IP y multijugador para hasta 8 jugadores. Último título de la serie con compatibilidad para MS‑DOS antes de que la franquicia pasase exclusivamente a Windows.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

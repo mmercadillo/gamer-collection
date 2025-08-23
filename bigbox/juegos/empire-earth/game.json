@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Entertainment",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real que abarca más de 500.000 años de historia, desde la Prehistoria hasta un futuro cercano. El jugador dirige una civilización a lo largo de 14 épocas diferentes, gestionando recursos, tecnología, diplomacia y unidades militares. Incluye campañas históricas, un potente editor de escenarios y modo multijugador. Considerado por muchos como el sucesor espiritual de Age of Empires.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

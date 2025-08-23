@@ -6,5 +6,8 @@
   "desarrollador": "Strategic Simulations, Inc.",
   "distribuidor": "Strategic Simulations, Inc.",
   "ean": "",
-  "descripcion": "Lanzado en 1995 para Windows, conocido en Europa como Panzer General II, es la secuela directa de Panzer General centrada en las fuerzas Aliadas. Utiliza el motor de batalla por turnos sobre mapas hexagonales e incluye campañas británicas, estadounidenses y soviéticas en Europa, Rusia y el norte de África. Ofrece campañas no lineales, sistema de prestigio para comprar unidades, IA mejorada, editor de escenarios y soporte multijugador por email o red."
+  "descripcion": "Lanzado en 1995 para Windows, conocido en Europa como Panzer General II, es la secuela directa de Panzer General centrada en las fuerzas Aliadas. Utiliza el motor de batalla por turnos sobre mapas hexagonales e incluye campañas británicas, estadounidenses y soviéticas en Europa, Rusia y el norte de África. Ofrece campañas no lineales, sistema de prestigio para comprar unidades, IA mejorada, editor de escenarios y soporte multijugador por email o red.",
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

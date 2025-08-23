@@ -7,5 +7,7 @@
   "distribuidor": "NovaLogic",
   "ean": "0753799097897",
   "descripcion": "Tercer título de la saga, lanzado en noviembre de 2000. Utiliza el nuevo motor poligonal Voxel Space 32 y presenta 30 misiones globales (África, Indonesia, Egipto, Sudamérica). Introduce equipo avanzado (OICW), 27 armas, opciones de inserción táctica (helicóptero/paracaídas), IA realista y multijugador (PvP hasta 50, coop para 4). Incluye editor de mapas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

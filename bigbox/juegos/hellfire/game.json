@@ -7,5 +7,7 @@
   "distribuidor": "Sierra On‑Line",
   "ean": "",
   "descripcion": "Expansión lanzada en 1997 para Diablo (1996). Incluye nuevas mazmorras (‘The Nest’ y ‘The Crypt’), un nuevo villano final (Na‑Krul), la clase de personaje 'Monje' y acceso a dos clases ocultas (Bárbaro y Bardo) mediante trucos. También agrega nuevos objetos, hechizos, santuarios, mejoras de interfaz y la posibilidad de correr en Tristán. No es compatible con Battle.net y su contenido es independiente del multijugador en línea :contentReference[oaicite:1]{index=1}.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

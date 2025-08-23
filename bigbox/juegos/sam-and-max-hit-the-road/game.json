@@ -7,5 +7,7 @@
   "distribuidor": "LucasArts",
   "ean": "",
   "descripcion": "Aventura gráfica point‑&‑click lanzada originalmente en noviembre de 1993 para MS‑DOS, y relanzada con compatibilidad Windows en 2002. Basada en los cómics de Steve Purcell, el dúo de detectives Sam (un perro antropomórfico) y Max (conejo hipercinético) viajan por Estados Unidos persiguiendo a un yeti fugitivo. Usa el motor SCUMM e iMUSE, e incluye voces completas por Bill Farmer, Nick Jameson y otros.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

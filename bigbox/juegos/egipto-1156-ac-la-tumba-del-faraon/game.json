@@ -7,6 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Aventura gráfica desarrollada por Cryo y ambientada en el antiguo Egipto durante el reinado de Ramsés III. Interpretas a Ramosé, hijo de un arquitecto acusado injustamente de saquear tumbas reales. Tu misión será investigar, explorar tumbas y resolver acertijos para demostrar su inocencia. El juego combina fidelidad histórica con gráficos pre-renderizados y una narrativa inmersiva.",
-  "incluye": [
-  ]
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

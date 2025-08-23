@@ -7,5 +7,7 @@
   "distribuidor": "Sierra / BestSeller Series (España)",
   "ean": "",
   "descripcion": "Juego ambientado en Springfield en 2003 donde controlas a miembros de la familia Simpson en misiones y conducción libre. Incluye multijugador local y minijuegos tipo GTA pero con humor Simpsons.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

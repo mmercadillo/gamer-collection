@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Entertainment",
   "ean": "",
   "descripcion": "Simulador de carreras oficial de la temporada NASCAR 2002, con modos de simulación y arcade, lecciones de conducción y soporte multijugador.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

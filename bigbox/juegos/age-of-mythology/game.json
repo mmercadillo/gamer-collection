@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft Game Studios",
   "ean": "8712206084440",
   "descripcion": "Juego de estrategia en tiempo real (2002) ambientado en mitologías griega, egipcia y nórdica. Sigues las campañas del Atlante Arkantos, construyes civilizaciones, evocás poderes divinos y entrenás unidades míticas. Incluye campaña principal, multijugador, editor de escenarios y motor BANG!.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

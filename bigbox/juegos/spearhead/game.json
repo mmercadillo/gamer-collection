@@ -7,5 +7,7 @@
   "distribuidor": "Interactive Magic (EE. UU.), Midas Interactive (EU)",
   "ean": "",
   "descripcion": "Simulador/acción de tanques lanzado en agosto de 1998 para Windows. Controlas un M1A2 Abrams en misiones tácticas del tipo 'Operation Removal' en el norte de África. Incluye 20 misiones individuales, campaña desértica, editor de misiones y multijugador hasta 12 jugadores por LAN/internet.",  
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

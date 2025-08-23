@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft",
   "ean": "",
   "descripcion": "Segunda entrega de la saga Age of Empires (1999). Guías diversas civilizaciones medievales desde la Edad Oscura hasta el Renacimiento a través de campañas históricas y multijugador. Incluye editor de escenarios y motor Genie. Lanzado originalmente para PC y adaptado posteriormente a Mac en 2001.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

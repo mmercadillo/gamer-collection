@@ -7,5 +7,7 @@
   "distribuidor": "Capcom",
   "ean": "4976219355681",
   "descripcion": "Survival horror de acción lanzado en julio 1999 (JP) / enero 2000 (Global). Dirigido por Shinji Mikami (Resident Evil), presenta dinosaurios con IA agresiva en entornos 3D en tiempo real. La agente Regina debe explorar una instalación en Ibis Island, resolver puzzles, administrar recursos limitados e intentar escapar viva. Más de 2,4 M copias vendidas y relanzado en PSN, GOG y Steam para Windows modernos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

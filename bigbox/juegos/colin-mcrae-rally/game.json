@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters, Sony Computer Entertainment (PlayStation), THQ (GBC)",
   "ean": "0722242517381",
   "descripcion": "Simulador de rally realista lanzado en 1998, basado en la temporada del Campeonato Mundial de Rally de 1998, que incluye automóviles como el Subaru Impreza WRC, tecnología de modelado láser y modalidades para Novato, Intermedio y Experto. Soporta multijugador LAN en PC, pantalla dividida en PlayStation y versión portátil para Game Boy Color.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Avalon Hill",
   "ean": "",
   "descripcion": "Adaptación en PC del clásico juego de mesa 'Advanced Civilization' (1995). Gestionas civilizaciones mediterráneas desde la Edad del Bronce hasta la del Hierro mediante comercio, avances tecnológicos y calamidades. No es un wargame puro: destaca por su enfoque económico y diplomático, con una IA fiel a la experiencia de tablero.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

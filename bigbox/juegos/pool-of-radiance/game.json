@@ -6,5 +6,8 @@
   "desarrollador": "Strategic Simulations, Inc.",
   "distribuidor": "Strategic Simulations, Inc.",
   "ean": "",
-  "descripcion": "Lanzado en junio de 1988, fue el primer videojuego oficial basado en el sistema AD&D y marcó el inicio de la serie Gold Box. Ambientado en los Reinos Olvidados, el jugador lidera hasta seis aventureros para limpiar la ciudad de Phlan de criaturas malignas. Combina exploración en vista en primera persona con combates tácticos por turnos en cuadrícula. Permitía exportar personajes a secuelas como *Curse of the Azure Bonds* y *Pools of Darkness*."
+  "descripcion": "Lanzado en junio de 1988, fue el primer videojuego oficial basado en el sistema AD&D y marcó el inicio de la serie Gold Box. Ambientado en los Reinos Olvidados, el jugador lidera hasta seis aventureros para limpiar la ciudad de Phlan de criaturas malignas. Combina exploración en vista en primera persona con combates tácticos por turnos en cuadrícula. Permitía exportar personajes a secuelas como *Curse of the Azure Bonds* y *Pools of Darkness*.",
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

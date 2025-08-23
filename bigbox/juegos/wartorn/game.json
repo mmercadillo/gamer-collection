@@ -7,5 +7,7 @@
   "distribuidor": "Stray Kite Studios",
   "ean": "",
   "descripcion": "Wartorn es un juego táctico roguelite en acceso anticipado desde junio de 2025 para Windows. Sigues a las hermanas Yara y Elani mientras atraviesan las islas de Talaur reclutando escuadrones de criaturas fantásticas (goblins, elfos, demonios, treefolk, etc.). El sistema elemental —agua, fuego, electricidad, alquitrán, plantas— afecta significativamente el combate, permitiendo combos tácticos. Cientos de eventos narrativos, gestión de moral y un mapa con rutas ramificadas definen su rejugabilidad.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

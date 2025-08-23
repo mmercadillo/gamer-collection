@@ -7,5 +7,7 @@
   "distribuidor": "Military Simulations",
   "ean": "",
   "descripcion": "Simulador de vuelo táctico lanzado en 1995 para MS‑DOS. Pilotas un F‑16 en misiones aéreas sobre Irak, basadas en imágenes satelitales del Departamento de Defensa de EE.UU. Incluye 40 misiones 'one‑off', modelado realista del avión y su aviónica con renderer software.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

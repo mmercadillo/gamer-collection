@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Juego de fútbol deportivo lanzado en mayo de 2000 para PC. Forma parte de la serie EA Sports Stars, con licencia oficial de la Primera División española 1999‑2000. El jugador compite en partidos para ganar 'Stars' (puntos de habilidad), que luego se usan para mejorar atributos como pase, tiro o conducción. Tiene vista en tercera persona, gráficos 3D estilo caricatura, comentarios de Clive Tyldesley y Andy Gray, y modo multijugador por LAN o contraseñas de puntuación.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

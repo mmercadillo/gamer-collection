@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Secuela directa de 'El Rey Arturo: El Secreto de Merlín'. Continúa la historia de Bradwen, ahora caballero de la Tabla Redonda, en una nueva aventura donde se entrelazan hechos históricos con mitología celta y cristiana. El jugador puede seguir dos caminos distintos (cristiano o pagano), lo que modifica la narrativa, los personajes y los escenarios que se exploran.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

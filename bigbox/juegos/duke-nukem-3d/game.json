@@ -7,6 +7,7 @@
   "distribuidor": "FormGen (PC), GT Interactive (retail), Sega (Saturn/PlayStation in some regions)",
   "ean": "",
   "descripcion": "Lanzado en abril de 1996 para PC, este shooter de acción rápida con el motor Build enfrentó a Duke con una invasión alienígena en la Tierra. Introdujo exploración de niveles no lineales, armas icónicas, interacciones con el entorno (puertas, bares, paneles), modo multijugador en LAN/Internet y una narrativa irreverente cargada de humor adulto. Se consolidó como referente del género FPS junto a Doom y Quake :contentReference[oaicite:2]{index=2}.",
-  "incluye": [
-  ]
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

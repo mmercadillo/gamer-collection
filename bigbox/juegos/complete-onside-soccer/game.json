@@ -7,5 +7,7 @@
   "distribuidor": "Telstar Electronic Studios",
   "ean": "",
   "descripcion": "Simulador/juego de fútbol 3D-isométrico lanzado en 1996 (PC) y 1996–98 (PlayStation). Incluye ligas inglesas, francesas, alemanas e italianas, partidos 11‑a‑side y 5‑a‑side indoor, cambios climáticos que afectan al césped, múltiples ángulos de cámara, comentarios en vivo incluyendo nombres de jugadores y opciones de gestión de equipo (fichajes, finanzas, estadio).",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

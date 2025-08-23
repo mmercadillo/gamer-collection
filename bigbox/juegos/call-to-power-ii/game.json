@@ -7,5 +7,7 @@
   "distribuidor": "Activision",
   "ean": "5030917009310",
   "descripcion": "Secuela del ‘Civilization: Call to Power’ lanzada en noviembre de 2000. Amplía la experiencia 4X desde la Edad Antigua hasta 2300 d.C., con condiciones de victoria diplomática, por puntos, Bloodlust y Gaia Controller. Incluye multijugador TCP/IP/IPX, mods mediante SLIC, y parches comunitarios como Apolyton Edition.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

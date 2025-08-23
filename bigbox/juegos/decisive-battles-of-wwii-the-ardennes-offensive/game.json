@@ -7,5 +7,7 @@
   "distribuidor": "Strategic Simulations, Inc.",
   "ean": "",
   "descripcion": "Wargame por turnos lanzado en junio de 1997 que recrea la Batalla de las Ardenas (Diciembre 1944‑Enero 1945) en un mapa hexagonal. Incluye campaña completa (64 turnos) y 8 escenarios, niveles de dificultad ajustables, IA exigente y multijugador por hotseat, LAN, modem o e‑mail. Fue el primer título de la serie 'Decisive Battles of WWII'.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

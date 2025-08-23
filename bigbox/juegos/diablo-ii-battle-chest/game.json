@@ -7,6 +7,7 @@
   "distribuidor": "Blizzard Entertainment",
   "ean": "0020626717304",
   "descripcion": "Pack que incluye *Diablo II* (2000) y su expansión *Lord of Destruction* (2001), junto con manuales, banda sonora, guía oficial y contenido extra. Permitía multijugador LAN y Battle.net, e introdujo dos nuevas clases (Assassin, Druid), modos adicionales (mercenarios, runas) y compatibilidad moderna.",
-  "incluye": [
-  ]
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

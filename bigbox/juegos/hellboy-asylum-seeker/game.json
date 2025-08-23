@@ -7,5 +7,7 @@
   "distribuidor": "Cryo Interactive (PC), DreamCatcher Interactive (PlayStation)",
   "ean": "",
   "descripcion": "Juego basado en los cómics de Hellboy de Mike Mignola. En la versión original para PC (*Dogs of the Night*, 2000), y re-lanzado en PS1 como *Asylum Seeker* en 2003, el jugador controla a Hellboy investigando sucesos paranormales en la Praga de los años 60 en compañía de la agente Sara. Combina exploración en tercera persona, resolución de puzles, elementos de diálogo y combates sencillos contra criaturas sobrenaturales :contentReference[oaicite:1]{index=1}.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

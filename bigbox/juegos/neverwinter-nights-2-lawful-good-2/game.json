@@ -7,5 +7,7 @@
   "distribuidor": "Atari Interactive",
   "ean": "",
   "descripcion": "Edición limitada lanzada el 3 de noviembre de 2006 en Europa. Incluye el juego base *Neverwinter Nights 2* junto con **Neverwinter Nights** y sus dos expansiones (*Shadows of Undrentide*, *Hordes of the Underdark*), además de contenido físico exclusivo (figura del Eldritch Giant, anillo Lawful Good, mapa en papel, libro de arte, DVD con banda sonora y arte), la habilidad especial 'Blessed of Waukeen' y 10 personajes predefinidos de alineamiento lawful good.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

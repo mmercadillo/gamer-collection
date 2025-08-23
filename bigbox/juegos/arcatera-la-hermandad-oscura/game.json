@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "RPG de fantasía lanzado en 2000. Ambientado en la ciudad de Senora, controlas a uno de cuatro personajes (guerrero, ladrón, mago o monje) para descubrir y enfrentarte a una misteriosa Hermandad Oscura. El tiempo avanza constantemente y el juego tiene un límite de tres semanas de tiempo de juego, múltiples finales y un sistema de combate en tiempo real con pausa.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

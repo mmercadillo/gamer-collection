@@ -6,5 +6,8 @@
   "desarrollador": "Virtual Studio",
   "distribuidor": "American Softworks Corporation",
   "ean": "",
-  "descripcion": "Juego de acción y disparos submarino ambientado en 2055. El jugador pilotea un módulo de reconocimiento táctico (STORM) para investigar una explosión en el lecho marino. Incluye segmentos de desplazamiento lateral (side-scrolling), fases de 'rail shooter' en fondos prerenderizados, manejo de brazo robótico y envío de buceadores para acceder a zonas estrechas."
+  "descripcion": "Juego de acción y disparos submarino ambientado en 2055. El jugador pilotea un módulo de reconocimiento táctico (STORM) para investigar una explosión en el lecho marino. Incluye segmentos de desplazamiento lateral (side-scrolling), fases de 'rail shooter' en fondos prerenderizados, manejo de brazo robótico y envío de buceadores para acceder a zonas estrechas.",
+  "incluye": [],
+  "serie":"",
+  "tags":[]  
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Strategic Simulations Inc. (SSI)",
   "ean": "",
   "descripcion": "Simulador de combate de tanques de la Segunda Guerra Mundial lanzado en 1998. Permite manejar más de 20 tanques de Alemania, EE. UU., Reino Unido y la URSS en escenarios individuales y campañas históricas (tres alemanas, tres rusas y escenarios para cada nación). Incluye editor de escenarios, aceleración Direct3D, y soporte multijugador por LAN e Internet para hasta seis jugadores.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

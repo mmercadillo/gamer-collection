@@ -7,5 +7,7 @@
   "distribuidor": "Ravensburger Interactive",
   "ean": "",
   "descripcion": "Adaptación digital del juego de mesa homónimo, lanzada en 1998 para Windows. Los jugadores toman el rol de un grupo de detectives de Scotland Yard que persiguen a Mister X por Londres, usando tickets de transporte (taxi, bus, metro) y deducción lógica. El juego incluye un modo mejorado que añade elementos de aventura (interrogatorios y recolección de pistas), y permite jugar tanto contra la IA como en multijugador LAN/Internet.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

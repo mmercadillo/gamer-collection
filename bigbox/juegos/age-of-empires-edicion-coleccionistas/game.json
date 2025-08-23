@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft / Ubisoft (Exclusive packaging)",
   "ean": "5017783024272, 8712206083979",
   "descripcion": "Edición especial lanzada en el año 2000 que incluye el juego original Age of Empires, su expansión Rise of Rome y Age of Empires II (sin expansión). Viene en caja limitada con póster, banda sonora, y cartas coleccionables. Mantiene el modo multijugador, editor de escenarios y motor Genie.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Versión personalizada de un potente motor de ajedrez distribuida por FX Interactive. Ofrece distintos niveles de dificultad, análisis de partidas, entrenamiento táctico y lecciones interactivas. Destaca por su interfaz clara, modos de visualización en 2D y 3D, y herramientas para jugadores de todos los niveles. A menudo se incluye como título educativo o de introducción estratégica dentro de la colección FX.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

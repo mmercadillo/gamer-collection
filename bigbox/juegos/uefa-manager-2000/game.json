@@ -7,5 +7,7 @@
   "distribuidor": "Infogrames Europe SA",
   "ean": "",
   "descripcion": "UEFA Manager 2000 es un simulador de gestión futbolística que combina gráficos y presentación de alta calidad con opciones avanzadas de IA y control económico. El jugador actúa como entrenador y director ejecutivo del club: define tácticas, alineaciones, negociaciones, finanzas, infraestructura, merchandising y expansión del estadio. Incluye más de 400 clubes, 21 ligas europeas y 20 000 jugadores, con modos carrera, libre y escenarios, además de simulación de partidos en 2D o en un motor 3D simple.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

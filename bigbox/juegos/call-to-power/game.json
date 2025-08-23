@@ -7,5 +7,7 @@
   "distribuidor": "Activision, Loki Software (Linux), MacSoft (Mac)",
   "ean": "0722242517381",
   "descripcion": "Juego de estrategia por turnos (1999), inspirado en la saga Civilization. Abarca desde la Edad Antigua hasta el año 3000 d.C., incluye colonias en océanos y el espacio, tecnologías futuras, gestión avanzada (polución, felicidad), diplomacia, comercio y múltiples condiciones de victoria (militar, cultural, tecnológica y espacial). Soporta multijugador por red (IPX/TCP), hotseat o PBEM.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

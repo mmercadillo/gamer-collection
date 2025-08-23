@@ -7,5 +7,7 @@
   "distribuidor": "Data Becker",
   "ean": "4003646468223",
   "descripcion": "RTS ambientado en el Salvaje Oeste tras la Guerra Civil estadounidense. Controlas facciones como Sioux, mexicanos, colonos y forajidos, recogiendo recursos, construyendo bases y completando campañas históricas.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

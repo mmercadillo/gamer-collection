@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Primer título de la saga NBA Live, lanzado en octubre de 1994. Introdujo perspectiva isométrica en el terreno de juego, control del 'turbo' y el medidor T‑meter para tiros libres. Incluye todas las plantillas de la temporada 1994‑95 (equipos All‑Star incluidos) y funciones de modo temporada, playoffs y exhibición, con resolución SVGA y sonido digital en PC.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

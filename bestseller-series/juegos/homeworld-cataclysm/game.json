@@ -7,5 +7,7 @@
   "ean": "",
   "estado": "Sin verificar",
   "descripcion": "Expansión independiente de Homeworld lanzada en 2000 para PC. Añade nuevas campañas, naves y mejoras gráficas. Fue reeditado en la colección Best Seller Series de Sierra.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Blizzard Entertainment / BestSeller Series (España)",
   "ean": "",
   "descripcion": "Expansión oficial de Diablo II (2001) que añade el Acto V, dos nuevas clases (Asesina y Druida), nuevos objetos y equipo, y mejoras en calidad de vida y localización para la versión española dentro de la serie BestSeller.",
-  "incluye": "Requiere instalación de Diablo II original para funcionar."
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

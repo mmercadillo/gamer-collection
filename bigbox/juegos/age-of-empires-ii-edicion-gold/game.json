@@ -7,6 +7,7 @@
   "distribuidor": "Microsoft",
   "ean": "0805529051041, 805529132085, 755142110444",
   "descripcion": "Edición especial lanzada en 2001 que combina 'Age of Empires II: The Age of Kings' y su expansión 'The Conquerors'. Incluye campañas históricas, multijugador, editor de escenarios y el robusto motor Genie.",
-  "incluye": [
-  ]
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

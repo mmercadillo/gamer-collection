@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Simulador de Fórmula 1 desarrollado por Ubisoft, basado en la temporada de 1996. Ofrece un enfoque realista con todos los equipos, pilotos y circuitos de la época (con licencias no oficiales). Incluye múltiples modos de juego como práctica, clasificación, carrera completa y campeonato. Destaca por su detallado motor gráfico, física de conducción ajustable y opciones multijugador en LAN o split-screen.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

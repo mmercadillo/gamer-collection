@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real lanzado en 1997. Guias una civilización desde la Edad de Piedra hasta la Edad de Hierro a través de 12 culturas, gestionando recursos, desarrollando tecnologías y combatiendo en campañas históricas y escenarios generados al azar. Incluye modos multijugador, editor de escenarios y un potente motor Genie.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

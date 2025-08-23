@@ -7,5 +7,7 @@
   "distribuidor": "Virgin Interactive",
   "ean": "",
   "descripcion": "Juego de estrategia fantástica en tiempo real con elementos RPG, lanzado en 1998 (Europa en español). Asumes el papel de un joven mago que invoca criaturas y lanza hechizos mediante ingredientes y talismanes en combates sobre mapas de tres reinos (Albion, Grecia, Avalon). Incluye campaña individual y multijugador vía IPX o LAN.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

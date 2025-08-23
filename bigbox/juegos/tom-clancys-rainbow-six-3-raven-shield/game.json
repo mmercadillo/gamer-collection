@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Tercer título de la saga Rainbow Six, lanzado el 18 de marzo de 2003 en Windows. Usa Unreal Engine 2 para ofrecer un enfoque más visual y moderno del shooter táctico: incluye visión del arma en primera persona, físicas de ragdoll y mejoras en armas y multijugador :contentReference[oaicite:0]{index=0}. Posteriormente salió una versión para Mac OS X en diciembre de 2003 :contentReference[oaicite:1]{index=1}.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

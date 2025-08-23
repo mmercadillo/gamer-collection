@@ -7,5 +7,7 @@
   "distribuidor": "Atari Interactive",
   "ean": "",
   "descripcion": "Edición especial europea de Neverwinter Nights 2 lanzada el 3 de noviembre de 2006. Incluye el juego base y se lanza en formato coleccionista 'Chaotic Evil', con contenidos físicos exclusivos y bonificaciones dentro del juego.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

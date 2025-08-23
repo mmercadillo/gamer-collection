@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "3307212805490, 790561507420",
   "descripcion": "Juego de gestión deportiva centrado en el FC Barcelona lanzado en 2000. Puedes gestionar fichajes, tácticas, entrenamiento y finanzas del club. Incluye análisis previos y posteriores al partido, estadísticas detalladas y ligas nacionales e internacionales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

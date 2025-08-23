@@ -7,5 +7,7 @@
   "distribuidor": "Strategic Simulations Inc. (SSI)",
   "ean": "",
   "descripcion": "Juego de estrategia bélica en tiempo real ambientado en la ofensiva alemana de diciembre de 1944. Introduce un mapa estratégico de las Ardenas que influye en la táctica, unidades con moral y estados emocionales realistas, combate simulado con infantería, tanques, artillería y apoyo aéreo. Permite campañas históricas, creación de escenarios y multijugador por IPX/modem.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

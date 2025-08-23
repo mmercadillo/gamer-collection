@@ -7,5 +7,7 @@
   "distribuidor": "Sierra On‑Line",
   "ean": "",
   "descripcion": "Sexta entrega de la saga, lanzada originalmente el 13 de octubre de 1992 para MS‑DOS y más tarde adaptada a Windows (CD‑ROM) en 1993. Considerada el punto más alto de la serie por su introducción cinematográfica en 3D, doblaje profesional (con la voz de Robby Benson como el príncipe Alexandre), y narrativa profundamente ramificada. La trama sigue a Alexandre en su viaje entre las Islas Verdes para rescatar a la princesa Cassima, con múltiples finales según tu recorrido y decisiones.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "GT Interactive",
   "ean": "",
   "descripcion": "Unreal Tournament es un shooter en primera persona centrado en combates multijugador en arenas. Incluye modos clásicos como Deathmatch, Capture the Flag y Assault, junto con bots avanzados para partidas offline. Destaca por su fluidez, variedad de armas con disparos secundarios, y un extenso soporte para mods y mapas personalizados. Fue galardonado como Juego del Año y es considerado un referente del género.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

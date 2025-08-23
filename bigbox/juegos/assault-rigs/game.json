@@ -7,5 +7,7 @@
   "distribuidor": "Psygnosis",
   "ean": "0053203019188, 711719615620, 711719440529",
   "descripcion": "Juego de combate vehicular en túneles virtuales en 3D lanzado en 1996. Controlas una plataforma‑tanque llamada 'Rig', recoges gemas, destruyes armas y enemigos, y resuelves puzzles con elevadores y bloques móviles en más de 40 niveles. Incluye modo multijugador vía enlace serial/juego en red en PC y cables Link en PlayStation.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Lucasfilm Games",
   "ean": "",
   "descripcion": "Aventura gráfica lanzada el 5 de octubre de 1987. Controlas a Dave Miller y a dos amigos mientras exploran la mansión de los Edison para rescatar a su novia Sandy, secuestrada por el Dr. Fred. El juego utiliza una interfaz point-and-click y presenta múltiples finales según los personajes seleccionados y las acciones realizadas. Fue el primer juego en utilizar el motor SCUMM, que más tarde sería empleado en otros títulos de LucasArts.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Sierra / BestSeller Series (España)",
   "ean": "3348542200777",
   "descripcion": "Expansión oficial de Warcraft III: Reign of Chaos (2003) que incluye nuevos héroes, unidades y edificios para las razas originales, campaña adicional y la primera parte de la campaña de la Horda; requiere el juego base.",
-  "incluye": "Requiere Warcraft III: Reign of Chaos"
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }
