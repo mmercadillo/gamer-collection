@@ -2,25 +2,25 @@
     {
       "titulo": "World of Warcraft: Cataclysm",
       "url": "juegos/world-of-warcraft-cataclysm/",
-      "plataforma": "Windows XP/Vista/7",
-      "genero": "Rol multijugador masivo online (MMORPG)",
-      "desarrollador": "Blizzard Entertainment",
-      "distribuidor": "Blizzard Entertainment",
-      "ean": "",
+      "plataforma": ["Windows XP/Vista/7"],
+      "genero": ["Rol multijugador masivo online (MMORPG)"],
+      "desarrollador": ["Blizzard Entertainment"],
+      "distribuidor": ["Blizzard Entertainment"],
+      "ean": [],
       "incluye": [],
-      "serie":"",
+      "serie":[],
       "tags":[]
     },
     {
       "titulo": "World of Warcraft: Mists of Pandaria",
       "url": "juegos/world-of-warcraft-mists-of-pandaria/",
-      "plataforma": "Windows XP/Vista/7",
-      "genero": "Rol multijugador masivo online (MMORPG)",
-      "desarrollador": "Blizzard Entertainment",
-      "distribuidor": "Blizzard Entertainment",
-      "ean": "",
+      "plataforma": ["Windows XP/Vista/7"],
+      "genero": ["Rol multijugador masivo online (MMORPG)"],
+      "desarrollador": ["Blizzard Entertainment"],
+      "distribuidor": ["Blizzard Entertainment"],
+      "ean": [],
       "incluye": [],
-      "serie":"",
+      "serie":[],
       "tags":[]
     }
 ]

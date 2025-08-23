@@ -2,25 +2,25 @@
     {
       "titulo": "PC Fútbol 2006",
       "url": "juegos/pc-futbol-2006/",
-      "plataforma": "Windows 98/ME/2000/XP",
-      "genero": "Deportes / Manager de fútbol",
-      "desarrollador": "Gaelco Multimedia",
-      "distribuidor": "Planeta DeAgostini Interactive",
-      "ean": "",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Deportes / Manager de fútbol"],
+      "desarrollador": ["Gaelco Multimedia"],
+      "distribuidor": ["Planeta DeAgostini Interactive"],
+      "ean": [],
       "incluye": [],
-      "serie":"",
+      "serie":[],
       "tags":[]
     },
     {
       "titulo": "PC Fútbol 2005",
       "url": "juegos/pc-futbol-2005/",
-      "plataforma": "Windows 98/ME/2000/XP",
-      "genero": "Deportes / Manager de fútbol",
-      "desarrollador": "Gaelco Multimedia",
-      "distribuidor": "Planeta DeAgostini Interactive",
-      "ean": "",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Deportes / Manager de fútbol"],
+      "desarrollador": ["Gaelco Multimedia"],
+      "distribuidor": ["Planeta DeAgostini Interactive"],
+      "ean": [],
       "incluye": [],
-      "serie":"",
+      "serie":[],
       "tags":[]
     }
 ]

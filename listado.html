@@ -90,7 +90,7 @@
         <th>Plataforma</th>
         <th>Desarrollador</th>
         <th>Distribuidor</th>
-        <th>Estado</th>
+        <!--<th>Estado</th>-->
       </tr>
     </thead>
     <tbody id="tabla-juegos">
@@ -131,15 +131,15 @@
 
             const tdDistribuidor = document.createElement("td");
             tdDistribuidor.textContent = juego.distribuidor || "—";
-
+            /*
             const tdEstado = document.createElement("td");
             tdEstado.textContent = juego.estado;
-
+            */
             tr.appendChild(tdTitulo);
             tr.appendChild(tdPlataforma);
             tr.appendChild(tdDesarrollador);
             tr.appendChild(tdDistribuidor);
-            tr.appendChild(tdEstado);
+            //tr.appendChild(tdEstado);
 
             tabla.appendChild(tr);
           });

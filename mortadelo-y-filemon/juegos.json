@@ -2,25 +2,25 @@
     {
       "titulo": "Mortadelo y Filemón: Operación Moscú",
       "url": "juegos/mortadelo-y-filemon-operacion-moscu/",
-      "plataforma": "Windows 95/98/ME",
-      "genero": "Aventura gráfica",
-      "desarrollador": "Alcachofa Soft",
-      "distribuidor": "Zeta Multimedia",
-      "ean": "",
+      "plataforma": ["Windows 95/98/ME"],
+      "genero": ["Aventura gráfica"],
+      "desarrollador": ["Alcachofa Soft"],
+      "distribuidor": ["Zeta Multimedia"],
+      "ean": [],
       "incluye": [],
-      "serie":"",
+      "serie":[],
       "tags":[]         
     },
     {
       "titulo": "Mortadelo y Filemón: El escarabajo de Cleopatra",
       "url": "juegos/mortadelo-y-filemon-el-escarabajo-de-cleopatra/",
-      "plataforma": "Windows 95/98/ME",
-      "genero": "Aventura gráfica",
-      "desarrollador": "Alcachofa Soft",
-      "distribuidor": "Zeta Multimedia",
-      "ean": "",
+      "plataforma": ["Windows 95/98/ME"],
+      "genero": ["Aventura gráfica"],
+      "desarrollador": ["Alcachofa Soft"],
+      "distribuidor": ["Zeta Multimedia"],
+      "ean": [],
       "incluye": [],
-      "serie":"",
+      "serie":[],
       "tags":[]
     }    
 ]

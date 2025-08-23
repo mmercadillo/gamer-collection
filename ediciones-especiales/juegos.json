@@ -2,13 +2,13 @@
     {
       "titulo": "Runaway: Trilogía",
       "url": "juegos/runaway-trilogia/",
-      "plataforma": "Windows XP/Vista",
-      "genero": "Aventura gráfica",
-      "desarrollador": "Pendulo Studios",
-      "distribuidor": "FX Interactive",
-      "ean": "",
+      "plataforma": ["Windows XP/Vista"],
+      "genero": ["Aventura gráfica"],
+      "desarrollador": ["Pendulo Studios"],
+      "distribuidor": ["FX Interactive"],
+      "ean": [],
       "incluye": [],
-      "serie":"",
+      "serie":[],
       "tags":[]     
     }
 ]
