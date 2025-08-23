@@ -7,5 +7,7 @@
   "distribuidor": "Wanadoo Edition",
   "ean": "",
   "descripcion": "Juego de carreras futuristas ambientado en el universo de la película *El Quinto Elemento*, con vehículos voladores compitiendo a través de los rascacielos de Nueva York en el siglo XXIII.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

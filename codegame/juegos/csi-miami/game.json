@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Aventura gráfica basada en la serie de televisión CSI: Miami, donde el jugador colabora con el equipo de Horatio Caine para resolver crímenes mediante investigación forense y recopilación de pruebas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

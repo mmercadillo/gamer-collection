@@ -7,5 +7,7 @@
   "distribuidor": "Empire Interactive",
   "ean": "",
   "descripcion": "Simulador de construcción y gestión de casinos en Las Vegas. Diseña hoteles, casinos y zonas de ocio mientras gestionas personal, clientes y beneficios para convertirte en el magnate del Strip.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

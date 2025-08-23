@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de disparos táctico en primera persona donde el jugador lidera un escuadrón de fuerzas especiales Ghost en misiones estratégicas alrededor del mundo, priorizando la planificación y el sigilo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

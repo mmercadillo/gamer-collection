@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Tercera entrega de la saga Rayman, un juego de plataformas en 3D donde el héroe sin extremidades debe enfrentarse a los Hoodlums para salvar el Claro de los Sueños, utilizando nuevas habilidades y poderes temporales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

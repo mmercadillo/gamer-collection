@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de estrategia por turnos ambientado en el mundo de fantasía de Etheria, donde el jugador lidera héroes y ejércitos para conquistar territorios, gestionar recursos y derrotar a facciones rivales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

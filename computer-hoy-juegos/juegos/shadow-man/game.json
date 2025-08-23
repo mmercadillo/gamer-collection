@@ -7,5 +7,7 @@
   "distribuidor": "Acclaim Entertainment",
   "ean": "",
   "descripcion": "Un oscuro juego de acción y aventura basado en el cómic homónimo. Controla a Michael LeRoi, el Shadow Man, mientras viajas entre el mundo de los vivos y el de los muertos para detener a un asesino en serie y una profecía apocalíptica.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

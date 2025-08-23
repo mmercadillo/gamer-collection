@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Remake del clásico The Settlers II con gráficos 3D y jugabilidad actualizada, en el que el jugador debe construir y gestionar un asentamiento mientras explora y conquista nuevas tierras.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Acclaim Entertainment",
   "ean": "",
   "descripcion": "Shooter futurista en entornos tridimensionales con movimiento libre en 360 grados. Explora túneles y bases abandonadas mientras luchas contra enemigos en una Tierra postapocalíptica.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

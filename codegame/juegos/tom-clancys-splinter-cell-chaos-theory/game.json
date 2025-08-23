@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Tercera entrega de la saga Splinter Cell que mejora el sistema de sigilo y combate, permitiendo a Sam Fisher utilizar nuevas técnicas y gadgets para completar misiones encubiertas en entornos más abiertos y realistas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

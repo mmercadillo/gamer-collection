@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Simulador naval en el que el jugador asume el mando de un destructor de la Marina de los Estados Unidos durante la Segunda Guerra Mundial, participando en misiones de combate en el Océano Atlántico y el Pacífico.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

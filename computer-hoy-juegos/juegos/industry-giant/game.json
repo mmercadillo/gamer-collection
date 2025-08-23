@@ -7,5 +7,7 @@
   "distribuidor": "Interactive Magic",
   "ean": "",
   "descripcion": "Simulador económico en el que gestionas todo el proceso industrial: desde la producción de materias primas hasta la venta de productos en tiendas, con el objetivo de construir un imperio empresarial.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Cuarta entrega de la saga Splinter Cell en la que Sam Fisher debe infiltrarse como agente doble en una organización terrorista, equilibrando sus lealtades y tomando decisiones que afectan al desarrollo de la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

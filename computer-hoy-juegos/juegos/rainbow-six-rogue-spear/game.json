@@ -7,5 +7,7 @@
   "distribuidor": "Red Storm Entertainment / Ubisoft",
   "ean": "",
   "descripcion": "Segunda entrega de la saga Rainbow Six, centrada en la acción táctica y realista. Planifica operaciones encubiertas, lidera a tu equipo antiterrorista y ejecuta misiones con precisión quirúrgica.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

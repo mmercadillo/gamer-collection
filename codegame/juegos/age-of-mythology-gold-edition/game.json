@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Edición que incluye Age of Mythology y su expansión The Titans, ofreciendo campañas y civilizaciones basadas en mitologías griega, egipcia y nórdica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

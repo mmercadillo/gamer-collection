@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de simulación en el que el jugador asume el papel de Hugh Hefner, gestionando la revista Playboy, organizando fiestas, reclutando modelos y expandiendo el imperio mediático.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

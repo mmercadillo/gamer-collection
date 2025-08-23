@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Cuarta entrega de la saga Myst, en la que el jugador explora mundos visualmente detallados y resuelve complejos rompecabezas para descubrir el destino de los hijos de Atrus.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de simulación social similar a Los Sims, donde el jugador controla a dos personajes que conviven en un apartamento, desarrollando relaciones personales y románticas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

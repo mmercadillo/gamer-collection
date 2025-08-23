@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de acción y aventura basado en la película de Peter Jackson, que permite al jugador vivir la historia desde dos perspectivas: como el explorador Jack Driscoll y como el gigantesco gorila King Kong.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

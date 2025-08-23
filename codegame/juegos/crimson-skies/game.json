@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de simulación aérea y combate ambientado en una versión alternativa de los años 30, donde el jugador pilota aviones personalizados en combates llenos de acción y estilo pulp.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

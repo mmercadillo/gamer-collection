@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de disparos en primera persona ambientado en un archipiélago tropical, donde el jugador asume el papel de un exsoldado que debe enfrentarse a mercenarios y criaturas mutantes mientras descubre un oscuro experimento.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

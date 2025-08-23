@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Aventura interactiva basada en la serie de televisión Anatomía de Grey, donde el jugador asume el papel de varios médicos del Seattle Grace Hospital enfrentando casos médicos y dilemas personales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

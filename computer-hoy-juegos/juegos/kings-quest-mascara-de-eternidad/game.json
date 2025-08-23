@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Studios",
   "ean": "",
   "descripcion": "La octava entrega de la legendaria saga King's Quest, que mezcla elementos de aventura gráfica clásica con acción en tercera persona. Controla a Connor en su misión para restaurar la Máscara de la Eternidad y salvar el mundo.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

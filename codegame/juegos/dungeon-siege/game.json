@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de rol de acción en el que el jugador lidera un grupo de héroes a través de un vasto mundo de fantasía, combatiendo enemigos y completando misiones en tiempo real.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

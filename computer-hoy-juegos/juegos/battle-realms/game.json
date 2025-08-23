@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de estrategia ambientado en un mundo inspirado en el Japón feudal, donde la gestión de recursos y las decisiones tácticas son clave para la victoria.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

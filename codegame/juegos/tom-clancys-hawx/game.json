@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de combate aéreo ambientado en un futuro cercano, donde el jugador pilota cazas modernos y utiliza sistemas avanzados de asistencia para completar misiones estratégicas alrededor del mundo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

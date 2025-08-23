@@ -7,5 +7,7 @@
   "distribuidor": "Blizzard Entertainment",
   "ean": "",
   "descripcion": "Clásico juego de rol de acción en el que desciendes a las profundidades de la catedral de Tristán para enfrentarte a hordas demoníacas y derrotar al mismísimo Diablo.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

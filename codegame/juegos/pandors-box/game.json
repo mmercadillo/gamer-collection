@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de rompecabezas diseñado por Alexey Pajitnov, creador de Tetris, en el que el jugador resuelve distintos tipos de enigmas para capturar a las criaturas escapadas de la mítica caja de Pandora.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

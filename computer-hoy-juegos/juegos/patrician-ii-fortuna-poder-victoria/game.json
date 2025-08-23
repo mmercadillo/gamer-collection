@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Simulador económico ambientado en la Liga Hanseática del siglo XIV. Como comerciante ambicioso, deberás expandir tu imperio mercantil, influir políticamente y alcanzar el poder absoluto.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

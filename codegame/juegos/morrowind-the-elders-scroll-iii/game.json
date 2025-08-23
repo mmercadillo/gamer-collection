@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de rol de mundo abierto ambientado en la isla de Vvardenfell, en la provincia de Morrowind, donde el jugador crea su personaje y explora un vasto mundo lleno de misiones, facciones y libertad de acción.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

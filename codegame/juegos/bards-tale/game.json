@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de rol y aventura con tono humorístico donde el jugador encarna a un trovador cínico que, acompañado de criaturas invocadas, se embarca en una misión para rescatar a una misteriosa joven.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

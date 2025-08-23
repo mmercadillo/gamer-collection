@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de sigilo y acción en el que el jugador controla a Sam Fisher, un agente de Third Echelon, para infiltrarse en entornos hostiles, cumplir misiones encubiertas y evitar ser detectado.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

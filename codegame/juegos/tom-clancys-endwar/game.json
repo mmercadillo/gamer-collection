@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real ambientado en un futuro cercano, donde el jugador comanda ejércitos en un conflicto global utilizando control de voz para dar órdenes en el campo de batalla.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

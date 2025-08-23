@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Entrega de la saga Ghost Recon ambientada en un futuro cercano, que incorpora tecnología militar avanzada y un sistema de mando mejorado para coordinar al escuadrón en misiones tácticas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

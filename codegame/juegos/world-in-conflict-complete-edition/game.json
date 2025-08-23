@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Edición completa de World in Conflict que incluye el juego base y la expansión Soviet Assault, ofreciendo batallas tácticas en tiempo real ambientadas en un escenario ficticio de la Guerra Fría que escala a un conflicto global.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

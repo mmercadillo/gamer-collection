@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Studios",
   "ean": "",
   "descripcion": "Juego de estrategia táctica en tiempo real ambientado en un futuro de guerras interplanetarias. A diferencia de otros RTS, Ground Control no tiene construcción de bases, centrándose en el combate y la gestión de unidades.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

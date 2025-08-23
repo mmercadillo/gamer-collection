@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Edición especial de Far Cry 2 ambientada en un país africano ficticio asolado por la guerra, que incluye el juego base y contenido adicional como nuevas misiones, armas y vehículos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

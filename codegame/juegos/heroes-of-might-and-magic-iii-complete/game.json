@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Edición completa de Heroes of Might and Magic III que incluye el juego base y las expansiones Armageddon's Blade y The Shadow of Death, con nuevas campañas, criaturas y mapas para la experiencia definitiva.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de disparos táctico en primera persona ambientado en la Segunda Guerra Mundial, que sigue al sargento Joe 'Red' Hartsock en operaciones militares tras el desembarco de Normandía.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

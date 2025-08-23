@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Tercera entrega de la saga Myst, una aventura gráfica en primera persona donde el jugador explora mundos detallados resolviendo rompecabezas para descubrir la historia de un misterioso exiliado.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

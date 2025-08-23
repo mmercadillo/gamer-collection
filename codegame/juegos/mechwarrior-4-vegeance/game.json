@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de simulación y acción en el que el jugador pilota enormes mechas de combate en un futuro lejano, participando en misiones estratégicas y batallas intensas para recuperar el control de su planeta natal.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

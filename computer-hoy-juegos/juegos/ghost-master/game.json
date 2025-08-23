@@ -7,5 +7,7 @@
   "distribuidor": "Empire Interactive",
   "ean": "",
   "descripcion": "Un original juego de estrategia en el que controlas un equipo de fantasmas con el objetivo de asustar a los humanos, resolver misterios y cumplir objetivos paranormales en escenarios interactivos.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

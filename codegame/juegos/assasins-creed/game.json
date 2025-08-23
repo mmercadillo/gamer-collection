@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de acción y aventura en mundo abierto ambientado durante la Tercera Cruzada, donde el jugador controla a Altaïr, un maestro asesino que debe eliminar objetivos clave para alterar el curso de la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

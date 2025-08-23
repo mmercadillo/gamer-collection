@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Primera entrega de la saga Brothers in Arms, que combina acción en primera persona con estrategia táctica, ambientada en el desembarco de Normandía y las operaciones militares posteriores.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

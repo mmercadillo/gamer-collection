@@ -7,5 +7,7 @@
   "distribuidor": "Eidos Interactive",
   "ean": "",
   "descripcion": "El clásico que dio origen a una de las sagas más icónicas. Acompaña a Lara Croft en su primera aventura, explorando antiguas ruinas, resolviendo puzles y enfrentándote a enemigos en tumbas olvidadas.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

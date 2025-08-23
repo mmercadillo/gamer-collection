@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Simulador de vuelo ambientado en la Segunda Guerra Mundial, que permite pilotar aviones aliados y del Eje en escenarios y misiones basadas en batallas aéreas históricas sobre Europa.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

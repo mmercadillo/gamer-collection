@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de simulación y estrategia en el que el jugador construye y gestiona un zoológico, cuidando de los animales, satisfaciendo a los visitantes y administrando los recursos para mantener el parque.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

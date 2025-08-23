@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Simulador de Fórmula 1 realista, con circuitos y coches inspirados en el campeonato, aunque sin licencia oficial. Ofrece múltiples modos de juego y una física exigente para los amantes del automovilismo.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

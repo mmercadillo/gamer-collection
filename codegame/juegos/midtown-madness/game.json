@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de conducción en mundo abierto ambientado en la ciudad de Chicago, que permite al jugador competir en carreras urbanas, explorar libremente y participar en diferentes modos de juego.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

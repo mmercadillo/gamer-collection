@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Colección que reúne varios títulos de la saga Heroes of Might and Magic, permitiendo al jugador disfrutar de campañas y escenarios de estrategia por turnos en un mundo de fantasía épica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

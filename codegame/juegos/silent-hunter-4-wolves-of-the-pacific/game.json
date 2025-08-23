@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Simulador naval que pone al jugador al mando de submarinos estadounidenses en el teatro del Pacífico durante la Segunda Guerra Mundial, con misiones históricas y realismo en la gestión y combate.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Edición que reúne Age of Empires y su expansión The Rise of Rome en un único paquete con todas sus campañas y civilizaciones.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Primer título de la saga Heroes of Might and Magic, un juego de estrategia por turnos en el que el jugador controla héroes y ejércitos fantásticos para conquistar territorios y derrotar enemigos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

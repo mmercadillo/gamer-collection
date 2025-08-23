@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Entrega de la saga The Settlers centrada en la gestión y expansión de un asentamiento, donde el jugador construye edificios, gestiona recursos y dirige ejércitos para dominar nuevas tierras.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

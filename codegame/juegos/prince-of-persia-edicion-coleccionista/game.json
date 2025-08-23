@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Edición especial del reinicio de Prince of Persia que incluye contenido adicional y material extra, manteniendo la aventura del príncipe y Elika para purificar el reino de la corrupción.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Reinicio de la saga Prince of Persia que introduce un nuevo estilo visual y de combate, donde el jugador controla a un príncipe sin nombre que, junto a la princesa Elika, debe purificar un reino corrupto.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

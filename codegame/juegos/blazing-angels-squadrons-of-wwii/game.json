@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Simulador de vuelo y combate ambientado en la Segunda Guerra Mundial, que permite al jugador participar en batallas aéreas históricas como miembro de un escuadrón aliado.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Eidos Interactive",
   "ean": "",
   "descripcion": "Quinta entrega de la saga Tomb Raider, que narra varias aventuras pasadas de Lara Croft a través de los recuerdos de sus allegados tras su desaparición. Nuevos escenarios, enemigos y desafíos en un homenaje a la saga clásica.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

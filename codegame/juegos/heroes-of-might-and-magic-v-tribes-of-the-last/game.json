@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Segunda expansión de Heroes of Might and Magic V que introduce la facción Orcos, nuevas campañas, criaturas, habilidades y mejoras gráficas, ofreciendo una experiencia completa sin necesidad del juego base.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

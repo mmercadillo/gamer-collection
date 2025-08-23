@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Aventura gráfica basada en la serie de televisión CSI: Nueva York, en la que el jugador se une al equipo de Mac Taylor para investigar escenas del crimen, analizar pruebas y resolver casos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

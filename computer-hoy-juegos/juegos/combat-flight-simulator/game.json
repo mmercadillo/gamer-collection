@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft",
   "ean": "",
   "descripcion": "Simulador de vuelo de combate ambientado en la Segunda Guerra Mundial. Pilota aviones históricos en misiones realistas sobre Europa, con alto nivel de detalle técnico.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

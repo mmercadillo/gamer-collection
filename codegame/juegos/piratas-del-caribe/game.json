@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de rol y acción en mundo abierto ambientado en el Caribe del siglo XVII, donde el jugador explora islas, combate en batallas navales y participa en misiones inspiradas en la vida pirata.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

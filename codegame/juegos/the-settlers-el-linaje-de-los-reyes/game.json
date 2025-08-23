@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de estrategia y construcción en el que el jugador gestiona un reino medieval, desarrollando asentamientos, administrando recursos y comandando ejércitos para expandir su territorio.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

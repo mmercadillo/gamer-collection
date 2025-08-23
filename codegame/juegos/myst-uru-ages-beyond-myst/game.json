@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Aventura gráfica en tercera persona ambientada en el universo de Myst, que combina exploración de mundos detallados y resolución de rompecabezas, con un modo multijugador opcional.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

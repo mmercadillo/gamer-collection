@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Aventura gráfica inspirada en la serie de televisión CSI, en la que el jugador resuelve casos criminales investigando escenas, recopilando evidencias y analizando pistas ocultas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

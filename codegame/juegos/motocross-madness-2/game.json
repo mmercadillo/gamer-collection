@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de motocross que combina carreras en circuitos cerrados y pruebas de estilo libre en entornos abiertos, con físicas realistas y una amplia variedad de motocicletas y trucos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

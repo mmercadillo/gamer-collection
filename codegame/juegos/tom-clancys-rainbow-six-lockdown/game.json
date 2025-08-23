@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Entrega de la saga Rainbow Six que combina acción táctica y narrativa, en la que el equipo antiterrorista debe enfrentarse a una peligrosa amenaza biológica mientras ejecuta misiones de alto riesgo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

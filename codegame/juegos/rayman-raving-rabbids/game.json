@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de minijuegos protagonizado por Rayman y los alocados conejos Rabbids, donde el jugador debe superar pruebas absurdas y divertidas para frustrar los planes de invasión de los conejos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

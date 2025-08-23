@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Edición que incluye el juego Will Rock y sus expansiones Locked & Loaded y Possessed, ofreciendo combates frenéticos en primera persona contra enemigos mitológicos en escenarios inspirados en la Antigua Grecia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

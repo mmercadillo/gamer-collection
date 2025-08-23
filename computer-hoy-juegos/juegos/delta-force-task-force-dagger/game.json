@@ -7,5 +7,7 @@
   "distribuidor": "NovaLogic",
   "ean": "",
   "descripcion": "Shooter táctico ambientado en operaciones militares reales en Afganistán. Elige entre distintas unidades de fuerzas especiales y cumple misiones de infiltración y combate.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

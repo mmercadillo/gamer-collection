@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Sports",
   "ean": "",
   "descripcion": "Simulador de NASCAR realista que incluye todos los equipos, coches y circuitos oficiales. Destaca por su física avanzada, gráficos detallados y modos de carrera completos.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]    
 }

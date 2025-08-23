@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real donde el jugador asume el control de una de dos facciones enfrentadas en conflictos modernos, gestionando recursos, tropas y la opinión pública.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

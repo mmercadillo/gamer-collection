@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Aventura gráfica basada en la serie de televisión CSI, en la que el jugador asume el papel de un investigador forense resolviendo casos mediante la recopilación de pistas y el análisis de evidencias.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }
