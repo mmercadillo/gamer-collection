@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Juego de acción y aventura basado en la película 'Beowulf'. El jugador controla al héroe homónimo, enfrentándose a monstruos y enemigos en combates cuerpo a cuerpo, explorando niveles inspirados en la narrativa épica y cumpliendo objetivos para avanzar en la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

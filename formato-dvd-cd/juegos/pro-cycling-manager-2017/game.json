@@ -7,5 +7,7 @@
   "distribuidor": "Focus Home Interactive",
   "ean": "",
   "descripcion": "Entrega de 2017 del simulador de ciclismo que permite al jugador gestionar un equipo profesional, planificar entrenamientos, fichajes y participar en las principales competiciones, incluyendo el Tour de Francia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

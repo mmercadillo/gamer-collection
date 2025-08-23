@@ -7,5 +7,7 @@
   "distribuidor": "Paradox Interactive",
   "ean": "",
   "descripcion": "Videojuego de gran estrategia que abarca el periodo desde finales de la Edad Media hasta principios de la Edad Moderna (1444–1821). El jugador controla una nación y gestiona diplomacia, comercio, colonización, guerra y desarrollo interno, con gran libertad para cambiar el rumbo de la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

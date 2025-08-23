@@ -7,5 +7,7 @@
   "distribuidor": "Mindscape",
   "ean": "",
   "descripcion": "Aventura gráfica basada en la novela de Victor Hugo. El jugador asume el papel de Cosette y otros personajes, resolviendo puzles y avanzando en una trama que recrea los principales acontecimientos de la obra literaria en escenarios interactivos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

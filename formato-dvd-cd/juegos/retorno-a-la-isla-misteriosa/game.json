@@ -7,5 +7,7 @@
   "distribuidor": "The Adventure Company / Microïds",
   "ean": "",
   "descripcion": "Aventura gráfica inspirada en la novela de Julio Verne 'La Isla Misteriosa'. El jugador controla a Mina, una náufraga que debe sobrevivir explorando la isla, resolviendo puzles y descubriendo secretos relacionados con el Capitán Nemo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

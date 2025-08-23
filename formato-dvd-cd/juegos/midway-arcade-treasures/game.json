@@ -7,5 +7,7 @@
   "distribuidor": "Midway Games",
   "ean": "",
   "descripcion": "Compilación de juegos arcade clásicos de Midway, incluyendo títulos como Defender, Gauntlet, Joust, Paperboy y Rampage. Ofrece emulación fiel de los originales y extras como entrevistas y material adicional.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

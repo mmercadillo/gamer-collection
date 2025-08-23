@@ -7,5 +7,7 @@
   "distribuidor": "7Sixty",
   "ean": "",
   "descripcion": "Tercera entrega principal de la saga Stronghold que ofrece un motor gráfico renovado, nuevas mecánicas de construcción y asedio de castillos, así como campañas tanto militares como económicas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

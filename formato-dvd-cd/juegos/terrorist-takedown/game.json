@@ -7,5 +7,7 @@
   "distribuidor": "City Interactive",
   "ean": "",
   "descripcion": "Shooter en primera persona de bajo presupuesto en el que el jugador participa en operaciones militares contra células terroristas, utilizando diferentes armas y vehículos en misiones ambientadas en Oriente Medio.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

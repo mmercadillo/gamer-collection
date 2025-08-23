@@ -7,5 +7,7 @@
   "distribuidor": "Kalypso Media",
   "ean": "",
   "descripcion": "RPG de acción ambientado en el universo de The Dark Eye. El jugador controla a uno de los protagonistas en un mundo oscuro y peligroso, explorando mazmorras, enfrentándose a enemigos en combate en tiempo real y tomando decisiones que afectan la historia y las relaciones con otros personajes.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

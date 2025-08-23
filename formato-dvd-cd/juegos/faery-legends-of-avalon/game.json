@@ -7,5 +7,7 @@
   "distribuidor": "Focus Home Interactive",
   "ean": "",
   "descripcion": "Juego de rol ambientado en un mundo de fantasía inspirado en mitos y leyendas. El jugador crea un personaje hada y explora reinos mágicos como Avalon y Yggdrasil, completando misiones, participando en combates por turnos y tomando decisiones que influyen en el desarrollo de la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

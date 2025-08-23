@@ -7,5 +7,7 @@
   "distribuidor": "SEGA",
   "ean": "",
   "descripcion": "Entrega de la saga Total War ambientada en la Antigua Roma. Combina gestión por turnos con batallas en tiempo real a gran escala, permitiendo dirigir ejércitos, administrar provincias y expandir un imperio en el Mediterráneo clásico.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

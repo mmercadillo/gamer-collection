@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real que abarca desde la Edad Media hasta la era contemporánea. Permite desarrollar civilizaciones, gestionar recursos y participar en batallas históricas a gran escala, con campañas ambientadas en distintos periodos de la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

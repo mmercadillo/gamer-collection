@@ -7,5 +7,7 @@
   "distribuidor": "SEGA",
   "ean": "",
   "descripcion": "Segunda expansión de Rome: Total War centrada en las conquistas de Alejandro Magno. Incluye una nueva campaña, mapas exclusivos y unidades únicas que permiten recrear las legendarias batallas del conquistador macedonio.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

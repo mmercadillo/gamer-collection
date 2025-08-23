@@ -7,5 +7,7 @@
   "distribuidor": "Infogrames",
   "ean": "",
   "descripcion": "Versión de Monopoly en formato de simulación económica y construcción de ciudades. El jugador construye edificios residenciales, comerciales e industriales en parcelas inspiradas en el tablero clásico, compitiendo contra otros magnates para generar beneficios y dominar la ciudad.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

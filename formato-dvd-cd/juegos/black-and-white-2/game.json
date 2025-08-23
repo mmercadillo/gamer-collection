@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Juego de estrategia donde el jugador asume el rol de un dios, guiando a su pueblo y tomando decisiones morales que afectan el desarrollo del mundo. Combina gestión de recursos, construcción de ciudades, control de criaturas mágicas y batallas entre deidades rivales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

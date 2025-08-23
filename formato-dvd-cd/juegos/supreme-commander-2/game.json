@@ -7,5 +7,7 @@
   "distribuidor": "Square Enix",
   "ean": "",
   "descripcion": "Secuela del aclamado Supreme Commander, un juego de estrategia en tiempo real a gran escala donde el jugador controla ejércitos futuristas y participa en batallas masivas con unidades terrestres, aéreas y navales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

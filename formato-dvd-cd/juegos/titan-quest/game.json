@@ -7,5 +7,7 @@
   "distribuidor": "THQ",
   "ean": "",
   "descripcion": "RPG de acción ambientado en la Antigüedad clásica, donde el jugador viaja por Grecia, Egipto y Asia luchando contra criaturas mitológicas mientras desarrolla a su héroe con un sistema flexible de clases.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

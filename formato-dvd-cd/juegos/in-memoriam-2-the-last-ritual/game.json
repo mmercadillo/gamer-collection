@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Secuela de In Memoriam, un innovador juego de aventura que combina investigación virtual con elementos en línea. El jugador sigue la pista del asesino en serie conocido como 'El Fénix', resolviendo puzles, analizando correos electrónicos y navegando por páginas web creadas para el juego.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

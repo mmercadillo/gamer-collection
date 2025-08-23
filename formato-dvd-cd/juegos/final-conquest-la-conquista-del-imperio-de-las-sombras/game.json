@@ -7,5 +7,7 @@
   "distribuidor": "Friendware",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real ambientado en un mundo de fantasía donde imperios y criaturas oscuras se enfrentan por la supremacía. Ofrece campañas con batallas a gran escala, gestión de recursos y desarrollo de unidades y héroes.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Matrix Games",
   "ean": "",
   "descripcion": "Juego de gran estrategia ambientado en la Segunda Guerra Mundial. Permite controlar a las principales potencias del conflicto gestionando economía, diplomacia, producción y operaciones militares en un mapa global, con un fuerte énfasis en la precisión histórica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

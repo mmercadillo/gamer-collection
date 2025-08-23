@@ -7,5 +7,7 @@
   "distribuidor": "Blizzard Entertainment",
   "ean": "",
   "descripcion": "RPG de acción en perspectiva isométrica donde el jugador elige entre varias clases de héroe para enfrentarse a hordas de enemigos y demonios. Incluye exploración de mazmorras, progresión de personaje, adquisición de objetos y un modo multijugador online a través de Battle.net.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

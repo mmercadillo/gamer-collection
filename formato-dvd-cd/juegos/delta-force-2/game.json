@@ -7,5 +7,7 @@
   "distribuidor": "NovaLogic",
   "ean": "",
   "descripcion": "Shooter táctico en primera persona que pone al jugador en misiones de élite como parte del equipo Delta Force. Incluye combate en entornos diversos, misiones de rescate, sabotaje y estrategia militar, con énfasis en la precisión y coordinación de operaciones especiales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

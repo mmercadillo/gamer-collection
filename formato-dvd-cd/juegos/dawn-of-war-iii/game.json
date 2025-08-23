@@ -7,5 +7,7 @@
   "distribuidor": "Sega",
   "ean": "",
   "descripcion": "Tercera entrega de la saga Dawn of War, combinando estrategia en tiempo real y elementos tácticos heroicos. El jugador controla facciones del universo Warhammer 40.000, gestionando recursos, unidades y héroes con habilidades únicas en campañas y combates multijugador.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

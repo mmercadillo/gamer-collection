@@ -7,5 +7,7 @@
   "distribuidor": "bitComposer Games",
   "ean": "",
   "descripcion": "RPG de acción isométrico en el que el jugador controla al Devorador de Almas, un demonio que puede absorber las almas de héroes caídos y alternar entre el mundo de los vivos y de las sombras para enfrentarse a enemigos y resolver desafíos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

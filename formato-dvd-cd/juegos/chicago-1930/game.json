@@ -7,5 +7,7 @@
   "distribuidor": "CDV Software Entertainment",
   "ean": "",
   "descripcion": "Juego de estrategia y gestión ambientado en la era de la Prohibición en Chicago. El jugador toma el control de una banda criminal, gestionando recursos, negocios ilegales y enfrentándose a rivales, con el objetivo de expandir su imperio delictivo mientras mantiene el control sobre la ciudad.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

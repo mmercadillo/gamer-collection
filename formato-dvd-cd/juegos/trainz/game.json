@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Simulador de trenes que permite al jugador conducir locomotoras, gestionar rutas ferroviarias y crear escenarios personalizados con un completo editor.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

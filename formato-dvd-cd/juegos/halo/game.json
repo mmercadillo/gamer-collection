@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft Game Studios, Gearbox Software (versión PC)",
   "ean": "",
   "descripcion": "Shooter en primera persona que introduce al Jefe Maestro y al universo Halo. El jugador combate contra el Covenant en el misterioso anillo Halo, combinando intensas batallas, vehículos y una narrativa épica de ciencia ficción.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

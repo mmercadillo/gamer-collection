@@ -7,5 +7,7 @@
   "distribuidor": "Monte Cristo / Focus Home Interactive",
   "ean": "",
   "descripcion": "RPG de acción ambientado en un mundo de fantasía donde el jugador debe elegir entre la senda de la naturaleza o la tecnología. Incluye combate en tiempo real, personalización de personajes y escenarios isométricos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

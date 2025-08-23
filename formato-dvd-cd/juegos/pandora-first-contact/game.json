@@ -7,5 +7,7 @@
   "distribuidor": "Slitherine Software",
   "ean": "",
   "descripcion": "Juego de estrategia 4X de ciencia ficción en el que distintas facciones compiten por colonizar y dominar un planeta alienígena. Combina exploración, expansión, explotación de recursos y exterminio, con un fuerte énfasis en la investigación tecnológica y el combate militar.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

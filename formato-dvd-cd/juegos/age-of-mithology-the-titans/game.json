@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft Game Studios",
   "ean": "",
   "descripcion": "Expansión de Age of Mythology que añade la civilización atlante y unidades mitológicas de gran poder. Los jugadores gestionan recursos, construyen ejércitos y luchan en batallas estratégicas mientras invocan dioses y criaturas míticas para obtener ventajas en combate.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

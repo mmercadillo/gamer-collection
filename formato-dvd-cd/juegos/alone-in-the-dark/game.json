@@ -7,5 +7,7 @@
   "distribuidor": "Infogrames",
   "ean": "",
   "descripcion": "Survival horror clásico en el que el jugador explora mansiones y entornos oscuros, resolviendo acertijos y enfrentándose a criaturas sobrenaturales. Combina exploración, narrativa intensa y elementos de terror para crear una experiencia inmersiva y desafiante.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

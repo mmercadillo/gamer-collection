@@ -7,5 +7,7 @@
   "distribuidor": "Planeta DeAgostini Interactive",
   "ean": "",
   "descripcion": "Aventura interactiva con tintes de novela visual en la que el jugador vive una historia romántica y de misterio con un trasfondo sobrenatural protagonizado por vampiros.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

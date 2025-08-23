@@ -7,5 +7,7 @@
   "distribuidor": "Crimson Cow",
   "ean": "",
   "descripcion": "Simulador de ciclismo donde el jugador compite en distintas carreras y etapas, gestionando aspectos tácticos y estratégicos del equipo. Incluye entrenamiento, gestión de ciclistas y participación en competiciones profesionales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

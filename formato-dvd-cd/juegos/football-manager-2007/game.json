@@ -7,5 +7,7 @@
   "distribuidor": "SEGA",
   "ean": "",
   "descripcion": "Simulador de gestión futbolística en el que el jugador asume el rol de entrenador y mánager de un club. Permite controlar fichajes, tácticas, entrenamientos, economía y relaciones con jugadores y directiva, con una extensa base de datos de ligas y equipos de todo el mundo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

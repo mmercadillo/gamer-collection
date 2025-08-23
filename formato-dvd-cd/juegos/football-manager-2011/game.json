@@ -7,5 +7,7 @@
   "distribuidor": "SEGA",
   "ean": "",
   "descripcion": "Entrega de la saga de simulación futbolística centrada en la gestión de clubes. El jugador asume el papel de entrenador, controlando fichajes, tácticas, entrenamientos y economía, con una base de datos realista de jugadores y equipos de todo el mundo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

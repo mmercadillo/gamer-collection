@@ -7,5 +7,7 @@
   "distribuidor": "Activision",
   "ean": "",
   "descripcion": "Juego de acción en primera persona ambientado en la Segunda Guerra Mundial. El jugador participa en misiones históricas, combatiendo en diferentes frentes y escenarios bélicos, combinando disparos, estrategia táctica y narrativa cinematográfica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

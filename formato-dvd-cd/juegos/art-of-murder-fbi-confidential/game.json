@@ -7,5 +7,7 @@
   "distribuidor": "City Interactive",
   "ean": "",
   "descripcion": "Aventura gráfica de investigación criminal en la que el jugador asume el rol de un agente del FBI. Combina exploración, recopilación de pistas, interrogatorios y resolución de acertijos para resolver casos complejos y capturar al culpable.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

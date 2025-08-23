@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Juego de rally que combina conducción realista con circuitos desafiantes y vehículos licenciados. El jugador participa en campeonatos, rallycross y pruebas contrarreloj, gestionando el comportamiento del coche en distintos terrenos y condiciones climáticas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

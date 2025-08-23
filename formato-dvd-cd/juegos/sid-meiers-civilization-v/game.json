@@ -7,5 +7,7 @@
   "distribuidor": "2K Games",
   "ean": "",
   "descripcion": "Quinta entrega principal de la saga Civilization. Introduce un nuevo motor gráfico en 3D con casillas hexagonales, un sistema de diplomacia revisado, nuevas condiciones de victoria y la posibilidad de crear grandes imperios a lo largo de la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

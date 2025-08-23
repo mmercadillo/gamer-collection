@@ -7,5 +7,7 @@
   "distribuidor": "The 3DO Company",
   "ean": "",
   "descripcion": "Shooter en tercera persona con temática de soldados de plástico. El jugador controla a Sarge y su equipo en misiones de combate contra fuerzas enemigas de juguetes, combinando disparos, exploración y acción táctica en entornos creativos y variados.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

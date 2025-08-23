@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Entertainment",
   "ean": "",
   "descripcion": "Shooter en primera persona en el que el jugador utiliza un traje experimental que le permite manipular el tiempo: ralentizarlo, detenerlo o retrocederlo para superar enemigos y acertijos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

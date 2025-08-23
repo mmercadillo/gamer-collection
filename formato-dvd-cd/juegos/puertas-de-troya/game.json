@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real ambientado en la Guerra de Troya. El jugador revive batallas épicas entre griegos y troyanos, gestionando ejércitos y recursos en escenarios inspirados en la mitología clásica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

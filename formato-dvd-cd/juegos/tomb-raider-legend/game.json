@@ -7,5 +7,7 @@
   "distribuidor": "Eidos Interactive",
   "ean": "",
   "descripcion": "Entrega que revitaliza la saga Tomb Raider con un nuevo motor gráfico y un enfoque renovado en la acción y la exploración. Lara Croft viaja por todo el mundo en busca de un antiguo artefacto legendario.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

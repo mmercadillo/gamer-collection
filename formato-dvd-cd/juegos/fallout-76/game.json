@@ -7,5 +7,7 @@
   "distribuidor": "Bethesda Softworks",
   "ean": "",
   "descripcion": "Entrega multijugador de la saga Fallout ambientada en Virginia Occidental, 25 años después de la guerra nuclear. Los jugadores salen del Refugio 76 para explorar un vasto mundo abierto postapocalíptico, recolectar recursos, construir asentamientos y colaborar o competir con otros supervivientes en línea.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

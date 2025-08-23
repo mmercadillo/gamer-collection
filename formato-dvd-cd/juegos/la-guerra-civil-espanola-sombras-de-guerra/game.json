@@ -7,5 +7,7 @@
   "distribuidor": "Planeta DeAgostini Interactive",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real ambientado en la Guerra Civil Española. Permite al jugador elegir bando y revivir batallas históricas, gestionando unidades y recursos en escenarios basados en localizaciones reales del conflicto.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "DTF Games, Micro Application",
   "ean": "",
   "descripcion": "Tercera entrega de la saga Dracula, combinando investigación, resolución de puzles y exploración. El jugador asume el rol de Jonathan Harker y Mina Murray, viajando por distintos escenarios históricos para descubrir secretos y enfrentar misterios relacionados con vampiros y la leyenda de Drácula.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

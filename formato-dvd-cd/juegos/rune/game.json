@@ -7,5 +7,7 @@
   "distribuidor": "Gathering of Developers",
   "ean": "",
   "descripcion": "Juego de acción en tercera persona ambientado en la mitología nórdica. El jugador encarna a Ragnar, un guerrero vikingo que debe luchar contra criaturas mitológicas y detener el apocalipsis conocido como el Ragnarök.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

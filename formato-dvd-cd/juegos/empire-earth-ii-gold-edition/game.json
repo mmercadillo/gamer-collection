@@ -7,5 +7,7 @@
   "distribuidor": "Vivendi Universal Games, Sierra Entertainment",
   "ean": "",
   "descripcion": "Edición especial que incluye Empire Earth II junto con su expansión The Art of Supremacy. Ofrece 15 épocas históricas desde la prehistoria hasta el futuro, con campañas, civilizaciones variadas, construcción de imperios y batallas estratégicas en tiempo real.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

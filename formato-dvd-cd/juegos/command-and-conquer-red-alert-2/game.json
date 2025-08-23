@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real ambientado en una realidad alternativa de la Guerra Fría. El jugador construye bases, gestiona recursos y dirige ejércitos de los Aliados o la Unión Soviética en campañas y combates tácticos contra la IA o jugadores humanos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

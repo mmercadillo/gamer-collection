@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Juego de simulación en el que el jugador gestiona y expande un parque de atracciones, ocupándose de la administración, el diseño de las atracciones y la satisfacción de los visitantes.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Paradox Interactive",
   "ean": "",
   "descripcion": "Videojuego de gran estrategia ambientado en la Segunda Guerra Mundial. Permite controlar a cualquier nación entre 1936 y 1948, gestionando política, diplomacia, economía, investigación y operaciones militares a gran escala en un mapa mundial detallado.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Focus Home Interactive",
   "ean": "",
   "descripcion": "Edición 2006-2007 del simulador de ciclismo en el que el jugador gestiona un equipo profesional, planifica temporadas completas y compite en las principales carreras internacionales, incluyendo el Tour de Francia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

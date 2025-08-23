@@ -7,5 +7,7 @@
   "distribuidor": "Focus Home Interactive",
   "ean": "",
   "descripcion": "Aventura gráfica de misterio en la que el jugador investiga conspiraciones religiosas y secretos antiguos. Combina exploración, resolución de acertijos y narrativa intensa centrada en la búsqueda del Medallón de Judas y la revelación de verdades ocultas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

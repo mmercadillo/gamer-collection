@@ -7,5 +7,7 @@
   "distribuidor": "NovaLogic",
   "ean": "",
   "descripcion": "Shooter táctico basado en hechos reales durante la guerra en Somalia. El jugador participa en misiones de operaciones especiales como Delta Force, incluyendo asaltos, rescates y combates urbanos, con énfasis en estrategia y coordinación en tiempo real.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

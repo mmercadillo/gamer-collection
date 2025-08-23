@@ -7,5 +7,7 @@
   "distribuidor": "Activision",
   "ean": "",
   "descripcion": "Entrega de la saga Total War ambientada en la Antigua Roma. Combina gestión por turnos en un mapa estratégico con batallas en tiempo real, ofreciendo la posibilidad de controlar ejércitos, diplomacia y economía en la época clásica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

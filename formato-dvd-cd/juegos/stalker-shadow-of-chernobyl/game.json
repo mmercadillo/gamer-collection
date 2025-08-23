@@ -7,5 +7,7 @@
   "distribuidor": "THQ",
   "ean": "",
   "descripcion": "Shooter de supervivencia con elementos de rol ambientado en la Zona de Exclusión de Chernóbil. El jugador explora un mundo abierto lleno de mutantes, facciones hostiles y anomalías mientras busca respuestas a un misterioso pasado.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

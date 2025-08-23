@@ -7,5 +7,7 @@
   "distribuidor": "Paradox Interactive",
   "ean": "",
   "descripcion": "RPG isométrico ambientado en un mundo de fantasía oscura donde el mal ya ha triunfado. El jugador asume el papel de un agente del Señor Supremo, tomando decisiones morales que afectan al destino del reino.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

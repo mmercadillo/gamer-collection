@@ -7,5 +7,7 @@
   "distribuidor": "Activision",
   "ean": "",
   "descripcion": "Shooter en primera persona que continúa la historia de Quake II. El jugador asume el papel del marine Matthew Kane en la guerra contra los Strogg, combinando acción intensa con un modo multijugador competitivo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

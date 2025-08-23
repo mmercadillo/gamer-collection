@@ -7,5 +7,7 @@
   "distribuidor": "Activision",
   "ean": "",
   "descripcion": "Segunda entrega de la saga Total War, ambientada en la Europa medieval. Combina gestión por turnos de imperios, diplomacia y economía con batallas en tiempo real a gran escala, con ejércitos formados por miles de unidades en escenarios históricos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

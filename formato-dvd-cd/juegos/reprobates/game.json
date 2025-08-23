@@ -7,5 +7,7 @@
   "distribuidor": "dtp entertainment",
   "ean": "",
   "descripcion": "Aventura gráfica en tercera persona en la que el protagonista, Adam, despierta en un misterioso campamento tras un accidente de tráfico. Junto a otros personajes atrapados, deberá resolver enigmas y descubrir la verdad detrás de su situación.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

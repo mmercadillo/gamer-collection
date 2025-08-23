@@ -7,5 +7,7 @@
   "distribuidor": "Dro Soft",
   "ean": "",
   "descripcion": "Videojuego de simulación política en el que el jugador asume el papel de un candidato que busca convertirse en Presidente del Gobierno, tomando decisiones estratégicas para alcanzar La Moncloa.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

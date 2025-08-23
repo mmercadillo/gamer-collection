@@ -7,5 +7,7 @@
   "distribuidor": "2K Games",
   "ean": "",
   "descripcion": "Entrega de la saga Stronghold que introduce elementos fantásticos, permitiendo al jugador elegir entre tres campañas inspiradas en el Rey Arturo, Vlad Drácula y Sigfrido, con nuevas unidades y héroes legendarios.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

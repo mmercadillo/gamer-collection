@@ -7,5 +7,7 @@
   "distribuidor": "2K Games",
   "ean": "",
   "descripcion": "Juego de simulación y estrategia empresarial en el que el jugador construye y gestiona su propio imperio ferroviario, diseñando rutas, compitiendo con rivales y optimizando el transporte de mercancías y pasajeros.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

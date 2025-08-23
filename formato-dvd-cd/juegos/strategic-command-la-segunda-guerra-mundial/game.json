@@ -7,5 +7,7 @@
   "distribuidor": "Battlefront.com",
   "ean": "",
   "descripcion": "Juego de gran estrategia por turnos que recrea los principales teatros de operaciones de la Segunda Guerra Mundial, permitiendo controlar tanto a las Potencias del Eje como a los Aliados.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

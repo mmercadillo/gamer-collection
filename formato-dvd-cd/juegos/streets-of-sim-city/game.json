@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Spin-off de la saga SimCity que permite conducir vehículos por las ciudades creadas en SimCity 2000. Combina acción con conducción en un entorno urbano abierto.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

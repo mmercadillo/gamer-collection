@@ -7,5 +7,7 @@
   "distribuidor": "Kalypso Media",
   "ean": "",
   "descripcion": "Secuela de Dungeons, combinando construcción de mazmorras y estrategia en tiempo real. El jugador gestiona su propio inframundo, reclutando criaturas, diseñando trampas y expandiendo su dominio mientras enfrenta héroes y ejércitos que intentan invadir su territorio.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

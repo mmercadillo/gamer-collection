@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Juego de simulación en el que el jugador diseña y gestiona su propio campo de golf, mientras participa en torneos y compite con otros golfistas en un entorno lleno de humor característico de la saga Sim.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Rockstar Games",
   "ean": "",
   "descripcion": "Tercera entrega en 3D de la saga Grand Theft Auto. Ambientado en el estado ficticio de San Andreas, el jugador controla a Carl 'CJ' Johnson en una historia de pandillas, corrupción y crimen. Ofrece un vasto mundo abierto con ciudades, zonas rurales y gran libertad de acción, incluyendo personalización de personajes y vehículos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

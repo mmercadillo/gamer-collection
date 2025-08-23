@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Entertainment",
   "ean": "",
   "descripcion": "Expansión de Empire Earth que añade nuevas campañas, civilizaciones, unidades y la era espacial. Permite a los jugadores extender su dominio desde la prehistoria hasta el futuro, incorporando la conquista del espacio como elemento innovador en el desarrollo de civilizaciones.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Gathering of Developers",
   "ean": "",
   "descripcion": "Expansión del juego Vietcong que añade una nueva campaña ambientada en la Guerra de Vietnam, con nuevas armas, mapas multijugador y mejoras en la jugabilidad táctica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Deep Silver",
   "ean": "",
   "descripcion": "Juego de rol en mundo abierto ambientado en la Bohemia del siglo XV, durante la guerra civil tras la muerte del emperador Carlos IV. El jugador controla a Henry, hijo de un herrero, en una aventura realista sin elementos de fantasía, con un sistema de combate histórico, gestión de habilidades y gran atención al detalle histórico.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

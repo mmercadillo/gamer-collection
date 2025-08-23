@@ -7,5 +7,7 @@
   "distribuidor": "Eidos Interactive",
   "ean": "",
   "descripcion": "Videojuego basado en la película de Quentin Tarantino. Permite jugar las escenas posteriores al atraco fallido, con mecánicas de disparos, conducción y un sistema de moralidad que valora la violencia frente al uso de tácticas intimidatorias.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

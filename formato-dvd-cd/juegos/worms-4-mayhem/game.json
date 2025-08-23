@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Entrega de la clásica saga Worms que introduce un nuevo motor gráfico 3D y más posibilidades de personalización, manteniendo el humor y la jugabilidad de combates por turnos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

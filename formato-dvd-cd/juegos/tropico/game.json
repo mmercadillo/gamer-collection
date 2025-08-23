@@ -7,5 +7,7 @@
   "distribuidor": "Gathering of Developers",
   "ean": "",
   "descripcion": "Juego de simulación y estrategia en el que el jugador asume el papel de un dictador caribeño, gestionando la economía, la política y la felicidad de los habitantes de su isla.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

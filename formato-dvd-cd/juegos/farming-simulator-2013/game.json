@@ -7,5 +7,7 @@
   "distribuidor": "Focus Home Interactive",
   "ean": "",
   "descripcion": "Simulador agrícola en el que el jugador gestiona su propia granja. Incluye cultivo de campos, cría de animales y uso de maquinaria agrícola realista de marcas licenciadas. Ofrece un mundo abierto, economía dinámica y soporte para mods creados por la comunidad.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

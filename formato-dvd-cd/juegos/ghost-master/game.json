@@ -7,5 +7,7 @@
   "distribuidor": "Empire Interactive",
   "ean": "",
   "descripcion": "Juego de estrategia y simulación en el que el jugador asume el papel de un 'Maestro Fantasma' que debe asustar a humanos utilizando distintos fantasmas con habilidades únicas. Combina humor, puzles y gestión de recursos paranormales en escenarios variados.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

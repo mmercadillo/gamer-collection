@@ -7,5 +7,7 @@
   "distribuidor": "THQ",
   "ean": "",
   "descripcion": "Videojuego de acción táctica militar ambientado en conflictos modernos, donde el jugador lidera un escuadrón en misiones de combate con énfasis en el realismo y la estrategia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

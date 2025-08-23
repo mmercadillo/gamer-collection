@@ -7,5 +7,7 @@
   "distribuidor": "Empire Interactive / Taito",
   "ean": "",
   "descripcion": "Compilación de clásicos arcade de Taito que reúne más de 20 títulos emblemáticos, incluyendo Space Invaders, Bubble Bobble, Rainbow Islands y otros, en una sola colección para PC.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

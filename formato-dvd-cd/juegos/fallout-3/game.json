@@ -7,5 +7,7 @@
   "distribuidor": "Bethesda Softworks",
   "ean": "",
   "descripcion": "Tercera entrega principal de la saga Fallout, ambientada en el Yermo Capital tras una guerra nuclear. El jugador controla al 'Habitante del Refugio 101' en su búsqueda de su padre, explorando un vasto mundo abierto postapocalíptico con sistema de combate en primera y tercera persona, además del sistema V.A.T.S. para ataques tácticos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

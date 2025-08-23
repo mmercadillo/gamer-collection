@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Entrega de la saga Need for Speed centrada en la cultura del tuning y las carreras callejeras nocturnas. Introduce un modo historia con progresión, personalización estética y de rendimiento para los coches, y competiciones como sprint, circuito y drag.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

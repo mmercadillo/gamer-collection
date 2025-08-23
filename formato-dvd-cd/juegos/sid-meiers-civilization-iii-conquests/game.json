@@ -7,5 +7,7 @@
   "distribuidor": "Atari",
   "ean": "",
   "descripcion": "Segunda expansión de Civilization III que introduce nuevas civilizaciones, unidades, maravillas, gobiernos y escenarios históricos, ampliando significativamente la rejugabilidad del juego base.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

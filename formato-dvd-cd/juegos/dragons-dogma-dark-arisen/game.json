@@ -7,5 +7,7 @@
   "distribuidor": "Capcom",
   "ean": "",
   "descripcion": "Versión ampliada del RPG de acción Dragon's Dogma, que añade nuevas áreas, enemigos, misiones y mejoras al sistema de combate. El jugador explora un mundo abierto, personaliza su personaje y su grupo de 'peones', enfrentándose a criaturas fantásticas y tomando decisiones que afectan la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

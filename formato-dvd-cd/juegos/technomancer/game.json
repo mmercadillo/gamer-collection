@@ -7,5 +7,7 @@
   "distribuidor": "Focus Home Interactive",
   "ean": "",
   "descripcion": "RPG de acción ambientado en Marte, donde el jugador encarna a un Technomancer, un guerrero con poderes eléctricos, que debe sobrevivir en un mundo hostil dominado por corporaciones y facciones rivales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

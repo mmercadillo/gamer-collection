@@ -7,5 +7,7 @@
   "distribuidor": "Beamdog, Atari",
   "ean": "",
   "descripcion": "Versión mejorada del clásico RPG de mazmorras basado en Dungeons & Dragons. Incluye la campaña original Icewind Dale, las expansiones Heart of Winter y Trials of the Luremaster, mejoras gráficas, interfaz actualizada y nuevas clases, hechizos y objetos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

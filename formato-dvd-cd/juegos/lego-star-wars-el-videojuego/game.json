@@ -7,5 +7,7 @@
   "distribuidor": "Eidos Interactive",
   "ean": "",
   "descripcion": "Videojuego de acción y aventura que combina el universo de Star Wars con el estilo LEGO. Permite jugar los episodios I, II y III controlando a personajes icónicos en niveles con plataformas, combates y puzles, en modo individual o cooperativo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "The Adventure Company",
   "ean": "",
   "descripcion": "Aventura gráfica de investigación ambientada en Nueva York a comienzos del siglo XX. El jugador asume el papel de un joven periodista que sigue la pista de una serie de asesinatos atribuidos a Jack el Destripador, explorando escenarios, resolviendo puzles y entrevistando a personajes.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

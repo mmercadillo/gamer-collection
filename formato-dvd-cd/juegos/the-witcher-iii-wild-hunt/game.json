@@ -7,5 +7,7 @@
   "distribuidor": "CD Projekt / Bandai Namco",
   "ean": "",
   "descripcion": "Tercera entrega de la saga The Witcher, un RPG de mundo abierto en el que Geralt de Rivia emprende un viaje épico para encontrar a Ciri mientras enfrenta a la Cacería Salvaje. Destaca por su narrativa madura, su extenso mundo y sus múltiples decisiones morales.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

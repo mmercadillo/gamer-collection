@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Shooter táctico y simulador militar que se desarrolla en una isla ficticia del Pacífico, Skira, durante un conflicto entre Estados Unidos y China. Destaca por su enfoque realista en el combate, amplios mapas abiertos y la necesidad de planificación y cooperación táctica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

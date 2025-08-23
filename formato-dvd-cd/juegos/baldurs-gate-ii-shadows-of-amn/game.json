@@ -7,5 +7,7 @@
   "distribuidor": "Interplay Entertainment",
   "ean": "",
   "descripcion": "RPG clásico ambientado en el universo de Dungeons & Dragons. El jugador controla un grupo de aventureros, explorando mazmorras, completando misiones, interactuando con personajes y participando en combates tácticos por turnos, con una profunda narrativa y desarrollo de personajes.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

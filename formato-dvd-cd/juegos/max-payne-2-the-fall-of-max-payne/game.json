@@ -7,5 +7,7 @@
   "distribuidor": "Rockstar Games",
   "ean": "",
   "descripcion": "Secuela del aclamado Max Payne. El juego sigue al exdetective Max en una historia oscura de crimen y corrupción, marcada por su relación con Mona Sax. Mantiene el característico 'bullet time' para ralentizar la acción, ofreciendo intensos tiroteos y una narrativa cinematográfica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

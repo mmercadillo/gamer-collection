@@ -7,5 +7,7 @@
   "distribuidor": "Kalypso Media",
   "ean": "",
   "descripcion": "RPG de acción isométrico secuela espiritual de Shadows: Heretic Kingdoms. El jugador controla al Devorador, un demonio capaz de absorber las almas de héroes caídos y alternar entre el mundo de las sombras y el de los vivos para enfrentarse a sus enemigos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

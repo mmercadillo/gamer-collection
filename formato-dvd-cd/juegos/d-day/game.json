@@ -7,5 +7,7 @@
   "distribuidor": "SSI / Strategic Simulations, Inc.",
   "ean": "",
   "descripcion": "Juego de estrategia basado en la Segunda Guerra Mundial, centrado en el desembarco de Normandía. El jugador dirige tropas aliadas, planifica movimientos estratégicos, gestiona unidades y recursos, y toma decisiones tácticas para asegurar el éxito de las operaciones militares.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

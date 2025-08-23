@@ -7,5 +7,7 @@
   "distribuidor": "MicroProse, THQ",
   "ean": "",
   "descripcion": "Videojuego basado en el personaje de cómic 'The Punisher'. El jugador controla a Frank Castle, usando armas y tácticas para combatir a la mafia y criminales en distintos entornos urbanos, combinando acción intensa con elementos de investigación y combate estratégico.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

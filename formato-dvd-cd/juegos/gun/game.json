@@ -7,5 +7,7 @@
   "distribuidor": "Activision",
   "ean": "",
   "descripcion": "Juego de acción y aventura en mundo abierto ambientado en el Salvaje Oeste. El jugador controla a Colton White, un cazador que se embarca en una misión de venganza, explorando ciudades, praderas y cañones, participando en tiroteos, misiones secundarias y actividades como póker y caza de recompensas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

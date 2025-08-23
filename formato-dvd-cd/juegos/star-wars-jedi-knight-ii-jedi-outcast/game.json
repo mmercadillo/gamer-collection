@@ -7,5 +7,7 @@
   "distribuidor": "LucasArts",
   "ean": "",
   "descripcion": "Entrega de la saga Jedi Knight en la que el jugador controla a Kyle Katarn, combinando combate con sable de luz y uso de la Fuerza con tiroteos clásicos en primera persona dentro del universo Star Wars.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

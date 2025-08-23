@@ -7,5 +7,7 @@
   "distribuidor": "RTL Enterprises",
   "ean": "",
   "descripcion": "Cuarta entrega de la saga Simon the Sorcerer. El joven mago regresa a un mundo de fantasía lleno de humor y referencias paródicas, resolviendo puzles en una clásica aventura point & click.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

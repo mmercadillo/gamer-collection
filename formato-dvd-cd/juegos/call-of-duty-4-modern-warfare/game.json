@@ -7,5 +7,7 @@
   "distribuidor": "Activision",
   "ean": "",
   "descripcion": "Shooter en primera persona ambientado en conflictos modernos. El jugador asume el rol de soldados de distintas unidades en misiones intensas que combinan combate, estrategia y narrativa cinematográfica, tanto en campañas para un solo jugador como en modos multijugador.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

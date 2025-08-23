@@ -7,5 +7,7 @@
   "distribuidor": "Focus Home Interactive",
   "ean": "",
   "descripcion": "RPG de acción estilo hack and slash en el que el jugador puede elegir entre un guerrero, un mago o un pícaro para luchar contra hordas de enemigos en un mundo de fantasía oscura, solo o en modo cooperativo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

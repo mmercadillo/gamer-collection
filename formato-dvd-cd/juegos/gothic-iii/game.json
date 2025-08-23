@@ -7,5 +7,7 @@
   "distribuidor": "JoWooD Productions",
   "ean": "",
   "descripcion": "Tercera entrega de la saga Gothic. El jugador, en el papel del Héroe Sin Nombre, explora el vasto continente de Myrtana, sumido en la guerra entre humanos y orcos. Ofrece un extenso mundo abierto, decisiones morales que afectan la historia y un sistema de combate mejorado respecto a sus predecesores.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

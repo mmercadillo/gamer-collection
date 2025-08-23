@@ -7,5 +7,7 @@
   "distribuidor": "Project Three Interactive",
   "ean": "",
   "descripcion": "Juego de rol y acción con vista isométrica ambientado en un oscuro mundo de fantasía donde la religión ha sido prohibida. El jugador encarna a una Inquisidora que debe luchar contra herejes y fuerzas malignas, combinando exploración, combates en tiempo real y un sistema de 'memoria' para personalizar habilidades.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

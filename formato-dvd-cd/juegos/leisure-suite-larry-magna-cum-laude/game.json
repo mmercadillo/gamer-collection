@@ -7,5 +7,7 @@
   "distribuidor": "Vivendi Universal Games",
   "ean": "",
   "descripcion": "Entrega de la saga humorística Leisure Suit Larry. El jugador controla a Larry Lovage, sobrino del protagonista original, en su intento por triunfar en la universidad y conquistar a diversas chicas. Combina exploración, minijuegos y diálogos cómicos con tono adulto.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

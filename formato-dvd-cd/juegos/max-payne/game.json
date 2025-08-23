@@ -7,5 +7,7 @@
   "distribuidor": "Gathering of Developers, 3D Realms, Rockstar Games",
   "ean": "",
   "descripcion": "Juego de acción en tercera persona que introdujo la mecánica de 'bullet time' para ralentizar la acción. El jugador controla a Max Payne, un detective de Nueva York que busca venganza tras el asesinato de su familia, enfrentándose a mafias y conspiraciones en una historia con estilo de novela gráfica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Videojuego basado en la segunda entrega de la saga de J.K. Rowling. El jugador controla a Harry Potter en su segundo año en Hogwarts, resolviendo puzles, lanzando hechizos y enfrentándose a criaturas mágicas mientras descubre el misterio de la Cámara Secreta.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Expansión de Command & Conquer: Red Alert 2 que introduce a la facción de Yuri y nuevas campañas. El jugador dirige ejércitos en tiempo real, construye bases, gestiona recursos y combate enemigos utilizando unidades y habilidades especiales en diversos escenarios de estrategia militar.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

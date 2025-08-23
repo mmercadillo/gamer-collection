@@ -7,5 +7,7 @@
   "distribuidor": "Microids",
   "ean": "",
   "descripcion": "Juego de estrategia táctica en tiempo real inspirado en títulos como Commandos y Desperados. El jugador controla a Robin Hood y a sus compañeros en misiones de sigilo y combate contra las tropas del Sheriff de Nottingham.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

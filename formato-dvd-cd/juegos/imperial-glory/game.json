@@ -7,5 +7,7 @@
   "distribuidor": "Eidos Interactive",
   "ean": "",
   "descripcion": "Videojuego de estrategia ambientado en el periodo de las Guerras Napoleónicas. Combina gestión por turnos de un imperio con batallas en tiempo real terrestres y navales, permitiendo controlar a las grandes potencias europeas de la época.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

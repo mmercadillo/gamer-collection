@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Simulador de rally donde el jugador compite en distintas etapas y campeonatos oficiales. Incluye conducción realista, gestión de vehículos, condiciones climáticas variables y múltiples modos de juego, ofreciendo una experiencia de rally auténtica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

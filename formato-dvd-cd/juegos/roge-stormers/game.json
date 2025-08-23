@@ -7,5 +7,7 @@
   "distribuidor": "Black Forest Games",
   "ean": "",
   "descripcion": "Shooter de acción con elementos roguelike y estilo run & gun, ambientado en una ciudad steampunk infestada de orcos y mutantes. Combina juego cooperativo para hasta cuatro jugadores con progresión de personajes y escenarios generados aleatoriamente.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

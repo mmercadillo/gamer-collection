@@ -7,5 +7,7 @@
   "distribuidor": "2K Games",
   "ean": "",
   "descripcion": "Recopilación de la saga Stronghold que incluye varias de las entregas clásicas de estrategia y gestión de castillos, con campañas, escaramuzas y modos multijugador.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

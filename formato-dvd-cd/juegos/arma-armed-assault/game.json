@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Shooter táctico militar en primera persona centrado en simulación realista de combate. El jugador participa en misiones modernas con vehículos, armas auténticas y estrategia táctica, en entornos abiertos y desafiantes que requieren coordinación y planificación.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

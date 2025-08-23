@@ -7,5 +7,7 @@
   "distribuidor": "Activision",
   "ean": "",
   "descripcion": "Shooter en primera persona que reimagina el clásico Wolfenstein 3D. El jugador controla a B.J. Blazkowicz en una misión contra los nazis, enfrentándose a soldados, experimentos ocultistas y criaturas sobrenaturales en la Segunda Guerra Mundial.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

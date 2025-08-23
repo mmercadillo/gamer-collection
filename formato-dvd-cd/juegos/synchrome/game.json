@@ -7,5 +7,7 @@
   "distribuidor": "Bigmoon Entertainment",
   "ean": "",
   "descripcion": "Shooter de acción futurista compatible con realidad virtual (Oculus Rift y HTC Vive) en el que el jugador se enfrenta a combates intensos en escenarios de ciencia ficción.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

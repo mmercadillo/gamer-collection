@@ -7,5 +7,7 @@
   "distribuidor": "Infogrames",
   "ean": "",
   "descripcion": "Juego de acción ambientado en la Segunda Guerra Mundial. El jugador controla una batería de defensa costera y debe resistir oleadas de ataques enemigos por tierra, mar y aire, utilizando diferentes armas pesadas para proteger la base.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

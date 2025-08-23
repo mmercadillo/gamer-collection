@@ -7,5 +7,7 @@
   "distribuidor": "Paradox Interactive",
   "ean": "",
   "descripcion": "Juego de rol isométrico inspirado en los clásicos de los años 90 como Baldur's Gate e Icewind Dale. El jugador crea un personaje y explora el mundo de Eora, con un sistema de combate en tiempo real con pausa táctica y una narrativa profunda centrada en elecciones y consecuencias.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

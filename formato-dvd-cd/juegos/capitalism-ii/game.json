@@ -7,5 +7,7 @@
   "distribuidor": "Ubi Soft / Enlight Software",
   "ean": "",
   "descripcion": "Simulador de negocios que permite al jugador crear y gestionar su propio imperio empresarial. Incluye producción, marketing, finanzas, investigación y expansión en distintos mercados, ofreciendo un enfoque profundo de la economía y la estrategia corporativa.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Simulador militar y shooter táctico ambientado en la Guerra Fría. El jugador asume distintos roles como infantería, conductor de vehículos y piloto, en extensos escenarios abiertos que priorizan el realismo, la estrategia y la coordinación de escuadras.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

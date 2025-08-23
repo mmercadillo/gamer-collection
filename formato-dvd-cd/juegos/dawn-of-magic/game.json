@@ -7,5 +7,7 @@
   "distribuidor": "Encore",
   "ean": "",
   "descripcion": "Juego de rol y acción ambientado en un mundo de fantasía donde el jugador controla a un joven mago. Combina combate en tiempo real con desarrollo de habilidades mágicas, exploración de entornos, misiones y enfrentamientos contra criaturas fantásticas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

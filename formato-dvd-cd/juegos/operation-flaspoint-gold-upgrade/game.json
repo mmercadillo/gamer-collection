@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Edición especial que actualiza el juego original Operation Flashpoint: Cold War Crisis incluyendo la expansión Red Hammer y contenido adicional. Ofrece campañas militares realistas ambientadas en la Guerra Fría con énfasis en táctica, estrategia y simulación bélica.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Planeta DeAgostini Interactive",
   "ean": "",
   "descripcion": "Adaptación oficial de la película 'X', un videojuego de acción y aventura en tercera persona con elementos narrativos inspirados en el film.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Paradox Interactive",
   "ean": "",
   "descripcion": "Juego de rol y acción medieval con elementos de estrategia. El jugador crea un personaje y recorre un mundo abierto, participando en combates a gran escala, gestionando tropas, realizando misiones y desarrollando su reputación en un entorno sin narrativa lineal.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

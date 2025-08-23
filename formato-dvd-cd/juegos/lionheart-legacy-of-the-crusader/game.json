@@ -7,5 +7,7 @@
   "distribuidor": "Interplay Entertainment",
   "ean": "",
   "descripcion": "Juego de rol ambientado en una historia alternativa tras la Tercera Cruzada, donde un cataclismo mágico ha cambiado el curso de la historia. Combina combates en tiempo real con pausa táctica, exploración y toma de decisiones en un mundo que mezcla hechos históricos con elementos fantásticos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

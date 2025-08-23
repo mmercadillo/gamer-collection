@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Shooter en tercera persona ambientado en una historia alternativa donde la Unión Soviética invade Nueva York. El jugador controla a Christopher Stone, un fontanero convertido en líder de la resistencia, dirigiendo a escuadrones de combatientes en misiones urbanas contra el ejército invasor.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

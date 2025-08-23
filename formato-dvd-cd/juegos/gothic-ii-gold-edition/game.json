@@ -7,5 +7,7 @@
   "distribuidor": "JoWooD Productions",
   "ean": "",
   "descripcion": "Edición especial que incluye Gothic II junto con su expansión Night of the Raven. El jugador continúa las aventuras del Héroe Sin Nombre en Khorinis, explorando nuevas regiones, enfrentándose a dragones y decidiendo el destino del reino en un mundo abierto lleno de facciones y misiones.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

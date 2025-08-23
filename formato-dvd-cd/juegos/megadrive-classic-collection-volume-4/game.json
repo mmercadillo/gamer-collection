@@ -7,5 +7,7 @@
   "distribuidor": "Sega",
   "ean": "",
   "descripcion": "Cuarta entrega de la recopilación de clásicos de Sega Mega Drive para PC. Incluye varios títulos emblemáticos de la consola en versiones emuladas, con soporte para guardado, controles configurables y opciones de visualización.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

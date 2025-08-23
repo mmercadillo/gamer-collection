@@ -7,5 +7,7 @@
   "distribuidor": "SEGA",
   "ean": "",
   "descripcion": "Estrategia épica que combina el sistema de gestión y batallas en tiempo real de la saga Total War con el universo de fantasía de Warhammer, ofreciendo facciones únicas, héroes legendarios y criaturas fantásticas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

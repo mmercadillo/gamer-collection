@@ -7,5 +7,7 @@
   "distribuidor": "Egmont Interactive, Xicat Interactive",
   "ean": "",
   "descripcion": "Primera entrega de la saga Gothic. El jugador controla a un prisionero anónimo enviado a una colonia penal rodeada por una barrera mágica. Debe unirse a una de las facciones, sobrevivir en un mundo hostil y descubrir el misterio de los durmientes, combinando exploración, combate y decisiones que afectan la historia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

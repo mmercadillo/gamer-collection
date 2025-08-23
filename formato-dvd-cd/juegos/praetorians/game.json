@@ -7,5 +7,7 @@
   "distribuidor": "Eidos Interactive",
   "ean": "",
   "descripcion": "Videojuego de estrategia en tiempo real ambientado en el Imperio Romano. El jugador controla ejércitos de romanos, bárbaros y egipcios en campañas militares y batallas tácticas a gran escala, priorizando la gestión de tropas y formaciones sobre la construcción de bases.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

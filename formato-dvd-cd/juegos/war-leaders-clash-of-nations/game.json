@@ -7,5 +7,7 @@
   "distribuidor": "Strategy First",
   "ean": "",
   "descripcion": "Videojuego de gran estrategia ambientado en la Segunda Guerra Mundial que combina gestión política, económica y diplomática con batallas en tiempo real.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Interplay Entertainment",
   "ean": "",
   "descripcion": "Segunda entrega de la saga Fallout, ambientada 80 años después del juego original. El jugador controla al 'Elegido', descendiente del protagonista anterior, en una misión para encontrar el GECK y salvar a su aldea. Mantiene el estilo isométrico, combates por turnos y gran libertad de decisión que afecta la historia y el mundo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

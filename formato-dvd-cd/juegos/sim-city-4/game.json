@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Entregra de la saga SimCity que permite al jugador construir y gestionar ciudades completas con mayor nivel de detalle. Introduce la simulación regional, transporte más realista y el modo Dios para modificar el terreno.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }

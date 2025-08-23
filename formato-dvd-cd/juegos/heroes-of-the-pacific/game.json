@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Simulador de vuelo arcade ambientado en la Segunda Guerra Mundial, centrado en las batallas aéreas del Pacífico. El jugador pilota cazas y bombarderos en escenarios históricos como Pearl Harbor, Midway y Guadalcanal, con un enfoque en la acción rápida y combates espectaculares.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]     
 }
