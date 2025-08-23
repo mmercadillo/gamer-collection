@@ -7,5 +7,7 @@
   "distribuidor": "Atari",
   "ean": "",
   "descripcion": "Juego de rol basado en la saga literaria de Andrzej Sapkowski, donde el jugador encarna a Geralt de Rivia en un oscuro mundo de fantasía lleno de decisiones morales y combates con espada y magia.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

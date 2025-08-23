@@ -7,5 +7,7 @@
   "distribuidor": "SEGA",
   "ean": "",
   "descripcion": "Juego de rol y acción ambientado en un mundo de espionaje moderno, donde las decisiones del jugador influyen directamente en la historia y en las relaciones con otros personajes.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

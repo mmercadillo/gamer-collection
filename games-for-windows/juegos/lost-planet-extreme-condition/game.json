@@ -7,5 +7,7 @@
   "distribuidor": "Capcom",
   "ean": "",
   "descripcion": "Juego de acción en tercera persona ambientado en un planeta helado, donde el protagonista lucha contra criaturas alienígenas y facciones humanas utilizando armamento futurista y mechas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

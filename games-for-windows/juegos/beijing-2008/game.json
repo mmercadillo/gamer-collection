@@ -7,5 +7,7 @@
   "distribuidor": "SEGA",
   "ean": "",
   "descripcion": "Videojuego oficial de los Juegos Olímpicos de Pekín 2008. Incluye múltiples disciplinas deportivas con representación realista de atletas y escenarios olímpicos, ofreciendo modos de competición individual y multijugador.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

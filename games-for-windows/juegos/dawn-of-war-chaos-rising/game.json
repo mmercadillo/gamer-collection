@@ -7,5 +7,7 @@
   "distribuidor": "THQ",
   "ean": "",
   "descripcion": "Expansión de Warhammer 40,000: Dawn of War II que introduce la amenaza del Caos, nuevas campañas, unidades y posibilidades multijugador.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Microsoft Game Studios",
   "ean": "",
   "descripcion": "Colección que incluye Age of Empires III y las expansiones The WarChiefs y The Asian Dynasties, con campañas y escaramuzas ambientadas en la colonización de América.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

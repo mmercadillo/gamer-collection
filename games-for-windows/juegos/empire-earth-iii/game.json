@@ -7,5 +7,7 @@
   "distribuidor": "Sierra Entertainment",
   "ean": "",
   "descripcion": "Tercera entrega de la saga Empire Earth que permite dirigir civilizaciones desde la prehistoria hasta el futuro, con tres facciones principales y un enfoque más simplificado en la gestión.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "SEGA",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real ambientado en un futuro postapocalíptico, con combates tácticos en entornos tridimensionales y control directo de las unidades.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

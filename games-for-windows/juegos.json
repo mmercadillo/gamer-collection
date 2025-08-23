@@ -6,7 +6,10 @@
       "genero": "Estrategia en tiempo real",
       "desarrollador": "Ensemble Studios",
       "distribuidor": "Microsoft Game Studios",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]      
     },
     {
       "titulo": "Alpha Protocol: Tu Decisión es tu Arma",
@@ -15,7 +18,10 @@
       "genero": "RPG de acción",
       "desarrollador": "Obsidian Entertainment",
       "distribuidor": "SEGA",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
     {
       "titulo": "Beijing 2008",
@@ -24,7 +30,10 @@
       "genero": "Deportes / Olímpico",
       "desarrollador": "Eurocom",
       "distribuidor": "SEGA",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "BioShock 2",
@@ -33,7 +42,10 @@
       "genero": "Acción, Shooter en primera persona",
       "desarrollador": "2K Marin",
       "distribuidor": "2K Games",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Codegame: Panzers. Cold War",
@@ -42,7 +54,10 @@
       "genero": "Estrategia en tiempo real",
       "desarrollador": "InnoGlow",
       "distribuidor": "FX Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
     {
       "titulo": "Dawn of War II: Chaos Rising",
@@ -51,7 +66,10 @@
       "genero": "Estrategia en tiempo real",
       "desarrollador": "Relic Entertainment",
       "distribuidor": "THQ",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Empire Earth III",
@@ -60,7 +78,10 @@
       "genero": "Estrategia en tiempo real",
       "desarrollador": "Mad Doc Software",
       "distribuidor": "Sierra Entertainment",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Kane & Lynch: Dead Men",
@@ -69,7 +90,10 @@
       "genero": "Acción, Shooter en tercera persona",
       "desarrollador": "IO Interactive",
       "distribuidor": "Eidos Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Lost Planet: Extreme Condition",
@@ -78,7 +102,10 @@
       "genero": "Acción, Shooter en tercera persona",
       "desarrollador": "Capcom",
       "distribuidor": "Capcom",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Port Royale 3",
@@ -87,7 +114,10 @@
       "genero": "Estrategia, Simulación",
       "desarrollador": "Gaming Minds Studios",
       "distribuidor": "Kalypso Media",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Risen",
@@ -96,7 +126,10 @@
       "genero": "RPG",
       "desarrollador": "Piranha Bytes",
       "distribuidor": "Deep Silver",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Sacred 2: Fallen Angel",
@@ -105,7 +138,10 @@
       "genero": "RPG, Acción",
       "desarrollador": "Ascaron",
       "distribuidor": "cdv Software Entertainment",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Sid Meier's Civilization IV: Complete",
@@ -114,7 +150,10 @@
       "genero": "Estrategia por turnos",
       "desarrollador": "Firaxis Games",
       "distribuidor": "2K Games",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Stormrise",
@@ -123,7 +162,10 @@
       "genero": "Estrategia en tiempo real",
       "desarrollador": "Creative Assembly",
       "distribuidor": "SEGA",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "Supreme Commander: Forged Alliance",
@@ -132,7 +174,10 @@
       "genero": "Estrategia en tiempo real",
       "desarrollador": "Gas Powered Games",
       "distribuidor": "THQ",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
         {
       "titulo": "The Witcher",
@@ -141,6 +186,9 @@
       "genero": "RPG",
       "desarrollador": "CD Projekt Red",
       "distribuidor": "Atari",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     }
 ]
