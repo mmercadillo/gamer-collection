@@ -288,6 +288,15 @@
       "ean": ""
     },
     {
+      "titulo": "Dragon's Lair II: La Máquina del Tiempo",
+      "url": "juegos/dragons-lair-ii-la-maquina-del-tiempo/",
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Aventura interactiva",
+      "desarrollador": "Digital Leisure",
+      "distribuidor": "FX Interactive",
+      "ean": ""
+    },    
+    {
       "titulo": "Drakensang: The Dark Eye",
       "url": "juegos/drakensang/",
       "plataforma": "Windows XP SP2 / Vista / 7",
@@ -1088,6 +1097,15 @@
       "distribuidor": "FX Interactive",
       "ean": ""
     },
+    {
+      "titulo": "Space Ace",
+      "url": "juegos/space-ace/",
+      "plataforma": "Windows XP/Vista/7",
+      "genero": "Aventura interactiva",
+      "desarrollador": "Don Bluth Studios / ReadySoft",
+      "distribuidor": "FX Interactive",
+      "ean": ""
+    },    
     {
       "titulo": "Ski Alpin",
       "url": "juegos/ski-alpin/",

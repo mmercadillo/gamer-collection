@@ -8,12 +8,21 @@
       "distribuidor": "Microsoft Game Studios",
       "ean": ""
     },
-        {
+    {
       "titulo": "Alpha Protocol: Tu Decisión es tu Arma",
       "url": "juegos/alpha-protocol-tu-decision-es-tu-arma/",
       "plataforma": "Windows XP/Vista/7",
       "genero": "RPG de acción",
       "desarrollador": "Obsidian Entertainment",
+      "distribuidor": "SEGA",
+      "ean": ""
+    },
+    {
+      "titulo": "Beijing 2008",
+      "url": "juegos/beijing-2008/",
+      "plataforma": "Windows XP/Vista",
+      "genero": "Deportes / Olímpico",
+      "desarrollador": "Eurocom",
       "distribuidor": "SEGA",
       "ean": ""
     },
