@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436010153566",
   "descripcion": "Secuela directa de Dungeons (2011), añade campaña completa con voces, modos multijugador para hasta 4 jugadores (Deathmatch, King of the Hill, Piñata y Survival), nuevas mazmorras, trampas y prestigios.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

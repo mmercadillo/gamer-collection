@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Simulador de carreras de motociclismo que ofrece pistas oficiales y motos realistas para competir en el campeonato de Superbike del año 2000.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

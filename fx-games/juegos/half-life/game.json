@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436013461166",
   "descripcion": "Half-Life es un shooter en primera persona revolucionario que combina acción intensa con una narrativa inmersiva. Controlas a Gordon Freeman, un científico que debe sobrevivir a una invasión alienígena en las instalaciones de Black Mesa.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

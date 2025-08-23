@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Simulador de vuelo realista que ofrece una gran variedad de aviones y escenarios detallados para experimentar la aviación de manera precisa.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

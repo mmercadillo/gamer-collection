@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Simulador de rallies todoterreno con escenarios internacionales, compatibilidad GFWL multijugador, doblaje o subtítulos en español (edición local FX), manual y guía/mapa incluidos.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

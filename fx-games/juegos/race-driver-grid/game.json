@@ -7,6 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436010153614",
   "descripcion": "Race Driver: GRID es un videojuego de carreras desarrollado por Codemasters y distribuido por FX Interactive en España. Lanzado en 2008, el juego ofrece una experiencia de conducción que combina elementos de simulador y arcade. Los jugadores asumen el rol de un piloto que comienza su carrera aceptando ofertas de equipos establecidos y, eventualmente, puede formar su propio equipo. El juego presenta una variedad de disciplinas, incluyendo GT, drift, touge, open wheel y demolition derby, y cuenta con 43 coches licenciados de marcas como BMW, Porsche y Mustang. Los circuitos incluyen tanto trazados reales como ficticios, como el circuito callejero de Detroit y el Monte Haruna.",
-  "incluye": [
-  ]
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

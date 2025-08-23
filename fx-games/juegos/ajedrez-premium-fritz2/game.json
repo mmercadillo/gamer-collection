@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "9783866818033",
   "descripcion": "Programa de ajedrez completo con motor Fritz 2, funciones de entrenamiento, análisis automático, motor estilo Stockfish‑NNUE, base de datos de partidas, interfaz Fritz 17 y suscripción Premium.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

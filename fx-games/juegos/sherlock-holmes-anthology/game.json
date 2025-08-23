@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Recopilación de juegos de aventura gráfica basados en las novelas de Sherlock Holmes, que combinan misterio, investigación y resolución de puzles.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

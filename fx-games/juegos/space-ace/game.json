@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Clásico arcade animado creado por Don Bluth. El jugador controla a Ace, un héroe que debe detener al malvado Comandante Borf y rescatar a Kimberly, tomando decisiones rápidas en escenas interactivas llenas de humor y acción.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

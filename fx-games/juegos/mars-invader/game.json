@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436010150749",
   "descripcion": "Mars Invader es un juego de disparos vertical estilo 'shoot 'em up' que rinde homenaje a los clásicos de las recreativas. El jugador controla una nave espacial encargada de defender la galaxia de invasores alienígenas, enfrentándose a múltiples enemigos y jefes finales. El juego incluye tres modelos de nave, diez tipos de armas, escudos de energía, ocho power-ups y gráficos mejorados en su versión remasterizada.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

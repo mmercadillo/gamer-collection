@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Juego de aventura y acción con elementos de rol, ambientado en un mundo oscuro donde el jugador debe enfrentarse a criaturas malignas y resolver misterios.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

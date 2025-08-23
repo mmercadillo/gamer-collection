@@ -7,6 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436010152321",
   "descripcion": "Painkiller: Edición de Oro es una recopilación que incluye el juego original *Painkiller* y su expansión *Battle Out of Hell*. Ambientado en un mundo oscuro entre el cielo y el infierno, el jugador asume el papel de Daniel Garner, quien debe enfrentarse a hordas demoníacas utilizando un arsenal de armas inusuales. La expansión añade una nueva campaña con diez niveles adicionales, nuevos enemigos, armas y modos multijugador.",
-  "incluye": [
-  ]
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

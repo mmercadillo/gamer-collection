@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Juego de carreras de rally clásico que ofrece circuitos desafiantes, múltiples vehículos y una jugabilidad arcade con física realista.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

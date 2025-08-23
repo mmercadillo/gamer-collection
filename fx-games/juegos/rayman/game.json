@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436010150000",
   "descripcion": "Rayman es un juego de plataformas clásico lanzado en 1995, con un estilo colorido y un mundo fantástico. El jugador controla a Rayman en su aventura para salvar su mundo de enemigos y peligros, atravesando niveles variados y desafiantes con habilidades únicas.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

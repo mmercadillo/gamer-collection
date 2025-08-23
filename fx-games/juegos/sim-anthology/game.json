@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Colección que incluye varios títulos clásicos de la serie Sim, combinando simulación urbana, médica y de negocios en un solo paquete.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

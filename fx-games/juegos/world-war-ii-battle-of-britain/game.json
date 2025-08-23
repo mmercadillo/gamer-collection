@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Simulador de vuelo ambientado en la Batalla de Inglaterra durante la Segunda Guerra Mundial, que ofrece combates aéreos realistas y misiones históricas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Juego de carreras arcade con énfasis en la velocidad y la creatividad en pistas, ofreciendo modos multijugador y editor de circuitos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

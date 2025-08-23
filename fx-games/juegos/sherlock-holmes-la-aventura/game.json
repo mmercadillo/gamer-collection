@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Aventura gráfica que sigue las investigaciones clásicas de Sherlock Holmes, con énfasis en la resolución de enigmas y la exploración de escenas del crimen.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

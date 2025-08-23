@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "RPG de acción ambientado en el continente de Ancaria, donde los jugadores eligen entre varias clases para enfrentarse a hordas de enemigos y completar misiones épicas.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Edición Anthology distribuida por FX en España e Italia que incluye American Conquest (2002) y su expansión Fight Back (2003). Cinco campañas históricas sobre tres siglos de batallas en América, multijugador LAN/Internet, manual y mapas.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436010150541",
   "descripcion": "Versión castellana de Fritz 6, famoso programa entrenador de ajedrez con base de 320 000 partidas profesionales, análisis en tiempo real, entrenador virtual y modos para principiantes hasta grandes maestros.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

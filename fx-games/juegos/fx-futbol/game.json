@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436013464570",
   "descripcion": "FX Fútbol es un manager de fútbol que recoge el testigo espiritual de la saga PC Fútbol. Permite gestionar todos los aspectos de un club: fichajes, tácticas, finanzas y partidos en tiempo real. Con ligas y equipos reales gracias a un sistema de edición.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

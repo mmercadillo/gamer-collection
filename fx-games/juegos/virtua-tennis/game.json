@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Simulador de tenis que ofrece una jugabilidad arcade rápida y accesible, con torneos, modos de entrenamiento y varios jugadores.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

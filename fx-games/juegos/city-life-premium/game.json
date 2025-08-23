@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "8436010152903",
   "descripcion": "Simulador urbano completo; permite construir y gestionar una ciudad desde cero, gestionar economía, servicios, transporte y crecimiento. Textos y voces en español localizados por FX Interactive.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

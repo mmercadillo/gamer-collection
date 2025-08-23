@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Juego de fútbol estilo arcade‑manager lanzado en 2004; incluye modo Campeonato, Amistoso y Desafío, editor para personalizar jugadores y equipos ('MyTeam'), traducción al español por FX Interactive.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

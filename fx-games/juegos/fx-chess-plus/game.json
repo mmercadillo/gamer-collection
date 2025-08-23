@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "FX Chess Plus es una colección de ajedrez para todos los niveles que incluye el motor de juego de Fritz, modos de entrenamiento, lecciones, partidas históricas y análisis táctico. Ideal tanto para principiantes como para expertos.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

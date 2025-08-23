@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Juego de fútbol que ofrece modos de competición, gestión de equipos y jugabilidad accesible para todos los niveles.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

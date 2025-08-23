@@ -7,5 +7,7 @@
   "distribuidor": "FX Interactive",
   "ean": "",
   "descripcion": "Simulador de trenes que permite a los jugadores construir rutas, manejar locomotoras y experimentar el ferrocarril de forma realista.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }
