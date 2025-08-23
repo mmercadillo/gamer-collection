@@ -7,5 +7,7 @@
   "distribuidor": "City Interactive",
   "ean": "",
   "descripcion": "Simulador de ciclismo de carretera en el que gestionas un equipo profesional a lo largo de diversas competiciones europeas. Incluye etapas con gráficos 3D, control táctico del pelotón y gestión de recursos como energía y posición. Aunque más modesto que otros títulos del género, destaca por su enfoque directo y accesible al mundo del ciclismo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

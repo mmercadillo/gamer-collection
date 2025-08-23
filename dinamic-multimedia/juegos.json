@@ -6,7 +6,10 @@
       "genero": "Deportes (colección)",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]         
     },
     {
       "titulo": "Alien Paranoia",
@@ -15,7 +18,10 @@
       "genero": "Action / 3D platform",
       "desarrollador": "Eclipse Software",
       "distribuidor": "Dinamic Multimedia, Akaei plc, Russobit‑M",
-      "ean": "5037120206161"
+      "ean": "5037120206161",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "PC Fútbol 2001",
@@ -24,7 +30,10 @@
       "genero": "Deportes / Fútbol / Simulación y Gestión",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "The Moon Project",
@@ -33,7 +42,10 @@
       "genero": "Estrategia en tiempo real",
       "desarrollador": "TopWare Programmy (editado por Dinamic Multimedia)",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Euro Tour Cycling",
@@ -42,7 +54,10 @@
       "genero": "Simulación deportiva / Ciclismo / Gestión",
       "desarrollador": "City Interactive",
       "distribuidor": "City Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Grouch",
@@ -51,7 +66,10 @@
       "genero": "Acción / Beat 'em up / Hack & Slash / Fantasía",
       "desarrollador": "Rebelmind",
       "distribuidor": "Xicat Interactive / Dinamic Multimedia (España)",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Enemy Engaged: Apache vs Havoc",
@@ -60,7 +78,10 @@
       "genero": "Simulación de combate / Vuelo / Militar",
       "desarrollador": "Razorworks",
       "distribuidor": "Empire Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Resurrection: Return of the Black Dragon",
@@ -69,7 +90,10 @@
       "genero": "Acción / Aventura / Fantasía",
       "desarrollador": "Nebula Entertainment",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Multi Sim",
@@ -78,7 +102,10 @@
       "genero": "Simulación / Estrategia / Multideporte",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Live! Boxing",
@@ -87,7 +114,10 @@
       "genero": "Deportes / Boxeo",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Pro Pinball: Fantastic Journey",
@@ -96,7 +126,10 @@
       "genero": "Simulación / Pinball",
       "desarrollador": "Cunning Developments",
       "distribuidor": "Empire Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "PC Fútbol 2000: Selección Española – Europa 2000",
@@ -105,7 +138,10 @@
       "genero": "Deportes / Fútbol / Simulación",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Excalibug",
@@ -114,7 +150,10 @@
       "genero": "Estrategia en tiempo real / Humor / Fantasía",
       "desarrollador": "Index+",
       "distribuidor": "France Telecom Multimedia / Wanadoo Edition",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "La Prisión",
@@ -123,7 +162,10 @@
       "genero": "MMORPG / RPG",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Alien Paranoia",
@@ -132,7 +174,10 @@
       "genero": "Action / 3D platform",
       "desarrollador": "Eclipse Software",
       "distribuidor": "Dinamic Multimedia, Akaei plc, Russobit‑M",
-      "ean": "5037120206161"
+      "ean": "5037120206161",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Rage of mages",
@@ -141,7 +186,10 @@
       "genero": "RPG / Estrategia en tiempo real",
       "desarrollador": "Nival Interactive",
       "distribuidor": "Dinamic Multimedia",
-      "ean": "8426239090704"
+      "ean": "8426239090704",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Dinamic Kids 1",
@@ -150,7 +198,10 @@
       "genero": "Educativo",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Radical Drive",
@@ -159,7 +210,10 @@
       "genero": "Arcade / Carreras",
       "desarrollador": "",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Tribal Rage",
@@ -168,7 +222,10 @@
       "genero": "Estrategia en tiempo real (RTS)",
       "desarrollador": "Disintegrator / TalonSoft",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Big Race USA",
@@ -177,7 +234,10 @@
       "genero": "Pinball (simulación)",
       "desarrollador": "Cunning Developments",
       "distribuidor": "Dinamic Multimedia",
-      "ean": "8426239092227"
+      "ean": "8426239092227",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Multi 3D",
@@ -186,7 +246,10 @@
       "genero": "Pack de juegos 3D (acción, carreras, shooter)",
       "desarrollador": "Variado (juegos incluidos)",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "101: Airborne en Normandía",
@@ -195,7 +258,10 @@
       "genero": "Estrategia táctica por turnos",
       "desarrollador": "Interactive Simulations",
       "distribuidor": "Dinamic Multimedia",
-      "ean": "8426239090506"
+      "ean": "8426239090506",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "PC Atletismo 2000: Extended Edition",
@@ -204,7 +270,10 @@
       "genero": "Deportes (atletismo/mánager)",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Get Medieval",
@@ -213,7 +282,10 @@
       "genero": "Hack and slash / dungeon crawl",
       "desarrollador": "Monolith Productions",
       "distribuidor": "Monolith Productions / Microïds",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Castrol Honda Superbike 2000",
@@ -222,7 +294,10 @@
       "genero": "Carreras de motos (licensed)",
       "desarrollador": "Interactive Entertainment Ltd.",
       "distribuidor": "Dinamic Multimedia",
-      "ean": "8426239092005"
+      "ean": "8426239092005",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Grand Touring",
@@ -231,7 +306,10 @@
       "genero": "Carreras de circuito",
       "desarrollador": "Elite Systems Ltd.",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Multisports 2000",
@@ -240,7 +318,10 @@
       "genero": "Deportes (pack de minijuegos)",
       "desarrollador": "Dinamic Multimedia",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Pizza Syndicate",
@@ -249,7 +330,10 @@
       "genero": "Simulación / Gestión empresarial",
       "desarrollador": "Software 2000",
       "distribuidor": "Dinamic Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     },
     {
       "titulo": "Flying Corps Gold",
@@ -258,6 +342,9 @@
       "genero": "Simulación de vuelo (Primera Guerra Mundial)",
       "desarrollador": "Rowan Software",
       "distribuidor": "Dinamic Multimedia",
-      "ean": "8426239092241"
+      "ean": "8426239092241",
+      "incluye": [],
+      "serie":"",
+      "tags":[]     
     }
 ]

@@ -7,5 +7,7 @@
   "distribuidor": "Dinamic Multimedia",
   "ean": "",
   "descripcion": "Simulación de negocio de cadena de pizzerías con componente criminal (‘syndicate’), ambientado en ciudades internacionales, en donde gestionas local, menú, marketing, personal y actividades mafiosas.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

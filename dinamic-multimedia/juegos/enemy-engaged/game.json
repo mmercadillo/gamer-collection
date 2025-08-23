@@ -7,5 +7,7 @@
   "distribuidor": "Empire Interactive",
   "ean": "",
   "descripcion": "Simulador de vuelo de combate que permite pilotar dos helicópteros de ataque icónicos: el AH-64D Apache Longbow estadounidense y el Mi-28N Havoc B ruso. Ofrece campañas dinámicas en tiempo real con conflictos realistas, modelado detallado de vuelo y sistemas de armamento, así como soporte multijugador. Destacado por su fidelidad táctica y realismo en el campo de batalla.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Dinamic Multimedia",
   "ean": "",
   "descripcion": "Juego de estrategia en tiempo real ambientado en un futuro postapocalíptico, donde seis tribus compiten por el control del territorio. Incluye editor de unidades, mapas y vehículos, así como modos multijugador y campaña.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

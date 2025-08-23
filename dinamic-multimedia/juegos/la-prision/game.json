@@ -7,5 +7,7 @@
   "distribuidor": "Dinamic Multimedia",
   "ean": "",
   "descripcion": "Primer MMORPG español, ambientado en una cárcel persistente donde los jugadores asumen el rol de presos e interactúan en un mundo en línea, con roles, combates y evolución de personaje.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

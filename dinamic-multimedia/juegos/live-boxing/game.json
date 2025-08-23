@@ -7,5 +7,7 @@
   "distribuidor": "Dinamic Multimedia",
   "ean": "",
   "descripcion": "Simulador de boxeo con estilo gráfico tipo cel-shading 3D. Ofrece dos modos de juego: Arcade y Manager, permite entrenar, visitar el gimnasio, oficina y pelear por dinero, con más de 30 boxeadores caricaturescos modelados con más de 2 000 polígonos cada uno.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

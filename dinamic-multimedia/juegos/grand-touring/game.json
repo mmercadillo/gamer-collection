@@ -7,5 +7,7 @@
   "distribuidor": "Dinamic Multimedia",
   "ean": "",
   "descripcion": "Juego de carreras de circuito con más de 20 pistas, vehículos sin licencia oficial llamados genéricamente (coupe, saloon, etc.), modos arcade y simulación, soporte multijugador LAN/serial hasta 8 jugadores, clima dinámico, día/noche.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

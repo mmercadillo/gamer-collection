@@ -7,5 +7,7 @@
   "distribuidor": "Dinamic Multimedia",
   "ean": "8426239092241",
   "descripcion": "Reedición de Flying Corps (1996) con soporte Direct3D y tarjetas 3dfx, campaña adicional, editor de misiones y multijugador.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Monolith Productions / Microïds",
   "ean": "",
   "descripcion": "Juego de acción y mazmorras desde vista cenital, similar a Gauntlet. Permite hasta 4 jugadores en hotseat o red, incluye editor de niveles ‘GMedit’ y 40 niveles en modo Dragon Quest.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }
