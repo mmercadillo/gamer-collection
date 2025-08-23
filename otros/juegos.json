@@ -6,8 +6,11 @@
     "genero": "Deportes / Baloncesto",
     "desarrollador": "Dinamic Multimedia",
     "distribuidor": "Dinamic Multimedia",
-    "ean": ""
-  },
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
+},
   {
     "titulo": "Command & Conquer: Renegade",
     "url": "juegos/command-and-conquer-renegade/",
@@ -15,7 +18,10 @@
     "genero": "Acción / Shooter en primera persona",
     "desarrollador": "Westwood Studios",
     "distribuidor": "EA Games classics 2en1",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Clive Barker's Undying",
@@ -24,7 +30,10 @@
     "genero": "Acción / Shooter en primera persona / Terror",
     "desarrollador": "EA Los Angeles",
     "distribuidor": "EA Games classics 2en1",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Colin McRae: DiRT",
@@ -33,7 +42,10 @@
     "genero": "Conducción / Rally",
     "desarrollador": "Codemasters",
     "distribuidor": "Codemasters",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Beasts and Bumpkins",
@@ -42,7 +54,10 @@
     "genero": "Estrategia en tiempo real",
     "desarrollador": "Worldweaver Productions",
     "distribuidor": "Siemens Mobile, El pais.com",
-    "ean": ""
+    "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
   },
   {
     "titulo": "Egipto III: El destino de Ramsés",
@@ -51,7 +66,10 @@
     "genero": "Aventura gráfica",
     "desarrollador": "Kheops Studio",
     "distribuidor": "Market Way",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Gothic II",
@@ -60,7 +78,10 @@
     "genero": "Rol / RPG",
     "desarrollador": "Piranha Bytes",
     "distribuidor": "Neo Juegos",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Partners",
@@ -69,7 +90,10 @@
     "genero": "Simulación / Vida",
     "desarrollador": "Monte Cristo Multimedia",
     "distribuidor": "Neo Juegos",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Gothic II: Night of the Raven",
@@ -78,7 +102,10 @@
     "genero": "Rol / RPG",
     "desarrollador": "Piranha Bytes",
     "distribuidor": "Neo Juegos",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "GotEmpire of Magic",
@@ -87,7 +114,10 @@
     "genero": "Estrategia / Rol",
     "desarrollador": "Mayhem Studios",
     "distribuidor": "Neo Juegos",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Sniper Elite",
@@ -96,7 +126,10 @@
     "genero": "Acción / Shooter táctico en tercera persona",
     "desarrollador": "Rebellion Developments",
     "distribuidor": "Puntosoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Dracula 2: El Último Santuario",
@@ -105,7 +138,10 @@
     "genero": "Aventura gráfica",
     "desarrollador": "Canal+ Multimedia, Wanadoo Edition",
     "distribuidor": "Puntosoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Riven: The Sequel to Myst",
@@ -114,7 +150,10 @@
     "genero": "Aventura gráfica / Puzzle",
     "desarrollador": "Cyan Worlds",
     "distribuidor": "Puntosoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Tom Clancy's Rainbow Six",
@@ -123,7 +162,10 @@
     "genero": "Acción / Shooter táctico en primera persona",
     "desarrollador": "Red Storm Entertainment",
     "distribuidor": "Puntosoft",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Taito Legends 2",
@@ -132,7 +174,10 @@
     "genero": "Compilación / Arcade",
     "desarrollador": "Taito Corporation",
     "distribuidor": "Xplosive, Red Collection",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "SimCity 3000 World Edition",
@@ -141,7 +186,10 @@
     "genero": "Simulación / Construcción de ciudades",
     "desarrollador": "Maxis",
     "distribuidor": "Xplosive, Red Collection",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Medal of Honor: Allied Assault",
@@ -150,7 +198,10 @@
     "genero": "Acción / Shooter en primera persona",
     "desarrollador": "2015, Inc.",
     "distribuidor": "Valueline",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Baldur's Gate",
@@ -159,7 +210,10 @@
     "genero": "Rol / RPG",
     "desarrollador": "BioWare",
     "distribuidor": "Virgin White label",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Messiah",
@@ -168,7 +222,10 @@
     "genero": "Acción / Aventura",
     "desarrollador": "Shiny Entertainment",
     "distribuidor": "Virgin White label",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Crimson Skies",
@@ -177,7 +234,10 @@
     "genero": "Acción / Simulador de vuelo arcade",
     "desarrollador": "Zipper Interactive",
     "distribuidor": "Xplosive",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Lethal Dreams",
@@ -186,7 +246,10 @@
     "genero": "Rol / Estrategia en tiempo real",
     "desarrollador": "Quazar Studio",
     "distribuidor": "Zeta Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Sting: El Golpe del Siglo",
@@ -195,7 +258,10 @@
     "genero": "Acción / Sigilo",
     "desarrollador": "Blue 52",
     "distribuidor": "Zeta Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Sting: El Golpe del Siglo",
@@ -204,7 +270,10 @@
     "genero": "Acción / Sigilo",
     "desarrollador": "Blue 52",
     "distribuidor": "Zeta Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Mirror War",
@@ -213,7 +282,10 @@
     "genero": "Rol / Aventura",
     "desarrollador": "ElecPoint Entertainment",
     "distribuidor": "Zeta Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Rally trophy",
@@ -222,7 +294,10 @@
     "genero": "Conducción / Rally",
     "desarrollador": "Bugbear Entertainment",
     "distribuidor": "Zeta Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "The Nations",
@@ -231,7 +306,10 @@
     "genero": "Estrategia / Gestión",
     "desarrollador": "JoWooD Productions",
     "distribuidor": "Zeta Games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Zeus: Señor del Olimpo",
@@ -240,7 +318,10 @@
     "genero": "Estrategia / Construcción de ciudades",
     "desarrollador": "Impressions Games",
     "distribuidor": "Sierra Studios",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Broken Sword: La Leyenda de los Templarios",
@@ -249,7 +330,10 @@
     "genero": "Aventura gráfica",
     "desarrollador": "Revolution Software",
     "distribuidor": "Virgin Interactive, Soldout",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Caesar III",
@@ -258,7 +342,10 @@
     "genero": "Estrategia / Construcción de ciudades",
     "desarrollador": "Impressions Games",
     "distribuidor": "Sierra, the collection",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Necronomicon: El Alba de las Tinieblas",
@@ -267,7 +354,10 @@
     "genero": "Aventura gráfica",
     "desarrollador": "Wanadoo Edition, France Telecom Multimedia",
     "distribuidor": "Back to games",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Necronomicon: El Alba de las Tinieblas",
@@ -276,7 +366,10 @@
     "genero": "Estrategia en tiempo real",
     "desarrollador": "Westwood Studios",
     "distribuidor": "Siemens Mobile, elpais.es",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Lords of the Realm III",
@@ -285,6 +378,9 @@
     "genero": "Estrategia en tiempo real / Gestión",
     "desarrollador": "Impressions Games",
     "distribuidor": "Sierra, the collection",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   }
 ]

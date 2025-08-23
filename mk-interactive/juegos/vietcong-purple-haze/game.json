@@ -7,5 +7,7 @@
   "distribuidor": "MK Interactive",
   "ean": "",
   "descripcion": "Vietcong: Purple Haze es una edición especial que incluye el juego original Vietcong junto con su expansión Fist Alpha. Ambientado en la Guerra de Vietnam, combina acción táctica, exploración y misiones de escuadrón en entornos selváticos realistas.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

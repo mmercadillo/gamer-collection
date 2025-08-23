@@ -7,5 +7,7 @@
   "distribuidor": "Puntosoft",
   "ean": "",
   "descripcion": "Tom Clancy's Rainbow Six es un shooter táctico en primera persona basado en las novelas de Tom Clancy. El jugador dirige a un equipo de élite antiterrorista, planificando cada misión con detalle antes de ejecutarla en tiempo real, priorizando el sigilo, la estrategia y la coordinación sobre la acción directa.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

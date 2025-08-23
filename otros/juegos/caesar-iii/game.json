@@ -7,5 +7,7 @@
   "distribuidor": "Sierra, the collection",
   "ean": "",
   "descripcion": "Caesar III es un juego de estrategia y construcción de ciudades ambientado en el Imperio Romano. El jugador asume el papel de gobernador y debe diseñar y gestionar ciudades, asegurando la satisfacción de la población, la economía, el comercio y la defensa militar frente a invasores.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

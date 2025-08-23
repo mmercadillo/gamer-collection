@@ -7,5 +7,7 @@
   "distribuidor": "Dinamic Multimedia",
   "ean": "",
   "descripcion": "Videojuego oficial de la liga ACB de baloncesto en España. Permite disputar partidos con los equipos de la competición y ofrece modos de liga y torneos basados en la temporada real.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "LucasArts",
   "ean": "",
   "descripcion": "Tercera entrega de la saga Monkey Island, con un estilo visual dibujado a mano, humor característico y nuevas aventuras de Guybrush Threepwood contra el malvado pirata LeChuck.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

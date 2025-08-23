@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Edición recopilatoria que incluye el juego base Los Sims y varias expansiones, como Los Sims: Animales a Raudales y otras, ofreciendo una experiencia más amplia centrada en la vida familiar y doméstica.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

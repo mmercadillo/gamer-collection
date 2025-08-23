@@ -7,5 +7,7 @@
   "distribuidor": "Neo Juegos",
   "ean": "",
   "descripcion": "Gothic II es un juego de rol en mundo abierto que continúa la historia del héroe sin nombre tras los sucesos del primer Gothic. Ambientado en el reino de Khorinis, el jugador puede unirse a diferentes facciones, completar misiones y explorar un vasto mundo lleno de peligros, criaturas y misterios.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

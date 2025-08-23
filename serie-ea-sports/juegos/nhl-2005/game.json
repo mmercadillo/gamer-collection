@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Entrega de la saga NHL que introdujo el sistema Open Ice Control para gestionar las jugadas y un nuevo enfoque en la jugabilidad táctica sobre el hielo.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Xplosive, Red Collection",
   "ean": "",
   "descripcion": "Taito Legends 2 es una recopilación de juegos clásicos de arcade de Taito. Incluye más de 40 títulos emblemáticos, entre ellos Space Invaders DX, Darius Gaiden, Puzzle Bobble 2, Elevator Action Returns y muchos más, ofreciendo una experiencia retro en PC con emulación fiel de las recreativas originales.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

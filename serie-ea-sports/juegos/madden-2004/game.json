@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Entrega de la saga Madden que introdujo el innovador modo Owner, permitiendo al jugador gestionar todos los aspectos de un equipo de la NFL además de jugar los partidos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

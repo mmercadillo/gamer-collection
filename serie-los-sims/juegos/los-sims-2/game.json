@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Segunda entrega de la exitosa saga de simulación de vida. Los Sims evolucionan en 3D, con genética, aspiraciones, personalidad avanzada y ciclos de vida que afectan su desarrollo a lo largo del tiempo.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

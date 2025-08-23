@@ -6,7 +6,10 @@
       "genero": "Deportes / Manager de fútbol",
       "desarrollador": "Gaelco Multimedia",
       "distribuidor": "Planeta DeAgostini Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "PC Fútbol 2005",
@@ -15,6 +18,9 @@
       "genero": "Deportes / Manager de fútbol",
       "desarrollador": "Gaelco Multimedia",
       "distribuidor": "Planeta DeAgostini Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     }
 ]

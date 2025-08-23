@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Juego de gestión futbolística que permite controlar todos los aspectos de un club, desde fichajes y finanzas hasta tácticas y desarrollo de la cantera.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

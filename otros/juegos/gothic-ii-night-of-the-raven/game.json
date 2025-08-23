@@ -7,5 +7,7 @@
   "distribuidor": "Neo Juegos",
   "ean": "",
   "descripcion": "Gothic II: Night of the Raven es la expansión oficial de Gothic II. Añade una nueva región llamada Jharkendar, introduce nuevas misiones, habilidades y enemigos, y aumenta la dificultad general del juego, ofreciendo una experiencia más profunda y desafiante en el universo de Gothic.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

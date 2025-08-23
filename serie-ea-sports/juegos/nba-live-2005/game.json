@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Entrega de la saga NBA Live que introdujo el sistema All-Star Weekend, incluyendo los concursos de mates y triples, además de mejoras en la jugabilidad en cancha.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

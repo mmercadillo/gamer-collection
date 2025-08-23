@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Videojuego de acción y aventura en mundo abierto ambientado en la Tercera Cruzada, donde el jugador controla a Altaïr Ibn-La'Ahad, un asesino que se infiltra y elimina objetivos en entornos históricos detallados.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

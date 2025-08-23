@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Segunda entrega de la saga ambientada en la Italia del Renacimiento, con Ezio Auditore como protagonista. Introduce mejoras en combate, parkour, economía, y varias ciudades italianas históricas.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

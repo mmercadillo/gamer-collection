@@ -6,7 +6,10 @@
       "genero": "Acción-aventura · Sigilo · Mundo abierto",
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's Creed Unity",
@@ -15,7 +18,10 @@
       "genero": "Acción-aventura · Sigilo · Mundo abierto · Cooperativo",
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's Creed II",
@@ -24,7 +30,10 @@
       "genero": "Acción-aventura · Sigilo · Mundo abierto",
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's creed. Black flag",
@@ -33,7 +42,10 @@
       "genero": "Acción-aventura · Mundo abierto",
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's Creed Rogue",
@@ -42,7 +54,10 @@
       "genero": "Acción-aventura · Sigilo · Mundo abierto",
       "desarrollador": "Ubisoft Sofia",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's Creed: Hermandad",
@@ -51,7 +66,10 @@
       "genero": "Acción-aventura · Sigilo",
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's Creed Syndicate",
@@ -60,7 +78,10 @@
       "genero": "Acción-aventura · Sigilo · Mundo abierto",
       "desarrollador": "Ubisoft Quebec",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's creed III",
@@ -69,7 +90,10 @@
       "genero": "Acción-aventura · Mundo abierto",
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's Creed: Liberation HD",
@@ -78,7 +102,10 @@
       "genero": "Acción-aventura · Sigilo · Mundo abierto",
       "desarrollador": "Ubisoft Sofia",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's Creed IV: Black Flag",
@@ -87,7 +114,10 @@
       "genero": "Acción-aventura · Mundo abierto · Sigilo",
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "Assassin's Creed",
@@ -96,6 +126,9 @@
       "genero": "Acción / Aventura",
       "desarrollador": "Ubisoft Montreal",
       "distribuidor": "Ubisoft",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     }
 ]

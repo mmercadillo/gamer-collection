@@ -7,5 +7,7 @@
   "distribuidor": "MK Interactive",
   "ean": "",
   "descripcion": "Inquisition es un juego de acción y aventura ambientado en la Francia medieval del siglo XIV. Interpretas a Matthew, un ladrón que se embarca en una misión para encontrar el legendario tesoro de los templarios. El juego combina sigilo, combate y exploración en entornos urbanos y alcantarillas.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]   
 }

@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Edición especial que incluye el juego base Los Sims, la expansión Los Sims: Fiesta y contenido adicional exclusivo como nuevos objetos, estilos y herramientas de personalización.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

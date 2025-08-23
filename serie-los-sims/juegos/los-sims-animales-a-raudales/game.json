@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Expansión del juego original Los Sims que introduce mascotas como perros, gatos y otras criaturas. Permite criarlos, entrenarlos y cuidarlos como parte de la familia Sim.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

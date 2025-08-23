@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Entrega de la saga FIFA centrada en el realismo de los partidos y el modo Carrera, con mejoras en el control del balón y la inteligencia artificial.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

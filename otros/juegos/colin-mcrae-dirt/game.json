@@ -7,5 +7,7 @@
   "distribuidor": "Codemasters",
   "ean": "",
   "descripcion": "Entrega de la saga Colin McRae centrada en competiciones off-road. Incluye rallies, rally raid y pruebas de tierra con un motor gráfico avanzado y físicas realistas para la época.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

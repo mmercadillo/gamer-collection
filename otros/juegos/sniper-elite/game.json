@@ -7,5 +7,7 @@
   "distribuidor": "Puntosoft",
   "ean": "",
   "descripcion": "Sniper Elite es un shooter táctico ambientado en los últimos días de la Segunda Guerra Mundial en Berlín. El jugador encarna a un francotirador de élite que debe completar misiones de infiltración y eliminación, utilizando sigilo, posicionamiento estratégico y un realista sistema de disparo con balística.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

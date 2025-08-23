@@ -7,5 +7,7 @@
   "distribuidor": "Neo Juegos",
   "ean": "",
   "descripcion": "Empire of Magic es un juego de estrategia con elementos de rol en el que el jugador controla a magos que lideran ejércitos en un mundo de fantasía. Combina exploración, gestión de unidades y desarrollo de conjuros en campañas no lineales.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

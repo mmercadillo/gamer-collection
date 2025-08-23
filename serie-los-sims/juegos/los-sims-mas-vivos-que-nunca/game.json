@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Primera expansión del juego original Los Sims. Añade nuevos objetos, muebles, estilos de decoración y opciones de personalización que amplían la experiencia del juego base con más posibilidades para el hogar y la vida diaria.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

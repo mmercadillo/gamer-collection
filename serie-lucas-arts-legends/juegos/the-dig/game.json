@@ -7,5 +7,7 @@
   "distribuidor": "LucasArts",
   "ean": "",
   "descripcion": "Aventura gráfica de ciencia ficción en la que un equipo de astronautas queda atrapado en un planeta alienígena, enfrentándose a misterios y tecnología de una civilización desaparecida.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

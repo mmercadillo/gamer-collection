@@ -7,5 +7,7 @@
   "distribuidor": "EA Games classics 2en1",
   "ean": "",
   "descripcion": "Command & Conquer: Renegade es un shooter en primera persona ambientado en el universo de Command & Conquer. El jugador controla al comandante Nick 'Havoc' Parker, un miembro de las fuerzas especiales GDI, en misiones contra la Hermandad de Nod. Combina acción en primera persona con vehículos y escenarios clásicos de la saga.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

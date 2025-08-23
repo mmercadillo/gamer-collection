@@ -7,5 +7,7 @@
   "distribuidor": "LucasArts",
   "ean": "",
   "descripcion": "Cuarta entrega de la saga Monkey Island en 3D, en la que Guybrush Threepwood debe enfrentarse de nuevo a LeChuck y a la corrupción que amenaza el Caribe.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

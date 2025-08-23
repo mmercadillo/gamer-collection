@@ -7,5 +7,7 @@
   "distribuidor": "Siemens Mobile, elpais.es",
   "ean": "",
   "descripcion": "Dune 2000 es un juego de estrategia en tiempo real que reimagina el clásico Dune II con gráficos mejorados y nuevas mecánicas. El jugador elige entre las casas Atreides, Harkonnen o Ordos para luchar por el control del planeta Arrakis y su valioso recurso, la especia.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

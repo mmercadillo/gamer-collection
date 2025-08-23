@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Edición especial que incluye el juego base Los Sims 2, la expansión Universitarios y el pack de accesorios Todo Glamour. Ideal para empezar la colección con contenido adicional desde el inicio.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

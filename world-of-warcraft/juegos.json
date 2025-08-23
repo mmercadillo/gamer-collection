@@ -6,7 +6,10 @@
       "genero": "Rol multijugador masivo online (MMORPG)",
       "desarrollador": "Blizzard Entertainment",
       "distribuidor": "Blizzard Entertainment",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
     {
       "titulo": "World of Warcraft: Mists of Pandaria",
@@ -15,6 +18,9 @@
       "genero": "Rol multijugador masivo online (MMORPG)",
       "desarrollador": "Blizzard Entertainment",
       "distribuidor": "Blizzard Entertainment",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     }
 ]

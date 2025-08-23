@@ -6,7 +6,10 @@
       "genero": "Aventura gráfica",
       "desarrollador": "LucasArts",
       "distribuidor": "LucasArts",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
         {
       "titulo": "Indiana Jones and the Fate of Atlantis",
@@ -15,7 +18,10 @@
       "genero": "Aventura gráfica",
       "desarrollador": "LucasArts",
       "distribuidor": "LucasArts",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
         {
       "titulo": "La Fuga de Monkey Island",
@@ -24,7 +30,10 @@
       "genero": "Aventura gráfica",
       "desarrollador": "LucasArts",
       "distribuidor": "LucasArts",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
         {
       "titulo": "Star Wars: Dark Forces II - Jedi Knight",
@@ -33,7 +42,10 @@
       "genero": "Acción, Shooter en primera persona",
       "desarrollador": "LucasArts",
       "distribuidor": "LucasArts",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
         {
       "titulo": "Star Wars: Republic Commando",
@@ -42,7 +54,10 @@
       "genero": "Acción, Shooter en primera persona",
       "desarrollador": "LucasArts",
       "distribuidor": "LucasArts",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
         {
       "titulo": "The Curse of Monkey Island",
@@ -51,7 +66,10 @@
       "genero": "Aventura gráfica",
       "desarrollador": "LucasArts",
       "distribuidor": "LucasArts",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     },
         {
       "titulo": "The Dig",
@@ -60,6 +78,9 @@
       "genero": "Aventura gráfica",
       "desarrollador": "LucasArts",
       "distribuidor": "LucasArts",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     }
 ]

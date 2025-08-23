@@ -6,7 +6,10 @@
       "genero": "Aventura gráfica",
       "desarrollador": "Alcachofa Soft",
       "distribuidor": "Zeta Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]         
     },
     {
       "titulo": "Mortadelo y Filemón: El escarabajo de Cleopatra",
@@ -15,6 +18,9 @@
       "genero": "Aventura gráfica",
       "desarrollador": "Alcachofa Soft",
       "distribuidor": "Zeta Multimedia",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]
     }    
 ]

@@ -7,5 +7,7 @@
   "distribuidor": "Blizzard Entertainment",
   "ean": "",
   "descripcion": "World of Warcraft: Mists of Pandaria es la cuarta expansión del MMORPG World of Warcraft. Introduce la nueva raza jugable de los Pandaren y la clase de monje, además de nuevas zonas en el continente de Pandaria, mazmorras, bandas y un aumento del nivel máximo a 90.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

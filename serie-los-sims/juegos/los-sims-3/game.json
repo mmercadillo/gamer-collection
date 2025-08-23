@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Tercera entrega de la saga de simulación de vida. Introduce un mundo abierto donde los Sims pueden moverse libremente por la ciudad, nuevas herramientas de personalización, rasgos de personalidad y un sistema de deseos dinámico.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

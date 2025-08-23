@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Juego deportivo que incluye selecciones nacionales y clubes de rugby, con modos de torneo y partidos rápidos en un estilo realista característico de EA Sports.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

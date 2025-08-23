@@ -7,5 +7,7 @@
   "distribuidor": "Ubisoft",
   "ean": "",
   "descripcion": "Secuela directa de Assassin's Creed II ambientada en Roma. Sigues a Ezio Auditore mientras reconstruye la Hermandad de Asesinos y combates a los Borgia. Introduce modo multijugador competitivo por primera vez en la saga.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

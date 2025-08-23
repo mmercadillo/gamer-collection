@@ -7,5 +7,7 @@
   "distribuidor": "Puntosoft",
   "ean": "",
   "descripcion": "Dracula 2: El Último Santuario es una aventura gráfica en primera persona que continúa la historia del original Dracula: Resurrección. El jugador debe explorar escenarios oscuros y resolver enigmas para enfrentarse nuevamente al conde Drácula y frustrar sus planes.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

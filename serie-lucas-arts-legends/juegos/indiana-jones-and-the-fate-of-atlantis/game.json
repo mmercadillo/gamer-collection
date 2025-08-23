@@ -7,5 +7,7 @@
   "distribuidor": "LucasArts",
   "ean": "",
   "descripcion": "Aventura gráfica clásica en la que Indiana Jones busca la legendaria Atlántida, con múltiples caminos narrativos y puzles ambientados en escenarios exóticos.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

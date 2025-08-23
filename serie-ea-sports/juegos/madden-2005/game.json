@@ -7,5 +7,7 @@
   "distribuidor": "EA Sports",
   "ean": "",
   "descripcion": "Entrega de la saga Madden centrada en la defensa, con la introducción del sistema Hit Stick y mejoras en el control de los equipos de la NFL.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

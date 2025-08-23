@@ -7,5 +7,7 @@
   "distribuidor": "Electronic Arts",
   "ean": "",
   "descripcion": "Cuarta entrega de la saga de simulación de vida. Presenta un potente editor de Sims, construcción con sistema modular, emociones dinámicas y mayor profundidad en las relaciones y comportamientos.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

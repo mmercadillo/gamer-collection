@@ -6,7 +6,10 @@
       "genero": "Estrategia / City-building",
       "desarrollador": "FireFly Studios, Firaxis Games",
       "distribuidor": "2K Games",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
     {
       "titulo": "Iron Storm",
@@ -15,7 +18,10 @@
       "genero": "Acción / Shooter en primera persona",
       "desarrollador": "4X Studios",
       "distribuidor": "MK Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
     {
       "titulo": "Vietcong: Purple Haze",
@@ -24,7 +30,10 @@
       "genero": "Acción / Shooter táctico en primera persona",
       "desarrollador": "Pterodon, Illusion Softworks",
       "distribuidor": "MK Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
     {
       "titulo": "Inquisition",
@@ -33,7 +42,10 @@
       "genero": "Acción / Aventura",
       "desarrollador": "4X Studios",
       "distribuidor": "MK Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
     {
       "titulo": "Vietcong",
@@ -42,7 +54,10 @@
       "genero": "Acción / Shooter táctico en primera persona",
       "desarrollador": "Pterodon, Illusion Softworks",
       "distribuidor": "MK Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
     {
       "titulo": "Vietcong 2",
@@ -51,7 +66,10 @@
       "genero": "Acción / Shooter táctico en primera persona",
       "desarrollador": "Pterodon, Illusion Softworks",
       "distribuidor": "MK Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     },
     {
       "titulo": "Post Mortem",
@@ -60,6 +78,9 @@
       "genero": "Aventura gráfica",
       "desarrollador": "Microids",
       "distribuidor": "MK Interactive",
-      "ean": ""
+      "ean": "",
+      "incluye": [],
+      "serie":"",
+      "tags":[]   
     }
 ]

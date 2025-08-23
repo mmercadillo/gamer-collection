@@ -7,5 +7,7 @@
   "distribuidor": "LucasArts",
   "ean": "",
   "descripcion": "Aventura gráfica protagonizada por Ben, el líder de una banda de moteros, que se ve envuelto en una trama de traiciones y persecuciones en un futuro cercano.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

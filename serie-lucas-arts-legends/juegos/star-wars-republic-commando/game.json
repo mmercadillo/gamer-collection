@@ -7,5 +7,7 @@
   "distribuidor": "LucasArts",
   "ean": "",
   "descripcion": "Shooter táctico en primera persona ambientado en el universo Star Wars, donde el jugador lidera un escuadrón de comandos clon en misiones estratégicas durante las Guerras Clon.",
-  "incluye": []
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }

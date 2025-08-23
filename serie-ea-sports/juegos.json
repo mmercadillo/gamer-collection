@@ -6,7 +6,10 @@
     "genero": "Deportes, Fútbol",
     "desarrollador": "EA Canada",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "FIFA Manager 10",
@@ -16,7 +19,10 @@
     "genero": "Simulación / Gestión deportiva",
     "desarrollador": "Bright Future",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Madden NFL 2004",
@@ -25,7 +31,10 @@
     "genero": "Deportes, Fútbol americano",
     "desarrollador": "EA Tiburon",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Madden NFL 2005",
@@ -34,7 +43,10 @@
     "genero": "Deportes, Fútbol americano",
     "desarrollador": "EA Tiburon",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "NBA Live 2005",
@@ -43,7 +55,10 @@
     "genero": "Deportes, Baloncesto",
     "desarrollador": "EA Canada",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "NHL 2005",
@@ -52,7 +67,10 @@
     "genero": "Deportes, Hockey sobre hielo",
     "desarrollador": "EA Canada",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Rugby 2004",
@@ -61,7 +79,10 @@
     "genero": "Deportes, Rugby",
     "desarrollador": "HB Studios",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   },
   {
     "titulo": "Total Club Manager 2005",
@@ -70,6 +91,9 @@
     "genero": "Deportes, Manager de fútbol",
     "desarrollador": "EA Sports",
     "distribuidor": "EA Sports",
-    "ean": ""
+    "ean": "",
+    "incluye": [],
+    "serie":"",
+    "tags":[]
   }
 ]

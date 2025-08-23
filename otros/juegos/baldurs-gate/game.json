@@ -7,5 +7,7 @@
   "distribuidor": "Virgin White label",
   "ean": "",
   "descripcion": "Baldur's Gate es un juego de rol clásico basado en las reglas de Advanced Dungeons & Dragons 2ª edición. Ambientado en los Reinos Olvidados, el jugador lidera un grupo de aventureros en una extensa campaña con combates en tiempo real con pausa táctica, exploración y una historia profunda llena de decisiones.",
-  "incluye": ""
+  "incluye": [],
+  "serie":"",
+  "tags":[]
 }
