@@ -6,6 +6,7 @@
       "desarrollador": ["Rebellion Developments"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Shooter en primera persona basado en la franquicia Alien vs Predator, con tres campañas jugables como Alien, Predator o Marine colonial, cada una con habilidades únicas y ambientación tensa y atmosférica.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -17,6 +18,7 @@
       "desarrollador": ["Impressions Games"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Juego de estrategia y construcción ambientado en la Antigua Roma, donde el jugador asume el papel de gobernador y debe gestionar el desarrollo de la ciudad, su economía y la defensa frente a amenazas.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -28,6 +30,7 @@
       "desarrollador": ["Stainless Steel Studios"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": ["3348542183568"],
+      "descripcion": "Título de estrategia histórica que abarca 14 epochs desde la prehistoria hasta la era digital, permite construir imperios, campañas, modo multijugador y editor de escenarios.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -39,6 +42,7 @@
       "desarrollador": ["Blizzard Entertainment"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": ["3348542173217"],
+      "descripcion": "Primera entrega de la saga Diablo (1996), RPG de acción y mazmorras. Incluye campaña para un jugador y multijugador, lanzado en España como parte de la serie BestSeller.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -50,6 +54,7 @@
       "desarrollador": ["Blizzard North"],
       "distribuidor": ["Blizzard / Sierra Entertainment"],
       "ean": ["3348542173217"],
+      "descripcion": "Secuela de Diablo (2000), RPG de acción ambientado en el mundo de Santuario. Incluye campaña principal con cuatro actos, modos multijugador por Battle.net y dificultades Progreso: Normal, Pesadilla e Infierno.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -61,6 +66,7 @@
       "desarrollador": ["Blizzard North"],
       "distribuidor": ["Blizzard Entertainment / Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Expansión oficial de Diablo II (2001) que añade el Acto V, dos nuevas clases (Asesina y Druida), nuevos objetos y equipo, y mejoras en calidad de vida y localización para la versión española dentro de la serie BestSeller.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -72,6 +78,7 @@
       "desarrollador": ["Monolith Productions / TimeGate Studios"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Edición que incluye F.E.A.R. First Encounter Assault Recon (versión Director’s Edition con contenido adicional) y la expansión Extraction Point; con modo campaña, multijugador y contenido especial como documentales y cómics.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -83,6 +90,7 @@
       "desarrollador": ["Sierra Studios"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Tercera entrega de la saga Gabriel Knight (1999). Aventuras escalofriantes en Rennes‑le‑Château investigando vampirismo, Templarios y el Santo Grial. Publicado en España como parte de la serie Best Seller de Sierra.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -94,6 +102,7 @@
       "desarrollador": ["Massive Entertainment"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Juego táctico en tiempo real ambientado en conflictos interestelares en el planeta Krig‑7‑B; combina control de unidades terrestres y aéreas en campañas y multijugador LAN.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -105,6 +114,7 @@
       "desarrollador": ["Sierra Entertainment"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Primera entrega de la serie Larry Laffer (1987), aventura gráfica humorística para adultos ambientada en Lost Wages. Combinaba texto con interfaz point‑and‑click en la versión VGA remasterizada de 1991.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -115,7 +125,8 @@
       "plataforma": ["Windows XP/Vista"],
       "desarrollador": ["Radical Entertainment"],
       "distribuidor": ["Sierra Entertainment"],
-      "ean": []    ,
+      "ean": [],
+      "descripcion": "Versión en español del juego de mundo abierto inspirado en la película Scarface. Controlas a Tony Montana mientras reconstruyes su imperio criminal en la Miami de los años 80. Edición publicada dentro de la serie BestSeller.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -127,6 +138,7 @@
       "desarrollador": ["Blizzard Entertainment"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Clásico de estrategia en tiempo real ambientado en la guerra interestelar entre Terran, Zerg y Protoss. Lanzado originalmente en 1998 y relanzado en España dentro de la serie BestSeller.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -138,6 +150,7 @@
       "desarrollador": ["Sierra Northwest / Sierra Studios"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Versión que incluye SWAT 3: Close Quarters Battle más contenido adicional como nuevas misiones (Chang’s Chinese Theater, L.A. Subway…), editor de misiones y modo multijugador.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -149,6 +162,7 @@
       "desarrollador": ["Radical Entertainment"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Juego ambientado en Springfield en 2003 donde controlas a miembros de la familia Simpson en misiones y conducción libre. Incluye multijugador local y minijuegos tipo GTA pero con humor Simpsons.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -160,6 +174,7 @@
       "desarrollador": ["Blizzard Entertainment"],
       "distribuidor": ["Blizzard Entertainment / Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Clásico de estrategia en tiempo real ambientado en el mundo de Azeroth, con cuatro razas jugables (Humanos, Orcos, No-muertos y Elfos de la Noche), campaña épica y multijugador Battle.net. Lanzado en julio de 2002, reeditado en España dentro de la línea BestSeller.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -171,6 +186,7 @@
       "desarrollador": ["Blizzard Entertainment"],
       "distribuidor": ["Blizzard Entertainment / Sierra Entertainment"],
       "ean": ["3348542200777"],
+      "descripcion": "Expansión oficial de Warcraft III: Reign of Chaos (2003) que incluye nuevos héroes, unidades y edificios para las razas originales, campaña adicional y la primera parte de la campaña de la Horda; requiere el juego base.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -183,6 +199,7 @@
       "desarrollador": ["Impressions Games"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Videojuego de estrategia en tiempo real ambientado en la Edad Media que combina gestión de reinos y batallas tácticas en tiempo real, ofreciendo campañas para un jugador y modos multijugador.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -195,6 +212,7 @@
       "desarrollador": ["Papyrus Design Group"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Simulador de carreras oficial de la temporada NASCAR 2002, con modos de simulación y arcade, lecciones de conducción y soporte multijugador.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -207,6 +225,7 @@
       "desarrollador": ["Rewolf Software"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Shooter en primera persona creado originalmente como mod de Half-Life, destacado por sus armas modificables, escenas de conducción en tanques y entornos con dinosaurios futuristas.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -219,6 +238,7 @@
       "desarrollador": ["Rewolf Software"],
       "distribuidor": ["Sierra Entertainment"],
       "ean": [],
+      "descripcion": "Shooter en primera persona ambientado en los años 60 con fuerte carga de espionaje y humor, protagonizado por la agente Cate Archer, famoso por sus gadgets disfrazados, estilo cinematográfico y múltiples Game of the Year Awards.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -231,6 +251,7 @@
       "desarrollador": ["Monolith Productions"],
       "distribuidor": ["Sierra Entertainment (Best Seller Series)"],
       "ean": [],
+      "descripcion": "Secuela del aclamado No One Lives Forever, lanzada en 2002 para PC. FPS con fuerte componente de sigilo y humor ambientado en la Guerra Fría, con la agente Cate Archer como protagonista. Fue reeditado en la línea económica Best Seller Series por Sierra.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -243,6 +264,7 @@
       "desarrollador": ["Piranha Games"],
       "distribuidor": ["Sierra Entertainment (Best Seller Series)"],
       "ean": [],
+      "descripcion": "Videojuego de acción en primera persona lanzado en 2002, basado en la película La Jungla de Cristal. Distribuido por Sierra Entertainment y potencialmente reeditado dentro de la serie Best Seller Series en Europa.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -255,6 +277,7 @@
       "desarrollador": ["Barking Dog Studios"],
       "distribuidor": ["Sierra Studios (Best Seller Series)"],
       "ean": [],
+      "descripcion": "Expansión independiente de Homeworld lanzada en 2000 para PC. Añade nuevas campañas, naves y mejoras gráficas. Fue reeditado en la colección Best Seller Series de Sierra.",
       "incluye": [],
       "serie": [],
       "tags":[]
@@ -267,6 +290,7 @@
       "desarrollador": ["Monolith Productions"],
       "distribuidor": ["Sierra On‑Line (Best Seller Series)"],
       "ean": [],
+      "descripcion": "Secuela lanzada en 2001 con ambientación en el universo de Alien y Predator. Incluye campañas separadas para cada raza y modo multijugador. Esta edición fue reeditada dentro de la colección Best Seller Series.",
       "incluye": [],
       "serie": [],
       "tags":[]
