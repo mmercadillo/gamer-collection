@@ -208,6 +208,32 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Broken Sword: El Ángel de la Muerte",
+      "url": "juegos/broken-sword-el-angel-de-la-muerte/",
+      "plataforma": ["Windows 2000/XP"],
+      "genero": ["Aventura gráfica · Misterio"],
+      "desarrollador": ["FuRevolution Software"],
+      "distribuidor": ["THQ"],
+      "ean": [],
+      "descripcion": "Cuarta entrega de la saga Broken Sword. George Stobbart regresa para vivir una nueva aventura llena de enigmas y conspiraciones religiosas, con un estilo gráfico 3D y una trama que combina arqueología, misterio y romance.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Broken Sword: El Sueño del Dragón",
+      "url": "juegos/broken-sword-el-sueno-del-dragon/",
+      "plataforma": ["Windows 98/Me/2000/XP"],
+      "genero": ["Aventura gráfica · Misterio"],
+      "desarrollador": ["FuRevolution Software"],
+      "distribuidor": ["THQ"],
+      "ean": [],
+      "descripcion": "Tercera entrega de la saga Broken Sword. George Stobbart y Nico Collard investigan un antiguo manuscrito que los llevará a descubrir una conspiración relacionada con los dragones. Presenta un cambio a gráficos 3D y jugabilidad en tiempo real.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Call of Duty",
       "url": "juegos/call-of-duty/",
       "plataforma": ["Windows 98/Me/2000/XP"],
@@ -268,6 +294,19 @@
       "distribuidor": ["CDV Software Entertainment"],
       "ean": [],
       "descripcion": "Juego de estrategia y gestión ambientado en la era de la Prohibición en Chicago. El jugador toma el control de una banda criminal, gestionando recursos, negocios ilegales y enfrentándose a rivales, con el objetivo de expandir su imperio delictivo mientras mantiene el control sobre la ciudad.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Chronicles of Mystery: The Scorpio Ritual",
+      "url": "juegos/chronicles-of-mystery-the-scorpio-ritual/",
+      "plataforma": ["Windows XP/Vista"],
+      "genero": ["Aventura gráfica · Misterio"],
+      "desarrollador": ["City Interactive"],
+      "distribuidor": ["City Interactive"],
+      "ean": [],
+      "descripcion": "Aventura gráfica en tercera persona donde la joven arqueóloga Sylvie Leroux investiga la misteriosa muerte de su tío y se ve envuelta en una conspiración relacionada con una antigua orden secreta.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -338,6 +377,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Commandos Saga",
+      "url": "juegos/commandos-saga/",
+      "plataforma": ["Windows 95/98/Me/2000/XP"],
+      "genero": ["Estrategia táctica en tiempo real"],
+      "desarrollador": ["Pyro Studios"],
+      "distribuidor": ["Eidos Interactive / Proein (España)"],
+      "ean": [],
+      "descripcion": "Recopilatorio que incluye varios títulos de la saga Commandos de Pyro Studios, clásicos de la estrategia táctica en tiempo real ambientados en la Segunda Guerra Mundial. Permite vivir misiones de infiltración y combate controlando a un escuadrón de comandos especializados.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Commandos: Strike Force",
       "url": "juegos/commandos-strike-force/",
       "plataforma": ["Windows XP/Vista/7"],
@@ -346,6 +398,19 @@
       "distribuidor": ["Eidos Interactive"],
       "ean": [],
       "descripcion": "Juego que combina acción en primera persona con elementos tácticos de la saga Commandos. El jugador controla a diferentes miembros de un equipo de élite durante la Segunda Guerra Mundial, completando misiones que incluyen sabotaje, rescates y eliminación de objetivos enemigos.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Cossacks Anthology",
+      "url": "juegos/cossacks-anthology/",
+      "plataforma": ["Windows 95/98/Me/2000/XP"],
+      "genero": ["Estrategia en tiempo real · Histórica"],
+      "desarrollador": ["GSC Game World"],
+      "distribuidor": ["CDV Software Entertainment"],
+      "ean": [],
+      "descripcion": "Recopilatorio que incluye Cossacks: European Wars junto con sus expansiones The Art of War, Back to War y Cossacks II. Estrategia en tiempo real ambientada en los siglos XVII y XVIII con grandes batallas históricas y gestión económica.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -533,6 +598,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Doom 3",
+      "url": "juegos/doom-3/",
+      "plataforma": ["Windows 2000/XP"],
+      "genero": ["Acción · Shooter en primera persona · Terror"],
+      "desarrollador": ["id Software"],
+      "distribuidor": ["Activision"],
+      "ean": [],
+      "descripcion": "Reimaginación del clásico Doom con un enfoque en el terror y la atmósfera oscura. Ambientado en una base de investigación en Marte infestada de demonios, combina acción frenética con elementos de survival horror.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Dracula 3: La Senda del Dragón",
       "url": "juegos/dracula-3-la-senda-del-dragon/",
       "plataforma": ["Windows XP/Vista/7"],
@@ -663,6 +741,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Enter the Matrix",
+      "url": "juegos/enter-the-matrix/",
+      "plataforma": ["Windows 98/Me/2000/XP"],
+      "genero": ["Acción · Aventura"],
+      "desarrollador": ["Shiny Entertainment"],
+      "distribuidor": ["Atari / Warner Bros. Interactive"],
+      "ean": [],
+      "descripcion": "Videojuego oficial del universo Matrix, desarrollado en paralelo a la película Matrix Reloaded. Incluye más de una hora de secuencias filmadas con los actores originales y permite jugar con Niobe y Ghost en una historia paralela a la trilogía cinematográfica.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Europa Universalis IV",
       "url": "juegos/europa-iv-universalis/",
       "plataforma": ["Windows 7/8/10"],
@@ -674,6 +765,19 @@
       "incluye": [],
       "serie":[],
       "tags":[]     
+    }, 
+    {
+      "titulo": "Fade to Silence",
+      "url": "juegos/fade-to-silence/",
+      "plataforma": ["Windows 7/8/10"],
+      "genero": ["Supervivencia · Aventura"],
+      "desarrollador": ["Black Forest Games"],
+      "distribuidor": ["THQ Nordic"],
+      "ean": [],
+      "descripcion": "Juego de supervivencia en mundo abierto ambientado en un escenario postapocalíptico helado. El jugador debe enfrentarse a criaturas sobrenaturales, condiciones climáticas extremas y gestionar recursos para sobrevivir.",
+      "incluye": [],
+      "serie": [],
+      "tags": []  
     }, 
     {
       "titulo": "Faery: Legends of Avalon",
@@ -723,6 +827,19 @@
       "distribuidor": ["Bethesda Softworks"],
       "ean": [],
       "descripcion": "Entrega multijugador de la saga Fallout ambientada en Virginia Occidental, 25 años después de la guerra nuclear. Los jugadores salen del Refugio 76 para explorar un vasto mundo abierto postapocalíptico, recolectar recursos, construir asentamientos y colaborar o competir con otros supervivientes en línea.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Fantasy Wars",
+      "url": "juegos/fantasy-wars/",
+      "plataforma": ["Windows 2000/XP/Vista"],
+      "genero": ["Estrategia por turnos · Fantasía"],
+      "desarrollador": ["Ino-Co"],
+      "distribuidor": ["1C Company / Paradox Interactive"],
+      "ean": [],
+      "descripcion": "Videojuego de estrategia por turnos ambientado en un mundo de fantasía, donde humanos, orcos, elfos y trolls luchan por el dominio. Combina campañas con elementos de rol y batallas tácticas en mapas hexagonales.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -884,6 +1001,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Gothic Universe",
+      "url": "juegos/gothic-universe/",
+      "plataforma": ["Windows 98/Me/2000/XP/Vista"],
+      "genero": ["Rol · Mundo abierto"],
+      "desarrollador": ["Piranha Bytes"],
+      "distribuidor": ["JoWooD Productions"],
+      "ean": [],
+      "descripcion": "Edición recopilatoria que incluye los tres primeros juegos de la saga Gothic (Gothic, Gothic II Gold Edition y Gothic 3). Ofrece una de las experiencias de rol más completas de la época, con exploración libre, facciones y combates en un mundo de fantasía oscura.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Grand Theft Auto: San Andreas",
       "url": "juegos/grand-theft-auto-san-andreas/",
       "plataforma": ["Windows 2000/XP"],
@@ -892,6 +1022,32 @@
       "distribuidor": ["Rockstar Games"],
       "ean": [],
       "descripcion": "Tercera entrega en 3D de la saga Grand Theft Auto. Ambientado en el estado ficticio de San Andreas, el jugador controla a Carl 'CJ' Johnson en una historia de pandillas, corrupción y crimen. Ofrece un vasto mundo abierto con ciudades, zonas rurales y gran libertad de acción, incluyendo personalización de personajes y vehículos.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Grand Theft Auto: San Andreas",
+      "url": "juegos/grand-theft-auto-san-andreas-2/",
+      "plataforma": ["Windows 2000/XP"],
+      "genero": ["Acción, Aventura, Mundo abierto"],
+      "desarrollador": ["Rockstar North"],
+      "distribuidor": ["Rockstar Games"],
+      "ean": [],
+      "descripcion": "Tercera entrega en 3D de la saga Grand Theft Auto. Ambientado en el estado ficticio de San Andreas, el jugador controla a Carl 'CJ' Johnson en una historia de pandillas, corrupción y crimen. Ofrece un vasto mundo abierto con ciudades, zonas rurales y gran libertad de acción, incluyendo personalización de personajes y vehículos.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Guild Wars 2: Heart of Thorns",
+      "url": "juegos/guild-wars-2-heart-of-thorns/",
+      "plataforma": ["Windows XP/Vista/7/8/10"],
+      "genero": ["MMORPG · Expansión"],
+      "desarrollador": ["ArenaNet"],
+      "distribuidor": ["NCsoft"],
+      "ean": [],
+      "descripcion": "Primera expansión de Guild Wars 2 que introduce la región selvática del Corazón de Maguuma, un nuevo sistema de Maestrías, la profesión del Retornado, especializaciones de élite y contenido cooperativo avanzado como incursiones.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -975,6 +1131,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Hidden & Dangerous 2",
+      "url": "juegos/hidden-and-dangerous-2/",
+      "plataforma": ["Windows 98/Me/2000/XP"],
+      "genero": ["Tactical shooter · Segunda Guerra Mundial"],
+      "desarrollador": ["Illusion Softworks"],
+      "distribuidor": ["Gathering of Developers / Take-Two Interactive"],
+      "ean": [],
+      "descripcion": "Shooter táctico en tercera persona ambientado en la Segunda Guerra Mundial. El jugador controla a un escuadrón de fuerzas especiales británicas SAS en misiones de infiltración, sabotaje y combate en distintos frentes.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Homeworld 2",
       "url": "juegos/homeworld-2/",
       "plataforma": ["Windows 98/Me/2000/XP"],
@@ -1053,6 +1222,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Jade Empire: Special Edition",
+      "url": "juegos/jade-empire-special-edition/",
+      "plataforma": ["Windows XP"],
+      "genero": ["Rol · Acción"],
+      "desarrollador": ["BioWare"],
+      "distribuidor": ["2K Games / Microsoft Game Studios"],
+      "ean": [],
+      "descripcion": "Versión para PC del aclamado RPG de acción de BioWare ambientado en un universo inspirado en la mitología china. Incluye mejoras gráficas, nuevos enemigos, estilos de combate adicionales y un modo de dificultad extra.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Kingdom Come: Deliverance",
       "url": "juegos/kingdomcom-deliverance/",
       "plataforma": ["Windows 7/8/10"],
@@ -1061,6 +1243,19 @@
       "distribuidor": ["Deep Silver"],
       "ean": [],
       "descripcion": "Juego de rol en mundo abierto ambientado en la Bohemia del siglo XV, durante la guerra civil tras la muerte del emperador Carlos IV. El jugador controla a Henry, hijo de un herrero, en una aventura realista sin elementos de fantasía, con un sistema de combate histórico, gestión de habilidades y gran atención al detalle histórico.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "King's Bounty: The Legend",
+      "url": "juegos/kings-bounty-the-legend/",
+      "plataforma": ["WiWindows XP/Vista"],
+      "genero": ["Rol táctico · Estrategia por turnos"],
+      "desarrollador": ["Katauri Interactive"],
+      "distribuidor": ["1C Company / Nobilis"],
+      "ean": [],
+      "descripcion": "Reimaginación moderna del clásico King’s Bounty. Combina exploración en tiempo real con combates tácticos por turnos en un mundo de fantasía lleno de criaturas, héroes y misiones secundarias.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -1237,6 +1432,19 @@
     {
       "titulo": "Max Payne 2: The Fall of Max Payne",
       "url": "juegos/max-payne-2-the-fall-of-max-payne/",
+      "plataforma": ["Windows 98/Me/2000/XP"],
+      "genero": ["Acción, Disparos en tercera persona"],
+      "desarrollador": ["Remedy Entertainment"],
+      "distribuidor": ["Rockstar Games"],
+      "ean": [],
+      "descripcion": "Secuela del aclamado Max Payne. El juego sigue al exdetective Max en una historia oscura de crimen y corrupción, marcada por su relación con Mona Sax. Mantiene el característico 'bullet time' para ralentizar la acción, ofreciendo intensos tiroteos y una narrativa cinematográfica.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Max Payne 2: The Fall of Max Payne",
+      "url": "juegos/max-payne-2-the-fall-of-max-payne-2/",
       "plataforma": ["Windows 98/Me/2000/XP"],
       "genero": ["Acción, Disparos en tercera persona"],
       "desarrollador": ["Remedy Entertainment"],
@@ -1729,6 +1937,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Rise and Fall: La Caída de los Imperios",
+      "url": "juegos/rise-and-fall-la-caida-de-los-imperios/",
+      "plataforma": ["Windows 2000/XP"],
+      "genero": ["Estrategia en tiempo real · Acción"],
+      "desarrollador": ["Stainless Steel Studios / Midway Games"],
+      "distribuidor": ["Midway Games"],
+      "ean": [],
+      "descripcion": "Juego de estrategia en tiempo real ambientado en la Antigüedad clásica. Permite controlar grandes civilizaciones como Roma, Grecia, Egipto o Persia, combinando gestión militar y económica con un innovador modo de acción en tercera persona para los héroes.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Risen 2: Dark Waters",
       "url": "juegos/risen-2-dark-waters/",
       "plataforma": ["Windows XP/Vista/7"],
@@ -1763,6 +1984,19 @@
       "distribuidor": ["Black Forest Games"],
       "ean": [],
       "descripcion": "Shooter de acción con elementos roguelike y estilo run & gun, ambientado en una ciudad steampunk infestada de orcos y mutantes. Combina juego cooperativo para hasta cuatro jugadores con progresión de personajes y escenarios generados aleatoriamente.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "RollerCoaster Tycoon 3: Deluxe Edition",
+      "url": "juegos/rollercoaster-tycoon-3-deluxe-edition/",
+      "plataforma": ["Windows 98/Me/2000/XP"],
+      "genero": ["Estrategia · Simulación de parques"],
+      "desarrollador": ["Frontier Developments"],
+      "distribuidor": ["Atari"],
+      "ean": [],
+      "descripcion": "Edición especial que incluye RollerCoaster Tycoon 3 junto con sus expansiones Soaked! y Wild!. Permite diseñar y gestionar parques de atracciones en 3D, creando montañas rusas, atracciones acuáticas y zoológicos.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -2015,6 +2249,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Silence",
+      "url": "juegos/silence/",
+      "plataforma": ["Windows 7/8/10"],
+      "genero": ["Aventura gráfica · Fantasía"],
+      "desarrollador": ["FDaedalic Entertainment"],
+      "distribuidor": ["Daedalic Entertainment"],
+      "ean": [],
+      "descripcion": "Aventura gráfica point & click ambientada en un mundo fantástico llamado Silence. El jugador acompaña a los hermanos Noah y Renie en una historia emocional con un apartado artístico dibujado a mano y gran carga narrativa.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Silverfall",
       "url": "juegos/silverfall/",
       "plataforma": ["Windows XP/Vista"],
@@ -2127,6 +2374,45 @@
       "distribuidor": ["LucasArts"],
       "ean": [],
       "descripcion": "Entrega de la saga Jedi Knight en la que el jugador controla a Kyle Katarn, combinando combate con sable de luz y uso de la Fuerza con tiroteos clásicos en primera persona dentro del universo Star Wars.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "StarCraft II: Battle Chest",
+      "url": "juegos/starcraft-ii-battle-chest/",
+      "plataforma": ["WinWindows XP/Vista/7/8"],
+      "genero": ["Estrategia en tiempo real · Ciencia ficción"],
+      "desarrollador": ["Blizzard Entertainment"],
+      "distribuidor": ["Blizzard Entertainment"],
+      "ean": [],
+      "descripcion": "Edición recopilatoria de StarCraft II que incluye el juego base Wings of Liberty y sus expansiones Heart of the Swarm y Legacy of the Void, ofreciendo la trilogía completa de campañas junto con el modo multijugador competitivo.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "StarCraft II: Heart of the Swarm",
+      "url": "juegos/starcraft-ii-heart-of-the-swarm/",
+      "plataforma": ["WinWindows XP/Vista/7/8"],
+      "genero": ["Estrategia en tiempo real · Ciencia ficción"],
+      "desarrollador": ["Blizzard Entertainment"],
+      "distribuidor": ["Blizzard Entertainment"],
+      "ean": [],
+      "descripcion": "Primera expansión de StarCraft II, centrada en la campaña de la Reina de Espadas, Sarah Kerrigan, y el enjambre Zerg. Introduce nuevas unidades y mejoras para el modo multijugador competitivo.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "StarCraft II: Legacy of the Void",
+      "url": "juegos/starcraft-ii-legacy-of-the-void/",
+      "plataforma": ["WinWindows XP/Vista/7/8"],
+      "genero": ["Estrategia en tiempo real · Ciencia ficción"],
+      "desarrollador": ["Blizzard Entertainment"],
+      "distribuidor": ["Blizzard Entertainment"],
+      "ean": [],
+      "descripcion": "Segunda expansión de StarCraft II, centrada en la campaña de los Protoss liderada por Artanis. Añade nuevas unidades, mecánicas de juego y modos cooperativos, completando la trilogía narrativa de StarCraft II.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -2275,6 +2561,45 @@
       "tags":[]     
     }, 
     {
+      "titulo": "The Dark Eye: Blackguards",
+      "url": "juegos/the-dark-eye-blackguards/",
+      "plataforma": ["Windows XP/Vista/7/8"],
+      "genero": ["Rol táctico · Estrategia por turnos"],
+      "desarrollador": ["Daedalic Entertainment"],
+      "distribuidor": ["Daedalic Entertainment"],
+      "ean": [],
+      "descripcion": "RPG táctico basado en el sistema de rol alemán Das Schwarze Auge (The Dark Eye). El jugador lidera a un grupo de inadaptados en combates por turnos con un fuerte componente narrativo y decisiones morales que afectan a la historia.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "The Elder Scrolls III: Morrowind",
+      "url": "juegos/the-elders-scroll-iii-morrowind/",
+      "plataforma": ["Windows 98/Me/2000/XP"],
+      "genero": ["Rol · Mundo abierto"],
+      "desarrollador": ["Bethesda Game Studios"],
+      "distribuidor": ["Bethesda Softworks"],
+      "ean": [],
+      "descripcion": "RPG de mundo abierto ambientado en la isla de Vvardenfell, dentro de la provincia de Morrowind. Destaca por su enorme libertad de exploración, sistema de habilidades y una narrativa no lineal que permite múltiples caminos.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "The Elder Scrolls IV: Oblivion – Collector's Edition",
+      "url": "juegos/the-elders-scroll-iv-oblivion-collectors-edition/",
+      "plataforma": ["Windows XP"],
+      "genero": ["Rol · Mundo abierto"],
+      "desarrollador": ["CBethesda Game Studios"],
+      "distribuidor": ["2K Games / Bethesda Softworks"],
+      "ean": [],
+      "descripcion": "Edición de coleccionista del aclamado RPG de mundo abierto de Bethesda. Incluye el juego completo, un DVD con contenido adicional, la guía ‘Pocket Guide to the Empire’ y una moneda réplica de Septim Imperial.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "The Gladiators of Rome",
       "url": "juegos/the-gladiators-of-rome/",
       "plataforma": ["Windows 98/Me/2000/XP"],
@@ -2309,6 +2634,19 @@
       "distribuidor": ["2K Games"],
       "ean": [],
       "descripcion": "Recopilación de la saga Stronghold que incluye varias de las entregas clásicas de estrategia y gestión de castillos, con campañas, escaramuzas y modos multijugador.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "The Witcher: Enhanced Edition",
+      "url": "juegos/the-witcher-enhanced-edition/",
+      "plataforma": ["Windows XP/Vista"],
+      "genero": ["Rol · Acción"],
+      "desarrollador": ["CD Projekt Red"],
+      "distribuidor": ["Atari / CD Projekt"],
+      "ean": [],
+      "descripcion": "Versión mejorada del RPG original The Witcher, basada en la saga de Andrzej Sapkowski. Incluye mejoras gráficas y de rendimiento, diálogos regrabados, nuevas animaciones, contenido adicional descargable y la posibilidad de instalar aventuras creadas por la comunidad.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -2366,6 +2704,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Titan Quest: Gold Edition",
+      "url": "juegos/titan-quest-gold-edition/",
+      "plataforma": ["Windows 2000/XP/Vista"],
+      "genero": ["Rol / Acción"],
+      "desarrollador": ["Iron Lore Entertainment"],
+      "distribuidor": ["THQ"],
+      "ean": [],
+      "descripcion": "Edición especial que incluye Titan Quest junto con su expansión Immortal Throne. Un RPG de acción ambientado en la mitología clásica, con combates en tiempo real, exploración de escenarios épicos y un profundo sistema de habilidades.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Tomb Raider: Legend",
       "url": "juegos/tomb-raider-legend/",
       "plataforma": ["Windows 2000/XP"],
@@ -2387,6 +2738,45 @@
       "distribuidor": ["SEGA"],
       "ean": [],
       "descripcion": "Edición recopilatoria de la saga Total War que incluye varias de las entregas más destacadas de la serie de estrategia, combinando gestión por turnos y batallas en tiempo real.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Total War: Shogun 2",
+      "url": "juegos/total-war-shogun-2/",
+      "plataforma": ["Windows XP/Vista/7"],
+      "genero": ["Estrategia · Táctica en tiempo real"],
+      "desarrollador": ["Creative Assembly"],
+      "distribuidor": ["SEGA"],
+      "ean": [],
+      "descripcion": "Entrega de la saga Total War ambientada en el Japón feudal del siglo XVI. Combina la gestión de clanes y provincias por turnos con batallas en tiempo real a gran escala, incluyendo diplomacia, espionaje y estrategia naval.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Total War: Three Kingdoms",
+      "url": "juegos/total-war-three-kingdoms/",
+      "plataforma": ["WWindows 7/8/10"],
+      "genero": ["Estrategia · Táctica en tiempo real"],
+      "desarrollador": ["Creative Assembly"],
+      "distribuidor": ["SEGA"],
+      "ean": [],
+      "descripcion": "Entrega de la saga Total War ambientada en la China del período de los Tres Reinos (siglo II d.C.). Combina gestión de imperios por turnos con batallas en tiempo real a gran escala, incorporando un fuerte enfoque narrativo en los señores de la guerra históricos.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "RollerCoaster Tycoon 2: Totally RollerCoaster",
+      "url": "juegos/rollercoaster-tycoon-2-totally-rollercoaster/",
+      "plataforma": ["Windows 95/98/Me/2000/XP"],
+      "genero": ["Estrategia · Simulación de parques"],
+      "desarrollador": ["Chris Sawyer / Frontier Developments"],
+      "distribuidor": ["Infogrames / Atari"],
+      "ean": [],
+      "descripcion": "Edición especial de RollerCoaster Tycoon 2 que incluye el juego base junto con las expansiones Wacky Worlds y Time Twister. Permite crear y gestionar parques temáticos con atracciones inspiradas en diferentes culturas y épocas históricas.",
       "incluye": [],
       "serie":[],
       "tags":[]     
@@ -2483,6 +2873,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Painkiller",
+      "url": "juegos/painkiller/",
+      "plataforma": ["Windows 98/Me/2000/XP"],
+      "genero": ["Acción · Shooter en primera persona"],
+      "desarrollador": ["People Can Fly"],
+      "distribuidor": ["DreamCatcher Interactive"],
+      "ean": [],
+      "descripcion": "Shooter en primera persona frenético en el que el jugador combate hordas de demonios a lo largo de diversos escenarios góticos. Destaca por su acción rápida, física avanzada y estilo oscuro.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "War Leaders: Clash of Nations",
       "url": "juegos/war-leaders-clash-of-nations/",
       "plataforma": ["Windows XP/Vista"],
@@ -2517,6 +2920,19 @@
       "distribuidor": ["THQ"],
       "ean": [],
       "descripcion": "Videojuego de acción táctica militar ambientado en conflictos modernos, donde el jugador lidera un escuadrón en misiones de combate con énfasis en el realismo y la estrategia.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
+      "titulo": "Warrior Kings: Battles",
+      "url": "juegos/warrior-kings-battles/",
+      "plataforma": ["Windows 98/Me/2000/XP"],
+      "genero": ["Estrategia en tiempo real"],
+      "desarrollador": ["Black Cactus"],
+      "distribuidor": ["Microids"],
+      "ean": [],
+      "descripcion": "Secuela independiente de Warrior Kings. Juego de estrategia en tiempo real que combina construcción de imperios, gestión de recursos y batallas a gran escala con un sistema de inteligencia artificial avanzada.",
       "incluye": [],
       "serie":[],
       "tags":[]     
