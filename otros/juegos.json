@@ -182,6 +182,19 @@
     "tags":[]
   },
   {
+    "titulo": "Xpand Rally (XR)",
+    "url": "juegos/xr-xpand-rally/",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Carreras", "Rally"],
+      "desarrollador": ["Techland"],
+      "distribuidor": ["Techland", "Atari"],
+      "ean": [],
+      "descripcion": "Juego de carreras de rally con un motor gráfico avanzado para su época, que ofrece realismo en físicas, escenarios detallados y un completo modo carrera. Incluye diferentes vehículos, condiciones climáticas y la posibilidad de personalizar coches.",
+      "incluye": [],
+      "serie": ["RED Collection"],
+      "tags": []
+  },
+  {
     "titulo": "Taito Legends 2",
     "url": "juegos/tayto-legends-2/",
     "plataforma": ["Windows 98/ME/2000/XP"],

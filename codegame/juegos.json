@@ -247,6 +247,19 @@
       "tags":[]    
     },
     {
+      "titulo": "CSI: Las 3 Dimensiones del Asesinato",
+      "url": "juegos/csi-las-3-dimensiones-del-asesinato/",
+      "plataforma": ["Windows 2000/XP"],
+      "genero": ["Aventura gráfica", "Investigación"],
+      "desarrollador": ["Ubisoft", "Telltale Games"],
+      "distribuidor": ["Ubisoft"],
+      "ean": [],
+      "descripcion": "Aventura gráfica basada en la serie de televisión CSI: Crime Scene Investigation. El jugador resuelve casos criminales utilizando técnicas forenses, análisis de pruebas y entrevistas a sospechosos, con gráficos 3D que recrean los escenarios de la serie.",
+      "incluye": [],
+      "serie": [],
+      "tags": []  
+    },
+    {
       "titulo": "CSI: Miami",
       "url": "juegos/csi-miami/",
       "plataforma": ["Windows 98/Me/2000/XP"],
@@ -804,6 +817,19 @@
       "incluye": [],
       "serie":[],
       "tags":[]    
+    },
+    {
+      "titulo": "The Sum of All Fears",
+      "url": "juegos/the-sum-of-all-fears/",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Shooter en primera persona", "Táctico"],
+      "desarrollador": ["Red Storm Entertainment"],
+      "distribuidor": ["Ubisoft"],
+      "ean": [],
+      "descripcion": "Shooter táctico en primera persona inspirado en la novela y película de Tom Clancy. El jugador lidera un equipo antiterrorista en misiones estratégicas con énfasis en la planificación, el sigilo y la coordinación táctica.",
+      "incluye": [],
+      "serie": [],
+      "tags": []  
     },
     {
       "titulo": "Tom Clancy's EndWar",

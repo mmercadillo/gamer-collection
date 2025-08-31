@@ -1,4 +1,16 @@
-[
+[    {
+      "titulo": "1917: Project Helios Collector's Edition",
+      "url": "juegos/7-sins/",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Simulación", "Vida"],
+      "desarrollador": ["Studio 8"],
+      "distribuidor": ["Digital Jesters"],
+      "ean": [],
+      "descripcion": "Juego de simulación para adultos en el que el jugador debe abrirse camino en la ciudad de Apple City superando pruebas sociales y situaciones cómicas, tomando decisiones relacionadas con los siete pecados capitales.",
+      "incluye": [],
+      "serie": [],
+      "tags": []   
+    },
     {
       "titulo": "1917: Project Helios Collector's Edition",
       "url": "juegos/1917-project-helios-collectors-edition/",
@@ -1040,6 +1052,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Guild",
+      "url": "juegos/guild/",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Estrategia", "Simulación"],
+      "desarrollador": ["4HEAD Studios"],
+      "distribuidor": ["JoWooD Productions"],
+      "ean": [],
+      "descripcion": "Juego de simulación y estrategia ambientado en la Europa medieval, donde el jugador gestiona una dinastía, participa en la vida política, desarrolla negocios y amplía su influencia social y económica.",
+      "incluye": [],
+      "serie": [],
+      "tags": []  
+    }, 
+    {
       "titulo": "Guild Wars 2: Heart of Thorns",
       "url": "juegos/guild-wars-2-heart-of-thorns/",
       "plataforma": ["Windows XP/Vista/7/8/10"],
@@ -1534,6 +1559,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Monkey King: Hero is Back",
+      "url": "juegos/monkey-king-hero-is-back/",
+      "plataforma": ["Windows 7/8/10"],
+      "genero": ["Acción", "Aventura"],
+      "desarrollador": ["HexaDrive", "Oasis Games"],
+      "distribuidor": ["THQ Nordic"],
+      "ean": [],
+      "descripcion": "Juego de acción y aventura basado en la película de animación china del mismo nombre. El jugador controla al Rey Mono en combates dinámicos y exploración de escenarios inspirados en la mitología oriental.",
+      "incluye": [],
+      "serie": [],
+      "tags": []   
+    }, 
+    {
       "titulo": "Monopoly Tycoon",
       "url": "juegos/monopoly-tycoon/",
       "plataforma": ["Windows 95/98/Me/2000/XP"],
@@ -1885,6 +1923,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Restaurant Empire II",
+      "url": "juegos/restaurant-empire-ii/",
+      "plataforma": ["Windows 2000/XP"],
+      "genero": ["Acción / Shooter en tercera persona"],
+      "desarrollador": ["Volatile Games"],
+      "distribuidor": ["Eidos Interactive"],
+      "ean": [],
+      "descripcion": "Videojuego basado en la película de Quentin Tarantino. Permite jugar las escenas posteriores al atraco fallido, con mecánicas de disparos, conducción y un sistema de moralidad que valora la violencia frente al uso de tácticas intimidatorias.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    }, 
+    {
       "titulo": "Retorno a la Isla Misteriosa",
       "url": "juegos/retorno-a-la-isla-misteriosa/",
       "plataforma": ["Windows 98/Me/2000/XP"],
@@ -2093,6 +2144,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "SacSam & Max: Primera Temporada Completa",
+      "url": "juegos/sam-and-max-primera-temporada-completa/",
+      "plataforma": ["Windows XP/Vista"],
+      "genero": ["Aventura gráfica", "Point and Click"],
+      "desarrollador": ["Telltale Games"],
+      "distribuidor": ["JoWooD Productions", "The Adventure Company"],
+      "ean": [],
+      "descripcion": "Compilación que reúne los seis episodios de la primera temporada de las aventuras gráficas de Sam & Max, caracterizadas por su humor absurdo, diálogos ingeniosos y puzzles clásicos de point and click.",
+      "incluye": [],
+      "serie": [],
+      "tags": []   
+    }, 
+    {
       "titulo": "SBK X: Superbike World Championship",
       "url": "juegos/sbkx-superbike-world-champioship/",
       "plataforma": ["Windows XP/Vista/7"],
@@ -2130,6 +2194,19 @@
       "incluye": [],
       "serie":[],
       "tags":[]     
+    }, 
+    {
+      "titulo": "Shadow of Stalingrad",
+      "url": "juegos/shadow-of-stalingrad/",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Shooter en primera persona"],
+      "desarrollador": ["Unknown"],
+      "distribuidor": ["Unknown"],
+      "ean": [],
+      "descripcion": "Shooter en primera persona ambientado en la Segunda Guerra Mundial, centrado en las batallas más cruentas del frente oriental, especialmente la defensa y conquista de Stalingrado.",
+      "incluye": [],
+      "serie": [],
+      "tags": []   
     }, 
     {
       "titulo": "Shadows: Awakening",
@@ -2325,6 +2402,32 @@
       "incluye": [],
       "serie":[],
       "tags":[]     
+    }, 
+    {
+      "titulo": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+      "url": "juegos/splinter-cell-pandora-tomorrow/",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Acción", "Infiltración"],
+      "desarrollador": ["Ubisoft Shanghai"],
+      "distribuidor": ["Ubisoft"],
+      "ean": [],
+      "descripcion": "Segunda entrega de la saga Splinter Cell. El jugador controla al agente Sam Fisher en una misión de infiltración y espionaje internacional, con nuevas mecánicas de sigilo, gadgets avanzados y un innovador modo multijugador espía contra mercenarios.",
+      "incluye": [],
+      "serie": [],
+      "tags": []  
+    }, 
+    {
+      "titulo": "SpongeBob SquarePants: Battle for Bikini Bottom",
+      "url": "juegos/spongebob-squarepants-battle-for-bikini-bottom/",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Plataformas", "Acción"],
+      "desarrollador": ["Heavy Iron Studios", "AWE Games"],
+      "distribuidor": ["THQ"],
+      "ean": [],
+      "descripcion": "Videojuego de plataformas en el que Bob Esponja, Patricio y Arenita deben salvar Fondo de Bikini de los planes del malvado Plankton, combinando niveles de exploración, combates y humor característico de la serie.",
+      "incluye": [],
+      "serie": [],
+      "tags": []
     }, 
     {
       "titulo": "Spore",
@@ -2559,6 +2662,19 @@
       "incluye": [],
       "serie":[],
       "tags":[]     
+    }, 
+    {
+      "titulo": "The Book of Unwritten Tales 2",
+      "url": "juegos/the-book-of-unwritten-tales-2/",
+      "plataforma": ["Windows XP/Vista/7/8"],
+      "genero": ["Aventura gráfica", "Point and Click"],
+      "desarrollador": ["KING Art Games"],
+      "distribuidor": ["Nordic Games"],
+      "ean": [],
+      "descripcion": "Secuela de la aventura gráfica The Book of Unwritten Tales. Combina humor, referencias al mundo de la fantasía y puzzles clásicos de point and click, con varios personajes jugables y una historia cargada de guiños al género.",
+      "incluye": [],
+      "serie": [],
+      "tags": []  
     }, 
     {
       "titulo": "The Dark Eye: Blackguards",

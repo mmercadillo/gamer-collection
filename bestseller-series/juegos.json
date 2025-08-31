@@ -72,6 +72,19 @@
       "tags":[]
     },
     {
+      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "url": "juegos/el-senor-de-los-anillos-la-comunidad-del-anillo/",
+      "plataforma": ["Windows 98/ME/2000/XP"],
+      "genero": ["Acción/Aventura"],
+      "desarrollador": ["Surreal Software"],
+      "distribuidor": ["Black Label Games / Sierra Entertainment"],
+      "ean": [],
+      "descripcion": "Videojuego de acción y aventura basado en la primera parte de la trilogía de J.R.R. Tolkien, con exploración, combates y misiones inspiradas en la Comunidad del Anillo.",
+      "incluye": [],
+      "serie": [],
+      "tags": []
+    },
+    {
       "titulo": "F.E.A.R. Gold edition",
       "url": "juegos/fear-gold-edition/",
       "plataforma": ["Windows XP/Vista/7 (32/64 bits)"],
@@ -268,6 +281,19 @@
       "incluye": [],
       "serie": [],
       "tags":[]
+    },
+    {
+      "titulo": "Homeworld",
+      "url": "juegos/homeworld/",
+      "plataforma": ["Windows 95/98"],
+      "genero": ["Estrategia en tiempo real"],
+      "desarrollador": ["Relic Entertainment"],
+      "distribuidor": ["Sierra Studios"],
+      "ean": [],
+      "descripcion": "Revolucionario juego de estrategia en tiempo real totalmente en 3D, en el que el jugador dirige una flota espacial en su búsqueda de un nuevo hogar, combinando exploración, combates tácticos y gestión de recursos.",
+      "incluye": [],
+      "serie": [],
+      "tags": []
     },
     {
       "titulo": "Homeworld: Cataclysm",
