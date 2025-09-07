@@ -678,15 +678,15 @@
   {
     "titulo": "Crimson Skies",
     "url": "juegos/crcrimson-skies/",
-      "plataforma": ["Windows 95/98/ME"],
-      "genero": ["Acción", "Simulación aérea"],
-      "desarrollador": ["Zipper Interactive"],
-      "distribuidor": ["Microsoft"],
-      "ean": [],
-      "descripcion": "Juego de acción y combates aéreos ambientado en una versión alternativa de los años 30, donde Estados Unidos está fragmentado en estados independientes. El jugador pilota aviones personalizados en intensas batallas aéreas llenas de estilo pulp y cinematográfico.",
-      "incluye": [],
-      "serie": [],
-      "tags": []
+    "plataforma": ["Windows 95/98/ME"],
+    "genero": ["Acción", "Simulación aérea"],
+    "desarrollador": ["Zipper Interactive"],
+    "distribuidor": ["Microsoft"],
+    "ean": [],
+    "descripcion": "Juego de acción y combates aéreos ambientado en una versión alternativa de los años 30, donde Estados Unidos está fragmentado en estados independientes. El jugador pilota aviones personalizados en intensas batallas aéreas llenas de estilo pulp y cinematográfico.",
+    "incluye": [],
+    "serie": [],
+    "tags": []
   },
   {
     "titulo": "Crusader: No Remorse",
@@ -936,17 +936,17 @@
     "tags":[]
   },
   {
-    "titulo": "El Rey Arturo: Los Orígenes de la Tabla Redonda",
-    "url": "juegos/el-rey-arturo-los-origenes-de-la-tabla-redonda/",
-    "plataforma": ["Windows 95, Windows 98, Windows XP"],
-    "genero": ["Aventura gráfica / Point & Click / Fantasía / Histórica"],
-    "desarrollador": ["Cryo Interactive"],
-    "distribuidor": ["Ubisoft"],
+    "titulo": "El Templo del Mal Elemental",
+    "url": "juegos/el-templo-del-mal-elemental/",
+    "plataforma": ["Windows 98/ME/2000/XP"],
+    "genero": ["Rol"],
+    "desarrollador": ["Troika Games"],
+    "distribuidor": ["Atari"],
     "ean": [],
-    "descripcion": "Secuela directa de 'El Rey Arturo: El Secreto de Merlín'. Continúa la historia de Bradwen, ahora caballero de la Tabla Redonda, en una nueva aventura donde se entrelazan hechos históricos con mitología celta y cristiana. El jugador puede seguir dos caminos distintos (cristiano o pagano), lo que modifica la narrativa, los personajes y los escenarios que se exploran.",
+    "descripcion": "Videojuego de rol basado en Dungeons & Dragons 3.5 y en el clásico módulo de mesa del mismo nombre. Permite crear y gestionar un grupo de aventureros que se enfrenta al mal ancestral en un enorme templo repleto de desafíos.",
     "incluye": [],
-    "serie":[],
-    "tags":[]
+    "serie": ["Dungeons & Dragons"],
+    "tags": []
   },
   {
     "titulo": "Empire Deluxe",
@@ -1224,7 +1224,7 @@
   {
     "titulo": "Heroes of Might and Magic IV",
     "url": "juegos/heroes-of-might-and-magic-iv/",
-    "plataforma": ["Windows 95, Windows 98"],
+    "plataforma": ["MacOs"],
     "genero": ["Estrategia por turnos / Fantasía / 4X"],
     "desarrollador": ["New World Computing"],
     "distribuidor": ["The 3DO Company"],
@@ -1612,6 +1612,19 @@
     "tags":[]
   },
   {
+    "titulo": "Neverwinter Nights",
+    "url": "juegos/neverwinter-nights/",
+    "plataforma": ["Windows 98/ME/2000/XP"],
+    "genero": ["Rol"],
+    "desarrollador": ["BioWare"],
+    "distribuidor": ["Infogrames", "Atari"],
+    "ean": [],
+    "descripcion": "Videojuego de rol basado en las reglas de Dungeons & Dragons 3ª edición. Incluye una extensa campaña individual, multijugador online y un potente editor de módulos para crear aventuras personalizadas.",
+    "incluye": [],
+    "serie": ["Neverwinter Nights"],
+    "tags": []
+  },  
+  {
     "titulo": "Neverwinter Nights 2: Lawful Good",
     "url": "juegos/neverwinter-nights-2-lawful-good/",
     "plataforma": ["Windows 95, Windows 98, Windows XP"],
@@ -1780,6 +1793,19 @@
     "serie":[],
     "tags":[]
   },
+  {
+    "titulo": "Tom Clancy's Rainbow Six 3: Raven Shield",
+    "url": "juegos/tom-clancys-rainbow-six-3-raven-shield/",
+    "plataforma": ["Windows 95, Windows 98, Windows ME"],
+    "genero": ["Simulación / Pinball"],
+    "desarrollador": ["Cunning Developments"],
+    "distribuidor": ["Empire Interactive"],
+    "ean": [],
+    "descripcion": "Cuarta entrega de la serie Pro Pinball, lanzada en diciembre de 1999 para PC. Simula una única mesa de pinball estilo steampunk en cinco ’aventuras’ distintas (viaje al núcleo de la Tierra, fondo oceánico, isla misteriosa…), destacando por su motor de física realista, gráficos prerenderizados y opciones de multijugador (hasta 4 jugadores por turnos). Fue premiado como mejor juego de puzzles/clásicos en PC durante 2000‑2001.",
+    "incluye": [],
+    "serie":[],
+    "tags":[]
+  },  
   {
     "titulo": "Rally Championship",
     "url": "juegos/rally-championship/",
@@ -2326,17 +2352,17 @@
     "tags":[]
   },
   {
-    "titulo": "Unreal Tournament",
-    "url": "juegos/unreal-tournament/",
-    "plataforma": ["Windows 95/98/NT/2000"],
-    "genero": ["Shooter en primera persona / Arcade"],
-    "desarrollador": ["Epic Games, Digital Extremes"],
-    "distribuidor": ["GT Interactive"],
+    "titulo": "Unreal Tournament 2004",
+    "url": "juegos/unreal-tournament-2004/",
+    "plataforma": ["Windows 98/ME/2000/XP"],
+    "genero": ["Shooter en primera persona", "Multijugador"],
+    "desarrollador": ["Epic Games", "Digital Extremes"],
+    "distribuidor": ["Atari"],
     "ean": [],
-    "descripcion": "Unreal Tournament es un shooter en primera persona centrado en combates multijugador en arenas. Incluye modos clásicos como Deathmatch, Capture the Flag y Assault, junto con bots avanzados para partidas offline. Destaca por su fluidez, variedad de armas con disparos secundarios, y un extenso soporte para mods y mapas personalizados. Fue galardonado como Juego del Año y es considerado un referente del género.",
+    "descripcion": "Entrega de la saga Unreal Tournament que incorpora nuevos modos de juego como Onslaught y Assault, junto con vehículos y mapas a gran escala, ofreciendo una experiencia multijugador frenética.",
     "incluye": [],
-    "serie":[],
-    "tags":[]
+    "serie": ["Unreal Tournament"],
+    "tags": []
   },
   {
     "titulo": "Urban Chaos",

@@ -1,0 +1,13 @@
+{
+  "titulo": "Tropico",
+  "url": "juegos/tropico/",
+  "plataforma": ["Windows 95/98/ME/2000"],
+  "genero": ["Estrategia", "Simulación"],
+  "desarrollador": ["PopTop Software"],
+  "distribuidor": ["Gathering of Developers", "Proein"],
+  "ean": [],
+  "descripcion": "Juego de simulación y estrategia en el que el jugador asume el papel de 'El Presidente', gobernante de una isla caribeña. Combina gestión económica, política y social con humor satírico. Formó parte de la Xtreme Collection distribuida por Proein.",
+  "incluye": [],
+  "serie": ["Tropico"],
+  "tags": ["Xtreme Collection", "Proein"]
+}

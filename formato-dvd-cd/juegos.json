@@ -51,6 +51,19 @@
       "tags":[]     
     },
     {
+      "titulo": "Alien Logic",
+      "url": "juegos/alien-logic/",
+      "plataforma": ["MS-DOS"],
+      "genero": ["Rol", "Aventura"],
+      "desarrollador": ["Cyberlore Studios"],
+      "distribuidor": ["Strategic Simulations Inc."],
+      "ean": [],
+      "descripcion": "Videojuego de rol y aventura ambientado en el mundo fantástico de Pentateuch, basado en el universo de Skyrealms of Jorune. Combina exploración, narrativa y combates tácticos en un entorno único de ciencia ficción y fantasía.",
+      "incluye": [],
+      "serie": [],
+      "tags": []    
+    },    
+    {
       "titulo": "Alone in the Dark",
       "url": "juegos/alone-in-the-dark/",
       "plataforma": ["Windows 95/98/Me/2000/XP"],
@@ -63,6 +76,19 @@
       "serie":[],
       "tags":[]     
     },
+    {
+      "titulo": "AloAnachronox",
+      "url": "juegos/anachronox/",
+      "plataforma": ["Windows 95/98/ME"],
+      "genero": ["Rol", "Aventura"],
+      "desarrollador": ["Ion Storm"],
+      "distribuidor": ["Eidos Interactive", "Proein"],
+      "ean": [],
+      "descripcion": "RPG de ciencia ficción con elementos de aventura, desarrollado por Ion Storm. El jugador sigue a Sly Boots y su grupo en una trama llena de humor, misterio y exploración de mundos futuristas. Formó parte de la Xtreme Collection distribuida por Proein.",
+      "incluye": [],
+      "serie": [],
+      "tags": ["Xtreme Collection", "Proein"]   
+    },    
     {
       "titulo": "APB: All Points Bulletin",
       "url": "juegos/apb-all-points-bulletin/",
@@ -324,6 +350,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Civilization: Call to Power",
+      "url": "juegos/civilization-call-to-power/",
+      "plataforma": ["Windows 95/98"],
+      "genero": ["Estrategia por turnos"],
+      "desarrollador": ["Activision"],
+      "distribuidor": ["Activision", "Proein"],
+      "ean": [],
+      "descripcion": "Título de estrategia por turnos inspirado en la saga Civilization, desarrollado por Activision. Permite llevar una civilización desde la Prehistoria hasta el futuro, incluyendo novedosas eras futuristas con tecnologías y unidades avanzadas. Formó parte de la Xtreme Collection distribuida por Proein.",
+      "incluye": [],
+      "serie": ["Civilization"],
+      "tags": ["Xtreme Collection", "Proein"]  
+    },     
+    {
       "titulo": "Codename: Outbreak",
       "url": "juegos/codename-outbrake/",
       "plataforma": ["Windows 98/Me/2000/XP"],
@@ -441,6 +480,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Cyclones",
+      "url": "juegos/cyclones/",
+      "plataforma": ["MS-DOS"],
+      "genero": ["Shooter en primera persona"],
+      "desarrollador": ["Raven Software"],
+      "distribuidor": ["Strategic Simulations Inc."],
+      "ean": [],
+      "descripcion": "Shooter en primera persona para MS-DOS en el que el jugador controla a un ciborg en un entorno futurista, con innovaciones como la posibilidad de mirar hacia arriba y abajo, saltar y agacharse, antes de que estas mecánicas fueran comunes en el género.",
+      "incluye": [],
+      "serie": [],
+      "tags": []  
+    },     
+    {
       "titulo": "D-Day",
       "url": "juegos/d-day/",
       "plataforma": ["Windows 95/98/Me/2000/XP"],
@@ -453,6 +505,19 @@
       "serie":[],
       "tags":[]     
     }, 
+    {
+      "titulo": "Dark Legions",
+      "url": "juegos/dark-legions/",
+      "plataforma": ["MS-DOS"],
+      "genero": ["Estrategia", "Acción táctica"],
+      "desarrollador": ["Silicon Knights"],
+      "distribuidor": ["Strategic Simulations Inc."],
+      "ean": [],
+      "descripcion": "Juego de estrategia y acción táctica en el que dos jugadores se enfrentan en un tablero isométrico, moviendo criaturas con diferentes habilidades y enfrentándolas en combates en tiempo real.",
+      "incluye": [],
+      "serie": [],
+      "tags": []
+    },     
     {
       "titulo": "Dawn of Magic",
       "url": "juegos/dawn-of-magic/",
@@ -1052,6 +1117,32 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Great Naval Battles: North Atlantic 1939-43",
+      "url": "juegos/great-naval-battles-north-atlantic-1939-43/",
+      "plataforma": ["MS-DOS"],
+      "genero": ["Simulación", "Estrategia"],
+      "desarrollador": ["Strategic Simulations Inc."],
+      "distribuidor": ["Strategic Simulations Inc."],
+      "ean": [],
+      "descripcion": "Primera entrega de la serie Great Naval Battles, centrada en los enfrentamientos navales del Atlántico Norte durante la Segunda Guerra Mundial. Combina simulación táctica con estrategia a gran escala.",
+      "incluye": [],
+      "serie": ["Great Naval Battles"],
+      "tags": []
+    },      
+    {
+      "titulo": "Great Naval Battles: Vol II - Guadalcanal 1942-43",
+      "url": "juegos/great-naval-battles-vol-ii-guadalcanal-1942-43/",
+      "plataforma": ["MS-DOS"],
+      "genero": ["Simulación", "Estrategia"],
+      "desarrollador": ["Strategic Simulations Inc."],
+      "distribuidor": ["Strategic Simulations Inc."],
+      "ean": [],
+      "descripcion": "Segunda entrega de la serie Great Naval Battles, centrada en los combates navales de la campaña de Guadalcanal durante la Segunda Guerra Mundial, combinando estrategia y simulación táctica naval.",
+      "incluye": [],
+      "serie": ["Great Naval Battles"],
+      "tags": []  
+    },     
+    {
       "titulo": "Guild",
       "url": "juegos/guild/",
       "plataforma": ["Windows 98/ME/2000/XP"],
@@ -1143,6 +1234,97 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Heroes of Might and Magic IV",
+      "url": "juegos/heroes-of-might-and-magic-iv/",
+      "plataforma": ["Windows 95/98/ME/2000/XP"],
+      "genero": ["Estrategia por turnos"],
+      "desarrollador": ["Paradox Development Studio"],
+      "distribuidor": ["Paradox Interactive"],
+      "ean": [],
+      "descripcion": "Cuarta entrega de la saga de estrategia por turnos, con héroes que participan directamente en combate y nuevas mecánicas que renovaron la jugabilidad clásica.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]     
+    },   
+    {
+      "titulo": "Heroes of Might and Magic IV. The Gathering storm",
+      "url": "juegos/heroes-of-might-and-magic-iv-the-gathering-storm/",
+      "plataforma": ["Windows 95/98/ME/2000/XP"],
+      "genero": ["Estrategia por turnos"],
+      "desarrollador": ["New World Computing"],
+      "distribuidor": ["3DO"],
+      "ean": [],
+      "descripcion": "Primera expansión de Heroes of Might and Magic IV que introduce nuevas campañas, criaturas, héroes y escenarios, ampliando el contenido y la jugabilidad del título original.",
+      "incluye": [],
+      "serie": ["Heroes of Might and Magic"],
+      "tags": [] 
+    },    
+    {
+      "titulo": "Heroes of Might and Magic V: Gold Edition",
+      "url": "juegos/heroes-of-might-and-magic-v-gold-edition/",
+      "plataforma": ["Windows XP/Vista"],
+      "genero": ["Estrategia por turnos"],
+      "desarrollador": ["Nival Interactive"],
+      "distribuidor": ["Ubisoft"],
+      "ean": [],
+      "descripcion": "Edición Gold de la quinta entrega de la saga, que incluye Heroes of Might and Magic V junto a sus dos expansiones, Hammers of Fate y Tribes of the East, ofreciendo la experiencia completa con nuevas campañas, facciones y unidades.",
+      "incluye": [],
+      "serie": ["Heroes of Might and Magic"],
+      "tags": []
+    },       
+    {
+      "titulo": "Heroes of Might and Magic VI",
+      "url": "juegos/heroes-of-might-and-magic-vi/",
+      "plataforma": ["Windows XP/Vista/7/8"],
+      "genero": ["Estrategia por turnos"],
+      "desarrollador": ["Black Hole Entertainment"],
+      "distribuidor": ["Ubisoft"],
+      "ean": [],
+      "descripcion": "Sexta entrega de la saga de estrategia por turnos, ambientada 400 años antes de los sucesos de Heroes V, con un renovado sistema de recursos y cambios en la gestión de héroes y ciudades.",
+      "incluye": [],
+      "serie": ["Heroes of Might and Magic"],
+      "tags": []
+    },  
+    {
+      "titulo": "Heroes of Might and Magic VI: Complete Edition",
+      "url": "juegos/heroes-of-might-and-magic-vi-complete-edition/",
+      "plataforma": ["Windows XP/Vista/7/8"],
+      "genero": ["Estrategia por turnos"],
+      "desarrollador": ["Black Hole Entertainment", "Limbic Entertainment"],
+      "distribuidor": ["Ubisoft"],
+      "ean": [],
+      "descripcion": "Edición Complete de la sexta entrega de la saga, que reúne el juego base Might & Magic Heroes VI junto a todas sus expansiones y contenidos descargables, ofreciendo la experiencia definitiva.",
+      "incluye": [],
+      "serie": ["Heroes of Might and Magic"],
+      "tags": []
+    },      
+    {
+      "titulo": "Heroes of Might and Magic VI. Gold Edition",
+      "url": "juegos/heroes-of-might-and-magic-vi-gold-edition/",
+      "plataforma": ["Windows XP/Vista/7/8"],
+      "genero": ["Estrategia por turnos"],
+      "desarrollador": ["Black Hole Entertainment"],
+      "distribuidor": ["Ubisoft"],
+      "ean": [],
+      "descripcion": "Edición Gold de la sexta entrega de la saga de estrategia por turnos, que incluye el juego base Might & Magic Heroes VI junto a sus expansiones y contenidos adicionales.",
+      "incluye": [],
+      "serie": ["Heroes of Might and Magic"],
+      "tags": [] 
+    },   
+    {
+      "titulo": "Heroes of Might and Magic VII",
+      "url": "juegos/heroes-of-might-and-magic-vii/",
+      "plataforma": ["Windows 7/8/10"],
+      "genero": ["Estrategia por turnos"],
+      "desarrollador": ["Limbic Entertainment"],
+      "distribuidor": ["Ubisoft"],
+      "ean": [],
+      "descripcion": "Séptima entrega de la saga de estrategia por turnos, que retoma el estilo clásico de la serie con un nuevo motor gráfico y campaña centrada en la guerra civil del ducado de Griffin.",
+      "incluye": [],
+      "serie": ["Heroes of Might and Magic"],
+      "tags": []  
+    },       
+    {
       "titulo": "Heroes of the Pacific",
       "url": "juegos/heroes-of-the-pacific/",
       "plataforma": ["Windows 98/Me/2000/XP"],
@@ -1154,6 +1336,19 @@
       "incluye": [],
       "serie":[],
       "tags":[]     
+    }, 
+    {
+      "titulo": "Hidden & Dangerous",
+      "url": "juegos/hidden-and-dangerous/",
+      "plataforma": ["Windows 95/98"],
+      "genero": ["Shooter táctico", "Acción táctica"],
+      "desarrollador": ["Illusion Softworks"],
+      "distribuidor": ["Proein", "Take-Two Interactive"],
+      "ean": [],
+      "descripcion": "Shooter táctico ambientado en la Segunda Guerra Mundial en el que el jugador dirige a un escuadrón de fuerzas especiales aliadas en misiones de infiltración y combate. Destacó por su mezcla de acción en primera y tercera persona con estrategia táctica.",
+      "incluye": [],
+      "serie": ["Hidden & Dangerous"],
+      "tags": ["Xtreme Collection", "Proein"]  
     }, 
     {
       "titulo": "Hidden & Dangerous 2",
@@ -1897,6 +2092,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Renegade: Battle for Jacob's Star",
+      "url": "juegos/renegade-battle-for-jacobs-star/",
+      "plataforma": ["MS-DOS"],
+      "genero": ["Simulación espacial", "Acción"],
+      "desarrollador": ["Midnight Software"],
+      "distribuidor": ["Strategic Simulations Inc."],
+      "ean": [],
+      "descripcion": "Simulador espacial basado en el universo de Renegade Legion, con batallas tácticas en 3D y una narrativa que combina ciencia ficción y combates de flota en el espacio.",
+      "incluye": [],
+      "serie": ["Renegade Legion"],
+      "tags": []    
+    },     
+    {
       "titulo": "Reprobates",
       "url": "juegos/reprobates/",
       "plataforma": ["Windows XP/Vista"],
@@ -2130,6 +2338,19 @@
       "serie":[],
       "tags":[]     
     }, 
+    {
+      "titulo": "Rune",
+      "url": "juegos/rune-2/",
+      "plataforma": ["Windows 95/98/ME/2000"],
+      "genero": ["Acción", "Aventura"],
+      "desarrollador": ["Human Head Studios"],
+      "distribuidor": ["Gathering of Developers", "Proein"],
+      "ean": [],
+      "descripcion": "Videojuego de acción en tercera persona ambientado en la mitología nórdica. El jugador controla a Ragnar en su viaje para enfrentarse a criaturas legendarias y guerreros en entornos épicos. Formó parte de la Xtreme Collection distribuida por Proein.",
+      "incluye": [],
+      "serie": [],
+      "tags": ["Xtreme Collection", "Proein"]    
+    },     
     {
       "titulo": "Sacred 2: Ice and Blood",
       "url": "juegos/sacred-2-ice-and-blood/",
@@ -2833,6 +3054,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Tomb Raider",
+      "url": "juegos/tomb-raider/",
+      "plataforma": ["Windows 95/98"],
+      "genero": ["Acción", "Aventura"],
+      "desarrollador": ["Core Design"],
+      "distribuidor": ["Eidos Interactive", "Proein"],
+      "ean": [],
+      "descripcion": "Primera entrega de la saga Tomb Raider, donde Lara Croft se embarca en su primera gran aventura arqueológica, explorando tumbas y templos en busca de reliquias antiguas. Forma parte de la Xtreme Collection distribuida por Proein.",
+      "incluye": [],
+      "serie": ["Tomb Raider"],
+      "tags": ["Xtreme Collection", "Proein"] 
+    }, 
+    {
       "titulo": "Tomb Raider: Legend",
       "url": "juegos/tomb-raider-legend/",
       "plataforma": ["Windows 2000/XP"],
@@ -2846,6 +3080,19 @@
       "tags":[]     
     }, 
     {
+      "titulo": "Tomb Raider: The Last Revelation",
+      "url": "juegos/tomb-raider-the-last-revelation/",
+      "plataforma": ["Windows 95/98"],
+      "genero": ["Acción", "Aventura"],
+      "desarrollador": ["Core Design"],
+      "distribuidor": ["Eidos Interactive", "Proein"],
+      "ean": [],
+      "descripcion": "Cuarta entrega de la saga Tomb Raider en la que Lara Croft explora templos y tumbas del Antiguo Egipto, con mejoras gráficas y mayor énfasis en la narrativa. Forma parte de la Xtreme Collection distribuida por Proein.",
+      "incluye": [],
+      "serie": ["Tomb Raider"],
+      "tags": ["Xtreme Collection", "Proein"]  
+    },     
+    {
       "titulo": "Total War Anthology",
       "url": "juegos/total-war-anthology/",
       "plataforma": ["Windows XP/Vista/7"],
@@ -2858,6 +3105,19 @@
       "serie":[],
       "tags":[]     
     }, 
+    {
+      "titulo": "Total War: Medieval II - Edición Coleccionista",
+      "url": "juegos/total-war-medieval-ii-edicion-coleccionista/",
+      "plataforma": ["Windows XP/Vista"],
+      "genero": ["Estrategia en tiempo real", "Estrategia por turnos"],
+      "desarrollador": ["Creative Assembly"],
+      "distribuidor": ["SEGA"],
+      "ean": [],
+      "descripcion": "Edición coleccionista de la segunda entrega de la saga Medieval, parte de la serie Total War. Combina estrategia por turnos en el mapa de campaña con batallas en tiempo real a gran escala, e incluye contenidos y extras exclusivos para coleccionistas.",
+      "incluye": [],
+      "serie": ["Total War"],
+      "tags": []  
+    },    
     {
       "titulo": "Total War: Shogun 2",
       "url": "juegos/total-war-shogun-2/",
@@ -2923,6 +3183,19 @@
       "serie":[],
       "tags":[]     
     }, 
+    {
+      "titulo": "Tropico",
+      "url": "juegos/tropico-2/",
+      "plataforma": ["Windows 95/98/ME/2000"],
+      "genero": ["Estrategia", "Simulación"],
+      "desarrollador": ["PopTop Software"],
+      "distribuidor": ["Gathering of Developers", "Proein"],
+      "ean": [],
+      "descripcion": "Juego de simulación y estrategia en el que el jugador asume el papel de 'El Presidente', gobernante de una isla caribeña. Combina gestión económica, política y social con humor satírico. Formó parte de la Xtreme Collection distribuida por Proein.",
+      "incluye": [],
+      "serie": ["Tropico"],
+      "tags": ["Xtreme Collection", "Proein"]  
+    },     
     {
       "titulo": "Tyranny",
       "url": "juegos/tyranny/",

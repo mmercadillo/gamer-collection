@@ -1,0 +1,13 @@
+{
+  "titulo": "Rune",
+  "url": "juegos/rune/",
+  "plataforma": ["Windows 95/98/ME/2000"],
+  "genero": ["Acción", "Aventura"],
+  "desarrollador": ["Human Head Studios"],
+  "distribuidor": ["Gathering of Developers", "Proein"],
+  "ean": [],
+  "descripcion": "Videojuego de acción en tercera persona ambientado en la mitología nórdica. El jugador controla a Ragnar en su viaje para enfrentarse a criaturas legendarias y guerreros en entornos épicos. Formó parte de la Xtreme Collection distribuida por Proein.",
+  "incluye": [],
+  "serie": [],
+  "tags": ["Xtreme Collection", "Proein"]
+}

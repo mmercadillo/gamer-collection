@@ -1,0 +1,13 @@
+{
+  "titulo": "Tomb Raider",
+  "url": "juegos/tomb-raider/",
+  "plataforma": ["Windows 95/98"],
+  "genero": ["Acción", "Aventura"],
+  "desarrollador": ["Core Design"],
+  "distribuidor": ["Eidos Interactive", "Proein"],
+  "ean": [],
+  "descripcion": "Primera entrega de la saga Tomb Raider, donde Lara Croft se embarca en su primera gran aventura arqueológica, explorando tumbas y templos en busca de reliquias antiguas. Forma parte de la Xtreme Collection distribuida por Proein.",
+  "incluye": [],
+  "serie": ["Tomb Raider"],
+  "tags": ["Xtreme Collection", "Proein"]
+}

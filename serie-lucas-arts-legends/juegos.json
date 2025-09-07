@@ -25,7 +25,7 @@
       "serie":[],
       "tags":[]
     },
-        {
+    {
       "titulo": "La Fuga de Monkey Island",
       "url": "juegos/la-fuga-de-monkey-island/",
       "plataforma": ["Windows 95/98/Me/2000"],
@@ -38,7 +38,20 @@
       "serie":[],
       "tags":[]
     },
-        {
+    {
+      "titulo": "Outlaws",
+      "url": "juegos/outlaws/",
+      "plataforma": ["Windows 95/98/Me/2000"],
+      "genero": ["Aventura gráfica"],
+      "desarrollador": ["LucasArts"],
+      "distribuidor": ["LucasArts"],
+      "ean": [],
+      "descripcion": "Shooter en primera persona ambientado en el Salvaje Oeste, con estilo cinematográfico y expansión incluida 'A Handful of Missions'.",
+      "incluye": [],
+      "serie":[],
+      "tags":[]
+    },    
+    {
       "titulo": "Star Wars: Dark Forces II - Jedi Knight",
       "url": "juegos/star-wars-dark-forces-ii-jedi-knight/",
       "plataforma": ["Windows 95/98"],
