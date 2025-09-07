@@ -2,7 +2,7 @@
     {
       "titulo": "Age of Empires: Gold Edition",
       "url": "juegos/age-of-empires-gold-edition/",
-      "plataforma": ["Windows 95/98"],
+      "plataforma": ["Win95", "Win98"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Ensemble Studios"],
       "distribuidor": ["Ubisoft"],
@@ -15,7 +15,7 @@
     {
       "titulo": "Age of Mythology: Gold Edition",
       "url": "juegos/age-of-mythology-gold-edition/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Ensemble Studios"],
       "distribuidor": ["Ubisoft"],
@@ -28,7 +28,7 @@
     {
       "titulo": "Anatomía de Grey: El Videojuego",
       "url": "juegos/anatomia-de-grey-el-videojuego/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Longtail Studios"],
       "distribuidor": ["Ubisoft"],
@@ -41,7 +41,7 @@
     {
       "titulo": "Anno 1404",
       "url": "juegos/anno-1404/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia y construcción"],
       "desarrollador": ["Related Designs"],
       "distribuidor": ["Ubisoft"],
@@ -54,7 +54,7 @@
     {
       "titulo": "Assassin's Creed",
       "url": "juegos/assasins-creed/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Acción y aventura"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -67,7 +67,7 @@
     {
       "titulo": "The Bard's Tale",
       "url": "juegos/bards-tale/",
-      "plataforma": ["Windows XP"],
+      "plataforma": ["WinXP"],
       "genero": ["Rol y aventura"],
       "desarrollador": ["inXile Entertainment"],
       "distribuidor": ["Ubisoft"],
@@ -80,7 +80,7 @@
     {
       "titulo": "Beyond Good & Evil",
       "url": "juegos/beyond-god-and-evil/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Acción / Aventura"],
       "desarrollador": ["Ubisoft Montpellier"],
       "distribuidor": ["Ubisoft"],
@@ -93,7 +93,7 @@
     {
       "titulo": "Blazing Angels 2: Secret Missions of WWII",
       "url": "juegos/blazing-angels-2-secret-missions-of-wwii/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Simulación de vuelo y combate"],
       "desarrollador": ["Ubisoft Bucharest"],
       "distribuidor": ["Ubisoft"],
@@ -106,7 +106,7 @@
     {
       "titulo": "Blazing Angels: Squadrons of WWII",
       "url": "juegos/blazing-angels-squadrons-of-wwii/",
-      "plataforma": ["Windows XP"],
+      "plataforma": ["WinXP"],
       "genero": ["Simulación de vuelo y combate"],
       "desarrollador": ["Ubisoft Romania"],
       "distribuidor": ["Ubisoft"],
@@ -119,7 +119,7 @@
     {
       "titulo": "Brothers in Arms: Earned in Blood",
       "url": "juegos/brothers-in-arms-earned-in-blood/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Disparos en primera persona táctico"],
       "desarrollador": ["Gearbox Software"],
       "distribuidor": ["Ubisoft"],
@@ -132,7 +132,7 @@
     {
       "titulo": "Brothers in Arms: Hell's Highway",
       "url": "juegos/brothers-in-arms-hells-highway/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Disparos en primera persona táctico"],
       "desarrollador": ["Gearbox Software"],
       "distribuidor": ["Ubisoft"],
@@ -145,7 +145,7 @@
     {
       "titulo": "Brothers in Arms Pack",
       "url": "juegos/brothers-in-arms-pack/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Disparos en primera persona táctico"],
       "desarrollador": ["Gearbox Software"],
       "distribuidor": ["Ubisoft"],
@@ -158,7 +158,7 @@
     {
       "titulo": "Brothers in Arms: Road to Hill 30",
       "url": "juegos/brothers-in-arms-road-to-hill-30/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Disparos en primera persona táctico"],
       "desarrollador": ["Gearbox Software"],
       "distribuidor": ["Ubisoft"],
@@ -171,7 +171,7 @@
     {
       "titulo": "Call of Juarez: Bound in Blood",
       "url": "juegos/call-of-juarez-bound-in-blood/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Disparos en primera persona"],
       "desarrollador": ["Techland"],
       "distribuidor": ["Ubisoft"],
@@ -184,7 +184,7 @@
     {
       "titulo": "Combat Flight Simulator: Serie Europa II Guerra Mundial",
       "url": "juegos/combat-flight-simulator-serie-europa-ii-guerra-mundial/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación de vuelo y combate"],
       "desarrollador": ["Microsoft"],
       "distribuidor": ["Ubisoft"],
@@ -197,7 +197,7 @@
     {
       "titulo": "Conflict Zone",
       "url": "juegos/conflict-zone/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["MASA Group"],
       "distribuidor": ["Ubisoft"],
@@ -210,7 +210,7 @@
     {
       "titulo": "Crimson Skies",
       "url": "juegos/crimson-skies/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación de vuelo y combate"],
       "desarrollador": ["Zipper Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -223,7 +223,7 @@
     {
       "titulo": "CSI: Crime Scene Investigation",
       "url": "juegos/csi/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["369 Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -236,7 +236,7 @@
     {
       "titulo": "CSI: La Conspiración",
       "url": "juegos/csi-la-conspiracion/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Telltale Games"],
       "distribuidor": ["Ubisoft"],
@@ -249,7 +249,7 @@
     {
       "titulo": "CSI: Las 3 Dimensiones del Asesinato",
       "url": "juegos/csi-las-3-dimensiones-del-asesinato/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Aventura gráfica", "Investigación"],
       "desarrollador": ["Ubisoft", "Telltale Games"],
       "distribuidor": ["Ubisoft"],
@@ -262,7 +262,7 @@
     {
       "titulo": "CSI: Miami",
       "url": "juegos/csi-miami/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["369 Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -275,7 +275,7 @@
     {
       "titulo": "CSI: NY - El Videojuego",
       "url": "juegos/csi-ny-el-videojuego/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Legacy Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -288,7 +288,7 @@
     {
       "titulo": "CSI: Pruebas Ocultas",
       "url": "juegos/csi-pruebas-ocultas/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Telltale Games"],
       "distribuidor": ["Ubisoft"],
@@ -301,7 +301,7 @@
     {
       "titulo": "Dark Messiah of Might and Magic",
       "url": "juegos/dark-messiah/",
-      "plataforma": ["Windows XP"],
+      "plataforma": ["WinXP"],
       "genero": ["Acción y rol"],
       "desarrollador": ["Arkane Studios"],
       "distribuidor": ["Ubisoft"],
@@ -314,7 +314,7 @@
     {
       "titulo": "Destroyer Command",
       "url": "juegos/destroyer-command/",
-      "plataforma": ["Windows 95/98/Me/2000/XP"],
+      "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación naval"],
       "desarrollador": ["Ultimation Inc."],
       "distribuidor": ["Ubisoft"],
@@ -327,7 +327,7 @@
     {
       "titulo": "Downtown Run",
       "url": "juegos/downtown-run/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Carreras"],
       "desarrollador": ["Ubisoft"],
       "distribuidor": ["Ubisoft"],
@@ -340,7 +340,7 @@
     {
       "titulo": "Driver: Parallel Lines",
       "url": "juegos/driver-parallel-lines/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Conducción y acción"],
       "desarrollador": ["Reflections Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -353,7 +353,7 @@
     {
       "titulo": "Dungeon Siege",
       "url": "juegos/dungeon-siege/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Rol de acción"],
       "desarrollador": ["Gas Powered Games"],
       "distribuidor": ["Ubisoft"],
@@ -366,7 +366,7 @@
     {
       "titulo": "Faces of War",
       "url": "juegos/faces-of-war/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real táctica"],
       "desarrollador": ["Best Way"],
       "distribuidor": ["Ubisoft"],
@@ -379,7 +379,7 @@
     {
       "titulo": "Far Cry",
       "url": "juegos/farcry/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Disparos en primera persona"],
       "desarrollador": ["Crytek"],
       "distribuidor": ["Ubisoft"],
@@ -392,7 +392,7 @@
     {
       "titulo": "Far Cry 2: Fortune's Edition",
       "url": "juegos/farcry-2-fortunes-edition/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Disparos en primera persona"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -405,7 +405,7 @@
     {
       "titulo": "Grandia II",
       "url": "juegos/grandia-ii/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Rol japonés (JRPG)"],
       "desarrollador": ["Game Arts"],
       "distribuidor": ["Ubisoft"],
@@ -418,7 +418,7 @@
     {
       "titulo": "Heroes of Might and Magic",
       "url": "juegos/heroes-of-might-and-magic/",
-      "plataforma": ["Windows 95/98"],
+      "plataforma": ["Win95", "Win98"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["New World Computing"],
       "distribuidor": ["Ubisoft"],
@@ -431,7 +431,7 @@
     {
       "titulo": "Heroes of Might and Magic Collection",
       "url": "juegos/heroes-of-might-and-magic-collection/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["New World Computing"],
       "distribuidor": ["Ubisoft"],
@@ -444,7 +444,7 @@
     {
       "titulo": "Heroes of Might and Magic II: Gold",
       "url": "juegos/heroes-of-might-and-magic-ii-gold/",
-      "plataforma": ["Windows 95/98"],
+      "plataforma": ["Win95", "Win98"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["New World Computing"],
       "distribuidor": ["Ubisoft"],
@@ -457,7 +457,7 @@
     {
       "titulo": "Heroes of Might and Magic III: Complete",
       "url": "juegos/heroes-of-might-and-magic-iii-complete/",
-      "plataforma": ["Windows 95/98/Me/2000/XP"],
+      "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["New World Computing"],
       "distribuidor": ["Ubisoft"],
@@ -470,7 +470,7 @@
     {
       "titulo": "Heroes of Might and Magic V",
       "url": "juegos/heroes-of-might-and-magic-v/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["Nival Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -483,7 +483,7 @@
     {
       "titulo": "Heroes of Might and Magic V: Hammers of Fate",
       "url": "juegos/heroes-of-might-and-magic-v-hammers-of-fate/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["Nival Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -496,7 +496,7 @@
     {
       "titulo": "Heroes of Might and Magic V: Tribes of the East",
       "url": "juegos/heroes-of-might-and-magic-v-tribes-of-the-last/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["Nival Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -509,7 +509,7 @@
     {
       "titulo": "Largo Winch: Empire Under Threat",
       "url": "juegos/largo-winch-empire-under-threat/",
-      "plataforma": ["Windows 95/98/Me/2000/XP"],
+      "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Acción · Aventura"],
       "desarrollador": ["Dupuis / Ubisoft"],
       "distribuidor": ["Ubisoft"],
@@ -522,7 +522,7 @@
     {
       "titulo": "MechWarrior 4: Vengeance",
       "url": "juegos/mechwarrior-4-vegeance/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación y acción"],
       "desarrollador": ["FASA Studio"],
       "distribuidor": ["Ubisoft"],
@@ -535,7 +535,7 @@
     {
       "titulo": "Midtown Madness",
       "url": "juegos/midtown-madness/",
-      "plataforma": ["Windows 98/Me"],
+      "plataforma": ["Win98", "WinMe"],
       "genero": ["Conducción"],
       "desarrollador": ["Angel Studios"],
       "distribuidor": ["Ubisoft"],
@@ -548,7 +548,7 @@
     {
       "titulo": "The Elder Scrolls III: Morrowind",
       "url": "juegos/morrowind-the-elders-scroll-iii/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Rol"],
       "desarrollador": ["Bethesda Game Studios"],
       "distribuidor": ["Ubisoft"],
@@ -561,7 +561,7 @@
     {
       "titulo": "Motocross Madness 2",
       "url": "juegos/motocross-madness-2/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Carreras y simulación"],
       "desarrollador": ["Rainbow Studios"],
       "distribuidor": ["Ubisoft"],
@@ -574,7 +574,7 @@
     {
       "titulo": "Myst III: Exile",
       "url": "juegos/myst-iii-exile/",
-      "plataforma": ["Windows 95/98/Me/2000/XP"],
+      "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Presto Studios"],
       "distribuidor": ["Ubisoft"],
@@ -587,7 +587,7 @@
     {
       "titulo": "Myst IV: Revelation",
       "url": "juegos/myst-iv-revelation/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -600,7 +600,7 @@
     {
       "titulo": "Uru: Ages Beyond Myst",
       "url": "juegos/myst-uru-ages-beyond-myst/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Cyan Worlds"],
       "distribuidor": ["Ubisoft"],
@@ -613,7 +613,7 @@
     {
       "titulo": "Pandora's Box",
       "url": "juegos/pandors-box/",
-      "plataforma": ["Windows 95/98"],
+      "plataforma": ["Win95", "Win98"],
       "genero": ["Rompecabezas"],
       "desarrollador": ["Microsoft Game Studios"],
       "distribuidor": ["Ubisoft"],
@@ -626,7 +626,7 @@
     {
       "titulo": "Peter Jackson's King Kong: The Official Game of the Movie",
       "url": "juegos/peter-jacksons-king-kong/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Acción y aventura"],
       "desarrollador": ["Ubisoft Montpellier"],
       "distribuidor": ["Ubisoft"],
@@ -639,7 +639,7 @@
     {
       "titulo": "Piratas del Caribe",
       "url": "juegos/piratas-del-caribe/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Rol y acción"],
       "desarrollador": ["Akella"],
       "distribuidor": ["Ubisoft"],
@@ -652,7 +652,7 @@
     {
       "titulo": "Playboy: The Mansion",
       "url": "juegos/playboy-the-mansion/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación"],
       "desarrollador": ["Cyberlore Studios"],
       "distribuidor": ["Ubisoft"],
@@ -665,7 +665,7 @@
     {
       "titulo": "Prince of Persia",
       "url": "juegos/prince-of-persia/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Acción y aventura"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -678,7 +678,7 @@
     {
       "titulo": "Prince of Persia: Edición Coleccionista",
       "url": "juegos/prince-of-persia-edicion-coleccionista/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Acción y aventura"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -691,7 +691,7 @@
     {
       "titulo": "Prince of Persia: El Alma del Guerrero",
       "url": "juegos/prince-of-persia-el-alma-del-guerrero/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Acción y aventura"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -704,7 +704,7 @@
     {
       "titulo": "Rayman 3: Hoodlum Havoc",
       "url": "juegos/rayman-3/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Plataformas"],
       "desarrollador": ["Ubisoft Montpellier"],
       "distribuidor": ["Ubisoft"],
@@ -717,7 +717,7 @@
     {
       "titulo": "Rayman Raving Rabbids",
       "url": "juegos/rayman-raving-rabbids/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Minijuegos y fiesta"],
       "desarrollador": ["Ubisoft Montpellier"],
       "distribuidor": ["Ubisoft"],
@@ -730,7 +730,7 @@
     {
       "titulo": "Rise of Nations: Gold Edition",
       "url": "juegos/rise-of-nations-gold-edition/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Big Huge Games"],
       "distribuidor": ["Ubisoft"],
@@ -743,7 +743,7 @@
     {
       "titulo": "Silent Hunter 4: Wolves of the Pacific",
       "url": "juegos/silent-hunter-4-wolves-of-the-pacific/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Simulación naval"],
       "desarrollador": ["Ubisoft Romania"],
       "distribuidor": ["Ubisoft"],
@@ -756,7 +756,7 @@
     {
       "titulo": "Singles: Flirt Up Your Life!",
       "url": "juegos/singles/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación social"],
       "desarrollador": ["Rotobee"],
       "distribuidor": ["Ubisoft"],
@@ -769,7 +769,7 @@
     {
       "titulo": "Singles 2: Triple Trouble",
       "url": "juegos/singles-2/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación social"],
       "desarrollador": ["Rotobee"],
       "distribuidor": ["Ubisoft"],
@@ -782,7 +782,7 @@
     {
       "titulo": "The Settlers: Construye tu Imperio",
       "url": "juegos/the-settlers-construye-tu-imperio/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia y construcción"],
       "desarrollador": ["Blue Byte"],
       "distribuidor": ["Ubisoft"],
@@ -795,7 +795,7 @@
     {
       "titulo": "The Settlers: El Linaje de los Reyes",
       "url": "juegos/the-settlers-el-linaje-de-los-reyes/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Estrategia y construcción"],
       "desarrollador": ["Blue Byte"],
       "distribuidor": ["Ubisoft"],
@@ -808,7 +808,7 @@
     {
       "titulo": "The Settlers II: 10º Aniversario",
       "url": "juegos/the-settlers-ii-10-aniversario/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Estrategia y construcción"],
       "desarrollador": ["Blue Byte"],
       "distribuidor": ["Ubisoft"],
@@ -821,7 +821,7 @@
     {
       "titulo": "The Sum of All Fears",
       "url": "juegos/the-sum-of-all-fears/",
-      "plataforma": ["Windows 98/ME/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Shooter en primera persona", "Táctico"],
       "desarrollador": ["Red Storm Entertainment"],
       "distribuidor": ["Ubisoft"],
@@ -834,7 +834,7 @@
     {
       "titulo": "Tom Clancy's EndWar",
       "url": "juegos/tom-clancys-endwar/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Ubisoft Shanghai"],
       "distribuidor": ["Ubisoft"],
@@ -847,7 +847,7 @@
     {
       "titulo": "Tom Clancy's Ghost Recon",
       "url": "juegos/tom-clancys-ghost-recon/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Disparos táctico en primera persona"],
       "desarrollador": ["Red Storm Entertainment"],
       "distribuidor": ["Ubisoft"],
@@ -860,7 +860,7 @@
     {
       "titulo": "Tom Clancy's Ghost Recon 2: Advanced Warfighter",
       "url": "juegos/tom-clancys-ghost-recon-2-advanced-warfighter/",
-      "plataforma": ["Windows XP"],
+      "plataforma": ["WinXP"],
       "genero": ["Disparos táctico en primera persona"],
       "desarrollador": ["Red Storm Entertainment"],
       "distribuidor": ["Ubisoft"],
@@ -873,7 +873,7 @@
     {
       "titulo": "Tom Clancy's Ghost Recon: Advanced Warfighter",
       "url": "juegos/tom-clancys-ghost-recon-advanced-warfighter/",
-      "plataforma": ["Windows XP"],
+      "plataforma": ["WinXP"],
       "genero": ["Disparos táctico en primera persona"],
       "desarrollador": ["Red Storm Entertainment"],
       "distribuidor": ["Ubisoft"],
@@ -886,7 +886,7 @@
     {
       "titulo": "Tom Clancy's H.A.W.X.",
       "url": "juegos/tom-clancys-hawx/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Simulación de vuelo y combate"],
       "desarrollador": ["Ubisoft Romania"],
       "distribuidor": ["Ubisoft"],
@@ -899,7 +899,7 @@
     {
       "titulo": "Tom Clancy's Rainbow Six: Vegas 2",
       "url": "juegos/tom-clancys-rainbow-six-2-vegas/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Disparos táctico en primera persona"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -912,7 +912,7 @@
     {
       "titulo": "Tom Clancy's Rainbow Six 3: Raven Shield",
       "url": "juegos/tom-clancys-rainbow-six-3-raven-shield/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Disparos táctico en primera persona"],
       "desarrollador": ["Red Storm Entertainment"],
       "distribuidor": ["Ubisoft"],
@@ -925,7 +925,7 @@
     {
       "titulo": "Tom Clancy's Rainbow Six: Lockdown",
       "url": "juegos/tom-clancys-rainbow-six-lockdown/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Disparos táctico en primera persona"],
       "desarrollador": ["Red Storm Entertainment"],
       "distribuidor": ["Ubisoft"],
@@ -938,7 +938,7 @@
     {
       "titulo": "Tom Clancy's Splinter Cell",
       "url": "juegos/tom-clancys-splinter-cell/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Sigilo y acción"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -951,7 +951,7 @@
     {
       "titulo": "Tom Clancy's Splinter Cell: Chaos Theory",
       "url": "juegos/tom-clancys-splinter-cell-chaos-theory/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Sigilo y acción"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -964,7 +964,7 @@
     {
       "titulo": "Tom Clancy's Splinter Cell: Double Agent",
       "url": "juegos/tom-clancys-splinter-cell-double-agent/",
-      "plataforma": ["Windows 2000/XP"],
+      "plataforma": ["Win2000", "WinXP"],
       "genero": ["Sigilo y acción"],
       "desarrollador": ["Ubisoft Shanghai"],
       "distribuidor": ["Ubisoft"],
@@ -977,7 +977,7 @@
     {
       "titulo": "Warlords IV: Heroes of Etheria",
       "url": "juegos/warlords-iv-heroes-of-etheria/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["Infinite Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -990,7 +990,7 @@
     {
       "titulo": "Will Rock: Locked & Loaded / Possessed",
       "url": "juegos/will-rock-locked-loaded-possessed/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Disparos en primera persona"],
       "desarrollador": ["Saber Interactive"],
       "distribuidor": ["Ubisoft"],
@@ -1003,7 +1003,7 @@
     {
       "titulo": "World in Conflict: Complete Edition",
       "url": "juegos/world-in-conflict-complete-edition/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia en tiempo real táctica"],
       "desarrollador": ["Massive Entertainment"],
       "distribuidor": ["Ubisoft"],
@@ -1016,7 +1016,7 @@
     {
       "titulo": "Zoo Tycoon",
       "url": "juegos/zoo-tycoon/",
-      "plataforma": ["Windows 98/Me/2000/XP"],
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación y estrategia"],
       "desarrollador": ["Blue Fang Games"],
       "distribuidor": ["Ubisoft"],
