@@ -2,7 +2,7 @@
     {
       "titulo": "Assassin's Creed: Revelations",
       "url": "juegos/assassins-creed-revelations/",
-      "plataforma": ["Windows XP SP3 / Vista SP2 / 7 SP1"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Acción-aventura · Sigilo · Mundo abierto"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -15,7 +15,7 @@
     {
       "titulo": "Assassin's Creed Unity",
       "url": "juegos/assassins-creed-unity/",
-      "plataforma": ["Windows 7 SP1 / 8 / 8.1"],
+      "plataforma": ["Win7", "Win8"],
       "genero": ["Acción-aventura · Sigilo · Mundo abierto · Cooperativo"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -28,7 +28,7 @@
     {
       "titulo": "Assassin's Creed II",
       "url": "juegos/assassins-creed-ii/",
-      "plataforma": ["Windows XP/Vista/7"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Acción-aventura · Sigilo · Mundo abierto"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -41,7 +41,7 @@
     {
       "titulo": "Assassin's creed. Black flag",
       "url": "juegos/assassins-creed-black-flag/",
-      "plataforma": ["Windows 7/8/10/11"],
+      "plataforma": ["Win7", "Win8", "Win10"],
       "genero": ["Acción-aventura · Mundo abierto"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -54,7 +54,7 @@
     {
       "titulo": "Assassin's Creed Rogue",
       "url": "juegos/assassins-creed-rogue/",
-      "plataforma": ["Windows 7 SP1 / 8 / 8.1"],
+      "plataforma": ["Win7", "Win8"],
       "genero": ["Acción-aventura · Sigilo · Mundo abierto"],
       "desarrollador": ["Ubisoft Sofia"],
       "distribuidor": ["Ubisoft"],
@@ -67,7 +67,7 @@
     {
       "titulo": "Assassin's Creed: Hermandad",
       "url": "juegos/assassins-creed-hermandad/",
-      "plataforma": ["Windows XP/Vista/7"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Acción-aventura · Sigilo"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -80,7 +80,7 @@
     {
       "titulo": "Assassin's Creed Syndicate",
       "url": "juegos/assassins-creed-syndicate/",
-      "plataforma": ["Windows 7 SP1 / 8.1 / 10"],
+      "plataforma": ["Win7","Win8", "Win10"],
       "genero": ["Acción-aventura · Sigilo · Mundo abierto"],
       "desarrollador": ["Ubisoft Quebec"],
       "distribuidor": ["Ubisoft"],
@@ -93,7 +93,7 @@
     {
       "titulo": "Assassin's creed III",
       "url": "juegos/assassins-creed-iii/",
-      "plataforma": ["Windows Vista/7/8 (lanzamiento original), Windows 7/8.1/10 (Remastered)"],
+      "plataforma": ["Windows Vista", "Win7", "Win8"],
       "genero": ["Acción-aventura · Mundo abierto"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -106,7 +106,7 @@
     {
       "titulo": "Assassin's Creed: Liberation HD",
       "url": "juegos/assassins-creed-liberation-hd/",
-      "plataforma": ["Windows Vista SP2 / 7 SP1 / 8 / 8.1"],
+      "plataforma": ["Windows Vista", "Win7", "Win8"],
       "genero": ["Acción-aventura · Sigilo · Mundo abierto"],
       "desarrollador": ["Ubisoft Sofia"],
       "distribuidor": ["Ubisoft"],
@@ -119,7 +119,7 @@
     {
       "titulo": "Assassin's Creed IV: Black Flag",
       "url": "juegos/assassins-creed-iv-black-flag/",
-      "plataforma": ["Windows Vista SP2 / 7 SP1 / 8 / 10"],
+      "plataforma": ["Windows Vista", "Win7", "Win8", "Win10"],
       "genero": ["Acción-aventura · Mundo abierto · Sigilo"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],
@@ -132,7 +132,7 @@
     {
       "titulo": "Assassin's Creed",
       "url": "juegos/assassins-creed/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Acción / Aventura"],
       "desarrollador": ["Ubisoft Montreal"],
       "distribuidor": ["Ubisoft"],

@@ -2,7 +2,7 @@
     {
       "titulo": "Mortadelo y Filemón: Operación Moscú",
       "url": "juegos/mortadelo-y-filemon-operacion-moscu/",
-      "plataforma": ["Windows 95/98/ME"],
+      "plataforma": ["Win95", "Win98", "WinMe"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Alcachofa Soft"],
       "distribuidor": ["Zeta Multimedia"],
@@ -15,7 +15,7 @@
     {
       "titulo": "Mortadelo y Filemón: El escarabajo de Cleopatra",
       "url": "juegos/mortadelo-y-filemon-el-escarabajo-de-cleopatra/",
-      "plataforma": ["Windows 95/98/ME"],
+      "plataforma": ["Win95", "Win98", "WinMe"],
       "genero": ["Aventura gráfica"],
       "desarrollador": ["Alcachofa Soft"],
       "distribuidor": ["Zeta Multimedia"],

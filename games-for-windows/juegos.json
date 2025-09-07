@@ -2,7 +2,7 @@
     {
       "titulo": "Age of Empires III: Colección Completa",
       "url": "juegos/age-of-empires-iii-coleccion-completa/",
-      "plataforma": ["Windows XP/Vista/7"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Ensemble Studios"],
       "distribuidor": ["Microsoft Game Studios"],
@@ -15,7 +15,7 @@
     {
       "titulo": "Alpha Protocol: Tu Decisión es tu Arma",
       "url": "juegos/alpha-protocol-tu-decision-es-tu-arma/",
-      "plataforma": ["Windows XP/Vista/7"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["RPG de acción"],
       "desarrollador": ["Obsidian Entertainment"],
       "distribuidor": ["SEGA"],
@@ -28,8 +28,8 @@
     {
       "titulo": "Beijing 2008",
       "url": "juegos/beijing-2008/",
-      "plataforma": ["Windows XP/Vista"],
-      "genero": ["Deportes / Olímpico"],
+      "plataforma": ["WinXP", "Windows Vista"],
+      "genero": ["Deportes", "Olímpico"],
       "desarrollador": ["Eurocom"],
       "distribuidor": ["SEGA"],
       "ean": [],
@@ -41,7 +41,7 @@
         {
       "titulo": "BioShock 2",
       "url": "juegos/bioshock-2/",
-      "plataforma": ["Windows XP/Vista/7"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Acción, Shooter en primera persona"],
       "desarrollador": ["2K Marin"],
       "distribuidor": ["2K Games"],
@@ -54,7 +54,7 @@
         {
       "titulo": "Codegame: Panzers. Cold War",
       "url": "juegos/codegame-panzers-cold-war/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["InnoGlow"],
       "distribuidor": ["FX Interactive"],
@@ -67,7 +67,7 @@
     {
       "titulo": "Dawn of War II: Chaos Rising",
       "url": "juegos/dawn-of-war-chaos-rising/",
-      "plataforma": ["Windows XP/Vista/7"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Relic Entertainment"],
       "distribuidor": ["THQ"],
@@ -80,7 +80,7 @@
         {
       "titulo": "Empire Earth III",
       "url": "juegos/empire-earth-iii/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Mad Doc Software"],
       "distribuidor": ["Sierra Entertainment"],
@@ -93,7 +93,7 @@
         {
       "titulo": "Kane & Lynch: Dead Men",
       "url": "juegos/kane-and-lynch-death-men/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Acción, Shooter en tercera persona"],
       "desarrollador": ["IO Interactive"],
       "distribuidor": ["Eidos Interactive"],
@@ -106,7 +106,7 @@
         {
       "titulo": "Lost Planet: Extreme Condition",
       "url": "juegos/lost-planet-extreme-condition/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Acción, Shooter en tercera persona"],
       "desarrollador": ["Capcom"],
       "distribuidor": ["Capcom"],
@@ -119,7 +119,7 @@
         {
       "titulo": "Port Royale 3",
       "url": "juegos/port-royale-3/",
-      "plataforma": ["Windows XP/Vista/7"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Estrategia, Simulación"],
       "desarrollador": ["Gaming Minds Studios"],
       "distribuidor": ["Kalypso Media"],
@@ -132,7 +132,7 @@
         {
       "titulo": "Risen",
       "url": "juegos/risen/",
-      "plataforma": ["Windows XP/Vista/7"],
+      "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["RPG"],
       "desarrollador": ["Piranha Bytes"],
       "distribuidor": ["Deep Silver"],
@@ -145,7 +145,7 @@
         {
       "titulo": "Sacred 2: Fallen Angel",
       "url": "juegos/sacred-2-fallen-angel/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["RPG, Acción"],
       "desarrollador": ["Ascaron"],
       "distribuidor": ["cdv Software Entertainment"],
@@ -158,7 +158,7 @@
         {
       "titulo": "Sid Meier's Civilization IV: Complete",
       "url": "juegos/sid-meiers-civilization-iv-complete/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["Firaxis Games"],
       "distribuidor": ["2K Games"],
@@ -171,7 +171,7 @@
         {
       "titulo": "Stormrise",
       "url": "juegos/stormrise/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Creative Assembly"],
       "distribuidor": ["SEGA"],
@@ -184,7 +184,7 @@
         {
       "titulo": "Supreme Commander: Forged Alliance",
       "url": "juegos/supreme-commander-forged-alliance/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Gas Powered Games"],
       "distribuidor": ["THQ"],
@@ -197,7 +197,7 @@
         {
       "titulo": "The Witcher",
       "url": "juegos/the-witcher/",
-      "plataforma": ["Windows XP/Vista"],
+      "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["RPG"],
       "desarrollador": ["CD Projekt Red"],
       "distribuidor": ["Atari"],
