@@ -2,7 +2,7 @@
   {
     "titulo": "Age of Empires",
     "url": "juegos/age-of-empires/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft"],
@@ -15,7 +15,7 @@
   {
     "titulo": "The Rise & Rule of Ancient Empires",
     "url": "juegos/the-rise-and-rule-of-ancient-empires/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Estrategia por turnos", "Construcción de imperios"],
     "desarrollador": ["Impressions Games"],
     "distribuidor": ["Sierra On-Line"],
@@ -28,7 +28,7 @@
   {
     "titulo": "Age of Empires II: Gold Edition",
     "url": "juegos/age-of-empires-ii-edicion-gold/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft"],
@@ -41,7 +41,7 @@
   {
     "titulo": "Age of Empires II: The Age of Kings",
     "url": "juegos/age-of-empires-ii/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft"],
@@ -54,7 +54,7 @@
   {
     "titulo": "Age of Empires II. The Conquerors. Expansion",
     "url": "juegos/age-of-empires-ii-the-conquerors-expansion/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft"],
@@ -67,7 +67,7 @@
   {
     "titulo": "Age of Empires II. The Conquerors. Expansion",
     "url": "juegos/age-of-empires-ii-the-conquerors-expansion-2/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft"],
@@ -80,7 +80,7 @@
   {
     "titulo": "Age of Empires. Gold Edition",
     "url": "juegos/age-of-empires-gold-edition/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft"],
@@ -93,7 +93,7 @@
   {
     "titulo": "Age of Empires: The Rise of Rome",
     "url": "juegos/age-of-empires-rise-of-rome/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft"],
@@ -106,7 +106,7 @@
   {
     "titulo": "Age of Mythology",
     "url": "juegos/age-of-mythology/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft Game Studios"],
@@ -119,7 +119,7 @@
   {
     "titulo": "3D Power Tank",
     "url": "juegos/3d-power-tank/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Action"],
     "desarrollador": ["ElectroTECH"],
     "distribuidor": ["Akaei plc"],
@@ -132,7 +132,7 @@
   {
     "titulo": "A Sangre Fría",
     "url": "juegos/a-sangre-fria/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica", "Acción sigilosa"],
     "desarrollador": ["Revolution Software"],
     "distribuidor": ["Ubisoft (PC, Europa), DreamCatcher (PC, Norteamérica), Sony Computer Entertainment (PlayStation)"],
@@ -145,7 +145,7 @@
   {
     "titulo": "Abomination: The Nemesis Project",
     "url": "juegos/abomination-the-nemesis-project/",
-    "plataforma": ["Win95, Win98, Win2000"],
+    "plataforma": ["Win95", "Win98", "Win2000"],
     "genero": ["Action, Real-time tactics"],
     "desarrollador": ["Hothouse Creations"],
     "distribuidor": ["Eidos Interactive"],
@@ -171,7 +171,7 @@
   {
     "titulo": "Adidas Power Soccer",
     "url": "juegos/adidas-power-soccer/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Sports"],
     "desarrollador": ["Psygnosis"],
     "distribuidor": ["Psygnosis"],
@@ -184,7 +184,7 @@
   {
     "titulo": "Allied General",
     "url": "juegos/allied-general/",
-    "plataforma": ["Win3.x, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win3.x", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Turn-based strategy", "Wargame"],
     "desarrollador": ["Halestorm", "SSI Special Projects Group"],
     "distribuidor": ["Strategic Simulations Inc.", "Mindscape"],
@@ -197,7 +197,7 @@
   {
     "titulo": "Arcanum: Hechizos y engranajes",
     "url": "juegos/arcanum-hechizos-engranajes/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Role‑playing"],
     "desarrollador": ["Troika Games"],
     "distribuidor": ["Sierra On‑Line"],
@@ -210,7 +210,7 @@
   {
     "titulo": "Allied General (Gold Reserve)",
     "url": "juegos/allied-general-gold-reserve/",
-    "plataforma": ["Win3.x, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win3.x", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Turn-based strategy", "Wargame"],
     "desarrollador": ["Halestorm", "SSI Special Projects Group"],
     "distribuidor": ["Strategic Simulations Inc.", "Mindscape"],
@@ -223,7 +223,7 @@
   {
     "titulo": "AMOK",
     "url": "juegos/amok/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Action", "Vehicular mech shooter"],
     "desarrollador": ["Lemon (Scavenger, Inc.)"],
     "distribuidor": ["Scavenger, Inc."],
@@ -249,7 +249,7 @@
   {
     "titulo": "Arcania: Gothic 4",
     "url": "juegos/arcania-gothic-4/",
-    "plataforma": ["WinXP, Windows Vista, Win7, Win8, Win10"],
+    "plataforma": ["WinXP", "Windows Vista", "Win7", "Win8", "Win10"],
     "genero": ["Action role-playing"],
     "desarrollador": ["Spellbound Entertainment"],
     "distribuidor": ["JoWooD (PC EU), DreamCatcher (PC NA), Nordic Games (consolas)"],
@@ -262,7 +262,7 @@
   {
     "titulo": "Arcatera: La Hermandad Oscura",
     "url": "juegos/arcatera-la-hermandad-oscura/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Role‑playing (RPG)"],
     "desarrollador": ["Westka Interactive"],
     "distribuidor": ["Ubisoft"],
@@ -275,7 +275,7 @@
   {
     "titulo": "Decisive Battles of WWII: The Ardennes Offensive",
     "url": "juegos/decisive-battles-of-wwii-the-ardennes-offensive/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Turn‑based strategy", "Wargame"],
     "desarrollador": ["Strategic Studies Group"],
     "distribuidor": ["Strategic Simulations, Inc."],
@@ -288,7 +288,7 @@
   {
     "titulo": "Assault Rigs",
     "url": "juegos/assault-rigs/",
-    "plataforma": ["MsDos, Win3.x, Win95, Win98"],
+    "plataforma": ["MsDos", "Win3.x", "Win95", "Win98"],
     "genero": ["Vehicular combat", "Action"],
     "desarrollador": ["Psygnosis"],
     "distribuidor": ["Psygnosis"],
@@ -327,7 +327,7 @@
   {
     "titulo": "Baldur's Gate",
     "url": "juegos/baldurs-gate/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Role‑playing"],
     "desarrollador": ["BioWare"],
     "distribuidor": ["Interplay Productions"],
@@ -340,7 +340,7 @@
   {
     "titulo": "Baldur's Gate II: Shadows of Amn",
     "url": "juegos/baldurs-gate-ii/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Role‑playing"],
     "desarrollador": ["BioWare"],
     "distribuidor": ["Interplay Productions"],
@@ -353,7 +353,7 @@
   {
     "titulo": "Barça Manager 2000",
     "url": "juegos/barca-manager-2000/",
-    "plataforma": ["Win95, Win98, Win2000"],
+    "plataforma": ["Win95", "Win98", "Win2000"],
     "genero": ["Sports", "Management"],
     "desarrollador": ["Anco Software"],
     "distribuidor": ["Ubisoft"],
@@ -366,7 +366,7 @@
   {
     "titulo": "Battle Realms",
     "url": "juegos/battle-realms/",
-    "plataforma": ["Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Liquid Entertainment"],
     "distribuidor": ["Crave Entertainment", "Ubisoft"],
@@ -379,7 +379,7 @@
   {
     "titulo": "Black Dahlia",
     "url": "juegos/black-dahlia/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Interactive movie", "Point‑and‑click adventure"],
     "desarrollador": ["Take‑Two Interactive"],
     "distribuidor": ["Take‑Two Interactive"],
@@ -392,7 +392,7 @@
   {
     "titulo": "Blade Runner",
     "url": "juegos/blade-runner/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Point-and-click adventure"],
     "desarrollador": ["Westwood Studios"],
     "distribuidor": ["Virgin Interactive"],
@@ -405,7 +405,7 @@
   {
     "titulo": "Runaway: A Road Adventure",
     "url": "juegos/runaway-a-road-aventure/",
-    "plataforma": ["Win95/Win98/WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Aventura gráfica", "Point-and-click"],
     "desarrollador": ["Pendulo Studios"],
     "distribuidor": ["Dinamic Multimedia"],
@@ -418,7 +418,7 @@
   {
     "titulo": "Bram Stoker’s Dracula",
     "url": "juegos/bram-stokers-dracula/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["First‑person shooter (DOS)", "Action platformer (console)"],
     "desarrollador": ["Psygnosis"],
     "distribuidor": ["Sony Imagesoft (consolas), Psygnosis (PC/Amiga)"],
@@ -431,7 +431,7 @@
   {
     "titulo": "Broken Sword II: Las Fuerzas del Mal",
     "url": "juegos/broken-sword-ii-las-fuerzas-del-mal/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000, Win7, win10"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000", "Win7", "win10"],
     "genero": ["Point‑and‑click adventure"],
     "desarrollador": ["Revolution Software"],
     "distribuidor": ["Virgin Interactive, Revolution Software (Remastered)"],
@@ -444,7 +444,7 @@
   {
     "titulo": "Broken Sword: La Leyenda de los Templarios",
     "url": "juegos/broken-sword-la-leyenda-de-los-templarios/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Point‑and‑click adventure"],
     "desarrollador": ["Revolution Software"],
     "distribuidor": ["Virgin Interactive"],
@@ -457,7 +457,7 @@
   {
     "titulo": "Caesar",
     "url": "juegos/caesar/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["City-building", "Simulation"],
     "desarrollador": ["Impressions Games"],
     "distribuidor": ["Sierra On‑Line"],
@@ -470,7 +470,7 @@
   {
     "titulo": "Caesar III",
     "url": "juegos/caesar-iii/",
-    "plataforma": ["Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["City‑building", "Simulation"],
     "desarrollador": ["Impressions Games"],
     "distribuidor": ["Sierra On‑Line"],
@@ -483,7 +483,7 @@
   {
     "titulo": "Civilization: Call to Power",
     "url": "juegos/call-to-power/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Turn‑based strategy", "4X"],
     "desarrollador": ["Activision"],
     "distribuidor": ["Activision, Loki Software (Linux), MacSoft (Mac)"],
@@ -496,7 +496,7 @@
   {
     "titulo": "Call to Power II",
     "url": "juegos/call-to-power-ii/",
-    "plataforma": ["WinXP, Win7, Win8, Win10"],
+    "plataforma": ["WinXP", "Win7"],
     "genero": ["Turn‑based strategy", "4X"],
     "desarrollador": ["Activision"],
     "distribuidor": ["Activision"],
@@ -509,7 +509,7 @@
   {
     "titulo": "Capitalism Plus",
     "url": "juegos/capitalism-plus/",
-    "plataforma": ["MsDos, Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Business simulation", "Strategy"],
     "desarrollador": ["Enlight Software"],
     "distribuidor": ["Broderbund", "Interactive Magic"],
@@ -522,7 +522,7 @@
   {
     "titulo": "Cleopatra: La Reina del Nilo",
     "url": "juegos/cleopatra-la-reina-del-nilo/",
-    "plataforma": ["Win95, Win98, Win2000"],
+    "plataforma": ["Win95", "Win98", "Win2000"],
     "genero": ["City‑building", "Strategy"],
     "desarrollador": ["BreakAway Games"],
     "distribuidor": ["Sierra Entertainment"],
@@ -535,7 +535,7 @@
   {
     "titulo": "Colin McRae Rally",
     "url": "juegos/colin-mcrae-rally/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Racing Simulation"],
     "desarrollador": ["Codemasters"],
     "distribuidor": ["Codemasters, Sony Computer Entertainment (PlayStation), THQ (GBC)"],
@@ -548,7 +548,7 @@
   {
     "titulo": "Command & Conquer",
     "url": "juegos/command-and-conquer/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real‑time strategy"],
     "desarrollador": ["Westwood Studios"],
     "distribuidor": ["Virgin Interactive, Electronic Arts"],
@@ -561,7 +561,7 @@
   {
     "titulo": "Command & Conquer: Red Alert",
     "url": "juegos/command-and-conquer-red-alert/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT"],
     "genero": ["Real‑time strategy"],
     "desarrollador": ["Westwood Studios"],
     "distribuidor": ["Virgin Interactive, Electronic Arts"],
@@ -574,7 +574,7 @@
   {
     "titulo": "Command & Conquer: Red Alert – Counterstrike",
     "url": "juegos/command-and-conquer-red-alert-counterstrike/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real‑time strategy"],
     "desarrollador": ["Westwood Studios"],
     "distribuidor": ["Virgin Interactive, Electronic Arts"],
@@ -587,7 +587,7 @@
   {
     "titulo": "Command & Conquer: Red Alert – The Aftermath",
     "url": "juegos/command-and-conquer-red-alert-the-aftermath/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real‑time strategy"],
     "desarrollador": ["Westwood Studios"],
     "distribuidor": ["Virgin Interactive, Electronic Arts"],
@@ -600,7 +600,7 @@
   {
     "titulo": "Command & Conquer: Tiberian Sun",
     "url": "juegos/command-and-conquer-tiberian-sun/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000, WinXP, Win7, Win8, Win10"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000", "WinXP"],
     "genero": ["Real‑time strategy"],
     "desarrollador": ["Westwood Studios"],
     "distribuidor": ["Electronic Arts"],
@@ -613,7 +613,7 @@
   {
     "titulo": "Commandos: Más Allá del Deber",
     "url": "juegos/commandos-mas-alla-del-deber/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Táctico en tiempo real", "Stealth"],
     "desarrollador": ["Pyro Studios"],
     "distribuidor": ["Eidos Interactive"],
@@ -639,7 +639,7 @@
   {
     "titulo": "Conflict Zone",
     "url": "juegos/conflict-zone/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real‑time strategy"],
     "desarrollador": ["MASA Group (Mathématiques Appliquées S.A.)"],
     "distribuidor": ["Ubisoft"],
@@ -652,7 +652,7 @@
   {
     "titulo": "Conqueror: A.D. 1086",
     "url": "juegos/conqueror-ad-1086/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Strategy", "Role-playing"],
     "desarrollador": ["Software Sorcery"],
     "distribuidor": ["Sierra On-Line"],
@@ -678,7 +678,7 @@
   {
     "titulo": "Crimson Skies",
     "url": "juegos/crcrimson-skies/",
-    "plataforma": ["Win95/Win98/WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Acción", "Simulación aérea"],
     "desarrollador": ["Zipper Interactive"],
     "distribuidor": ["Microsoft"],
@@ -717,7 +717,7 @@
   {
     "titulo": "Darkstone: Evil Reigns",
     "url": "juegos/darkstone-evil-reigns/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Action role‑playing"],
     "desarrollador": ["Delphine Software International"],
     "distribuidor": ["Electronic Arts (EU), Gathering of Developers (NA, PC), Take‑Two Interactive (NA, PS)"],
@@ -730,7 +730,7 @@
   {
     "titulo": "Death Rally",
     "url": "juegos/death-rally/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Vehicular combat", "Racing"],
     "desarrollador": ["Remedy Entertainment"],
     "distribuidor": ["Apogee Software (GT Interactive)"],
@@ -743,7 +743,7 @@
   {
     "titulo": "Decathlon Games",
     "url": "juegos/decathlon-games/",
-    "plataforma": ["Win95/Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Simulación deportiva"],
     "desarrollador": ["Desconocido"],
     "distribuidor": ["Desconocido"],
@@ -756,7 +756,7 @@
   {
     "titulo": "Delta Force 2",
     "url": "juegos/delta-force-2/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP, Windows Vista, Win7, Win8"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP", "Windows Vista"],
     "genero": ["Tactical first‑person shooter"],
     "desarrollador": ["NovaLogic"],
     "distribuidor": ["NovaLogic"],
@@ -769,7 +769,7 @@
   {
     "titulo": "Delta Force: Land Warrior",
     "url": "juegos/delta-force-land-warrior/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP, Windows Vista, Win7, Win8, Win10"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP", "Windows Vista"],
     "genero": ["Tactical first‑person shooter"],
     "desarrollador": ["NovaLogic"],
     "distribuidor": ["NovaLogic"],
@@ -782,7 +782,7 @@
   {
     "titulo": "Delta Force: The Art of War",
     "url": "juegos/delta-force-the-art-of-war/",
-    "plataforma": ["Win95, Win98, Win2000"],
+    "plataforma": ["Win95", "Win98", "Win2000"],
     "genero": ["Tactical first‑person shooter"],
     "desarrollador": ["NovaLogic"],
     "distribuidor": ["NovaLogic"],
@@ -795,7 +795,7 @@
   {
     "titulo": "Descent II",
     "url": "juegos/descent-ii/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["First‑person shooter"],
     "desarrollador": ["Parallax Software"],
     "distribuidor": ["Interplay Productions, MacPlay, SoftKey"],
@@ -808,7 +808,7 @@
   {
     "titulo": "Diablo",
     "url": "juegos/diablo/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Action role‑playing", "Dungeon crawler"],
     "desarrollador": ["Blizzard North"],
     "distribuidor": ["Blizzard Entertainment, Electronic Arts (PS1)"],
@@ -821,7 +821,7 @@
   {
     "titulo": "Diablo II",
     "url": "juegos/diablo-ii/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Action role‑playing", "Hack‑and‑slash"],
     "desarrollador": ["Blizzard North"],
     "distribuidor": ["Blizzard Entertainment"],
@@ -834,7 +834,7 @@
   {
     "titulo": "Diablo II: Lord of Destruction",
     "url": "juegos/diablo-ii-lord-of-destruction/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Action role‑playing", "Hack‑and‑slash"],
     "desarrollador": ["Blizzard North"],
     "distribuidor": ["Blizzard Entertainment"],
@@ -847,7 +847,7 @@
   {
     "titulo": "Dino Crisis",
     "url": "juegos/dino-crisis/",
-    "plataforma": ["Win95, Win98, Win2000"],
+    "plataforma": ["Win95", "Win98", "Win2000"],
     "genero": ["Survival horror", "Action-adventure"],
     "desarrollador": ["Capcom Production Studio 4"],
     "distribuidor": ["Capcom"],
@@ -860,7 +860,7 @@
   {
     "titulo": "Druuna: Morbus Gravis",
     "url": "juegos/druuna-morbus-gravis/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Adventure", "Survival horror"],
     "desarrollador": ["Artematica"],
     "distribuidor": ["Microids (MC2‑Microïds)"],
@@ -873,7 +873,7 @@
   {
     "titulo": "Duelo de Hechiceros",
     "url": "juegos/duelo-de-hechiceros/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Real‑time strategy", "Action RPG"],
     "desarrollador": ["Mythos Games (Julian Gollop)"],
     "distribuidor": ["Virgin Interactive"],
@@ -886,7 +886,7 @@
   {
     "titulo": "Dungeon Keeper 2",
     "url": "juegos/dungeon-keeper-2/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Real‑time strategy", "God game", "Dungeon management"],
     "desarrollador": ["Bullfrog Productions"],
     "distribuidor": ["Electronic Arts"],
@@ -899,7 +899,7 @@
   {
     "titulo": "Egipto 1156 a.C.: La Tumba del Faraón",
     "url": "juegos/egipto-1156-ac-la-tumba-del-faraon/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica", "Point & Click", "Histórica"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Ubisoft"],
@@ -912,7 +912,7 @@
   {
     "titulo": "Egipto II: La Profecía de Heliópolis",
     "url": "juegos/egipto-ii-la-profecia-de-heliopolis/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["Aventura gráfica", "Point & Click", "Histórica"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Ubisoft"],
@@ -925,7 +925,7 @@
   {
     "titulo": "El Rey Arturo: El Secreto de Merlín",
     "url": "juegos/el-rey-arturo-el-secreto-de-merlin/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["Aventura gráfica", "Point & Click", "Fantasía", "Histórica"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Ubisoft"],
@@ -938,7 +938,7 @@
   {
     "titulo": "El Templo del Mal Elemental",
     "url": "juegos/el-templo-del-mal-elemental/",
-    "plataforma": ["Win98/WinMe/Win2000/WinXP"],
+    "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Rol"],
     "desarrollador": ["Troika Games"],
     "distribuidor": ["Atari"],
@@ -951,7 +951,7 @@
   {
     "titulo": "Empire Deluxe",
     "url": "juegos/empire-deluxe/",
-    "plataforma": ["MsDos, Win3.x"],
+    "plataforma": ["MsDos", "Win3.x"],
     "genero": ["Estrategia por turnos", "Guerra", "Conquista territorial"],
     "desarrollador": ["White Wolf Productions"],
     "distribuidor": ["New World Computing"],
@@ -964,7 +964,7 @@
   {
     "titulo": "Empire Earth",
     "url": "juegos/empire-earth/",
-    "plataforma": ["Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Estrategia en tiempo real (RTS)", "Historia", "Conquista"],
     "desarrollador": ["Stainless Steel Studios"],
     "distribuidor": ["Sierra Entertainment"],
@@ -990,7 +990,7 @@
   {
     "titulo": "F1 Racing Simulation",
     "url": "juegos/f1-racing-simulation/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Simulación de conducción", "Fórmula 1", "Realismo"],
     "desarrollador": ["Ubisoft"],
     "distribuidor": ["Ubisoft"],
@@ -1003,7 +1003,7 @@
   {
     "titulo": "Fantasy General",
     "url": "juegos/fantasy-general/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Estrategia por turnos", "Fantasía", "Táctica militar"],
     "desarrollador": ["Strategic Simulations, Inc. (SSI)"],
     "distribuidor": ["Mindscape", "SSI"],
@@ -1016,7 +1016,7 @@
   {
     "titulo": "Faraón",
     "url": "juegos/faraon/",
-    "plataforma": ["Win95, Win98, WinMe, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "WinXP"],
     "genero": ["Estrategia", "City-builder", "Gestión histórica"],
     "desarrollador": ["Impressions Games"],
     "distribuidor": ["Sierra Studios"],
@@ -1029,7 +1029,7 @@
   {
     "titulo": "Faraón",
     "url": "juegos/faraon-2/",
-    "plataforma": ["Win95, Win98, WinMe, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "WinXP"],
     "genero": ["Estrategia", "City-builder", "Gestión histórica"],
     "desarrollador": ["Impressions Games"],
     "distribuidor": ["Sierra Studios"],
@@ -1042,7 +1042,7 @@
   {
     "titulo": "Mortal Kombat 3",
     "url": "juegos/mortal-kombat-3/",
-    "plataforma": ["MsDos, Win95/Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Lucha", "Arcade"],
     "desarrollador": ["Midway Games (Wolf Unit arcade), Sculptured Software (PC DOS), Williams Development (Windows/PlayStation)"],
     "distribuidor": ["GT Interactive"],
@@ -1055,7 +1055,7 @@
   {
     "titulo": "Fausto: Los 7 Misterios del Alma",
     "url": "juegos/fausto-los-7-misterios-del-alma/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica", "Point & Click", "Psicológica", "Fantasía oscura"],
     "desarrollador": ["Arxel Tribe"],
     "distribuidor": ["Cryo Interactive"],
@@ -1068,7 +1068,7 @@
   {
     "titulo": "Formula One 99",
     "url": "juegos/formula-one-99/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Simulación de conducción", "Fórmula 1", "Deportes de motor"],
     "desarrollador": ["Studio 33"],
     "distribuidor": ["Psygnosis"],
@@ -1081,7 +1081,7 @@
   {
     "titulo": "Frankenstein: Through the Eyes of the Monster",
     "url": "juegos/frankenstein-through-the-eyes-of-the-monster/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica", "Point & Click", "Terror", "Ciencia ficción"],
     "desarrollador": ["Amazing Media"],
     "distribuidor": ["Interplay Entertainment"],
@@ -1094,7 +1094,7 @@
   {
     "titulo": "FX Fighter Turbo",
     "url": "juegos/fx-fighter-turbo/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Lucha 3D", "Arcade", "Ciencia ficción"],
     "desarrollador": ["Argonaut Software"],
     "distribuidor": ["GTE Entertainment", "BMG Interactive"],
@@ -1107,7 +1107,7 @@
   {
     "titulo": "Gabriel Knight 3: Blood of the Sacred, Blood of the Damned",
     "url": "juegos/gabriel-knight-3-blood-of-the-sacred-blood-of-the-damned/",
-    "plataforma": ["Win95, Win98, WinMe, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "WinXP"],
     "genero": ["Aventura gráfica", "Misterio", "Sobrenatural", "Investigación"],
     "desarrollador": ["Sierra Studios"],
     "distribuidor": ["Sierra Studios"],
@@ -1120,7 +1120,7 @@
   {
     "titulo": "Gangsters: Organized Crime",
     "url": "juegos/gangsters-organized-crime/",
-    "plataforma": ["Win95, Win98, WinMe, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "WinXP"],
     "genero": ["Estrategia", "Gestión criminal", "Táctica en tiempo real"],
     "desarrollador": ["Hothouse Creations"],
     "distribuidor": ["Eidos Interactive"],
@@ -1133,7 +1133,7 @@
   {
     "titulo": "Grand Prix 3",
     "url": "juegos/grand-prix-3/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Simulación de conducción", "Fórmula 1", "Realismo"],
     "desarrollador": ["MicroProse"],
     "distribuidor": ["Hasbro Interactive", "MicroProse"],
@@ -1146,7 +1146,7 @@
   {
     "titulo": "Gunman Chronicles",
     "url": "juegos/gunman-chronicles/",
-    "plataforma": ["Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Shooter en primera persona (FPS)", "Ciencia ficción", "Acción"],
     "desarrollador": ["Rewolf Software"],
     "distribuidor": ["Sierra Studios"],
@@ -1159,7 +1159,7 @@
   {
     "titulo": "Heart of China",
     "url": "juegos/heart-of-china/",
-    "plataforma": ["MsDos, Win3.x"],
+    "plataforma": ["MsDos", "Win3.x"],
     "genero": ["Aventura gráfica", "Point & Click", "Cinemática", "Romance", "Aventura"],
     "desarrollador": ["Dynamix"],
     "distribuidor": ["Sierra On-Line"],
@@ -1172,7 +1172,7 @@
   {
     "titulo": "Heavy Gear",
     "url": "juegos/heavy-gear/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Simulación táctica", "Shooter en primera persona", "Mechas", "Ciencia ficción"],
     "desarrollador": ["Activision"],
     "distribuidor": ["Activision"],
@@ -1185,7 +1185,7 @@
   {
     "titulo": "Heimdall 2: Into the Hall of Worlds",
     "url": "juegos/heimdall-2/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Aventura", "Acción", "Mitología nórdica", "RPG ligero"],
     "desarrollador": ["The 8th Day"],
     "distribuidor": ["Core Design"],
@@ -1198,7 +1198,7 @@
   {
     "titulo": "Hellboy: Asylum Seeker",
     "url": "juegos/hellboy-asylum-seeker/",
-    "plataforma": ["Win95/Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Acción", "Aventura", "Tercera persona", "Horror"],
     "desarrollador": ["Cryo Studios North America (PC), Hoplite Research (PlayStation)"],
     "distribuidor": ["Cryo Interactive (PC), DreamCatcher Interactive (PlayStation)"],
@@ -1211,7 +1211,7 @@
   {
     "titulo": "Hellfire",
     "url": "juegos/hellfire/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Action RPG", "Hack and Slash", "Expansión"],
     "desarrollador": ["Synergistic Software (una división de Sierra On‑Line)"],
     "distribuidor": ["Sierra On‑Line"],
@@ -1237,7 +1237,7 @@
   {
     "titulo": "Heroes of Might and Magic: A Strategic Quest",
     "url": "juegos/heroes-of-might-and-magic/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Estrategia por turnos", "Fantasía", "4X"],
     "desarrollador": ["New World Computing"],
     "distribuidor": ["New World Computing"],
@@ -1250,7 +1250,7 @@
   {
     "titulo": "Heroes of Might and Magic V: Gold Edition",
     "url": "juegos/heroes-of-might-and-magic-v-gold-edition/",
-    "plataforma": ["MsDos, WinXP, Windows Vista"],
+    "plataforma": ["WinXP", "Windows Vista"],
     "genero": ["Estrategia por turnos", "Fantasía", "4X", "Compilación"],
     "desarrollador": ["Nival Interactive"],
     "distribuidor": ["Ubisoft"],
@@ -1263,7 +1263,7 @@
   {
     "titulo": "Homeworld: Cataclysm",
     "url": "juegos/homeworld-cataclysm/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Estrategia en tiempo real", "Ciencia ficción", "Espacial"],
     "desarrollador": ["Barking Dog Studios"],
     "distribuidor": ["Sierra Studios"],
@@ -1276,7 +1276,7 @@
   {
     "titulo": "Hostile Waters: Antaeus Rising",
     "url": "juegos/hostile-waters-antaeus-rising/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Estrategia en tiempo real", "Acción", "Ciencia ficción"],
     "desarrollador": ["Rage Software"],
     "distribuidor": ["Rage Software (Europa), Interplay Entertainment (Norteamérica)"],
@@ -1289,7 +1289,7 @@
   {
     "titulo": "International Rugby League",
     "url": "juegos/international-rugby-league/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Deportes", "Rugby league", "Isométrico"],
     "desarrollador": ["Creative Assembly"],
     "distribuidor": ["Electronic Arts"],
@@ -1302,7 +1302,7 @@
   {
     "titulo": "Iron Man / X-O Manowar in Heavy Metal",
     "url": "juegos/iron-man-xo-manowar-in-heavy-metal/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Acción", "Beat 'em up", "Shooter", "Arcade"],
     "desarrollador": ["Realtime Associates"],
     "distribuidor": ["Acclaim Entertainment"],
@@ -1315,7 +1315,7 @@
   {
     "titulo": "Ishar II: Messengers of Doom",
     "url": "juegos/ishar-ii-messengers-of-doom/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Role‑playing game", "RPG"],
     "desarrollador": ["Silmarils"],
     "distribuidor": ["Silmarils"],
@@ -1341,7 +1341,7 @@
   {
     "titulo": "Lands of Lore II: Guardians of Destiny",
     "url": "juegos/lands-of-lore-ii-guardians-of-destiny/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Action RPG", "Aventura", "Fantasía"],
     "desarrollador": ["Westwood Studios"],
     "distribuidor": ["Virgin Interactive"],
@@ -1367,7 +1367,7 @@
   {
     "titulo": "Loom",
     "url": "juegos/loom/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Aventura gráfica", "Fantasía", "Música"],
     "desarrollador": ["Lucasfilm Games (hoy LucasArts)"],
     "distribuidor": ["Lucasfilm Games"],
@@ -1380,7 +1380,7 @@
   {
     "titulo": "Loom",
     "url": "juegos/loom-2/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Aventura gráfica", "Fantasía", "Música"],
     "desarrollador": ["Lucasfilm Games (hoy LucasArts)"],
     "distribuidor": ["Lucasfilm Games"],
@@ -1393,7 +1393,7 @@
   {
     "titulo": "Lost Eden",
     "url": "juegos/lost-eden/",
-    "plataforma": ["Win95/Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica", "Estrategia ligera"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Virgin Interactive Entertainment, Interplay Entertainment"],
@@ -1406,7 +1406,7 @@
   {
     "titulo": "Lost Eden",
     "url": "juegos/lost-eden-2/",
-    "plataforma": ["Win95/Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica", "Estrategia ligera"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Virgin Interactive Entertainment, Interplay Entertainment"],
@@ -1419,7 +1419,7 @@
   {
     "titulo": "Louvre: La Maldición Final",
     "url": "juegos/louvre-la-maldicion-final/",
-    "plataforma": ["Win95/Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica", "Acción", "Puzzles"],
     "desarrollador": ["Arxel Tribe"],
     "distribuidor": ["Microids"],
@@ -1432,7 +1432,7 @@
   {
     "titulo": "M.A.X.: Mechanized Assault & Exploration",
     "url": "juegos/max-mechanized-assault-exploration/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Estrategia por turnos", "Ciencia ficción", "Táctica"],
     "desarrollador": ["Interplay Productions"],
     "distribuidor": ["Interplay Productions"],
@@ -1458,7 +1458,7 @@
   {
     "titulo": "Manic Karts",
     "url": "juegos/manic-karts/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Carreras", "Karting", "Arcade"],
     "desarrollador": ["Manic Media Productions Ltd."],
     "distribuidor": ["Virgin Interactive Entertainment"],
@@ -1471,7 +1471,7 @@
   {
     "titulo": "Maniac Mansion",
     "url": "juegos/maniac-mansion/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Aventura gráfica", "Point & Click", "Comedia de terror"],
     "desarrollador": ["Lucasfilm Games (hoy LucasArts)"],
     "distribuidor": ["Lucasfilm Games"],
@@ -1497,7 +1497,7 @@
   {
     "titulo": "Mission Critical",
     "url": "juegos/mission-critical/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Aventura gráfica", "Ciencia ficción"],
     "desarrollador": ["Legend Entertainment"],
     "distribuidor": ["Legend Entertainment"],
@@ -1523,7 +1523,7 @@
   {
     "titulo": "Morpheus",
     "url": "juegos/morpheus/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Aventura gráfica", "Misterio", "Suspense"],
     "desarrollador": ["Soap Bubble Productions"],
     "distribuidor": ["Piranha Interactive Publishing"],
@@ -1536,7 +1536,7 @@
   {
     "titulo": "NASCAR Revolution",
     "url": "juegos/nascar-revolution/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Carreras", "Simulación", "Automovilismo"],
     "desarrollador": ["Stormfront Studios"],
     "distribuidor": ["EA Sports"],
@@ -1562,7 +1562,7 @@
   {
     "titulo": "NBA Live 2000",
     "url": "juegos/nba-live-2000/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Deportes", "Baloncesto", "Simulación"],
     "desarrollador": ["EA Canada"],
     "distribuidor": ["EA Sports"],
@@ -1575,7 +1575,7 @@
   {
     "titulo": "NBA Live 95",
     "url": "juegos/nba-live-95/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Deportes", "Baloncesto", "Simulación"],
     "desarrollador": ["EA Canada (Hitmen Productions)"],
     "distribuidor": ["EA Sports"],
@@ -1588,7 +1588,7 @@
   {
     "titulo": "NBA Live 97",
     "url": "juegos/nba-live-97/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Deportes", "Baloncesto", "Simulación"],
     "desarrollador": ["EA Sports"],
     "distribuidor": ["EA Sports"],
@@ -1601,7 +1601,7 @@
   {
     "titulo": "Need for Speed: Special Edition",
     "url": "juegos/need-for-speed-special-edition/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Carreras", "Simulación"],
     "desarrollador": ["EA Seattle (EA Canada)"],
     "distribuidor": ["Electronic Arts"],
@@ -1614,7 +1614,7 @@
   {
     "titulo": "Neverwinter Nights",
     "url": "juegos/neverwinter-nights/",
-    "plataforma": ["Win98/WinMe/Win2000/WinXP"],
+    "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Rol"],
     "desarrollador": ["BioWare"],
     "distribuidor": ["Infogrames", "Atari"],
@@ -1627,7 +1627,7 @@
   {
     "titulo": "Neverwinter Nights 2: Lawful Good",
     "url": "juegos/neverwinter-nights-2-lawful-good/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["RPG", "Rol táctico", "Fantasía"],
     "desarrollador": ["Obsidian Entertainment"],
     "distribuidor": ["Atari Interactive"],
@@ -1640,7 +1640,7 @@
   {
     "titulo": "NHL 2000",
     "url": "juegos/nhl-2000/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Deportes", "Hockey sobre hielo", "Simulación"],
     "desarrollador": ["EA Canada"],
     "distribuidor": ["EA Sports"],
@@ -1653,7 +1653,7 @@
   {
     "titulo": "Olympic Soccer: Atlanta 1996",
     "url": "juegos/olympic-soccer-atlanta-1996/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Deportes", "Fútbol", "Juegos Olímpicos"],
     "desarrollador": ["Silicon Dreams Studio"],
     "distribuidor": ["U.S. Gold"],
@@ -1666,7 +1666,7 @@
   {
     "titulo": "Panzer Commander: WWII Tank Simulator",
     "url": "juegos/panzer-commander-wwii-tank-simulator/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Simulación de vehículo", "Tanques", "Segunda Guerra Mundial"],
     "desarrollador": ["Ultimation Inc."],
     "distribuidor": ["Strategic Simulations Inc. (SSI)"],
@@ -1679,7 +1679,7 @@
   {
     "titulo": "Panzer General II",
     "url": "juegos/panzer-general-ii/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Wargame", "Estrategia por turnos", "Segunda Guerra Mundial"],
     "desarrollador": ["Strategic Simulations, Inc."],
     "distribuidor": ["Strategic Simulations, Inc."],
@@ -1692,7 +1692,7 @@
   {
     "titulo": "Panzer General II: Allied General",
     "url": "juegos/panzer-general-ii-allied-general/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Wargame por turnos", "Segunda Guerra Mundial"],
     "desarrollador": ["Strategic Simulations, Inc."],
     "distribuidor": ["Strategic Simulations, Inc."],
@@ -1705,7 +1705,7 @@
   {
     "titulo": "Panzer General III: Scorched Earth",
     "url": "juegos/panzer-general-iii/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Wargame", "Estrategia por turnos", "Segunda Guerra Mundial"],
     "desarrollador": ["Strategic Simulations, Inc."],
     "distribuidor": ["Strategic Simulations, Inc."],
@@ -1718,7 +1718,7 @@
   {
     "titulo": "Patrician II: Quest for Power",
     "url": "juegos/patrician-ii/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["Simulación económica", "Comercio", "Estrategia en tiempo real"],
     "desarrollador": ["Ascaron Entertainment"],
     "distribuidor": ["Infogrames Europe", "FX Interactive"],
@@ -1731,7 +1731,7 @@
   {
     "titulo": "Pool of Radiance",
     "url": "juegos/pool-of-radiance/",
-    "plataforma": ["MsDos, Win95/Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["RPG", "Rol táctico", "Fantasía"],
     "desarrollador": ["Strategic Simulations, Inc."],
     "distribuidor": ["Strategic Simulations, Inc."],
@@ -1744,7 +1744,7 @@
   {
     "titulo": "Pool of Radiance: Ruins of Myth Drannor",
     "url": "juegos/pool-of-radiance-ruins-of-myth-drannor/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["RPG", "Rol táctico", "Fantasía"],
     "desarrollador": ["Stormfront Studios"],
     "distribuidor": ["Ubisoft"],
@@ -1757,7 +1757,7 @@
   {
     "titulo": "Power F1",
     "url": "juegos/power-f1/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Carreras", "Fórmula 1", "Simulación"],
     "desarrollador": ["Teque London Ltd."],
     "distribuidor": ["Domark", "Eidos Interactive"],
@@ -1770,7 +1770,7 @@
   {
     "titulo": "Primera División Stars",
     "url": "juegos/primera-division-stars/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Deportes", "Fútbol", "Gestión de jugadores"],
     "desarrollador": ["Electronic Arts UK Ltd., Software Creations Ltd."],
     "distribuidor": ["Electronic Arts"],
@@ -1783,7 +1783,7 @@
   {
     "titulo": "Pro Pinball: Fantastic Journey",
     "url": "juegos/pro-pinball-fantastic-journey/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Simulación", "Pinball"],
     "desarrollador": ["Cunning Developments"],
     "distribuidor": ["Empire Interactive"],
@@ -1796,7 +1796,7 @@
   {
     "titulo": "Tom Clancy's Rainbow Six 3: Raven Shield",
     "url": "juegos/tom-clancys-rainbow-six-3-raven-shield/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Simulación", "Pinball"],
     "desarrollador": ["Cunning Developments"],
     "distribuidor": ["Empire Interactive"],
@@ -1809,7 +1809,7 @@
   {
     "titulo": "Rally Championship",
     "url": "juegos/rally-championship/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Carreras", "Rally", "Simulación"],
     "desarrollador": ["Warthog Games"],
     "distribuidor": ["Actualize (Europress)"],
@@ -1822,7 +1822,7 @@
   {
     "titulo": "Return to Monkey Island",
     "url": "juegos/return-to-monkey-island/",
-    "plataforma": ["Win98, WinMe, WinXP"],
+    "plataforma": ["Win98", "WinMe", "WinXP"],
     "genero": ["Aventura gráfica", "Point & Click"],
     "desarrollador": ["Terrible Toybox"],
     "distribuidor": ["Devolver Digital"],
@@ -1835,7 +1835,7 @@
   {
     "titulo": "Re‑Volt",
     "url": "juegos/re-volt/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Carreras", "RC cars", "Arcade"],
     "desarrollador": ["Acclaim Studios London"],
     "distribuidor": ["Acclaim Entertainment"],
@@ -1848,7 +1848,7 @@
   {
     "titulo": "Ring: El Anillo de los Nibelungos",
     "url": "juegos/ring-el-anillo-de-los-nibelungos/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Aventura gráfica", "Point & Click", "Fantasía", "Ciencia ficción"],
     "desarrollador": ["Arxel Tribe"],
     "distribuidor": ["Cryo Interactive (Friendware en España)"],
@@ -1861,7 +1861,7 @@
   {
     "titulo": "Riverworld",
     "url": "juegos/riverworld/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Estrategia en tiempo real", "Ciencia ficción", "Fantasía"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Cryo Interactive"],
@@ -1874,7 +1874,7 @@
   {
     "titulo": "S.T.O.R.M.",
     "url": "juegos/storm/",
-    "plataforma": ["MsDos, Win3.x, Win95, Win98"],
+    "plataforma": ["MsDos", "Win3.x", "Win95", "Win98"],
     "genero": ["Arcade", "Shooter", "Acción submarina"],
     "desarrollador": ["Virtual Studio"],
     "distribuidor": ["American Softworks Corporation"],
@@ -1887,7 +1887,7 @@
   {
     "titulo": "Sam & Max: Hit the Road",
     "url": "juegos/sam-and-max-hit-the-road/",
-    "plataforma": ["MsDos, Win95"],
+    "plataforma": ["MsDos", "Win95"],
     "genero": ["Aventura gráfica", "Point & Click", "Comedia"],
     "desarrollador": ["LucasArts (Steve Purcell)"],
     "distribuidor": ["LucasArts"],
@@ -1900,7 +1900,7 @@
   {
     "titulo": "Scooby‑Doo: Peligro en la Ciudad Fantasma",
     "url": "juegos/scooby-doo-peligro-en-la-ciudad-fantasma/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Aventura gráfica", "Point & Click", "Infantil"],
     "desarrollador": ["TerraGlyph Interactive Studios (The Learning Company)"],
     "distribuidor": ["The Learning Company"],
@@ -1913,7 +1913,7 @@
   {
     "titulo": "Scotland Yard: A la Búsqueda de Mister X",
     "url": "juegos/scotland-yard-a-la-busqueda-de-mister-x/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["Estrategia", "Aventura", "Deductivo"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Ravensburger Interactive"],
@@ -1939,7 +1939,7 @@
   {
     "titulo": "Shadow Man",
     "url": "juegos/shadow-man/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["Acción‑aventura", "Horror", "Metroidvania 3D"],
     "desarrollador": ["Acclaim Studios Teesside"],
     "distribuidor": ["Acclaim Entertainment"],
@@ -1952,7 +1952,7 @@
   {
     "titulo": "Shogun: Total War",
     "url": "juegos/shogun-total-war/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Estrategia por turnos", "Tácticas en tiempo real", "Histórica"],
     "desarrollador": ["The Creative Assembly"],
     "distribuidor": ["Electronic Arts"],
@@ -1965,7 +1965,7 @@
   {
     "titulo": "Sid Meier's Civilization II",
     "url": "juegos/sid-meiers-civilization-ii/",
-    "plataforma": ["Win3.x, Win95, Win98, WinMe, WinXP"],
+    "plataforma": ["Win3.x", "Win95", "Win98", "WinMe", "WinXP"],
     "genero": ["Estrategia por turnos", "4X", "Histórica"],
     "desarrollador": ["MicroProse (MPS Labs)"],
     "distribuidor": ["MicroProse"],
@@ -1978,7 +1978,7 @@
   {
     "titulo": "Silver",
     "url": "juegos/silver/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Acción/RPG", "Fantasía"],
     "desarrollador": ["Spiral House"],
     "distribuidor": ["Infogrames"],
@@ -1991,7 +1991,7 @@
   {
     "titulo": "SimCity 3000",
     "url": "juegos/simcity-3000/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Simulación", "Construcción de ciudades"],
     "desarrollador": ["Maxis"],
     "distribuidor": ["Electronic Arts"],
@@ -2004,7 +2004,7 @@
   {
     "titulo": "Spearhead",
     "url": "juegos/spearhead/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Simulación de tanques", "Acción táctica"],
     "desarrollador": ["Zombie Studios, MAK Technologies, Inc."],
     "distribuidor": ["Interactive Magic (EE. UU.), Midas Interactive (EU)"],
@@ -2030,7 +2030,7 @@
   {
     "titulo": "Star General",
     "url": "juegos/star-general/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Wargame por turnos", "Estrategia 4X", "Ciencia ficción"],
     "desarrollador": ["Catware (SSI)"],
     "distribuidor": ["Strategic Simulations, Inc."],
@@ -2043,7 +2043,7 @@
   {
     "titulo": "StarCraft",
     "url": "juegos/starcraft/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Estrategia en tiempo real", "Ciencia ficción"],
     "desarrollador": ["Blizzard Entertainment"],
     "distribuidor": ["Blizzard Entertainment"],
@@ -2056,7 +2056,7 @@
   {
     "titulo": "StarCraft: Brood War – Expansion Set",
     "url": "juegos/starcraft-brood-war-expansion-set/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Estrategia en tiempo real", "Ciencia ficción", "Expansion Pack"],
     "desarrollador": ["Blizzard Entertainment, Saffire Entertainment"],
     "distribuidor": ["Blizzard Entertainment"],
@@ -2069,7 +2069,7 @@
   {
     "titulo": "Starship Troopers",
     "url": "juegos/starship-troopers/",
-    "plataforma": ["MsDos, Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Estrategia en tiempo real", "Táctica", "Ciencia ficción"],
     "desarrollador": ["Blue Tongue Entertainment (SSI en MsDos)"],
     "distribuidor": ["Strategic Simulations, Inc.", "Hasbro Interactive"],
@@ -2082,7 +2082,7 @@
   {
     "titulo": "Steel Panthers",
     "url": "juegos/steel-panthers/",
-    "plataforma": ["MsDos, Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Estrategia por turnos", "Wargame táctico", "Segunda Guerra Mundial"],
     "desarrollador": ["Strategic Simulations, Inc. (Gary Grigsby y Keith Brors)"],
     "distribuidor": ["Strategic Simulations, Inc."],
@@ -2095,7 +2095,7 @@
   {
     "titulo": "Stunt GP",
     "url": "juegos/stunt-gp/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Carreras", "Coches RC", "Arcade"],
     "desarrollador": ["Team17 Software Limited"],
     "distribuidor": ["Eon Digital Entertainment"],
@@ -2108,7 +2108,7 @@
   {
     "titulo": "Subwar 2050",
     "url": "juegos/subwar-2050/",
-    "plataforma": ["MsDos, WinXP, Windows Vista, Win7"],
+    "plataforma": ["MsDos", "WinXP", "Windows Vista", "Win7"],
     "genero": ["Simulador de combate submarino", "Ciencia ficción"],
     "desarrollador": ["Particle Systems Ltd."],
     "distribuidor": ["MicroProse Software, Inc."],
@@ -2134,7 +2134,7 @@
   {
     "titulo": "SWAT 3: Close Quarters Battle",
     "url": "juegos/swat-3-close-quarters-battle/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Táctico", "Shooter en primera persona"],
     "desarrollador": ["Sierra Northwest"],
     "distribuidor": ["Sierra Entertainment"],
@@ -2160,7 +2160,7 @@
   {
     "titulo": "The Longest Journey",
     "url": "juegos/the-longest-journey/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica"],
     "desarrollador": ["Funcom"],
     "distribuidor": ["IQ Media Nordic", "Dinamic Multimedia (España)"],
@@ -2173,7 +2173,7 @@
   {
     "titulo": "The X-Files: The Game",
     "url": "juegos/the-x-files-the-game/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura interactiva", "FMV"],
     "desarrollador": ["HyperBole Studios"],
     "distribuidor": ["Fox Interactive"],
@@ -2186,7 +2186,7 @@
   {
     "titulo": "TILT",
     "url": "juegos/tilt/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Pinball"],
     "desarrollador": ["NMS Software"],
     "distribuidor": ["Cryo Interactive"],
@@ -2199,7 +2199,7 @@
   {
     "titulo": "Time Machine: Las Nuevas Aventuras de la Máquina del Tiempo",
     "url": "juegos/time-machine-las-nuevas-aventuras-de-la-maquina-del-tiempo/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Cryo Interactive", "FX Interactive (España)"],
@@ -2212,7 +2212,7 @@
   {
     "titulo": "Times of Conflict",
     "url": "juegos/times-of-conflict/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Estrategia en tiempo real"],
     "desarrollador": ["Insomnia Entertainment"],
     "distribuidor": ["Mindscape"],
@@ -2225,7 +2225,7 @@
   {
     "titulo": "TOCA: Touring Car Championship",
     "url": "juegos/toca-touring-car-championship/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Carreras", "Automovilismo"],
     "desarrollador": ["Codemasters"],
     "distribuidor": ["Codemasters"],
@@ -2264,7 +2264,7 @@
   {
     "titulo": "Tom Clancy's Rainbow Six: Covert Ops Essentials",
     "url": "juegos/tom-clancys-rainbow-six-covert-ops-essentials/",
-    "plataforma": ["Win95, Win98, Win2000"],
+    "plataforma": ["Win95", "Win98", "Win2000"],
     "genero": ["Shooter táctico", "FPS"],
     "desarrollador": ["Red Storm Entertainment, Magic Lantern Playware, Zombie Studios"],
     "distribuidor": ["Red Storm Entertainment (Ubi Soft para distribución europea)"],
@@ -2290,7 +2290,7 @@
   {
     "titulo": "Total Annihilation",
     "url": "juegos/total-annihilation/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Estrategia en tiempo real"],
     "desarrollador": ["Cavedog Entertainment"],
     "distribuidor": ["GT Interactive"],
@@ -2303,7 +2303,7 @@
   {
     "titulo": "Traitors Gate",
     "url": "juegos/traitors-gate/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Aventura gráfica", "Point-and-click"],
     "desarrollador": ["Daydream Software"],
     "distribuidor": ["DreamCatcher Interactive (Norteamérica), FX Interactive (España)"],
@@ -2342,7 +2342,7 @@
   {
     "titulo": "UEFA Manager 2000",
     "url": "juegos/uefa-manager-2000/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Simulación", "Estrategia deportiva (fútbol)"],
     "desarrollador": ["Bubball"],
     "distribuidor": ["Infogrames Europe SA"],
@@ -2355,7 +2355,7 @@
   {
     "titulo": "Unreal Tournament 2004",
     "url": "juegos/unreal-tournament-2004/",
-    "plataforma": ["Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Shooter en primera persona", "Multijugador"],
     "desarrollador": ["Epic Games", "Digital Extremes"],
     "distribuidor": ["Atari"],
@@ -2368,7 +2368,7 @@
   {
     "titulo": "Urban Chaos",
     "url": "juegos/urban-chaos/",
-    "plataforma": ["Win95, Win98, Win2000"],
+    "plataforma": ["Win95", "Win98", "Win2000"],
     "genero": ["Action‑Adventure", "Shooter"],
     "desarrollador": ["Mucky Foot Productions"],
     "distribuidor": ["Eidos Interactive"],
@@ -2381,7 +2381,7 @@
   {
     "titulo": "V‑Rally: Multiplayer Championship Edition",
     "url": "juegos/v-rally-multiplayer-championship-edition/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Carreras", "Simulación de rally"],
     "desarrollador": ["Eden Studios, Infogrames Multimedia"],
     "distribuidor": ["Infogrames Europe"],
@@ -2394,7 +2394,7 @@
   {
     "titulo": "Vampire: The Masquerade – Redemption",
     "url": "juegos/vampire-the-masquerade-redemption/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["Rol", "Acción"],
     "desarrollador": ["Nihilistic Software"],
     "distribuidor": ["Activision"],
@@ -2433,7 +2433,7 @@
   {
     "titulo": "Viva Football",
     "url": "juegos/viva-football/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Deporte (fútbol)"],
     "desarrollador": ["Crimson Studio"],
     "distribuidor": ["Virgin Interactive"],
@@ -2459,7 +2459,7 @@
   {
     "titulo": "Wartorn",
     "url": "juegos/wartorn/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["Táctico en tiempo real", "Roguelite"],
     "desarrollador": ["Stray Kite Studios"],
     "distribuidor": ["Stray Kite Studios"],
@@ -2472,7 +2472,7 @@
   {
     "titulo": "Z: The Bitmap Brothers",
     "url": "juegos/z-the-bitmap-brothers/",
-    "plataforma": ["MsDos, Win95, Win98 "],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Estrategia en tiempo real", "Táctica en tiempo real"],
     "desarrollador": ["The Bitmap Brothers"],
     "distribuidor": ["Renegade Software (Reino Unido), Virgin Interactive (Europa/US), TickTock Games / Rebellion (re‑releases)"],
@@ -2511,7 +2511,7 @@
   {
     "titulo": "RollerCoaster Tycoon",
     "url": "juegos/rollercoaster-tycoon/",
-    "plataforma": ["Win95, Win98, WinMe, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "WinXP"],
     "genero": ["Simulación de construcción y gestión", "Parc de atracciones"],
     "desarrollador": ["Chris Sawyer"],
     "distribuidor": ["Hasbro Interactive", "Infogrames (posteriormente Atari Interactive)"],
@@ -2524,7 +2524,7 @@
   {
     "titulo": "Silent hunter II",
     "url": "juegos/silent-hunter-ii/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Simulación", "Combate submarino", "Segunda Guerra Mundial"],
     "desarrollador": ["Aeon Electronic Entertainment, completado por Ultimation Inc."],
     "distribuidor": ["Ubi Soft"],
@@ -2537,7 +2537,7 @@
   {
     "titulo": "African Safari: Trophy Hunter 3D",
     "url": "juegos/african-safari-trophy-hunter/",
-    "plataforma": ["Win95, Win98, Win2000"],
+    "plataforma": ["Win95", "Win98", "Win2000"],
     "genero": ["Simulation", "Sports"],
     "desarrollador": ["Quantum Axcess"],
     "distribuidor": ["WizardWorks Group, Inc."],
@@ -2550,7 +2550,7 @@
   {
     "titulo": "Sydney 2000",
     "url": "juegos/sydney-2000/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Deportes", "Multievento olímpico"],
     "desarrollador": ["Attention to Detail"],
     "distribuidor": ["Eidos Interactive"],
@@ -2576,7 +2576,7 @@
   {
     "titulo": "Close Combat IV",
     "url": "juegos/close-combat-iv/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000, WinXP, Win7"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000", "WinXP", "Win7"],
     "genero": ["Real‑time strategy", "Wargame"],
     "desarrollador": ["Atomic Games"],
     "distribuidor": ["Strategic Simulations Inc. (SSI)"],
@@ -2589,7 +2589,7 @@
   {
     "titulo": "Duke Nukem 3D",
     "url": "juegos/duke-nukem-3d/",
-    "plataforma": ["MsDos, Win95, Win98, WinNT, Win2000, WinXP"],
+    "plataforma": ["MsDos", "Win95", "Win98", "WinNT", "Win2000", "WinXP"],
     "genero": ["First‑person shooter"],
     "desarrollador": ["3D Realms (alias Apogee/3D Realms Team)"],
     "distribuidor": ["FormGen (PC), GT Interactive (retail), Sega (Saturn/PlayStation in some regions)"],
@@ -2602,7 +2602,7 @@
   {
     "titulo": "Battleground. 1815 Waterloo",
     "url": "juegos/battleground-1815-waterloo/",
-    "plataforma": ["Win3.x, Win95, Win98"],
+    "plataforma": ["Win3.x", "Win95", "Win98"],
     "genero": ["Turn-based strategy", "Computer wargame"],
     "desarrollador": ["TalonSoft"],
     "distribuidor": ["TalonSoft (EE.UU.), Empire Interactive (UE), Bomico (Alemania)"],
@@ -2615,7 +2615,7 @@
   {
     "titulo": "Gadget: Invention, Travel & Adventure",
     "url": "juegos/gadget-invention-travel-and-adventure/",
-    "plataforma": ["Win3.x, Win95"],
+    "plataforma": ["Win3.x", "Win95"],
     "genero": ["Aventura gráfica", "Interactiva", "Ciencia ficción", "Visual novel"],
     "desarrollador": ["Synergy Inc."],
     "distribuidor": ["Synergy Interactive", "Panasonic Interactive Media"],
@@ -2628,7 +2628,7 @@
   {
     "titulo": "Return to Zork",
     "url": "juegos/return-to-zork/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Aventura gráfica", "Point & Click", "Fantasía"],
     "desarrollador": ["Activision (Infocom)"],
     "distribuidor": ["Activision"],
@@ -2641,7 +2641,7 @@
   {
     "titulo": "Return to Zork",
     "url": "juegos/return-to-zork-2/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Aventura gráfica", "Point & Click", "Fantasía"],
     "desarrollador": ["Activision (Infocom)"],
     "distribuidor": ["Activision"],
@@ -2667,7 +2667,7 @@
   {
     "titulo": "Battle Isle: The Andosia War",
     "url": "juegos/battle-isle-the-andosia-war/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Turn-based strategy"],
     "desarrollador": ["Cauldron"],
     "distribuidor": ["Blue Byte"],
@@ -2680,7 +2680,7 @@
   {
     "titulo": "Dungeon Keeper",
     "url": "juegos/dungeon-keeper/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Real‑time strategy", "God game", "Dungeon management"],
     "desarrollador": ["Bullfrog Productions"],
     "distribuidor": ["Electronic Arts"],
@@ -2706,7 +2706,7 @@
   {
     "titulo": "Star Wars: Episodio I – La Amenaza Fantasma",
     "url": "juegos/star-wars-episodio-i-la-amenaza-fantasma/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Acción/Aventura"],
     "desarrollador": ["Big Ape Productions"],
     "distribuidor": ["LucasArts"],
@@ -2719,7 +2719,7 @@
   {
     "titulo": "The X-Files: The Game",
     "url": "juegos/the-x-files-the-game-2/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura interactiva", "FMV"],
     "desarrollador": ["HyperBole Studios"],
     "distribuidor": ["Fox Interactive"],
@@ -2732,7 +2732,7 @@
   {
     "titulo": "Scotland Yard: A la Búsqueda de Mister X",
     "url": "juegos/scotland-yard-a-la-busqueda-de-mister-x-2/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["Estrategia", "Aventura", "Deductivo"],
     "desarrollador": ["Cryo Interactive"],
     "distribuidor": ["Ravensburger Interactive"],
@@ -2745,7 +2745,7 @@
   {
     "titulo": "King's Quest IV: The Perils of Rosella",
     "url": "juegos/kings-quest-iv/",
-    "plataforma": ["MsDos, Win3.x", "Win95"],
+    "plataforma": ["MsDos", "Win3.x", "Win95"],
     "genero": ["Aventura gráfica", "Point & Click", "Fantasía"],
     "desarrollador": ["Sierra On‑Line"],
     "distribuidor": ["Sierra On‑Line"],
@@ -2758,7 +2758,7 @@
   {
     "titulo": "King’s Quest VI: Heir Today, Gone Tomorrow",
     "url": "juegos/kings-quest-vi/",
-    "plataforma": ["MsDos, Win3.x", "Win95"],
+    "plataforma": ["MsDos", "Win3.x", "Win95"],
     "genero": ["Aventura gráfica", "Point & Click", "Fantasía"],
     "desarrollador": ["Sierra On‑Line"],
     "distribuidor": ["Sierra On‑Line"],
@@ -2771,7 +2771,7 @@
   {
     "titulo": "King's Quest V: Absence Makes the Heart Go Yonder!",
     "url": "juegos/kings-quest-v/",
-    "plataforma": ["MsDos, Win3.x", "Win95"],
+    "plataforma": ["MsDos", "Win3.x", "Win95"],
     "genero": ["Aventura gráfica", "Point & Click", "Fantasía"],
     "desarrollador": ["Sierra On‑Line"],
     "distribuidor": ["Sierra On‑Line"],
@@ -2784,7 +2784,7 @@
   {
     "titulo": "Deo Gratias",
     "url": "juegos/deo-gratias/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Strategy", "Tactics (God‑game)"],
     "desarrollador": ["Cryo Interactive Entertainment"],
     "distribuidor": ["Cryo Interactive Entertainment, France Télécom Multimedia"],
@@ -2797,7 +2797,7 @@
   {
     "titulo": "King's Quest VI: Heir Today, Gone Tomorrow",
     "url": "juegos/kings-quest-vi-2/",
-    "plataforma": ["MsDos, Win3.x", "Win95"],
+    "plataforma": ["MsDos", "Win3.x", "Win95"],
     "genero": ["Aventura gráfica", "Point & Click", "Fantasía"],
     "desarrollador": ["Sierra On‑Line"],
     "distribuidor": ["Sierra On‑Line"],
@@ -2823,7 +2823,7 @@
   {
     "titulo": "Heist",
     "url": "juegos/heist/",
-    "plataforma": ["Win98, WinMe, Win2000, WinXP"],
+    "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
     "genero": ["Acción", "Estrategia", "Sigilo", "Crimen"],
     "desarrollador": ["Virgin Interactive Entertainment (Europe) Ltd."],
     "distribuidor": ["Virgin Interactive Entertainment (Europe) Ltd."],
@@ -2836,7 +2836,7 @@
   {
     "titulo": "Imperium Galactica",
     "url": "juegos/imperium-galactica/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["4X", "Estrategia", "Ciencia ficción"],
     "desarrollador": ["Digital Reality"],
     "distribuidor": ["GT Interactive"],
@@ -2849,7 +2849,7 @@
   {
     "titulo": "Atlantis: The Lost Tales",
     "url": "juegos/atlantis/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Adventure"],
     "desarrollador": ["Cryo Interactive Entertainment"],
     "distribuidor": ["Cryo Interactive", "DreamCatcher (NA)"],
@@ -2862,7 +2862,7 @@
   {
     "titulo": "Pompeya: La leyenda del Vesubio",
     "url": "juegos/pompeya-la-leyenda-del-vesubio/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Aventura gráfica", "Educativo", "Fantasía histórica"],
     "desarrollador": ["Arxel Tribe (en colaboración con Réunion des Musées Nationaux y Soprintendenza Archeologica di Pompei)"],
     "distribuidor": ["Cryo Interactive"],
@@ -2875,7 +2875,7 @@
   {
     "titulo": "Heavy Gear",
     "url": "juegos/heavy-gear-2/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Simulación táctica", "Shooter en primera persona", "Mechas", "Ciencia ficción"],
     "desarrollador": ["Activision"],
     "distribuidor": ["Activision"],
@@ -2888,7 +2888,7 @@
   {
     "titulo": "Flash Point: Korea",
     "url": "juegos/flash-point-korea/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Simulación de vuelo", "Combate aéreo", "Militar moderno"],
     "desarrollador": ["G2 Interactive"],
     "distribuidor": ["Virgin Interactive"],
@@ -2901,7 +2901,7 @@
   {
     "titulo": "Heroes of Might and Magic II: The Succession Wars",
     "url": "juegos/heroes-of-might-and-magic-ii/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Estrategia por turnos", "Fantasía", "4X"],
     "desarrollador": ["New World Computing"],
     "distribuidor": ["The 3DO Company"],
@@ -2914,7 +2914,7 @@
   {
     "titulo": "Heroes of Might and Magic III: The Restoration of Erathia",
     "url": "juegos/heroes-of-might-and-magic-iii/",
-    "plataforma": ["MsDos, Win95, Win98"],
+    "plataforma": ["MsDos", "Win95", "Win98"],
     "genero": ["Estrategia por turnos", "Fantasía", "4X"],
     "desarrollador": ["New World Computing"],
     "distribuidor": ["The 3DO Company"],
@@ -2927,7 +2927,7 @@
   {
     "titulo": "Corsairs",
     "url": "juegos/corsairs/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Strategy", "Action", "Adventure"],
     "desarrollador": ["Microïds"],
     "distribuidor": ["Microïds"],
@@ -2940,7 +2940,7 @@
   {
     "titulo": "FX Chess",
     "url": "juegos/fx-chess/",
-    "plataforma": ["Win98, WinMe, WinXP"],
+    "plataforma": ["Win98", "WinMe", "WinXP"],
     "genero": ["Ajedrez", "Estrategia", "Educativo"],
     "desarrollador": ["Rebel Company", "FX Interactive"],
     "distribuidor": ["FX Interactive"],
@@ -2953,7 +2953,7 @@
   {
     "titulo": "Neverwinter Nights 2: Chaotic Evil",
     "url": "juegos/neverwinter-nights-2-chaotic-evil/",
-    "plataforma": ["Win95, Win98, WinMe, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinMe", "WinXP"],
     "genero": ["RPG", "Rol táctico", "Fantasía"],
     "desarrollador": ["Obsidian Entertainment"],
     "distribuidor": ["Atari Interactive"],
@@ -2966,7 +2966,7 @@
   {
     "titulo": "Neverwinter Nights 2: Lawful Good",
     "url": "juegos/neverwinter-nights-2-lawful-good-2/",
-    "plataforma": ["Win95, Win98, WinXP"],
+    "plataforma": ["Win95", "Win98", "WinXP"],
     "genero": ["RPG", "Rol táctico", "Fantasía"],
     "desarrollador": ["Obsidian Entertainment"],
     "distribuidor": ["Atari Interactive"],
@@ -2979,7 +2979,7 @@
   {
     "titulo": "Age of Empires III",
     "url": "juegos/age-of-empires-iii/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft Game Studios, MacSoft & Destineer (Mac)"],
@@ -2992,7 +2992,7 @@
   {
     "titulo": "Diablo II: Battle Chest",
     "url": "juegos/diablo-ii-battle-chest/",
-    "plataforma": ["Win95, Win98, Win2000, WinXP"],
+    "plataforma": ["Win95", "Win98", "Win2000", "WinXP"],
     "genero": ["Action role‑playing", "Hack‑and‑slash"],
     "desarrollador": ["Blizzard North"],
     "distribuidor": ["Blizzard Entertainment"],
@@ -3005,7 +3005,7 @@
   {
     "titulo": "Age of Empires. Edición coleccionistas",
     "url": "juegos/age-of-empires-edicion-coleccionistas/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft", "Ubisoft (Exclusive packaging)"],
@@ -3018,7 +3018,7 @@
   {
     "titulo": "Age of Empires. Edición coleccionistas",
     "url": "juegos/age-of-empires-edicion-coleccionistas-2/",
-    "plataforma": ["Win95, Win98, WinNT, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinNT", "Win2000"],
     "genero": ["Real-time strategy"],
     "desarrollador": ["Ensemble Studios"],
     "distribuidor": ["Microsoft", "Ubisoft (Exclusive packaging)"],
@@ -3044,7 +3044,7 @@
   {
     "titulo": "Drácula: Resurrección",
     "url": "juegos/dracula-resurreccion/",
-    "plataforma": ["Win95, Win98, WinMe"],
+    "plataforma": ["Win95", "Win98", "WinMe"],
     "genero": ["Aventura gráfica", "Point & Click"],
     "desarrollador": ["Index+", "France Telecom Multimedia"],
     "distribuidor": ["Microïds"],
@@ -3057,7 +3057,7 @@
   {
     "titulo": "Star Wars: Rebel Assault II – The Hidden Empire",
     "url": "juegos/star-wars-rebel-assault-ii-the-hidden-empire/",
-    "plataforma": ["Win95, Win98"],
+    "plataforma": ["Win95", "Win98"],
     "genero": ["Accion", "Shooter sobre railes"],
     "desarrollador": ["LucasArts"],
     "distribuidor": ["LucasArts"],
@@ -3070,7 +3070,7 @@
   {
     "titulo": "America: No Peace Beyond the Line!",
     "url": "juegos/america-no-peace-beyond-the-line/",
-    "plataforma": ["Win95, Win98, WinMe, Win2000"],
+    "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
     "genero": ["Estrategia en tiempo real (RTS)"],
     "desarrollador": ["Related Designs"],
     "distribuidor": ["Data Becker"],
