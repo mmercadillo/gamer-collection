@@ -10,7 +10,7 @@
       "descripcion": "Colección que incluye Age of Empires III y las expansiones The WarChiefs y The Asian Dynasties, con campañas y escaramuzas ambientadas en la colonización de América.",
       "incluye": [],
       "serie":[],
-      "tags":[]      
+      "tags": []      
     },
     {
       "titulo": "Alpha Protocol: Tu Decisión es tu Arma",
@@ -23,7 +23,7 @@
       "descripcion": "Juego de rol y acción ambientado en un mundo de espionaje moderno, donde las decisiones del jugador influyen directamente en la historia y en las relaciones con otros personajes.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
     {
       "titulo": "Beijing 2008",
@@ -36,7 +36,7 @@
       "descripcion": "Videojuego oficial de los Juegos Olímpicos de Pekín 2008. Incluye múltiples disciplinas deportivas con representación realista de atletas y escenarios olímpicos, ofreciendo modos de competición individual y multijugador.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "BioShock 2",
@@ -49,7 +49,7 @@
       "descripcion": "Segunda entrega de la saga BioShock que devuelve al jugador a Rapture, esta vez en el papel de un Big Daddy, combinando acción en primera persona con poderes plasmídicos.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Codegame: Panzers. Cold War",
@@ -62,7 +62,7 @@
       "descripcion": "Entrega de la saga Panzers ambientada en un conflicto ficticio de la Guerra Fría, con batallas estratégicas en escenarios urbanos y bélicos de gran escala.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
     {
       "titulo": "Dawn of War II: Chaos Rising",
@@ -75,7 +75,7 @@
       "descripcion": "Expansión de Warhammer 40,000: Dawn of War II que introduce la amenaza del Caos, nuevas campañas, unidades y posibilidades multijugador.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Empire Earth III",
@@ -88,7 +88,7 @@
       "descripcion": "Tercera entrega de la saga Empire Earth que permite dirigir civilizaciones desde la prehistoria hasta el futuro, con tres facciones principales y un enfoque más simplificado en la gestión.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Kane & Lynch: Dead Men",
@@ -101,7 +101,7 @@
       "descripcion": "Shooter en tercera persona centrado en Kane y Lynch, dos criminales obligados a colaborar en una historia de violencia y traiciones.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Lost Planet: Extreme Condition",
@@ -114,7 +114,7 @@
       "descripcion": "Juego de acción en tercera persona ambientado en un planeta helado, donde el protagonista lucha contra criaturas alienígenas y facciones humanas utilizando armamento futurista y mechas.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Port Royale 3",
@@ -127,7 +127,7 @@
       "descripcion": "Juego de simulación y estrategia ambientado en el Caribe del siglo XVII, que combina comercio marítimo, gestión de colonias y combates navales.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Risen",
@@ -140,7 +140,7 @@
       "descripcion": "Juego de rol en tercera persona ambientado en una isla volcánica llena de criaturas, mazmorras y facciones enfrentadas, donde las elecciones del jugador influyen en la historia.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Sacred 2: Fallen Angel",
@@ -153,7 +153,7 @@
       "descripcion": "Juego de rol y acción en un mundo abierto de fantasía, con seis clases jugables, combates en tiempo real y un extenso modo multijugador cooperativo.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Sid Meier's Civilization IV: Complete",
@@ -166,7 +166,7 @@
       "descripcion": "Edición completa de Civilization IV que incluye el juego base y todas sus expansiones, ofreciendo campañas y modos de juego adicionales en la clásica saga de estrategia por turnos.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Stormrise",
@@ -179,7 +179,7 @@
       "descripcion": "Juego de estrategia en tiempo real ambientado en un futuro postapocalíptico, con combates tácticos en entornos tridimensionales y control directo de las unidades.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "Supreme Commander: Forged Alliance",
@@ -192,7 +192,7 @@
       "descripcion": "Expansión independiente de Supreme Commander que introduce una nueva facción, campañas adicionales y mejoras en el sistema de juego estratégico a gran escala.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     },
         {
       "titulo": "The Witcher",
@@ -205,6 +205,6 @@
       "descripcion": "Juego de rol basado en la saga literaria de Andrzej Sapkowski, donde el jugador encarna a Geralt de Rivia en un oscuro mundo de fantasía lleno de decisiones morales y combates con espada y magia.",
       "incluye": [],
       "serie":[],
-      "tags":[]   
+      "tags": []   
     }
 ]

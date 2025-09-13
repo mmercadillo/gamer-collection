@@ -10,7 +10,7 @@
       "descripcion": "Aventura gráfica protagonizada por Ben, el líder de una banda de moteros, que se ve envuelto en una trama de traiciones y persecuciones en un futuro cercano.",
       "incluye": [],
       "serie": ["LucasArts Legends"],
-      "tags":[]
+      "tags": []
     },
         {
       "titulo": "Indiana Jones and the Fate of Atlantis",
@@ -23,7 +23,7 @@
       "descripcion": "Aventura gráfica clásica en la que Indiana Jones busca la legendaria Atlántida, con múltiples caminos narrativos y puzles ambientados en escenarios exóticos.",
       "incluye": [],
       "serie": ["LucasArts Legends"],
-      "tags":[]
+      "tags": []
     },
     {
       "titulo": "La Fuga de Monkey Island",
@@ -36,7 +36,7 @@
       "descripcion": "Cuarta entrega de la saga Monkey Island en 3D, en la que Guybrush Threepwood debe enfrentarse de nuevo a LeChuck y a la corrupción que amenaza el Caribe.",
       "incluye": [],
       "serie": ["LucasArts Legends"],
-      "tags":[]
+      "tags": []
     },
     {
       "titulo": "Outlaws",
@@ -49,7 +49,7 @@
       "descripcion": "Shooter en primera persona ambientado en el Salvaje Oeste, con estilo cinematográfico y expansión incluida 'A Handful of Missions'.",
       "incluye": [],
       "serie": ["LucasArts Legends"],
-      "tags":[]
+      "tags": []
     },    
     {
       "titulo": "Star Wars: Dark Forces II - Jedi Knight",
@@ -62,7 +62,7 @@
       "descripcion": "Segunda entrega de la saga Dark Forces en la que Kyle Katarn descubre sus poderes Jedi, combinando acción en primera persona con el uso de la Fuerza y combates con sable láser.",
       "incluye": [],
       "serie": ["LucasArts Legends"],
-      "tags":[]
+      "tags": []
     },
         {
       "titulo": "Star Wars: Republic Commando",
@@ -75,7 +75,7 @@
       "descripcion": "Shooter táctico en primera persona ambientado en el universo Star Wars, donde el jugador lidera un escuadrón de comandos clon en misiones estratégicas durante las Guerras Clon.",
       "incluye": [],
       "serie": ["LucasArts Legends"],
-      "tags":[]
+      "tags": []
     },
         {
       "titulo": "The Curse of Monkey Island",
@@ -88,7 +88,7 @@
       "descripcion": "Tercera entrega de la saga Monkey Island, con un estilo visual dibujado a mano, humor característico y nuevas aventuras de Guybrush Threepwood contra el malvado pirata LeChuck.",
       "incluye": [],
       "serie": ["LucasArts Legends"],
-      "tags":[]
+      "tags": []
     },
         {
       "titulo": "The Dig",
@@ -101,6 +101,6 @@
       "descripcion": "Aventura gráfica de ciencia ficción en la que un equipo de astronautas queda atrapado en un planeta alienígena, enfrentándose a misterios y tecnología de una civilización desaparecida.",
       "incluye": [],
       "serie": ["LucasArts Legends"],
-      "tags":[]
+      "tags": []
     }
 ]

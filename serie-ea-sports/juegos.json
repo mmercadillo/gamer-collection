@@ -10,7 +10,7 @@
     "descripcion": "Entrega de la saga FIFA centrada en el realismo de los partidos y el modo Carrera, con mejoras en el control del balón y la inteligencia artificial.",
     "incluye": [],
     "serie": ["EA Sports"],
-    "tags":[]
+    "tags": []
   },
   {
     "titulo": "FIFA Manager 10",
@@ -23,7 +23,7 @@
     "descripcion": "Entrega de 2009 de la saga FIFA Manager que permite al jugador dirigir un club de fútbol, gestionando fichajes, entrenamientos, finanzas y partidos en una simulación completa de gestión deportiva.",
     "incluye": [],
     "serie": ["EA Sports"],
-    "tags":[]
+    "tags": []
   },
   {
     "titulo": "Madden NFL 2004",
@@ -36,7 +36,7 @@
     "descripcion": "Entrega de la saga Madden que introdujo el innovador modo Owner, permitiendo al jugador gestionar todos los aspectos de un equipo de la NFL además de jugar los partidos.",
     "incluye": [],
     "serie": ["EA Sports"],
-    "tags":[]
+    "tags": []
   },
   {
     "titulo": "Madden NFL 2005",
@@ -49,7 +49,7 @@
     "descripcion": "Entrega de la saga Madden centrada en la defensa, con la introducción del sistema Hit Stick y mejoras en el control de los equipos de la NFL.",
     "incluye": [],
     "serie": ["EA Sports"],
-    "tags":[]
+    "tags": []
   },
   {
     "titulo": "NBA Live 2005",
@@ -62,7 +62,7 @@
     "descripcion": "Entrega de la saga NBA Live que introdujo el sistema All-Star Weekend, incluyendo los concursos de mates y triples, además de mejoras en la jugabilidad en cancha.",
     "incluye": [],
     "serie": ["EA Sports"],
-    "tags":[]
+    "tags": []
   },
   {
     "titulo": "NHL 2005",
@@ -75,7 +75,7 @@
     "descripcion": "Entrega de la saga NHL que introdujo el sistema Open Ice Control para gestionar las jugadas y un nuevo enfoque en la jugabilidad táctica sobre el hielo.",
     "incluye": [],
     "serie": ["EA Sports"],
-    "tags":[]
+    "tags": []
   },
   {
     "titulo": "Rugby 2004",
@@ -88,7 +88,7 @@
     "descripcion": "Juego deportivo que incluye selecciones nacionales y clubes de rugby, con modos de torneo y partidos rápidos en un estilo realista característico de EA Sports.",
     "incluye": [],
     "serie": ["EA Sports"],
-    "tags":[]
+    "tags": []
   },
   {
     "titulo": "Total Club Manager 2005",
@@ -101,6 +101,6 @@
     "descripcion": "Juego de gestión futbolística que permite controlar todos los aspectos de un club, desde fichajes y finanzas hasta tácticas y desarrollo de la cantera.",
     "incluye": [],
     "serie": ["EA Sports"],
-    "tags":[]
+    "tags": []
   }
 ]
