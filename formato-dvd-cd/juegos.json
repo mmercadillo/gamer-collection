@@ -1676,6 +1676,32 @@
       "tags": []     
     }, 
     {
+      "titulo": "Medal of Honor: Allied Assault",
+      "url": "juegos/medal-of-honor-allied-assault/",
+      "plataforma": ["Windows 98", "Windows ME", "Windows 2000", "Windows XP"],
+      "genero": ["Shooter en primera persona"],
+      "desarrollador": ["2015, Inc."],
+      "distribuidor": ["Electronic Arts"],
+      "ean": [],
+      "descripcion": "Medal of Honor: Allied Assault es un shooter en primera persona ambientado en la Segunda Guerra Mundial. El jugador asume el papel del teniente Mike Powell, miembro del OSS, participando en misiones inspiradas en operaciones históricas, incluyendo el desembarco de Normandía.",
+      "incluye": [],
+      "serie": ["Medal of Honor"],
+      "tags": []
+    },
+    {
+      "titulo": "Medal of Honor: Allied Assault - Breakthrough",
+      "url": "juegos/medal-of-honor-allied-assault-breakthrough/",
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
+      "genero": ["Shooter en primera persona"],
+      "desarrollador": ["T.K.O. Software"],
+      "distribuidor": ["Electronic Arts"],
+      "ean": [],
+      "descripcion": "Medal of Honor: Allied Assault - Breakthrough es la segunda expansión del aclamado Medal of Honor: Allied Assault. Ambientado en la Segunda Guerra Mundial, esta entrega añade una nueva campaña que lleva al jugador a batallas en Italia y el norte de África, con nuevas armas, vehículos y modos multijugador.",
+      "incluye": [],
+      "serie": ["Medal of Honor"],
+      "tags": []
+    },
+    {
       "titulo": "Medal of Honor: Pacific Assault",
       "url": "juegos/medal-of-honor-pacific-assault/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
@@ -3352,6 +3378,19 @@
       "serie": [],
       "tags": []     
     }, 
+    {
+      "titulo": "WWII: Frontline Command",
+      "url": "juegos/wwii-frontline-command/",
+      "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
+      "genero": ["Estrategia en tiempo real"],
+      "desarrollador": ["The Bitmap Brothers"],
+      "distribuidor": ["Codemasters"],
+      "ean": [],
+      "descripcion": "WWII: Frontline Command es un juego de estrategia en tiempo real ambientado en la Segunda Guerra Mundial. El jugador asume el mando de tropas aliadas en diversos escenarios bélicos, gestionando recursos, unidades y tácticas de combate para superar intensas batallas históricas.",
+      "incluye": [],
+      "serie": [],
+      "tags": []
+    },
     {
       "titulo": "X: El Videojuego Oficial",
       "url": "juegos/x-el-videojuego-oficial/",

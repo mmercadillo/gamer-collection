@@ -1,0 +1,13 @@
+{
+  "titulo": "Half-Life",
+  "url": "juegos/half-life/",
+  "plataforma": ["Windows 95", "Windows 98", "Windows 2000", "Windows ME"],
+  "genero": ["Shooter en primera persona"],
+  "desarrollador": ["Valve"],
+  "distribuidor": ["Sierra Studios"],
+  "ean": [],
+  "descripcion": "Half-Life es un innovador shooter en primera persona en el que el jugador encarna a Gordon Freeman, un científico que debe sobrevivir a una catástrofe en el complejo de investigación Black Mesa. El juego combina acción, narrativa y exploración, y es considerado uno de los títulos más influyentes de su género.",
+  "incluye": [],
+  "serie": ["BestSeller Series"],
+  "tags": []
+}

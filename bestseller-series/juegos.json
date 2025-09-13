@@ -244,6 +244,19 @@
      "tags": []
     },
     {
+     "titulo": "Half-Life",
+     "url": "juegos/half-life/",
+     "plataforma": ["Win95", "Win98", "Win2000", "WinME"],
+     "genero": ["Shooter en primera persona"],
+     "desarrollador": ["Valve"],
+     "distribuidor": ["Sierra Studios"],
+     "ean": [],
+     "descripcion": "Half-Life es un innovador shooter en primera persona en el que el jugador encarna a Gordon Freeman, un científico que debe sobrevivir a una catástrofe en el complejo de investigación Black Mesa. El juego combina acción, narrativa y exploración, y es considerado uno de los títulos más influyentes de su género.",
+     "incluye": [],
+     "serie": ["BestSeller Series"],
+     "tags": []
+    },
+    {
      "titulo":"The Operative: No one lives forever",
      "url":"juegos/the-operative-no-one-lives-forever/",
      "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
