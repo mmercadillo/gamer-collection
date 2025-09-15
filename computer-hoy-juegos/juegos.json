@@ -1,7 +1,7 @@
 [
     {
       "titulo": "American conquest",
-      "url": "juegos/american-conquest/",
+      "url": "juegos/american-conquest-chj/",
       "plataforma": ["Win98", "WinME", "Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["GSC Game World"],
@@ -14,7 +14,7 @@
     },
     {
       "titulo": "Battle realms",
-      "url": "juegos/battle-realms/",
+      "url": "juegos/battle-realms-chj/",
       "plataforma": ["Win98", "WinME", "Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Liquid Entertainment"],
@@ -27,7 +27,7 @@
     },
     {
       "titulo": "Beach life",
-      "url": "juegos/beach-life/",
+      "url": "juegos/beach-life-chj/",
       "plataforma": ["Win98", "WinME", "Win2000", "WinXP"],
       "genero": ["Simulación", "Estrategia"],
       "desarrollador": ["Deep Red Games"],
@@ -40,7 +40,7 @@
     },
     {
       "titulo": "Big Mutha truckers",
-      "url": "juegos/big-mutha-truckers/",
+      "url": "juegos/big-mutha-truckers-chj/",
       "plataforma": ["Win98", "WinME", "Win2000", "WinXP"],
       "genero": ["Conducción", "Acción"],
       "desarrollador": ["Eutechnyx"],
