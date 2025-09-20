@@ -143,34 +143,35 @@
   }
 
   function card(j) {
-  const slug = encodeURIComponent(j.url);
-  const plataformas = (j.plataforma||[]).join(' · ');
-  const genero = (j.genero||[]).join(' · ');
-  const serie = (j.serie||[]).join(' · ');
+    const slug = encodeURIComponent(j.url);
+    const plataformas = (j.plataforma||[]).join(' · ');
+    const genero = (j.genero||[]).join(' · ');
+    const serie = (j.serie||[]).join(' · ');
 
-  const rutaBase = (j.url || '').replace(/\/+$/, '');
-  const rutaImgs = rutaBase + '/img/';
-  const extensiones = ['.jpg', '.jpeg', '.png', '.webp'];
-  let miniaturaHTML = '';
+    const rutaBase = (j.url || '').replace(/\/+$/, '');
+    const rutaImgs = rutaBase + '/img/';
+    const extensiones = ['.jpg', '.jpeg', '.png'];
+    let miniaturaHTML = '';
 
-  for (let ext of extensiones) {
-    const testSrc = rutaImgs + '001' + ext;
-    miniaturaHTML += `
-      <img src="${testSrc}" alt="Miniatura de ${j.titulo}" class="mt-3 aspect-video object-cover w-full rounded-xl border" loading="lazy" onerror="this.style.display='none';">
-    `;
-  }
+    for (let ext of extensiones) {
+      const testSrc = rutaImgs + '001' + ext;
+      miniaturaHTML += `
+        <img src="${testSrc}" alt="Miniatura de ${j.titulo}" class="mt-3 aspect-video object-cover w-full rounded-xl border" loading="lazy" onerror="this.style.display='none';">
+      `;
+      if(miniaturaHTML != '') break;
+    }
 
-  return `
-      <a class="group block p-5 rounded-2xl border bg-white hover:shadow-sm transition" href="#/game/${slug}">
-        <div class="flex items-start justify-between gap-3">
-          <h3 class="text-lg font-semibold leading-tight">${j.titulo}</h3>
-          ${serie ? `<span class="text-[10px] px-2 py-1 rounded-full bg-zinc-100 text-zinc-700">${serie}</span>` : ''}
-        </div>
-        ${miniaturaHTML}<p class="mt-2 text-sm text-zinc-600 line-clamp-2">${j.descripcion||''}</p>
-        <div class="mt-3 text-xs text-zinc-500">${genero || '&nbsp;'}</div>
-        <div class="mt-1 text-xs text-zinc-500">${plataformas || '&nbsp;'}</div>
-      </a>
-    `;
+    return `
+        <a class="group block p-5 rounded-2xl border bg-white hover:shadow-sm transition" href="#/game/${slug}">
+          <div class="flex items-start justify-between gap-3">
+            <h3 class="text-lg font-semibold leading-tight">${j.titulo}</h3>
+            ${serie ? `<span class="text-[10px] px-2 py-1 rounded-full bg-zinc-100 text-zinc-700">${serie}</span>` : ''}
+          </div>
+          ${miniaturaHTML}<p class="mt-2 text-sm text-zinc-600 line-clamp-2">${j.descripcion||''}</p>
+          <div class="mt-3 text-xs text-zinc-500">${genero || '&nbsp;'}</div>
+          <div class="mt-1 text-xs text-zinc-500">${plataformas || '&nbsp;'}</div>
+        </a>
+      `;
   }
 
   // === Vista detalle del juego con galería 001..015 ===
