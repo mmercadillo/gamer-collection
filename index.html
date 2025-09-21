@@ -17,7 +17,7 @@
       <nav class="text-sm text-zinc-600 flex gap-4">
         <a class="hover:underline" href="#/list">Listado</a>
         <a class="hover:underline" href="#/series">Series</a>
-        <a class="hover:underline" href="#/about">Acerca de</a>
+        <a class="hover:underline" href="#/about">Contacto</a>
       </nav>
     </div>
   </header>
@@ -59,7 +59,10 @@
 
   // ===== VISTAS =====
   function renderAbout(){
-    return `<section class="prose max-w-none"><h1 class="text-3xl font-semibold mb-4">Acerca de</h1><p>SPA estática que carga los datos desde <code>${DATA_URL}</code>.</p></section>`;
+    return `<section class="prose max-w-none">
+              <h1 class="text-3xl font-semibold mb-4">Contacto</h1>
+              <p>Si quieres contactar, para vender tus videojuegos o para hacer una sugerencia: <code>pcgamingcollector@gmail.com</code>.</p>
+            </section>`;
   }
 
   function renderSeries(juegos){
@@ -267,7 +270,7 @@
 
     setTimeout(() => {
       if (loaded === 0) {
-        cont.innerHTML = `<div class="text-sm text-zinc-500">No se encontraron imágenes en <code>${ruta}</code></div>`;
+        cont.innerHTML = `<div class="text-sm text-zinc-500">No se encontraron imágenes</div>`;
       }
     }, 1000);
   }
