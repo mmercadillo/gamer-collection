@@ -5513,7 +5513,7 @@
     },
     {
       "titulo": "1917: Project Helios Collector's Edition",
-      "url": "juegos/7-sins-cddvd-cddvd/",
+      "url": "juegos/7-sins-cddvd/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
       "genero": ["Simulación", "Vida"],
       "desarrollador": ["Studio 8"],
@@ -5526,7 +5526,7 @@
     },
     {
       "titulo": "1917: Project Helios Collector's Edition",
-      "url": "juegos/1917-project-helios-collectors-edition-cddvd-cddvd/",
+      "url": "juegos/1917-project-helios-collectors-edition-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Aventura", "Puzzle"],
       "desarrollador": ["Game Factory Interactive"],
@@ -5539,7 +5539,7 @@
     },
     {
       "titulo": "Age of Empires III",
-      "url": "juegos/age-of-empires-iii-cddvd-cddvd/",
+      "url": "juegos/age-of-empires-iii-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Ensemble Studios"],
@@ -5552,7 +5552,7 @@
     },
     {
       "titulo": "Age of Mythology: The Titans",
-      "url": "juegos/age-of-mithology-the-titans-cddvd-cddvd/",
+      "url": "juegos/age-of-mithology-the-titans-cddvd/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Ensemble Studios"],
@@ -5565,7 +5565,7 @@
     },
     {
       "titulo": "Alien Logic",
-      "url": "juegos/alien-logic-cddvd-cddvd/",
+      "url": "juegos/alien-logic-cddvd/",
       "plataforma": ["MsDos"],
       "genero": ["Rol", "Aventura"],
       "desarrollador": ["Cyberlore Studios"],
@@ -5578,7 +5578,7 @@
     },    
     {
       "titulo": "Alone in the Dark",
-      "url": "juegos/alone-in-the-dark-cddvd-cddvd/",
+      "url": "juegos/alone-in-the-dark-cddvd/",
       "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Survival Horror", "Aventura"],
       "desarrollador": ["Infogrames"],
@@ -5590,8 +5590,8 @@
       "tags": []     
     },
     {
-      "titulo": "AloAnachronox",
-      "url": "juegos/anachronox-cddvd-cddvd/",
+      "titulo": "Anachronox",
+      "url": "juegos/anachronox-cddvd/",
       "plataforma": ["Win95", "Win98", "WinMe"],
       "genero": ["Rol", "Aventura"],
       "desarrollador": ["Ion Storm"],
@@ -5604,7 +5604,7 @@
     },    
     {
       "titulo": "APB: All Points Bulletin",
-      "url": "juegos/apb-all-points-bulletin-cddvd-cddvd/",
+      "url": "juegos/apb-all-points-bulletin-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Shooter", "Acción"],
       "desarrollador": ["Realtime Worlds"],
@@ -5617,7 +5617,7 @@
     },
     {
       "titulo": "Arma: Armed Assault",
-      "url": "juegos/arma-armed-assault-cddvd-cddvd/",
+      "url": "juegos/arma-armed-assault-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Shooter", "Bélico"],
       "desarrollador": ["Bohemia Interactive"],
@@ -5630,7 +5630,7 @@
     },
     {
       "titulo": "Army Men: Sarge's Heroes",
-      "url": "juegos/army-men-sarges-heroes-cddvd-cddvd/",
+      "url": "juegos/army-men-sarges-heroes-cddvd/",
       "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Acción", "Shooter"],
       "desarrollador": ["The 3DO Company"],
@@ -5643,7 +5643,7 @@
     },
     {
       "titulo": "Art of Murder: FBI Confidential",
-      "url": "juegos/art-of-murder-fbi-confidential-cddvd-cddvd/",
+      "url": "juegos/art-of-murder-fbi-confidential-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Aventura gráfica", "Misterio"],
       "desarrollador": ["City Interactive"],
@@ -5656,7 +5656,7 @@
     },
     {
       "titulo": "Atlantis III: El Nuevo Mundo",
-      "url": "juegos/atlantis-iii-el-nuevo-mundo-cddvd-cddvd/",
+      "url": "juegos/atlantis-iii-el-nuevo-mundo-cddvd/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
       "genero": ["Aventura", "Puzzle"],
       "desarrollador": ["Cryo Interactive"],
@@ -5669,7 +5669,7 @@
     },    
     {
       "titulo": "Baldur's Gate II: Shadows of Amn",
-      "url": "juegos/baldurs-gate-ii-shadows-of-amn-cddvd-cddvd/",
+      "url": "juegos/baldurs-gate-ii-shadows-of-amn-cddvd/",
       "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Rol", "Rol"],
       "desarrollador": ["BioWare"],
@@ -5682,7 +5682,7 @@
     },  
     {
       "titulo": "Battlefield: Bad Company 2",
-      "url": "juegos/battlefield-bad-company-2-cddvd-cddvd/",
+      "url": "juegos/battlefield-bad-company-2-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Shooter"],
       "desarrollador": ["DICE"],
@@ -5695,7 +5695,7 @@
     }, 
     {
       "titulo": "Belief & Betrayal: El Medallón de Judas",
-      "url": "juegos/belief-betrayal-el-medallon-de-judas-cddvd-cddvd/",
+      "url": "juegos/belief-betrayal-el-medallon-de-judas-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Aventura gráfica", "Misterio"],
       "desarrollador": ["Arxel Tribe"],
@@ -5708,7 +5708,7 @@
     }, 
     {
       "titulo": "Beowulf: The Game",
-      "url": "juegos/beowulf-the-game-cddvd-cddvd/",
+      "url": "juegos/beowulf-the-game-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Acción", "Aventura"],
       "desarrollador": ["Ubisoft"],
@@ -5721,7 +5721,7 @@
     }, 
     {
       "titulo": "Black & White",
-      "url": "juegos/black-and-white-cddvd-cddvd/",
+      "url": "juegos/black-and-white-cddvd/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
       "genero": ["Estrategia", "Simulación"],
       "desarrollador": ["Lionhead Studios"],
@@ -5734,7 +5734,7 @@
     }, 
     {
       "titulo": "Black & White 2",
-      "url": "juegos/black-and-white-2-cddvd-cddvd/",
+      "url": "juegos/black-and-white-2-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Estrategia", "Dios simulador"],
       "desarrollador": ["Lionhead Studios"],
@@ -5747,7 +5747,7 @@
     }, 
     {
       "titulo": "Black Mirror",
-      "url": "juegos/black-mirror-cddvd-cddvd/",
+      "url": "juegos/black-mirror-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Aventura gráfica", "Misterio"],
       "desarrollador": ["Future Games"],
@@ -5760,7 +5760,7 @@
     }, 
     {
       "titulo": "Broken Sword: El Ángel de la Muerte",
-      "url": "juegos/broken-sword-el-angel-de-la-muerte-cddvd-cddvd/",
+      "url": "juegos/broken-sword-el-angel-de-la-muerte-cddvd/",
       "plataforma": ["Win2000", "WinXP"],
       "genero": ["Aventura gráfica", "Misterio"],
       "desarrollador": ["FuRevolution Software"],
@@ -5773,7 +5773,7 @@
     }, 
     {
       "titulo": "Broken Sword: El Sueño del Dragón",
-      "url": "juegos/broken-sword-el-sueno-del-dragon-cddvd-cddvd/",
+      "url": "juegos/broken-sword-el-sueno-del-dragon-cddvd/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
       "genero": ["Aventura gráfica", "Misterio"],
       "desarrollador": ["FuRevolution Software"],
@@ -5786,7 +5786,7 @@
     }, 
     {
       "titulo": "Call of Duty",
-      "url": "juegos/call-of-duty-cddvd-cddvd/",
+      "url": "juegos/call-of-duty-cddvd/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
       "genero": ["Shooter", "Bélico"],
       "desarrollador": ["Infinity Ward"],
@@ -5799,7 +5799,7 @@
     }, 
     {
       "titulo": "Call of Duty 4: Modern Warfare",
-      "url": "juegos/call-of-duty-4-modern-warfare-cddvd-cddvd/",
+      "url": "juegos/call-of-duty-4-modern-warfare-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Shooter"],
       "desarrollador": ["Infinity Ward"],
@@ -5812,7 +5812,7 @@
     }, 
     {
       "titulo": "Call of Duty: La Gran Ofensiva",
-      "url": "juegos/call-of-duty-la-gran-ofensiva-cddvd-cddvd/",
+      "url": "juegos/call-of-duty-la-gran-ofensiva-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Shooter", "Bélico"],
       "desarrollador": ["Infinity Ward"],
@@ -5825,7 +5825,7 @@
     }, 
     {
       "titulo": "Capitalism II",
-      "url": "juegos/capitalism-ii-cddvd-cddvd/",
+      "url": "juegos/capitalism-ii-cddvd/",
       "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Simulación", "Estrategia"],
       "desarrollador": ["Enlight"],
@@ -5838,7 +5838,7 @@
     }, 
     {
       "titulo": "Chicago 1930",
-      "url": "juegos/chicago-1930-cddvd-cddvd/",
+      "url": "juegos/chicago-1930-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Estrategia", "Gestión", "Crimen"],
       "desarrollador": ["Spellbound Entertainment"],
@@ -5851,7 +5851,7 @@
     }, 
     {
       "titulo": "Chronicles of Mystery: The Scorpio Ritual",
-      "url": "juegos/chronicles-of-mystery-the-scorpio-ritual-cddvd-cddvd/",
+      "url": "juegos/chronicles-of-mystery-the-scorpio-ritual-cddvd/",
       "plataforma": ["WinXP", "Windows Vista"],
       "genero": ["Aventura gráfica", "Misterio"],
       "desarrollador": ["City Interactive"],
@@ -5864,7 +5864,7 @@
     }, 
     {
       "titulo": "Civilization: Call to Power",
-      "url": "juegos/civilization-call-to-power-cddvd-cddvd/",
+      "url": "juegos/civilization-call-to-power-cddvd/",
       "plataforma": ["Win95", "Win98"],
       "genero": ["Estrategia por turnos"],
       "desarrollador": ["Activision"],
@@ -5877,7 +5877,7 @@
     },     
     {
       "titulo": "Codename: Outbreak",
-      "url": "juegos/codename-outbrake-cddvd-cddvd/",
+      "url": "juegos/codename-outbrake-cddvd/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
       "genero": ["Shooter", "Acción"],
       "desarrollador": ["Deep Red Games"],
@@ -5890,7 +5890,7 @@
     }, 
     {
       "titulo": "Colin McRae: DiRT",
-      "url": "juegos/collin-mcrae-dirt-cddvd-cddvd/",
+      "url": "juegos/collin-mcrae-dirt-cddvd/",
       "plataforma": ["WinXP", "Windows Vista", "Win7"],
       "genero": ["Carreras", "Rally"],
       "desarrollador": ["Codemasters"],
@@ -5903,7 +5903,7 @@
     }, 
     {
       "titulo": "Colin McRae Rally 3",
-      "url": "juegos/collin-mcrae-rally-3-cddvd-cddvd/",
+      "url": "juegos/collin-mcrae-rally-3-cddvd/",
       "plataforma": ["Win98", "WinMe", "Win2000" ,"WinXP"],
       "genero": ["Carreras", "Rally"],
       "desarrollador": ["Codemasters"],
@@ -5916,7 +5916,7 @@
     }, 
     {
       "titulo": "Command & Conquer: Red Alert 2",
-      "url": "juegos/command-and-conquer-red-alert-2-cddvd-cddvd/",
+      "url": "juegos/command-and-conquer-red-alert-2-cddvd/",
       "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Westwood Studios"],
@@ -5929,7 +5929,7 @@
     }, 
     {
       "titulo": "Command & Conquer: Red Alert 2 - Yuri's Revenge",
-      "url": "juegos/command-and-conquer-red-alert-2-yuris-revenge-cddvd-cddvd/",
+      "url": "juegos/command-and-conquer-red-alert-2-yuris-revenge-cddvd/",
       "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Westwood Studios"],
@@ -5942,7 +5942,7 @@
     }, 
     {
       "titulo": "Commandos Saga",
-      "url": "juegos/commandos-saga-cddvd-cddvd/",
+      "url": "juegos/commandos-saga-cddvd/",
       "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
       "genero": ["Estrategia en tiempo real"],
       "desarrollador": ["Pyro Studios"],
