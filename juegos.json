@@ -51,7 +51,8 @@
       "BestSeller Series"
     ],
     "tags": [
-      "Sierra"
+      "Sierra",
+      "Precintado"
     ]
   },
   {
@@ -424,7 +425,8 @@
       "BestSeller Series"
     ],
     "tags": [
-      "Sierra"
+      "Sierra",
+      "Precintado"
     ]
   },
   {
@@ -606,7 +608,7 @@
       "BestSeller Series"
     ],
     "tags": [
-      "Sierra"
+      "Precintado"
     ]
   },
   {
@@ -776,7 +778,8 @@
       "BestSeller Series"
     ],
     "tags": [
-      "Sierra"
+      "Sierra",
+      "Precintado"
     ]
   },
   {
@@ -1581,7 +1584,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -2097,7 +2100,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -2373,7 +2376,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -2883,7 +2886,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -2971,7 +2974,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -3479,7 +3482,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -3510,7 +3513,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -3568,7 +3571,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -3656,7 +3659,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -4032,7 +4035,8 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado",
+      "Limited Run"
     ]
   },
   {
@@ -4233,7 +4237,8 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Limited Run",
+      "Precintado"
     ]
   },
   {
@@ -4376,7 +4381,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -4726,7 +4731,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -5025,7 +5030,8 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado",
+      "Limited Run"
     ]
   },
   {
@@ -5054,7 +5060,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -5722,7 +5728,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -5943,7 +5949,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -6287,7 +6293,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -6398,7 +6404,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -6654,7 +6660,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -6773,7 +6779,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -7844,7 +7850,7 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -7922,7 +7928,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Anno 1404",
@@ -8466,7 +8474,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Destroyer Command",
@@ -8494,7 +8504,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Downtown Run",
@@ -8547,7 +8559,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Dungeon Siege",
@@ -8600,7 +8614,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Far Cry",
@@ -8704,7 +8720,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Heroes of Might and Magic Collection",
@@ -8731,7 +8749,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Heroes of Might and Magic II: Gold",
@@ -8809,7 +8829,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Heroes of Might and Magic V: Hammers of Fate",
@@ -9076,7 +9098,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Pandora's Box",
@@ -9262,7 +9286,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Rayman 3: Hoodlum Havoc",
@@ -9341,7 +9367,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Silent Hunter 4: Wolves of the Pacific",
@@ -9446,7 +9474,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "The Settlers: El Linaje de los Reyes",
@@ -9472,7 +9502,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "The Settlers II: 10º Aniversario",
@@ -9782,7 +9814,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Tom Clancy's Splinter Cell: Double Agent",
@@ -11312,7 +11346,9 @@
       "Todos",
       "Dinamic multimedia"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Alien Paranoia",
@@ -11341,7 +11377,8 @@
       "Dinamic multimedia"
     ],
     "tags": [
-      "Bigbox"
+      "Bigbox",
+      "Precintado"
     ]
   },
   {
@@ -11369,10 +11406,12 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "PcFutbol"
+      "PcFutbol",
+      "Precintado"
     ]
   },
   {
@@ -11460,10 +11499,11 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -11492,10 +11532,11 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -11522,10 +11563,11 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -11552,10 +11594,11 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -11581,10 +11624,11 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -11639,11 +11683,12 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
       "PcFutbol",
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -11669,10 +11714,11 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -11729,10 +11775,11 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Precintado"
     ]
   },
   {
@@ -12212,7 +12259,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Age of Empires III",
@@ -12287,7 +12336,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Alone in the Dark",
@@ -13169,7 +13220,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "D-Day",
@@ -13222,7 +13275,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Dawn of Magic",
@@ -13487,7 +13542,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Disciples II: Dark Prophecy",
@@ -13543,7 +13600,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Doom 3",
@@ -13596,7 +13655,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Dragon's Dogma: Dark Arisen",
@@ -14465,7 +14526,7 @@
       "Todos"
     ],
     "tags": [
-      "Great Naval Battles"
+      "Precintado"
     ]
   },
   {
@@ -14491,7 +14552,7 @@
       "Todos"
     ],
     "tags": [
-      "Great Naval Battles"
+      "Precintado"
     ]
   },
   {
@@ -14870,7 +14931,8 @@
       "Todos"
     ],
     "tags": [
-      "Heroes of Might and Magic"
+      "Heroes of Might and Magic",
+      "Precintado"
     ]
   },
   {
@@ -15065,7 +15127,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Inner Chains",
@@ -15429,7 +15493,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Lula 3D",
@@ -16382,7 +16448,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Puertas de Troya",
@@ -16510,7 +16578,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Reprobates",
@@ -18809,7 +18879,9 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Vietcong: Fist Alpha",
@@ -19599,7 +19671,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "American Conquest. Edicion Oro",
@@ -19766,7 +19840,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Death to Spies: Anthology",
@@ -19879,7 +19955,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Disciples III: Renaissance",
@@ -19906,7 +19984,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Disciples III: Resurrection",
@@ -20125,7 +20205,8 @@
       "FX Interactive"
     ],
     "tags": [
-      "Expansión"
+      "Expansión",
+      "Precintado"
     ]
   },
   {
@@ -20155,7 +20236,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Dungeons: The Dark Lord",
@@ -20271,7 +20354,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "FX Fútbol: Temporada 2013/14",
@@ -20301,7 +20386,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Fx Fútbol 2.0",
@@ -20357,7 +20444,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Emergency 4: Edición Oro",
@@ -21432,7 +21521,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Men of War: Condemned Heroes",
@@ -21714,7 +21805,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Painkiller: Edición de Oro",
@@ -22205,7 +22298,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Real Warfare Anthology",
@@ -22231,7 +22326,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Real Warfare 2: Las Cruzadas del Norte",
@@ -22650,7 +22747,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Sid Meier's Civilization II",
@@ -22758,7 +22857,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Sherlock Holmes Anthology",
@@ -23603,7 +23704,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Wings of Pray: Edición de Oro",
@@ -23656,7 +23759,9 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Age of Empires III: Colección Completa",
@@ -24149,7 +24254,9 @@
       "Todos",
       "Mk Interactive"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Inquisition",
@@ -25056,31 +25163,6 @@
     "tags": []
   },
   {
-    "titulo": "Caesar III",
-    "url": "juegos/caesar-iii/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "genero": [
-      "Estrategia",
-      "Construcción"
-    ],
-    "desarrollador": [
-      "Impressions Games"
-    ],
-    "distribuidor": [
-      "Sierra, the collection"
-    ],
-    "ean": [],
-    "descripcion": "Caesar III es un juego de estrategia y construcción de ciudades ambientado en el Imperio Romano. El jugador asume el papel de gobernador y debe diseñar y gestionar ciudades, asegurando la satisfacción de la población, la economía, el comercio y la defensa militar frente a invasores.",
-    "incluye": [],
-    "serie": [
-      "Todos"
-    ],
-    "tags": []
-  },
-  {
     "titulo": "Necronomicon: El Alba de las Tinieblas",
     "url": "juegos/necromicon-el-alba-de-las-tinieblas/",
     "plataforma": [
@@ -25282,7 +25364,8 @@
       "Todos"
     ],
     "tags": [
-      "Assassins Creed"
+      "Assassins Creed",
+      "Precintado"
     ]
   },
   {
