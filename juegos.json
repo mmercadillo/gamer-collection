@@ -9155,7 +9155,9 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [
+      "Precintado"
+    ]
   },
   {
     "titulo": "Playboy: The Mansion",
@@ -27697,5 +27699,126 @@
     "tags": [
       "Precintado"
     ]
+  },
+
+
+  {
+    "titulo": "Myst V: End of Ages",
+    "url": "juegos/myst-v-end-of-ages-codegame/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "Cyan Worlds"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "serie": [
+      "Codegame"
+    ],
+    "tags": [
+    ],
+    "descripcion": "Myst V: End of Ages es el capítulo final de la legendaria saga Myst. Presenta un mundo en 3D completamente interactivo donde el jugador debe explorar, resolver acertijos y descubrir los secretos del D'ni para decidir el destino de los libros de Ages.",
+    "incluye": [],
+    "estado": "Sin-verificar"
+  },
+  {
+    "titulo": "Driv3r",
+    "url": "juegos/driv3r-codegame/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Conducción"
+    ],
+    "desarrollador": [
+      "Reflections Interactive"
+    ],
+    "distribuidor": [
+      "Atari"
+    ],
+    "ean": [],
+    "serie": [
+      "Codegame"
+    ],
+    "tags": [
+    ],
+    "descripcion": "Driv3r es la tercera entrega de la saga Driver, que mezcla conducción y acción en un entorno de mundo abierto. El jugador encarna al agente Tanner, infiltrado en una red criminal, con misiones que combinan persecuciones en coche, exploración a pie y tiroteos.",
+    "incluye": [],
+    "estado": "Sin-verificar"
+  },
+
+  {
+    "titulo": "Alejandro Magno",
+    "url": "juegos/alejandro-magno-codegame/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Acción"
+    ],
+    "desarrollador": [
+      "GSC Game World"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "serie": [
+      "Codegame"
+    ],
+    "tags": [
+    ],
+    "descripcion": "Alejandro Magno es un juego de estrategia inspirado en la película homónima, donde el jugador revive las campañas del célebre conquistador macedonio. Combina batallas masivas en tiempo real con elementos de gestión y táctica militar.",
+    "incluye": [],
+    "estado": "Sin-verificar"
+  },
+
+  {
+    "titulo": "Age of Empires: Collector's Edition",
+    "url": "juegos/age-of-empires-collectors-edition-codegame/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft Game Studios"
+    ],
+    "ean": [],
+    "serie": [],
+    "tags": [
+    ],
+    "descripcion": "Age of Empires: Collector's Edition reúne en una sola edición los títulos clásicos de la saga de estrategia en tiempo real desarrollada por Ensemble Studios. Incluye Age of Empires, Age of Empires II y sus expansiones, ofreciendo horas de batallas históricas y campañas épicas.",
+    "incluye": [],
+    "estado": "Sin-verificar"
   }
+
+
+
+
+
+
 ]
