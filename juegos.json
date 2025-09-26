@@ -27725,8 +27725,7 @@
     "tags": [
     ],
     "descripcion": "Myst V: End of Ages es el capítulo final de la legendaria saga Myst. Presenta un mundo en 3D completamente interactivo donde el jugador debe explorar, resolver acertijos y descubrir los secretos del D'ni para decidir el destino de los libros de Ages.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "Driv3r",
@@ -27755,8 +27754,7 @@
     "tags": [
     ],
     "descripcion": "Driv3r es la tercera entrega de la saga Driver, que mezcla conducción y acción en un entorno de mundo abierto. El jugador encarna al agente Tanner, infiltrado en una red criminal, con misiones que combinan persecuciones en coche, exploración a pie y tiroteos.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "Alejandro Magno",
@@ -27785,8 +27783,7 @@
     "tags": [
     ],
     "descripcion": "Alejandro Magno es un juego de estrategia inspirado en la película homónima, donde el jugador revive las campañas del célebre conquistador macedonio. Combina batallas masivas en tiempo real con elementos de gestión y táctica militar.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "Age of Empires: Collector's Edition",
@@ -27814,8 +27811,7 @@
     "tags": [
     ],
     "descripcion": "Age of Empires: Collector's Edition reúne en una sola edición los títulos clásicos de la saga de estrategia en tiempo real desarrollada por Ensemble Studios. Incluye Age of Empires, Age of Empires II y sus expansiones, ofreciendo horas de batallas históricas y campañas épicas.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "Obscure",
@@ -27843,8 +27839,7 @@
     "tags": [
     ],
     "descripcion": "Obscure es un survival horror ambientado en un instituto norteamericano donde un grupo de estudiantes debe investigar sucesos extraños y enfrentarse a criaturas oscuras. Destaca por su modo cooperativo, que permite a dos jugadores avanzar juntos en la historia.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "Empire Earth II",
@@ -27869,8 +27864,7 @@
     "tags": [
     ],
     "descripcion": "Empire Earth II es un juego de estrategia en tiempo real que permite al jugador dirigir civilizaciones a lo largo de distintas eras históricas, desde la prehistoria hasta el futuro. Incluye innovaciones como el control de regiones, diplomacia avanzada y un completo editor de mapas.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "Lords of the Realm III",
@@ -27898,8 +27892,7 @@
     "tags": [
     ],
     "descripcion": "Lords of the Realm III es un juego de estrategia en tiempo real ambientado en la Edad Media. Los jugadores deben gestionar recursos, expandir territorios y librar batallas para hacerse con el control de reinos medievales europeos, combinando táctica militar y administración feudal.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "Star Wars: Republic Commando",
@@ -27949,8 +27942,7 @@
     "tags": [
     ],
     "descripcion": "El Señor de los Anillos: La Batalla por la Tierra Media es un juego de estrategia en tiempo real basado en la trilogía cinematográfica de Peter Jackson. Permite al jugador comandar ejércitos de las fuerzas del Bien o del Mal en batallas épicas ambientadas en la Tierra Media.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "El Señor de los Anillos: La Batalla por la Tierra Media II",
@@ -27974,8 +27966,7 @@
     "tags": [
     ],
     "descripcion": "El Señor de los Anillos: La Batalla por la Tierra Media II expande la experiencia de estrategia en tiempo real de la primera entrega, incluyendo nuevas facciones, héroes y escenarios. Basado tanto en los libros de Tolkien como en las películas, permite al jugador librar batallas en nuevas regiones de la Tierra Media.",
-    "incluye": [],
-    "estado": "Sin-verificar"
+    "incluye": []
   },
   {
     "titulo": "Warhammer Online: Age of Reckoning",
@@ -28002,9 +27993,488 @@
       "Online"
     ],
     "descripcion": "Warhammer Online: Age of Reckoning fue un MMORPG basado en el universo de fantasía de Warhammer. Ofrecía un fuerte enfoque en el combate entre reinos (RvR), con batallas masivas entre jugadores, asedios de fortalezas y un mundo persistente dividido entre la Alianza del Orden y la Destrucción.",
+    "incluye": []
+  },
+  {
+    "titulo": "Castle Strike",
+    "url": "juegos/castle-strike-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Related Designs"
+    ],
+    "distribuidor": [
+      "JoWooD Productions"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+    ],
+    "descripcion": "Castle Strike es un juego de estrategia en tiempo real ambientado en la Europa medieval. El jugador debe construir fortalezas, gestionar recursos y comandar ejércitos en campañas históricas, con un gran énfasis en asedios y combates de castillos.",
+    "incluye": []
+  },
+  {
+    "titulo": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+    "url": "juegos/splinter-cell-pandora-tomorrow-2-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción"
+    ],
+    "desarrollador": [
+      "Ubisoft Shanghai"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Segunda entrega de la saga Splinter Cell. El jugador controla al agente Sam Fisher en una misión de infiltración y espionaje internacional, con nuevas mecánicas de sigilo, gadgets avanzados y un innovador modo multijugador espía contra mercenarios.",
     "incluye": [],
-    "estado": "Sin-verificar"
-  }
+    "serie": [
+      "Todos"
+    ],
+    "tags": []
+  },
+  {
+    "titulo": "World of Goo",
+    "url": "juegos/world-of-goo-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Puzzle",
+      "Construcción"
+    ],
+    "desarrollador": [
+      "2D Boy"
+    ],
+    "distribuidor": [
+      "2D Boy"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+    ],
+    "descripcion": "World of Goo es un innovador juego de puzles basado en la física, donde el jugador utiliza bolas de goo para construir estructuras y resolver ingeniosos desafíos. Destaca por su estilo artístico único, humor peculiar y mecánicas adictivas.",
+    "incluye": []
+  },
+{
+  "titulo": "Total War: Medieval II",
+  "url": "juegos/total-war-medieval-ii-cddvd/",
+  "plataforma": [
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Estrategia en tiempo real",
+    "Táctica"
+  ],
+  "desarrollador": [
+    "Creative Assembly"
+  ],
+  "distribuidor": [
+    "Sega"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Total War: Medieval II es un juego de estrategia que combina gestión por turnos y batallas en tiempo real. Ambientado en la Edad Media, permite al jugador gobernar un reino, expandir su imperio mediante diplomacia y guerra, y librar enfrentamientos épicos con miles de unidades en el campo de batalla.",
+  "incluye": []
+},
+{
+  "titulo": "Red Faction II",
+  "url": "juegos/red-faction-ii-cddvd/",
+  "plataforma": [
+    "Win98",
+    "WinMe",
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Acción",
+    "Shooter en primera persona"
+  ],
+  "desarrollador": [
+    "Volition Inc."
+  ],
+  "distribuidor": [
+    "THQ"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Red Faction II es un shooter en primera persona ambientado en un futuro distópico donde los jugadores luchan contra un régimen opresivo. Destaca por su motor Geo-Mod, que permite destruir entornos y modificar el campo de batalla en tiempo real.",
+  "incluye": []
+},
+{
+  "titulo": "Monster Ville",
+  "url": "juegos/monster-ville-cddvd/",
+  "plataforma": [
+    "WinXP"
+  ],
+  "genero": [
+    "Estrategia",
+    "Simulación"
+  ],
+  "desarrollador": [
+    "Mindscape"
+  ],
+  "distribuidor": [
+    "Mindscape"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Monster Ville es un juego de estrategia y simulación en el que el jugador debe construir y gestionar una ciudad habitada por monstruos. La tarea consiste en mantener contentos a los habitantes, expandir la urbe y superar retos con un toque de humor fantástico.",
+  "incluye": []
+},
+{
+  "titulo": "Panzer General 3D Assault",
+  "url": "juegos/panzer-general-3d-assault-cddvd/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Estrategia por turnos"
+  ],
+  "desarrollador": [
+    "Strategic Simulations Inc. (SSI)"
+  ],
+  "distribuidor": [
+    "Mindscape"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+    "Todos"
+  ],
+  "descripcion": "Panzer General 3D Assault es un wargame de estrategia por turnos ambientado en la Segunda Guerra Mundial. El jugador dirige divisiones militares en campañas históricas, con un motor gráfico en 3D que supuso una evolución dentro de la serie Panzer General.",
+  "incluye": []
+},
+{
+  "titulo": "Tomb Raider: El Ángel de la Oscuridad",
+  "url": "juegos/tomb-raider-el-angel-de-la-oscuridad-cddvd/",
+  "plataforma": [
+    "Win98",
+    "WinMe",
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Acción",
+    "Aventura"
+  ],
+  "desarrollador": [
+    "Core Design"
+  ],
+  "distribuidor": [
+    "Eidos Interactive"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Tomb Raider: El Ángel de la Oscuridad es la sexta entrega de la saga Tomb Raider. Lara Croft se ve envuelta en un oscuro misterio en París, con una jugabilidad que combina exploración, plataformas, resolución de puzles y secuencias de acción en un entorno más narrativo y sombrío que en títulos anteriores.",
+  "incluye": []
+},
+{
+  "titulo": "Lords of Xulima",
+  "url": "juegos/lords-of-xulima-cddvd/",
+  "plataforma": [
+    "WinXP",
+    "Windows Vista",
+    "Win7",
+    "Win8"
+  ],
+  "genero": [
+    "Rol",
+    "Estrategia"
+  ],
+  "desarrollador": [
+    "Numantian Games"
+  ],
+  "distribuidor": [
+    "Numantian Games"
+  ],
+  "ean": [],
+  "serie": [],
+  "tags": [
+    "RPG",
+    "Clásico",
+    "Fantasía"
+  ],
+  "descripcion": "Lords of Xulima es un RPG de vista isométrica con exploración de mundo y combates por turnos. Inspirado en los clásicos del rol occidental, ofrece una experiencia desafiante donde el jugador guía a un grupo de héroes en una aventura épica por el continente de Xulima.",
+  "incluye": []
+},
+  {
+    "titulo": "Age of Mythology",
+    "url": "juegos/age-of-mythology-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft Game Studios"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Juego de estrategia en tiempo real (2002) ambientado en mitologías griega, egipcia y nórdica. Sigues las campañas del Atlante Arkantos, construyes civilizaciones, evocás poderes divinos y entrenás unidades míticas. Incluye campaña principal, multijugador, editor de escenarios y motor BANG!.",
+    "incluye": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+  "titulo": "Beyond Good & Evil",
+  "url": "juegos/beyond-good-and-evil-cddvd/",
+  "plataforma": [
+    "Win98",
+    "WinMe",
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Acción",
+    "Aventura"
+  ],
+  "desarrollador": [
+    "Ubisoft Montpellier"
+  ],
+  "distribuidor": [
+    "Ubisoft"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Beyond Good & Evil es un juego de acción y aventura en tercera persona en el que la reportera Jade investiga una conspiración alienígena en su planeta. Mezcla exploración, sigilo, combates dinámicos y resolución de puzles, con un fuerte componente narrativo.",
+  "incluye": []
+},
+{
+  "titulo": "Spider-Man 2: The Game",
+  "url": "juegos/spiderman-2-the-game-cddvd/",
+  "plataforma": [
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Acción",
+    "Aventura"
+  ],
+  "desarrollador": [
+    "Fizz Factor"
+  ],
+  "distribuidor": [
+    "Activision"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Spider-Man 2: The Game es un título de acción y aventura basado en la película del mismo nombre. El jugador controla a Spider-Man en un entorno abierto, balanceándose entre rascacielos, enfrentándose a villanos clásicos de Marvel y cumpliendo misiones principales y secundarias en la ciudad de Nueva York.",
+  "incluye": []
+},
+{
+  "titulo": "Total Overdose",
+  "url": "juegos/total-overdose-cddvd/",
+  "plataforma": [
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Acción",
+    "Shooter en tercera persona"
+  ],
+  "desarrollador": [
+    "Deadline Games"
+  ],
+  "distribuidor": [
+    "SCi Games",
+    "Eidos Interactive"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Total Overdose es un shooter en tercera persona con un estilo desenfadado inspirado en el cine de acción mexicano. El jugador controla a Ramiro Cruz en una aventura llena de tiroteos, acrobacias y armas extravagantes para vengar la muerte de su padre.",
+  "incluye": []
+},
+{
+  "titulo": "Turok: Evolution",
+  "url": "juegos/turok-evolution-cddvd/",
+  "plataforma": [
+    "Win98",
+    "WinMe",
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Acción",
+    "Shooter en primera persona"
+  ],
+  "desarrollador": [
+    "Acclaim Studios Austin"
+  ],
+  "distribuidor": [
+    "Acclaim Entertainment"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Turok: Evolution es un shooter en primera persona que sirve como precuela de la saga Turok. El jugador viaja a un mundo primitivo dominado por dinosaurios y criaturas salvajes, combinando combates intensos con armas futuristas y secciones de vuelo en pterodáctilo.",
+  "incluye": []
+},
+{
+  "titulo": "Dungeon Siege: Deluxe Edition",
+  "url": "juegos/dungeon-siege-deluxe-edition-cddvd/",
+  "plataforma": [
+    "Win98",
+    "WinMe",
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Rol",
+    "Acción"
+  ],
+  "desarrollador": [
+    "Gas Powered Games"
+  ],
+  "distribuidor": [
+    "Microsoft Game Studios"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Dungeon Siege: Deluxe Edition incluye el aclamado juego de rol y acción Dungeon Siege junto a su expansión Legends of Aranna. El jugador lidera un grupo de héroes a través de un vasto mundo de fantasía, enfrentándose a hordas de enemigos y explorando mazmorras en tiempo real.",
+  "incluye": []
+},
+{
+  "titulo": "Age of Empires III: Gold Edition",
+  "url": "juegos/age-of-empires-iii-gold-edition-cddvd/",
+  "plataforma": [
+    "WinXP",
+    "Windows Vista"
+  ],
+  "genero": [
+    "Estrategia en tiempo real"
+  ],
+  "desarrollador": [
+    "Ensemble Studios"
+  ],
+  "distribuidor": [
+    "Microsoft Game Studios"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos",
+    "Games for windows"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Age of Empires III: Gold Edition reúne el juego base Age of Empires III y sus dos expansiones, The WarChiefs y The Asian Dynasties. Ofrece una experiencia de estrategia en tiempo real ambientada en la era de la colonización, con nuevas civilizaciones, campañas y modos de juego.",
+  "incluye": []
+},
+{
+  "titulo": "Warhammer 40,000: Dawn of War - Double Game Pack",
+  "url": "juegos/warhammer-40000-dawn-of-war-double-game-pack-cddvd/",
+  "plataforma": [
+    "Win2000",
+    "WinXP"
+  ],
+  "genero": [
+    "Estrategia",
+    "Tiempo real"
+  ],
+  "desarrollador": [
+    "Relic Entertainment"
+  ],
+  "distribuidor": [
+    "THQ"
+  ],
+  "ean": [],
+  "serie": [
+    "Todos"
+  ],
+  "tags": [
+  ],
+  "descripcion": "Warhammer 40,000: Dawn of War - Double Game Pack reúne el galardonado Dawn of War: Game of the Year Edition y su expansión Winter Assault. Un pack que permite vivir intensas batallas de estrategia en tiempo real en el oscuro universo futurista de Warhammer 40,000.",
+  "incluye": [
+    "Warhammer 40,000: Dawn of War - Game of the Year Edition",
+    "Warhammer 40,000: Dawn of War - Winter Assault"
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
