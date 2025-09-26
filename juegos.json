@@ -27721,6 +27721,7 @@
     ],
     "ean": [],
     "serie": [
+      "Todos",
       "Codegame"
     ],
     "tags": [
@@ -27750,6 +27751,7 @@
     ],
     "ean": [],
     "serie": [
+      "Todos",
       "Codegame"
     ],
     "tags": [
@@ -27780,6 +27782,7 @@
     ],
     "ean": [],
     "serie": [
+      "Todos",
       "Codegame"
     ],
     "tags": [
@@ -27808,13 +27811,212 @@
       "Microsoft Game Studios"
     ],
     "ean": [],
-    "serie": [],
+    "serie": [
+      "Todos",
+      "Codegame"
+    ],
     "tags": [
     ],
     "descripcion": "Age of Empires: Collector's Edition reúne en una sola edición los títulos clásicos de la saga de estrategia en tiempo real desarrollada por Ensemble Studios. Incluye Age of Empires, Age of Empires II y sus expansiones, ofreciendo horas de batallas históricas y campañas épicas.",
     "incluye": [],
     "estado": "Sin-verificar"
+  },
+
+  {
+    "titulo": "Obscure",
+    "url": "juegos/obscure-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Survival Horror",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Hydravision Entertainment"
+    ],
+    "distribuidor": [
+      "MC2 France"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+    ],
+    "descripcion": "Obscure es un survival horror ambientado en un instituto norteamericano donde un grupo de estudiantes debe investigar sucesos extraños y enfrentarse a criaturas oscuras. Destaca por su modo cooperativo, que permite a dos jugadores avanzar juntos en la historia.",
+    "incluye": [],
+    "estado": "Sin-verificar"
+  },
+  {
+    "titulo": "Empire Earth II",
+    "url": "juegos/empire-earth-ii-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Mad Doc Software"
+    ],
+    "distribuidor": [
+      "Vivendi Universal Games"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+    ],
+    "descripcion": "Empire Earth II es un juego de estrategia en tiempo real que permite al jugador dirigir civilizaciones a lo largo de distintas eras históricas, desde la prehistoria hasta el futuro. Incluye innovaciones como el control de regiones, diplomacia avanzada y un completo editor de mapas.",
+    "incluye": [],
+    "estado": "Sin-verificar"
+  },
+  {
+    "titulo": "Lords of the Realm III",
+    "url": "juegos/lords-of-the-realm-iii-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia",
+      "Tiempo real"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+    ],
+    "descripcion": "Lords of the Realm III es un juego de estrategia en tiempo real ambientado en la Edad Media. Los jugadores deben gestionar recursos, expandir territorios y librar batallas para hacerse con el control de reinos medievales europeos, combinando táctica militar y administración feudal.",
+    "incluye": [],
+    "estado": "Sin-verificar"
+  },
+  {
+    "titulo": "Star Wars: Republic Commando",
+    "url": "juegos/star-wars-republic-commando-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter"
+    ],
+    "desarrollador": [
+      "LucasArts"
+    ],
+    "distribuidor": [
+      "LucasArts"
+    ],
+    "ean": [],
+    "descripcion": "Shooter táctico en primera persona ambientado en el universo Star Wars, donde el jugador lidera un escuadrón de comandos clon en misiones estratégicas durante las Guerras Clon.",
+    "incluye": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": []
+  },
+  {
+    "titulo": "El Señor de los Anillos: La Batalla por la Tierra Media",
+    "url": "juegos/el-senor-de-los-anillos-la-batalla-por-la-tierra-media-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "EA Los Angeles"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+    ],
+    "descripcion": "El Señor de los Anillos: La Batalla por la Tierra Media es un juego de estrategia en tiempo real basado en la trilogía cinematográfica de Peter Jackson. Permite al jugador comandar ejércitos de las fuerzas del Bien o del Mal en batallas épicas ambientadas en la Tierra Media.",
+    "incluye": [],
+    "estado": "Sin-verificar"
+  },
+  {
+    "titulo": "El Señor de los Anillos: La Batalla por la Tierra Media II",
+    "url": "juegos/el-senor-de-los-anillos-la-batalla-por-la-tierra-media-ii-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "EA Los Angeles"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+    ],
+    "descripcion": "El Señor de los Anillos: La Batalla por la Tierra Media II expande la experiencia de estrategia en tiempo real de la primera entrega, incluyendo nuevas facciones, héroes y escenarios. Basado tanto en los libros de Tolkien como en las películas, permite al jugador librar batallas en nuevas regiones de la Tierra Media.",
+    "incluye": [],
+    "estado": "Sin-verificar"
+  },
+  {
+    "titulo": "Warhammer Online: Age of Reckoning",
+    "url": "juegos/warhammer-online-age-of-reckoning-cddvd/",
+    "plataforma": [
+      "Windows XP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Massively Multiplayer Online Role-Playing Game"
+    ],
+    "desarrollador": [
+      "Mythic Entertainment"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+      "Precintado",
+      "Online"
+    ],
+    "descripcion": "Warhammer Online: Age of Reckoning fue un MMORPG basado en el universo de fantasía de Warhammer. Ofrecía un fuerte enfoque en el combate entre reinos (RvR), con batallas masivas entre jugadores, asedios de fortalezas y un mundo persistente dividido entre la Alianza del Orden y la Destrucción.",
+    "incluye": [],
+    "estado": "Sin-verificar"
   }
+
+
+
+
+
+
+
 
 
 
