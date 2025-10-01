@@ -1230,6 +1230,7 @@
     "titulo": "Adidas Power Soccer",
     "url": "juegos/adidas-power-soccer-bigbox/",
     "plataforma": [
+      "MsDos",
       "Win95",
       "Win98"
     ],
