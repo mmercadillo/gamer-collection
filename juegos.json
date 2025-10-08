@@ -28672,7 +28672,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Tellurian Defence",
+  "url": "juegos/tellurian-defence-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Shooter"],
+  "desarrollador": ["Doka Studios"],
+  "distribuidor": ["Doka"],
+  "ean": [""],
+  "descripcion": "Tellurian Defence es un juego de disparos con ambientación espacial en el que el jugador defiende la Tierra de oleadas de invasores alienígenas. Combina acción arcade con gráficos 3D simples y una jugabilidad directa centrada en reflejos y puntería.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
