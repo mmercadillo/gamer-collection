@@ -28559,7 +28559,7 @@
 {
   "titulo": "Ground Control: Dark Conspiracy",
   "url": "juegos/ground-control-dark-conspiracy-bigbox/",
-  "plataforma": ["Windows 95", "Windows 98", "Windows ME", "Windows 2000"],
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
   "genero": ["Estrategia", "Táctico"],
   "desarrollador": ["Massive Entertainment"],
   "distribuidor": ["Sierra Studios"],
@@ -28572,7 +28572,7 @@
 {
   "titulo": "Ground Control: Dark Conspiracy",
   "url": "juegos/ground-control-dark-conspiracy-bigbox-2/",
-  "plataforma": ["Windows 95", "Windows 98", "Windows ME", "Windows 2000"],
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
   "genero": ["Estrategia", "Táctico"],
   "desarrollador": ["Massive Entertainment"],
   "distribuidor": ["Sierra Studios"],
@@ -28581,7 +28581,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Precintado"]
+},
+{
+  "titulo": "Requiem: Avenging Angel",
+  "url": "juegos/requiem-avenging-angel-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Shooter en primera persona"],
+  "desarrollador": ["Cyclone Studios"],
+  "distribuidor": ["3DO"],
+  "ean": [""],
+  "descripcion": "Requiem: Avenging Angel es un shooter en primera persona ambientado en un futuro dominado por las fuerzas demoníacas. El jugador asume el papel de un ángel enviado a la Tierra para combatir la invasión infernal, utilizando tanto armas convencionales como poderes divinos únicos.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": []
 }
+
 
 
 
