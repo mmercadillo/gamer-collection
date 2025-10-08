@@ -28542,7 +28542,21 @@
     "Warhammer 40,000: Dawn of War - Game of the Year Edition",
     "Warhammer 40,000: Dawn of War - Winter Assault"
   ]
+},
+{
+  "titulo": "Zoo Tycoon",
+  "url": "juegos/zoo-tycoon-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
+  "genero": ["Estrategia", "Simulación"],
+  "desarrollador": ["Blue Fang Games"],
+  "distribuidor": ["Microsoft"],
+  "ean": [""],
+  "descripcion": "Zoo Tycoon es un juego de simulación y gestión en el que el jugador construye y administra su propio zoológico. Es necesario equilibrar el bienestar de los animales, la satisfacción de los visitantes y las finanzas del parque para tener éxito.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": []
 }
+
 
 
 
