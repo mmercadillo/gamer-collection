@@ -28555,7 +28555,34 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": []
+},
+{
+  "titulo": "Ground Control: Dark Conspiracy",
+  "url": "juegos/ground-control-dark-conspiracy-bigbox/",
+  "plataforma": ["Windows 95", "Windows 98", "Windows ME", "Windows 2000"],
+  "genero": ["Estrategia", "Táctico"],
+  "desarrollador": ["Massive Entertainment"],
+  "distribuidor": ["Sierra Studios"],
+  "ean": [""],
+  "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Precintado"]
+},
+{
+  "titulo": "Ground Control: Dark Conspiracy",
+  "url": "juegos/ground-control-dark-conspiracy-bigbox-2/",
+  "plataforma": ["Windows 95", "Windows 98", "Windows ME", "Windows 2000"],
+  "genero": ["Estrategia", "Táctico"],
+  "desarrollador": ["Massive Entertainment"],
+  "distribuidor": ["Sierra Studios"],
+  "ean": [""],
+  "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Precintado"]
 }
+
 
 
 
