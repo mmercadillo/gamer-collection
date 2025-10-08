@@ -28554,7 +28554,7 @@
   "descripcion": "Zoo Tycoon es un juego de simulación y gestión en el que el jugador construye y administra su propio zoológico. Es necesario equilibrar el bienestar de los animales, la satisfacción de los visitantes y las finanzas del parque para tener éxito.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": []
+  "tags": ["Bigbox"]
 },
 {
   "titulo": "Ground Control: Dark Conspiracy",
@@ -28567,7 +28567,7 @@
   "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Precintado"]
+  "tags": ["Precintado", "Bigbox"]
 },
 {
   "titulo": "Ground Control: Dark Conspiracy",
@@ -28580,7 +28580,7 @@
   "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Precintado"]
+  "tags": ["Bigbox"]
 },
 {
   "titulo": "Requiem: Avenging Angel",
@@ -28593,7 +28593,7 @@
   "descripcion": "Requiem: Avenging Angel es un shooter en primera persona ambientado en un futuro dominado por las fuerzas demoníacas. El jugador asume el papel de un ángel enviado a la Tierra para combatir la invasión infernal, utilizando tanto armas convencionales como poderes divinos únicos.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": []
+  "tags": ["Bigbox"]
 },
 {
   "titulo": "Action Man: Asalto a la Isla",
@@ -28606,7 +28606,7 @@
   "descripcion": "Action Man: Asalto a la Isla es un juego de acción y aventuras basado en la popular serie de juguetes y dibujos animados. El jugador controla a Action Man en una misión para detener al malvado Dr. X, superando obstáculos, enemigos y pruebas en una isla repleta de desafíos.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": []
+  "tags": ["Bigbox"]
 },
 {
   "titulo": "REAH: Face the Unknown",
@@ -28619,7 +28619,20 @@
   "descripcion": "REAH: Face the Unknown es una aventura en primera persona con un estilo similar a Myst. El jugador explora un mundo alienígena lleno de misterios y acertijos, combinando entornos prerenderizados con una narrativa envolvente y una atmósfera de ciencia ficción.",
   "incluye": [],
   "serie": ["Todos", "bigbox"],
-  "tags": []
+  "tags": ["Bigbox"]
+},
+{
+  "titulo": "O.D.T. (Or Die Trying)",
+  "url": "juegos/odt-or-die-trying-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Aventura"],
+  "desarrollador": ["FDI", "Appeal"],
+  "distribuidor": ["Infogrames"],
+  "ean": [""],
+  "descripcion": "O.D.T. (Or Die Trying) es un juego de acción y aventura en tercera persona con elementos de rol y plataformas. El jugador controla a uno de varios personajes en una misión para recuperar una esfera mágica, enfrentándose a criaturas mutantes y resolviendo desafíos en un entorno industrial y steampunk.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
 
 
