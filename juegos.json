@@ -28726,7 +28726,35 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Spec Ops II: Green Berets",
+  "url": "juegos/spec-ops-ii-green-berets-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Táctico", "Shooter en tercera persona"],
+  "desarrollador": ["Zombie Studios"],
+  "distribuidor": ["Take-Two Interactive"],
+  "ean": [""],
+  "descripcion": "Spec Ops II: Green Berets es un juego de acción táctica en tercera persona que pone al jugador al mando de un equipo de fuerzas especiales. Con misiones realistas, armamento militar auténtico y un enfoque en la cooperación y la estrategia, el juego ofrece intensas operaciones encubiertas alrededor del mundo.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
+},
+{
+  "titulo": "Tom Clancy's Rainbow Six: Rogue Spear - Black Thorn",
+  "url": "juegos/tom-clancys-rainbow-six-rogue-spear-black-thorn-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Acción", "Táctico", "Shooter en primera persona"],
+  "desarrollador": ["Red Storm Entertainment"],
+  "distribuidor": ["Ubi Soft"],
+  "ean": [""],
+  "descripcion": "Black Thorn es una expansión independiente de Rogue Spear, parte de la saga Rainbow Six. El jugador lidera operaciones antiterroristas alrededor del mundo, planificando cada misión con precisión táctica y ejecutándola con realismo y trabajo en equipo.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
+
 
 
 
