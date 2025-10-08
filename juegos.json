@@ -28633,7 +28633,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Kingpin: Life of Crime",
+  "url": "juegos/kingpin-life-of-crime-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Shooter en primera persona"],
+  "desarrollador": ["Xatrix Entertainment"],
+  "distribuidor": ["Interplay"],
+  "ean": [""],
+  "descripcion": "Kingpin: Life of Crime es un violento shooter en primera persona ambientado en un mundo de estilo gánster y urbano. Utiliza el motor de Quake II y combina acción intensa con lenguaje adulto, misiones abiertas y la posibilidad de reclutar aliados para las batallas callejeras.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
