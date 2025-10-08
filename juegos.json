@@ -28607,7 +28607,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": []
+},
+{
+  "titulo": "REAH: Face the Unknown",
+  "url": "juegos/reah-face-the-unknown-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Aventura", "Puzle"],
+  "desarrollador": ["L.K. Avalon"],
+  "distribuidor": ["Project Two Interactive"],
+  "ean": [""],
+  "descripcion": "REAH: Face the Unknown es una aventura en primera persona con un estilo similar a Myst. El jugador explora un mundo alienígena lleno de misterios y acertijos, combinando entornos prerenderizados con una narrativa envolvente y una atmósfera de ciencia ficción.",
+  "incluye": [],
+  "serie": ["Todos", "bigbox"],
+  "tags": []
 }
+
 
 
 
