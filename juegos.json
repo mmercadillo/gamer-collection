@@ -28594,7 +28594,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": []
+},
+{
+  "titulo": "Action Man: Asalto a la Isla",
+  "url": "juegos/action-man-asalto-a-la-isla-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
+  "genero": ["Acción", "Aventura"],
+  "desarrollador": ["Interactive Studios"],
+  "distribuidor": ["Hasbro Interactive"],
+  "ean": [""],
+  "descripcion": "Action Man: Asalto a la Isla es un juego de acción y aventuras basado en la popular serie de juguetes y dibujos animados. El jugador controla a Action Man en una misión para detener al malvado Dr. X, superando obstáculos, enemigos y pruebas en una isla repleta de desafíos.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": []
 }
+
 
 
 
