@@ -10393,6 +10393,47 @@
     "tags": []
   },
   {
+    "titulo": "Faraón",
+    "url": "juegos/faraon/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Construcción"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "Ambientado en el Antiguo Egipto, este clásico de estrategia te permite construir y gestionar ciudades a lo largo del Nilo, mientras enfrentas retos como inundaciones, guerras y cultos religiosos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": []
+  },
+  {
+  "titulo": "Caesar IV",
+  "url": "juegos/caesar-iv/",
+  "plataforma": ["Win2000", "WinXP"],
+  "genero": ["Estrategia", "Gestión", "Construcción"],
+  "desarrollador": ["Tilted Mill Entertainment"],
+  "distribuidor": ["Sierra Entertainment"],
+  "ean": [""],
+  "descripcion": "Caesar IV es un juego de estrategia y gestión urbana ambientado en el Imperio Romano. El jugador debe construir, administrar y expandir ciudades romanas, equilibrando recursos, comercio, religión y defensa militar con un motor gráfico totalmente 3D.",
+  "incluye": [],
+  "serie": ["Todos", "BestSeller Series"],
+  "tags": []
+  },
+  {
     "titulo": "Forsaken",
     "url": "juegos/forsaken-chj/",
     "plataforma": [
