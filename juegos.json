@@ -28646,7 +28646,35 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Red Baron 3-D",
+  "url": "juegos/red-baron-3d-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Simulación", "Acción"],
+  "desarrollador": ["Dynamix"],
+  "distribuidor": ["Sierra Studios"],
+  "ean": [""],
+  "descripcion": "Red Baron 3-D es un simulador de vuelo ambientado en la Primera Guerra Mundial. El jugador pilota aviones de combate históricos en misiones realistas, participando en combates aéreos intensos con gráficos 3D mejorados respecto a la versión original de Red Baron II.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
+},
+{
+  "titulo": "Mortyr",
+  "url": "juegos/mortyr-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Shooter en primera persona"],
+  "desarrollador": ["Mirage Interactive"],
+  "distribuidor": ["Interplay"],
+  "ean": [""],
+  "descripcion": "Mortyr es un shooter en primera persona ambientado en una historia alternativa donde los nazis ganaron la Segunda Guerra Mundial. El jugador debe viajar en el tiempo para cambiar el curso de la historia, combinando combates intensos con elementos de ciencia ficción.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
+
 
 
 
