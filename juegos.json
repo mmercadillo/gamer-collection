@@ -28830,7 +28830,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Expendable",
+  "url": "juegos/expendable-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Shooter"],
+  "desarrollador": ["Rage Software"],
+  "distribuidor": ["Infogrames"],
+  "ean": [""],
+  "descripcion": "Expendable es un shooter de acción en tercera persona con perspectiva cenital. El jugador controla a un soldado clon enviado a eliminar hordas de enemigos en escenarios futuristas, combinando ritmo frenético, gráficos 3D detallados y efectos explosivos.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
