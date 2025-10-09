@@ -28804,7 +28804,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Earth 2150",
+  "url": "juegos/earth-2150-ssi-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Estrategia", "Ciencia ficción"],
+  "desarrollador": ["SSI"],
+  "distribuidor": ["SSI"],
+  "ean": [""],
+  "descripcion": "Earth 2150 es un juego de estrategia en tiempo real publicado por SSI que combina elementos de combate futurista y gestión de recursos. El jugador dirige unidades y bases en un entorno de ciencia ficción con tecnología avanzada y enfrentamientos tácticos entre facciones rivales.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
