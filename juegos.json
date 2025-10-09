@@ -28843,7 +28843,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Fly!",
+  "url": "juegos/fly-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Simulación", "Vuelo"],
+  "desarrollador": ["Terminal Reality"],
+  "distribuidor": ["Gathering of Developers"],
+  "ean": [""],
+  "descripcion": "Fly! es un simulador de vuelo civil altamente realista que permite pilotar aviones comerciales y de aviación general. Destaca por su detallado modelado de cabinas, condiciones meteorológicas dinámicas y un sistema de navegación fiel al real.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
