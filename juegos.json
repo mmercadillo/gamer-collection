@@ -28752,7 +28752,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Invictus: In the Shadow of Olympus",
+  "url": "juegos/invictus-in-the-shadow-of-olympus-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Estrategia", "Acción", "Rol"],
+  "desarrollador": ["Quicksilver Software"],
+  "distribuidor": ["Interplay"],
+  "ean": [""],
+  "descripcion": "Invictus: In the Shadow of Olympus combina estrategia en tiempo real con elementos de rol en un mundo inspirado en la mitología griega. El jugador controla héroes, criaturas y ejércitos mitológicos mientras completa misiones y resuelve conflictos entre los dioses del Olimpo.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
