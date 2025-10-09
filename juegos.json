@@ -28817,7 +28817,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Pro Pilot",
+  "url": "juegos/pro-pilot-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Simulación", "Vuelo"],
+  "desarrollador": ["Sierra On-Line"],
+  "distribuidor": ["Sierra On-Line"],
+  "ean": [""],
+  "descripcion": "Pro Pilot es un simulador de vuelo civil desarrollado por Sierra On-Line que ofrece una experiencia realista de pilotaje en aviación general. Incluye aviones ligeros, instrumentación detallada, condiciones meteorológicas dinámicas y mapas topográficos de alta precisión.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
