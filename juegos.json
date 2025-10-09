@@ -28765,7 +28765,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Legacy of Kain: Soul Reaver",
+  "url": "juegos/legacy-of-kain-soul-reaver-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Aventura"],
+  "desarrollador": ["Crystal Dynamics"],
+  "distribuidor": ["Eidos Interactive"],
+  "ean": [""],
+  "descripcion": "Legacy of Kain: Soul Reaver es un juego de acción y aventura en tercera persona en el que el jugador controla a Raziel, un vampiro caído que busca venganza contra Kain. Con un mundo gótico, narrativa profunda y la habilidad de alternar entre planos material y espectral, se convirtió en un clásico del género.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
