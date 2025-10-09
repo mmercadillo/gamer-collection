@@ -28791,7 +28791,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Carnivores",
+  "url": "juegos/carnivores-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Acción", "Simulación"],
+  "desarrollador": ["Action Forms"],
+  "distribuidor": ["WizardWorks", "Infogrames"],
+  "ean": [""],
+  "descripcion": "Carnivores es un juego de caza en primera persona ambientado en un planeta prehistórico habitado por dinosaurios. El jugador debe rastrear y cazar diferentes especies utilizando armas y equipos, combinando exploración, sigilo y estrategia.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
