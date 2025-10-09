@@ -28856,7 +28856,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Age of Wonders",
+  "url": "juegos/age-of-wonders-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Estrategia", "Rol", "Fantasía"],
+  "desarrollador": ["Triumph Studios"],
+  "distribuidor": ["Gathering of Developers"],
+  "ean": [""],
+  "descripcion": "Age of Wonders es un juego de estrategia por turnos ambientado en un mundo de fantasía. El jugador dirige razas míticas, gestiona ciudades y ejércitos, y libra batallas tácticas en mapas detallados, combinando elementos de conquista, diplomacia y magia.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
