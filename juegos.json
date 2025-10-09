@@ -28778,7 +28778,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Ground Control",
+  "url": "juegos/ground-control-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Estrategia", "Táctico"],
+  "desarrollador": ["Massive Entertainment"],
+  "distribuidor": ["Sierra Studios"],
+  "ean": [""],
+  "descripcion": "Ground Control es un innovador juego de estrategia táctica en tiempo real que elimina la construcción de bases para centrarse en el combate directo. Ambientado en un futuro de ciencia ficción, ofrece batallas en 3D con unidades personalizables y escenarios espectaculares.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
 
 
 
