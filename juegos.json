@@ -28869,7 +28869,49 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "Monaco Grand Prix: Racing Simulation 2",
+  "url": "juegos/monaco-grand-prix-racing-simulation-2-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Carreras", "Simulación"],
+  "desarrollador": ["Ubisoft"],
+  "distribuidor": ["Ubisoft"],
+  "ean": [""],
+  "descripcion": "Monaco Grand Prix: Racing Simulation 2 es un simulador de Fórmula 1 desarrollado por Ubisoft que destaca por su realismo, múltiples modos de juego y circuitos basados en localizaciones reales. Permite competir en campeonatos completos o practicar en sesiones de entrenamiento.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
+},
+{
+  "titulo": "Force 21",
+  "url": "juegos/force-21-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Estrategia", "Táctico", "Guerra"],
+  "desarrollador": ["Red Storm Entertainment"],
+  "distribuidor": ["Sierra Studios"],
+  "ean": [""],
+  "descripcion": "Force 21 es un juego de estrategia táctica en 3D ambientado en un conflicto bélico futurista entre Estados Unidos y China. El jugador comanda unidades mecanizadas en tiempo real, gestionando recursos, formaciones y ataques coordinados con un alto componente táctico.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
+},
+{
+  "titulo": "Army Men II",
+  "url": "juegos/army-men-ii-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Estrategia", "Acción"],
+  "desarrollador": ["The 3DO Company"],
+  "distribuidor": ["The 3DO Company"],
+  "ean": [""],
+  "descripcion": "Army Men II continúa la guerra entre los ejércitos de soldados de plástico verdes y marrones. Esta secuela introduce nuevos escenarios tanto en el mundo real como en el universo de los juguetes, con misiones más variadas, vehículos y una jugabilidad que combina estrategia y acción en tiempo real.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Bigbox"]
 }
+
+
+
 
 
 
