@@ -28963,8 +28963,8 @@
 },
 {
   "titulo": "Eliminator",
-  "url": "juegos/eliminator/",
-  "plataforma": ["Windows 95", "Windows 98", "Windows Me"],
+  "url": "juegos/eliminator-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
   "genero": ["Acción", "Shooter", "Arcade"],
   "desarrollador": ["Magenta Software"],
   "distribuidor": ["Psygnosis"],
@@ -28973,7 +28973,49 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Shooter", "Acción", "Futurista", "Arcade", "Vehículos", "Bigbox"]
+},
+{
+  "titulo": "MiG-29 Fulcrum",
+  "url": "juegos/mig-29-fulcrum-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Simulación", "Vuelo", "Militar"],
+  "desarrollador": ["NovaLogic"],
+  "distribuidor": ["NovaLogic"],
+  "ean": [""],
+  "descripcion": "MiG-29 Fulcrum es un simulador de vuelo militar desarrollado por NovaLogic que pone al jugador a los mandos del famoso caza soviético. Incluye misiones de combate aéreo, operaciones tácticas y modo multijugador, con un motor gráfico avanzado para su época y un equilibrio entre realismo y accesibilidad.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación de vuelo", "Combate aéreo", "Militar", "Guerra moderna", "Caza", "Bigbox"]
+},
+{
+  "titulo": "Wizards & Warriors",
+  "url": "juegos/wizards-and-warriors-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Rol", "Aventura", "Fantasía"],
+  "desarrollador": ["Heuristic Park"],
+  "distribuidor": ["Activision"],
+  "ean": [""],
+  "descripcion": "Wizards & Warriors es un juego de rol y aventura en 3D ambientado en un mundo de fantasía donde el jugador guía a un grupo de héroes en su misión por derrotar a un poderoso hechicero. Combina exploración en tiempo real, combates tácticos y desarrollo profundo de personajes al estilo clásico de los RPG occidentales.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["RPG", "Fantasía", "Aventura", "Exploración", "3D", "Bigbox"]
+},
+{
+  "titulo": "BackPacker",
+  "url": "juegos/backpacker-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
+  "genero": ["Educativo", "Aventura", "Trivia"],
+  "desarrollador": ["Tati Mixedia AB"],
+  "distribuidor": ["SWE Games", "Pan Interactive"],
+  "ean": [""],
+  "descripcion": "BackPacker es un juego educativo y de aventuras en el que el jugador viaja por todo el mundo respondiendo preguntas de cultura general, historia, geografía y arte para ganar dinero y continuar su viaje. Mezcla exploración, aprendizaje y humor con un enfoque ligero y didáctico.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Educativo", "Trivia", "Viajes", "Cultura general", "Aventura", "Bigbox"]
 }
+
+
+
 
 
 
