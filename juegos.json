@@ -28908,7 +28908,35 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Bigbox"]
+},
+{
+  "titulo": "TrickStyle",
+  "url": "juegos/trickstyle-bigbox/",
+  "plataforma": ["Win95", "Win98"],
+  "genero": ["Carreras", "Futurista"],
+  "desarrollador": ["Criterion Studios"],
+  "distribuidor": ["Acclaim Entertainment"],
+  "ean": [""],
+  "descripcion": "TrickStyle es un juego de carreras futurista en el que los jugadores compiten con aerotablas a través de circuitos ambientados en ciudades del futuro como Londres, Nueva York o Tokio. Destaca por su estética retrofuturista, acrobacias aéreas y ritmo arcade.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Carreras", "Futurista", "Aerotabla", "Arcade", "Bigbox"]
+},
+{
+  "titulo": "H.E.D.Z. (Head Extreme Destruction Zone)",
+  "url": "juegos/hedz-head-extreme-destruction-zone/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Acción", "Aventura"],
+  "desarrollador": ["Electronic Arts"],
+  "distribuidor": ["Electronic Arts"],
+  "ean": [""],
+  "descripcion": "H.E.D.Z. (Head Extreme Destruction Zone) es un juego de acción y aventura en tercera persona donde el jugador controla un androide que puede intercambiar cabezas para obtener distintas habilidades. Ambientado en un campeonato galáctico, combina combates, exploración y elementos de plataformas en entornos 3D llenos de color y humor.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Acción", "Plataformas", "Aventura", "Ciencia ficción", "Humor", "Bigbox"]
 }
+
+
 
 
 
