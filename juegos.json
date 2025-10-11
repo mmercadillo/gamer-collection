@@ -28924,7 +28924,7 @@
 },
 {
   "titulo": "H.E.D.Z. (Head Extreme Destruction Zone)",
-  "url": "juegos/hedz-head-extreme-destruction-zone/",
+  "url": "juegos/hedz-head-extreme-destruction-zone-bigbox/",
   "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
   "genero": ["Acción", "Aventura"],
   "desarrollador": ["Electronic Arts"],
@@ -28934,7 +28934,49 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Acción", "Plataformas", "Aventura", "Ciencia ficción", "Humor", "Bigbox"]
+},
+{
+  "titulo": "Warlords Battlecry",
+  "url": "juegos/warlords-battlecry-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Estrategia", "Rol", "Fantasía"],
+  "desarrollador": ["Strategic Studies Group (SSG)"],
+  "distribuidor": ["Ubi Soft Entertainment"],
+  "ean": [""],
+  "descripcion": "Warlords Battlecry combina la estrategia en tiempo real con elementos de rol, permitiendo al jugador crear y desarrollar un héroe persistente que lidera ejércitos en un mundo de fantasía. Con más de una docena de razas y campañas no lineales, ofrece una profunda jugabilidad táctica y narrativa.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Estrategia en tiempo real", "Rol", "Fantasía", "Hero System", "Campañas", "Bigbox"]
+},
+{
+  "titulo": "Fighting Steel",
+  "url": "juegos/fighting-steel-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Simulación", "Estrategia", "Naval"],
+  "desarrollador": ["Strategic Simulations Inc. (SSI)"],
+  "distribuidor": ["Ubisoft"],
+  "ean": [""],
+  "descripcion": "Fighting Steel es un simulador naval ambientado en la Segunda Guerra Mundial que permite comandar flotas de buques de guerra en enfrentamientos realistas. El jugador puede controlar destructores, cruceros y acorazados, gestionando maniobras, fuego artillero y condiciones meteorológicas en tiempo real.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación naval", "Segunda Guerra Mundial", "Estrategia", "Batallas marítimas", "Realismo", "Bigbox"]
+},
+{
+  "titulo": "Eliminator",
+  "url": "juegos/eliminator/",
+  "plataforma": ["Windows 95", "Windows 98", "Windows Me"],
+  "genero": ["Acción", "Shooter", "Arcade"],
+  "desarrollador": ["Magenta Software"],
+  "distribuidor": ["Psygnosis"],
+  "ean": [""],
+  "descripcion": "Eliminator es un shooter futurista en tercera persona donde el jugador pilota un vehículo de combate antigravitatorio a través de niveles llenos de enemigos y obstáculos. Con un enfoque arcade y vertiginoso, destaca por su estética tecnológica y ritmo frenético.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Shooter", "Acción", "Futurista", "Arcade", "Vehículos", "Bigbox"]
 }
+
+
+
 
 
 
