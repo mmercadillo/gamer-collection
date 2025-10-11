@@ -44,7 +44,7 @@
   const slugify = s => (s||'').toString().toLowerCase()
     .normalize('NFD').replace(/[̀-ͯ]/g,'')
     .replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
-  const debounce = (fn, wait = 300) => { let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), wait); }; };
+  const debounce = (fn, wait = 10000) => { let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), wait); }; };
 
   const DATA_URL = 'juegos.json';
   const state = { juegos: [], cargado: false };
