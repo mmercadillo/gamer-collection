@@ -29028,8 +29028,8 @@
 },
 {
   "titulo": "NASCAR Racing 4",
-  "url": "juegos/nascar-racing-4/",
-  "plataforma": ["Windows 98", "Windows Me", "Windows 2000", "Windows XP"],
+  "url": "juegos/nascar-racing-4-bigbox/",
+  "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
   "genero": ["Simulación", "Carreras", "Deportivo"],
   "desarrollador": ["Papyrus Design Group"],
   "distribuidor": ["Sierra Sports"],
