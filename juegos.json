@@ -30014,5 +30014,33 @@
       "Acción táctica",
       "Bigbox"
     ]
-  }
+  },
+  {
+  "titulo": "Diablo III",
+  "url": "juegos/diablo-iii-edesp/",
+  "plataforma": ["WinXP", "Windows Vista", "Win7", "Win8", "Win10"],
+  "genero": ["Rol", "Acción", "Hack and Slash", "Fantasía"],
+  "desarrollador": ["Blizzard Entertainment"],
+  "distribuidor": ["Blizzard Entertainment"],
+  "ean": [""],
+  "descripcion": "Diablo III es un juego de rol de acción ambientado en el oscuro mundo de Santuario. El jugador elige entre varias clases de héroes para enfrentarse a hordas demoníacas, obtener botín y progresar en una campaña épica. Incluye modos cooperativos en línea, generación aleatoria de niveles y un sistema de habilidades dinámico.",
+  "incluye": [],
+  "serie": ["Todos", "Edición especial"],
+  "tags": ["RPG", "Hack and Slash", "Fantasía oscura", "Acción", "Blizzard", "Edición especial"]
+},
+{
+  "titulo": "Diablo III: Reaper of Souls",
+  "url": "juegos/diablo-iii-reaper-of-souls-edesp/",
+  "plataforma": ["WinXP", "Windows Vista", "Win7", "Win8", "Win10"],
+  "genero": ["Rol", "Acción", "Hack and Slash", "Fantasía"],
+  "desarrollador": ["Blizzard Entertainment"],
+  "distribuidor": ["Blizzard Entertainment"],
+  "ean": [""],
+  "descripcion": "Reaper of Souls es la expansión de Diablo III que introduce un nuevo acto ambientado en la ciudad de Westmarch y añade la clase del Cruzado. Mejora el sistema de botín, amplía el nivel máximo y añade modos como las Aventuras y las Fallas Nefalem, ofreciendo una experiencia más profunda y rejugable.",
+  "incluye": [],
+  "serie": ["Todos", "Edición especial"],
+  "tags": ["RPG", "Hack and Slash", "Expansión", "Fantasía oscura", "Acción", "Blizzard", "Edición especial"]
+}
+
+
 ]
