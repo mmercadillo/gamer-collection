@@ -29064,7 +29064,21 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Shooter 3D", "Naves", "Ciencia ficción", "Acción", "Espacial", "Bigbox"]
+},
+{
+  "titulo": "Rising Sun",
+  "url": "juegos/rising-sun-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
+  "genero": ["Estrategia", "Táctico", "Histórico"],
+  "desarrollador": ["TalonSoft"],
+  "distribuidor": ["Take-Two Interactive"],
+  "ean": [""],
+  "descripcion": "Rising Sun es un juego de estrategia táctica ambientado en el teatro del Pacífico durante la Segunda Guerra Mundial. El jugador puede comandar fuerzas japonesas o aliadas en campañas históricas, gestionando unidades terrestres, aéreas y navales con gran nivel de detalle táctico.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Estrategia", "Segunda Guerra Mundial", "Táctico", "Histórico", "Wargame", "Bigbox"]
 }
+
 
 
 
