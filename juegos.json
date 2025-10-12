@@ -10421,17 +10421,33 @@
     "tags": []
   },
   {
-  "titulo": "Caesar IV",
-  "url": "juegos/caesar-iv/",
-  "plataforma": ["Win2000", "WinXP"],
-  "genero": ["Estrategia", "Gestión", "Construcción"],
-  "desarrollador": ["Tilted Mill Entertainment"],
-  "distribuidor": ["Sierra Entertainment"],
-  "ean": [""],
-  "descripcion": "Caesar IV es un juego de estrategia y gestión urbana ambientado en el Imperio Romano. El jugador debe construir, administrar y expandir ciudades romanas, equilibrando recursos, comercio, religión y defensa militar con un motor gráfico totalmente 3D.",
-  "incluye": [],
-  "serie": ["Todos", "BestSeller Series"],
-  "tags": []
+    "titulo": "Caesar IV",
+    "url": "juegos/caesar-iv/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia",
+      "Gestión",
+      "Construcción"
+    ],
+    "desarrollador": [
+      "Tilted Mill Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Caesar IV es un juego de estrategia y gestión urbana ambientado en el Imperio Romano. El jugador debe construir, administrar y expandir ciudades romanas, equilibrando recursos, comercio, religión y defensa militar con un motor gráfico totalmente 3D.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": []
   },
   {
     "titulo": "Forsaken",
@@ -27169,8 +27185,7 @@
       "Todos",
       "Bigbox"
     ],
-    "tags": [
-    ]
+    "tags": []
   },
   {
     "titulo": "Los archivos secretos de Sherlock Holmes",
@@ -27196,8 +27211,7 @@
       "Todos",
       "Bigbox"
     ],
-    "tags": [
-    ]
+    "tags": []
   },
   {
     "titulo": "Ultra Pinball: The Lost Continent",
@@ -27250,8 +27264,7 @@
       "Todos",
       "Bigbox"
     ],
-    "tags": [
-    ]
+    "tags": []
   },
   {
     "titulo": "Ultra Pinball: Thrillride",
@@ -27305,8 +27318,7 @@
       "Todos",
       "Bigbox"
     ],
-    "tags": [
-    ]
+    "tags": []
   },
   {
     "titulo": "Paris 1313: El misterio de Notre Dame",
@@ -27333,8 +27345,7 @@
       "Todos",
       "Bigbox"
     ],
-    "tags": [
-    ]
+    "tags": []
   },
   {
     "titulo": "Army Men: Real Combat. Plastic Men",
@@ -27390,8 +27401,7 @@
       "Todos",
       "Bigbox"
     ],
-    "tags": [
-    ]
+    "tags": []
   },
   {
     "titulo": "Gothic 4: Arcania",
@@ -27562,8 +27572,7 @@
       "Todos",
       "Bigbox"
     ],
-    "tags": [
-    ]
+    "tags": []
   },
   {
     "titulo": "Army Men: In Space",
@@ -27847,8 +27856,7 @@
       "Todos",
       "Codegame"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "Myst V: End of Ages es el capítulo final de la legendaria saga Myst. Presenta un mundo en 3D completamente interactivo donde el jugador debe explorar, resolver acertijos y descubrir los secretos del D'ni para decidir el destino de los libros de Ages.",
     "incluye": []
   },
@@ -27876,8 +27884,7 @@
       "Todos",
       "Codegame"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "Driv3r es la tercera entrega de la saga Driver, que mezcla conducción y acción en un entorno de mundo abierto. El jugador encarna al agente Tanner, infiltrado en una red criminal, con misiones que combinan persecuciones en coche, exploración a pie y tiroteos.",
     "incluye": []
   },
@@ -27905,8 +27912,7 @@
       "Todos",
       "Codegame"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "Alejandro Magno es un juego de estrategia inspirado en la película homónima, donde el jugador revive las campañas del célebre conquistador macedonio. Combina batallas masivas en tiempo real con elementos de gestión y táctica militar.",
     "incluye": []
   },
@@ -27933,8 +27939,7 @@
       "Todos",
       "Codegame"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "Age of Empires: Collector's Edition reúne en una sola edición los títulos clásicos de la saga de estrategia en tiempo real desarrollada por Ensemble Studios. Incluye Age of Empires, Age of Empires II y sus expansiones, ofreciendo horas de batallas históricas y campañas épicas.",
     "incluye": []
   },
@@ -27961,8 +27966,7 @@
     "serie": [
       "Todos"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "Obscure es un survival horror ambientado en un instituto norteamericano donde un grupo de estudiantes debe investigar sucesos extraños y enfrentarse a criaturas oscuras. Destaca por su modo cooperativo, que permite a dos jugadores avanzar juntos en la historia.",
     "incluye": []
   },
@@ -27986,8 +27990,7 @@
     "serie": [
       "Todos"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "Empire Earth II es un juego de estrategia en tiempo real que permite al jugador dirigir civilizaciones a lo largo de distintas eras históricas, desde la prehistoria hasta el futuro. Incluye innovaciones como el control de regiones, diplomacia avanzada y un completo editor de mapas.",
     "incluye": []
   },
@@ -28014,8 +28017,7 @@
     "serie": [
       "Todos"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "Lords of the Realm III es un juego de estrategia en tiempo real ambientado en la Edad Media. Los jugadores deben gestionar recursos, expandir territorios y librar batallas para hacerse con el control de reinos medievales europeos, combinando táctica militar y administración feudal.",
     "incluye": []
   },
@@ -28064,8 +28066,7 @@
     "serie": [
       "Todos"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "El Señor de los Anillos: La Batalla por la Tierra Media es un juego de estrategia en tiempo real basado en la trilogía cinematográfica de Peter Jackson. Permite al jugador comandar ejércitos de las fuerzas del Bien o del Mal en batallas épicas ambientadas en la Tierra Media.",
     "incluye": []
   },
@@ -28088,8 +28089,7 @@
     "serie": [
       "Todos"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "El Señor de los Anillos: La Batalla por la Tierra Media II expande la experiencia de estrategia en tiempo real de la primera entrega, incluyendo nuevas facciones, héroes y escenarios. Basado tanto en los libros de Tolkien como en las películas, permite al jugador librar batallas en nuevas regiones de la Tierra Media.",
     "incluye": []
   },
@@ -28142,8 +28142,7 @@
     "serie": [
       "Todos"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "Castle Strike es un juego de estrategia en tiempo real ambientado en la Europa medieval. El jugador debe construir fortalezas, gestionar recursos y comandar ejércitos en campañas históricas, con un gran énfasis en asedios y combates de castillos.",
     "incluye": []
   },
@@ -28195,173 +28194,168 @@
     "serie": [
       "Todos"
     ],
-    "tags": [
-    ],
+    "tags": [],
     "descripcion": "World of Goo es un innovador juego de puzles basado en la física, donde el jugador utiliza bolas de goo para construir estructuras y resolver ingeniosos desafíos. Destaca por su estilo artístico único, humor peculiar y mecánicas adictivas.",
     "incluye": []
   },
-{
-  "titulo": "Total War: Medieval II",
-  "url": "juegos/total-war-medieval-ii-cddvd/",
-  "plataforma": [
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Estrategia en tiempo real",
-    "Táctica"
-  ],
-  "desarrollador": [
-    "Creative Assembly"
-  ],
-  "distribuidor": [
-    "Sega"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Total War: Medieval II es un juego de estrategia que combina gestión por turnos y batallas en tiempo real. Ambientado en la Edad Media, permite al jugador gobernar un reino, expandir su imperio mediante diplomacia y guerra, y librar enfrentamientos épicos con miles de unidades en el campo de batalla.",
-  "incluye": []
-},
-{
-  "titulo": "Red Faction II",
-  "url": "juegos/red-faction-ii-cddvd/",
-  "plataforma": [
-    "Win98",
-    "WinMe",
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Acción",
-    "Shooter en primera persona"
-  ],
-  "desarrollador": [
-    "Volition Inc."
-  ],
-  "distribuidor": [
-    "THQ"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Red Faction II es un shooter en primera persona ambientado en un futuro distópico donde los jugadores luchan contra un régimen opresivo. Destaca por su motor Geo-Mod, que permite destruir entornos y modificar el campo de batalla en tiempo real.",
-  "incluye": []
-},
-{
-  "titulo": "Monster Ville",
-  "url": "juegos/monster-ville-cddvd/",
-  "plataforma": [
-    "WinXP"
-  ],
-  "genero": [
-    "Estrategia",
-    "Simulación"
-  ],
-  "desarrollador": [
-    "Mindscape"
-  ],
-  "distribuidor": [
-    "Mindscape"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Monster Ville es un juego de estrategia y simulación en el que el jugador debe construir y gestionar una ciudad habitada por monstruos. La tarea consiste en mantener contentos a los habitantes, expandir la urbe y superar retos con un toque de humor fantástico.",
-  "incluye": []
-},
-{
-  "titulo": "Panzer General 3D Assault",
-  "url": "juegos/panzer-general-3d-assault-cddvd/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Estrategia por turnos"
-  ],
-  "desarrollador": [
-    "Strategic Simulations Inc. (SSI)"
-  ],
-  "distribuidor": [
-    "Mindscape"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-    "Todos"
-  ],
-  "descripcion": "Panzer General 3D Assault es un wargame de estrategia por turnos ambientado en la Segunda Guerra Mundial. El jugador dirige divisiones militares en campañas históricas, con un motor gráfico en 3D que supuso una evolución dentro de la serie Panzer General.",
-  "incluye": []
-},
-{
-  "titulo": "Tomb Raider: El Ángel de la Oscuridad",
-  "url": "juegos/tomb-raider-el-angel-de-la-oscuridad-cddvd/",
-  "plataforma": [
-    "Win98",
-    "WinMe",
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Acción",
-    "Aventura"
-  ],
-  "desarrollador": [
-    "Core Design"
-  ],
-  "distribuidor": [
-    "Eidos Interactive"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Tomb Raider: El Ángel de la Oscuridad es la sexta entrega de la saga Tomb Raider. Lara Croft se ve envuelta en un oscuro misterio en París, con una jugabilidad que combina exploración, plataformas, resolución de puzles y secuencias de acción en un entorno más narrativo y sombrío que en títulos anteriores.",
-  "incluye": []
-},
-{
-  "titulo": "Lords of Xulima",
-  "url": "juegos/lords-of-xulima-cddvd/",
-  "plataforma": [
-    "WinXP",
-    "Windows Vista",
-    "Win7",
-    "Win8"
-  ],
-  "genero": [
-    "Rol",
-    "Estrategia"
-  ],
-  "desarrollador": [
-    "Numantian Games"
-  ],
-  "distribuidor": [
-    "Numantian Games"
-  ],
-  "ean": [],
-  "serie": [],
-  "tags": [
-    "RPG",
-    "Clásico",
-    "Fantasía"
-  ],
-  "descripcion": "Lords of Xulima es un RPG de vista isométrica con exploración de mundo y combates por turnos. Inspirado en los clásicos del rol occidental, ofrece una experiencia desafiante donde el jugador guía a un grupo de héroes en una aventura épica por el continente de Xulima.",
-  "incluye": []
-},
+  {
+    "titulo": "Total War: Medieval II",
+    "url": "juegos/total-war-medieval-ii-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Táctica"
+    ],
+    "desarrollador": [
+      "Creative Assembly"
+    ],
+    "distribuidor": [
+      "Sega"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Total War: Medieval II es un juego de estrategia que combina gestión por turnos y batallas en tiempo real. Ambientado en la Edad Media, permite al jugador gobernar un reino, expandir su imperio mediante diplomacia y guerra, y librar enfrentamientos épicos con miles de unidades en el campo de batalla.",
+    "incluye": []
+  },
+  {
+    "titulo": "Red Faction II",
+    "url": "juegos/red-faction-ii-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona"
+    ],
+    "desarrollador": [
+      "Volition Inc."
+    ],
+    "distribuidor": [
+      "THQ"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Red Faction II es un shooter en primera persona ambientado en un futuro distópico donde los jugadores luchan contra un régimen opresivo. Destaca por su motor Geo-Mod, que permite destruir entornos y modificar el campo de batalla en tiempo real.",
+    "incluye": []
+  },
+  {
+    "titulo": "Monster Ville",
+    "url": "juegos/monster-ville-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Mindscape"
+    ],
+    "distribuidor": [
+      "Mindscape"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Monster Ville es un juego de estrategia y simulación en el que el jugador debe construir y gestionar una ciudad habitada por monstruos. La tarea consiste en mantener contentos a los habitantes, expandir la urbe y superar retos con un toque de humor fantástico.",
+    "incluye": []
+  },
+  {
+    "titulo": "Panzer General 3D Assault",
+    "url": "juegos/panzer-general-3d-assault-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia por turnos"
+    ],
+    "desarrollador": [
+      "Strategic Simulations Inc. (SSI)"
+    ],
+    "distribuidor": [
+      "Mindscape"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [
+      "Todos"
+    ],
+    "descripcion": "Panzer General 3D Assault es un wargame de estrategia por turnos ambientado en la Segunda Guerra Mundial. El jugador dirige divisiones militares en campañas históricas, con un motor gráfico en 3D que supuso una evolución dentro de la serie Panzer General.",
+    "incluye": []
+  },
+  {
+    "titulo": "Tomb Raider: El Ángel de la Oscuridad",
+    "url": "juegos/tomb-raider-el-angel-de-la-oscuridad-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Core Design"
+    ],
+    "distribuidor": [
+      "Eidos Interactive"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Tomb Raider: El Ángel de la Oscuridad es la sexta entrega de la saga Tomb Raider. Lara Croft se ve envuelta en un oscuro misterio en París, con una jugabilidad que combina exploración, plataformas, resolución de puzles y secuencias de acción en un entorno más narrativo y sombrío que en títulos anteriores.",
+    "incluye": []
+  },
+  {
+    "titulo": "Lords of Xulima",
+    "url": "juegos/lords-of-xulima-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7",
+      "Win8"
+    ],
+    "genero": [
+      "Rol",
+      "Estrategia"
+    ],
+    "desarrollador": [
+      "Numantian Games"
+    ],
+    "distribuidor": [
+      "Numantian Games"
+    ],
+    "ean": [],
+    "serie": [],
+    "tags": [
+      "RPG",
+      "Clásico",
+      "Fantasía"
+    ],
+    "descripcion": "Lords of Xulima es un RPG de vista isométrica con exploración de mundo y combates por turnos. Inspirado en los clásicos del rol occidental, ofrece una experiencia desafiante donde el jugador guía a un grupo de héroes en una aventura épica por el continente de Xulima.",
+    "incluye": []
+  },
   {
     "titulo": "Age of Mythology",
     "url": "juegos/age-of-mythology-cddvd/",
@@ -28393,754 +28387,1632 @@
     ]
   },
   {
-  "titulo": "Beyond Good & Evil",
-  "url": "juegos/beyond-good-and-evil-cddvd/",
-  "plataforma": [
-    "Win98",
-    "WinMe",
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Acción",
-    "Aventura"
-  ],
-  "desarrollador": [
-    "Ubisoft Montpellier"
-  ],
-  "distribuidor": [
-    "Ubisoft"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Beyond Good & Evil es un juego de acción y aventura en tercera persona en el que la reportera Jade investiga una conspiración alienígena en su planeta. Mezcla exploración, sigilo, combates dinámicos y resolución de puzles, con un fuerte componente narrativo.",
-  "incluye": []
-},
-{
-  "titulo": "Spider-Man 2: The Game",
-  "url": "juegos/spiderman-2-the-game-cddvd/",
-  "plataforma": [
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Acción",
-    "Aventura"
-  ],
-  "desarrollador": [
-    "Fizz Factor"
-  ],
-  "distribuidor": [
-    "Activision"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Spider-Man 2: The Game es un título de acción y aventura basado en la película del mismo nombre. El jugador controla a Spider-Man en un entorno abierto, balanceándose entre rascacielos, enfrentándose a villanos clásicos de Marvel y cumpliendo misiones principales y secundarias en la ciudad de Nueva York.",
-  "incluye": []
-},
-{
-  "titulo": "Total Overdose",
-  "url": "juegos/total-overdose-cddvd/",
-  "plataforma": [
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Acción",
-    "Shooter en tercera persona"
-  ],
-  "desarrollador": [
-    "Deadline Games"
-  ],
-  "distribuidor": [
-    "SCi Games",
-    "Eidos Interactive"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Total Overdose es un shooter en tercera persona con un estilo desenfadado inspirado en el cine de acción mexicano. El jugador controla a Ramiro Cruz en una aventura llena de tiroteos, acrobacias y armas extravagantes para vengar la muerte de su padre.",
-  "incluye": []
-},
-{
-  "titulo": "Turok: Evolution",
-  "url": "juegos/turok-evolution-cddvd/",
-  "plataforma": [
-    "Win98",
-    "WinMe",
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Acción",
-    "Shooter en primera persona"
-  ],
-  "desarrollador": [
-    "Acclaim Studios Austin"
-  ],
-  "distribuidor": [
-    "Acclaim Entertainment"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Turok: Evolution es un shooter en primera persona que sirve como precuela de la saga Turok. El jugador viaja a un mundo primitivo dominado por dinosaurios y criaturas salvajes, combinando combates intensos con armas futuristas y secciones de vuelo en pterodáctilo.",
-  "incluye": []
-},
-{
-  "titulo": "Dungeon Siege: Deluxe Edition",
-  "url": "juegos/dungeon-siege-deluxe-edition-cddvd/",
-  "plataforma": [
-    "Win98",
-    "WinMe",
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Rol",
-    "Acción"
-  ],
-  "desarrollador": [
-    "Gas Powered Games"
-  ],
-  "distribuidor": [
-    "Microsoft Game Studios"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Dungeon Siege: Deluxe Edition incluye el aclamado juego de rol y acción Dungeon Siege junto a su expansión Legends of Aranna. El jugador lidera un grupo de héroes a través de un vasto mundo de fantasía, enfrentándose a hordas de enemigos y explorando mazmorras en tiempo real.",
-  "incluye": []
-},
-{
-  "titulo": "Age of Empires III: Gold Edition",
-  "url": "juegos/age-of-empires-iii-gold-edition-cddvd/",
-  "plataforma": [
-    "WinXP",
-    "Windows Vista"
-  ],
-  "genero": [
-    "Estrategia en tiempo real"
-  ],
-  "desarrollador": [
-    "Ensemble Studios"
-  ],
-  "distribuidor": [
-    "Microsoft Game Studios"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos",
-    "Games for windows"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Age of Empires III: Gold Edition reúne el juego base Age of Empires III y sus dos expansiones, The WarChiefs y The Asian Dynasties. Ofrece una experiencia de estrategia en tiempo real ambientada en la era de la colonización, con nuevas civilizaciones, campañas y modos de juego.",
-  "incluye": []
-},
-{
-  "titulo": "Warhammer 40,000: Dawn of War - Double Game Pack",
-  "url": "juegos/warhammer-40000-dawn-of-war-double-game-pack-cddvd/",
-  "plataforma": [
-    "Win2000",
-    "WinXP"
-  ],
-  "genero": [
-    "Estrategia",
-    "Tiempo real"
-  ],
-  "desarrollador": [
-    "Relic Entertainment"
-  ],
-  "distribuidor": [
-    "THQ"
-  ],
-  "ean": [],
-  "serie": [
-    "Todos"
-  ],
-  "tags": [
-  ],
-  "descripcion": "Warhammer 40,000: Dawn of War - Double Game Pack reúne el galardonado Dawn of War: Game of the Year Edition y su expansión Winter Assault. Un pack que permite vivir intensas batallas de estrategia en tiempo real en el oscuro universo futurista de Warhammer 40,000.",
-  "incluye": [
-    "Warhammer 40,000: Dawn of War - Game of the Year Edition",
-    "Warhammer 40,000: Dawn of War - Winter Assault"
-  ]
-},
-{
-  "titulo": "Zoo Tycoon",
-  "url": "juegos/zoo-tycoon-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
-  "genero": ["Estrategia", "Simulación"],
-  "desarrollador": ["Blue Fang Games"],
-  "distribuidor": ["Microsoft"],
-  "ean": [""],
-  "descripcion": "Zoo Tycoon es un juego de simulación y gestión en el que el jugador construye y administra su propio zoológico. Es necesario equilibrar el bienestar de los animales, la satisfacción de los visitantes y las finanzas del parque para tener éxito.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Ground Control: Dark Conspiracy",
-  "url": "juegos/ground-control-dark-conspiracy-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Estrategia", "Táctico"],
-  "desarrollador": ["Massive Entertainment"],
-  "distribuidor": ["Sierra Studios"],
-  "ean": [""],
-  "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Precintado", "Bigbox"]
-},
-{
-  "titulo": "Ground Control: Dark Conspiracy",
-  "url": "juegos/ground-control-dark-conspiracy-bigbox-2/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Estrategia", "Táctico"],
-  "desarrollador": ["Massive Entertainment"],
-  "distribuidor": ["Sierra Studios"],
-  "ean": [""],
-  "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Requiem: Avenging Angel",
-  "url": "juegos/requiem-avenging-angel-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Shooter en primera persona"],
-  "desarrollador": ["Cyclone Studios"],
-  "distribuidor": ["3DO"],
-  "ean": [""],
-  "descripcion": "Requiem: Avenging Angel es un shooter en primera persona ambientado en un futuro dominado por las fuerzas demoníacas. El jugador asume el papel de un ángel enviado a la Tierra para combatir la invasión infernal, utilizando tanto armas convencionales como poderes divinos únicos.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Action Man: Asalto a la Isla",
-  "url": "juegos/action-man-asalto-a-la-isla-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Acción", "Aventura"],
-  "desarrollador": ["Interactive Studios"],
-  "distribuidor": ["Hasbro Interactive"],
-  "ean": [""],
-  "descripcion": "Action Man: Asalto a la Isla es un juego de acción y aventuras basado en la popular serie de juguetes y dibujos animados. El jugador controla a Action Man en una misión para detener al malvado Dr. X, superando obstáculos, enemigos y pruebas en una isla repleta de desafíos.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "REAH: Face the Unknown",
-  "url": "juegos/reah-face-the-unknown-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Aventura", "Puzle"],
-  "desarrollador": ["L.K. Avalon"],
-  "distribuidor": ["Project Two Interactive"],
-  "ean": [""],
-  "descripcion": "REAH: Face the Unknown es una aventura en primera persona con un estilo similar a Myst. El jugador explora un mundo alienígena lleno de misterios y acertijos, combinando entornos prerenderizados con una narrativa envolvente y una atmósfera de ciencia ficción.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "O.D.T. (Or Die Trying)",
-  "url": "juegos/odt-or-die-trying-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Aventura"],
-  "desarrollador": ["FDI", "Appeal"],
-  "distribuidor": ["Infogrames"],
-  "ean": [""],
-  "descripcion": "O.D.T. (Or Die Trying) es un juego de acción y aventura en tercera persona con elementos de rol y plataformas. El jugador controla a uno de varios personajes en una misión para recuperar una esfera mágica, enfrentándose a criaturas mutantes y resolviendo desafíos en un entorno industrial y steampunk.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Kingpin: Life of Crime",
-  "url": "juegos/kingpin-life-of-crime-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Shooter en primera persona"],
-  "desarrollador": ["Xatrix Entertainment"],
-  "distribuidor": ["Interplay"],
-  "ean": [""],
-  "descripcion": "Kingpin: Life of Crime es un violento shooter en primera persona ambientado en un mundo de estilo gánster y urbano. Utiliza el motor de Quake II y combina acción intensa con lenguaje adulto, misiones abiertas y la posibilidad de reclutar aliados para las batallas callejeras.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Red Baron 3-D",
-  "url": "juegos/red-baron-3d-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Simulación", "Acción"],
-  "desarrollador": ["Dynamix"],
-  "distribuidor": ["Sierra Studios"],
-  "ean": [""],
-  "descripcion": "Red Baron 3-D es un simulador de vuelo ambientado en la Primera Guerra Mundial. El jugador pilota aviones de combate históricos en misiones realistas, participando en combates aéreos intensos con gráficos 3D mejorados respecto a la versión original de Red Baron II.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Mortyr",
-  "url": "juegos/mortyr-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Shooter en primera persona"],
-  "desarrollador": ["Mirage Interactive"],
-  "distribuidor": ["Interplay"],
-  "ean": [""],
-  "descripcion": "Mortyr es un shooter en primera persona ambientado en una historia alternativa donde los nazis ganaron la Segunda Guerra Mundial. El jugador debe viajar en el tiempo para cambiar el curso de la historia, combinando combates intensos con elementos de ciencia ficción.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Tellurian Defence",
-  "url": "juegos/tellurian-defence-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Shooter"],
-  "desarrollador": ["Doka Studios"],
-  "distribuidor": ["Doka"],
-  "ean": [""],
-  "descripcion": "Tellurian Defence es un juego de disparos con ambientación espacial en el que el jugador defiende la Tierra de oleadas de invasores alienígenas. Combina acción arcade con gráficos 3D simples y una jugabilidad directa centrada en reflejos y puntería.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Spec Ops II: Green Berets",
-  "url": "juegos/spec-ops-ii-green-berets-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Táctico", "Shooter en tercera persona"],
-  "desarrollador": ["Zombie Studios"],
-  "distribuidor": ["Take-Two Interactive"],
-  "ean": [""],
-  "descripcion": "Spec Ops II: Green Berets es un juego de acción táctica en tercera persona que pone al jugador al mando de un equipo de fuerzas especiales. Con misiones realistas, armamento militar auténtico y un enfoque en la cooperación y la estrategia, el juego ofrece intensas operaciones encubiertas alrededor del mundo.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Tom Clancy's Rainbow Six: Rogue Spear - Black Thorn",
-  "url": "juegos/tom-clancys-rainbow-six-rogue-spear-black-thorn-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Acción", "Táctico", "Shooter en primera persona"],
-  "desarrollador": ["Red Storm Entertainment"],
-  "distribuidor": ["Ubi Soft"],
-  "ean": [""],
-  "descripcion": "Black Thorn es una expansión independiente de Rogue Spear, parte de la saga Rainbow Six. El jugador lidera operaciones antiterroristas alrededor del mundo, planificando cada misión con precisión táctica y ejecutándola con realismo y trabajo en equipo.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Invictus: In the Shadow of Olympus",
-  "url": "juegos/invictus-in-the-shadow-of-olympus-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Estrategia", "Acción", "Rol"],
-  "desarrollador": ["Quicksilver Software"],
-  "distribuidor": ["Interplay"],
-  "ean": [""],
-  "descripcion": "Invictus: In the Shadow of Olympus combina estrategia en tiempo real con elementos de rol en un mundo inspirado en la mitología griega. El jugador controla héroes, criaturas y ejércitos mitológicos mientras completa misiones y resuelve conflictos entre los dioses del Olimpo.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Legacy of Kain: Soul Reaver",
-  "url": "juegos/legacy-of-kain-soul-reaver-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Aventura"],
-  "desarrollador": ["Crystal Dynamics"],
-  "distribuidor": ["Eidos Interactive"],
-  "ean": [""],
-  "descripcion": "Legacy of Kain: Soul Reaver es un juego de acción y aventura en tercera persona en el que el jugador controla a Raziel, un vampiro caído que busca venganza contra Kain. Con un mundo gótico, narrativa profunda y la habilidad de alternar entre planos material y espectral, se convirtió en un clásico del género.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Ground Control",
-  "url": "juegos/ground-control-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Estrategia", "Táctico"],
-  "desarrollador": ["Massive Entertainment"],
-  "distribuidor": ["Sierra Studios"],
-  "ean": [""],
-  "descripcion": "Ground Control es un innovador juego de estrategia táctica en tiempo real que elimina la construcción de bases para centrarse en el combate directo. Ambientado en un futuro de ciencia ficción, ofrece batallas en 3D con unidades personalizables y escenarios espectaculares.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Carnivores",
-  "url": "juegos/carnivores-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Simulación"],
-  "desarrollador": ["Action Forms"],
-  "distribuidor": ["WizardWorks", "Infogrames"],
-  "ean": [""],
-  "descripcion": "Carnivores es un juego de caza en primera persona ambientado en un planeta prehistórico habitado por dinosaurios. El jugador debe rastrear y cazar diferentes especies utilizando armas y equipos, combinando exploración, sigilo y estrategia.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Earth 2150",
-  "url": "juegos/earth-2150-ssi-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Estrategia", "Ciencia ficción"],
-  "desarrollador": ["SSI"],
-  "distribuidor": ["SSI"],
-  "ean": [""],
-  "descripcion": "Earth 2150 es un juego de estrategia en tiempo real publicado por SSI que combina elementos de combate futurista y gestión de recursos. El jugador dirige unidades y bases en un entorno de ciencia ficción con tecnología avanzada y enfrentamientos tácticos entre facciones rivales.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Pro Pilot",
-  "url": "juegos/pro-pilot-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Simulación", "Vuelo"],
-  "desarrollador": ["Sierra On-Line"],
-  "distribuidor": ["Sierra On-Line"],
-  "ean": [""],
-  "descripcion": "Pro Pilot es un simulador de vuelo civil desarrollado por Sierra On-Line que ofrece una experiencia realista de pilotaje en aviación general. Incluye aviones ligeros, instrumentación detallada, condiciones meteorológicas dinámicas y mapas topográficos de alta precisión.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Expendable",
-  "url": "juegos/expendable-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Acción", "Shooter"],
-  "desarrollador": ["Rage Software"],
-  "distribuidor": ["Infogrames"],
-  "ean": [""],
-  "descripcion": "Expendable es un shooter de acción en tercera persona con perspectiva cenital. El jugador controla a un soldado clon enviado a eliminar hordas de enemigos en escenarios futuristas, combinando ritmo frenético, gráficos 3D detallados y efectos explosivos.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Fly!",
-  "url": "juegos/fly-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Simulación", "Vuelo"],
-  "desarrollador": ["Terminal Reality"],
-  "distribuidor": ["Gathering of Developers"],
-  "ean": [""],
-  "descripcion": "Fly! es un simulador de vuelo civil altamente realista que permite pilotar aviones comerciales y de aviación general. Destaca por su detallado modelado de cabinas, condiciones meteorológicas dinámicas y un sistema de navegación fiel al real.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Age of Wonders",
-  "url": "juegos/age-of-wonders-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Estrategia", "Rol", "Fantasía"],
-  "desarrollador": ["Triumph Studios"],
-  "distribuidor": ["Gathering of Developers"],
-  "ean": [""],
-  "descripcion": "Age of Wonders es un juego de estrategia por turnos ambientado en un mundo de fantasía. El jugador dirige razas míticas, gestiona ciudades y ejércitos, y libra batallas tácticas en mapas detallados, combinando elementos de conquista, diplomacia y magia.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Monaco Grand Prix: Racing Simulation 2",
-  "url": "juegos/monaco-grand-prix-racing-simulation-2-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Carreras", "Simulación"],
-  "desarrollador": ["Ubisoft"],
-  "distribuidor": ["Ubisoft"],
-  "ean": [""],
-  "descripcion": "Monaco Grand Prix: Racing Simulation 2 es un simulador de Fórmula 1 desarrollado por Ubisoft que destaca por su realismo, múltiples modos de juego y circuitos basados en localizaciones reales. Permite competir en campeonatos completos o practicar en sesiones de entrenamiento.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Force 21",
-  "url": "juegos/force-21-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Estrategia", "Táctico", "Guerra"],
-  "desarrollador": ["Red Storm Entertainment"],
-  "distribuidor": ["Sierra Studios"],
-  "ean": [""],
-  "descripcion": "Force 21 es un juego de estrategia táctica en 3D ambientado en un conflicto bélico futurista entre Estados Unidos y China. El jugador comanda unidades mecanizadas en tiempo real, gestionando recursos, formaciones y ataques coordinados con un alto componente táctico.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "Army Men II",
-  "url": "juegos/army-men-ii-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Estrategia", "Acción"],
-  "desarrollador": ["The 3DO Company"],
-  "distribuidor": ["The 3DO Company"],
-  "ean": [""],
-  "descripcion": "Army Men II continúa la guerra entre los ejércitos de soldados de plástico verdes y marrones. Esta secuela introduce nuevos escenarios tanto en el mundo real como en el universo de los juguetes, con misiones más variadas, vehículos y una jugabilidad que combina estrategia y acción en tiempo real.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Bigbox"]
-},
-{
-  "titulo": "TrickStyle",
-  "url": "juegos/trickstyle-bigbox/",
-  "plataforma": ["Win95", "Win98"],
-  "genero": ["Carreras", "Futurista"],
-  "desarrollador": ["Criterion Studios"],
-  "distribuidor": ["Acclaim Entertainment"],
-  "ean": [""],
-  "descripcion": "TrickStyle es un juego de carreras futurista en el que los jugadores compiten con aerotablas a través de circuitos ambientados en ciudades del futuro como Londres, Nueva York o Tokio. Destaca por su estética retrofuturista, acrobacias aéreas y ritmo arcade.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Carreras", "Futurista", "Aerotabla", "Arcade", "Bigbox"]
-},
-{
-  "titulo": "H.E.D.Z. (Head Extreme Destruction Zone)",
-  "url": "juegos/hedz-head-extreme-destruction-zone-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Acción", "Aventura"],
-  "desarrollador": ["Electronic Arts"],
-  "distribuidor": ["Electronic Arts"],
-  "ean": [""],
-  "descripcion": "H.E.D.Z. (Head Extreme Destruction Zone) es un juego de acción y aventura en tercera persona donde el jugador controla un androide que puede intercambiar cabezas para obtener distintas habilidades. Ambientado en un campeonato galáctico, combina combates, exploración y elementos de plataformas en entornos 3D llenos de color y humor.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Acción", "Plataformas", "Aventura", "Ciencia ficción", "Humor", "Bigbox"]
-},
-{
-  "titulo": "Warlords Battlecry",
-  "url": "juegos/warlords-battlecry-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Estrategia", "Rol", "Fantasía"],
-  "desarrollador": ["Strategic Studies Group (SSG)"],
-  "distribuidor": ["Ubi Soft Entertainment"],
-  "ean": [""],
-  "descripcion": "Warlords Battlecry combina la estrategia en tiempo real con elementos de rol, permitiendo al jugador crear y desarrollar un héroe persistente que lidera ejércitos en un mundo de fantasía. Con más de una docena de razas y campañas no lineales, ofrece una profunda jugabilidad táctica y narrativa.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Estrategia en tiempo real", "Rol", "Fantasía", "Hero System", "Campañas", "Bigbox"]
-},
-{
-  "titulo": "Fighting Steel",
-  "url": "juegos/fighting-steel-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Simulación", "Estrategia", "Naval"],
-  "desarrollador": ["Strategic Simulations Inc. (SSI)"],
-  "distribuidor": ["Ubisoft"],
-  "ean": [""],
-  "descripcion": "Fighting Steel es un simulador naval ambientado en la Segunda Guerra Mundial que permite comandar flotas de buques de guerra en enfrentamientos realistas. El jugador puede controlar destructores, cruceros y acorazados, gestionando maniobras, fuego artillero y condiciones meteorológicas en tiempo real.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Simulación naval", "Segunda Guerra Mundial", "Estrategia", "Batallas marítimas", "Realismo", "Bigbox"]
-},
-{
-  "titulo": "Eliminator",
-  "url": "juegos/eliminator-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Acción", "Shooter", "Arcade"],
-  "desarrollador": ["Magenta Software"],
-  "distribuidor": ["Psygnosis"],
-  "ean": [""],
-  "descripcion": "Eliminator es un shooter futurista en tercera persona donde el jugador pilota un vehículo de combate antigravitatorio a través de niveles llenos de enemigos y obstáculos. Con un enfoque arcade y vertiginoso, destaca por su estética tecnológica y ritmo frenético.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Shooter", "Acción", "Futurista", "Arcade", "Vehículos", "Bigbox"]
-},
-{
-  "titulo": "MiG-29 Fulcrum",
-  "url": "juegos/mig-29-fulcrum-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Simulación", "Vuelo", "Militar"],
-  "desarrollador": ["NovaLogic"],
-  "distribuidor": ["NovaLogic"],
-  "ean": [""],
-  "descripcion": "MiG-29 Fulcrum es un simulador de vuelo militar desarrollado por NovaLogic que pone al jugador a los mandos del famoso caza soviético. Incluye misiones de combate aéreo, operaciones tácticas y modo multijugador, con un motor gráfico avanzado para su época y un equilibrio entre realismo y accesibilidad.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Simulación de vuelo", "Combate aéreo", "Militar", "Guerra moderna", "Caza", "Bigbox"]
-},
-{
-  "titulo": "Wizards & Warriors",
-  "url": "juegos/wizards-and-warriors-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Rol", "Aventura", "Fantasía"],
-  "desarrollador": ["Heuristic Park"],
-  "distribuidor": ["Activision"],
-  "ean": [""],
-  "descripcion": "Wizards & Warriors es un juego de rol y aventura en 3D ambientado en un mundo de fantasía donde el jugador guía a un grupo de héroes en su misión por derrotar a un poderoso hechicero. Combina exploración en tiempo real, combates tácticos y desarrollo profundo de personajes al estilo clásico de los RPG occidentales.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["RPG", "Fantasía", "Aventura", "Exploración", "3D", "Bigbox"]
-},
-{
-  "titulo": "BackPacker",
-  "url": "juegos/backpacker-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Educativo", "Aventura", "Trivia"],
-  "desarrollador": ["Tati Mixedia AB"],
-  "distribuidor": ["SWE Games", "Pan Interactive"],
-  "ean": [""],
-  "descripcion": "BackPacker es un juego educativo y de aventuras en el que el jugador viaja por todo el mundo respondiendo preguntas de cultura general, historia, geografía y arte para ganar dinero y continuar su viaje. Mezcla exploración, aprendizaje y humor con un enfoque ligero y didáctico.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Educativo", "Trivia", "Viajes", "Cultura general", "Aventura", "Bigbox"]
-},
-{
-  "titulo": "Global Domination",
-  "url": "juegos/global-domination-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Estrategia en tiempo real", "Táctico", "Guerra"],
-  "desarrollador": ["Grolier Interactive"],
-  "distribuidor": ["Virgin Interactive"],
-  "ean": [""],
-  "descripcion": "Global Domination es un juego de estrategia y táctica militar que combina gestión global con combates en tiempo real. El jugador asume el papel de comandante supremo con el objetivo de conquistar territorios y lograr la supremacía mundial mediante decisiones diplomáticas, tecnológicas y militares.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Estrategia", "Guerra", "Conquista mundial", "RTS", "Simulación bélica", "Bigbox"]
-},
-{
-  "titulo": "NASCAR Racing 4",
-  "url": "juegos/nascar-racing-4-bigbox/",
-  "plataforma": ["Win98", "WinMe", "Win2000", "WinXP"],
-  "genero": ["Simulación", "Carreras", "Deportivo"],
-  "desarrollador": ["Papyrus Design Group"],
-  "distribuidor": ["Sierra Sports"],
-  "ean": [""],
-  "descripcion": "NASCAR Racing 4 es un simulador de conducción que recrea con gran realismo las competiciones oficiales de la NASCAR. Incluye todos los coches, circuitos y pilotos de la temporada 2001, con físicas avanzadas, inteligencia artificial mejorada y modos de práctica, carrera y campeonato.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Simulación de conducción", "Carreras", "NASCAR", "Deportivo", "Realismo", "Bigbox"]
-},
-{
-  "titulo": "Superbike 2000",
-  "url": "juegos/superbike-2000-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Simulación", "Carreras", "Motociclismo"],
-  "desarrollador": ["Milestone S.r.l."],
-  "distribuidor": ["Electronic Arts"],
-  "ean": [""],
-  "descripcion": "Superbike 2000 es un simulador de motociclismo basado en el campeonato mundial de Superbikes. Ofrece circuitos y pilotos oficiales, físicas realistas, condiciones meteorológicas variables y un modo de carrera que equilibra simulación y accesibilidad, convirtiéndose en una referencia del género en su época.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Simulación", "Motociclismo", "Carreras", "Superbike", "Deportivo", "Bigbox"]
-},
-{
-  "titulo": "Descent 3",
-  "url": "juegos/descent-3-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Acción", "Shooter", "Ciencia ficción"],
-  "desarrollador": ["Outrage Entertainment"],
-  "distribuidor": ["Interplay Productions"],
-  "ean": [""],
-  "descripcion": "Descent 3 es un shooter en primera persona en entornos totalmente tridimensionales donde el jugador pilota una nave con movimiento libre en todas las direcciones. Con una campaña profunda, enemigos inteligentes y un motor gráfico avanzado, combina acción intensa, exploración y resolución de misiones en escenarios industriales y espaciales.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Shooter 3D", "Naves", "Ciencia ficción", "Acción", "Espacial", "Bigbox"]
-},
-{
-  "titulo": "Rising Sun",
-  "url": "juegos/rising-sun-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Estrategia", "Táctico", "Histórico"],
-  "desarrollador": ["TalonSoft"],
-  "distribuidor": ["Take-Two Interactive"],
-  "ean": [""],
-  "descripcion": "Rising Sun es un juego de estrategia táctica ambientado en el teatro del Pacífico durante la Segunda Guerra Mundial. El jugador puede comandar fuerzas japonesas o aliadas en campañas históricas, gestionando unidades terrestres, aéreas y navales con gran nivel de detalle táctico.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Estrategia", "Segunda Guerra Mundial", "Táctico", "Histórico", "Wargame", "Bigbox"]
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "titulo": "Beyond Good & Evil",
+    "url": "juegos/beyond-good-and-evil-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Ubisoft Montpellier"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Beyond Good & Evil es un juego de acción y aventura en tercera persona en el que la reportera Jade investiga una conspiración alienígena en su planeta. Mezcla exploración, sigilo, combates dinámicos y resolución de puzles, con un fuerte componente narrativo.",
+    "incluye": []
+  },
+  {
+    "titulo": "Spider-Man 2: The Game",
+    "url": "juegos/spiderman-2-the-game-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Fizz Factor"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Spider-Man 2: The Game es un título de acción y aventura basado en la película del mismo nombre. El jugador controla a Spider-Man en un entorno abierto, balanceándose entre rascacielos, enfrentándose a villanos clásicos de Marvel y cumpliendo misiones principales y secundarias en la ciudad de Nueva York.",
+    "incluye": []
+  },
+  {
+    "titulo": "Total Overdose",
+    "url": "juegos/total-overdose-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en tercera persona"
+    ],
+    "desarrollador": [
+      "Deadline Games"
+    ],
+    "distribuidor": [
+      "SCi Games",
+      "Eidos Interactive"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Total Overdose es un shooter en tercera persona con un estilo desenfadado inspirado en el cine de acción mexicano. El jugador controla a Ramiro Cruz en una aventura llena de tiroteos, acrobacias y armas extravagantes para vengar la muerte de su padre.",
+    "incluye": []
+  },
+  {
+    "titulo": "Turok: Evolution",
+    "url": "juegos/turok-evolution-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona"
+    ],
+    "desarrollador": [
+      "Acclaim Studios Austin"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Turok: Evolution es un shooter en primera persona que sirve como precuela de la saga Turok. El jugador viaja a un mundo primitivo dominado por dinosaurios y criaturas salvajes, combinando combates intensos con armas futuristas y secciones de vuelo en pterodáctilo.",
+    "incluye": []
+  },
+  {
+    "titulo": "Dungeon Siege: Deluxe Edition",
+    "url": "juegos/dungeon-siege-deluxe-edition-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Rol",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Gas Powered Games"
+    ],
+    "distribuidor": [
+      "Microsoft Game Studios"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Dungeon Siege: Deluxe Edition incluye el aclamado juego de rol y acción Dungeon Siege junto a su expansión Legends of Aranna. El jugador lidera un grupo de héroes a través de un vasto mundo de fantasía, enfrentándose a hordas de enemigos y explorando mazmorras en tiempo real.",
+    "incluye": []
+  },
+  {
+    "titulo": "Age of Empires III: Gold Edition",
+    "url": "juegos/age-of-empires-iii-gold-edition-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft Game Studios"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos",
+      "Games for windows"
+    ],
+    "tags": [],
+    "descripcion": "Age of Empires III: Gold Edition reúne el juego base Age of Empires III y sus dos expansiones, The WarChiefs y The Asian Dynasties. Ofrece una experiencia de estrategia en tiempo real ambientada en la era de la colonización, con nuevas civilizaciones, campañas y modos de juego.",
+    "incluye": []
+  },
+  {
+    "titulo": "Warhammer 40,000: Dawn of War - Double Game Pack",
+    "url": "juegos/warhammer-40000-dawn-of-war-double-game-pack-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia",
+      "Tiempo real"
+    ],
+    "desarrollador": [
+      "Relic Entertainment"
+    ],
+    "distribuidor": [
+      "THQ"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": [],
+    "descripcion": "Warhammer 40,000: Dawn of War - Double Game Pack reúne el galardonado Dawn of War: Game of the Year Edition y su expansión Winter Assault. Un pack que permite vivir intensas batallas de estrategia en tiempo real en el oscuro universo futurista de Warhammer 40,000.",
+    "incluye": [
+      "Warhammer 40,000: Dawn of War - Game of the Year Edition",
+      "Warhammer 40,000: Dawn of War - Winter Assault"
+    ]
+  },
+  {
+    "titulo": "Zoo Tycoon",
+    "url": "juegos/zoo-tycoon-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Blue Fang Games"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Zoo Tycoon es un juego de simulación y gestión en el que el jugador construye y administra su propio zoológico. Es necesario equilibrar el bienestar de los animales, la satisfacción de los visitantes y las finanzas del parque para tener éxito.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Ground Control: Dark Conspiracy",
+    "url": "juegos/ground-control-dark-conspiracy-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Táctico"
+    ],
+    "desarrollador": [
+      "Massive Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Precintado",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Ground Control: Dark Conspiracy",
+    "url": "juegos/ground-control-dark-conspiracy-bigbox-2/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Táctico"
+    ],
+    "desarrollador": [
+      "Massive Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Requiem: Avenging Angel",
+    "url": "juegos/requiem-avenging-angel-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona"
+    ],
+    "desarrollador": [
+      "Cyclone Studios"
+    ],
+    "distribuidor": [
+      "3DO"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Requiem: Avenging Angel es un shooter en primera persona ambientado en un futuro dominado por las fuerzas demoníacas. El jugador asume el papel de un ángel enviado a la Tierra para combatir la invasión infernal, utilizando tanto armas convencionales como poderes divinos únicos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Action Man: Asalto a la Isla",
+    "url": "juegos/action-man-asalto-a-la-isla-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Interactive Studios"
+    ],
+    "distribuidor": [
+      "Hasbro Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Action Man: Asalto a la Isla es un juego de acción y aventuras basado en la popular serie de juguetes y dibujos animados. El jugador controla a Action Man en una misión para detener al malvado Dr. X, superando obstáculos, enemigos y pruebas en una isla repleta de desafíos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "REAH: Face the Unknown",
+    "url": "juegos/reah-face-the-unknown-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura",
+      "Puzle"
+    ],
+    "desarrollador": [
+      "L.K. Avalon"
+    ],
+    "distribuidor": [
+      "Project Two Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "REAH: Face the Unknown es una aventura en primera persona con un estilo similar a Myst. El jugador explora un mundo alienígena lleno de misterios y acertijos, combinando entornos prerenderizados con una narrativa envolvente y una atmósfera de ciencia ficción.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "O.D.T. (Or Die Trying)",
+    "url": "juegos/odt-or-die-trying-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "FDI",
+      "Appeal"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "O.D.T. (Or Die Trying) es un juego de acción y aventura en tercera persona con elementos de rol y plataformas. El jugador controla a uno de varios personajes en una misión para recuperar una esfera mágica, enfrentándose a criaturas mutantes y resolviendo desafíos en un entorno industrial y steampunk.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Kingpin: Life of Crime",
+    "url": "juegos/kingpin-life-of-crime-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona"
+    ],
+    "desarrollador": [
+      "Xatrix Entertainment"
+    ],
+    "distribuidor": [
+      "Interplay"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Kingpin: Life of Crime es un violento shooter en primera persona ambientado en un mundo de estilo gánster y urbano. Utiliza el motor de Quake II y combina acción intensa con lenguaje adulto, misiones abiertas y la posibilidad de reclutar aliados para las batallas callejeras.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Red Baron 3-D",
+    "url": "juegos/red-baron-3d-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulación",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Dynamix"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Red Baron 3-D es un simulador de vuelo ambientado en la Primera Guerra Mundial. El jugador pilota aviones de combate históricos en misiones realistas, participando en combates aéreos intensos con gráficos 3D mejorados respecto a la versión original de Red Baron II.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Mortyr",
+    "url": "juegos/mortyr-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona"
+    ],
+    "desarrollador": [
+      "Mirage Interactive"
+    ],
+    "distribuidor": [
+      "Interplay"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Mortyr es un shooter en primera persona ambientado en una historia alternativa donde los nazis ganaron la Segunda Guerra Mundial. El jugador debe viajar en el tiempo para cambiar el curso de la historia, combinando combates intensos con elementos de ciencia ficción.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Tellurian Defence",
+    "url": "juegos/tellurian-defence-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter"
+    ],
+    "desarrollador": [
+      "Doka Studios"
+    ],
+    "distribuidor": [
+      "Doka"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Tellurian Defence es un juego de disparos con ambientación espacial en el que el jugador defiende la Tierra de oleadas de invasores alienígenas. Combina acción arcade con gráficos 3D simples y una jugabilidad directa centrada en reflejos y puntería.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Spec Ops II: Green Berets",
+    "url": "juegos/spec-ops-ii-green-berets-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Táctico",
+      "Shooter en tercera persona"
+    ],
+    "desarrollador": [
+      "Zombie Studios"
+    ],
+    "distribuidor": [
+      "Take-Two Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Spec Ops II: Green Berets es un juego de acción táctica en tercera persona que pone al jugador al mando de un equipo de fuerzas especiales. Con misiones realistas, armamento militar auténtico y un enfoque en la cooperación y la estrategia, el juego ofrece intensas operaciones encubiertas alrededor del mundo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Tom Clancy's Rainbow Six: Rogue Spear - Black Thorn",
+    "url": "juegos/tom-clancys-rainbow-six-rogue-spear-black-thorn-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Acción",
+      "Táctico",
+      "Shooter en primera persona"
+    ],
+    "desarrollador": [
+      "Red Storm Entertainment"
+    ],
+    "distribuidor": [
+      "Ubi Soft"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Black Thorn es una expansión independiente de Rogue Spear, parte de la saga Rainbow Six. El jugador lidera operaciones antiterroristas alrededor del mundo, planificando cada misión con precisión táctica y ejecutándola con realismo y trabajo en equipo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Invictus: In the Shadow of Olympus",
+    "url": "juegos/invictus-in-the-shadow-of-olympus-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia",
+      "Acción",
+      "Rol"
+    ],
+    "desarrollador": [
+      "Quicksilver Software"
+    ],
+    "distribuidor": [
+      "Interplay"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Invictus: In the Shadow of Olympus combina estrategia en tiempo real con elementos de rol en un mundo inspirado en la mitología griega. El jugador controla héroes, criaturas y ejércitos mitológicos mientras completa misiones y resuelve conflictos entre los dioses del Olimpo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Legacy of Kain: Soul Reaver",
+    "url": "juegos/legacy-of-kain-soul-reaver-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Crystal Dynamics"
+    ],
+    "distribuidor": [
+      "Eidos Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Legacy of Kain: Soul Reaver es un juego de acción y aventura en tercera persona en el que el jugador controla a Raziel, un vampiro caído que busca venganza contra Kain. Con un mundo gótico, narrativa profunda y la habilidad de alternar entre planos material y espectral, se convirtió en un clásico del género.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Ground Control",
+    "url": "juegos/ground-control-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Táctico"
+    ],
+    "desarrollador": [
+      "Massive Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Ground Control es un innovador juego de estrategia táctica en tiempo real que elimina la construcción de bases para centrarse en el combate directo. Ambientado en un futuro de ciencia ficción, ofrece batallas en 3D con unidades personalizables y escenarios espectaculares.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Carnivores",
+    "url": "juegos/carnivores-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Action Forms"
+    ],
+    "distribuidor": [
+      "WizardWorks",
+      "Infogrames"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Carnivores es un juego de caza en primera persona ambientado en un planeta prehistórico habitado por dinosaurios. El jugador debe rastrear y cazar diferentes especies utilizando armas y equipos, combinando exploración, sigilo y estrategia.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Earth 2150",
+    "url": "juegos/earth-2150-ssi-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "SSI"
+    ],
+    "distribuidor": [
+      "SSI"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Earth 2150 es un juego de estrategia en tiempo real publicado por SSI que combina elementos de combate futurista y gestión de recursos. El jugador dirige unidades y bases en un entorno de ciencia ficción con tecnología avanzada y enfrentamientos tácticos entre facciones rivales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Pro Pilot",
+    "url": "juegos/pro-pilot-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulación",
+      "Vuelo"
+    ],
+    "desarrollador": [
+      "Sierra On-Line"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Pro Pilot es un simulador de vuelo civil desarrollado por Sierra On-Line que ofrece una experiencia realista de pilotaje en aviación general. Incluye aviones ligeros, instrumentación detallada, condiciones meteorológicas dinámicas y mapas topográficos de alta precisión.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Expendable",
+    "url": "juegos/expendable-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter"
+    ],
+    "desarrollador": [
+      "Rage Software"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Expendable es un shooter de acción en tercera persona con perspectiva cenital. El jugador controla a un soldado clon enviado a eliminar hordas de enemigos en escenarios futuristas, combinando ritmo frenético, gráficos 3D detallados y efectos explosivos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Fly!",
+    "url": "juegos/fly-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulación",
+      "Vuelo"
+    ],
+    "desarrollador": [
+      "Terminal Reality"
+    ],
+    "distribuidor": [
+      "Gathering of Developers"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Fly! es un simulador de vuelo civil altamente realista que permite pilotar aviones comerciales y de aviación general. Destaca por su detallado modelado de cabinas, condiciones meteorológicas dinámicas y un sistema de navegación fiel al real.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Age of Wonders",
+    "url": "juegos/age-of-wonders-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia",
+      "Rol",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Triumph Studios"
+    ],
+    "distribuidor": [
+      "Gathering of Developers"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Age of Wonders es un juego de estrategia por turnos ambientado en un mundo de fantasía. El jugador dirige razas míticas, gestiona ciudades y ejércitos, y libra batallas tácticas en mapas detallados, combinando elementos de conquista, diplomacia y magia.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Monaco Grand Prix: Racing Simulation 2",
+    "url": "juegos/monaco-grand-prix-racing-simulation-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Carreras",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Ubisoft"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Monaco Grand Prix: Racing Simulation 2 es un simulador de Fórmula 1 desarrollado por Ubisoft que destaca por su realismo, múltiples modos de juego y circuitos basados en localizaciones reales. Permite competir en campeonatos completos o practicar en sesiones de entrenamiento.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Force 21",
+    "url": "juegos/force-21-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia",
+      "Táctico",
+      "Guerra"
+    ],
+    "desarrollador": [
+      "Red Storm Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Force 21 es un juego de estrategia táctica en 3D ambientado en un conflicto bélico futurista entre Estados Unidos y China. El jugador comanda unidades mecanizadas en tiempo real, gestionando recursos, formaciones y ataques coordinados con un alto componente táctico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Army Men II",
+    "url": "juegos/army-men-ii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia",
+      "Acción"
+    ],
+    "desarrollador": [
+      "The 3DO Company"
+    ],
+    "distribuidor": [
+      "The 3DO Company"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Army Men II continúa la guerra entre los ejércitos de soldados de plástico verdes y marrones. Esta secuela introduce nuevos escenarios tanto en el mundo real como en el universo de los juguetes, con misiones más variadas, vehículos y una jugabilidad que combina estrategia y acción en tiempo real.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "TrickStyle",
+    "url": "juegos/trickstyle-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Carreras",
+      "Futurista"
+    ],
+    "desarrollador": [
+      "Criterion Studios"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "TrickStyle es un juego de carreras futurista en el que los jugadores compiten con aerotablas a través de circuitos ambientados en ciudades del futuro como Londres, Nueva York o Tokio. Destaca por su estética retrofuturista, acrobacias aéreas y ritmo arcade.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Carreras",
+      "Futurista",
+      "Aerotabla",
+      "Arcade",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "H.E.D.Z. (Head Extreme Destruction Zone)",
+    "url": "juegos/hedz-head-extreme-destruction-zone-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Electronic Arts"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "H.E.D.Z. (Head Extreme Destruction Zone) es un juego de acción y aventura en tercera persona donde el jugador controla un androide que puede intercambiar cabezas para obtener distintas habilidades. Ambientado en un campeonato galáctico, combina combates, exploración y elementos de plataformas en entornos 3D llenos de color y humor.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Acción",
+      "Plataformas",
+      "Aventura",
+      "Ciencia ficción",
+      "Humor",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Warlords Battlecry",
+    "url": "juegos/warlords-battlecry-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Rol",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Strategic Studies Group (SSG)"
+    ],
+    "distribuidor": [
+      "Ubi Soft Entertainment"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Warlords Battlecry combina la estrategia en tiempo real con elementos de rol, permitiendo al jugador crear y desarrollar un héroe persistente que lidera ejércitos en un mundo de fantasía. Con más de una docena de razas y campañas no lineales, ofrece una profunda jugabilidad táctica y narrativa.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia en tiempo real",
+      "Rol",
+      "Fantasía",
+      "Hero System",
+      "Campañas",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Fighting Steel",
+    "url": "juegos/fighting-steel-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Simulación",
+      "Estrategia",
+      "Naval"
+    ],
+    "desarrollador": [
+      "Strategic Simulations Inc. (SSI)"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Fighting Steel es un simulador naval ambientado en la Segunda Guerra Mundial que permite comandar flotas de buques de guerra en enfrentamientos realistas. El jugador puede controlar destructores, cruceros y acorazados, gestionando maniobras, fuego artillero y condiciones meteorológicas en tiempo real.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación naval",
+      "Segunda Guerra Mundial",
+      "Estrategia",
+      "Batallas marítimas",
+      "Realismo",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Eliminator",
+    "url": "juegos/eliminator-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Arcade"
+    ],
+    "desarrollador": [
+      "Magenta Software"
+    ],
+    "distribuidor": [
+      "Psygnosis"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Eliminator es un shooter futurista en tercera persona donde el jugador pilota un vehículo de combate antigravitatorio a través de niveles llenos de enemigos y obstáculos. Con un enfoque arcade y vertiginoso, destaca por su estética tecnológica y ritmo frenético.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Shooter",
+      "Acción",
+      "Futurista",
+      "Arcade",
+      "Vehículos",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "MiG-29 Fulcrum",
+    "url": "juegos/mig-29-fulcrum-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Simulación",
+      "Vuelo",
+      "Militar"
+    ],
+    "desarrollador": [
+      "NovaLogic"
+    ],
+    "distribuidor": [
+      "NovaLogic"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "MiG-29 Fulcrum es un simulador de vuelo militar desarrollado por NovaLogic que pone al jugador a los mandos del famoso caza soviético. Incluye misiones de combate aéreo, operaciones tácticas y modo multijugador, con un motor gráfico avanzado para su época y un equilibrio entre realismo y accesibilidad.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación de vuelo",
+      "Combate aéreo",
+      "Militar",
+      "Guerra moderna",
+      "Caza",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Wizards & Warriors",
+    "url": "juegos/wizards-and-warriors-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Rol",
+      "Aventura",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Heuristic Park"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Wizards & Warriors es un juego de rol y aventura en 3D ambientado en un mundo de fantasía donde el jugador guía a un grupo de héroes en su misión por derrotar a un poderoso hechicero. Combina exploración en tiempo real, combates tácticos y desarrollo profundo de personajes al estilo clásico de los RPG occidentales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "RPG",
+      "Fantasía",
+      "Aventura",
+      "Exploración",
+      "3D",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "BackPacker",
+    "url": "juegos/backpacker-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Educativo",
+      "Aventura",
+      "Trivia"
+    ],
+    "desarrollador": [
+      "Tati Mixedia AB"
+    ],
+    "distribuidor": [
+      "SWE Games",
+      "Pan Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "BackPacker es un juego educativo y de aventuras en el que el jugador viaja por todo el mundo respondiendo preguntas de cultura general, historia, geografía y arte para ganar dinero y continuar su viaje. Mezcla exploración, aprendizaje y humor con un enfoque ligero y didáctico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Educativo",
+      "Trivia",
+      "Viajes",
+      "Cultura general",
+      "Aventura",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Global Domination",
+    "url": "juegos/global-domination-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Táctico",
+      "Guerra"
+    ],
+    "desarrollador": [
+      "Grolier Interactive"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Global Domination es un juego de estrategia y táctica militar que combina gestión global con combates en tiempo real. El jugador asume el papel de comandante supremo con el objetivo de conquistar territorios y lograr la supremacía mundial mediante decisiones diplomáticas, tecnológicas y militares.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia",
+      "Guerra",
+      "Conquista mundial",
+      "RTS",
+      "Simulación bélica",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "NASCAR Racing 4",
+    "url": "juegos/nascar-racing-4-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación",
+      "Carreras",
+      "Deportivo"
+    ],
+    "desarrollador": [
+      "Papyrus Design Group"
+    ],
+    "distribuidor": [
+      "Sierra Sports"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "NASCAR Racing 4 es un simulador de conducción que recrea con gran realismo las competiciones oficiales de la NASCAR. Incluye todos los coches, circuitos y pilotos de la temporada 2001, con físicas avanzadas, inteligencia artificial mejorada y modos de práctica, carrera y campeonato.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación de conducción",
+      "Carreras",
+      "NASCAR",
+      "Deportivo",
+      "Realismo",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Superbike 2000",
+    "url": "juegos/superbike-2000-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Simulación",
+      "Carreras",
+      "Motociclismo"
+    ],
+    "desarrollador": [
+      "Milestone S.r.l."
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Superbike 2000 es un simulador de motociclismo basado en el campeonato mundial de Superbikes. Ofrece circuitos y pilotos oficiales, físicas realistas, condiciones meteorológicas variables y un modo de carrera que equilibra simulación y accesibilidad, convirtiéndose en una referencia del género en su época.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación",
+      "Motociclismo",
+      "Carreras",
+      "Superbike",
+      "Deportivo",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Descent 3",
+    "url": "juegos/descent-3-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Outrage Entertainment"
+    ],
+    "distribuidor": [
+      "Interplay Productions"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Descent 3 es un shooter en primera persona en entornos totalmente tridimensionales donde el jugador pilota una nave con movimiento libre en todas las direcciones. Con una campaña profunda, enemigos inteligentes y un motor gráfico avanzado, combina acción intensa, exploración y resolución de misiones en escenarios industriales y espaciales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Shooter 3D",
+      "Naves",
+      "Ciencia ficción",
+      "Acción",
+      "Espacial",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Rising Sun",
+    "url": "juegos/rising-sun-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Estrategia",
+      "Táctico",
+      "Histórico"
+    ],
+    "desarrollador": [
+      "TalonSoft"
+    ],
+    "distribuidor": [
+      "Take-Two Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Rising Sun es un juego de estrategia táctica ambientado en el teatro del Pacífico durante la Segunda Guerra Mundial. El jugador puede comandar fuerzas japonesas o aliadas en campañas históricas, gestionando unidades terrestres, aéreas y navales con gran nivel de detalle táctico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia",
+      "Segunda Guerra Mundial",
+      "Táctico",
+      "Histórico",
+      "Wargame",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Jekyll & Hyde",
+    "url": "juegos/jekyll-and-hyde-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Aventura",
+      "Acción",
+      "Puzle"
+    ],
+    "desarrollador": [
+      "In Utero"
+    ],
+    "distribuidor": [
+      "DreamCatcher Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Jekyll & Hyde es una aventura de acción en tercera persona inspirada en la clásica novela de Robert Louis Stevenson. El jugador alterna entre el doctor Jekyll y su alter ego Hyde, resolviendo puzles, explorando escenarios góticos y enfrentándose a enemigos en una historia de misterio y redención.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Aventura",
+      "Acción",
+      "Terror",
+      "Puzle",
+      "Gótico",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "EverQuest: The Ruins of Kunark",
+    "url": "juegos/everquest-the-ruins-of-kunark-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Rol",
+      "MMORPG",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Verant Interactive"
+    ],
+    "distribuidor": [
+      "Sony Online Entertainment"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "The Ruins of Kunark es la primera expansión del célebre MMORPG EverQuest. Introduce el continente de Kunark, una nueva raza jugable (los Iksar), nuevas mazmorras, enemigos y misiones que amplían enormemente el mundo de Norrath. Supuso un paso clave en la evolución de los juegos de rol en línea.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "MMORPG",
+      "Rol",
+      "Fantasía",
+      "Expansión",
+      "Multijugador",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "M.I.A. (Missing In Action)",
+    "url": "juegos/mia-missing-in-action-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Táctico"
+    ],
+    "desarrollador": [
+      "Team 17"
+    ],
+    "distribuidor": [
+      "MicroProse"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "M.I.A. (Missing In Action) es un juego de acción táctica ambientado en conflictos militares modernos. El jugador lidera a un escuadrón de operaciones especiales en misiones de infiltración, rescate y sabotaje, combinando sigilo, estrategia y combate en tiempo real.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Acción táctica",
+      "Shooter",
+      "Militar",
+      "Estrategia en tiempo real",
+      "Guerra moderna",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Flight Unlimited III",
+    "url": "juegos/flight-unlimited-iii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Simulación",
+      "Vuelo"
+    ],
+    "desarrollador": [
+      "Looking Glass Studios"
+    ],
+    "distribuidor": [
+      "Eidos Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Flight Unlimited III es un simulador de vuelo civil que destaca por su avanzado motor gráfico y su realismo aerodinámico. Ofrece vuelos en entornos detallados como Seattle o San Francisco, con condiciones meteorológicas dinámicas, tráfico aéreo y un completo sistema de vuelo instrumental.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación",
+      "Vuelo",
+      "Aviación civil",
+      "Realismo",
+      "Looking Glass",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Machines",
+    "url": "juegos/machines-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Charybdis"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Machines es un innovador juego de estrategia en tiempo real ambientado en un futuro lejano donde ejércitos de robots luchan por el control de planetas. Destaca por su perspectiva completamente 3D y la posibilidad de alternar entre vista táctica y control directo de unidades en primera persona.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia en tiempo real",
+      "Robots",
+      "Ciencia ficción",
+      "3D",
+      "Acción táctica",
+      "Bigbox"
+    ]
+  }
 ]
