@@ -29012,7 +29012,35 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Educativo", "Trivia", "Viajes", "Cultura general", "Aventura", "Bigbox"]
+},
+{
+  "titulo": "Global Domination",
+  "url": "juegos/global-domination-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
+  "genero": ["Estrategia en tiempo real", "Táctico", "Guerra"],
+  "desarrollador": ["Grolier Interactive"],
+  "distribuidor": ["Virgin Interactive"],
+  "ean": [""],
+  "descripcion": "Global Domination es un juego de estrategia y táctica militar que combina gestión global con combates en tiempo real. El jugador asume el papel de comandante supremo con el objetivo de conquistar territorios y lograr la supremacía mundial mediante decisiones diplomáticas, tecnológicas y militares.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Estrategia", "Guerra", "Conquista mundial", "RTS", "Simulación bélica", "Bigbox"]
+},
+{
+  "titulo": "NASCAR Racing 4",
+  "url": "juegos/nascar-racing-4/",
+  "plataforma": ["Windows 98", "Windows Me", "Windows 2000", "Windows XP"],
+  "genero": ["Simulación", "Carreras", "Deportivo"],
+  "desarrollador": ["Papyrus Design Group"],
+  "distribuidor": ["Sierra Sports"],
+  "ean": [""],
+  "descripcion": "NASCAR Racing 4 es un simulador de conducción que recrea con gran realismo las competiciones oficiales de la NASCAR. Incluye todos los coches, circuitos y pilotos de la temporada 2001, con físicas avanzadas, inteligencia artificial mejorada y modos de práctica, carrera y campeonato.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación de conducción", "Carreras", "NASCAR", "Deportivo", "Realismo", "Bigbox"]
 }
+
+
 
 
 
