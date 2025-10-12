@@ -29038,7 +29038,35 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Simulación de conducción", "Carreras", "NASCAR", "Deportivo", "Realismo", "Bigbox"]
+},
+{
+  "titulo": "Superbike 2000",
+  "url": "juegos/superbike-2000-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Simulación", "Carreras", "Motociclismo"],
+  "desarrollador": ["Milestone S.r.l."],
+  "distribuidor": ["Electronic Arts"],
+  "ean": [""],
+  "descripcion": "Superbike 2000 es un simulador de motociclismo basado en el campeonato mundial de Superbikes. Ofrece circuitos y pilotos oficiales, físicas realistas, condiciones meteorológicas variables y un modo de carrera que equilibra simulación y accesibilidad, convirtiéndose en una referencia del género en su época.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación", "Motociclismo", "Carreras", "Superbike", "Deportivo", "Bigbox"]
+},
+{
+  "titulo": "Descent 3",
+  "url": "juegos/descent-3-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Acción", "Shooter", "Ciencia ficción"],
+  "desarrollador": ["Outrage Entertainment"],
+  "distribuidor": ["Interplay Productions"],
+  "ean": [""],
+  "descripcion": "Descent 3 es un shooter en primera persona en entornos totalmente tridimensionales donde el jugador pilota una nave con movimiento libre en todas las direcciones. Con una campaña profunda, enemigos inteligentes y un motor gráfico avanzado, combina acción intensa, exploración y resolución de misiones en escenarios industriales y espaciales.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Shooter 3D", "Naves", "Ciencia ficción", "Acción", "Espacial", "Bigbox"]
 }
+
+
 
 
 
