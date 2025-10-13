@@ -30040,7 +30040,63 @@
   "incluye": [],
   "serie": ["Todos", "Edición especial"],
   "tags": ["RPG", "Hack and Slash", "Expansión", "Fantasía oscura", "Acción", "Blizzard", "Edición especial"]
+},
+{
+  "titulo": "Die by the Sword",
+  "url": "juegos/die-by-the-sword-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Acción", "Aventura", "Hack and Slash", "Fantasía"],
+  "desarrollador": ["Treyarch"],
+  "distribuidor": ["Interplay Productions"],
+  "ean": [""],
+  "descripcion": "Die by the Sword es un juego de acción y aventura en 3D que destaca por su innovador sistema de control de espada basado en movimientos del ratón. Ambientado en un mundo de fantasía oscura, combina exploración, combate cuerpo a cuerpo preciso y elementos de rol en una campaña llena de desafíos.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Acción", "Hack and Slash", "Combate con espada", "Fantasía", "3D", "Bigbox"]
+},
+{
+  "titulo": "Revenant",
+  "url": "juegos/revenant-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Rol", "Acción", "Aventura", "Fantasía"],
+  "desarrollador": ["Cinematix Studios"],
+  "distribuidor": ["Eidos Interactive"],
+  "ean": [""],
+  "descripcion": "Revenant es un juego de rol y acción ambientado en un oscuro mundo de fantasía. El jugador encarna a Locke, un guerrero resucitado que debe rescatar a una joven secuestrada y descubrir los secretos de su pasado. Combina combates en tiempo real, exploración isométrica, magia y elementos de aventura clásica.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["RPG", "Acción", "Fantasía oscura", "Aventura", "Isométrico", "Bigbox"]
+},
+{
+  "titulo": "Martian Gothic: Unification",
+  "url": "juegos/martian-gothic-unification-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Aventura", "Survival Horror", "Ciencia ficción"],
+  "desarrollador": ["Creative Reality"],
+  "distribuidor": ["Take-Two Interactive"],
+  "ean": [""],
+  "descripcion": "Martian Gothic: Unification es una aventura de terror y ciencia ficción ambientada en una base marciana donde una misteriosa infección ha acabado con toda la tripulación. El jugador controla a tres personajes que deben cooperar sin encontrarse físicamente, resolviendo puzles y descubriendo los oscuros secretos del lugar.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Aventura", "Terror", "Ciencia ficción", "Survival Horror", "Marte", "Bigbox"]
+},
+{
+  "titulo": "Lander",
+  "url": "juegos/lander-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Simulación", "Acción", "Ciencia ficción"],
+  "desarrollador": ["Realtime Associates"],
+  "distribuidor": ["Psygnosis"],
+  "ean": [""],
+  "descripcion": "Lander es un simulador de vuelo en 3D en el que el jugador pilota una nave de carga en misiones que combinan exploración, combate y precisión en el aterrizaje. Con una física realista de gravedad y control, ofrece un desafío técnico y una ambientación futurista al estilo clásico de Psygnosis.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación", "Naves", "Ciencia ficción", "Física realista", "Vuelo", "Bigbox"]
 }
+
+
+
+
 
 
 ]
