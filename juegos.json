@@ -30092,7 +30092,77 @@
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
   "tags": ["Simulación", "Naves", "Ciencia ficción", "Física realista", "Vuelo", "Bigbox"]
+},
+{
+  "titulo": "Los Sims: Más vivos que nunca",
+  "url": "juegos/los-sims-mas-vivos-que-nunca-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
+  "genero": ["Simulación", "Estrategia", "Vida virtual"],
+  "desarrollador": ["Maxis"],
+  "distribuidor": ["Electronic Arts"],
+  "ean": [""],
+  "descripcion": "Los Sims: Más vivos que nunca es la primera expansión del exitoso simulador de vida Los Sims. Añade nuevos objetos, decoraciones y actividades que amplían las posibilidades de personalización y convivencia del hogar. Introduce más interacciones sociales y una mayor variedad de estilos de vida.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación de vida", "Expansión", "Estrategia", "Maxis", "Creatividad", "Bigbox"]
+},
+{
+  "titulo": "DethKarz",
+  "url": "juegos/dethkarz-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Carreras", "Acción", "Futurista"],
+  "desarrollador": ["Beam Software"],
+  "distribuidor": ["GT Interactive"],
+  "ean": [""],
+  "descripcion": "DethKarz es un juego de carreras futuristas ambientado en un mundo de alta tecnología donde los vehículos están equipados con armas. Combina velocidad y combate en circuitos urbanos y de ciencia ficción, con gráficos 3D avanzados y un estilo arcade lleno de adrenalina.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Carreras futuristas", "Vehículos armados", "Arcade", "Acción", "Ciencia ficción", "Bigbox"]
+},
+{
+  "titulo": "Trophy Hunter: Rocky Mountain Adventures",
+  "url": "juegos/trophy-hunter-rocky-mountain-adventures-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Simulación", "Deportivo", "Caza"],
+  "desarrollador": ["Sunstorm Interactive"],
+  "distribuidor": ["WizardWorks"],
+  "ean": [""],
+  "descripcion": "Trophy Hunter: Rocky Mountain Adventures es un simulador de caza ambientado en las Montañas Rocosas. El jugador puede rastrear animales salvajes, elegir entre diferentes armas y equipos, y explorar vastos entornos naturales. Destaca por su realismo y atención al detalle en la fauna y los paisajes.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación", "Caza", "Naturaleza", "Deportivo", "Realismo", "Bigbox"]
+},
+{
+  "titulo": "Redline: Gang Warfare 2066",
+  "url": "juegos/redline-gang-warfare-2066-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Acción", "Shooter", "Conducción", "Ciencia ficción"],
+  "desarrollador": ["Beyond Games"],
+  "distribuidor": ["Accolade"],
+  "ean": [""],
+  "descripcion": "Redline: Gang Warfare 2066 es un juego de acción y conducción ambientado en un futuro postapocalíptico. Combina combates en primera persona con secuencias de conducción armada, permitiendo al jugador alternar entre tiroteos intensos y persecuciones vehiculares en un mundo dominado por bandas y caos urbano.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Acción", "Shooter", "Vehículos", "Ciencia ficción", "Postapocalíptico", "Bigbox"]
+},
+{
+  "titulo": "Battlezone II: Combat Commander",
+  "url": "juegos/battlezone-ii-combat-commander-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Estrategia", "Acción", "Ciencia ficción"],
+  "desarrollador": ["Pandemic Studios"],
+  "distribuidor": ["Activision"],
+  "ean": [""],
+  "descripcion": "Battlezone II: Combat Commander combina acción en primera persona con estrategia en tiempo real, situando al jugador al mando de unidades mecanizadas en escenarios extraterrestres. Permite pilotar vehículos de combate y gestionar bases, recursos y tropas, ofreciendo una experiencia híbrida única de táctica y acción futurista.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Estrategia en tiempo real", "Acción", "Ciencia ficción", "Vehículos", "Combate futurista", "Bigbox"]
 }
+
+
+
+
+
 
 
 
