@@ -30443,59 +30443,182 @@
     ]
   },
   {
-  "titulo": "Uprising 2: Lead and Destroy",
-  "url": "juegos/uprising-2-lead-and-destroy-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Acción", "Estrategia", "Ciencia ficción"],
-  "desarrollador": ["Cyclone Studios"],
-  "distribuidor": ["3DO Company"],
-  "ean": [""],
-  "descripcion": "Uprising 2: Lead and Destroy es un juego híbrido que combina estrategia en tiempo real con acción en primera persona. El jugador asume el control de un vehículo de combate futurista desde el que dirige y apoya directamente a sus tropas en el campo de batalla. Ambientado en un conflicto interplanetario, ofrece un enfoque único entre la táctica y la acción directa.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Acción táctica", "Estrategia en tiempo real", "Shooter", "Vehículos", "Ciencia ficción", "Bigbox"]
-},
-{
-  "titulo": "Gorky 17",
-  "url": "juegos/gorky-17-bigbox/",
+    "titulo": "Uprising 2: Lead and Destroy",
+    "url": "juegos/uprising-2-lead-and-destroy-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Acción",
+      "Estrategia",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Cyclone Studios"
+    ],
+    "distribuidor": [
+      "3DO Company"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Uprising 2: Lead and Destroy es un juego híbrido que combina estrategia en tiempo real con acción en primera persona. El jugador asume el control de un vehículo de combate futurista desde el que dirige y apoya directamente a sus tropas en el campo de batalla. Ambientado en un conflicto interplanetario, ofrece un enfoque único entre la táctica y la acción directa.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Acción táctica",
+      "Estrategia en tiempo real",
+      "Shooter",
+      "Vehículos",
+      "Ciencia ficción",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Gorky 17",
+    "url": "juegos/gorky-17-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Rol",
+      "Terror",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Metropolis Software"
+    ],
+    "distribuidor": [
+      "TopWare Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Gorky 17 es un juego que mezcla estrategia por turnos y elementos de rol en un entorno oscuro de ciencia ficción. Ambientado en una ciudad militar abandonada, el jugador lidera un escuadrón de soldados que deben enfrentarse a horrores biotecnológicos y descubrir los secretos de un proyecto militar clasificado.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia por turnos",
+      "RPG",
+      "Terror",
+      "Ciencia ficción",
+      "Experimentos",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Hidden & Dangerous",
+    "url": "juegos/hidden-and-dangerous-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Táctico",
+      "Shooter",
+      "Acción",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Illusion Softworks"
+    ],
+    "distribuidor": [
+      "Take-Two Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Hidden & Dangerous es un juego de acción táctica en tercera persona ambientado en la Segunda Guerra Mundial. El jugador lidera un escuadrón de fuerzas especiales británicas en misiones tras las líneas enemigas, combinando sigilo, estrategia, control de escuadra y combate intenso en entornos realistas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Táctico",
+      "Shooter",
+      "Segunda Guerra Mundial",
+      "Sigilo",
+      "Fuerzas especiales",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Jack Nicklaus 6: Golden Bear Challenge",
+    "url": "juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Deportivo",
+      "Simulación",
+      "Golf"
+    ],
+    "desarrollador": [
+      "Activision"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Jack Nicklaus 6: Golden Bear Challenge es un simulador de golf realista que permite jugar en campos profesionales y crear recorridos personalizados con su potente editor. Con gráficos detallados, físicas precisas y la presencia del legendario Jack Nicklaus, ofrece una experiencia profunda tanto para jugadores casuales como avanzados.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Golf",
+      "Simulación deportiva",
+      "Editor de campos",
+      "Jack Nicklaus",
+      "Bigbox"
+    ]
+  },
+  {
+  "titulo": "Dark Reign 2",
+  "url": "juegos/dark-reign-2-bigbox/",
   "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Estrategia", "Rol", "Terror", "Ciencia ficción"],
-  "desarrollador": ["Metropolis Software"],
-  "distribuidor": ["TopWare Interactive"],
-  "ean": [""],
-  "descripcion": "Gorky 17 es un juego que mezcla estrategia por turnos y elementos de rol en un entorno oscuro de ciencia ficción. Ambientado en una ciudad militar abandonada, el jugador lidera un escuadrón de soldados que deben enfrentarse a horrores biotecnológicos y descubrir los secretos de un proyecto militar clasificado.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Estrategia por turnos", "RPG", "Terror", "Ciencia ficción", "Experimentos", "Bigbox"]
-},
-{
-  "titulo": "Hidden & Dangerous",
-  "url": "juegos/hidden-and-dangerous-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Táctico", "Shooter", "Acción", "Segunda Guerra Mundial"],
-  "desarrollador": ["Illusion Softworks"],
-  "distribuidor": ["Take-Two Interactive"],
-  "ean": [""],
-  "descripcion": "Hidden & Dangerous es un juego de acción táctica en tercera persona ambientado en la Segunda Guerra Mundial. El jugador lidera un escuadrón de fuerzas especiales británicas en misiones tras las líneas enemigas, combinando sigilo, estrategia, control de escuadra y combate intenso en entornos realistas.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Táctico", "Shooter", "Segunda Guerra Mundial", "Sigilo", "Fuerzas especiales", "Bigbox"]
-},
-{
-  "titulo": "Jack Nicklaus 6: Golden Bear Challenge",
-  "url": "juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Deportivo", "Simulación", "Golf"],
-  "desarrollador": ["Activision"],
+  "genero": ["Estrategia", "Tiempo real", "Ciencia ficción"],
+  "desarrollador": ["Pandemic Studios"],
   "distribuidor": ["Activision"],
   "ean": [""],
-  "descripcion": "Jack Nicklaus 6: Golden Bear Challenge es un simulador de golf realista que permite jugar en campos profesionales y crear recorridos personalizados con su potente editor. Con gráficos detallados, físicas precisas y la presencia del legendario Jack Nicklaus, ofrece una experiencia profunda tanto para jugadores casuales como avanzados.",
+  "descripcion": "Dark Reign 2 es un juego de estrategia en tiempo real ambientado en un futuro distópico donde dos facciones, la JDA y los Sprawlers, luchan por el control de la Tierra. Con gráficos totalmente en 3D, cámaras dinámicas y multijugador por LAN o internet, ofrece batallas tácticas intensas y una campaña profunda.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Golf", "Simulación deportiva", "Editor de campos", "Jack Nicklaus", "Bigbox"]
+  "tags": ["Estrategia en tiempo real", "Ciencia ficción", "Futuro distópico", "3D", "Multijugador", "Bigbox"]
+},
+{
+  "titulo": "SiN",
+  "url": "juegos/sin-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Acción", "Shooter", "Ciencia ficción"],
+  "desarrollador": ["Ritual Entertainment"],
+  "distribuidor": ["Activision"],
+  "ean": [""],
+  "descripcion": "SiN es un shooter en primera persona ambientado en un futuro cercano dominado por el crimen corporativo. El jugador encarna a John Blade, un agente de seguridad que se enfrenta a una conspiración liderada por la peligrosa Elexis Sinclaire. El juego destaca por su motor gráfico basado en Quake II, entornos interactivos, decisiones que afectan el desarrollo y acción intensa.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Shooter", "FPS", "Ciberpunk", "Ciencia ficción", "Acción", "Bigbox"]
 }
-
-
 
 
 ]
