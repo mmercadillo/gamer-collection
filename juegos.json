@@ -30822,17 +30822,105 @@
     ]
   },
   {
-  "titulo": "Carmageddon II: Carpocalypse Now",
-  "url": "juegos/carmageddon-ii-carpocalypse-now/",
+    "titulo": "Carmageddon II: Carpocalypse Now",
+    "url": "juegos/carmageddon-ii-carpocalypse-now-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Carreras",
+      "Acción",
+      "Vehículos de combate"
+    ],
+    "desarrollador": [
+      "Stainless Games"
+    ],
+    "distribuidor": [
+      "SCI",
+      "Sales Curve Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Carmageddon II: Carpocalypse Now es la secuela del explosivo juego original, con gráficos mejorados, escenarios más grandes y un motor de física más avanzado. El jugador participa en carreras brutales donde puede elegir entre ganar por tiempo, eliminar rivales o atropellar peatones. Incluye nuevos vehículos, destrucción en tiempo real y modo multijugador.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Vehículos",
+      "Carreras violentas",
+      "Acción",
+      "Destrucción",
+      "Multijugador",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Imperialism II: The Age of Exploration",
+    "url": "juegos/imperialism-ii-the-age-of-exploration-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Estrategia",
+      "Gestión",
+      "Histórico"
+    ],
+    "desarrollador": [
+      "Frog City Software"
+    ],
+    "distribuidor": [
+      "SSI (Strategic Simulations Inc.)"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Imperialism II es un juego de estrategia por turnos ambientado en la Era de los Descubrimientos. El jugador controla una nación europea con el objetivo de expandir su imperio mediante la exploración, la diplomacia, el comercio y la guerra. Con un fuerte componente económico y militar, combina profundidad táctica con una ambientación histórica detallada.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia por turnos",
+      "Exploración",
+      "Gestión de recursos",
+      "Imperios",
+      "Historia",
+      "Bigbox"
+    ]
+  },
+  {
+  "titulo": "Cutthroats: Terror on the High Seas",
+  "url": "juegos/cutthroats-terror-on-the-high-seas-bigbox/",
   "plataforma": ["Windows 95", "Windows 98", "Windows Me"],
-  "genero": ["Carreras", "Acción", "Vehículos de combate"],
-  "desarrollador": ["Stainless Games"],
-  "distribuidor": ["SCI", "Sales Curve Interactive"],
+  "genero": ["Estrategia", "Simulación", "Piratas"],
+  "desarrollador": ["Hothouse Creations"],
+  "distribuidor": ["Eidos Interactive"],
   "ean": [""],
-  "descripcion": "Carmageddon II: Carpocalypse Now es la secuela del explosivo juego original, con gráficos mejorados, escenarios más grandes y un motor de física más avanzado. El jugador participa en carreras brutales donde puede elegir entre ganar por tiempo, eliminar rivales o atropellar peatones. Incluye nuevos vehículos, destrucción en tiempo real y modo multijugador.",
+  "descripcion": "Cutthroats: Terror on the High Seas es un juego de estrategia y simulación naval ambientado en el Caribe del siglo XVII. El jugador toma el rol de un capitán pirata y debe gestionar su tripulación, saquear barcos, establecer alianzas o traiciones, comerciar, y combatir en batallas navales en tiempo real. Combina táctica, gestión económica y libertad de acción en un mundo abierto de piratería.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Vehículos", "Carreras violentas", "Acción", "Destrucción", "Multijugador", "Bigbox"]
+  "tags": ["Piratas", "Simulación naval", "Estrategia", "Caribe", "Batallas navales", "Bigbox"]
+},
+{
+  "titulo": "Wall Street Trader 2001",
+  "url": "juegos/wall-street-trader-2001-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
+  "genero": ["Simulación", "Estrategia", "Economía"],
+  "desarrollador": ["Monte Cristo Multimedia"],
+  "distribuidor": ["Ubi Soft"],
+  "ean": [""],
+  "descripcion": "Wall Street Trader 2001 es un simulador económico que pone al jugador en el papel de un inversor en los mercados financieros globales. Incluye cotizaciones en tiempo real simuladas, gestión de carteras, operaciones de compra-venta de acciones, análisis de noticias económicas y eventos aleatorios que afectan los mercados. Es un título orientado a quienes disfrutan de la estrategia basada en economía y finanzas.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación económica", "Bolsa", "Estrategia", "Finanzas", "Mercados", "Bigbox"]
 }
 
 
