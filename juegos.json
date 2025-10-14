@@ -30670,45 +30670,170 @@
     ]
   },
   {
-  "titulo": "WarGames",
-  "url": "juegos/wargames-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Estrategia", "Ciencia ficción", "Tiempo real"],
-  "desarrollador": ["Interactive Studios"],
-  "distribuidor": ["Electronic Arts"],
+    "titulo": "WarGames",
+    "url": "juegos/wargames-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Estrategia",
+      "Ciencia ficción",
+      "Tiempo real"
+    ],
+    "desarrollador": [
+      "Interactive Studios"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "WarGames es un juego de estrategia en tiempo real ambientado en un futuro cercano, inspirado en la película homónima de 1983. El jugador puede controlar a las fuerzas de NORAD o a las unidades de la IA WOPR en escenarios 3D como Nueva York o los Alpes. Incluye visión táctica, camuflaje, ataques sorpresa y soporte multijugador. Esta edición está traducida y doblada al castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Película",
+      "IA",
+      "3D",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Nocturne",
+    "url": "juegos/nocturne-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Aventura",
+      "Terror",
+      "Acción",
+      "Cine negro"
+    ],
+    "desarrollador": [
+      "Terminal Reality"
+    ],
+    "distribuidor": [
+      "Gathering of Developers"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Nocturne es una aventura de terror con ambientación cinematográfica en la década de 1920, donde el jugador asume el papel de 'El Extraño', un agente secreto de la organización Spookhouse. Enfréntate a vampiros, hombres lobo, zombis y otras criaturas sobrenaturales en una mezcla de acción, investigación y narrativa de estilo cine negro.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Terror",
+      "Sobrenatural",
+      "Aventura",
+      "Acción",
+      "Cine negro",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Airport Inc.",
+    "url": "juegos/airport-inc-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Simulación",
+      "Estrategia",
+      "Gestión"
+    ],
+    "desarrollador": [
+      "Krisalis Software"
+    ],
+    "distribuidor": [
+      "Telstar Electronic Studios"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Airport Inc. es un juego de simulación y gestión en el que el jugador diseña, construye y administra su propio aeropuerto internacional. Desde la colocación de pistas y terminales hasta la contratación de personal y negociación con aerolíneas, cada detalle influye en el éxito del aeropuerto. Incluye estadísticas detalladas, desastres aleatorios y desafíos económicos realistas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación",
+      "Gestión",
+      "Aeropuertos",
+      "Estrategia",
+      "Construcción",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Drakan: Order of the Flame",
+    "url": "juegos/drakan-order-of-the-flame-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Surreal Software"
+    ],
+    "distribuidor": [
+      "Psygnosis"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Drakan: Order of the Flame es un juego de acción y aventura en tercera persona que combina combate terrestre con batallas aéreas a lomos de un dragón. El jugador controla a Rynn, una guerrera que debe rescatar a su hermano y enfrentarse a una amenaza ancestral junto a su compañero dracónico Arokh. El juego destaca por su ambientación épica, exploración libre y mezcla de combate cuerpo a cuerpo y aéreo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Acción",
+      "Aventura",
+      "Dragones",
+      "Fantasía",
+      "3D",
+      "Combate aéreo",
+      "Bigbox"
+    ]
+  },
+  {
+  "titulo": "Carmageddon II: Carpocalypse Now",
+  "url": "juegos/carmageddon-ii-carpocalypse-now/",
+  "plataforma": ["Windows 95", "Windows 98", "Windows Me"],
+  "genero": ["Carreras", "Acción", "Vehículos de combate"],
+  "desarrollador": ["Stainless Games"],
+  "distribuidor": ["SCI", "Sales Curve Interactive"],
   "ean": [""],
-  "descripcion": "WarGames es un juego de estrategia en tiempo real ambientado en un futuro cercano, inspirado en la película homónima de 1983. El jugador puede controlar a las fuerzas de NORAD o a las unidades de la IA WOPR en escenarios 3D como Nueva York o los Alpes. Incluye visión táctica, camuflaje, ataques sorpresa y soporte multijugador. Esta edición está traducida y doblada al castellano.",
+  "descripcion": "Carmageddon II: Carpocalypse Now es la secuela del explosivo juego original, con gráficos mejorados, escenarios más grandes y un motor de física más avanzado. El jugador participa en carreras brutales donde puede elegir entre ganar por tiempo, eliminar rivales o atropellar peatones. Incluye nuevos vehículos, destrucción en tiempo real y modo multijugador.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Estrategia en tiempo real", "Ciencia ficción", "Película", "IA", "3D", "Bigbox"]
-},
-{
-  "titulo": "Nocturne",
-  "url": "juegos/nocturne-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Aventura", "Terror", "Acción", "Cine negro"],
-  "desarrollador": ["Terminal Reality"],
-  "distribuidor": ["Gathering of Developers"],
-  "ean": [""],
-  "descripcion": "Nocturne es una aventura de terror con ambientación cinematográfica en la década de 1920, donde el jugador asume el papel de 'El Extraño', un agente secreto de la organización Spookhouse. Enfréntate a vampiros, hombres lobo, zombis y otras criaturas sobrenaturales en una mezcla de acción, investigación y narrativa de estilo cine negro.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Terror", "Sobrenatural", "Aventura", "Acción", "Cine negro", "Bigbox"]
-},
-{
-  "titulo": "Airport Inc.",
-  "url": "juegos/airport-inc-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe"],
-  "genero": ["Simulación", "Estrategia", "Gestión"],
-  "desarrollador": ["Krisalis Software"],
-  "distribuidor": ["Telstar Electronic Studios"],
-  "ean": [""],
-  "descripcion": "Airport Inc. es un juego de simulación y gestión en el que el jugador diseña, construye y administra su propio aeropuerto internacional. Desde la colocación de pistas y terminales hasta la contratación de personal y negociación con aerolíneas, cada detalle influye en el éxito del aeropuerto. Incluye estadísticas detalladas, desastres aleatorios y desafíos económicos realistas.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Simulación", "Gestión", "Aeropuertos", "Estrategia", "Construcción", "Bigbox"]
+  "tags": ["Vehículos", "Carreras violentas", "Acción", "Destrucción", "Multijugador", "Bigbox"]
 }
-
 
 
 ]
