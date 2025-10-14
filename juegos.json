@@ -30594,31 +30594,121 @@
     ]
   },
   {
-  "titulo": "Dark Reign 2",
-  "url": "juegos/dark-reign-2-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Estrategia", "Tiempo real", "Ciencia ficción"],
-  "desarrollador": ["Pandemic Studios"],
-  "distribuidor": ["Activision"],
+    "titulo": "Dark Reign 2",
+    "url": "juegos/dark-reign-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Tiempo real",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Pandemic Studios"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Dark Reign 2 es un juego de estrategia en tiempo real ambientado en un futuro distópico donde dos facciones, la JDA y los Sprawlers, luchan por el control de la Tierra. Con gráficos totalmente en 3D, cámaras dinámicas y multijugador por LAN o internet, ofrece batallas tácticas intensas y una campaña profunda.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Futuro distópico",
+      "3D",
+      "Multijugador",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "SiN",
+    "url": "juegos/sin-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Ritual Entertainment"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "SiN es un shooter en primera persona ambientado en un futuro cercano dominado por el crimen corporativo. El jugador encarna a John Blade, un agente de seguridad que se enfrenta a una conspiración liderada por la peligrosa Elexis Sinclaire. El juego destaca por su motor gráfico basado en Quake II, entornos interactivos, decisiones que afectan el desarrollo y acción intensa.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Shooter",
+      "FPS",
+      "Ciberpunk",
+      "Ciencia ficción",
+      "Acción",
+      "Bigbox"
+    ]
+  },
+  {
+  "titulo": "WarGames",
+  "url": "juegos/wargames-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
+  "genero": ["Estrategia", "Ciencia ficción", "Tiempo real"],
+  "desarrollador": ["Interactive Studios"],
+  "distribuidor": ["Electronic Arts"],
   "ean": [""],
-  "descripcion": "Dark Reign 2 es un juego de estrategia en tiempo real ambientado en un futuro distópico donde dos facciones, la JDA y los Sprawlers, luchan por el control de la Tierra. Con gráficos totalmente en 3D, cámaras dinámicas y multijugador por LAN o internet, ofrece batallas tácticas intensas y una campaña profunda.",
+  "descripcion": "WarGames es un juego de estrategia en tiempo real ambientado en un futuro cercano, inspirado en la película homónima de 1983. El jugador puede controlar a las fuerzas de NORAD o a las unidades de la IA WOPR en escenarios 3D como Nueva York o los Alpes. Incluye visión táctica, camuflaje, ataques sorpresa y soporte multijugador. Esta edición está traducida y doblada al castellano.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Estrategia en tiempo real", "Ciencia ficción", "Futuro distópico", "3D", "Multijugador", "Bigbox"]
+  "tags": ["Estrategia en tiempo real", "Ciencia ficción", "Película", "IA", "3D", "Bigbox"]
 },
 {
-  "titulo": "SiN",
-  "url": "juegos/sin-bigbox/",
+  "titulo": "Nocturne",
+  "url": "juegos/nocturne-bigbox/",
   "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Acción", "Shooter", "Ciencia ficción"],
-  "desarrollador": ["Ritual Entertainment"],
-  "distribuidor": ["Activision"],
+  "genero": ["Aventura", "Terror", "Acción", "Cine negro"],
+  "desarrollador": ["Terminal Reality"],
+  "distribuidor": ["Gathering of Developers"],
   "ean": [""],
-  "descripcion": "SiN es un shooter en primera persona ambientado en un futuro cercano dominado por el crimen corporativo. El jugador encarna a John Blade, un agente de seguridad que se enfrenta a una conspiración liderada por la peligrosa Elexis Sinclaire. El juego destaca por su motor gráfico basado en Quake II, entornos interactivos, decisiones que afectan el desarrollo y acción intensa.",
+  "descripcion": "Nocturne es una aventura de terror con ambientación cinematográfica en la década de 1920, donde el jugador asume el papel de 'El Extraño', un agente secreto de la organización Spookhouse. Enfréntate a vampiros, hombres lobo, zombis y otras criaturas sobrenaturales en una mezcla de acción, investigación y narrativa de estilo cine negro.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Shooter", "FPS", "Ciberpunk", "Ciencia ficción", "Acción", "Bigbox"]
+  "tags": ["Terror", "Sobrenatural", "Aventura", "Acción", "Cine negro", "Bigbox"]
+},
+{
+  "titulo": "Airport Inc.",
+  "url": "juegos/airport-inc-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
+  "genero": ["Simulación", "Estrategia", "Gestión"],
+  "desarrollador": ["Krisalis Software"],
+  "distribuidor": ["Telstar Electronic Studios"],
+  "ean": [""],
+  "descripcion": "Airport Inc. es un juego de simulación y gestión en el que el jugador diseña, construye y administra su propio aeropuerto internacional. Desde la colocación de pistas y terminales hasta la contratación de personal y negociación con aerolíneas, cada detalle influye en el éxito del aeropuerto. Incluye estadísticas detalladas, desastres aleatorios y desafíos económicos realistas.",
+  "incluye": [],
+  "serie": ["Todos", "Bigbox"],
+  "tags": ["Simulación", "Gestión", "Aeropuertos", "Estrategia", "Construcción", "Bigbox"]
 }
+
 
 
 ]
