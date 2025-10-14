@@ -30016,155 +30016,484 @@
     ]
   },
   {
-  "titulo": "Diablo III",
-  "url": "juegos/diablo-iii-edesp/",
-  "plataforma": ["WinXP", "Windows Vista", "Win7", "Win8", "Win10"],
-  "genero": ["Rol", "Acción", "Hack and Slash", "Fantasía"],
-  "desarrollador": ["Blizzard Entertainment"],
-  "distribuidor": ["Blizzard Entertainment"],
+    "titulo": "Diablo III",
+    "url": "juegos/diablo-iii-edesp/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7",
+      "Win8",
+      "Win10"
+    ],
+    "genero": [
+      "Rol",
+      "Acción",
+      "Hack and Slash",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Diablo III es un juego de rol de acción ambientado en el oscuro mundo de Santuario. El jugador elige entre varias clases de héroes para enfrentarse a hordas demoníacas, obtener botín y progresar en una campaña épica. Incluye modos cooperativos en línea, generación aleatoria de niveles y un sistema de habilidades dinámico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Edición especial"
+    ],
+    "tags": [
+      "RPG",
+      "Hack and Slash",
+      "Fantasía oscura",
+      "Acción",
+      "Blizzard",
+      "Edición especial"
+    ]
+  },
+  {
+    "titulo": "Diablo III: Reaper of Souls",
+    "url": "juegos/diablo-iii-reaper-of-souls-edesp/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7",
+      "Win8",
+      "Win10"
+    ],
+    "genero": [
+      "Rol",
+      "Acción",
+      "Hack and Slash",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Reaper of Souls es la expansión de Diablo III que introduce un nuevo acto ambientado en la ciudad de Westmarch y añade la clase del Cruzado. Mejora el sistema de botín, amplía el nivel máximo y añade modos como las Aventuras y las Fallas Nefalem, ofreciendo una experiencia más profunda y rejugable.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Edición especial"
+    ],
+    "tags": [
+      "RPG",
+      "Hack and Slash",
+      "Expansión",
+      "Fantasía oscura",
+      "Acción",
+      "Blizzard",
+      "Edición especial"
+    ]
+  },
+  {
+    "titulo": "Die by the Sword",
+    "url": "juegos/die-by-the-sword-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Hack and Slash",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Treyarch"
+    ],
+    "distribuidor": [
+      "Interplay Productions"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Die by the Sword es un juego de acción y aventura en 3D que destaca por su innovador sistema de control de espada basado en movimientos del ratón. Ambientado en un mundo de fantasía oscura, combina exploración, combate cuerpo a cuerpo preciso y elementos de rol en una campaña llena de desafíos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Acción",
+      "Hack and Slash",
+      "Combate con espada",
+      "Fantasía",
+      "3D",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Revenant",
+    "url": "juegos/revenant-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Rol",
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Cinematix Studios"
+    ],
+    "distribuidor": [
+      "Eidos Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Revenant es un juego de rol y acción ambientado en un oscuro mundo de fantasía. El jugador encarna a Locke, un guerrero resucitado que debe rescatar a una joven secuestrada y descubrir los secretos de su pasado. Combina combates en tiempo real, exploración isométrica, magia y elementos de aventura clásica.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "RPG",
+      "Acción",
+      "Fantasía oscura",
+      "Aventura",
+      "Isométrico",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Martian Gothic: Unification",
+    "url": "juegos/martian-gothic-unification-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Aventura",
+      "Survival Horror",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Creative Reality"
+    ],
+    "distribuidor": [
+      "Take-Two Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Martian Gothic: Unification es una aventura de terror y ciencia ficción ambientada en una base marciana donde una misteriosa infección ha acabado con toda la tripulación. El jugador controla a tres personajes que deben cooperar sin encontrarse físicamente, resolviendo puzles y descubriendo los oscuros secretos del lugar.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Aventura",
+      "Terror",
+      "Ciencia ficción",
+      "Survival Horror",
+      "Marte",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Lander",
+    "url": "juegos/lander-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Simulación",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Realtime Associates"
+    ],
+    "distribuidor": [
+      "Psygnosis"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Lander es un simulador de vuelo en 3D en el que el jugador pilota una nave de carga en misiones que combinan exploración, combate y precisión en el aterrizaje. Con una física realista de gravedad y control, ofrece un desafío técnico y una ambientación futurista al estilo clásico de Psygnosis.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación",
+      "Naves",
+      "Ciencia ficción",
+      "Física realista",
+      "Vuelo",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Los Sims: Más vivos que nunca",
+    "url": "juegos/los-sims-mas-vivos-que-nunca-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación",
+      "Estrategia",
+      "Vida virtual"
+    ],
+    "desarrollador": [
+      "Maxis"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Los Sims: Más vivos que nunca es la primera expansión del exitoso simulador de vida Los Sims. Añade nuevos objetos, decoraciones y actividades que amplían las posibilidades de personalización y convivencia del hogar. Introduce más interacciones sociales y una mayor variedad de estilos de vida.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación de vida",
+      "Expansión",
+      "Estrategia",
+      "Maxis",
+      "Creatividad",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "DethKarz",
+    "url": "juegos/dethkarz-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Carreras",
+      "Acción",
+      "Futurista"
+    ],
+    "desarrollador": [
+      "Beam Software"
+    ],
+    "distribuidor": [
+      "GT Interactive"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "DethKarz es un juego de carreras futuristas ambientado en un mundo de alta tecnología donde los vehículos están equipados con armas. Combina velocidad y combate en circuitos urbanos y de ciencia ficción, con gráficos 3D avanzados y un estilo arcade lleno de adrenalina.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Carreras futuristas",
+      "Vehículos armados",
+      "Arcade",
+      "Acción",
+      "Ciencia ficción",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Trophy Hunter: Rocky Mountain Adventures",
+    "url": "juegos/trophy-hunter-rocky-mountain-adventures-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Simulación",
+      "Deportivo",
+      "Caza"
+    ],
+    "desarrollador": [
+      "Sunstorm Interactive"
+    ],
+    "distribuidor": [
+      "WizardWorks"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Trophy Hunter: Rocky Mountain Adventures es un simulador de caza ambientado en las Montañas Rocosas. El jugador puede rastrear animales salvajes, elegir entre diferentes armas y equipos, y explorar vastos entornos naturales. Destaca por su realismo y atención al detalle en la fauna y los paisajes.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación",
+      "Caza",
+      "Naturaleza",
+      "Deportivo",
+      "Realismo",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Redline: Gang Warfare 2066",
+    "url": "juegos/redline-gang-warfare-2066-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Conducción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Beyond Games"
+    ],
+    "distribuidor": [
+      "Accolade"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Redline: Gang Warfare 2066 es un juego de acción y conducción ambientado en un futuro postapocalíptico. Combina combates en primera persona con secuencias de conducción armada, permitiendo al jugador alternar entre tiroteos intensos y persecuciones vehiculares en un mundo dominado por bandas y caos urbano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Acción",
+      "Shooter",
+      "Vehículos",
+      "Ciencia ficción",
+      "Postapocalíptico",
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "Battlezone II: Combat Commander",
+    "url": "juegos/battlezone-ii-combat-commander-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Pandemic Studios"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [
+      ""
+    ],
+    "descripcion": "Battlezone II: Combat Commander combina acción en primera persona con estrategia en tiempo real, situando al jugador al mando de unidades mecanizadas en escenarios extraterrestres. Permite pilotar vehículos de combate y gestionar bases, recursos y tropas, ofreciendo una experiencia híbrida única de táctica y acción futurista.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Estrategia en tiempo real",
+      "Acción",
+      "Ciencia ficción",
+      "Vehículos",
+      "Combate futurista",
+      "Bigbox"
+    ]
+  },
+  {
+  "titulo": "Uprising 2: Lead and Destroy",
+  "url": "juegos/uprising-2-lead-and-destroy-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
+  "genero": ["Acción", "Estrategia", "Ciencia ficción"],
+  "desarrollador": ["Cyclone Studios"],
+  "distribuidor": ["3DO Company"],
   "ean": [""],
-  "descripcion": "Diablo III es un juego de rol de acción ambientado en el oscuro mundo de Santuario. El jugador elige entre varias clases de héroes para enfrentarse a hordas demoníacas, obtener botín y progresar en una campaña épica. Incluye modos cooperativos en línea, generación aleatoria de niveles y un sistema de habilidades dinámico.",
-  "incluye": [],
-  "serie": ["Todos", "Edición especial"],
-  "tags": ["RPG", "Hack and Slash", "Fantasía oscura", "Acción", "Blizzard", "Edición especial"]
-},
-{
-  "titulo": "Diablo III: Reaper of Souls",
-  "url": "juegos/diablo-iii-reaper-of-souls-edesp/",
-  "plataforma": ["WinXP", "Windows Vista", "Win7", "Win8", "Win10"],
-  "genero": ["Rol", "Acción", "Hack and Slash", "Fantasía"],
-  "desarrollador": ["Blizzard Entertainment"],
-  "distribuidor": ["Blizzard Entertainment"],
-  "ean": [""],
-  "descripcion": "Reaper of Souls es la expansión de Diablo III que introduce un nuevo acto ambientado en la ciudad de Westmarch y añade la clase del Cruzado. Mejora el sistema de botín, amplía el nivel máximo y añade modos como las Aventuras y las Fallas Nefalem, ofreciendo una experiencia más profunda y rejugable.",
-  "incluye": [],
-  "serie": ["Todos", "Edición especial"],
-  "tags": ["RPG", "Hack and Slash", "Expansión", "Fantasía oscura", "Acción", "Blizzard", "Edición especial"]
-},
-{
-  "titulo": "Die by the Sword",
-  "url": "juegos/die-by-the-sword-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Acción", "Aventura", "Hack and Slash", "Fantasía"],
-  "desarrollador": ["Treyarch"],
-  "distribuidor": ["Interplay Productions"],
-  "ean": [""],
-  "descripcion": "Die by the Sword es un juego de acción y aventura en 3D que destaca por su innovador sistema de control de espada basado en movimientos del ratón. Ambientado en un mundo de fantasía oscura, combina exploración, combate cuerpo a cuerpo preciso y elementos de rol en una campaña llena de desafíos.",
+  "descripcion": "Uprising 2: Lead and Destroy es un juego híbrido que combina estrategia en tiempo real con acción en primera persona. El jugador asume el control de un vehículo de combate futurista desde el que dirige y apoya directamente a sus tropas en el campo de batalla. Ambientado en un conflicto interplanetario, ofrece un enfoque único entre la táctica y la acción directa.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Acción", "Hack and Slash", "Combate con espada", "Fantasía", "3D", "Bigbox"]
+  "tags": ["Acción táctica", "Estrategia en tiempo real", "Shooter", "Vehículos", "Ciencia ficción", "Bigbox"]
 },
 {
-  "titulo": "Revenant",
-  "url": "juegos/revenant-bigbox/",
+  "titulo": "Gorky 17",
+  "url": "juegos/gorky-17-bigbox/",
   "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Rol", "Acción", "Aventura", "Fantasía"],
-  "desarrollador": ["Cinematix Studios"],
-  "distribuidor": ["Eidos Interactive"],
+  "genero": ["Estrategia", "Rol", "Terror", "Ciencia ficción"],
+  "desarrollador": ["Metropolis Software"],
+  "distribuidor": ["TopWare Interactive"],
   "ean": [""],
-  "descripcion": "Revenant es un juego de rol y acción ambientado en un oscuro mundo de fantasía. El jugador encarna a Locke, un guerrero resucitado que debe rescatar a una joven secuestrada y descubrir los secretos de su pasado. Combina combates en tiempo real, exploración isométrica, magia y elementos de aventura clásica.",
+  "descripcion": "Gorky 17 es un juego que mezcla estrategia por turnos y elementos de rol en un entorno oscuro de ciencia ficción. Ambientado en una ciudad militar abandonada, el jugador lidera un escuadrón de soldados que deben enfrentarse a horrores biotecnológicos y descubrir los secretos de un proyecto militar clasificado.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["RPG", "Acción", "Fantasía oscura", "Aventura", "Isométrico", "Bigbox"]
+  "tags": ["Estrategia por turnos", "RPG", "Terror", "Ciencia ficción", "Experimentos", "Bigbox"]
 },
 {
-  "titulo": "Martian Gothic: Unification",
-  "url": "juegos/martian-gothic-unification-bigbox/",
+  "titulo": "Hidden & Dangerous",
+  "url": "juegos/hidden-and-dangerous-bigbox/",
   "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Aventura", "Survival Horror", "Ciencia ficción"],
-  "desarrollador": ["Creative Reality"],
+  "genero": ["Táctico", "Shooter", "Acción", "Segunda Guerra Mundial"],
+  "desarrollador": ["Illusion Softworks"],
   "distribuidor": ["Take-Two Interactive"],
   "ean": [""],
-  "descripcion": "Martian Gothic: Unification es una aventura de terror y ciencia ficción ambientada en una base marciana donde una misteriosa infección ha acabado con toda la tripulación. El jugador controla a tres personajes que deben cooperar sin encontrarse físicamente, resolviendo puzles y descubriendo los oscuros secretos del lugar.",
+  "descripcion": "Hidden & Dangerous es un juego de acción táctica en tercera persona ambientado en la Segunda Guerra Mundial. El jugador lidera un escuadrón de fuerzas especiales británicas en misiones tras las líneas enemigas, combinando sigilo, estrategia, control de escuadra y combate intenso en entornos realistas.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Aventura", "Terror", "Ciencia ficción", "Survival Horror", "Marte", "Bigbox"]
+  "tags": ["Táctico", "Shooter", "Segunda Guerra Mundial", "Sigilo", "Fuerzas especiales", "Bigbox"]
 },
 {
-  "titulo": "Lander",
-  "url": "juegos/lander-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Simulación", "Acción", "Ciencia ficción"],
-  "desarrollador": ["Realtime Associates"],
-  "distribuidor": ["Psygnosis"],
-  "ean": [""],
-  "descripcion": "Lander es un simulador de vuelo en 3D en el que el jugador pilota una nave de carga en misiones que combinan exploración, combate y precisión en el aterrizaje. Con una física realista de gravedad y control, ofrece un desafío técnico y una ambientación futurista al estilo clásico de Psygnosis.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Simulación", "Naves", "Ciencia ficción", "Física realista", "Vuelo", "Bigbox"]
-},
-{
-  "titulo": "Los Sims: Más vivos que nunca",
-  "url": "juegos/los-sims-mas-vivos-que-nunca-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000", "WinXP"],
-  "genero": ["Simulación", "Estrategia", "Vida virtual"],
-  "desarrollador": ["Maxis"],
-  "distribuidor": ["Electronic Arts"],
-  "ean": [""],
-  "descripcion": "Los Sims: Más vivos que nunca es la primera expansión del exitoso simulador de vida Los Sims. Añade nuevos objetos, decoraciones y actividades que amplían las posibilidades de personalización y convivencia del hogar. Introduce más interacciones sociales y una mayor variedad de estilos de vida.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Simulación de vida", "Expansión", "Estrategia", "Maxis", "Creatividad", "Bigbox"]
-},
-{
-  "titulo": "DethKarz",
-  "url": "juegos/dethkarz-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Carreras", "Acción", "Futurista"],
-  "desarrollador": ["Beam Software"],
-  "distribuidor": ["GT Interactive"],
-  "ean": [""],
-  "descripcion": "DethKarz es un juego de carreras futuristas ambientado en un mundo de alta tecnología donde los vehículos están equipados con armas. Combina velocidad y combate en circuitos urbanos y de ciencia ficción, con gráficos 3D avanzados y un estilo arcade lleno de adrenalina.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Carreras futuristas", "Vehículos armados", "Arcade", "Acción", "Ciencia ficción", "Bigbox"]
-},
-{
-  "titulo": "Trophy Hunter: Rocky Mountain Adventures",
-  "url": "juegos/trophy-hunter-rocky-mountain-adventures-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Simulación", "Deportivo", "Caza"],
-  "desarrollador": ["Sunstorm Interactive"],
-  "distribuidor": ["WizardWorks"],
-  "ean": [""],
-  "descripcion": "Trophy Hunter: Rocky Mountain Adventures es un simulador de caza ambientado en las Montañas Rocosas. El jugador puede rastrear animales salvajes, elegir entre diferentes armas y equipos, y explorar vastos entornos naturales. Destaca por su realismo y atención al detalle en la fauna y los paisajes.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Simulación", "Caza", "Naturaleza", "Deportivo", "Realismo", "Bigbox"]
-},
-{
-  "titulo": "Redline: Gang Warfare 2066",
-  "url": "juegos/redline-gang-warfare-2066-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Acción", "Shooter", "Conducción", "Ciencia ficción"],
-  "desarrollador": ["Beyond Games"],
-  "distribuidor": ["Accolade"],
-  "ean": [""],
-  "descripcion": "Redline: Gang Warfare 2066 es un juego de acción y conducción ambientado en un futuro postapocalíptico. Combina combates en primera persona con secuencias de conducción armada, permitiendo al jugador alternar entre tiroteos intensos y persecuciones vehiculares en un mundo dominado por bandas y caos urbano.",
-  "incluye": [],
-  "serie": ["Todos", "Bigbox"],
-  "tags": ["Acción", "Shooter", "Vehículos", "Ciencia ficción", "Postapocalíptico", "Bigbox"]
-},
-{
-  "titulo": "Battlezone II: Combat Commander",
-  "url": "juegos/battlezone-ii-combat-commander-bigbox/",
-  "plataforma": ["Win95", "Win98", "WinMe", "Win2000"],
-  "genero": ["Estrategia", "Acción", "Ciencia ficción"],
-  "desarrollador": ["Pandemic Studios"],
+  "titulo": "Jack Nicklaus 6: Golden Bear Challenge",
+  "url": "juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/",
+  "plataforma": ["Win95", "Win98", "WinMe"],
+  "genero": ["Deportivo", "Simulación", "Golf"],
+  "desarrollador": ["Activision"],
   "distribuidor": ["Activision"],
   "ean": [""],
-  "descripcion": "Battlezone II: Combat Commander combina acción en primera persona con estrategia en tiempo real, situando al jugador al mando de unidades mecanizadas en escenarios extraterrestres. Permite pilotar vehículos de combate y gestionar bases, recursos y tropas, ofreciendo una experiencia híbrida única de táctica y acción futurista.",
+  "descripcion": "Jack Nicklaus 6: Golden Bear Challenge es un simulador de golf realista que permite jugar en campos profesionales y crear recorridos personalizados con su potente editor. Con gráficos detallados, físicas precisas y la presencia del legendario Jack Nicklaus, ofrece una experiencia profunda tanto para jugadores casuales como avanzados.",
   "incluye": [],
   "serie": ["Todos", "Bigbox"],
-  "tags": ["Estrategia en tiempo real", "Acción", "Ciencia ficción", "Vehículos", "Combate futurista", "Bigbox"]
+  "tags": ["Golf", "Simulación deportiva", "Editor de campos", "Jack Nicklaus", "Bigbox"]
 }
-
-
-
-
-
-
-
 
 
 
