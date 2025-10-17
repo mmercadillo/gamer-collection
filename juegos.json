@@ -31391,7 +31391,76 @@
     "Fuerza Aérea",
     "Electronic Arts"
   ]
+},
+{
+  "titulo": "Rally Championship",
+  "url": "juegos/rally-championship-bigbox-2/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Conducción",
+    "Rally",
+    "Simulación"
+  ],
+  "desarrollador": [
+    "Magnetic Fields"
+  ],
+  "distribuidor": [
+    "Actualize",
+    "Europress"
+  ],
+  "ean": [],
+  "descripcion": "Rally Championship, lanzado en 1999 para PC, es una entrega renovada de la mítica saga de rally desarrollada por Magnetic Fields. Esta versión ofrece 36 tramos reales del Campeonato Británico de Rally, con entornos detallados, físicas realistas y un sistema de daños que añade profundidad al pilotaje. Fue muy bien recibido por su enfoque entre arcade y simulación, y se convirtió en un referente de los juegos de rally en su época. Su edición en caja grande fue ampliamente distribuida en Europa, con versiones localizadas, incluida la española.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Rally",
+    "Conducción",
+    "Magnetic Fields",
+    "Realismo"
+  ]
+},
+{
+  "titulo": "Newman/Haas Racing",
+  "url": "juegos/newman-haas-racing-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Conducción",
+    "Monoplazas",
+    "Simulación"
+  ],
+  "desarrollador": [
+    "Studio 33"
+  ],
+  "distribuidor": [
+    "Psygnosis"
+  ],
+  "ean": [],
+  "descripcion": "Newman/Haas Racing es un simulador de carreras de monoplazas lanzado en 1999 para PC, desarrollado por Studio 33 y distribuido por Psygnosis. El juego recrea la competición de la CART (Championship Auto Racing Teams), con licencia oficial, incluyendo equipos, pilotos y circuitos reales. Destaca por su enfoque técnico, físicas exigentes, modo multijugador y numerosos ajustes mecánicos. Su edición en caja grande fue distribuida en varios países europeos, incluida España, y es recordado como una alternativa seria a los simuladores de Fórmula 1 de la época.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "CART",
+    "Psygnosis",
+    "Simulación de carreras",
+    "Monoplazas"
+  ]
 }
+
+
 
 
 
