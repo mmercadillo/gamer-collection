@@ -31326,7 +31326,75 @@
     "Virgin Interactive",
     "Mythos Games"
   ]
+},
+{
+  "titulo": "V-Rally: Multiplayer Championship Edition",
+  "url": "juegos/v-rally-multiplayer-championship-edition-bigbox-2/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Conducción",
+    "Rally"
+  ],
+  "desarrollador": [
+    "Infogrames",
+    "Eden Studios"
+  ],
+  "distribuidor": [
+    "Infogrames"
+  ],
+  "ean": [],
+  "descripcion": "V-Rally: Multiplayer Championship Edition es una versión mejorada del exitoso título de rally lanzado originalmente para consolas. Esta edición para PC, publicada en 1999, incluye más coches, circuitos y un modo multijugador ampliado. Desarrollado por Eden Studios y distribuido por Infogrames, ofrece una experiencia de conducción arcade con escenarios variados, clima dinámico y físicas accesibles. Su edición en caja grande fue popular en Europa, especialmente en mercados como el francés y el español, y forma parte de la oleada de títulos de rally previos a la consolidación de la saga Colin McRae.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Rally",
+    "Conducción",
+    "Infogrames"
+  ]
+},
+{
+  "titulo": "Jane's USAF",
+  "url": "juegos/janes-usaf-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Simulación",
+    "Vuelo",
+    "Militar"
+  ],
+  "desarrollador": [
+    "Pixel Multimedia"
+  ],
+  "distribuidor": [
+    "Electronic Arts"
+  ],
+  "ean": [],
+  "descripcion": "Jane's USAF (United States Air Force), lanzado en 1999, es un simulador de vuelo militar avanzado desarrollado por Pixel Multimedia y publicado bajo la prestigiosa línea Jane’s Combat Simulations de Electronic Arts. El juego permite pilotar cazas icónicos como el F-15, F-16 o F-22 en campañas ambientadas en conflictos reales y ficticios (Iraq, Europa del Este, Corea del Norte). Destaca por sus gráficos para la época, físicas detalladas, gran variedad de misiones y modos multijugador. La edición en caja grande es muy valorada por coleccionistas de simuladores clásicos.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Simulación aérea",
+    "Jane's",
+    "Fuerza Aérea",
+    "Electronic Arts"
+  ]
 }
+
+
+
 
 
 
