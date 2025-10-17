@@ -31082,5 +31082,191 @@
       "Frenético",
       "Bigbox"
     ]
-  }
+  },
+  {
+    "titulo": "Avalon Hill's Squad Leader",
+    "url": "juegos/squad-leader-esp-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia por turnos",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Random Games"
+    ],
+    "distribuidor": [
+      "Hasbro Interactive (MicroProse label)"
+    ],
+    "ean": [],
+    "descripcion": "Lanzado en octubre de 2000 (NA) y diciembre de 2000 (EU), es la adaptación digital del clásico wargame de mesa. Controlas escuadras aliadas o alemanas en batallas icónicas de la Segunda Guerra Mundial (Normandía, Bulge, Arnhem). Usa motor isométrico heredado de Chaos Gate, presenta campañas, misiones aleatorias, editor de escenarios futuro y gestión de morale y habilidades individuales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+  "titulo": "Fighter Pilot",
+  "url": "juegos/fighter-pilot-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Simulación",
+    "Vuelo",
+    "Arcade"
+  ],
+  "desarrollador": [
+    "Charybdis Enterprises"
+  ],
+  "distribuidor": [
+    "Electronic Arts"
+  ],
+  "ean": [],
+  "descripcion": "Lanzado en noviembre de 1998, Fighter Pilot es un simulador de combate aéreo desarrollado por Charybdis Enterprises y distribuido por Electronic Arts. El juego permite pilotar cazas modernos como el F-22 o el Eurofighter en campañas ficticias con escenarios realistas. Ofrece una experiencia más arcade que técnica, con controles simplificados y misiones dinámicas. Fue parte del catálogo navideño de EA de finales de los 90, y aunque no destacó en crítica, es recordado por su accesibilidad y su presentación en caja grande.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Combate aéreo",
+    "EA Classics"
+  ]
+},
+{
+  "titulo": "NBA Basketball 2000",
+  "url": "juegos/nba-basketball-2000-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Deportes",
+    "Baloncesto"
+  ],
+  "desarrollador": [
+    "Iridon Interactive"
+  ],
+  "distribuidor": [
+    "Monte Cristo Multimedia"
+  ],
+  "ean": [],
+  "descripcion": "NBA Basketball 2000 es un simulador deportivo lanzado en 1999 que permite disputar partidos completos de la liga estadounidense de baloncesto. Aunque no cuenta con licencia oficial de la NBA, presenta equipos y jugadores genéricos con características similares. El juego combina elementos arcade con una ligera gestión, incluyendo opciones tácticas, repeticiones, cámara libre y multijugador local. Destacó por su presentación física en caja grande y su enfoque accesible frente a los simuladores más complejos de la época.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Baloncesto",
+    "Simulador deportivo"
+  ]
+},
+{
+  "titulo": "Adidas Power Soccer 98",
+  "url": "juegos/adidas-power-soccer-98-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Deportes",
+    "Fútbol"
+  ],
+  "desarrollador": [
+    "Gremlin Interactive"
+  ],
+  "distribuidor": [
+    "Psygnosis"
+  ],
+  "ean": [],
+  "descripcion": "Publicado en 1998 por Psygnosis y desarrollado por Gremlin Interactive, Adidas Power Soccer 98 es la última entrega de la serie de fútbol arcade que destacó por su jugabilidad rápida y animaciones fluidas. Incluye modos de exhibición, torneo y entrenamiento, además de repeticiones y comentarios. Aunque no contaba con licencias oficiales de ligas o clubes, ofrecía una experiencia arcade con estilo noventero, efectos exagerados y controles accesibles. Su edición en Big Box fue popular en Europa, especialmente en países como España y Alemania.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Fútbol",
+    "Arcade",
+    "Adidas"
+  ]
+},
+{
+  "titulo": "Hoyle Board Games",
+  "url": "juegos/hoyle-board-games-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Juegos de mesa",
+    "Colección"
+  ],
+  "desarrollador": [
+    "Sierra On-Line"
+  ],
+  "distribuidor": [
+    "Sierra On-Line"
+  ],
+  "ean": [],
+  "descripcion": "Hoyle Board Games es una recopilación de juegos de mesa clásicos lanzada en 1998 por Sierra On-Line. Incluye versiones digitales de ajedrez, damas, backgammon, parchís, mancala, y más, todo con interfaz gráfica amigable y personajes animados con voces digitalizadas. El jugador puede elegir entre distintos avatares rivales, cada uno con su propio estilo y dificultad. Es ideal para partidas casuales en solitario o en modo multijugador local. Su edición en caja grande fue muy distribuida en Europa y es una pieza común en colecciones retro.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Colección",
+    "Juegos clásicos",
+    "Sierra"
+  ]
+},
+{
+  "titulo": "Ancient Conquest",
+  "url": "juegos/ancient-conquest-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Estrategia por turnos",
+    "Histórico"
+  ],
+  "desarrollador": [
+    "TalonSoft"
+  ],
+  "distribuidor": [
+    "TalonSoft"
+  ],
+  "ean": [],
+  "descripcion": "Ancient Conquest: The Golden Fleece es un juego de estrategia por turnos lanzado en 1999 por TalonSoft. Ambientado en la mitología y la historia de la Grecia antigua, permite a los jugadores tomar el control de una de las grandes civilizaciones del Mediterráneo —como Micenas, Egipto, Hititas o los pueblos del mar— para luchar por el control de recursos y expandir su poder. El juego combina elementos históricos con narrativas mitológicas, y se juega en un mapa dividido en regiones. Su presentación en caja grande, con manual impreso, lo convierte en una joya para coleccionistas de wargames clásicos.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Wargame",
+    "Historia antigua",
+    "TalonSoft"
+  ]
+}
+
+
+
+
+
 ]
