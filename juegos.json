@@ -31111,364 +31111,450 @@
     ]
   },
   {
-  "titulo": "Fighter Pilot",
-  "url": "juegos/fighter-pilot-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Simulación",
-    "Vuelo",
-    "Arcade"
-  ],
-  "desarrollador": [
-    "Charybdis Enterprises"
-  ],
-  "distribuidor": [
-    "Electronic Arts"
-  ],
-  "ean": [],
-  "descripcion": "Lanzado en noviembre de 1998, Fighter Pilot es un simulador de combate aéreo desarrollado por Charybdis Enterprises y distribuido por Electronic Arts. El juego permite pilotar cazas modernos como el F-22 o el Eurofighter en campañas ficticias con escenarios realistas. Ofrece una experiencia más arcade que técnica, con controles simplificados y misiones dinámicas. Fue parte del catálogo navideño de EA de finales de los 90, y aunque no destacó en crítica, es recordado por su accesibilidad y su presentación en caja grande.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Combate aéreo",
-    "EA Classics"
-  ]
-},
-{
-  "titulo": "NBA Basketball 2000",
-  "url": "juegos/nba-basketball-2000-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Deportes",
-    "Baloncesto"
-  ],
-  "desarrollador": [
-    "Iridon Interactive"
-  ],
-  "distribuidor": [
-    "Monte Cristo Multimedia"
-  ],
-  "ean": [],
-  "descripcion": "NBA Basketball 2000 es un simulador deportivo lanzado en 1999 que permite disputar partidos completos de la liga estadounidense de baloncesto. Aunque no cuenta con licencia oficial de la NBA, presenta equipos y jugadores genéricos con características similares. El juego combina elementos arcade con una ligera gestión, incluyendo opciones tácticas, repeticiones, cámara libre y multijugador local. Destacó por su presentación física en caja grande y su enfoque accesible frente a los simuladores más complejos de la época.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Baloncesto",
-    "Simulador deportivo"
-  ]
-},
-{
-  "titulo": "Adidas Power Soccer 98",
-  "url": "juegos/adidas-power-soccer-98-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Deportes",
-    "Fútbol"
-  ],
-  "desarrollador": [
-    "Gremlin Interactive"
-  ],
-  "distribuidor": [
-    "Psygnosis"
-  ],
-  "ean": [],
-  "descripcion": "Publicado en 1998 por Psygnosis y desarrollado por Gremlin Interactive, Adidas Power Soccer 98 es la última entrega de la serie de fútbol arcade que destacó por su jugabilidad rápida y animaciones fluidas. Incluye modos de exhibición, torneo y entrenamiento, además de repeticiones y comentarios. Aunque no contaba con licencias oficiales de ligas o clubes, ofrecía una experiencia arcade con estilo noventero, efectos exagerados y controles accesibles. Su edición en Big Box fue popular en Europa, especialmente en países como España y Alemania.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Fútbol",
-    "Arcade",
-    "Adidas"
-  ]
-},
-{
-  "titulo": "Hoyle Board Games",
-  "url": "juegos/hoyle-board-games-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Juegos de mesa",
-    "Colección"
-  ],
-  "desarrollador": [
-    "Sierra On-Line"
-  ],
-  "distribuidor": [
-    "Sierra On-Line"
-  ],
-  "ean": [],
-  "descripcion": "Hoyle Board Games es una recopilación de juegos de mesa clásicos lanzada en 1998 por Sierra On-Line. Incluye versiones digitales de ajedrez, damas, backgammon, parchís, mancala, y más, todo con interfaz gráfica amigable y personajes animados con voces digitalizadas. El jugador puede elegir entre distintos avatares rivales, cada uno con su propio estilo y dificultad. Es ideal para partidas casuales en solitario o en modo multijugador local. Su edición en caja grande fue muy distribuida en Europa y es una pieza común en colecciones retro.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Colección",
-    "Juegos clásicos",
-    "Sierra"
-  ]
-},
-{
-  "titulo": "Ancient Conquest",
-  "url": "juegos/ancient-conquest-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Estrategia por turnos",
-    "Histórico"
-  ],
-  "desarrollador": [
-    "TalonSoft"
-  ],
-  "distribuidor": [
-    "TalonSoft"
-  ],
-  "ean": [],
-  "descripcion": "Ancient Conquest: The Golden Fleece es un juego de estrategia por turnos lanzado en 1999 por TalonSoft. Ambientado en la mitología y la historia de la Grecia antigua, permite a los jugadores tomar el control de una de las grandes civilizaciones del Mediterráneo —como Micenas, Egipto, Hititas o los pueblos del mar— para luchar por el control de recursos y expandir su poder. El juego combina elementos históricos con narrativas mitológicas, y se juega en un mapa dividido en regiones. Su presentación en caja grande, con manual impreso, lo convierte en una joya para coleccionistas de wargames clásicos.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Wargame",
-    "Historia antigua",
-    "TalonSoft"
-  ]
-},
-{
-  "titulo": "Billares",
-  "url": "juegos/billares-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Deportes",
-    "Billar"
-  ],
-  "desarrollador": [
-    "Laguna Multimedia"
-  ],
-  "distribuidor": [
-    "Laguna Multimedia"
-  ],
-  "ean": [],
-  "descripcion": "Billares es un simulador clásico de billar lanzado en España a finales de los 90 por Laguna Multimedia. El juego permite disputar partidas de bola 8, bola 9, carambola y otros modos típicos, con una vista en 3D isométrica y controles sencillos mediante ratón. Aunque es un título modesto, fue muy distribuido en kioscos y grandes superficies en formato Big Box, convirtiéndose en un juego habitual en las colecciones españolas de PC. Su estilo accesible y su interfaz en español lo hicieron popular entre jugadores casuales.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Billar",
-    "España",
-    "Laguna Multimedia"
-  ]
-},
-{
-  "titulo": "Kingdoms",
-  "url": "juegos/kingdoms-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Estrategia en tiempo real",
-    "Fantasía"
-  ],
-  "desarrollador": [
-    "Mythos Games"
-  ],
-  "distribuidor": [
-    "Virgin Interactive"
-  ],
-  "ean": [],
-  "descripcion": "Lanzado en 2000 bajo el nombre comercial de Kingdoms, esta es la secuela espiritual de Magic & Mayhem, desarrollada por Mythos Games (creadores de X-COM). El juego mezcla estrategia en tiempo real con elementos tácticos y de rol, permitiendo al jugador invocar criaturas y lanzar hechizos en mapas de fantasía medieval. A pesar de su interesante propuesta y un motor gráfico mejorado respecto a su antecesor, pasó algo desapercibido comercialmente. La edición española fue distribuida en caja grande por Virgin Interactive y es hoy una pieza valorada por coleccionistas.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Estrategia",
-    "Fantasía",
-    "Virgin Interactive",
-    "Mythos Games"
-  ]
-},
-{
-  "titulo": "V-Rally: Multiplayer Championship Edition",
-  "url": "juegos/v-rally-multiplayer-championship-edition-bigbox-2/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Conducción",
-    "Rally"
-  ],
-  "desarrollador": [
-    "Infogrames",
-    "Eden Studios"
-  ],
-  "distribuidor": [
-    "Infogrames"
-  ],
-  "ean": [],
-  "descripcion": "V-Rally: Multiplayer Championship Edition es una versión mejorada del exitoso título de rally lanzado originalmente para consolas. Esta edición para PC, publicada en 1999, incluye más coches, circuitos y un modo multijugador ampliado. Desarrollado por Eden Studios y distribuido por Infogrames, ofrece una experiencia de conducción arcade con escenarios variados, clima dinámico y físicas accesibles. Su edición en caja grande fue popular en Europa, especialmente en mercados como el francés y el español, y forma parte de la oleada de títulos de rally previos a la consolidación de la saga Colin McRae.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Rally",
-    "Conducción",
-    "Infogrames"
-  ]
-},
-{
-  "titulo": "Jane's USAF",
-  "url": "juegos/janes-usaf-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Simulación",
-    "Vuelo",
-    "Militar"
-  ],
-  "desarrollador": [
-    "Pixel Multimedia"
-  ],
-  "distribuidor": [
-    "Electronic Arts"
-  ],
-  "ean": [],
-  "descripcion": "Jane's USAF (United States Air Force), lanzado en 1999, es un simulador de vuelo militar avanzado desarrollado por Pixel Multimedia y publicado bajo la prestigiosa línea Jane’s Combat Simulations de Electronic Arts. El juego permite pilotar cazas icónicos como el F-15, F-16 o F-22 en campañas ambientadas en conflictos reales y ficticios (Iraq, Europa del Este, Corea del Norte). Destaca por sus gráficos para la época, físicas detalladas, gran variedad de misiones y modos multijugador. La edición en caja grande es muy valorada por coleccionistas de simuladores clásicos.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Simulación aérea",
-    "Jane's",
-    "Fuerza Aérea",
-    "Electronic Arts"
-  ]
-},
-{
-  "titulo": "Rally Championship",
-  "url": "juegos/rally-championship-bigbox-2/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Conducción",
-    "Rally",
-    "Simulación"
-  ],
-  "desarrollador": [
-    "Magnetic Fields"
-  ],
-  "distribuidor": [
-    "Actualize",
-    "Europress"
-  ],
-  "ean": [],
-  "descripcion": "Rally Championship, lanzado en 1999 para PC, es una entrega renovada de la mítica saga de rally desarrollada por Magnetic Fields. Esta versión ofrece 36 tramos reales del Campeonato Británico de Rally, con entornos detallados, físicas realistas y un sistema de daños que añade profundidad al pilotaje. Fue muy bien recibido por su enfoque entre arcade y simulación, y se convirtió en un referente de los juegos de rally en su época. Su edición en caja grande fue ampliamente distribuida en Europa, con versiones localizadas, incluida la española.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "Rally",
-    "Conducción",
-    "Magnetic Fields",
-    "Realismo"
-  ]
-},
-{
-  "titulo": "Newman/Haas Racing",
-  "url": "juegos/newman-haas-racing-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "genero": [
-    "Conducción",
-    "Monoplazas",
-    "Simulación"
-  ],
-  "desarrollador": [
-    "Studio 33"
-  ],
-  "distribuidor": [
-    "Psygnosis"
-  ],
-  "ean": [],
-  "descripcion": "Newman/Haas Racing es un simulador de carreras de monoplazas lanzado en 1999 para PC, desarrollado por Studio 33 y distribuido por Psygnosis. El juego recrea la competición de la CART (Championship Auto Racing Teams), con licencia oficial, incluyendo equipos, pilotos y circuitos reales. Destaca por su enfoque técnico, físicas exigentes, modo multijugador y numerosos ajustes mecánicos. Su edición en caja grande fue distribuida en varios países europeos, incluida España, y es recordado como una alternativa seria a los simuladores de Fórmula 1 de la época.",
-  "incluye": [],
-  "serie": [
-    "Todos",
-    "Bigbox"
-  ],
-  "tags": [
-    "Bigbox",
-    "CART",
-    "Psygnosis",
-    "Simulación de carreras",
-    "Monoplazas"
-  ]
-}
-
-
-
-
-
-
-
-
-
-
-
-
+    "titulo": "Fighter Pilot",
+    "url": "juegos/fighter-pilot-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulación",
+      "Vuelo",
+      "Arcade"
+    ],
+    "desarrollador": [
+      "Charybdis Enterprises"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Lanzado en noviembre de 1998, Fighter Pilot es un simulador de combate aéreo desarrollado por Charybdis Enterprises y distribuido por Electronic Arts. El juego permite pilotar cazas modernos como el F-22 o el Eurofighter en campañas ficticias con escenarios realistas. Ofrece una experiencia más arcade que técnica, con controles simplificados y misiones dinámicas. Fue parte del catálogo navideño de EA de finales de los 90, y aunque no destacó en crítica, es recordado por su accesibilidad y su presentación en caja grande.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Combate aéreo",
+      "EA Classics"
+    ]
+  },
+  {
+    "titulo": "NBA Basketball 2000",
+    "url": "juegos/nba-basketball-2000-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Baloncesto"
+    ],
+    "desarrollador": [
+      "Iridon Interactive"
+    ],
+    "distribuidor": [
+      "Monte Cristo Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "NBA Basketball 2000 es un simulador deportivo lanzado en 1999 que permite disputar partidos completos de la liga estadounidense de baloncesto. Aunque no cuenta con licencia oficial de la NBA, presenta equipos y jugadores genéricos con características similares. El juego combina elementos arcade con una ligera gestión, incluyendo opciones tácticas, repeticiones, cámara libre y multijugador local. Destacó por su presentación física en caja grande y su enfoque accesible frente a los simuladores más complejos de la época.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Baloncesto",
+      "Simulador deportivo"
+    ]
+  },
+  {
+    "titulo": "Adidas Power Soccer 98",
+    "url": "juegos/adidas-power-soccer-98-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Fútbol"
+    ],
+    "desarrollador": [
+      "Gremlin Interactive"
+    ],
+    "distribuidor": [
+      "Psygnosis"
+    ],
+    "ean": [],
+    "descripcion": "Publicado en 1998 por Psygnosis y desarrollado por Gremlin Interactive, Adidas Power Soccer 98 es la última entrega de la serie de fútbol arcade que destacó por su jugabilidad rápida y animaciones fluidas. Incluye modos de exhibición, torneo y entrenamiento, además de repeticiones y comentarios. Aunque no contaba con licencias oficiales de ligas o clubes, ofrecía una experiencia arcade con estilo noventero, efectos exagerados y controles accesibles. Su edición en Big Box fue popular en Europa, especialmente en países como España y Alemania.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Fútbol",
+      "Arcade",
+      "Adidas"
+    ]
+  },
+  {
+    "titulo": "Hoyle Board Games",
+    "url": "juegos/hoyle-board-games-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Juegos de mesa",
+      "Colección"
+    ],
+    "desarrollador": [
+      "Sierra On-Line"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [],
+    "descripcion": "Hoyle Board Games es una recopilación de juegos de mesa clásicos lanzada en 1998 por Sierra On-Line. Incluye versiones digitales de ajedrez, damas, backgammon, parchís, mancala, y más, todo con interfaz gráfica amigable y personajes animados con voces digitalizadas. El jugador puede elegir entre distintos avatares rivales, cada uno con su propio estilo y dificultad. Es ideal para partidas casuales en solitario o en modo multijugador local. Su edición en caja grande fue muy distribuida en Europa y es una pieza común en colecciones retro.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Colección",
+      "Juegos clásicos",
+      "Sierra"
+    ]
+  },
+  {
+    "titulo": "Ancient Conquest",
+    "url": "juegos/ancient-conquest-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia por turnos",
+      "Histórico"
+    ],
+    "desarrollador": [
+      "TalonSoft"
+    ],
+    "distribuidor": [
+      "TalonSoft"
+    ],
+    "ean": [],
+    "descripcion": "Ancient Conquest: The Golden Fleece es un juego de estrategia por turnos lanzado en 1999 por TalonSoft. Ambientado en la mitología y la historia de la Grecia antigua, permite a los jugadores tomar el control de una de las grandes civilizaciones del Mediterráneo —como Micenas, Egipto, Hititas o los pueblos del mar— para luchar por el control de recursos y expandir su poder. El juego combina elementos históricos con narrativas mitológicas, y se juega en un mapa dividido en regiones. Su presentación en caja grande, con manual impreso, lo convierte en una joya para coleccionistas de wargames clásicos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Wargame",
+      "Historia antigua",
+      "TalonSoft"
+    ]
+  },
+  {
+    "titulo": "Billares",
+    "url": "juegos/billares-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Billar"
+    ],
+    "desarrollador": [
+      "Laguna Multimedia"
+    ],
+    "distribuidor": [
+      "Laguna Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Billares es un simulador clásico de billar lanzado en España a finales de los 90 por Laguna Multimedia. El juego permite disputar partidas de bola 8, bola 9, carambola y otros modos típicos, con una vista en 3D isométrica y controles sencillos mediante ratón. Aunque es un título modesto, fue muy distribuido en kioscos y grandes superficies en formato Big Box, convirtiéndose en un juego habitual en las colecciones españolas de PC. Su estilo accesible y su interfaz en español lo hicieron popular entre jugadores casuales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Billar",
+      "España",
+      "Laguna Multimedia"
+    ]
+  },
+  {
+    "titulo": "Kingdoms",
+    "url": "juegos/kingdoms-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Mythos Games"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Lanzado en 2000 bajo el nombre comercial de Kingdoms, esta es la secuela espiritual de Magic & Mayhem, desarrollada por Mythos Games (creadores de X-COM). El juego mezcla estrategia en tiempo real con elementos tácticos y de rol, permitiendo al jugador invocar criaturas y lanzar hechizos en mapas de fantasía medieval. A pesar de su interesante propuesta y un motor gráfico mejorado respecto a su antecesor, pasó algo desapercibido comercialmente. La edición española fue distribuida en caja grande por Virgin Interactive y es hoy una pieza valorada por coleccionistas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Estrategia",
+      "Fantasía",
+      "Virgin Interactive",
+      "Mythos Games"
+    ]
+  },
+  {
+    "titulo": "V-Rally: Multiplayer Championship Edition",
+    "url": "juegos/v-rally-multiplayer-championship-edition-bigbox-2/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Conducción",
+      "Rally"
+    ],
+    "desarrollador": [
+      "Infogrames",
+      "Eden Studios"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "V-Rally: Multiplayer Championship Edition es una versión mejorada del exitoso título de rally lanzado originalmente para consolas. Esta edición para PC, publicada en 1999, incluye más coches, circuitos y un modo multijugador ampliado. Desarrollado por Eden Studios y distribuido por Infogrames, ofrece una experiencia de conducción arcade con escenarios variados, clima dinámico y físicas accesibles. Su edición en caja grande fue popular en Europa, especialmente en mercados como el francés y el español, y forma parte de la oleada de títulos de rally previos a la consolidación de la saga Colin McRae.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Rally",
+      "Conducción",
+      "Infogrames"
+    ]
+  },
+  {
+    "titulo": "Jane's USAF",
+    "url": "juegos/janes-usaf-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulación",
+      "Vuelo",
+      "Militar"
+    ],
+    "desarrollador": [
+      "Pixel Multimedia"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Jane's USAF (United States Air Force), lanzado en 1999, es un simulador de vuelo militar avanzado desarrollado por Pixel Multimedia y publicado bajo la prestigiosa línea Jane’s Combat Simulations de Electronic Arts. El juego permite pilotar cazas icónicos como el F-15, F-16 o F-22 en campañas ambientadas en conflictos reales y ficticios (Iraq, Europa del Este, Corea del Norte). Destaca por sus gráficos para la época, físicas detalladas, gran variedad de misiones y modos multijugador. La edición en caja grande es muy valorada por coleccionistas de simuladores clásicos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Simulación aérea",
+      "Jane's",
+      "Fuerza Aérea",
+      "Electronic Arts"
+    ]
+  },
+  {
+    "titulo": "Rally Championship",
+    "url": "juegos/rally-championship-bigbox-2/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Conducción",
+      "Rally",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Magnetic Fields"
+    ],
+    "distribuidor": [
+      "Actualize",
+      "Europress"
+    ],
+    "ean": [],
+    "descripcion": "Rally Championship, lanzado en 1999 para PC, es una entrega renovada de la mítica saga de rally desarrollada por Magnetic Fields. Esta versión ofrece 36 tramos reales del Campeonato Británico de Rally, con entornos detallados, físicas realistas y un sistema de daños que añade profundidad al pilotaje. Fue muy bien recibido por su enfoque entre arcade y simulación, y se convirtió en un referente de los juegos de rally en su época. Su edición en caja grande fue ampliamente distribuida en Europa, con versiones localizadas, incluida la española.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Rally",
+      "Conducción",
+      "Magnetic Fields",
+      "Realismo"
+    ]
+  },
+  {
+    "titulo": "Newman/Haas Racing",
+    "url": "juegos/newman-haas-racing-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Conducción",
+      "Monoplazas",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Studio 33"
+    ],
+    "distribuidor": [
+      "Psygnosis"
+    ],
+    "ean": [],
+    "descripcion": "Newman/Haas Racing es un simulador de carreras de monoplazas lanzado en 1999 para PC, desarrollado por Studio 33 y distribuido por Psygnosis. El juego recrea la competición de la CART (Championship Auto Racing Teams), con licencia oficial, incluyendo equipos, pilotos y circuitos reales. Destaca por su enfoque técnico, físicas exigentes, modo multijugador y numerosos ajustes mecánicos. Su edición en caja grande fue distribuida en varios países europeos, incluida España, y es recordado como una alternativa seria a los simuladores de Fórmula 1 de la época.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "CART",
+      "Psygnosis",
+      "Simulación de carreras",
+      "Monoplazas"
+    ]
+  },
+  {
+    "titulo": "Superbike World Championship",
+    "url": "juegos/superbike-world-championship-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Conducción",
+      "Motociclismo",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Milestone"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Superbike World Championship, lanzado en 1999 para PC, es el primer título de la exitosa saga SBK desarrollado por Milestone y distribuido por Electronic Arts. Basado en el campeonato oficial de Superbikes, incluye licencias reales de pilotos, equipos y circuitos de la temporada. Destaca por su enfoque realista, físicas avanzadas, niveles de dificultad escalables, modo arcade y simulación, y gráficos detallados para su época. Fue muy bien recibido por los aficionados al motociclismo y su edición en caja grande es hoy un título codiciado por coleccionistas de simuladores de motor.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Motociclismo",
+      "Simulador de motos",
+      "Electronic Arts",
+      "SBK"
+    ]
+  },
+  {
+    "titulo": "Primera División Stars 2001",
+    "url": "juegos/primera-division-stars-2001-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Manager"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Planeta DeAgostini Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Primera División Stars 2001 es un simulador de gestión futbolística lanzado exclusivamente en España en el año 2000, desarrollado por Dinamic Multimedia tras el éxito de la saga PC Fútbol. El juego permite gestionar un club de la Primera División española, incluyendo plantillas actualizadas, tácticas, fichajes y aspectos económicos. A diferencia de los PC Fútbol, Stars está centrado en una experiencia más pulida visualmente, con interfaz mejorada y motor gráfico 3D para los partidos. Su edición en caja grande fue distribuida en kioscos y tiendas especializadas, y es hoy un título nostálgico para coleccionistas del fútbol español en PC.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Fútbol",
+      "Manager",
+      "Dinamic Multimedia",
+      "España"
+    ]
+  },
+  {
+    "titulo": "UEFA Champions League: Temporada 1998/99",
+    "url": "juegos/uefa-champions-league-temporada-1998-99-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Fútbol"
+    ],
+    "desarrollador": [
+      "Gremlin Interactive"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "Lanzado en 1999, UEFA Champions League: Temporada 1998/99 es un juego de fútbol con licencia oficial de la UEFA, desarrollado por Gremlin Interactive y distribuido por Infogrames. Basado en el motor de Actua Soccer 3, incluye los 16 equipos clasificados para la fase final de la Champions League de esa temporada. Cuenta con plantillas actualizadas, estadios reales, comentarios en varios idiomas y gráficos 3D con cámaras dinámicas. Su edición en caja grande fue distribuida en Europa y es especialmente buscada por coleccionistas de títulos deportivos con licencias oficiales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Fútbol",
+      "Champions League",
+      "Infogrames",
+      "Gremlin"
+    ]
+  }
 ]
