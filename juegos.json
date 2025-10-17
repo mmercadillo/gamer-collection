@@ -31263,7 +31263,72 @@
     "Historia antigua",
     "TalonSoft"
   ]
+},
+{
+  "titulo": "Billares",
+  "url": "juegos/billares-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Deportes",
+    "Billar"
+  ],
+  "desarrollador": [
+    "Laguna Multimedia"
+  ],
+  "distribuidor": [
+    "Laguna Multimedia"
+  ],
+  "ean": [],
+  "descripcion": "Billares es un simulador clásico de billar lanzado en España a finales de los 90 por Laguna Multimedia. El juego permite disputar partidas de bola 8, bola 9, carambola y otros modos típicos, con una vista en 3D isométrica y controles sencillos mediante ratón. Aunque es un título modesto, fue muy distribuido en kioscos y grandes superficies en formato Big Box, convirtiéndose en un juego habitual en las colecciones españolas de PC. Su estilo accesible y su interfaz en español lo hicieron popular entre jugadores casuales.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Billar",
+    "España",
+    "Laguna Multimedia"
+  ]
+},
+{
+  "titulo": "Kingdoms",
+  "url": "juegos/kingdoms-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Estrategia en tiempo real",
+    "Fantasía"
+  ],
+  "desarrollador": [
+    "Mythos Games"
+  ],
+  "distribuidor": [
+    "Virgin Interactive"
+  ],
+  "ean": [],
+  "descripcion": "Lanzado en 2000 bajo el nombre comercial de Kingdoms, esta es la secuela espiritual de Magic & Mayhem, desarrollada por Mythos Games (creadores de X-COM). El juego mezcla estrategia en tiempo real con elementos tácticos y de rol, permitiendo al jugador invocar criaturas y lanzar hechizos en mapas de fantasía medieval. A pesar de su interesante propuesta y un motor gráfico mejorado respecto a su antecesor, pasó algo desapercibido comercialmente. La edición española fue distribuida en caja grande por Virgin Interactive y es hoy una pieza valorada por coleccionistas.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Estrategia",
+    "Fantasía",
+    "Virgin Interactive",
+    "Mythos Games"
+  ]
 }
+
+
 
 
 
