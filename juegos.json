@@ -4887,7 +4887,7 @@
   },
   {
     "titulo": "Primera División Stars",
-    "url": "juegos/primera-division-stars-bigbox/",
+    "url": "juegos/primera-division-stars-2001-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -31555,6 +31555,205 @@
       "Champions League",
       "Infogrames",
       "Gremlin"
+    ]
+  },
+  {
+    "titulo": "Superbike 2001",
+    "url": "juegos/superbike-2001-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Conducción",
+      "Motociclismo",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Milestone"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Superbike 2001 es la tercera entrega de la saga oficial del Campeonato Mundial de Superbikes desarrollada por Milestone y publicada por Electronic Arts. Lanzado en 2000, el juego incorpora todas las licencias oficiales de la temporada: pilotos, equipos, motos y circuitos reales. Mejora aspectos técnicos respecto a entregas anteriores, con gráficos renovados, físicas avanzadas, meteorología dinámica y un alto grado de realismo. Considerado uno de los mejores simuladores de motociclismo de su generación, su edición en caja grande es muy valorada por los amantes de la velocidad y coleccionistas del género.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "SBK",
+      "Motociclismo",
+      "Simulación",
+      "Electronic Arts"
+    ]
+  },
+  {
+    "titulo": "F1 2000",
+    "url": "juegos/f1-2000-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Conducción",
+      "Fórmula 1",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Image Space Incorporated"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "F1 2000 es un simulador de Fórmula 1 desarrollado por Image Space Incorporated y lanzado por Electronic Arts en el año 2000. Incluye la licencia oficial de la FIA para la temporada completa, con todos los equipos, pilotos y circuitos reales. El juego destaca por su motor gráfico mejorado, físicas más realistas que sus predecesores, inteligencia artificial competitiva y múltiples modos de juego (entrenamiento, carrera rápida, campeonato). Su edición Big Box se distribuyó ampliamente en Europa y se convirtió en uno de los simuladores más populares del año, antes del salto a F1 Championship Season 2000.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Fórmula 1",
+      "Electronic Arts",
+      "Simulación de carreras",
+      "Licencia oficial"
+    ]
+  },
+  {
+    "titulo": "Primera División Stars",
+    "url": "juegos/primera-division-stars-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Fútbol"
+    ],
+    "desarrollador": [
+      "EA Sports"
+    ],
+    "distribuidor": [
+      "Electronic Arts España"
+    ],
+    "ean": [],
+    "descripcion": "Primera División Stars es una edición especial lanzada por EA Sports exclusivamente para el mercado español. Basado en el motor de FIFA 99, incluye licencia oficial de la LFP (Liga de Fútbol Profesional) y presenta todos los equipos, jugadores y estadios de la Primera División española. Traducido y doblado completamente al castellano, destaca por su jugabilidad arcade, gráficos fluidos y modos de campeonato nacional. Su edición en caja grande fue distribuida ampliamente en tiendas y kioscos, siendo un título muy representativo del fútbol español de finales de los 90.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Fútbol",
+      "EA Sports",
+      "España",
+      "LFP",
+      "FIFA"
+    ]
+  },
+  {
+    "titulo": "Crónicas de la Luna Negra",
+    "url": "juegos/cronicas-de-la-luna-negra-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Rol",
+      "Fantasía oscura"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Crónicas de la Luna Negra (Black Moon Chronicles) es un juego de estrategia en tiempo real con toques de rol, basado en el cómic francés homónimo creado por Froideval y Olivier Ledroit. Desarrollado por Cryo Interactive y publicado en 1999 por Ubisoft, el juego presenta una ambientación de fantasía oscura con campañas narrativas, control de héroes, reclutamiento de unidades y uso de hechizos. Combina elementos de gestión y combate en tiempo real con una fuerte carga argumental. La edición en caja grande distribuida en España es especialmente valorada por su localización y fidelidad al universo original.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Estrategia",
+      "Fantasía oscura",
+      "Ubisoft",
+      "Cryo Interactive",
+      "Cómic europeo"
+    ]
+  },
+  {
+    "titulo": "Maximum Billar",
+    "url": "juegos/maximum-billar-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Billar"
+    ],
+    "desarrollador": [
+      "Megamedia"
+    ],
+    "distribuidor": [
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Maximum Billar es un simulador de billar desarrollado por el estudio español Megamedia y distribuido por Friendware a finales de los años 90. El juego permite disputar partidas de bola 8, bola 9, carambola y otras variantes, con gráficos en 3D, controles sencillos y una interfaz completamente en castellano. Se lanzó en edición Big Box con manual y fue muy popular en el mercado español gracias a su bajo precio y accesibilidad. Aunque modesto en lo técnico, es una pieza representativa del software español de la época.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Billar",
+      "España",
+      "Friendware",
+      "Megamedia"
+    ]
+  },
+  {
+    "titulo": "NBA Live 99",
+    "url": "juegos/nba-live-99-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Baloncesto"
+    ],
+    "desarrollador": [
+      "EA Sports"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "NBA Live 99 es una de las entregas más destacadas de la franquicia de baloncesto de EA Sports. Lanzado en 1998, incorpora mejoras significativas en el motor gráfico y jugabilidad, además de plantillas actualizadas para la temporada 1998-99. Introduce por primera vez un modo franquicia, animaciones más suaves, mayor control sobre jugadas y físicas más realistas. Fue bien recibido por los fans y distribuido en Europa en caja grande, convirtiéndose en un clásico de los juegos deportivos en PC.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Baloncesto",
+      "EA Sports",
+      "NBA",
+      "Simulación deportiva"
     ]
   }
 ]
