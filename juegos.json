@@ -6431,7 +6431,8 @@
       "Bigbox"
     ],
     "tags": [
-      "Bigbox"
+      "Bigbox",
+      "Precintado"
     ]
   },
   {
@@ -30900,9 +30901,9 @@
     "titulo": "Cutthroats: Terror on the High Seas",
     "url": "juegos/cutthroats-terror-on-the-high-seas-bigbox/",
     "plataforma": [
-      "Windows 95",
-      "Windows 98",
-      "Windows Me"
+      "Win95",
+      "Win98",
+      "WinMe"
     ],
     "genero": [
       "Estrategia",
@@ -31754,6 +31755,174 @@
       "EA Sports",
       "NBA",
       "Simulación deportiva"
+    ]
+  },
+  {
+    "titulo": "Dragon Lore II: El Corazón del Dragón",
+    "url": "juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Mindscape"
+    ],
+    "ean": [],
+    "descripcion": "Dragon Lore II: El Corazón del Dragón es una aventura gráfica en primera persona desarrollada por Cryo Interactive y lanzada en 1996 como secuela directa del clásico Dragon Lore. El jugador vuelve a encarnar a Werner von Wallenrod en una historia de fantasía épica con castillos, bestias mágicas y secretos antiguos. Presenta entornos prerenderizados, doblaje en varios idiomas, combate ocasional y exploración en 3D por nodos. Su edición Big Box fue distribuida en Europa en múltiples versiones, incluyendo doblaje y textos en castellano en la edición española.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Aventura gráfica",
+      "Cryo Interactive",
+      "Fantasía",
+      "Mindscape"
+    ]
+  },
+  {
+    "titulo": "Conquest: Frontier Wars",
+    "url": "juegos/conquest-frontier-wars-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Fever Pitch Studios"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Conquest: Frontier Wars es un juego de estrategia en tiempo real espacial lanzado en 2001, desarrollado por Fever Pitch Studios y distribuido por Ubisoft. El título destaca por su sistema de gestión de múltiples sistemas estelares conectados por portales, mecánicas de suministro logístico, y tres razas jugables con estilo de combate único. Ambientado en un futuro donde la humanidad se ve envuelta en un conflicto intergaláctico, ofrece una campaña narrativa sólida, modo escaramuza y multijugador LAN. Su edición Big Box es apreciada por coleccionistas de estrategia y ciencia ficción.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Estrategia espacial",
+      "RTS",
+      "Ciencia ficción",
+      "Ubisoft"
+    ]
+  },
+  {
+    "titulo": "Speed Busters",
+    "url": "juegos/speed-busters-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Conducción",
+      "Arcade"
+    ],
+    "desarrollador": [
+      "Ubisoft Montreal"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Speed Busters es un juego de carreras arcade desarrollado por Ubisoft Montreal y lanzado en 1999. Conocido en algunos territorios como *Speed Devils*, destaca por sus circuitos llenos de obstáculos dinámicos, vehículos exagerados y una estética americana muy marcada. Ofrece modos de un jugador, campeonato y multijugador en red local. A diferencia de los simuladores realistas, Speed Busters apuesta por velocidad, diversión y locura visual. Su edición en caja grande fue distribuida en varios países europeos, incluida España, y es recordada por su estilo desenfadado y acción espectacular.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Carreras arcade",
+      "Ubisoft",
+      "Velocidad",
+      "Conducción"
+    ]
+  },
+  {
+    "titulo": "World of Warcraft",
+    "url": "juegos/world-of-warcraft-coleccionistas-bigbox/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "MMORPG",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "World of Warcraft es el MMORPG más influyente de todos los tiempos, lanzado originalmente en 2004 por Blizzard Entertainment. Ambientado en el mundo de fantasía de Azeroth, permite a los jugadores crear personajes de distintas razas y clases, explorar vastos territorios, completar misiones, formar hermandades y enfrentarse a desafíos cooperativos o PvP. Esta edición en caja grande corresponde a una reimpresión moderna, completamente traducida y doblada al castellano, con el cliente actualizado e ilustraciones renovadas. Aunque no es la edición original, es una pieza de coleccionismo muy atractiva.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "WoW",
+      "MMORPG",
+      "Blizzard",
+      "Fantasía épica"
+    ]
+  },
+  {
+    "titulo": "Warcraft III: Battle Chest",
+    "url": "juegos/warcraft-iii-battle-chest-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Warcraft III: Battle Chest es la edición definitiva del legendario juego de estrategia en tiempo real de Blizzard, que incluye Warcraft III: Reign of Chaos y su expansión The Frozen Throne. Publicada en caja grande y totalmente en castellano, esta edición recopila la épica campaña de Azeroth, con sus cuatro razas jugables (Humanos, Orcos, No-Muertos y Elfos Nocturnos), multijugador online mediante Battle.net y herramientas de creación de mapas. Es una de las ediciones más completas y buscadas por coleccionistas de PC y fans del universo Warcraft.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox",
+      "World of Warcraft"
+    ],
+    "tags": [
+      "Bigbox",
+      "Estrategia en tiempo real",
+      "Warcraft",
+      "Blizzard",
+      "Battle Chest"
     ]
   }
 ]
