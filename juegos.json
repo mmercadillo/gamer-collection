@@ -28098,7 +28098,7 @@
     "titulo": "Warhammer Online: Age of Reckoning",
     "url": "juegos/warhammer-online-age-of-reckoning-cddvd/",
     "plataforma": [
-      "Windows XP",
+      "WinXP",
       "Windows Vista"
     ],
     "genero": [
@@ -31923,6 +31923,73 @@
       "Warcraft",
       "Blizzard",
       "Battle Chest"
+    ]
+  },
+  {
+    "titulo": "DreamWeb",
+    "url": "juegos/dreamweb-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Cyberpunk",
+      "Point and click"
+    ],
+    "desarrollador": [
+      "Creative Reality"
+    ],
+    "distribuidor": [
+      "Empire Interactive"
+    ],
+    "ean": [],
+    "descripcion": "DreamWeb es una aventura gráfica de ciencia ficción lanzada en 1994 para MS-DOS. Desarrollada por Creative Reality y distribuida por Empire Interactive, destaca por su ambientación cyberpunk oscura, violencia explícita y una narrativa en forma de diario psicológico del protagonista, Ryan, un camarero atormentado por visiones apocalípticas. El juego emplea una inusual vista cenital y se acompaña en su edición original de un diario físico que aporta profundidad al argumento. Su edición en caja grande, especialmente la versión en disquetes en español, es hoy una auténtica pieza de coleccionismo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Cyberpunk",
+      "Aventura gráfica",
+      "MsDos",
+      "Empire Interactive",
+      "Culto"
+    ]
+  },
+  {
+    "titulo": "Master of Orion II: Battle at Antares",
+    "url": "juegos/master-of-orion-ii-battle-at-antares-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia por turnos",
+      "4X",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Simtex"
+    ],
+    "distribuidor": [
+      "MicroProse"
+    ],
+    "ean": [],
+    "descripcion": "Master of Orion II: Battle at Antares, lanzado en 1996, es uno de los títulos más influyentes del género 4X (eXplore, eXpand, eXploit, eXterminate). Desarrollado por Simtex y distribuido por MicroProse, el juego sitúa al jugador al mando de una civilización galáctica en expansión. Combina gestión de imperio, diplomacia, investigación tecnológica, diseño de naves y combates tácticos. Introduce elementos multirraciales, colonización planetaria avanzada y una IA desafiante. Su edición en caja grande en español es especialmente valorada por coleccionistas de estrategia espacial clásica.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "4X",
+      "Estrategia espacial",
+      "MicroProse",
+      "MS-DOS",
+      "Simtex"
     ]
   }
 ]
