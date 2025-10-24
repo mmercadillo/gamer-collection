@@ -31991,5 +31991,40 @@
       "MS-DOS",
       "Simtex"
     ]
+  },
+  {
+    "titulo": "Evil Islands: Curse of the Lost Soul",
+    "url": "juegos/evil-islands-curse-of-the-lost-soul-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Rol",
+      "Estrategia en tiempo real",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Nival Interactive"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Evil Islands: Curse of the Lost Soul es un juego de rol táctico con elementos de estrategia en tiempo real, lanzado en 2001 por Nival Interactive y distribuido por Ubisoft. Ambientado en un oscuro mundo de fantasía dividido en islas, el jugador controla a Zak, un héroe amnésico que debe descubrir su pasado mientras lucha contra enemigos y criaturas mediante un sistema de combate pausable. Combina sigilo, crafteo de armas y hechizos, progresión de personaje y narrativa. Su edición en caja grande fue distribuida principalmente en Europa y destaca por su localización al castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "RPG táctico",
+      "Estrategia en tiempo real",
+      "Nival",
+      "Ubisoft",
+      "Fantasía oscura"
+    ]
   }
 ]
