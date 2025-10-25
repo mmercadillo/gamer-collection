@@ -485,7 +485,8 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BestSeller Series"
+      "BestSeller Series",
+      "World of Warcraft"
     ],
     "tags": [
       "Sierra"
@@ -519,7 +520,8 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BestSeller Series"
+      "BestSeller Series",
+      "World of Warcraft"
     ],
     "tags": [
       "Sierra"
@@ -1402,38 +1404,6 @@
     ],
     "ean": [],
     "descripcion": "Adaptación en PC del clásico juego de mesa 'Advanced Civilization' (1995). Gestionas civilizaciones mediterráneas desde la Edad del Bronce hasta la del Hierro mediante comercio, avances tecnológicos y calamidades. No es un wargame puro: destaca por su enfoque económico y diplomático, con una IA fiel a la experiencia de tablero.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "titulo": "Arcania: Gothic 4",
-    "url": "juegos/arcania-gothic-4-bigbox/",
-    "plataforma": [
-      "WinXP",
-      "Windows Vista",
-      "Win7",
-      "Win8",
-      "Win10"
-    ],
-    "genero": [
-      "Rol"
-    ],
-    "desarrollador": [
-      "Spellbound Entertainment"
-    ],
-    "distribuidor": [
-      "JoWooD (PC EU), DreamCatcher (PC NA), Nordic Games (consolas)"
-    ],
-    "ean": [
-      "0625904730428, 0625904730640, 4607170313471"
-    ],
-    "descripcion": "RPG de acción lanzado en octubre de 2010. Encarnas a un héroe sin nombre que busca venganza tras el saqueo de su aldea. Ambientado en Myrtana, ofrece combates con armas cuerpo a cuerpo, magias sencillas, mundo semiabierto, narrativa lineal con puntos de decisión y gráficos modernos para la saga Gothic.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -3194,37 +3164,6 @@
     "genero": [
       "Estrategia en tiempo real",
       "Construcción"
-    ],
-    "desarrollador": [
-      "Impressions Games"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "Juego de construcción de ciudades ambientado en el Antiguo Egipto, donde gestionas desde aldeas agrícolas hasta grandes metrópolis faraónicas. Debes administrar recursos, comercio, religión, salud, y monumentos como pirámides y templos. El juego incluye campañas históricas y un modo sandbox. Su estilo educativo y jugabilidad profunda lo convirtieron en un clásico del género. Posteriormente se lanzó la expansión oficial 'Cleopatra: Reina del Nilo'.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "titulo": "Faraón",
-    "url": "juegos/faraon-2-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "WinXP"
-    ],
-    "genero": [
-      "Estrategia",
-      "Construcción",
-      "Gestión histórica"
     ],
     "desarrollador": [
       "Impressions Games"
@@ -11349,7 +11288,8 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Computer hoy juegos"
+      "Computer hoy juegos",
+      "World of Warcraft"
     ],
     "tags": []
   },
@@ -28639,38 +28579,6 @@
     ]
   },
   {
-    "titulo": "Ground Control: Dark Conspiracy",
-    "url": "juegos/ground-control-dark-conspiracy-bigbox-2/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "genero": [
-      "Estrategia",
-      "Táctico"
-    ],
-    "desarrollador": [
-      "Massive Entertainment"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [
-      ""
-    ],
-    "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
     "titulo": "Requiem: Avenging Angel",
     "url": "juegos/requiem-avenging-angel-bigbox/",
     "plataforma": [
@@ -31880,7 +31788,8 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Bigbox"
+      "Bigbox",
+      "World of Warcraft"
     ],
     "tags": [
       "Bigbox",
