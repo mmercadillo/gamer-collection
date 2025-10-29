@@ -31935,5 +31935,74 @@
       "Ubisoft",
       "Fantasía oscura"
     ]
+  },
+  {
+    "titulo": "Turok: Dinosaur Hunter",
+    "url": "juegos/turok-dinosaur-hunter-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Acción",
+      "FPS",
+      "Ciencia ficción",
+      "Dinosaurios"
+    ],
+    "desarrollador": [
+      "Iguana Entertainment"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Turok: Dinosaur Hunter es un shooter en primera persona lanzado en 1997 originalmente para Nintendo 64 y adaptado a PC ese mismo año. Desarrollado por Iguana Entertainment y publicado por Acclaim, el juego combina acción frenética, exploración y combates contra dinosaurios y enemigos humanos en entornos selváticos. Fue uno de los primeros FPS 3D en consolas y destacó en PC por su ambientación prehistórica y arsenal variado. La versión en caja grande para PC es muy buscada por coleccionistas, especialmente la edición española con manual traducido.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "FPS",
+      "Dinosaurios",
+      "Acclaim",
+      "Selva",
+      "Shooter clásico"
+    ]
+  },
+  {
+    "titulo": "Turok 2: Seeds of Evil",
+    "url": "juegos/turok-2-seeds-of-evil-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "FPS",
+      "Ciencia ficción",
+      "Dinosaurios"
+    ],
+    "desarrollador": [
+      "Iguana Entertainment"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Turok 2: Seeds of Evil es la secuela del exitoso Turok: Dinosaur Hunter, lanzada en 1998. Mejora todos los aspectos del original: gráficos más detallados, niveles más grandes y complejos, una historia más desarrollada y uno de los arsenales más creativos de su época (incluyendo el mítico Cerebral Bore). Ambientado en un universo donde la tecnología y la prehistoria conviven, el juego mezcla combate brutal con exploración y plataformas. La edición en caja grande para PC tuvo distribución en España, y es una pieza codiciada entre los coleccionistas de FPS clásicos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "FPS",
+      "Dinosaurios",
+      "Acclaim",
+      "Shooter noventero",
+      "Ciencia ficción"
+    ]
   }
 ]
