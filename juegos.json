@@ -843,6 +843,42 @@
     ]
   },
   {
+    "titulo": "The Thing",
+    "url": "juegos/the-thing-bestsellers/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Survival horror",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Computer Artworks"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "The Thing es un videojuego de acción y survival horror lanzado en 2002 como secuela directa de la mítica película de John Carpenter. Desarrollado por Computer Artworks y distribuido por Sierra Entertainment (Vivendi Universal), el jugador lidera un escuadrón enviado a la base antártica tras los eventos del film. Con una mezcla de combate, exploración, tensión psicológica y un innovador sistema de confianza y paranoia, el juego destaca por mantener la atmósfera opresiva de la película. La edición en caja grande de BestSeller Series incluye voces en inglés y textos en castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": [
+      "Bigbox",
+      "Sierra",
+      "BestSeller Series",
+      "Survival horror",
+      "Ciencia ficción",
+      "The Thing"
+    ]
+  },
+  {
     "titulo": "Age of Empires",
     "url": "juegos/age-of-empires-bigbox/",
     "plataforma": [
@@ -21350,6 +21386,39 @@
     "tags": []
   },
   {
+    "titulo": "Take On Helicopters",
+    "url": "juegos/take-on-helicopters-fxinteractive/",
+    "plataforma": [
+      "WinXP",
+      "WinVista",
+      "Win7"
+    ],
+    "genero": [
+      "Simulación",
+      "Helicópteros"
+    ],
+    "desarrollador": [
+      "Bohemia Interactive"
+    ],
+    "distribuidor": [
+      "FX Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Take On Helicopters es un simulador de vuelo de helicópteros desarrollado por Bohemia Interactive, creadores de la saga ARMA. Lanzado en 2011 y posteriormente distribuido en España por FX Interactive, el juego combina simulación realista con una campaña narrativa ambientada en EE. UU. Ofrece escenarios abiertos detallados, físicas realistas y diferentes modelos de helicópteros civiles y militares. La edición de FX en caja grande incluye voces y textos en castellano, manual impreso y extras en formato físico o digital, siguiendo el estilo habitual de la colección FX.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "FX Interactive"
+    ],
+    "tags": [
+      "Bigbox",
+      "Simulación aérea",
+      "Helicópteros",
+      "FX Interactive",
+      "Bohemia Interactive"
+    ]
+  },
+  {
     "titulo": "Las Cruzadas",
     "url": "juegos/las-cruzadas-fxinteractive/",
     "plataforma": [
@@ -32003,6 +32072,75 @@
       "Acclaim",
       "Shooter noventero",
       "Ciencia ficción"
+    ]
+  },
+  {
+    "titulo": "Atlantis II",
+    "url": "juegos/atlantis-ii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Cryo Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Atlantis II, también conocido como Beyond Atlantis, es una aventura gráfica en primera persona desarrollada por Cryo Interactive y lanzada en 1999. Secuela del exitoso Atlantis: The Lost Tales, combina mitología, fantasía y viajes místicos a través de diferentes civilizaciones como Irlanda celta, China ancestral o Egipto. Destaca por sus gráficos pre-renderizados, banda sonora atmosférica y rompecabezas desafiantes. Su edición Big Box fue distribuida en varios países europeos, incluida España, con textos y voces localizadas al castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Aventura gráfica",
+      "Cryo Interactive",
+      "Mitología",
+      "Point and click",
+      "Viajes místicos"
+    ]
+  },
+  {
+    "titulo": "American McGee's Alice",
+    "url": "juegos/american-mcgees-alice-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Fantasía oscura"
+    ],
+    "desarrollador": [
+      "Rogue Entertainment"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "American McGee's Alice es una reinvención oscura y retorcida del clásico cuento de Lewis Carroll. Lanzado en el año 2000 y desarrollado por Rogue Entertainment usando el motor de Quake III, el juego nos presenta a una Alice traumatizada tras perder a su familia en un incendio. Vuelve a un País de las Maravillas distorsionado y macabro, armado con cuchillos, cartas y magia para enfrentarse a versiones monstruosas de personajes icónicos. La edición EA Games Classics en caja grande distribuida en España incluye voces en inglés y textos completamente traducidos al castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "EA Games Classics"
+    ],
+    "tags": [
+      "Bigbox",
+      "Fantasía oscura",
+      "EA Games Classics",
+      "Alicia en el País de las Maravillas",
+      "Acción en tercera persona"
     ]
   }
 ]
