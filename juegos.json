@@ -32142,5 +32142,39 @@
       "Alicia en el País de las Maravillas",
       "Acción en tercera persona"
     ]
+  },
+  {
+    "titulo": "Toonstruck",
+    "url": "juegos/toonstruck-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Comedia"
+    ],
+    "desarrollador": [
+      "Burst Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Toonstruck es una aventura gráfica point and click lanzada en 1996 por Virgin Interactive y desarrollada por Burst Studios. El juego mezcla gráficos dibujados a mano con actores reales digitalizados, incluyendo a Christopher Lloyd como protagonista. El jugador controla a Drew Blanc, un dibujante que queda atrapado en su propio universo de caricaturas. El título destaca por su humor adulto, doblaje de alta calidad y puzles clásicos del género. Su edición en caja grande, distribuida en España con textos y voces en castellano, es hoy una de las más valoradas entre coleccionistas de aventuras clásicas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Aventura gráfica",
+      "Virgin Interactive",
+      "Christopher Lloyd",
+      "Humor",
+      "Dibujos animados"
+    ]
   }
 ]
