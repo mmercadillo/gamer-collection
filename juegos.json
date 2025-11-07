@@ -32176,5 +32176,175 @@
       "Humor",
       "Dibujos animados"
     ]
+  },
+  {
+    "titulo": "Corsarios Gold",
+    "url": "juegos/corsarios-gold-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Piratas"
+    ],
+    "desarrollador": [
+      "Microids"
+    ],
+    "distribuidor": [
+      "Microids"
+    ],
+    "ean": [],
+    "descripcion": "Corsarios Gold es una reedición ampliada del clásico Corsarios, desarrollada y publicada por Microids. Ambientado en el Caribe del siglo XVII, el juego combina acción, estrategia naval y exploración, permitiendo al jugador ponerse en la piel de un corsario en busca de gloria, botines y venganza. Esta edición Gold incluye más de 50 misiones, cuatro campañas completas y un modo aventura inédito. La versión en caja grande distribuida en España está traducida completamente al castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Microids",
+      "Piratas",
+      "Acción",
+      "Aventura"
+    ]
+  },
+  {
+    "titulo": "Soulbringer",
+    "url": "juegos/soulbringer-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Rol",
+      "Aventura",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Infogrames North America"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "Soulbringer es un juego de rol en tercera persona desarrollado por Infogrames North America y lanzado en el año 2000. Combina exploración, combate cuerpo a cuerpo basado en movimientos direccionales y un profundo sistema de magia vinculado a los elementos. El jugador asume el papel de un héroe reencarnado que debe liberar un mundo dominado por antiguos señores demoníacos. Destaca por su ambientación oscura, su libertad de exploración y su elaborada trama. La edición española en caja grande incluye textos y voces en castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Rol",
+      "Infogrames",
+      "Acción",
+      "Fantasía",
+      "RPG"
+    ]
+  },
+  {
+    "titulo": "Counter Strike. Condition Zero",
+    "url": "juegos/counter-strike/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Disparos en primera persona",
+      "Multijugador"
+    ],
+    "desarrollador": [
+      "Valve",
+      "Gearbox Software"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "Counter-Strike es un shooter táctico en primera persona nacido como un mod de Half-Life y desarrollado posteriormente por Valve y Gearbox Software. Enfrenta a equipos de terroristas y antiterroristas en intensas partidas multijugador, donde la cooperación y la estrategia son esenciales. Su versión BestSeller Series fue lanzada en formato físico en España, con textos en castellano y compatibilidad con Windows 98 y XP.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": [
+      "BestSeller Series",
+      "FPS",
+      "Valve",
+      "Sierra",
+      "Multijugador",
+      "Acción táctica"
+    ]
+  },
+  {
+    "titulo": "Viper Racing",
+    "url": "juegos/viper-racing/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Carreras",
+      "Simulación",
+      "Deportes"
+    ],
+    "desarrollador": [
+      "Monster Games"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [],
+    "descripcion": "Viper Racing es un simulador de conducción desarrollado por Monster Games y publicado por Sierra On-Line en 1998. Destaca por su avanzado modelo de físicas, su detallado sistema de daños y su realismo en la conducción de los potentes Dodge Viper. Incluye varios modos de juego, personalización del coche y un completo modo carrera. La edición BestSeller Series ofrecía el título en formato económico, completamente localizado al castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": [
+      "BestSeller Series",
+      "Carreras",
+      "Simulación",
+      "Sierra",
+      "Deportes",
+      "Dodge Viper"
+    ]
+  },
+  {
+    "titulo": "El Señor de los Anillos: La Guerra del Anillo",
+    "url": "juegos/el-senor-de-los-anillos-la-guerra-del-anillo/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Fantasía",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Liquid Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "El Señor de los Anillos: La Guerra del Anillo es un juego de estrategia en tiempo real desarrollado por Liquid Entertainment y publicado por Sierra Entertainment en 2003. Basado en el universo de Tolkien, permite controlar las fuerzas de la Luz o la Oscuridad en batallas épicas ambientadas en la Tierra Media. Con un estilo similar a Warcraft III, destaca por sus campañas diferenciadas, héroes con habilidades especiales y un gran apartado artístico. La edición BestSeller Series ofrecía el juego con textos y voces en castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": [
+      "BestSeller Series",
+      "Estrategia",
+      "Sierra",
+      "Tolkien",
+      "Fantasía",
+      "RTS"
+    ]
   }
 ]
