@@ -32379,5 +32379,72 @@
       "Indiana Jones",
       "Clásico"
     ]
+  },
+  {
+    "titulo": "Misión Van Gogh",
+    "url": "juegos/mision-van-gogh-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Educativo",
+      "Misterio"
+    ],
+    "desarrollador": [
+      "Index+"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "Misión Van Gogh es una aventura gráfica de corte educativo desarrollada por Index+ y publicada por Infogrames a finales de los años 90 para Windows 95/98. El jugador encarna a un periodista que investiga un robo relacionado con las obras de Vincent van Gogh, combinando puzles, entrevistas y exploración de escenarios digitalizados. Con un tono cultural y artístico, el juego busca enseñar aspectos de la vida y obra del pintor mientras desarrolla una trama de intriga. La edición española en formato Big Box fue distribuida íntegramente en castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Big Box",
+      "Aventura gráfica",
+      "Infogrames",
+      "Educativo",
+      "Arte",
+      "Van Gogh"
+    ]
+  },
+  {
+    "titulo": "Beavis and Butt-Head: Bunghole in One",
+    "url": "juegos/beavis-and-butt-head-bunghole-in-one/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Deportes",
+      "Comedia"
+    ],
+    "desarrollador": [
+      "Sandbox Studios"
+    ],
+    "distribuidor": [
+      "GT Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Beavis and Butt-Head: Bunghole in One es un juego de golf humorístico desarrollado por Sandbox Studios y publicado por GT Interactive en 1998 para Windows 95/98. Inspirado en la serie animada de MTV, combina minijuegos de golf con las bromas y comentarios característicos de Beavis y Butt-Head. Los escenarios están repletos de obstáculos absurdos, referencias televisivas y animaciones cómicas. La edición en formato Big Box incluye voces originales en inglés y textos en castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Big Box",
+      "Comedia",
+      "Golf",
+      "MTV",
+      "GT Interactive",
+      "Beavis and Butt-Head"
+    ]
   }
 ]
