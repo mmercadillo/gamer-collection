@@ -32346,5 +32346,38 @@
       "Fantasía",
       "RTS"
     ]
+  },
+  {
+    "titulo": "Indiana Jones y la Última Cruzada: Aventura Gráfica",
+    "url": "juegos/indiana-jones-y-la-ultima-cruzada-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Cine"
+    ],
+    "desarrollador": [
+      "Lucasfilm Games"
+    ],
+    "distribuidor": [
+      "ERBE Software"
+    ],
+    "ean": [],
+    "descripcion": "Indiana Jones y la Última Cruzada: Aventura Gráfica es una aventura point and click desarrollada por Lucasfilm Games y publicada por ERBE Software en 1989 para MS-DOS. Basada en la película homónima, utiliza el motor SCUMM y presenta gráficos EGA de 16 colores. La edición española en formato Big Box incluye manual en blanco y negro, hoja de protección 'Translation Table', tres disquetes originales y el libro de pistas. Es una de las ediciones más emblemáticas de Lucasfilm Games en España.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Big Box",
+      "Aventura gráfica",
+      "Lucasfilm",
+      "ERBE",
+      "Indiana Jones",
+      "Clásico"
+    ]
   }
 ]
