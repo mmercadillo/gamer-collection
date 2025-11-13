@@ -32482,5 +32482,70 @@
       "GT Interactive",
       "Beavis and Butt-Head"
     ]
+  },
+  {
+    "titulo": "F.E.A.R.",
+    "url": "juegos/fear-bestseller-series/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona",
+      "Terror"
+    ],
+    "desarrollador": [
+      "Monolith Productions"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "F.E.A.R. es un shooter en primera persona desarrollado por Monolith Productions y publicado por Sierra Entertainment en 2005. Combina acción táctica con elementos de terror psicológico, utilizando efectos de cámara lenta y combate cercano muy característico. La edición BestSeller Series incluye el juego completamente en castellano en formato DVD.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": [
+      "BestSeller Series",
+      "FPS",
+      "Acción",
+      "Terror",
+      "Sierra"
+    ]
+  },
+  {
+    "titulo": "Warcraft II: Battle.net Edition",
+    "url": "juegos/warcraft-ii-battlenet-edition-bestseller-series/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Warcraft II: Battle.net Edition es la versión actualizada del clásico RTS de Blizzard Entertainment. Incluye Warcraft II: Tides of Darkness y su expansión Beyond the Dark Portal, junto con soporte para Battle.net. Esta edición BestSeller Series ofrece el juego totalmente en castellano en formato CD-ROM.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": [
+      "BestSeller Series",
+      "RTS",
+      "Estrategia",
+      "Blizzard",
+      "Warcraft"
+    ]
   }
 ]
