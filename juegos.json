@@ -28016,6 +28016,32 @@
   },
   {
     "titulo": "Empire Earth II",
+    "url": "juegos/empire-earth-ii/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Mad Doc Software"
+    ],
+    "distribuidor": [
+      "Vivendi Universal Games",
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "serie": [
+      "Todos",
+      "BestSeller Series"
+    ],
+    "tags": [],
+    "descripcion": "Empire Earth II es un juego de estrategia en tiempo real que permite al jugador dirigir civilizaciones a lo largo de distintas eras históricas, desde la prehistoria hasta el futuro. Incluye innovaciones como el control de regiones, diplomacia avanzada y un completo editor de mapas.",
+    "incluye": []
+  },
+  {
+    "titulo": "Empire Earth II",
     "url": "juegos/empire-earth-ii-cddvd/",
     "plataforma": [
       "Win2000",
@@ -32546,6 +32572,41 @@
       "Estrategia",
       "Blizzard",
       "Warcraft"
+    ]
+  },
+  {
+    "titulo": "Planescape: Torment",
+    "url": "juegos/planescape-torment-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Rol",
+      "Fantasía",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Black Isle Studios"
+    ],
+    "distribuidor": [
+      "Interplay Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Planescape: Torment es un juego de rol isométrico desarrollado por Black Isle Studios y publicado por Interplay Entertainment en 1999. Ambientado en el multiverso de Dungeons & Dragons, utiliza el motor Infinity Engine y se centra en una profunda narrativa más que en el combate. El jugador encarna a El Sin Nombre, un inmortal que busca descubrir la verdad sobre su pasado y la naturaleza de su existencia. Considerado uno de los mejores RPG de todos los tiempos por su guion, ambientación y filosofía. La edición Big Box en español incluye los cuatro CDs originales y manual traducido.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Rol",
+      "Interplay",
+      "Black Isle",
+      "RPG",
+      "Infinity Engine",
+      "Dungeons & Dragons"
     ]
   }
 ]
