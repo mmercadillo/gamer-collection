@@ -27,7 +27,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "3D Power Tank",
@@ -110,7 +117,14 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "SecuROM",
+  "version": "7.x",
+  "preservacion": "Alcohol 120% - Perfil SecuROM New",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "101: Airborne en Normandía",
@@ -139,7 +153,14 @@
     ],
     "tags": [
       "Precintado"
-    ]
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
   },
   {
     "titulo": "1917: Project Helios Collector's Edition",
@@ -168,7 +189,14 @@
     ],
     "tags": [
       "Precintado"
-    ]
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
   },
   {
     "titulo": "A Sangre Fría",
@@ -198,7 +226,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SecuROM",
+  "version": "4.x",
+  "preservacion": "Alcohol 120% - Perfil SecuROM New",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Abomination: The Nemesis Project",
@@ -227,7 +262,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Absolute Pinball",
@@ -254,7 +296,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "ACB Total",
@@ -279,7 +328,14 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Action Man: Asalto a la Isla",
@@ -310,7 +366,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Adidas Power Soccer 98",
@@ -341,7 +404,14 @@
       "Fútbol",
       "Arcade",
       "Adidas"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Adidas Power Soccer",
@@ -397,7 +467,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "African Safari: Trophy Hunter 3D",
@@ -426,7 +503,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "After the War",
@@ -452,7 +536,14 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Empires",
@@ -482,7 +573,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Empires: Collector's Edition",
@@ -608,7 +706,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Empires: Gold Edition",
@@ -663,7 +768,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Empires II: Gold Edition",
@@ -695,7 +807,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Empires II. The Conquerors. Expansion",
@@ -727,7 +846,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Empires II. The Conquerors. Expansion",
@@ -789,7 +915,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "4.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Empires III",
@@ -898,7 +1031,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Mythology: The Titans",
@@ -925,7 +1065,14 @@
       "Todos",
       "Age of Empires"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "2.8x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Age of Mythology",
@@ -1047,7 +1194,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.06",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Airport Inc.",
@@ -1084,7 +1238,14 @@
       "Estrategia",
       "Construcción",
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "2.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Ajedrez Premium Fritz 2",
@@ -1111,7 +1272,14 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Alea Iacta Est: El Imperio Romano en Guerra",
@@ -1139,7 +1307,14 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Alejandro Magno",
@@ -1167,7 +1342,14 @@
     ],
     "tags": [],
     "descripcion": "Alejandro Magno es un juego de estrategia inspirado en la película homónima, donde el jugador revive las campañas del célebre conquistador macedonio. Combina batallas masivas en tiempo real con elementos de gestión y táctica militar.",
-    "incluye": []
+    "incluye": [],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "3.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Alien Logic",
@@ -1193,39 +1375,14 @@
     ],
     "tags": [
       "Precintado"
-    ]
-  },
-  {
-    "titulo": "Alien Paranoia",
-    "url": "juegos/alien-paranoia-2-dinamic/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000"
     ],
-    "genero": [
-      "Acción",
-      "3D platform"
-    ],
-    "desarrollador": [
-      "Eclipse Software"
-    ],
-    "distribuidor": [
-      "Dinamic Multimedia, Akaei plc, Russobit‑M"
-    ],
-    "ean": [
-      "5037120206161"
-    ],
-    "descripcion": "Juego de acción y plataformas 3D de 2000. Controlas a 'M', un alienígena biocibernético atrapado en un planeta hostil. Recoge tornillos para reparar tu nave, enfrenta enemigos con láser, boomerang y ataques cuerpo a cuerpo, atraviesas cinco escenarios temáticos (cuevas, desierto, costa), cada uno con colección de piezas y jefe final en la última etapa.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Dinamic multimedia",
-      "Bigbox"
-    ],
-    "tags": [
-      "Precintado"
-    ]
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Alien Paranoia",
@@ -1256,7 +1413,14 @@
     "tags": [
       "Bigbox",
       "Precintado"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Allied General",
@@ -1353,7 +1517,14 @@
     ],
     "tags": [
       "Sierra"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Aliens vs. Predator 2",
@@ -1382,7 +1553,14 @@
     ],
     "tags": [
       "Sierra"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SecuROM",
+  "version": "4.x",
+  "preservacion": "Alcohol 120% - Perfil SecuROM New",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Alone in the Dark",
@@ -1410,7 +1588,14 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "2.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Alpha Protocol: Tu Decisión es tu Arma",
@@ -1437,7 +1622,14 @@
       "Todos",
       "Games for windows"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "SecuROM",
+  "version": "7.x",
+  "preservacion": "Alcohol 120% - Perfil SecuROM New",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "America: No Peace Beyond the Line!",
@@ -1468,7 +1660,14 @@
     ],
     "tags": [
       "Precintado"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "2.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "American Conquest Anthology",
@@ -1496,7 +1695,14 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "American conquest",
@@ -1523,7 +1729,14 @@
       "Todos",
       "Computer hoy juegos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "2.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "American Conquest. Edicion Oro",
@@ -1551,7 +1764,14 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "American McGee's Alice",
@@ -1586,7 +1806,14 @@
       "EA Games Classics",
       "Alicia en el País de las Maravillas",
       "Acción en tercera persona"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "2.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "AMOK",
@@ -1616,7 +1843,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Anachronox",
@@ -1646,7 +1880,14 @@
     ],
     "tags": [
       "Proein"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "2.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Anatomía de Grey: El Videojuego",
@@ -1673,7 +1914,14 @@
     ],
     "tags": [
       "Precintado"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Ancient Conquest",
@@ -1704,7 +1952,14 @@
       "Wargame",
       "Historia antigua",
       "TalonSoft"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Anno 1404",
@@ -1730,7 +1985,14 @@
       "Todos",
       "Codegame"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "TAGES",
+  "version": "5.x",
+  "preservacion": "Alcohol 120% o CloneCD – Perfil Especial (TAGES) / Recomendado: DICUI para preservación",
+  "formato": "CCD/IMG/SUB",
+  "jugable_virtual": false
+}
   },
   {
     "titulo": "APB: All Points Bulletin",
@@ -1756,7 +2018,14 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Arcanum: Hechizos y engranajes",
@@ -1785,7 +2054,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SecuROM",
+  "version": "4.x",
+  "preservacion": "Alcohol 120% - Perfil SecuROM New",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Arcatera: La Hermandad Oscura",
@@ -1814,7 +2090,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Arma: Armed Assault",
@@ -1840,7 +2123,14 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "StarForce",
+  "version": "3.x",
+  "preservacion": "DICUI / Alcohol 120% (modo RAW) – requiere lectura especializada",
+  "formato": "MDS/MDF",
+  "jugable_virtual": false
+}
   },
   {
     "titulo": "Army Men II",
@@ -1870,7 +2160,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Army Men: In Space",
@@ -1899,7 +2196,14 @@
     "tags": [
       "Precintado",
       "Multijugador"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Army Men: Real Combat. Plastic Men",
@@ -1927,7 +2231,14 @@
     ],
     "tags": [
       "Multijugador"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Army Men: Sarge's Heroes",
@@ -1955,7 +2266,14 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Art of Murder: FBI Confidential",
@@ -1981,7 +2299,14 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "4.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed",
@@ -2034,7 +2359,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (solo activación online Ubisoft)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's creed. Black flag",
@@ -2064,7 +2396,14 @@
     "tags": [
       "Assassins Creed",
       "Precintado"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (requiere Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed: Hermandad",
@@ -2093,7 +2432,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (requiere Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed II",
@@ -2123,7 +2469,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (DRM online de Ubisoft)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's creed III",
@@ -2152,7 +2505,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (solo Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed IV: Black Flag",
@@ -2183,7 +2543,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (requiere Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed: Liberation HD",
@@ -2213,7 +2580,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (requiere Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed: Revelations",
@@ -2243,7 +2617,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (requiere Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed Rogue",
@@ -2272,7 +2653,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (requiere Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed Syndicate",
@@ -2302,7 +2690,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (requiere Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assassin's Creed Unity",
@@ -2331,7 +2726,14 @@
     ],
     "tags": [
       "Assassins Creed"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección (requiere Uplay/activación online)",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Assault Rigs",
@@ -2362,7 +2764,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "ATAC: La Guerra Secreta Contra las Drogas",
@@ -2421,7 +2830,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Atlantis II",
@@ -2455,7 +2871,14 @@
       "Mitología",
       "Point and click",
       "Viajes místicos"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Atlantis III: El Nuevo Mundo",
@@ -2483,7 +2906,14 @@
     "serie": [
       "Todos"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Avencast: Rise of the Mage",
@@ -2510,7 +2940,14 @@
       "Todos",
       "FX Interactive"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal DVD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Aztecas: La maldición de la ciudad de oro",
@@ -2535,7 +2972,14 @@
       "Todos",
       "Bigbox"
     ],
-    "tags": []
+    "tags": [],
+    "proteccion": {
+  "tipo": "Sin protección",
+  "version": "",
+  "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+  "formato": "ISO",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Back to Baghdad",
@@ -25973,7 +26417,14 @@
     ],
     "tags": [
       "Bigbox"
-    ]
+    ],
+    "proteccion": {
+  "tipo": "SafeDisc",
+  "version": "1.x",
+  "preservacion": "Alcohol 120% - Perfil SafeDisc",
+  "formato": "MDS/MDF",
+  "jugable_virtual": true
+}
   },
   {
     "titulo": "Avalon Hill's Squad Leader",
