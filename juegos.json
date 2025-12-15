@@ -1108,39 +1108,6 @@
   },
   {
     "num": 0,
-    "titulo": "Age of Empires II. The Conquerors. Expansion",
-    "url": "juegos/age-of-empires-ii-the-conquerors-expansion-2-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft"
-    ],
-    "ean": [
-      "0659556460693, 0805529051034, 805529132061"
-    ],
-    "descripcion": "Primera expansión (lanzada 24 de agosto de 2000) de Age of Empires II, añade cinco civilizaciones (Aztecas, Españoles, Hunos, Coreanos, Mayas), cuatro nuevas campañas históricas, 11 unidades, 26 tecnologías, modos de juego y mapas. Compatible con el motor Genie y requiere Age of Empires II base para funcionar.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "num": 0,
     "titulo": "Age of Empires. Gold Edition",
     "url": "juegos/age-of-empires-gold-edition-bigbox/",
     "plataforma": [
@@ -8096,40 +8063,6 @@
   },
   {
     "num": 0,
-    "titulo": "Age of Empires. Edición coleccionistas",
-    "url": "juegos/age-of-empires-edicion-coleccionistas-2-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft",
-      "Ubisoft (Exclusive packaging)"
-    ],
-    "ean": [
-      "5017783024272, 8712206083979"
-    ],
-    "descripcion": "Edición especial lanzada en el año 2000 que incluye el juego original Age of Empires, su expansión Rise of Rome y Age of Empires II (sin expansión). Viene en caja limitada con póster, banda sonora, y cartas coleccionables. Mantiene el modo multijugador, editor de escenarios y motor Genie.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "num": 0,
     "titulo": "Iron Assault",
     "url": "juegos/iron-assault-bigbox/",
     "plataforma": [
@@ -11979,7 +11912,8 @@
       "Win2000"
     ],
     "genero": [
-      "Acción"
+      "Acción",
+      "3D platform"
     ],
     "desarrollador": [
       "Eclipse Software"
@@ -11994,10 +11928,10 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Dinamic multimedia"
+      "Dinamic multimedia",
+      "Bigbox"
     ],
     "tags": [
-      "Bigbox",
       "Precintado"
     ],
     "proteccion": {
@@ -12387,39 +12321,6 @@
       "Bigbox",
       "Multijugador",
       "Online"
-    ]
-  },
-  {
-    "num": 0,
-    "titulo": "Alien Paranoia",
-    "url": "juegos/alien-paranoia-2-dinamic/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000"
-    ],
-    "genero": [
-      "Acción",
-      "3D platform"
-    ],
-    "desarrollador": [
-      "Eclipse Software"
-    ],
-    "distribuidor": [
-      "Dinamic Multimedia, Akaei plc, Russobit‑M"
-    ],
-    "ean": [
-      "5037120206161"
-    ],
-    "descripcion": "Juego de acción y plataformas 3D de 2000. Controlas a 'M', un alienígena biocibernético atrapado en un planeta hostil. Recoge tornillos para reparar tu nave, enfrenta enemigos con láser, boomerang y ataques cuerpo a cuerpo, atraviesas cinco escenarios temáticos (cuevas, desierto, costa), cada uno con colección de piezas y jefe final en la última etapa.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Dinamic multimedia",
-      "Bigbox"
-    ],
-    "tags": [
-      "Precintado"
     ]
   },
   {
