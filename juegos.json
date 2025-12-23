@@ -33984,5 +33984,34 @@
       "Infinity Engine",
       "Dungeons & Dragons"
     ]
+  },
+    {
+    "num": 0,
+    "titulo": "Dark Sun: Shattered Lands",
+    "url": "juegos/dark-sun-shattered-lands-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Rol",
+      "RPG",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc. (SSI)"
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc. (SSI)"
+    ],
+    "ean": [],
+    "descripcion": "Dark Sun: Shattered Lands es un juego de rol clásico basado en el universo Dark Sun de Advanced Dungeons & Dragons. Lanzado en 1993, presenta un mundo postapocalíptico y desértico llamado Athas, donde la magia drena la vida del entorno y los recursos son extremadamente escasos. El jugador lidera un grupo de aventureros que debe sobrevivir, combatir y descubrir los secretos de los Reyes Hechiceros, combinando exploración, narrativa profunda y combates tácticos por turnos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
   }
 ]
