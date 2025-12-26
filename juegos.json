@@ -33985,7 +33985,7 @@
       "Dungeons & Dragons"
     ]
   },
-    {
+  {
     "num": 0,
     "titulo": "Dark Sun: Shattered Lands",
     "url": "juegos/dark-sun-shattered-lands-bigbox/",
@@ -34013,5 +34013,89 @@
     "tags": [
       "Bigbox"
     ]
+  },
+  {
+    "num": 0,
+    "titulo": "Building & Co ¡Sé tú el arquitecto!",
+    "url": "juegos/building-and-co-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista",
+      "Win7"
+    ],
+    "genero": [
+      "Simulación",
+      "Gestión",
+      "Construcción"
+    ],
+    "desarrollador": [
+      "W!Games"
+    ],
+    "distribuidor": [
+      "W!Games"
+    ],
+    "ean": [],
+    "descripcion": "Building & Co es un juego de simulación y gestión centrado en el diseño y la construcción de edificios. El jugador asume el papel de arquitecto y constructor, planificando estructuras, gestionando recursos y supervisando cada fase del proyecto para completar con éxito distintos encargos urbanos.",
+    "incluye": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": []
+  },
+  {
+    "num": 0,
+    "titulo": "Act of Aggression",
+    "url": "juegos/act-of-aggression-cddvd/",
+    "plataforma": [
+      "Win7",
+      "Win8",
+      "Win10"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Bélico",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Eugen Systems"
+    ],
+    "distribuidor": [
+      "Focus Home Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Act of Aggression es un juego de estrategia en tiempo real ambientado en un conflicto geopolítico del futuro cercano. Inspirado en los clásicos del género, ofrece facciones diferenciadas, combates modernos, gestión de recursos y campañas centradas en guerras tecnológicas y militares a gran escala.",
+    "incluye": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": []
+  },
+  {
+    "num": 0,
+    "titulo": "Yo Presidente: Objetivo Crisis Global",
+    "url": "juegos/yo-presidente-objetivo-crisis-global-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista",
+      "Win7"
+    ],
+    "genero": [
+      "Simulación",
+      "Estrategia",
+      "Política"
+    ],
+    "desarrollador": [
+      "Eversim"
+    ],
+    "distribuidor": [
+      "FX Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Yo Presidente: Objetivo Crisis Global es una expansión del simulador geopolítico en el que el jugador dirige una nación enfrentándose a crisis internacionales, decisiones políticas, económicas y militares. Incluye nuevos escenarios, misiones y una base de datos global actualizada para una simulación más profunda.",
+    "incluye": [],
+    "serie": [
+      "Todos"
+    ],
+    "tags": []
   }
 ]

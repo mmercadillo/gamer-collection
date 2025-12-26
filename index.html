@@ -344,7 +344,7 @@
           }
           location.hash = `#/list${sp.toString()? ('?'+sp.toString()):''}`;
         };
-        const debouncedApply = debounce(apply, 300);
+        const debouncedApply = debounce(apply, 300000);
         form.addEventListener('input', (e) => { if (e.target && e.target.name === 'titulo') debouncedApply(); });
         form.addEventListener('change', (e) => { if (e.target && (e.target.tagName === 'SELECT')) apply(); });
         const clearBtn = by('#clearFilters');
