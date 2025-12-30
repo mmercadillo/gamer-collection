@@ -34659,5 +34659,62 @@
       "Todos"
     ],
     "tags": []
+  },
+  {
+    "titulo": "The Ultimate Doom: The Flesh Consumed",
+    "url": "juegos/the-ultimate-doom-the-flesh-consumed-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "id Software"
+    ],
+    "distribuidor": [
+      "GT Interactive"
+    ],
+    "ean": [],
+    "descripcion": "The Ultimate Doom: The Flesh Consumed es una edición ampliada del Doom original, lanzada en 1995. Incluye el cuarto episodio exclusivo \"Thy Flesh Consumed\", con nueve niveles adicionales diseñados para jugadores experimentados. Mantiene la jugabilidad clásica de acción en primera persona, con un ritmo rápido, diseño de niveles laberíntico y una ambientación infernal de ciencia ficción que definió el género FPS en PC.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "titulo": "The Curse of Enchantia",
+    "url": "juegos/the-curse-of-enchantia-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Core Design"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "The Curse of Enchantia es una aventura gráfica lanzada en 1992 para MS-DOS y Amiga. Destaca por prescindir completamente de diálogos escritos, utilizando animaciones, gestos y una elaborada banda sonora para narrar la historia. El jugador controla a Bradford, un joven transportado a un mundo de fantasía repleto de puzles, situaciones humorísticas y un estilo visual muy característico desarrollado por Core Design.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
   }
 ]
