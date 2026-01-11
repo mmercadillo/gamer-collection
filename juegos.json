@@ -34917,5 +34917,89 @@
     "tags": [
       "Bigbox"
     ]
+  },
+  {
+    "num": 0,
+    "titulo": "Amazon: Guardians of the Eden",
+    "url": "juegos/amazon-guardians-of-the-eden-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Access Software"
+    ],
+    "distribuidor": [
+      "Access Software"
+    ],
+    "ean": [],
+    "descripcion": "Amazon: Guardians of the Eden es una aventura gráfica point and click lanzada en 1992 y desarrollada por Access Software. Ambientada en un futuro distópico, el jugador controla a Jason Roberts, un aventurero que debe viajar al corazón del Amazonas para desentrañar una conspiración que amenaza a la humanidad. El juego combina exploración, diálogos, resolución de puzles y una fuerte narrativa de ciencia ficción, utilizando el motor gráfico propio de Access Software.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": 0,
+    "titulo": "Elvira II: The Jaws of Cerberus",
+    "url": "juegos/elvira-ii-the-jaws-of-cerberus-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Terror"
+    ],
+    "desarrollador": [
+      "Horror Soft"
+    ],
+    "distribuidor": [
+      "Accolade"
+    ],
+    "ean": [],
+    "descripcion": "Elvira II: The Jaws of Cerberus es una aventura gráfica point and click lanzada en 1992 y desarrollada por Horror Soft. Secuela directa de Elvira: Mistress of the Dark, el juego vuelve a mezclar humor negro y terror con una ambientación gótica. El jugador debe ayudar a Elvira a recuperar el libro de hechizos Cerberus, resolviendo puzles, explorando distintos escenarios y enfrentándose a criaturas sobrenaturales en una experiencia más narrativa y refinada que su predecesor.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": 0,
+    "titulo": "Black Crown",
+    "url": "juegos/black-crown-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía oscura",
+      "Política"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Topo Soft"
+    ],
+    "ean": [],
+    "descripcion": "Black Crown es una aventura gráfica point and click desarrollada por Cryo Interactive y distribuida en España por Topo Soft. Lanzada en 1994, se ambienta en un mundo de fantasía oscura donde el jugador adopta el papel de un misterioso consejero capaz de influir en el destino de un reino mediante decisiones políticas y sociales. A diferencia de las aventuras gráficas tradicionales, el juego pone el énfasis en la manipulación de facciones y personajes clave más que en la resolución clásica de puzles. Destaca por su tono adulto, su enfoque alegórico y su original propuesta jugable. Esta edición requiere disco duro y se presentó en formato Big Box.",
+    "incluye": [],
+    "serie": [
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Edición Española"
+    ]
   }
 ]
