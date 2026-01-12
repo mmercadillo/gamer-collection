@@ -35001,5 +35001,35 @@
       "Bigbox",
       "Edición Española"
     ]
-  }
+  },
+  {
+  "titulo": "Dune 2000",
+  "url": "juegos/dune-2000-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "genero": [
+    "Estrategia en tiempo real",
+    "Ciencia ficción"
+  ],
+  "desarrollador": [
+    "Westwood Studios"
+  ],
+  "distribuidor": [
+    "Electronic Arts"
+  ],
+  "ean": [],
+  "descripcion": "Dune 2000 es un juego de estrategia en tiempo real lanzado en 1998 y desarrollado por Westwood Studios. Se trata de una reinterpretación moderna del clásico Dune II, ambientado en el universo de ciencia ficción creado por Frank Herbert. El jugador controla una de las grandes casas enfrentadas por el control de la especia en el planeta Arrakis, gestionando recursos, construyendo bases y dirigiendo ejércitos en combates tácticos. Esta edición española en formato Big Box fue distribuida por Electronic Arts y cuenta con textos y doblaje completos al castellano.",
+  "incluye": [],
+  "serie": [
+    "Todos",
+    "Bigbox"
+  ],
+  "tags": [
+    "Bigbox",
+    "Edición Española"
+  ]
+}
+
 ]
