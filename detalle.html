@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Detalle del juego</title>
+
+  <!-- SEO -->
+  <meta id="metaDesc" name="description" content="Detalle de un juego de la colección." />
+  <link id="canonical" rel="canonical" href="" />
+
+  <style>
+    :root { --b:#111; --g:#666; --bd:#e6e6e6; --bg:#fafafa; --w:#fff; }
+    *{ box-sizing:border-box; }
+    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; color:var(--b); background:var(--bg); }
+    a{ color:inherit; }
+
+    /* ===== Cabecera común ===== */
+    header{ background:var(--w); border-bottom:1px solid var(--bd); position:sticky; top:0; z-index:20; }
+    .wrap{ max-width:1200px; margin:0 auto; padding:0 16px; }
+    .row{ display:flex; justify-content:space-between; align-items:center; gap:14px; padding:14px 0; }
+    .brand{ display:flex; flex-direction:column; gap:2px; }
+    .brand strong{ font-size:18px; }
+    .brand span{ color:var(--g); font-size:12px; }
+
+    .nav{ display:flex; gap:6px; flex-wrap:wrap; }
+    .nav a{
+      text-decoration:none; color:var(--b); font-weight:800;
+      padding:8px 10px; border-radius:10px; border:1px solid transparent;
+    }
+    .nav a:hover,
+    .nav a.active{
+      background:#f7f7f7;
+      border-color:var(--bd);
+    }
+
+    /* ===== Detalle ===== */
+    main{ padding:18px 0 30px; }
+    .status{ color:var(--g); font-size:13px; }
+
+    .grid{ display:grid; grid-template-columns:380px 1fr; gap:18px; }
+    @media (max-width:900px){ .grid{ grid-template-columns:1fr; } }
+
+    .card{ background:var(--w); border:1px solid var(--bd); border-radius:14px; padding:14px; }
+    h1{ margin:0 0 8px; font-size:24px; }
+    h3{ margin:16px 0 8px; }
+    .muted{ color:var(--g); font-size:13px; }
+
+    .hero{ width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:12px; background:#f2f2f2; border:1px solid var(--bd); }
+
+    .chips{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+    .chip{ font-size:12px; padding:6px 10px; border:1px solid var(--bd); border-radius:999px; }
+
+    .kv{ display:grid; grid-template-columns:140px 1fr; gap:8px 12px; margin-top:12px; font-size:14px; }
+    .k{ color:var(--g); }
+
+    .actions{ display:flex; gap:10px; margin-top:12px; flex-wrap:wrap; }
+    .btn{
+      padding:10px 12px; border:1px solid var(--bd); border-radius:10px;
+      background:#fff; text-decoration:none; font-weight:800;
+    }
+    .btn:hover{ background:#f7f7f7; }
+
+    .gallery{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:12px; }
+    @media (max-width:900px){ .gallery{ grid-template-columns:repeat(3,1fr); } }
+    @media (max-width:600px){ .gallery{ grid-template-columns:repeat(2,1fr); } }
+    .gimg{ width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:12px; border:1px solid var(--bd); cursor:pointer; background:#f2f2f2; }
+
+    dialog{ border:none; padding:0; border-radius:14px; overflow:hidden; }
+    dialog::backdrop{ background:rgba(0,0,0,.6); }
+    .lightbox{ background:black; }
+    .lightbox img{ max-width:92vw; max-height:92vh; display:block; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="row">
+      <div class="brand">
+        <strong>Colección de videojuegos</strong>
+        <span id="crumb">Detalle</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="series.html">Series</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div id="status" class="status">Cargando…</div>
+
+    <div id="content" class="grid" style="display:none;">
+      <!-- Columna izquierda -->
+      <section class="card">
+        <img id="hero" class="hero" alt="Portada" />
+        <div class="chips" id="chips"></div>
+
+        <div class="actions">
+          <a id="backLink" class="btn" href="index.html">← Volver</a>
+          <a id="igBtn" class="btn" href="#" target="_blank" rel="noopener" style="display:none;">Instagram</a>
+        </div>
+      </section>
+
+      <!-- Columna derecha -->
+      <section class="card">
+        <h1 id="title"></h1>
+        <p class="muted" id="subtitle"></p>
+
+        <div class="kv">
+          <div class="k">Código</div><div id="num"></div>
+          <div class="k">Plataforma</div><div id="plataforma"></div>
+          <div class="k">Género</div><div id="genero"></div>
+          <div class="k">Serie</div><div id="serie"></div>
+          <div class="k">Desarrollador</div><div id="desarrollador"></div>
+          <div class="k">Distribuidor</div><div id="distribuidor"></div>
+          <div class="k">EAN</div><div id="ean"></div>
+          <div class="k">Instagram</div><div id="igField">—</div>
+        </div>
+
+        <h3>Descripción</h3>
+        <p id="desc" style="margin:0; line-height:1.5;"></p>
+
+        <h3>Imágenes</h3>
+        <div class="gallery" id="gallery"></div>
+        <p class="muted" id="gstatus"></p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<dialog id="dlg">
+  <div class="lightbox">
+    <img id="lbimg" alt="Imagen ampliada" />
+  </div>
+</dialog>
+
+<script>
+  /* ===== MENÚ ACTIVO ===== */
+  (function markActiveNav(){
+    const current = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+    document.querySelectorAll(".nav a").forEach(a => {
+      const href = (a.getAttribute("href") || "").toLowerCase();
+      if (href === current) a.classList.add("active");
+    });
+  })();
+
+  /* ===== Helpers ===== */
+  function pad3(n){ return String(n).padStart(3, "0"); }
+
+  function slugFromUrl(url){
+    const u = (url || "").replace(/^\/+/, "");
+    const parts = u.split("/").filter(Boolean);
+    return parts.length ? parts[parts.length - 1] : "";
+  }
+
+  function imgBaseFromGameUrl(gameUrl){
+    const base = (gameUrl || "");
+    return base.endsWith("/") ? (base + "img/") : (base + "/img/");
+  }
+
+  function safeJoin(arr){
+    return (Array.isArray(arr) && arr.length) ? arr.join(", ") : "—";
+  }
+
+  async function imageExists(src){
+    return new Promise(resolve => {
+      const img = new Image();
+      img.onload = () => resolve(true);
+      img.onerror = () => resolve(false);
+      img.src = src;
+    });
+  }
+
+  function setText(id, text){
+    document.getElementById(id).textContent = text ?? "";
+  }
+
+  function setHTML(id, html){
+    document.getElementById(id).innerHTML = html;
+  }
+
+  function openLightbox(src){
+    document.getElementById("lbimg").src = src;
+    document.getElementById("dlg").showModal();
+  }
+  document.getElementById("dlg").addEventListener("click", (e) => {
+    if (e.target.id === "dlg") e.currentTarget.close();
+  });
+
+  async function loadGallery(imgBase){
+    const gallery = document.getElementById("gallery");
+    const gstatus = document.getElementById("gstatus");
+    gallery.innerHTML = "";
+    gstatus.textContent = "Buscando imágenes…";
+
+    let found = 0;
+
+    for (let i = 1; i <= 999; i++){
+      const src = `${imgBase}${pad3(i)}.jpg`;
+      const ok = await imageExists(src);
+
+      if (!ok){
+        if (found > 0) break;      // corte normal: tras la primera secuencia
+        if (i >= 5) break;         // si no existe ni 001..005, abortamos
+        continue;
+      }
+
+      found++;
+      const im = document.createElement("img");
+      im.className = "gimg";
+      im.loading = "lazy";
+      im.src = src;
+      im.alt = `Imagen ${pad3(i)}`;
+      im.addEventListener("click", () => openLightbox(src));
+      gallery.appendChild(im);
+    }
+
+    gstatus.textContent = found ? `${found} imagen(es) cargada(s).` : "No se han encontrado imágenes.";
+  }
+
+  /* ===== Main ===== */
+  (async function init(){
+    const statusEl = document.getElementById("status");
+    const contentEl = document.getElementById("content");
+    const heroEl = document.getElementById("hero");
+    const chipsEl = document.getElementById("chips");
+    const igBtnEl = document.getElementById("igBtn");
+    const igFieldEl = document.getElementById("igField");
+    const backLinkEl = document.getElementById("backLink");
+
+    const params = new URL(location.href).searchParams;
+    const slug = params.get("juego");
+    const returnUrl = params.get("returnUrl");
+
+    if (returnUrl) backLinkEl.href = returnUrl;
+
+    if (!slug){
+      statusEl.textContent = "Falta parámetro: detalle.html?juego=<slug>";
+      return;
+    }
+
+    let data;
+    try {
+      const res = await fetch("juegos.json", { cache: "no-store" });
+      data = await res.json();
+    } catch (e){
+      console.error(e);
+      statusEl.textContent = "Error cargando juegos.json (revisa ruta y formato).";
+      return;
+    }
+
+    // Soporta: [ ... ] o { juegos: [ ... ] }
+    const juegos = Array.isArray(data) ? data : (Array.isArray(data?.juegos) ? data.juegos : []);
+
+    if (!juegos.length){
+      statusEl.textContent = "juegos.json no contiene juegos (array vacío o formato inesperado).";
+      return;
+    }
+
+    // Búsqueda fiable por slug exacto
+    const game = juegos.find(j => slugFromUrl(j.url) === slug);
+
+    if (!game){
+      statusEl.textContent = `No se ha encontrado el juego "${slug}".`;
+      return;
+    }
+
+    // Mostrar contenido
+    statusEl.style.display = "none";
+    contentEl.style.display = "";
+
+    // SEO dinámico
+    document.title = game.titulo ? `${game.titulo} — Colección` : "Detalle del juego";
+    document.getElementById("canonical").href = location.href;
+
+    const meta = document.getElementById("metaDesc");
+    if (meta){
+      const desc = (game.descripcion || "").replace(/\s+/g, " ").trim();
+      const short = desc ? (desc.length > 160 ? desc.slice(0, 157) + "…" : desc) : "";
+      meta.setAttribute("content", short || `Ficha de ${game.titulo || "juego"} en la colección.`);
+    }
+
+    setText("crumb", game.titulo ? `Detalle · ${game.titulo}` : "Detalle");
+
+    // Hero
+    const imgBase = imgBaseFromGameUrl(game.url);
+    heroEl.src = imgBase + "001.jpg";
+    heroEl.onerror = () => { heroEl.removeAttribute("src"); };
+
+    // Datos
+    setText("title", game.titulo || "(Sin título)");
+    setText("subtitle", (game.serie || []).filter(s => s !== "Todos").join(" · "));
+    setText("num", Number.isFinite(+game.num) ? `#${game.num}` : (game.num ?? "—"));
+    setText("plataforma", safeJoin(game.plataforma));
+    setText("genero", safeJoin(game.genero));
+    setText("serie", safeJoin((game.serie || []).filter(s => s !== "Todos")));
+    setText("desarrollador", safeJoin(game.desarrollador));
+    setText("distribuidor", safeJoin(game.distribuidor));
+    setText("ean", (Array.isArray(game.ean) && game.ean.length) ? game.ean.join(", ") : "—");
+    setText("desc", game.descripcion || "—");
+
+    // Tags
+    chipsEl.innerHTML = "";
+    for (const t of (game.tags || [])){
+      const s = document.createElement("span");
+      s.className = "chip";
+      s.textContent = t;
+      chipsEl.appendChild(s);
+    }
+
+    // Instagram (campo + botón)
+    const ig = (game.ig || "").trim();
+    if (ig){
+      igFieldEl.innerHTML = `<a href="${ig}" target="_blank" rel="noopener">${ig}</a>`;
+      igBtnEl.href = ig;
+      igBtnEl.style.display = "inline-block";
+    } else {
+      igFieldEl.textContent = "—";
+      igBtnEl.style.display = "none";
+    }
+
+    // Galería
+    await loadGallery(imgBase);
+  })();
+</script>
+
+</body>
+</html>

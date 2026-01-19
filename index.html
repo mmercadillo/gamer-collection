@@ -2,371 +2,640 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
-  <title>Catálogo de Videojuegos</title>
-  <meta name="description" content="Catálogo personal de videojuegos de PC (Big Box, FX, BestSeller, etc.)." />
-
-  <!-- 🔽 Open Graph básico (se actualiza dinámicamente en JS en la vista de juego) -->
-  <meta property="og:title" content="Catálogo de Videojuegos" />
-  <meta property="og:description" content="Colección personal de videojuegos de PC en formato físico." />
-  <meta property="og:image" content="https://mmercadillo.github.io/gamer-collection/imagen-portada.jpg" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://mmercadillo.github.io/gamer-collection/" />
-
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Colección de videojuegos</title>
+  <meta name="description" content="Colección de videojuegos. Buscador por título, plataforma, género y serie." />
   <style>
-    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    :root { --b:#111; --g:#666; --bd:#e6e6e6; --bg:#fafafa; --w:#fff; }
+    *{ box-sizing:border-box; }
+    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; color:var(--b); background:var(--bg); }
+    a{ color:inherit; }
+
+    /* ===== Cabecera común ===== */
+    header{ background:var(--w); border-bottom:1px solid var(--bd); position:sticky; top:0; z-index:20; }
+    .wrap{ max-width:1200px; margin:0 auto; padding:0 16px; }
+    .row{ display:flex; justify-content:space-between; align-items:center; gap:14px; padding:14px 0; }
+    .brand{ display:flex; flex-direction:column; gap:2px; }
+    .brand strong{ font-size:18px; letter-spacing:.2px; }
+    .brand span{ color:var(--g); font-size:12px; }
+    .nav{ display:flex; gap:6px; flex-wrap:wrap; justify-content:flex-end; }
+    .nav a{
+      text-decoration:none; color:var(--b); font-weight:800;
+      padding:8px 10px; border-radius:10px; border:1px solid transparent;
+    }
+    .nav a:hover{ background:#f7f7f7; border-color:var(--bd); }
+    .nav a.active{ background:#f7f7f7; border-color:var(--bd); }
+
+    /* ===== Buscador ===== */
+    .searchbar{
+      padding:14px 0 16px; border-top:1px solid var(--bd);
+      display:flex; gap:10px; align-items:stretch; flex-wrap:wrap;
+    }
+    .field{ display:flex; flex-direction:column; gap:6px; min-width:180px; flex:1; }
+    .field.wide{ flex:2; min-width:260px; }
+    label{ font-size:12px; color:var(--g); }
+    input, select, button{
+      width:100%; padding:10px 12px; border:1px solid var(--bd); border-radius:10px; background:var(--w);
+      font-size:14px; appearance:none;
+    }
+    .select-wrap{ position:relative; }
+    .select-wrap:after{
+      content:"▾"; position:absolute; right:12px; top:50%; transform:translateY(-50%);
+      pointer-events:none; color:var(--g); font-size:12px;
+    }
+    select{ padding-right:34px; }
+    .actions{ display:flex; gap:10px; align-items:end; min-width:220px; }
+    button{ cursor:pointer; font-weight:800; }
+    button.secondary{ background:#fff; }
+
+    /* ===== Contenido ===== */
+    main{ padding:18px 0 30px; }
+    .meta{ display:flex; gap:10px; align-items:center; justify-content:space-between; margin:8px 0 12px; }
+    .count{ color:var(--g); font-size:13px; }
+    .status{ color:var(--g); font-size:13px; padding:6px 0 0; }
+
+    .chips{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 14px; }
+    .chip{
+      font-size:12px; padding:6px 10px; border:1px solid var(--bd); border-radius:999px; background:white; color:#333;
+      display:inline-flex; gap:8px; align-items:center;
+    }
+    .chip button{
+      width:auto; padding:0; border:none; background:transparent; font-weight:900; cursor:pointer; color:var(--g);
+    }
+
+    /* ===== Paginación ===== */
+    .pager{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      flex-wrap:wrap;
+      padding:12px;
+      border:1px solid var(--bd);
+      border-radius:14px;
+      background:#fff;
+      margin:10px 0 14px;
+    }
+    .pager-left, .pager-right{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    /* Overrides: en el pager NO queremos width:100% */
+    .pager button{ width:auto; padding:10px 12px; }
+    .pager select{ width:auto; min-width:110px; padding:10px 12px; }
+
+    .btn{
+      border:1px solid var(--bd);
+      border-radius:10px;
+      background:#fff;
+      font-weight:800;
+      cursor:pointer;
+    }
+    .btn:hover{ background:#f7f7f7; }
+    .btn[disabled]{ opacity:.45; cursor:not-allowed; }
+
+    .grid{ display:grid; grid-template-columns: repeat(6, 1fr); gap:12px; }
+    @media (max-width: 1100px){ .grid{ grid-template-columns: repeat(4, 1fr);} }
+    @media (max-width: 700px){
+      .grid{ grid-template-columns: repeat(2, 1fr);}
+      .actions{ min-width:100%; }
+    }
+
+    .card{
+      border:1px solid var(--bd); background:white; border-radius:14px; overflow:hidden;
+      display:flex; flex-direction:column; min-height: 230px;
+    }
+    .thumb{ width:100%; aspect-ratio:4/3; object-fit:cover; background:#f2f2f2; display:block; }
+    .cbody{ padding:10px 10px 12px; display:flex; flex-direction:column; gap:6px; }
+    .title{ font-weight:900; font-size:14px; line-height:1.2; margin:0; }
+    .small{ color:var(--g); font-size:12px; }
+    .tagrow{ display:flex; flex-wrap:wrap; gap:6px; }
+    .tag{ font-size:11px; padding:4px 8px; border:1px solid var(--bd); border-radius:999px; color:#333; }
+
+    a.cardlink{ color:inherit; text-decoration:none; }
+    a.cardlink:hover .title{ text-decoration:underline; }
+
+    footer{ padding:18px 0 26px; border-top:1px solid var(--bd); background:#fff; }
+    .footrow{ display:flex; flex-wrap:wrap; gap:10px; justify-content:space-between; align-items:center; }
+    .to-top{ text-decoration:none; font-weight:800; padding:8px 10px; border-radius:10px; border:1px solid var(--bd); }
+    .to-top:hover{ background:#f7f7f7; }
   </style>
 </head>
-<body class="bg-zinc-50 text-zinc-900">
-  <header class="sticky top-0 z-10 backdrop-blur bg-white/80 border-b border-zinc-200">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-      <a href="./" class="text-2xl font-bold tracking-tight">🎮 Catálogo de Videojuegos</a>
-      <nav class="text-sm text-zinc-600 flex gap-4">
-        <a class="hover:underline" href="#/list">Listado</a>
-        <a class="hover:underline" href="#/series">Series</a>
-        <a class="hover:underline" href="#/about">Contacto</a>
+<body>
+
+<header id="top">
+  <div class="wrap">
+    <div class="row">
+      <div class="brand" role="banner">
+        <strong>Colección de videojuegos</strong>
+        <span>Listado y buscador</span>
+      </div>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="series.html">Series</a>
+        <a href="contacto.html">Contacto</a>
       </nav>
     </div>
-  </header>
 
-  <main id="app" class="max-w-6xl mx-auto px-4 py-6"></main>
+    <div class="searchbar" role="search" aria-label="Buscador">
+      <div class="field wide">
+        <label for="q">Título</label>
+        <input id="q" type="search" placeholder="Buscar… (p. ej. Dune, Commandos, Doom)" autocomplete="off" />
+      </div>
 
-  <footer class="max-w-6xl mx-auto px-4 py-10 text-center text-sm text-zinc-500">
-    Hecho con ❤️ para organizar mi colección. Repo: <span class="font-mono">GitHub Pages</span>.
-  </footer>
+      <div class="field">
+        <label for="plataforma">Plataforma</label>
+        <div class="select-wrap"><select id="plataforma"></select></div>
+      </div>
 
-  <script>
-  // Utilidades básicas
-  const by = (sel, ctx=document) => ctx.querySelector(sel);
-  const all = (sel, ctx=document) => Array.from(ctx.querySelectorAll(sel));
-  const slugify = s => (s||'').toString().toLowerCase()
-    .normalize('NFD').replace(/[̀-ͯ]/g,'')
-    .replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
-  const debounce = (fn, wait = 3000) => { let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), wait); }; };
+      <div class="field">
+        <label for="genero">Género</label>
+        <div class="select-wrap"><select id="genero"></select></div>
+      </div>
 
-  const DATA_URL = 'juegos.json';
-  const state = { juegos: [], cargado: false };
+      <div class="field">
+        <label for="serie">Serie</label>
+        <div class="select-wrap"><select id="serie"></select></div>
+      </div>
 
-  async function loadData() {
-    if (state.cargado) return state.juegos;
-    try {
-      const res = await fetch(DATA_URL, {cache: 'no-store'});
-      if (!res.ok) throw new Error('No se pudo cargar ' + DATA_URL);
-      const data = await res.json();
-      state.juegos = Array.isArray(data) ? data : (data.juegos || []);
-      state.cargado = true;
-      return state.juegos;
-    } catch (e) {
-      console.error(e);
-      state.juegos = [];
-      state.cargado = true;
-      return [];
+      <div class="actions">
+        <button id="btnBuscar" type="button">Buscar</button>
+        <button id="btnLimpiar" class="secondary" type="button">Limpiar</button>
+      </div>
+    </div>
+    <div class="status wrap" style="padding:0 0 10px;">
+      <span class="count">Tip: puedes compartir un listado filtrado: la URL se actualiza con filtros y paginación.</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="meta">
+      <div class="count" id="count">Cargando…</div>
+      <div class="count" id="pageInfo">—</div>
+    </div>
+
+    <div class="chips" id="activeFilters" style="display:none;"></div>
+
+    <!-- Paginación (arriba) -->
+    <div class="pager" id="pagerTop" style="display:none;">
+      <div class="pager-left">
+        <button class="btn" id="prevBtnTop" type="button">← Anterior</button>
+
+        <span class="count">Página</span>
+        <select id="pageSelectTop" aria-label="Seleccionar página"></select>
+        <span class="count" id="totalPagesTop">de —</span>
+
+        <button class="btn" id="nextBtnTop" type="button">Siguiente →</button>
+      </div>
+
+      <div class="pager-right">
+        <label for="pageSizeTop" class="count">Por página</label>
+        <select id="pageSizeTop">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="grid" id="grid" aria-live="polite"></div>
+
+    <!-- Paginación (abajo) -->
+    <div class="pager" id="pagerBottom" style="display:none;">
+      <div class="pager-left">
+        <button class="btn" id="prevBtnBottom" type="button">← Anterior</button>
+
+        <span class="count">Página</span>
+        <select id="pageSelectBottom" aria-label="Seleccionar página"></select>
+        <span class="count" id="totalPagesBottom">de —</span>
+
+        <button class="btn" id="nextBtnBottom" type="button">Siguiente →</button>
+      </div>
+
+      <div class="pager-right">
+        <label for="pageSizeBottom" class="count">Por página</label>
+        <select id="pageSizeBottom">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footrow">
+      <p class="count" style="margin:0;">Colección de videojuegos · Sitio estático.</p>
+      <a class="to-top" href="#top">Subir</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  /* ===== MENÚ ACTIVO ===== */
+  (function markActiveNav(){
+    const current = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+    document.querySelectorAll(".nav a").forEach(a => {
+      const href = (a.getAttribute("href") || "").toLowerCase();
+      if (href === current) a.classList.add("active");
+    });
+  })();
+
+  const state = {
+    juegos: [],
+    q: "",
+    plataforma: "",
+    genero: "",
+    serie: "",
+    page: 1,
+    pageSize: 25
+  };
+
+  const elQ = document.getElementById("q");
+  const elPlat = document.getElementById("plataforma");
+  const elGen = document.getElementById("genero");
+  const elSerie = document.getElementById("serie");
+  const elGrid = document.getElementById("grid");
+  const elCount = document.getElementById("count");
+  const elPageInfo = document.getElementById("pageInfo");
+  const elActive = document.getElementById("activeFilters");
+  const btnBuscar = document.getElementById("btnBuscar");
+  const btnLimpiar = document.getElementById("btnLimpiar");
+
+  const pagerTop = document.getElementById("pagerTop");
+  const pagerBottom = document.getElementById("pagerBottom");
+
+  const prevBtnTop = document.getElementById("prevBtnTop");
+  const nextBtnTop = document.getElementById("nextBtnTop");
+  const pageSelectTop = document.getElementById("pageSelectTop");
+  const totalPagesTopEl = document.getElementById("totalPagesTop");
+  const pageSizeTop = document.getElementById("pageSizeTop");
+
+  const prevBtnBottom = document.getElementById("prevBtnBottom");
+  const nextBtnBottom = document.getElementById("nextBtnBottom");
+  const pageSelectBottom = document.getElementById("pageSelectBottom");
+  const totalPagesBottomEl = document.getElementById("totalPagesBottom");
+  const pageSizeBottom = document.getElementById("pageSizeBottom");
+
+  function norm(s){ return (s ?? "").toString().trim().toLowerCase(); }
+  function uniqSorted(arr){
+    return Array.from(new Set(arr.filter(Boolean))).sort((a,b)=>a.localeCompare(b, "es"));
+  }
+  function slugFromUrl(url){
+    const u = (url || "").replace(/^\/+/, "");
+    const parts = u.split("/").filter(Boolean);
+    return parts.length ? parts[parts.length - 1] : "";
+  }
+  function thumbUrl(game){
+    const base = game.url || "";
+    return base.endsWith("/") ? (base + "img/001.jpg") : (base + "/img/001.jpg");
+  }
+  function setSelectOptions(selectEl, values, placeholder){
+    selectEl.innerHTML = "";
+    const opt0 = document.createElement("option");
+    opt0.value = "";
+    opt0.textContent = placeholder;
+    selectEl.appendChild(opt0);
+
+    for (const v of values){
+      const opt = document.createElement("option");
+      opt.value = v;
+      opt.textContent = v;
+      selectEl.appendChild(opt);
     }
   }
 
-  // ===== VISTAS =====
-  function renderAbout(){
-    document.title = "Contacto - Catálogo de Videojuegos";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', "Formulario de contacto para sugerencias o intercambios relacionados con videojuegos.");
-    return `<section class="prose max-w-none">
-              <h1 class="text-3xl font-semibold mb-4">Contacto</h1>
-              <p>Si quieres contactar, para vender tus videojuegos o para hacer una sugerencia: <code>pcgamingcollector@gmail.com</code>.</p>
-            </section>`;
+  function readQuery(){
+    const u = new URL(location.href);
+    const get = (k) => u.searchParams.get(k) || "";
+
+    const page = parseInt(get("page") || "1", 10);
+    const pageSize = parseInt(get("pageSize") || "25", 10);
+    const allowed = [10,25,50,100];
+
+    return {
+      q: get("q"),
+      plataforma: get("plataforma"),
+      genero: get("genero"),
+      serie: get("serie"),
+      page: (Number.isFinite(page) && page > 0) ? page : 1,
+      pageSize: allowed.includes(pageSize) ? pageSize : 25
+    };
   }
 
-  function renderSeries(juegos){
-    document.title = "Series de Videojuegos - Catálogo";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', "Listado de series de videojuegos en mi colección.");
+  function writeQuery(){
+    const u = new URL(location.href);
+    const sp = u.searchParams;
 
-    const seriesMap = new Map();
-    juegos.forEach(j => (j.serie||[]).forEach(s => {
-      const k = (s||'').trim(); if(!k) return;
-      if(!seriesMap.has(k)) seriesMap.set(k, []);
-      seriesMap.get(k).push(j);
-    }));
-    if (!seriesMap.size) return `<p class="text-zinc-600">No hay series registradas todavía.</p>`;
-    return `
-      <h1 class="text-3xl font-semibold mb-6">Series</h1>
-      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        ${[...seriesMap.entries()].map(([serie, arr])=>`
-          <a href="#/list?serie=${encodeURIComponent(serie)}" class="block p-5 rounded-2xl border bg-white hover:shadow-sm">
-            <div class="text-lg font-semibold">${serie}</div>
-            <div class="text-sm text-zinc-500">${arr.length} juego(s)</div>
-          </a>`).join('')}
-      </div>`;
+    function setOrDelete(key, val){
+      if (val !== null && val !== undefined && String(val).length) sp.set(key, String(val));
+      else sp.delete(key);
+    }
+
+    setOrDelete("q", elQ.value.trim());
+    setOrDelete("plataforma", elPlat.value);
+    setOrDelete("genero", elGen.value);
+    setOrDelete("serie", elSerie.value);
+
+    sp.set("page", String(state.page));
+    sp.set("pageSize", String(state.pageSize));
+
+    history.replaceState({}, "", u.toString());
   }
 
-  function renderList(juegos, params){
-    document.title = "Listado de Videojuegos - Catálogo";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', "Explora el catálogo completo de videojuegos de mi colección personal.");
+  function syncUIFromQuery(query){
+    elQ.value = query.q || "";
+    elPlat.value = query.plataforma || "";
+    elGen.value = query.genero || "";
+    elSerie.value = query.serie || "";
+    state.page = query.page || 1;
+    state.pageSize = query.pageSize || 25;
 
-    const tTitulo = (params.get('titulo')||'').trim().toLowerCase();
-    const fPlat = (params.get('plataforma')||'').toLowerCase();
-    const fSerie = (params.get('serie')||'').toLowerCase();
-    const fTag = (params.get('tag')||'').toLowerCase();
-    const fGenero = (params.get('genero')||'').toLowerCase();
+    pageSizeTop.value = String(state.pageSize);
+    pageSizeBottom.value = String(state.pageSize);
+  }
 
-    let res = juegos.filter(j => {
-      const hayTitulo = !tTitulo || (j.titulo||'').toLowerCase().includes(tTitulo);
-      const hayPlat = !fPlat || (j.plataforma||[]).some(p => (p||'').toLowerCase().includes(fPlat));
-      const haySerie = !fSerie || (j.serie||[]).some(s => (s||'').toLowerCase().includes(fSerie));
-      const hayTag = !fTag || (j.tags||[]).some(tag => (tag||'').toLowerCase().includes(fTag));
-      const hayGenero = !fGenero || (j.genero||[]).some(g => (g||'').toLowerCase().includes(fGenero));
-      return hayTitulo && hayPlat && haySerie && hayTag && hayGenero;
+  function applyFromUI(){
+    state.q = norm(elQ.value);
+    state.plataforma = norm(elPlat.value);
+    state.genero = norm(elGen.value);
+    state.serie = norm(elSerie.value);
+  }
+
+  function matches(game){
+    if (state.q && !norm(game.titulo).includes(state.q)) return false;
+
+    if (state.plataforma){
+      const vals = (game.plataforma || []).map(norm);
+      if (!vals.includes(state.plataforma)) return false;
+    }
+    if (state.genero){
+      const vals = (game.genero || []).map(norm);
+      if (!vals.includes(state.genero)) return false;
+    }
+    if (state.serie){
+      const vals = (game.serie || []).map(norm);
+      if (!vals.includes(state.serie)) return false;
+    }
+    return true;
+  }
+
+  function renderActiveFilters(){
+    const items = [];
+    if (state.q) items.push({ k:"Título", v: elQ.value.trim(), clear: () => { elQ.value=""; }});
+    if (state.plataforma) items.push({ k:"Plataforma", v: elPlat.value, clear: () => { elPlat.value=""; }});
+    if (state.genero) items.push({ k:"Género", v: elGen.value, clear: () => { elGen.value=""; }});
+    if (state.serie) items.push({ k:"Serie", v: elSerie.value, clear: () => { elSerie.value=""; }});
+
+    elActive.innerHTML = "";
+    if (!items.length){
+      elActive.style.display = "none";
+      return;
+    }
+    elActive.style.display = "flex";
+
+    for (const it of items){
+      const chip = document.createElement("div");
+      chip.className = "chip";
+      chip.innerHTML = `<strong>${it.k}:</strong> <span>${it.v}</span>`;
+      const x = document.createElement("button");
+      x.type = "button";
+      x.title = "Quitar filtro";
+      x.textContent = "×";
+      x.addEventListener("click", () => {
+        it.clear();
+        doSearch(true);
+      });
+      chip.appendChild(x);
+      elActive.appendChild(chip);
+    }
+  }
+
+  function renderPager(totalItems){
+    const totalPages = Math.max(1, Math.ceil(totalItems / state.pageSize));
+    if (state.page > totalPages) state.page = totalPages;
+
+    const show = totalPages > 1;
+    pagerTop.style.display = show ? "" : "none";
+    pagerBottom.style.display = show ? "" : "none";
+
+    const canPrev = state.page > 1;
+    const canNext = state.page < totalPages;
+
+    prevBtnTop.disabled = !canPrev;
+    prevBtnBottom.disabled = !canPrev;
+    nextBtnTop.disabled = !canNext;
+    nextBtnBottom.disabled = !canNext;
+
+    totalPagesTopEl.textContent = `de ${totalPages}`;
+    totalPagesBottomEl.textContent = `de ${totalPages}`;
+
+    function fillPageSelect(sel){
+      const currentVal = String(state.page);
+      sel.innerHTML = "";
+      for (let p = 1; p <= totalPages; p++){
+        const opt = document.createElement("option");
+        opt.value = String(p);
+        opt.textContent = String(p);
+        sel.appendChild(opt);
+      }
+      sel.value = currentVal;
+    }
+
+    fillPageSelect(pageSelectTop);
+    fillPageSelect(pageSelectBottom);
+
+    pageSizeTop.value = String(state.pageSize);
+    pageSizeBottom.value = String(state.pageSize);
+
+    prevBtnTop.onclick = prevBtnBottom.onclick = () => {
+      if (state.page > 1){
+        state.page -= 1;
+        writeQuery();
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    };
+
+    nextBtnTop.onclick = nextBtnBottom.onclick = () => {
+      if (state.page < totalPages){
+        state.page += 1;
+        writeQuery();
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    };
+
+    function onPageSelectChange(val){
+      const p = parseInt(val, 10);
+      if (!Number.isFinite(p) || p < 1 || p > totalPages) return;
+      state.page = p;
+      writeQuery();
+      render();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    pageSelectTop.onchange = () => onPageSelectChange(pageSelectTop.value);
+    pageSelectBottom.onchange = () => onPageSelectChange(pageSelectBottom.value);
+
+    function onPageSizeChange(val){
+      const n = parseInt(val, 10);
+      const allowed = [10,25,50,100];
+      state.pageSize = allowed.includes(n) ? n : 25;
+      state.page = 1;
+      writeQuery();
+      render();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    pageSizeTop.onchange = () => onPageSizeChange(pageSizeTop.value);
+    pageSizeBottom.onchange = () => onPageSizeChange(pageSizeBottom.value);
+
+    elPageInfo.textContent = `Página ${state.page} / ${totalPages} · ${state.pageSize}/pág`;
+  }
+
+  function render(){
+    renderActiveFilters();
+
+    const filtered = state.juegos.filter(matches);
+    const total = filtered.length;
+
+    const totalPages = Math.max(1, Math.ceil(total / state.pageSize));
+    if (state.page > totalPages) state.page = totalPages;
+
+    const start = (state.page - 1) * state.pageSize;
+    const pageItems = filtered.slice(start, start + state.pageSize);
+
+    elCount.textContent = `${total} / ${state.juegos.length} juegos`;
+
+    renderPager(total);
+
+    elGrid.innerHTML = "";
+    for (const g of pageItems){
+      const slug = slugFromUrl(g.url);
+
+      const a = document.createElement("a");
+      a.className = "cardlink";
+      a.href = `detalle.html?juego=${encodeURIComponent(slug)}&returnUrl=${encodeURIComponent(location.pathname + location.search)}`;
+
+      const card = document.createElement("article");
+      card.className = "card";
+
+      const img = document.createElement("img");
+      img.className = "thumb";
+      img.loading = "lazy";
+      img.alt = g.titulo || "Juego";
+      img.src = thumbUrl(g);
+      img.onerror = () => { img.removeAttribute("src"); img.style.background = "#f2f2f2"; };
+
+      const body = document.createElement("div");
+      body.className = "cbody";
+
+      const title = document.createElement("h3");
+      title.className = "title";
+      title.textContent = g.titulo || "(Sin título)";
+
+      const small = document.createElement("div");
+      small.className = "small";
+      small.textContent = [
+        (g.plataforma || []).join(", "),
+        (g.serie || []).filter(s=>s!=="Todos").join(" · ")
+      ].filter(Boolean).join(" — ");
+
+      const tagrow = document.createElement("div");
+      tagrow.className = "tagrow";
+      for (const t of (g.tags || []).slice(0,3)){
+        const span = document.createElement("span");
+        span.className = "tag";
+        span.textContent = t;
+        tagrow.appendChild(span);
+      }
+
+      body.appendChild(title);
+      if (small.textContent) body.appendChild(small);
+      if (tagrow.childNodes.length) body.appendChild(tagrow);
+
+      card.appendChild(img);
+      card.appendChild(body);
+      a.appendChild(card);
+      elGrid.appendChild(a);
+    }
+  }
+
+  function doSearch(resetPage){
+    applyFromUI();
+    if (resetPage) state.page = 1;
+    writeQuery();
+    render();
+  }
+
+  function bind(){
+    btnBuscar.addEventListener("click", () => doSearch(true));
+    elQ.addEventListener("keydown", (e) => { if (e.key === "Enter") doSearch(true); });
+
+    for (const s of [elPlat, elGen, elSerie]){
+      s.addEventListener("change", () => doSearch(true));
+    }
+
+    btnLimpiar.addEventListener("click", () => {
+      elQ.value = "";
+      elPlat.value = "";
+      elGen.value = "";
+      elSerie.value = "";
+      doSearch(true);
     });
 
-    res.sort((a,b) => a.titulo.localeCompare(b.titulo, 'es'));
-
-    const plataformas = [...new Set(juegos.flatMap(j => j.plataforma||[]))].sort((a,b)=>a.localeCompare(b,'es'));
-    const series = [...new Set(juegos.flatMap(j => j.serie||[]))].filter(Boolean).sort((a,b)=>a.localeCompare(b,'es'));
-    const tags = [...new Set(juegos.flatMap(j => j.tags||[]))].filter(Boolean).sort((a,b)=>a.localeCompare(b,'es'));
-    const generos = [...new Set(juegos.flatMap(j => j.genero||[]))].filter(Boolean).sort((a,b)=>a.localeCompare(b,'es'));
-
-    const hayFiltros = tTitulo || fPlat || fSerie || fTag || fGenero;
-
-    return `
-      <section class="mb-6">
-        <div class="flex items-end justify-between gap-3 mb-2">
-          <h1 class="text-3xl font-semibold">Listado</h1>
-          <div class="text-sm text-zinc-600">${res.length} resultado(s)</div>
-        </div>
-        <form id="filters" class="grid gap-3 p-4 rounded-2xl border bg-white shadow-sm">
-          <input name="titulo" value="${tTitulo}" placeholder="Buscar por título" class="w-full p-4 text-lg rounded-2xl border" />
-          <div class="grid gap-3 md:grid-cols-4">
-            <select name="genero" class="w-full p-3 rounded-2xl border">
-              <option value="">Todos los géneros</option>
-              ${generos.map(g=>`<option ${fGenero===g.toLowerCase()? 'selected':''}>${g}</option>`).join('')}
-            </select>
-            <select name="plataforma" class="w-full p-3 rounded-2xl border">
-              <option value="">Todas las plataformas</option>
-              ${plataformas.map(p=>`<option ${fPlat===p.toLowerCase()? 'selected':''}>${p}</option>`).join('')}
-            </select>
-            <select name="serie" class="w-full p-3 rounded-2xl border">
-              <option value="">Todas las series</option>
-              ${series.map(s=>`<option ${fSerie===s.toLowerCase()? 'selected':''}>${s}</option>`).join('')}
-            </select>
-            <select name="tag" class="w-full p-3 rounded-2xl border">
-              <option value="">Todos los tags</option>
-              ${tags.map(t=>`<option ${fTag===t.toLowerCase()? 'selected':''}>${t}</option>`).join('')}
-            </select>
-          </div>
-        </form>
-        ${hayFiltros ? `<div class="mt-2"><button id="clearFilters" class="text-xs px-3 py-1 rounded-full bg-zinc-100 border">Limpiar filtros</button></div>` : ''}
-      </section>
-
-      <section class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        ${res.map(j => card(j)).join('') || `<p class="text-zinc-600">No hay resultados.</p>`}
-      </section>
-    `;
+    window.addEventListener("popstate", () => {
+      const q = readQuery();
+      syncUIFromQuery(q);
+      applyFromUI();
+      render();
+    });
   }
 
-  function card(j) {
-    const slug = encodeURIComponent(j.url);
-    const plataformas = (j.plataforma||[]).join(' · ');
-    const genero = (j.genero||[]).join(' · ');
-    const serie = (j.serie||[]).join(' · ');
+  async function init(){
+    bind();
 
-    const rutaBase = (j.url || '').replace(/\/+$/, '');
-    const rutaImgs = rutaBase + '/img/';
-    const extensiones = ['.jpg', '.jpeg', '.png'];
-    let miniaturaHTML = '';
+    const res = await fetch("juegos.json", { cache: "no-store" });
+    const data = await res.json();
+    state.juegos = Array.isArray(data) ? data : (data.juegos || []);
 
-    for (let ext of extensiones) {
-      const testSrc = rutaImgs + '001' + ext;
-      miniaturaHTML += `
-        <img src="${testSrc}" alt="Portada de ${j.titulo} (${plataformas || 'PC'})" class="mt-3 aspect-video object-cover w-full rounded-xl border" loading="lazy" onerror="this.style.display='none';">
-      `;
-      if(miniaturaHTML != '') break;
-    }
+    state.juegos.sort((a,b) => {
+      const na = Number.isFinite(+a.num) ? +a.num : Infinity;
+      const nb = Number.isFinite(+b.num) ? +b.num : Infinity;
+      if (na !== nb) return na - nb;
+      return (a.titulo||"").localeCompare((b.titulo||""), "es");
+    });
 
-    return `
-        <a class="group block p-5 rounded-2xl border bg-white hover:shadow-sm transition" href="#/game/${slug}">
-          <div class="flex items-start justify-between gap-3">
-            <h3 class="text-lg font-semibold leading-tight">${j.titulo}</h3>
-            ${serie ? `<span class="text-[10px] px-2 py-1 rounded-full bg-zinc-100 text-zinc-700">${serie}</span>` : ''}
-          </div>
-          ${miniaturaHTML}<p class="mt-2 text-sm text-zinc-600 line-clamp-2">${j.descripcion||''}</p>
-          <div class="mt-3 text-xs text-zinc-500">${genero || '&nbsp;'}</div>
-          <div class="mt-1 text-xs text-zinc-500">${plataformas || '&nbsp;'}</div>
-        </a>
-      `;
+    const plataformas = uniqSorted(state.juegos.flatMap(j => j.plataforma || []));
+    const generos = uniqSorted(state.juegos.flatMap(j => j.genero || []));
+    const series = uniqSorted(state.juegos.flatMap(j => (j.serie || []).filter(s => s !== "Todos")));
+
+    setSelectOptions(elPlat, plataformas, "Todas");
+    setSelectOptions(elGen, generos, "Todos");
+    setSelectOptions(elSerie, series, "Todas");
+
+    const q = readQuery();
+    syncUIFromQuery(q);
+
+    applyFromUI();
+    writeQuery();
+    render();
   }
 
-  function renderGame(j) {
-    // 🔽 Actualización SEO
-    document.title = `${j.titulo} - Catálogo de Videojuegos`;
+  init().catch(err => {
+    console.error(err);
+    elCount.textContent = "Error cargando juegos.json (revisa ruta y formato).";
+  });
+</script>
 
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', j.descripcion || `Ficha del videojuego ${j.titulo} en mi colección.`);
-
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', j.titulo);
-
-    const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', j.descripcion || j.titulo);
-
-    const ogImg = document.querySelector('meta[property="og:image"]');
-    if (ogImg) {
-      const rutaImgs = (j.url || '').replace(/\/+$/, '') + '/img/001.jpg';
-      ogImg.setAttribute('content', location.origin + '/' + rutaImgs);
-    }
-
-    const plataformas = (j.plataforma||[]).join(' · ');
-    const genero = (j.genero||[]).join(' · ');
-    const dev = (j.desarrollador||[]).join(', ');
-    const dist = (j.distribuidor||[]).join(', ');
-    const serie = (j.serie||[]).join(' · ');
-    const ean = (j.ean||[]).join(', ');
-    const incluye = (j.incluye||[]);
-    const baseUrl = (j.url || '').replace(/\/+$/, '');
-    const rutaImgs = (baseUrl ? baseUrl + '/' : '') + 'img/';
-    
-    return `
-      <article class="grid gap-6 md:grid-cols-2">
-        <section>
-          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3" data-gallery-ruta="${rutaImgs}"></div>
-        </section>
-        <section>
-          <h1 class="text-3xl font-semibold">${j.titulo}</h1>
-          ${serie? `<div class="mt-1 text-xs px-2 py-1 rounded-full bg-zinc-100 inline-block">${serie}</div>`:''}
-          <p class="mt-4 text-zinc-700">${j.descripcion||''}</p>
-          <dl class="mt-6 grid gap-2 text-sm">
-            ${genero? `<div class="grid grid-cols-3"><dt class="text-zinc-500">Género</dt><dd class="col-span-2">${genero}</dd></div>`:''}
-            ${plataformas? `<div class="grid grid-cols-3"><dt class="text-zinc-500">Plataforma</dt><dd class="col-span-2">${plataformas}</dd></div>`:''}
-            ${dev? `<div class="grid grid-cols-3"><dt class="text-zinc-500">Desarrollador</dt><dd class="col-span-2">${dev}</dd></div>`:''}
-            ${dist? `<div class="grid grid-cols-3"><dt class="text-zinc-500">Distribuidor</dt><dd class="col-span-2">${dist}</dd></div>`:''}
-            ${ean? `<div class="grid grid-cols-3"><dt class="text-zinc-500">EAN</dt><dd class="col-span-2">${ean}</dd></div>`:''}
-          </dl>
-          ${incluye.length? `
-            <div class="mt-4">
-              <div class="text-sm text-zinc-500">Incluye</div>
-              <ul class="list-disc pl-5 text-sm">${incluye.map(i=>`<li>${i}</li>`).join('')}</ul>
-            </div>`:''}
-
-          <div class="mt-6 flex gap-2">
-            <a href="#/list" class="px-4 py-2 rounded-xl border">← Volver al listado</a>
-            
-          </div>
-        </section>
-      </article>
-    `;
-  }
-
-  function initGallery() {
-    const cont = document.querySelector('[data-gallery-ruta]');
-    if (!cont) return;
-    const ruta = cont.getAttribute('data-gallery-ruta');
-    const exts = ['.jpg', '.jpeg', '.png', '.webp'];
-    let loaded = 0;
-
-    function addThumb(srcAbs, alt) {
-      const img = new Image();
-      img.loading = 'lazy';
-      img.alt = alt;
-      img.className = 'w-full object-cover rounded-xl';
-
-      const a = document.createElement('a');
-      a.href = srcAbs;
-      a.target = '_blank';
-      a.rel = 'noopener';
-      a.className = 'block overflow-hidden rounded-xl border bg-white';
-      a.appendChild(img);
-
-      img.src = srcAbs;
-      cont.appendChild(a);
-      loaded++;
-    }
-
-    for (let i = 1; i <= 15; i++) {
-      const num = String(i).padStart(3, '0');
-      let idx = 0;
-
-      const tryNext = () => {
-        if (idx >= exts.length) return;
-        const candidate = ruta + num + exts[idx++];
-        const probe = new Image();
-        probe.onload = () => {
-          console.log("[ok]", candidate);
-          addThumb(candidate, num);
-        };
-        probe.onerror = () => {
-          console.warn("[fail]", candidate);
-          tryNext();
-        };
-        console.log("[test]", candidate);
-        probe.src = candidate;
-      };
-
-      tryNext();
-    }
-
-    setTimeout(() => {
-      if (loaded === 0) {
-        cont.innerHTML = `<div class="text-sm text-zinc-500">No se encontraron imágenes</div>`;
-      }
-    }, 1000);
-  }
-
-  // ===== ROUTER =====
-  function parseParams(str) {
-    const u = new URL('https://x/?'+(str||''));
-    return u.searchParams;
-  }
-  function currentRoute() {
-    const hash = location.hash || '#/list';
-    const [path, qs] = hash.split('?');
-    return { path, params: parseParams(qs) };
-  }
-
-  async function render() {
-    const root = by('#app');
-    const { path, params } = currentRoute();
-    const juegos = await loadData();
-
-    if (path.startsWith('#/about')) { root.innerHTML = renderAbout(); return; }
-    if (path.startsWith('#/series')) { root.innerHTML = renderSeries(juegos); return; }
-
-    if (path.startsWith('#/list')) {
-      root.innerHTML = renderList(juegos, params);
-      const form = by('#filters');
-      if (form) {
-        const apply = () => {
-          const fd = new FormData(form);
-          const sp = new URLSearchParams();
-          for (const [k, v] of fd.entries()) {
-            const val = (v || '').toString().trim();
-            if (val) sp.set(k, val);
-          }
-          location.hash = `#/list${sp.toString()? ('?'+sp.toString()):''}`;
-        };
-        const debouncedApply = debounce(apply, 3000);
-        form.addEventListener('input', (e) => { if (e.target && e.target.name === 'titulo') debouncedApply(); });
-        form.addEventListener('change', (e) => { if (e.target && (e.target.tagName === 'SELECT')) apply(); });
-        const clearBtn = by('#clearFilters');
-        if (clearBtn) clearBtn.addEventListener('click', () => { location.hash = '#/list'; });
-      }
-      return;
-    }
-
-    if (path.startsWith('#/game/')) {
-      const slug = decodeURIComponent(path.replace('#/game/',''));
-      const j = juegos.find(x => x.url === slug);
-      if (!j) { root.innerHTML = `<p class="text-zinc-600">Juego no encontrado.</p>`; return; }
-      root.innerHTML = renderGame(j);
-      initGallery();
-      return;
-    }
-
-    location.hash = '#/list';
-  }
-
-  window.addEventListener('hashchange', render);
-  render();
-  </script>
 </body>
 </html>

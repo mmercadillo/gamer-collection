@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contacto — Colección</title>
+  <meta name="description" content="Contacto de la colección de videojuegos." />
+  <style>
+    :root { --b:#111; --g:#666; --bd:#e6e6e6; --bg:#fafafa; --w:#fff; }
+    *{ box-sizing:border-box; }
+    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; color:var(--b); background:var(--bg); }
+    a{ color:inherit; }
+
+    /* ===== Cabecera común ===== */
+    header{ background:var(--w); border-bottom:1px solid var(--bd); position:sticky; top:0; z-index:20; }
+    .wrap{ max-width:1200px; margin:0 auto; padding:0 16px; }
+    .row{ display:flex; justify-content:space-between; align-items:center; gap:14px; padding:14px 0; }
+    .brand{ display:flex; flex-direction:column; gap:2px; }
+    .brand strong{ font-size:18px; letter-spacing:.2px; }
+    .brand span{ color:var(--g); font-size:12px; }
+    .nav{ display:flex; gap:6px; flex-wrap:wrap; justify-content:flex-end; }
+    .nav a{
+      text-decoration:none; color:var(--b); font-weight:800;
+      padding:8px 10px; border-radius:10px; border:1px solid transparent;
+    }
+    .nav a:hover{ background:#f7f7f7; border-color:var(--bd); }
+
+    main{ padding:18px 0 30px; }
+    .card{ background:var(--w); border:1px solid var(--bd); border-radius:14px; padding:14px; }
+    h1{ margin:0 0 8px; font-size:18px; }
+    .muted{ color:var(--g); font-size:13px; line-height:1.6; margin:0; }
+    .kv{ display:grid; grid-template-columns: 160px 1fr; gap:10px 12px; margin-top:14px; }
+    .k{ color:var(--g); font-size:13px; }
+    .v{ font-size:14px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="row">
+      <div class="brand" role="banner">
+        <strong>Colección de videojuegos</strong>
+        <span>Contacto</span>
+      </div>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="series.html">Series</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="card">
+      <h1>Contacto</h1>
+      <p class="muted">
+        Si quieres proponer correcciones del catálogo, comentar ediciones (ES/UK/USA), o contactar por algún juego concreto,
+        puedes escribirme por estos canales.
+      </p>
+
+      <div class="kv">
+        <!-- Sustituye por tus datos reales -->
+        <div class="k">Email</div>
+        <div class="v"><a href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a></div>
+
+        <div class="k">Instagram (colección)</div>
+        <div class="v"><a href="https://www.instagram.com/tu_cuenta/" target="_blank" rel="noopener">https://www.instagram.com/tu_cuenta/</a></div>
+
+        <div class="k">Notas</div>
+        <div class="v">En la ficha de cada juego se mostrará su enlace de Instagram si el campo <code>ig</code> está informado.</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
