@@ -36209,5 +36209,36 @@
       "Bigbox",
       "Edición Española"
     ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Resident Evil 2",
+    "url": "juegos/resident-evil-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Survival Horror",
+      "Acción",
+      "Terror"
+    ],
+    "desarrollador": [
+      "Capcom"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Resident Evil 2 es un juego de survival horror lanzado originalmente en 1998 por Capcom. Ambientado en la ciudad de Raccoon City, el jugador controla a Leon S. Kennedy o Claire Redfield durante el brote del virus T, enfrentándose a zombis y otras criaturas mientras resuelve puzles y gestiona recursos limitados. La versión para PC incluye gráficos mejorados respecto a la versión de consola, soporte para resoluciones superiores y audio digitalizado.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
   }
 ]
