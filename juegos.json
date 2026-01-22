@@ -6011,7 +6011,7 @@
       "Blizzard Entertainment"
     ],
     "ean": [],
-    "descripcion": "Expansion oficial lanzada el 18 de diciembre de 1998 para Windows (también macOS en junio de 1999). Continúa la historia tras los eventos de StarCraft, añadiendo tres campañas (Protoss, Terran, Zerg), siete nuevas unidades (como Medics, Valkyrie, Dark Templar, Dark Archon, Lurker…), nuevas mejoras (Charon Boosters…) y nuevos tilesets (crepúsculo, hielo, desierto), con inteligencia artificial afinada y edición de mapas mejorada.",
+    "descripcion": "Expansion oficial lanzada el 18 de diciembre de 1998 para Windows (también MacOs en junio de 1999). Continúa la historia tras los eventos de StarCraft, añadiendo tres campañas (Protoss, Terran, Zerg), siete nuevas unidades (como Medics, Valkyrie, Dark Templar, Dark Archon, Lurker…), nuevas mejoras (Charon Boosters…) y nuevos tilesets (crepúsculo, hielo, desierto), con inteligencia artificial afinada y edición de mapas mejorada.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -23136,7 +23136,7 @@
     "url": "juegos/take-on-helicopters-fxinteractive/",
     "plataforma": [
       "WinXP",
-      "WinVista",
+      "Windows Vista",
       "Win7"
     ],
     "genero": [
@@ -35161,7 +35161,7 @@
     "url": "juegos/building-and-co-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista",
+      "Windows Vista",
       "Win7"
     ],
     "genero": [
@@ -35219,7 +35219,7 @@
     "url": "juegos/yo-presidente-objetivo-crisis-global-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista",
+      "Windows Vista",
       "Win7"
     ],
     "genero": [
@@ -35768,7 +35768,7 @@
     "url": "juegos/pirates-of-the-burning-sea-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista"
+      "Windows Vista"
     ],
     "genero": [
       "Rol",
@@ -35824,9 +35824,9 @@
     "url": "juegos/grandes-invasiones-las-invasiones-barbaras-350-1066-dc-cddvd/",
     "plataforma": [
       "Win98",
-      "WinME",
+      "WinMe",
       "WinXP",
-      "WinVista"
+      "Windows Vista"
     ],
     "genero": [
       "Estrategia",
@@ -36440,9 +36440,9 @@
     "url": "juegos/los-sims-medieval-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista",
+      "Windows Vista",
       "Win7",
-      "MacOS"
+      "MacOs"
     ],
     "genero": [
       "Simulación",
@@ -36463,7 +36463,1957 @@
       "Todos",
       "Los Sims"
     ],
+    "tags": []
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Frontlines: Fuel of War",
+    "url": "juegos/frontlines-fuel-of-war-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Kaos Studios"
+    ],
+    "distribuidor": [
+      "THQ"
+    ],
+    "ean": [],
+    "descripcion": "Frontlines: Fuel of War es un shooter en primera persona de ambientación bélica moderna lanzado en 2008. El conflicto se sitúa en un futuro cercano, enfrentando a la Western Coalition contra la Red Star Alliance por el control de los últimos recursos energéticos del planeta. El juego destaca por sus amplios mapas, el uso intensivo de vehículos terrestres y aéreos, y un innovador sistema de drones controlables que permiten realizar ataques estratégicos, reconocimiento y apoyo táctico tanto en el modo campaña como en el multijugador.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
     "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Homefront",
+    "url": "juegos/homefront-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Kaos Studios"
+    ],
+    "distribuidor": [
+      "THQ"
+    ],
+    "ean": [],
+    "descripcion": "Homefront es un shooter en primera persona lanzado en 2011 que presenta una narrativa de invasión en territorio estadounidense en un futuro cercano. El jugador asume el papel de un miembro de la resistencia civil, participando en combates urbanos, acciones de guerrilla y operaciones encubiertas. El título destaca por su enfoque cinematográfico, su ambientación opresiva y un fuerte componente narrativo, complementado por un modo multijugador competitivo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Flyboys Squadron",
+    "url": "juegos/flyboys-squadron-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Simulación aérea",
+      "Acción",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Reality Pump Studios"
+    ],
+    "distribuidor": [
+      "Playlogic Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Flyboys Squadron es un juego de combate aéreo ambientado en la Primera Guerra Mundial, lanzado en 2006 para PC. Inspirado en la aviación clásica de la época, el jugador participa en misiones de escolta, combate y bombardeo pilotando biplanos históricos. El título combina acción arcade con elementos de simulación ligera, poniendo énfasis en los duelos aéreos, la gestión básica del avión y la recreación de escenarios europeos del conflicto.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "The Settlers: El linaje de los reyes – Gold Edition",
+    "url": "juegos/the-settlers-el-linaje-de-los-reyes-gold-edition-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Gestión",
+      "Construcción de ciudades"
+    ],
+    "desarrollador": [
+      "Blue Byte"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "The Settlers: El linaje de los reyes – Gold Edition es una edición especial del juego de estrategia en tiempo real lanzado originalmente en 2006. Esta versión incluye el juego base junto con su expansión, ofreciendo una experiencia centrada en la gestión económica, la construcción de asentamientos y la planificación estratégica en un entorno medieval. A diferencia de entregas anteriores, el título pone un mayor énfasis en la narrativa, las misiones guiadas y el desarrollo progresivo de los territorios.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Codegame"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Anno 1404",
+    "url": "juegos/anno-1404-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Estrategia",
+      "Gestión",
+      "Construcción de ciudades"
+    ],
+    "desarrollador": [
+      "Related Designs"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Anno 1404 es un juego de estrategia y gestión económica lanzado en 2009, ambientado en el final de la Edad Media. El jugador debe desarrollar complejas ciudades, gestionar cadenas de producción, comercio marítimo y diplomacia, combinando crecimiento económico con objetivos narrativos y militares. Considerado uno de los títulos más equilibrados y accesibles de la saga Anno, destaca por su profundidad estratégica, su cuidada presentación visual y su enfoque en la optimización de recursos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "WWII: Iwo Jima",
+    "url": "juegos/wwii-iwo-jima-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Direct Action Games"
+    ],
+    "distribuidor": [
+      "THQ"
+    ],
+    "ean": [],
+    "descripcion": "WWII: Iwo Jima es un shooter en primera persona ambientado en la Segunda Guerra Mundial, centrado en la histórica batalla de Iwo Jima. El jugador participa en combates intensos desde la perspectiva de un soldado estadounidense, afrontando asaltos frontales, posiciones defensivas japonesas y escenarios inspirados en hechos reales. El título apuesta por una experiencia directa y clásica dentro del género bélico, con énfasis en la acción y el avance táctico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Section 8",
+    "url": "juegos/section-8-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "desarrollador": [
+      "TimeGate Studios"
+    ],
+    "distribuidor": [
+      "SouthPeak Games"
+    ],
+    "ean": [],
+    "descripcion": "Section 8 es un shooter en primera persona de ciencia ficción lanzado en 2009. Ambientado en un conflicto futurista a gran escala, el jugador forma parte de una fuerza militar equipada con armaduras avanzadas capaces de realizar descensos orbitales directamente al campo de batalla. El título destaca por sus amplios escenarios abiertos, la libertad táctica, el uso de vehículos y un fuerte enfoque en el combate multijugador, apoyado por la integración con Games for Windows LIVE.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Games for windows"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Wings Over Europe: Cold War – Soviet Invasion",
+    "url": "juegos/wings-over-europe-cold-war-soviet-invasion-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Simulación aérea",
+      "Combate aéreo",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Third Wire Productions"
+    ],
+    "distribuidor": [
+      "Empire Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Wings Over Europe: Cold War – Soviet Invasion es un simulador de combate aéreo lanzado en 2006 que sitúa al jugador en un conflicto ficticio de la Guerra Fría en Europa. Basado en el motor de Wings Over Vietnam, el título recrea enfrentamientos entre fuerzas de la OTAN y el Pacto de Varsovia, permitiendo pilotar cazas y aviones de ataque de las décadas de 1950 a 1970. Destaca por su enfoque en misiones dinámicas, modelado de aeronaves históricas y una simulación accesible orientada al combate.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "IL-2 Sturmovik: 1946",
+    "url": "juegos/il-2-sturmovik-1946-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Simulación aérea",
+      "Combate aéreo",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "1C:Maddox Games"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "IL-2 Sturmovik: 1946 es una edición recopilatoria del prestigioso simulador de vuelo de la Segunda Guerra Mundial, lanzada en 2006. Incluye el juego base IL-2 Sturmovik junto con todas sus expansiones oficiales, ofreciendo una experiencia extremadamente completa centrada en la simulación realista del combate aéreo. El título destaca por su fidelidad histórica, su avanzado modelo de vuelo, la gran variedad de aeronaves pilotables y su fuerte orientación tanto al juego en solitario como al multijugador.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Codegame"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "The Darkness II",
+    "url": "juegos/the-darkness-ii-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Terror",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Digital Extremes"
+    ],
+    "distribuidor": [
+      "2K Games"
+    ],
+    "ean": [],
+    "descripcion": "The Darkness II es un shooter en primera persona lanzado en 2012 que combina acción intensa con una narrativa oscura y violenta basada en el cómic homónimo. El jugador encarna a Jackie Estacado, portador de una entidad demoníaca conocida como la Oscuridad, que le otorga poderes sobrenaturales como tentáculos, invocaciones y control del entorno. El título destaca por su estilo visual cel-shaded, su narrativa adulta y cinematográfica, y la combinación fluida entre armas de fuego y habilidades sobrenaturales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Commander: Europe at War",
+    "url": "juegos/commander-europe-at-war-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Big Time Software"
+    ],
+    "distribuidor": [
+      "Paradox Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Commander: Europe at War es un juego de estrategia por turnos lanzado en 2003 que simula el desarrollo de la Segunda Guerra Mundial en el teatro europeo. El jugador asume el control de las principales potencias del conflicto, gestionando movimientos militares, producción, diplomacia y decisiones estratégicas a gran escala. El título destaca por su enfoque accesible dentro del género wargame, ofreciendo profundidad estratégica sin la complejidad extrema de otras simulaciones más duras.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Shadowrun",
+    "url": "juegos/shadowrun-cddvd/",
+    "plataforma": [
+      "Windows Vista"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Cyberpunk"
+    ],
+    "desarrollador": [
+      "FASA Studio"
+    ],
+    "distribuidor": [
+      "Microsoft Game Studios"
+    ],
+    "ean": [],
+    "descripcion": "Shadowrun es un shooter en primera persona lanzado en 2007, ambientado en el universo cyberpunk homónimo que combina tecnología futurista y fantasía urbana. El título destaca por su enfoque eminentemente multijugador y por permitir el juego cruzado entre PC y Xbox 360 mediante Games for Windows LIVE. Mezcla armas de fuego con habilidades mágicas y razas fantásticas, ofreciendo una propuesta singular dentro del género FPS de su época.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Games for windows"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Great Battles of WWII: Stalingrad",
+    "url": "juegos/great-battles-of-wwii-stalingrad-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación aérea",
+      "Combate aéreo",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Nival Interactive"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Great Battles of WWII: Stalingrad es un simulador de combate aéreo ambientado en la Segunda Guerra Mundial, centrado en las operaciones aéreas del frente oriental durante la batalla de Stalingrado. Lanzado en 2003 para PC, permite pilotar aviones soviéticos y alemanes en misiones históricas, combinando simulación accesible con un enfoque realista en el modelado de aeronaves, armamento y escenarios. Forma parte de la serie Great Battles of WWII, orientada a recrear enfrentamientos clave del conflicto.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Galactic Civilizations II",
+    "url": "juegos/galactic-civilizations-ii-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Estrategia por turnos",
+      "Estrategia espacial",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Stardock"
+    ],
+    "distribuidor": [
+      "Paradox Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Galactic Civilizations II es un juego de estrategia por turnos ambientado en un universo de ciencia ficción, lanzado en 2006 para PC. El jugador dirige una civilización espacial desde sus primeros pasos hasta la dominación galáctica, gestionando colonización, diplomacia, investigación tecnológica, economía y guerra a gran escala. El título destaca por la profundidad de sus sistemas estratégicos, la inteligencia artificial avanzada y la enorme libertad para definir el estilo de juego, siendo considerado uno de los referentes de la estrategia espacial moderna.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Iron Storm",
+    "url": "juegos/iron-storm-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "4X Studios"
+    ],
+    "distribuidor": [
+      "Wanadoo Edition"
+    ],
+    "ean": [],
+    "descripcion": "Iron Storm es un shooter en primera persona lanzado en 2002 para PC que presenta una ucronía en la que la Primera Guerra Mundial se prolonga hasta la década de 1960. El jugador encarna a un soldado atrapado en un conflicto interminable, utilizando armamento pesado y prototipos futuristas en escenarios urbanos y fortificados. El título destaca por su ambientación alternativa, su tono oscuro y su enfoque clásico de acción en primera persona propio de principios de los años 2000.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Battlefield 2142",
+    "url": "juegos/battlefield-2142-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "DICE"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Battlefield 2142 es un shooter en primera persona lanzado en 2006 que traslada la conocida saga Battlefield a un conflicto bélico futurista ambientado en el siglo XXII. En un mundo afectado por una nueva era glacial, dos grandes facciones se enfrentan utilizando armamento avanzado, vehículos futuristas y los característicos titanes caminantes. El título destaca por su enfoque multijugador a gran escala, los combates con vehículos terrestres y aéreos, y el innovador modo Titan, que introduce objetivos dinámicos y asaltos estratégicos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Scooby-Doo 2: Desatado",
+    "url": "juegos/scooby-doo-2-desatado-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Aventura",
+      "Acción",
+      "Plataformas",
+      "Infantil"
+    ],
+    "desarrollador": [
+      "Heavy Iron Studios"
+    ],
+    "distribuidor": [
+      "THQ"
+    ],
+    "ean": [],
+    "descripcion": "Scooby-Doo 2: Desatado es un videojuego de aventura y acción lanzado en 2004 para PC, basado en la película homónima y en la popular franquicia animada de Hanna-Barbera. El jugador controla a Scooby-Doo y Shaggy a lo largo de distintos escenarios resolviendo puzles, evitando enemigos y utilizando disfraces con habilidades especiales para avanzar. El título está claramente orientado a un público infantil y familiar, con un enfoque accesible, humorístico y fiel al tono de la saga.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Dragon Throne: Battle of Red Cliffs",
+    "url": "juegos/dragon-throne-battle-of-red-cliffs-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Histórico",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Object Software"
+    ],
+    "distribuidor": [
+      "Strategy First"
+    ],
+    "ean": [],
+    "descripcion": "Dragon Throne: Battle of Red Cliffs es un juego de estrategia en tiempo real lanzado en 2004 para PC, ambientado en la famosa batalla de los Acantilados Rojos durante el periodo de los Tres Reinos en China. El título combina gestión de ejércitos, construcción limitada y combates en tiempo real, incorporando héroes históricos con habilidades especiales. Destaca por su ambientación oriental poco habitual dentro del RTS clásico y por centrarse en un episodio concreto y emblemático de la historia china.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Star Trek: Legacy",
+    "url": "juegos/star-trek-legacy-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Acción",
+      "Combate espacial",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Mad Doc Software"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Star Trek: Legacy es un juego de acción y combate espacial lanzado en 2006 para PC, ambientado en el universo de Star Trek. El jugador asume el mando de distintas naves de la Federación a lo largo de varias eras de la saga, participando en misiones de combate, exploración y defensa estratégica. El título destaca por permitir controlar escuadras de naves, por la fidelidad estética a la franquicia y por contar con las voces originales de varios actores de las series clásicas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Police Academy",
+    "url": "juegos/police-academy-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinME",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Disparos",
+      "Entrenamiento"
+    ],
+    "desarrollador": [],
+    "distribuidor": [
+      "Viva Software",
+      "Finson"
+    ],
+    "ean": [],
+    "descripcion": "Police Academy es un juego de entrenamiento y disparos lanzado para PC en formato CD-ROM. El título propone superar diversas pruebas de habilidad en un campo de tiro policial, utilizando entornos y animaciones en 3D. Incluye diferentes ejercicios de precisión y reacción, con un enfoque más cercano a un simulador de práctica que a un shooter tradicional. Fue distribuido en ediciones económicas orientadas al gran público.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Thandor: The Invasion",
+    "url": "juegos/thandor-the-invasion-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Innonics"
+    ],
+    "distribuidor": [
+      "JoWooD"
+    ],
+    "ean": [],
+    "descripcion": "Thandor: The Invasion es un juego de acción y disparos en tercera persona con ambientación de ciencia ficción, desarrollado por Innonics y publicado por JoWooD para PC. El jugador controla un poderoso mecha en un conflicto futurista contra fuerzas invasoras, combinando combate con armas pesadas y enfrentamientos a gran escala. El título destaca por su estética industrial, escenarios abiertos y un enfoque directo en la acción arcade.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Industry Giant II",
+    "url": "juegos/industry-giant-ii-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación",
+      "Estrategia",
+      "Gestión empresarial"
+    ],
+    "desarrollador": [
+      "JoWooD Studio"
+    ],
+    "distribuidor": [
+      "JoWooD"
+    ],
+    "ean": [],
+    "descripcion": "Industry Giant II es un juego de simulación y gestión empresarial en el que el jugador debe construir y dirigir un imperio industrial a lo largo del siglo XX. El título abarca producción, transporte, logística y comercio, permitiendo crear cadenas completas de suministro y competir en un mercado dinámico. Es conocido por su gran profundidad, complejidad económica y enfoque realista en la expansión industrial.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Ford Street Racing",
+    "url": "juegos/ford-street-racing-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Conducción",
+      "Carreras",
+      "Arcade"
+    ],
+    "desarrollador": [
+      "Razorworks"
+    ],
+    "distribuidor": [
+      "Xplosiv"
+    ],
+    "ean": [],
+    "descripcion": "Ford Street Racing es un juego de conducción arcade centrado exclusivamente en vehículos de la marca Ford. Ofrece carreras urbanas y circuitos cerrados, con un enfoque accesible y directo en la velocidad y el control sencillo. El jugador puede conducir modelos clásicos y modernos de Ford en distintos eventos, priorizando la experiencia arcade sobre la simulación. Esta edición pertenece a la serie económica Red Collection.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "RED Collection"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "War Times: Europe on the Frontline",
+    "url": "juegos/war-times-europe-on-the-frontline-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Ascaron"
+    ],
+    "distribuidor": [
+      "ON Games"
+    ],
+    "ean": [],
+    "descripcion": "War Times: Europe on the Frontline es un shooter en primera persona ambientado en la Segunda Guerra Mundial. El jugador participa en diferentes misiones a lo largo del frente europeo, controlando a soldados aliados y enfrentándose a fuerzas enemigas en escenarios bélicos clásicos. El juego apuesta por una experiencia directa y lineal, con énfasis en la acción y el contexto histórico. Esta edición pertenece a la serie económica Red Collection.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "RED Collection"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Esa Horrible Historia: Depravados Romanos",
+    "url": "juegos/esa-horrible-historia-depravados-romanos-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Educativo",
+      "Aventura",
+      "Humor"
+    ],
+    "desarrollador": [
+      "Slitherine"
+    ],
+    "distribuidor": [
+      "Slitherine"
+    ],
+    "ean": [],
+    "descripcion": "Esa Horrible Historia: Depravados Romanos es un juego educativo basado en la popular serie de libros infantiles Horrible Histories. A través de minijuegos, ilustraciones humorísticas y situaciones absurdas, el jugador aprende aspectos de la Antigua Roma desde una perspectiva desenfadada y satírica. El título combina entretenimiento y divulgación histórica, con un tono claramente orientado al público infantil y juvenil.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Plants vs. Zombies: Garden Warfare 2",
+    "url": "juegos/plants-vs-zombies-garden-warfare-2-cddvd/",
+    "plataforma": [
+      "Win7",
+      "Win8",
+      "Win10"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en tercera persona",
+      "Multijugador"
+    ],
+    "desarrollador": [
+      "PopCap Games"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Plants vs. Zombies: Garden Warfare 2 es un shooter en tercera persona centrado en el multijugador, que amplía el universo Plants vs. Zombies con combates competitivos entre plantas y zombis. Introduce nuevos personajes, modos de juego y un mundo central explorable, manteniendo un tono humorístico y accesible. El título está orientado principalmente al juego en línea, aunque incluye contenidos para un jugador.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Piratas del Caribe: La leyenda de Jack Sparrow",
+    "url": "juegos/piratas-del-caribe-la-leyenda-de-jack-sparrow-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Hack and slash"
+    ],
+    "desarrollador": [
+      "7 Studios"
+    ],
+    "distribuidor": [
+      "Bethesda Softworks",
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Piratas del Caribe: La leyenda de Jack Sparrow es un juego de acción y aventura basado en la popular franquicia cinematográfica de Disney. El jugador controla a Jack Sparrow y otros personajes de la saga en combates cuerpo a cuerpo, exploración de escenarios y misiones inspiradas en las películas. Esta edición corresponde a la versión económica distribuida bajo el sello CODE GAME, totalmente en castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Codegame"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Code Game"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Cycling Manager 2",
+    "url": "juegos/cycling-manager-2-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Gestión",
+      "Deportes",
+      "Ciclismo"
+    ],
+    "desarrollador": [
+      "Cyanide Studio"
+    ],
+    "distribuidor": [
+      "Mindware",
+      "Telefónica"
+    ],
+    "ean": [],
+    "descripcion": "Cycling Manager 2 es un simulador de gestión deportiva centrado en el ciclismo profesional. El jugador asume el papel de director deportivo, gestionando equipos, corredores, entrenamientos, calendarios y estrategias de carrera. Esta edición para PC incluye dos CD-ROM y manual en castellano, y fue distribuida en España por Telefónica dentro de acuerdos de software promocional.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Ciclismo",
+      "Gestión deportiva"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Thunder Brigade",
+    "url": "juegos/thunder-brigade-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Acción",
+      "Simulación",
+      "Combate vehicular"
+    ],
+    "desarrollador": [
+      "Simis"
+    ],
+    "distribuidor": [
+      "Interactive Magic",
+      "Grupo Zeta"
+    ],
+    "ean": [],
+    "descripcion": "Thunder Brigade es un simulador de combate vehicular en primera persona centrado en el control de helicópteros de asalto futuristas. El jugador participa en misiones de acción táctica con escenarios abiertos, enfrentándose a fuerzas terrestres y aéreas mediante armamento avanzado. Esta edición para PC en formato CD-ROM fue distribuida en España por Interactive Magic, e incluye material promocional del catálogo \"Juegos del Verano\" del Grupo Zeta.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Juegos del verano"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Helicópteros",
+      "Acción futurista"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Rise of Nations",
+    "url": "juegos/rise-of-nations-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Histórico",
+      "Construcción de imperios"
+    ],
+    "desarrollador": [
+      "Big Huge Games"
+    ],
+    "distribuidor": [
+      "Microsoft Game Studios"
+    ],
+    "ean": [],
+    "descripcion": "Rise of Nations es un juego de estrategia en tiempo real que combina la gestión de imperios al estilo Civilization con el ritmo y la acción del RTS clásico. El jugador guía a una nación desde la Antigüedad hasta la era moderna, gestionando recursos, territorios, tecnología y conflictos militares en mapas dinámicos. Diseñado por Brian Reynolds, destaca por su sistema de fronteras, profundidad estratégica y equilibrio entre economía y guerra. Esta edición en formato CD/DVD corresponde a la distribución europea en castellano de Microsoft Game Studios.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "RTS",
+      "Estrategia histórica",
+      "Microsoft"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Pro Cycling Manager 2008-2009",
+    "url": "juegos/pro-cycling-manager-2008-2009-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista"
+    ],
+    "genero": [
+      "Simulación",
+      "Gestión deportiva",
+      "Ciclismo"
+    ],
+    "desarrollador": [
+      "Cyanide Studio"
+    ],
+    "distribuidor": [
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Pro Cycling Manager 2008-2009 es un simulador de gestión deportiva centrado en el ciclismo profesional, en el que el jugador asume el papel de mánager de un equipo ciclista. Permite gestionar contratos, entrenamientos, fichajes, estrategias de carrera y calendarios oficiales, incluyendo las grandes vueltas y competiciones internacionales. Esta edición corresponde a la temporada 2008-2009, con licencias actualizadas y presencia destacada de corredores reales como Alberto Contador. Versión en castellano distribuida por Friendware en formato PC DVD.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Simulación",
+      "Gestión deportiva",
+      "Ciclismo"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Vancouver 2010",
+    "url": "juegos/vancouver-2010-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista",
+      "Win7"
+    ],
+    "genero": [
+      "Deportes",
+      "Olimpiadas",
+      "Multideporte"
+    ],
+    "desarrollador": [
+      "Eurocom"
+    ],
+    "distribuidor": [
+      "SEGA"
+    ],
+    "ean": [],
+    "descripcion": "Vancouver 2010 es el videojuego oficial de los Juegos Olímpicos de Invierno celebrados en Vancouver. Desarrollado por Eurocom y distribuido por SEGA, permite competir en numerosas disciplinas olímpicas de invierno como esquí alpino, snowboard, bobsleigh, patinaje de velocidad y más. Incluye modos para un jugador y multijugador, con representación oficial de los anillos olímpicos y las sedes de los Juegos. Esta edición corresponde a la versión para PC DVD bajo el sello Games for Windows LIVE.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Games for windows"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Deportes",
+      "Olimpiadas",
+      "SEGA"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Chrome",
+    "url": "juegos/chrome-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Techland"
+    ],
+    "distribuidor": [
+      "Gathering"
+    ],
+    "ean": [],
+    "descripcion": "Chrome es un shooter en primera persona de ciencia ficción desarrollado por Techland. Ambientado en un futuro donde corporaciones luchan por el control de planetas y recursos, el jugador asume el papel de un mercenario equipado con implantes cibernéticos que alteran sus habilidades físicas y tácticas. El juego destaca por ofrecer escenarios abiertos, vehículos pilotables, progresión mediante mejoras corporales y un enfoque más táctico que otros shooters contemporáneos. Esta edición corresponde a la versión para PC en formato CD-ROM distribuida por Gathering.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Acción",
+      "Shooter",
+      "Ciencia ficción"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "TOCA Race Driver 3",
+    "url": "juegos/toca-race-driver-3-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Conducción",
+      "Simulación",
+      "Carreras"
+    ],
+    "desarrollador": [
+      "Codemasters"
+    ],
+    "distribuidor": [
+      "Codemasters"
+    ],
+    "ean": [],
+    "descripcion": "TOCA Race Driver 3 es un simulador de conducción desarrollado por Codemasters que amplía notablemente el contenido de la saga TOCA. El juego incluye más de 35 campeonatos oficiales y disciplinas distintas, abarcando turismos, GT, monoplazas, rally, off-road y competiciones históricas. Destaca por su enfoque realista, variedad de vehículos y circuitos, así como por ofrecer tanto simulación exigente como opciones de accesibilidad. Esta edición corresponde a la versión para PC en formato DVD incluida en la serie económica Red Collection.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "RED Collection"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Red Collection",
+      "Conducción",
+      "Simulación",
+      "Codemasters"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Seven Kingdoms",
+    "url": "juegos/seven-kingdoms-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Gestión",
+      "Fantasia"
+    ],
+    "desarrollador": [
+      "Enlight Software"
+    ],
+    "distribuidor": [
+      "Interactive Magic"
+    ],
+    "ean": [],
+    "descripcion": "Seven Kingdoms es un juego de estrategia en tiempo real desarrollado por Enlight Software que destaca por su enfoque avanzado en la gestión económica, diplomática y social. A diferencia de otros RTS clásicos, el jugador debe controlar no solo ejércitos, sino también la lealtad de la población, las relaciones entre reinos y el equilibrio entre razas. Ambientado en un mundo de fantasía con múltiples civilizaciones, Seven Kingdoms es considerado un título de culto dentro del género por su profundidad estratégica y sistemas poco convencionales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Juegos del verano"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Estrategia",
+      "RTS",
+      "Fantasia",
+      "Clásico PC",
+      "Interactive Magic"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Football Manager 2012",
+    "url": "juegos/football-manager-2012-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Simulación",
+      "Gestión deportiva",
+      "Fútbol"
+    ],
+    "desarrollador": [
+      "Sports Interactive"
+    ],
+    "distribuidor": [
+      "SEGA"
+    ],
+    "ean": [],
+    "descripcion": "Football Manager 2012 es una entrega de la prestigiosa saga de gestión futbolística desarrollada por Sports Interactive. El jugador asume el rol de mánager de un club profesional, encargándose de todos los aspectos deportivos y estratégicos: tácticas, fichajes, entrenamientos, cantera y gestión del vestuario. Esta edición introduce mejoras en el motor de partidos, la inteligencia artificial de los jugadores y un sistema de scouting más profundo, consolidando la serie como referencia absoluta en la simulación de gestión futbolística.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Fútbol",
+      "Gestión",
+      "Simulación",
+      "Football Manager",
+      "SEGA"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Catz",
+    "url": "juegos/catz-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación",
+      "Mascotas virtuales",
+      "Infantil"
+    ],
+    "desarrollador": [
+      "Studio Mythos"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Catz es un juego de simulación de mascotas virtuales orientado al público infantil, perteneciente a la popular serie Petz. El jugador puede adoptar y cuidar distintos gatitos, alimentarlos, jugar con ellos y ver cómo crecen y desarrollan su personalidad. Destaca por su enfoque educativo y relajado, fomentando la responsabilidad y la empatía mediante la interacción con las mascotas en un entorno colorido y accesible.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Codegame"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Infantil",
+      "Mascotas virtuales",
+      "Petz",
+      "Ubisoft",
+      "Catz"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Runes of Magic: Capítulo II – El Despertar del Dragón",
+    "url": "juegos/runes-of-magic-capitulo-ii-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista",
+      "Win7"
+    ],
+    "genero": [
+      "MMORPG",
+      "Rol",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Runewaker Entertainment"
+    ],
+    "distribuidor": [
+      "Gameforge"
+    ],
+    "ean": [],
+    "descripcion": "Runes of Magic: Capítulo II – El Despertar del Dragón es la segunda gran expansión del MMORPG gratuito Runes of Magic. Amplía el mundo de Taborea con nuevas zonas como el Volcán Aotulia y el Cañón Polvareda, introduce mazmorras adicionales, nuevas misiones, mejoras en el sistema de clases duales y una evolución del contenido PvE y PvP. Destacó en su momento por ofrecer un modelo free-to-play sin cuotas mensuales, con una profundidad de juego comparable a los grandes referentes del género.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "MMORPG",
+      "Rol",
+      "Fantasía",
+      "Free-to-play",
+      "Runes of Magic",
+      "Gameforge"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Mount & Blade: Warband",
+    "url": "juegos/mount-blade-warband-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista",
+      "Win7"
+    ],
+    "genero": [
+      "Acción",
+      "Rol",
+      "Estrategia",
+      "Medieval"
+    ],
+    "desarrollador": [
+      "TaleWorlds Entertainment"
+    ],
+    "distribuidor": [
+      "Paradox Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Mount & Blade: Warband es una expansión independiente del juego original Mount & Blade que amplía y perfecciona su fórmula de acción, rol y estrategia medieval. Ambientado en el mundo ficticio de Calradia, permite al jugador combatir en tiempo real a caballo o a pie, gestionar ejércitos, participar en batallas a gran escala, realizar intrigas políticas y conquistar territorios. Warband introdujo mejoras gráficas, multijugador competitivo y cooperativo, nuevas facciones y un sistema de progresión más profundo, convirtiéndose en la versión definitiva y más influyente de la saga.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Rol",
+      "Acción",
+      "Estrategia",
+      "Medieval",
+      "Mount & Blade",
+      "Warband",
+      "Paradox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Tom Clancy’s Ghost Recon",
+    "url": "juegos/tom-clancys-ghost-recon-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción táctica",
+      "Shooter",
+      "Militar"
+    ],
+    "desarrollador": [
+      "Red Storm Entertainment"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Tom Clancy’s Ghost Recon es un shooter táctico en primera y tercera persona lanzado en 2001 que se centra en el combate militar realista y la planificación estratégica. El jugador lidera un escuadrón de fuerzas especiales de élite conocidas como los Ghosts, participando en misiones ambientadas en conflictos geopolíticos ficticios. A diferencia de los shooters arcade, el juego prioriza la táctica, el sigilo, la coordinación de escuadras y el realismo balístico, convirtiéndose en uno de los referentes del género táctico en PC y en el inicio de una de las sagas militares más influyentes de Ubisoft.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Shooter",
+      "Acción táctica",
+      "Militar",
+      "Tom Clancy",
+      "Ghost Recon",
+      "Ubisoft"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Full Spectrum Warrior: Ten Hammers",
+    "url": "juegos/full-spectrum-warrior-ten-hammers-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista"
+    ],
+    "genero": [
+      "Acción táctica",
+      "Shooter",
+      "Militar"
+    ],
+    "desarrollador": [
+      "Pandemic Studios"
+    ],
+    "distribuidor": [
+      "THQ"
+    ],
+    "ean": [],
+    "descripcion": "Full Spectrum Warrior: Ten Hammers es un juego de acción táctica lanzado en 2008 para PC que continúa la propuesta realista de combate urbano de la saga. El jugador no controla directamente a un soldado, sino que dirige escuadras militares mediante órdenes tácticas en tiempo real, centrándose en la coordinación, el posicionamiento y el uso correcto de coberturas. Ambientado en un conflicto ficticio en Oriente Medio, el juego pone énfasis en la simulación táctica, el liderazgo de unidades y la toma de decisiones estratégicas bajo presión, ofreciendo una experiencia más cercana a un simulador militar que a un shooter tradicional.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Acción táctica",
+      "Militar",
+      "Pandemic Studios",
+      "THQ",
+      "Full Spectrum Warrior"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "War Front: Turning Point",
+    "url": "juegos/war-front-turning-point-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Bélico",
+      "Historia alternativa"
+    ],
+    "desarrollador": [
+      "Digital Reality"
+    ],
+    "distribuidor": [
+      "10tacle Studios"
+    ],
+    "ean": [],
+    "descripcion": "War Front: Turning Point es un juego de estrategia en tiempo real lanzado en 2006 para PC que plantea una historia alternativa de la Segunda Guerra Mundial en la que Alemania desarrolla tecnología avanzada, incluyendo armamento experimental y unidades futuristas. El jugador puede controlar distintas facciones con estilos diferenciados, gestionando recursos, construyendo bases y comandando ejércitos en escenarios inspirados en conflictos históricos reinterpretados. El juego destaca por su enfoque de ucronía bélica, combinando estética de la WWII con elementos de ciencia ficción y estrategia clásica en tiempo real.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Estrategia en tiempo real",
+      "Bélico",
+      "Historia alternativa",
+      "Segunda Guerra Mundial",
+      "Digital Reality"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Warhammer 40,000: Dawn of War – Dark Crusade",
+    "url": "juegos/warhammer-40000-dawn-of-war-dark-crusade-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Relic Entertainment"
+    ],
+    "distribuidor": [
+      "THQ"
+    ],
+    "ean": [],
+    "descripcion": "Warhammer 40,000: Dawn of War – Dark Crusade es una expansión independiente del aclamado juego de estrategia en tiempo real Dawn of War, lanzada en 2006 para PC. Ambientado en el universo de Warhammer 40.000, introduce un innovador modo de campaña persistente por territorios en el planeta Kronus, donde varias facciones luchan por el control total del mapa. Añade dos nuevas razas jugables —Necrones y Tau— y mejora el equilibrio y la profundidad estratégica del juego base, consolidándose como una de las entregas más valoradas de la saga.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Estrategia en tiempo real",
+      "Warhammer 40000",
+      "Ciencia ficción",
+      "Relic",
+      "THQ"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Football Manager 2010",
+    "url": "juegos/football-manager-2010-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Gestión deportiva",
+      "Simulación",
+      "Deportes"
+    ],
+    "desarrollador": [
+      "Sports Interactive"
+    ],
+    "distribuidor": [
+      "SEGA"
+    ],
+    "ean": [],
+    "descripcion": "Football Manager 2010 es una entrega de la reconocida saga de gestión futbolística desarrollada por Sports Interactive y publicada por SEGA en 2009 para PC. El jugador asume el rol de mánager de un club de fútbol, controlando todos los aspectos deportivos y administrativos: fichajes, tácticas, entrenamientos, economía y relaciones con la prensa. Esta edición introdujo importantes mejoras en el motor 3D de partidos, mayor profundidad táctica y una base de datos ampliada, consolidando la franquicia como referencia absoluta del género.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Football Manager",
+      "Gestión deportiva",
+      "Fútbol",
+      "Sports Interactive",
+      "SEGA"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Casino Tycoon",
+    "url": "juegos/casino-tycoon-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Gestión",
+      "Simulación",
+      "Estrategia económica"
+    ],
+    "desarrollador": [
+      "SilverBirch Studios"
+    ],
+    "distribuidor": [
+      "Monte Cristo Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Casino Tycoon es un juego de gestión y simulación económica en el que el jugador debe diseñar, construir y administrar su propio casino. Lanzado a comienzos de los años 2000 para PC, el título permite controlar todos los aspectos del negocio: distribución de salas, selección de juegos, contratación de personal, seguridad, marketing y satisfacción de los clientes. Con una ambientación inspirada en los grandes casinos internacionales, Casino Tycoon se inscribe dentro de la tradición de los 'tycoon' clásicos, centrados en la planificación estratégica y la optimización de recursos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Tycoon",
+      "Gestión",
+      "Simulación",
+      "Casino",
+      "Monte Cristo"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Manhunt",
+    "url": "juegos/manhunt-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Sigilo",
+      "Survival horror"
+    ],
+    "desarrollador": [
+      "Rockstar North"
+    ],
+    "distribuidor": [
+      "Rockstar Games"
+    ],
+    "ean": [],
+    "descripcion": "Manhunt es un juego de acción y sigilo con fuertes elementos de terror psicológico, dirigido por Rockstar North y lanzado en 2003 para PC y consolas. El jugador encarna a James Earl Cash, un condenado a muerte obligado a participar en una serie de ejecuciones filmadas en entornos urbanos decadentes, bajo la supervisión de un misterioso director. El título destaca por su atmósfera opresiva, su énfasis en el sigilo extremo y su tratamiento explícito de la violencia, lo que lo convirtió en uno de los juegos más controvertidos de su época.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Rockstar",
+      "Sigilo",
+      "Terror",
+      "Violencia",
+      "Controversial"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "New World Order: Counter Terrorism Combat",
+    "url": "juegos/new-world-order-counter-terrorism-combat-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona",
+      "Táctico"
+    ],
+    "desarrollador": [
+      "Termite Games"
+    ],
+    "distribuidor": [
+      "Project Three Interactive"
+    ],
+    "ean": [],
+    "descripcion": "New World Order: Counter Terrorism Combat es un shooter en primera persona lanzado en 2002 para PC y desarrollado por Termite Games. El juego propone misiones tácticas contra el terrorismo en distintos escenarios urbanos, con énfasis en el uso de armas reales y operaciones antiterroristas. A pesar de su recepción discreta y sus limitaciones técnicas, es representativo de la oleada de FPS tácticos de principios de los años 2000 inspirados en títulos como Counter-Strike o Rainbow Six.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "FPS",
+      "Táctico",
+      "Antiterrorismo",
+      "Años 2000",
+      "Shooter clásico"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Zipi y Zape: La Casa del Terror",
+    "url": "juegos/zipi-y-zape-la-casa-del-terror-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Aventura",
+      "Plataformas",
+      "Infantil",
+      "Educativo"
+    ],
+    "desarrollador": [
+      "Alcachofa Soft"
+    ],
+    "distribuidor": [
+      "Zeta Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Zipi y Zape: La Casa del Terror es un videojuego de aventura y plataformas para PC basado en los populares personajes del cómic español creado por José Escobar. El juego propone una aventura de tono infantil ambientada en una casa encantada, combinando exploración, resolución de pequeños puzles y situaciones humorísticas. Está claramente orientado a un público joven y forma parte de la línea de videojuegos españoles basados en licencias de cómic y literatura infantil de principios de los años 2000.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Zipi y Zape"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Aventura",
+      "Infantil",
+      "Licencia española",
+      "Cómic",
+      "Años 2000",
+      "Videojuego español"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Battlefield 1942",
+    "url": "juegos/battlefield-1942-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinME",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Bélico",
+      "Multijugador"
+    ],
+    "desarrollador": [
+      "DICE"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Battlefield 1942 es un shooter en primera persona ambientado en la Segunda Guerra Mundial y desarrollado por DICE. Lanzado originalmente en 2002, el juego revolucionó el género al introducir combates a gran escala con mapas abiertos, vehículos terrestres, aéreos y navales, y un fuerte enfoque en el multijugador. Esta edición pertenece a la línea EA Value Games, una reedición económica posterior que mantiene el contenido original del juego en formato CD-ROM, dirigida a ampliar su distribución tras su enorme éxito comercial.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "EA Value Games"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Shooter",
+      "FPS",
+      "Segunda Guerra Mundial",
+      "Multijugador",
+      "Clásico PC",
+      "EA",
+      "Value Games"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Comanche 4",
+    "url": "juegos/comanche-4-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinME",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación",
+      "Acción",
+      "Combate aéreo"
+    ],
+    "desarrollador": [
+      "NovaLogic"
+    ],
+    "distribuidor": [
+      "NovaLogic"
+    ],
+    "ean": [],
+    "descripcion": "Comanche 4 es un simulador de combate aéreo desarrollado por NovaLogic y lanzado en 2001 para PC. Forma parte de la emblemática saga Comanche, centrada en el pilotaje del helicóptero de ataque RAH-66 Comanche. El juego combina simulación y acción arcade, ofreciendo misiones de combate modernas, escenarios abiertos y el uso del motor Voxel Space característico de la compañía. Esta edición en CD-ROM incluye el manual de vuelo en español y representa una de las últimas entregas clásicas de la serie antes de su declive comercial.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Simulación",
+      "Helicópteros",
+      "Combate aéreo",
+      "NovaLogic",
+      "Clásico PC",
+      "Voxel Space"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Grand Theft Auto III",
+    "url": "juegos/grand-theft-auto-iii-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinME",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Mundo abierto",
+      "Crimen"
+    ],
+    "desarrollador": [
+      "DMA Design"
+    ],
+    "distribuidor": [
+      "Rockstar Games"
+    ],
+    "ean": [],
+    "descripcion": "Grand Theft Auto III es un videojuego de acción en mundo abierto desarrollado por DMA Design y publicado por Rockstar Games en 2001 para PC. Supuso una revolución en la industria al trasladar la saga GTA a un entorno tridimensional completamente abierto, ambientado en la ciudad ficticia de Liberty City. El jugador asume el papel de un criminal en ascenso, realizando misiones para distintas organizaciones mientras explora libremente la ciudad. Esta edición en CD-ROM incluye el disco original y el característico folleto tipo periódico 'Liberty Tree', uno de los elementos más representativos del lanzamiento original.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Mundo abierto",
+      "Acción",
+      "Rockstar",
+      "Clásico PC",
+      "Liberty City",
+      "GTA"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Eragon",
+    "url": "juegos/eragon-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Stormfront Studios"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Eragon es un videojuego de acción y aventura en tercera persona desarrollado por Stormfront Studios y publicado por Sierra Entertainment en 2006 para PC. Basado en la película homónima inspirada en la novela de Christopher Paolini, el juego permite al jugador controlar a Eragon y, en determinadas fases, a su dragona Saphira. Combina combates cuerpo a cuerpo, uso de magia y secciones de vuelo, recreando los principales acontecimientos del filme. Esta edición corresponde al lanzamiento en castellano en formato DVD-ROM.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Fantasía",
+      "Adaptación cinematográfica",
+      "Sierra",
+      "Dragones"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Zoo Tycoon 2",
+    "url": "juegos/zoo-tycoon-2-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación",
+      "Gestión",
+      "Estrategia"
+    ],
+    "desarrollador": [
+      "Blue Fang Games"
+    ],
+    "distribuidor": [
+      "Microsoft Game Studios"
+    ],
+    "ean": [],
+    "descripcion": "Zoo Tycoon 2 es un videojuego de simulación y gestión desarrollado por Blue Fang Games y publicado por Microsoft Game Studios en 2004 para PC. El jugador asume la dirección de un zoológico, gestionando animales, instalaciones, personal y visitantes. A diferencia de su predecesor, incorpora entornos 3D, animales con comportamientos más complejos y mayor libertad creativa en el diseño del parque. Esta edición corresponde al lanzamiento en castellano e incluye el cuaderno original del juego.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Simulación",
+      "Gestión",
+      "Zoo Tycoon",
+      "Microsoft",
+      "Clásico PC"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Perdidos (El videojuego)",
+    "url": "juegos/perdidos-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "WinVista"
+    ],
+    "genero": [
+      "Aventura",
+      "Acción",
+      "Narrativa",
+      "Serie de televisión"
+    ],
+    "desarrollador": [
+      "Ubisoft Montreal"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Perdidos es la adaptación oficial a videojuego de la popular serie de televisión Lost, desarrollada por Ubisoft Montreal y lanzada en 2008 para PC y consolas. El jugador controla a un nuevo personaje original que interactúa con los protagonistas de la serie mientras explora la isla, combinando acción, puzles y narrativa. Esta edición corresponde a la versión para PC totalmente en castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Codegame"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Serie de TV",
+      "Ubisoft",
+      "Lost",
+      "Aventura narrativa",
+      "Adaptación"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Martians: Space Conquerors",
+    "url": "juegos/martians-space-conquerors-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "genero": [
+      "Arcade",
+      "Shoot 'em up",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "InterActive Vision"
+    ],
+    "distribuidor": [
+      "Sherwood Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Martians: Space Conquerors es un juego de acción arcade tipo shoot 'em up lanzado para PC a principios de los años 2000. En esta edición Classic Games Collection, el jugador se enfrenta a oleadas de enemigos alienígenas en escenarios espaciales, siguiendo una jugabilidad clásica inspirada en los arcades de los años 80 y 90. Se trata de un título de presupuesto reducido, orientado al mercado europeo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "cd/dvd",
+      "Arcade",
+      "Shoot em up",
+      "Budget",
+      "Classic Games Collection",
+      "PC"
+    ]
+  },
+  {
+    "titulo": "Command & Conquer",
+    "url": "juegos/command-and-conquer-cddvd/",
+    "plataforma": [
+      "Windows 95",
+      "Windows 98"
+    ],
+    "genero": [
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Guerra"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Command & Conquer es un juego de estrategia en tiempo real desarrollado por Westwood Studios y publicado por Electronic Arts. Ambientado en un conflicto futurista entre la GDI y la Hermandad de Nod, el juego sentó las bases del género RTS moderno con recolección de recursos, construcción de bases y combate táctico en tiempo real.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "EA Games Classics"
+    ],
+    "tags": [
+      "RTS",
+      "EA Classics",
+      "CD/DVD"
+    ]
+  },
+  {
+    "titulo": "Clive Barker's Jericho",
+    "url": "juegos/clive-barkers-jericho-cddvd/",
+    "plataforma": [
+      "Windows XP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter en primera persona",
+      "Terror",
+      "Sobrenatural"
+    ],
+    "desarrollador": [
+      "MercurySteam"
+    ],
+    "distribuidor": [
+      "Codemasters"
+    ],
+    "ean": [],
+    "descripcion": "Clive Barker's Jericho es un shooter en primera persona con fuerte componente de terror y narrativa oscura, ambientado en la ciudad maldita de Jericho. El jugador controla a un escuadrón de siete soldados con habilidades sobrenaturales únicas, alternando entre ellos para enfrentarse a horrores inspirados en distintas épocas históricas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "RED Collection"
+    ],
+    "tags": [
+      "CD/DVD",
+      "FPS",
+      "Terror"
     ]
   }
 ]
