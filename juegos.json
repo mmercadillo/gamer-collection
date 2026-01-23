@@ -38415,5 +38415,96 @@
       "FPS",
       "Terror"
     ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Eternam",
+    "url": "juegos/eternam-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Aventura",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Infogrames"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "Eternam es un videojuego de aventura y acción lanzado en 1992 para PC compatibles. El jugador controla a Jonathan Blade, un joven transportado a un universo alternativo donde debe recuperar fragmentos de un cristal para regresar a su mundo. El juego combina exploración, acción en tiempo real y resolución de puzles, con gráficos VGA de 256 colores y soporte para sonido AdLib.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Alone in the Dark",
+    "url": "juegos/alone-in-the-dark-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Aventura",
+      "Terror",
+      "Survival horror"
+    ],
+    "desarrollador": [
+      "Infogrames"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "Alone in the Dark es una aventura de terror lanzada originalmente en 1992 para PC compatibles. Considerado uno de los títulos fundacionales del género survival horror, el juego combina entornos tridimensionales con personajes poligonales y cámaras fijas. El jugador explora la mansión Derceto resolviendo puzles y enfrentándose a criaturas sobrenaturales en una atmósfera inspirada en la obra de H. P. Lovecraft.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Alone in the Dark 3",
+    "url": "juegos/alone-in-the-dark-3-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura",
+      "Terror",
+      "Survival horror"
+    ],
+    "desarrollador": [
+      "Infogrames"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "Alone in the Dark 3 es la tercera entrega de la saga de terror de Infogrames, lanzada en 1995 para PC en CD-ROM. Ambientado en un entorno inspirado en el Lejano Oeste, el juego continúa la fórmula de escenarios tridimensionales con cámaras fijas, resolución de puzles y combates contra criaturas sobrenaturales. Incluye secuencias de vídeo, doblaje y una narrativa más cinematográfica que sus predecesores.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
   }
 ]
