@@ -22,6 +22,7 @@
     "incluye": [],
     "serie": [
       "Todos",
+      "cd/dvd",
       "BestSeller Series"
     ],
     "tags": [
@@ -59,6 +60,7 @@
     "incluye": [],
     "serie": [
       "Todos",
+      "cd/dvd",
       "BestSeller Series"
     ],
     "tags": [
@@ -96,6 +98,7 @@
     "incluye": [],
     "serie": [
       "Todos",
+      "cd/dvd",
       "BestSeller Series"
     ],
     "tags": [
@@ -37074,7 +37077,7 @@
     "plataforma": [
       "Win98",
       "Win2000",
-      "WinME",
+      "WinMe",
       "WinXP"
     ],
     "genero": [
@@ -37298,7 +37301,7 @@
     "url": "juegos/piratas-del-caribe-la-leyenda-de-jack-sparrow-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista"
+      "Windows Vista"
     ],
     "genero": [
       "Acción",
@@ -37437,7 +37440,7 @@
     "url": "juegos/pro-cycling-manager-2008-2009-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista"
+      "Windows Vista"
     ],
     "genero": [
       "Simulación",
@@ -37471,7 +37474,7 @@
     "url": "juegos/vancouver-2010-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista",
+      "Windows Vista",
       "Win7"
     ],
     "genero": [
@@ -37690,7 +37693,7 @@
     "url": "juegos/runes-of-magic-capitulo-ii-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista",
+      "Windows Vista",
       "Win7"
     ],
     "genero": [
@@ -37728,7 +37731,7 @@
     "url": "juegos/mount-blade-warband-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista",
+      "Windows Vista",
       "Win7"
     ],
     "genero": [
@@ -37806,7 +37809,7 @@
     "url": "juegos/full-spectrum-warrior-ten-hammers-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista"
+      "Windows Vista"
     ],
     "genero": [
       "Acción táctica",
@@ -38095,7 +38098,7 @@
     "url": "juegos/battlefield-1942-cddvd/",
     "plataforma": [
       "Win98",
-      "WinME",
+      "WinMe",
       "Win2000",
       "WinXP"
     ],
@@ -38137,7 +38140,7 @@
     "url": "juegos/comanche-4-cddvd/",
     "plataforma": [
       "Win98",
-      "WinME",
+      "WinMe",
       "Win2000",
       "WinXP"
     ],
@@ -38176,7 +38179,7 @@
     "url": "juegos/grand-theft-auto-iii-cddvd/",
     "plataforma": [
       "Win98",
-      "WinME",
+      "WinMe",
       "Win2000",
       "WinXP"
     ],
@@ -38284,7 +38287,7 @@
     "url": "juegos/perdidos-cddvd/",
     "plataforma": [
       "WinXP",
-      "WinVista"
+      "Windows Vista"
     ],
     "genero": [
       "Aventura",
@@ -38355,8 +38358,8 @@
     "titulo": "Command & Conquer",
     "url": "juegos/command-and-conquer-cddvd/",
     "plataforma": [
-      "Windows 95",
-      "Windows 98"
+      "Win95",
+      "Win98"
     ],
     "genero": [
       "Estrategia en tiempo real",
@@ -38387,7 +38390,7 @@
     "titulo": "Clive Barker's Jericho",
     "url": "juegos/clive-barkers-jericho-cddvd/",
     "plataforma": [
-      "Windows XP",
+      "WinXP",
       "Windows Vista"
     ],
     "genero": [
