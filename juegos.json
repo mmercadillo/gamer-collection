@@ -38597,7 +38597,8 @@
     "descripcion": "Ford Racing es un juego de conducción lanzado en el año 2000 que permite al jugador competir con una amplia selección de vehículos oficiales de la marca Ford. Incluye circuitos variados, diferentes modos de juego y un enfoque arcade accesible, centrado en el disfrute de la conducción y la variedad de coches históricos y contemporáneos de Ford.",
     "incluye": [],
     "serie": [
-      "Todos""cd/dvd",
+      "Todos",
+      "cd/dvd",
       "Dinamic multimedia"
     ],
     "tags": [
