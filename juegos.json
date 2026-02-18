@@ -38706,5 +38706,546 @@
       "Humor adulto",
       "Larry"
     ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Roma: El Testamento del César",
+    "url": "juegos/roma-el-testamento-del-cesar-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Aventura 3D",
+      "Histórico"
+    ],
+    "desarrollador": [
+      "Arxel Tribe"
+    ],
+    "distribuidor": [
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica en 3D ambientada en la Roma posterior al asesinato de Julio César. El jugador asume el papel de Hércules, un decurión romano que debe adentrarse en las intrigas políticas de la República para salvar a Aurelia y descubrir un misterioso documento: el Testamento del César. Permite interactuar con figuras históricas como Marco Antonio, Cleopatra, Octavio o Bruto, explorar localizaciones reconstruidas en tiempo real y dialogar libremente mediante un sistema avanzado de comportamiento de personajes.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Cycling Manager",
+    "url": "juegos/cycling-manager-bigbox/",
+    "plataforma": [
+      "Win2000",
+      "WinMe",
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación",
+      "Deportes",
+      "Manager"
+    ],
+    "desarrollador": [
+      "Cyanide"
+    ],
+    "distribuidor": [
+      "Friendware"
+    ],
+    "ean": [
+      "286177558507"
+    ],
+    "descripcion": "Simulador y manager de ciclismo en el que el jugador dirige uno de los principales equipos profesionales durante una temporada completa o en competiciones individuales. Incluye más de 125 etapas reales modeladas en 3D y jugables en tiempo real, gestión de plantilla, estrategias de carrera, calendario y tácticas dinámicas. Permite competir en pruebas inspiradas en las grandes vueltas europeas y gestionar cada detalle del equipo para alcanzar la victoria.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Hexen",
+    "url": "juegos/hexen-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "genero": [
+      "Acción",
+      "FPS",
+      "Fantasía oscura"
+    ],
+    "desarrollador": [
+      "Raven Software"
+    ],
+    "distribuidor": [
+      "id Software"
+    ],
+    "ean": [],
+    "descripcion": "Shooter en primera persona ambientado en un universo de fantasía oscura, sucesor espiritual de Heretic. Hexen introduce tres clases de personaje jugables —Guerrero, Clérigo y Mago— cada una con armas y habilidades propias. Combina acción intensa, exploración no lineal y resolución de puzles en escenarios interconectados. Incluye modo cooperativo y Deathmatch en red, ampliando la fórmula clásica de los FPS de los años 90 con un diseño más complejo y atmosférico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "V for Victory: Commemorative Collection",
+    "url": "juegos/v-for-victory-commemorative-collection-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Atomic Games"
+    ],
+    "distribuidor": [
+      "Intracorp"
+    ],
+    "ean": [],
+    "descripcion": "Recopilación conmemorativa de la serie V for Victory que reúne cuatro de los wargames más reconocidos sobre la Segunda Guerra Mundial: Utah Beach, Market Garden, Velikiye Luki y Gold · Juno · Sword. La colección ofrece simulaciones tácticas detalladas de combates históricos a gran escala, con modelado realista del terreno, unidades y condiciones de batalla. Considerada una de las series de referencia en los wargames de los años 90.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "MAX 2: Mechanised Assault & Exploration",
+    "url": "juegos/max-2-mechanised-assault-and-exploration-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia",
+      "Tiempo real",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Interplay Productions"
+    ],
+    "distribuidor": [
+      "Interplay"
+    ],
+    "ean": [],
+    "descripcion": "Secuela del wargame futurista MAX (Mechanised Assault & Exploration). MAX 2 combina estrategia en tiempo real con gestión de recursos, exploración y combate táctico con unidades mecanizadas. Ambientado en un conflicto interplanetario por recursos energéticos, permite campañas dinámicas, partidas multijugador y un amplio abanico de unidades terrestres, aéreas y navales. Destaca por su mezcla de exploración y guerra estratégica en mapas extensos generados proceduralmente.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Milo Manara: Gullivana",
+    "url": "juegos/milo-manara-gullivana-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Aventura gráfica",
+      "Interactivo",
+      "Adulto"
+    ],
+    "desarrollador": [
+      "M.O. Entertainment"
+    ],
+    "distribuidor": [
+      "Casa de Software"
+    ],
+    "ean": [],
+    "descripcion": "CD-ROM interactivo basado en la obra del célebre autor italiano Milo Manara. Gullivana es una aventura multimedia orientada a público adulto que combina narrativa ilustrada, animaciones, música original y elementos interactivos. Inspirado libremente en el universo de 'Los viajes de Gulliver', el título propone un recorrido artístico y narrativo con el estilo erótico característico de Manara.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "The Perfect General",
+    "url": "juegos/the-perfect-general-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Táctico por turnos"
+    ],
+    "desarrollador": [
+      "QOP"
+    ],
+    "distribuidor": [
+      "QOP"
+    ],
+    "ean": [],
+    "descripcion": "Wargame táctico por turnos diseñado por Mark Baldwin que desafía al jugador a dominar estrategia y táctica en escenarios militares abstractos pero exigentes. Basado en una serie de torneos de más de una década, el juego ofrece inteligencia artificial avanzada, múltiples escenarios y un sistema refinado y profundo. La versión CD-ROM añade mejoras audiovisuales manteniendo el núcleo estratégico que convirtió al título en un clásico de los wargames de principios de los 90.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Twenty Wargame Classics: Exclusive Edition",
+    "url": "juegos/twenty-wargame-classics-exclusive-edition-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Compilación"
+    ],
+    "desarrollador": [
+      "Strategic Simulations Inc. (SSI)"
+    ],
+    "distribuidor": [
+      "Mindscape"
+    ],
+    "ean": [],
+    "descripcion": "Recopilación que reúne más de veinte de los wargames más representativos publicados por SSI. Incluye títulos clásicos de estrategia histórica ambientados en la Segunda Guerra Mundial, Guerra Civil Americana, conflictos modernos y escenarios hipotéticos. Esta edición exclusiva en CD-ROM incorpora discos adicionales con demos y documentación tanto para MS-DOS como para Windows, convirtiéndola en una de las compilaciones más completas del catálogo clásico de SSI.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Sid Meier's Colonization",
+    "url": "juegos/sid-meiers-colonization-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Estrategia",
+      "4X",
+      "Gestión",
+      "Histórico"
+    ],
+    "desarrollador": [
+      "MicroProse"
+    ],
+    "distribuidor": [
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Clásico de estrategia diseñado por Sid Meier en el que el jugador lidera una potencia europea en la colonización del Nuevo Mundo. Combina exploración, expansión, explotación de recursos y diplomacia con potencias rivales y pueblos nativos. El objetivo final es declarar y ganar la independencia frente a la metrópoli. Esta edición española en CD-ROM incluye manual y textos en castellano, manteniendo intacta la profundidad estratégica que lo convirtió en uno de los grandes títulos 4X de los años 90.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Steel Panthers",
+    "url": "juegos/steel-panthers-bigbox-2/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Táctico por turnos",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Strategic Simulations Inc. (SSI)"
+    ],
+    "distribuidor": [
+      "Proein"
+    ],
+    "ean": [
+      "5018247953220"
+    ],
+    "descripcion": "Wargame táctico ambientado en la Segunda Guerra Mundial centrado en combates acorazados y operaciones combinadas. El jugador dirige pelotones y batallones completos en escenarios históricos situados en Europa y el Pacífico entre 1939 y 1945. Destaca por su profundidad estratégica, amplio catálogo de unidades terrestres, editor de escenarios y modo campaña. La edición en CD-ROM incluye el Campaign Disk adicional, ampliando las posibilidades estratégicas y la rejugabilidad del título.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "1944: Across the Rhine",
+    "url": "juegos/1944-across-the-rhine-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "MicroProse"
+    ],
+    "distribuidor": [
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "1944: Across the Rhine es un wargame estratégico centrado en las operaciones aliadas tras el Día D hasta el cruce del Rin. Ofrece simulación histórica detallada, campañas y escenarios basados en operaciones reales de la Segunda Guerra Mundial.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Proein"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Crusade: La lucha por el poder",
+    "url": "juegos/crusade-la-lucha-por-el-poder-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia",
+      "Tiempo real",
+      "Medieval"
+    ],
+    "desarrollador": [
+      "Greenwood Entertainment"
+    ],
+    "distribuidor": [
+      "Funsoft"
+    ],
+    "ean": [],
+    "descripcion": "Crusade: La lucha por el poder es un juego de estrategia en tiempo real ambientado en la Edad Media. El jugador debe gestionar castillos, ejércitos y alianzas políticas en una lucha por el control del poder. Incluye editor de escenarios, multijugador y voces completamente en castellano en esta edición distribuida en España.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Funsoft",
+      "Edición española"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "World at War: D-Day – America Invades (Volume III)",
+    "url": "juegos/world-at-war-d-day-america-invades-volume-iii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Turnos",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Atomic Games"
+    ],
+    "distribuidor": [
+      "The Avalon Hill Game Company"
+    ],
+    "ean": [],
+    "descripcion": "World at War: D-Day – America Invades es el tercer volumen de la serie World at War, centrado en el desembarco aliado en Normandía en junio de 1944. Se trata de un wargame táctico por turnos con mapas detallados, escenarios históricos y posibilidad de juego por correo electrónico (PBEM). Incluye mapas a gran escala del campo de batalla y documentación estratégica.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Avalon Hill",
+      "World at War",
+      "Segunda Guerra Mundial"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Offensive: The Ultimate Strategic Command Game",
+    "url": "juegos/offensive-the-ultimate-strategic-command-game-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Tiempo real",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Ocean Software"
+    ],
+    "distribuidor": [
+      "Ocean",
+      "Arcadia Software"
+    ],
+    "ean": [],
+    "descripcion": "Offensive: The Ultimate Strategic Command Game es un juego de estrategia ambientado en la Segunda Guerra Mundial con perspectiva isométrica. Permite dirigir fuerzas aliadas o alemanas en escenarios históricos cuidadosamente recreados, combinando planificación táctica, gestión de unidades y control estratégico del campo de batalla.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Ocean",
+      "Arcadia",
+      "Segunda Guerra Mundial"
+    ]
+  },
+  {
+    "titulo": "The Settlers II: Veni, Vidi, Vici",
+    "url": "juegos/the-settlers-ii-veni-vidi-vici-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia",
+      "Construcción",
+      "Gestión"
+    ],
+    "desarrollador": [
+      "Blue Byte"
+    ],
+    "distribuidor": [
+      "Blue Byte"
+    ],
+    "ean": [],
+    "descripcion": "The Settlers II: Veni, Vidi, Vici es la expansión independiente del exitoso The Settlers II. Combina gestión económica, construcción de asentamientos y estrategia militar en un entorno isométrico detallado. El jugador debe gestionar recursos, expandir su territorio y enfrentarse a otras civilizaciones para lograr la supremacía.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Blue Byte",
+      "Estrategia clásica"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Operation Crusader",
+    "url": "juegos/operation-crusader-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Atomic Games"
+    ],
+    "distribuidor": [
+      "The Avalon Hill Game Company"
+    ],
+    "ean": [],
+    "descripcion": "Operation Crusader es un wargame estratégico ambientado en la campaña del Norte de África durante la Segunda Guerra Mundial. Lanzado dentro de la serie World at War de Avalon Hill, el juego permite dirigir fuerzas británicas o del Afrika Korps en un sistema operacional profundo, con gestión de suministros, moral, terreno y combate táctico sobre mapa hexagonal.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Avalon Hill",
+      "World at War"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Warhammer: Shadow of the Horned Rat",
+    "url": "juegos/warhammer-shadow-of-the-horned-rat-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia",
+      "Tiempo real",
+      "Fantasia"
+    ],
+    "desarrollador": [
+      "Mindscape"
+    ],
+    "distribuidor": [
+      "Mindscape",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Warhammer: Shadow of the Horned Rat es un juego de estrategia en tiempo real ambientado en el universo Warhammer Fantasy. El jugador lidera una compañía mercenaria en el Viejo Mundo, participando en campañas contra las fuerzas del Caos y los Skaven. Combina gestión de tropas, combates tácticos en tiempo real y progresión de campaña dentro de una narrativa inspirada en el juego de mesa original de Games Workshop.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Warhammer",
+      "Fantasy",
+      "RTS"
+    ]
   }
 ]
