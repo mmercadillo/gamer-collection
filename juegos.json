@@ -39247,5 +39247,254 @@
       "Fantasy",
       "RTS"
     ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Panzer '44",
+    "url": "juegos/panzer-44-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia",
+      "Tiempo real",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Interactive Magic"
+    ],
+    "distribuidor": [
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Panzer '44 es un juego de estrategia en tiempo real ambientado en el Frente Europeo durante la Segunda Guerra Mundial. El jugador toma el control de unidades blindadas y fuerzas mecanizadas en escenarios inspirados en 1944, gestionando posicionamiento, terreno y coordinación táctica en combate. Incluye misiones individuales y enfrentamientos estratégicos centrados en el uso de carros de combate históricos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "WWII",
+      "Tanques",
+      "RTS",
+      "Friendware"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Star Trek: Klingon Academy",
+    "url": "juegos/star-trek-klingon-academy-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulacion",
+      "Espacial",
+      "Combate"
+    ],
+    "desarrollador": [
+      "14 Degrees East"
+    ],
+    "distribuidor": [
+      "Interplay"
+    ],
+    "ean": [],
+    "descripcion": "Star Trek: Klingon Academy es un simulador de combate espacial ambientado en el universo Star Trek. El jugador se pone en la piel de un cadete klingon y participa en batallas tácticas con naves estelares, gestionando escudos, sistemas y armamento para sobrevivir en combates intensos. Incluye una campaña narrativa centrada en el Imperio Klingon y misiones de entrenamiento y combate.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Star Trek",
+      "Simulador espacial",
+      "Sci-Fi",
+      "Interplay"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Schizm: Mysterious Journey",
+    "url": "juegos/schizm-mysterious-journey-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura grafica",
+      "Puzles",
+      "Ciencia ficcion"
+    ],
+    "desarrollador": [
+      "Detalion"
+    ],
+    "distribuidor": [
+      "DreamCatcher Interactive",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Schizm: Mysterious Journey es una aventura gráfica en primera persona ambientada en el planeta Argilus. Tras el misterioso abandono de una colonia humana, el jugador deberá explorar entornos industriales y orgánicos resolviendo complejos puzles basados en lógica, lenguaje y tecnología alienígena. Destaca por su estructura narrativa dividida entre dos protagonistas y por su ambientación de ciencia ficción con escenarios prerenderizados.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Aventura grafica",
+      "Sci-Fi",
+      "Puzles",
+      "Friendware"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Wild Metal Country",
+    "url": "juegos/wild-metal-country-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Accion",
+      "Vehiculos",
+      "Ciencia ficcion"
+    ],
+    "desarrollador": [
+      "DMA Design"
+    ],
+    "distribuidor": [
+      "Gremlin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Wild Metal Country es un juego de accion en tercera persona centrado en combates con vehiculos armados en entornos abiertos. El jugador controla tanques futuristas equipados con distintos sistemas de armamento y debe enfrentarse a cazadores rivales en amplios escenarios alienigenas. Destaca por su fisica avanzada para la epoca, control independiente de torreta y soporte para aceleracion 3D.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Vehiculos",
+      "Accion",
+      "Sci-Fi",
+      "DMA Design"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "KA-52: Team Alligator",
+    "url": "juegos/ka-52-team-alligator-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Simulacion",
+      "Helicopteros",
+      "Combate"
+    ],
+    "desarrollador": [
+      "Simis"
+    ],
+    "distribuidor": [
+      "GT Interactive"
+    ],
+    "ean": [],
+    "descripcion": "KA-52: Team Alligator es un simulador de helicoptero de combate centrado en el aparato ruso Kamov Ka-52. El jugador participa en misiones tacticas dentro de la serie Team Combat, gestionando sistemas de vuelo, armamento y objetivos militares en escenarios realistas. Destaca por su enfoque en simulacion tecnica, modelado de vuelo detallado y soporte para aceleracion 3D.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Bigbox",
+      "Simulacion",
+      "Helicopteros",
+      "Militar",
+      "Team Combat Series"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "World of Warcraft: The Burning Crusade",
+    "url": "juegos/world-of-warcraft-the-burning-crusade/",
+    "plataforma": [
+      "Win2000",
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "MMORPG",
+      "Rol",
+      "Fantasia"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "The Burning Crusade es la primera expansion oficial de World of Warcraft. Introduce el continente de Terrallende, nuevas zonas, mazmorras y bandas, asi como las razas Elfo de Sangre y Draenei. Amplia el limite de nivel hasta 70 y añade nuevas mecanicas de juego dentro del entorno MMORPG ambientado en el universo Warcraft.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "World of Warcraft",
+      "cd/dvd"
+    ],
+    "tags": [
+      "World of Warcraft",
+      "Expansion",
+      "MMORPG",
+      "Blizzard"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "World of Warcraft",
+    "url": "juegos/world-of-warcraft/",
+    "plataforma": [
+      "Win2000",
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "MMORPG",
+      "Rol",
+      "Fantasia"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "World of Warcraft es un juego de rol multijugador masivo en linea ambientado en el universo Warcraft. Permite a miles de jugadores explorar Azeroth, completar misiones, combatir criaturas y participar en mazmorras y bandas cooperativas. Esta edicion corresponde al lanzamiento europeo en castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "World of Warcraft",
+      "cd/dvd"
+    ],
+    "tags": [
+      "World of Warcraft",
+      "MMORPG",
+      "Blizzard",
+      "Online"
+    ]
   }
 ]
