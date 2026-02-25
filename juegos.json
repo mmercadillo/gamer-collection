@@ -39496,5 +39496,216 @@
       "Blizzard",
       "Online"
     ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Star Wars: TIE Fighter - Coleccionistas del CD-ROM",
+    "url": "juegos/star-wars-tie-fighter-coleccionistas-del-cd-rom-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "genero": [
+      "Simulacion",
+      "Accion",
+      "Espacial"
+    ],
+    "desarrollador": [
+      "LucasArts"
+    ],
+    "distribuidor": [
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Edicion coleccionista en CD-ROM de Star Wars: TIE Fighter. Incluye el juego original, la expansion Defender of the Empire y misiones adicionales. Simulador espacial ambientado en el universo Star Wars donde el jugador pilota cazas imperiales al servicio del Imperio.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BigBox"
+    ],
+    "tags": [
+      "Star Wars",
+      "LucasArts",
+      "TIE Fighter",
+      "Simulador Espacial",
+      "Imperio"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Privateer 2: The Darkening",
+    "url": "juegos/privateer-2-the-darkening-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Simulacion",
+      "Accion",
+      "Espacial"
+    ],
+    "desarrollador": [
+      "Origin Systems"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Privateer 2: The Darkening es un simulador espacial ambientado en el universo Wing Commander. El jugador asume el papel de Lev Arris, un piloto con amnesia que debe abrirse camino en una galaxia hostil realizando misiones, comercio y combates espaciales. Esta edicion corresponde a la version española traducida y doblada al castellano.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BigBox"
+    ],
+    "tags": [
+      "Privateer",
+      "Wing Commander",
+      "Origin",
+      "Electronic Arts",
+      "Simulador Espacial",
+      "Doblado Castellano"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "FreeSpace 2",
+    "url": "juegos/freespace-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulacion",
+      "Accion",
+      "Espacial"
+    ],
+    "desarrollador": [
+      "Volition"
+    ],
+    "distribuidor": [
+      "Virgin Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "FreeSpace 2 es la secuela del galardonado simulador de combate espacial desarrollado por Volition. Ambientado en una guerra interestelar contra la amenaza Shivans, ofrece una campaña cinematografica, multiples cazas pilotables y combates espaciales a gran escala. Esta edicion corresponde a la version española en formato Big Box distribuida por Virgin Interactive España.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BigBox"
+    ],
+    "tags": [
+      "FreeSpace",
+      "Volition",
+      "Interplay",
+      "Simulador Espacial",
+      "Shivans"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "MechCommander 2",
+    "url": "juegos/mechcommander-2-bigbox/",
+    "plataforma": [
+      "Win98",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Tiempo real",
+      "Ciencia ficcion"
+    ],
+    "desarrollador": [
+      "FASA Studio"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [],
+    "descripcion": "MechCommander 2 es un juego de estrategia en tiempo real ambientado en el universo BattleTech. El jugador lidera una unidad de Mechs en misiones tacticas sobre el terreno, gestionando recursos, configurando armamento y coordinando ataques en combate. Esta edicion corresponde a la version distribuida por Microsoft en formato Big Box, con manual en español y software en ingles.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BigBox"
+    ],
+    "tags": [
+      "MechCommander",
+      "BattleTech",
+      "MechWarrior",
+      "Microsoft",
+      "RTS",
+      "Mechs"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Toro - El Juli presenta: Arte y Pasion en la Arena",
+    "url": "juegos/toro-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulacion",
+      "Deportes"
+    ],
+    "desarrollador": [
+      "Ubisoft"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Toro - El Juli presenta: Arte y Pasion en la Arena es un simulador de tauromaquia para PC en el que el jugador asume el papel de un torero participando en distintas plazas y enfrentandose a diversos toros. Incluye modos de entrenamiento, gestion de carrera y recreaciones de festejos taurinos. Esta edicion corresponde al formato Big Box distribuido por Ubisoft para el mercado español.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BigBox"
+    ],
+    "tags": [
+      "Toro",
+      "El Juli",
+      "Ubisoft",
+      "Tauromaquia",
+      "Simulador",
+      "España"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Flanker 2.0 - The Combat Flight Simulator",
+    "url": "juegos/flanker-2-0-the-combat-flight-simulator-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulacion",
+      "Vuelo",
+      "Militar"
+    ],
+    "desarrollador": [
+      "Eagle Dynamics"
+    ],
+    "distribuidor": [
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Flanker 2.0 es un simulador de combate aereo desarrollado por Eagle Dynamics dentro de la Digital Combat Series. Centrado en el Su-27 Flanker, ofrece un modelo de vuelo avanzado, sistemas de armamento detallados y escenarios basados en datos reales. Esta edicion corresponde a la version Big Box distribuida en España por Proein, con manual en castellano y software en ingles.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "BigBox"
+    ],
+    "tags": [
+      "Flanker",
+      "Eagle Dynamics",
+      "SSI",
+      "Simulador Aereo",
+      "Su-27",
+      "Digital Combat Series"
+    ]
   }
 ]
