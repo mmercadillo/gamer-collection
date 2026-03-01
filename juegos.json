@@ -39707,5 +39707,562 @@
       "Su-27",
       "Digital Combat Series"
     ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Battlefield Vietnam",
+    "url": "juegos/battlefield-vietnam-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Shooter",
+      "FPS",
+      "Acción",
+      "Guerra"
+    ],
+    "desarrollador": "Digital Illusions CE (DICE)",
+    "distribuidor": "Electronic Arts",
+    "ean": "",
+    "descripcion": "Shooter en primera persona ambientado en la Guerra de Vietnam. Combates multijugador con vehículos terrestres, helicópteros y lanchas, dentro de la saga Battlefield.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Multijugador",
+      "Guerra de Vietnam",
+      "Vehículos",
+      "EA",
+      "DICE"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Spider-Man",
+    "url": "juegos/spider-man-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinME"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Plataformas"
+    ],
+    "desarrollador": "Neversoft",
+    "distribuidor": "Activision",
+    "ean": "",
+    "descripcion": "Adaptación para PC del juego de acción protagonizado por Spider-Man. Combina exploración, combate y secuencias narrativas basadas en el universo Marvel, con doblaje original y múltiples villanos clásicos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Marvel",
+      "Superhéroes",
+      "Neversoft",
+      "Activision",
+      "Licencia"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Spider-Man",
+    "url": "juegos/spider-man-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Plataformas"
+    ],
+    "desarrollador": "Neversoft",
+    "distribuidor": "Activision",
+    "ean": "",
+    "descripcion": "Adaptación para PC del juego de acción protagonizado por Spider-Man. Combina exploración, combate y secuencias narrativas basadas en el universo Marvel, con múltiples villanos clásicos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Marvel",
+      "Superhéroes",
+      "Neversoft",
+      "Activision"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Scarface: The World Is Yours",
+    "url": "juegos/scarface-the-world-is-yours-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Mundo abierto"
+    ],
+    "desarrollador": "Radical Entertainment",
+    "distribuidor": "Sierra Entertainment",
+    "ean": "",
+    "descripcion": "Juego de acción en tercera persona basado en la película Scarface. El jugador controla a Tony Montana en una historia alternativa tras el final del film, reconstruyendo su imperio criminal en Miami mediante misiones, comercio y combates.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Película",
+      "Crimen",
+      "Mundo abierto",
+      "Radical Entertainment",
+      "Sierra"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "FIFA Football 2002",
+    "url": "juegos/fifa-football-2002-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Simulación"
+    ],
+    "desarrollador": "EA Canada",
+    "distribuidor": "Electronic Arts",
+    "ean": "",
+    "descripcion": "Entrega anual de la saga FIFA desarrollada por EA Sports. Incluye licencias oficiales de selecciones y clubes, mejoras en la física del balón y un sistema de juego más táctico respecto a ediciones anteriores.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "EA Sports"
+    ],
+    "tags": [
+      "EA Sports",
+      "FIFA",
+      "Fútbol",
+      "Deportes",
+      "Licencias oficiales"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "F1 2001",
+    "url": "juegos/f1-2001-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Deportes",
+      "Simulación",
+      "Carreras"
+    ],
+    "desarrollador": "Image Space Incorporated",
+    "distribuidor": "Electronic Arts",
+    "ean": "",
+    "descripcion": "Simulador oficial del Campeonato Mundial de Fórmula 1 2001. Incluye pilotos, escuderías y circuitos oficiales de la temporada, con enfoque realista en física y reglamentación.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "EA Sports"
+    ],
+    "tags": [
+      "Fórmula 1",
+      "EA Sports",
+      "Simulación",
+      "Carreras",
+      "Classics"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "NBA 2K11",
+    "url": "juegos/nba-2k11-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Deportes",
+      "Baloncesto",
+      "Simulación"
+    ],
+    "desarrollador": "Visual Concepts",
+    "distribuidor": "2K Sports",
+    "ean": "",
+    "descripcion": "Entrega de la saga NBA 2K centrada en la figura de Michael Jordan, incluyendo el modo Jordan Challenge con partidos históricos recreados. Destaca por su realismo en físicas y presentación televisiva.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "NBA",
+      "Michael Jordan",
+      "2K Sports",
+      "Baloncesto",
+      "Jordan Challenge"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Operation Flashpoint: Red River",
+    "url": "juegos/operation-flashpoint-red-river-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Shooter",
+      "FPS",
+      "Simulación militar",
+      "Táctico"
+    ],
+    "desarrollador": "Codemasters",
+    "distribuidor": "Codemasters",
+    "ean": "",
+    "descripcion": "Shooter táctico ambientado en un conflicto ficticio en Tayikistán. Enfocado en el realismo militar y el trabajo en escuadra, ofrece campaña cooperativa y mecánicas estratégicas dentro de la saga Operation Flashpoint.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Games for windows"
+    ],
+    "tags": [
+      "Militar",
+      "Táctico",
+      "Codemasters",
+      "Games for Windows Live",
+      "Cooperativo"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "NBA 2K10",
+    "url": "juegos/nba-2k10-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Deportes",
+      "Baloncesto",
+      "Simulación"
+    ],
+    "desarrollador": "Visual Concepts",
+    "distribuidor": "2K Sports",
+    "ean": "",
+    "descripcion": "Entrega de la saga NBA 2K correspondiente a la temporada 2009-2010. Incluye mejoras en inteligencia artificial, presentación televisiva y modos de juego ampliados, con Kobe Bryant como imagen de portada.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "NBA",
+      "Kobe Bryant",
+      "2K Sports",
+      "Baloncesto",
+      "Temporada 2009-2010"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Cultures 2",
+    "url": "juegos/cultures-2-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "RTS",
+      "Gestión"
+    ],
+    "desarrollador": "Funatics Development",
+    "distribuidor": "JoWooD Productions",
+    "ean": "",
+    "descripcion": "Juego de estrategia en tiempo real ambientado en la era vikinga. El jugador gestiona aldeas, recursos y unidades en campañas centradas en exploración, comercio y combate táctico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Zeta Games"
+    ],
+    "tags": [
+      "Vikingos",
+      "RTS",
+      "Gestión",
+      "JoWooD",
+      "ZetaGames"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Kane & Lynch 2: Dog Days",
+    "url": "juegos/kane-and-lynch-2-dog-days-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Tercera persona"
+    ],
+    "desarrollador": "IO Interactive",
+    "distribuidor": "Square Enix",
+    "ean": "",
+    "descripcion": "Shooter en tercera persona ambientado en Shanghái que sigue la historia criminal de Kane y Lynch. Destaca por su estilo visual crudo tipo cámara digital y su enfoque narrativo intenso.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Crimen",
+      "Shooter",
+      "IO Interactive",
+      "Eidos",
+      "Square Enix"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Grand Theft Auto III",
+    "url": "juegos/grand-theft-auto-iii-2-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Mundo abierto"
+    ],
+    "desarrollador": "DMA Design",
+    "distribuidor": "Rockstar Games",
+    "ean": "",
+    "descripcion": "Tercera entrega principal de la saga Grand Theft Auto y primera en adoptar un entorno completamente tridimensional. Ambientado en Liberty City, revolucionó el concepto de mundo abierto combinando narrativa criminal, exploración libre y misiones no lineales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "GTA",
+      "Rockstar",
+      "Mundo abierto",
+      "Liberty City",
+      "Sandbox"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Grand Theft Auto IV",
+    "url": "juegos/grand-theft-auto-iv-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Mundo abierto"
+    ],
+    "desarrollador": "Rockstar North",
+    "distribuidor": "Rockstar Games",
+    "ean": "",
+    "descripcion": "Cuarta entrega principal de la saga Grand Theft Auto. Ambientado en Liberty City, sigue la historia de Niko Bellic en una narrativa más madura y realista, con un motor gráfico renovado y un mundo abierto detallado.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Games for windows"
+    ],
+    "tags": [
+      "GTA",
+      "Rockstar",
+      "Liberty City",
+      "Mundo abierto",
+      "Games for Windows Live"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Call of Duty 4: Modern Warfare (Edición Juego del Año)",
+    "url": "juegos/call-of-duty-4-modern-warfare-2-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "genero": [
+      "Shooter",
+      "FPS",
+      "Acción",
+      "Militar"
+    ],
+    "desarrollador": "Infinity Ward",
+    "distribuidor": "Activision",
+    "ean": "",
+    "descripcion": "Shooter en primera persona que trasladó la saga Call of Duty a la guerra moderna. La edición Juego del Año incluye mapas multijugador adicionales y consolidó el éxito del modo online competitivo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Call of Duty",
+      "Modern Warfare",
+      "Infinity Ward",
+      "FPS",
+      "Multijugador"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Hitman Trilogy",
+    "url": "juegos/hitman-trilogy-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Sigilo",
+      "Shooter",
+      "Tercera persona"
+    ],
+    "desarrollador": "IO Interactive",
+    "distribuidor": "Eidos Interactive",
+    "ean": "",
+    "descripcion": "Recopilación que incluye tres entregas de la saga Hitman: Hitman 2, Hitman: Contracts y Hitman: Blood Money. El jugador encarna al Agente 47 en misiones de asesinato basadas en sigilo, planificación y múltiples enfoques.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Hitman",
+      "IO Interactive",
+      "Eidos",
+      "Sigilo",
+      "Recopilatorio"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "The Entente: World War I Battlefields",
+    "url": "juegos/the-entente-world-war-i-battlefields-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "RTS",
+      "Guerra"
+    ],
+    "desarrollador": "Lesta Studio",
+    "distribuidor": "Buka Entertainment",
+    "ean": "",
+    "descripcion": "Juego de estrategia en tiempo real ambientado en la Primera Guerra Mundial. Permite controlar distintas potencias del conflicto, gestionando recursos, infantería, artillería y unidades aéreas en escenarios históricos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Primera Guerra Mundial",
+      "RTS",
+      "Estrategia",
+      "Lesta Studio",
+      "Buka"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Colección Julio Verne: Viaje al Centro de la Luna",
+    "url": "juegos/coleccion-julio-verne-viaje-al-centro-de-la-luna-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Aventura",
+      "Point & Click",
+      "Educativo"
+    ],
+    "desarrollador": "Cryo Interactive",
+    "distribuidor": "DreamCatcher Interactive",
+    "ean": "",
+    "descripcion": "Aventura gráfica basada en la obra de Julio Verne. Combina exploración, resolución de puzles y narrativa interactiva ambientada en el universo literario del autor.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Julio Verne",
+      "Aventura gráfica",
+      "Literatura",
+      "Point and Click",
+      "Cryo"
+    ]
   }
 ]
