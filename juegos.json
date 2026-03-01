@@ -40264,5 +40264,202 @@
       "Point and Click",
       "Cryo"
     ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "James Bond 007: Nightfire",
+    "url": "juegos/james-bond-007-nightfire-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Shooter",
+      "FPS",
+      "Acción"
+    ],
+    "desarrollador": "Gearbox Software",
+    "distribuidor": "Electronic Arts",
+    "ean": "",
+    "descripcion": "Shooter en primera persona protagonizado por James Bond. Combina misiones de acción, infiltración y conducción de vehículos con un enfoque cinematográfico característico de la franquicia 007.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "EA Games Classics"
+    ],
+    "tags": [
+      "James Bond",
+      "007",
+      "Gearbox",
+      "FPS",
+      "EA Classics"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Project: Snowblind",
+    "url": "juegos/project-snowblind-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Shooter",
+      "FPS",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": "Crystal Dynamics",
+    "distribuidor": "Eidos Interactive",
+    "ean": "",
+    "descripcion": "Shooter en primera persona ambientado en un conflicto futurista. Combina combate armado con mejoras cibernéticas del protagonista que permiten habilidades especiales durante la acción.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "FPS",
+      "Ciencia ficción",
+      "Crystal Dynamics",
+      "Eidos",
+      "Futurista"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Immortal Cities: Los Niños del Nilo",
+    "url": "juegos/immortal-cities-los-ninos-del-nilo-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Estrategia",
+      "Construcción de ciudades",
+      "Simulación histórica"
+    ],
+    "desarrollador": "Tilted Mill Entertainment",
+    "distribuidor": "Atari",
+    "ean": "8436019770046",
+    "descripcion": "Juego de estrategia y construcción ambientado en el Antiguo Egipto. El jugador gestiona recursos, población y desarrollo urbano a lo largo del Nilo, con un enfoque detallado en la vida individual de los habitantes.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Best of Atari"
+    ],
+    "tags": [
+      "Egipto",
+      "City Builder",
+      "Estrategia histórica",
+      "Best of Atari",
+      "Gestión"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Attack on Pearl Harbor",
+    "url": "juegos/attack-on-pearl-harbor-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Simulación",
+      "Acción",
+      "Bélico",
+      "Simulador de vuelo"
+    ],
+    "desarrollador": "3Division",
+    "distribuidor": "Legendio",
+    "ean": "",
+    "descripcion": "Juego de acción aérea ambientado en la Segunda Guerra Mundial. El jugador pilota distintos aviones en misiones inspiradas en el ataque a Pearl Harbor y el conflicto en el Pacífico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Segunda Guerra Mundial",
+      "Pearl Harbor",
+      "Simulador aéreo",
+      "WWII",
+      "Aviación"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Far Cry 5",
+    "url": "juegos/far-cry-5-cddvd/",
+    "plataforma": [
+      "Win7",
+      "Win8",
+      "Win10"
+    ],
+    "genero": [
+      "Shooter",
+      "FPS",
+      "Acción",
+      "Mundo abierto"
+    ],
+    "desarrollador": "Ubisoft Montreal",
+    "distribuidor": "Ubisoft",
+    "ean": "",
+    "descripcion": "Shooter en primera persona de mundo abierto ambientado en Hope County, Montana. El jugador se enfrenta a una secta apocalíptica mientras explora libremente el entorno y completa misiones principales y secundarias.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Ubisoft",
+      "Far Cry",
+      "Mundo abierto",
+      "Shooter moderno",
+      "Edición física PC"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Nina: Agent Chronicles",
+    "url": "juegos/nina-agent-chronicles-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Tercera persona"
+    ],
+    "desarrollador": "City Interactive",
+    "distribuidor": "City Interactive",
+    "ean": "",
+    "descripcion": "Juego de acción en tercera persona protagonizado por una agente secreta. Combina combate armado y misiones de infiltración en escenarios de corte moderno.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Agente secreta",
+      "Acción",
+      "City Interactive",
+      "Shooter clásico PC",
+      "Espionaje"
+    ]
   }
 ]
