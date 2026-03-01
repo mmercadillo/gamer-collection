@@ -64,24 +64,10 @@
     .nav a:hover{ background:#f7f7f7; border-color:var(--bd); }
     .nav a.active{ background:#f7f7f7; border-color:var(--bd); }
 
-    /* ===== Buscador (colapsable en móvil) ===== */
-    .filters{ background:var(--w); border-bottom:1px solid var(--bd); }
-    .filters > .wrap{ padding-top:10px; padding-bottom:10px; }
-    details.filters-panel{ border:1px solid var(--bd); border-radius:14px; background:#fff; overflow:hidden; }
-    details.filters-panel[open]{ box-shadow:0 1px 0 rgba(0,0,0,.04); }
-    details.filters-panel summary{
-      list-style:none; cursor:pointer; user-select:none;
-      padding:12px 14px; font-weight:900; display:flex; align-items:center; justify-content:space-between;
-    }
-    details.filters-panel summary::-webkit-details-marker{ display:none; }
-    details.filters-panel summary .hint{ font-weight:600; color:var(--g); font-size:12px; }
-    details.filters-panel summary:after{ content:"▾"; color:var(--g); font-size:12px; }
-    details.filters-panel[open] summary:after{ content:"▴"; }
-
+    /* ===== Buscador ===== */
     .searchbar{
-      padding:12px 14px 14px;
+      padding:14px 0 16px; border-top:1px solid var(--bd);
       display:flex; gap:10px; align-items:stretch; flex-wrap:wrap;
-      border-top:1px solid var(--bd);
     }
     .field{ display:flex; flex-direction:column; gap:6px; min-width:180px; flex:1; }
     .field.wide{ flex:2; min-width:260px; }
@@ -153,8 +139,6 @@
     @media (max-width: 700px){
       .grid{ grid-template-columns: repeat(2, 1fr);}
       .actions{ min-width:100%; }
-      /* En móvil evitamos sensación de “pantalla ocupada” */
-      header{ position:static; }
     }
 
     .card{
@@ -205,48 +189,38 @@
         <a href="mailto:info@pcgamearchive.org">info@pcgamearchive.org</a>
       </nav>
     </div>
+
+    <div class="searchbar" role="search" aria-label="Buscador">
+      <div class="field wide">
+        <label for="q">Título</label>
+        <input id="q" type="search" placeholder="Buscar… (p. ej. Dune, Commandos, Doom)" autocomplete="off" />
+      </div>
+
+      <div class="field">
+        <label for="plataforma">Plataforma</label>
+        <div class="select-wrap"><select id="plataforma"></select></div>
+      </div>
+
+      <div class="field">
+        <label for="genero">Género</label>
+        <div class="select-wrap"><select id="genero"></select></div>
+      </div>
+
+      <div class="field">
+        <label for="serie">Serie</label>
+        <div class="select-wrap"><select id="serie"></select></div>
+      </div>
+
+      <div class="actions">
+        <button id="btnBuscar" type="button">Buscar</button>
+        <button id="btnLimpiar" class="secondary" type="button">Limpiar</button>
+      </div>
+    </div>
+    <div class="status wrap" style="padding:0 0 10px;">
+      <span class="count">Tip: puedes compartir un listado filtrado: la URL se actualiza con filtros y paginación.</span>
+    </div>
   </div>
 </header>
-
-<section class="filters" aria-label="Buscador y filtros">
-  <div class="wrap">
-    <details class="filters-panel" id="filtersPanel">
-      <summary>
-        <span>Buscar y filtrar</span>
-        <span class="hint" id="filtersHint">toca para abrir</span>
-      </summary>
-      <div class="searchbar" role="search" aria-label="Buscador">
-        <div class="field wide">
-          <label for="q">Título</label>
-          <input id="q" type="search" placeholder="Buscar… (p. ej. Dune, Commandos, Doom)" autocomplete="off" />
-        </div>
-
-        <div class="field">
-          <label for="plataforma">Plataforma</label>
-          <div class="select-wrap"><select id="plataforma"></select></div>
-        </div>
-
-        <div class="field">
-          <label for="genero">Género</label>
-          <div class="select-wrap"><select id="genero"></select></div>
-        </div>
-
-        <div class="field">
-          <label for="serie">Serie</label>
-          <div class="select-wrap"><select id="serie"></select></div>
-        </div>
-
-        <div class="actions">
-          <button id="btnBuscar" type="button">Buscar</button>
-          <button id="btnLimpiar" class="secondary" type="button">Limpiar</button>
-        </div>
-      </div>
-      <div class="status" style="padding:0 14px 12px;">
-        <span class="count">Tip: puedes compartir un listado filtrado: la URL se actualiza con filtros y paginación.</span>
-      </div>
-    </details>
-  </div>
-</section>
 
 <main>
   <div class="wrap">
@@ -324,35 +298,6 @@
       const href = (a.getAttribute("href") || "").toLowerCase();
       if (href === current) a.classList.add("active");
     });
-  })();
-
-  /* ===== FILTROS: abiertos por defecto en escritorio, colapsables en móvil ===== */
-  (function initFiltersPanel(){
-    const panel = document.getElementById("filtersPanel");
-    const hint = document.getElementById("filtersHint");
-    if (!panel) return;
-
-    const mq = window.matchMedia("(min-width: 701px)");
-
-    function sync(){
-      // En escritorio: abierto; en móvil: cerrado (si no hay interacción previa)
-      if (mq.matches) panel.open = true;
-      else if (!panel.dataset.userToggled) panel.open = false;
-
-      if (hint){
-        hint.textContent = panel.open ? "" : "toca para abrir";
-      }
-    }
-
-    panel.addEventListener("toggle", () => {
-      panel.dataset.userToggled = "1";
-      if (hint){ hint.textContent = panel.open ? "" : "toca para abrir"; }
-    });
-
-    if (mq.addEventListener) mq.addEventListener("change", sync);
-    else mq.addListener(sync); // compat
-
-    sync();
   })();
 
   const state = {

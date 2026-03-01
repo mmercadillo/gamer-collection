@@ -13,32 +13,7 @@
   </script>
 
   <title>PC Game Archive</title>
-  <meta name="description" content="PC Game Archive: archivo físico de videojuegos de PC. Buscador por título, plataforma, género y serie." />
-
-<link rel="canonical" href="https://pcgamearchive.org/" />
-<meta name="robots" content="index,follow" />
-<meta name="theme-color" content="#111111" />
-
-<!-- Open Graph / Social -->
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="PC Game Archive" />
-<meta property="og:title" content="PC Game Archive" />
-<meta property="og:description" content="Archivo físico de videojuegos de PC. Buscador por título, plataforma, género y serie." />
-<meta property="og:url" content="https://pcgamearchive.org/" />
-<meta property="og:image" content="https://pcgamearchive.org/og/og-image.png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="PC Game Archive" />
-<meta name="twitter:description" content="Archivo físico de videojuegos de PC. Big Box · MS-DOS · Windows. Preservando ediciones españolas." />
-<meta name="twitter:image" content="https://pcgamearchive.org/og/og-image.png" />
-
-<!-- Icons (add the files later) -->
-<link rel="icon" href="/favicon.ico" sizes="any" />
-<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/site.webmanifest" />
+  <meta name="description" content="PC Game Archive. Buscador por título, plataforma, género y serie." />
   <style>
     :root { --b:#111; --g:#666; --bd:#e6e6e6; --bg:#fafafa; --w:#fff; }
     *{ box-sizing:border-box; }
@@ -49,11 +24,7 @@
     header{ background:var(--w); border-bottom:1px solid var(--bd); position:sticky; top:0; z-index:20; }
     .wrap{ max-width:1200px; margin:0 auto; padding:0 16px; }
     .row{ display:flex; justify-content:space-between; align-items:center; gap:14px; padding:14px 0; }
-    .brand{ display:flex; align-items:center; gap:12px; }
-    .brandtext{ display:flex; flex-direction:column; gap:2px; }
-    .logo{ width:42px; height:42px; border-radius:10px; overflow:hidden; flex:0 0 auto; box-shadow:0 1px 0 rgba(0,0,0,.04); }
-    .logo svg{ width:100%; height:100%; display:block; }
-
+    .brand{ display:flex; flex-direction:column; gap:2px; }
     .brand strong{ font-size:18px; letter-spacing:.2px; }
     .brand span{ color:var(--g); font-size:12px; }
     .nav{ display:flex; gap:6px; flex-wrap:wrap; justify-content:flex-end; }
@@ -64,24 +35,10 @@
     .nav a:hover{ background:#f7f7f7; border-color:var(--bd); }
     .nav a.active{ background:#f7f7f7; border-color:var(--bd); }
 
-    /* ===== Buscador (colapsable en móvil) ===== */
-    .filters{ background:var(--w); border-bottom:1px solid var(--bd); }
-    .filters > .wrap{ padding-top:10px; padding-bottom:10px; }
-    details.filters-panel{ border:1px solid var(--bd); border-radius:14px; background:#fff; overflow:hidden; }
-    details.filters-panel[open]{ box-shadow:0 1px 0 rgba(0,0,0,.04); }
-    details.filters-panel summary{
-      list-style:none; cursor:pointer; user-select:none;
-      padding:12px 14px; font-weight:900; display:flex; align-items:center; justify-content:space-between;
-    }
-    details.filters-panel summary::-webkit-details-marker{ display:none; }
-    details.filters-panel summary .hint{ font-weight:600; color:var(--g); font-size:12px; }
-    details.filters-panel summary:after{ content:"▾"; color:var(--g); font-size:12px; }
-    details.filters-panel[open] summary:after{ content:"▴"; }
-
+    /* ===== Buscador ===== */
     .searchbar{
-      padding:12px 14px 14px;
+      padding:14px 0 16px; border-top:1px solid var(--bd);
       display:flex; gap:10px; align-items:stretch; flex-wrap:wrap;
-      border-top:1px solid var(--bd);
     }
     .field{ display:flex; flex-direction:column; gap:6px; min-width:180px; flex:1; }
     .field.wide{ flex:2; min-width:260px; }
@@ -153,8 +110,6 @@
     @media (max-width: 700px){
       .grid{ grid-template-columns: repeat(2, 1fr);}
       .actions{ min-width:100%; }
-      /* En móvil evitamos sensación de “pantalla ocupada” */
-      header{ position:static; }
     }
 
     .card{
@@ -183,70 +138,47 @@
   <div class="wrap">
     <div class="row">
       <div class="brand" role="banner">
-
-<div class="logo" aria-hidden="true">
-  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img">
-    <rect width="100" height="100" rx="16" fill="#111"/>
-    <text x="50" y="46" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44" font-weight="800" fill="#fff">PC</text>
-    <text x="50" y="70" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">GAME</text>
-    <text x="50" y="88" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">ARCHIVE</text>
-  </svg>
-</div>
-        <div class="brandtext">
-          <strong>PC Game Archive</strong>
-          <span>Listado y buscador</span>
-        </div>
+        <strong>PC Game Archive</strong>
+        <span>Listado y buscador</span>
       </div>
       <nav class="nav" aria-label="Navegación principal">
         <a href="index.html">Inicio</a>
         <a href="series.html">Series</a>
         <a href="contacto.html">Contacto</a>
-        <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
-        <a href="mailto:info@pcgamearchive.org">info@pcgamearchive.org</a>
       </nav>
+    </div>
+
+    <div class="searchbar" role="search" aria-label="Buscador">
+      <div class="field wide">
+        <label for="q">Título</label>
+        <input id="q" type="search" placeholder="Buscar… (p. ej. Dune, Commandos, Doom)" autocomplete="off" />
+      </div>
+
+      <div class="field">
+        <label for="plataforma">Plataforma</label>
+        <div class="select-wrap"><select id="plataforma"></select></div>
+      </div>
+
+      <div class="field">
+        <label for="genero">Género</label>
+        <div class="select-wrap"><select id="genero"></select></div>
+      </div>
+
+      <div class="field">
+        <label for="serie">Serie</label>
+        <div class="select-wrap"><select id="serie"></select></div>
+      </div>
+
+      <div class="actions">
+        <button id="btnBuscar" type="button">Buscar</button>
+        <button id="btnLimpiar" class="secondary" type="button">Limpiar</button>
+      </div>
+    </div>
+    <div class="status wrap" style="padding:0 0 10px;">
+      <span class="count">Tip: puedes compartir un listado filtrado: la URL se actualiza con filtros y paginación.</span>
     </div>
   </div>
 </header>
-
-<section class="filters" aria-label="Buscador y filtros">
-  <div class="wrap">
-    <details class="filters-panel" id="filtersPanel">
-      <summary>
-        <span>Buscar y filtrar</span>
-        <span class="hint" id="filtersHint">toca para abrir</span>
-      </summary>
-      <div class="searchbar" role="search" aria-label="Buscador">
-        <div class="field wide">
-          <label for="q">Título</label>
-          <input id="q" type="search" placeholder="Buscar… (p. ej. Dune, Commandos, Doom)" autocomplete="off" />
-        </div>
-
-        <div class="field">
-          <label for="plataforma">Plataforma</label>
-          <div class="select-wrap"><select id="plataforma"></select></div>
-        </div>
-
-        <div class="field">
-          <label for="genero">Género</label>
-          <div class="select-wrap"><select id="genero"></select></div>
-        </div>
-
-        <div class="field">
-          <label for="serie">Serie</label>
-          <div class="select-wrap"><select id="serie"></select></div>
-        </div>
-
-        <div class="actions">
-          <button id="btnBuscar" type="button">Buscar</button>
-          <button id="btnLimpiar" class="secondary" type="button">Limpiar</button>
-        </div>
-      </div>
-      <div class="status" style="padding:0 14px 12px;">
-        <span class="count">Tip: puedes compartir un listado filtrado: la URL se actualiza con filtros y paginación.</span>
-      </div>
-    </details>
-  </div>
-</section>
 
 <main>
   <div class="wrap">
@@ -310,7 +242,7 @@
 <footer>
   <div class="wrap">
     <div class="footrow">
-      <p class="count" style="margin:0;">PC Game Archive · <a href="mailto:info@pcgamearchive.org">info@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+      <p class="count" style="margin:0;">PC Game Archive</p>
       <a class="to-top" href="#top">Subir</a>
     </div>
   </div>
@@ -324,35 +256,6 @@
       const href = (a.getAttribute("href") || "").toLowerCase();
       if (href === current) a.classList.add("active");
     });
-  })();
-
-  /* ===== FILTROS: abiertos por defecto en escritorio, colapsables en móvil ===== */
-  (function initFiltersPanel(){
-    const panel = document.getElementById("filtersPanel");
-    const hint = document.getElementById("filtersHint");
-    if (!panel) return;
-
-    const mq = window.matchMedia("(min-width: 701px)");
-
-    function sync(){
-      // En escritorio: abierto; en móvil: cerrado (si no hay interacción previa)
-      if (mq.matches) panel.open = true;
-      else if (!panel.dataset.userToggled) panel.open = false;
-
-      if (hint){
-        hint.textContent = panel.open ? "" : "toca para abrir";
-      }
-    }
-
-    panel.addEventListener("toggle", () => {
-      panel.dataset.userToggled = "1";
-      if (hint){ hint.textContent = panel.open ? "" : "toca para abrir"; }
-    });
-
-    if (mq.addEventListener) mq.addEventListener("change", sync);
-    else mq.addListener(sync); // compat
-
-    sync();
   })();
 
   const state = {
