@@ -34448,14 +34448,16 @@
       "Creative Reality"
     ],
     "distribuidor": [
-      "Empire Interactive"
+      "Empire Interactive",
+      "Arcadia Software"
     ],
     "ean": [],
     "descripcion": "DreamWeb es una aventura gráfica de ciencia ficción lanzada en 1994 para MS-DOS. Desarrollada por Creative Reality y distribuida por Empire Interactive, destaca por su ambientación cyberpunk oscura, violencia explícita y una narrativa en forma de diario psicológico del protagonista, Ryan, un camarero atormentado por visiones apocalípticas. El juego emplea una inusual vista cenital y se acompaña en su edición original de un diario físico que aporta profundidad al argumento. Su edición en caja grande, especialmente la versión en disquetes en español, es hoy una auténtica pieza de coleccionismo.",
     "incluye": [],
     "serie": [
       "Todos",
-      "Bigbox"
+      "Bigbox",
+      "Disquette 3.5"
     ],
     "tags": [
       "Bigbox",
@@ -39521,7 +39523,7 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BigBox"
+      "Bigbox"
     ],
     "tags": [
       "Star Wars",
@@ -39555,7 +39557,7 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BigBox"
+      "Bigbox"
     ],
     "tags": [
       "Privateer",
@@ -39591,7 +39593,7 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BigBox"
+      "Bigbox"
     ],
     "tags": [
       "FreeSpace",
@@ -39626,7 +39628,7 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BigBox"
+      "Bigbox"
     ],
     "tags": [
       "MechCommander",
@@ -39661,7 +39663,7 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BigBox"
+      "Bigbox"
     ],
     "tags": [
       "Toro",
@@ -39697,7 +39699,7 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BigBox"
+      "Bigbox"
     ],
     "tags": [
       "Flanker",
@@ -40460,6 +40462,164 @@
       "City Interactive",
       "Shooter clásico PC",
       "Espionaje"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Odisea: La Búsqueda de Ulises",
+    "url": "juegos/odisea-la-busqueda-de-ulises-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "genero": [
+      "Aventura gráfica"
+    ],
+    "desarrollador": "Cryo Interactive",
+    "distribuidor": "Friendware",
+    "ean": "",
+    "descripcion": "Aventura gráfica en 3D inspirada en la mitología griega y en los relatos de Homero. El jugador encarna a Heritias en su viaje por el mar Egeo en busca de Ulises, enfrentándose a criaturas míticas y explorando escenarios reconstruidos con motor 3D en tiempo real.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Mitología griega",
+      "Grecia clásica",
+      "Cryo",
+      "Aventura 3D",
+      "Edición española",
+      "Friendware"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Star Wars: Rebellion",
+    "url": "juegos/star-wars-rebellion-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia",
+      "Simulación"
+    ],
+    "desarrollador": "Coolhand Interactive",
+    "distribuidor": "LucasArts",
+    "ean": "",
+    "descripcion": "Juego de estrategia a gran escala ambientado en el universo de Star Wars. El jugador puede liderar la Alianza Rebelde o el Imperio Galáctico, gestionando recursos, diplomacia, investigación y flotas espaciales en tiempo real, con batallas en 3D y control de más de 200 sistemas planetarios.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Star Wars",
+      "LucasArts",
+      "Estrategia espacial",
+      "Gestión",
+      "Tiempo real",
+      "Edición española",
+      "Doblado al castellano"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Throne of Darkness",
+    "url": "juegos/throne-of-darkness-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Rol",
+      "Acción RPG"
+    ],
+    "desarrollador": "Click Entertainment",
+    "distribuidor": "Sierra",
+    "ean": "",
+    "descripcion": "Action RPG ambientado en el Japón feudal inspirado en la mitología japonesa. El jugador controla a siete samuráis con habilidades diferenciadas, gestionando combate táctico en tiempo real, progresión de personajes y equipamiento en escenarios oscuros y sobrenaturales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Samuráis",
+      "Mitología japonesa",
+      "Sierra",
+      "Action RPG",
+      "Edición española",
+      "Click Entertainment"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Starsiege Universe",
+    "url": "juegos/starsiege-universe-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulación",
+      "Acción",
+      "FPS"
+    ],
+    "desarrollador": "Dynamix",
+    "distribuidor": "Sierra",
+    "ean": "3348542021334",
+    "descripcion": "Pack que incluye Starsiege y Starsiege: Tribes. Combina simulación de combate en 3D con acción multijugador en primera persona ambientada en el universo Starsiege. Incluye campañas individuales, combate táctico con mechs y experiencia multijugador online.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Mechs",
+      "FPS",
+      "Multijugador",
+      "Dynamix",
+      "Sierra",
+      "Edición española",
+      "Bundle"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Sid Meier's Civilization III",
+    "url": "juegos/sid-meiers-civilization-iii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "genero": [
+      "Estrategia",
+      "Turnos"
+    ],
+    "desarrollador": "Firaxis Games",
+    "distribuidor": "Infogrames",
+    "ean": "3546430022337",
+    "descripcion": "Tercera entrega de la saga Civilization. Juego de estrategia por turnos en el que el jugador guía una civilización desde la Antigüedad hasta la era moderna, gestionando diplomacia, investigación tecnológica, expansión territorial y conflictos militares con múltiples condiciones de victoria.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Civilization",
+      "Sid Meier",
+      "Estrategia por turnos",
+      "4X",
+      "Firaxis",
+      "Edición española"
     ]
   }
 ]
