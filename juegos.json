@@ -40621,5 +40621,132 @@
       "Firaxis",
       "Edición española"
     ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Odisea: La Búsqueda de Ulises",
+    "url": "juegos/odisea-la-busqueda-de-ulises-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Aventura",
+      "Aventura gráfica"
+    ],
+    "desarrollador": "Cryo Interactive",
+    "distribuidor": "Friendware",
+    "ean": "",
+    "descripcion": "Aventura ambientada en la mitología griega en la que el jugador encarna a Heritias, enviado por Penélope para encontrar a Ulises tras la guerra de Troya. El juego combina exploración, resolución de enigmas y encuentros con criaturas míticas mientras se recorren distintas islas del mar Egeo y el inframundo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Mitología griega",
+      "Cryo",
+      "Cryo Legends",
+      "Aventura",
+      "Edición española",
+      "Friendware"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Battleground: Napoleon in Russia 1812",
+    "url": "juegos/battleground-napoleon-in-russia-1812-bigbox/",
+    "plataforma": [
+      "Win31",
+      "Win95"
+    ],
+    "genero": [
+      "Estrategia",
+      "Wargame",
+      "Turnos"
+    ],
+    "desarrollador": "TalonSoft",
+    "distribuidor": "Empire Interactive",
+    "ean": "744788550866",
+    "descripcion": "Wargame táctico ambientado en la campaña de Rusia de 1812 durante las guerras napoleónicas. El jugador dirige ejércitos imperiales o aliados en batallas históricas utilizando mapas hexagonales, unidades detalladas y un sistema de combate que combina visión estratégica en 2D con recreaciones tácticas del campo de batalla.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Napoleónico",
+      "Wargame",
+      "TalonSoft",
+      "Historia",
+      "Estrategia militar",
+      "Edición española"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "Los Sims",
+    "url": "juegos/los-sims-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulación",
+      "Vida",
+      "Gestión"
+    ],
+    "desarrollador": "Maxis",
+    "distribuidor": "Electronic Arts",
+    "ean": "5030930022517",
+    "descripcion": "Simulador social creado por Will Wright en el que el jugador diseña personajes, construye sus hogares y controla sus vidas diarias. Los Sims deben gestionar sus necesidades, desarrollar relaciones personales, progresar en sus carreras y desenvolverse en un entorno doméstico abierto con gran libertad de interacción.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Simulación social",
+      "Will Wright",
+      "Maxis",
+      "Vida virtual",
+      "Edición española",
+      "Clásico"
+    ]
+  },
+  {
+    "num": 0,
+    "ig": "",
+    "titulo": "SimCity 3000",
+    "url": "juegos/simcity-3000-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "genero": [
+      "Simulación",
+      "Construcción",
+      "Gestión"
+    ],
+    "desarrollador": "Maxis",
+    "distribuidor": "Electronic Arts",
+    "ean": "",
+    "descripcion": "Simulador de construcción y gestión de ciudades en el que el jugador diseña, administra y desarrolla una metrópolis desde sus cimientos. Debe equilibrar presupuesto, zonificación, infraestructuras, transporte y servicios públicos mientras enfrenta desastres, crecimiento urbano y las demandas de los ciudadanos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "SimCity",
+      "Construcción de ciudades",
+      "Will Wright",
+      "Maxis",
+      "Simulación urbana",
+      "Edición española"
+    ]
   }
 ]
