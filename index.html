@@ -175,6 +175,37 @@
     .footrow{ display:flex; flex-wrap:wrap; gap:10px; justify-content:space-between; align-items:center; }
     .to-top{ text-decoration:none; font-weight:800; padding:8px 10px; border-radius:10px; border:1px solid var(--bd); }
     .to-top:hover{ background:#f7f7f7; }
+
+    .intro-section{
+      padding:18px 0 4px 0;
+    }
+
+    .intro{
+      background:#fff;
+      border:1px solid var(--bd);
+      border-radius:14px;
+      padding:16px 18px;
+      line-height:1.55;
+    }
+
+    .intro p{
+      margin:0 0 10px 0;
+    }
+
+    .intro p:last-child{
+      margin-bottom:0;
+    }
+    .stats-section{
+      padding:8px 0 12px 0;
+    }
+
+    .stats{
+      font-size:14px;
+      color:#333;
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+    }
   </style>
 </head>
 <body>
@@ -192,22 +223,35 @@
     <text x="50" y="88" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">ARCHIVE</text>
   </svg>
 </div>
-        <div class="brandtext">
-          <strong>PC Game Archive</strong>
-          <span>Listado y buscador</span>
-        </div>
+<div class="brandtext">
+  <strong>PC Game Archive</strong>
+  <span>Archivo físico de videojuegos de PC · Big Box · MsDos · Windows · MacOs </span>
+</div>
       </div>
       <nav class="nav" aria-label="Navegación principal">
         <a href="index.html">Inicio</a>
         <a href="series.html">Series</a>
         <a href="contacto.html">Contacto</a>
         <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
-        <a href="mailto:info@pcgamearchive.org">info@pcgamearchive.org</a>
       </nav>
     </div>
   </div>
 </header>
+<section class="intro-section">
+  <div class="wrap intro">
+    <p><strong>PC Game Archive</strong> es un proyecto dedicado a la preservación y documentación de videojuegos de PC en formato físico. El archivo reúne y conserva ediciones clásicas de MS-DOS y Windows —incluyendo las conocidas <em>Big Box</em>— con especial atención a las ediciones distribuidas en España.</p>
 
+    <p>El objetivo del proyecto es contribuir a la conservación de la historia del videojuego de PC mediante la catalogación y documentación de estas ediciones físicas. El archivo está en constante crecimiento.</p>
+
+    <p>Si dispones de videojuegos de PC clásicos y <b>deseas venderlos o contribuir al archivo</b>, puedes ponerte en contacto con nosotros a través del correo electrónico <b>contacto@pcgamearchive.org</b> o a través de Instagram <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener"><b>@pc_game_archive</b></a>.</p>
+  </div>
+</section>
+<section class="stats-section">
+  <div class="wrap stats">
+    <strong>Archivo en cifras:</strong>
+    <span id="statsText">Cargando…</span>
+  </div>
+</section>
 <section class="filters" aria-label="Buscador y filtros">
   <div class="wrap">
     <details class="filters-panel" id="filtersPanel">
@@ -250,6 +294,7 @@
 
 <main>
   <div class="wrap">
+    
     <div class="meta">
       <div class="count" id="count">Cargando…</div>
       <div class="count" id="pageInfo">—</div>
@@ -713,6 +758,15 @@
     const res = await fetch("juegos.json", { cache: "no-store" });
     const data = await res.json();
     state.juegos = Array.isArray(data) ? data : (data.juegos || []);
+
+    const total = state.juegos.length;
+    const bigbox = state.juegos.filter(j => (j.serie || []).includes("Bigbox")).length;
+    const cddvd = total - bigbox;
+
+    const statsText = document.getElementById("statsText");
+    if(statsText){
+      statsText.textContent = `${total} juegos documentados · ${bigbox} Big Box · ${cddvd} CD/DVD`;
+    }
 
     state.juegos.sort((a,b) => {
       const na = Number.isFinite(+a.num) ? +a.num : Infinity;
