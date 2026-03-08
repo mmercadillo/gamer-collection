@@ -12,51 +12,110 @@
     gtag('js', new Date());
     gtag('config', 'G-SQN0WTMVP3');
   </script>
+
   <title>Contacto — PC Game Archive</title>
-  <meta name="description" content="Contacto de PC Game Archive." />
+  <meta name="description" content="Contacto de PC Game Archive, archivo físico de videojuegos de PC." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#111111" />
+  <link rel="canonical" href="https://pcgamearchive.org/contacto.html" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="PC Game Archive" />
+  <meta property="og:title" content="Contacto — PC Game Archive" />
+  <meta property="og:description" content="Contacto de PC Game Archive, archivo físico de videojuegos de PC." />
+  <meta property="og:url" content="https://pcgamearchive.org/contacto.html" />
+  <meta property="og:image" content="https://pcgamearchive.org/og/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contacto — PC Game Archive" />
+  <meta name="twitter:description" content="Contacto de PC Game Archive, archivo físico de videojuegos de PC." />
+  <meta name="twitter:image" content="https://pcgamearchive.org/og/og-image.png" />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
   <style>
     :root { --b:#111; --g:#666; --bd:#e6e6e6; --bg:#fafafa; --w:#fff; }
     *{ box-sizing:border-box; }
     body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; color:var(--b); background:var(--bg); }
     a{ color:inherit; }
 
-    /* ===== Cabecera común ===== */
     header{ background:var(--w); border-bottom:1px solid var(--bd); position:sticky; top:0; z-index:20; }
     .wrap{ max-width:1200px; margin:0 auto; padding:0 16px; }
     .row{ display:flex; justify-content:space-between; align-items:center; gap:14px; padding:14px 0; }
-    .brand{ display:flex; flex-direction:column; gap:2px; }
+
+    .brand{ display:flex; align-items:center; gap:12px; }
+    .brandtext{ display:flex; flex-direction:column; gap:2px; }
+
+    .logo{ width:42px; height:42px; border-radius:10px; overflow:hidden; flex:0 0 auto; box-shadow:0 1px 0 rgba(0,0,0,.04); }
+    .logo svg{ width:100%; height:100%; display:block; }
+
     .brand strong{ font-size:18px; letter-spacing:.2px; }
     .brand span{ color:var(--g); font-size:12px; }
+
     .nav{ display:flex; gap:6px; flex-wrap:wrap; justify-content:flex-end; }
-    .nav a{
-      text-decoration:none; color:var(--b); font-weight:800;
-      padding:8px 10px; border-radius:10px; border:1px solid transparent;
-    }
+    .nav a{ text-decoration:none; color:var(--b); font-weight:800; padding:8px 10px; border-radius:10px; border:1px solid transparent; }
     .nav a:hover{ background:#f7f7f7; border-color:var(--bd); }
 
     main{ padding:18px 0 30px; }
-    .card{ background:var(--w); border:1px solid var(--bd); border-radius:14px; padding:14px; }
-    h1{ margin:0 0 8px; font-size:18px; }
-    .muted{ color:var(--g); font-size:13px; line-height:1.6; margin:0; }
-    .kv{ display:grid; grid-template-columns: 160px 1fr; gap:10px 12px; margin-top:14px; }
+
+    .card{ background:var(--w); border:1px solid var(--bd); border-radius:14px; padding:18px; box-shadow:0 1px 0 rgba(0,0,0,.03); }
+
+    h1{ margin:0 0 10px; font-size:22px; letter-spacing:.2px; }
+
+    .muted{ color:var(--g); font-size:14px; line-height:1.7; margin:0; }
+
+    .kv{ display:grid; grid-template-columns:160px 1fr; gap:10px 12px; margin-top:18px; padding-top:6px; border-top:1px solid var(--bd); }
+
     .k{ color:var(--g); font-size:13px; }
     .v{ font-size:14px; }
+
+    .v a{ text-decoration:none; border-bottom:1px solid transparent; }
+    .v a:hover{ border-bottom-color:currentColor; }
+
+    @media (max-width:700px){
+      header{ position:static; }
+      .kv{ grid-template-columns:1fr; gap:6px 0; }
+      .k{ font-weight:700; color:var(--b); margin-top:8px; }
+    }
   </style>
 </head>
+
 <body>
 
-<header>
+<header id="top">
   <div class="wrap">
     <div class="row">
       <div class="brand" role="banner">
-        <strong>PC Game Archive</strong>
-        <span>Contacto</span>
+
+        <div class="logo" aria-hidden="true">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img">
+            <rect width="100" height="100" rx="16" fill="#111"/>
+            <text x="50" y="46" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44" font-weight="800" fill="#fff">PC</text>
+            <text x="50" y="70" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">GAME</text>
+            <text x="50" y="88" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">ARCHIVE</text>
+          </svg>
+        </div>
+
+        <div class="brandtext">
+          <strong>PC Game Archive</strong>
+          <span>Archivo físico de videojuegos de PC · Big Box · MS-DOS · Windows</span>
+        </div>
       </div>
+
       <nav class="nav" aria-label="Navegación principal">
         <a href="index.html">Inicio</a>
+        <a href="bigbox.html">Big Box</a>
         <a href="series.html">Series</a>
         <a href="contacto.html">Contacto</a>
+        <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
       </nav>
+
     </div>
   </div>
 </header>
@@ -65,22 +124,24 @@
   <div class="wrap">
     <div class="card">
       <h1>Contacto</h1>
+
       <p class="muted">
-        Si deseas proponer correcciones del catálogo, aportar información adicional 
-        sobre ediciones (ES/UK/USA) o contactar en relación con algún título concreto, 
-        puedes hacerlo a través de los siguientes canales.
-        <br/>
-        PC Game Archive continúa ampliando su archivo físico mediante la incorporación 
-        de ediciones originales de PC para su conservación y documentación.
+        <strong>PC Game Archive</strong> es un proyecto dedicado a la preservación y documentación de videojuegos de PC en formato físico, con especial atención a ediciones clásicas de MS-DOS y Windows, incluyendo las conocidas <em>Big Box</em>.
+        <br><br>
+        Si deseas proponer correcciones del catálogo, aportar información adicional sobre una edición concreta o compartir documentación relacionada con algún título, puedes ponerte en contacto a través de los siguientes canales.
+        <br><br>
+        El archivo continúa ampliándose mediante la incorporación de ediciones originales de videojuegos de PC. Si dispones de juegos que desees vender o contribuir al archivo, puedes escribirnos indicando los títulos disponibles.
       </p>
 
       <div class="kv">
-        <!-- Sustituye por tus datos reales -->
         <div class="k">Email</div>
         <div class="v"><a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a></div>
 
         <div class="k">Instagram</div>
-        <div class="v"><a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">https://www.instagram.com/pc_game_archive</a></div>
+        <div class="v"><a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">@pc_game_archive</a></div>
+
+        <div class="k">Ubicación</div>
+        <div class="v">España</div>
       </div>
     </div>
   </div>
