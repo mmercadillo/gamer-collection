@@ -8,6 +8,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -45,6 +46,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -81,6 +83,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Construcción"
@@ -114,6 +117,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Combate"
@@ -150,6 +154,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Combate"
@@ -187,6 +192,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Combate"
@@ -220,6 +226,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -252,6 +259,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Terror"
@@ -287,6 +295,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -321,6 +330,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -351,6 +361,7 @@
       "Win3.x",
       "Win95"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -381,6 +392,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -412,6 +424,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -445,6 +458,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -476,6 +490,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -512,6 +527,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -547,6 +563,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -580,6 +597,7 @@
       "WinXP",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -611,6 +629,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Carreras"
@@ -643,6 +662,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -674,6 +694,7 @@
       "Win2000",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -705,6 +726,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -733,6 +755,7 @@
     "plataforma": [
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Sigilo"
@@ -765,6 +788,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -794,6 +818,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -825,6 +850,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -857,6 +883,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -894,6 +921,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -926,6 +954,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Survival horror",
@@ -964,6 +993,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -1001,6 +1031,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Construcción"
@@ -1033,6 +1064,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -1074,6 +1106,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -1113,6 +1146,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -1154,6 +1188,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -1195,6 +1230,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -1234,6 +1270,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -1274,6 +1311,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción"
     ],
@@ -1305,6 +1343,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Acción"
@@ -1345,6 +1384,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Estrategia en tiempo real"
@@ -1381,6 +1421,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Arcade",
       "Pinball"
@@ -1419,6 +1460,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes"
     ],
@@ -1453,6 +1495,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Wargame"
@@ -1489,6 +1532,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol"
     ],
@@ -1528,6 +1572,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Wargame"
@@ -1563,6 +1608,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción"
     ],
@@ -1600,6 +1646,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -1638,6 +1685,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol"
     ],
@@ -1676,6 +1724,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -1707,6 +1756,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción"
     ],
@@ -1744,6 +1794,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -1776,6 +1827,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Combate aéreo"
     ],
@@ -1808,6 +1860,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol"
     ],
@@ -1841,6 +1894,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol"
     ],
@@ -1871,6 +1925,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Gestión"
@@ -1905,6 +1960,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -1937,6 +1993,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -1969,6 +2026,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -2000,6 +2058,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -2031,6 +2090,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter",
       "Acción"
@@ -2065,6 +2125,7 @@
       "Win7",
       "Win10"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -2100,6 +2161,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -2131,6 +2193,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Construcción",
       "Simulación"
@@ -2163,6 +2226,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Construcción",
       "Simulación"
@@ -2193,6 +2257,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -2224,6 +2289,7 @@
       "WinXP",
       "Win7"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -2259,6 +2325,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -2291,6 +2358,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Construcción",
       "Estrategia"
@@ -2324,6 +2392,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras"
     ],
@@ -2358,6 +2427,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -2391,6 +2461,7 @@
       "Win98",
       "WinNT"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -2423,6 +2494,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -2457,6 +2529,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -2489,6 +2562,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -2522,6 +2596,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Stealth"
@@ -2553,6 +2628,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -2585,6 +2661,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -2619,6 +2696,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Rol"
@@ -2648,6 +2726,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Dungeon crawler",
       "Shooter"
@@ -2681,6 +2760,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Simulación"
@@ -2710,6 +2790,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter"
@@ -2741,6 +2822,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Point & click"
@@ -2775,6 +2857,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Rol"
@@ -2808,6 +2891,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras"
     ],
@@ -2837,6 +2921,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación"
     ],
@@ -2869,6 +2954,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter"
     ],
@@ -2901,6 +2987,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter"
     ],
@@ -2933,6 +3020,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter"
     ],
@@ -2963,6 +3051,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "First‑person shooter"
     ],
@@ -2994,6 +3083,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Rol",
@@ -3027,6 +3117,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Rol",
@@ -3062,6 +3153,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Rol",
@@ -3094,6 +3186,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Survival Horror",
       "Acción",
@@ -3129,6 +3222,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Survival Horror"
@@ -3163,6 +3257,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Rol"
@@ -3195,6 +3290,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -3224,6 +3320,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -3256,6 +3353,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -3288,6 +3386,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -3322,6 +3421,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol"
     ],
@@ -3351,6 +3451,7 @@
       "MsDos",
       "Win3.x"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Bélico"
@@ -3383,6 +3484,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -3411,6 +3513,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Deportes extremos",
@@ -3444,6 +3547,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Fórmula 1"
@@ -3474,6 +3578,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Fantasía"
@@ -3507,6 +3612,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Construcción"
@@ -3538,6 +3644,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Lucha",
       "Arcade"
@@ -3568,6 +3675,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -3599,6 +3707,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Fórmula 1",
@@ -3630,6 +3739,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -3662,6 +3772,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Lucha",
       "Arcade",
@@ -3696,6 +3807,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Misterio",
@@ -3730,6 +3842,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Gestión",
@@ -3764,6 +3877,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Fórmula 1",
@@ -3798,6 +3912,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter",
       "Ciencia ficción",
@@ -3829,6 +3944,7 @@
       "MsDos",
       "Win3.x"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -3859,6 +3975,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Shooter",
@@ -3891,6 +4008,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Acción",
@@ -3922,6 +4040,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura"
@@ -3955,6 +4074,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Combate"
@@ -3984,6 +4104,7 @@
     "plataforma": [
       "MacOs"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Fantasía"
@@ -4015,6 +4136,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Fantasía"
@@ -4046,6 +4168,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Fantasía",
@@ -4083,6 +4206,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -4116,6 +4240,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Acción",
@@ -4147,6 +4272,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Rugby"
@@ -4177,6 +4303,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter",
@@ -4208,6 +4335,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol"
     ],
@@ -4237,6 +4365,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -4267,6 +4396,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Aventura",
@@ -4298,6 +4428,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Combate aéreo",
@@ -4329,6 +4460,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Fantasía"
@@ -4359,6 +4491,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Fantasía",
@@ -4391,6 +4524,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Estrategia"
@@ -4421,6 +4555,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Estrategia ligera"
@@ -4451,6 +4586,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Acción",
@@ -4484,6 +4620,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Ciencia ficción"
@@ -4513,6 +4650,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Simulación",
@@ -4545,6 +4683,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Karting",
@@ -4576,6 +4715,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -4607,6 +4747,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura",
@@ -4638,6 +4779,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Ciencia ficción"
@@ -4667,6 +4809,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -4698,6 +4841,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Misterio",
@@ -4729,6 +4873,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Simulación",
@@ -4759,6 +4904,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -4790,6 +4936,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Baloncesto",
@@ -4822,6 +4969,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Baloncesto",
@@ -4854,6 +5002,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Baloncesto",
@@ -4886,6 +5035,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Simulación"
@@ -4918,6 +5068,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol"
     ],
@@ -4949,6 +5100,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Rol",
@@ -4980,6 +5132,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Hockey sobre hielo",
@@ -5012,6 +5165,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -5042,6 +5196,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Tanques",
@@ -5073,6 +5228,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Wargame",
       "Estrategia por turnos",
@@ -5104,6 +5260,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Wargame",
       "Segunda Guerra Mundial"
@@ -5134,6 +5291,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Wargame",
       "Estrategia por turnos",
@@ -5166,6 +5324,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia en tiempo real"
@@ -5198,6 +5357,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Rol",
@@ -5230,6 +5390,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Rol",
@@ -5262,6 +5423,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Fórmula 1",
@@ -5294,6 +5456,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol",
@@ -5327,6 +5490,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Pinball"
@@ -5358,6 +5522,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Pinball"
@@ -5391,6 +5556,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Rally",
@@ -5423,6 +5589,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -5455,6 +5622,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Arcade"
@@ -5486,6 +5654,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -5518,6 +5687,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción",
@@ -5551,6 +5721,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Arcade",
       "Shooter",
@@ -5582,6 +5753,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -5616,6 +5788,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -5648,6 +5821,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Aventura gráfica"
@@ -5677,6 +5851,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Combate aéreo",
@@ -5709,6 +5884,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura",
@@ -5743,6 +5919,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Histórica"
@@ -5776,6 +5953,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Histórica"
@@ -5809,6 +5987,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Rol",
@@ -5843,6 +6022,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Construcción"
@@ -5876,6 +6056,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Acción"
@@ -5905,6 +6086,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Segunda Guerra Mundial"
@@ -5936,6 +6118,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Wargame",
       "Estrategia",
@@ -5970,6 +6153,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -6003,6 +6187,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -6038,6 +6223,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -6073,6 +6259,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Wargame",
@@ -6107,6 +6294,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Arcade"
@@ -6139,6 +6327,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulador",
       "Ciencia ficción"
@@ -6168,6 +6357,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [],
     "desarrollador": [
       "Desconocido"
@@ -6195,6 +6385,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Shooter"
@@ -6224,6 +6415,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -6255,6 +6447,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -6285,6 +6478,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -6314,6 +6508,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Pinball"
     ],
@@ -6343,6 +6538,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -6373,6 +6569,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -6402,6 +6599,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Automovilismo"
@@ -6431,6 +6629,7 @@
     "plataforma": [
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter",
       "Shooter"
@@ -6460,6 +6659,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter",
       "Shooter"
@@ -6491,6 +6691,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter",
       "Shooter"
@@ -6520,6 +6721,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "FMV",
@@ -6553,6 +6755,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -6583,6 +6786,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -6612,6 +6816,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Aventura"
@@ -6641,6 +6846,7 @@
     "plataforma": [
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -6674,6 +6880,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Manager Deportivo",
@@ -6707,6 +6914,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter"
     ],
@@ -6739,6 +6947,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura",
@@ -6770,6 +6979,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Simulación"
@@ -6801,6 +7011,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Acción"
@@ -6830,6 +7041,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Educativo"
@@ -6859,6 +7071,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Simulación"
@@ -6889,6 +7102,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -6918,6 +7132,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -6949,6 +7164,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -6979,6 +7195,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Estrategia en tiempo real"
@@ -7008,6 +7225,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Combate",
       "Carreras"
@@ -7037,6 +7255,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -7069,6 +7288,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación"
     ],
@@ -7100,6 +7320,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Combate",
@@ -7132,6 +7353,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Deportes"
@@ -7172,6 +7394,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes"
     ],
@@ -7200,6 +7423,7 @@
     "plataforma": [
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Ciencia ficción"
@@ -7234,6 +7458,7 @@
       "WinXP",
       "Win7"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Wargame"
@@ -7268,6 +7493,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "First‑person shooter"
     ],
@@ -7298,6 +7524,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Bélico"
@@ -7328,6 +7555,7 @@
       "Win3.x",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Ciencia ficción"
@@ -7360,6 +7588,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -7392,6 +7621,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -7423,6 +7653,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Puzzle"
@@ -7455,6 +7686,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -7487,6 +7719,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Dungeon management"
@@ -7516,6 +7749,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Combate"
@@ -7549,6 +7783,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura"
@@ -7579,6 +7814,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "FMV"
@@ -7610,6 +7846,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Aventura",
@@ -7642,6 +7879,7 @@
       "Win3.x",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -7674,6 +7912,7 @@
       "Win3.x",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -7706,6 +7945,7 @@
       "Win3.x",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -7739,6 +7979,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia"
     ],
@@ -7771,6 +8012,7 @@
       "Win3.x",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click",
@@ -7801,6 +8043,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -7833,6 +8076,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Estrategia",
@@ -7866,6 +8110,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Ciencia ficción"
@@ -7897,6 +8142,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura"
     ],
@@ -7934,6 +8180,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -7963,6 +8210,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Shooter",
@@ -7994,6 +8242,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Combate aéreo",
@@ -8026,6 +8275,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Fantasía"
@@ -8058,6 +8308,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Fantasía"
@@ -8091,6 +8342,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Acción",
@@ -8125,6 +8377,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Ajedrez",
       "Estrategia",
@@ -8159,6 +8412,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Rol",
@@ -8191,6 +8445,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Rol",
@@ -8224,6 +8479,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -8263,6 +8519,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Rol",
@@ -8298,6 +8555,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -8330,6 +8588,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Acción"
@@ -8361,6 +8620,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -8392,6 +8652,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter"
@@ -8424,6 +8685,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -8462,6 +8724,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -8491,6 +8754,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -8519,6 +8783,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -8555,6 +8820,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -8590,6 +8856,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -8617,6 +8884,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Aventura"
@@ -8647,6 +8915,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -8675,6 +8944,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Combate"
@@ -8702,6 +8972,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Combate"
@@ -8730,6 +9001,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -8757,6 +9029,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -8784,6 +9057,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -8811,6 +9085,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -8838,6 +9113,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -8867,6 +9143,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Combate"
@@ -8897,6 +9174,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -8926,6 +9204,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Combate"
@@ -8956,6 +9235,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -8983,6 +9263,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -9010,6 +9291,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -9040,6 +9322,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -9067,6 +9350,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -9094,6 +9378,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -9120,6 +9405,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol"
@@ -9153,6 +9439,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -9184,6 +9471,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras"
     ],
@@ -9211,6 +9499,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción",
       "Acción"
@@ -9243,6 +9532,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -9271,6 +9561,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -9302,6 +9593,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -9329,6 +9621,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -9358,6 +9651,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -9385,6 +9679,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -9417,6 +9712,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -9447,6 +9743,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -9478,6 +9775,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -9506,6 +9804,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -9536,6 +9835,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -9564,6 +9864,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -9595,6 +9896,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -9625,6 +9927,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Acción"
@@ -9653,6 +9956,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción"
     ],
@@ -9682,6 +9986,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -9711,6 +10016,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Simulación"
@@ -9742,6 +10048,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -9769,6 +10076,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -9798,6 +10106,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -9827,6 +10136,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rompecabezas"
     ],
@@ -9854,6 +10164,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -9884,6 +10195,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -9916,6 +10228,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -9943,6 +10256,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -9971,6 +10285,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -9999,6 +10314,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -10031,6 +10347,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Plataformas"
     ],
@@ -10058,6 +10375,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Minijuegos"
     ],
@@ -10087,6 +10405,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -10116,6 +10435,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -10145,6 +10465,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -10174,6 +10495,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -10201,6 +10523,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -10231,6 +10554,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -10261,6 +10585,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -10291,6 +10616,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -10318,6 +10644,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -10347,6 +10674,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -10373,6 +10701,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -10399,6 +10728,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -10426,6 +10756,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Combate"
@@ -10454,6 +10785,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -10483,6 +10815,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -10510,6 +10843,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -10539,6 +10873,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Sigilo",
       "Acción"
@@ -10567,6 +10902,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Sigilo",
       "Acción"
@@ -10597,6 +10933,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Sigilo",
       "Acción"
@@ -10627,6 +10964,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -10656,6 +10994,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -10683,6 +11022,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -10712,6 +11052,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -10742,6 +11083,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -10778,6 +11120,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -10807,6 +11150,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -10837,6 +11181,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción",
       "Acción"
@@ -10867,6 +11212,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -10897,6 +11243,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -10927,6 +11274,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción",
       "Rally"
@@ -10955,6 +11303,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Bélico"
@@ -10986,6 +11335,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -11015,6 +11365,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -11043,6 +11394,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol",
@@ -11072,6 +11424,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol"
@@ -11102,6 +11455,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol"
@@ -11132,6 +11486,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -11161,6 +11516,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -11191,6 +11547,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -11221,6 +11578,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -11249,6 +11607,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gestión",
@@ -11278,6 +11637,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -11307,6 +11667,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Acción",
@@ -11338,6 +11699,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -11368,6 +11730,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -11397,6 +11760,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -11426,6 +11790,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gestión"
@@ -11454,6 +11819,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -11481,6 +11847,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Acción"
@@ -11510,6 +11877,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Gestión"
@@ -11540,6 +11908,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Rol"
@@ -11568,6 +11937,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -11597,6 +11967,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Combate vehicular"
@@ -11627,6 +11998,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Carreras"
@@ -11657,6 +12029,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras"
     ],
@@ -11686,6 +12059,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gestión económica"
@@ -11715,6 +12089,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Fórmula 1"
@@ -11745,6 +12120,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -11774,6 +12150,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Arcade"
@@ -11803,6 +12180,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -11833,6 +12211,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Simulación"
@@ -11863,6 +12242,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -11893,6 +12273,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -11924,6 +12305,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Conducción"
@@ -11954,6 +12336,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -11983,6 +12366,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción",
       "Acción"
@@ -12011,6 +12395,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -12041,6 +12426,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -12070,6 +12456,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -12099,6 +12486,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -12129,6 +12517,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -12159,6 +12548,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -12188,6 +12578,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -12219,6 +12610,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Fantasía"
@@ -12251,6 +12643,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -12279,6 +12672,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes"
     ],
@@ -12309,6 +12703,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "3D platform"
@@ -12350,6 +12745,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol",
@@ -12384,6 +12780,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -12415,6 +12812,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Ciclismo",
@@ -12448,6 +12846,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Beat 'em up",
@@ -12485,6 +12884,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Vuelo",
@@ -12518,6 +12918,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -12551,6 +12952,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -12583,6 +12985,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Boxeo",
@@ -12616,6 +13019,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Pinball"
@@ -12646,6 +13050,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol",
@@ -12679,6 +13084,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Fantasía"
@@ -12711,6 +13117,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -12742,6 +13149,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Estrategia en tiempo real"
@@ -12774,6 +13182,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Educativo"
     ],
@@ -12803,6 +13212,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Arcade",
       "Carreras"
@@ -12831,6 +13241,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -12862,6 +13273,7 @@
       "Win98",
       "WinNT"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Pinball"
     ],
@@ -12893,6 +13305,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Carreras",
@@ -12924,6 +13337,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia táctica por turnos"
     ],
@@ -12962,6 +13376,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Manager Deportivo",
@@ -12992,6 +13407,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Combate",
       "Dungeon crawler"
@@ -13024,6 +13440,7 @@
       "Win98",
       "WinNT"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras"
     ],
@@ -13055,6 +13472,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras"
     ],
@@ -13084,6 +13502,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes"
     ],
@@ -13113,6 +13532,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión"
@@ -13143,6 +13563,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -13174,6 +13595,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -13204,6 +13626,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Vida"
@@ -13239,6 +13662,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Puzzle"
@@ -13277,6 +13701,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -13306,6 +13731,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -13332,6 +13758,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Aventura"
@@ -13371,6 +13798,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Survival Horror",
       "Aventura"
@@ -13406,6 +13834,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Aventura"
@@ -13445,6 +13874,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Acción"
@@ -13480,6 +13910,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Bélico"
@@ -13517,6 +13948,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -13552,6 +13984,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -13588,6 +14021,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Puzzle"
@@ -13626,6 +14060,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Rol"
@@ -13654,6 +14089,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -13681,6 +14117,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -13709,6 +14146,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -13738,6 +14176,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -13766,6 +14205,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Dios simulador"
@@ -13794,6 +14234,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -13822,6 +14263,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -13851,6 +14293,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -13880,6 +14323,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Bélico"
@@ -13908,6 +14352,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -13935,6 +14380,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Bélico"
@@ -13965,6 +14411,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -13994,6 +14441,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gestión",
@@ -14022,6 +14470,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -14049,6 +14498,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -14082,6 +14532,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Acción"
@@ -14110,6 +14561,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Rally"
@@ -14139,6 +14591,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Rally"
@@ -14169,6 +14622,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -14198,6 +14652,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -14227,6 +14682,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -14255,6 +14711,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Estrategia táctica"
@@ -14285,6 +14742,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Histórica"
@@ -14313,6 +14771,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Simulación"
@@ -14339,6 +14798,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -14370,6 +14830,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Segunda Guerra Mundial"
@@ -14397,6 +14858,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Acción"
@@ -14427,6 +14889,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción",
@@ -14456,6 +14919,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -14483,6 +14947,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -14510,6 +14975,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Sigilo"
@@ -14539,6 +15005,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Estrategia"
@@ -14569,6 +15036,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Estrategia"
@@ -14598,6 +15066,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Estrategia"
@@ -14627,6 +15096,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -14654,6 +15124,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -14684,6 +15155,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -14716,6 +15188,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Fantasía"
@@ -14745,6 +15218,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción",
@@ -14775,6 +15249,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter",
@@ -14804,6 +15279,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -14835,6 +15311,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol",
@@ -14864,6 +15341,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -14892,6 +15370,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Aventura"
@@ -14921,6 +15400,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -14950,6 +15430,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -14978,6 +15459,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -15007,6 +15489,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -15035,6 +15518,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -15063,6 +15547,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol"
@@ -15092,6 +15577,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -15121,6 +15607,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia"
     ],
@@ -15148,6 +15635,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Supervivencia",
       "Aventura"
@@ -15176,6 +15664,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -15205,6 +15694,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -15231,6 +15721,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción",
@@ -15260,6 +15751,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Mundo abierto",
@@ -15289,6 +15781,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Fantasía"
@@ -15319,6 +15812,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -15345,6 +15839,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Terror"
@@ -15375,6 +15870,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -15401,6 +15897,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Gestión"
@@ -15429,6 +15926,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Gestión"
@@ -15458,6 +15956,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -15486,6 +15985,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación",
@@ -15516,6 +16016,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gran estrategia"
@@ -15545,6 +16046,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -15575,6 +16077,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -15604,6 +16107,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -15630,6 +16134,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -15659,6 +16164,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Mundo abierto"
@@ -15686,6 +16192,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -15714,6 +16221,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -15741,6 +16249,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -15769,6 +16278,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -15800,6 +16310,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -15830,6 +16341,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "MMORPG"
     ],
@@ -15856,6 +16368,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -15885,6 +16398,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -15914,6 +16428,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -15943,6 +16458,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Acción"
@@ -15970,6 +16486,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gran estrategia"
@@ -16000,6 +16517,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -16030,6 +16548,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -16059,6 +16578,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -16090,6 +16610,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -16120,6 +16641,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -16152,6 +16674,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -16182,6 +16705,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -16214,6 +16738,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Acción"
@@ -16241,6 +16766,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Acción"
@@ -16275,6 +16801,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Segunda Guerra Mundial"
@@ -16305,6 +16832,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -16334,6 +16862,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -16364,6 +16893,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Estrategia en tiempo real"
@@ -16393,6 +16923,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Misterio"
@@ -16423,6 +16954,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Terror"
@@ -16452,6 +16984,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -16477,6 +17010,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -16506,6 +17040,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Mundo abierto"
@@ -16533,6 +17068,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Estrategia por turnos"
@@ -16563,6 +17099,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -16591,6 +17128,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -16620,6 +17158,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -16646,6 +17185,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -16675,6 +17215,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura"
     ],
@@ -16702,6 +17243,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -16730,6 +17272,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -16759,6 +17302,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -16788,6 +17332,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -16816,6 +17361,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Erótico"
@@ -16846,6 +17392,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -16874,6 +17421,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -16903,6 +17451,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -16934,6 +17483,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -16963,6 +17513,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -16992,6 +17543,7 @@
       "Win2000",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -17022,6 +17574,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -17052,6 +17605,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -17080,6 +17634,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Estrategia en tiempo real"
@@ -17108,6 +17663,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Arcade"
     ],
@@ -17136,6 +17692,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -17164,6 +17721,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura"
     ],
@@ -17192,6 +17750,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Arcade"
     ],
@@ -17221,6 +17780,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -17252,6 +17812,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -17280,6 +17841,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción",
@@ -17310,6 +17872,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras"
     ],
@@ -17336,6 +17899,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -17364,6 +17928,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -17392,6 +17957,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -17421,6 +17987,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Shooter"
@@ -17448,6 +18015,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Shooter"
@@ -17477,6 +18045,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Shooter"
@@ -17504,6 +18073,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol"
@@ -17533,6 +18103,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -17561,6 +18132,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -17590,6 +18162,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -17618,6 +18191,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -17646,6 +18220,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -17674,6 +18249,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -17700,6 +18276,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -17728,6 +18305,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -17758,6 +18336,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Deportes"
@@ -17786,6 +18365,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Deportes"
@@ -17814,6 +18394,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Deportes"
@@ -17845,6 +18426,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia"
     ],
@@ -17871,6 +18453,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -17899,6 +18482,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -17928,6 +18512,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -17954,6 +18539,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Acción"
@@ -17983,6 +18569,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -18009,6 +18596,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -18036,6 +18624,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -18065,6 +18654,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -18095,6 +18685,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -18123,6 +18714,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -18149,6 +18741,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -18176,6 +18769,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Acción"
@@ -18205,6 +18799,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -18234,6 +18829,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -18261,6 +18857,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción"
     ],
@@ -18289,6 +18886,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -18318,6 +18916,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -18346,6 +18945,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gran estrategia"
@@ -18375,6 +18975,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gran estrategia"
@@ -18403,6 +19004,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gran estrategia"
@@ -18431,6 +19033,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -18460,6 +19063,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -18489,6 +19093,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -18521,6 +19126,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -18549,6 +19155,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -18578,6 +19185,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Carreras"
@@ -18606,6 +19214,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -18632,6 +19241,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -18661,6 +19271,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -18684,6 +19295,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -18712,6 +19324,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -18741,6 +19354,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -18770,6 +19384,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -18797,6 +19412,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -18824,6 +19440,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -18851,6 +19468,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -18877,6 +19495,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -18906,6 +19525,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Deportes"
@@ -18934,6 +19554,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Fantasía"
@@ -18961,6 +19582,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -18991,6 +19613,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Construcción"
@@ -19019,6 +19642,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -19048,6 +19672,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -19077,6 +19702,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Estrategia en tiempo real"
@@ -19106,6 +19732,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción"
     ],
@@ -19134,6 +19761,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Plataformas",
       "Acción"
@@ -19162,6 +19790,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -19191,6 +19820,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -19218,6 +19848,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -19247,6 +19878,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -19276,6 +19908,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -19305,6 +19938,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -19334,6 +19968,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -19363,6 +19998,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gran estrategia"
@@ -19391,6 +20027,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gran estrategia"
@@ -19418,6 +20055,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Conducción"
@@ -19446,6 +20084,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -19473,6 +20112,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -19501,6 +20141,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -19529,6 +20170,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -19557,6 +20199,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -19586,6 +20229,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Arcade"
     ],
@@ -19616,6 +20260,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -19645,6 +20290,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -19674,6 +20320,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -19703,6 +20350,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Estrategia por turnos"
@@ -19732,6 +20380,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Mundo abierto"
@@ -19758,6 +20407,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Mundo abierto"
@@ -19788,6 +20438,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -19815,6 +20466,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -19843,6 +20495,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -19870,6 +20523,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -19899,6 +20553,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -19929,6 +20584,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -19956,6 +20612,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -19983,6 +20640,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -20011,6 +20669,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -20038,6 +20697,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -20070,6 +20730,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -20099,6 +20760,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -20132,6 +20794,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia"
     ],
@@ -20158,6 +20821,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Estrategia por turnos"
@@ -20188,6 +20852,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Estrategia en tiempo real"
@@ -20218,6 +20883,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Estrategia en tiempo real"
@@ -20250,6 +20916,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -20281,6 +20948,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Trenes"
@@ -20311,6 +20979,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -20340,6 +21009,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -20373,6 +21043,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -20399,6 +21070,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -20428,6 +21100,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -20460,6 +21133,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -20489,6 +21163,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gestión"
@@ -20518,6 +21193,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -20545,6 +21221,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gran estrategia"
@@ -20573,6 +21250,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Estrategia en tiempo real"
@@ -20602,6 +21280,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -20631,6 +21310,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -20659,6 +21339,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Infiltración"
@@ -20688,6 +21369,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Acción por turnos"
@@ -20717,6 +21399,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -20743,6 +21426,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -20770,6 +21454,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -20798,6 +21483,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras"
     ],
@@ -20827,6 +21513,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras"
     ],
@@ -20854,6 +21541,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Puzzle",
       "Construcción"
@@ -20887,6 +21575,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -20918,6 +21607,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Estrategia",
@@ -20948,6 +21638,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Simulación"
@@ -20982,6 +21673,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Simulación"
@@ -21011,6 +21703,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Rally"
@@ -21041,6 +21734,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Construcción"
@@ -21072,6 +21766,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Construcción"
@@ -21103,6 +21798,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Construcción"
@@ -21133,6 +21829,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Motociclismo"
@@ -21163,6 +21860,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -21192,6 +21890,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Western"
@@ -21221,6 +21920,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Estrategia por turnos"
@@ -21250,6 +21950,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol"
@@ -21286,6 +21987,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulador"
     ],
@@ -21316,6 +22018,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -21355,6 +22058,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -21390,6 +22094,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -21426,6 +22131,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Ajedrez"
     ],
@@ -21462,6 +22168,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -21499,6 +22206,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Sigilo"
@@ -21533,6 +22241,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Sigilo"
@@ -21564,6 +22273,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -21593,6 +22303,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Shooter"
@@ -21622,6 +22333,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Rol"
@@ -21655,6 +22367,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Rol"
@@ -21686,6 +22399,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Rol"
@@ -21714,6 +22428,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -21743,6 +22458,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -21773,6 +22489,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Arcade"
     ],
@@ -21801,6 +22518,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura"
     ],
@@ -21829,6 +22547,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción por turnos"
@@ -21858,6 +22577,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción por turnos"
@@ -21889,6 +22609,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción por turnos"
@@ -21923,6 +22644,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción por turnos"
@@ -21956,6 +22678,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación",
@@ -21988,6 +22711,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación",
@@ -22018,6 +22742,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Rol"
@@ -22049,6 +22774,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -22083,6 +22809,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Manager Deportivo",
       "Fútbol"
@@ -22117,6 +22844,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Manager Deportivo",
       "Fútbol"
@@ -22148,6 +22876,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -22178,6 +22907,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia en tiempo real"
@@ -22207,6 +22937,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -22239,6 +22970,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulador",
       "Combate"
@@ -22271,6 +23003,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Demolición"
@@ -22301,6 +23034,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -22330,6 +23064,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Ajedrez"
     ],
@@ -22360,6 +23095,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Ajedrez"
     ],
@@ -22391,6 +23127,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Ajedrez"
     ],
@@ -22419,6 +23156,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Ajedrez"
     ],
@@ -22445,6 +23183,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Construcción"
@@ -22476,6 +23215,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Gestión"
@@ -22504,6 +23244,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -22534,6 +23275,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -22564,6 +23306,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -22595,6 +23338,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -22626,6 +23370,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -22657,6 +23402,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -22686,6 +23432,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Rol"
@@ -22715,6 +23462,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Rol"
@@ -22746,6 +23494,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia"
     ],
@@ -22776,6 +23525,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -22806,6 +23556,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -22838,6 +23589,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -22868,6 +23620,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -22899,6 +23652,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Manager Deportivo",
       "Fútbol"
@@ -22930,6 +23684,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Manager Deportivo",
       "Fútbol"
@@ -22960,6 +23715,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -22991,6 +23747,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -23021,6 +23778,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Rol"
@@ -23052,6 +23810,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Rol"
@@ -23083,6 +23842,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia táctica",
       "Rol"
@@ -23113,6 +23873,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Puzzle"
@@ -23142,6 +23903,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Helicópteros"
@@ -23177,6 +23939,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -23207,6 +23970,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -23238,6 +24002,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Sigilo"
@@ -23271,6 +24036,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Arcade"
@@ -23302,6 +24068,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -23332,6 +24099,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -23364,6 +24132,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -23394,6 +24163,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -23424,6 +24194,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -23453,6 +24224,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Entrenamiento cognitivo"
     ],
@@ -23483,6 +24255,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & click"
@@ -23513,6 +24286,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulador",
       "Carreras"
@@ -23543,6 +24317,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulador",
       "Carreras"
@@ -23574,6 +24349,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Thriller"
@@ -23604,6 +24380,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Simulación"
@@ -23635,6 +24412,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Simulación"
@@ -23667,6 +24445,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Acción"
@@ -23700,6 +24479,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia en tiempo real"
@@ -23731,6 +24511,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Simulación"
@@ -23762,6 +24543,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia en tiempo real"
@@ -23793,6 +24575,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia en tiempo real"
@@ -23824,6 +24607,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Táctica"
@@ -23855,6 +24639,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -23886,6 +24671,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Atletismo"
@@ -23917,6 +24703,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Simulación"
@@ -23948,6 +24735,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Simulación"
@@ -23978,6 +24766,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Arcade"
@@ -24017,6 +24806,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -24046,6 +24836,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Automovilismo"
@@ -24077,6 +24868,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulador",
       "Arcade",
@@ -24108,6 +24900,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Plataformas"
     ],
@@ -24138,6 +24931,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Bélico"
@@ -24169,6 +24963,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Bélico"
@@ -24202,6 +24997,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -24232,6 +25028,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -24261,6 +25058,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -24289,6 +25087,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Tenis"
@@ -24318,6 +25117,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -24345,6 +25145,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -24372,6 +25173,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Snowboard"
@@ -24400,6 +25202,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -24427,6 +25230,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulador",
       "Combate aéreo"
@@ -24456,6 +25260,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -24484,6 +25289,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -24512,6 +25318,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -24540,6 +25347,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "Sigilo"
@@ -24569,6 +25377,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura"
     ],
@@ -24597,6 +25406,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Esquí"
@@ -24626,6 +25436,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia"
@@ -24654,6 +25465,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -24685,6 +25497,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -24714,6 +25527,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -24743,6 +25557,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -24772,6 +25587,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -24803,6 +25619,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -24831,6 +25648,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Rally"
@@ -24859,6 +25677,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -24887,6 +25706,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -24916,6 +25736,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -24943,6 +25764,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Acción"
@@ -24971,6 +25793,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Terror"
@@ -24999,6 +25822,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Terror"
@@ -25028,6 +25852,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Fantasía"
@@ -25056,6 +25881,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Simulación"
@@ -25084,6 +25910,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Acción"
@@ -25113,6 +25940,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Arcade"
@@ -25142,6 +25970,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Arcade"
@@ -25171,6 +26000,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Trenes"
@@ -25200,6 +26030,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Motociclismo"
@@ -25229,6 +26060,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Puzzle"
@@ -25258,6 +26090,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -25287,6 +26120,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -25316,6 +26150,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -25345,6 +26180,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter"
     ],
@@ -25373,6 +26209,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25401,6 +26238,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25429,6 +26267,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25457,6 +26296,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25485,6 +26325,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25513,6 +26354,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Rally"
@@ -25542,6 +26384,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Tenis"
@@ -25570,6 +26413,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -25598,6 +26442,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Vuelo"
@@ -25626,6 +26471,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Vuelo"
@@ -25655,6 +26501,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulador",
       "Combate aéreo"
@@ -25684,6 +26531,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25714,6 +26562,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulador",
       "Combate aéreo"
@@ -25742,6 +26591,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Rol"
@@ -25773,6 +26623,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25802,6 +26653,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol"
@@ -25837,6 +26689,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes"
     ],
@@ -25865,6 +26718,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -25893,6 +26747,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25921,6 +26776,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25948,6 +26804,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -25975,6 +26832,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26003,6 +26861,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26032,6 +26891,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -26061,6 +26921,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -26088,6 +26949,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -26116,6 +26978,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -26143,6 +27006,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -26170,6 +27034,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -26197,6 +27062,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -26223,6 +27089,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -26253,6 +27120,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26283,6 +27151,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26315,6 +27184,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -26345,6 +27215,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26373,6 +27244,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26403,6 +27275,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -26431,6 +27304,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -26460,6 +27334,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -26488,6 +27363,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Baloncesto"
@@ -26525,6 +27401,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26555,6 +27432,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter",
@@ -26583,6 +27461,7 @@
       "Win98",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción",
       "Rally"
@@ -26610,6 +27489,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -26638,6 +27518,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -26666,6 +27547,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -26694,6 +27576,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -26722,6 +27605,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -26750,6 +27634,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Rol"
@@ -26779,6 +27664,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26807,6 +27693,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -26834,6 +27721,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Puzzle"
@@ -26861,6 +27749,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -26890,6 +27779,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Rally"
@@ -26921,6 +27811,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Arcade"
     ],
@@ -26953,6 +27844,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Construcción"
@@ -26983,6 +27875,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -27010,6 +27903,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -27036,6 +27930,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -27064,6 +27959,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Simulador"
@@ -27093,6 +27989,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Estrategia en tiempo real"
@@ -27122,6 +28019,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Sigilo"
@@ -27151,6 +28049,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Aventura"
@@ -27180,6 +28079,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción",
       "Rally"
@@ -27209,6 +28109,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gestión"
@@ -27238,6 +28139,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción"
@@ -27265,6 +28167,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Point & Click"
@@ -27293,6 +28196,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -27321,6 +28225,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Gestión",
@@ -27354,6 +28259,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Gestión deportiva",
@@ -27386,6 +28292,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27424,6 +28331,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27463,6 +28371,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27502,6 +28411,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27540,6 +28450,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27579,6 +28490,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27617,6 +28529,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27656,6 +28569,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27694,6 +28608,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27734,6 +28649,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -27772,6 +28688,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -27810,6 +28727,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -27840,6 +28758,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión deportiva",
@@ -27874,6 +28793,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol americano"
@@ -27904,6 +28824,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol americano"
@@ -27934,6 +28855,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Baloncesto"
@@ -27964,6 +28886,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Hockey sobre hielo"
@@ -27994,6 +28917,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Rugby"
@@ -28024,6 +28948,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Gestión deportiva"
@@ -28055,6 +28980,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28087,6 +29013,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28119,6 +29046,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28150,6 +29078,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28180,6 +29109,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28212,6 +29142,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28244,6 +29175,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28276,6 +29208,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28308,6 +29241,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28340,6 +29274,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28372,6 +29307,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28404,6 +29340,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28435,6 +29372,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28464,6 +29402,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28495,6 +29434,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28526,6 +29466,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28557,6 +29498,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28588,6 +29530,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28619,6 +29562,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28650,6 +29594,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28681,6 +29626,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28712,6 +29658,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28743,6 +29690,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28774,6 +29722,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28804,6 +29753,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28832,6 +29782,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28862,6 +29813,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28892,6 +29844,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28922,6 +29875,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28952,6 +29906,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -28982,6 +29937,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -29012,6 +29968,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -29042,6 +29999,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -29072,6 +30030,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -29103,6 +30062,7 @@
       "Win10",
       "Win11"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación"
     ],
@@ -29131,6 +30091,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29159,6 +30120,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29188,6 +30150,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29217,6 +30180,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29244,6 +30208,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -29272,6 +30237,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -29300,6 +30266,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29327,6 +30294,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29355,6 +30323,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -29385,6 +30354,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol"
     ],
@@ -29417,6 +30387,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter en primera persona"
@@ -29447,6 +30418,7 @@
       "MsDos",
       "Win3.x"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29474,6 +30446,7 @@
       "MsDos",
       "Win3.x"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Misterio"
@@ -29502,6 +30475,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Pinball",
       "Acción"
@@ -29532,6 +30506,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29566,6 +30541,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Pinball",
       "Acción"
@@ -29597,6 +30573,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29624,6 +30601,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -29653,6 +30631,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Estrategia"
@@ -29692,6 +30671,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Gestión"
@@ -29721,6 +30701,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Acción"
@@ -29751,6 +30732,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Arcade"
@@ -29781,6 +30763,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Acción"
@@ -29813,6 +30796,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter",
@@ -29844,6 +30828,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -29875,6 +30860,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Puzzle"
@@ -29903,6 +30889,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter"
@@ -29941,6 +30928,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Full Motion Video"
@@ -29972,6 +30960,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras"
     ],
@@ -30003,6 +30992,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Simulación económica"
@@ -30033,6 +31023,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Hack & Slash"
@@ -30065,6 +31056,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter en primera persona"
@@ -30097,6 +31089,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Tenis"
@@ -30128,6 +31121,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter",
       "Acción"
@@ -30158,6 +31152,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter"
@@ -30188,6 +31183,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura gráfica",
       "Puzzle"
@@ -30218,6 +31214,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Conducción"
@@ -30248,6 +31245,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Acción"
@@ -30285,6 +31283,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -30315,6 +31314,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Survival Horror",
       "Acción"
@@ -30342,6 +31342,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -30370,6 +31371,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -30398,6 +31400,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Tiempo real"
@@ -30425,6 +31428,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter"
@@ -30452,6 +31456,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -30477,6 +31482,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -30503,6 +31509,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Massively Multiplayer Online Role-Playing Game"
     ],
@@ -30534,6 +31541,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -30562,6 +31570,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción"
     ],
@@ -30589,6 +31598,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Puzzle",
       "Construcción"
@@ -30616,6 +31626,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Táctica"
@@ -30645,6 +31656,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter en primera persona"
@@ -30671,6 +31683,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -30698,6 +31711,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos"
     ],
@@ -30728,6 +31742,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -30757,6 +31772,7 @@
       "Win7",
       "Win8"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Estrategia"
@@ -30788,6 +31804,7 @@
       "WinNT",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -30819,6 +31836,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -30846,6 +31864,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura"
@@ -30873,6 +31892,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter en tercera persona"
@@ -30903,6 +31923,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter en primera persona"
@@ -30932,6 +31953,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción"
@@ -30959,6 +31981,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -30987,6 +32010,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Tiempo real"
@@ -31020,6 +32044,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -31052,6 +32077,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Táctica"
@@ -31083,6 +32109,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter en primera persona"
@@ -31114,6 +32141,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura"
@@ -31151,6 +32179,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Puzle"
@@ -31181,6 +32210,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura"
@@ -31212,6 +32242,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter en primera persona"
@@ -31242,6 +32273,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Acción"
@@ -31272,6 +32304,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter en primera persona"
@@ -31302,6 +32335,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter"
@@ -31332,6 +32366,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Táctica",
@@ -31365,6 +32400,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Táctica",
@@ -31396,6 +32432,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Acción",
@@ -31427,6 +32464,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura"
@@ -31459,6 +32497,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Táctica"
@@ -31489,6 +32528,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Simulación"
@@ -31520,6 +32560,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Ciencia ficción"
@@ -31550,6 +32591,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vuelo"
@@ -31580,6 +32622,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter"
@@ -31610,6 +32653,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vuelo"
@@ -31640,6 +32684,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Rol",
@@ -31678,6 +32723,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Simulación"
@@ -31708,6 +32754,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Táctica",
@@ -31739,6 +32786,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Acción"
@@ -31776,6 +32824,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Futurista"
@@ -31812,6 +32861,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura"
@@ -31849,6 +32899,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Rol",
@@ -31887,6 +32938,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -31924,6 +32976,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter",
@@ -31962,6 +33015,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vuelo",
@@ -32000,6 +33054,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Aventura",
@@ -32037,6 +33092,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Educativo",
       "Aventura",
@@ -32075,6 +33131,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Táctica",
@@ -32113,6 +33170,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Carreras",
@@ -32151,6 +33209,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Carreras",
@@ -32189,6 +33248,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter",
@@ -32226,6 +33286,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Táctica",
@@ -32264,6 +33325,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Acción",
@@ -32302,6 +33364,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "MMORPG",
@@ -32339,6 +33402,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter",
@@ -32377,6 +33441,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vuelo"
@@ -32414,6 +33479,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Acción",
@@ -32453,6 +33519,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción",
@@ -32493,6 +33560,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "Acción",
@@ -32533,6 +33601,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura",
@@ -32572,6 +33641,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Acción",
@@ -32611,6 +33681,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Survival Horror",
@@ -32649,6 +33720,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Acción",
@@ -32688,6 +33760,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -32726,6 +33799,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Acción",
@@ -32764,6 +33838,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Deportivo",
@@ -32802,6 +33877,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter",
@@ -32841,6 +33917,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Acción",
@@ -32878,6 +33955,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Estrategia",
@@ -32916,6 +33994,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Rol",
@@ -32955,6 +34034,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Táctica",
       "Shooter",
@@ -32993,6 +34073,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportivo",
       "Simulación",
@@ -33030,6 +34111,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Tiempo real",
@@ -33068,6 +34150,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter",
@@ -33105,6 +34188,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Ciencia ficción",
@@ -33143,6 +34227,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Terror",
@@ -33181,6 +34266,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -33226,6 +34312,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura",
@@ -33264,6 +34351,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Acción",
@@ -33302,6 +34390,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Gestión",
@@ -33339,6 +34428,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Simulación",
@@ -33377,6 +34467,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -33414,6 +34505,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Acción",
@@ -33451,6 +34543,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Terror",
@@ -33488,6 +34581,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Carreras",
       "Arcade",
@@ -33524,6 +34618,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Segunda Guerra Mundial"
@@ -33561,6 +34656,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vuelo",
@@ -33594,6 +34690,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Baloncesto"
@@ -33626,6 +34723,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -33666,6 +34764,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Juegos de mesa",
       "Colección"
@@ -33699,6 +34798,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Histórico"
@@ -33739,6 +34839,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Billar"
@@ -33772,6 +34873,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Fantasía"
@@ -33806,6 +34908,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Conducción",
       "Rally"
@@ -33840,6 +34943,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vuelo",
@@ -33875,6 +34979,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Conducción",
       "Rally",
@@ -33911,6 +35016,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Conducción",
       "Monoplazas",
@@ -33946,6 +35052,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Conducción",
       "Motociclismo",
@@ -33981,6 +35088,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol",
@@ -34016,6 +35124,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -34051,6 +35160,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Conducción",
       "Motociclismo",
@@ -34087,6 +35197,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Conducción",
       "Fórmula 1",
@@ -34122,6 +35233,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol"
@@ -34157,6 +35269,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Rol",
@@ -34193,6 +35306,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Billar"
@@ -34227,6 +35341,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Baloncesto"
@@ -34263,6 +35378,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Fantasía"
@@ -34299,6 +35415,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -34333,6 +35450,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Conducción",
       "Arcade"
@@ -34368,6 +35486,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "Big Box",
     "genero": [
       "MMORPG",
       "Fantasía"
@@ -34405,6 +35524,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Fantasía"
@@ -34439,6 +35559,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Cyberpunk",
@@ -34477,6 +35598,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "4X",
@@ -34514,6 +35636,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Estrategia en tiempo real",
@@ -34549,6 +35672,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "FPS",
@@ -34586,6 +35710,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "FPS",
@@ -34623,6 +35748,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
@@ -34668,6 +35794,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -34710,6 +35837,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
@@ -34746,6 +35874,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura",
@@ -34781,6 +35910,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Aventura",
@@ -34817,6 +35947,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Disparos en primera persona",
@@ -34854,6 +35985,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Simulación",
@@ -34890,6 +36022,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Fantasía",
@@ -34925,6 +36058,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
@@ -34961,6 +36095,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Educativo",
@@ -34997,6 +36132,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Comedia"
@@ -35031,6 +36167,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter en primera persona",
@@ -35067,6 +36204,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Fantasía"
@@ -35101,6 +36239,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Fantasía",
@@ -35137,6 +36276,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "RPG",
@@ -35169,6 +36309,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión",
@@ -35198,6 +36339,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Bélico",
@@ -35227,6 +36369,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -35254,6 +36397,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión deportiva",
@@ -35281,6 +36425,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión",
@@ -35308,6 +36453,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión",
@@ -35335,6 +36481,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Mascotas",
@@ -35362,6 +36509,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Simulación",
@@ -35389,6 +36537,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Simulación",
@@ -35416,6 +36565,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Musical",
       "Karaoke",
@@ -35443,6 +36593,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "RPG",
@@ -35470,6 +36621,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Simulación",
@@ -35497,6 +36649,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Acción táctica",
@@ -35524,6 +36677,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Simulación",
@@ -35551,6 +36705,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Compilación",
       "Retro",
@@ -35578,6 +36733,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -35609,6 +36765,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción",
@@ -35636,6 +36793,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter",
@@ -35663,6 +36821,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Plataformas",
       "Aventura",
@@ -35691,6 +36850,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Golf",
@@ -35719,6 +36879,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -35747,6 +36908,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter",
@@ -35775,6 +36937,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Rol",
       "MMORPG",
@@ -35803,6 +36966,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Acción",
@@ -35833,6 +36997,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Historia",
@@ -35861,6 +37026,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -35891,6 +37057,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
@@ -35921,6 +37088,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
@@ -35951,6 +37119,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Aventura",
@@ -35981,6 +37150,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Aventura gráfica",
@@ -36012,6 +37182,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Simulación",
@@ -36043,6 +37214,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Simulación",
@@ -36073,6 +37245,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Ficción interactiva",
@@ -36104,6 +37277,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
@@ -36132,6 +37306,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
@@ -36160,6 +37335,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
@@ -36193,6 +37369,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción"
@@ -36224,6 +37401,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Survival Horror",
       "Acción",
@@ -36256,6 +37434,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura",
@@ -36288,6 +37467,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación aérea",
       "Acción",
@@ -36319,6 +37499,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación aérea",
       "Combate aéreo",
@@ -36352,6 +37533,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
       "Táctica",
@@ -36384,6 +37566,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Shooter en tercera persona",
@@ -36415,6 +37598,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Estrategia",
@@ -36449,6 +37633,7 @@
       "Win7",
       "MacOs"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -36479,6 +37664,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -36511,6 +37697,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -36543,6 +37730,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación aérea",
       "Acción",
@@ -36574,6 +37762,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Gestión",
@@ -36606,6 +37795,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Gestión",
@@ -36637,6 +37827,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -36669,6 +37860,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Ciencia ficción",
@@ -36701,6 +37893,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación aérea",
       "Combate aéreo",
@@ -36732,6 +37925,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación aérea",
       "Combate aéreo",
@@ -36765,6 +37959,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -36797,6 +37992,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Wargame",
@@ -36827,6 +38023,7 @@
     "plataforma": [
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -36860,6 +38057,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación aérea",
       "Combate aéreo",
@@ -36891,6 +38089,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Estrategia espacial",
@@ -36922,6 +38121,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -36954,6 +38154,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -36986,6 +38187,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Acción",
@@ -37018,6 +38220,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Histórico",
@@ -37049,6 +38252,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Combate espacial",
@@ -37082,6 +38286,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Disparos",
@@ -37112,6 +38317,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter",
@@ -37144,6 +38350,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -37176,6 +38383,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción",
       "Carreras",
@@ -37209,6 +38417,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter",
@@ -37242,6 +38451,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Educativo",
       "Aventura",
@@ -37274,6 +38484,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter en tercera persona",
@@ -37305,6 +38516,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -37340,6 +38552,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Gestión",
       "Deportes",
@@ -37374,6 +38587,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Simulación",
@@ -37410,6 +38624,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Histórico",
@@ -37444,6 +38659,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión deportiva",
@@ -37479,6 +38695,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Olimpiadas",
@@ -37515,6 +38732,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter en primera persona",
@@ -37549,6 +38767,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Conducción",
       "Simulación",
@@ -37586,6 +38805,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Gestión",
@@ -37624,6 +38844,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión deportiva",
@@ -37660,6 +38881,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Mascotas virtuales",
@@ -37698,6 +38920,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "MMORPG",
       "Rol",
@@ -37736,6 +38959,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Rol",
@@ -37776,6 +39000,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción táctica",
       "Shooter",
@@ -37813,6 +39038,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción táctica",
       "Shooter",
@@ -37848,6 +39074,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Bélico",
@@ -37883,6 +39110,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción",
@@ -37920,6 +39148,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Gestión deportiva",
       "Simulación",
@@ -37956,6 +39185,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Gestión",
       "Simulación",
@@ -37991,6 +39221,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Sigilo",
@@ -38027,6 +39258,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter en primera persona",
@@ -38063,6 +39295,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Plataformas",
@@ -38104,6 +39337,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter en primera persona",
       "Acción",
@@ -38146,6 +39380,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Acción",
@@ -38185,6 +39420,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Mundo abierto",
@@ -38221,6 +39457,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -38255,6 +39492,7 @@
     "plataforma": [
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Gestión",
@@ -38291,6 +39529,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Acción",
@@ -38329,6 +39568,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Arcade",
       "Shoot 'em up",
@@ -38363,6 +39603,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia en tiempo real",
       "Ciencia ficción",
@@ -38395,6 +39636,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter en primera persona",
@@ -38429,6 +39671,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Acción",
@@ -38459,6 +39702,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Terror",
@@ -38490,6 +39734,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Terror",
@@ -38520,6 +39765,7 @@
     "plataforma": [
       "Win98"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes"
     ],
@@ -38552,6 +39798,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Acción"
@@ -38585,6 +39832,7 @@
       "Win98",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Carreras",
       "Conducción"
@@ -38617,6 +39865,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -38650,6 +39899,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Construcción",
@@ -38684,6 +39934,7 @@
       "MsDos",
       "Win3.x"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Comedia"
@@ -38718,6 +39969,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Aventura 3D",
@@ -38750,6 +40002,7 @@
       "WinMe",
       "WinXP"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Deportes",
@@ -38783,6 +40036,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "FPS",
@@ -38813,6 +40067,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -38843,6 +40098,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Tiempo real",
@@ -38873,6 +40129,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Interactivo",
@@ -38903,6 +40160,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -38934,6 +40192,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -38964,6 +40223,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "4X",
@@ -38995,6 +40255,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -39028,6 +40289,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -39060,6 +40322,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Tiempo real",
@@ -39093,6 +40356,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -39127,6 +40391,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -39160,6 +40425,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Construcción",
@@ -39192,6 +40458,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -39224,6 +40491,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Tiempo real",
@@ -39258,6 +40526,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Tiempo real",
@@ -39293,6 +40562,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Espacial",
@@ -39328,6 +40598,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura grafica",
       "Puzles",
@@ -39365,6 +40636,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Vehiculos",
@@ -39401,6 +40673,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Helicopteros",
@@ -39437,6 +40710,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "MMORPG",
       "Rol",
@@ -39473,6 +40747,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "MMORPG",
       "Rol",
@@ -39507,6 +40782,7 @@
     "plataforma": [
       "MsDos"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Acción",
@@ -39541,6 +40817,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Acción",
@@ -39577,6 +40854,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Acción",
@@ -39612,6 +40890,7 @@
       "Win98",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Tiempo real",
@@ -39648,6 +40927,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Deportes"
@@ -39683,6 +40963,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vuelo",
@@ -39721,6 +41002,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "FPS",
@@ -39754,6 +41036,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -39786,6 +41069,7 @@
       "Win98",
       "WinMe"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -39816,6 +41100,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -39849,6 +41134,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Fútbol",
@@ -39883,6 +41169,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Simulación",
@@ -39916,6 +41203,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Baloncesto",
@@ -39948,6 +41236,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "FPS",
@@ -39982,6 +41271,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Deportes",
       "Baloncesto",
@@ -40015,6 +41305,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "RTS",
@@ -40048,6 +41339,7 @@
       "Windows Vista",
       "Win7"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter",
@@ -40081,6 +41373,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -40112,6 +41405,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Aventura",
@@ -40144,6 +41438,7 @@
       "WinXP",
       "Windows Vista"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "FPS",
@@ -40178,6 +41473,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Sigilo",
@@ -40212,6 +41508,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "RTS",
@@ -40245,6 +41542,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Aventura",
       "Point & Click",
@@ -40278,6 +41576,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "FPS",
@@ -40310,6 +41609,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "FPS",
@@ -40343,6 +41643,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Estrategia",
       "Construcción de ciudades",
@@ -40375,6 +41676,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Simulación",
       "Acción",
@@ -40408,6 +41710,7 @@
       "Win8",
       "Win10"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Shooter",
       "FPS",
@@ -40442,6 +41745,7 @@
       "Win2000",
       "WinXP"
     ],
+    "formato": "DVD Case",
     "genero": [
       "Acción",
       "Shooter",
@@ -40473,6 +41777,7 @@
       "MsDos",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
@@ -40502,6 +41807,7 @@
     "plataforma": [
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Simulación"
@@ -40534,6 +41840,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Rol",
       "Acción RPG"
@@ -40565,6 +41872,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Acción",
@@ -40600,6 +41908,7 @@
       "WinMe",
       "Win2000"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Turnos"
@@ -40631,6 +41940,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Aventura",
       "Aventura gráfica"
@@ -40662,6 +41972,7 @@
       "Win3.x",
       "Win95"
     ],
+    "formato": "Big Box",
     "genero": [
       "Estrategia",
       "Wargame",
@@ -40694,6 +42005,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vida",
@@ -40726,6 +42038,7 @@
       "Win95",
       "Win98"
     ],
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Construcción",
