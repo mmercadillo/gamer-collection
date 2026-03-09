@@ -8209,7 +8209,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Shooter",
@@ -12744,7 +12744,7 @@
       "Win98",
       "WinXP"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol",
@@ -12779,7 +12779,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -12794,6 +12794,7 @@
     "incluye": [],
     "serie": [
       "Todos",
+      "Bigbox",
       "Dinamic multimedia"
     ],
     "tags": [
@@ -12811,7 +12812,7 @@
       "Win2000",
       "WinXP"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Ciclismo",
@@ -12828,6 +12829,7 @@
     "incluye": [],
     "serie": [
       "Todos",
+      "Bigbox",
       "Dinamic multimedia"
     ],
     "tags": [
@@ -12845,7 +12847,7 @@
       "WinMe",
       "WinXP"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Beat 'em up",
@@ -12883,7 +12885,7 @@
       "Win2000",
       "WinXP"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Vuelo",
@@ -12917,7 +12919,7 @@
       "Win98",
       "WinMe"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Acción",
       "Aventura",
@@ -12951,7 +12953,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Estrategia",
@@ -12984,7 +12986,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Boxeo",
@@ -13018,7 +13020,7 @@
       "Win98",
       "WinMe"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Simulación",
       "Pinball"
@@ -13034,6 +13036,7 @@
     "incluye": [],
     "serie": [
       "Todos",
+      "Bigbox",
       "Dinamic multimedia"
     ],
     "tags": [
@@ -13049,7 +13052,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Fútbol",
@@ -13083,7 +13086,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
       "Fantasía"
@@ -13116,7 +13119,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Rol"
     ],
@@ -13131,6 +13134,7 @@
     "incluye": [],
     "serie": [
       "Todos",
+      "Bigbox",
       "Dinamic multimedia"
     ],
     "tags": [
@@ -23921,7 +23925,6 @@
       "FX Interactive"
     ],
     "tags": [
-      "Bigbox",
       "Simulación aérea",
       "Helicópteros",
       "FX Interactive",
@@ -31821,7 +31824,6 @@
       "Age of Empires"
     ],
     "tags": [
-      "Bigbox"
     ]
   },
   {
@@ -35813,7 +35815,6 @@
       "EA Games Classics"
     ],
     "tags": [
-      "Bigbox",
       "Fantasía oscura",
       "EA Games Classics",
       "Alicia en el País de las Maravillas",
@@ -36077,7 +36078,6 @@
       "Bigbox"
     ],
     "tags": [
-      "Big Box",
       "Aventura gráfica",
       "Lucasfilm",
       "ERBE",
@@ -36131,7 +36131,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Big Box",
     "genero": [
       "Deportes",
       "Comedia"
