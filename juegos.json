@@ -40975,8 +40975,8 @@
       "Acción",
       "Guerra"
     ],
-    "desarrollador": "Digital Illusions CE (DICE)",
-    "distribuidor": "Electronic Arts",
+    "desarrollador": ["Digital Illusions CE (DICE)"],
+    "distribuidor": ["Electronic Arts"],
     "ean": "",
     "descripcion": "Shooter en primera persona ambientado en la Guerra de Vietnam. Combates multijugador con vehículos terrestres, helicópteros y lanchas, dentro de la saga Battlefield.",
     "incluye": [],
@@ -41008,8 +41008,8 @@
       "Aventura",
       "Plataformas"
     ],
-    "desarrollador": "Neversoft",
-    "distribuidor": "Activision",
+    "desarrollador": ["Neversoft"],
+    "distribuidor": ["Activision"],
     "ean": "",
     "descripcion": "Adaptación para PC del juego de acción protagonizado por Spider-Man. Combina exploración, combate y secuencias narrativas basadas en el universo Marvel, con doblaje original y múltiples villanos clásicos.",
     "incluye": [],
@@ -41041,8 +41041,8 @@
       "Aventura",
       "Plataformas"
     ],
-    "desarrollador": "Neversoft",
-    "distribuidor": "Activision",
+    "desarrollador": ["Neversoft"],
+    "distribuidor": ["Activision"],
     "ean": "",
     "descripcion": "Adaptación para PC del juego de acción protagonizado por Spider-Man. Combina exploración, combate y secuencias narrativas basadas en el universo Marvel, con múltiples villanos clásicos.",
     "incluye": [],
@@ -41072,8 +41072,8 @@
       "Aventura",
       "Mundo abierto"
     ],
-    "desarrollador": "Radical Entertainment",
-    "distribuidor": "Sierra Entertainment",
+    "desarrollador": ["Radical Entertainment"],
+    "distribuidor": ["Sierra Entertainment"],
     "ean": "",
     "descripcion": "Juego de acción en tercera persona basado en la película Scarface. El jugador controla a Tony Montana en una historia alternativa tras el final del film, reconstruyendo su imperio criminal en Miami mediante misiones, comercio y combates.",
     "incluye": [],
@@ -41106,8 +41106,8 @@
       "Fútbol",
       "Simulación"
     ],
-    "desarrollador": "EA Canada",
-    "distribuidor": "Electronic Arts",
+    "desarrollador": ["EA Canada"],
+    "distribuidor": ["Electronic Arts"],
     "ean": "",
     "descripcion": "Entrega anual de la saga FIFA desarrollada por EA Sports. Incluye licencias oficiales de selecciones y clubes, mejoras en la física del balón y un sistema de juego más táctico respecto a ediciones anteriores.",
     "incluye": [],
@@ -41141,8 +41141,8 @@
       "Simulación",
       "Carreras"
     ],
-    "desarrollador": "Image Space Incorporated",
-    "distribuidor": "Electronic Arts",
+    "desarrollador": ["Image Space Incorporated"],
+    "distribuidor": ["Electronic Arts"],
     "ean": "",
     "descripcion": "Simulador oficial del Campeonato Mundial de Fórmula 1 2001. Incluye pilotos, escuderías y circuitos oficiales de la temporada, con enfoque realista en física y reglamentación.",
     "incluye": [],
@@ -41175,8 +41175,8 @@
       "Baloncesto",
       "Simulación"
     ],
-    "desarrollador": "Visual Concepts",
-    "distribuidor": "2K Sports",
+    "desarrollador": ["Visual Concepts"],
+    "distribuidor": ["2K Sports"],
     "ean": "",
     "descripcion": "Entrega de la saga NBA 2K centrada en la figura de Michael Jordan, incluyendo el modo Jordan Challenge con partidos históricos recreados. Destaca por su realismo en físicas y presentación televisiva.",
     "incluye": [],
@@ -41209,8 +41209,8 @@
       "Simulación militar",
       "Táctica"
     ],
-    "desarrollador": "Codemasters",
-    "distribuidor": "Codemasters",
+    "desarrollador": ["Codemasters"],
+    "distribuidor": ["Codemasters"],
     "ean": "",
     "descripcion": "Shooter táctico ambientado en un conflicto ficticio en Tayikistán. Enfocado en el realismo militar y el trabajo en escuadra, ofrece campaña cooperativa y mecánicas estratégicas dentro de la saga Operation Flashpoint.",
     "incluye": [],
@@ -41243,8 +41243,8 @@
       "Baloncesto",
       "Simulación"
     ],
-    "desarrollador": "Visual Concepts",
-    "distribuidor": "2K Sports",
+    "desarrollador": ["Visual Concepts"],
+    "distribuidor": ["2K Sports"],
     "ean": "",
     "descripcion": "Entrega de la saga NBA 2K correspondiente a la temporada 2009-2010. Incluye mejoras en inteligencia artificial, presentación televisiva y modos de juego ampliados, con Kobe Bryant como imagen de portada.",
     "incluye": [],
@@ -41277,8 +41277,8 @@
       "RTS",
       "Gestión"
     ],
-    "desarrollador": "Funatics Development",
-    "distribuidor": "JoWooD Productions",
+    "desarrollador": ["Funatics Development"],
+    "distribuidor": ["JoWooD Productions"],
     "ean": "",
     "descripcion": "Juego de estrategia en tiempo real ambientado en la era vikinga. El jugador gestiona aldeas, recursos y unidades en campañas centradas en exploración, comercio y combate táctico.",
     "incluye": [],
@@ -41311,8 +41311,8 @@
       "Shooter",
       "Tercera persona"
     ],
-    "desarrollador": "IO Interactive",
-    "distribuidor": "Square Enix",
+    "desarrollador": ["IO Interactive"],
+    "distribuidor": ["Square Enix"],
     "ean": "",
     "descripcion": "Shooter en tercera persona ambientado en Shanghái que sigue la historia criminal de Kane y Lynch. Destaca por su estilo visual crudo tipo cámara digital y su enfoque narrativo intenso.",
     "incluye": [],
@@ -41345,8 +41345,8 @@
       "Aventura",
       "Mundo abierto"
     ],
-    "desarrollador": "DMA Design",
-    "distribuidor": "Rockstar Games",
+    "desarrollador": ["DMA Design"],
+    "distribuidor": ["Rockstar Games"],
     "ean": "",
     "descripcion": "Tercera entrega principal de la saga Grand Theft Auto y primera en adoptar un entorno completamente tridimensional. Ambientado en Liberty City, revolucionó el concepto de mundo abierto combinando narrativa criminal, exploración libre y misiones no lineales.",
     "incluye": [],
@@ -41377,8 +41377,8 @@
       "Aventura",
       "Mundo abierto"
     ],
-    "desarrollador": "Rockstar North",
-    "distribuidor": "Rockstar Games",
+    "desarrollador": ["Rockstar North"],
+    "distribuidor": ["Rockstar Games"],
     "ean": "",
     "descripcion": "Cuarta entrega principal de la saga Grand Theft Auto. Ambientado en Liberty City, sigue la historia de Niko Bellic en una narrativa más madura y realista, con un motor gráfico renovado y un mundo abierto detallado.",
     "incluye": [],
@@ -41411,8 +41411,8 @@
       "Acción",
       "Militar"
     ],
-    "desarrollador": "Infinity Ward",
-    "distribuidor": "Activision",
+    "desarrollador": ["Infinity Ward"],
+    "distribuidor": ["Activision"],
     "ean": "",
     "descripcion": "Shooter en primera persona que trasladó la saga Call of Duty a la guerra moderna. La edición Juego del Año incluye mapas multijugador adicionales y consolidó el éxito del modo online competitivo.",
     "incluye": [],
@@ -41446,8 +41446,8 @@
       "Shooter",
       "Tercera persona"
     ],
-    "desarrollador": "IO Interactive",
-    "distribuidor": "Eidos Interactive",
+    "desarrollador": ["IO Interactive"],
+    "distribuidor": ["Eidos Interactive"],
     "ean": "",
     "descripcion": "Recopilación que incluye tres entregas de la saga Hitman: Hitman 2, Hitman: Contracts y Hitman: Blood Money. El jugador encarna al Agente 47 en misiones de asesinato basadas en sigilo, planificación y múltiples enfoques.",
     "incluye": [],
@@ -41480,8 +41480,8 @@
       "RTS",
       "Guerra"
     ],
-    "desarrollador": "Lesta Studio",
-    "distribuidor": "Buka Entertainment",
+    "desarrollador": ["Lesta Studio"],
+    "distribuidor": ["Buka Entertainment"],
     "ean": "",
     "descripcion": "Juego de estrategia en tiempo real ambientado en la Primera Guerra Mundial. Permite controlar distintas potencias del conflicto, gestionando recursos, infantería, artillería y unidades aéreas en escenarios históricos.",
     "incluye": [],
@@ -41514,8 +41514,8 @@
       "Point & Click",
       "Educativo"
     ],
-    "desarrollador": "Cryo Interactive",
-    "distribuidor": "DreamCatcher Interactive",
+    "desarrollador": ["Cryo Interactive"],
+    "distribuidor": ["DreamCatcher Interactive"],
     "ean": "",
     "descripcion": "Aventura gráfica basada en la obra de Julio Verne. Combina exploración, resolución de puzles y narrativa interactiva ambientada en el universo literario del autor.",
     "incluye": [],
@@ -41548,8 +41548,8 @@
       "FPS",
       "Acción"
     ],
-    "desarrollador": "Gearbox Software",
-    "distribuidor": "Electronic Arts",
+    "desarrollador": ["Gearbox Software"],
+    "distribuidor": ["Electronic Arts"],
     "ean": "",
     "descripcion": "Shooter en primera persona protagonizado por James Bond. Combina misiones de acción, infiltración y conducción de vehículos con un enfoque cinematográfico característico de la franquicia 007.",
     "incluye": [],
@@ -41582,8 +41582,8 @@
       "Acción",
       "Ciencia ficción"
     ],
-    "desarrollador": "Crystal Dynamics",
-    "distribuidor": "Eidos Interactive",
+    "desarrollador": ["Crystal Dynamics"],
+    "distribuidor": ["Eidos Interactive"],
     "ean": "",
     "descripcion": "Shooter en primera persona ambientado en un conflicto futurista. Combina combate armado con mejoras cibernéticas del protagonista que permiten habilidades especiales durante la acción.",
     "incluye": [],
@@ -41615,8 +41615,8 @@
       "Construcción de ciudades",
       "Simulación histórica"
     ],
-    "desarrollador": "Tilted Mill Entertainment",
-    "distribuidor": "Atari",
+    "desarrollador": ["Tilted Mill Entertainment"],
+    "distribuidor": ["Atari"],
     "ean": "8436019770046",
     "descripcion": "Juego de estrategia y construcción ambientado en el Antiguo Egipto. El jugador gestiona recursos, población y desarrollo urbano a lo largo del Nilo, con un enfoque detallado en la vida individual de los habitantes.",
     "incluye": [],
@@ -41649,8 +41649,8 @@
       "Bélico",
       "Simulador de vuelo"
     ],
-    "desarrollador": "3Division",
-    "distribuidor": "Legendio",
+    "desarrollador": ["3Division"],
+    "distribuidor": ["Legendio"],
     "ean": "",
     "descripcion": "Juego de acción aérea ambientado en la Segunda Guerra Mundial. El jugador pilota distintos aviones en misiones inspiradas en el ataque a Pearl Harbor y el conflicto en el Pacífico.",
     "incluye": [],
@@ -41683,8 +41683,8 @@
       "Acción",
       "Mundo abierto"
     ],
-    "desarrollador": "Ubisoft Montreal",
-    "distribuidor": "Ubisoft",
+    "desarrollador": ["Ubisoft Montreal"],
+    "distribuidor": ["Ubisoft"],
     "ean": "",
     "descripcion": "Shooter en primera persona de mundo abierto ambientado en Hope County, Montana. El jugador se enfrenta a una secta apocalíptica mientras explora libremente el entorno y completa misiones principales y secundarias.",
     "incluye": [],
@@ -41717,8 +41717,8 @@
       "Shooter",
       "Tercera persona"
     ],
-    "desarrollador": "City Interactive",
-    "distribuidor": "City Interactive",
+    "desarrollador": ["City Interactive"],
+    "distribuidor": ["City Interactive"],
     "ean": "",
     "descripcion": "Juego de acción en tercera persona protagonizado por una agente secreta. Combina combate armado y misiones de infiltración en escenarios de corte moderno.",
     "incluye": [],
@@ -41747,8 +41747,8 @@
     "genero": [
       "Aventura gráfica"
     ],
-    "desarrollador": "Cryo Interactive",
-    "distribuidor": "Friendware",
+    "desarrollador": ["Cryo Interactive"],
+    "distribuidor": ["Friendware"],
     "ean": "",
     "descripcion": "Aventura gráfica en 3D inspirada en la mitología griega y en los relatos de Homero. El jugador encarna a Heritias en su viaje por el mar Egeo en busca de Ulises, enfrentándose a criaturas míticas y explorando escenarios reconstruidos con motor 3D en tiempo real.",
     "incluye": [],
@@ -41778,8 +41778,8 @@
       "Estrategia",
       "Simulación"
     ],
-    "desarrollador": "Coolhand Interactive",
-    "distribuidor": "LucasArts",
+    "desarrollador": ["Coolhand Interactive"],
+    "distribuidor": ["LucasArts"],
     "ean": "",
     "descripcion": "Juego de estrategia a gran escala ambientado en el universo de Star Wars. El jugador puede liderar la Alianza Rebelde o el Imperio Galáctico, gestionando recursos, diplomacia, investigación y flotas espaciales en tiempo real, con batallas en 3D y control de más de 200 sistemas planetarios.",
     "incluye": [],
@@ -41811,8 +41811,8 @@
       "Rol",
       "Acción RPG"
     ],
-    "desarrollador": "Click Entertainment",
-    "distribuidor": "Sierra",
+    "desarrollador": ["Click Entertainment"],
+    "distribuidor": ["Sierra"],
     "ean": "",
     "descripcion": "Action RPG ambientado en el Japón feudal inspirado en la mitología japonesa. El jugador controla a siete samuráis con habilidades diferenciadas, gestionando combate táctico en tiempo real, progresión de personajes y equipamiento en escenarios oscuros y sobrenaturales.",
     "incluye": [],
@@ -41844,8 +41844,8 @@
       "Acción",
       "FPS"
     ],
-    "desarrollador": "Dynamix",
-    "distribuidor": "Sierra",
+    "desarrollador": ["Dynamix"],
+    "distribuidor": ["Sierra"],
     "ean": "3348542021334",
     "descripcion": "Pack que incluye Starsiege y Starsiege: Tribes. Combina simulación de combate en 3D con acción multijugador en primera persona ambientada en el universo Starsiege. Incluye campañas individuales, combate táctico con mechs y experiencia multijugador online.",
     "incluye": [],
@@ -41879,8 +41879,8 @@
       "Estrategia",
       "Turnos"
     ],
-    "desarrollador": "Firaxis Games",
-    "distribuidor": "Infogrames",
+    "desarrollador": ["Firaxis Games"],
+    "distribuidor": ["Infogrames"],
     "ean": "3546430022337",
     "descripcion": "Tercera entrega de la saga Civilization. Juego de estrategia por turnos en el que el jugador guía una civilización desde la Antigüedad hasta la era moderna, gestionando diplomacia, investigación tecnológica, expansión territorial y conflictos militares con múltiples condiciones de victoria.",
     "incluye": [],
@@ -41911,8 +41911,8 @@
       "Aventura",
       "Aventura gráfica"
     ],
-    "desarrollador": "Cryo Interactive",
-    "distribuidor": "Friendware",
+    "desarrollador": ["Cryo Interactive"],
+    "distribuidor": ["Friendware"],
     "ean": "",
     "descripcion": "Aventura ambientada en la mitología griega en la que el jugador encarna a Heritias, enviado por Penélope para encontrar a Ulises tras la guerra de Troya. El juego combina exploración, resolución de enigmas y encuentros con criaturas míticas mientras se recorren distintas islas del mar Egeo y el inframundo.",
     "incluye": [],
@@ -41944,8 +41944,8 @@
       "Wargame",
       "Turnos"
     ],
-    "desarrollador": "TalonSoft",
-    "distribuidor": "Empire Interactive",
+    "desarrollador": ["TalonSoft"],
+    "distribuidor": ["Empire Interactive"],
     "ean": "744788550866",
     "descripcion": "Wargame táctico ambientado en la campaña de Rusia de 1812 durante las guerras napoleónicas. El jugador dirige ejércitos imperiales o aliados en batallas históricas utilizando mapas hexagonales, unidades detalladas y un sistema de combate que combina visión estratégica en 2D con recreaciones tácticas del campo de batalla.",
     "incluye": [],
@@ -41977,8 +41977,8 @@
       "Vida",
       "Gestión"
     ],
-    "desarrollador": "Maxis",
-    "distribuidor": "Electronic Arts",
+    "desarrollador": ["Maxis"],
+    "distribuidor": ["Electronic Arts"],
     "ean": "5030930022517",
     "descripcion": "Simulador social creado por Will Wright en el que el jugador diseña personajes, construye sus hogares y controla sus vidas diarias. Los Sims deben gestionar sus necesidades, desarrollar relaciones personales, progresar en sus carreras y desenvolverse en un entorno doméstico abierto con gran libertad de interacción.",
     "incluye": [],
@@ -42010,8 +42010,8 @@
       "Construcción",
       "Gestión"
     ],
-    "desarrollador": "Maxis",
-    "distribuidor": "Electronic Arts",
+    "desarrollador": ["Maxis"],
+    "distribuidor": ["Electronic Arts"],
     "ean": "",
     "descripcion": "Simulador de construcción y gestión de ciudades en el que el jugador diseña, administra y desarrolla una metrópolis desde sus cimientos. Debe equilibrar presupuesto, zonificación, infraestructuras, transporte y servicios públicos mientras enfrenta desastres, crecimiento urbano y las demandas de los ciudadanos.",
     "incluye": [],
@@ -42042,8 +42042,8 @@
       "Carreras",
       "Arcade"
     ],
-    "desarrollador": "Tantalus Interactive",
-    "distribuidor": "Acclaim",
+    "desarrollador": ["Tantalus Interactive"],
+    "distribuidor": ["Acclaim"],
     "ean": "",
     "descripcion": "Juego de carreras arcade ambientado en el universo de South Park. Los jugadores compiten en caóticas carreras a través de escenarios inspirados en la serie mientras utilizan objetos y trampas para sabotear a sus rivales. Incluye personajes clásicos como Cartman, Stan, Kyle y Kenny, circuitos llenos de humor irreverente y desafíos inspirados en episodios de la serie.",
     "incluye": [],
@@ -42059,5 +42059,1133 @@
       "Acclaim",
       "Licencia TV"
     ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Eden",
+    "url": "juegos/eden-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Aventura gráfica"
+    ],
+    "desarrollador": ["Cryo Interactive"],
+    "distribuidor": ["Proein"],
+    "ean": "",
+    "descripcion": "Aventura gráfica en primera persona desarrollada por Cryo Interactive. El jugador encarna a Syan, un explorador que despierta en un misterioso planeta donde conviven tribus humanas primitivas con tecnología avanzada. El juego mezcla exploración, resolución de puzles y una narrativa de ciencia ficción ambientada en un entorno prehistórico surrealista. Destaca por su atmósfera, su estilo artístico característico de Cryo y un mundo abierto para explorar.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "NecroVision",
+    "url": "juegos/necrovision-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "FPS",
+      "Terror"
+    ],
+    "desarrollador": ["The Farm 51"],
+    "distribuidor": ["FX Interactive"],
+    "ean": "",
+    "descripcion": "Shooter en primera persona ambientado en la Primera Guerra Mundial que mezcla combate histórico con elementos de terror sobrenatural. El jugador controla a un soldado estadounidense que, tras quedar atrapado en las trincheras del frente europeo, descubre que fuerzas demoníacas han despertado bajo el campo de batalla. El juego combina armas históricas, combate cuerpo a cuerpo y criaturas sobrenaturales en una campaña oscura y violenta.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Streets of Moscow",
+    "url": "juegos/streets-of-moscow-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Carreras"
+    ],
+    "desarrollador": ["Gaijin Entertainment"],
+    "distribuidor": ["1C Company"],
+    "ean": "",
+    "descripcion": "Juego de carreras arcade ambientado en las calles de Moscú. El jugador participa en competiciones ilegales con coches deportivos, recorriendo distintos distritos de la ciudad mientras evita el tráfico y compite contra otros pilotos. El título apuesta por una conducción accesible y circuitos urbanos inspirados en localizaciones reales de la capital rusa.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Airport Tycoon 2",
+    "url": "juegos/airport-tycoon-2-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Simulación",
+      "Gestión"
+    ],
+    "desarrollador": ["Sunstorm Interactive"],
+    "distribuidor": ["Global Star Software"],
+    "ean": "",
+    "descripcion": "Simulador de gestión en el que el jugador diseña y administra un aeropuerto completo, construyendo terminales, pistas, servicios y gestionando el tráfico de aerolíneas y pasajeros. Airport Tycoon 2 amplía el concepto del juego original con entornos en 3D y un sistema económico más complejo. El título pertenece a la ola de juegos de gestión tipo 'Tycoon' que proliferaron a comienzos de los años 2000 tras el éxito de títulos como RollerCoaster Tycoon y Transport Tycoon.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 2007",
+    "url": "juegos/pc-futbol-2007-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Deportes",
+      "Gestión"
+    ],
+    "desarrollador": ["Gaelco Multimedia"],
+    "distribuidor": ["On Games"],
+    "ean": "",
+    "descripcion": "Simulador de gestión futbolística perteneciente a la histórica saga española PC Fútbol. El jugador asume el papel de entrenador y mánager de un club, gestionando plantillas, tácticas, fichajes y economía del equipo mientras disputa las competiciones oficiales del fútbol español. Esta edición forma parte de los intentos de relanzar la franquicia tras la desaparición de Dinamic Multimedia, con Michael Robinson como imagen promocional y comentarista asociado a la serie.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Motocross Mania",
+    "url": "juegos/motocross-mania-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Carreras",
+      "Motociclismo"
+    ],
+    "desarrollador": ["Deibus Studios"],
+    "distribuidor": ["Deibus Studios"],
+    "ean": "",
+    "descripcion": "Juego de carreras de motocross con enfoque arcade en el que el jugador compite en circuitos todoterreno realizando saltos, derrapes y adelantamientos contra otros pilotos. El título apuesta por una conducción accesible y rápida, con circuitos llenos de obstáculos y rampas. Fue distribuido en España dentro de colecciones económicas para PC de principios de los años 2000, habituales en tiendas y kioscos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Market way"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Los Increíbles: La Amenaza del Socavador",
+    "url": "juegos/los-increibles-la-amenaza-del-socavador-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": ["Heavy Iron Studios"],
+    "distribuidor": ["THQ"],
+    "ean": "",
+    "descripcion": "Juego de acción y aventura basado en el universo de la película de Disney/Pixar Los Increíbles. La historia continúa directamente tras el final del film, enfrentando a Mr. Incredible y Frozone contra el villano conocido como el Socavador mientras intentan salvar la ciudad de sus ataques. El juego combina combate, plataformas y resolución de situaciones cooperativas utilizando las habilidades especiales de cada personaje.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Mk Interactive"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Pool Paradise",
+    "url": "juegos/pool-paradise-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Deportes",
+      "Billar"
+    ],
+    "desarrollador": ["Awesome Developments"],
+    "distribuidor": ["Ignition Entertainment"],
+    "ean": "",
+    "descripcion": "Simulador de billar que recrea distintas modalidades del juego en entornos tridimensionales ambientados en complejos turísticos tropicales. El jugador puede participar en torneos, partidas rápidas y diferentes variantes de billar mientras compite contra oponentes controlados por la inteligencia artificial. El título forma parte de la línea de juegos deportivos accesibles de principios de los años 2000, centrados en ofrecer físicas realistas y partidas rápidas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "4x4: Hummer",
+    "url": "juegos/4x4-hummer-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Conducción",
+      "Todoterreno"
+    ],
+    "desarrollador": ["4X Studios"],
+    "distribuidor": ["1C Company"],
+    "ean": "",
+    "descripcion": "Juego de conducción todoterreno centrado en los vehículos Hummer, en el que el jugador debe recorrer rutas off-road a través de distintos tipos de terreno como barro, nieve o caminos de montaña. El título combina exploración, pruebas de habilidad y física del terreno para superar obstáculos naturales. Forma parte de la serie de simuladores de conducción 4x4 publicados por 1C Company durante los años 2000, centrados en la experiencia de conducción en entornos naturales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Virtua Tennis 2009",
+    "url": "juegos/virtua-tennis-2009-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Deportes",
+      "Tenis"
+    ],
+    "desarrollador": ["Sumo Digital"],
+    "distribuidor": ["SEGA"],
+    "ean": "",
+    "descripcion": "Juego de tenis que forma parte de la popular saga Virtua Tennis de SEGA. El título combina una jugabilidad accesible con elementos de simulación ligera, permitiendo disputar torneos con tenistas profesionales en distintas superficies. Incluye el modo World Tour, en el que el jugador crea su propio tenista y progresa en el circuito internacional, además de numerosos minijuegos característicos de la serie. Virtua Tennis 2009 continúa el legado de una franquicia iniciada en recreativas a finales de los años 90 y considerada una de las más influyentes dentro de los juegos de tenis.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Plan",
+    "url": "juegos/the-plan-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Estrategia"
+    ],
+    "desarrollador": ["Krion Studios"],
+    "distribuidor": ["Monte Cristo Multimedia"],
+    "ean": "",
+    "descripcion": "Juego de acción táctica centrado en la planificación y ejecución de robos organizados. El jugador controla a un grupo de criminales especializados y debe preparar cuidadosamente cada golpe, asignando roles y coordinando las acciones durante la misión. The Plan combina planificación estratégica con secuencias de acción en tiempo real y una narrativa inspirada en películas de atracos, situándose dentro de la ola de juegos tácticos de principios de los años 2000.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Boiling Point: Road to Hell",
+    "url": "juegos/boiling-point-road-to-hell-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "FPS",
+      "Acción",
+      "Mundo abierto"
+    ],
+    "desarrollador": ["Deep Shadows"],
+    "distribuidor": ["Atari"],
+    "ean": "",
+    "descripcion": "Shooter en primera persona de mundo abierto ambientado en un país ficticio de América Latina. El jugador interpreta a Saul Myers, un exsoldado de la Legión Extranjera que viaja al país para buscar a su hija desaparecida. El juego permite explorar libremente el territorio, interactuar con distintas facciones y aceptar misiones mientras se desarrolla una historia de conspiraciones, guerrillas y narcotráfico. Boiling Point destacó en su época por su ambición al combinar elementos de FPS, RPG y mundo abierto en un mismo juego.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Painkiller: Overdose",
+    "url": "juegos/painkiller-overdose-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "FPS",
+      "Acción"
+    ],
+    "desarrollador": ["Mindware Studios"],
+    "distribuidor": ["DreamCatcher Interactive"],
+    "ean": "",
+    "descripcion": "Shooter en primera persona perteneciente a la saga Painkiller, caracterizada por su acción rápida y combates contra grandes hordas de enemigos. En esta entrega el jugador controla a Belial, un personaje mitad demonio y mitad ángel que intenta escapar del inframundo. Painkiller: Overdose funciona como expansión independiente del juego original y mantiene el estilo arcade de disparos intensos, armas exageradas y enfrentamientos contra criaturas demoníacas en escenarios inspirados en el infierno.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Farming Simulator 2009",
+    "url": "juegos/farming-simulator-2009-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Simulación"
+    ],
+    "desarrollador": ["GIANTS Software"],
+    "distribuidor": ["Astragon"],
+    "ean": "",
+    "descripcion": "Simulador agrícola en el que el jugador gestiona una granja completa, cultivando campos, utilizando maquinaria agrícola y vendiendo las cosechas para ampliar el negocio. Farming Simulator 2009 marcó el inicio de la popular saga desarrollada por GIANTS Software, que con el tiempo se convertiría en una de las franquicias de simulación más exitosas en PC gracias a su enfoque realista en la maquinaria agrícola y a una gran comunidad de mods.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Legion Arena Gold Edition",
+    "url": "juegos/legion-arena-gold-edition-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Estrategia",
+      "Táctica"
+    ],
+    "desarrollador": ["Slitherine Software"],
+    "distribuidor": ["Black Bean"],
+    "ean": "",
+    "descripcion": "Juego de estrategia táctica ambientado en el Imperio Romano donde el jugador controla unidades militares en combates históricos contra diversas civilizaciones antiguas como galos, cartagineses o tribus bárbaras. Legion Arena se centra en batallas tácticas en tiempo real con gestión de tropas, formación y evolución de las unidades a lo largo de una campaña. Esta edición Gold incluye también la expansión Cult of Mithras, que añade nuevas unidades, campañas y mejoras jugables.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "EEP: Virtual Railroad 3",
+    "url": "juegos/eep-virtual-railroad-3-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Simulación",
+      "Simulación ferroviaria"
+    ],
+    "desarrollador": ["Trend Verlag"],
+    "distribuidor": ["Trend Verlag"],
+    "ean": "",
+    "descripcion": "Simulador ferroviario centrado en la construcción y gestión de redes de trenes en entornos virtuales tridimensionales. EEP: Virtual Railroad 3 permite al jugador diseñar paisajes, construir líneas ferroviarias, controlar trenes y crear complejas maquetas ferroviarias digitales con señales, estaciones y sistemas automatizados. La serie EEP (Eisenbahn.exe Professional) es especialmente conocida en Europa por su enfoque detallado en el modelismo ferroviario virtual.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Star Wars: Battlefront II",
+    "url": "juegos/star-wars-battlefront-ii-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "FPS",
+      "Acción"
+    ],
+    "desarrollador": ["Pandemic Studios"],
+    "distribuidor": ["LucasArts"],
+    "ean": "",
+    "descripcion": "Shooter en primera y tercera persona ambientado en el universo de Star Wars que permite participar en grandes batallas entre las diferentes facciones de la saga. Star Wars: Battlefront II amplía considerablemente el juego original incorporando combates espaciales, héroes controlables como Darth Vader o Luke Skywalker y una campaña basada en la Legión 501 del Imperio. El juego combina acción directa con control de unidades y vehículos en mapas inspirados en las películas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "El Código Da Vinci",
+    "url": "juegos/el-codigo-da-vinci-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Aventura",
+      "Acción",
+      "Puzles"
+    ],
+    "desarrollador": ["The Collective"],
+    "distribuidor": ["2K Games"],
+    "ean": "",
+    "descripcion": "Videojuego basado en la novela superventas de Dan Brown y en su adaptación cinematográfica. El jugador controla a Robert Langdon y Sophie Neveu mientras recorren diversos escenarios de Europa resolviendo enigmas, descifrando códigos y enfrentándose a enemigos para descubrir los secretos ocultos en torno al Santo Grial. El juego combina exploración, resolución de puzles inspirados en simbología histórica y secuencias de acción.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Gore: Ultimate Soldier",
+    "url": "juegos/gore-ultimate-soldier-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "FPS",
+      "Acción"
+    ],
+    "desarrollador": ["4D Rulers"],
+    "distribuidor": ["DreamCatcher Interactive"],
+    "ean": "",
+    "descripcion": "Shooter en primera persona centrado principalmente en el combate multijugador. Gore: Ultimate Soldier utiliza el motor LithTech y apuesta por una jugabilidad rápida con diferentes personajes y armas futuristas en arenas de combate. El juego incluye varios modos multijugador como deathmatch y team deathmatch, además de bots para partidas en solitario, y destaca por su estilo visual oscuro y violento característico de los FPS de principios de los años 2000.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Piratas del Caribe: En el fin del mundo",
+    "url": "juegos/piratas-del-caribe-en-el-fin-del-mundo-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": ["Eurocom"],
+    "distribuidor": ["Disney Interactive Studios"],
+    "ean": "",
+    "descripcion": "Videojuego de acción y aventura basado en la tercera película de la saga Piratas del Caribe. El jugador controla principalmente a Jack Sparrow, además de otros personajes como Will Turner y Elizabeth Swann, en una serie de misiones inspiradas en los eventos de la película. El juego combina combate con espada, exploración y resolución de pequeños puzles mientras se recorren diversos escenarios del universo pirata creado por Disney.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Kohan: Battles of Ahriman",
+    "url": "juegos/kohan-battles-of-ahriman-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Estrategia",
+      "RTS"
+    ],
+    "desarrollador": ["TimeGate Studios"],
+    "distribuidor": ["Wanadoo Edition"],
+    "ean": "",
+    "descripcion": "Juego de estrategia en tiempo real ambientado en el universo fantástico de Kohan. Battles of Ahriman actúa como expansión independiente del título original Kohan: Immortal Sovereigns, introduciendo nuevas campañas, unidades y mejoras en la jugabilidad. El juego destaca por su sistema estratégico centrado en compañías militares en lugar de unidades individuales y por una gestión simplificada de recursos que prioriza la estrategia sobre la microgestión.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Wolfenstein",
+    "url": "juegos/wolfenstein-2009-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "FPS",
+      "Acción"
+    ],
+    "desarrollador": ["Raven Software"],
+    "distribuidor": ["Activision"],
+    "ean": "",
+    "descripcion": "Shooter en primera persona que continúa la clásica saga Wolfenstein. El jugador vuelve a encarnar a B.J. Blazkowicz en una historia ambientada durante la Segunda Guerra Mundial donde los nazis investigan poderes sobrenaturales procedentes de una dimensión paralela llamada Black Sun. El juego combina combate intenso con armas históricas y habilidades especiales obtenidas gracias a artefactos místicos, añadiendo un componente sobrenatural característico dentro de la saga.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Games for windows"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Unreal II: The Awakening",
+    "url": "juegos/unreal-ii-the-awakening-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "FPS",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": ["Legend Entertainment"],
+    "distribuidor": ["Atari"],
+    "ean": "",
+    "descripcion": "Shooter en primera persona ambientado en el universo de Unreal. El jugador controla a John Dalton, un exmarine espacial que trabaja como marshal interplanetario mientras investiga una serie de misteriosos artefactos alienígenas que distintas facciones intentan recuperar. Unreal II: The Awakening se centra principalmente en una campaña para un jugador con misiones en diferentes planetas, utilizando el Unreal Engine para ofrecer escenarios de ciencia ficción detallados y combates intensos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Clive Barker's Undying",
+    "url": "juegos/clive-barkers-undying-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "FPS",
+      "Terror",
+      "Acción"
+    ],
+    "desarrollador": ["DreamWorks Interactive"],
+    "distribuidor": ["Electronic Arts"],
+    "ean": "",
+    "descripcion": "Shooter en primera persona de terror basado en una historia escrita por Clive Barker. El jugador encarna a Patrick Galloway, un investigador de fenómenos paranormales que viaja a la mansión de su antiguo amigo Jeremiah Covenant para enfrentarse a una maldición familiar y a entidades sobrenaturales. El juego mezcla combate con armas y magia oscura, exploración y una narrativa de horror gótico que lo ha convertido en un título de culto dentro del género.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "EA Games Classics"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "World War II: Prisoner of War",
+    "url": "juegos/world-war-ii-prisoner-of-war-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Sigilo"
+    ],
+    "desarrollador": ["Wide Games"],
+    "distribuidor": ["Codemasters"],
+    "ean": "",
+    "descripcion": "Juego de acción y sigilo ambientado en la Segunda Guerra Mundial en el que el jugador controla al piloto estadounidense Lewis Stone tras ser capturado por los alemanes. El objetivo es planificar y ejecutar fugas de distintos campos de prisioneros inspirados en instalaciones reales. El juego combina exploración, infiltración, interacción con otros prisioneros y planificación estratégica para conseguir escapar sin ser descubierto por los guardias.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Sherlock Holmes: El Pendiente de Plata",
+    "url": "juegos/sherlock-holmes-el-pendiente-de-plata-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Aventura gráfica",
+      "Misterio"
+    ],
+    "desarrollador": ["Frogwares"],
+    "distribuidor": ["Focus Home Interactive"],
+    "ean": "",
+    "descripcion": "Aventura gráfica protagonizada por Sherlock Holmes y el doctor Watson basada en las historias del detective creadas por Arthur Conan Doyle. La investigación comienza cuando un magnate londinense es asesinado durante una fiesta en su mansión. A partir de ese momento Holmes deberá interrogar sospechosos, reunir pistas y reconstruir los hechos para descubrir al culpable. El juego destaca por su ambientación victoriana, la investigación deductiva y los rompecabezas clásicos del género.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Precintado"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Barrow Hill: Curse of the Ancient Circle",
+    "url": "juegos/barrow-hill-curse-of-the-ancient-circle-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Aventura gráfica",
+      "Misterio",
+      "Terror"
+    ],
+    "desarrollador": ["Shadow Tor Studios"],
+    "distribuidor": ["The Adventure Company"],
+    "ean": "",
+    "descripcion": "Aventura gráfica de misterio ambientada en la campiña inglesa, donde el jugador investiga sucesos extraños relacionados con antiguos círculos de piedra y leyendas celtas. Tras quedarse varado cerca de Barrow Hill, el protagonista descubre que el lugar está rodeado de antiguos rituales, desapariciones y fenómenos sobrenaturales vinculados a un culto pagano ancestral. El juego destaca por su atmósfera inquietante, su exploración libre y los rompecabezas basados en arqueología, astronomía y folklore británico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Precintado"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Rogue Warrior",
+    "url": "juegos/rogue-warrior-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Shooter",
+      "Acción",
+      "Militar"
+    ],
+    "desarrollador": ["Rebellion Developments"],
+    "distribuidor": ["Bethesda Softworks"],
+    "ean": "",
+    "descripcion": "Shooter táctico en primera persona basado en la figura real del comandante de los Navy SEAL Richard “Demo Dick” Marcinko. Ambientado en los últimos años de la Guerra Fría, el juego sigue una misión encubierta en Corea del Norte que termina derivando en operaciones clandestinas por territorio enemigo. El título destaca por su tono extremadamente agresivo, el combate cercano con ejecuciones brutales y la voz del protagonista interpretada por el actor Mickey Rourke.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Games for windows"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Pacific Warriors II: Dogfight!",
+    "url": "juegos/pacific-warriors-ii-dogfight-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Simulación",
+      "Acción",
+      "Aviación"
+    ],
+    "desarrollador": ["InterActive Vision"],
+    "distribuidor": ["Neo Juegos"],
+    "ean": "",
+    "descripcion": "Juego de combate aéreo ambientado en el teatro del Pacífico durante la Segunda Guerra Mundial. El jugador pilota distintos cazas históricos en misiones de combate contra fuerzas japonesas, participando en batallas aéreas sobre el océano, escolta de bombarderos y ataques a flotas enemigas. El título combina elementos de simulación ligera con acción arcade, centrando la experiencia en intensos enfrentamientos aéreos conocidos como 'dogfights'.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Gothic II",
+    "url": "juegos/gothic-ii-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "RPG",
+      "Acción",
+      "Fantasia"
+    ],
+    "desarrollador": ["Piranha Bytes"],
+    "distribuidor": ["JoWooD Productions"],
+    "ean": "",
+    "descripcion": "RPG de acción ambientado en el mundo de Khorinis, continuación directa del aclamado Gothic. Tras los acontecimientos del primer juego, el héroe sin nombre debe enfrentarse a una nueva amenaza: los dragones que han comenzado a invadir el reino de Myrtana. El juego destaca por su mundo abierto muy reactivo, las distintas facciones a las que el jugador puede unirse y un sistema de progresión donde cada decisión afecta al desarrollo de la historia.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Black Buccaneer",
+    "url": "juegos/black-buccaneer-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Piratas"
+    ],
+    "desarrollador": ["Widescreen Games"],
+    "distribuidor": ["10tacle Studios"],
+    "ean": "",
+    "descripcion": "Juego de acción y aventuras ambientado en el Caribe del siglo XVII. El jugador controla al pirata Francis Blade, quien tras un naufragio termina atrapado en una isla maldita llena de tesoros, trampas y criaturas sobrenaturales. El juego mezcla exploración, combate con espada y puzles mientras el protagonista intenta descubrir el secreto de una antigua maldición vinculada a un tesoro pirata.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "RED Collection"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Curse: The Eye of Isis",
+    "url": "juegos/curse-the-eye-of-isis-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Aventura gráfica",
+      "Terror",
+      "Misterio"
+    ],
+    "desarrollador": ["Asylum Entertainment"],
+    "distribuidor": ["Microids"],
+    "ean": "",
+    "descripcion": "Aventura gráfica de terror ambientada en 1890 que combina arqueología y elementos sobrenaturales. La historia comienza cuando un sarcófago egipcio con una antigua maldición es transportado en tren desde Londres hasta el Museo Británico. El protagonista, Darien Dane, deberá investigar los misteriosos acontecimientos que se desencadenan durante el viaje mientras se enfrenta a criaturas, rompecabezas y secretos relacionados con el antiguo Egipto.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "GTR Evolution",
+    "url": "juegos/gtr-evolution-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Simulación",
+      "Carreras"
+    ],
+    "desarrollador": ["SimBin Studios"],
+    "distribuidor": ["Atari"],
+    "ean": "",
+    "descripcion": "Simulador de conducción centrado en competiciones GT desarrollado por SimBin Studios. El juego incluye coches de distintas categorías y circuitos reales, destacando por su enfoque realista en la física de conducción y el comportamiento de los vehículos. Esta versión incluye el contenido completo de GTR Evolution, ampliando la experiencia con nuevas clases de coches, circuitos y modos de competición para los aficionados al sim-racing.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Need for Speed: Undercover",
+    "url": "juegos/need-for-speed-undercover-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Carreras",
+      "Acción"
+    ],
+    "desarrollador": ["EA Black Box"],
+    "distribuidor": ["Electronic Arts"],
+    "ean": "",
+    "descripcion": "Entrega de la popular saga Need for Speed centrada en persecuciones policiales y carreras ilegales en un entorno urbano abierto. El jugador se infiltra en una organización criminal participando en competiciones clandestinas mientras desbloquea nuevos coches y mejora su rendimiento. El juego combina conducción arcade a alta velocidad con misiones de persecución, evasión policial y una narrativa inspirada en películas de acción.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "EA Value Games"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Need for Speed: Undercover",
+    "url": "juegos/need-for-speed-undercover-cddvd-2/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Carreras",
+      "Acción"
+    ],
+    "desarrollador": ["EA Black Box"],
+    "distribuidor": ["Electronic Arts"],
+    "ean": "",
+    "descripcion": "Entrega de la popular saga Need for Speed centrada en persecuciones policiales y carreras ilegales en un entorno urbano abierto. El jugador se infiltra en una organización criminal participando en competiciones clandestinas mientras desbloquea nuevos coches y mejora su rendimiento. El juego combina conducción arcade a alta velocidad con misiones de persecución, evasión policial y una narrativa inspirada en películas de acción.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "IGI-2: Covert Strike",
+    "url": "juegos/igi-2-covert-strike-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Shooter",
+      "Acción",
+      "Sigilo"
+    ],
+    "desarrollador": ["Innerloop Studios"],
+    "distribuidor": ["Codemasters"],
+    "ean": "",
+    "descripcion": "Shooter táctico en primera persona en el que el jugador controla al agente David Jones en misiones encubiertas alrededor del mundo. El juego apuesta por mapas amplios, infiltración y planificación estratégica más que por la acción directa. Las misiones incluyen sabotaje, espionaje y rescate de información en instalaciones militares fuertemente vigiladas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Dead Space",
+    "url": "juegos/dead-space-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Terror",
+      "Survival Horror"
+    ],
+    "desarrollador": ["EA Redwood Shores"],
+    "distribuidor": ["Electronic Arts"],
+    "ean": "",
+    "descripcion": "Survival horror ambientado en una nave minera espacial abandonada. El jugador controla al ingeniero Isaac Clarke, que debe investigar qué ha ocurrido en la USG Ishimura tras perder contacto con la Tierra. La nave está infestada por criaturas mutadas conocidas como necromorfos, y el protagonista deberá sobrevivir utilizando herramientas industriales convertidas en armas. El juego destaca por su atmósfera opresiva, su narrativa ambiental y un sistema de combate centrado en desmembrar a los enemigos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "EA Value Games"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Cossacks II: Napoleonic Wars",
+    "url": "juegos/cossacks-ii-napoleonic-wars-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Estrategia",
+      "RTS",
+      "Histórico"
+    ],
+    "desarrollador": ["GSC Game World"],
+    "distribuidor": ["CDV Software Entertainment"],
+    "ean": "",
+    "descripcion": "Juego de estrategia en tiempo real ambientado en las guerras napoleónicas del siglo XIX. El jugador dirige ejércitos históricos de distintas naciones europeas en grandes batallas donde la formación de las tropas, la moral y el terreno juegan un papel fundamental. El juego destaca por representar combates masivos con miles de unidades en pantalla y por su enfoque táctico basado en la guerra de líneas propia de la época.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "RED Collection"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Painkiller: Resurrection",
+    "url": "juegos/painkiller-resurrection-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Shooter",
+      "FPS"
+    ],
+    "desarrollador": ["Homegrown Games"],
+    "distribuidor": ["DreamCatcher Interactive"],
+    "ean": "8436016710046",
+    "descripcion": "Shooter en primera persona perteneciente a la saga Painkiller, caracterizada por su acción rápida y combates contra hordas de enemigos sobrenaturales. En esta entrega el jugador controla a William 'Wild Bill' Sherman, un agente de la CIA asesinado durante una misión que recibe una segunda oportunidad para redimirse luchando contra criaturas demoníacas en escenarios infernales y purgatorios. El juego mantiene el estilo arcade de la serie con armas exageradas, grandes cantidades de enemigos en pantalla y enfrentamientos contra jefes de gran tamaño.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": [
+      "Precintado"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Mafia: The City of Lost Heaven",
+    "url": "juegos/mafia-the-city-of-lost-heaven-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Mundo abierto"
+    ],
+    "desarrollador": ["Illusion Softworks"],
+    "distribuidor": ["Proein"],
+    "ean": "",
+    "descripcion": "Juego de acción y aventura ambientado en la ciudad ficticia de Lost Heaven durante la época de la Ley Seca en Estados Unidos. El jugador controla a Tommy Angelo, un taxista que termina involucrado en el crimen organizado y asciende dentro de la familia mafiosa Salieri. El título destaca por su narrativa cinematográfica, inspirada en películas clásicas de mafiosos, así como por su detallada recreación de una ciudad de los años 30. Esta edición incluye tres discos CD-ROM y un manual presentado como el periódico ficticio 'Lost Heaven Courier', un guiño a la ambientación del juego.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd",
+      "Best of Atari"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "V-Rally 3",
+    "url": "juegos/v-rally-3-cddvd/",
+    "plataforma": [
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Conducción",
+      "Rally",
+      "Simulación"
+    ],
+    "desarrollador": ["Eden Studios"],
+    "distribuidor": ["Atari"],
+    "ean": "",
+    "descripcion": "Juego de conducción centrado en el campeonato mundial de rally. El jugador compite en distintas pruebas alrededor del mundo pilotando vehículos oficiales de la disciplina. El título destaca por su modo carrera, en el que el jugador progresa como piloto profesional firmando con diferentes equipos y mejorando sus resultados en cada temporada. Desarrollado por Eden Studios, el juego ofrece circuitos inspirados en rallyes reales y una conducción que mezcla simulación y estilo arcade.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Apocalyptica",
+    "url": "juegos/apocalyptica-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinME",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Ciencia ficción"
+    ],
+    "desarrollador": ["MiST Land South"],
+    "distribuidor": ["Konami"],
+    "ean": "",
+    "descripcion": "Shooter en tercera persona ambientado en un futuro oscuro dominado por máquinas y fuerzas mecánicas hostiles. El jugador controla a un guerrero equipado con un poderoso arsenal mientras combate contra ejércitos de robots en escenarios industriales y post-apocalípticos. El juego combina acción intensa, grandes enfrentamientos contra enemigos mecanizados y un diseño visual muy influenciado por la estética industrial y biomecánica característica de principios de los años 2000.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Infernal",
+    "url": "juegos/infernal-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Shooter",
+      "Tercera persona"
+    ],
+    "desarrollador": ["Metropolis Software"],
+    "distribuidor": ["Playlogic Entertainment"],
+    "ean": "",
+    "descripcion": "Juego de acción en tercera persona en el que el jugador controla a Ryan Lennox, un agente secreto que tras morir es resucitado por fuerzas infernales y obtiene poderes demoníacos. Con nuevas habilidades sobrenaturales, como manipulación de energía infernal y resistencia sobrehumana, el protagonista se enfrenta a organizaciones secretas y enemigos humanos mientras intenta descubrir la verdad sobre su destino. El juego mezcla combate con armas de fuego, poderes sobrenaturales y una ambientación oscura influenciada por el conflicto entre fuerzas celestiales e infernales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "cd/dvd"
+    ],
+    "tags": []
   }
 ]
