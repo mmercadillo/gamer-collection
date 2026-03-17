@@ -1,5 +1,410 @@
 [
   {
+    "num": "000001",
+    "ig": "https://www.instagram.com/p/DVbn-SlCEGe",
+    "titulo": "DreamWeb",
+    "url": "juegos/dreamweb-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Cyberpunk",
+      "Point and click"
+    ],
+    "desarrollador": [
+      "Creative Reality"
+    ],
+    "distribuidor": [
+      "Empire Interactive",
+      "Arcadia Software"
+    ],
+    "ean": [],
+    "descripcion": "DreamWeb es una aventura gráfica de ciencia ficción lanzada en 1994 para MS-DOS. Desarrollada por Creative Reality y distribuida por Empire Interactive, destaca por su ambientación cyberpunk oscura, violencia explícita y una narrativa en forma de diario psicológico del protagonista, Ryan, un camarero atormentado por visiones apocalípticas. El juego emplea una inusual vista cenital y se acompaña en su edición original de un diario físico que aporta profundidad al argumento. Su edición en caja grande, especialmente la versión en disquetes en español, es hoy una auténtica pieza de coleccionismo.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox",
+      "Disquette 3.5"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000002",
+    "ig": "https://www.instagram.com/p/DVeJdACCB61/",
+    "titulo": "Leather Goddesses of Phobos",
+    "url": "juegos/leather-goddesses-of-phobos-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura",
+      "Ficción interactiva",
+      "Ciencia ficción",
+      "Humor"
+    ],
+    "desarrollador": [
+      "Infocom"
+    ],
+    "distribuidor": [
+      "Infocom"
+    ],
+    "ean": [],
+    "descripcion": "Leather Goddesses of Phobos es una aventura de ficción interactiva lanzada en 1986 por Infocom. El juego combina ciencia ficción y humor satírico en una historia ambientada en el año 1936, donde el jugador debe enfrentarse a una invasión alienígena procedente de Fobos. Destaca por su tono paródico, su cuidada narrativa y por incluir distintos niveles de contenido, desde modo censurado hasta explícito.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000003",
+    "ig": "https://www.instagram.com/pc_game_archive/p/DVigjUGiDIn",
+    "titulo": "Gabriel Knight 3: Blood of the Sacred, Blood of the Damned",
+    "url": "juegos/gabriel-knight-3-blood-of-the-sacred-blood-of-the-damned-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Misterio",
+      "Sobrenatural",
+      "Investigación"
+    ],
+    "desarrollador": [
+      "Sierra Studios"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "Tercera parte de la saga creada por Jane Jensen, esta vez con gráficos completamente en 3D y una trama inspirada en leyendas medievales, sectas secretas y el Santo Grial. Ambientado en el pueblo francés de Rennes-le-Château, Gabriel investiga la desaparición de un niño en un contexto lleno de conspiraciones y elementos sobrenaturales. El juego mantiene la narrativa profunda, puzles complejos y ambientación oscura que caracterizan la serie.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000004",
+    "ig": "https://www.instagram.com/p/DVlA9tYiEZ8",
+    "titulo": "Blade Runner",
+    "url": "juegos/blade-runner-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & click"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica en tiempo real ambientada en el universo de la película Blade Runner. Juegas como el agente Ray McCoy en 2019 Los Ángeles, investigando replicantes a través de gráficos pre‑renderizados y personajes en voxel. Destaca por su narrativa ramificada, multipl‑endings (13 finales posibles) y escenas FMV creadas por Westwood, con actores del film original.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000005",
+    "ig": "https://www.instagram.com/p/DVoQ9KviGuN",
+    "titulo": "Sam & Max: Hit the Road",
+    "url": "juegos/sam-and-max-hit-the-road-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & Click",
+      "Comedia"
+    ],
+    "desarrollador": [
+      "LucasArts (Steve Purcell)"
+    ],
+    "distribuidor": [
+      "LucasArts"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica point‑&‑click lanzada originalmente en noviembre de 1993 para MsDos, y relanzada con compatibilidad Windows en 2002. Basada en los cómics de Steve Purcell, el dúo de detectives Sam (un perro antropomórfico) y Max (conejo hipercinético) viajan por Estados Unidos persiguiendo a un yeti fugitivo. Usa el motor SCUMM e iMUSE, e incluye voces completas por Bill Farmer, Nick Jameson y otros.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000006",
+    "ig": "https://www.instagram.com/p/DVq1F7tCEj-",
+    "titulo": "The Curse of Enchantia",
+    "url": "juegos/the-curse-of-enchantia-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Core Design"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "The Curse of Enchantia es una aventura gráfica lanzada en 1992 para MS-DOS y Amiga. Destaca por prescindir completamente de diálogos escritos, utilizando animaciones, gestos y una elaborada banda sonora para narrar la historia. El jugador controla a Bradford, un joven transportado a un mundo de fantasía repleto de puzles, situaciones humorísticas y un estilo visual muy característico desarrollado por Core Design.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000007",
+    "ig": "https://www.instagram.com/p/DVv_qymiOck",
+    "titulo": "Heart of China",
+    "url": "juegos/heart-of-china-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & Click"
+    ],
+    "desarrollador": [
+      "Dynamix"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica ambientada en el Lejano Oriente durante los años 30. Asumes el papel de Jake 'Lucky' Masters, un piloto que debe rescatar a la hija de un magnate secuestrada en China. El juego combina exploración, diálogos ramificados, resolución de puzles y escenas interactivas. Destaca por su presentación visual con personajes digitalizados y fondos pintados, así como una historia que mezcla romance, acción y humor al estilo del cine pulp.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000008",
+    "ig": "https://www.instagram.com/p/DVylJm5iAzI",
+    "titulo": "Arcanum: Hechizos y engranajes",
+    "url": "juegos/arcanum-hechizos-engranajes-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol"
+    ],
+    "desarrollador": [
+      "Troika Games"
+    ],
+    "distribuidor": [
+      "Sierra OnLine"
+    ],
+    "ean": [],
+    "descripcion": "RPG isométrico de 2001 ambientado en un mundo donde la tecnología steampunk y la magia coexisten en tensión. Después de que su dirigible sea derribado, el protagonista explora el continente, eligiendo entre magia o tecnología, influenciando la historia y resolución de misiones. Destaca por su libertad de creación de personaje, tres estilos de combate (tiempo real, por turnos, rápido), y su ambientación única.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [],
+    "proteccion": {
+      "tipo": "SecuROM",
+      "version": "4.x",
+      "preservacion": "Alcohol 120% - Perfil SecuROM New",
+      "formato": "MDS/MDF",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000009",
+    "ig": "https://www.instagram.com/p/DV1VWQniCOj",
+    "titulo": "Vampire: The Masquerade - Redemption",
+    "url": "juegos/vampire-the-masquerade-redemption-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Nihilistic Software"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [],
+    "descripcion": "Redemption es un juego de rol de acción lanzado el 7 de junio de 2000 para Windows. Sigues a Christof Romuald, un cruzado convertido en vampiro en la Edad Media, cuya búsqueda te lleva a la Londres y Nueva York contemporáneas. Mezcla perspectivas en primera y tercera persona, con combate, poderes vampíricos, gestión de humanidad y opciones narrativas que afectan el final. También incluye un modo multijugador 'Storyteller' donde un jugador 'narrador' guía la partida (escenarios dinámicos). El motor NOD fue creado por Nihilistic para este título. El juego ganó el premio a Mejor RPG de 1999 por Game Critics Awards y fue el antecedente del aclamado Vampire: The Masquerade - Bloodlines (2004).",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000010",
+    "ig": "https://www.instagram.com/p/DV3wIV9CJ_M",
+    "titulo": "Sid Meier's Civilization II",
+    "url": "juegos/sid-meiers-civilization-ii-bigbox/",
+    "plataforma": [
+      "Win3.x",
+      "Win95",
+      "Win98",
+      "WinMe",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Histórica"
+    ],
+    "desarrollador": [
+      "MicroProse (MPS Labs)"
+    ],
+    "distribuidor": [
+      "MicroProse"
+    ],
+    "ean": [],
+    "descripcion": "Secuela del icónico Civilization, lanzada originalmente el 29 de febrero de 1996 para Win3.x/95 (32-bit) y posteriormente actualizada para Win98, WinMe/XP. Los jugadores dirigen una civilización desde la antigüedad hasta el futuro, gestionando ciudades, tecnología, diplomacia, comercio y guerra. Introdujo la vista isométrica y un editor de mapas. El juego contó con múltiples expansiones (Conflicts in Civilization, Fantastic Worlds) y una edición 'Multiplayer Gold' que añadió juego en red.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000011",
+    "ig": "https://www.instagram.com/p/DV6oRdeiKWl",
+    "titulo": "Baldur's Gate",
+    "url": "juegos/baldurs-gate-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol"
+    ],
+    "desarrollador": [
+      "BioWare"
+    ],
+    "distribuidor": [
+      "Interplay Productions"
+    ],
+    "ean": [
+      "0040421366521, 020626715638, 5026102007339"
+    ],
+    "descripcion": "RPG clásico de 1998 ambientado en los Reinos Olvidados (AD&D), donde creas un héroe y formas un grupo para desentrañar una conspiración que amenaza la Costa de la Espada. Destaca por su narrativa profunda, combate táctico en tiempo real con pausa, amplias misiones secundarias y ricos diálogos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000012",
+    "ig": "https://www.instagram.com/p/DV9PtYeCNEJ",
+    "titulo": "Baldur's Gate II: Shadows of Amn",
+    "url": "juegos/baldurs-gate-ii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol"
+    ],
+    "desarrollador": [
+      "BioWare"
+    ],
+    "distribuidor": [
+      "Interplay Productions"
+    ],
+    "ean": [],
+    "descripcion": "RPG épico lanzado en 2000, ambientado en los Reinos Olvidados. Continúa la trama de Baldur’s Gate, centrándose en el heredero del Iron Throne. Ofrece profunda narrativa, táctica con pausa, una campaña extensa, decenas de horas de contenido y gran interacción con compañeros y elecciones.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
+    "num": "000013",
+    "ig": "",
+    "titulo": "Loom",
+    "url": "juegos/loom-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Lucasfilm Games"
+    ],
+    "distribuidor": [
+      "Lucasfilm Games"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica lanzada en enero de 1990, ambientada en un mundo fantástico donde la magia se teje con notas musicales. El jugador controla a Bobbin Threadbare, un joven tejedor que debe salvar su mundo de la amenaza del Caos. Utiliza un bastón mágico (distaff) para tejer hechizos representados por secuencias de notas musicales, sin necesidad de inventario ni comandos verbales. La historia se narra a través de una interfaz point-and-click y una banda sonora inspirada en El Lago de los Cisnes de Tchaikovsky.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": []
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Alliens vs. Predator",
@@ -1521,45 +1926,6 @@
     ]
   },
   {
-    "num": "000008",
-    "ig": "https://www.instagram.com/p/DVylJm5iAzI",
-    "titulo": "Arcanum: Hechizos y engranajes",
-    "url": "juegos/arcanum-hechizos-engranajes-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol"
-    ],
-    "desarrollador": [
-      "Troika Games"
-    ],
-    "distribuidor": [
-      "Sierra OnLine"
-    ],
-    "ean": [],
-    "descripcion": "RPG isométrico de 2001 ambientado en un mundo donde la tecnología steampunk y la magia coexisten en tensión. Después de que su dirigible sea derribado, el protagonista explora el continente, eligiendo entre magia o tecnología, influenciando la historia y resolución de misiones. Destaca por su libertad de creación de personaje, tres estilos de combate (tiempo real, por turnos, rápido), y su ambientación única.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ],
-    "proteccion": {
-      "tipo": "SecuROM",
-      "version": "4.x",
-      "preservacion": "Alcohol 120% - Perfil SecuROM New",
-      "formato": "MDS/MDF",
-      "jugable_virtual": true
-    }
-  },
-  {
     "num": "000000",
     "ig": "",
     "titulo": "Allied General (Gold Reserve)",
@@ -1848,73 +2214,6 @@
     ]
   },
   {
-    "num": "000011",
-    "ig": "https://www.instagram.com/p/DV6oRdeiKWl",
-    "titulo": "Baldur's Gate",
-    "url": "juegos/baldurs-gate-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol"
-    ],
-    "desarrollador": [
-      "BioWare"
-    ],
-    "distribuidor": [
-      "Interplay Productions"
-    ],
-    "ean": [
-      "0040421366521, 020626715638, 5026102007339"
-    ],
-    "descripcion": "RPG clásico de 1998 ambientado en los Reinos Olvidados (AD&D), donde creas un héroe y formas un grupo para desentrañar una conspiración que amenaza la Costa de la Espada. Destaca por su narrativa profunda, combate táctico en tiempo real con pausa, amplias misiones secundarias y ricos diálogos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "num": "000012",
-    "ig": "https://www.instagram.com/p/DV9PtYeCNEJ",
-    "titulo": "Baldur's Gate II: Shadows of Amn",
-    "url": "juegos/baldurs-gate-ii-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol"
-    ],
-    "desarrollador": [
-      "BioWare"
-    ],
-    "distribuidor": [
-      "Interplay Productions"
-    ],
-    "ean": [],
-    "descripcion": "RPG épico lanzado en 2000, ambientado en los Reinos Olvidados. Continúa la trama de Baldur’s Gate, centrándose en el heredero del Iron Throne. Ofrece profunda narrativa, táctica con pausa, una campaña extensa, decenas de horas de contenido y gran interacción con compañeros y elecciones.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
     "num": "000000",
     "ig": "",
     "titulo": "Barça Manager 2000",
@@ -2005,39 +2304,6 @@
     ],
     "ean": [],
     "descripcion": "Aventura interactiva con película de acción real lanzada en 1998. Sigues al agente Pearson, que investiga conexiones entre asesinatos en serie (el caso de la Dalia Negra) y rituales nazis/u occultismos. Cuenta con actores de Hollywood como Dennis Hopper y Teri Garr, rompecabezas visuales, escenas FMV y múltiple final según decisiones.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "num": "000004",
-    "ig": "https://www.instagram.com/p/DVlA9tYiEZ8",
-    "titulo": "Blade Runner",
-    "url": "juegos/blade-runner-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point & click"
-    ],
-    "desarrollador": [
-      "Westwood Studios"
-    ],
-    "distribuidor": [
-      "Virgin Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica en tiempo real ambientada en el universo de la película Blade Runner. Juegas como el agente Ray McCoy en 2019 Los Ángeles, investigando replicantes a través de gráficos pre‑renderizados y personajes en voxel. Destaca por su narrativa ramificada, multipl‑endings (13 finales posibles) y escenas FMV creadas por Westwood, con actores del film original.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -3764,41 +4030,6 @@
     ]
   },
   {
-    "num": "000003",
-    "ig": "https://www.instagram.com/pc_game_archive/p/DVigjUGiDIn",
-    "titulo": "Gabriel Knight 3: Blood of the Sacred, Blood of the Damned",
-    "url": "juegos/gabriel-knight-3-blood-of-the-sacred-blood-of-the-damned-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Misterio",
-      "Sobrenatural",
-      "Investigación"
-    ],
-    "desarrollador": [
-      "Sierra Studios"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "Tercera parte de la saga creada por Jane Jensen, esta vez con gráficos completamente en 3D y una trama inspirada en leyendas medievales, sectas secretas y el Santo Grial. Ambientado en el pueblo francés de Rennes-le-Château, Gabriel investiga la desaparición de un niño en un contexto lleno de conspiraciones y elementos sobrenaturales. El juego mantiene la narrativa profunda, puzles complejos y ambientación oscura que caracterizan la serie.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
     "num": "000000",
     "ig": "",
     "titulo": "Gangsters: Organized Crime",
@@ -3900,37 +4131,6 @@
     ],
     "tags": [
       "Precintado"
-    ]
-  },
-  {
-    "num": "000007",
-    "ig": "https://www.instagram.com/p/DVv_qymiOck",
-    "titulo": "Heart of China",
-    "url": "juegos/heart-of-china-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win3.x"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point & Click"
-    ],
-    "desarrollador": [
-      "Dynamix"
-    ],
-    "distribuidor": [
-      "Sierra On-Line"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica ambientada en el Lejano Oriente durante los años 30. Asumes el papel de Jake 'Lucky' Masters, un piloto que debe rescatar a la hija de un magnate secuestrada en China. El juego combina exploración, diálogos ramificados, resolución de puzles y escenas interactivas. Destaca por su presentación visual con personajes digitalizados y fondos pintados, así como una historia que mezcla romance, acción y humor al estilo del cine pulp.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
     ]
   },
   {
@@ -4422,37 +4622,6 @@
     "num": "000000",
     "ig": "",
     "titulo": "Loom",
-    "url": "juegos/loom-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Lucasfilm Games (hoy LucasArts)"
-    ],
-    "distribuidor": [
-      "Lucasfilm Games"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica lanzada en enero de 1990, ambientada en un mundo fantástico donde la magia se teje con notas musicales. El jugador controla a Bobbin Threadbare, un joven tejedor que debe salvar su mundo de la amenaza del Caos. Utiliza un bastón mágico (distaff) para tejer hechizos representados por secuencias de notas musicales, sin necesidad de inventario ni comandos verbales. La historia se narra a través de una interfaz point-and-click y una banda sonora inspirada en El Lago de los Cisnes de Tchaikovsky.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Loom",
     "url": "juegos/loom-2-bigbox/",
     "plataforma": [
       "MsDos",
@@ -4465,7 +4634,7 @@
       "Música"
     ],
     "desarrollador": [
-      "Lucasfilm Games (hoy LucasArts)"
+      "Lucasfilm Games"
     ],
     "distribuidor": [
       "Lucasfilm Games"
@@ -4475,7 +4644,8 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Bigbox"
+      "Bigbox",
+      "Limited Run"
     ],
     "tags": [
       "Precintado",
@@ -4688,7 +4858,7 @@
       "Point & Click"
     ],
     "desarrollador": [
-      "Lucasfilm Games (hoy LucasArts)"
+      "Lucasfilm Games"
     ],
     "distribuidor": [
       "Lucasfilm Games"
@@ -5712,38 +5882,6 @@
     ]
   },
   {
-    "num": "000005",
-    "ig": "https://www.instagram.com/p/DVoQ9KviGuN",
-    "titulo": "Sam & Max: Hit the Road",
-    "url": "juegos/sam-and-max-hit-the-road-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point & Click",
-      "Comedia"
-    ],
-    "desarrollador": [
-      "LucasArts (Steve Purcell)"
-    ],
-    "distribuidor": [
-      "LucasArts"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica point‑&‑click lanzada originalmente en noviembre de 1993 para MsDos, y relanzada con compatibilidad Windows en 2002. Basada en los cómics de Steve Purcell, el dúo de detectives Sam (un perro antropomórfico) y Max (conejo hipercinético) viajan por Estados Unidos persiguiendo a un yeti fugitivo. Usa el motor SCUMM e iMUSE, e incluye voces completas por Bill Farmer, Nick Jameson y otros.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
     "num": "000000",
     "ig": "",
     "titulo": "Scooby‑Doo: Peligro en la Ciudad Fantasma",
@@ -5899,40 +6037,6 @@
     ],
     "ean": [],
     "descripcion": "Juego de estrategia por turnos con batallas tácticas en tiempo real ambientado en el Japón del periodo Sengoku. Lanzado el 12 de junio de 2000 en Norteamérica y el 16 de junio de 2000 en Europa. Incluye campaña estratégica, combates en 3D, diplomacia, espionaje y economía. Su éxito dio inicio a la saga Total War.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "num": "000010",
-    "ig": "https://www.instagram.com/p/DV3wIV9CJ_M",
-    "titulo": "Sid Meier's Civilization II",
-    "url": "juegos/sid-meiers-civilization-ii-bigbox/",
-    "plataforma": [
-      "Win3.x",
-      "Win95",
-      "Win98",
-      "WinMe",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Histórica"
-    ],
-    "desarrollador": [
-      "MicroProse (MPS Labs)"
-    ],
-    "distribuidor": [
-      "MicroProse"
-    ],
-    "ean": [],
-    "descripcion": "Secuela del icónico Civilization, lanzada originalmente el 29 de febrero de 1996 para Win3.x/95 (32-bit) y posteriormente actualizada para Win98, WinMe/XP. Los jugadores dirigen una civilización desde la antigüedad hasta el futuro, gestionando ciudades, tecnología, diplomacia, comercio y guerra. Introdujo la vista isométrica y un editor de mapas. El juego contó con múltiples expansiones (Conflicts in Civilization, Fantastic Worlds) y una edición 'Multiplayer Gold' que añadió juego en red.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -6966,38 +7070,6 @@
     ],
     "tags": [
       "Precintado"
-    ]
-  },
-  {
-    "num": "000009",
-    "ig": "https://www.instagram.com/p/DV1VWQniCOj",
-    "titulo": "Vampire: The Masquerade - Redemption",
-    "url": "juegos/vampire-the-masquerade-redemption-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Acción"
-    ],
-    "desarrollador": [
-      "Nihilistic Software"
-    ],
-    "distribuidor": [
-      "Activision"
-    ],
-    "ean": [],
-    "descripcion": "Redemption es un juego de rol de acción lanzado el 7 de junio de 2000 para Windows. Sigues a Christof Romuald, un cruzado convertido en vampiro en la Edad Media, cuya búsqueda te lleva a la Londres y Nueva York contemporáneas. Mezcla perspectivas en primera y tercera persona, con combate, poderes vampíricos, gestión de humanidad y opciones narrativas que afectan el final. También incluye un modo multijugador 'Storyteller' donde un jugador 'narrador' guía la partida (escenarios dinámicos). El motor NOD fue creado por Nihilistic para este título. El juego ganó el premio a Mejor RPG de 1999 por Game Critics Awards y fue el antecedente del aclamado Vampire: The Masquerade - Bloodlines (2004).",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
     ]
   },
   {
@@ -35520,44 +35592,6 @@
     ]
   },
   {
-    "num": "000001",
-    "ig": "https://www.instagram.com/p/DVbn-SlCEGe",
-    "titulo": "DreamWeb",
-    "url": "juegos/dreamweb-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Cyberpunk",
-      "Point and click"
-    ],
-    "desarrollador": [
-      "Creative Reality"
-    ],
-    "distribuidor": [
-      "Empire Interactive",
-      "Arcadia Software"
-    ],
-    "ean": [],
-    "descripcion": "DreamWeb es una aventura gráfica de ciencia ficción lanzada en 1994 para MS-DOS. Desarrollada por Creative Reality y distribuida por Empire Interactive, destaca por su ambientación cyberpunk oscura, violencia explícita y una narrativa en forma de diario psicológico del protagonista, Ryan, un camarero atormentado por visiones apocalípticas. El juego emplea una inusual vista cenital y se acompaña en su edición original de un diario físico que aporta profundidad al argumento. Su edición en caja grande, especialmente la versión en disquetes en español, es hoy una auténtica pieza de coleccionismo.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox",
-      "Disquette 3.5"
-    ],
-    "tags": [
-      "Bigbox",
-      "Cyberpunk",
-      "Aventura gráfica",
-      "MsDos",
-      "Empire Interactive",
-      "Culto"
-    ]
-  },
-  {
     "num": "000000",
     "ig": "",
     "titulo": "Master of Orion II: Battle at Antares",
@@ -37016,37 +37050,6 @@
     ]
   },
   {
-    "num": "000006",
-    "ig": "https://www.instagram.com/p/DVq1F7tCEj-",
-    "titulo": "The Curse of Enchantia",
-    "url": "juegos/the-curse-of-enchantia-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Core Design"
-    ],
-    "distribuidor": [
-      "Virgin Interactive"
-    ],
-    "ean": [],
-    "descripcion": "The Curse of Enchantia es una aventura gráfica lanzada en 1992 para MS-DOS y Amiga. Destaca por prescindir completamente de diálogos escritos, utilizando animaciones, gestos y una elaborada banda sonora para narrar la historia. El jugador controla a Bradford, un joven transportado a un mundo de fantasía repleto de puzles, situaciones humorísticas y un estilo visual muy característico desarrollado por Core Design.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
     "num": "000000",
     "ig": "",
     "titulo": "La sombra sobre Riva",
@@ -37194,38 +37197,6 @@
     ],
     "ean": [],
     "descripcion": "Patriot es un juego de estrategia y simulación política en el que el jugador lidera un movimiento revolucionario con el objetivo de derrocar a un régimen autoritario. A través de la gestión de recursos, propaganda, apoyo popular y acciones encubiertas, el juego ofrece múltiples enfoques para alcanzar el poder, combinando planificación estratégica con toma de decisiones políticas y morales.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Bigbox"
-    ]
-  },
-  {
-    "num": "000002",
-    "ig": "https://www.instagram.com/p/DVeJdACCB61/",
-    "titulo": "Leather Goddesses of Phobos",
-    "url": "juegos/leather-goddesses-of-phobos-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura",
-      "Ficción interactiva",
-      "Ciencia ficción",
-      "Humor"
-    ],
-    "desarrollador": [
-      "Infocom"
-    ],
-    "distribuidor": [
-      "Infocom"
-    ],
-    "ean": [],
-    "descripcion": "Leather Goddesses of Phobos es una aventura de ficción interactiva lanzada en 1986 por Infocom. El juego combina ciencia ficción y humor satírico en una historia ambientada en el año 1936, donde el jugador debe enfrentarse a una invasión alienígena procedente de Fobos. Destaca por su tono paródico, su cuidada narrativa y por incluir distintos niveles de contenido, desde modo censurado hasta explícito.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -42181,7 +42152,7 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "BigBox"
+      "Bigbox"
     ],
     "tags": [
       "South Park",
