@@ -468,6 +468,37 @@
     ]
   },
   {
+  "num": "000016",
+  "ig": "",
+  "titulo": "Grim Fandango",
+  "url": "juegos/grim-fandango-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "formato": "Big Box",
+  "genero": [
+    "Aventura gráfica"
+  ],
+  "desarrollador": ["LucasArts"],
+  "distribuidor": ["Electronic Arts Software"],
+  "ean": [],
+  "descripcion": "Grim Fandango es una de las aventuras gráficas más icónicas de finales de los 90, desarrollada por LucasArts. Ambientado en el Mundo de los Muertos e inspirado en la cultura mexicana y el cine noir, seguimos a Manny Calavera, un agente de viajes que vende paquetes para el más allá. La edición destaca por su doblaje al castellano y su innovadora combinación de escenarios 3D con personajes prerenderizados, ofreciendo una narrativa profunda, humor inteligente y una atmósfera única que lo convirtió en un título de culto.",
+  "incluye": [],
+  "serie": [
+    "Bigbox",
+    "Todos"
+  ],
+  "tags": [
+    "Aventura gráfica clásica",
+    "LucasArts",
+    "Años 90",
+    "Doblaje castellano",
+    "Noir",
+    "Culto"
+  ]
+},
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Alliens vs. Predator",
