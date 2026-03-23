@@ -468,36 +468,40 @@
     ]
   },
   {
-  "num": "000016",
-  "ig": "https://www.instagram.com/p/DWHRwbviJB_",
-  "titulo": "Grim Fandango",
-  "url": "juegos/grim-fandango-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "formato": "Big Box",
-  "genero": [
-    "Aventura gráfica"
-  ],
-  "desarrollador": ["LucasArts"],
-  "distribuidor": ["Electronic Arts Software"],
-  "ean": [],
-  "descripcion": "Grim Fandango es una de las aventuras gráficas más icónicas de finales de los 90, desarrollada por LucasArts. Ambientado en el Mundo de los Muertos e inspirado en la cultura mexicana y el cine noir, seguimos a Manny Calavera, un agente de viajes que vende paquetes para el más allá. La edición destaca por su doblaje al castellano y su innovadora combinación de escenarios 3D con personajes prerenderizados, ofreciendo una narrativa profunda, humor inteligente y una atmósfera única que lo convirtió en un título de culto.",
-  "incluye": [],
-  "serie": [
-    "Big Box",
-    "Todos"
-  ],
-  "tags": [
-    "Aventura gráfica clásica",
-    "LucasArts",
-    "Años 90",
-    "Doblaje castellano",
-    "Noir",
-    "Culto"
-  ]
-},
+    "num": "000016",
+    "ig": "https://www.instagram.com/p/DWHRwbviJB_",
+    "titulo": "Grim Fandango",
+    "url": "juegos/grim-fandango-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica"
+    ],
+    "desarrollador": [
+      "LucasArts"
+    ],
+    "distribuidor": [
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Grim Fandango es una de las aventuras gráficas más icónicas de finales de los 90, desarrollada por LucasArts. Ambientado en el Mundo de los Muertos e inspirado en la cultura mexicana y el cine noir, seguimos a Manny Calavera, un agente de viajes que vende paquetes para el más allá. La edición destaca por su doblaje al castellano y su innovadora combinación de escenarios 3D con personajes prerenderizados, ofreciendo una narrativa profunda, humor inteligente y una atmósfera única que lo convirtió en un título de culto.",
+    "incluye": [],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Aventura gráfica clásica",
+      "LucasArts",
+      "Años 90",
+      "Doblaje castellano",
+      "Noir",
+      "Culto"
+    ]
+  },
   {
     "num": "000000",
     "ig": "",
@@ -4289,40 +4293,6 @@
     ],
     "tags": [
       "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Hellfire",
-    "url": "juegos/hellfire-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Combate"
-    ],
-    "desarrollador": [
-      "Synergistic Software (una división de Sierra On‑Line)"
-    ],
-    "distribuidor": [
-      "Sierra OnLine"
-    ],
-    "ean": [],
-    "descripcion": "Expansión lanzada en 1997 para Diablo (1996). Incluye nuevas mazmorras (‘The Nest’ y ‘The Crypt’), un nuevo villano final (Na‑Krul), la clase de personaje 'Monje' y acceso a dos clases ocultas (Bárbaro y Bardo) mediante trucos. También agrega nuevos objetos, hechizos, santuarios, mejoras de interfaz y la posibilidad de correr en Tristán. No es compatible con Battle.net y su contenido es independiente del multijugador en línea  .",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado"
     ]
   },
   {
@@ -35690,7 +35660,7 @@
       "Simtex"
     ]
   },
-    {
+  {
     "num": "000018",
     "ig": "https://www.instagram.com/p/DWMnKwyCLRC",
     "titulo": "Diablo",
@@ -35720,6 +35690,40 @@
     ],
     "tags": [
       "Big Box"
+    ]
+  },
+  {
+    "num": "000019",
+    "ig": "https://www.instagram.com/p/DWO80iZiCzc",
+    "titulo": "Hellfire",
+    "url": "juegos/hellfire-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Combate"
+    ],
+    "desarrollador": [
+      "Synergistic Software (una división de Sierra On‑Line)"
+    ],
+    "distribuidor": [
+      "Sierra OnLine"
+    ],
+    "ean": [],
+    "descripcion": "Expansión lanzada en 1997 para Diablo (1996). Incluye nuevas mazmorras (‘The Nest’ y ‘The Crypt’), un nuevo villano final (Na‑Krul), la clase de personaje 'Monje' y acceso a dos clases ocultas (Bárbaro y Bardo) mediante trucos. También agrega nuevos objetos, hechizos, santuarios, mejoras de interfaz y la posibilidad de correr en Tristán. No es compatible con Battle.net y su contenido es independiente del multijugador en línea  .",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Precintado"
     ]
   },
   {
