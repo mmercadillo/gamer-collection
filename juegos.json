@@ -503,6 +503,179 @@
     ]
   },
   {
+    "num": "000017",
+    "ig": "https://www.instagram.com/p/DWKALlpiHzJ",
+    "titulo": "Master of Orion II: Battle at Antares",
+    "url": "juegos/master-of-orion-ii-battle-at-antares-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "4X",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Simtex"
+    ],
+    "distribuidor": [
+      "MicroProse"
+    ],
+    "ean": [],
+    "descripcion": "Master of Orion II: Battle at Antares, lanzado en 1996, es uno de los títulos más influyentes del género 4X (eXplore, eXpand, eXploit, eXterminate). Desarrollado por Simtex y distribuido por MicroProse, el juego sitúa al jugador al mando de una civilización galáctica en expansión. Combina gestión de imperio, diplomacia, investigación tecnológica, diseño de naves y combates tácticos. Introduce elementos multirraciales, colonización planetaria avanzada y una IA desafiante. Su edición en caja grande en español es especialmente valorada por coleccionistas de estrategia espacial clásica.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box",
+      "4X",
+      "Estrategia espacial",
+      "MicroProse",
+      "MS-DOS",
+      "Simtex"
+    ]
+  },
+  {
+    "num": "000018",
+    "ig": "https://www.instagram.com/p/DWMnKwyCLRC",
+    "titulo": "Diablo",
+    "url": "juegos/diablo-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Rol",
+      "Dungeon crawler"
+    ],
+    "desarrollador": [
+      "Blizzard North"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment, Electronic Arts (PS1)"
+    ],
+    "ean": [],
+    "descripcion": "Lanzado a finales de 1996/enero de 1997, este ARPG icónico te lleva al reino de Khanduras para enfrentarte a demonios y a Diablo en mazmorras generadas aleatoriamente. Fue pionero del género hack‑and‑slash, con multiplayer a través de Battle.net, ciclo de misiones dinámico y tres clases jugables (Guerrero, Pícara, Hechicero).",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000019",
+    "ig": "https://www.instagram.com/p/DWO80iZiCzc",
+    "titulo": "Hellfire",
+    "url": "juegos/hellfire-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Combate"
+    ],
+    "desarrollador": [
+      "Synergistic Software (una división de Sierra On‑Line)"
+    ],
+    "distribuidor": [
+      "Sierra OnLine"
+    ],
+    "ean": [],
+    "descripcion": "Expansión lanzada en 1997 para Diablo (1996). Incluye nuevas mazmorras (‘The Nest’ y ‘The Crypt’), un nuevo villano final (Na‑Krul), la clase de personaje 'Monje' y acceso a dos clases ocultas (Bárbaro y Bardo) mediante trucos. También agrega nuevos objetos, hechizos, santuarios, mejoras de interfaz y la posibilidad de correr en Tristán. No es compatible con Battle.net y su contenido es independiente del multijugador en línea  .",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Precintado"
+    ]
+  },
+  {
+    "num": "000020",
+    "ig": "https://www.instagram.com/p/DWRmc_SiHUj",
+    "titulo": "Diablo II",
+    "url": "juegos/diablo-ii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Rol",
+      "Combate"
+    ],
+    "desarrollador": [
+      "Blizzard North"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [
+      "0020626709293"
+    ],
+    "descripcion": "Secuela lanzada en junio de 2000. Continúa tras los eventos del primer Diablo, con cinco clases jugables (Amazona, Nigromante, Bárbaro, Hechicera, Paladín), campaña épica en cuatro actos en Santuario y multijugador para hasta 8 jugadores vía Battle.net o LAN. Introdujo sistema de ítems mejorado, runas, jefes únicos y comunidad activa que aún perdura.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000021",
+    "ig": "https://www.instagram.com/p/DWa_7VyCA1w",
+    "titulo": "Diablo II: Lord of Destruction",
+    "url": "juegos/diablo-ii-lord-of-destruction-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Rol",
+      "Combate"
+    ],
+    "desarrollador": [
+      "Blizzard North"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Expansión oficial lanzada el 29 de junio de 2001 que añade un quinto acto ambientado en Monte Arreat, las nuevas clases Asesina y Druida, ítems especiales como runas y estatutos, sistema de runas mágicas (‘runewords’), y mejoras en la jugabilidad y stash. También incluye campaña cooperativa y multijugador vía Battle.net y LAN.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Alliens vs. Predator",
@@ -3396,40 +3569,6 @@
       "040421001491"
     ],
     "descripcion": "Shooter de 1996 con libertad completa en seis grados de movimiento. Pilotas una nave en minas subterráneas para destruir reactores y rescatar rehenes, con guía automática (‘Guide‑Bot’) y modo multijugador hasta 8 jugadores. La versión PlayStation, llamada Descent Maximum, ofrece niveles exclusivos y modos cooperativo por link‑cable.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Diablo II: Lord of Destruction",
-    "url": "juegos/diablo-ii-lord-of-destruction-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Rol",
-      "Combate"
-    ],
-    "desarrollador": [
-      "Blizzard North"
-    ],
-    "distribuidor": [
-      "Blizzard Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Expansión oficial lanzada el 29 de junio de 2001 que añade un quinto acto ambientado en Monte Arreat, las nuevas clases Asesina y Druida, ítems especiales como runas y estatutos, sistema de runas mágicas (‘runewords’), y mejoras en la jugabilidad y stash. También incluye campaña cooperativa y multijugador vía Battle.net y LAN.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -35585,145 +35724,6 @@
       "Warcraft",
       "Blizzard",
       "Battle Chest"
-    ]
-  },
-  {
-    "num": "000017",
-    "ig": "https://www.instagram.com/p/DWKALlpiHzJ",
-    "titulo": "Master of Orion II: Battle at Antares",
-    "url": "juegos/master-of-orion-ii-battle-at-antares-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "4X",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Simtex"
-    ],
-    "distribuidor": [
-      "MicroProse"
-    ],
-    "ean": [],
-    "descripcion": "Master of Orion II: Battle at Antares, lanzado en 1996, es uno de los títulos más influyentes del género 4X (eXplore, eXpand, eXploit, eXterminate). Desarrollado por Simtex y distribuido por MicroProse, el juego sitúa al jugador al mando de una civilización galáctica en expansión. Combina gestión de imperio, diplomacia, investigación tecnológica, diseño de naves y combates tácticos. Introduce elementos multirraciales, colonización planetaria avanzada y una IA desafiante. Su edición en caja grande en español es especialmente valorada por coleccionistas de estrategia espacial clásica.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "4X",
-      "Estrategia espacial",
-      "MicroProse",
-      "MS-DOS",
-      "Simtex"
-    ]
-  },
-  {
-    "num": "000018",
-    "ig": "https://www.instagram.com/p/DWMnKwyCLRC",
-    "titulo": "Diablo",
-    "url": "juegos/diablo-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Rol",
-      "Dungeon crawler"
-    ],
-    "desarrollador": [
-      "Blizzard North"
-    ],
-    "distribuidor": [
-      "Blizzard Entertainment, Electronic Arts (PS1)"
-    ],
-    "ean": [],
-    "descripcion": "Lanzado a finales de 1996/enero de 1997, este ARPG icónico te lleva al reino de Khanduras para enfrentarte a demonios y a Diablo en mazmorras generadas aleatoriamente. Fue pionero del género hack‑and‑slash, con multiplayer a través de Battle.net, ciclo de misiones dinámico y tres clases jugables (Guerrero, Pícara, Hechicero).",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000019",
-    "ig": "https://www.instagram.com/p/DWO80iZiCzc",
-    "titulo": "Hellfire",
-    "url": "juegos/hellfire-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Combate"
-    ],
-    "desarrollador": [
-      "Synergistic Software (una división de Sierra On‑Line)"
-    ],
-    "distribuidor": [
-      "Sierra OnLine"
-    ],
-    "ean": [],
-    "descripcion": "Expansión lanzada en 1997 para Diablo (1996). Incluye nuevas mazmorras (‘The Nest’ y ‘The Crypt’), un nuevo villano final (Na‑Krul), la clase de personaje 'Monje' y acceso a dos clases ocultas (Bárbaro y Bardo) mediante trucos. También agrega nuevos objetos, hechizos, santuarios, mejoras de interfaz y la posibilidad de correr en Tristán. No es compatible con Battle.net y su contenido es independiente del multijugador en línea  .",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado"
-    ]
-  },
-  {
-    "num": "000020",
-    "ig": "https://www.instagram.com/p/DWRmc_SiHUj",
-    "titulo": "Diablo II",
-    "url": "juegos/diablo-ii-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Rol",
-      "Combate"
-    ],
-    "desarrollador": [
-      "Blizzard North"
-    ],
-    "distribuidor": [
-      "Blizzard Entertainment"
-    ],
-    "ean": [
-      "0020626709293"
-    ],
-    "descripcion": "Secuela lanzada en junio de 2000. Continúa tras los eventos del primer Diablo, con cinco clases jugables (Amazona, Nigromante, Bárbaro, Hechicera, Paladín), campaña épica en cuatro actos en Santuario y multijugador para hasta 8 jugadores vía Battle.net o LAN. Introdujo sistema de ítems mejorado, runas, jefes únicos y comunidad activa que aún perdura.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
     ]
   },
   {
