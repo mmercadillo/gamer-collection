@@ -676,6 +676,311 @@
     ]
   },
   {
+    "num": "000022",
+    "ig": "https://www.instagram.com/p/DWdpokECD6S",
+    "titulo": "Flashback",
+    "url": "juegos/flashback-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Plataformas",
+      "Cinemático",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Delphine Software International"
+    ],
+    "distribuidor": [
+      "U.S. Gold",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Flashback es una de las aventuras cinematográficas más influyentes de los años 90. Desarrollado por Delphine Software, el juego nos pone en la piel de Conrad B. Hart, un joven que despierta sin memoria en el planeta Titán y debe escapar de una amenaza desconocida mientras reconstruye su identidad. Destaca por su uso pionero de animaciones rotoscopiadas, que aportan un realismo sorprendente a los movimientos del protagonista, así como por su narrativa envolvente y su ambientación futurista. Esta edición Big Box distribuida en España por Dro Soft incluye la versión en disquetes para PC compatibles, ofreciendo una experiencia fiel a la época dorada del MS-DOS.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "Disco 1/2",
+      "Disco 2/2"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Flashback",
+      "Delphine",
+      "Cinemático",
+      "MS-DOS",
+      "1993",
+      "Rotoscopia",
+      "Sci-Fi",
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000023",
+    "ig": "",
+    "titulo": "Dino Crisis",
+    "url": "juegos/dino-crisis-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Survival Horror",
+      "Acción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Capcom Production Studio 4"
+    ],
+    "distribuidor": [
+      "Capcom"
+    ],
+    "ean": [
+      "4976219355681"
+    ],
+    "descripcion": "Survival horror de acción lanzado en julio 1999 (JP) / enero 2000 (Global). Dirigido por Shinji Mikami (Resident Evil), presenta dinosaurios con IA agresiva en entornos 3D en tiempo real. La agente Regina debe explorar una instalación en Ibis Island, resolver puzzles, administrar recursos limitados e intentar escapar viva. Más de 2,4 M copias vendidas y relanzado en PSN, GOG y Steam para Windows modernos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000024",
+    "ig": "",
+    "titulo": "Faraón",
+    "url": "juegos/faraon-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Construcción"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "Juego de construcción de ciudades ambientado en el Antiguo Egipto, donde gestionas desde aldeas agrícolas hasta grandes metrópolis faraónicas. Debes administrar recursos, comercio, religión, salud, y monumentos como pirámides y templos. El juego incluye campañas históricas y un modo sandbox. Su estilo educativo y jugabilidad profunda lo convirtieron en un clásico del género. Posteriormente se lanzó la expansión oficial 'Cleopatra: Reina del Nilo'.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000025",
+    "ig": "",
+    "titulo": "Cleopatra: La Reina del Nilo",
+    "url": "juegos/cleopatra-la-reina-del-nilo-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Construcción",
+      "Estrategia"
+    ],
+    "desarrollador": [
+      "BreakAway Games"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Expansión oficial lanzada el 11 de julio de 2000 para el juego Pharaoh. Añade 15 misiones ambientadas en el periodo helenístico tardío de Egipto, con nuevos hitos, enemigos y desafíos económicos, utilizando el mismo motor de Pharaoh y extendiendo la narrativa hasta la conquista romana.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000026",
+    "ig": "",
+    "titulo": "Caesar III",
+    "url": "juegos/caesar-iii-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Construcción",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra OnLine"
+    ],
+    "ean": [],
+    "descripcion": "Siguiente entrega de la saga Roma, lanzada en septiembre de 1998. Asumes el rol de gobernador provincial para diseñar, gestionar y expandir ciudades en el Imperio Romano. Incluye campañas ramificadas (‘pacíficas’ o ‘militares’), sistema de 'walkers' para distribución de servicios, amenazas naturales y militares, y un modo libre ‘City Construction Kit’. Su mecánica profunda y gráficos isométricos fueron muy bien recibidos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+  "num": "000027",
+  "ig": "",
+  "titulo": "Panzer General",
+  "url": "juegos/panzer-general-bigbox/",
+  "plataforma": [
+    "MsDos",
+    "Win95"
+  ],
+  "formato": "Big Box",
+  "genero": [
+    "Estrategia",
+    "Turnos",
+    "Wargame",
+    "Histórico"
+  ],
+  "desarrollador": [
+    "Strategic Simulations, Inc."
+  ],
+  "distribuidor": [
+    "Dro Soft",
+    "SSI"
+  ],
+  "ean": [],
+  "descripcion": "Panzer General es uno de los wargames por turnos más influyentes de los años 90, centrado en las campañas militares de la Segunda Guerra Mundial. El jugador asume el papel de un comandante alemán, gestionando unidades, recursos y estrategias a lo largo de diferentes escenarios históricos. Destaca por su accesibilidad frente a otros títulos del género, sin renunciar a una profundidad táctica considerable. La edición Big Box distribuida en España por Dro Soft incluye múltiples disquetes, documentación y material adicional, ofreciendo una experiencia clásica del MS-DOS con gran valor histórico y jugable.",
+  "incluye": [
+    "Caja Big Box",
+    "Manual de instrucciones",
+    "Disquetes (varios)",
+    "Contrato de licencia",
+    "Documentación adicional"
+  ],
+  "serie": [
+    "Big Box",
+    "Todos"
+  ],
+  "tags": [
+    "Panzer General",
+    "SSI",
+    "Wargame",
+    "Segunda Guerra Mundial",
+    "Estrategia por turnos",
+    "MS-DOS",
+    "Big Box",
+    "1994"
+  ]
+},
+  {
+  "num": "000000",
+  "ig": "",
+  "titulo": "Wall Street Trader 99",
+  "url": "juegos/wall-street-trader-99-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "formato": "Big Box",
+  "genero": [
+    "Simulación",
+    "Estrategia",
+    "Economía",
+    "Educativo"
+  ],
+  "desarrollador": [
+    "Monte Cristo Multimedia"
+  ],
+  "distribuidor": [
+    "Monte Cristo Multimedia"
+  ],
+  "ean": [
+    "3760007410062"
+  ],
+  "descripcion": "Wall Street Trader 99 es un simulador bursátil que propone al jugador introducirse en el complejo mundo de las finanzas internacionales. En un contexto de crisis económica global, el jugador debe analizar mercados, invertir en empresas y anticiparse a las fluctuaciones para generar beneficios y construir su propio imperio financiero. El juego combina simulación económica con elementos estratégicos, permitiendo operar con decenas de compañías y sectores mientras se siguen noticias en tiempo real. Esta edición Big Box incluye materiales adicionales y contenido orientado a enriquecer la experiencia, reflejando el auge de los simuladores financieros de finales de los años 90.",
+  "incluye": [
+    "Caja Big Box",
+    "Manual de instrucciones",
+    "CD-ROM",
+    "Folleto publicitario",
+    "Documentación adicional"
+  ],
+  "serie": [
+    "Big Box",
+    "Todos"
+  ],
+  "tags": [
+    "Wall Street Trader",
+    "Simulador financiero",
+    "Bolsa",
+    "Trading",
+    "Monte Cristo",
+    "1999",
+    "Big Box",
+    "Economía"
+  ]
+},
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Egipto 1156 a.C.: La Tumba del Faraón",
+    "url": "juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & Click",
+      "Histórica"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica desarrollada por Cryo y ambientada en el antiguo Egipto durante el reinado de Ramsés III. Interpretas a Ramosé, hijo de un arquitecto acusado injustamente de saquear tumbas reales. Tu misión será investigar, explorar tumbas y resolver acertijos para demostrar su inocencia. El juego combina fidelidad histórica con gráficos pre-renderizados y una narrativa inmersiva.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Alliens vs. Predator",
@@ -2754,39 +3059,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Caesar III",
-    "url": "juegos/caesar-iii-bigbox/",
-    "plataforma": [
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Construcción",
-      "Simulación"
-    ],
-    "desarrollador": [
-      "Impressions Games"
-    ],
-    "distribuidor": [
-      "Sierra OnLine"
-    ],
-    "ean": [],
-    "descripcion": "Siguiente entrega de la saga Roma, lanzada en septiembre de 1998. Asumes el rol de gobernador provincial para diseñar, gestionar y expandir ciudades en el Imperio Romano. Incluye campañas ramificadas (‘pacíficas’ o ‘militares’), sistema de 'walkers' para distribución de servicios, amenazas naturales y militares, y un modo libre ‘City Construction Kit’. Su mecánica profunda y gráficos isométricos fueron muy bien recibidos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Civilization: Call to Power",
     "url": "juegos/call-to-power-bigbox/",
     "plataforma": [
@@ -2875,38 +3147,6 @@
     ],
     "ean": [],
     "descripcion": "Simulador económico profundo (1996) que amplía el juego original 'Capitalism'. Gestionas empresas, producción, logística, finanzas, I+D y posición en el mercado global. Incluye editor de escenarios y simulación de eventos (disturbios, tecnología, epidemias). Compatible con multijugador por e‑mail y hot‑seat.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Cleopatra: La Reina del Nilo",
-    "url": "juegos/cleopatra-la-reina-del-nilo-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Construcción",
-      "Estrategia"
-    ],
-    "desarrollador": [
-      "BreakAway Games"
-    ],
-    "distribuidor": [
-      "Sierra Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Expansión oficial lanzada el 11 de julio de 2000 para el juego Pharaoh. Añade 15 misiones ambientadas en el periodo helenístico tardío de Egipto, con nuevos hitos, enemigos y desafíos económicos, utilizando el mismo motor de Pharaoh y extendiendo la narrativa hasta la conquista romana.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -3581,41 +3821,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Dino Crisis",
-    "url": "juegos/dino-crisis-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Survival Horror",
-      "Acción",
-      "Aventura"
-    ],
-    "desarrollador": [
-      "Capcom Production Studio 4"
-    ],
-    "distribuidor": [
-      "Capcom"
-    ],
-    "ean": [
-      "4976219355681"
-    ],
-    "descripcion": "Survival horror de acción lanzado en julio 1999 (JP) / enero 2000 (Global). Dirigido por Shinji Mikami (Resident Evil), presenta dinosaurios con IA agresiva en entornos 3D en tiempo real. La agente Regina debe explorar una instalación en Ibis Island, resolver puzzles, administrar recursos limitados e intentar escapar viva. Más de 2,4 M copias vendidas y relanzado en PSN, GOG y Steam para Windows modernos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Druuna: Morbus Gravis",
     "url": "juegos/druuna-morbus-gravis-bigbox/",
     "plataforma": [
@@ -3704,38 +3909,6 @@
     ],
     "ean": [],
     "descripcion": "Secuela lanzada en junio de 1999, lleva la gestión de mazmorras al 3D completo con soporte para hardware gráfico acelerado. Construyes y defiendes tu calabozo en el reino de Harmonia recolectando gemas del portal, gestionando criaturas y compitiendo contra otros Keepers o héroes. Incluye modos como campaña, escaramuza, 'My Pet Dungeon' y multijugador LAN/IPX/TCP‑IP para 2-4 jugadores.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Egipto 1156 a.C.: La Tumba del Faraón",
-    "url": "juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point & Click",
-      "Histórica"
-    ],
-    "desarrollador": [
-      "Cryo Interactive"
-    ],
-    "distribuidor": [
-      "Ubisoft"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica desarrollada por Cryo y ambientada en el antiguo Egipto durante el reinado de Ramsés III. Interpretas a Ramosé, hijo de un arquitecto acusado injustamente de saquear tumbas reales. Tu misión será investigar, explorar tumbas y resolver acertijos para demostrar su inocencia. El juego combina fidelidad histórica con gráficos pre-renderizados y una narrativa inmersiva.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -3994,39 +4167,6 @@
     ],
     "ean": [],
     "descripcion": "Juego de estrategia por turnos ambientado en un mundo de fantasía, basado en el sistema de juego de Panzer General. Controlas ejércitos compuestos por unidades de caballería, infantería, criaturas mágicas y héroes legendarios en batallas tácticas sobre mapas hexagonales. Ofrece cuatro campañas con caminos ramificados, evolución de unidades y una rica variedad de escenarios, combinando profundidad estratégica con ambientación épica.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Faraón",
-    "url": "juegos/faraon-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Construcción"
-    ],
-    "desarrollador": [
-      "Impressions Games"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "Juego de construcción de ciudades ambientado en el Antiguo Egipto, donde gestionas desde aldeas agrícolas hasta grandes metrópolis faraónicas. Debes administrar recursos, comercio, religión, salud, y monumentos como pirámides y templos. El juego incluye campañas históricas y un modo sandbox. Su estilo educativo y jugabilidad profunda lo convirtieron en un clásico del género. Posteriormente se lanzó la expansión oficial 'Cleopatra: Reina del Nilo'.",
     "incluye": [],
     "serie": [
       "Todos",
