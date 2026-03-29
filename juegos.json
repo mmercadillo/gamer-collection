@@ -901,6 +901,42 @@
     ]
   },
   {
+    "num": "000028",
+    "ig": "",
+    "titulo": "Throne of Darkness",
+    "url": "juegos/throne-of-darkness-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Acción RPG"
+    ],
+    "desarrollador": [
+      "Click Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra"
+    ],
+    "ean": "",
+    "descripcion": "Action RPG ambientado en el Japón feudal inspirado en la mitología japonesa. El jugador controla a siete samuráis con habilidades diferenciadas, gestionando combate táctico en tiempo real, progresión de personajes y equipamiento en escenarios oscuros y sobrenaturales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Samuráis",
+      "Mitología japonesa",
+      "Sierra",
+      "Action RPG",
+      "Edición española",
+      "Click Entertainment"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Wall Street Trader 99",
@@ -42038,42 +42074,6 @@
       "Tiempo real",
       "Edición española",
       "Doblado al castellano"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Throne of Darkness",
-    "url": "juegos/throne-of-darkness-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Acción RPG"
-    ],
-    "desarrollador": [
-      "Click Entertainment"
-    ],
-    "distribuidor": [
-      "Sierra"
-    ],
-    "ean": "",
-    "descripcion": "Action RPG ambientado en el Japón feudal inspirado en la mitología japonesa. El jugador controla a siete samuráis con habilidades diferenciadas, gestionando combate táctico en tiempo real, progresión de personajes y equipamiento en escenarios oscuros y sobrenaturales.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Samuráis",
-      "Mitología japonesa",
-      "Sierra",
-      "Action RPG",
-      "Edición española",
-      "Click Entertainment"
     ]
   },
   {
