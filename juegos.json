@@ -854,100 +854,100 @@
     ]
   },
   {
-  "num": "000027",
-  "ig": "",
-  "titulo": "Panzer General",
-  "url": "juegos/panzer-general-bigbox/",
-  "plataforma": [
-    "MsDos",
-    "Win95"
-  ],
-  "formato": "Big Box",
-  "genero": [
-    "Estrategia",
-    "Turnos",
-    "Wargame",
-    "Histórico"
-  ],
-  "desarrollador": [
-    "Strategic Simulations, Inc."
-  ],
-  "distribuidor": [
-    "Dro Soft",
-    "SSI"
-  ],
-  "ean": [],
-  "descripcion": "Panzer General es uno de los wargames por turnos más influyentes de los años 90, centrado en las campañas militares de la Segunda Guerra Mundial. El jugador asume el papel de un comandante alemán, gestionando unidades, recursos y estrategias a lo largo de diferentes escenarios históricos. Destaca por su accesibilidad frente a otros títulos del género, sin renunciar a una profundidad táctica considerable. La edición Big Box distribuida en España por Dro Soft incluye múltiples disquetes, documentación y material adicional, ofreciendo una experiencia clásica del MS-DOS con gran valor histórico y jugable.",
-  "incluye": [
-    "Caja Big Box",
-    "Manual de instrucciones",
-    "Disquetes (varios)",
-    "Contrato de licencia",
-    "Documentación adicional"
-  ],
-  "serie": [
-    "Big Box",
-    "Todos"
-  ],
-  "tags": [
-    "Panzer General",
-    "SSI",
-    "Wargame",
-    "Segunda Guerra Mundial",
-    "Estrategia por turnos",
-    "MS-DOS",
-    "Big Box",
-    "1994"
-  ]
-},
+    "num": "000027",
+    "ig": "",
+    "titulo": "Panzer General",
+    "url": "juegos/panzer-general-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia",
+      "Turnos",
+      "Wargame",
+      "Histórico"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Dro Soft",
+      "SSI"
+    ],
+    "ean": [],
+    "descripcion": "Panzer General es uno de los wargames por turnos más influyentes de los años 90, centrado en las campañas militares de la Segunda Guerra Mundial. El jugador asume el papel de un comandante alemán, gestionando unidades, recursos y estrategias a lo largo de diferentes escenarios históricos. Destaca por su accesibilidad frente a otros títulos del género, sin renunciar a una profundidad táctica considerable. La edición Big Box distribuida en España por Dro Soft incluye múltiples disquetes, documentación y material adicional, ofreciendo una experiencia clásica del MS-DOS con gran valor histórico y jugable.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "Disquetes (varios)",
+      "Contrato de licencia",
+      "Documentación adicional"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Panzer General",
+      "SSI",
+      "Wargame",
+      "Segunda Guerra Mundial",
+      "Estrategia por turnos",
+      "MS-DOS",
+      "Big Box",
+      "1994"
+    ]
+  },
   {
-  "num": "000000",
-  "ig": "",
-  "titulo": "Wall Street Trader 99",
-  "url": "juegos/wall-street-trader-99-bigbox/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "formato": "Big Box",
-  "genero": [
-    "Simulación",
-    "Estrategia",
-    "Economía",
-    "Educativo"
-  ],
-  "desarrollador": [
-    "Monte Cristo Multimedia"
-  ],
-  "distribuidor": [
-    "Monte Cristo Multimedia"
-  ],
-  "ean": [
-    "3760007410062"
-  ],
-  "descripcion": "Wall Street Trader 99 es un simulador bursátil que propone al jugador introducirse en el complejo mundo de las finanzas internacionales. En un contexto de crisis económica global, el jugador debe analizar mercados, invertir en empresas y anticiparse a las fluctuaciones para generar beneficios y construir su propio imperio financiero. El juego combina simulación económica con elementos estratégicos, permitiendo operar con decenas de compañías y sectores mientras se siguen noticias en tiempo real. Esta edición Big Box incluye materiales adicionales y contenido orientado a enriquecer la experiencia, reflejando el auge de los simuladores financieros de finales de los años 90.",
-  "incluye": [
-    "Caja Big Box",
-    "Manual de instrucciones",
-    "CD-ROM",
-    "Folleto publicitario",
-    "Documentación adicional"
-  ],
-  "serie": [
-    "Big Box",
-    "Todos"
-  ],
-  "tags": [
-    "Wall Street Trader",
-    "Simulador financiero",
-    "Bolsa",
-    "Trading",
-    "Monte Cristo",
-    "1999",
-    "Big Box",
-    "Economía"
-  ]
-},
+    "num": "000000",
+    "ig": "",
+    "titulo": "Wall Street Trader 99",
+    "url": "juegos/wall-street-trader-99-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación",
+      "Estrategia",
+      "Economía",
+      "Educativo"
+    ],
+    "desarrollador": [
+      "Monte Cristo Multimedia"
+    ],
+    "distribuidor": [
+      "Monte Cristo Multimedia"
+    ],
+    "ean": [
+      "3760007410062"
+    ],
+    "descripcion": "Wall Street Trader 99 es un simulador bursátil que propone al jugador introducirse en el complejo mundo de las finanzas internacionales. En un contexto de crisis económica global, el jugador debe analizar mercados, invertir en empresas y anticiparse a las fluctuaciones para generar beneficios y construir su propio imperio financiero. El juego combina simulación económica con elementos estratégicos, permitiendo operar con decenas de compañías y sectores mientras se siguen noticias en tiempo real. Esta edición Big Box incluye materiales adicionales y contenido orientado a enriquecer la experiencia, reflejando el auge de los simuladores financieros de finales de los años 90.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "CD-ROM",
+      "Folleto publicitario",
+      "Documentación adicional"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Wall Street Trader",
+      "Simulador financiero",
+      "Bolsa",
+      "Trading",
+      "Monte Cristo",
+      "1999",
+      "Big Box",
+      "Economía"
+    ]
+  },
   {
     "num": "000000",
     "ig": "",
