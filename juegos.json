@@ -890,6 +890,294 @@
     ]
   },
   {
+    "num": "000028",
+    "ig": "",
+    "titulo": "Age of Empires",
+    "url": "juegos/age-of-empires-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [],
+    "descripcion": "Juego de estrategia en tiempo real lanzado en 1997. Guias una civilización desde la Edad de Piedra hasta la Edad de Hierro a través de 12 culturas, gestionando recursos, desarrollando tecnologías y combatiendo en campañas históricas y escenarios generados al azar. Incluye modos multijugador, editor de escenarios y un potente motor Genie.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Age of Empires"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000029",
+    "ig": "",
+    "titulo": "Age of Empires: The Rise of Rome",
+    "url": "juegos/age-of-empires-rise-of-rome-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [],
+    "descripcion": "Expansión de 1998 para Age of Empires que añade cuatro nuevas civilizaciones (Romanos, Cartagineses, Palmirenos y Macedonios), cinco unidades únicas, nuevas tecnologías, campañas históricas sobre Roma y mejoras de calidad de vida como cola de producción de unidades y límite de población ampliado.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Age of Empires"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000030",
+    "ig": "",
+    "titulo": "Age of Empires. Gold Edition",
+    "url": "juegos/age-of-empires-gold-edition-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [
+      "0659556098605, 5017783556360, 4012160164061"
+    ],
+    "descripcion": "Edición que reúne el juego original 'Age of Empires' y su expansión 'The Rise of Rome' en un solo disco (1999). Gestionas civilizaciones desde la Edad de Piedra hasta Roma en campañas históricas y escenarios, con multijugador, editor de escenarios y motor Genie.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Age of Empires"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000031",
+    "ig": "",
+    "titulo": "Age of Empires II: The Age of Kings",
+    "url": "juegos/age-of-empires-ii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [],
+    "descripcion": "Segunda entrega de la saga Age of Empires (1999). Guías diversas civilizaciones medievales desde la Edad Oscura hasta el Renacimiento a través de campañas históricas y multijugador. Incluye editor de escenarios y motor Genie. Lanzado originalmente para PC y adaptado posteriormente a Mac en 2001.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Age of Empires"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "1.x",
+      "preservacion": "Alcohol 120% - Perfil SafeDisc",
+      "formato": "MDS/MDF",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000032",
+    "ig": "",
+    "titulo": "Age of Empires II. The Conquerors. Expansion",
+    "url": "juegos/age-of-empires-ii-the-conquerors-expansion-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [
+      "0659556460693, 0805529051034, 805529132061"
+    ],
+    "descripcion": "Primera expansión (lanzada 24 de agosto de 2000) de Age of Empires II, añade cinco civilizaciones (Aztecas, Españoles, Hunos, Coreanos, Mayas), cuatro nuevas campañas históricas, 11 unidades, 26 tecnologías, modos de juego y mapas. Compatible con el motor Genie y requiere Age of Empires II base para funcionar.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Age of Empires"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "1.x",
+      "preservacion": "Alcohol 120% - Perfil SafeDisc",
+      "formato": "MDS/MDF",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000033",
+    "ig": "",
+    "titulo": "Age of Empires II: Gold Edition",
+    "url": "juegos/age-of-empires-ii-edicion-gold-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [
+      "0805529051041, 805529132085, 755142110444"
+    ],
+    "descripcion": "Edición especial lanzada en 2001 que combina 'Age of Empires II: The Age of Kings' y su expansión 'The Conquerors'. Incluye campañas históricas, multijugador, editor de escenarios y el robusto motor Genie.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Age of Empires"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "1.x",
+      "preservacion": "Alcohol 120% - Perfil SafeDisc",
+      "formato": "MDS/MDF",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000034",
+    "ig": "",
+    "titulo": "Age of Mythology",
+    "url": "juegos/age-of-mythology-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Ensemble Studios"
+    ],
+    "distribuidor": [
+      "Microsoft Game Studios"
+    ],
+    "ean": [
+      "8712206084440"
+    ],
+    "descripcion": "Juego de estrategia en tiempo real (2002) ambientado en mitologías griega, egipcia y nórdica. Sigues las campañas del Atlante Arkantos, construyes civilizaciones, evocás poderes divinos y entrenás unidades míticas. Incluye campaña principal, multijugador, editor de escenarios y motor BANG!.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Age of Empires"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "2.8x",
+      "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
+      "formato": "MDS/MDF",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
@@ -2001,46 +2289,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Age of Empires",
-    "url": "juegos/age-of-empires-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft"
-    ],
-    "ean": [],
-    "descripcion": "Juego de estrategia en tiempo real lanzado en 1997. Guias una civilización desde la Edad de Piedra hasta la Edad de Hierro a través de 12 culturas, gestionando recursos, desarrollando tecnologías y combatiendo en campañas históricas y escenarios generados al azar. Incluye modos multijugador, editor de escenarios y un potente motor Genie.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "Sin protección",
-      "version": "",
-      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
-      "formato": "ISO",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "The Rise & Rule of Ancient Empires",
     "url": "juegos/the-rise-and-rule-of-ancient-empires-bigbox/",
     "plataforma": [
@@ -2068,254 +2316,6 @@
     "tags": [
       "Big Box"
     ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Age of Empires II: Gold Edition",
-    "url": "juegos/age-of-empires-ii-edicion-gold-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft"
-    ],
-    "ean": [
-      "0805529051041, 805529132085, 755142110444"
-    ],
-    "descripcion": "Edición especial lanzada en 2001 que combina 'Age of Empires II: The Age of Kings' y su expansión 'The Conquerors'. Incluye campañas históricas, multijugador, editor de escenarios y el robusto motor Genie.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDS/MDF",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Age of Empires II: The Age of Kings",
-    "url": "juegos/age-of-empires-ii-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft"
-    ],
-    "ean": [],
-    "descripcion": "Segunda entrega de la saga Age of Empires (1999). Guías diversas civilizaciones medievales desde la Edad Oscura hasta el Renacimiento a través de campañas históricas y multijugador. Incluye editor de escenarios y motor Genie. Lanzado originalmente para PC y adaptado posteriormente a Mac en 2001.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDS/MDF",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Age of Empires II. The Conquerors. Expansion",
-    "url": "juegos/age-of-empires-ii-the-conquerors-expansion-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft"
-    ],
-    "ean": [
-      "0659556460693, 0805529051034, 805529132061"
-    ],
-    "descripcion": "Primera expansión (lanzada 24 de agosto de 2000) de Age of Empires II, añade cinco civilizaciones (Aztecas, Españoles, Hunos, Coreanos, Mayas), cuatro nuevas campañas históricas, 11 unidades, 26 tecnologías, modos de juego y mapas. Compatible con el motor Genie y requiere Age of Empires II base para funcionar.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDS/MDF",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Age of Empires. Gold Edition",
-    "url": "juegos/age-of-empires-gold-edition-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft"
-    ],
-    "ean": [
-      "0659556098605, 5017783556360, 4012160164061"
-    ],
-    "descripcion": "Edición que reúne el juego original 'Age of Empires' y su expansión 'The Rise of Rome' en un solo disco (1999). Gestionas civilizaciones desde la Edad de Piedra hasta Roma en campañas históricas y escenarios, con multijugador, editor de escenarios y motor Genie.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "Sin protección",
-      "version": "",
-      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
-      "formato": "ISO",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Age of Empires: The Rise of Rome",
-    "url": "juegos/age-of-empires-rise-of-rome-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft"
-    ],
-    "ean": [],
-    "descripcion": "Expansión de 1998 para Age of Empires que añade cuatro nuevas civilizaciones (Romanos, Cartagineses, Palmirenos y Macedonios), cinco unidades únicas, nuevas tecnologías, campañas históricas sobre Roma y mejoras de calidad de vida como cola de producción de unidades y límite de población ampliado.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "Sin protección",
-      "version": "",
-      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
-      "formato": "ISO",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Age of Mythology",
-    "url": "juegos/age-of-mythology-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Ensemble Studios"
-    ],
-    "distribuidor": [
-      "Microsoft Game Studios"
-    ],
-    "ean": [
-      "8712206084440"
-    ],
-    "descripcion": "Juego de estrategia en tiempo real (2002) ambientado en mitologías griega, egipcia y nórdica. Sigues las campañas del Atlante Arkantos, construyes civilizaciones, evocás poderes divinos y entrenás unidades míticas. Incluye campaña principal, multijugador, editor de escenarios y motor BANG!.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Age of Empires"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "2.8x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
-      "formato": "MDS/MDF",
-      "jugable_virtual": true
-    }
   },
   {
     "num": "000000",
