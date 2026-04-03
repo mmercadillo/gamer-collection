@@ -855,6 +855,42 @@
   },
   {
     "num": "000027",
+    "ig": "https://www.instagram.com/p/DWqxhrVCI7b",
+    "titulo": "Throne of Darkness",
+    "url": "juegos/throne-of-darkness-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Acción RPG"
+    ],
+    "desarrollador": [
+      "Click Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra"
+    ],
+    "ean": "",
+    "descripcion": "Action RPG ambientado en el Japón feudal inspirado en la mitología japonesa. El jugador controla a siete samuráis con habilidades diferenciadas, gestionando combate táctico en tiempo real, progresión de personajes y equipamiento en escenarios oscuros y sobrenaturales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Samuráis",
+      "Mitología japonesa",
+      "Sierra",
+      "Action RPG",
+      "Edición española",
+      "Click Entertainment"
+    ]
+  },
+  {
+    "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
     "url": "juegos/panzer-general-bigbox/",
@@ -899,43 +935,7 @@
       "Big Box",
       "1994"
     ]
-  },
-  {
-    "num": "000028",
-    "ig": "",
-    "titulo": "Throne of Darkness",
-    "url": "juegos/throne-of-darkness-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Acción RPG"
-    ],
-    "desarrollador": [
-      "Click Entertainment"
-    ],
-    "distribuidor": [
-      "Sierra"
-    ],
-    "ean": "",
-    "descripcion": "Action RPG ambientado en el Japón feudal inspirado en la mitología japonesa. El jugador controla a siete samuráis con habilidades diferenciadas, gestionando combate táctico en tiempo real, progresión de personajes y equipamiento en escenarios oscuros y sobrenaturales.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Samuráis",
-      "Mitología japonesa",
-      "Sierra",
-      "Action RPG",
-      "Edición española",
-      "Click Entertainment"
-    ]
-  },
+  },  
   {
     "num": "000000",
     "ig": "",
