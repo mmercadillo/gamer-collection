@@ -1178,6 +1178,65 @@
     }
   },
   {
+    "num": "000035",
+    "ig": "",
+    "titulo": "Maniac Mansion",
+    "url": "juegos/maniac-mansion-2-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & Click",
+      "Comedia",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Lucasfilm Games"
+    ],
+    "distribuidor": [
+      "Erbe Software",
+      "Lucasfilm Games"
+    ],
+    "ean": [],
+    "descripcion": "Maniac Mansion (1987) es una de las aventuras gráficas más influyentes de la historia, desarrollada por Lucasfilm Games y diseñada por Ron Gilbert y Gary Winnick. El juego introdujo el motor SCUMM, revolucionando el género al permitir una interfaz basada en verbos y eliminando la necesidad de introducir comandos por teclado.\n\nLa historia sigue a un grupo de adolescentes que se infiltran en la inquietante mansión del Dr. Fred para rescatar a su amiga Sandy, secuestrada para un extraño experimento. A lo largo de la aventura, el jugador puede elegir entre varios personajes, cada uno con habilidades únicas, lo que permite diferentes soluciones a los puzles y múltiples caminos narrativos.\n\nEl tono del juego mezcla terror ligero con humor absurdo, presentando situaciones surrealistas, personajes memorables y múltiples finales. Su diseño abierto y no lineal fue innovador para la época, fomentando la experimentación del jugador.\n\nEsta edición distribuida en España por Erbe Software en formato Big Box incluye versión en disquete para MS-DOS y materiales adicionales localizados, formando parte de la popular línea económica de la compañía. Es una pieza clave dentro del coleccionismo de aventuras gráficas y uno de los pilares fundamentales del catálogo de Lucasfilm Games, precursor directo de clásicos posteriores como Monkey Island.",
+    "incluye": [
+      "Caja Big Box original",
+      "Disquetes del juego",
+      "Manual de instrucciones",
+      "Libro de pistas",
+      "Tarjeta de registro",
+      "Publicidad de Erbe",
+      "Hoja de protección (códigos o referencias)",
+      "Accesorio incluido (gafas de cartón)"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Maniac Mansion",
+      "Lucasfilm Games",
+      "Erbe",
+      "SCUMM",
+      "Aventura gráfica",
+      "Point and click",
+      "Retro PC",
+      "MS-DOS",
+      "Big Box",
+      "Clásico",
+      "1987"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "Utiliza sistema de protección basado en consulta al manual o documentos incluidos. Preservable mediante copia digital completa de los materiales o versiones crackeadas.",
+      "formato": "No aplica",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
@@ -1223,7 +1282,7 @@
       "Big Box",
       "1994"
     ]
-  },  
+  },
   {
     "num": "000000",
     "ig": "",
@@ -11395,7 +11454,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Zoo Tycoon",
-    "url": "juegos/zoo-tycoon-codegame/",
+    "url": "juegos/zoo-tycoon-codegame-cddvd/",
     "plataforma": [
       "Win98",
       "WinMe",
@@ -46341,5 +46400,232 @@
     "tags": [
       "Edición coleccionista"
     ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Aliens versus Predator 2",
+    "url": "juegos/aliens-versus-predator-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "FPS",
+      "Acción",
+      "Ciencia ficción",
+      "Terror"
+    ],
+    "desarrollador": [
+      "Monolith Productions"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment",
+      "Fox Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Aliens versus Predator 2 (2001) es uno de los shooters más ambiciosos y atmosféricos de su época, desarrollado por Monolith Productions tras el éxito del primer título. Basado en las icónicas franquicias cinematográficas de Alien y Predator, el juego propone una estructura única: tres campañas completamente distintas que permiten vivir la historia desde el punto de vista de un Marine colonial, un Alien y un Predator.\n\nCada especie ofrece mecánicas radicalmente diferentes: el Marine apuesta por la supervivencia y el terror psicológico en entornos claustrofóbicos; el Alien se mueve con agilidad extrema por paredes y techos, acechando a sus presas; y el Predator combina sigilo, tecnología avanzada y combate cuerpo a cuerpo. Esta asimetría jugable fue uno de los grandes logros del título, elevando su profundidad y rejugabilidad.\n\nTécnicamente, el juego utilizaba el motor LithTech, destacando por su iluminación dinámica, diseño sonoro inmersivo y una ambientación opresiva que capturaba perfectamente el espíritu de las películas. Además, su modo multijugador fue muy popular, con partidas online donde las tres especies se enfrentaban en combates desequilibrados pero intensos.\n\nEsta edición Big Box distribuida por Sierra y Fox Interactive es especialmente representativa de la época dorada del PC, con arte oscuro y detallado que refleja la biomecánica de los xenomorfos y el diseño tribal del Predator. Hoy en día, es una pieza muy valorada tanto por coleccionistas como por aficionados al género FPS clásico.",
+    "incluye": [
+      "Caja Big Box original",
+      "CD-ROM del juego",
+      "Manual",
+      "Folleto promocional",
+      "Tarjeta o documentación adicional"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Aliens",
+      "Predator",
+      "AVP",
+      "Monolith",
+      "Sierra",
+      "FPS clásico",
+      "Retro PC",
+      "Big Box",
+      "Ciencia ficción",
+      "Terror",
+      "Multijugador",
+      "2001"
+    ],
+    "proteccion": {
+      "tipo": "Código o clave",
+      "version": "",
+      "preservacion": "Requiere clave de CD para instalación y verificación del disco para ejecución. Preservable mediante imagen de disco y parche No-CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Gunlok",
+    "url": "juegos/gunlok-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Estrategia",
+      "Shooter",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Rebellion Developments"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [
+      "5028571031488"
+    ],
+    "descripcion": "Gunlok (2000) es un título híbrido poco común dentro del panorama del PC de finales de los 90, desarrollado por Rebellion Developments, estudio también responsable de Alien vs Predator. El juego propone una combinación de acción en tercera persona y estrategia táctica en tiempo real, ambientada en un futuro donde corporaciones dominan la Tierra mediante ejércitos de robots.\n\nEl jugador encarna a Gunlok, un soldado de élite equipado con armamento pesado y mejoras tecnológicas, liderando un escuadrón en misiones contra fuerzas mecanizadas. Una de sus principales particularidades es la posibilidad de alternar entre control directo del personaje y gestión táctica del equipo, lo que lo sitúa en una zona intermedia entre shooter y RTS.\n\nA nivel técnico, el juego destacaba por su uso de gráficos 3D acelerados y compatibilidad con tecnologías de la época como 3dfx, además de incorporar efectos avanzados de partículas e iluminación. Aunque no alcanzó gran popularidad comercial, Gunlok es un ejemplo interesante de experimentación en el diseño de géneros durante una época de transición tecnológica.\n\nEsta edición Big Box distribuida por Virgin Interactive mantiene la estética futurista característica del título, con arte promocional que enfatiza el componente tecnológico y militar. Hoy es una pieza poco habitual en el coleccionismo, especialmente en versiones completas en castellano.",
+    "incluye": [
+      "Caja Big Box original",
+      "CD-ROM del juego",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Gunlok",
+      "Rebellion",
+      "Virgin Interactive",
+      "Shooter táctico",
+      "RTS híbrido",
+      "Ciencia ficción",
+      "Retro PC",
+      "Big Box",
+      "2000",
+      "3dfx"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Requiere el CD original para su ejecución. Preservable mediante imagen de disco y uso de parche No-CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Amerzone: El legado del explorador",
+    "url": "juegos/amerzone-el-legado-del-explorador-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & Click",
+      "Exploración"
+    ],
+    "desarrollador": [
+      "Microïds"
+    ],
+    "distribuidor": [
+      "Microïds",
+      "Casterman"
+    ],
+    "ean": [],
+    "descripcion": "Amerzone: El legado del explorador (1999) es una aventura gráfica point & click creada por Benoît Sokal, reconocido autor de cómic europeo, que trasladó su sensibilidad artística al mundo del videojuego. La obra propone un viaje introspectivo y pausado hacia Amerzone, una región ficticia inspirada en ecosistemas tropicales, cargada de misterio y simbolismo.\n\nEl jugador encarna a un periodista que recibe la misión de completar la última voluntad de un explorador moribundo: devolver un huevo de las legendarias aves blancas a su hábitat natural. A partir de ahí, se inicia un recorrido lleno de paisajes exóticos, máquinas extrañas y una narrativa profundamente ambiental.\n\nA nivel jugable, Amerzone se apoya en mecánicas clásicas del género, con exploración en primera persona, resolución de puzles y una fuerte carga narrativa. Destaca especialmente por su dirección artística, heredera directa del estilo de Sokal, y por su atmósfera melancólica, donde la naturaleza y la decadencia humana se entrelazan.\n\nEsta edición Big Box representa una de las grandes apuestas europeas por la aventura gráfica a finales de los 90, y es especialmente valorada por coleccionistas debido a su estética cuidada y su relevancia dentro del catálogo de Microïds, sirviendo además como precursor espiritual de la posterior saga Syberia.",
+    "incluye": [
+      "Caja Big Box original",
+      "CD-ROM del juego",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Amerzone",
+      "Benoit Sokal",
+      "Microïds",
+      "Aventura gráfica",
+      "Point and click",
+      "Retro PC",
+      "Big Box",
+      "Narrativo",
+      "Exploración",
+      "1999"
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "No requiere protección activa más allá del CD. Preservable mediante imagen ISO estándar.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Red Baron II",
+    "url": "juegos/red-baron-ii-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de vuelo",
+      "Combate aéreo",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Dynamix"
+    ],
+    "distribuidor": [
+      "Sierra"
+    ],
+    "ean": [
+      "3348542011854"
+    ],
+    "descripcion": "Red Baron II es la secuela del célebre simulador de combate aéreo ambientado en la Primera Guerra Mundial, desarrollado por Dynamix y publicado por Sierra en 1997. El juego traslada al jugador a los cielos del frente occidental en 1914-1918, recreando duelos entre biplanos con una mezcla de simulación accesible, componente histórico y fuerte énfasis en la inmersión. Su propuesta gira en torno a campañas, misiones individuales y combates en red, permitiendo pilotar aparatos de distintas naciones y enfrentarse en dogfights donde la altura, la energía y la puntería importan tanto como la sangre fría.\n\nUno de sus mayores atractivos fue la ambientación: Red Baron II no buscaba solo ofrecer acción, sino también transmitir la fragilidad de aquellos primeros aviones de combate, construidos con madera, tela y motores limitados. El resultado era una experiencia muy distinta a la de los simuladores de reactores modernos, más táctica y cercana, con combates visuales y maniobras ajustadas a corta distancia. Además, el juego incorporó editor de misiones y opciones de personalización, ampliando notablemente su vida útil.\n\nEsta edición española Big Box de Sierra destaca por su poderosa portada en tonos rojos y por su clara orientación al mercado local, con textos de pantalla, manual y voces en castellano. Dentro del coleccionismo de PC, Red Baron II representa muy bien una época en la que Sierra seguía publicando simuladores ambiciosos en gran formato, acompañados de abundante documentación física. Es una pieza especialmente interesante para aficionados a la aviación histórica, a Dynamix y a la edad dorada de la simulación en PC.",
+    "incluye": [
+      "Caja Big Box original",
+      "CD-ROM del juego",
+      "Manual Volumen 1",
+      "Manual Volumen 2",
+      "Tarjeta o folleto publicitario",
+      "Nota sobre problemas con DirectX"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Red Baron II",
+      "Dynamix",
+      "Sierra",
+      "Primera Guerra Mundial",
+      "Simulación de vuelo",
+      "Combate aéreo",
+      "Biplanos",
+      "Big Box",
+      "Retro PC",
+      "Simulación histórica"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Probablemente requiere comprobación del CD original para jugar. Preservable mediante imagen de disco y, en entornos actuales, suele necesitar ajustes de compatibilidad propios de Windows 95/DirectX de la época.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
   }
 ]

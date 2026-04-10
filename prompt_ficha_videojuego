@@ -1,0 +1,300 @@
+Hola, hay que hacer la ficha de este videojuego. 
+Tanto la información necesaria, como el formato de la respuesta debe ajustarse al siguiente jsonschema:
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pcgamearchive.org/schemas/juego.schema.json",
+  "title": "Ficha de juego",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "num",
+    "ig",
+    "titulo",
+    "url",
+    "plataforma",
+    "formato",
+    "genero",
+    "desarrollador",
+    "distribuidor",
+    "ean",
+    "descripcion",
+    "incluye",
+    "serie",
+    "tags",
+    "proteccion"
+  ],
+  "properties": {
+    "num": {
+      "type": "string",
+      "pattern": "^\\d{6}$"
+    },
+    "ig": {
+      "type": "string",
+      "anyOf": [
+        {
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        {
+          "const": ""
+        }
+      ]
+    },
+    "titulo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^juegos\\/[a-z0-9\\-]+\\/$"
+    },
+    "plataforma": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "MacOs",
+          "MsDos",
+          "Win10",
+          "Win11",
+          "Win2000",
+          "Win3.x",
+          "Win7",
+          "Win8",
+          "Win95",
+          "Win98",
+          "Windows Vista",
+          "WinMe",
+          "WinNT",
+          "WinXP"
+        ]
+      }
+    },
+    "formato": {
+      "type": "string",
+      "enum": [
+        "Big Box",
+        "DVD Case",
+        "Jewel Case"
+      ]
+    },
+    "genero": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "desarrollador": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "distribuidor": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "ean": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^(\\d{8}|\\d{13})$"
+      }
+    },
+    "descripcion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "incluye": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "serie": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "Age of Empires",
+          "Best of Atari",
+          "BestSeller Series",
+          "Big Box",
+          "DVD Case",
+          "Jewel Case",
+          "Codegame",
+          "Computer hoy juegos",
+          "Dinamic multimedia",
+          "EA Games Classics",
+          "EA Sports",
+          "EA Value Games",
+          "FX Interactive",
+          "Games for windows",
+          "Heroes of Might and Magic",
+          "Juegos del verano",
+          "Limited Run",
+          "Los Sims",
+          "LucasArts Legends",
+          "Market way",
+          "Mk Interactive",
+          "RED Collection",
+          "World of Warcraft",
+          "Xtreme Collection",
+          "Zeta Games",
+          "Zipi y Zape",
+          "Todos"
+        ]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "proteccion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tipo",
+        "version",
+        "preservacion",
+        "formato",
+        "jugable_virtual"
+      ],
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "Sin protección",
+            "Verificación de CD",
+            "Código o clave",
+            "Manual lookup",
+            "Key disk",
+            "Rol de claves",
+            "SafeDisc",
+            "SecuROM",
+            "LaserLock",
+            "DiscGuard",
+            "CD-Cops",
+            "StarForce",
+            "TAGES",
+            "ProtectDISC",
+            "No determinado",
+            "Otro"
+          ]
+        },
+        "version": {
+          "type": "string"
+        },
+        "preservacion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "formato": {
+          "type": "string",
+          "enum": [
+            "ISO",
+            "BIN/CUE",
+            "MDF/MDS",
+            "NRG",
+            "CCD/IMG/SUB",
+            "WAV/CUE",
+            "No aplica",
+            "Otro"
+          ]
+        },
+        "jugable_virtual": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "formato": {
+            "const": "Big Box"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "serie": {
+            "contains": {
+              "const": "Big Box"
+            }
+          },
+          "url": {
+            "pattern": "-bigbox\\/$"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "formato": {
+            "const": "DVD Case"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "serie": {
+            "contains": {
+              "const": "DVD Case"
+            }
+          },
+          "url": {
+            "pattern": "-cddvd\\/$"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "formato": {
+            "const": "Jewel Case"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "serie": {
+            "contains": {
+              "const": "Jewel Case"
+            }
+          },
+          "url": {
+            "pattern": "-jewelcase\\/$"
+          }
+        }
+      }
+    }
+  ]
+}
+De momento el valor del elemeno "num" siempre debe valer "000000"
