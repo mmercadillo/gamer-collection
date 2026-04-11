@@ -1179,9 +1179,9 @@
   },
   {
     "num": "000035",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DW_DjJHiElc",
     "titulo": "Maniac Mansion",
-    "url": "juegos/maniac-mansion-2-bigbox/",
+    "url": "juegos/maniac-mansion-bigbox/",
     "plataforma": [
       "MsDos"
     ],
@@ -5217,7 +5217,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Maniac Mansion",
-    "url": "juegos/maniac-mansion-bigbox/",
+    "url": "juegos/limited-run-maniac-mansion-bigbox/",
     "plataforma": [
       "MsDos",
       "Win95"
