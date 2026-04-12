@@ -1237,6 +1237,70 @@
     }
   },
   {
+    "num": "000036",
+    "ig": "https://www.instagram.com/p/DXB7siJiGhy",
+    "titulo": "Civilization: Call to Power",
+    "url": "juegos/call-to-power-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos"
+    ],
+    "desarrollador": [
+      "Activision"
+    ],
+    "distribuidor": [
+      "Activision, Loki Software (Linux), MacSoft (Mac)"
+    ],
+    "ean": [
+      "0722242517381"
+    ],
+    "descripcion": "Juego de estrategia por turnos (1999), inspirado en la saga Civilization. Abarca desde la Edad Antigua hasta el año 3000 d.C., incluye colonias en océanos y el espacio, tecnologías futuras, gestión avanzada (polución, felicidad), diplomacia, comercio y múltiples condiciones de victoria (militar, cultural, tecnológica y espacial). Soporta multijugador por red (IPX/TCP), hotseat o PBEM.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000037",
+    "ig": "",
+    "titulo": "Call to Power II",
+    "url": "juegos/call-to-power-ii-bigbox/",
+    "plataforma": [
+      "WinXP",
+      "Win7"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos"
+    ],
+    "desarrollador": [
+      "Activision"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [
+      "5030917009310"
+    ],
+    "descripcion": "Secuela del ‘Civilization: Call to Power’ lanzada en noviembre de 2000. Amplía la experiencia 4X desde la Edad Antigua hasta 2300 d.C., con condiciones de victoria diplomática, por puntos, Bloodlust y Gaia Controller. Incluye multijugador TCP/IP/IPX, mods mediante SLIC, y parches comunitarios como Apolyton Edition.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
@@ -3142,70 +3206,6 @@
     ],
     "ean": [],
     "descripcion": "Juego de construcción de ciudades ambientado en la Antigua Roma, lanzado en 1992. Asumes el rol de gobernador provincial, gestionas urbanismo, recursos, servicios y defensa militar para satisfacer al emperador. Incluye suministro de agua, educación, ocio y ejército, con guerras manejadas mediante enlace con Cohort II. Lanzado inicialmente para Amiga y portado a DOS, Mac, Atari ST y Windows.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Civilization: Call to Power",
-    "url": "juegos/call-to-power-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos"
-    ],
-    "desarrollador": [
-      "Activision"
-    ],
-    "distribuidor": [
-      "Activision, Loki Software (Linux), MacSoft (Mac)"
-    ],
-    "ean": [
-      "0722242517381"
-    ],
-    "descripcion": "Juego de estrategia por turnos (1999), inspirado en la saga Civilization. Abarca desde la Edad Antigua hasta el año 3000 d.C., incluye colonias en océanos y el espacio, tecnologías futuras, gestión avanzada (polución, felicidad), diplomacia, comercio y múltiples condiciones de victoria (militar, cultural, tecnológica y espacial). Soporta multijugador por red (IPX/TCP), hotseat o PBEM.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Call to Power II",
-    "url": "juegos/call-to-power-ii-bigbox/",
-    "plataforma": [
-      "WinXP",
-      "Win7"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos"
-    ],
-    "desarrollador": [
-      "Activision"
-    ],
-    "distribuidor": [
-      "Activision"
-    ],
-    "ean": [
-      "5030917009310"
-    ],
-    "descripcion": "Secuela del ‘Civilization: Call to Power’ lanzada en noviembre de 2000. Amplía la experiencia 4X desde la Edad Antigua hasta 2300 d.C., con condiciones de victoria diplomática, por puntos, Bloodlust y Gaia Controller. Incluye multijugador TCP/IP/IPX, mods mediante SLIC, y parches comunitarios como Apolyton Edition.",
     "incluye": [],
     "serie": [
       "Todos",
