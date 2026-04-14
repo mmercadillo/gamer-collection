@@ -1301,6 +1301,41 @@
     ]
   },
   {
+    "num": "000038",
+    "ig": "https://www.instagram.com/p/DXG8YaBiFAj",
+    "titulo": "Darkstone: Evil Reigns",
+    "url": "juegos/darkstone-evil-reigns-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Rol"
+    ],
+    "desarrollador": [
+      "Delphine Software International"
+    ],
+    "distribuidor": [
+      "Electronic Arts (EU), Gathering of Developers (NA, PC), Take‑Two Interactive (NA, PS)"
+    ],
+    "ean": [
+      "5030931025532, 5030930025533, 5030947025533, 5030934025539"
+    ],
+    "descripcion": "ARPG clásico de 1999 ambientado en el mundo de Uma: debes reunir siete cristales para reconstruir el ‘Time Orb’ y vencer al dragón Draak. Ofrece exploración, mazmorras generadas, sistema de clases, multijugador cooperativo (hasta 4 jugadores), y versión para PS en 2001 con contenidos añadidos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
@@ -3676,41 +3711,6 @@
       "0078829003991, 5030930010829"
     ],
     "descripcion": "Shooter isométrico lanzado en agosto de 1995 (PC) donde encarnas a un Silencer que se rebela contra el opresivo World Economic Consortium. Destaca por gráficos SVGA 640×480, niveles destructibles, FMV, gran arsenal (bombas de proximidad, pistolas, lanzallamas), y puertos en consola en 1997.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Darkstone: Evil Reigns",
-    "url": "juegos/darkstone-evil-reigns-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Rol"
-    ],
-    "desarrollador": [
-      "Delphine Software International"
-    ],
-    "distribuidor": [
-      "Electronic Arts (EU), Gathering of Developers (NA, PC), Take‑Two Interactive (NA, PS)"
-    ],
-    "ean": [
-      "5030931025532, 5030930025533, 5030947025533, 5030934025539"
-    ],
-    "descripcion": "ARPG clásico de 1999 ambientado en el mundo de Uma: debes reunir siete cristales para reconstruir el ‘Time Orb’ y vencer al dragón Draak. Ofrece exploración, mazmorras generadas, sistema de clases, multijugador cooperativo (hasta 4 jugadores), y versión para PS en 2001 con contenidos añadidos.",
     "incluye": [],
     "serie": [
       "Todos",
