@@ -1336,6 +1336,41 @@
     ]
   },
   {
+    "num": "000039",
+    "ig": "https://www.instagram.com/p/DXJyMGvCCdY",
+    "titulo": "Silver",
+    "url": "juegos/silver-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Rol",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Spiral House"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "Action-RPG lanzado el 31 de agosto de 1999. El jugador controla a David, un joven guerrero que busca rescatar a su esposa Jennifer tras ser secuestrada por el malvado hechicero Silver. Recorre distintas regiones del mundo de Jarrah recogiendo ocho orbes mágicos (Fuego, Hielo, Tierra, Veneno, Luz, Tiempo…) para derrotar a Silver y detener un pacto apocalíptico. Combina personajes en 3D sobre fondos prerenderizados, combate en tiempo real con gestos del ratón y múltiples acompañantes reclutables.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
@@ -6407,41 +6442,6 @@
     ],
     "ean": [],
     "descripcion": "Juego de estrategia por turnos con batallas tácticas en tiempo real ambientado en el Japón del periodo Sengoku. Lanzado el 12 de junio de 2000 en Norteamérica y el 16 de junio de 2000 en Europa. Incluye campaña estratégica, combates en 3D, diplomacia, espionaje y economía. Su éxito dio inicio a la saga Total War.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Silver",
-    "url": "juegos/silver-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Rol",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Spiral House"
-    ],
-    "distribuidor": [
-      "Infogrames"
-    ],
-    "ean": [],
-    "descripcion": "Action-RPG lanzado el 31 de agosto de 1999. El jugador controla a David, un joven guerrero que busca rescatar a su esposa Jennifer tras ser secuestrada por el malvado hechicero Silver. Recorre distintas regiones del mundo de Jarrah recogiendo ocho orbes mágicos (Fuego, Hielo, Tierra, Veneno, Luz, Tiempo…) para derrotar a Silver y detener un pacto apocalíptico. Combina personajes en 3D sobre fondos prerenderizados, combate en tiempo real con gestos del ratón y múltiples acompañantes reclutables.",
     "incluye": [],
     "serie": [
       "Todos",
