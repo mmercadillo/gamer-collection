@@ -1371,6 +1371,38 @@
     ]
   },
   {
+    "num": "000040",
+    "ig": "https://www.instagram.com/p/DXMI16DCDYC",
+    "titulo": "Lands of Lore II: Guardians of Destiny",
+    "url": "juegos/lands-of-lore-ii-guardians-of-destiny-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Aventura",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Secuela de Lands of Lore: The Throne of Chaos, lanzada en septiembre de 1997. Mezcla acción RPG en tiempo real, aventura y resolución de puzles en primera persona. Sigues a Luther, un héroe maldito capaz de transformarse en humano, lagarto o bestia para superar obstáculos y enemigos. Ofrece varios finales según tus decisiones, escenas FMV, y un mundo de fantasía con exploración libre.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
@@ -4950,38 +4982,6 @@
     ],
     "ean": [],
     "descripcion": "Aventura gráfica basada en la película de DreamWorks de 2000. Controlas a Tulio y Miguel en su búsqueda de la ciudad dorada tras la estela de la cinta. Presenta gráficos tridimensionales tipo point & click, con personajes poligonales sobre fondos prerenderizados, puzzles fáciles y una historia ligera, ideal para público infantil. Desarrollado por Revolution Software y publicado en Europa el 30 de noviembre de 2000 (EE. UU.: 28 de diciembre) para Windows  .",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Lands of Lore II: Guardians of Destiny",
-    "url": "juegos/lands-of-lore-ii-guardians-of-destiny-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Aventura",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Westwood Studios"
-    ],
-    "distribuidor": [
-      "Virgin Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Secuela de Lands of Lore: The Throne of Chaos, lanzada en septiembre de 1997. Mezcla acción RPG en tiempo real, aventura y resolución de puzles en primera persona. Sigues a Luther, un héroe maldito capaz de transformarse en humano, lagarto o bestia para superar obstáculos y enemigos. Ofrece varios finales según tus decisiones, escenas FMV, y un mundo de fantasía con exploración libre.",
     "incluye": [],
     "serie": [
       "Todos",
