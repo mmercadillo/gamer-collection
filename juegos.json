@@ -1538,6 +1538,242 @@
     ]
   },
   {
+    "num": "000045",
+    "ig": "",
+    "titulo": "Broken Sword: La Leyenda de los Templarios",
+    "url": "juegos/broken-sword-la-leyenda-de-los-templarios-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & click"
+    ],
+    "desarrollador": [
+      "Revolution Software"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica en tercera persona (1996) protagonizada por el abogado George Stobbart y la periodista Nico Collard, quienes investigan un complot ligado a los Caballeros Templarios tras una explosión en París. Destaca por narrativa ramificada, fecha múltiples finales, entornos pre‑renderizados y minijuegos como el famoso puzzle de la cabra.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000046",
+    "ig": "",
+    "titulo": "Broken Sword II: Las Fuerzas del Mal",
+    "url": "juegos/broken-sword-ii-las-fuerzas-del-mal-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000",
+      "Win7",
+      "Win10"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & click"
+    ],
+    "desarrollador": [
+      "Revolution Software"
+    ],
+    "distribuidor": [
+      "Virgin Interactive, Revolution Software (Remastered)"
+    ],
+    "ean": [
+      "0650008199048"
+    ],
+    "descripcion": "Segunda entrega de la saga Broken Sword (1997), controlas a George Stobbart y en partes a Nico Collard en una aventura global que mezcla misterio, humor y mitología Maya. La versión Remastered (2010‑11) añade gráficos mejorados, sistema de pistas, diario interactivo, cómic de Dave Gibbons y audio regrabado.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000047",
+    "ig": "",
+    "titulo": "Druuna: Morbus Gravis",
+    "url": "juegos/druuna-morbus-gravis-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura",
+      "Survival Horror"
+    ],
+    "desarrollador": [
+      "Artematica"
+    ],
+    "distribuidor": [
+      "Microids (MC2‑Microïds)"
+    ],
+    "ean": [
+      "3342184386653"
+    ],
+    "descripcion": "Aventura gráfica en tercera persona y survival horror lanzada el 27 de septiembre de 2001. Basada en el cómic 'Morbus Gravis' de Paolo Eleuteri Serpieri, ambientada en una ciudad distópica plagada de monstruos. Sigues a Druuna en estado de coma, explorando sus recuerdos mediante entornos prerenderizados y cinemáticas FMV (60 min), resolviendo puzles y evitando trampas mortales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000048",
+    "ig": "",
+    "titulo": "Black Crown",
+    "url": "juegos/black-crown-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía oscura",
+      "Política"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Topo Soft"
+    ],
+    "ean": [],
+    "descripcion": "Black Crown es una aventura gráfica point and click desarrollada por Cryo Interactive y distribuida en España por Topo Soft. Lanzada en 1994, se ambienta en un mundo de fantasía oscura donde el jugador adopta el papel de un misterioso consejero capaz de influir en el destino de un reino mediante decisiones políticas y sociales. A diferencia de las aventuras gráficas tradicionales, el juego pone el énfasis en la manipulación de facciones y personajes clave más que en la resolución clásica de puzles. Destaca por su tono adulto, su enfoque alegórico y su original propuesta jugable. Esta edición requiere disco duro y se presentó en formato Big Box.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box",
+      "Edición Española"
+    ]
+  },
+  {
+    "num": "000049",
+    "ig": "",
+    "titulo": "Empire Earth",
+    "url": "juegos/empire-earth-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Stainless Steel Studios"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Juego de estrategia en tiempo real que abarca más de 500.000 años de historia, desde la Prehistoria hasta un futuro cercano. El jugador dirige una civilización a lo largo de 14 épocas diferentes, gestionando recursos, tecnología, diplomacia y unidades militares. Incluye campañas históricas, un potente editor de escenarios y modo multijugador. Considerado por muchos como el sucesor espiritual de Age of Empires.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000050",
+    "ig": "",
+    "titulo": "Gunman Chronicles",
+    "url": "juegos/gunman-chronicles-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Rewolf Software"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "FPS de ciencia ficción basado en el motor GoldSrc de *Half-Life*. Sigues a un escuadrón militar, los Gunmen, en su lucha contra criaturas alienígenas y una amenaza biotecnológica en planetas remotos. El juego destaca por su ambientación pulp futurista, armas altamente configurables y una campaña con variedad de escenarios y enemigos. Originalmente comenzó como un mod, pero fue profesionalizado por Sierra y lanzado como título independiente.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Precintado"
+    ]
+  },
+  {
+    "num": "000051",
+    "ig": "",
+    "titulo": "Lost Eden",
+    "url": "juegos/lost-eden-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Estrategia"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Virgin Interactive Entertainment, Interplay Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Lost Eden es una aventura gráfica con elementos estratégicos ambientada en un mundo prehistórico donde humanos y dinosaurios conviven. Lanzado inicialmente para MsDos en 1995, contó con una versión compatible para Windows que permite ejecutarlo vía DOSBox bajo Win95, Win98 o posteriores. El jugador encarna al príncipe Adam de Mô y debe restaurar antiguas ciudades con la ayuda de dinosaurios inteligentes, explorando entornos prerenderizados, resolviendo puzles y dialogando con criaturas parlantes. Destaca por su estética detallada, banda sonora de Stéphane Picq y narrativa épica.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
@@ -3352,77 +3588,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Broken Sword II: Las Fuerzas del Mal",
-    "url": "juegos/broken-sword-ii-las-fuerzas-del-mal-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000",
-      "Win7",
-      "Win10"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point & click"
-    ],
-    "desarrollador": [
-      "Revolution Software"
-    ],
-    "distribuidor": [
-      "Virgin Interactive, Revolution Software (Remastered)"
-    ],
-    "ean": [
-      "0650008199048"
-    ],
-    "descripcion": "Segunda entrega de la saga Broken Sword (1997), controlas a George Stobbart y en partes a Nico Collard en una aventura global que mezcla misterio, humor y mitología Maya. La versión Remastered (2010‑11) añade gráficos mejorados, sistema de pistas, diario interactivo, cómic de Dave Gibbons y audio regrabado.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Broken Sword: La Leyenda de los Templarios",
-    "url": "juegos/broken-sword-la-leyenda-de-los-templarios-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point & click"
-    ],
-    "desarrollador": [
-      "Revolution Software"
-    ],
-    "distribuidor": [
-      "Virgin Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica en tercera persona (1996) protagonizada por el abogado George Stobbart y la periodista Nico Collard, quienes investigan un complot ligado a los Caballeros Templarios tras una explosión en París. Destaca por narrativa ramificada, fecha múltiples finales, entornos pre‑renderizados y minijuegos como el famoso puzzle de la cabra.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Caesar",
     "url": "juegos/caesar-bigbox/",
     "plataforma": [
@@ -4118,41 +4283,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Druuna: Morbus Gravis",
-    "url": "juegos/druuna-morbus-gravis-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura",
-      "Survival Horror"
-    ],
-    "desarrollador": [
-      "Artematica"
-    ],
-    "distribuidor": [
-      "Microids (MC2‑Microïds)"
-    ],
-    "ean": [
-      "3342184386653"
-    ],
-    "descripcion": "Aventura gráfica en tercera persona y survival horror lanzada el 27 de septiembre de 2001. Basada en el cómic 'Morbus Gravis' de Paolo Eleuteri Serpieri, ambientada en una ciudad distópica plagada de monstruos. Sigues a Druuna en estado de coma, explorando sus recuerdos mediante entornos prerenderizados y cinemáticas FMV (60 min), resolviendo puzles y evitando trampas mortales.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Duelo de Hechiceros",
     "url": "juegos/duelo-de-hechiceros-bigbox/",
     "plataforma": [
@@ -4336,38 +4466,6 @@
     ],
     "ean": [],
     "descripcion": "Versión ampliada del clásico 'Empire', este juego de estrategia por turnos permite a los jugadores conquistar territorios mediante unidades terrestres, navales y aéreas. Incluye tres versiones jugables: Standard, Deluxe y Enhanced, cada una con diferentes reglas y gráficos. Es considerado uno de los pioneros del género 4X, con un enfoque en la exploración, expansión y enfrentamiento estratégico.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Empire Earth",
-    "url": "juegos/empire-earth-bigbox/",
-    "plataforma": [
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Stainless Steel Studios"
-    ],
-    "distribuidor": [
-      "Sierra Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Juego de estrategia en tiempo real que abarca más de 500.000 años de historia, desde la Prehistoria hasta un futuro cercano. El jugador dirige una civilización a lo largo de 14 épocas diferentes, gestionando recursos, tecnología, diplomacia y unidades militares. Incluye campañas históricas, un potente editor de escenarios y modo multijugador. Considerado por muchos como el sucesor espiritual de Age of Empires.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -4696,40 +4794,6 @@
     ],
     "ean": [],
     "descripcion": "Simulador de Fórmula 1 desarrollado por Geoff Crammond, centrado en la temporada de 1998. Ofrece un realismo excepcional en física, comportamiento de los coches y condiciones meteorológicas. Incluye todos los circuitos, equipos y pilotos (aunque sin algunas licencias oficiales), así como opciones avanzadas de telemetría, entrenamiento, clasificación y carrera completa. Requiere habilidad y precisión, siendo uno de los títulos más respetados por los aficionados al simracing.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Gunman Chronicles",
-    "url": "juegos/gunman-chronicles-bigbox/",
-    "plataforma": [
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Shooter",
-      "Ciencia ficción",
-      "Acción"
-    ],
-    "desarrollador": [
-      "Rewolf Software"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "FPS de ciencia ficción basado en el motor GoldSrc de *Half-Life*. Sigues a un escuadrón militar, los Gunmen, en su lucha contra criaturas alienígenas y una amenaza biotecnológica en planetas remotos. El juego destaca por su ambientación pulp futurista, armas altamente configurables y una campaña con variedad de escenarios y enemigos. Originalmente comenzó como un mod, pero fue profesionalizado por Sierra y lanzado como título independiente.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -5190,37 +5254,6 @@
     "tags": [
       "Precintado",
       "Limited Run"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Lost Eden",
-    "url": "juegos/lost-eden-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Estrategia"
-    ],
-    "desarrollador": [
-      "Cryo Interactive"
-    ],
-    "distribuidor": [
-      "Virgin Interactive Entertainment, Interplay Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Lost Eden es una aventura gráfica con elementos estratégicos ambientada en un mundo prehistórico donde humanos y dinosaurios conviven. Lanzado inicialmente para MsDos en 1995, contó con una versión compatible para Windows que permite ejecutarlo vía DOSBox bajo Win95, Win98 o posteriores. El jugador encarna al príncipe Adam de Mô y debe restaurar antiguas ciudades con la ayuda de dinosaurios inteligentes, explorando entornos prerenderizados, resolviendo puzles y dialogando con criaturas parlantes. Destaca por su estética detallada, banda sonora de Stéphane Picq y narrativa épica.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
     ]
   },
   {
@@ -37561,39 +37594,6 @@
       "Big Box"
     ],
     "tags": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Black Crown",
-    "url": "juegos/black-crown-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Fantasía oscura",
-      "Política"
-    ],
-    "desarrollador": [
-      "Cryo Interactive"
-    ],
-    "distribuidor": [
-      "Topo Soft"
-    ],
-    "ean": [],
-    "descripcion": "Black Crown es una aventura gráfica point and click desarrollada por Cryo Interactive y distribuida en España por Topo Soft. Lanzada en 1994, se ambienta en un mundo de fantasía oscura donde el jugador adopta el papel de un misterioso consejero capaz de influir en el destino de un reino mediante decisiones políticas y sociales. A diferencia de las aventuras gráficas tradicionales, el juego pone el énfasis en la manipulación de facciones y personajes clave más que en la resolución clásica de puzles. Destaca por su tono adulto, su enfoque alegórico y su original propuesta jugable. Esta edición requiere disco duro y se presentó en formato Big Box.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Edición Española"
-    ]
   },
   {
     "num": "000000",
