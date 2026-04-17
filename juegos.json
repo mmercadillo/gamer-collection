@@ -1403,6 +1403,141 @@
     ]
   },
   {
+    "num": "000041",
+    "ig": "",
+    "titulo": "StarCraft",
+    "url": "juegos/starcraft-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Revolucionario juego de estrategia en tiempo real lanzado el 31 de marzo de 1998. Ambientado en el sector Koprulu, enfrenta tres facciones únicas -Terran, Zerg, Protoss- con campañas separadas en una narrativa épica. Introdujo equilibrio de razas, multijugador online (Battle.net), editor de mapas y cinemáticas integradas.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000042",
+    "ig": "",
+    "titulo": "StarCraft: Brood War - Expansion Set",
+    "url": "juegos/starcraft-brood-war-expansion-set-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment, Saffire Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Expansion oficial lanzada el 18 de diciembre de 1998 para Windows (también MacOs en junio de 1999). Continúa la historia tras los eventos de StarCraft, añadiendo tres campañas (Protoss, Terran, Zerg), siete nuevas unidades (como Medics, Valkyrie, Dark Templar, Dark Archon, Lurker…), nuevas mejoras (Charon Boosters…) y nuevos tilesets (crepúsculo, hielo, desierto), con inteligencia artificial afinada y edición de mapas mejorada.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box",
+      "Expansión"
+    ]
+  },
+  {
+    "num": "000043",
+    "ig": "",
+    "titulo": "Pool of Radiance",
+    "url": "juegos/pool-of-radiance-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Rol",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc."
+    ],
+    "ean": [],
+    "descripcion": "Lanzado en junio de 1988, fue el primer videojuego oficial basado en el sistema AD&D y marcó el inicio de la serie Gold Box. Ambientado en los Reinos Olvidados, el jugador lidera hasta seis aventureros para limpiar la ciudad de Phlan de criaturas malignas. Combina exploración en vista en primera persona con combates tácticos por turnos en cuadrícula. Permitía exportar personajes a secuelas como *Curse of the Azure Bonds* y *Pools of Darkness*.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
+    "num": "000044",
+    "ig": "",
+    "titulo": "Pool of Radiance: Ruins of Myth Drannor",
+    "url": "juegos/pool-of-radiance-ruins-of-myth-drannor-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Rol",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Stormfront Studios"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [],
+    "descripcion": "Quinta y última entrega de la serie Pool of Radiance, lanzada el 27 de septiembre de 2001 (EE. UU.: 28 sept, Europa: 30 nov). Ambientado en los Reinos Olvidados, ofrece combate por turnos, perspectiva isométrica, personajes en 3D sobre fondos prerenderizados y adaptación de las reglas D&D 3ª edición. Sigue una campaña centrada en detener un Pool of Radiance en las ruinas élficas de Myth Drannor.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Panzer General",
@@ -5892,72 +6027,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Pool of Radiance",
-    "url": "juegos/pool-of-radiance-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Rol",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Strategic Simulations, Inc."
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Lanzado en junio de 1988, fue el primer videojuego oficial basado en el sistema AD&D y marcó el inicio de la serie Gold Box. Ambientado en los Reinos Olvidados, el jugador lidera hasta seis aventureros para limpiar la ciudad de Phlan de criaturas malignas. Combina exploración en vista en primera persona con combates tácticos por turnos en cuadrícula. Permitía exportar personajes a secuelas como *Curse of the Azure Bonds* y *Pools of Darkness*.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Pool of Radiance: Ruins of Myth Drannor",
-    "url": "juegos/pool-of-radiance-ruins-of-myth-drannor-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Rol",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Stormfront Studios"
-    ],
-    "distribuidor": [
-      "Ubisoft"
-    ],
-    "ean": [],
-    "descripcion": "Quinta y última entrega de la serie Pool of Radiance, lanzada el 27 de septiembre de 2001 (EE. UU.: 28 sept, Europa: 30 nov). Ambientado en los Reinos Olvidados, ofrece combate por turnos, perspectiva isométrica, personajes en 3D sobre fondos prerenderizados y adaptación de las reglas D&D 3ª edición. Sigue una campaña centrada en detener un Pool of Radiance en las ruinas élficas de Myth Drannor.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Power F1",
     "url": "juegos/power-f1-bigbox/",
     "plataforma": [
@@ -6580,75 +6649,6 @@
     ],
     "tags": [
       "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "StarCraft",
-    "url": "juegos/starcraft-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Blizzard Entertainment"
-    ],
-    "distribuidor": [
-      "Blizzard Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Revolucionario juego de estrategia en tiempo real lanzado el 31 de marzo de 1998. Ambientado en el sector Koprulu, enfrenta tres facciones únicas -Terran, Zerg, Protoss- con campañas separadas en una narrativa épica. Introdujo equilibrio de razas, multijugador online (Battle.net), editor de mapas y cinemáticas integradas.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "StarCraft: Brood War - Expansion Set",
-    "url": "juegos/starcraft-brood-war-expansion-set-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Blizzard Entertainment, Saffire Entertainment"
-    ],
-    "distribuidor": [
-      "Blizzard Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Expansion oficial lanzada el 18 de diciembre de 1998 para Windows (también MacOs en junio de 1999). Continúa la historia tras los eventos de StarCraft, añadiendo tres campañas (Protoss, Terran, Zerg), siete nuevas unidades (como Medics, Valkyrie, Dark Templar, Dark Archon, Lurker…), nuevas mejoras (Charon Boosters…) y nuevos tilesets (crepúsculo, hielo, desierto), con inteligencia artificial afinada y edición de mapas mejorada.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Expansión"
     ]
   },
   {
