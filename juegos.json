@@ -1804,6 +1804,98 @@
     ]
   },
   {
+    "num": "000053",
+    "ig": "https://www.instagram.com/p/DXteP3XCC24",
+    "titulo": "Commandos: Behind Enemy Lines",
+    "url": "juegos/commandos-behind-enemy-lines-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia",
+      "Táctica en tiempo real",
+      "Bélico"
+    ],
+    "desarrollador": [
+      "Pyro Studios"
+    ],
+    "distribuidor": [
+      "Eidos Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "5032921006366"
+    ],
+    "descripcion": "Commandos: Behind Enemy Lines es uno de los grandes referentes españoles del videojuego para PC de finales de los noventa. Desarrollado por Pyro Studios, propone misiones tácticas en tiempo real ambientadas en la Segunda Guerra Mundial, donde cada miembro del comando posee habilidades específicas y el éxito depende más de la planificación, la observación y la coordinación que de la acción directa. Esta edición Big Box española, distribuida por Proein bajo sello Eidos, representa uno de los lanzamientos más emblemáticos de la estrategia táctica europea y una pieza clave dentro de la historia del videojuego desarrollado en España.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM del juego en caja Jewel Case",
+      "Manual del usuario"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Commandos",
+      "Behind Enemy Lines",
+      "Pyro Studios",
+      "Eidos Interactive",
+      "Proein",
+      "Big Box",
+      "PC CD-ROM",
+      "Estrategia",
+      "Táctica en tiempo real",
+      "Segunda Guerra Mundial",
+      "Videojuego español",
+      "Edición española"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Pendiente de verificación exacta de la protección de esta edición concreta. Como edición retail de PC de finales de los noventa, se recomienda preservación mediante imagen completa del CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000054",
+    "ig": "",
+    "titulo": "Commandos: Más Allá del Deber",
+    "url": "juegos/commandos-mas-alla-del-deber-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Stealth"
+    ],
+    "desarrollador": [
+      "Pyro Studios"
+    ],
+    "distribuidor": [
+      "Eidos Interactive"
+    ],
+    "ean": [
+      "5032921005869, 0788687109611, 5037999003717, 788687109611"
+    ],
+    "descripcion": "Expansión independiente de 'Commandos: Behind Enemy Lines' lanzada en marzo‑abril de 1999. Incluye 8 nuevas misiones ambientadas en Yugoslavia y Grecia, gráficos mejorados, entorno más interactivo y nuevas habilidades (enfurecer enemigos, subirse a vehículos, lanzar piedras/cigarros para despistar). Soporta cooperativo local/LAN.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -3881,41 +3973,6 @@
       "5030935023343"
     ],
     "descripcion": "Secuela lanzada en agosto de 1999 que continúa la saga entre GDI y Nod tras la conquista del Tiberio. Introduce gráficos semi‑3D (terreno variable, voxels, ciclo día/noche), nuevas unidades (levantadoras, túneles), tormentas de iones y actuaciones FMV con James Earl Jones y Michael Biehn. Fue un éxito comercial, vendiendo 1,5 M en un mes y recibiendo premios en Alemania :contentReference[oaicite:2]{index=2}.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Commandos: Más Allá del Deber",
-    "url": "juegos/commandos-mas-alla-del-deber-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Stealth"
-    ],
-    "desarrollador": [
-      "Pyro Studios"
-    ],
-    "distribuidor": [
-      "Eidos Interactive"
-    ],
-    "ean": [
-      "5032921005869, 0788687109611, 5037999003717, 788687109611"
-    ],
-    "descripcion": "Expansión independiente de 'Commandos: Behind Enemy Lines' lanzada en marzo‑abril de 1999. Incluye 8 nuevas misiones ambientadas en Yugoslavia y Grecia, gráficos mejorados, entorno más interactivo y nuevas habilidades (enfurecer enemigos, subirse a vehículos, lanzar piedras/cigarros para despistar). Soporta cooperativo local/LAN.",
     "incluye": [],
     "serie": [
       "Todos",
