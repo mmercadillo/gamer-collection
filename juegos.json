@@ -1862,7 +1862,7 @@
   },
   {
     "num": "000054",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DXv8wktiL2G",
     "titulo": "Commandos: Más Allá del Deber",
     "url": "juegos/commandos-mas-alla-del-deber-bigbox/",
     "plataforma": [
@@ -1894,6 +1894,59 @@
     "tags": [
       "Big Box"
     ]
+  },
+  {
+    "num": "000055",
+    "ig": "",
+    "titulo": "Theme Park World",
+    "url": "juegos/theme-park-world-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación",
+      "Gestión",
+      "Construcción"
+    ],
+    "desarrollador": [
+      "Bullfrog Productions"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Theme Park World es la continuación espiritual de Theme Park, desarrollada por Bullfrog Productions y publicada por Electronic Arts. El juego traslada la gestión de parques de atracciones a un entorno tridimensional más vistoso, permitiendo construir zonas temáticas, diseñar montañas rusas, contratar personal, gestionar tiendas y atracciones, e incluso recorrer el parque en primera persona para experimentar las instalaciones creadas por el jugador. Esta edición española en formato Big Box destaca por su localización al castellano y por conservar el material físico propio de las ediciones de PC de finales de los noventa, en una etapa en la que Bullfrog seguía asociada a simuladores de gestión con personalidad propia, humor visual y una fuerte identidad de estudio.",
+    "incluye": [
+      "Caja exterior de cartón",
+      "Caja jewel case con CD-ROM",
+      "Manual",
+      "Documentación impresa",
+      "Tarjeta postal promocional",
+      "Tarjeta de registro o servicio de atención al usuario"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "theme-park-world",
+      "bullfrog",
+      "electronic-arts",
+      "simulacion",
+      "gestion",
+      "parque-de-atracciones",
+      "big-box",
+      "pc"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "",
+      "preservacion": "Recomendable preservar el CD-ROM como imagen de disco completa. La ejecución en sistemas modernos puede requerir entorno Windows 95/98 virtualizado o parches de compatibilidad debido a la protección SafeDisc y a dependencias propias de la época.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
   },
   {
     "num": "000000",
