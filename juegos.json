@@ -1949,6 +1949,39 @@
     }
   },
   {
+    "num": "000056",
+    "ig": "https://www.instagram.com/p/DX6SeMbCNOu",
+    "titulo": "Duelo de Hechiceros",
+    "url": "juegos/duelo-de-hechiceros-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Rol"
+    ],
+    "desarrollador": [
+      "Mythos Games (Julian Gollop)"
+    ],
+    "distribuidor": [
+      "Virgin Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Juego de estrategia fantástica en tiempo real con elementos RPG, lanzado en 1998 (Europa en español). Asumes el papel de un joven mago que invoca criaturas y lanza hechizos mediante ingredientes y talismanes en combates sobre mapas de tres reinos (Albion, Grecia, Avalon). Incluye campaña individual y multijugador vía IPX o LAN.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Precintado"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -4420,39 +4453,6 @@
     ],
     "tags": [
       "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Duelo de Hechiceros",
-    "url": "juegos/duelo-de-hechiceros-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Rol"
-    ],
-    "desarrollador": [
-      "Mythos Games (Julian Gollop)"
-    ],
-    "distribuidor": [
-      "Virgin Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Juego de estrategia fantástica en tiempo real con elementos RPG, lanzado en 1998 (Europa en español). Asumes el papel de un joven mago que invoca criaturas y lanza hechizos mediante ingredientes y talismanes en combates sobre mapas de tres reinos (Albion, Grecia, Avalon). Incluye campaña individual y multijugador vía IPX o LAN.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado"
     ]
   },
   {
