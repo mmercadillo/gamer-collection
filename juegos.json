@@ -46817,5 +46817,123 @@
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Guild Wars",
+    "url": "juegos/guild-wars-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "RPG online",
+      "Acción RPG",
+      "MMORPG"
+    ],
+    "desarrollador": [
+      "ArenaNet"
+    ],
+    "distribuidor": [
+      "NCsoft"
+    ],
+    "ean": [],
+    "descripcion": "Guild Wars es un RPG online desarrollado por ArenaNet y publicado por NCsoft en 2005. A medio camino entre el juego de rol multijugador masivo y la aventura cooperativa instanciada, propuso una fórmula muy particular: sin cuotas mensuales, con campañas independientes, fuerte componente narrativo y un sistema de habilidades limitado en combate que obligaba a construir cuidadosamente cada personaje. Su primera campaña, posteriormente conocida como Prophecies, situaba al jugador en Tyria y combinaba exploración, misiones cooperativas, PvP competitivo y una estructura muy diferente a la de otros juegos online de la época. Esta edición física en formato Big Box conserva especialmente bien el carácter de lanzamiento inicial del juego, cuando el acceso al mundo persistente todavía se asociaba a manuales extensos, discos de instalación y clave de cuenta.",
+    "incluye": [
+      "Caja Big Box",
+      "Disco Installer Disc 1",
+      "Disco Installer Disc 2",
+      "Los manuscritos de Guild Wars - Libro I: La leyenda de Guild Wars",
+      "Los manuscritos de Guild Wars - Libro II: El desafío",
+      "Guía rápida"
+    ],
+    "serie": [
+      "Big Box"
+    ],
+    "tags": [
+      "Guild Wars",
+      "ArenaNet",
+      "NCsoft",
+      "RPG online",
+      "MMORPG",
+      "Acción RPG",
+      "Tyria",
+      "Prophecies",
+      "Big Box",
+      "PC CD-ROM",
+      "2005"
+    ],
+    "proteccion": {
+      "tipo": "Código o clave",
+      "version": "",
+      "preservacion": "El juego requiere clave de acceso asociada a una cuenta online y conexión a los servidores del servicio. La preservación física puede realizarse mediante imagen de los discos, pero la jugabilidad depende de la disponibilidad del servicio y de una cuenta válida.",
+      "formato": "ISO",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Guild Wars Factions",
+    "url": "juegos/guild-wars-factions-cddvd/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "RPG online",
+      "Acción RPG",
+      "MMORPG"
+    ],
+    "desarrollador": [
+      "ArenaNet"
+    ],
+    "distribuidor": [
+      "NCsoft"
+    ],
+    "ean": [],
+    "descripcion": "Guild Wars Factions es la segunda campaña independiente de Guild Wars, desarrollada por ArenaNet y publicada por NCsoft en 2006. Ambientada en el continente de Cantha, amplía la fórmula del juego original con nuevas profesiones, una estructura de progresión más directa y un fuerte peso del conflicto entre facciones, con Kurzick y Luxon como grandes potencias enfrentadas. Mantiene una de las señas de identidad más relevantes de Guild Wars: juego online sin cuotas mensuales, instancias cooperativas, PvP competitivo y construcción estratégica de habilidades. Esta edición española en formato DVD Case representa una etapa muy concreta del PC físico de mediados de los 2000, cuando los juegos online todavía llegaban acompañados de manual, discos, clave de activación y material promocional.",
+    "incluye": [
+      "Caja DVD Case",
+      "Funda exterior de cartón",
+      "Disco 1",
+      "Disco 2",
+      "Manual Los manuscritos de Guild Wars Factions",
+      "Tarjeta de activación de cuenta",
+      "Guía de habilidades y atributos",
+      "Folleto promocional Play and See"
+    ],
+    "serie": [
+      "DVD Case"
+    ],
+    "tags": [
+      "Guild Wars",
+      "Guild Wars Factions",
+      "ArenaNet",
+      "NCsoft",
+      "Cantha",
+      "Kurzick",
+      "Luxon",
+      "RPG online",
+      "MMORPG",
+      "Acción RPG",
+      "DVD Case",
+      "PC CD-ROM",
+      "2006"
+    ],
+    "proteccion": {
+      "tipo": "Código o clave",
+      "version": "",
+      "preservacion": "El juego requiere clave de acceso asociada a una cuenta online y conexión a los servidores del servicio. La preservación física puede realizarse mediante imagen de los discos, pero la jugabilidad depende de una cuenta válida y de la disponibilidad del servicio online.",
+      "formato": "ISO",
+      "jugable_virtual": false
+    }
   }
 ]
