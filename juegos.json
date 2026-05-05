@@ -1982,6 +1982,38 @@
     ]
   },
   {
+    "num": "000057",
+    "ig": "https://www.instagram.com/p/DX81VyxiJ5x",
+    "titulo": "Patriot",
+    "url": "juegos/patriot-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia",
+      "Simulación",
+      "Política"
+    ],
+    "desarrollador": [
+      "PsychoLogical Software"
+    ],
+    "distribuidor": [
+      "MicroProse"
+    ],
+    "ean": [],
+    "descripcion": "Patriot es un juego de estrategia y simulación política en el que el jugador lidera un movimiento revolucionario con el objetivo de derrocar a un régimen autoritario. A través de la gestión de recursos, propaganda, apoyo popular y acciones encubiertas, el juego ofrece múltiples enfoques para alcanzar el poder, combinando planificación estratégica con toma de decisiones políticas y morales.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -37607,38 +37639,6 @@
     ],
     "ean": [],
     "descripcion": "Theocracy es un juego de estrategia y simulación en tiempo real en el que el jugador asume el papel de una deidad que debe guiar a su civilización mediante la fe, los milagros y la influencia religiosa. El objetivo es expandir el culto, mantener el equilibrio social y competir contra otras divinidades, gestionando recursos, seguidores y eventos divinos en un mundo dinámico.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Patriot",
-    "url": "juegos/patriot-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Simulación",
-      "Política"
-    ],
-    "desarrollador": [
-      "PsychoLogical Software"
-    ],
-    "distribuidor": [
-      "MicroProse"
-    ],
-    "ean": [],
-    "descripcion": "Patriot es un juego de estrategia y simulación política en el que el jugador lidera un movimiento revolucionario con el objetivo de derrocar a un régimen autoritario. A través de la gestión de recursos, propaganda, apoyo popular y acciones encubiertas, el juego ofrece múltiples enfoques para alcanzar el poder, combinando planificación estratégica con toma de decisiones políticas y morales.",
     "incluye": [],
     "serie": [
       "Todos",
