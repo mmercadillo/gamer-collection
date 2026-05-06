@@ -2014,6 +2014,37 @@
     ]
   },
   {
+    "num": "000058",
+    "ig": "https://www.instagram.com/p/DX_irODiKIq",
+    "titulo": "Death Rally",
+    "url": "juegos/death-rally-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Carreras"
+    ],
+    "desarrollador": [
+      "Remedy Entertainment"
+    ],
+    "distribuidor": [
+      "Apogee Software (GT Interactive)"
+    ],
+    "ean": [],
+    "descripcion": "Vehicular combat top‑down lanzado el 7 de septiembre de 1996. Pilotas coches armados en carreras donde puedes usar minas, cohetes, pagar sobornos y enfrentarte al ‘Adversary’. Comienzas con un Vagabond y mejoras motor, tracción y armadura para llegar al campeón. En 2009 fue relanzado gratis para Windows, y recibió un remake móvil/PC en 2012.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -4285,37 +4316,6 @@
       "0078829003991, 5030930010829"
     ],
     "descripcion": "Shooter isométrico lanzado en agosto de 1995 (PC) donde encarnas a un Silencer que se rebela contra el opresivo World Economic Consortium. Destaca por gráficos SVGA 640×480, niveles destructibles, FMV, gran arsenal (bombas de proximidad, pistolas, lanzallamas), y puertos en consola en 1997.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Death Rally",
-    "url": "juegos/death-rally-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Carreras"
-    ],
-    "desarrollador": [
-      "Remedy Entertainment"
-    ],
-    "distribuidor": [
-      "Apogee Software (GT Interactive)"
-    ],
-    "ean": [],
-    "descripcion": "Vehicular combat top‑down lanzado el 7 de septiembre de 1996. Pilotas coches armados en carreras donde puedes usar minas, cohetes, pagar sobornos y enfrentarte al ‘Adversary’. Comienzas con un Vagabond y mejoras motor, tracción y armadura para llegar al campeón. En 2009 fue relanzado gratis para Windows, y recibió un remake móvil/PC en 2012.",
     "incluye": [],
     "serie": [
       "Todos",
