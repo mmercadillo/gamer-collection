@@ -2045,6 +2045,39 @@
     ]
   },
   {
+    "num": "000059",
+    "ig": "https://www.instagram.com/p/DYCIa9yiCUv",
+    "titulo": "RollerCoaster Tycoon",
+    "url": "juegos/rollercoaster-tycoon-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Chris Sawyer"
+    ],
+    "distribuidor": [
+      "Hasbro Interactive",
+      "Infogrames (posteriormente Atari Interactive)"
+    ],
+    "ean": [],
+    "descripcion": "Juego de simulación lanzado el 22 de marzo de 1999. Permite diseñar y gestionar tu propio parque de atracciones, con montañas rusas, tiendas, transporte, personal y finanzas. Incorpora 21 escenarios, construcción de montañas rusas personalizadas, personal autónomo (como mecánicos, vigilantes, limpiadores) y escenarios descargables oficiales como Fort Anachronism y Alton Towers. Su sistema de construcción fue escrito casi enteramente en ensamblador, lo que le otorgó una optimización excepcional.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -7853,39 +7886,6 @@
     ],
     "ean": [],
     "descripcion": "War in the Gulf es un simulador de tanques lanzado en 1993 para MsDos. Tercera entrega de la serie iniciada con Team Yankee, presenta combates en el Golfo Pérsico hipotéticos tras una segunda invasión iraquí a Kuwait. Se controla un pelotón de 16 tanques (divididos en cuatro unidades), manejando movimiento y disparo mediante una pantalla dividida y control exclusivo con ratón. Introduce gestión económica: destruir ciertas estructuras da dinero, mientras que destruir civiles lo resta. Combina vista arcade con modo táctico y mejoras de IA respecto a entregas anteriores :contentReference[oaicite:2]{index=2}.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "RollerCoaster Tycoon",
-    "url": "juegos/rollercoaster-tycoon-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación"
-    ],
-    "desarrollador": [
-      "Chris Sawyer"
-    ],
-    "distribuidor": [
-      "Hasbro Interactive",
-      "Infogrames (posteriormente Atari Interactive)"
-    ],
-    "ean": [],
-    "descripcion": "Juego de simulación lanzado el 22 de marzo de 1999. Permite diseñar y gestionar tu propio parque de atracciones, con montañas rusas, tiendas, transporte, personal y finanzas. Incorpora 21 escenarios, construcción de montañas rusas personalizadas, personal autónomo (como mecánicos, vigilantes, limpiadores) y escenarios descargables oficiales como Fort Anachronism y Alton Towers. Su sistema de construcción fue escrito casi enteramente en ensamblador, lo que le otorgó una optimización excepcional.",
     "incluye": [],
     "serie": [
       "Todos",
