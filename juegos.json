@@ -2078,6 +2078,39 @@
     ]
   },
   {
+    "num": "000060",
+    "ig": "https://www.instagram.com/p/DYEsPfkCMg5",
+    "titulo": "Frankenstein: Through the Eyes of the Monster",
+    "url": "juegos/frankenstein-through-the-eyes-of-the-monster-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point & Click",
+      "Terror",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Amazing Media"
+    ],
+    "distribuidor": [
+      "Interplay Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica en primera persona donde encarnas al monstruo de Frankenstein, reanimado por el Dr. Frankenstein interpretado por Tim Curry. Despiertas en un laboratorio gótico con fragmentos de memoria y deberás explorar, resolver puzles y desvelar los experimentos del doctor. El juego combina FMV (Full Motion Video), entornos renderizados y narrativa oscura, ofreciendo una visión única del mito clásico.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -4865,39 +4898,6 @@
     ],
     "ean": [],
     "descripcion": "Juego oficial de la temporada 1999 de Fórmula 1 con todos los equipos, pilotos y circuitos licenciados. Ofrece una mezcla entre simulación y estilo arcade, con modos de carrera rápida, gran premio, campeonato y multijugador. Mejora aspectos técnicos y jugables respecto a entregas anteriores, con un control más pulido, efectos climáticos y comentarios dinámicos durante las carreras.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Frankenstein: Through the Eyes of the Monster",
-    "url": "juegos/frankenstein-through-the-eyes-of-the-monster-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point & Click",
-      "Terror",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Amazing Media"
-    ],
-    "distribuidor": [
-      "Interplay Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica en primera persona donde encarnas al monstruo de Frankenstein, reanimado por el Dr. Frankenstein interpretado por Tim Curry. Despiertas en un laboratorio gótico con fragmentos de memoria y deberás explorar, resolver puzles y desvelar los experimentos del doctor. El juego combina FMV (Full Motion Video), entornos renderizados y narrativa oscura, ofreciendo una visión única del mito clásico.",
     "incluye": [],
     "serie": [
       "Todos",
