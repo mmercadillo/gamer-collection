@@ -2111,6 +2111,41 @@
     ]
   },
   {
+    "num": "000061",
+    "ig": "https://www.instagram.com/p/DYG_7U4CJ2s",
+    "titulo": "Command & Conquer",
+    "url": "juegos/command-and-conquer-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive, Electronic Arts"
+    ],
+    "ean": [
+      "0052145830455"
+    ],
+    "descripcion": "RTS clásico de 1995 que definió el género. Enfrenta a la Global Defense Initiative (GDI) contra la Brotherhood of Nod en una guerra por el control del Tiberio. Incluye campañas para un jugador, multijugador, vídeos FMV protagonizados por Joseph D. Kucan (como Kane), y un mapa estratégico global. Vendió más de 3 millones de copias y su código fue abierto en febrero de 2025.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -4025,41 +4060,6 @@
     ],
     "tags": [
       "Precintado"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Command & Conquer",
-    "url": "juegos/command-and-conquer-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Westwood Studios"
-    ],
-    "distribuidor": [
-      "Virgin Interactive, Electronic Arts"
-    ],
-    "ean": [
-      "0052145830455"
-    ],
-    "descripcion": "RTS clásico de 1995 que definió el género. Enfrenta a la Global Defense Initiative (GDI) contra la Brotherhood of Nod en una guerra por el control del Tiberio. Incluye campañas para un jugador, multijugador, vídeos FMV protagonizados por Joseph D. Kucan (como Kane), y un mapa estratégico global. Vendió más de 3 millones de copias y su código fue abierto en febrero de 2025.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
     ]
   },
   {
