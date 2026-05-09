@@ -212,6 +212,42 @@ def build_report(
 
     report_path.write_text("\n".join(lines), encoding="utf-8")
 
+def ensure_proteccion(juego):
+    changed = False
+
+    proteccion = juego.get("proteccion")
+
+    if not isinstance(proteccion, dict):
+        juego["proteccion"] = {
+            "tipo": "No determinado",
+            "version": "",
+            "preservacion": "Pendiente de documentación",
+            "formato": "No aplica",
+            "jugable_virtual": False
+        }
+        return True
+
+    if not proteccion.get("tipo"):
+        proteccion["tipo"] = "No determinado"
+        changed = True
+
+    if "version" not in proteccion:
+        proteccion["version"] = ""
+        changed = True
+
+    if not proteccion.get("preservacion"):
+        proteccion["preservacion"] = "Pendiente de documentación"
+        changed = True
+
+    if not proteccion.get("formato"):
+        proteccion["formato"] = "No aplica"
+        changed = True
+
+    if "jugable_virtual" not in proteccion or not isinstance(proteccion["jugable_virtual"], bool):
+        proteccion["jugable_virtual"] = False
+        changed = True
+
+    return changed
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -269,6 +305,9 @@ def main() -> int:
 
         if ensure_series(juego, rule["serie"]):
             changes.append(f"{label}: serie actualizada -> {juego.get('serie')}")
+
+        if ensure_proteccion(juego):
+            changes.append(f"[PROTECCION] {label}: completada estructura mínima")
 
         new_url, url_changed, reason = normalize_url_for_format(str(old_url) if old_url is not None else "", formato)
         if url_changed:
