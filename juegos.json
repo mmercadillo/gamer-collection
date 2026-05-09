@@ -332,9 +332,7 @@
     "distribuidor": [
       "Interplay Productions"
     ],
-    "ean": [
-      "0040421366521, 020626715638, 5026102007339"
-    ],
+    "ean": ["0040421366521", "020626715638", "5026102007339"],
     "descripcion": "RPG clásico de 1998 ambientado en los Reinos Olvidados (AD&D), donde creas un héroe y formas un grupo para desentrañar una conspiración que amenaza la Costa de la Espada. Destaca por su narrativa profunda, combate táctico en tiempo real con pausa, amplias misiones secundarias y ricos diálogos.",
     "incluye": [],
     "serie": [
@@ -873,7 +871,7 @@
     "distribuidor": [
       "Sierra"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Action RPG ambientado en el Japón feudal inspirado en la mitología japonesa. El jugador controla a siete samuráis con habilidades diferenciadas, gestionando combate táctico en tiempo real, progresión de personajes y equipamiento en escenarios oscuros y sobrenaturales.",
     "incluye": [],
     "serie": [
@@ -990,9 +988,7 @@
     "distribuidor": [
       "Microsoft"
     ],
-    "ean": [
-      "0659556098605, 5017783556360, 4012160164061"
-    ],
+    "ean": ["0659556098605", "5017783556360", "4012160164061"],
     "descripcion": "Edición que reúne el juego original 'Age of Empires' y su expansión 'The Rise of Rome' en un solo disco (1999). Gestionas civilizaciones desde la Edad de Piedra hasta Roma en campañas históricas y escenarios, con multijugador, editor de escenarios y motor Genie.",
     "incluye": [],
     "serie": [
@@ -1072,9 +1068,7 @@
     "distribuidor": [
       "Microsoft"
     ],
-    "ean": [
-      "0659556460693, 0805529051034, 805529132061"
-    ],
+    "ean": ["0659556460693", "0805529051034", "805529132061"],
     "descripcion": "Primera expansión (lanzada 24 de agosto de 2000) de Age of Empires II, añade cinco civilizaciones (Aztecas, Españoles, Hunos, Coreanos, Mayas), cuatro nuevas campañas históricas, 11 unidades, 26 tecnologías, modos de juego y mapas. Compatible con el motor Genie y requiere Age of Empires II base para funcionar.",
     "incluye": [],
     "serie": [
@@ -1114,9 +1108,7 @@
     "distribuidor": [
       "Microsoft"
     ],
-    "ean": [
-      "0805529051041, 805529132085, 755142110444"
-    ],
+    "ean": ["0805529051041", "805529132085", "755142110444"],
     "descripcion": "Edición especial lanzada en 2001 que combina 'Age of Empires II: The Age of Kings' y su expansión 'The Conquerors'. Incluye campañas históricas, multijugador, editor de escenarios y el robusto motor Genie.",
     "incluye": [],
     "serie": [
@@ -1322,9 +1314,7 @@
     "distribuidor": [
       "Electronic Arts (EU), Gathering of Developers (NA, PC), Take‑Two Interactive (NA, PS)"
     ],
-    "ean": [
-      "5030931025532, 5030930025533, 5030947025533, 5030934025539"
-    ],
+    "ean": ["5030931025532", "5030930025533", "5030947025533", "5030934025539"],
     "descripcion": "ARPG clásico de 1999 ambientado en el mundo de Uma: debes reunir siete cristales para reconstruir el ‘Time Orb’ y vencer al dragón Draak. Ofrece exploración, mazmorras generadas, sistema de clases, multijugador cooperativo (hasta 4 jugadores), y versión para PS en 2001 con contenidos añadidos.",
     "incluye": [],
     "serie": [
@@ -1484,7 +1474,6 @@
     "formato": "Big Box",
     "genero": [
       "Rol",
-      "Rol",
       "Fantasía"
     ],
     "desarrollador": [
@@ -1516,7 +1505,6 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Rol",
       "Rol",
       "Fantasía"
     ],
@@ -1882,9 +1870,7 @@
     "distribuidor": [
       "Eidos Interactive"
     ],
-    "ean": [
-      "5032921005869, 0788687109611, 5037999003717, 788687109611"
-    ],
+    "ean": ["5032921005869", "0788687109611", "5037999003717", "788687109611"],
     "descripcion": "Expansión independiente de 'Commandos: Behind Enemy Lines' lanzada en marzo‑abril de 1999. Incluye 8 nuevas misiones ambientadas en Yugoslavia y Grecia, gráficos mejorados, entorno más interactivo y nuevas habilidades (enfurecer enemigos, subirse a vehículos, lanzar piedras/cigarros para despistar). Soporta cooperativo local/LAN.",
     "incluye": [],
     "serie": [
@@ -3564,9 +3550,7 @@
       "Strategic Simulations Inc.",
       "Mindscape"
     ],
-    "ean": [
-      "5000000064915, 0628553012099"
-    ],
+    "ean": ["5000000064915", "0628553012099"],
     "descripcion": "Edición 'Gold Reserve' (Big Box) de Allied General (1995). Secuela de Panzer General ambientada en la II Guerra Mundial, centrada en campañas aliadas (soviética, británica, americana). Incluye manual, hojas de referencia, CD de instalación y escenario adicionales, manteniendo el clásico combate táctico por turnos con soporte por e‑mail.",
     "incluye": [],
     "serie": [
@@ -3713,9 +3697,7 @@
     "distribuidor": [
       "Psygnosis"
     ],
-    "ean": [
-      "0053203019188, 711719615620, 711719440529"
-    ],
+    "ean": ["0053203019188", "711719615620", "711719440529"],
     "descripcion": "Juego de combate vehicular en túneles virtuales en 3D lanzado en 1996. Controlas una plataforma‑tanque llamada 'Rig', recoges gemas, destruyes armas y enemigos, y resuelves puzzles con elevadores y bloques móviles en más de 40 niveles. Incluye modo multijugador vía enlace serial/juego en red en PC y cables Link en PlayStation.",
     "incluye": [],
     "serie": [
@@ -3732,39 +3714,6 @@
       "formato": "MDS/MDF",
       "jugable_virtual": true
     }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "ATAC: La Guerra Secreta Contra las Drogas",
-    "url": "juegos/atac-la-guerra-secreta-contra-las-drogas-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Estrategia",
-      "Vuelo"
-    ],
-    "desarrollador": [
-      "Argonaut Software"
-    ],
-    "distribuidor": [
-      "MicroProse (desarrollo), ERBE (España)"
-    ],
-    "ean": [
-      "8420224013358, 5015352590180"
-    ],
-    "descripcion": "Simulador de vuelo táctico de 1992 (PC DOS), donde lideras el Advanced Tactical Air Command contra cárteles de droga en Sudamérica. Combina gestión estratégica de inteligencia, comandos encubiertos y misiones en primera persona al mando de F‑22 y AH‑64. Incluye varios discos 3.5″, manual en español y suplemento técnico.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
   },
   {
     "num": "000000",
@@ -3816,9 +3765,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": [
-      "3307212805490, 790561507420"
-    ],
+    "ean": ["3307212805490", "790561507420"],
     "descripcion": "Juego de gestión deportiva centrado en el FC Barcelona lanzado en 2000. Puedes gestionar fichajes, tácticas, entrenamiento y finanzas del club. Incluye análisis previos y posteriores al partido, estadísticas detalladas y ligas nacionales e internacionales.",
     "incluye": [],
     "serie": [
@@ -4314,9 +4261,7 @@
     "distribuidor": [
       "Virgin Interactive, Data East (Saturn/PS)"
     ],
-    "ean": [
-      "4961082500092, 013252017030"
-    ],
+    "ean": ["4961082500092", "013252017030"],
     "descripcion": "Shooter sci‑fi de 1994 que combina fases en rail‑shooter pre‑renderizadas con exploración en primera persona en un escenario de horror espacial. Sigues al comandante Jason Barr investigando una señal extraña desde una nave alienígena cerca de Saturno, enfrentándote a criaturas letales con puntos débiles específicos y secciones de pilotaje en entorno 3D.",
     "incluye": [],
     "serie": [
@@ -4378,9 +4323,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": [
-      "0078829003991, 5030930010829"
-    ],
+    "ean": ["0078829003991", "5030930010829"],
     "descripcion": "Shooter isométrico lanzado en agosto de 1995 (PC) donde encarnas a un Silencer que se rebela contra el opresivo World Economic Consortium. Destaca por gráficos SVGA 640×480, niveles destructibles, FMV, gran arsenal (bombas de proximidad, pistolas, lanzallamas), y puertos en consola en 1997.",
     "incluye": [],
     "serie": [
@@ -4540,9 +4483,7 @@
     "distribuidor": [
       "Interplay Productions, MacPlay, SoftKey"
     ],
-    "ean": [
-      "040421001491"
-    ],
+    "ean": ["040421001491"],
     "descripcion": "Shooter de 1996 con libertad completa en seis grados de movimiento. Pilotas una nave en minas subterráneas para destruir reactores y rescatar rehenes, con guía automática (‘Guide‑Bot’) y modo multijugador hasta 8 jugadores. La versión PlayStation, llamada Descent Maximum, ofrece niveles exclusivos y modos cooperativo por link‑cable.",
     "incluye": [],
     "serie": [
@@ -5173,12 +5114,12 @@
     "num": "000000",
     "ig": "",
     "titulo": "Heroes of Might and Magic V: Gold Edition",
-    "url": "juegos/heroes-of-might-and-magic-v-gold-edition-bigbox/",
+    "url": "juegos/heroes-of-might-and-magic-v-gold-edition-cddvd/",
     "plataforma": [
       "WinXP",
       "Windows Vista"
     ],
-    "formato": "Big Box",
+    "formato": "DVD Case",
     "genero": [
       "Estrategia por turnos",
       "Fantasía",
@@ -5197,11 +5138,11 @@
     "incluye": [],
     "serie": [
       "Todos",
-      "Big Box",
+      "DVD Case",
       "Heroes of Might and Magic"
     ],
     "tags": [
-      "Big Box"
+      "DVD Case"
     ]
   },
   {
@@ -5989,7 +5930,6 @@
     "formato": "Big Box",
     "genero": [
       "Rol",
-      "Rol",
       "Fantasía"
     ],
     "desarrollador": [
@@ -6304,7 +6244,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Pro Pinball: Fantastic Journey",
-    "url": "juegos/pro-pinball-fantastic-journey-bigbox/",
+    "url": "juegos/pro-pinball-fantastic-journey-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98",
@@ -7281,7 +7221,6 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Shooter",
       "Shooter"
     ],
     "desarrollador": [
@@ -7304,36 +7243,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Tom Clancy's Rainbow Six 3: Raven Shield",
-    "url": "juegos/tom-clancys-rainbow-six-3-raven-shield-bigbox/",
-    "plataforma": [
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Shooter",
-      "Shooter"
-    ],
-    "desarrollador": [
-      "Ubisoft Montréal, Ubisoft Milán, Red Storm Entertainment"
-    ],
-    "distribuidor": [
-      "Ubisoft"
-    ],
-    "ean": [],
-    "descripcion": "Tercer título de la saga Rainbow Six, lanzado el 18 de marzo de 2003 en Windows. Usa Unreal Engine 2 para ofrecer un enfoque más visual y moderno del shooter táctico: incluye visión del arma en primera persona, físicas de ragdoll y mejoras en armas y multijugador :contentReference[oaicite:0]{index=0}. Posteriormente salió una versión para Mac OS X en diciembre de 2003  .",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Tom Clancy's Rainbow Six: Covert Ops Essentials",
     "url": "juegos/tom-clancys-rainbow-six-covert-ops-essentials-bigbox/",
     "plataforma": [
@@ -7343,7 +7252,6 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Shooter",
       "Shooter"
     ],
     "desarrollador": [
@@ -7815,7 +7723,6 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real",
       "Estrategia en tiempo real"
     ],
     "desarrollador": [
@@ -8789,38 +8696,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Heavy Gear",
-    "url": "juegos/heavy-gear-2-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Shooter",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Activision"
-    ],
-    "distribuidor": [
-      "Activision"
-    ],
-    "ean": [],
-    "descripcion": "Simulador de combate con mechas basado en el universo de *Heavy Gear*, un juego de rol y miniaturas. El jugador pilota Gears, robots humanoides de combate, en misiones militares con objetivos variados y personalización avanzada. El motor 3D fue desarrollado por Activision como alternativa a *MechWarrior*, ofreciendo una experiencia más ágil, con énfasis en maniobrabilidad táctica y ambientación futurista.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Flash Point: Korea",
     "url": "juegos/flash-point-korea-bigbox/",
     "plataforma": [
@@ -9000,7 +8875,6 @@
     "formato": "Big Box",
     "genero": [
       "Rol",
-      "Rol",
       "Fantasía"
     ],
     "desarrollador": [
@@ -9032,7 +8906,6 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Rol",
       "Rol",
       "Fantasía"
     ],
@@ -9151,9 +9024,7 @@
       "Microsoft",
       "Ubisoft (Exclusive packaging)"
     ],
-    "ean": [
-      "5017783024272, 8712206083979"
-    ],
+    "ean": ["5017783024272", "8712206083979"],
     "descripcion": "Edición especial lanzada en el año 2000 que incluye el juego original Age of Empires, su expansión Rise of Rome y Age of Empires II (sin expansión). Viene en caja limitada con póster, banda sonora, y cartas coleccionables. Mantiene el modo multijugador, editor de escenarios y motor Genie.",
     "incluye": [],
     "serie": [
@@ -13324,7 +13195,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "PC Fútbol 2001",
-    "url": "juegos/pc-futbol-2001-dinamic/",
+    "url": "juegos/pc-futbol-2001-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98",
@@ -13360,7 +13231,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "The Moon Project",
-    "url": "juegos/the-moon-project-dinamic/",
+    "url": "juegos/the-moon-project-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -13391,7 +13262,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Euro Tour Cycling",
-    "url": "juegos/euro-tour-cycling-dinamic/",
+    "url": "juegos/euro-tour-cycling-dinamic-bigbox/",
     "plataforma": [
       "Win98",
       "WinMe",
@@ -13426,7 +13297,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Grouch",
-    "url": "juegos/grouch-dinamic/",
+    "url": "juegos/grouch-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98",
@@ -13463,7 +13334,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Enemy Engaged: Apache vs Havoc",
-    "url": "juegos/enemy-engaged-dinamic/",
+    "url": "juegos/enemy-engaged-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98",
@@ -13499,7 +13370,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Resurrection: Return of the Black Dragon",
-    "url": "juegos/resurrection-dinamic/",
+    "url": "juegos/resurrection-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98",
@@ -13533,7 +13404,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Multi Sim",
-    "url": "juegos/multi-sim-dinamic/",
+    "url": "juegos/multi-sim-dinamic-bigbox/",
     "plataforma": [
       "MsDos",
       "Win95",
@@ -13567,7 +13438,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Live! Boxing",
-    "url": "juegos/live-boxing-dinamic/",
+    "url": "juegos/live-boxing-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -13600,7 +13471,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Pro Pinball: Fantastic Journey",
-    "url": "juegos/pro-pinball-fantastic-journey-dinamic/",
+    "url": "juegos/pro-pinball-fantastic-journey-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98",
@@ -13633,7 +13504,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "PC Fútbol 2000: Selección Española - Europa 2000",
-    "url": "juegos/pc-futbol-2000-seleccion-espanola-dinamic/",
+    "url": "juegos/pc-futbol-2000-seleccion-espanola-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -13667,7 +13538,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Excalibug",
-    "url": "juegos/excalibug-dinamic/",
+    "url": "juegos/excalibug-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -13700,7 +13571,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "La Prisión",
-    "url": "juegos/la-prision-dinamic/",
+    "url": "juegos/la-prision-dinamic-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -14651,7 +14522,6 @@
     ],
     "formato": "DVD Case",
     "genero": [
-      "Rol",
       "Rol"
     ],
     "desarrollador": [
@@ -18129,8 +17999,7 @@
     "plataforma": [
       "Win98",
       "WinMe",
-      "Win2000",
-      "Win98"
+      "Win2000"
     ],
     "formato": "DVD Case",
     "genero": [
@@ -19065,7 +18934,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "R.A.W.: Realms of Ancient War",
-    "url": "juegos/r.a.w-cddvd/",
+    "url": "juegos/r.a.w-realms-of-ancient-war-cddvd/",
     "plataforma": [
       "WinXP",
       "Windows Vista",
@@ -22894,7 +22763,6 @@
     ],
     "formato": "DVD Case",
     "genero": [
-      "Shooter",
       "Shooter"
     ],
     "desarrollador": [
@@ -26048,7 +25916,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Silverfall: La Profecía del Señor de las Tinieblas",
-    "url": "juegos/silverfall-la-profecia-del-señor-de-las-tinieblas-fxinteractive/",
+    "url": "juegos/silverfall-la-profecia-del-senor-de-las-tinieblas-fxinteractive/",
     "plataforma": [
       "WinXP",
       "Windows Vista"
@@ -26376,7 +26244,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "The House of the Dead",
-    "url": "juegos/the-house-of-the-death-fxinteractive/",
+    "url": "juegos/the-house-of-the-dead-fxinteractive/",
     "plataforma": [
       "Win98",
       "WinXP"
@@ -26405,7 +26273,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "The House of the Dead 2",
-    "url": "juegos/the-house-of-the-death-2-fxinteractive/",
+    "url": "juegos/the-house-of-the-dead-2-fxinteractive/",
     "plataforma": [
       "Win98",
       "WinXP"
@@ -32236,36 +32104,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Red Faction II",
-    "url": "juegos/red-faction-ii-cddvd/",
-    "plataforma": [
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "DVD Case",
-    "genero": [
-      "Acción",
-      "Shooter en primera persona"
-    ],
-    "desarrollador": [
-      "Volition Inc."
-    ],
-    "distribuidor": [
-      "THQ"
-    ],
-    "ean": [],
-    "serie": [
-      "Todos"
-    ],
-    "tags": [],
-    "descripcion": "Red Faction II es un shooter en primera persona ambientado en un futuro distópico donde los jugadores luchan contra un régimen opresivo. Destaca por su motor Geo-Mod, que permite destruir entornos y modificar el campo de batalla en tiempo real.",
-    "incluye": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Monster Ville",
     "url": "juegos/monster-ville-cddvd/",
     "plataforma": [
@@ -35489,7 +35327,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "V-Rally: Multiplayer Championship Edition",
-    "url": "juegos/v-rally-multiplayer-championship-edition-bigbox-2/",
+    "url": "juegos/v-rally-multiplayer-championship-edition-2-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -35560,7 +35398,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Rally Championship",
-    "url": "juegos/rally-championship-bigbox-2/",
+    "url": "juegos/rally-championship-2-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -35663,42 +35501,6 @@
       "Simulador de motos",
       "Electronic Arts",
       "SBK"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Primera División Stars 2001",
-    "url": "juegos/primera-division-stars-2001-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Deportes",
-      "Fútbol",
-      "Manager"
-    ],
-    "desarrollador": [
-      "Dinamic Multimedia"
-    ],
-    "distribuidor": [
-      "Planeta DeAgostini Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Primera División Stars 2001 es un simulador de gestión futbolística lanzado exclusivamente en España en el año 2000, desarrollado por Dinamic Multimedia tras el éxito de la saga PC Fútbol. El juego permite gestionar un club de la Primera División española, incluyendo plantillas actualizadas, tácticas, fichajes y aspectos económicos. A diferencia de los PC Fútbol, Stars está centrado en una experiencia más pulida visualmente, con interfaz mejorada y motor gráfico 3D para los partidos. Su edición en caja grande fue distribuida en kioscos y tiendas especializadas, y es hoy un título nostálgico para coleccionistas del fútbol español en PC.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Fútbol",
-      "Manager",
-      "Dinamic Multimedia",
-      "España"
     ]
   },
   {
@@ -36601,7 +36403,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Beavis and Butt-Head: Bunghole in One",
-    "url": "juegos/beavis-and-butt-head-bunghole-in-one/",
+    "url": "juegos/beavis-and-butt-head-bunghole-in-one-bigbox/",
     "plataforma": [
       "Win95",
       "Win98"
@@ -37589,7 +37391,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Urban Runner",
-    "url": "juegos/urban-runner-bigbox-2/",
+    "url": "juegos/urban-runner-2-bigbox/",
     "plataforma": [
       "Win95"
     ],
@@ -39911,6 +39713,8 @@
     ]
   },
   {
+    "num" : "000000",
+    "ig" : "",
     "titulo": "Command & Conquer",
     "url": "juegos/command-and-conquer-cddvd/",
     "plataforma": [
@@ -39944,6 +39748,8 @@
     ]
   },
   {
+    "num": "000000",
+    "ig": "",
     "titulo": "Clive Barker's Jericho",
     "url": "juegos/clive-barkers-jericho-cddvd/",
     "plataforma": [
@@ -40297,9 +40103,7 @@
     "distribuidor": [
       "Friendware"
     ],
-    "ean": [
-      "286177558507"
-    ],
+    "ean": ["286177558507"],
     "descripcion": "Simulador y manager de ciclismo en el que el jugador dirige uno de los principales equipos profesionales durante una temporada completa o en competiciones individuales. Incluye más de 125 etapas reales modeladas en 3D y jugables en tiempo real, gestión de plantilla, estrategias de carrera, calendario y tácticas dinámicas. Permite competir en pruebas inspiradas en las grandes vueltas europeas y gestionar cada detalle del equipo para alcanzar la victoria.",
     "incluye": [],
     "serie": [
@@ -40534,7 +40338,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Steel Panthers",
-    "url": "juegos/steel-panthers-bigbox-2/",
+    "url": "juegos/steel-panthers-2-bigbox/",
     "plataforma": [
       "Win95"
     ],
@@ -40703,7 +40507,9 @@
     ]
   },
   {
-    "titulo": "The Settlers II: Veni, Vidi, Vici",
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Settlers II: Veni, Vidi, Vinci",
     "url": "juegos/the-settlers-ii-veni-vidi-vici-bigbox/",
     "plataforma": [
       "Win95"
@@ -41298,7 +41104,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en la Guerra de Vietnam. Combates multijugador con vehículos terrestres, helicópteros y lanchas, dentro de la saga Battlefield.",
     "incluye": [],
     "serie": [
@@ -41335,44 +41141,7 @@
     "distribuidor": [
       "Activision"
     ],
-    "ean": "",
-    "descripcion": "Adaptación para PC del juego de acción protagonizado por Spider-Man. Combina exploración, combate y secuencias narrativas basadas en el universo Marvel, con doblaje original y múltiples villanos clásicos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "DVD Case"
-    ],
-    "tags": [
-      "Marvel",
-      "Superhéroes",
-      "Neversoft",
-      "Activision",
-      "Licencia"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Spider-Man",
-    "url": "juegos/spider-man-cddvd/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "DVD Case",
-    "genero": [
-      "Acción",
-      "Aventura",
-      "Plataformas"
-    ],
-    "desarrollador": [
-      "Neversoft"
-    ],
-    "distribuidor": [
-      "Activision"
-    ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Adaptación para PC del juego de acción protagonizado por Spider-Man. Combina exploración, combate y secuencias narrativas basadas en el universo Marvel, con múltiples villanos clásicos.",
     "incluye": [],
     "serie": [
@@ -41407,7 +41176,7 @@
     "distribuidor": [
       "Sierra Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción en tercera persona basado en la película Scarface. El jugador controla a Tony Montana en una historia alternativa tras el final del film, reconstruyendo su imperio criminal en Miami mediante misiones, comercio y combates.",
     "incluye": [],
     "serie": [
@@ -41445,7 +41214,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega anual de la saga FIFA desarrollada por EA Sports. Incluye licencias oficiales de selecciones y clubes, mejoras en la física del balón y un sistema de juego más táctico respecto a ediciones anteriores.",
     "incluye": [],
     "serie": [
@@ -41484,7 +41253,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador oficial del Campeonato Mundial de Fórmula 1 2001. Incluye pilotos, escuderías y circuitos oficiales de la temporada, con enfoque realista en física y reglamentación.",
     "incluye": [],
     "serie": [
@@ -41522,7 +41291,7 @@
     "distribuidor": [
       "2K Sports"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de la saga NBA 2K centrada en la figura de Michael Jordan, incluyendo el modo Jordan Challenge con partidos históricos recreados. Destaca por su realismo en físicas y presentación televisiva.",
     "incluye": [],
     "serie": [
@@ -41560,7 +41329,7 @@
     "distribuidor": [
       "Codemasters"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter táctico ambientado en un conflicto ficticio en Tayikistán. Enfocado en el realismo militar y el trabajo en escuadra, ofrece campaña cooperativa y mecánicas estratégicas dentro de la saga Operation Flashpoint.",
     "incluye": [],
     "serie": [
@@ -41598,7 +41367,7 @@
     "distribuidor": [
       "2K Sports"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de la saga NBA 2K correspondiente a la temporada 2009-2010. Incluye mejoras en inteligencia artificial, presentación televisiva y modos de juego ampliados, con Kobe Bryant como imagen de portada.",
     "incluye": [],
     "serie": [
@@ -41636,7 +41405,7 @@
     "distribuidor": [
       "JoWooD Productions"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de estrategia en tiempo real ambientado en la era vikinga. El jugador gestiona aldeas, recursos y unidades en campañas centradas en exploración, comercio y combate táctico.",
     "incluye": [],
     "serie": [
@@ -41674,7 +41443,7 @@
     "distribuidor": [
       "Square Enix"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en tercera persona ambientado en Shanghái que sigue la historia criminal de Kane y Lynch. Destaca por su estilo visual crudo tipo cámara digital y su enfoque narrativo intenso.",
     "incluye": [],
     "serie": [
@@ -41712,7 +41481,7 @@
     "distribuidor": [
       "Rockstar Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Tercera entrega principal de la saga Grand Theft Auto y primera en adoptar un entorno completamente tridimensional. Ambientado en Liberty City, revolucionó el concepto de mundo abierto combinando narrativa criminal, exploración libre y misiones no lineales.",
     "incluye": [],
     "serie": [
@@ -41748,7 +41517,7 @@
     "distribuidor": [
       "Rockstar Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Cuarta entrega principal de la saga Grand Theft Auto. Ambientado en Liberty City, sigue la historia de Niko Bellic en una narrativa más madura y realista, con un motor gráfico renovado y un mundo abierto detallado.",
     "incluye": [],
     "serie": [
@@ -41786,7 +41555,7 @@
     "distribuidor": [
       "Activision"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona que trasladó la saga Call of Duty a la guerra moderna. La edición Juego del Año incluye mapas multijugador adicionales y consolidó el éxito del modo online competitivo.",
     "incluye": [],
     "serie": [
@@ -41825,7 +41594,7 @@
     "distribuidor": [
       "Eidos Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Recopilación que incluye tres entregas de la saga Hitman: Hitman 2, Hitman: Contracts y Hitman: Blood Money. El jugador encarna al Agente 47 en misiones de asesinato basadas en sigilo, planificación y múltiples enfoques.",
     "incluye": [],
     "serie": [
@@ -41863,7 +41632,7 @@
     "distribuidor": [
       "Buka Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de estrategia en tiempo real ambientado en la Primera Guerra Mundial. Permite controlar distintas potencias del conflicto, gestionando recursos, infantería, artillería y unidades aéreas en escenarios históricos.",
     "incluye": [],
     "serie": [
@@ -41901,7 +41670,7 @@
     "distribuidor": [
       "DreamCatcher Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica basada en la obra de Julio Verne. Combina exploración, resolución de puzles y narrativa interactiva ambientada en el universo literario del autor.",
     "incluye": [],
     "serie": [
@@ -41939,7 +41708,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona protagonizado por James Bond. Combina misiones de acción, infiltración y conducción de vehículos con un enfoque cinematográfico característico de la franquicia 007.",
     "incluye": [],
     "serie": [
@@ -41977,7 +41746,7 @@
     "distribuidor": [
       "Eidos Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en un conflicto futurista. Combina combate armado con mejoras cibernéticas del protagonista que permiten habilidades especiales durante la acción.",
     "incluye": [],
     "serie": [
@@ -42014,7 +41783,7 @@
     "distribuidor": [
       "Atari"
     ],
-    "ean": "8436019770046",
+    "ean": ["8436019770046"],
     "descripcion": "Juego de estrategia y construcción ambientado en el Antiguo Egipto. El jugador gestiona recursos, población y desarrollo urbano a lo largo del Nilo, con un enfoque detallado en la vida individual de los habitantes.",
     "incluye": [],
     "serie": [
@@ -42052,7 +41821,7 @@
     "distribuidor": [
       "Legendio"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción aérea ambientado en la Segunda Guerra Mundial. El jugador pilota distintos aviones en misiones inspiradas en el ataque a Pearl Harbor y el conflicto en el Pacífico.",
     "incluye": [],
     "serie": [
@@ -42090,7 +41859,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona de mundo abierto ambientado en Hope County, Montana. El jugador se enfrenta a una secta apocalíptica mientras explora libremente el entorno y completa misiones principales y secundarias.",
     "incluye": [],
     "serie": [
@@ -42128,7 +41897,7 @@
     "distribuidor": [
       "City Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción en tercera persona protagonizado por una agente secreta. Combina combate armado y misiones de infiltración en escenarios de corte moderno.",
     "incluye": [],
     "serie": [
@@ -42141,41 +41910,6 @@
       "City Interactive",
       "Shooter clásico PC",
       "Espionaje"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Odisea: La Búsqueda de Ulises",
-    "url": "juegos/odisea-la-busqueda-de-ulises-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica"
-    ],
-    "desarrollador": [
-      "Cryo Interactive"
-    ],
-    "distribuidor": [
-      "Friendware"
-    ],
-    "ean": "",
-    "descripcion": "Aventura gráfica en 3D inspirada en la mitología griega y en los relatos de Homero. El jugador encarna a Heritias en su viaje por el mar Egeo en busca de Ulises, enfrentándose a criaturas míticas y explorando escenarios reconstruidos con motor 3D en tiempo real.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Mitología griega",
-      "Grecia clásica",
-      "Cryo",
-      "Aventura 3D",
-      "Edición española",
-      "Friendware"
     ]
   },
   {
@@ -42197,7 +41931,7 @@
     "distribuidor": [
       "LucasArts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de estrategia a gran escala ambientado en el universo de Star Wars. El jugador puede liderar la Alianza Rebelde o el Imperio Galáctico, gestionando recursos, diplomacia, investigación y flotas espaciales en tiempo real, con batallas en 3D y control de más de 200 sistemas planetarios.",
     "incluye": [],
     "serie": [
@@ -42235,7 +41969,7 @@
     "distribuidor": [
       "Sierra"
     ],
-    "ean": "3348542021334",
+    "ean": ["3348542021334"],
     "descripcion": "Pack que incluye Starsiege y Starsiege: Tribes. Combina simulación de combate en 3D con acción multijugador en primera persona ambientada en el universo Starsiege. Incluye campañas individuales, combate táctico con mechs y experiencia multijugador online.",
     "incluye": [],
     "serie": [
@@ -42274,7 +42008,7 @@
     "distribuidor": [
       "Infogrames"
     ],
-    "ean": "3546430022337",
+    "ean": ["3546430022337"],
     "descripcion": "Tercera entrega de la saga Civilization. Juego de estrategia por turnos en el que el jugador guía una civilización desde la Antigüedad hasta la era moderna, gestionando diplomacia, investigación tecnológica, expansión territorial y conflictos militares con múltiples condiciones de victoria.",
     "incluye": [],
     "serie": [
@@ -42310,7 +42044,7 @@
     "distribuidor": [
       "Friendware"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura ambientada en la mitología griega en la que el jugador encarna a Heritias, enviado por Penélope para encontrar a Ulises tras la guerra de Troya. El juego combina exploración, resolución de enigmas y encuentros con criaturas míticas mientras se recorren distintas islas del mar Egeo y el inframundo.",
     "incluye": [],
     "serie": [
@@ -42347,7 +42081,7 @@
     "distribuidor": [
       "Empire Interactive"
     ],
-    "ean": "744788550866",
+    "ean": ["744788550866"],
     "descripcion": "Wargame táctico ambientado en la campaña de Rusia de 1812 durante las guerras napoleónicas. El jugador dirige ejércitos imperiales o aliados en batallas históricas utilizando mapas hexagonales, unidades detalladas y un sistema de combate que combina visión estratégica en 2D con recreaciones tácticas del campo de batalla.",
     "incluye": [],
     "serie": [
@@ -42384,7 +42118,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "5030930022517",
+    "ean": ["5030930022517"],
     "descripcion": "Simulador social creado por Will Wright en el que el jugador diseña personajes, construye sus hogares y controla sus vidas diarias. Los Sims deben gestionar sus necesidades, desarrollar relaciones personales, progresar en sus carreras y desenvolverse en un entorno doméstico abierto con gran libertad de interacción.",
     "incluye": [],
     "serie": [
@@ -42398,43 +42132,6 @@
       "Vida virtual",
       "Edición española",
       "Clásico"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "SimCity 3000",
-    "url": "juegos/simcity-3000-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Construcción",
-      "Gestión"
-    ],
-    "desarrollador": [
-      "Maxis"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": "",
-    "descripcion": "Simulador de construcción y gestión de ciudades en el que el jugador diseña, administra y desarrolla una metrópolis desde sus cimientos. Debe equilibrar presupuesto, zonificación, infraestructuras, transporte y servicios públicos mientras enfrenta desastres, crecimiento urbano y las demandas de los ciudadanos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "SimCity",
-      "Construcción de ciudades",
-      "Will Wright",
-      "Maxis",
-      "Simulación urbana",
-      "Edición española"
     ]
   },
   {
@@ -42457,7 +42154,7 @@
     "distribuidor": [
       "Acclaim"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de carreras arcade ambientado en el universo de South Park. Los jugadores compiten en caóticas carreras a través de escenarios inspirados en la serie mientras utilizan objetos y trampas para sabotear a sus rivales. Incluye personajes clásicos como Cartman, Stan, Kyle y Kenny, circuitos llenos de humor irreverente y desafíos inspirados en episodios de la serie.",
     "incluye": [],
     "serie": [
@@ -42492,7 +42189,7 @@
     "distribuidor": [
       "Proein"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica en primera persona desarrollada por Cryo Interactive. El jugador encarna a Syan, un explorador que despierta en un misterioso planeta donde conviven tribus humanas primitivas con tecnología avanzada. El juego mezcla exploración, resolución de puzles y una narrativa de ciencia ficción ambientada en un entorno prehistórico surrealista. Destaca por su atmósfera, su estilo artístico característico de Cryo y un mundo abierto para explorar.",
     "incluye": [],
     "serie": [
@@ -42521,7 +42218,7 @@
     "distribuidor": [
       "FX Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en la Primera Guerra Mundial que mezcla combate histórico con elementos de terror sobrenatural. El jugador controla a un soldado estadounidense que, tras quedar atrapado en las trincheras del frente europeo, descubre que fuerzas demoníacas han despertado bajo el campo de batalla. El juego combina armas históricas, combate cuerpo a cuerpo y criaturas sobrenaturales en una campaña oscura y violenta.",
     "incluye": [],
     "serie": [
@@ -42549,7 +42246,7 @@
     "distribuidor": [
       "1C Company"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de carreras arcade ambientado en las calles de Moscú. El jugador participa en competiciones ilegales con coches deportivos, recorriendo distintos distritos de la ciudad mientras evita el tráfico y compite contra otros pilotos. El título apuesta por una conducción accesible y circuitos urbanos inspirados en localizaciones reales de la capital rusa.",
     "incluye": [],
     "serie": [
@@ -42579,7 +42276,7 @@
     "distribuidor": [
       "Global Star Software"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de gestión en el que el jugador diseña y administra un aeropuerto completo, construyendo terminales, pistas, servicios y gestionando el tráfico de aerolíneas y pasajeros. Airport Tycoon 2 amplía el concepto del juego original con entornos en 3D y un sistema económico más complejo. El título pertenece a la ola de juegos de gestión tipo 'Tycoon' que proliferaron a comienzos de los años 2000 tras el éxito de títulos como RollerCoaster Tycoon y Transport Tycoon.",
     "incluye": [],
     "serie": [
@@ -42608,7 +42305,7 @@
     "distribuidor": [
       "On Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de gestión futbolística perteneciente a la histórica saga española PC Fútbol. El jugador asume el papel de entrenador y mánager de un club, gestionando plantillas, tácticas, fichajes y economía del equipo mientras disputa las competiciones oficiales del fútbol español. Esta edición forma parte de los intentos de relanzar la franquicia tras la desaparición de Dinamic Multimedia, con Michael Robinson como imagen promocional y comentarista asociado a la serie.",
     "incluye": [],
     "serie": [
@@ -42638,7 +42335,7 @@
     "distribuidor": [
       "Deibus Studios"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de carreras de motocross con enfoque arcade en el que el jugador compite en circuitos todoterreno realizando saltos, derrapes y adelantamientos contra otros pilotos. El título apuesta por una conducción accesible y rápida, con circuitos llenos de obstáculos y rampas. Fue distribuido en España dentro de colecciones económicas para PC de principios de los años 2000, habituales en tiendas y kioscos.",
     "incluye": [],
     "serie": [
@@ -42667,7 +42364,7 @@
     "distribuidor": [
       "THQ"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y aventura basado en el universo de la película de Disney/Pixar Los Increíbles. La historia continúa directamente tras el final del film, enfrentando a Mr. Incredible y Frozone contra el villano conocido como el Socavador mientras intentan salvar la ciudad de sus ataques. El juego combina combate, plataformas y resolución de situaciones cooperativas utilizando las habilidades especiales de cada personaje.",
     "incluye": [],
     "serie": [
@@ -42698,7 +42395,7 @@
     "distribuidor": [
       "Ignition Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de billar que recrea distintas modalidades del juego en entornos tridimensionales ambientados en complejos turísticos tropicales. El jugador puede participar en torneos, partidas rápidas y diferentes variantes de billar mientras compite contra oponentes controlados por la inteligencia artificial. El título forma parte de la línea de juegos deportivos accesibles de principios de los años 2000, centrados en ofrecer físicas realistas y partidas rápidas.",
     "incluye": [],
     "serie": [
@@ -42727,7 +42424,7 @@
     "distribuidor": [
       "1C Company"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de conducción todoterreno centrado en los vehículos Hummer, en el que el jugador debe recorrer rutas off-road a través de distintos tipos de terreno como barro, nieve o caminos de montaña. El título combina exploración, pruebas de habilidad y física del terreno para superar obstáculos naturales. Forma parte de la serie de simuladores de conducción 4x4 publicados por 1C Company durante los años 2000, centrados en la experiencia de conducción en entornos naturales.",
     "incluye": [],
     "serie": [
@@ -42756,7 +42453,7 @@
     "distribuidor": [
       "SEGA"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de tenis que forma parte de la popular saga Virtua Tennis de SEGA. El título combina una jugabilidad accesible con elementos de simulación ligera, permitiendo disputar torneos con tenistas profesionales en distintas superficies. Incluye el modo World Tour, en el que el jugador crea su propio tenista y progresa en el circuito internacional, además de numerosos minijuegos característicos de la serie. Virtua Tennis 2009 continúa el legado de una franquicia iniciada en recreativas a finales de los años 90 y considerada una de las más influyentes dentro de los juegos de tenis.",
     "incluye": [],
     "serie": [
@@ -42786,7 +42483,7 @@
     "distribuidor": [
       "Monte Cristo Multimedia"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción táctica centrado en la planificación y ejecución de robos organizados. El jugador controla a un grupo de criminales especializados y debe preparar cuidadosamente cada golpe, asignando roles y coordinando las acciones durante la misión. The Plan combina planificación estratégica con secuencias de acción en tiempo real y una narrativa inspirada en películas de atracos, situándose dentro de la ola de juegos tácticos de principios de los años 2000.",
     "incluye": [],
     "serie": [
@@ -42816,7 +42513,7 @@
     "distribuidor": [
       "Atari"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona de mundo abierto ambientado en un país ficticio de América Latina. El jugador interpreta a Saul Myers, un exsoldado de la Legión Extranjera que viaja al país para buscar a su hija desaparecida. El juego permite explorar libremente el territorio, interactuar con distintas facciones y aceptar misiones mientras se desarrolla una historia de conspiraciones, guerrillas y narcotráfico. Boiling Point destacó en su época por su ambición al combinar elementos de FPS, RPG y mundo abierto en un mismo juego.",
     "incluye": [],
     "serie": [
@@ -42845,7 +42542,7 @@
     "distribuidor": [
       "DreamCatcher Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona perteneciente a la saga Painkiller, caracterizada por su acción rápida y combates contra grandes hordas de enemigos. En esta entrega el jugador controla a Belial, un personaje mitad demonio y mitad ángel que intenta escapar del inframundo. Painkiller: Overdose funciona como expansión independiente del juego original y mantiene el estilo arcade de disparos intensos, armas exageradas y enfrentamientos contra criaturas demoníacas en escenarios inspirados en el infierno.",
     "incluye": [],
     "serie": [
@@ -42873,7 +42570,7 @@
     "distribuidor": [
       "Astragon"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador agrícola en el que el jugador gestiona una granja completa, cultivando campos, utilizando maquinaria agrícola y vendiendo las cosechas para ampliar el negocio. Farming Simulator 2009 marcó el inicio de la popular saga desarrollada por GIANTS Software, que con el tiempo se convertiría en una de las franquicias de simulación más exitosas en PC gracias a su enfoque realista en la maquinaria agrícola y a una gran comunidad de mods.",
     "incluye": [],
     "serie": [
@@ -42902,7 +42599,7 @@
     "distribuidor": [
       "Black Bean"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de estrategia táctica ambientado en el Imperio Romano donde el jugador controla unidades militares en combates históricos contra diversas civilizaciones antiguas como galos, cartagineses o tribus bárbaras. Legion Arena se centra en batallas tácticas en tiempo real con gestión de tropas, formación y evolución de las unidades a lo largo de una campaña. Esta edición Gold incluye también la expansión Cult of Mithras, que añade nuevas unidades, campañas y mejoras jugables.",
     "incluye": [],
     "serie": [
@@ -42932,7 +42629,7 @@
     "distribuidor": [
       "Trend Verlag"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador ferroviario centrado en la construcción y gestión de redes de trenes en entornos virtuales tridimensionales. EEP: Virtual Railroad 3 permite al jugador diseñar paisajes, construir líneas ferroviarias, controlar trenes y crear complejas maquetas ferroviarias digitales con señales, estaciones y sistemas automatizados. La serie EEP (Eisenbahn.exe Professional) es especialmente conocida en Europa por su enfoque detallado en el modelismo ferroviario virtual.",
     "incluye": [],
     "serie": [
@@ -42961,7 +42658,7 @@
     "distribuidor": [
       "LucasArts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera y tercera persona ambientado en el universo de Star Wars que permite participar en grandes batallas entre las diferentes facciones de la saga. Star Wars: Battlefront II amplía considerablemente el juego original incorporando combates espaciales, héroes controlables como Darth Vader o Luke Skywalker y una campaña basada en la Legión 501 del Imperio. El juego combina acción directa con control de unidades y vehículos en mapas inspirados en las películas.",
     "incluye": [],
     "serie": [
@@ -42991,7 +42688,7 @@
     "distribuidor": [
       "2K Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Videojuego basado en la novela superventas de Dan Brown y en su adaptación cinematográfica. El jugador controla a Robert Langdon y Sophie Neveu mientras recorren diversos escenarios de Europa resolviendo enigmas, descifrando códigos y enfrentándose a enemigos para descubrir los secretos ocultos en torno al Santo Grial. El juego combina exploración, resolución de puzles inspirados en simbología histórica y secuencias de acción.",
     "incluye": [],
     "serie": [
@@ -43021,7 +42718,7 @@
     "distribuidor": [
       "DreamCatcher Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona centrado principalmente en el combate multijugador. Gore: Ultimate Soldier utiliza el motor LithTech y apuesta por una jugabilidad rápida con diferentes personajes y armas futuristas en arenas de combate. El juego incluye varios modos multijugador como deathmatch y team deathmatch, además de bots para partidas en solitario, y destaca por su estilo visual oscuro y violento característico de los FPS de principios de los años 2000.",
     "incluye": [],
     "serie": [
@@ -43050,7 +42747,7 @@
     "distribuidor": [
       "Disney Interactive Studios"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Videojuego de acción y aventura basado en la tercera película de la saga Piratas del Caribe. El jugador controla principalmente a Jack Sparrow, además de otros personajes como Will Turner y Elizabeth Swann, en una serie de misiones inspiradas en los eventos de la película. El juego combina combate con espada, exploración y resolución de pequeños puzles mientras se recorren diversos escenarios del universo pirata creado por Disney.",
     "incluye": [],
     "serie": [
@@ -43080,7 +42777,7 @@
     "distribuidor": [
       "Wanadoo Edition"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de estrategia en tiempo real ambientado en el universo fantástico de Kohan. Battles of Ahriman actúa como expansión independiente del título original Kohan: Immortal Sovereigns, introduciendo nuevas campañas, unidades y mejoras en la jugabilidad. El juego destaca por su sistema estratégico centrado en compañías militares en lugar de unidades individuales y por una gestión simplificada de recursos que prioriza la estrategia sobre la microgestión.",
     "incluye": [],
     "serie": [
@@ -43109,7 +42806,7 @@
     "distribuidor": [
       "Activision"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona que continúa la clásica saga Wolfenstein. El jugador vuelve a encarnar a B.J. Blazkowicz en una historia ambientada durante la Segunda Guerra Mundial donde los nazis investigan poderes sobrenaturales procedentes de una dimensión paralela llamada Black Sun. El juego combina combate intenso con armas históricas y habilidades especiales obtenidas gracias a artefactos místicos, añadiendo un componente sobrenatural característico dentro de la saga.",
     "incluye": [],
     "serie": [
@@ -43141,7 +42838,7 @@
     "distribuidor": [
       "Atari"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en el universo de Unreal. El jugador controla a John Dalton, un exmarine espacial que trabaja como marshal interplanetario mientras investiga una serie de misteriosos artefactos alienígenas que distintas facciones intentan recuperar. Unreal II: The Awakening se centra principalmente en una campaña para un jugador con misiones en diferentes planetas, utilizando el Unreal Engine para ofrecer escenarios de ciencia ficción detallados y combates intensos.",
     "incluye": [],
     "serie": [
@@ -43172,7 +42869,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona de terror basado en una historia escrita por Clive Barker. El jugador encarna a Patrick Galloway, un investigador de fenómenos paranormales que viaja a la mansión de su antiguo amigo Jeremiah Covenant para enfrentarse a una maldición familiar y a entidades sobrenaturales. El juego mezcla combate con armas y magia oscura, exploración y una narrativa de horror gótico que lo ha convertido en un título de culto dentro del género.",
     "incluye": [],
     "serie": [
@@ -43204,7 +42901,7 @@
     "distribuidor": [
       "Codemasters"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y sigilo ambientado en la Segunda Guerra Mundial en el que el jugador controla al piloto estadounidense Lewis Stone tras ser capturado por los alemanes. El objetivo es planificar y ejecutar fugas de distintos campos de prisioneros inspirados en instalaciones reales. El juego combina exploración, infiltración, interacción con otros prisioneros y planificación estratégica para conseguir escapar sin ser descubierto por los guardias.",
     "incluye": [],
     "serie": [
@@ -43234,7 +42931,7 @@
     "distribuidor": [
       "Focus Home Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica protagonizada por Sherlock Holmes y el doctor Watson basada en las historias del detective creadas por Arthur Conan Doyle. La investigación comienza cuando un magnate londinense es asesinado durante una fiesta en su mansión. A partir de ese momento Holmes deberá interrogar sospechosos, reunir pistas y reconstruir los hechos para descubrir al culpable. El juego destaca por su ambientación victoriana, la investigación deductiva y los rompecabezas clásicos del género.",
     "incluye": [],
     "serie": [
@@ -43267,7 +42964,7 @@
     "distribuidor": [
       "The Adventure Company"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica de misterio ambientada en la campiña inglesa, donde el jugador investiga sucesos extraños relacionados con antiguos círculos de piedra y leyendas celtas. Tras quedarse varado cerca de Barrow Hill, el protagonista descubre que el lugar está rodeado de antiguos rituales, desapariciones y fenómenos sobrenaturales vinculados a un culto pagano ancestral. El juego destaca por su atmósfera inquietante, su exploración libre y los rompecabezas basados en arqueología, astronomía y folklore británico.",
     "incluye": [],
     "serie": [
@@ -43300,7 +42997,7 @@
     "distribuidor": [
       "Bethesda Softworks"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter táctico en primera persona basado en la figura real del comandante de los Navy SEAL Richard “Demo Dick” Marcinko. Ambientado en los últimos años de la Guerra Fría, el juego sigue una misión encubierta en Corea del Norte que termina derivando en operaciones clandestinas por territorio enemigo. El título destaca por su tono extremadamente agresivo, el combate cercano con ejecuciones brutales y la voz del protagonista interpretada por el actor Mickey Rourke.",
     "incluye": [],
     "serie": [
@@ -43332,7 +43029,7 @@
     "distribuidor": [
       "Neo Juegos"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de combate aéreo ambientado en el teatro del Pacífico durante la Segunda Guerra Mundial. El jugador pilota distintos cazas históricos en misiones de combate contra fuerzas japonesas, participando en batallas aéreas sobre el océano, escolta de bombarderos y ataques a flotas enemigas. El título combina elementos de simulación ligera con acción arcade, centrando la experiencia en intensos enfrentamientos aéreos conocidos como 'dogfights'.",
     "incluye": [],
     "serie": [
@@ -43363,7 +43060,7 @@
     "distribuidor": [
       "JoWooD Productions"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "RPG de acción ambientado en el mundo de Khorinis, continuación directa del aclamado Gothic. Tras los acontecimientos del primer juego, el héroe sin nombre debe enfrentarse a una nueva amenaza: los dragones que han comenzado a invadir el reino de Myrtana. El juego destaca por su mundo abierto muy reactivo, las distintas facciones a las que el jugador puede unirse y un sistema de progresión donde cada decisión afecta al desarrollo de la historia.",
     "incluye": [],
     "serie": [
@@ -43393,7 +43090,7 @@
     "distribuidor": [
       "10tacle Studios"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y aventuras ambientado en el Caribe del siglo XVII. El jugador controla al pirata Francis Blade, quien tras un naufragio termina atrapado en una isla maldita llena de tesoros, trampas y criaturas sobrenaturales. El juego mezcla exploración, combate con espada y puzles mientras el protagonista intenta descubrir el secreto de una antigua maldición vinculada a un tesoro pirata.",
     "incluye": [],
     "serie": [
@@ -43425,7 +43122,7 @@
     "distribuidor": [
       "Microids"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica de terror ambientada en 1890 que combina arqueología y elementos sobrenaturales. La historia comienza cuando un sarcófago egipcio con una antigua maldición es transportado en tren desde Londres hasta el Museo Británico. El protagonista, Darien Dane, deberá investigar los misteriosos acontecimientos que se desencadenan durante el viaje mientras se enfrenta a criaturas, rompecabezas y secretos relacionados con el antiguo Egipto.",
     "incluye": [],
     "serie": [
@@ -43454,7 +43151,7 @@
     "distribuidor": [
       "Atari"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de conducción centrado en competiciones GT desarrollado por SimBin Studios. El juego incluye coches de distintas categorías y circuitos reales, destacando por su enfoque realista en la física de conducción y el comportamiento de los vehículos. Esta versión incluye el contenido completo de GTR Evolution, ampliando la experiencia con nuevas clases de coches, circuitos y modos de competición para los aficionados al sim-racing.",
     "incluye": [],
     "serie": [
@@ -43483,7 +43180,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de la popular saga Need for Speed centrada en persecuciones policiales y carreras ilegales en un entorno urbano abierto. El jugador se infiltra en una organización criminal participando en competiciones clandestinas mientras desbloquea nuevos coches y mejora su rendimiento. El juego combina conducción arcade a alta velocidad con misiones de persecución, evasión policial y una narrativa inspirada en películas de acción.",
     "incluye": [],
     "serie": [
@@ -43513,7 +43210,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de la popular saga Need for Speed centrada en persecuciones policiales y carreras ilegales en un entorno urbano abierto. El jugador se infiltra en una organización criminal participando en competiciones clandestinas mientras desbloquea nuevos coches y mejora su rendimiento. El juego combina conducción arcade a alta velocidad con misiones de persecución, evasión policial y una narrativa inspirada en películas de acción.",
     "incluye": [],
     "serie": [
@@ -43544,7 +43241,7 @@
     "distribuidor": [
       "Codemasters"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter táctico en primera persona en el que el jugador controla al agente David Jones en misiones encubiertas alrededor del mundo. El juego apuesta por mapas amplios, infiltración y planificación estratégica más que por la acción directa. Las misiones incluyen sabotaje, espionaje y rescate de información en instalaciones militares fuertemente vigiladas.",
     "incluye": [],
     "serie": [
@@ -43574,7 +43271,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Survival horror ambientado en una nave minera espacial abandonada. El jugador controla al ingeniero Isaac Clarke, que debe investigar qué ha ocurrido en la USG Ishimura tras perder contacto con la Tierra. La nave está infestada por criaturas mutadas conocidas como necromorfos, y el protagonista deberá sobrevivir utilizando herramientas industriales convertidas en armas. El juego destaca por su atmósfera opresiva, su narrativa ambiental y un sistema de combate centrado en desmembrar a los enemigos.",
     "incluye": [],
     "serie": [
@@ -43606,7 +43303,7 @@
     "distribuidor": [
       "CDV Software Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de estrategia en tiempo real ambientado en las guerras napoleónicas del siglo XIX. El jugador dirige ejércitos históricos de distintas naciones europeas en grandes batallas donde la formación de las tropas, la moral y el terreno juegan un papel fundamental. El juego destaca por representar combates masivos con miles de unidades en pantalla y por su enfoque táctico basado en la guerra de líneas propia de la época.",
     "incluye": [],
     "serie": [
@@ -43637,7 +43334,7 @@
     "distribuidor": [
       "DreamCatcher Interactive"
     ],
-    "ean": "8436016710046",
+    "ean": ["8436016710046"],
     "descripcion": "Shooter en primera persona perteneciente a la saga Painkiller, caracterizada por su acción rápida y combates contra hordas de enemigos sobrenaturales. En esta entrega el jugador controla a William 'Wild Bill' Sherman, un agente de la CIA asesinado durante una misión que recibe una segunda oportunidad para redimirse luchando contra criaturas demoníacas en escenarios infernales y purgatorios. El juego mantiene el estilo arcade de la serie con armas exageradas, grandes cantidades de enemigos en pantalla y enfrentamientos contra jefes de gran tamaño.",
     "incluye": [],
     "serie": [
@@ -43670,7 +43367,7 @@
     "distribuidor": [
       "Proein"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y aventura ambientado en la ciudad ficticia de Lost Heaven durante la época de la Ley Seca en Estados Unidos. El jugador controla a Tommy Angelo, un taxista que termina involucrado en el crimen organizado y asciende dentro de la familia mafiosa Salieri. El título destaca por su narrativa cinematográfica, inspirada en películas clásicas de mafiosos, así como por su detallada recreación de una ciudad de los años 30. Esta edición incluye tres discos CD-ROM y un manual presentado como el periódico ficticio 'Lost Heaven Courier', un guiño a la ambientación del juego.",
     "incluye": [],
     "serie": [
@@ -43702,7 +43399,7 @@
     "distribuidor": [
       "Atari"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de conducción centrado en el campeonato mundial de rally. El jugador compite en distintas pruebas alrededor del mundo pilotando vehículos oficiales de la disciplina. El título destaca por su modo carrera, en el que el jugador progresa como piloto profesional firmando con diferentes equipos y mejorando sus resultados en cada temporada. Desarrollado por Eden Studios, el juego ofrece circuitos inspirados en rallyes reales y una conducción que mezcla simulación y estilo arcade.",
     "incluye": [],
     "serie": [
@@ -43734,7 +43431,7 @@
     "distribuidor": [
       "Konami"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en tercera persona ambientado en un futuro oscuro dominado por máquinas y fuerzas mecánicas hostiles. El jugador controla a un guerrero equipado con un poderoso arsenal mientras combate contra ejércitos de robots en escenarios industriales y post-apocalípticos. El juego combina acción intensa, grandes enfrentamientos contra enemigos mecanizados y un diseño visual muy influenciado por la estética industrial y biomecánica característica de principios de los años 2000.",
     "incluye": [],
     "serie": [
@@ -43764,7 +43461,7 @@
     "distribuidor": [
       "Playlogic Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción en tercera persona en el que el jugador controla a Ryan Lennox, un agente secreto que tras morir es resucitado por fuerzas infernales y obtiene poderes demoníacos. Con nuevas habilidades sobrenaturales, como manipulación de energía infernal y resistencia sobrehumana, el protagonista se enfrenta a organizaciones secretas y enemigos humanos mientras intenta descubrir la verdad sobre su destino. El juego mezcla combate con armas de fuego, poderes sobrenaturales y una ambientación oscura influenciada por el conflicto entre fuerzas celestiales e infernales.",
     "incluye": [],
     "serie": [
@@ -43797,7 +43494,7 @@
       "Eidos Interactive",
       "Proein"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Segunda entrega de la saga Hitman en la que el jugador vuelve a encarnar al Agente 47, un asesino clonado genéticamente que intenta abandonar su vida de sicario refugiándose en un monasterio en Sicilia. Sin embargo, tras el secuestro de su amigo el padre Vittorio, se ve obligado a regresar al mundo de los contratos. El juego introduce un fuerte enfoque en el sigilo, permitiendo completar las misiones de múltiples formas: disfrazándose, utilizando venenos, accidentes o eliminando objetivos con armas de fuego. Las misiones transcurren en diversos países y escenarios, consolidando el estilo sandbox característico de la serie.",
     "incluye": [],
     "serie": [
@@ -43828,7 +43525,7 @@
       "Digital Jesters",
       "Planeta DeAgostini Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter táctico ambientado en la Guerra de Vietnam en el que el jugador forma parte de una unidad especial de operaciones encubiertas. En Black-out Saigon el objetivo es infiltrarse en territorio enemigo para realizar misiones de sabotaje, rescate y eliminación de objetivos estratégicos. El juego combina acción en primera persona con elementos tácticos, permitiendo coordinar a un pequeño escuadrón, utilizar diferentes tipos de armamento militar y planificar los ataques. La ambientación recrea escenarios del sudeste asiático durante el conflicto, con combates intensos y misiones centradas en operaciones especiales.",
     "incluye": [],
     "serie": [
@@ -43860,7 +43557,7 @@
     "distribuidor": [
       "The Adventure Company"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura en primera persona centrada en la exploración y la resolución de enigmas inspirados en misterios históricos y arqueológicos. En The Omega Stone el jugador investiga antiguas civilizaciones y monumentos del mundo en busca de una poderosa reliquia capaz de alterar el destino de la humanidad. El juego propone un ritmo pausado basado en la observación del entorno, la interpretación de símbolos y la resolución de rompecabezas relacionados con culturas antiguas. Su ambientación mezcla elementos históricos, mitológicos y esotéricos en una experiencia cercana a los clásicos juegos de exploración y misterio.",
     "incluye": [],
     "serie": [
@@ -43893,7 +43590,7 @@
     "distribuidor": [
       "Konami"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de 2009 de la popular saga de simulación futbolística Pro Evolution Soccer. PES 2010 introdujo mejoras importantes en el realismo del juego, con un sistema de control más preciso, físicas del balón más avanzadas y una inteligencia artificial mejorada que hace que los equipos reaccionen de forma más estratégica durante los partidos. Incluye competiciones oficiales como la UEFA Champions League y la UEFA Europa League, además de múltiples modos de juego entre los que destacan Liga Master, exhibición y multijugador. El juego continúa la tradición de la serie ofreciendo una experiencia de fútbol centrada en la jugabilidad y el control técnico del balón.",
     "incluye": [],
     "serie": [
@@ -43925,7 +43622,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de 2002 de la popular saga de fútbol de Electronic Arts. FIFA Football 2003 introdujo mejoras importantes en el motor de juego respecto a entregas anteriores, incorporando un sistema de control más preciso, nuevas animaciones y una inteligencia artificial más avanzada para los equipos. El juego incluye numerosas ligas y selecciones nacionales licenciadas, así como estadios reales y comentarios dinámicos. También amplía los modos de juego clásicos de la serie, permitiendo disputar temporadas completas, torneos internacionales y partidos rápidos con una presentación televisiva característica de la franquicia.",
     "incluye": [],
     "serie": [
@@ -43956,7 +43653,7 @@
     "distribuidor": [
       "Black Bean Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de conducción centrado exclusivamente en vehículos de la marca italiana Alfa Romeo. SCAR: Squadra Corse Alfa Romeo propone competir en campeonatos oficiales utilizando modelos históricos y modernos del fabricante, desde turismos de competición hasta coches deportivos de calle. El juego combina conducción arcade con ciertos elementos de simulación y ofrece circuitos reales e inspirados en localizaciones europeas. El progreso se estructura a través de campeonatos en los que el jugador debe ganar carreras, mejorar su posición en la clasificación y desbloquear nuevos vehículos dentro del universo deportivo de Alfa Romeo.",
     "incluye": [],
     "serie": [
@@ -43986,7 +43683,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de 2007 de la longeva saga futbolística de Electronic Arts. FIFA 08 introdujo mejoras importantes en el control del balón y en la inteligencia artificial de los jugadores, ofreciendo partidos más fluidos y realistas. Incluye más de 30 ligas oficiales, cientos de equipos licenciados y estadios reales, además de modos de juego como Carrera, torneos personalizados y multijugador. La edición para PC utiliza el motor de juego clásico de la serie anterior a la transición completa al motor de nueva generación que llegaría en años posteriores.",
     "incluye": [],
     "serie": [
@@ -44020,7 +43717,7 @@
     "distribuidor": [
       "Sierra Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en un universo de espionaje inspirado en las películas y series de espías de los años sesenta. El jugador controla nuevamente a Cate Archer, agente de la organización UNITY, que debe enfrentarse a la organización criminal H.A.R.M. en una serie de misiones repartidas por diferentes lugares del mundo. El juego combina acción, sigilo y gadgets de espionaje, permitiendo abordar los niveles de distintas formas. Con un estilo visual muy marcado, humor característico y diseño de niveles variado, No One Lives Forever 2 es considerado uno de los títulos más recordados del género en PC.",
     "incluye": [],
     "serie": [
@@ -44051,7 +43748,7 @@
     "distribuidor": [
       "Cryo Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica inspirada en la obra literaria de Paulo Coelho y ambientada en el Oriente medieval. El jugador se adentra en la fortaleza de Alamut, un lugar cargado de misterio y simbolismo donde deberá resolver enigmas, explorar diferentes escenarios y descubrir secretos relacionados con antiguas órdenes y conocimientos ocultos. El juego combina exploración en primera persona, rompecabezas y una narrativa basada en temas espirituales y filosóficos presentes en la obra del autor.",
     "incluye": [],
     "serie": [
@@ -44084,7 +43781,7 @@
       "Micro Application",
       "Friendware"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica inspirada en la famosa novela de Julio Verne. El jugador controla a Ariane, una joven que se ve arrastrada a un misterioso mundo subterráneo tras descubrir un pasaje oculto hacia el interior de la Tierra. A lo largo de la aventura deberá explorar ciudades ocultas, resolver numerosos enigmas y descubrir los secretos de civilizaciones que habitan bajo la superficie. El juego se desarrolla en primera persona y se centra en la exploración, la resolución de rompecabezas y la narrativa inspirada en el universo literario de Verne.",
     "incluye": [],
     "serie": [
@@ -44114,7 +43811,7 @@
     "distribuidor": [
       "Anaconda"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica ambientada en la Alemania de 1943 durante la Segunda Guerra Mundial. El jugador encarna a John Russell, un físico estadounidense que viaja a Berlín para investigar la desaparición de su padre, un científico involucrado en proyectos secretos del régimen nazi. A lo largo de la historia deberá infiltrarse en distintos lugares, resolver enigmas y descubrir una conspiración relacionada con el desarrollo de un arma secreta conocida como Wintersun. El juego combina exploración, diálogos con personajes y resolución de rompecabezas dentro de una trama de espionaje y suspense.",
     "incluye": [],
     "serie": [
@@ -44144,7 +43841,7 @@
     "distribuidor": [
       "cdv Software Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Tercera entrega de la saga de estrategia en tiempo real Sudden Strike, ambientada en la Segunda Guerra Mundial. El jugador dirige fuerzas militares en diferentes campañas históricas controlando unidades de infantería, vehículos blindados, artillería y aviación. Sudden Strike 3 introduce un motor gráfico completamente renovado respecto a las entregas anteriores, con escenarios en 3D, físicas mejoradas y mapas más amplios. Las misiones requieren planificación táctica, uso adecuado del terreno y coordinación entre diferentes tipos de unidades para lograr la victoria en el campo de batalla.",
     "incluye": [],
     "serie": [
@@ -44178,7 +43875,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de 2003 de la popular serie futbolística de Electronic Arts. FIFA Football 2004 introdujo el sistema de juego denominado Off the Ball, que permitía controlar a un jugador sin balón para crear espacios, desmarques y jugadas más elaboradas. El título incluye numerosas ligas y equipos licenciados, estadios reales y varios modos de juego como temporadas, torneos y partidos amistosos. Supuso una evolución importante dentro de la saga al ampliar las posibilidades tácticas durante el juego.",
     "incluye": [],
     "serie": [
@@ -44211,7 +43908,7 @@
     "distribuidor": [
       "Sierra Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en el mismo universo que la saga No One Lives Forever. El jugador controla a John Jack, un mercenario contratado por la organización criminal H.A.R.M. para llevar a cabo diversas misiones alrededor del mundo. A diferencia de los títulos principales de la serie, Contract J.A.C.K. se centra más en la acción directa que en el sigilo, ofreciendo niveles llenos de combates, persecuciones y uso intensivo de armamento. El juego mantiene el estilo de espionaje y el humor característico del universo creado por Monolith.",
     "incluye": [],
     "serie": [
@@ -44243,7 +43940,7 @@
     "distribuidor": [
       "JoWooD Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de rol de acción ambientado en el universo de la saga Gothic. En Arcania: Gothic 4 el jugador encarna a un héroe cuyo destino se entrelaza con los acontecimientos que sacuden el reino de Myrtana. La historia continúa los sucesos de títulos anteriores de la serie y presenta un mundo de fantasía lleno de criaturas, mazmorras y conflictos políticos. El juego ofrece exploración en un entorno abierto, combate en tiempo real, desarrollo de habilidades y misiones que permiten descubrir los secretos del continente y enfrentarse a poderosos enemigos.",
     "incluye": [],
     "serie": [
@@ -44274,7 +43971,7 @@
     "distribuidor": [
       "JoWooD Productions"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Tercera entrega de la saga de rol Gothic, ambientada en un amplio mundo abierto de fantasía medieval. Tras los acontecimientos de Gothic II, el continente de Myrtana ha sido conquistado por los orcos y el jugador debe decidir si luchar por la liberación de los humanos o colaborar con los nuevos gobernantes. Gothic 3 ofrece un enorme mundo explorable sin pantallas de carga, múltiples facciones con las que interactuar y una gran libertad para afrontar misiones y desarrollar al personaje. El sistema de combate en tiempo real, la exploración y las decisiones del jugador influyen directamente en el desarrollo de la historia.",
     "incluye": [],
     "serie": [
@@ -44304,7 +44001,7 @@
     "distribuidor": [
       "Midway Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en tercera persona dirigido por el cineasta John Woo y protagonizado por el personaje del inspector Tequila, interpretado por Chow Yun-fat, retomando su papel de la película Hard Boiled. El juego se caracteriza por su estilo cinematográfico y su acción espectacular inspirada en el cine de Hong Kong, con tiroteos acrobáticos, ralentizaciones y destrucción del entorno. Utilizando el motor Unreal Engine 3, Stranglehold permite al jugador realizar saltos, deslizamientos y disparos en cámara lenta mientras se enfrenta a numerosos enemigos en escenarios altamente destructibles.",
     "incluye": [],
     "serie": [
@@ -44337,7 +44034,7 @@
     "distribuidor": [
       "SEGA"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter arcade sobre raíles en el que los jugadores deben enfrentarse a hordas de zombis y criaturas mutantes utilizando armas de fuego mientras avanzan automáticamente por distintos escenarios. Originalmente lanzado en recreativas por SEGA, The House of the Dead II se convirtió en uno de los títulos de acción arcade más populares de finales de los años noventa. La versión para PC mantiene la jugabilidad directa y frenética del original, permitiendo partidas en solitario o cooperativas y ofreciendo múltiples rutas y finales dependiendo de las decisiones del jugador durante la partida.",
     "incluye": [],
     "serie": [
@@ -44368,7 +44065,7 @@
     "distribuidor": [
       "ZetaGames"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de conducción centrado en el mundo del karting, desarrollado con la colaboración del piloto de Fórmula 1 Michael Schumacher. El título permite competir en diferentes circuitos inspirados en pistas reales de karting, utilizando distintos modelos de karts y modos de juego tanto individuales como multijugador. Con un enfoque más técnico que arcade, el juego intenta recrear la física y las sensaciones del karting competitivo, disciplina en la que muchos pilotos profesionales, incluido Schumacher, comenzaron su carrera.",
     "incluye": [],
     "serie": [
@@ -44400,7 +44097,7 @@
     "distribuidor": [
       "SEGA"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de tenis arcade desarrollado por SEGA que se convirtió en uno de los títulos deportivos más populares de comienzos de los años 2000. Virtua Tennis destaca por su jugabilidad rápida y accesible, controles sencillos y partidos muy dinámicos. Incluye varios tenistas profesionales de la época, entre ellos Carlos Moyá, y diferentes superficies de juego como tierra batida, hierba y pista dura. Además del modo torneo, el juego incorpora divertidos minijuegos de entrenamiento que se convirtieron en una de las señas de identidad de la saga.",
     "incluye": [],
     "serie": [
@@ -44432,7 +44129,7 @@
     "distribuidor": [
       "Deep Silver"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y supervivencia en primera persona ambientado en un archipiélago tropical devastado por una epidemia zombi. Dead Island: Riptide continúa los acontecimientos del primer juego y vuelve a poner al jugador en la piel de varios supervivientes inmunes al virus que deben abrirse paso entre hordas de infectados. El título combina combate cuerpo a cuerpo, armas improvisadas, exploración y cooperación multijugador mientras los protagonistas intentan escapar de una nueva isla infestada de criaturas mutadas.",
     "incluye": [],
     "serie": [
@@ -44462,7 +44159,7 @@
     "distribuidor": [
       "Digital Jesters"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en una plataforma petrolífera situada en medio del océano. El protagonista, un buzo llamado Jack Hard, se ve envuelto accidentalmente en una conspiración criminal relacionada con un misterioso experimento submarino. Red Ocean combina combate con armas de fuego, exploración de instalaciones industriales y secciones bajo el agua que añaden variedad a la jugabilidad. El juego utiliza el motor gráfico de Aquanox y destaca por sus escenarios acuáticos y por una historia que mezcla acción con ciencia ficción.",
     "incluye": [],
     "serie": [
@@ -44494,7 +44191,7 @@
     "distribuidor": [
       "2K Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y aventura ambientado en los años cuarenta y cincuenta en la ciudad ficticia de Empire Bay. El jugador controla a Vito Scaletta, un inmigrante italoamericano que se introduce en el mundo del crimen organizado junto a su amigo Joe Barbaro. Mafia II combina misiones narrativas, conducción de vehículos clásicos y tiroteos en tercera persona dentro de una ciudad inspirada en las grandes urbes estadounidenses de la época. El juego destaca por su ambientación histórica, su narrativa cinematográfica y la recreación detallada del ambiente de la mafia durante la posguerra.",
     "incluye": [],
     "serie": [
@@ -44527,7 +44224,7 @@
     "distribuidor": [
       "LudisGames"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador espacial de mundo abierto en el que el jugador puede explorar una extensa galaxia, comerciar, combatir y construir su propio imperio económico. En X²: La Amenaza el jugador pilota diferentes naves espaciales mientras interactúa con múltiples razas y facciones, gestionando rutas comerciales, estaciones industriales y flotas. El juego combina simulación espacial con elementos estratégicos y una narrativa de ciencia ficción que continúa la historia iniciada en X: Beyond the Frontier.",
     "incluye": [],
     "serie": [
@@ -44559,7 +44256,7 @@
     "distribuidor": [
       "Deep Silver"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de rol de acción ambientado en una isla volcánica llena de ruinas antiguas, criaturas peligrosas y misterios sobrenaturales. En Risen el jugador controla a un náufrago que debe abrirse camino en un mundo abierto donde diferentes facciones compiten por el control del territorio. Las decisiones del jugador influyen en la historia y en las alianzas disponibles, mientras se desarrollan habilidades de combate, magia y supervivencia. El título mantiene el estilo clásico de los RPG europeos con gran libertad de exploración y múltiples formas de resolver las misiones.",
     "incluye": [],
     "serie": [
@@ -44590,7 +44287,7 @@
     "distribuidor": [
       "Neo Juegos"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona en el que el jugador asume el papel de un agente del Servicio Secreto estadounidense encargado de proteger al presidente durante una serie de atentados y conspiraciones. La historia se desarrolla en diversos escenarios urbanos y edificios gubernamentales donde el jugador debe enfrentarse a terroristas, rescatar rehenes y evitar ataques contra figuras políticas. El juego combina combate armado, misiones de protección y situaciones de crisis inspiradas en el trabajo de los agentes de seguridad presidencial.",
     "incluye": [],
     "serie": [
@@ -44622,7 +44319,7 @@
     "distribuidor": [
       "ZetaGames"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de conducción de camiones en el que el jugador debe transportar mercancías a través de diferentes ciudades mientras compite contra otros camioneros por convertirse en el rey de la carretera. King of the Road combina elementos de simulación con aspectos más arcade, permitiendo participar en carreras ilegales, mejorar el camión, gestionar entregas y enfrentarse a rivales en la carretera. El juego forma parte de la serie Hard Truck y ofrece un mundo abierto donde el objetivo es dominar las rutas comerciales y ganar reputación entre los conductores.",
     "incluye": [],
     "serie": [
@@ -44653,7 +44350,7 @@
     "distribuidor": [
       "Mastertronic"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción en tercera persona ambientado en el mundo del crimen organizado estadounidense. El jugador controla a Joey Verola, un soldado de la mafia cuya historia se desarrolla a lo largo de varias décadas, desde la guerra de Vietnam hasta su ascenso dentro de una familia criminal. Made Man combina tiroteos, misiones urbanas y narrativa cinematográfica mientras el protagonista intenta ganar respeto dentro de la organización. El juego mezcla escenarios de guerra y ambientes de crimen organizado en Estados Unidos durante los años setenta y ochenta.",
     "incluye": [],
     "serie": [
@@ -44684,7 +44381,7 @@
     "distribuidor": [
       "Pan Vision"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y terror en primera persona ambientado en la Transilvania del siglo XIX. El jugador controla a James Patterson, un aristócrata que debe infiltrarse en un castillo infestado de vampiros y criaturas sobrenaturales para rescatar a su prometida y a su familia. Nosferatu combina combate cuerpo a cuerpo, armas de época y una ambientación gótica muy marcada. Destaca por su sistema de generación procedural de habitaciones dentro del castillo, lo que hace que cada partida tenga una distribución diferente.",
     "incluye": [],
     "serie": [
@@ -44716,7 +44413,7 @@
     "distribuidor": [
       "Black Label Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y terror en tercera persona inspirado directamente en la película de culto de John Carpenter de 1982. La historia actúa como secuela del film y sitúa al jugador en el papel del capitán Blake, líder de un equipo militar enviado a investigar los restos de la base científica en la Antártida donde ocurrieron los sucesos de la película. El juego introduce un sistema de confianza y miedo entre los miembros del equipo: los soldados pueden entrar en pánico o incluso estar infectados por la criatura, lo que añade tensión constante durante la exploración y los combates.",
     "incluye": [],
     "serie": [
@@ -44747,7 +44444,7 @@
     "distribuidor": [
       "Codemasters"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de rally desarrollado por Codemasters que forma parte de la prestigiosa serie Colin McRae Rally. El juego introduce un motor gráfico completamente renovado respecto a entregas anteriores y se centra especialmente en el Campeonato Mundial de Rally con vehículos oficiales de la época, incluyendo el Ford Focus WRC. Destaca por su sistema de daños, las condiciones climáticas variables y la importancia de las notas del copiloto durante los tramos. Colin McRae Rally 3 consolidó la saga como una de las referencias del género en PC y consolas a principios de los años 2000.",
     "incluye": [],
     "serie": [
@@ -44779,7 +44476,7 @@
     "distribuidor": [
       "Microïds"
     ],
-    "ean": "8436016710008",
+    "ean": ["8436016710008"],
     "descripcion": "Aventura gráfica ambientada en la Francia del siglo XVI durante el reinado de Catalina de Médici. El jugador encarna a Madeleine de Nostradame, hija del célebre astrólogo Nostradamus, quien debe investigar una serie de profecías relacionadas con una posible amenaza contra la corona. El juego combina investigación histórica, resolución de puzles y exploración de escenarios detallados inspirados en la época renacentista. Nostradamus: La Última Profecía destaca por su ambientación histórica, el uso de instrumentos científicos y alquímicos reales y una narrativa centrada en conspiraciones y predicciones.",
     "incluye": [],
     "serie": [
@@ -44813,7 +44510,7 @@
     "distribuidor": [
       "Mastertronic"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en tercera persona ambientado en una versión alternativa de la Segunda Guerra Mundial donde el ejército nazi ha liberado una horda de zombis para intentar cambiar el curso de la guerra. El jugador asume el papel de un francotirador aliado que debe abrirse paso por una Berlín devastada mientras combate oleadas de enemigos sobrenaturales. El juego combina la mecánica de francotirador característica de la saga Sniper Elite con una jugabilidad cooperativa centrada en la supervivencia frente a hordas de zombis.",
     "incluye": [],
     "serie": [
@@ -44844,7 +44541,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter táctico en primera persona perteneciente a la conocida saga Rainbow Six de Tom Clancy. Ambientado en Las Vegas, el jugador lidera un equipo de operaciones especiales encargado de detener a una organización terrorista que amenaza la ciudad. El juego combina acción intensa con planificación táctica, uso de coberturas y coordinación de escuadras. Introduce además un sistema de progresión que recompensa el estilo de juego del jugador, permitiendo desbloquear equipamiento y habilidades a medida que se completan las misiones.",
     "incluye": [],
     "serie": [
@@ -44875,7 +44572,7 @@
     "distribuidor": [
       "ZetaGames"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de estrategia en tiempo real ambientado en un conflicto ficticio por el control de los recursos energéticos mundiales. El jugador dirige una de las tres facciones disponibles —Estados Unidos, Rusia o Irak— en una guerra global centrada en el control del petróleo. World War III: Black Gold combina construcción de bases, gestión de recursos y combate con unidades militares modernas como tanques, helicópteros y sistemas de defensa. El juego utiliza el motor Earth Engine desarrollado por Reality Pump y presenta campañas para cada bando con un enfoque en conflictos contemporáneos.",
     "incluye": [],
     "serie": [
@@ -44906,7 +44603,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción en tercera persona basado en la película Catwoman protagonizada por Halle Berry. El jugador controla a la ladrona felina mientras explora distintos escenarios urbanos utilizando sus habilidades acrobáticas, ataques con látigo y movimientos ágiles inspirados en el sigilo y el combate cuerpo a cuerpo. El juego combina plataformas, combate y exploración mientras Catwoman se enfrenta a enemigos y resuelve situaciones en entornos inspirados en la película.",
     "incluye": [],
     "serie": [
@@ -44937,7 +44634,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de conducción perteneciente a la popular saga Need for Speed que adopta un enfoque más cercano a la simulación que las entregas arcade tradicionales de la serie. El jugador compite en circuitos cerrados con coches deportivos reales mientras progresa en una carrera profesional dentro del automovilismo. Need for Speed: Shift destaca por su física más realista, su sistema de daños y su cámara interior dinámica que intenta transmitir las sensaciones del piloto durante las carreras.",
     "incluye": [],
     "serie": [
@@ -44969,7 +44666,7 @@
     "distribuidor": [
       "SEGA"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en tercera persona centrado en la acción arcade donde el jugador participa en una organización clandestina conocida como The Club, en la que criminales y mercenarios combaten en escenarios cerrados mientras millonarios apuestan por los resultados. El juego se basa en un sistema de puntuación que recompensa la velocidad y la precisión al eliminar enemigos encadenando combos. Con un estilo muy directo y frenético, The Club mezcla mecánicas de shooter clásico con un diseño de niveles pensado para mantener la acción constante.",
     "incluye": [],
     "serie": [
@@ -44998,7 +44695,7 @@
     "distribuidor": [
       "Atari"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de conducción centrado en el campeonato oficial FIA GT. GTR 2 destaca por su enfoque realista en la física de los vehículos, el desgaste de neumáticos, las condiciones meteorológicas dinámicas y el ciclo completo de día y noche durante las carreras de resistencia. Considerado uno de los simuladores de conducción más realistas de su época, incluye más de 140 coches recreados con gran fidelidad y numerosos circuitos oficiales del campeonato.",
     "incluye": [],
     "serie": [
@@ -45029,7 +44726,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción en mundo abierto ambientado en un conflicto ficticio en Venezuela donde el jugador asume el papel de un mercenario que trabaja para distintas facciones. Mercenaries 2 permite utilizar una enorme variedad de vehículos militares, armas pesadas y ataques aéreos mientras el jugador destruye infraestructuras y objetivos en entornos totalmente destructibles. El título apuesta por un enfoque muy arcade y explosivo, permitiendo llamar suministros, vehículos o bombardeos mediante el sistema de apoyo militar característico de la saga.",
     "incluye": [],
     "serie": [
@@ -45060,7 +44757,7 @@
     "distribuidor": [
       "JoWooD Productions"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en un thriller moderno en el que dos agentes intentan evitar un ataque terrorista global. El juego combina misiones de acción intensa con una narrativa cinematográfica que alterna entre dos protagonistas, cada uno con su propio estilo de combate. Ambientado en escenarios urbanos y militares, el título utiliza el motor gráfico Chrome Engine para ofrecer combates rápidos, armas modernas y secuencias de acción inspiradas en películas de acción contemporáneas.",
     "incluye": [],
     "serie": [
@@ -45091,7 +44788,7 @@
     "distribuidor": [
       "Rockstar Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción en mundo abierto ambientado en Vice City, una ciudad ficticia inspirada en Miami durante los años 80. El jugador controla a Tommy Vercetti, un criminal recién salido de prisión que intenta construir su propio imperio dentro del mundo del crimen organizado. El juego combina misiones narrativas, conducción libre por la ciudad, combate con armas de fuego y una gran variedad de actividades secundarias. Su ambientación ochentera, su banda sonora licenciada y su narrativa inspirada en el cine de mafias lo convirtieron en uno de los títulos más influyentes de su generación.",
     "incluye": [],
     "serie": [
@@ -45121,7 +44818,7 @@
     "distribuidor": [
       "Midway Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción en mundo abierto ambientado en una versión ficticia de Barcelona donde el jugador controla a Milo Burik, un conductor experto interpretado por el actor Vin Diesel. El juego combina persecuciones a alta velocidad, tiroteos y espectaculares acrobacias con vehículos mientras el protagonista se infiltra en organizaciones criminales. Wheelman destaca por su sistema de conducción arcade centrado en maniobras cinematográficas como embestidas laterales, saltos y cambios de vehículo en plena persecución.",
     "incluye": [],
     "serie": [
@@ -45152,7 +44849,7 @@
     "distribuidor": [
       "On Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "RPG de acción en tercera persona ambientado en un universo de ciencia ficción donde el jugador controla a Sabotain, un guerrero modificado genéticamente creado para combatir en un conflicto interplanetario. El juego combina exploración, combate con armas futuristas, desarrollo de habilidades y decisiones que afectan a la historia. A diferencia de muchos RPG de la época, Sabotain mezcla mecánicas de shooter con progresión de personaje y misiones abiertas dentro de estaciones espaciales y colonias. Destaca por su ambientación cyberpunk y por ofrecer múltiples formas de completar las misiones.",
     "incluye": [],
     "serie": [
@@ -45182,7 +44879,7 @@
     "distribuidor": [
       "Cenega"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en tercera persona ambientado en el mundo del narcotráfico latinoamericano donde el jugador encarna a un agente especial infiltrado en un poderoso cártel de la droga. El juego combina tiroteos intensos con mecánicas de acción cinematográfica como el uso de cámara lenta, saltos acrobáticos y coberturas durante los enfrentamientos. La historia se desarrolla a través de misiones que llevan al protagonista desde operaciones encubiertas hasta asaltos directos contra organizaciones criminales, con un estilo claramente inspirado en el cine de acción de principios de los años 2000.",
     "incluye": [],
     "serie": [
@@ -45213,7 +44910,7 @@
     "distribuidor": [
       "THQ"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Cuarta entrega de la conocida saga de aventuras gráficas Broken Sword. En esta ocasión el protagonista George Stobbart trabaja como abogado en Nueva York cuando se ve envuelto nuevamente en una conspiración internacional relacionada con artefactos antiguos y sociedades secretas. El juego combina exploración, resolución de puzles y diálogos con múltiples personajes mientras la historia lleva al jugador a distintos lugares del mundo. A diferencia de las primeras entregas de la serie, utiliza gráficos tridimensionales manteniendo el estilo clásico de investigación y narrativa característico de la saga.",
     "incluye": [],
     "serie": [
@@ -45244,7 +44941,7 @@
     "distribuidor": [
       "Gathering of Developers"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter táctico ambientado en la Segunda Guerra Mundial donde el jugador dirige un pequeño escuadrón de comandos de las fuerzas especiales británicas SAS. A diferencia de los shooters más arcade de la época, Hidden & Dangerous 2 apuesta por una jugabilidad estratégica basada en la planificación de misiones, gestión del equipo y coordinación entre los miembros del escuadrón. Las operaciones llevan al jugador a distintos escenarios del conflicto global, incluyendo Europa, África y Asia, combinando infiltración, sabotaje y combate directo. El juego es conocido por su alto nivel de realismo táctico y por ofrecer múltiples formas de abordar cada misión.",
     "incluye": [],
     "serie": [
@@ -45274,7 +44971,7 @@
     "distribuidor": [
       "Codemasters"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en una línea temporal alternativa en la que Winston Churchill muere antes de convertirse en primer ministro y la Alemania nazi logra invadir Europa occidental y posteriormente Estados Unidos. El jugador encarna a un trabajador de la construcción que termina uniéndose a la resistencia americana tras la invasión de Nueva York. A lo largo de la campaña se combaten tropas alemanas en distintos escenarios de Estados Unidos mientras el jugador participa en la lucha por recuperar la libertad del país.",
     "incluye": [],
     "serie": [
@@ -45305,7 +45002,7 @@
     "distribuidor": [
       "Microids"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica de suspense que continúa la historia del primer Still Life. El juego alterna entre dos protagonistas: la agente del FBI Victoria McPherson y una periodista que investiga a un peligroso asesino en serie conocido como el East Coast Killer. A través de exploración, resolución de puzles y análisis de pruebas, el jugador debe reconstruir los crímenes y evitar nuevas víctimas. La narrativa se centra en la tensión psicológica y el desarrollo de la investigación mientras ambas historias se entrelazan.",
     "incluye": [],
     "serie": [
@@ -45337,7 +45034,7 @@
     "distribuidor": [
       "Deep Silver"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura de terror ambientada en el Himalaya donde el jugador encarna a Eric Simmons, un montañero que viaja a una remota región del Tíbet en busca de su hermano desaparecido durante una expedición. A lo largo del ascenso a una montaña considerada maldita, el protagonista se enfrenta a espíritus inquietos, fenómenos sobrenaturales y rituales relacionados con la tradición budista tibetana. El juego combina exploración, resolución de puzles y enfrentamientos contra entidades espirituales en una historia centrada en la culpa, la redención y el misterio.",
     "incluye": [],
     "serie": [
@@ -45368,7 +45065,7 @@
     "distribuidor": [
       "Arush Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en un futuro distópico donde una megacorporación controla gran parte del mundo tras una devastadora guerra. El jugador forma parte de un grupo de resistencia que lucha contra el régimen corporativo utilizando armamento avanzado y tácticas de guerrilla urbana. El juego destaca por el uso del motor Unreal Engine y por introducir mecánicas de equipo en las que es posible dar órdenes a compañeros controlados por inteligencia artificial durante las misiones.",
     "incluye": [],
     "serie": [
@@ -45399,7 +45096,7 @@
       "Eidos Interactive",
       "Warner Bros. Interactive Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y aventura ambientado en el universo de Batman donde el Caballero Oscuro debe enfrentarse a una rebelión en el hospital psiquiátrico de Arkham. Tras la captura del Joker, una serie de eventos desencadena un motín que libera a muchos de los villanos más peligrosos de Gotham. El jugador explora las distintas áreas del complejo utilizando habilidades de combate, sigilo y gadgets característicos de Batman mientras investiga pistas y derrota a enemigos emblemáticos del universo DC.",
     "incluye": [],
     "serie": [
@@ -45431,7 +45128,7 @@
     "distribuidor": [
       "CDV Software Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción ambientado en el salvaje oeste donde el jugador controla a diferentes pistoleros que se enfrentan a forajidos y bandidos en escenarios típicos del western. El juego combina tiroteos rápidos con misiones de estilo arcade en las que se recorren pueblos, desiertos y fortines mientras se eliminan enemigos y se completan objetivos. Wanted Guns apuesta por una jugabilidad directa y rápida inspirada en los clásicos shooters de temática western.",
     "incluye": [],
     "serie": [
@@ -45461,7 +45158,7 @@
     "distribuidor": [
       "DreamCatcher Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y sigilo ambientado durante la Guerra Fría en el que el jugador encarna a Matthew Carter, un periodista estadounidense que se ve envuelto en una conspiración internacional tras viajar a Moscú para investigar un reportaje. Tras ser capturado por el KGB, Carter debe escapar y descubrir una trama secreta relacionada con experimentos mentales y control psicológico. El juego combina infiltración, uso de gadgets improvisados y resolución de situaciones mediante diferentes enfoques mientras el protagonista intenta sobrevivir tras el Telón de Acero.",
     "incluye": [],
     "serie": [
@@ -45491,7 +45188,7 @@
     "distribuidor": [
       "Activision"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción basado en el personaje de Marvel Wolverine que sigue, y amplía, la historia presentada en la película X-Men Origins: Wolverine. El jugador controla a Lobezno mientras recorre distintos escenarios enfrentándose a enemigos utilizando sus garras y habilidades regenerativas. La versión Uncaged Edition incluye combates más violentos, ataques especiales y secuencias adicionales no presentes en otras versiones. El sistema de combate permite encadenar combos, realizar ejecuciones y utilizar el entorno para derrotar a los enemigos.",
     "incluye": [],
     "serie": [
@@ -45523,7 +45220,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción basado en la película El Señor de los Anillos: El Retorno del Rey que permite al jugador participar en algunas de las batallas más importantes de la Guerra del Anillo. El juego combina combates cuerpo a cuerpo, uso de habilidades especiales y progresión de personajes mientras se controlan distintos héroes de la saga como Aragorn, Legolas, Gimli, Gandalf o Frodo. Las misiones recrean escenas clave de la película, incluyendo la defensa de Minas Tirith y la batalla de los Campos del Pelennor.",
     "incluye": [],
     "serie": [
@@ -45554,7 +45251,7 @@
     "distribuidor": [
       "Konami"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter táctico inspirado en las operaciones reales del Special Air Service (SAS) británico. El juego sitúa al jugador al mando de un pequeño equipo de fuerzas especiales que debe intervenir en diferentes escenarios de crisis, incluyendo rescates de rehenes y operaciones antiterroristas. Las misiones combinan planificación, uso de equipamiento especializado y coordinación de escuadrones para neutralizar amenazas en entornos urbanos y complejos.",
     "incluye": [],
     "serie": [
@@ -45585,7 +45282,7 @@
     "distribuidor": [
       "Wanadoo Edition"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en un futuro cercano donde los videojuegos competitivos se han convertido en un deporte extremo. El jugador participa en violentos torneos virtuales donde debe enfrentarse a hordas de enemigos en arenas cerradas. Firestarter mezcla mecánicas clásicas de los FPS de estilo arena con elementos de progresión, permitiendo mejorar habilidades y equipamiento a medida que se superan los diferentes desafíos.",
     "incluye": [],
     "serie": [
@@ -45616,7 +45313,7 @@
     "distribuidor": [
       "Activision"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción protagonizado por Wolverine basado en el universo de la película X2: X-Men United. El jugador controla a Lobezno en misiones que continúan los acontecimientos de la película, enfrentándose a diferentes enemigos y organizaciones hostiles mientras utiliza sus garras de adamantium y su capacidad de regeneración. El título combina combates cuerpo a cuerpo, exploración de escenarios y elementos narrativos centrados en el pasado y las habilidades del personaje.",
     "incluye": [],
     "serie": [
@@ -45646,7 +45343,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de la saga Need for Speed centrada exclusivamente en la historia y evolución de los automóviles Porsche. El juego permite conducir numerosos modelos de la marca alemana desde los años 50 hasta finales de los 90, combinando carreras, pruebas contrarreloj y el modo Evolution, donde el jugador progresa a través de distintas eras de Porsche desbloqueando nuevos vehículos y mejoras. Destaca por su enfoque más realista en la conducción y por recrear fielmente el comportamiento de los distintos modelos.",
     "incluye": [],
     "serie": [
@@ -45678,7 +45375,7 @@
     "distribuidor": [
       "Microsoft Game Studios"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de tenis que recrea partidos profesionales con un enfoque accesible pero realista. El jugador puede competir en torneos internacionales controlando a diferentes tenistas profesionales o creando su propio jugador para avanzar en el circuito. Top Spin destaca por su sistema de control basado en distintos tipos de golpeo, así como por incluir modos multijugador y una progresión que permite mejorar las habilidades del tenista a lo largo de la temporada.",
     "incluye": [],
     "serie": [
@@ -45708,7 +45405,7 @@
     "distribuidor": [
       "Deep Silver"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter en primera persona ambientado en el universo de Chrome donde el jugador forma parte de las fuerzas especiales SpecForce. A diferencia del juego original, esta entrega se centra en misiones más tácticas y en escenarios cerrados donde se combinan combates intensos, infiltración y uso de equipamiento avanzado. El título mantiene la ambientación de ciencia ficción del universo Chrome y permite utilizar mejoras tecnológicas y armas futuristas durante las operaciones.",
     "incluye": [],
     "serie": [
@@ -45738,7 +45435,7 @@
     "distribuidor": [
       "Disney Interactive Studios"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de carreras arcade centrado en competiciones de quads todoterreno donde el jugador participa en espectaculares carreras a través de entornos naturales como desiertos, montañas y bosques. Pure destaca por su enfoque en saltos gigantes y acrobacias aéreas que permiten encadenar trucos para ganar velocidad y ventaja sobre los rivales. El juego incluye modos de campeonato, personalización de vehículos y circuitos diseñados para favorecer maniobras espectaculares.",
     "incluye": [],
     "serie": [
@@ -45769,7 +45466,7 @@
     "distribuidor": [
       "Activision"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de carreras arcade que mezcla conducción con mecánicas de combate al estilo de los juegos de karts. Los jugadores compiten con coches reales en circuitos urbanos mientras utilizan potenciadores ofensivos y defensivos como rayos, minas o escudos para atacar a los rivales. Blur destaca por su estilo visual con efectos de luz y velocidad y por incluir un amplio plantel de vehículos licenciados de fabricantes reales.",
     "incluye": [],
     "serie": [
@@ -45801,7 +45498,7 @@
     "distribuidor": [
       "JoWooD Productions"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de rally centrado en vehículos clásicos de las décadas de 1960 y 1970. Rally Trophy permite competir en diferentes tramos inspirados en rallyes europeos mientras el jugador controla coches históricos como el Mini Cooper, el Lancia Fulvia o el Ford Escort. El juego destaca por su física de conducción realista, por el cuidado en la recreación de los vehículos clásicos y por su ambientación en competiciones de rally de la época.",
     "incluye": [],
     "serie": [
@@ -45831,7 +45528,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de baloncesto de la saga NBA Live que recrea la temporada oficial de la NBA con equipos, jugadores y estadios licenciados. El juego introduce mejoras en la jugabilidad y en el sistema de control para ofrecer mayor precisión en tiros, pases y movimientos ofensivos. Incluye distintos modos de juego como partidos rápidos, temporadas completas y modos multijugador, permitiendo competir con los equipos y estrellas de la NBA de mediados de los años 2000.",
     "incluye": [],
     "serie": [
@@ -45862,7 +45559,7 @@
     "distribuidor": [
       "Activision"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de conducción centrado en motocicletas Harley-Davidson en el que el jugador participa en diferentes carreras y eventos a través de rutas inspiradas en carreteras estadounidenses. El juego permite conducir varios modelos oficiales de la marca mientras se compite en circuitos abiertos y se completan desafíos para avanzar hasta el gran rally final. La jugabilidad apuesta por un estilo accesible y arcade, con énfasis en la velocidad y en el ambiente motero característico de Harley-Davidson.",
     "incluye": [],
     "serie": [
@@ -45894,7 +45591,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Entrega de la saga Assassin's Creed ambientada en la Antigua Grecia durante la Guerra del Peloponeso. El jugador puede elegir entre dos protagonistas, Alexios o Kassandra, y recorrer un enorme mundo abierto inspirado en ciudades, islas y paisajes históricos. El juego introduce una fuerte componente de rol con sistema de decisiones, árbol de habilidades, misiones secundarias y combates navales, permitiendo explorar libremente el mundo mientras se desarrolla la historia del linaje del protagonista.",
     "incluye": [],
     "serie": [
@@ -45924,7 +45621,7 @@
     "distribuidor": [
       "Sega"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y aventura basado en la película La Brújula Dorada, adaptación de la novela de Philip Pullman. El jugador controla principalmente a Lyra Belacqua y a su daemon Pantalaimon mientras exploran diferentes escenarios del mundo del juego resolviendo puzles, enfrentándose a enemigos y utilizando habilidades especiales. La aventura sigue los acontecimientos principales de la película, incluyendo el uso del aletiómetro y encuentros con personajes clave de la historia.",
     "incluye": [],
     "serie": [
@@ -45954,7 +45651,7 @@
     "distribuidor": [
       "Midway Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y conducción basado en la clásica saga SpyHunter en el que el jugador encarna al agente Alex Decker. La aventura combina persecuciones a gran velocidad con misiones de combate cuerpo a cuerpo y uso de armamento avanzado. El juego alterna secciones de conducción con enfrentamientos en tercera persona mientras el protagonista intenta detener a una organización criminal internacional utilizando tecnología y vehículos especiales.",
     "incluye": [],
     "serie": [
@@ -45986,7 +45683,7 @@
     "distribuidor": [
       "Electronic Arts"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Innovador juego de estrategia y simulación creado por Peter Molyneux en el que el jugador asume el papel de una deidad que debe guiar a una civilización. A través de la interacción directa con el entorno y con una criatura gigante que actúa como avatar del jugador, las decisiones morales determinan si el dios será benevolente o tiránico. Black & White destacó por su sistema de aprendizaje de la criatura mediante inteligencia artificial y por su original forma de interactuar con el mundo del juego.",
     "incluye": [],
     "serie": [
@@ -46016,7 +45713,7 @@
     "distribuidor": [
       "Atari"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y aventura ambientado en una ciudad distópica donde el graffiti está prohibido. El jugador controla a Trane, un joven artista urbano que utiliza el graffiti como forma de rebelión contra un régimen autoritario. La jugabilidad combina exploración, plataformas, combates cuerpo a cuerpo y la realización de piezas de graffiti en distintos lugares de la ciudad, convirtiendo el arte callejero en el eje central de la narrativa y del progreso en el juego.",
     "incluye": [],
     "serie": [
@@ -46047,7 +45744,7 @@
     "distribuidor": [
       "FX Interactive"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter espacial de estilo arcade en el que el jugador pilota una nave de combate para enfrentarse a oleadas de enemigos alienígenas procedentes de Marte. El juego apuesta por una acción rápida con numerosos enemigos en pantalla, mejoras para la nave y combates contra jefes finales. Mars Invader sigue la tradición de los clásicos shooters espaciales, ofreciendo partidas directas centradas en reflejos y precisión.",
     "incluye": [],
     "serie": [
@@ -46080,7 +45777,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de combate aéreo moderno que permite pilotar distintos cazas militares basados en modelos reales como el F-15C, Su-27 o MiG-29. El juego destaca por su enfoque relativamente realista en la simulación de vuelo, sistemas de radar, armamento y combates aire-aire y aire-tierra. Lock On ofrece campañas dinámicas, misiones complejas y amplios escenarios inspirados en la región del Mar Negro.",
     "incluye": [],
     "serie": [
@@ -46111,7 +45808,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y terror en tercera persona ambientado en un barco ballenero a la deriva en medio de una tormenta en el mar de Bering. El jugador controla a Tom Hansen, un miembro de la Guardia Costera que investiga una misteriosa señal de socorro y descubre que la tripulación ha sido infectada por una amenaza biológica. Cold Fear combina combates contra criaturas mutadas, exploración de entornos claustrofóbicos y una física dinámica influida por el movimiento del barco y las condiciones del mar.",
     "incluye": [],
     "serie": [
@@ -46144,7 +45841,7 @@
     "distribuidor": [
       "Microsoft Game Studios"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador espacial de acción ambientado en un vasto universo donde el jugador encarna a Edison Trent, un piloto independiente que se gana la vida realizando misiones de transporte, combate y comercio entre diferentes sistemas estelares. El juego combina combates espaciales dinámicos con exploración, comercio y relaciones con distintas facciones. Freelancer destacó por ofrecer una experiencia de simulación espacial accesible, con un universo abierto lleno de estaciones, rutas comerciales y conflictos entre corporaciones y grupos criminales.",
     "incluye": [],
     "serie": [
@@ -46176,7 +45873,7 @@
     "distribuidor": [
       "Microsoft Game Studios"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de vuelo civil que permite pilotar distintos tipos de aeronaves en recreaciones detalladas del mundo real. Flight Simulator 2002 introdujo mejoras importantes en el sistema de control de tráfico aéreo, nuevas aeronaves y entornos más realistas. El jugador puede realizar vuelos libres, seguir planes de vuelo reales y practicar distintos procedimientos de navegación y aterrizaje en numerosos aeropuertos recreados.",
     "incluye": [],
     "serie": [
@@ -46209,7 +45906,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de combate aéreo ambientado en el frente del Pacífico durante la Segunda Guerra Mundial. Pacific Fighters forma parte de la serie IL-2 Sturmovik y permite pilotar numerosos aviones históricos de Estados Unidos y Japón en misiones basadas en campañas reales. El juego combina simulación detallada de vuelo, armamento y daños con combates aéreos intensos sobre océanos, islas y portaaviones.",
     "incluye": [],
     "serie": [
@@ -46240,7 +45937,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura basada en la serie de televisión Lost en la que el jugador controla a Elliott Maslow, un pasajero del vuelo Oceanic 815 que pierde la memoria tras el accidente. A lo largo del juego se exploran distintos lugares emblemáticos de la isla mientras se resuelven puzles, se interactúa con personajes de la serie y se descubren secretos relacionados con la misteriosa historia del lugar. La narrativa sigue una estructura episódica inspirada en la serie original.",
     "incluye": [],
     "serie": [
@@ -46273,7 +45970,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador de combate aéreo ambientado en el frente oriental de la Segunda Guerra Mundial. El jugador puede pilotar distintos aviones históricos en misiones de combate aire-aire y aire-tierra basadas en operaciones reales. IL-2 Sturmovik destacó por su alto nivel de realismo en la física de vuelo, los modelos de daño y la recreación de aeronaves y escenarios históricos, convirtiéndose en uno de los simuladores de vuelo militar más influyentes de su época.",
     "incluye": [],
     "serie": [
@@ -46307,7 +46004,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y sigilo protagonizado por el agente especial Sam Fisher, miembro de la unidad secreta Third Echelon. En esta entrega, Fisher debe detener una amenaza biológica conocida como 'Pandora Tomorrow', desarrollada por un grupo terrorista que planea ataques a gran escala. El juego combina infiltración, uso de tecnología avanzada y resolución de situaciones tácticas en misiones ambientadas en distintos países del mundo.",
     "incluye": [],
     "serie": [
@@ -46338,7 +46035,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Shooter táctico en primera persona en el que el jugador lidera una unidad de élite antiterrorista del equipo Rainbow. Ambientado en la ciudad de Las Vegas, el juego combina combate táctico, planificación de asaltos y uso de coberturas en enfrentamientos contra grupos terroristas. Rainbow Six: Vegas introdujo un sistema de combate basado en coberturas y una fuerte integración del juego cooperativo y multijugador.",
     "incluye": [],
     "serie": [
@@ -46371,7 +46068,7 @@
       "Ubisoft",
       "Bethesda Softworks"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura de terror en primera persona inspirada en los relatos de H. P. Lovecraft, especialmente en 'La sombra sobre Innsmouth'. El jugador encarna al detective Jack Walters, que investiga una serie de sucesos extraños en el aislado pueblo costero de Innsmouth. El juego combina exploración, investigación, supervivencia y elementos de shooter, destacando por su sistema de cordura: el protagonista puede sufrir efectos psicológicos al enfrentarse a horrores sobrenaturales.",
     "incluye": [],
     "serie": [
@@ -46403,7 +46100,7 @@
     "distribuidor": [
       "Ubisoft"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Simulador naval ambientado en la Segunda Guerra Mundial en el que el jugador asume el mando de un submarino alemán tipo U-Boat durante la Batalla del Atlántico. Silent Hunter 5 introduce la posibilidad de recorrer el interior del submarino en primera persona y gestionar directamente a la tripulación, además de ofrecer campañas dinámicas, simulación naval detallada y combates tácticos contra convoyes aliados.",
     "incluye": [],
     "serie": [
@@ -46435,7 +46132,7 @@
     "distribuidor": [
       "Daedalic Entertainment"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Aventura gráfica narrativa basada en la famosa novela histórica de Ken Follett. Ambientado en la Inglaterra del siglo XII, el juego sigue las historias entrelazadas de varios personajes mientras luchan por construir una catedral en la ciudad ficticia de Kingsbridge. La obra destaca por su fuerte componente narrativo, decisiones del jugador que afectan a la historia y un estilo artístico inspirado en ilustraciones medievales.",
     "incluye": [],
     "serie": [
@@ -46469,7 +46166,7 @@
     "distribuidor": [
       "2K Games"
     ],
-    "ean": "",
+    "ean": [],
     "descripcion": "Juego de acción y aventura ambientado en el mundo del crimen organizado en Estados Unidos durante los años 40 y 50. El jugador encarna a Vito Scaletta, un inmigrante italoamericano que asciende dentro de la mafia en la ciudad ficticia de Empire Bay. El juego combina narrativa cinematográfica, misiones criminales, conducción y combate en un entorno urbano inspirado en ciudades estadounidenses de mediados del siglo XX.",
     "incluye": [],
     "serie": [
