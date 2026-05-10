@@ -3041,6 +3041,48 @@
     }
   },
   {
+    "num": "000062",
+    "ig": "https://www.instagram.com/p/DYJr_mZCLg-",
+    "titulo": "Command & Conquer: Tiberian Sun",
+    "url": "juegos/command-and-conquer-tiberian-sun-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [
+      "5030935023343"
+    ],
+    "descripcion": "Secuela lanzada en agosto de 1999 que continúa la saga entre GDI y Nod tras la conquista del Tiberio. Introduce gráficos semi‑3D (terreno variable, voxels, ciclo día/noche), nuevas unidades (levantadoras, túneles), tormentas de iones y actuaciones FMV con James Earl Jones y Michael Biehn. Fue un éxito comercial, vendiendo 1,5 M en un mes y recibiendo premios en Alemania :contentReference[oaicite:2]{index=2}.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -5250,48 +5292,6 @@
     ],
     "ean": [],
     "descripcion": "Segunda expansión oficial de Red Alert (1997). Añade 18 misiones nuevas para Aliados y Soviéticos, más de 100 mapas multijugador, 8 nuevas pistas musicales y unidades únicas como Chrono Tank, Demolition Truck, Field Mechanic, Shock Trooper, M.A.D. Tank y Missile Sub.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Command & Conquer: Tiberian Sun",
-    "url": "juegos/command-and-conquer-tiberian-sun-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Westwood Studios"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [
-      "5030935023343"
-    ],
-    "descripcion": "Secuela lanzada en agosto de 1999 que continúa la saga entre GDI y Nod tras la conquista del Tiberio. Introduce gráficos semi‑3D (terreno variable, voxels, ciclo día/noche), nuevas unidades (levantadoras, túneles), tormentas de iones y actuaciones FMV con James Earl Jones y Michael Biehn. Fue un éxito comercial, vendiendo 1,5 M en un mes y recibiendo premios en Alemania :contentReference[oaicite:2]{index=2}.",
     "incluye": [],
     "serie": [
       "Todos",
