@@ -3083,6 +3083,127 @@
     }
   },
   {
+    "num": "000063",
+    "ig": "https://www.instagram.com/p/DYMNKfkCKJb",
+    "titulo": "Command & Conquer: Red Alert",
+    "url": "juegos/command-and-conquer-red-alert-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98",
+      "WinNT"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive, Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "RTS lanzado en 1996 como precuela al Command & Conquer original. Enfrenta a las fuerzas Aliadas contra la Unión Soviética en una historia alternativa ambientada tras el asesinato de Hitler. Incluye campañas para ambos bandos, multijugador, vídeos FMV con Kane, búsqueda de recursos (mineral y gemas), y unidades icónicas como Tanques Tesla y Chronosphere.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000064",
+    "ig": "",
+    "titulo": "Command & Conquer: Red Alert - Counterstrike",
+    "url": "juegos/command-and-conquer-red-alert-counterstrike-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive, Electronic Arts"
+    ],
+    "ean": [
+      "0052145831087"
+    ],
+    "descripcion": "Primera expansión oficial de Red Alert, lanzada en 1997. Añade 16 misiones adicionales (8 Aliados, 8 Soviéticos), más de 100 mapas multijugador, nuevas unidades como el tanque Tesla soviético, Super Soldados y Wonder Dogs, y temática nuclear avanzada. Incluye campaña secreta 'Giant Ants' estilo película B de los 50.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000065",
+    "ig": "",
+    "titulo": "Command & Conquer: Red Alert - The Aftermath",
+    "url": "juegos/command-and-conquer-red-alert-the-aftermath-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive, Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Segunda expansión oficial de Red Alert (1997). Añade 18 misiones nuevas para Aliados y Soviéticos, más de 100 mapas multijugador, 8 nuevas pistas musicales y unidades únicas como Chrono Tank, Demolition Truck, Field Mechanic, Shock Trooper, M.A.D. Tank y Missile Sub.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -5178,127 +5299,6 @@
     ],
     "tags": [
       "Precintado"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Command & Conquer: Red Alert",
-    "url": "juegos/command-and-conquer-red-alert-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Westwood Studios"
-    ],
-    "distribuidor": [
-      "Virgin Interactive, Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "RTS lanzado en 1996 como precuela al Command & Conquer original. Enfrenta a las fuerzas Aliadas contra la Unión Soviética en una historia alternativa ambientada tras el asesinato de Hitler. Incluye campañas para ambos bandos, multijugador, vídeos FMV con Kane, búsqueda de recursos (mineral y gemas), y unidades icónicas como Tanques Tesla y Chronosphere.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Command & Conquer: Red Alert - Counterstrike",
-    "url": "juegos/command-and-conquer-red-alert-counterstrike-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Westwood Studios"
-    ],
-    "distribuidor": [
-      "Virgin Interactive, Electronic Arts"
-    ],
-    "ean": [
-      "0052145831087"
-    ],
-    "descripcion": "Primera expansión oficial de Red Alert, lanzada en 1997. Añade 16 misiones adicionales (8 Aliados, 8 Soviéticos), más de 100 mapas multijugador, nuevas unidades como el tanque Tesla soviético, Super Soldados y Wonder Dogs, y temática nuclear avanzada. Incluye campaña secreta 'Giant Ants' estilo película B de los 50.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Command & Conquer: Red Alert - The Aftermath",
-    "url": "juegos/command-and-conquer-red-alert-the-aftermath-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Westwood Studios"
-    ],
-    "distribuidor": [
-      "Virgin Interactive, Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "Segunda expansión oficial de Red Alert (1997). Añade 18 misiones nuevas para Aliados y Soviéticos, más de 100 mapas multijugador, 8 nuevas pistas musicales y unidades únicas como Chrono Tank, Demolition Truck, Field Mechanic, Shock Trooper, M.A.D. Tank y Missile Sub.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
     ],
     "proteccion": {
       "tipo": "No determinado",
