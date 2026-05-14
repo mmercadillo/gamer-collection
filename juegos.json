@@ -3204,6 +3204,45 @@
     }
   },
   {
+    "num": "000066",
+    "ig": "https://www.instagram.com/p/DYT_ojdiCwj",
+    "titulo": "The Ultimate Doom: The Flesh Consumed",
+    "url": "juegos/the-ultimate-doom-the-flesh-consumed-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "id Software"
+    ],
+    "distribuidor": [
+      "GT Interactive"
+    ],
+    "ean": [],
+    "descripcion": "The Ultimate Doom: The Flesh Consumed es una edición ampliada del Doom original, lanzada en 1995. Incluye el cuarto episodio exclusivo \"Thy Flesh Consumed\", con nueve niveles adicionales diseñados para jugadores experimentados. Mantiene la jugabilidad clásica de acción en primera persona, con un ritmo rápido, diseño de niveles laberíntico y una ambientación infernal de ciencia ficción que definió el género FPS en PC.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -45848,45 +45887,6 @@
       "DVD Case"
     ],
     "tags": [],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "The Ultimate Doom: The Flesh Consumed",
-    "url": "juegos/the-ultimate-doom-the-flesh-consumed-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Shooter en primera persona",
-      "Acción",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "id Software"
-    ],
-    "distribuidor": [
-      "GT Interactive"
-    ],
-    "ean": [],
-    "descripcion": "The Ultimate Doom: The Flesh Consumed es una edición ampliada del Doom original, lanzada en 1995. Incluye el cuarto episodio exclusivo \"Thy Flesh Consumed\", con nueve niveles adicionales diseñados para jugadores experimentados. Mantiene la jugabilidad clásica de acción en primera persona, con un ritmo rápido, diseño de niveles laberíntico y una ambientación infernal de ciencia ficción que definió el género FPS en PC.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
