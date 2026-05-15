@@ -3243,6 +3243,66 @@
     }
   },
   {
+    "num": "000067",
+    "ig": "https://www.instagram.com/p/DYWlafLiNTj",
+    "titulo": "Forsaken",
+    "url": "juegos/forsaken-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Shooter en primera persona",
+      "Combate espacial",
+      "6DOF"
+    ],
+    "desarrollador": [
+      "Probe Entertainment"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [
+      "3455199713823"
+    ],
+    "descripcion": "Forsaken es un shooter de acción tridimensional lanzado a finales de los años noventa, centrado en el combate con libertad total de movimiento en seis grados. Desarrollado por Probe Entertainment y publicado por Acclaim, destacó por su apartado gráfico acelerado por hardware, sus escenarios cerrados de estética futurista y su orientación arcade, próxima a la tradición de títulos como Descent pero con una presentación audiovisual más agresiva y propia de la era Direct3D. Esta edición física europea en formato Big Box corresponde a la versión para PC CD-ROM y representa bien el periodo de transición del videojuego de PC hacia el uso generalizado de aceleradoras 3D y requisitos específicos de Windows 95.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Folleto promocional de Acclaim",
+      "Hoja impresa adicional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Forsaken",
+      "Acclaim",
+      "Probe Entertainment",
+      "PC CD-ROM",
+      "Big Box",
+      "Windows 95",
+      "Direct3D",
+      "aceleracion 3D",
+      "6DOF",
+      "shooter futurista",
+      "combate espacial",
+      "edicion europea",
+      "preservacion PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Recomendable preservar el CD-ROM original como imagen BIN/CUE o ISO, documentando además manual, caja y materiales impresos asociados. La ejecución puede requerir entorno Windows 95/98 o configuración específica para juegos Direct3D antiguos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
