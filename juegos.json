@@ -3303,6 +3303,125 @@
     }
   },
   {
+    "num": "000068",
+    "ig": "https://www.instagram.com/p/DYY_hpKiLT9",
+    "titulo": "Heroes of Might and Magic: A Strategic Quest",
+    "url": "juegos/heroes-of-might-and-magic-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "New World Computing"
+    ],
+    "distribuidor": [
+      "New World Computing"
+    ],
+    "ean": [],
+    "descripcion": "Primer título de la serie Heroes of Might and Magic, spin‑off de la franquicia Might and Magic. Ambientado en el mundo de Enroth, permitía al jugador controlar héroes al frente de ejércitos de criaturas míticas en combates por turnos, gestión de recursos y exploración de un mapa mundial. Incluye editor de mapas, generador aleatorio, audio en CD y escenarios adicionales, y venía acompañado de 'King’s Bounty' en la versión para CD‑ROM. Fue muy bien recibido y nominado como mejor juego de estrategia de 1995 según varias publicaciones  .",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Heroes of Might and Magic"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000069",
+    "ig": "",
+    "titulo": "Heroes of Might and Magic II: The Succession Wars",
+    "url": "juegos/heroes-of-might-and-magic-ii-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "New World Computing"
+    ],
+    "distribuidor": [
+      "The 3DO Company"
+    ],
+    "ean": [],
+    "descripcion": "Segunda entrega de la saga Heroes, lanzada en 1996. Ambientada en Enroth, continúa el conflicto dinástico tras la muerte del rey Ironfist, enfrentando a los hermanos Archibald y Roland. Introduce dos facciones nuevas (Nigromante y Hechicero), sistema de habilidades secundarias para héroes y magia basada en puntos. Incluye campaña épica, editor de mapas, modo multijugador y una destacada banda sonora con tintes operísticos.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Heroes of Might and Magic"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000070",
+    "ig": "",
+    "titulo": "Heroes of Might and Magic III: The Restoration of Erathia",
+    "url": "juegos/heroes-of-might-and-magic-iii-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "New World Computing"
+    ],
+    "distribuidor": [
+      "The 3DO Company"
+    ],
+    "ean": [],
+    "descripcion": "Tercera entrega de la saga, lanzada originalmente el 28 de febrero de 1999 para Windows. Ambientada en el continente de Antagarich, ofrece siete campañas, soft de combate por turnos y gestión de héroes que lideran ejércitos de criaturas míticas. Introduce mejoras como capa subterránea, condiciones de victoria variables y ocho facciones jugables. Fue muy aclamado y recibió dos expansiones oficiales y una edición completa en 2000  .",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Heroes of Might and Magic"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -6496,45 +6615,6 @@
     ],
     "ean": [],
     "descripcion": "Cuarta entrega de la saga lanzada el 28 de marzo de 2002, ambientada en el mundo de Axeoth tras la destrucción de Enroth. Introduce héroes presentes en el campo de batalla (vat no eran meros comandantes), seis tipos de pueblos con alineamientos ideológicos diferentes, y un motor gráfico mejorado. Fue la última desarrollada por New World Computing antes de la crisis de 3DO, y recibió dos expansiones oficiales: \"The Gathering Storm\" (sept 2002) y \"Winds of War\" (feb 2003)  .",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Heroes of Might and Magic"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Heroes of Might and Magic: A Strategic Quest",
-    "url": "juegos/heroes-of-might-and-magic-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "New World Computing"
-    ],
-    "distribuidor": [
-      "New World Computing"
-    ],
-    "ean": [],
-    "descripcion": "Primer título de la serie Heroes of Might and Magic, spin‑off de la franquicia Might and Magic. Ambientado en el mundo de Enroth, permitía al jugador controlar héroes al frente de ejércitos de criaturas míticas en combates por turnos, gestión de recursos y exploración de un mapa mundial. Incluye editor de mapas, generador aleatorio, audio en CD y escenarios adicionales, y venía acompañado de 'King’s Bounty' en la versión para CD‑ROM. Fue muy bien recibido y nominado como mejor juego de estrategia de 1995 según varias publicaciones  .",
     "incluye": [],
     "serie": [
       "Todos",
@@ -10817,86 +10897,6 @@
     "serie": [
       "Todos",
       "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Heroes of Might and Magic II: The Succession Wars",
-    "url": "juegos/heroes-of-might-and-magic-ii-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "New World Computing"
-    ],
-    "distribuidor": [
-      "The 3DO Company"
-    ],
-    "ean": [],
-    "descripcion": "Segunda entrega de la saga Heroes, lanzada en 1996. Ambientada en Enroth, continúa el conflicto dinástico tras la muerte del rey Ironfist, enfrentando a los hermanos Archibald y Roland. Introduce dos facciones nuevas (Nigromante y Hechicero), sistema de habilidades secundarias para héroes y magia basada en puntos. Incluye campaña épica, editor de mapas, modo multijugador y una destacada banda sonora con tintes operísticos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Heroes of Might and Magic"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Heroes of Might and Magic III: The Restoration of Erathia",
-    "url": "juegos/heroes-of-might-and-magic-iii-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "New World Computing"
-    ],
-    "distribuidor": [
-      "The 3DO Company"
-    ],
-    "ean": [],
-    "descripcion": "Tercera entrega de la saga, lanzada originalmente el 28 de febrero de 1999 para Windows. Ambientada en el continente de Antagarich, ofrece siete campañas, soft de combate por turnos y gestión de héroes que lideran ejércitos de criaturas míticas. Introduce mejoras como capa subterránea, condiciones de victoria variables y ocho facciones jugables. Fue muy aclamado y recibió dos expansiones oficiales y una edición completa en 2000  .",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box",
-      "Heroes of Might and Magic"
     ],
     "tags": [
       "Big Box"
