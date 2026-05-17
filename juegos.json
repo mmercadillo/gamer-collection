@@ -3314,7 +3314,9 @@
     "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
-      "Fantasía"
+      "Fantasy strategy",
+      "Juego de rol",
+      "Estrategia táctica"
     ],
     "desarrollador": [
       "New World Computing"
@@ -3323,62 +3325,106 @@
       "New World Computing"
     ],
     "ean": [],
-    "descripcion": "Primer título de la serie Heroes of Might and Magic, spin‑off de la franquicia Might and Magic. Ambientado en el mundo de Enroth, permitía al jugador controlar héroes al frente de ejércitos de criaturas míticas en combates por turnos, gestión de recursos y exploración de un mapa mundial. Incluye editor de mapas, generador aleatorio, audio en CD y escenarios adicionales, y venía acompañado de 'King’s Bounty' en la versión para CD‑ROM. Fue muy bien recibido y nominado como mejor juego de estrategia de 1995 según varias publicaciones  .",
-    "incluye": [],
+    "descripcion": "Heroes of Might and Magic: A Strategic Quest es el primer título de la influyente saga de estrategia fantástica creada por New World Computing. Lanzado originalmente en 1995, combinó exploración de mapas, gestión de recursos, desarrollo de héroes y combates tácticos por turnos en un formato accesible pero profundamente estratégico. El juego heredó parte del universo y criaturas de la serie Might and Magic, estableciendo las bases jugables y estéticas que convertirían a Heroes of Might and Magic II y III en referentes absolutos del PC gaming de los años noventa. Esta edición física en Big Box CD-ROM incluye documentación impresa y material promocional típico de la época, representando uno de los formatos clásicos de distribución del mercado norteamericano de PC.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Tarjeta de referencia",
+      "Publicidad promocional",
+      "Documentación de instalación"
+    ],
     "serie": [
       "Todos",
       "Big Box",
       "Heroes of Might and Magic"
     ],
     "tags": [
-      "Big Box"
+      "heroes of might and magic",
+      "might and magic",
+      "new world computing",
+      "3do",
+      "pc gaming",
+      "retro pc",
+      "big box",
+      "estrategia",
+      "turn based strategy",
+      "fantasia",
+      "coleccionismo",
+      "preservacion",
+      "cd-rom",
+      "dos gaming",
+      "windows 95",
+      "1995"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Manual lookup",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación es viable mediante imagen BIN/CUE o ISO del CD-ROM y digitalización del manual, necesario potencialmente para consultas anticopia. Funciona correctamente en DOSBox y sistemas Windows clásicos virtualizados.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
-  },
-  {
+  }{
     "num": "000069",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DYboiUQiNdK",
     "titulo": "Heroes of Might and Magic II: The Succession Wars",
     "url": "juegos/heroes-of-might-and-magic-ii-bigbox/",
     "plataforma": [
       "MsDos",
-      "Win95",
-      "Win98"
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
-      "Fantasía"
+      "Fantasy",
+      "Táctica",
+      "Juego de rol",
+      "Gestión de recursos"
     ],
     "desarrollador": [
       "New World Computing"
     ],
     "distribuidor": [
-      "The 3DO Company"
+      "New World Computing",
+      "Proein"
     ],
     "ean": [],
-    "descripcion": "Segunda entrega de la saga Heroes, lanzada en 1996. Ambientada en Enroth, continúa el conflicto dinástico tras la muerte del rey Ironfist, enfrentando a los hermanos Archibald y Roland. Introduce dos facciones nuevas (Nigromante y Hechicero), sistema de habilidades secundarias para héroes y magia basada en puntos. Incluye campaña épica, editor de mapas, modo multijugador y una destacada banda sonora con tintes operísticos.",
-    "incluye": [],
+    "descripcion": "Heroes of Might and Magic II: The Succession Wars es uno de los títulos más influyentes de la estrategia por turnos de los años noventa. Desarrollado por New World Computing y diseñado bajo la dirección de Jon Van Caneghem, el juego expandió de forma significativa las mecánicas del primer Heroes of Might and Magic, introduciendo un apartado artístico más detallado, nuevas facciones, héroes diferenciados, sistema avanzado de magia y un diseño de mapas que marcaría el estándar de la saga. La edición distribuida por Proein en España incluye traducción del manual y textos al castellano, siendo una de las versiones más reconocibles del mercado español de PC. El juego combina exploración, conquista territorial, gestión económica y combates tácticos por turnos, convirtiéndose en una referencia histórica dentro del género 4X ligero y la estrategia fantástica clásica en PC.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Hoja de referencia",
+      "Catálogo"
+    ],
     "serie": [
       "Todos",
       "Big Box",
       "Heroes of Might and Magic"
     ],
     "tags": [
-      "Big Box"
+      "Heroes of Might and Magic",
+      "Heroes II",
+      "New World Computing",
+      "Proein",
+      "PC Gaming",
+      "Retro PC",
+      "Big Box",
+      "Estrategia clásica",
+      "Turn-based strategy",
+      "Fantasy",
+      "Edición española",
+      "DOS Gaming",
+      "Windows 95",
+      "Coleccionismo",
+      "Preservación",
+      "Jon Van Caneghem",
+      "3DO"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Manual lookup",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La edición utiliza un sistema clásico de comprobación mediante consulta del manual durante el arranque. Puede preservarse mediante imagen BIN/CUE del CD-ROM y documentación escaneada del manual.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -3387,38 +3433,124 @@
     "titulo": "Heroes of Might and Magic III: The Restoration of Erathia",
     "url": "juegos/heroes-of-might-and-magic-iii-bigbox/",
     "plataforma": [
-      "MsDos",
       "Win95",
       "Win98"
     ],
     "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
-      "Fantasía"
+      "Fantasy strategy",
+      "Juego de rol táctico"
     ],
     "desarrollador": [
       "New World Computing"
     ],
     "distribuidor": [
-      "The 3DO Company"
+      "3DO",
+      "Proein"
     ],
     "ean": [],
-    "descripcion": "Tercera entrega de la saga, lanzada originalmente el 28 de febrero de 1999 para Windows. Ambientada en el continente de Antagarich, ofrece siete campañas, soft de combate por turnos y gestión de héroes que lideran ejércitos de criaturas míticas. Introduce mejoras como capa subterránea, condiciones de victoria variables y ocho facciones jugables. Fue muy aclamado y recibió dos expansiones oficiales y una edición completa en 2000  .",
-    "incluye": [],
+    "descripcion": "Heroes of Might and Magic III es uno de los títulos de estrategia por turnos más influyentes y recordados de finales de los años noventa. Desarrollado por New World Computing y publicado originalmente por 3DO, el juego perfeccionó la fórmula iniciada en entregas anteriores mediante exploración de mapas, gestión de castillos, reclutamiento de criaturas y combates tácticos por turnos. Esta edición distribuida en España por Proein corresponde a la edición física Big Box en CD-ROM para Windows 95/98. El título destacó por su enorme contenido, campañas extensas, multijugador hot-seat y una dirección artística considerada icónica dentro del PC gaming clásico. Heroes III es además una de las entregas más preservadas y activas de la saga, con una comunidad que continúa creando mapas, mods y herramientas décadas después de su lanzamiento.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Catálogo de Proein",
+      "Publicidad",
+      "Hoja de referencia"
+    ],
     "serie": [
       "Todos",
       "Big Box",
       "Heroes of Might and Magic"
     ],
     "tags": [
-      "Big Box"
+      "Heroes of Might and Magic",
+      "Heroes III",
+      "3DO",
+      "New World Computing",
+      "Proein",
+      "PC Gaming",
+      "Retro PC",
+      "Big Box",
+      "Estrategia",
+      "Turn based strategy",
+      "Fantasy",
+      "Coleccionismo",
+      "Preservación",
+      "Edición española",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
+      "preservacion": "La edición puede preservarse mediante imagen BIN/CUE del CD-ROM original. El juego utiliza comprobación de disco para la ejecución original.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  }{
+    "num": "000000",
+    "ig": "",
+    "titulo": "Links: The Challenge of Golf",
+    "url": "juegos/links-the-challenge-of-golf-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación deportiva",
+      "Golf",
+      "Simulador",
+      "Deportes"
+    ],
+    "desarrollador": [
+      "Access Software"
+    ],
+    "distribuidor": [
+      "Erbe Software",
+      "Access Software"
+    ],
+    "ean": [],
+    "descripcion": "Links: The Challenge of Golf es uno de los simuladores de golf más influyentes y técnicamente avanzados de comienzos de los años noventa en compatibles PC. Desarrollado por Access Software, el título destacó por su representación realista de campos de golf, físicas avanzadas para la época y soporte gráfico VGA de 256 colores, ofreciendo una experiencia mucho más detallada que otros simuladores deportivos contemporáneos. Esta edición distribuida en España por Erbe Software incluye el recorrido adicional Pinehurst Resort & Country Club y soporte para tarjetas de sonido AdLib, Roland y Sound Blaster. La saga Links acabaría convirtiéndose en una referencia histórica dentro de los simuladores deportivos para PC y marcaría el estándar de calidad del género durante años.",
+    "incluye": [
+      "Caja Big Box",
+      "Disquetes de 3½",
+      "Manual",
+      "Manual de instalación",
+      "Documentación del recorrido Pinehurst",
+      "Tarjeta de referencia",
+      "Catálogo publicitario"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Links",
+      "Access Software",
+      "Erbe",
+      "MS-DOS",
+      "VGA 256 colores",
+      "AdLib",
+      "Sound Blaster",
+      "Roland",
+      "simulador de golf",
+      "golf",
+      "deportes",
+      "PC gaming clásico",
+      "big box española",
+      "preservación",
+      "retro PC",
+      "Pinehurst",
+      "simulación deportiva"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "Preservable mediante volcado de disquetes en formato IMG o KryoFlux. La protección probablemente utiliza consulta de manual o documentación impresa típica de simuladores deportivos de principios de los noventa.",
       "formato": "No aplica",
-      "jugable_virtual": false
+      "jugable_virtual": true
     }
   },
   {
