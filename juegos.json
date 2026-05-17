@@ -1531,36 +1531,57 @@
     "url": "juegos/cleopatra-la-reina-del-nilo-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "Win2000"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Construcción",
-      "Estrategia"
+      "Estrategia",
+      "Construcción de ciudades",
+      "City builder",
+      "Gestión"
     ],
     "desarrollador": [
-      "BreakAway Games"
+      "BreakAway Games",
+      "Impressions Games"
     ],
     "distribuidor": [
-      "Sierra Entertainment"
+      "Sierra",
+      "Sierra Interactive España"
     ],
     "ean": [],
-    "descripcion": "Expansión oficial lanzada el 11 de julio de 2000 para el juego Pharaoh. Añade 15 misiones ambientadas en el periodo helenístico tardío de Egipto, con nuevos hitos, enemigos y desafíos económicos, utilizando el mismo motor de Pharaoh y extendiendo la narrativa hasta la conquista romana.",
-    "incluye": [],
+    "descripcion": "La Reina del Nilo: Cleopatra es la expansión oficial de Faraón, uno de los city builders históricos más reconocidos de finales de los años noventa dentro de la línea de estrategia de Sierra e Impressions Games. Ambientado en el Antiguo Egipto, el juego amplía el contenido original con nuevas campañas, monumentos, recursos, eventos y mecánicas relacionadas con el comercio, la religión y la administración imperial. Mantiene la jugabilidad clásica basada en la gestión urbana y económica heredada de títulos como Caesar III, incorporando una ambientación egipcia detallada y una importante carga documental y estética. Esta edición española en formato Big Box distribuida por Sierra Interactive España incluye doblaje y textos en castellano y requiere la versión completa de Faraón para funcionar.",
+    "incluye": [
+      "CD-ROM",
+      "Caja Big Box",
+      "Tarjeta de registro"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Faraón",
+      "Cleopatra",
+      "Sierra",
+      "Impressions Games",
+      "BreakAway Games",
+      "city builder",
+      "Antiguo Egipto",
+      "estrategia histórica",
+      "expansión",
+      "PC Big Box",
+      "edición española",
+      "preservación",
+      "Windows 98",
+      "gestión de recursos",
+      "simulación histórica"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Compatible con preservación mediante imagen BIN/CUE o ISO del CD original. Requiere la presencia del disco para la comprobación anticopia y necesita una instalación previa de Faraón.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -1570,40 +1591,59 @@
     "url": "juegos/throne-of-darkness-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98"
+      "Win98",
+      "Win2000",
+      "WinMe"
     ],
     "formato": "Big Box",
     "genero": [
-      "Rol",
-      "Acción RPG"
+      "Action RPG",
+      "Hack and slash",
+      "Rol de acción",
+      "Fantasia oscura"
     ],
     "desarrollador": [
       "Click Entertainment"
     ],
     "distribuidor": [
-      "Sierra"
+      "Sierra",
+      "Sierra Interactive España"
     ],
     "ean": [],
-    "descripcion": "Action RPG ambientado en el Japón feudal inspirado en la mitología japonesa. El jugador controla a siete samuráis con habilidades diferenciadas, gestionando combate táctico en tiempo real, progresión de personajes y equipamiento en escenarios oscuros y sobrenaturales.",
-    "incluye": [],
+    "descripcion": "Throne of Darkness es un action RPG ambientado en un Japón feudal fantástico inspirado en mitología y folclore oriental. Desarrollado por Click Entertainment y publicado por Sierra en 2001, el juego combinaba mecánicas heredadas de Diablo con un sistema de control de grupo basado en siete samuráis jugables, cada uno con habilidades, estadísticas y estilos de combate diferenciados. Destacó por su ambientación nipona poco habitual dentro del género hack and slash occidental de principios de los 2000, así como por su sistema de saqueo, progresión de personajes y juego cooperativo online. Esta edición española en formato Big Box incluye textos y contenidos localizados al castellano y representa una de las distribuciones físicas europeas más reconocibles del título.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Caja Big Box",
+      "Tarjeta de registro"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Samuráis",
-      "Mitología japonesa",
       "Sierra",
-      "Action RPG",
-      "Edición española",
-      "Click Entertainment"
+      "Click Entertainment",
+      "Diablo-like",
+      "samuráis",
+      "Japón feudal",
+      "fantasía oriental",
+      "hack and slash",
+      "RPG clásico",
+      "PC Big Box",
+      "edición española",
+      "multijugador",
+      "preservación",
+      "action RPG",
+      "loot",
+      "Windows 98"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Código o clave",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La edición utiliza clave de instalación impresa y comprobación de disco original. Puede preservarse mediante imágenes BIN/CUE del CD y ejecutarse en entornos virtualizados compatibles con Windows clásicos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -1613,13 +1653,14 @@
     "url": "juegos/age-of-empires-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia histórica",
+      "Gestión de recursos"
     ],
     "desarrollador": [
       "Ensemble Studios"
@@ -1628,21 +1669,42 @@
       "Microsoft"
     ],
     "ean": [],
-    "descripcion": "Juego de estrategia en tiempo real lanzado en 1997. Guias una civilización desde la Edad de Piedra hasta la Edad de Hierro a través de 12 culturas, gestionando recursos, desarrollando tecnologías y combatiendo en campañas históricas y escenarios generados al azar. Incluye modos multijugador, editor de escenarios y un potente motor Genie.",
-    "incluye": [],
+    "descripcion": "Age of Empires es uno de los títulos más influyentes en la evolución de la estrategia en tiempo real durante la década de los noventa. Desarrollado por Ensemble Studios y publicado por Microsoft en 1997, el juego trasladó la fórmula clásica del RTS histórico a un recorrido que abarca desde la Edad de Piedra hasta la Edad del Hierro, incorporando civilizaciones inspiradas en culturas antiguas como egipcios, griegos, babilonios y asirios. Destacó por su combinación de construcción de imperios, gestión económica, árbol tecnológico y combate estratégico en tiempo real. Esta edición española en formato Big Box incluye software, árbol tecnológico y documentación en castellano, y representa una de las primeras grandes apuestas de Microsoft dentro del mercado de juegos para PC.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Caja Big Box",
+      "Tarjeta de registro",
+      "Documentación",
+      "Árbol tecnológico"
+    ],
     "serie": [
       "Todos",
       "Big Box",
       "Age of Empires"
     ],
     "tags": [
-      "Big Box"
+      "Microsoft",
+      "Ensemble Studios",
+      "RTS",
+      "estrategia histórica",
+      "civilizaciones antiguas",
+      "edad antigua",
+      "multijugador",
+      "Windows 95",
+      "PC Big Box",
+      "edición española",
+      "preservación",
+      "árbol tecnológico",
+      "estrategia clásica",
+      "Age of Empires saga",
+      "real time strategy"
     ],
     "proteccion": {
-      "tipo": "Sin protección",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
-      "formato": "ISO",
+      "preservacion": "La preservación puede realizarse mediante imágenes BIN/CUE o ISO del CD original. El juego requiere presencia del disco para su verificación y es compatible con entornos virtualizados de Windows clásicos.",
+      "formato": "BIN/CUE",
       "jugable_virtual": true
     }
   },
@@ -1654,12 +1716,14 @@
     "plataforma": [
       "Win95",
       "Win98",
-      "WinNT",
-      "Win2000"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia histórica",
+      "Expansión"
     ],
     "desarrollador": [
       "Ensemble Studios"
@@ -1668,21 +1732,42 @@
       "Microsoft"
     ],
     "ean": [],
-    "descripcion": "Expansión de 1998 para Age of Empires que añade cuatro nuevas civilizaciones (Romanos, Cartagineses, Palmirenos y Macedonios), cinco unidades únicas, nuevas tecnologías, campañas históricas sobre Roma y mejoras de calidad de vida como cola de producción de unidades y límite de población ampliado.",
-    "incluye": [],
+    "descripcion": "Age of Empires: El Auge de Roma es la expansión oficial del primer Age of Empires y amplía significativamente la experiencia estratégica del juego original mediante nuevas civilizaciones, tecnologías, unidades y campañas ambientadas en la Antigüedad clásica. Publicado por Microsoft en 1998 y desarrollado por Ensemble Studios, el título introdujo mejoras jugables y de interfaz además de ampliar el límite poblacional y reforzar el componente multijugador. La expansión añadió facciones históricas como Roma, Palmira o Macedonia, consolidando la identidad histórica de la saga y sentando bases fundamentales para futuros títulos de Age of Empires. Esta edición española en formato Big Box requiere la versión completa de Age of Empires e incluye documentación localizada al castellano.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Caja Big Box",
+      "Tarjeta de registro",
+      "Documentación",
+      "Cupón promocional"
+    ],
     "serie": [
       "Todos",
       "Big Box",
       "Age of Empires"
     ],
     "tags": [
-      "Big Box"
+      "Microsoft",
+      "Ensemble Studios",
+      "Age of Empires",
+      "The Rise of Rome",
+      "RTS",
+      "expansión",
+      "Roma antigua",
+      "estrategia histórica",
+      "civilizaciones clásicas",
+      "Windows 98",
+      "PC Big Box",
+      "edición española",
+      "preservación",
+      "multijugador",
+      "real time strategy"
     ],
     "proteccion": {
-      "tipo": "Sin protección",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
-      "formato": "ISO",
+      "preservacion": "La expansión puede preservarse mediante imágenes BIN/CUE o ISO del CD original. Requiere instalación previa del Age of Empires original y comprobación de disco para su ejecución.",
+      "formato": "BIN/CUE",
       "jugable_virtual": true
     }
   },
@@ -1694,12 +1779,14 @@
     "plataforma": [
       "Win95",
       "Win98",
-      "WinNT",
-      "Win2000"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia histórica",
+      "Compilación"
     ],
     "desarrollador": [
       "Ensemble Studios"
@@ -1707,26 +1794,41 @@
     "distribuidor": [
       "Microsoft"
     ],
-    "ean": [
-      "0659556098605",
-      "5017783556360",
-      "4012160164061"
+    "ean": [],
+    "descripcion": "Age of Empires Edición Gold es una recopilación que reúne el juego original Age of Empires y su expansión oficial El Auge de Roma en una única edición comercial. Publicada por Microsoft a finales de los años noventa, esta versión consolidó uno de los RTS históricos más influyentes de la época, permitiendo disfrutar de todas las civilizaciones, campañas y mejoras introducidas por la expansión en un único paquete. La saga destacó por combinar construcción de imperios, progresión tecnológica y enfrentamientos estratégicos ambientados en la Antigüedad clásica. Esta edición española en formato Big Box representa una de las recopilaciones más reconocidas de la franquicia original y constituye una pieza importante dentro de la preservación histórica de los juegos de estrategia para PC.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Caja Big Box",
+      "Documentación"
     ],
-    "descripcion": "Edición que reúne el juego original 'Age of Empires' y su expansión 'The Rise of Rome' en un solo disco (1999). Gestionas civilizaciones desde la Edad de Piedra hasta Roma en campañas históricas y escenarios, con multijugador, editor de escenarios y motor Genie.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box",
       "Age of Empires"
     ],
     "tags": [
-      "Big Box"
+      "Microsoft",
+      "Ensemble Studios",
+      "Age of Empires",
+      "Gold Edition",
+      "RTS",
+      "estrategia histórica",
+      "civilizaciones antiguas",
+      "Roma antigua",
+      "real time strategy",
+      "Windows 98",
+      "PC Big Box",
+      "edición española",
+      "preservación",
+      "compilación",
+      "Age of Empires saga"
     ],
     "proteccion": {
-      "tipo": "Sin protección",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
-      "formato": "ISO",
+      "preservacion": "La edición puede preservarse mediante imágenes BIN/CUE o ISO del disco original y ejecutarse en entornos virtualizados compatibles con Windows clásicos. Incluye el contenido del juego base y la expansión El Auge de Roma.",
+      "formato": "BIN/CUE",
       "jugable_virtual": true
     }
   },
@@ -1738,12 +1840,14 @@
     "plataforma": [
       "Win95",
       "Win98",
-      "WinNT",
-      "Win2000"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia histórica",
+      "Gestión de recursos"
     ],
     "desarrollador": [
       "Ensemble Studios"
@@ -1752,21 +1856,42 @@
       "Microsoft"
     ],
     "ean": [],
-    "descripcion": "Segunda entrega de la saga Age of Empires (1999). Guías diversas civilizaciones medievales desde la Edad Oscura hasta el Renacimiento a través de campañas históricas y multijugador. Incluye editor de escenarios y motor Genie. Lanzado originalmente para PC y adaptado posteriormente a Mac en 2001.",
-    "incluye": [],
+    "descripcion": "Age of Empires II: The Age of Kings es uno de los títulos más influyentes y reconocidos de la historia de la estrategia en tiempo real. Desarrollado por Ensemble Studios y publicado por Microsoft en 1999, trasladó la acción a la Edad Media e introdujo importantes mejoras técnicas, visuales y jugables respecto al primer Age of Empires. El juego destacó por su sistema económico avanzado, amplias campañas históricas, equilibrio entre civilizaciones y un multijugador extremadamente popular durante años. Esta edición española en formato Big Box incluye documentación localizada y material adicional como la tabla de atributos de civilizaciones, convirtiéndose en una de las ediciones físicas más emblemáticas del PC gaming de finales de los noventa.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Caja Big Box",
+      "Tarjeta de registro",
+      "Tabla de civilizaciones",
+      "Documentación"
+    ],
     "serie": [
       "Todos",
       "Big Box",
       "Age of Empires"
     ],
     "tags": [
-      "Big Box"
+      "Microsoft",
+      "Ensemble Studios",
+      "Age of Empires II",
+      "The Age of Kings",
+      "RTS",
+      "estrategia histórica",
+      "Edad Media",
+      "civilizaciones medievales",
+      "real time strategy",
+      "Windows 98",
+      "PC Big Box",
+      "edición española",
+      "preservación",
+      "multijugador",
+      "estrategia clásica"
     ],
     "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDF/MDS",
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "El juego puede preservarse mediante imágenes BIN/CUE o ISO del CD original y ejecutarse en entornos virtualizados compatibles con sistemas Windows clásicos. Requiere verificación de disco para su ejecución.",
+      "formato": "BIN/CUE",
       "jugable_virtual": true
     }
   },
@@ -1778,12 +1903,14 @@
     "plataforma": [
       "Win95",
       "Win98",
-      "WinNT",
-      "Win2000"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia histórica",
+      "Expansión"
     ],
     "desarrollador": [
       "Ensemble Studios"
@@ -1791,26 +1918,42 @@
     "distribuidor": [
       "Microsoft"
     ],
-    "ean": [
-      "0659556460693",
-      "0805529051034",
-      "805529132061"
+    "ean": [],
+    "descripcion": "Age of Empires II: The Conquerors Expansion es la expansión oficial de Age of Empires II: The Age of Kings y una de las ampliaciones más influyentes dentro del género RTS. Desarrollada por Ensemble Studios y publicada por Microsoft en el año 2000, añadió nuevas civilizaciones, campañas históricas, unidades, tecnologías y mejoras de equilibrio que terminarían definiendo la experiencia clásica competitiva de Age of Empires II durante décadas. Introdujo facciones emblemáticas como aztecas, mayas, coreanos, españoles y hunos, además de nuevas mecánicas y mapas orientados al juego multijugador. Esta edición española en formato Big Box incluye documentación localizada y representa una de las versiones físicas más reconocidas y preservadas de la saga.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Caja Big Box",
+      "Tarjeta de registro",
+      "Documentación"
     ],
-    "descripcion": "Primera expansión (lanzada 24 de agosto de 2000) de Age of Empires II, añade cinco civilizaciones (Aztecas, Españoles, Hunos, Coreanos, Mayas), cuatro nuevas campañas históricas, 11 unidades, 26 tecnologías, modos de juego y mapas. Compatible con el motor Genie y requiere Age of Empires II base para funcionar.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box",
       "Age of Empires"
     ],
     "tags": [
-      "Big Box"
+      "Microsoft",
+      "Ensemble Studios",
+      "Age of Empires II",
+      "The Conquerors",
+      "RTS",
+      "expansión",
+      "estrategia histórica",
+      "Edad Media",
+      "civilizaciones medievales",
+      "multijugador",
+      "Windows 98",
+      "PC Big Box",
+      "edición española",
+      "preservación",
+      "real time strategy"
     ],
     "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDF/MDS",
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "La expansión puede preservarse mediante imágenes BIN/CUE o ISO del CD original y ejecutarse en entornos virtualizados compatibles con Windows clásicos. Requiere una instalación previa de Age of Empires II: The Age of Kings.",
+      "formato": "BIN/CUE",
       "jugable_virtual": true
     }
   },
@@ -1822,12 +1965,14 @@
     "plataforma": [
       "Win95",
       "Win98",
-      "WinNT",
-      "Win2000"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia histórica",
+      "Compilación"
     ],
     "desarrollador": [
       "Ensemble Studios"
@@ -1835,26 +1980,42 @@
     "distribuidor": [
       "Microsoft"
     ],
-    "ean": [
-      "0805529051041",
-      "805529132085",
-      "755142110444"
+    "ean": [],
+    "descripcion": "Age of Empires II Edición Gold es una recopilación que incluye Age of Empires II: The Age of Kings y su expansión oficial The Conquerors Expansion en una única edición comercial. Publicada por Microsoft y desarrollada por Ensemble Studios, esta versión reunía la experiencia completa del RTS medieval más influyente de principios de los años 2000. Además del contenido original y la expansión, esta edición incluía mapas adicionales y partidas grabadas orientadas al aprendizaje estratégico avanzado. Age of Empires II destacó por su profundidad táctica, equilibrio competitivo y enorme longevidad en el juego multijugador, convirtiéndose en uno de los títulos más importantes de la historia del PC gaming y de la estrategia en tiempo real.",
+    "incluye": [
+      "2 CD-ROM",
+      "Manual",
+      "Caja Big Box",
+      "Tabla de civilizaciones",
+      "Documentación"
     ],
-    "descripcion": "Edición especial lanzada en 2001 que combina 'Age of Empires II: The Age of Kings' y su expansión 'The Conquerors'. Incluye campañas históricas, multijugador, editor de escenarios y el robusto motor Genie.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box",
       "Age of Empires"
     ],
     "tags": [
-      "Big Box"
+      "Microsoft",
+      "Ensemble Studios",
+      "Age of Empires II",
+      "The Age of Kings",
+      "The Conquerors",
+      "Gold Edition",
+      "RTS",
+      "estrategia histórica",
+      "Edad Media",
+      "civilizaciones medievales",
+      "real time strategy",
+      "Windows 98",
+      "PC Big Box",
+      "edición española",
+      "preservación"
     ],
     "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDF/MDS",
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "La edición puede preservarse mediante imágenes BIN/CUE o ISO de los discos originales y ejecutarse en entornos virtualizados compatibles con Windows clásicos. Incluye el juego base Age of Empires II y la expansión The Conquerors.",
+      "formato": "BIN/CUE",
       "jugable_virtual": true
     }
   },
@@ -1864,14 +2025,15 @@
     "titulo": "Age of Mythology",
     "url": "juegos/age-of-mythology-bigbox/",
     "plataforma": [
-      "Win95",
       "Win98",
-      "WinNT",
-      "Win2000"
+      "WinXP"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "RTS",
+      "Fantasía mitológica",
+      "Estrategia histórica"
     ],
     "desarrollador": [
       "Ensemble Studios"
@@ -1879,24 +2041,41 @@
     "distribuidor": [
       "Microsoft Game Studios"
     ],
-    "ean": [
-      "8712206084440"
+    "ean": [],
+    "descripcion": "Age of Mythology es un juego de estrategia en tiempo real desarrollado por Ensemble Studios y publicado por Microsoft Game Studios en 2002. Considerado un derivado directo de la saga Age of Empires, trasladó la fórmula clásica de construcción y conquista hacia un universo basado en mitologías griega, egipcia y nórdica. El título destacó por introducir criaturas mitológicas, poderes divinos y héroes legendarios dentro de una estructura RTS muy refinada, manteniendo al mismo tiempo la profundidad estratégica y económica característica del estudio. Su campaña narrativa, centrada en el personaje de Arkantos, es recordada como una de las más icónicas del género. Esta edición física en formato Big Box incluye doble CD-ROM y diverso material impreso adicional relacionado con tecnologías, poderes y referencias rápidas de juego.",
+    "incluye": [
+      "2 CD-ROM",
+      "Manual",
+      "Caja Big Box",
+      "Tarjeta de referencia",
+      "Árbol tecnológico",
+      "Documentación"
     ],
-    "descripcion": "Juego de estrategia en tiempo real (2002) ambientado en mitologías griega, egipcia y nórdica. Sigues las campañas del Atlante Arkantos, construyes civilizaciones, evocás poderes divinos y entrenás unidades míticas. Incluye campaña principal, multijugador, editor de escenarios y motor BANG!.",
-    "incluye": [],
     "serie": [
       "Todos",
-      "Big Box",
-      "Age of Empires"
-    ],
-    "tags": [
       "Big Box"
     ],
+    "tags": [
+      "Microsoft Game Studios",
+      "Ensemble Studios",
+      "Age of Mythology",
+      "RTS",
+      "estrategia en tiempo real",
+      "mitología griega",
+      "mitología egipcia",
+      "mitología nórdica",
+      "fantasía mitológica",
+      "Windows XP",
+      "PC Big Box",
+      "preservación",
+      "estrategia clásica",
+      "Age of Empires"
+    ],
     "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "2.8x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc 2/3/4",
-      "formato": "MDF/MDS",
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "El juego puede preservarse mediante imágenes BIN/CUE o ISO de los discos originales y ejecutarse en sistemas virtualizados compatibles con Windows de principios de los años 2000. Requiere verificación de disco para la ejecución original.",
+      "formato": "BIN/CUE",
       "jugable_virtual": true
     }
   },
@@ -1913,7 +2092,7 @@
       "Aventura gráfica",
       "Point and click",
       "Comedia",
-      "Ciencia ficción"
+      "Misterio"
     ],
     "desarrollador": [
       "Lucasfilm Games"
@@ -1923,39 +2102,43 @@
       "Lucasfilm Games"
     ],
     "ean": [],
-    "descripcion": "Maniac Mansion (1987) es una de las aventuras gráficas más influyentes de la historia, desarrollada por Lucasfilm Games y diseñada por Ron Gilbert y Gary Winnick. El juego introdujo el motor SCUMM, revolucionando el género al permitir una interfaz basada en verbos y eliminando la necesidad de introducir comandos por teclado.\n\nLa historia sigue a un grupo de adolescentes que se infiltran en la inquietante mansión del Dr. Fred para rescatar a su amiga Sandy, secuestrada para un extraño experimento. A lo largo de la aventura, el jugador puede elegir entre varios personajes, cada uno con habilidades únicas, lo que permite diferentes soluciones a los puzles y múltiples caminos narrativos.\n\nEl tono del juego mezcla terror ligero con humor absurdo, presentando situaciones surrealistas, personajes memorables y múltiples finales. Su diseño abierto y no lineal fue innovador para la época, fomentando la experimentación del jugador.\n\nEsta edición distribuida en España por Erbe Software en formato Big Box incluye versión en disquete para MS-DOS y materiales adicionales localizados, formando parte de la popular línea económica de la compañía. Es una pieza clave dentro del coleccionismo de aventuras gráficas y uno de los pilares fundamentales del catálogo de Lucasfilm Games, precursor directo de clásicos posteriores como Monkey Island.",
+    "descripcion": "Maniac Mansion es una de las aventuras gráficas más influyentes de la historia del PC y uno de los títulos fundacionales del género point and click moderno. Diseñado por Ron Gilbert y Gary Winnick para Lucasfilm Games, introdujo el motor SCUMM, que revolucionó las interfaces de aventura al eliminar la necesidad de escribir comandos manuales. El juego destaca por su estructura no lineal, múltiples personajes seleccionables, distintos finales y un tono humorístico inspirado en el cine de serie B y las películas de terror adolescente de los años 80. Esta edición española distribuida por Erbe Software en formato Big Box para disquete incluye materiales clásicos de protección y documentación física característicos de las primeras ediciones europeas de finales de los años 80.",
     "incluye": [
-      "Caja Big Box original",
-      "Disquetes del juego",
-      "Manual de instrucciones",
+      "Caja Big Box",
+      "Disquetes de 5,25",
+      "Manual",
       "Libro de pistas",
-      "Tarjeta de registro",
-      "Publicidad de Erbe",
-      "Hoja de protección (códigos o referencias)",
-      "Accesorio incluido (gafas de cartón)"
+      "Hoja de protección",
+      "Gafas 3D",
+      "Tarjetas de referencia"
     ],
     "serie": [
-      "Big Box",
-      "Todos"
+      "Todos",
+      "Big Box"
     ],
     "tags": [
-      "Maniac Mansion",
       "Lucasfilm Games",
-      "Erbe",
+      "Ron Gilbert",
+      "Gary Winnick",
       "SCUMM",
-      "Aventura gráfica",
-      "Point and click",
-      "Retro PC",
+      "aventuras Lucasfilm",
+      "retro PC",
+      "edición española",
+      "Erbe Software",
+      "preservación",
+      "IBM PC",
       "MS-DOS",
-      "Big Box",
-      "Clásico",
-      "1987"
+      "videojuego clásico",
+      "point and click clásico",
+      "humor",
+      "terror cómico",
+      "disquetes 5.25"
     ],
     "proteccion": {
       "tipo": "Manual lookup",
       "version": "",
-      "preservacion": "Utiliza sistema de protección basado en consulta al manual o documentos incluidos. Preservable mediante copia digital completa de los materiales o versiones crackeadas.",
-      "formato": "No aplica",
+      "preservacion": "La edición utiliza un sistema de protección basado en documentación física incluida en la caja. El juego puede preservarse mediante imágenes de disquete y reproducción digital de los materiales de protección.",
+      "formato": "WAV/CUE",
       "jugable_virtual": true
     }
   },
@@ -1970,32 +2153,54 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia por turnos"
+      "Estrategia por turnos",
+      "4X",
+      "Gestión de imperios"
     ],
     "desarrollador": [
       "Activision"
     ],
     "distribuidor": [
-      "Activision, Loki Software (Linux), MacSoft (Mac)"
+      "Activision",
+      "Proein"
     ],
-    "ean": [
-      "0722242517381"
+    "ean": [],
+    "descripcion": "Civilization: Call to Power es un juego de estrategia por turnos lanzado en 1999 como sucesor espiritual de la serie Civilization tras la pérdida de la licencia original por parte de Activision. El título expande la fórmula clásica 4X con una línea temporal futurista que permite desarrollar civilizaciones más allá de la era moderna, incorporando ciudades submarinas, colonización espacial y nuevas mecánicas diplomáticas y militares. Esta edición española distribuida por Proein incluye textos y documentación en castellano y representa una de las grandes producciones de estrategia para PC de finales de los años noventa, en plena expansión del mercado Big Box europeo.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Hoja de instalación",
+      "Catálogo publicitario"
     ],
-    "descripcion": "Juego de estrategia por turnos (1999), inspirado en la saga Civilization. Abarca desde la Edad Antigua hasta el año 3000 d.C., incluye colonias en océanos y el espacio, tecnologías futuras, gestión avanzada (polución, felicidad), diplomacia, comercio y múltiples condiciones de victoria (militar, cultural, tecnológica y espacial). Soporta multijugador por red (IPX/TCP), hotseat o PBEM.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Civilization",
+      "Call to Power",
+      "Activision",
+      "Proein",
+      "estrategia",
+      "4X",
+      "turn-based strategy",
+      "pc gaming",
+      "big box",
+      "edicion española",
+      "retro pc",
+      "preservacion",
+      "windows 95",
+      "windows 98",
+      "imperios",
+      "historia",
+      "ciencia ficcion"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Preservable mediante imagen de disco estándar. Compatible habitualmente con unidades virtuales y sistemas modernos usando parches comunitarios o wrappers de compatibilidad.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2004,37 +2209,59 @@
     "titulo": "Call to Power II",
     "url": "juegos/call-to-power-ii-bigbox/",
     "plataforma": [
-      "WinXP",
-      "Win7"
+      "Win95",
+      "Win98",
+      "Win2000"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia por turnos"
+      "Estrategia por turnos",
+      "4X",
+      "Construcción de imperios",
+      "Civilización histórica"
     ],
     "desarrollador": [
       "Activision"
     ],
     "distribuidor": [
-      "Activision"
+      "Activision",
+      "Proein"
     ],
-    "ean": [
-      "5030917009310"
+    "ean": [],
+    "descripcion": "Call to Power II es un juego de estrategia por turnos perteneciente al género 4X y secuela directa de Civilization: Call to Power. Desarrollado por Activision, el título permite guiar una civilización desde la antigüedad hasta un futuro de ciencia ficción, incorporando sistemas avanzados de diplomacia, espionaje, comercio y combate terrestre, naval, aéreo y submarino. A diferencia de la saga principal Civilization, esta entrega profundiza en conceptos futuristas y en la expansión tecnológica más allá de la era contemporánea. La edición española distribuida por Proein se comercializó en formato Big Box e incluía versión en CD-ROM para Windows de finales de los años noventa y comienzos de los 2000.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Árbol tecnológico"
     ],
-    "descripcion": "Secuela del ‘Civilization: Call to Power’ lanzada en noviembre de 2000. Amplía la experiencia 4X desde la Edad Antigua hasta 2300 d.C., con condiciones de victoria diplomática, por puntos, Bloodlust y Gaia Controller. Incluye multijugador TCP/IP/IPX, mods mediante SLIC, y parches comunitarios como Apolyton Edition.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Call to Power",
+      "Civilization",
+      "Activision",
+      "Proein",
+      "4X",
+      "estrategia",
+      "turn-based strategy",
+      "imperios",
+      "historia",
+      "futurista",
+      "edicion española",
+      "big box",
+      "pc gaming",
+      "retro pc",
+      "coleccionismo",
+      "preservacion"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Compatible habitualmente con imágenes BIN/CUE o ISO. Puede requerir montaje virtual o parche No-CD para sistemas modernos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2044,42 +2271,55 @@
     "url": "juegos/darkstone-evil-reigns-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Acción",
-      "Rol"
+      "Action RPG",
+      "Hack and slash",
+      "Dungeon crawler",
+      "Fantasía"
     ],
     "desarrollador": [
       "Delphine Software International"
     ],
     "distribuidor": [
-      "Electronic Arts (EU), Gathering of Developers (NA, PC), Take‑Two Interactive (NA, PS)"
+      "Delphine Software International",
+      "Electronic Arts"
     ],
-    "ean": [
-      "5030931025532",
-      "5030930025533",
-      "5030947025533",
-      "5030934025539"
+    "ean": [],
+    "descripcion": "Darkstone: Evil Reigns es un action RPG de fantasía lanzado en 1999 que combinó exploración de mazmorras, generación procedural y combate en tiempo real en una estructura inspirada en Diablo. Desarrollado por Delphine Software International, el título destacó por permitir controlar grupos de dos personajes simultáneamente, incorporar ciclos dinámicos de día y noche y ofrecer un mundo semiabierto dividido en múltiples regiones conectadas. Utilizaba gráficos 3D acelerados y una estética oscura propia del auge del hack and slash de finales de los años noventa. Esta edición física en formato Big Box representa una de las últimas grandes producciones de DSI para PC antes del declive del estudio francés.",
+    "incluye": [
+      "CD-ROM",
+      "manual"
     ],
-    "descripcion": "ARPG clásico de 1999 ambientado en el mundo de Uma: debes reunir siete cristales para reconstruir el ‘Time Orb’ y vencer al dragón Draak. Ofrece exploración, mazmorras generadas, sistema de clases, multijugador cooperativo (hasta 4 jugadores), y versión para PS en 2001 con contenidos añadidos.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Darkstone",
+      "Evil Reigns",
+      "Delphine Software International",
+      "DSI",
+      "hack and slash",
+      "action RPG",
+      "fantasía oscura",
+      "rol clásico",
+      "PC gaming",
+      "Big Box",
+      "coleccionismo",
+      "preservación",
+      "Windows 98",
+      "Diablo-like",
+      "retro PC"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La edición puede preservarse mediante imagen BIN/CUE del CD-ROM original. La ejecución suele requerir presencia del disco original o compatibilidad con verificación de CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2089,15 +2329,13 @@
     "url": "juegos/silver-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Acción",
-      "Rol",
+      "Action RPG",
+      "Hack and slash",
+      "Aventura",
       "Fantasía"
     ],
     "desarrollador": [
@@ -2107,21 +2345,39 @@
       "Infogrames"
     ],
     "ean": [],
-    "descripcion": "Action-RPG lanzado el 31 de agosto de 1999. El jugador controla a David, un joven guerrero que busca rescatar a su esposa Jennifer tras ser secuestrada por el malvado hechicero Silver. Recorre distintas regiones del mundo de Jarrah recogiendo ocho orbes mágicos (Fuego, Hielo, Tierra, Veneno, Luz, Tiempo…) para derrotar a Silver y detener un pacto apocalíptico. Combina personajes en 3D sobre fondos prerenderizados, combate en tiempo real con gestos del ratón y múltiples acompañantes reclutables.",
-    "incluye": [],
+    "descripcion": "Silver es un action RPG de fantasía desarrollado por Spiral House y publicado por Infogrames a finales de los años noventa. El juego destacó por su avanzado apartado gráfico en 3D acelerado, cámaras cinematográficas y un sistema de combate basado en control directo mediante ratón, poco habitual en el género en su época. La aventura sigue a David, un héroe que debe enfrentarse al tirano Silver para rescatar a su esposa y liberar el reino. Esta edición española en formato Big Box incluye textos y voces en castellano y representa una de las producciones europeas más ambiciosas del periodo de transición entre Windows 95 y Windows 98.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Publicidad Chat'N Play"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Silver",
+      "Spiral House",
+      "Infogrames",
+      "Action RPG",
+      "Hack and slash",
+      "Fantasy",
+      "3D",
+      "Windows 95",
+      "Windows 98",
+      "Edición española",
+      "Big Box",
+      "PC Gaming",
+      "Retro PC",
+      "Coleccionismo",
+      "Preservación"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación puede realizarse mediante imagen BIN/CUE del CD original. Compatible habitualmente con sistemas modernos usando wrappers DirectX y unidades virtuales.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2136,31 +2392,48 @@
     "formato": "Big Box",
     "genero": [
       "Rol",
-      "Aventura",
-      "Fantasía"
+      "Dungeon crawler",
+      "Action RPG",
+      "Fantasia"
     ],
     "desarrollador": [
       "Westwood Studios"
     ],
     "distribuidor": [
-      "Virgin Interactive"
+      "Virgin Interactive Entertainment"
     ],
     "ean": [],
-    "descripcion": "Secuela de Lands of Lore: The Throne of Chaos, lanzada en septiembre de 1997. Mezcla acción RPG en tiempo real, aventura y resolución de puzles en primera persona. Sigues a Luther, un héroe maldito capaz de transformarse en humano, lagarto o bestia para superar obstáculos y enemigos. Ofrece varios finales según tus decisiones, escenas FMV, y un mundo de fantasía con exploración libre.",
-    "incluye": [],
+    "descripcion": "Lands of Lore II: Guardians of Destiny es la secuela del influyente RPG en primera persona de Westwood Studios, lanzada en 1997. A diferencia de su predecesor, esta entrega apostó por una estructura más orientada a la acción y a la exploración libre, incorporando transformación física del protagonista, combate en tiempo real y un apartado audiovisual muy avanzado para la época. El juego utilizaba entornos renderizados en 3D con secuencias FMV y doblaje profesional, elementos característicos de la producción de Westwood durante la segunda mitad de los años noventa. La edición física en formato Big Box distribuida por Virgin Interactive incluía versión en CD-ROM y manual impreso, siendo una de las grandes producciones europeas de RPG para PC de finales de la era MS-DOS.",
+    "incluye": [
+      "Manual",
+      "CD-ROM"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Westwood Studios",
+      "Virgin Interactive",
+      "Lands of Lore",
+      "RPG clásico",
+      "PC Gaming",
+      "Retro PC",
+      "Big Box",
+      "MS-DOS",
+      "Fantasy RPG",
+      "CD-ROM",
+      "Dungeon crawler",
+      "First person RPG",
+      "Preservación",
+      "Edición española"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Preservable mediante imagen BIN/CUE del CD-ROM original. Compatible con DOSBox y entornos Windows clásicos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2171,14 +2444,14 @@
     "plataforma": [
       "Win95",
       "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
+      "WinNT",
+      "MacOs"
     ],
     "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
-      "Ciencia ficción"
+      "Ciencia ficción",
+      "Multijugador"
     ],
     "desarrollador": [
       "Blizzard Entertainment"
@@ -2187,21 +2460,38 @@
       "Blizzard Entertainment"
     ],
     "ean": [],
-    "descripcion": "Revolucionario juego de estrategia en tiempo real lanzado el 31 de marzo de 1998. Ambientado en el sector Koprulu, enfrenta tres facciones únicas -Terran, Zerg, Protoss- con campañas separadas en una narrativa épica. Introdujo equilibrio de razas, multijugador online (Battle.net), editor de mapas y cinemáticas integradas.",
-    "incluye": [],
+    "descripcion": "StarCraft es uno de los videojuegos de estrategia en tiempo real más influyentes de la historia del PC gaming. Desarrollado por Blizzard Entertainment y publicado originalmente en 1998, el juego enfrentaba a tres facciones completamente asimétricas —Terran, Zerg y Protoss— en una campaña de ciencia ficción que redefinió el equilibrio jugable dentro del género RTS. Su motor permitía partidas multijugador mediante Battle.net, convirtiéndose rápidamente en un fenómeno competitivo internacional y en uno de los pilares fundacionales de los esports modernos. Esta edición física Big Box en castellano incluye doblaje y textos localizados al español, representando una de las distribuciones europeas más reconocibles del título durante finales de los años noventa.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Catálogo publicitario"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "StarCraft",
+      "Blizzard Entertainment",
+      "Battle.net",
+      "RTS",
+      "Esports",
+      "Ciencia ficción",
+      "PC Gaming",
+      "Big Box",
+      "Edición española",
+      "Preservación",
+      "Retro PC",
+      "Zerg",
+      "Protoss",
+      "Terran"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación completa suele realizarse mediante imagen BIN/CUE del CD original. Compatible con sistemas modernos mediante parches y wrappers comunitarios.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2212,38 +2502,58 @@
     "plataforma": [
       "Win95",
       "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
+      "WinNT",
+      "MacOs"
     ],
     "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
-      "Ciencia ficción"
+      "Ciencia ficción",
+      "Estrategia militar"
     ],
     "desarrollador": [
-      "Blizzard Entertainment, Saffire Entertainment"
-    ],
-    "distribuidor": [
       "Blizzard Entertainment"
     ],
+    "distribuidor": [
+      "Blizzard Entertainment",
+      "Sierra"
+    ],
     "ean": [],
-    "descripcion": "Expansion oficial lanzada el 18 de diciembre de 1998 para Windows (también MacOs en junio de 1999). Continúa la historia tras los eventos de StarCraft, añadiendo tres campañas (Protoss, Terran, Zerg), siete nuevas unidades (como Medics, Valkyrie, Dark Templar, Dark Archon, Lurker…), nuevas mejoras (Charon Boosters…) y nuevos tilesets (crepúsculo, hielo, desierto), con inteligencia artificial afinada y edición de mapas mejorada.",
-    "incluye": [],
+    "descripcion": "StarCraft: Brood War es la expansión oficial de StarCraft, desarrollada por Blizzard Entertainment y publicada originalmente en 1998. Esta expansión amplía de forma considerable el contenido del juego base mediante nuevas campañas para Terran, Zerg y Protoss, nuevas unidades, mejoras de equilibrio y un refinamiento profundo del multijugador competitivo. Brood War consolidó a StarCraft como uno de los RTS más influyentes de la historia del videojuego para PC, especialmente en el ámbito competitivo y de los eSports en Corea del Sur. La edición española en formato Big Box distribuida por Sierra incluía el juego completo en CD-ROM y material impreso relacionado con las nuevas unidades y árboles tecnológicos de cada raza.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Tarjetas de referencia"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
+      "StarCraft",
+      "Brood War",
+      "Blizzard Entertainment",
+      "RTS",
+      "Estrategia clásica",
+      "PC Gaming",
       "Big Box",
-      "Expansión"
+      "Edición española",
+      "Ciencia ficción",
+      "eSports",
+      "Multijugador",
+      "Battle.net",
+      "Preservación",
+      "Coleccionismo",
+      "Zerg",
+      "Protoss",
+      "Terran"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación puede realizarse correctamente mediante imagen BIN/CUE del CD original. Requiere el disco original o métodos compatibles para superar la verificación de CD en sistemas modernos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2252,37 +2562,60 @@
     "titulo": "Pool of Radiance",
     "url": "juegos/pool-of-radiance-bigbox/",
     "plataforma": [
-      "MsDos",
       "Win95",
-      "Win98"
+      "Win98",
+      "WinMe",
+      "Win2000"
     ],
     "formato": "Big Box",
     "genero": [
       "Rol",
-      "Fantasía"
+      "Action RPG",
+      "Dungeon crawler",
+      "Fantasia"
     ],
     "desarrollador": [
-      "Strategic Simulations, Inc."
+      "Stormfront Studios"
     ],
     "distribuidor": [
-      "Strategic Simulations, Inc."
+      "Ubisoft",
+      "SSI"
     ],
     "ean": [],
-    "descripcion": "Lanzado en junio de 1988, fue el primer videojuego oficial basado en el sistema AD&D y marcó el inicio de la serie Gold Box. Ambientado en los Reinos Olvidados, el jugador lidera hasta seis aventureros para limpiar la ciudad de Phlan de criaturas malignas. Combina exploración en vista en primera persona con combates tácticos por turnos en cuadrícula. Permitía exportar personajes a secuelas como *Curse of the Azure Bonds* y *Pools of Darkness*.",
-    "incluye": [],
+    "descripcion": "Pool of Radiance: Ruins of Myth Drannor es un RPG de acción ambientado en el universo Forgotten Realms de Dungeons & Dragons. Desarrollado por Stormfront Studios y publicado originalmente en 2001, el juego supuso el regreso de la histórica marca Pool of Radiance iniciada en los años ochenta por SSI. A diferencia de los clásicos Gold Box, esta entrega adoptó un enfoque en tiempo real centrado en exploración de mazmorras, combate directo y progresión de personajes basada en las reglas de D&D 3rd Edition. La edición distribuida en España por Ubisoft incluye presentación en formato Big Box e integra elementos característicos del PC gaming de transición entre finales de los noventa y comienzos de los 2000.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "CD-ROM"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Pool of Radiance",
+      "Forgotten Realms",
+      "Dungeons and Dragons",
+      "SSI",
+      "Ubisoft",
+      "Stormfront Studios",
+      "RPG",
+      "Action RPG",
+      "Dungeon crawler",
+      "Fantasy",
+      "PC Gaming",
+      "Big Box",
+      "Edicion española",
+      "Retro PC",
+      "Coleccionismo",
+      "Preservacion"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación puede realizarse mediante imagen BIN/CUE del disco original. Puede requerir verificación de CD para ejecución en hardware original.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2293,35 +2626,59 @@
     "plataforma": [
       "Win95",
       "Win98",
-      "WinMe"
+      "WinMe",
+      "Win2000"
     ],
     "formato": "Big Box",
     "genero": [
       "Rol",
-      "Fantasía"
+      "Action RPG",
+      "Dungeon crawler",
+      "Fantasia"
     ],
     "desarrollador": [
       "Stormfront Studios"
     ],
     "distribuidor": [
-      "Ubisoft"
+      "Ubisoft",
+      "SSI"
     ],
     "ean": [],
-    "descripcion": "Quinta y última entrega de la serie Pool of Radiance, lanzada el 27 de septiembre de 2001 (EE. UU.: 28 sept, Europa: 30 nov). Ambientado en los Reinos Olvidados, ofrece combate por turnos, perspectiva isométrica, personajes en 3D sobre fondos prerenderizados y adaptación de las reglas D&D 3ª edición. Sigue una campaña centrada en detener un Pool of Radiance en las ruinas élficas de Myth Drannor.",
-    "incluye": [],
+    "descripcion": "Pool of Radiance: Ruins of Myth Drannor es un RPG de acción ambientado en el universo Forgotten Realms de Dungeons & Dragons. Desarrollado por Stormfront Studios y publicado originalmente por SSI, el juego supuso el regreso de la histórica marca Pool of Radiance iniciada en los años ochenta, aunque reinterpretando la fórmula clásica hacia un enfoque más orientado a la acción en tiempo real y exploración de mazmorras tridimensionales. Utiliza una versión modificada del motor Dark Alliance Engine y permite controlar un grupo completo de aventureros enfrentándose a criaturas y escenarios inspirados en la ciudad élfica en ruinas de Myth Drannor. Esta edición coleccionista distribuida por Ubisoft en España incluía diversos extras físicos para coleccionistas y representa uno de los últimos títulos de SSI asociados oficialmente a la licencia clásica de Dungeons & Dragons para PC.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Mapa",
+      "Caja Big Box",
+      "Alfombrilla de ratón"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Forgotten Realms",
+      "Dungeons & Dragons",
+      "SSI",
+      "Ubisoft",
+      "Stormfront Studios",
+      "RPG clásico",
+      "Edición española",
+      "Edición coleccionista",
+      "PC gaming",
+      "Retro PC",
+      "Fantasy",
+      "Myth Drannor",
+      "Action RPG",
+      "Big Box",
+      "Preservación"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Compatible con preservación mediante imagen BIN/CUE del disco original. Puede requerir parche no-CD o ajustes de compatibilidad en sistemas modernos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2330,39 +2687,55 @@
     "titulo": "Broken Sword: La Leyenda de los Templarios",
     "url": "juegos/broken-sword-la-leyenda-de-los-templarios-bigbox/",
     "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
-      "Point & click"
+      "Point and click"
     ],
     "desarrollador": [
       "Revolution Software"
     ],
     "distribuidor": [
-      "Virgin Interactive"
+      "Virgin Interactive Entertainment"
     ],
     "ean": [],
-    "descripcion": "Aventura gráfica en tercera persona (1996) protagonizada por el abogado George Stobbart y la periodista Nico Collard, quienes investigan un complot ligado a los Caballeros Templarios tras una explosión en París. Destaca por narrativa ramificada, fecha múltiples finales, entornos pre‑renderizados y minijuegos como el famoso puzzle de la cabra.",
-    "incluye": [],
+    "descripcion": "Broken Sword: La Leyenda de los Templarios es una de las aventuras gráficas más influyentes de mediados de los años noventa. Desarrollado por Revolution Software y dirigido por Charles Cecil, el juego combina narrativa cinematográfica, humor, conspiraciones templarias y un estilo visual inspirado en la animación tradicional europea. La historia sigue a George Stobbart y Nico Collard en una investigación internacional que mezcla asesinatos, sociedades secretas y referencias históricas. Esta edición española en formato Big Box distribuida por Virgin Interactive incluye textos y documentación localizados al castellano y representa uno de los lanzamientos más emblemáticos de la edad dorada del género point and click en PC Windows.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Tarjeta de registro",
+      "Libro promocional"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Broken Sword",
+      "Broken Sword The Shadow of the Templars",
+      "Revolution Software",
+      "Virgin Interactive",
+      "Charles Cecil",
+      "aventuras gráficas",
+      "point and click",
+      "templarios",
+      "misterio",
+      "conspiraciones",
+      "retro gaming",
+      "pc gaming",
+      "big box",
+      "edicion española",
+      "preservacion",
+      "años 90"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación puede realizarse mediante imagen BIN/CUE del CD-ROM original. Compatible habitualmente con sistemas modernos mediante parches, ScummVM o máquinas virtuales.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2372,41 +2745,51 @@
     "url": "juegos/broken-sword-ii-las-fuerzas-del-mal-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000",
-      "Win7",
-      "Win10"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
-      "Point & click"
+      "Point and click"
     ],
     "desarrollador": [
       "Revolution Software"
     ],
     "distribuidor": [
-      "Virgin Interactive, Revolution Software (Remastered)"
+      "Virgin Interactive"
     ],
-    "ean": [
-      "0650008199048"
+    "ean": [],
+    "descripcion": "Broken Sword II: Las Fuerzas del Mal es la segunda entrega de la reconocida saga de aventuras gráficas creada por Revolution Software. Lanzado originalmente en 1997, el juego continúa las aventuras de George Stobbart y Nico Collard en una trama centrada en antiguas civilizaciones mesoamericanas, conspiraciones y elementos sobrenaturales. Utiliza un sistema clásico de point and click con escenarios dibujados a mano, animaciones 2D de alta calidad y doblaje completo al castellano en su edición española. Esta edición Big Box distribuida por Virgin Interactive representa una de las versiones físicas más reconocibles del PC gaming europeo de finales de los noventa y constituye una pieza relevante para preservación de aventuras gráficas clásicas en CD-ROM.",
+    "incluye": [
+      "CD-ROM",
+      "Tarjeta de registro"
     ],
-    "descripcion": "Segunda entrega de la saga Broken Sword (1997), controlas a George Stobbart y en partes a Nico Collard en una aventura global que mezcla misterio, humor y mitología Maya. La versión Remastered (2010‑11) añade gráficos mejorados, sistema de pistas, diario interactivo, cómic de Dave Gibbons y audio regrabado.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Broken Sword",
+      "Broken Sword II",
+      "Revolution Software",
+      "Virgin Interactive",
+      "aventuras gráficas",
+      "point and click",
+      "PC gaming clásico",
+      "edición española",
+      "Big Box",
+      "CD-ROM",
+      "doblaje castellano",
+      "retro gaming",
+      "preservación",
+      "noventas"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación puede realizarse mediante imagen BIN/CUE del CD-ROM original. Compatible con sistemas modernos usando parches y wrappers de compatibilidad.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2416,39 +2799,62 @@
     "url": "juegos/druuna-morbus-gravis-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Aventura",
-      "Survival horror"
+      "Aventura gráfica",
+      "Point and click",
+      "Ciencia ficción",
+      "Aventura para adultos"
     ],
     "desarrollador": [
-      "Artematica"
+      "Cryo Interactive"
     ],
     "distribuidor": [
-      "Microids (MC2‑Microïds)"
+      "Microïds",
+      "Artematica",
+      "Cryo Interactive",
+      "Baccheera"
     ],
-    "ean": [
-      "3342184386653"
+    "ean": [],
+    "descripcion": "Druuna: Morbus Gravis es una aventura gráfica point and click de ciencia ficción para adultos basada en el universo del cómic creado por Paolo Eleuteri Serpieri. El juego adapta el estilo visual y la atmósfera oscura y biomecánica de la obra original mediante escenarios prerenderizados, secuencias CGI y una narrativa centrada en exploración, puzles y supervivencia dentro de una gigantesca ciudad decadente afectada por una misteriosa plaga. Esta edición española distribuida por Baccheera y Microïds incluye doblaje y textos en castellano, y fue publicada en formato Big Box durante la etapa final del mercado clásico de aventuras gráficas europeas en PC.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "CD-ROM",
+      "Tarjeta de registro"
     ],
-    "descripcion": "Aventura gráfica en tercera persona y survival horror lanzada el 27 de septiembre de 2001. Basada en el cómic 'Morbus Gravis' de Paolo Eleuteri Serpieri, ambientada en una ciudad distópica plagada de monstruos. Sigues a Druuna en estado de coma, explorando sus recuerdos mediante entornos prerenderizados y cinemáticas FMV (60 min), resolviendo puzles y evitando trampas mortales.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Druuna",
+      "Paolo Serpieri",
+      "Serpieri",
+      "Cryo Interactive",
+      "Microïds",
+      "Artematica",
+      "Baccheera",
+      "aventuras gráficas europeas",
+      "ciencia ficción",
+      "cyberpunk",
+      "biomecánico",
+      "retro gaming",
+      "pc big box",
+      "edición española",
+      "point and click",
+      "coleccionismo PC",
+      "preservación",
+      "CD-ROM"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Compatible con preservación mediante imagen BIN/CUE del CD original. Puede requerir montaje de imagen o crack de preservación en sistemas modernos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2461,34 +2867,56 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Fantasía oscura",
-      "Política"
+      "Rol",
+      "Dungeon crawler",
+      "Fantasia",
+      "Estrategia"
     ],
     "desarrollador": [
-      "Cryo Interactive"
+      "Topo Soft"
     ],
     "distribuidor": [
       "Topo Soft"
     ],
     "ean": [],
-    "descripcion": "Black Crown es una aventura gráfica point and click desarrollada por Cryo Interactive y distribuida en España por Topo Soft. Lanzada en 1994, se ambienta en un mundo de fantasía oscura donde el jugador adopta el papel de un misterioso consejero capaz de influir en el destino de un reino mediante decisiones políticas y sociales. A diferencia de las aventuras gráficas tradicionales, el juego pone el énfasis en la manipulación de facciones y personajes clave más que en la resolución clásica de puzles. Destaca por su tono adulto, su enfoque alegórico y su original propuesta jugable. Esta edición requiere disco duro y se presentó en formato Big Box.",
-    "incluye": [],
+    "descripcion": "Black Crown es un videojuego español de rol y estrategia desarrollado y distribuido por Topo Soft para PC compatibles MS-DOS a comienzos de los años noventa. El juego mezcla exploración, combate táctico y elementos de aventura fantástica dentro de un universo medieval oscuro centrado en la búsqueda de la misteriosa Corona Negra. La edición física destaca especialmente por incluir componentes de juego de mesa y ayudas físicas para complementar la experiencia, algo poco habitual incluso dentro de la producción española de la época. Requiere disco duro y soporta gráficos VGA, sonido AdLib y Sound Blaster, reflejando la transición tecnológica del mercado PC español hacia configuraciones multimedia más avanzadas.",
+    "incluye": [
+      "Caja Big Box",
+      "Disquetes de 3,5",
+      "Manual",
+      "Tablero",
+      "Fichas de personajes",
+      "Hoja de referencia",
+      "Componentes troquelados"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
+      "Topo Soft",
+      "PC español",
+      "MS-DOS",
+      "fantasía medieval",
+      "retro gaming",
+      "coleccionismo",
+      "videojuego español",
       "Big Box",
-      "Edición Española"
+      "preservación",
+      "juego de rol",
+      "dungeon crawler",
+      "años 90",
+      "disquetes",
+      "VGA",
+      "AdLib",
+      "Sound Blaster"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Manual lookup",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La edición incluye documentación física y componentes impresos potencialmente utilizados como sistema de verificación. Preservable mediante volcado RAW de disquetes de 3,5 pulgadas.",
+      "formato": "WAV/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2504,30 +2932,52 @@
     "genero": [
       "Survival horror",
       "Acción",
-      "Terror"
+      "Terror",
+      "Aventura"
     ],
     "desarrollador": [
       "Capcom"
     ],
     "distribuidor": [
-      "Virgin Interactive Entertainment España, S.A."
+      "Virgin Interactive Entertainment España",
+      "Capcom"
     ],
     "ean": [],
-    "descripcion": "Resident Evil 2 es un juego de survival horror desarrollado por Capcom y lanzado originalmente en 1998. Ambientado en la ciudad de Raccoon City tras la propagación del virus T, el jugador controla a Leon S. Kennedy o Claire Redfield mientras lucha por sobrevivir entre zombis y criaturas mutantes, resolviendo puzles y gestionando recursos limitados. La versión para PC incluye mejoras técnicas respecto a la versión de consola y, en esta edición española, cuenta con manual y materiales localizados.",
-    "incluye": [],
+    "descripcion": "Conversión para PC del influyente survival horror de Capcom originalmente lanzado para consolas en 1998. Resident Evil 2 consolidó muchas de las mecánicas y convenciones del género, combinando exploración, resolución de puzles, gestión limitada de recursos y narrativa cinematográfica mediante escenarios paralelos protagonizados por Leon S. Kennedy y Claire Redfield. La versión para Windows distribuida en España por Virgin Interactive incluye secuencias FMV, gráficos prerenderizados y soporte para resolución superior respecto a algunas versiones de consola de la época. Esta edición Big Box española representa una de las distribuciones físicas más reconocibles del survival horror en PC a finales de los años noventa.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Tarjeta de registro"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Resident Evil",
+      "Resident Evil 2",
+      "Capcom",
+      "Virgin Interactive",
+      "Survival horror",
+      "Horror",
+      "Zombies",
+      "Raccoon City",
+      "PC Gaming",
+      "Big Box",
+      "Edición española",
+      "Retro PC",
+      "Windows 95",
+      "Windows 98",
+      "FMV",
+      "Preservación",
+      "Coleccionismo"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Compatible habitualmente con preservación mediante imagen BIN/CUE del disco original. Puede requerir presencia del CD original o parche específico para ejecución moderna.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2536,37 +2986,59 @@
     "titulo": "Empire Earth",
     "url": "juegos/empire-earth-bigbox/",
     "plataforma": [
+      "Win95",
       "Win98",
       "WinMe",
-      "Win2000",
-      "WinXP"
+      "Win2000"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "Estrategia histórica",
+      "Construcción de imperios"
     ],
     "desarrollador": [
       "Stainless Steel Studios"
     ],
     "distribuidor": [
+      "Sierra",
       "Sierra Entertainment"
     ],
     "ean": [],
-    "descripcion": "Juego de estrategia en tiempo real que abarca más de 500.000 años de historia, desde la Prehistoria hasta un futuro cercano. El jugador dirige una civilización a lo largo de 14 épocas diferentes, gestionando recursos, tecnología, diplomacia y unidades militares. Incluye campañas históricas, un potente editor de escenarios y modo multijugador. Considerado por muchos como el sucesor espiritual de Age of Empires.",
-    "incluye": [],
+    "descripcion": "Empire Earth es un juego de estrategia en tiempo real desarrollado por Stainless Steel Studios y diseñado por Rick Goodman, uno de los principales responsables de Age of Empires. Publicado originalmente en 2001, el título destaca por abarcar más de 500.000 años de historia humana, permitiendo al jugador evolucionar desde la prehistoria hasta una era futurista. El juego introdujo mecánicas avanzadas para su época, como héroes, moral de unidades, zoom dinámico y un sistema de épocas extremadamente amplio. Esta edición española distribuida por Sierra incluye doblaje y documentación localizada al castellano, y representa una de las grandes producciones de estrategia para PC de comienzos de los años 2000.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Hoja de referencia rápida",
+      "Tarjeta de registro"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Empire Earth",
+      "Stainless Steel Studios",
+      "Sierra",
+      "Rick Goodman",
+      "RTS",
+      "estrategia histórica",
+      "civilizaciones",
+      "edad de piedra",
+      "futuro",
+      "PC Gaming",
+      "Big Box",
+      "edición española",
+      "juego clásico de PC",
+      "preservación",
+      "estrategia en tiempo real"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La edición puede preservarse mediante imagen BIN/CUE del disco original. En sistemas modernos suele requerir parches de compatibilidad o versiones actualizadas para evitar problemas con sistemas de protección y renderizado antiguos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2575,36 +3047,53 @@
     "titulo": "Lost Eden",
     "url": "juegos/lost-eden-bigbox/",
     "plataforma": [
-      "Win95",
-      "Win98"
+      "MsDos"
     ],
     "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
-      "Estrategia"
+      "Aventura en primera persona",
+      "Point and click",
+      "Ciencia ficción"
     ],
     "desarrollador": [
       "Cryo Interactive"
     ],
     "distribuidor": [
-      "Virgin Interactive Entertainment, Interplay Entertainment"
+      "Virgin Interactive Entertainment",
+      "Cryo Interactive"
     ],
     "ean": [],
-    "descripcion": "Lost Eden es una aventura gráfica con elementos estratégicos ambientada en un mundo prehistórico donde humanos y dinosaurios conviven. Lanzado inicialmente para MsDos en 1995, contó con una versión compatible para Windows que permite ejecutarlo vía DOSBox bajo Win95, Win98 o posteriores. El jugador encarna al príncipe Adam de Mô y debe restaurar antiguas ciudades con la ayuda de dinosaurios inteligentes, explorando entornos prerenderizados, resolviendo puzles y dialogando con criaturas parlantes. Destaca por su estética detallada, banda sonora de Stéphane Picq y narrativa épica.",
-    "incluye": [],
+    "descripcion": "Lost Eden es una aventura gráfica en primera persona desarrollada por Cryo Interactive y publicada originalmente en 1995. Ambientado en un mundo prehistórico de inspiración fantástica donde humanos y dinosaurios conviven bajo un régimen opresivo, el juego mezcla exploración, narrativa y resolución de puzles con una fuerte carga atmosférica característica de las producciones europeas de mediados de los noventa. Utiliza gráficos renderizados y secuencias digitalizadas típicas de la época, siguiendo la línea de títulos como Atlantis o Dune. Esta edición física en formato Big Box incluye el CD-ROM del juego y documentación impresa, representando una de las producciones más reconocibles del catálogo clásico de Cryo Interactive.",
+    "incluye": [
+      "Manual",
+      "CD-ROM"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Cryo Interactive",
+      "Virgin Interactive",
+      "PC Gaming",
+      "Retro PC",
+      "Big Box",
+      "Aventura clásica",
+      "Dinosaurios",
+      "Ciencia ficción",
+      "Juego francés",
+      "CD-ROM",
+      "Preservación",
+      "PC Game Archive",
+      "Años 90"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación estándar mediante imagen BIN/CUE suele ser suficiente para esta edición en CD-ROM. Puede requerir montaje virtual o parches de compatibilidad en sistemas modernos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2613,37 +3102,56 @@
     "titulo": "Decisive Battles of WWII: The Ardennes Offensive",
     "url": "juegos/decisive-battles-of-wwii-the-ardennes-offensive-bigbox/",
     "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia por turnos"
+      "Estrategia por turnos",
+      "Wargame",
+      "Simulación bélica",
+      "Estrategia histórica"
     ],
     "desarrollador": [
       "Strategic Studies Group"
     ],
     "distribuidor": [
-      "Strategic Simulations, Inc."
+      "Mindscape",
+      "Proein"
     ],
     "ean": [],
-    "descripcion": "Wargame por turnos lanzado en junio de 1997 que recrea la Batalla de las Ardenas (Diciembre 1944‑Enero 1945) en un mapa hexagonal. Incluye campaña completa (64 turnos) y 8 escenarios, niveles de dificultad ajustables, IA exigente y multijugador por hotseat, LAN, modem o e‑mail. Fue el primer título de la serie 'Decisive Battles of WWII'.",
-    "incluye": [],
+    "descripcion": "Decisive Battles of WWII: Ardennes Offensive es un wargame estratégico ambientado en la ofensiva de las Ardenas de diciembre de 1944 durante la Segunda Guerra Mundial. Desarrollado por Strategic Studies Group, el título forma parte de la serie Decisive Battles of WWII y destaca por su enfoque operacional detallado, la gestión logística y la simulación táctica basada en hexágonos. El juego permite controlar fuerzas alemanas o aliadas en uno de los enfrentamientos más importantes del frente occidental, incorporando condiciones climáticas, líneas de suministro y mecánicas avanzadas de mando. Esta edición española distribuida por Proein incluye versión localizada al castellano y soporte para Windows 95.",
+    "incluye": [
+      "Manual",
+      "CD-ROM"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Segunda Guerra Mundial",
+      "WWII",
+      "Ardenas",
+      "Battle of the Bulge",
+      "Strategic Studies Group",
+      "SSG",
+      "Mindscape",
+      "Proein",
+      "Wargame clásico",
+      "Estrategia histórica",
+      "Hexágonos",
+      "PC Gaming",
+      "Big Box",
+      "Edición española",
+      "Preservación digital",
+      "Retro PC"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación puede realizarse mediante imagen BIN/CUE del CD-ROM original. El juego suele ejecutarse correctamente en sistemas virtualizados compatibles con Windows 95.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2657,9 +3165,10 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia",
+      "Estrategia en tiempo real",
       "Táctica en tiempo real",
-      "Bélico"
+      "Sigilo",
+      "Estrategia bélica"
     ],
     "desarrollador": [
       "Pyro Studios"
@@ -2668,37 +3177,37 @@
       "Eidos Interactive",
       "Proein"
     ],
-    "ean": [
-      "5032921006366"
-    ],
-    "descripcion": "Commandos: Behind Enemy Lines es uno de los grandes referentes españoles del videojuego para PC de finales de los noventa. Desarrollado por Pyro Studios, propone misiones tácticas en tiempo real ambientadas en la Segunda Guerra Mundial, donde cada miembro del comando posee habilidades específicas y el éxito depende más de la planificación, la observación y la coordinación que de la acción directa. Esta edición Big Box española, distribuida por Proein bajo sello Eidos, representa uno de los lanzamientos más emblemáticos de la estrategia táctica europea y una pieza clave dentro de la historia del videojuego desarrollado en España.",
+    "ean": [],
+    "descripcion": "Commandos: Behind Enemy Lines es uno de los títulos más influyentes de la estrategia táctica en tiempo real de finales de los años noventa. Desarrollado por el estudio español Pyro Studios y publicado internacionalmente por Eidos Interactive, el juego sitúa al jugador al mando de un reducido grupo de especialistas aliados durante la Segunda Guerra Mundial. Su propuesta se alejaba de la estrategia clásica basada en construcción y gestión de recursos, apostando por infiltración, coordinación precisa y resolución táctica de misiones detrás de las líneas enemigas. La edición española distribuida por Proein se convirtió en uno de los mayores éxitos internacionales de la industria española del videojuego. El título destacó por su dificultad elevada, IA avanzada para la época y diseño de escenarios abiertos con múltiples rutas de resolución. Commandos fue además un referente tecnológico gracias a su motor gráfico isométrico detallado y su cuidada ambientación militar.",
     "incluye": [
-      "Caja Big Box",
-      "CD-ROM del juego en caja Jewel Case",
-      "Manual del usuario"
+      "Manual",
+      "CD-ROM"
     ],
     "serie": [
-      "Big Box",
-      "Todos"
+      "Todos",
+      "Big Box"
     ],
     "tags": [
       "Commandos",
-      "Behind Enemy Lines",
       "Pyro Studios",
       "Eidos Interactive",
       "Proein",
+      "España",
+      "PC Gaming",
+      "Retro PC",
       "Big Box",
-      "PC CD-ROM",
-      "Estrategia",
-      "Táctica en tiempo real",
+      "Edición española",
       "Segunda Guerra Mundial",
-      "Videojuego español",
-      "Edición española"
+      "Real-time tactics",
+      "Isométrico",
+      "Juego de culto",
+      "Preservación",
+      "Coleccionismo"
     ],
     "proteccion": {
       "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de verificación exacta de la protección de esta edición concreta. Como edición retail de PC de finales de los noventa, se recomienda preservación mediante imagen completa del CD.",
+      "preservacion": "La preservación es sencilla mediante imagen BIN/CUE del CD original. El juego suele funcionar correctamente en sistemas modernos mediante parches de compatibilidad o wrappers DirectDraw.",
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
@@ -2710,42 +3219,56 @@
     "url": "juegos/commandos-mas-alla-del-deber-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
-      "Stealth"
+      "Táctica en tiempo real",
+      "Sigilo",
+      "Segunda Guerra Mundial"
     ],
     "desarrollador": [
       "Pyro Studios"
     ],
     "distribuidor": [
-      "Eidos Interactive"
+      "Eidos Interactive",
+      "Proein"
     ],
-    "ean": [
-      "5032921005869",
-      "0788687109611",
-      "5037999003717",
-      "788687109611"
+    "ean": [],
+    "descripcion": "Commandos: Más Allá del Deber es la expansión independiente del influyente Commandos: Behind Enemy Lines, desarrollada por el estudio español Pyro Studios. Publicado en 1999, el título amplía la fórmula táctica en tiempo real basada en infiltración, coordinación de especialistas y planificación milimétrica de operaciones durante la Segunda Guerra Mundial. Introdujo nuevas misiones de elevada dificultad y reforzó la identidad estratégica de la saga, convirtiéndose en uno de los referentes del PC gaming español de finales de los noventa. Esta edición española distribuida por Proein en formato Big Box incluye una campaña independiente que no requiere el juego original para funcionar.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Hoja de registro",
+      "Publicidad"
     ],
-    "descripcion": "Expansión independiente de 'Commandos: Behind Enemy Lines' lanzada en marzo‑abril de 1999. Incluye 8 nuevas misiones ambientadas en Yugoslavia y Grecia, gráficos mejorados, entorno más interactivo y nuevas habilidades (enfurecer enemigos, subirse a vehículos, lanzar piedras/cigarros para despistar). Soporta cooperativo local/LAN.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Commandos",
+      "Pyro Studios",
+      "Eidos Interactive",
+      "Proein",
+      "PC Gaming Español",
+      "Estrategia táctica",
+      "Real-time tactics",
+      "Segunda Guerra Mundial",
+      "Expansión independiente",
+      "Retro PC",
+      "Big Box",
+      "Edición española",
+      "Preservación",
+      "Juego de sigilo"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación puede realizarse mediante imagen BIN/CUE del CD original. Compatible habitualmente con sistemas modernos mediante parches y wrappers no oficiales.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2761,7 +3284,8 @@
     "genero": [
       "Simulación",
       "Gestión",
-      "Construcción"
+      "Construcción y gestión",
+      "Tycoon"
     ],
     "desarrollador": [
       "Bullfrog Productions"
@@ -2770,33 +3294,41 @@
       "Electronic Arts"
     ],
     "ean": [],
-    "descripcion": "Theme Park World es la continuación espiritual de Theme Park, desarrollada por Bullfrog Productions y publicada por Electronic Arts. El juego traslada la gestión de parques de atracciones a un entorno tridimensional más vistoso, permitiendo construir zonas temáticas, diseñar montañas rusas, contratar personal, gestionar tiendas y atracciones, e incluso recorrer el parque en primera persona para experimentar las instalaciones creadas por el jugador. Esta edición española en formato Big Box destaca por su localización al castellano y por conservar el material físico propio de las ediciones de PC de finales de los noventa, en una etapa en la que Bullfrog seguía asociada a simuladores de gestión con personalidad propia, humor visual y una fuerte identidad de estudio.",
+    "descripcion": "Theme Park World es un videojuego de simulación y gestión de parques temáticos desarrollado por Bullfrog Productions y publicado por Electronic Arts a finales de los años noventa. Supone una evolución del influyente Theme Park original de 1994, trasladando la fórmula clásica de gestión empresarial y construcción de atracciones a un entorno completamente tridimensional y orientado a un público más amplio y accesible. El juego permite diseñar parques inspirados en distintas temáticas, construir montañas rusas y atracciones complejas, gestionar personal, controlar precios y satisfacer las necesidades de los visitantes. Esta edición española distribuida por Electronic Arts incluye traducción y doblaje al castellano, algo destacado en la propia caja. Theme Park World es considerado uno de los últimos títulos emblemáticos de Bullfrog antes de la desaparición progresiva del estudio tras su integración en Electronic Arts, y representa una pieza importante dentro de la historia de los juegos de gestión para PC de finales de los noventa.",
     "incluye": [
-      "Caja exterior de cartón",
-      "Caja jewel case con CD-ROM",
+      "CD-ROM",
       "Manual",
-      "Documentación impresa",
-      "Tarjeta postal promocional",
-      "Tarjeta de registro o servicio de atención al usuario"
+      "Tarjeta de registro",
+      "Tarjeta promocional",
+      "Hoja de referencia"
     ],
     "serie": [
-      "Big Box",
-      "Todos"
+      "Todos",
+      "Big Box"
     ],
     "tags": [
-      "theme-park-world",
-      "bullfrog",
-      "electronic-arts",
-      "simulacion",
-      "gestion",
-      "parque-de-atracciones",
-      "big-box",
-      "pc"
+      "Bullfrog",
+      "Electronic Arts",
+      "Theme Park",
+      "parques de atracciones",
+      "gestión empresarial",
+      "simulación clásica",
+      "edición española",
+      "doblado al castellano",
+      "retro PC",
+      "pc gaming",
+      "big box",
+      "coleccionismo",
+      "preservación",
+      "Windows 95",
+      "Windows 98",
+      "simulador de parques",
+      "tycoon"
     ],
     "proteccion": {
-      "tipo": "SafeDisc",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Recomendable preservar el CD-ROM como imagen de disco completa. La ejecución en sistemas modernos puede requerir entorno Windows 95/98 virtualizado o parches de compatibilidad debido a la protección SafeDisc y a dependencias propias de la época.",
+      "preservacion": "La preservación habitual se realiza mediante imagen BIN/CUE del CD-ROM original. El juego puede ejecutarse en sistemas modernos mediante wrappers o máquinas virtuales compatibles con Windows 95/98.",
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
@@ -2808,37 +3340,52 @@
     "url": "juegos/duelo-de-hechiceros-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
-      "Rol"
+      "Estrategia táctica",
+      "Fantasía",
+      "Acción táctica"
     ],
     "desarrollador": [
-      "Mythos Games (Julian Gollop)"
+      "Mythos Games"
     ],
     "distribuidor": [
-      "Virgin Interactive"
+      "MicroProse",
+      "Game Zone"
     ],
-    "ean": [],
-    "descripcion": "Juego de estrategia fantástica en tiempo real con elementos RPG, lanzado en 1998 (Europa en español). Asumes el papel de un joven mago que invoca criaturas y lanza hechizos mediante ingredientes y talismanes en combates sobre mapas de tres reinos (Albion, Grecia, Avalon). Incluye campaña individual y multijugador vía IPX o LAN.",
+    "ean": [
+      "5028587101786"
+    ],
+    "descripcion": "Edición española en formato Big Box de Duelo de Hechiceros, título conocido internacionalmente como Magic & Mayhem. Desarrollado por Mythos Games, el estudio de Julian Gollop tras la serie X-COM, el juego combina estrategia en tiempo real, invocación de criaturas, gestión de hechizos y combate táctico en escenarios de fantasía oscura. Destacó por su avanzado sistema de destrucción del entorno, inteligencia artificial adaptativa y campañas con múltiples rutas y regiones conquistables. La edición distribuida por Game Zone incluye versión íntegra en castellano y representa uno de los exponentes de la estrategia fantástica para PC de finales de los años noventa.",
     "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Precintado"
+      "Magic and Mayhem",
+      "Julian Gollop",
+      "X-COM",
+      "fantasía oscura",
+      "estrategia clásica",
+      "real time strategy",
+      "RTS",
+      "edición española",
+      "big box pc",
+      "pc gaming clásico",
+      "preservación",
+      "MicroProse",
+      "Game Zone"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Compatible habitualmente con imágenes BIN/CUE o ISO para preservación digital. Puede requerir emulación de CD para mantener la verificación original.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2847,37 +3394,56 @@
     "titulo": "Patriot",
     "url": "juegos/patriot-bigbox/",
     "plataforma": [
-      "MsDos",
-      "Win95"
+      "MsDos"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia",
-      "Simulación",
-      "Política"
+      "Simulación militar",
+      "Simulador de tanque",
+      "Combate táctico",
+      "Vehículos de combate"
     ],
     "desarrollador": [
-      "PsychoLogical Software"
+      "MPS Labs"
     ],
     "distribuidor": [
       "MicroProse"
     ],
     "ean": [],
-    "descripcion": "Patriot es un juego de estrategia y simulación política en el que el jugador lidera un movimiento revolucionario con el objetivo de derrocar a un régimen autoritario. A través de la gestión de recursos, propaganda, apoyo popular y acciones encubiertas, el juego ofrece múltiples enfoques para alcanzar el poder, combinando planificación estratégica con toma de decisiones políticas y morales.",
-    "incluye": [],
+    "descripcion": "Patriot es un simulador militar táctico desarrollado por MPS Labs y publicado por MicroProse a comienzos de los años noventa para compatibles PC. El juego sitúa al jugador al mando de un vehículo blindado avanzado en escenarios inspirados en conflictos modernos de Oriente Medio, combinando simulación de combate terrestre, gestión táctica y entrenamiento militar. La edición en disquete para MS-DOS destaca por su presentación típica de MicroProse durante la época dorada de los simuladores militares de PC, incluyendo abundante documentación física y manuales específicos de operaciones y entrenamiento. El título forma parte de la línea de simuladores militares complejos que definieron el catálogo de MicroProse junto a otras referencias históricas del género.",
+    "incluye": [
+      "Caja Big Box",
+      "Disquetes de 3,5 pulgadas",
+      "Manual Patriot Field Operations Manual",
+      "Manual Patriot Training Manual",
+      "Manual de instalación",
+      "Tarjeta de registro"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "MicroProse",
+      "MPS Labs",
+      "simulador militar",
+      "tanques",
+      "guerra moderna",
+      "MS-DOS",
+      "disquetes",
+      "Big Box",
+      "PC gaming clásico",
+      "simulación táctica",
+      "vehículos blindados",
+      "preservación",
+      "coleccionismo PC"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Manual lookup",
       "version": "",
-      "preservacion": "Pendiente de documentación",
+      "preservacion": "La preservación puede realizarse mediante volcado de disquetes en imágenes IMG o RAW. La protección parece basarse en consulta de manual durante la ejecución, habitual en simuladores de MicroProse de la época.",
       "formato": "No aplica",
-      "jugable_virtual": false
+      "jugable_virtual": true
     }
   },
   {
@@ -2886,36 +3452,54 @@
     "titulo": "Death Rally",
     "url": "juegos/death-rally-bigbox/",
     "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
+      "MsDos"
     ],
     "formato": "Big Box",
     "genero": [
-      "Carreras"
+      "Carreras",
+      "Combate vehicular",
+      "Acción",
+      "Arcade"
     ],
     "desarrollador": [
       "Remedy Entertainment"
     ],
     "distribuidor": [
-      "Apogee Software (GT Interactive)"
+      "Apogee Software"
     ],
     "ean": [],
-    "descripcion": "Vehicular combat top‑down lanzado el 7 de septiembre de 1996. Pilotas coches armados en carreras donde puedes usar minas, cohetes, pagar sobornos y enfrentarte al ‘Adversary’. Comienzas con un Vagabond y mejoras motor, tracción y armadura para llegar al campeón. En 2009 fue relanzado gratis para Windows, y recibió un remake móvil/PC en 2012.",
-    "incluye": [],
+    "descripcion": "Death Rally es un juego de carreras y combate vehicular desarrollado por Remedy Entertainment y publicado por Apogee Software en 1996 para MS-DOS. El título combina conducción arcade con combate armado en perspectiva cenital, incorporando ametralladoras, minas y misiles durante las competiciones. Fue uno de los primeros trabajos importantes de Remedy antes de crear Max Payne y destaca por su tono violento, su ambientación postapocalíptica y su sistema de progresión económica entre carreras. Esta edición física en formato Big Box incluye distribución europea con clasificación por edades y referencia promocional al personaje Duke Nukem, reflejando la estrecha relación comercial entre Apogee y 3D Realms durante la época dorada del PC gaming shareware y retail de mediados de los años noventa.",
+    "incluye": [
+      "CD-ROM",
+      "Manual"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Death Rally",
+      "Remedy Entertainment",
+      "Apogee",
+      "3D Realms",
+      "MS-DOS",
+      "PC Gaming",
+      "Retro PC",
+      "Big Box",
+      "Combat Racing",
+      "Vehicular Combat",
+      "Shareware Era",
+      "1996",
+      "Duke Nukem",
+      "Preservación",
+      "Coleccionismo"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Sin protección",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Juego preservable mediante imagen BIN/CUE del CD-ROM original. Compatible con DOSBox y otros entornos de virtualización MS-DOS modernos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2925,37 +3509,53 @@
     "url": "juegos/rollercoaster-tycoon-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "WinMe",
-      "WinXP"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Simulación"
+      "Simulación",
+      "Gestión",
+      "Construcción y gestión",
+      "Tycoon"
     ],
     "desarrollador": [
-      "Chris Sawyer"
+      "Chris Sawyer Productions"
     ],
     "distribuidor": [
-      "Hasbro Interactive",
-      "Infogrames (posteriormente Atari Interactive)"
+      "MicroProse"
     ],
     "ean": [],
-    "descripcion": "Juego de simulación lanzado el 22 de marzo de 1999. Permite diseñar y gestionar tu propio parque de atracciones, con montañas rusas, tiendas, transporte, personal y finanzas. Incorpora 21 escenarios, construcción de montañas rusas personalizadas, personal autónomo (como mecánicos, vigilantes, limpiadores) y escenarios descargables oficiales como Fort Anachronism y Alton Towers. Su sistema de construcción fue escrito casi enteramente en ensamblador, lo que le otorgó una optimización excepcional.",
-    "incluye": [],
+    "descripcion": "RollerCoaster Tycoon es uno de los títulos de simulación y gestión más influyentes de finales de los años noventa. Diseñado principalmente por Chris Sawyer, el juego permite construir y administrar parques de atracciones completos, diseñando montañas rusas personalizadas, gestionando economía, personal y satisfacción de los visitantes. Destacó por su enorme profundidad jugable, su sistema de construcción extremadamente flexible y un rendimiento técnico sorprendente para la época, desarrollado en gran parte en ensamblador. La edición física en Big Box distribuida por MicroProse incluye el juego en CD-ROM y manual impreso, representando una de las ediciones más icónicas del género tycoon en PC.",
+    "incluye": [
+      "CD-ROM",
+      "Manual"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "rollercoaster tycoon",
+      "chris sawyer",
+      "microprose",
+      "theme park",
+      "parques de atracciones",
+      "simulador de parques",
+      "gestion empresarial",
+      "pc gaming",
+      "big box",
+      "retro pc",
+      "juegos de simulacion",
+      "windows 98",
+      "coleccionismo",
+      "preservacion"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación suele realizarse mediante imagen BIN/CUE del CD-ROM original. El juego puede ejecutarse en sistemas modernos mediante parches de compatibilidad o versiones digitales posteriores.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -2964,38 +3564,56 @@
     "titulo": "Frankenstein: Through the Eyes of the Monster",
     "url": "juegos/frankenstein-through-the-eyes-of-the-monster-bigbox/",
     "plataforma": [
-      "Win95",
-      "Win98"
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
+      "FMV",
       "Terror",
-      "Ciencia ficción"
+      "Puzzle"
     ],
     "desarrollador": [
-      "Amazing Media"
+      "Amazing Media",
+      "Pulse Entertainment"
     ],
     "distribuidor": [
-      "Interplay Entertainment"
+      "Interplay Productions",
+      "Arcadia Software"
     ],
     "ean": [],
-    "descripcion": "Aventura gráfica en primera persona donde encarnas al monstruo de Frankenstein, reanimado por el Dr. Frankenstein interpretado por Tim Curry. Despiertas en un laboratorio gótico con fragmentos de memoria y deberás explorar, resolver puzles y desvelar los experimentos del doctor. El juego combina FMV (Full Motion Video), entornos renderizados y narrativa oscura, ofreciendo una visión única del mito clásico.",
-    "incluye": [],
+    "descripcion": "Frankenstein: Through the Eyes of the Monster es una aventura gráfica en primera persona con abundante uso de secuencias FMV y entornos prerenderizados, protagonizada por Tim Curry en el papel del Dr. Frankenstein. El jugador encarna a la criatura y debe explorar el castillo y sus alrededores resolviendo puzles y descubriendo la verdad sobre su creación. Lanzado en 1995 para Windows 95, el título representa una de las producciones cinematográficas interactivas más características de mediados de los años noventa, en plena expansión del CD-ROM multimedia. Esta edición distribuida en España por Arcadia Software incluye documentación en castellano y conserva el formato Big Box clásico de PC.",
+    "incluye": [
+      "Manual",
+      "CD-ROM",
+      "Hoja de referencia"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Frankenstein",
+      "Tim Curry",
+      "Interplay",
+      "Arcadia Software",
+      "FMV",
+      "CD-ROM multimedia",
+      "Aventura cinematográfica",
+      "Terror gótico",
+      "Edición española",
+      "Big Box PC",
+      "Windows 95",
+      "Preservación",
+      "Retro PC Gaming"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Preservable mediante imagen BIN/CUE del CD-ROM original. Compatible con sistemas Windows clásicos o máquinas virtuales configuradas para Windows 95.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -3005,39 +3623,56 @@
     "url": "juegos/command-and-conquer-bigbox/",
     "plataforma": [
       "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Wargame"
     ],
     "desarrollador": [
       "Westwood Studios"
     ],
     "distribuidor": [
-      "Virgin Interactive, Electronic Arts"
+      "Virgin Interactive Entertainment"
     ],
-    "ean": [
-      "0052145830455"
+    "ean": [],
+    "descripcion": "Command & Conquer es uno de los títulos fundacionales de la estrategia en tiempo real moderna y una de las obras más influyentes de Westwood Studios. Lanzado originalmente en 1995, enfrentaba a la Global Defense Initiative (GDI) contra la Brotherhood of Nod en una guerra futurista marcada por el control del mineral Tiberium. El juego consolidó numerosas mecánicas que definirían el género durante décadas: construcción de bases, recolección de recursos, producción de unidades y combate en tiempo real. Esta edición física en formato Big Box distribuida por Virgin Interactive incluye la versión en CD-ROM para PC, compatible con MS-DOS y Windows 95, y destaca por su icónica portada militar de alto contraste. La edición incorpora además el disco adicional 'The Covert Operations', expansión oficial con nuevas misiones para un jugador.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "CD-ROM",
+      "Expansion The Covert Operations"
     ],
-    "descripcion": "RTS clásico de 1995 que definió el género. Enfrenta a la Global Defense Initiative (GDI) contra la Brotherhood of Nod en una guerra por el control del Tiberio. Incluye campañas para un jugador, multijugador, vídeos FMV protagonizados por Joseph D. Kucan (como Kane), y un mapa estratégico global. Vendió más de 3 millones de copias y su código fue abierto en febrero de 2025.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Command & Conquer",
+      "Westwood Studios",
+      "Virgin Interactive",
+      "RTS clásico",
+      "Tiberium",
+      "GDI",
+      "Nod",
+      "PC Gaming",
+      "Big Box",
+      "Estrategia clásica",
+      "MS-DOS",
+      "Windows 95",
+      "The Covert Operations",
+      "Juego de estrategia",
+      "Preservación",
+      "Retro PC"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación puede realizarse mediante imágenes BIN/CUE de los discos originales. Las versiones originales dependían de verificación de CD para su ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -3047,39 +3682,60 @@
     "url": "juegos/command-and-conquer-tiberian-sun-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000",
-      "WinXP"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Estrategia militar"
     ],
     "desarrollador": [
       "Westwood Studios"
     ],
     "distribuidor": [
-      "Electronic Arts"
+      "Electronic Arts",
+      "Westwood Studios"
     ],
-    "ean": [
-      "5030935023343"
+    "ean": [],
+    "descripcion": "Command & Conquer: Tiberian Sun es la secuela directa del influyente Command & Conquer original y uno de los títulos de estrategia en tiempo real más representativos de finales de los años noventa. Desarrollado por Westwood Studios, el juego sitúa el conflicto entre GDI y Nod en un futuro devastado por la expansión del Tiberium, incorporando campañas cinematográficas con actores reales, un motor gráfico renovado con escenarios isométricos detallados y nuevas mecánicas tácticas como unidades subterráneas, terrenos dinámicos y efectos ambientales. Esta edición española para PC incluye traducción y doblaje al castellano, una característica destacada en el mercado nacional de la época. Tiberian Sun tuvo una gran relevancia tecnológica y comercial dentro del género RTS, consolidando la saga Command & Conquer durante la transición entre la era Windows 95 y Windows 98.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "Guía de referencia",
+      "CD-ROM"
     ],
-    "descripcion": "Secuela lanzada en agosto de 1999 que continúa la saga entre GDI y Nod tras la conquista del Tiberio. Introduce gráficos semi‑3D (terreno variable, voxels, ciclo día/noche), nuevas unidades (levantadoras, túneles), tormentas de iones y actuaciones FMV con James Earl Jones y Michael Biehn. Fue un éxito comercial, vendiendo 1,5 M en un mes y recibiendo premios en Alemania :contentReference[oaicite:2]{index=2}.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Command & Conquer",
+      "Tiberian Sun",
+      "Westwood Studios",
+      "Electronic Arts",
+      "RTS",
+      "estrategia clásica",
+      "ciencia ficción",
+      "GDI",
+      "Nod",
+      "Tiberium",
+      "edición española",
+      "doblado al castellano",
+      "big box pc",
+      "pc gaming",
+      "retro pc gaming",
+      "preservación",
+      "juego físico",
+      "Windows 95",
+      "Windows 98"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "SafeDisc",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación óptima de esta edición se realiza mediante imágenes BIN/CUE o CCD/IMG/SUB para conservar correctamente la estructura del disco y la protección SafeDisc. En sistemas modernos puede requerir parches no oficiales o ejecutables actualizados debido a incompatibilidades de SafeDisc con versiones recientes de Windows.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -3088,37 +3744,57 @@
     "titulo": "Command & Conquer: Red Alert",
     "url": "juegos/command-and-conquer-red-alert-bigbox/",
     "plataforma": [
-      "MsDos",
       "Win95",
-      "Win98",
-      "WinNT"
+      "MsDos"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Estrategia bélica"
     ],
     "desarrollador": [
       "Westwood Studios"
     ],
     "distribuidor": [
-      "Virgin Interactive, Electronic Arts"
+      "Virgin Interactive Entertainment",
+      "Virgin Interactive Entertainment España"
     ],
     "ean": [],
-    "descripcion": "RTS lanzado en 1996 como precuela al Command & Conquer original. Enfrenta a las fuerzas Aliadas contra la Unión Soviética en una historia alternativa ambientada tras el asesinato de Hitler. Incluye campañas para ambos bandos, multijugador, vídeos FMV con Kane, búsqueda de recursos (mineral y gemas), y unidades icónicas como Tanques Tesla y Chronosphere.",
-    "incluye": [],
+    "descripcion": "Command & Conquer: Red Alert es un videojuego de estrategia en tiempo real desarrollado por Westwood Studios y publicado originalmente en 1996. Concebido como precuela alternativa del primer Command & Conquer, presenta una línea temporal ucrónica en la que Albert Einstein altera la historia europea, provocando un conflicto global entre los Aliados y la Unión Soviética. El juego destacó por perfeccionar las mecánicas RTS popularizadas por Westwood, incluyendo recolección de recursos, construcción de bases y combate táctico en tiempo real. Esta edición española distribuida por Virgin Interactive incluye localización parcial al castellano y soporte tanto para MS-DOS como para Windows 95. Red Alert es considerado uno de los títulos más influyentes de la estrategia para PC de los años noventa, especialmente por su multijugador vía LAN y su característica narrativa cinematográfica mediante secuencias FMV.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Manual",
+      "Tarjeta de registro",
+      "Hoja de referencia rápida"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Command & Conquer",
+      "Red Alert",
+      "Westwood Studios",
+      "Virgin Interactive",
+      "RTS",
+      "Estrategia clásica",
+      "PC Big Box",
+      "Edición española",
+      "Juego de guerra",
+      "FMV",
+      "Preservación digital",
+      "Retro PC",
+      "Windows 95",
+      "MS-DOS"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación de esta edición suele realizarse mediante imágenes BIN/CUE del CD original. Las versiones comerciales utilizaban verificación física del disco para la ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -3127,40 +3803,54 @@
     "titulo": "Command & Conquer: Red Alert - Counterstrike",
     "url": "juegos/command-and-conquer-red-alert-counterstrike-bigbox/",
     "plataforma": [
-      "MsDos",
       "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "Expansión"
     ],
     "desarrollador": [
       "Westwood Studios"
     ],
     "distribuidor": [
-      "Virgin Interactive, Electronic Arts"
+      "Virgin Interactive"
     ],
-    "ean": [
-      "0052145831087"
+    "ean": [],
+    "descripcion": "Command & Conquer: Red Alert Counterstrike es la primera expansión oficial de Command & Conquer: Red Alert, desarrollada por Westwood Studios. Añade 16 nuevas misiones para ambos bandos, nuevas unidades experimentales y mapas adicionales para el modo multijugador. Esta expansión continúa utilizando el motor de estrategia en tiempo real que consolidó a la saga Command & Conquer como una de las franquicias más influyentes del género durante los años noventa. La edición física distribuida por Virgin Interactive incluye CD-ROM y manual de instalación, representando una de las primeras expansiones comerciales lanzadas para juegos RTS en PC compatibles Windows 95.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Hoja de instalación"
     ],
-    "descripcion": "Primera expansión oficial de Red Alert, lanzada en 1997. Añade 16 misiones adicionales (8 Aliados, 8 Soviéticos), más de 100 mapas multijugador, nuevas unidades como el tanque Tesla soviético, Super Soldados y Wonder Dogs, y temática nuclear avanzada. Incluye campaña secreta 'Giant Ants' estilo película B de los 50.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Command & Conquer",
+      "Red Alert",
+      "Westwood Studios",
+      "Virgin Interactive",
+      "RTS",
+      "estrategia clásica",
+      "expansión oficial",
+      "guerra alternativa",
+      "multijugador",
+      "Windows 95",
+      "big box pc",
+      "pc gaming",
+      "juegos de estrategia",
+      "preservación",
+      "coleccionismo"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La expansión puede preservarse mediante imagen BIN/CUE del CD-ROM original. Requiere el disco para verificación durante la instalación y ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -3169,38 +3859,58 @@
     "titulo": "Command & Conquer: Red Alert - The Aftermath",
     "url": "juegos/command-and-conquer-red-alert-the-aftermath-bigbox/",
     "plataforma": [
-      "MsDos",
       "Win95",
       "Win98",
-      "WinNT",
-      "Win2000"
+      "MsDos"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia en tiempo real"
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Expansión"
     ],
     "desarrollador": [
       "Westwood Studios"
     ],
     "distribuidor": [
-      "Virgin Interactive, Electronic Arts"
+      "Virgin Interactive Entertainment",
+      "Virgin Interactive España"
     ],
     "ean": [],
-    "descripcion": "Segunda expansión oficial de Red Alert (1997). Añade 18 misiones nuevas para Aliados y Soviéticos, más de 100 mapas multijugador, 8 nuevas pistas musicales y unidades únicas como Chrono Tank, Demolition Truck, Field Mechanic, Shock Trooper, M.A.D. Tank y Missile Sub.",
-    "incluye": [],
+    "descripcion": "Command & Conquer: Red Alert - The Aftermath es la segunda expansión oficial de Command & Conquer: Red Alert, desarrollada por Westwood Studios. Publicada originalmente en 1997, amplía el clásico juego de estrategia en tiempo real con nuevas unidades experimentales, tecnologías avanzadas, mapas multijugador y misiones adicionales para soviéticos y aliados. Introdujo elementos poco habituales en la saga, como tanques lanzacohetes de gran alcance, unidades furtivas y armas experimentales, consolidando la enorme popularidad de Red Alert durante la edad dorada de los RTS para PC. Esta edición española distribuida por Virgin Interactive España se presenta en formato Big Box e incluye el juego en CD-ROM compatible con entornos Windows 95 y MS-DOS.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Tarjeta de registro",
+      "Documentación"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Command & Conquer",
+      "Red Alert",
+      "Westwood Studios",
+      "Virgin Interactive",
+      "RTS",
+      "Estrategia clásica",
+      "Juego de guerra",
+      "Expansión oficial",
+      "Big Box",
+      "PC Gaming",
+      "Retro PC",
+      "Edición española",
+      "CD-ROM",
+      "1997",
+      "Preservación"
     ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Verificación de CD",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "La preservación suele realizarse mediante imagen BIN/CUE del CD original. Compatible con DOSBox y sistemas Windows clásicos utilizando el disco original o copias preservadas.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
