@@ -1,346 +1,78 @@
 <!doctype html>
 <html lang="es">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-SQN0WTMVP3');
-  </script>
-
-  <title>Series — PC Game Archive</title>
-  <meta name="description" content="Resumen de series en PC Game Archive." />
-  <style>
-    :root {
-      --b: #111;
-      --g: #666;
-      --bd: #e6e6e6;
-      --bg: #fafafa;
-      --w: #fff;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
-      color: var(--b);
-      background: var(--bg);
-    }
-
-    a {
-      color: inherit;
-    }
-
-    /* ===== Cabecera común ===== */
-    header {
-      background: var(--w);
-      border-bottom: 1px solid var(--bd);
-      position: sticky;
-      top: 0;
-      z-index: 20;
-    }
-
-    .wrap {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-
-    .row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 14px;
-      padding: 14px 0;
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .brandtext {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .logo {
-      width: 42px;
-      height: 42px;
-      border-radius: 10px;
-      overflow: hidden;
-      flex: 0 0 auto;
-      box-shadow: 0 1px 0 rgba(0, 0, 0, .04);
-    }
-
-    .logo svg {
-      width: 100%;
-      height: 100%;
-      display: block;
-    }
-
-    .brand strong {
-      font-size: 18px;
-      letter-spacing: .2px;
-    }
-
-    .brand span {
-      color: var(--g);
-      font-size: 12px;
-    }
-
-    .nav {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-    }
-
-    .nav a {
-      text-decoration: none;
-      color: var(--b);
-      font-weight: 800;
-      padding: 8px 10px;
-      border-radius: 10px;
-      border: 1px solid transparent;
-    }
-
-    .nav a:hover {
-      background: #f7f7f7;
-      border-color: var(--bd);
-    }
-
-    .nav a.active {
-      background: #f7f7f7;
-      border-color: var(--bd);
-    }
-
-    main {
-      padding: 18px 0 30px;
-    }
-
-    .meta {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      justify-content: space-between;
-      margin: 8px 0 12px;
-    }
-
-    .count {
-      color: var(--g);
-      font-size: 13px;
-    }
-
-    .card {
-      background: var(--w);
-      border: 1px solid var(--bd);
-      border-radius: 14px;
-      padding: 14px;
-      box-shadow: 0 1px 0 rgba(0, 0, 0, .03);
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 12px;
-    }
-
-    @media (max-width: 1000px) {
-      .grid {
-        grid-template-columns: repeat(3, 1fr);
-      }
-    }
-
-    @media (max-width: 700px) {
-      .grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      header {
-        position: static;
-      }
-    }
-
-    .item {
-      display: block;
-      border: 1px solid var(--bd);
-      border-radius: 14px;
-      padding: 12px;
-      background: #fff;
-      text-decoration: none;
-    }
-
-    .item:hover {
-      background: #f7f7f7;
-    }
-
-    .name {
-      margin: 0;
-      font-weight: 900;
-      font-size: 14px;
-    }
-
-    .small {
-      margin: 6px 0 0;
-      color: var(--g);
-      font-size: 12px;
-    }
-
-    footer {
-      padding: 18px 0 26px;
-      border-top: 1px solid var(--bd);
-      background: #fff;
-    }
-
-    .footrow {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .to-top {
-      text-decoration: none;
-      font-weight: 800;
-      padding: 8px 10px;
-      border-radius: 10px;
-      border: 1px solid var(--bd);
-    }
-
-    .to-top:hover {
-      background: #f7f7f7;
-    }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Series y colecciones · PC Game Archive</title>
+<meta name="description" content="Explora las series, formatos y colecciones documentadas en PC Game Archive." />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#111111" />
+<link rel="canonical" href="https://pcgamearchive.org/series.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PC Game Archive" />
+<meta property="og:title" content="Series y colecciones · PC Game Archive" />
+<meta property="og:description" content="Explora las series, formatos y colecciones documentadas en PC Game Archive." />
+<meta property="og:url" content="https://pcgamearchive.org/series.html" />
+<meta property="og:image" content="https://pcgamearchive.org/og/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Series y colecciones · PC Game Archive" />
+<meta name="twitter:description" content="Explora las series, formatos y colecciones documentadas en PC Game Archive." />
+<meta name="twitter:image" content="https://pcgamearchive.org/og/og-image.png" />
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SQN0WTMVP3');</script>
 </head>
-
 <body>
-
 <header id="top">
-  <div class="wrap">
-    <div class="row">
-      <div class="brand" role="banner">
-        <div class="logo" aria-hidden="true">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img">
-            <rect width="100" height="100" rx="16" fill="#111"/>
-            <text x="50" y="46" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44" font-weight="800" fill="#fff">PC</text>
-            <text x="50" y="70" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">GAME</text>
-            <text x="50" y="88" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">ARCHIVE</text>
-          </svg>
-        </div>
-
-        <div class="brandtext">
-          <strong>PC Game Archive</strong>
-          <span>Archivo físico de videojuegos de PC · Big Box · MsDos · Windows · MacOs</span>
-        </div>
-      </div>
-
-      <nav class="nav" aria-label="Navegación principal">
-        <a href="index.html">Inicio</a>
-        <a href="bigbox.html">Big Box</a>
-        <a href="series.html">Series</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
-      </nav>
-    </div>
+  <div class="wrap header-row">
+    <a class="brand" href="index.html" aria-label="PC Game Archive">
+      <img class="logo" src="logo.png" alt="PC Game Archive logo">
+      <span><strong>PC Game Archive</strong><small>Archivo físico de videojuegos de PC · Big Box · MS-DOS · Windows</small></span>
+    </a>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+<a href="bigbox.html">Big Box</a>
+<a class="active" href="series.html">Series</a>
+<a href="contacto.html">Contacto</a>
+<a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
   </div>
 </header>
-
-  <main>
-    <div class="wrap">
-      <div class="meta">
-        <div class="count" id="count">Cargando…</div>
-        <div class="count">Pulsa una serie para ver su listado.</div>
-      </div>
-
-      <div class="card">
-        <div class="grid" id="grid" aria-live="polite"></div>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <div class="wrap">
-      <div class="footrow">
-        <p class="count" style="margin:0;">PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
-        <a class="to-top" href="#top">Subir</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    (function markActiveNav() {
-      const current = (location.pathname.split("/").pop() || "index.html").toLowerCase();
-      document.querySelectorAll(".nav a").forEach(a => {
-        const href = (a.getAttribute("href") || "").toLowerCase();
-        if (href === current) a.classList.add("active");
-      });
-    })();
-
-    function uniqSorted(arr) {
-      return Array.from(new Set(arr.filter(Boolean))).sort((a, b) => a.localeCompare(b, "es"));
-    }
-
-    async function init() {
-      const elCount = document.getElementById("count");
-      const elGrid = document.getElementById("grid");
-
-      const res = await fetch("juegos.json", { cache: "no-store" });
-      const data = await res.json();
-      const juegos = Array.isArray(data) ? data : (data.juegos || []);
-
-      const counts = new Map();
-      for (const j of juegos) {
-        const series = (j.serie || []).filter(s => s && s !== "Todos");
-        for (const s of series) {
-          counts.set(s, (counts.get(s) || 0) + 1);
-        }
-      }
-
-      const seriesSorted = uniqSorted(Array.from(counts.keys()));
-      elCount.textContent = `${seriesSorted.length} serie(s) · ${juegos.length} juego(s) total`;
-
-      elGrid.innerHTML = "";
-      for (const s of seriesSorted) {
-        const a = document.createElement("a");
-        a.className = "item";
-        a.href = `index.html?serie=${encodeURIComponent(s)}`;
-
-        const name = document.createElement("p");
-        name.className = "name";
-        name.textContent = s;
-
-        const small = document.createElement("p");
-        small.className = "small";
-        small.textContent = `${counts.get(s)} juego(s)`;
-
-        a.appendChild(name);
-        a.appendChild(small);
-        elGrid.appendChild(a);
-      }
-
-      if (!seriesSorted.length) {
-        elGrid.innerHTML = "<p class='count'>No se han detectado series (revisa el campo 'serie' en juegos.json).</p>";
-      }
-    }
-
-    init().catch(err => {
-      console.error(err);
-      document.getElementById("count").textContent = "Error cargando juegos.json.";
-    });
-  </script>
-
+<main class="wrap">
+  <div class="page-head"><p class="eyebrow">Exploración temática</p><h1>Series y colecciones</h1><p>Explora las series, formatos y colecciones documentadas en PC Game Archive.</p></div>
+  <div class="taxonomy-grid"><a class="taxonomy-item" href="index.html?serie=Todos"><strong>Todos</strong><small>1435 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=DVD%20Case"><strong>DVD Case</strong><small>994 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Big%20Box"><strong>Big Box</strong><small>442 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=FX%20Interactive"><strong>FX Interactive</strong><small>166 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Codegame"><strong>Codegame</strong><small>99 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Computer%20hoy%20juegos"><strong>Computer hoy juegos</strong><small>50 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Los%20Sims"><strong>Los Sims</strong><small>37 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=BestSeller%20Series"><strong>BestSeller Series</strong><small>36 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Games%20for%20windows"><strong>Games for windows</strong><small>33 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Dinamic%20multimedia"><strong>Dinamic multimedia</strong><small>32 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Heroes%20of%20Might%20and%20Magic"><strong>Heroes of Might and Magic</strong><small>17 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Age%20of%20Empires"><strong>Age of Empires</strong><small>15 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=EA%20Sports"><strong>EA Sports</strong><small>15 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=RED%20Collection"><strong>RED Collection</strong><small>11 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=World%20of%20Warcraft"><strong>World of Warcraft</strong><small>9 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=LucasArts%20Legends"><strong>LucasArts Legends</strong><small>8 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Mk%20Interactive"><strong>Mk Interactive</strong><small>8 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=EA%20Value%20Games"><strong>EA Value Games</strong><small>7 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Xtreme%20Collection"><strong>Xtreme Collection</strong><small>7 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=EA%20Games%20Classics"><strong>EA Games Classics</strong><small>4 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Best%20of%20Atari"><strong>Best of Atari</strong><small>2 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Juegos%20del%20verano"><strong>Juegos del verano</strong><small>2 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Limited%20Run"><strong>Limited Run</strong><small>1 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Market%20way"><strong>Market way</strong><small>1 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Zeta%20Games"><strong>Zeta Games</strong><small>1 juegos</small></a>
+<a class="taxonomy-item" href="index.html?serie=Zipi%20y%20Zape"><strong>Zipi y Zape</strong><small>1 juegos</small></a></div>
+</main>
+<footer>
+  <div class="wrap footrow">
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <a class="to-top" href="#top">Subir</a>
+  </div>
+</footer>
 </body>
-
 </html>

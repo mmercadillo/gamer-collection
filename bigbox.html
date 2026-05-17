@@ -1,1136 +1,1978 @@
 <!doctype html>
 <html lang="es">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-SQN0WTMVP3');
-  </script>
-
-  <title>PC Game Archive · Archivo Big Box</title>
-  <meta name="description"
-    content="PC Game Archive · Archivo Big Box: archivo físico de videojuegos de PC en formato Big Box." />
-
-  <link rel="canonical" href="https://pcgamearchive.org/bigbox.html" />
-  <meta name="robots" content="index,follow" />
-  <meta name="theme-color" content="#111111" />
-
-  <!-- Open Graph / Social -->
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="PC Game Archive" />
-  <meta property="og:title" content="PC Game Archive · Archivo Big Box" />
-  <meta property="og:description" content="Archivo físico de videojuegos de PC en formato Big Box." />
-  <meta property="og:url" content="https://pcgamearchive.org/bigbox.html" />
-  <meta property="og:image" content="https://pcgamearchive.org/og/og-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="PC Game Archive · Archivo Big Box" />
-  <meta name="twitter:description"
-    content="Archivo físico de videojuegos de PC en formato Big Box. Preservando ediciones españolas." />
-  <meta name="twitter:image" content="https://pcgamearchive.org/og/og-image.png" />
-
-  <!-- Icons (add the files later) -->
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <style>
-    :root {
-      --b: #111;
-      --g: #666;
-      --bd: #e6e6e6;
-      --bg: #fafafa;
-      --w: #fff;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
-      color: var(--b);
-      background: var(--bg);
-    }
-
-    a {
-      color: inherit;
-    }
-
-    /* ===== Cabecera común ===== */
-    header {
-      background: var(--w);
-      border-bottom: 1px solid var(--bd);
-      position: sticky;
-      top: 0;
-      z-index: 20;
-    }
-
-    .wrap {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-
-    .row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 14px;
-      padding: 14px 0;
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .brandtext {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .logo {
-      width: 42px;
-      height: 42px;
-      border-radius: 10px;
-      overflow: hidden;
-      flex: 0 0 auto;
-      box-shadow: 0 1px 0 rgba(0, 0, 0, .04);
-    }
-
-    .logo svg {
-      width: 100%;
-      height: 100%;
-      display: block;
-    }
-
-    .brand strong {
-      font-size: 18px;
-      letter-spacing: .2px;
-    }
-
-    .brand span {
-      color: var(--g);
-      font-size: 12px;
-    }
-
-    .nav {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-    }
-
-    .nav a {
-      text-decoration: none;
-      color: var(--b);
-      font-weight: 800;
-      padding: 8px 10px;
-      border-radius: 10px;
-      border: 1px solid transparent;
-    }
-
-    .nav a:hover {
-      background: #f7f7f7;
-      border-color: var(--bd);
-    }
-
-    .nav a.active {
-      background: #f7f7f7;
-      border-color: var(--bd);
-    }
-
-    /* ===== Buscador (colapsable en móvil) ===== */
-    .filters {
-      background: var(--w);
-      border-bottom: 1px solid var(--bd);
-    }
-
-    .filters>.wrap {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-
-    details.filters-panel {
-      border: 1px solid var(--bd);
-      border-radius: 14px;
-      background: #fff;
-      overflow: hidden;
-    }
-
-    details.filters-panel[open] {
-      box-shadow: 0 1px 0 rgba(0, 0, 0, .04);
-    }
-
-    details.filters-panel summary {
-      list-style: none;
-      cursor: pointer;
-      user-select: none;
-      padding: 12px 14px;
-      font-weight: 900;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    details.filters-panel summary::-webkit-details-marker {
-      display: none;
-    }
-
-    details.filters-panel summary .hint {
-      font-weight: 600;
-      color: var(--g);
-      font-size: 12px;
-    }
-
-    details.filters-panel summary:after {
-      content: "▾";
-      color: var(--g);
-      font-size: 12px;
-    }
-
-    details.filters-panel[open] summary:after {
-      content: "▴";
-    }
-
-    .searchbar {
-      padding: 12px 14px 14px;
-      display: flex;
-      gap: 10px;
-      align-items: stretch;
-      flex-wrap: wrap;
-      border-top: 1px solid var(--bd);
-    }
-
-    .field {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      min-width: 180px;
-      flex: 1;
-    }
-
-    .field.wide {
-      flex: 2;
-      min-width: 260px;
-    }
-
-    label {
-      font-size: 12px;
-      color: var(--g);
-    }
-
-    input,
-    select,
-    button {
-      width: 100%;
-      padding: 10px 12px;
-      border: 1px solid var(--bd);
-      border-radius: 10px;
-      background: var(--w);
-      font-size: 14px;
-      appearance: none;
-    }
-
-    .select-wrap {
-      position: relative;
-    }
-
-    .select-wrap:after {
-      content: "▾";
-      position: absolute;
-      right: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      pointer-events: none;
-      color: var(--g);
-      font-size: 12px;
-    }
-
-    select {
-      padding-right: 34px;
-    }
-
-    .actions {
-      display: flex;
-      gap: 10px;
-      align-items: end;
-      min-width: 220px;
-    }
-
-    button {
-      cursor: pointer;
-      font-weight: 800;
-    }
-
-    button.secondary {
-      background: #fff;
-    }
-
-    /* ===== Contenido ===== */
-    main {
-      padding: 18px 0 30px;
-    }
-
-    .meta {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      justify-content: space-between;
-      margin: 8px 0 12px;
-    }
-
-    .count {
-      color: var(--g);
-      font-size: 13px;
-    }
-
-    .status {
-      color: var(--g);
-      font-size: 13px;
-      padding: 6px 0 0;
-    }
-
-    .chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 10px 0 14px;
-    }
-
-    .chip {
-      font-size: 12px;
-      padding: 6px 10px;
-      border: 1px solid var(--bd);
-      border-radius: 999px;
-      background: white;
-      color: #333;
-      display: inline-flex;
-      gap: 8px;
-      align-items: center;
-    }
-
-    .chip button {
-      width: auto;
-      padding: 0;
-      border: none;
-      background: transparent;
-      font-weight: 900;
-      cursor: pointer;
-      color: var(--g);
-    }
-
-    /* ===== Paginación ===== */
-    .pager {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      padding: 12px;
-      border: 1px solid var(--bd);
-      border-radius: 14px;
-      background: #fff;
-      margin: 10px 0 14px;
-    }
-
-    .pager-left,
-    .pager-right {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    /* Overrides: en el pager NO queremos width:100% */
-    .pager button {
-      width: auto;
-      padding: 10px 12px;
-    }
-
-    .pager select {
-      width: auto;
-      min-width: 110px;
-      padding: 10px 12px;
-    }
-
-    .btn {
-      border: 1px solid var(--bd);
-      border-radius: 10px;
-      background: #fff;
-      font-weight: 800;
-      cursor: pointer;
-    }
-
-    .btn:hover {
-      background: #f7f7f7;
-    }
-
-    .btn[disabled] {
-      opacity: .45;
-      cursor: not-allowed;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      gap: 12px;
-    }
-
-    @media (max-width: 1100px) {
-      .grid {
-        grid-template-columns: repeat(4, 1fr);
-      }
-    }
-
-    @media (max-width: 700px) {
-      .grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .actions {
-        min-width: 100%;
-      }
-
-      /* En móvil evitamos sensación de “pantalla ocupada” */
-      header {
-        position: static;
-      }
-    }
-
-    .card {
-      border: 1px solid var(--bd);
-      background: white;
-      border-radius: 14px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      min-height: 230px;
-    }
-
-    .thumb {
-      width: 100%;
-      aspect-ratio: 4/3;
-      object-fit: cover;
-      background: #f2f2f2;
-      display: block;
-    }
-
-    .cbody {
-      padding: 10px 10px 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-
-    .title {
-      font-weight: 900;
-      font-size: 14px;
-      line-height: 1.2;
-      margin: 0;
-    }
-
-    .small {
-      color: var(--g);
-      font-size: 12px;
-    }
-
-    .tagrow {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .tag {
-      font-size: 11px;
-      padding: 4px 8px;
-      border: 1px solid var(--bd);
-      border-radius: 999px;
-      color: #333;
-    }
-
-    a.cardlink {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    a.cardlink:hover .title {
-      text-decoration: underline;
-    }
-
-    footer {
-      padding: 18px 0 26px;
-      border-top: 1px solid var(--bd);
-      background: #fff;
-    }
-
-    .footrow {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .to-top {
-      text-decoration: none;
-      font-weight: 800;
-      padding: 8px 10px;
-      border-radius: 10px;
-      border: 1px solid var(--bd);
-    }
-
-    .to-top:hover {
-      background: #f7f7f7;
-    }
-
-    .intro-section {
-      padding: 18px 0 4px 0;
-    }
-
-    .intro {
-      background: #fff;
-      border: 1px solid var(--bd);
-      border-radius: 14px;
-      padding: 16px 18px;
-      line-height: 1.55;
-    }
-
-    .intro p {
-      margin: 0 0 10px 0;
-    }
-
-    .intro p:last-child {
-      margin-bottom: 0;
-    }
-
-    .stats-section {
-      padding: 8px 0 12px 0;
-    }
-
-    .stats {
-      font-size: 14px;
-      color: #333;
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .card {
-      box-shadow: 0 1px 0 rgba(0, 0, 0, .03);
-    }
-
-    .card h1 {
-      letter-spacing: .2px;
-    }
-
-    .kv {
-      padding-top: 6px;
-      border-top: 1px solid var(--bd);
-    }
-
-    .v a {
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-    }
-
-    .v a:hover {
-      border-bottom-color: currentColor;
-    }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Archivo Big Box · PC Game Archive</title>
+<meta name="description" content="Videojuegos de PC en formato Big Box documentados por PC Game Archive." />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#111111" />
+<link rel="canonical" href="https://pcgamearchive.org/bigbox.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PC Game Archive" />
+<meta property="og:title" content="Archivo Big Box · PC Game Archive" />
+<meta property="og:description" content="Videojuegos de PC en formato Big Box documentados por PC Game Archive." />
+<meta property="og:url" content="https://pcgamearchive.org/bigbox.html" />
+<meta property="og:image" content="https://pcgamearchive.org/og/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Archivo Big Box · PC Game Archive" />
+<meta name="twitter:description" content="Videojuegos de PC en formato Big Box documentados por PC Game Archive." />
+<meta name="twitter:image" content="https://pcgamearchive.org/og/og-image.png" />
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SQN0WTMVP3');</script>
 </head>
-
 <body>
-
-  <header id="top">
-    <div class="wrap">
-      <div class="row">
-        <div class="brand" role="banner">
-
-          <div class="logo" aria-hidden="true">
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img">
-              <rect width="100" height="100" rx="16" fill="#111" />
-              <text x="50" y="46" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-                font-size="44" font-weight="800" fill="#fff">PC</text>
-              <text x="50" y="70" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-                font-size="16" font-weight="700" fill="#fff" letter-spacing="1">GAME</text>
-              <text x="50" y="88" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-                font-size="16" font-weight="700" fill="#fff" letter-spacing="1">ARCHIVE</text>
-            </svg>
-          </div>
-          <div class="brandtext">
-            <strong>PC Game Archive</strong>
-            <span>Archivo físico de videojuegos de PC · Big Box · MsDos · Windows · MacOs </span>
-          </div>
-        </div>
-        <nav class="nav" aria-label="Navegación principal">
-          <a href="index.html">Inicio</a>
-          <a href="bigbox.html">Big Box</a>
-          <a href="series.html">Series</a>
-          <a href="contacto.html">Contacto</a>
-          <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <section class="intro-section">
-    <div class="wrap intro">
-      <p><strong>PC Game Archive · Archivo Big Box</strong> reúne las ediciones en formato <em>Big Box</em>
-        conservadas y documentadas dentro del archivo. Estas grandes cajas de cartón representan una de las formas más
-        icónicas de distribución del videojuego de PC durante las décadas de 1980, 1990 y primeros 2000.</p>
-
-      <p>Esta página permite consultar exclusivamente los juegos del archivo catalogados en formato <em>Big Box</em>,
-        con especial atención a ediciones distribuidas en España y a la preservación de la historia del videojuego de PC
-        en formato físico.</p>
-    </div>
-  </section>
-  <section class="stats-section">
-    <div class="wrap stats">
-      <strong>Big Box en cifras:</strong>
-      <span id="statsText">Cargando…</span>
-    </div>
-  </section>
-  <section class="filters" aria-label="Buscador y filtros">
-    <div class="wrap">
-      <details class="filters-panel" id="filtersPanel">
-        <summary>
-          <span>Buscar y filtrar</span>
-          <span class="hint" id="filtersHint">toca para abrir</span>
-        </summary>
-        <div class="searchbar" role="search" aria-label="Buscador">
-          <div class="field wide">
-            <label for="q">Título</label>
-            <input id="q" type="search" placeholder="Buscar… (p. ej. Dune, Commandos, Doom)" autocomplete="off" />
-          </div>
-
-          <div class="field">
-            <label for="plataforma">Plataforma</label>
-            <div class="select-wrap"><select id="plataforma"></select></div>
-          </div>
-
-          <div class="field">
-            <label for="genero">Género</label>
-            <div class="select-wrap"><select id="genero"></select></div>
-          </div>
-
-
-          <div class="actions">
-            <button id="btnBuscar" type="button">Buscar</button>
-            <button id="btnLimpiar" class="secondary" type="button">Limpiar</button>
-          </div>
-        </div>
-        <div class="status" style="padding:0 14px 12px;">
-          <span class="count">Tip: puedes compartir un listado filtrado: la URL se actualiza con filtros y
-            paginación.</span>
-        </div>
-      </details>
-    </div>
-  </section>
-
-  <main>
-    <div class="wrap">
-
-      <div class="meta">
-        <div class="count" id="count">Cargando…</div>
-        <div class="count" id="pageInfo">—</div>
-      </div>
-
-      <div class="chips" id="activeFilters" style="display:none;"></div>
-
-      <!-- Paginación (arriba) -->
-      <div class="pager" id="pagerTop" style="display:none;">
-        <div class="pager-left">
-          <button class="btn" id="prevBtnTop" type="button">← Anterior</button>
-
-          <span class="count">Página</span>
-          <select id="pageSelectTop" aria-label="Seleccionar página"></select>
-          <span class="count" id="totalPagesTop">de —</span>
-
-          <button class="btn" id="nextBtnTop" type="button">Siguiente →</button>
-        </div>
-
-        <div class="pager-right">
-          <label for="pageSizeTop" class="count">Por página</label>
-          <select id="pageSizeTop">
-            <option value="10">10</option>
-            <option value="25">25</option>
-            <option value="50">50</option>
-            <option value="100">100</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="grid" id="grid" aria-live="polite"></div>
-
-      <!-- Paginación (abajo) -->
-      <div class="pager" id="pagerBottom" style="display:none;">
-        <div class="pager-left">
-          <button class="btn" id="prevBtnBottom" type="button">← Anterior</button>
-
-          <span class="count">Página</span>
-          <select id="pageSelectBottom" aria-label="Seleccionar página"></select>
-          <span class="count" id="totalPagesBottom">de —</span>
-
-          <button class="btn" id="nextBtnBottom" type="button">Siguiente →</button>
-        </div>
-
-        <div class="pager-right">
-          <label for="pageSizeBottom" class="count">Por página</label>
-          <select id="pageSizeBottom">
-            <option value="10">10</option>
-            <option value="25">25</option>
-            <option value="50">50</option>
-            <option value="100">100</option>
-          </select>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <div class="wrap">
-      <div class="footrow">
-        <p class="count" style="margin:0;">PC Game Archive · <a
-            href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a
-            href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
-        <a class="to-top" href="#top">Subir</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    /* ===== MENÚ ACTIVO ===== */
-    (function markActiveNav() {
-      const current = (location.pathname.split("/").pop() || "index.html").toLowerCase();
-      document.querySelectorAll(".nav a").forEach(a => {
-        const href = (a.getAttribute("href") || "").toLowerCase();
-        if (href === current) a.classList.add("active");
-      });
-    })();
-
-    /* ===== FILTROS: abiertos por defecto en escritorio, colapsables en móvil ===== */
-    (function initFiltersPanel() {
-      const panel = document.getElementById("filtersPanel");
-      const hint = document.getElementById("filtersHint");
-      if (!panel) return;
-
-      const mq = window.matchMedia("(min-width: 701px)");
-
-      function sync() {
-        // En escritorio: abierto; en móvil: cerrado (si no hay interacción previa)
-        if (mq.matches) panel.open = true;
-        else if (!panel.dataset.userToggled) panel.open = false;
-
-        if (hint) {
-          hint.textContent = panel.open ? "" : "toca para abrir";
-        }
-      }
-
-      panel.addEventListener("toggle", () => {
-        panel.dataset.userToggled = "1";
-        if (hint) { hint.textContent = panel.open ? "" : "toca para abrir"; }
-      });
-
-      if (mq.addEventListener) mq.addEventListener("change", sync);
-      else mq.addListener(sync); // compat
-
-      sync();
-    })();
-
-    const state = {
-      juegos: [],
-      q: "",
-      plataforma: "",
-      genero: "",
-      page: 1,
-      pageSize: 25
-    };
-
-    const elQ = document.getElementById("q");
-    const elPlat = document.getElementById("plataforma");
-    const elGen = document.getElementById("genero");
-    const elGrid = document.getElementById("grid");
-    const elCount = document.getElementById("count");
-    const elPageInfo = document.getElementById("pageInfo");
-    const elActive = document.getElementById("activeFilters");
-    const btnBuscar = document.getElementById("btnBuscar");
-    const btnLimpiar = document.getElementById("btnLimpiar");
-
-    const pagerTop = document.getElementById("pagerTop");
-    const pagerBottom = document.getElementById("pagerBottom");
-
-    const prevBtnTop = document.getElementById("prevBtnTop");
-    const nextBtnTop = document.getElementById("nextBtnTop");
-    const pageSelectTop = document.getElementById("pageSelectTop");
-    const totalPagesTopEl = document.getElementById("totalPagesTop");
-    const pageSizeTop = document.getElementById("pageSizeTop");
-
-    const prevBtnBottom = document.getElementById("prevBtnBottom");
-    const nextBtnBottom = document.getElementById("nextBtnBottom");
-    const pageSelectBottom = document.getElementById("pageSelectBottom");
-    const totalPagesBottomEl = document.getElementById("totalPagesBottom");
-    const pageSizeBottom = document.getElementById("pageSizeBottom");
-
-    function norm(s) { return (s ?? "").toString().trim().toLowerCase(); }
-    function uniqSorted(arr) {
-      return Array.from(new Set(arr.filter(Boolean))).sort((a, b) => a.localeCompare(b, "es"));
-    }
-    function slugFromUrl(url) {
-      const u = (url || "").replace(/^\/+/, "");
-      const parts = u.split("/").filter(Boolean);
-      return parts.length ? parts[parts.length - 1] : "";
-    }
-    function thumbUrl(game) {
-      const base = game.url || "";
-      return base.endsWith("/") ? (base + "img/001.jpg") : (base + "/img/001.jpg");
-    }
-    function setSelectOptions(selectEl, values, placeholder) {
-      selectEl.innerHTML = "";
-      const opt0 = document.createElement("option");
-      opt0.value = "";
-      opt0.textContent = placeholder;
-      selectEl.appendChild(opt0);
-
-      for (const v of values) {
-        const opt = document.createElement("option");
-        opt.value = v;
-        opt.textContent = v;
-        selectEl.appendChild(opt);
-      }
-    }
-
-    function readQuery() {
-      const u = new URL(location.href);
-      const get = (k) => u.searchParams.get(k) || "";
-
-      const page = parseInt(get("page") || "1", 10);
-      const pageSize = parseInt(get("pageSize") || "25", 10);
-      const allowed = [10, 25, 50, 100];
-
-      return {
-        q: get("q"),
-        plataforma: get("plataforma"),
-        genero: get("genero"),
-        page: (Number.isFinite(page) && page > 0) ? page : 1,
-        pageSize: allowed.includes(pageSize) ? pageSize : 25
-      };
-    }
-
-    function writeQuery() {
-      const u = new URL(location.href);
-      const sp = u.searchParams;
-
-      function setOrDelete(key, val) {
-        if (val !== null && val !== undefined && String(val).length) sp.set(key, String(val));
-        else sp.delete(key);
-      }
-
-      setOrDelete("q", elQ.value.trim());
-      setOrDelete("plataforma", elPlat.value);
-      setOrDelete("genero", elGen.value);
-
-      sp.set("page", String(state.page));
-      sp.set("pageSize", String(state.pageSize));
-
-      history.replaceState({}, "", u.toString());
-    }
-
-    function syncUIFromQuery(query) {
-      elQ.value = query.q || "";
-      elPlat.value = query.plataforma || "";
-      elGen.value = query.genero || "";
-      state.page = query.page || 1;
-      state.pageSize = query.pageSize || 25;
-
-      pageSizeTop.value = String(state.pageSize);
-      pageSizeBottom.value = String(state.pageSize);
-    }
-
-    function applyFromUI() {
-      state.q = norm(elQ.value);
-      state.plataforma = norm(elPlat.value);
-      state.genero = norm(elGen.value);
-    }
-
-    function matches(game) {
-      if ((game.formato || "") !== "Big Box") return false;
-      if (state.q && !norm(game.titulo).includes(state.q)) return false;
-
-      if (state.plataforma) {
-        const vals = (game.plataforma || []).map(norm);
-        if (!vals.includes(state.plataforma)) return false;
-      }
-      if (state.genero) {
-        const vals = (game.genero || []).map(norm);
-        if (!vals.includes(state.genero)) return false;
-      }
-      return true;
-    }
-
-    function renderActiveFilters() {
-      const items = [];
-      if (state.q) items.push({ k: "Título", v: elQ.value.trim(), clear: () => { elQ.value = ""; } });
-      if (state.plataforma) items.push({ k: "Plataforma", v: elPlat.value, clear: () => { elPlat.value = ""; } });
-      if (state.genero) items.push({ k: "Género", v: elGen.value, clear: () => { elGen.value = ""; } });
-
-      elActive.innerHTML = "";
-      if (!items.length) {
-        elActive.style.display = "none";
-        return;
-      }
-      elActive.style.display = "flex";
-
-      for (const it of items) {
-        const chip = document.createElement("div");
-        chip.className = "chip";
-        chip.innerHTML = `<strong>${it.k}:</strong> <span>${it.v}</span>`;
-        const x = document.createElement("button");
-        x.type = "button";
-        x.title = "Quitar filtro";
-        x.textContent = "×";
-        x.addEventListener("click", () => {
-          it.clear();
-          doSearch(true);
-        });
-        chip.appendChild(x);
-        elActive.appendChild(chip);
-      }
-    }
-
-    function renderPager(totalItems) {
-      const totalPages = Math.max(1, Math.ceil(totalItems / state.pageSize));
-      if (state.page > totalPages) state.page = totalPages;
-
-      const show = totalPages > 1;
-      pagerTop.style.display = show ? "" : "none";
-      pagerBottom.style.display = show ? "" : "none";
-
-      const canPrev = state.page > 1;
-      const canNext = state.page < totalPages;
-
-      prevBtnTop.disabled = !canPrev;
-      prevBtnBottom.disabled = !canPrev;
-      nextBtnTop.disabled = !canNext;
-      nextBtnBottom.disabled = !canNext;
-
-      totalPagesTopEl.textContent = `de ${totalPages}`;
-      totalPagesBottomEl.textContent = `de ${totalPages}`;
-
-      function fillPageSelect(sel) {
-        const currentVal = String(state.page);
-        sel.innerHTML = "";
-        for (let p = 1; p <= totalPages; p++) {
-          const opt = document.createElement("option");
-          opt.value = String(p);
-          opt.textContent = String(p);
-          sel.appendChild(opt);
-        }
-        sel.value = currentVal;
-      }
-
-      fillPageSelect(pageSelectTop);
-      fillPageSelect(pageSelectBottom);
-
-      pageSizeTop.value = String(state.pageSize);
-      pageSizeBottom.value = String(state.pageSize);
-
-      prevBtnTop.onclick = prevBtnBottom.onclick = () => {
-        if (state.page > 1) {
-          state.page -= 1;
-          writeQuery();
-          render();
-          window.scrollTo({ top: 0, behavior: "smooth" });
-        }
-      };
-
-      nextBtnTop.onclick = nextBtnBottom.onclick = () => {
-        if (state.page < totalPages) {
-          state.page += 1;
-          writeQuery();
-          render();
-          window.scrollTo({ top: 0, behavior: "smooth" });
-        }
-      };
-
-      function onPageSelectChange(val) {
-        const p = parseInt(val, 10);
-        if (!Number.isFinite(p) || p < 1 || p > totalPages) return;
-        state.page = p;
-        writeQuery();
-        render();
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-
-      pageSelectTop.onchange = () => onPageSelectChange(pageSelectTop.value);
-      pageSelectBottom.onchange = () => onPageSelectChange(pageSelectBottom.value);
-
-      function onPageSizeChange(val) {
-        const n = parseInt(val, 10);
-        const allowed = [10, 25, 50, 100];
-        state.pageSize = allowed.includes(n) ? n : 25;
-        state.page = 1;
-        writeQuery();
-        render();
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-
-      pageSizeTop.onchange = () => onPageSizeChange(pageSizeTop.value);
-      pageSizeBottom.onchange = () => onPageSizeChange(pageSizeBottom.value);
-
-      elPageInfo.textContent = `Página ${state.page} / ${totalPages} · ${state.pageSize}/pág`;
-    }
-
-    function render() {
-      renderActiveFilters();
-
-      const filtered = state.juegos.filter(matches);
-      const total = filtered.length;
-
-      const totalPages = Math.max(1, Math.ceil(total / state.pageSize));
-      if (state.page > totalPages) state.page = totalPages;
-
-      const start = (state.page - 1) * state.pageSize;
-      const pageItems = filtered.slice(start, start + state.pageSize);
-
-      const totalBigBox = state.juegos.filter(g => (g.formato || "") === "Big Box").length;
-      elCount.textContent = `${total} / ${totalBigBox} juegos Big Box`;
-
-      renderPager(total);
-
-      elGrid.innerHTML = "";
-      for (const g of pageItems) {
-        const slug = slugFromUrl(g.url);
-
-        const a = document.createElement("a");
-        a.className = "cardlink";
-        a.href = `detalle.html?juego=${encodeURIComponent(slug)}&returnUrl=${encodeURIComponent(location.pathname + location.search)}`;
-
-        const card = document.createElement("article");
-        card.className = "card";
-
-        const img = document.createElement("img");
-        img.className = "thumb";
-        img.loading = "lazy";
-        img.alt = g.titulo || "Juego";
-        img.src = thumbUrl(g);
-        img.onerror = () => { img.removeAttribute("src"); img.style.background = "#f2f2f2"; };
-
-        const body = document.createElement("div");
-        body.className = "cbody";
-
-        const title = document.createElement("h3");
-        title.className = "title";
-        title.textContent = g.titulo || "(Sin título)";
-
-        const small = document.createElement("div");
-        small.className = "small";
-        small.textContent = [
-          (g.plataforma || []).join(", "),
-          (g.serie || []).filter(s => s !== "Todos").join(" · ")
-        ].filter(Boolean).join(" — ");
-
-        const tagrow = document.createElement("div");
-        tagrow.className = "tagrow";
-        for (const t of (g.tags || []).slice(0, 3)) {
-          const span = document.createElement("span");
-          span.className = "tag";
-          span.textContent = t;
-          tagrow.appendChild(span);
-        }
-
-        body.appendChild(title);
-        if (small.textContent) body.appendChild(small);
-        if (tagrow.childNodes.length) body.appendChild(tagrow);
-
-        card.appendChild(img);
-        card.appendChild(body);
-        a.appendChild(card);
-        elGrid.appendChild(a);
-      }
-    }
-
-    function doSearch(resetPage) {
-      applyFromUI();
-      if (resetPage) state.page = 1;
-      writeQuery();
-      render();
-    }
-
-    function bind() {
-      btnBuscar.addEventListener("click", () => doSearch(true));
-      elQ.addEventListener("keydown", (e) => { if (e.key === "Enter") doSearch(true); });
-
-      for (const s of [elPlat, elGen]) {
-        s.addEventListener("change", () => doSearch(true));
-      }
-
-      btnLimpiar.addEventListener("click", () => {
-        elQ.value = "";
-        elPlat.value = "";
-        elGen.value = "";
-        doSearch(true);
-      });
-
-      window.addEventListener("popstate", () => {
-        const q = readQuery();
-        syncUIFromQuery(q);
-        applyFromUI();
-        render();
-      });
-    }
-
-    async function init() {
-      bind();
-
-      const res = await fetch("juegos.json", { cache: "no-store" });
-      const data = await res.json();
-      state.juegos = Array.isArray(data) ? data : (data.juegos || []);
-
-      const totalBigBox = state.juegos.filter(j => (j.formato || "") === "Big Box").length;
-
-      const statsText = document.getElementById("statsText");
-      if (statsText) {
-        statsText.textContent = `${totalBigBox} juegos Big Box documentados`;
-      }
-
-      state.juegos.sort((a, b) => {
-        const na = Number.isFinite(+a.num) ? +a.num : Infinity;
-        const nb = Number.isFinite(+b.num) ? +b.num : Infinity;
-        if (na !== nb) return na - nb;
-        return (a.titulo || "").localeCompare((b.titulo || ""), "es");
-      });
-
-      const plataformas = uniqSorted(state.juegos.flatMap(j => j.plataforma || []));
-      const generos = uniqSorted(state.juegos.flatMap(j => j.genero || []));
-      setSelectOptions(elPlat, plataformas, "Todas");
-      setSelectOptions(elGen, generos, "Todos");
-
-      const q = readQuery();
-      syncUIFromQuery(q);
-
-      applyFromUI();
-      writeQuery();
-      render();
-    }
-
-    init().catch(err => {
-      console.error(err);
-      elCount.textContent = "Error cargando juegos.json (revisa ruta y formato).";
-    });
-  </script>
-
+<header id="top">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html" aria-label="PC Game Archive">
+      <img class="logo" src="logo.png" alt="PC Game Archive logo">
+      <span><strong>PC Game Archive</strong><small>Archivo físico de videojuegos de PC · Big Box · MS-DOS · Windows</small></span>
+    </a>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+<a class="active" href="bigbox.html">Big Box</a>
+<a href="series.html">Series</a>
+<a href="contacto.html">Contacto</a>
+<a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Catálogo</p>
+    <h1>Archivo Big Box · PC Game Archive</h1>
+    <p>Videojuegos de PC en formato Big Box documentados por PC Game Archive.</p>
+  </div>
+  <form class="toolbar" action="index.html" method="get"><input name="q" placeholder="Filtrar catálogo…"><button>Buscar</button></form>
+  <p class="count">441 juegos encontrados.</p>
+  <div class="grid cards"><a class="game-card" href="juegos/dreamweb-bigbox/index.html">
+  <img src="juegos/dreamweb-bigbox/img/001.jpg" alt="Portada de DreamWeb" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>DreamWeb</strong>
+    <small>Aventura gráfica, Point and click, Ciencia ficción, Cyberpunk</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/leather-goddesses-of-phobos-2-bigbox/index.html">
+  <img src="juegos/leather-goddesses-of-phobos-2-bigbox/img/001.jpg" alt="Portada de Leather Goddesses of Phobos! 2" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Leather Goddesses of Phobos! 2</strong>
+    <small>Aventura gráfica, Point and click, Comedia, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/gabriel-knight-3-blood-of-the-sacred-blood-of-the-damned-bigbox/index.html">
+  <img src="juegos/gabriel-knight-3-blood-of-the-sacred-blood-of-the-damned-bigbox/img/001.jpg" alt="Portada de Gabriel Knight 3: Blood of the Sacred, Blood of the Damned" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Gabriel Knight 3: Blood of the Sacred, Blood of the Damned</strong>
+    <small>Aventura gráfica, Point and click, Misterio, Aventura en 3D</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/blade-runner-bigbox/index.html">
+  <img src="juegos/blade-runner-bigbox/img/001.jpg" alt="Portada de Blade Runner" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Blade Runner</strong>
+    <small>Aventura gráfica, Aventura en tiempo real, Ciencia ficción, Investigación detectivesca</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/sam-max-hit-the-road-bigbox/index.html">
+  <img src="juegos/sam-max-hit-the-road-bigbox/img/001.jpg" alt="Portada de Sam &amp; Max Hit the Road" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Sam &amp; Max Hit the Road</strong>
+    <small>Aventura gráfica, Point and click, Comedia</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win3.x</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/curse-of-enchantia-bigbox/index.html">
+  <img src="juegos/curse-of-enchantia-bigbox/img/001.jpg" alt="Portada de Curse of Enchantia" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Curse of Enchantia</strong>
+    <small>Aventura gráfica, Point and click, Fantasía, Aventura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/heart-of-china-bigbox/index.html">
+  <img src="juegos/heart-of-china-bigbox/img/001.jpg" alt="Portada de Heart of China" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Heart of China</strong>
+    <small>Aventura gráfica, Point and click, Aventura cinematográfica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/arcanum-hechizos-y-engranajes-bigbox/index.html">
+  <img src="juegos/arcanum-hechizos-y-engranajes-bigbox/img/001.jpg" alt="Portada de Arcanum: Hechizos y Engranajes" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Arcanum: Hechizos y Engranajes</strong>
+    <small>Rol, CRPG, Fantasía, Steampunk, Isométrico</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/vampire-the-masquerade-redemption-bigbox/index.html">
+  <img src="juegos/vampire-the-masquerade-redemption-bigbox/img/001.jpg" alt="Portada de Vampire: The Masquerade - Redemption" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Vampire: The Masquerade - Redemption</strong>
+    <small>Rol, Acción RPG, Rol narrativo, Fantasía oscura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/sid-meiers-civilization-ii-bigbox/index.html">
+  <img src="juegos/sid-meiers-civilization-ii-bigbox/img/001.jpg" alt="Portada de Sid Meier&#x27;s Civilization II" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Sid Meier&#x27;s Civilization II</strong>
+    <small>Estrategia por turnos, 4X, Gestión, Simulación histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win3.x</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/baldurs-gate-bigbox/index.html">
+  <img src="juegos/baldurs-gate-bigbox/img/001.jpg" alt="Portada de Baldur&#x27;s Gate" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Baldur&#x27;s Gate</strong>
+    <small>Rol, CRPG, Fantasía, Tiempo real con pausa</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/baldurs-gate-ii-shadows-of-amn-bigbox/index.html">
+  <img src="juegos/baldurs-gate-ii-shadows-of-amn-bigbox/img/001.jpg" alt="Portada de Baldur&#x27;s Gate II: Shadows of Amn" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Baldur&#x27;s Gate II: Shadows of Amn</strong>
+    <small>Rol, RPG occidental, Fantasía, Tiempo real con pausa</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/loom-bigbox/index.html">
+  <img src="juegos/loom-bigbox/img/001.jpg" alt="Portada de Loom" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Loom</strong>
+    <small>Aventura gráfica, Point and click, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/alone-in-the-dark-bigbox/index.html">
+  <img src="juegos/alone-in-the-dark-bigbox/img/001.jpg" alt="Portada de Alone in the Dark" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Alone in the Dark</strong>
+    <small>Aventura, Survival horror, Aventura de acción, Puzzle</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/indiana-jones-y-la-ultima-cruzada-aventura-grafica-bigbox/index.html">
+  <img src="juegos/indiana-jones-y-la-ultima-cruzada-aventura-grafica-bigbox/img/001.jpg" alt="Portada de Indiana Jones y la Última Cruzada: Aventura Gráfica" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Indiana Jones y la Última Cruzada: Aventura Gráfica</strong>
+    <small>Aventura gráfica, Point and click, Aventura, Puzzle</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/grim-fandango-bigbox/index.html">
+  <img src="juegos/grim-fandango-bigbox/img/001.jpg" alt="Portada de Grim Fandango" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Grim Fandango</strong>
+    <small>Aventura gráfica, Aventura 3D, Puzzle, Comedia negra</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/master-of-orion-ii-battle-at-antares-bigbox/index.html">
+  <img src="juegos/master-of-orion-ii-battle-at-antares-bigbox/img/001.jpg" alt="Portada de Master of Orion II: Battle at Antares" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Master of Orion II: Battle at Antares</strong>
+    <small>Estrategia por turnos, 4X, Ciencia ficción, Gestión espacial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/diablo-bigbox/index.html">
+  <img src="juegos/diablo-bigbox/img/001.jpg" alt="Portada de Diablo" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Diablo</strong>
+    <small>Action RPG, Dungeon crawler, Rol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/hellfire-bigbox/index.html">
+  <img src="juegos/hellfire-bigbox/img/001.jpg" alt="Portada de Hellfire" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Hellfire</strong>
+    <small>Rol de acción, Dungeon crawler, Expansión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/diablo-ii-bigbox/index.html">
+  <img src="juegos/diablo-ii-bigbox/img/001.jpg" alt="Portada de Diablo II" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Diablo II</strong>
+    <small>Rol de acción, Hack and slash, Dungeon crawler</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/diablo-ii-lord-of-destruction-bigbox/index.html">
+  <img src="juegos/diablo-ii-lord-of-destruction-bigbox/img/001.jpg" alt="Portada de Diablo II: Lord of Destruction" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Diablo II: Lord of Destruction</strong>
+    <small>Rol de acción, Hack and slash, Dungeon crawler</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/flashback-bigbox/index.html">
+  <img src="juegos/flashback-bigbox/img/001.jpg" alt="Portada de Flashback" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Flashback</strong>
+    <small>Acción, Aventura cinemática, Plataformas, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/dino-crisis-bigbox/index.html">
+  <img src="juegos/dino-crisis-bigbox/img/001.jpg" alt="Portada de Dino Crisis" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Dino Crisis</strong>
+    <small>Survival horror, Acción aventura, Aventura en tercera persona</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/caesar-iii-bigbox/index.html">
+  <img src="juegos/caesar-iii-bigbox/img/001.jpg" alt="Portada de Caesar III" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Caesar III</strong>
+    <small>Estrategia, Construcción de ciudades, Simulación histórica, Gestión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/faraon-bigbox/index.html">
+  <img src="juegos/faraon-bigbox/img/001.jpg" alt="Portada de Faraón" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Faraón</strong>
+    <small>Construcción de ciudades, Estrategia, Gestión, Simulación histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/cleopatra-la-reina-del-nilo-bigbox/index.html">
+  <img src="juegos/cleopatra-la-reina-del-nilo-bigbox/img/001.jpg" alt="Portada de Cleopatra: La Reina del Nilo" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Cleopatra: La Reina del Nilo</strong>
+    <small>Estrategia, Construcción de ciudades, City builder, Gestión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/throne-of-darkness-bigbox/index.html">
+  <img src="juegos/throne-of-darkness-bigbox/img/001.jpg" alt="Portada de Throne of Darkness" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Throne of Darkness</strong>
+    <small>Action RPG, Hack and slash, Rol de acción, Fantasia oscura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-empires-bigbox/index.html">
+  <img src="juegos/age-of-empires-bigbox/img/001.jpg" alt="Portada de Age of Empires" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Empires</strong>
+    <small>Estrategia en tiempo real, RTS, Estrategia histórica, Gestión de recursos</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">WinNT</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-empires-rise-of-rome-bigbox/index.html">
+  <img src="juegos/age-of-empires-rise-of-rome-bigbox/img/001.jpg" alt="Portada de Age of Empires: The Rise of Rome" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Empires: The Rise of Rome</strong>
+    <small>Estrategia en tiempo real, RTS, Estrategia histórica, Expansión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-empires-gold-edition-bigbox/index.html">
+  <img src="juegos/age-of-empires-gold-edition-bigbox/img/001.jpg" alt="Portada de Age of Empires. Gold Edition" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Empires. Gold Edition</strong>
+    <small>Estrategia en tiempo real, RTS, Estrategia histórica, Compilación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-empires-ii-bigbox/index.html">
+  <img src="juegos/age-of-empires-ii-bigbox/img/001.jpg" alt="Portada de Age of Empires II: The Age of Kings" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Empires II: The Age of Kings</strong>
+    <small>Estrategia en tiempo real, RTS, Estrategia histórica, Gestión de recursos</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-empires-ii-the-conquerors-expansion-bigbox/index.html">
+  <img src="juegos/age-of-empires-ii-the-conquerors-expansion-bigbox/img/001.jpg" alt="Portada de Age of Empires II. The Conquerors. Expansion" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Empires II. The Conquerors. Expansion</strong>
+    <small>Estrategia en tiempo real, RTS, Estrategia histórica, Expansión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-empires-ii-edicion-gold-bigbox/index.html">
+  <img src="juegos/age-of-empires-ii-edicion-gold-bigbox/img/001.jpg" alt="Portada de Age of Empires II: Gold Edition" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Empires II: Gold Edition</strong>
+    <small>Estrategia en tiempo real, RTS, Estrategia histórica, Compilación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-mythology-bigbox/index.html">
+  <img src="juegos/age-of-mythology-bigbox/img/001.jpg" alt="Portada de Age of Mythology" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Mythology</strong>
+    <small>Estrategia en tiempo real, RTS, Fantasía mitológica, Estrategia histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinXP</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/maniac-mansion-bigbox/index.html">
+  <img src="juegos/maniac-mansion-bigbox/img/001.jpg" alt="Portada de Maniac Mansion" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Maniac Mansion</strong>
+    <small>Aventura gráfica, Point and click, Comedia, Misterio</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/call-to-power-bigbox/index.html">
+  <img src="juegos/call-to-power-bigbox/img/001.jpg" alt="Portada de Civilization: Call to Power" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Civilization: Call to Power</strong>
+    <small>Estrategia por turnos, 4X, Gestión de imperios</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/call-to-power-ii-bigbox/index.html">
+  <img src="juegos/call-to-power-ii-bigbox/img/001.jpg" alt="Portada de Call to Power II" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Call to Power II</strong>
+    <small>Estrategia por turnos, 4X, Construcción de imperios, Civilización histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/darkstone-evil-reigns-bigbox/index.html">
+  <img src="juegos/darkstone-evil-reigns-bigbox/img/001.jpg" alt="Portada de Darkstone: Evil Reigns" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Darkstone: Evil Reigns</strong>
+    <small>Action RPG, Hack and slash, Dungeon crawler, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/silver-bigbox/index.html">
+  <img src="juegos/silver-bigbox/img/001.jpg" alt="Portada de Silver" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Silver</strong>
+    <small>Action RPG, Hack and slash, Aventura, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/lands-of-lore-ii-guardians-of-destiny-bigbox/index.html">
+  <img src="juegos/lands-of-lore-ii-guardians-of-destiny-bigbox/img/001.jpg" alt="Portada de Lands of Lore II: Guardians of Destiny" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Lands of Lore II: Guardians of Destiny</strong>
+    <small>Rol, Dungeon crawler, Action RPG, Fantasia</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/starcraft-bigbox/index.html">
+  <img src="juegos/starcraft-bigbox/img/001.jpg" alt="Portada de StarCraft" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>StarCraft</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción, Multijugador</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/starcraft-brood-war-expansion-set-bigbox/index.html">
+  <img src="juegos/starcraft-brood-war-expansion-set-bigbox/img/001.jpg" alt="Portada de StarCraft: Brood War - Expansion Set" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>StarCraft: Brood War - Expansion Set</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción, Estrategia militar</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/pool-of-radiance-bigbox/index.html">
+  <img src="juegos/pool-of-radiance-bigbox/img/001.jpg" alt="Portada de Pool of Radiance" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Pool of Radiance</strong>
+    <small>Rol, Action RPG, Dungeon crawler, Fantasia</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/pool-of-radiance-ruins-of-myth-drannor-bigbox/index.html">
+  <img src="juegos/pool-of-radiance-ruins-of-myth-drannor-bigbox/img/001.jpg" alt="Portada de Pool of Radiance: Ruins of Myth Drannor" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Pool of Radiance: Ruins of Myth Drannor</strong>
+    <small>Rol, Action RPG, Dungeon crawler, Fantasia</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/broken-sword-la-leyenda-de-los-templarios-bigbox/index.html">
+  <img src="juegos/broken-sword-la-leyenda-de-los-templarios-bigbox/img/001.jpg" alt="Portada de Broken Sword: La Leyenda de los Templarios" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Broken Sword: La Leyenda de los Templarios</strong>
+    <small>Aventura gráfica, Point and click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/broken-sword-ii-las-fuerzas-del-mal-bigbox/index.html">
+  <img src="juegos/broken-sword-ii-las-fuerzas-del-mal-bigbox/img/001.jpg" alt="Portada de Broken Sword II: Las Fuerzas del Mal" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Broken Sword II: Las Fuerzas del Mal</strong>
+    <small>Aventura gráfica, Point and click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/druuna-morbus-gravis-bigbox/index.html">
+  <img src="juegos/druuna-morbus-gravis-bigbox/img/001.jpg" alt="Portada de Druuna: Morbus Gravis" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Druuna: Morbus Gravis</strong>
+    <small>Aventura gráfica, Point and click, Ciencia ficción, Aventura para adultos</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/black-crown-bigbox/index.html">
+  <img src="juegos/black-crown-bigbox/img/001.jpg" alt="Portada de Black Crown" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Black Crown</strong>
+    <small>Rol, Dungeon crawler, Fantasia, Estrategia</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/resident-evil-2-bigbox/index.html">
+  <img src="juegos/resident-evil-2-bigbox/img/001.jpg" alt="Portada de Resident Evil 2" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Resident Evil 2</strong>
+    <small>Survival horror, Acción, Terror, Aventura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/empire-earth-bigbox/index.html">
+  <img src="juegos/empire-earth-bigbox/img/001.jpg" alt="Portada de Empire Earth" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Empire Earth</strong>
+    <small>Estrategia en tiempo real, Estrategia histórica, Construcción de imperios</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/lost-eden-bigbox/index.html">
+  <img src="juegos/lost-eden-bigbox/img/001.jpg" alt="Portada de Lost Eden" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Lost Eden</strong>
+    <small>Aventura gráfica, Aventura en primera persona, Point and click, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/decisive-battles-of-wwii-the-ardennes-offensive-bigbox/index.html">
+  <img src="juegos/decisive-battles-of-wwii-the-ardennes-offensive-bigbox/img/001.jpg" alt="Portada de Decisive Battles of WWII: The Ardennes Offensive" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Decisive Battles of WWII: The Ardennes Offensive</strong>
+    <small>Estrategia por turnos, Wargame, Simulación bélica, Estrategia histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/commandos-behind-enemy-lines-bigbox/index.html">
+  <img src="juegos/commandos-behind-enemy-lines-bigbox/img/001.jpg" alt="Portada de Commandos: Behind Enemy Lines" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Commandos: Behind Enemy Lines</strong>
+    <small>Estrategia en tiempo real, Táctica en tiempo real, Sigilo, Estrategia bélica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/commandos-mas-alla-del-deber-bigbox/index.html">
+  <img src="juegos/commandos-mas-alla-del-deber-bigbox/img/001.jpg" alt="Portada de Commandos: Más Allá del Deber" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Commandos: Más Allá del Deber</strong>
+    <small>Estrategia en tiempo real, Táctica en tiempo real, Sigilo, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/theme-park-world-bigbox/index.html">
+  <img src="juegos/theme-park-world-bigbox/img/001.jpg" alt="Portada de Theme Park World" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Theme Park World</strong>
+    <small>Simulación, Gestión, Construcción y gestión, Tycoon</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/duelo-de-hechiceros-bigbox/index.html">
+  <img src="juegos/duelo-de-hechiceros-bigbox/img/001.jpg" alt="Portada de Duelo de Hechiceros" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Duelo de Hechiceros</strong>
+    <small>Estrategia en tiempo real, Estrategia táctica, Fantasía, Acción táctica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/patriot-bigbox/index.html">
+  <img src="juegos/patriot-bigbox/img/001.jpg" alt="Portada de Patriot" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Patriot</strong>
+    <small>Simulación militar, Simulador de tanque, Combate táctico, Vehículos de combate</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/death-rally-bigbox/index.html">
+  <img src="juegos/death-rally-bigbox/img/001.jpg" alt="Portada de Death Rally" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Death Rally</strong>
+    <small>Carreras, Combate vehicular, Acción, Arcade</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/rollercoaster-tycoon-bigbox/index.html">
+  <img src="juegos/rollercoaster-tycoon-bigbox/img/001.jpg" alt="Portada de RollerCoaster Tycoon" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>RollerCoaster Tycoon</strong>
+    <small>Simulación, Gestión, Construcción y gestión, Tycoon</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/frankenstein-through-the-eyes-of-the-monster-bigbox/index.html">
+  <img src="juegos/frankenstein-through-the-eyes-of-the-monster-bigbox/img/001.jpg" alt="Portada de Frankenstein: Through the Eyes of the Monster" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Frankenstein: Through the Eyes of the Monster</strong>
+    <small>Aventura gráfica, Point and click, FMV, Terror, Puzzle</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/command-and-conquer-bigbox/index.html">
+  <img src="juegos/command-and-conquer-bigbox/img/001.jpg" alt="Portada de Command &amp; Conquer" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Command &amp; Conquer</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción, Wargame</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/command-and-conquer-tiberian-sun-bigbox/index.html">
+  <img src="juegos/command-and-conquer-tiberian-sun-bigbox/img/001.jpg" alt="Portada de Command &amp; Conquer: Tiberian Sun" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Command &amp; Conquer: Tiberian Sun</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción, Estrategia militar</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/command-and-conquer-red-alert-bigbox/index.html">
+  <img src="juegos/command-and-conquer-red-alert-bigbox/img/001.jpg" alt="Portada de Command &amp; Conquer: Red Alert" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Command &amp; Conquer: Red Alert</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción, Estrategia bélica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/command-and-conquer-red-alert-counterstrike-bigbox/index.html">
+  <img src="juegos/command-and-conquer-red-alert-counterstrike-bigbox/img/001.jpg" alt="Portada de Command &amp; Conquer: Red Alert - Counterstrike" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Command &amp; Conquer: Red Alert - Counterstrike</strong>
+    <small>Estrategia en tiempo real, Expansión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">WinNT</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/command-and-conquer-red-alert-the-aftermath-bigbox/index.html">
+  <img src="juegos/command-and-conquer-red-alert-the-aftermath-bigbox/img/001.jpg" alt="Portada de Command &amp; Conquer: Red Alert - The Aftermath" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Command &amp; Conquer: Red Alert - The Aftermath</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción, Expansión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/heroes-of-might-and-magic-bigbox/index.html">
+  <img src="juegos/heroes-of-might-and-magic-bigbox/img/001.jpg" alt="Portada de Heroes of Might and Magic: A Strategic Quest" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Heroes of Might and Magic: A Strategic Quest</strong>
+    <small>Estrategia por turnos, Fantasy strategy, Juego de rol, Estrategia táctica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/heroes-of-might-and-magic-ii-bigbox/index.html">
+  <img src="juegos/heroes-of-might-and-magic-ii-bigbox/img/001.jpg" alt="Portada de Heroes of Might and Magic II: The Succession Wars" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Heroes of Might and Magic II: The Succession Wars</strong>
+    <small>Estrategia por turnos, Fantasy, Táctica, Juego de rol, Gestión de recursos</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/heroes-of-might-and-magic-iii-bigbox/index.html">
+  <img src="juegos/heroes-of-might-and-magic-iii-bigbox/img/001.jpg" alt="Portada de Heroes of Might and Magic III: The Restoration of Erathia" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Heroes of Might and Magic III: The Restoration of Erathia</strong>
+    <small>Estrategia por turnos, Fantasy strategy, Juego de rol táctico</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/the-ultimate-doom-the-flesh-consumed-bigbox/index.html">
+  <img src="juegos/the-ultimate-doom-the-flesh-consumed-bigbox/img/001.jpg" alt="Portada de The Ultimate Doom: The Flesh Consumed" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>The Ultimate Doom: The Flesh Consumed</strong>
+    <small>Shooter en primera persona, Acción, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/forsaken-bigbox/index.html">
+  <img src="juegos/forsaken-bigbox/img/001.jpg" alt="Portada de Forsaken" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Forsaken</strong>
+    <small>Acción, Shooter en primera persona, Combate espacial, 6DOF</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/links-the-challenge-of-golf-bigbox/index.html">
+  <img src="juegos/links-the-challenge-of-golf-bigbox/img/001.jpg" alt="Portada de Links: The Challenge of Golf" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Links: The Challenge of Golf</strong>
+    <small>Simulación deportiva, Golf, Simulador, Deportes</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/gunman-chronicles-bigbox/index.html">
+  <img src="juegos/gunman-chronicles-bigbox/img/001.jpg" alt="Portada de Gunman Chronicles" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Gunman Chronicles</strong>
+    <small>Shooter, Ciencia ficción, Acción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/panzer-general-bigbox/index.html">
+  <img src="juegos/panzer-general-bigbox/img/001.jpg" alt="Portada de Panzer General" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Panzer General</strong>
+    <small>Estrategia, Turnos, Wargame, Histórico</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/wall-street-trader-99-bigbox/index.html">
+  <img src="juegos/wall-street-trader-99-bigbox/img/001.jpg" alt="Portada de Wall Street Trader 99" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Wall Street Trader 99</strong>
+    <small>Simulación, Estrategia, Economía, Educativo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/index.html">
+  <img src="juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/img/001.jpg" alt="Portada de Egipto 1156 a.C.: La Tumba del Faraón" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Egipto 1156 a.C.: La Tumba del Faraón</strong>
+    <small>Aventura gráfica, Point and click, Histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/the-rise-and-rule-of-ancient-empires-bigbox/index.html">
+  <img src="juegos/the-rise-and-rule-of-ancient-empires-bigbox/img/001.jpg" alt="Portada de The Rise &amp; Rule of Ancient Empires" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>The Rise &amp; Rule of Ancient Empires</strong>
+    <small>Estrategia por turnos, Construcción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/3d-power-tank-bigbox/index.html">
+  <img src="juegos/3d-power-tank-bigbox/img/001.jpg" alt="Portada de 3D Power Tank" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>3D Power Tank</strong>
+    <small>Acción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/a-sangre-fria-bigbox/index.html">
+  <img src="juegos/a-sangre-fria-bigbox/img/001.jpg" alt="Portada de A Sangre Fría" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>A Sangre Fría</strong>
+    <small>Aventura gráfica, Acción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/abomination-the-nemesis-project-bigbox/index.html">
+  <img src="juegos/abomination-the-nemesis-project-bigbox/img/001.jpg" alt="Portada de Abomination: The Nemesis Project" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Abomination: The Nemesis Project</strong>
+    <small>Acción, Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/absolute-pinball-bigbox/index.html">
+  <img src="juegos/absolute-pinball-bigbox/img/001.jpg" alt="Portada de Absolute Pinball" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Absolute Pinball</strong>
+    <small>Arcade, Pinball</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/adidas-power-soccer-bigbox/index.html">
+  <img src="juegos/adidas-power-soccer-bigbox/img/001.jpg" alt="Portada de Adidas Power Soccer" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Adidas Power Soccer</strong>
+    <small>Deportes</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/allied-general-bigbox/index.html">
+  <img src="juegos/allied-general-bigbox/img/001.jpg" alt="Portada de Allied General" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Allied General</strong>
+    <small>Estrategia por turnos, Wargame</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win3.x</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/allied-general-gold-reserve-bigbox/index.html">
+  <img src="juegos/allied-general-gold-reserve-bigbox/img/001.jpg" alt="Portada de Allied General (Gold Reserve)" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Allied General (Gold Reserve)</strong>
+    <small>Estrategia por turnos, Wargame</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win3.x</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/amok-bigbox/index.html">
+  <img src="juegos/amok-bigbox/img/001.jpg" alt="Portada de AMOK" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>AMOK</strong>
+    <small>Acción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/advanced-civilization-bigbox/index.html">
+  <img src="juegos/advanced-civilization-bigbox/img/001.jpg" alt="Portada de Advanced Civilization" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Advanced Civilization</strong>
+    <small>Estrategia por turnos</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/arcatera-la-hermandad-oscura-bigbox/index.html">
+  <img src="juegos/arcatera-la-hermandad-oscura-bigbox/img/001.jpg" alt="Portada de Arcatera: La Hermandad Oscura" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Arcatera: La Hermandad Oscura</strong>
+    <small>Rol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/assault-rigs-bigbox/index.html">
+  <img src="juegos/assault-rigs-bigbox/img/001.jpg" alt="Portada de Assault Rigs" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Assault Rigs</strong>
+    <small>Acción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win3.x</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/back-to-baghdad-bigbox/index.html">
+  <img src="juegos/back-to-baghdad-bigbox/img/001.jpg" alt="Portada de Back to Baghdad" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Back to Baghdad</strong>
+    <small>Combate aéreo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/barca-manager-2000-bigbox/index.html">
+  <img src="juegos/barca-manager-2000-bigbox/img/001.jpg" alt="Portada de Barça Manager 2000" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Barça Manager 2000</strong>
+    <small>Deportes, Gestión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/battle-realms-bigbox/index.html">
+  <img src="juegos/battle-realms-bigbox/img/001.jpg" alt="Portada de Battle Realms" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Battle Realms</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/black-dahlia-bigbox/index.html">
+  <img src="juegos/black-dahlia-bigbox/img/001.jpg" alt="Portada de Black Dahlia" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Black Dahlia</strong>
+    <small>Aventura gráfica, Point and click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/runaway-a-road-aventure-bigbox/index.html">
+  <img src="juegos/runaway-a-road-aventure-bigbox/img/001.jpg" alt="Portada de Runaway: A Road Adventure" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Runaway: A Road Adventure</strong>
+    <small>Aventura gráfica, Point &amp; click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/capitalism-plus-bigbox/index.html">
+  <img src="juegos/capitalism-plus-bigbox/img/001.jpg" alt="Portada de Capitalism Plus" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Capitalism Plus</strong>
+    <small>Simulación, Estrategia</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/colin-mcrae-rally-bigbox/index.html">
+  <img src="juegos/colin-mcrae-rally-bigbox/img/001.jpg" alt="Portada de Colin McRae Rally" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Colin McRae Rally</strong>
+    <small>Carreras</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/complete-onside-soccer-bigbox/index.html">
+  <img src="juegos/complete-onside-soccer-bigbox/img/001.jpg" alt="Portada de Complete Onside Soccer" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Complete Onside Soccer</strong>
+    <small>Deportes, Fútbol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/conflict-zone-bigbox/index.html">
+  <img src="juegos/conflict-zone-bigbox/img/001.jpg" alt="Portada de Conflict Zone" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Conflict Zone</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/conqueror-ad-1086-bigbox/index.html">
+  <img src="juegos/conqueror-ad-1086-bigbox/img/001.jpg" alt="Portada de Conqueror: A.D. 1086" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Conqueror: A.D. 1086</strong>
+    <small>Estrategia, Rol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/creature-shock-bigbox/index.html">
+  <img src="juegos/creature-shock-bigbox/img/001.jpg" alt="Portada de Creature Shock" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Creature Shock</strong>
+    <small>Dungeon crawler, Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/crimson-skies-bigbox/index.html">
+  <img src="juegos/crimson-skies-bigbox/img/001.jpg" alt="Portada de Crimson Skies" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Crimson Skies</strong>
+    <small>Acción, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/crusader-no-remorse-bigbox/index.html">
+  <img src="juegos/crusader-no-remorse-bigbox/img/001.jpg" alt="Portada de Crusader: No Remorse" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Crusader: No Remorse</strong>
+    <small>Acción, Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/decathlon-games-bigbox/index.html">
+  <img src="juegos/decathlon-games-bigbox/img/001.jpg" alt="Portada de Decathlon Games" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Decathlon Games</strong>
+    <small>Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/delta-force-2-bigbox/index.html">
+  <img src="juegos/delta-force-2-bigbox/img/001.jpg" alt="Portada de Delta Force 2" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Delta Force 2</strong>
+    <small>Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/delta-force-land-warrior-bigbox/index.html">
+  <img src="juegos/delta-force-land-warrior-bigbox/img/001.jpg" alt="Portada de Delta Force: Land Warrior" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Delta Force: Land Warrior</strong>
+    <small>Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/delta-force-the-art-of-war-bigbox/index.html">
+  <img src="juegos/delta-force-the-art-of-war-bigbox/img/001.jpg" alt="Portada de Delta Force: The Art of War" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Delta Force: The Art of War</strong>
+    <small>Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/descent-ii-bigbox/index.html">
+  <img src="juegos/descent-ii-bigbox/img/001.jpg" alt="Portada de Descent II" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Descent II</strong>
+    <small>First‑person shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/dungeon-keeper-2-bigbox/index.html">
+  <img src="juegos/dungeon-keeper-2-bigbox/img/001.jpg" alt="Portada de Dungeon Keeper 2" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Dungeon Keeper 2</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/index.html">
+  <img src="juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/img/001.jpg" alt="Portada de Egipto II: La Profecía de Heliópolis" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Egipto II: La Profecía de Heliópolis</strong>
+    <small>Aventura gráfica, Point and click, Histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/el-rey-arturo-el-secreto-de-merlin-bigbox/index.html">
+  <img src="juegos/el-rey-arturo-el-secreto-de-merlin-bigbox/img/001.jpg" alt="Portada de El Rey Arturo: El Secreto de Merlín" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>El Rey Arturo: El Secreto de Merlín</strong>
+    <small>Aventura gráfica, Point and click, Fantasía, Histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/el-templo-del-mal-elemental-bigbox/index.html">
+  <img src="juegos/el-templo-del-mal-elemental-bigbox/img/001.jpg" alt="Portada de El Templo del Mal Elemental" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>El Templo del Mal Elemental</strong>
+    <small>Rol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/empire-deluxe-bigbox/index.html">
+  <img src="juegos/empire-deluxe-bigbox/img/001.jpg" alt="Portada de Empire Deluxe" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Empire Deluxe</strong>
+    <small>Estrategia por turnos, Bélico</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win3.x</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/extreme-games-espn-2-bigbox/index.html">
+  <img src="juegos/extreme-games-espn-2-bigbox/img/001.jpg" alt="Portada de Extreme Games ESPN 2" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Extreme Games ESPN 2</strong>
+    <small>Carreras, Deportes extremos, Arcade, Deportes, Conducción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/f1-racing-simulation-bigbox/index.html">
+  <img src="juegos/f1-racing-simulation-bigbox/img/001.jpg" alt="Portada de F1 Racing Simulation" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>F1 Racing Simulation</strong>
+    <small>Simulación, Fórmula 1</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/fantasy-general-bigbox/index.html">
+  <img src="juegos/fantasy-general-bigbox/img/001.jpg" alt="Portada de Fantasy General" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Fantasy General</strong>
+    <small>Estrategia por turnos, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/mortal-kombat-3-bigbox/index.html">
+  <img src="juegos/mortal-kombat-3-bigbox/img/001.jpg" alt="Portada de Mortal Kombat 3" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Mortal Kombat 3</strong>
+    <small>Lucha, Arcade</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/fausto-los-7-misterios-del-alma-bigbox/index.html">
+  <img src="juegos/fausto-los-7-misterios-del-alma-bigbox/img/001.jpg" alt="Portada de Fausto: Los 7 Misterios del Alma" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Fausto: Los 7 Misterios del Alma</strong>
+    <small>Aventura gráfica, Point and click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/formula-one-99-bigbox/index.html">
+  <img src="juegos/formula-one-99-bigbox/img/001.jpg" alt="Portada de Formula One 99" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Formula One 99</strong>
+    <small>Simulación, Fórmula 1, Conducción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/fx-fighter-turbo-bigbox/index.html">
+  <img src="juegos/fx-fighter-turbo-bigbox/img/001.jpg" alt="Portada de FX Fighter Turbo" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>FX Fighter Turbo</strong>
+    <small>Lucha, Arcade, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/gangsters-organized-crime-bigbox/index.html">
+  <img src="juegos/gangsters-organized-crime-bigbox/img/001.jpg" alt="Portada de Gangsters: Organized Crime" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Gangsters: Organized Crime</strong>
+    <small>Estrategia, Gestión, Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/grand-prix-3-bigbox/index.html">
+  <img src="juegos/grand-prix-3-bigbox/img/001.jpg" alt="Portada de Grand Prix 3" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Grand Prix 3</strong>
+    <small>Simulación, Fórmula 1, Realismo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/heavy-gear-bigbox/index.html">
+  <img src="juegos/heavy-gear-bigbox/img/001.jpg" alt="Portada de Heavy Gear" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Heavy Gear</strong>
+    <small>Simulación, Shooter, Mechas, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/hellboy-asylum-seeker-bigbox/index.html">
+  <img src="juegos/hellboy-asylum-seeker-bigbox/img/001.jpg" alt="Portada de Hellboy: Asylum Seeker" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Hellboy: Asylum Seeker</strong>
+    <small>Acción, Aventura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/heroes-of-might-and-magic-iv-bigbox/index.html">
+  <img src="juegos/heroes-of-might-and-magic-iv-bigbox/img/001.jpg" alt="Portada de Heroes of Might and Magic IV" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Heroes of Might and Magic IV</strong>
+    <small>Estrategia por turnos, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MacOs</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/homeworld-cataclysm-bigbox/index.html">
+  <img src="juegos/homeworld-cataclysm-bigbox/img/001.jpg" alt="Portada de Homeworld: Cataclysm" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Homeworld: Cataclysm</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/hostile-waters-antaeus-rising-bigbox/index.html">
+  <img src="juegos/hostile-waters-antaeus-rising-bigbox/img/001.jpg" alt="Portada de Hostile Waters: Antaeus Rising" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Hostile Waters: Antaeus Rising</strong>
+    <small>Estrategia en tiempo real, Acción, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/international-rugby-league-bigbox/index.html">
+  <img src="juegos/international-rugby-league-bigbox/img/001.jpg" alt="Portada de International Rugby League" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>International Rugby League</strong>
+    <small>Deportes, Rugby</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/index.html">
+  <img src="juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/img/001.jpg" alt="Portada de Iron Man / X-O Manowar in Heavy Metal" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Iron Man / X-O Manowar in Heavy Metal</strong>
+    <small>Acción, Shooter, Arcade</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/la-ruta-hacia-el-dorado-bigbox/index.html">
+  <img src="juegos/la-ruta-hacia-el-dorado-bigbox/img/001.jpg" alt="Portada de La Ruta hacia el Dorado" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>La Ruta hacia el Dorado</strong>
+    <small>Aventura gráfica, Point and click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/longbow-2-bigbox/index.html">
+  <img src="juegos/longbow-2-bigbox/img/001.jpg" alt="Portada de Jane&#x27;s Longbow 2" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Jane&#x27;s Longbow 2</strong>
+    <small>Simulación, Combate aéreo, Bélico</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/limited-run-loom-bigbox/index.html">
+  <img src="juegos/limited-run-loom-bigbox/img/001.jpg" alt="Portada de Loom" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Loom</strong>
+    <small>Aventura gráfica, Fantasía, Música</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/louvre-la-maldicion-final-bigbox/index.html">
+  <img src="juegos/louvre-la-maldicion-final-bigbox/img/001.jpg" alt="Portada de Louvre: La Maldición Final" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Louvre: La Maldición Final</strong>
+    <small>Aventura gráfica, Acción, Puzzle</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/max-mechanized-assault-exploration-bigbox/index.html">
+  <img src="juegos/max-mechanized-assault-exploration-bigbox/img/001.jpg" alt="Portada de M.A.X.: Mechanized Assault &amp; Exploration" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>M.A.X.: Mechanized Assault &amp; Exploration</strong>
+    <small>Estrategia por turnos, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/majesty-the-fantasy-kingdom-sim-bigbox/index.html">
+  <img src="juegos/majesty-the-fantasy-kingdom-sim-bigbox/img/001.jpg" alt="Portada de Majesty: The Fantasy Kingdom Sim" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Majesty: The Fantasy Kingdom Sim</strong>
+    <small>Estrategia en tiempo real, Simulación, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/manic-karts-bigbox/index.html">
+  <img src="juegos/manic-karts-bigbox/img/001.jpg" alt="Portada de Manic Karts" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Manic Karts</strong>
+    <small>Carreras, Karting, Arcade</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/limited-run-maniac-mansion-bigbox/index.html">
+  <img src="juegos/limited-run-maniac-mansion-bigbox/img/001.jpg" alt="Portada de Maniac Mansion" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Maniac Mansion</strong>
+    <small>Aventura gráfica, Point and click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/messiah-bigbox/index.html">
+  <img src="juegos/messiah-bigbox/img/001.jpg" alt="Portada de Messiah" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Messiah</strong>
+    <small>Acción, Aventura, Cyberpunk</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/mission-critical-bigbox/index.html">
+  <img src="juegos/mission-critical-bigbox/img/001.jpg" alt="Portada de Mission Critical" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Mission Critical</strong>
+    <small>Aventura gráfica, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/mission-humanity-bigbox/index.html">
+  <img src="juegos/mission-humanity-bigbox/img/001.jpg" alt="Portada de Mission: Humanity" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Mission: Humanity</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/morpheus-bigbox/index.html">
+  <img src="juegos/morpheus-bigbox/img/001.jpg" alt="Portada de Morpheus" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Morpheus</strong>
+    <small>Aventura gráfica, Misterio, Suspense</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/nascar-revolution-bigbox/index.html">
+  <img src="juegos/nascar-revolution-bigbox/img/001.jpg" alt="Portada de NASCAR Revolution" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>NASCAR Revolution</strong>
+    <small>Carreras, Simulación, Automovilismo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/navy-strike-bigbox/index.html">
+  <img src="juegos/navy-strike-bigbox/img/001.jpg" alt="Portada de Navy Strike" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Navy Strike</strong>
+    <small>Simulación, Estrategia, Combate aéreo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/nba-live-2000-bigbox/index.html">
+  <img src="juegos/nba-live-2000-bigbox/img/001.jpg" alt="Portada de NBA Live 2000" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>NBA Live 2000</strong>
+    <small>Deportes, Baloncesto, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/nba-live-95-bigbox/index.html">
+  <img src="juegos/nba-live-95-bigbox/img/001.jpg" alt="Portada de NBA Live 95" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>NBA Live 95</strong>
+    <small>Deportes, Baloncesto, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/nba-live-97-bigbox/index.html">
+  <img src="juegos/nba-live-97-bigbox/img/001.jpg" alt="Portada de NBA Live 97" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>NBA Live 97</strong>
+    <small>Deportes, Baloncesto, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/need-for-speed-special-edition-bigbox/index.html">
+  <img src="juegos/need-for-speed-special-edition-bigbox/img/001.jpg" alt="Portada de Need for Speed: Special Edition" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Need for Speed: Special Edition</strong>
+    <small>Carreras, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/neverwinter-nights-bigbox/index.html">
+  <img src="juegos/neverwinter-nights-bigbox/img/001.jpg" alt="Portada de Neverwinter Nights" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Neverwinter Nights</strong>
+    <small>Rol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/neverwinter-nights-2-lawful-good-bigbox/index.html">
+  <img src="juegos/neverwinter-nights-2-lawful-good-bigbox/img/001.jpg" alt="Portada de Neverwinter Nights 2: Lawful Good" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Neverwinter Nights 2: Lawful Good</strong>
+    <small>Rol, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/nhl-2000-bigbox/index.html">
+  <img src="juegos/nhl-2000-bigbox/img/001.jpg" alt="Portada de NHL 2000" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>NHL 2000</strong>
+    <small>Deportes, Hockey sobre hielo, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/olympic-soccer-atlanta-1996-bigbox/index.html">
+  <img src="juegos/olympic-soccer-atlanta-1996-bigbox/img/001.jpg" alt="Portada de Olympic Soccer: Atlanta 1996" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Olympic Soccer: Atlanta 1996</strong>
+    <small>Deportes, Fútbol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/panzer-commander-wwii-tank-simulator-bigbox/index.html">
+  <img src="juegos/panzer-commander-wwii-tank-simulator-bigbox/img/001.jpg" alt="Portada de Panzer Commander: WWII Tank Simulator" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Panzer Commander: WWII Tank Simulator</strong>
+    <small>Simulación, Tanques, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/panzer-general-ii-bigbox/index.html">
+  <img src="juegos/panzer-general-ii-bigbox/img/001.jpg" alt="Portada de Panzer General II" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Panzer General II</strong>
+    <small>Wargame, Estrategia por turnos, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/panzer-general-ii-allied-general-bigbox/index.html">
+  <img src="juegos/panzer-general-ii-allied-general-bigbox/img/001.jpg" alt="Portada de Panzer General II: Allied General" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Panzer General II: Allied General</strong>
+    <small>Wargame, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/panzer-general-iii-bigbox/index.html">
+  <img src="juegos/panzer-general-iii-bigbox/img/001.jpg" alt="Portada de Panzer General III: Scorched Earth" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Panzer General III: Scorched Earth</strong>
+    <small>Wargame, Estrategia por turnos, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/patrician-ii-bigbox/index.html">
+  <img src="juegos/patrician-ii-bigbox/img/001.jpg" alt="Portada de Patrician II: Quest for Power" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Patrician II: Quest for Power</strong>
+    <small>Simulación, Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/power-f1-bigbox/index.html">
+  <img src="juegos/power-f1-bigbox/img/001.jpg" alt="Portada de Power F1" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Power F1</strong>
+    <small>Carreras, Fórmula 1, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/primera-division-stars-2001-bigbox/index.html">
+  <img src="juegos/primera-division-stars-2001-bigbox/img/001.jpg" alt="Portada de Primera División Stars" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Primera División Stars</strong>
+    <small>Deportes, Fútbol, Gestión, Manager Deportivo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/pro-pinball-fantastic-journey-dinamic-bigbox/index.html">
+  <img src="juegos/pro-pinball-fantastic-journey-dinamic-bigbox/img/001.jpg" alt="Portada de Pro Pinball: Fantastic Journey" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Pro Pinball: Fantastic Journey</strong>
+    <small>Simulación, Pinball</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/tom-clancys-rainbow-six-3-raven-shield-bigbox/index.html">
+  <img src="juegos/tom-clancys-rainbow-six-3-raven-shield-bigbox/img/001.jpg" alt="Portada de Tom Clancy&#x27;s Rainbow Six 3: Raven Shield" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Tom Clancy&#x27;s Rainbow Six 3: Raven Shield</strong>
+    <small>Simulación, Pinball</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/rally-championship-bigbox/index.html">
+  <img src="juegos/rally-championship-bigbox/img/001.jpg" alt="Portada de Rally Championship" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Rally Championship</strong>
+    <small>Carreras, Rally, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/limited-run-return-to-monkey-island-bigbox/index.html">
+  <img src="juegos/limited-run-return-to-monkey-island-bigbox/img/001.jpg" alt="Portada de Return to Monkey Island" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Return to Monkey Island</strong>
+    <small>Aventura gráfica, Point and click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/re-volt-bigbox/index.html">
+  <img src="juegos/re-volt-bigbox/img/001.jpg" alt="Portada de Re‑Volt" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Re‑Volt</strong>
+    <small>Carreras, Arcade</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/ring-el-anillo-de-los-nibelungos-bigbox/index.html">
+  <img src="juegos/ring-el-anillo-de-los-nibelungos-bigbox/img/001.jpg" alt="Portada de Ring: El Anillo de los Nibelungos" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Ring: El Anillo de los Nibelungos</strong>
+    <small>Aventura gráfica, Point and click, Fantasía, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/riverworld-bigbox/index.html">
+  <img src="juegos/riverworld-bigbox/img/001.jpg" alt="Portada de Riverworld" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Riverworld</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/storm-bigbox/index.html">
+  <img src="juegos/storm-bigbox/img/001.jpg" alt="Portada de S.T.O.R.M." loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>S.T.O.R.M.</strong>
+    <small>Arcade, Shooter, Acción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win3.x</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/scooby-doo-peligro-en-la-ciudad-fantasma-bigbox/index.html">
+  <img src="juegos/scooby-doo-peligro-en-la-ciudad-fantasma-bigbox/img/001.jpg" alt="Portada de Scooby‑Doo: Peligro en la Ciudad Fantasma" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Scooby‑Doo: Peligro en la Ciudad Fantasma</strong>
+    <small>Aventura gráfica, Point and click, Infantil</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/scotland-yard-a-la-busqueda-de-mister-x-bigbox/index.html">
+  <img src="juegos/scotland-yard-a-la-busqueda-de-mister-x-bigbox/img/001.jpg" alt="Portada de Scotland Yard: A la Búsqueda de Mister X" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Scotland Yard: A la Búsqueda de Mister X</strong>
+    <small>Estrategia, Aventura gráfica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/secret-weapons-of-the-luftwaffe-bigbox/index.html">
+  <img src="juegos/secret-weapons-of-the-luftwaffe-bigbox/img/001.jpg" alt="Portada de Secret Weapons of the Luftwaffe" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Secret Weapons of the Luftwaffe</strong>
+    <small>Simulación, Combate aéreo, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/shadow-man-bigbox/index.html">
+  <img src="juegos/shadow-man-bigbox/img/001.jpg" alt="Portada de Shadow Man" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Shadow Man</strong>
+    <small>Acción, Aventura, Horror</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/shogun-total-war-bigbox/index.html">
+  <img src="juegos/shogun-total-war-bigbox/img/001.jpg" alt="Portada de Shogun: Total War" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Shogun: Total War</strong>
+    <small>Estrategia por turnos, Histórica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/simcity-3000-bigbox/index.html">
+  <img src="juegos/simcity-3000-bigbox/img/001.jpg" alt="Portada de SimCity 3000" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>SimCity 3000</strong>
+    <small>Simulación, Construcción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/spearhead-bigbox/index.html">
+  <img src="juegos/spearhead-bigbox/img/001.jpg" alt="Portada de Spearhead" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Spearhead</strong>
+    <small>Simulación, Acción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/squad-leader-bigbox/index.html">
+  <img src="juegos/squad-leader-bigbox/img/001.jpg" alt="Portada de Avalon Hill&#x27;s Squad Leader" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Avalon Hill&#x27;s Squad Leader</strong>
+    <small>Estrategia por turnos, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/star-general-bigbox/index.html">
+  <img src="juegos/star-general-bigbox/img/001.jpg" alt="Portada de Star General" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Star General</strong>
+    <small>Wargame, Estrategia, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/starship-troopers-bigbox/index.html">
+  <img src="juegos/starship-troopers-bigbox/img/001.jpg" alt="Portada de Starship Troopers" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Starship Troopers</strong>
+    <small>Estrategia en tiempo real, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/steel-panthers-bigbox/index.html">
+  <img src="juegos/steel-panthers-bigbox/img/001.jpg" alt="Portada de Steel Panthers" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Steel Panthers</strong>
+    <small>Estrategia por turnos, Wargame, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/stunt-gp-bigbox/index.html">
+  <img src="juegos/stunt-gp-bigbox/img/001.jpg" alt="Portada de Stunt GP" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Stunt GP</strong>
+    <small>Carreras, Arcade</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/subwar-2050-bigbox/index.html">
+  <img src="juegos/subwar-2050-bigbox/img/001.jpg" alt="Portada de Subwar 2050" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Subwar 2050</strong>
+    <small>Simulador, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">WinXP</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/swat-3-close-quarters-battle-bigbox/index.html">
+  <img src="juegos/swat-3-close-quarters-battle-bigbox/img/001.jpg" alt="Portada de SWAT 3: Close Quarters Battle" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>SWAT 3: Close Quarters Battle</strong>
+    <small>Estrategia, Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/the-gene-machine-bigbox/index.html">
+  <img src="juegos/the-gene-machine-bigbox/img/001.jpg" alt="Portada de The Gene Machine" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>The Gene Machine</strong>
+    <small>Aventura gráfica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/the-longest-journey-bigbox/index.html">
+  <img src="juegos/the-longest-journey-bigbox/img/001.jpg" alt="Portada de The Longest Journey" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>The Longest Journey</strong>
+    <small>Aventura gráfica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/the-x-files-the-game-bigbox/index.html">
+  <img src="juegos/the-x-files-the-game-bigbox/img/001.jpg" alt="Portada de The X-Files: The Game" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>The X-Files: The Game</strong>
+    <small>Aventura gráfica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/tilt-bigbox/index.html">
+  <img src="juegos/tilt-bigbox/img/001.jpg" alt="Portada de TILT" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>TILT</strong>
+    <small>Pinball</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/time-machine-las-nuevas-aventuras-de-la-maquina-del-tiempo-bigbox/index.html">
+  <img src="juegos/time-machine-las-nuevas-aventuras-de-la-maquina-del-tiempo-bigbox/img/001.jpg" alt="Portada de Time Machine: Las Nuevas Aventuras de la Máquina del Tiempo" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Time Machine: Las Nuevas Aventuras de la Máquina del Tiempo</strong>
+    <small>Aventura gráfica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/times-of-conflict-bigbox/index.html">
+  <img src="juegos/times-of-conflict-bigbox/img/001.jpg" alt="Portada de Times of Conflict" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Times of Conflict</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/toca-touring-car-championship-bigbox/index.html">
+  <img src="juegos/toca-touring-car-championship-bigbox/img/001.jpg" alt="Portada de TOCA: Touring Car Championship" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>TOCA: Touring Car Championship</strong>
+    <small>Carreras, Automovilismo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/tom-clancys-ghost-recon-collectors-pack-bigbox/index.html">
+  <img src="juegos/tom-clancys-ghost-recon-collectors-pack-bigbox/img/001.jpg" alt="Portada de Tom Clancy&#x27;s Ghost Recon: Collector&#x27;s Pack" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Tom Clancy&#x27;s Ghost Recon: Collector&#x27;s Pack</strong>
+    <small>Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/tom-clancys-rainbow-six-covert-ops-essentials-bigbox/index.html">
+  <img src="juegos/tom-clancys-rainbow-six-covert-ops-essentials-bigbox/img/001.jpg" alt="Portada de Tom Clancy&#x27;s Rainbow Six: Covert Ops Essentials" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Tom Clancy&#x27;s Rainbow Six: Covert Ops Essentials</strong>
+    <small>Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/tomcat-alley-bigbox/index.html">
+  <img src="juegos/tomcat-alley-bigbox/img/001.jpg" alt="Portada de Tomcat Alley" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Tomcat Alley</strong>
+    <small>Acción, FMV, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/total-annihilation-bigbox/index.html">
+  <img src="juegos/total-annihilation-bigbox/img/001.jpg" alt="Portada de Total Annihilation" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Total Annihilation</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/traitors-gate-bigbox/index.html">
+  <img src="juegos/traitors-gate-bigbox/img/001.jpg" alt="Portada de Traitors Gate" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Traitors Gate</strong>
+    <small>Aventura gráfica, Point &amp; click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/tzar-el-poder-de-la-corona-bigbox/index.html">
+  <img src="juegos/tzar-el-poder-de-la-corona-bigbox/img/001.jpg" alt="Portada de Tzar: El Poder de la Corona" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Tzar: El Poder de la Corona</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/uefa-manager-2000-bigbox/index.html">
+  <img src="juegos/uefa-manager-2000-bigbox/img/001.jpg" alt="Portada de UEFA Manager 2000" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>UEFA Manager 2000</strong>
+    <small>Simulación, Manager Deportivo, Fútbol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/unreal-tournament-2004-bigbox/index.html">
+  <img src="juegos/unreal-tournament-2004-bigbox/img/001.jpg" alt="Portada de Unreal Tournament 2004" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Unreal Tournament 2004</strong>
+    <small>Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/urban-chaos-bigbox/index.html">
+  <img src="juegos/urban-chaos-bigbox/img/001.jpg" alt="Portada de Urban Chaos" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Urban Chaos</strong>
+    <small>Acción, Aventura, Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/v-rally-multiplayer-championship-edition-bigbox/index.html">
+  <img src="juegos/v-rally-multiplayer-championship-edition-bigbox/img/001.jpg" alt="Portada de V‑Rally: Multiplayer Championship Edition" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>V‑Rally: Multiplayer Championship Edition</strong>
+    <small>Carreras, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/versalles-complot-en-la-corte-del-rey-sol-bigbox/index.html">
+  <img src="juegos/versalles-complot-en-la-corte-del-rey-sol-bigbox/img/001.jpg" alt="Portada de Versalles: Complot en la Corte del Rey Sol" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Versalles: Complot en la Corte del Rey Sol</strong>
+    <small>Aventura, Educativo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/virtual-karts-bigbox/index.html">
+  <img src="juegos/virtual-karts-bigbox/img/001.jpg" alt="Portada de Virtual Karts" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Virtual Karts</strong>
+    <small>Carreras, Simulación</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/viva-football-bigbox/index.html">
+  <img src="juegos/viva-football-bigbox/img/001.jpg" alt="Portada de Viva Football" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Viva Football</strong>
+    <small>Deportes, Fútbol</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/warrior-kings-bigbox/index.html">
+  <img src="juegos/warrior-kings-bigbox/img/001.jpg" alt="Portada de Warrior Kings" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Warrior Kings</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">WinXP</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/wartorn-bigbox/index.html">
+  <img src="juegos/wartorn-bigbox/img/001.jpg" alt="Portada de Wartorn" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Wartorn</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/z-the-bitmap-brothers-bigbox/index.html">
+  <img src="juegos/z-the-bitmap-brothers-bigbox/img/001.jpg" alt="Portada de Z: The Bitmap Brothers" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Z: The Bitmap Brothers</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/zone-raiders-bigbox/index.html">
+  <img src="juegos/zone-raiders-bigbox/img/001.jpg" alt="Portada de Zone Raiders" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Zone Raiders</strong>
+    <small>Combate, Carreras</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/war-in-the-gulf-bigbox/index.html">
+  <img src="juegos/war-in-the-gulf-bigbox/img/001.jpg" alt="Portada de War in the Gulf" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>War in the Gulf</strong>
+    <small>Simulación, Estrategia</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/silent-hunter-ii-bigbox/index.html">
+  <img src="juegos/silent-hunter-ii-bigbox/img/001.jpg" alt="Portada de Silent hunter II" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Silent hunter II</strong>
+    <small>Simulación, Combate, Segunda Guerra Mundial</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/african-safari-trophy-hunter-bigbox/index.html">
+  <img src="juegos/african-safari-trophy-hunter-bigbox/img/001.jpg" alt="Portada de African Safari: Trophy Hunter 3D" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>African Safari: Trophy Hunter 3D</strong>
+    <small>Simulación, Deportes</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/sydney-2000-bigbox/index.html">
+  <img src="juegos/sydney-2000-bigbox/img/001.jpg" alt="Portada de Sydney 2000" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Sydney 2000</strong>
+    <small>Deportes</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/i-war-bigbox/index.html">
+  <img src="juegos/i-war-bigbox/img/001.jpg" alt="Portada de I-War" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>I-War</strong>
+    <small>Simulación, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/close-combat-iv-bigbox/index.html">
+  <img src="juegos/close-combat-iv-bigbox/img/001.jpg" alt="Portada de Close Combat IV" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Close Combat IV</strong>
+    <small>Estrategia en tiempo real, Wargame</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/duke-nukem-3d-bigbox/index.html">
+  <img src="juegos/duke-nukem-3d-bigbox/img/001.jpg" alt="Portada de Duke Nukem 3D" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Duke Nukem 3D</strong>
+    <small>First‑person shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/battleground-1815-waterloo-bigbox/index.html">
+  <img src="juegos/battleground-1815-waterloo-bigbox/img/001.jpg" alt="Portada de Battleground. 1815 Waterloo" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Battleground. 1815 Waterloo</strong>
+    <small>Estrategia por turnos, Bélico</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win3.x</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/gadget-invention-travel-and-adventure-bigbox/index.html">
+  <img src="juegos/gadget-invention-travel-and-adventure-bigbox/img/001.jpg" alt="Portada de Gadget: Invention, Travel &amp; Adventure" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Gadget: Invention, Travel &amp; Adventure</strong>
+    <small>Aventura gráfica, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win3.x</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/return-to-zork-bigbox/index.html">
+  <img src="juegos/return-to-zork-bigbox/img/001.jpg" alt="Portada de Return to Zork" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Return to Zork</strong>
+    <small>Aventura gráfica, Point and click, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/return-to-zork-2-bigbox/index.html">
+  <img src="juegos/return-to-zork-2-bigbox/img/001.jpg" alt="Portada de Return to Zork" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Return to Zork</strong>
+    <small>Aventura gráfica, Point and click, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/myst-iii-exile-bigbox/index.html">
+  <img src="juegos/myst-iii-exile-bigbox/img/001.jpg" alt="Portada de Myst III: Exile" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Myst III: Exile</strong>
+    <small>Aventura gráfica, Puzzle</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/battle-isle-the-andosia-war-bigbox/index.html">
+  <img src="juegos/battle-isle-the-andosia-war-bigbox/img/001.jpg" alt="Portada de Battle Isle: The Andosia War" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Battle Isle: The Andosia War</strong>
+    <small>Estrategia por turnos</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/dungeon-keeper-bigbox/index.html">
+  <img src="juegos/dungeon-keeper-bigbox/img/001.jpg" alt="Portada de Dungeon Keeper" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Dungeon Keeper</strong>
+    <small>Estrategia en tiempo real, Dungeon management</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/x-wing-vs-tie-fighter-bigbox/index.html">
+  <img src="juegos/x-wing-vs-tie-fighter-bigbox/img/001.jpg" alt="Portada de Star Wars: X-Wing vs. TIE Fighter" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Star Wars: X-Wing vs. TIE Fighter</strong>
+    <small>Simulación, Combate</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/star-wars-episodio-i-la-amenaza-fantasma-bigbox/index.html">
+  <img src="juegos/star-wars-episodio-i-la-amenaza-fantasma-bigbox/img/001.jpg" alt="Portada de Star Wars: Episodio I - La Amenaza Fantasma" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Star Wars: Episodio I - La Amenaza Fantasma</strong>
+    <small>Acción, Aventura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/the-x-files-the-game-2-bigbox/index.html">
+  <img src="juegos/the-x-files-the-game-2-bigbox/img/001.jpg" alt="Portada de The X-Files: The Game" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>The X-Files: The Game</strong>
+    <small>Aventura, FMV</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/scotland-yard-a-la-busqueda-de-mister-x-2-bigbox/index.html">
+  <img src="juegos/scotland-yard-a-la-busqueda-de-mister-x-2-bigbox/img/001.jpg" alt="Portada de Scotland Yard: A la Búsqueda de Mister X" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Scotland Yard: A la Búsqueda de Mister X</strong>
+    <small>Estrategia, Aventura, Deductivo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/kings-quest-iv-bigbox/index.html">
+  <img src="juegos/kings-quest-iv-bigbox/img/001.jpg" alt="Portada de King&#x27;s Quest IV: The Perils of Rosella" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>King&#x27;s Quest IV: The Perils of Rosella</strong>
+    <small>Aventura gráfica, Point and click, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win3.x</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/kings-quest-vi-bigbox/index.html">
+  <img src="juegos/kings-quest-vi-bigbox/img/001.jpg" alt="Portada de King’s Quest VI: Heir Today, Gone Tomorrow" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>King’s Quest VI: Heir Today, Gone Tomorrow</strong>
+    <small>Aventura gráfica, Point and click, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win3.x</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/kings-quest-v-bigbox/index.html">
+  <img src="juegos/kings-quest-v-bigbox/img/001.jpg" alt="Portada de King&#x27;s Quest V: Absence Makes the Heart Go Yonder!" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>King&#x27;s Quest V: Absence Makes the Heart Go Yonder!</strong>
+    <small>Aventura gráfica, Point and click, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win3.x</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/deo-gratias-bigbox/index.html">
+  <img src="juegos/deo-gratias-bigbox/img/001.jpg" alt="Portada de Deo Gratias" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Deo Gratias</strong>
+    <small>Estrategia</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/kings-quest-vi-2-bigbox/index.html">
+  <img src="juegos/kings-quest-vi-2-bigbox/img/001.jpg" alt="Portada de King&#x27;s Quest VI: Heir Today, Gone Tomorrow" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>King&#x27;s Quest VI: Heir Today, Gone Tomorrow</strong>
+    <small>Aventura gráfica, Point and click, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win3.x</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/zork-grand-inquisitor-bigbox/index.html">
+  <img src="juegos/zork-grand-inquisitor-bigbox/img/001.jpg" alt="Portada de Zork: Grand Inquisitor" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Zork: Grand Inquisitor</strong>
+    <small>Aventura gráfica, Point &amp; click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/heist-bigbox/index.html">
+  <img src="juegos/heist-bigbox/img/001.jpg" alt="Portada de Heist" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Heist</strong>
+    <small>Acción, Estrategia, Sigilo, Crimen</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/imperium-galactica-bigbox/index.html">
+  <img src="juegos/imperium-galactica-bigbox/img/001.jpg" alt="Portada de Imperium Galactica" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Imperium Galactica</strong>
+    <small>Estrategia, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/atlantis-bigbox/index.html">
+  <img src="juegos/atlantis-bigbox/img/001.jpg" alt="Portada de Atlantis: The Lost Tales" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Atlantis: The Lost Tales</strong>
+    <small>Aventura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/pompeya-la-leyenda-del-vesubio-bigbox/index.html">
+  <img src="juegos/pompeya-la-leyenda-del-vesubio-bigbox/img/001.jpg" alt="Portada de Pompeya: La leyenda del Vesubio" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Pompeya: La leyenda del Vesubio</strong>
+    <small>Aventura gráfica</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/flash-point-korea-bigbox/index.html">
+  <img src="juegos/flash-point-korea-bigbox/img/001.jpg" alt="Portada de Flash Point: Korea" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Flash Point: Korea</strong>
+    <small>Simulación, Combate aéreo, Bélico</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/corsairs-bigbox/index.html">
+  <img src="juegos/corsairs-bigbox/img/001.jpg" alt="Portada de Corsairs" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Corsairs</strong>
+    <small>Estrategia, Acción, Aventura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/fx-chess-bigbox/index.html">
+  <img src="juegos/fx-chess-bigbox/img/001.jpg" alt="Portada de FX Chess" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>FX Chess</strong>
+    <small>Ajedrez, Estrategia, Educativo</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/neverwinter-nights-2-chaotic-evil-bigbox/index.html">
+  <img src="juegos/neverwinter-nights-2-chaotic-evil-bigbox/img/001.jpg" alt="Portada de Neverwinter Nights 2: Chaotic Evil" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Neverwinter Nights 2: Chaotic Evil</strong>
+    <small>Rol, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/neverwinter-nights-2-lawful-good-2-bigbox/index.html">
+  <img src="juegos/neverwinter-nights-2-lawful-good-2-bigbox/img/001.jpg" alt="Portada de Neverwinter Nights 2: Lawful Good" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Neverwinter Nights 2: Lawful Good</strong>
+    <small>Rol, Fantasía</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-empires-iii-bigbox/index.html">
+  <img src="juegos/age-of-empires-iii-bigbox/img/001.jpg" alt="Portada de Age of Empires III" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Empires III</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/diablo-ii-battle-chest-bigbox/index.html">
+  <img src="juegos/diablo-ii-battle-chest-bigbox/img/001.jpg" alt="Portada de Diablo II: Battle Chest" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Diablo II: Battle Chest</strong>
+    <small>Acción, Rol, Combate</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/age-of-empires-edicion-coleccionistas-bigbox/index.html">
+  <img src="juegos/age-of-empires-edicion-coleccionistas-bigbox/img/001.jpg" alt="Portada de Age of Empires. Edición coleccionistas" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Age of Empires. Edición coleccionistas</strong>
+    <small>Estrategia en tiempo real</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/iron-assault-bigbox/index.html">
+  <img src="juegos/iron-assault-bigbox/img/001.jpg" alt="Portada de Iron Assault" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Iron Assault</strong>
+    <small>Simulación, Acción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">MsDos</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/dracula-resurreccion-bigbox/index.html">
+  <img src="juegos/dracula-resurreccion-bigbox/img/001.jpg" alt="Portada de Drácula: Resurrección" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Drácula: Resurrección</strong>
+    <small>Aventura gráfica, Point and click</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="juegos/star-wars-rebel-assault-ii-the-hidden-empire-bigbox/index.html">
+  <img src="juegos/star-wars-rebel-assault-ii-the-hidden-empire-bigbox/img/001.jpg" alt="Portada de Star Wars: Rebel Assault II - The Hidden Empire" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+  <span class="game-card-body">
+    <strong>Star Wars: Rebel Assault II - The Hidden Empire</strong>
+    <small>Acción, Shooter</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a></div>
+</main>
+<footer>
+  <div class="wrap footrow">
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <a class="to-top" href="#top">Subir</a>
+  </div>
+</footer>
 </body>
-
 </html>
