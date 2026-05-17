@@ -3205,105 +3205,6 @@
   },
   {
     "num": "000066",
-    "ig": "https://www.instagram.com/p/DYT_ojdiCwj",
-    "titulo": "The Ultimate Doom: The Flesh Consumed",
-    "url": "juegos/the-ultimate-doom-the-flesh-consumed-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Shooter en primera persona",
-      "Acción",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "id Software"
-    ],
-    "distribuidor": [
-      "GT Interactive"
-    ],
-    "ean": [],
-    "descripcion": "The Ultimate Doom: The Flesh Consumed es una edición ampliada del Doom original, lanzada en 1995. Incluye el cuarto episodio exclusivo \"Thy Flesh Consumed\", con nueve niveles adicionales diseñados para jugadores experimentados. Mantiene la jugabilidad clásica de acción en primera persona, con un ritmo rápido, diseño de niveles laberíntico y una ambientación infernal de ciencia ficción que definió el género FPS en PC.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000067",
-    "ig": "https://www.instagram.com/p/DYWlafLiNTj",
-    "titulo": "Forsaken",
-    "url": "juegos/forsaken-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter en primera persona",
-      "Combate espacial",
-      "6DOF"
-    ],
-    "desarrollador": [
-      "Probe Entertainment"
-    ],
-    "distribuidor": [
-      "Acclaim Entertainment"
-    ],
-    "ean": [
-      "3455199713823"
-    ],
-    "descripcion": "Forsaken es un shooter de acción tridimensional lanzado a finales de los años noventa, centrado en el combate con libertad total de movimiento en seis grados. Desarrollado por Probe Entertainment y publicado por Acclaim, destacó por su apartado gráfico acelerado por hardware, sus escenarios cerrados de estética futurista y su orientación arcade, próxima a la tradición de títulos como Descent pero con una presentación audiovisual más agresiva y propia de la era Direct3D. Esta edición física europea en formato Big Box corresponde a la versión para PC CD-ROM y representa bien el periodo de transición del videojuego de PC hacia el uso generalizado de aceleradoras 3D y requisitos específicos de Windows 95.",
-    "incluye": [
-      "Caja Big Box",
-      "CD-ROM en caja jewel case",
-      "Manual de instrucciones",
-      "Folleto promocional de Acclaim",
-      "Hoja impresa adicional"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Forsaken",
-      "Acclaim",
-      "Probe Entertainment",
-      "PC CD-ROM",
-      "Big Box",
-      "Windows 95",
-      "Direct3D",
-      "aceleracion 3D",
-      "6DOF",
-      "shooter futurista",
-      "combate espacial",
-      "edicion europea",
-      "preservacion PC"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Recomendable preservar el CD-ROM original como imagen BIN/CUE o ISO, documentando además manual, caja y materiales impresos asociados. La ejecución puede requerir entorno Windows 95/98 o configuración específica para juegos Direct3D antiguos.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000068",
     "ig": "https://www.instagram.com/p/DYY_hpKiLT9",
     "titulo": "Heroes of Might and Magic: A Strategic Quest",
     "url": "juegos/heroes-of-might-and-magic-bigbox/",
@@ -3363,8 +3264,9 @@
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
-  }{
-    "num": "000069",
+  },
+  {
+    "num": "000067",
     "ig": "https://www.instagram.com/p/DYboiUQiNdK",
     "titulo": "Heroes of Might and Magic II: The Succession Wars",
     "url": "juegos/heroes-of-might-and-magic-ii-bigbox/",
@@ -3428,7 +3330,7 @@
     }
   },
   {
-    "num": "000070",
+    "num": "000068",
     "ig": "",
     "titulo": "Heroes of Might and Magic III: The Restoration of Erathia",
     "url": "juegos/heroes-of-might-and-magic-iii-bigbox/",
@@ -3489,8 +3391,108 @@
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
-  }{
-    "num": "000000",
+  },
+  {
+    "num": "000069",
+    "ig": "https://www.instagram.com/p/DYT_ojdiCwj",
+    "titulo": "The Ultimate Doom: The Flesh Consumed",
+    "url": "juegos/the-ultimate-doom-the-flesh-consumed-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "id Software"
+    ],
+    "distribuidor": [
+      "GT Interactive"
+    ],
+    "ean": [],
+    "descripcion": "The Ultimate Doom: The Flesh Consumed es una edición ampliada del Doom original, lanzada en 1995. Incluye el cuarto episodio exclusivo \"Thy Flesh Consumed\", con nueve niveles adicionales diseñados para jugadores experimentados. Mantiene la jugabilidad clásica de acción en primera persona, con un ritmo rápido, diseño de niveles laberíntico y una ambientación infernal de ciencia ficción que definió el género FPS en PC.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000070",
+    "ig": "https://www.instagram.com/p/DYWlafLiNTj",
+    "titulo": "Forsaken",
+    "url": "juegos/forsaken-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Shooter en primera persona",
+      "Combate espacial",
+      "6DOF"
+    ],
+    "desarrollador": [
+      "Probe Entertainment"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [
+      "3455199713823"
+    ],
+    "descripcion": "Forsaken es un shooter de acción tridimensional lanzado a finales de los años noventa, centrado en el combate con libertad total de movimiento en seis grados. Desarrollado por Probe Entertainment y publicado por Acclaim, destacó por su apartado gráfico acelerado por hardware, sus escenarios cerrados de estética futurista y su orientación arcade, próxima a la tradición de títulos como Descent pero con una presentación audiovisual más agresiva y propia de la era Direct3D. Esta edición física europea en formato Big Box corresponde a la versión para PC CD-ROM y representa bien el periodo de transición del videojuego de PC hacia el uso generalizado de aceleradoras 3D y requisitos específicos de Windows 95.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Folleto promocional de Acclaim",
+      "Hoja impresa adicional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Forsaken",
+      "Acclaim",
+      "Probe Entertainment",
+      "PC CD-ROM",
+      "Big Box",
+      "Windows 95",
+      "Direct3D",
+      "aceleracion 3D",
+      "6DOF",
+      "shooter futurista",
+      "combate espacial",
+      "edicion europea",
+      "preservacion PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Recomendable preservar el CD-ROM original como imagen BIN/CUE o ISO, documentando además manual, caja y materiales impresos asociados. La ejecución puede requerir entorno Windows 95/98 o configuración específica para juegos Direct3D antiguos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000071",
     "ig": "",
     "titulo": "Links: The Challenge of Golf",
     "url": "juegos/links-the-challenge-of-golf-bigbox/",
