@@ -1,23 +1,23 @@
 
 (function(){
+  const PAGE_SIZE = 24;
   const params = new URLSearchParams(location.search);
-  const grid = document.querySelector('.grid.cards');
-  const forms = document.querySelectorAll('form.catalog-search, form.search-hero');
+  const grid = document.querySelector('[data-catalog-list], .grid.cards');
+  const forms = document.querySelectorAll('form.catalog-search, form.search-hero, form.toolbar');
+  const sentinel = document.querySelector('[data-load-sentinel]');
 
   restoreFormValues();
-  if(!params.toString() || !grid) return;
+  if(!grid) return;
+
+  const games = Array.isArray(window.PCGA_SEARCH_INDEX) ? window.PCGA_SEARCH_INDEX : [];
+  if(!games.length) return;
 
   const titulo = normalize(params.get('titulo') || params.get('q') || '');
-  const formato = normalize(params.get('formato') || '');
+  const defaultFormato = normalize(grid.dataset.defaultFormato || '');
+  const formato = normalize(params.get('formato') || '') || defaultFormato;
   const serie = normalize(params.get('serie') || '');
   const genero = normalize(params.get('genero') || '');
   const plataforma = normalize(params.get('plataforma') || '');
-
-  const games = Array.isArray(window.PCGA_SEARCH_INDEX) ? window.PCGA_SEARCH_INDEX : [];
-  if(!games.length){
-    grid.innerHTML = '<p class="content-card">No se pudo cargar el índice de búsqueda generado.</p>';
-    return;
-  }
 
   const selected = games.filter(g => {
     if(titulo && !normalize(g.titulo).includes(titulo)) return false;
@@ -26,17 +26,47 @@
     if(genero && !(g.genero || []).some(s => normalize(s).includes(genero))) return false;
     if(plataforma && !(g.plataforma || []).some(s => normalize(s) === plataforma)) return false;
     return true;
-  }).slice(0, 240);
+  });
 
-  grid.innerHTML = selected.length ? selected.map(g => card(g)).join('') : '<p class="content-card">No se han encontrado juegos con esos filtros.</p>';
+  let rendered = 0;
+  grid.innerHTML = '';
+  renderNextPage();
+
   const count = document.querySelector('.count');
   if(count) count.textContent = selected.length + ' juegos encontrados.';
+
+  if(!selected.length){
+    grid.innerHTML = '<p class="content-card">No se han encontrado juegos con esos filtros.</p>';
+    if(sentinel) sentinel.remove();
+    return;
+  }
+
+  if(sentinel && 'IntersectionObserver' in window){
+    const observer = new IntersectionObserver(entries => {
+      if(entries.some(entry => entry.isIntersecting)) renderNextPage();
+      if(rendered >= selected.length) observer.disconnect();
+    }, {rootMargin: '700px 0px'});
+    observer.observe(sentinel);
+  } else {
+    window.addEventListener('scroll', () => {
+      if(rendered >= selected.length) return;
+      if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 900) renderNextPage();
+    }, {passive:true});
+  }
+
+  function renderNextPage(){
+    const next = selected.slice(rendered, rendered + PAGE_SIZE);
+    if(!next.length) return;
+    grid.insertAdjacentHTML('beforeend', next.map(g => card(g)).join(''));
+    rendered += next.length;
+    if(sentinel) sentinel.hidden = rendered >= selected.length;
+  }
 
   function normalize(value){
     return String(value || '')
       .toLowerCase()
       .normalize('NFD')
-      .replace(/[̀-ͯ]/g, '')
+      .replace(/[\u0300-\u036f]/g, '')
       .trim();
   }
 
@@ -58,6 +88,6 @@
     const rawUrl = String(g.url || '#');
     const url = esc(rawUrl.endsWith('/') ? rawUrl + 'index.html' : rawUrl);
     const img = esc(rawUrl.replace(/\/$/, '') + '/img/001.jpg');
-    return `<a class="game-card" href="${url}"><img src="${img}" alt="${esc(g.titulo)}" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+    return `<a class="game-card" href="${url}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }
 })();

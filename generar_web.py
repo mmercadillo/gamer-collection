@@ -264,8 +264,8 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     bigbox = sum(1 for g in games if g.get("formato") == "Big Box")
     dvd_case = sum(1 for g in games if g.get("formato") == "DVD Case")
     jewel_case = sum(1 for g in games if g.get("formato") == "Jewel Case")
-    latest = [g for g in games if g.get("num") != PENDING_NUM][-24:][::-1] or games[:24]
-    cards = "\n".join(card(g) for g in latest)
+    initial_games = games[:24]
+    cards = "\n".join(card(g) for g in initial_games)
     series_values = sorted({str(s) for g in games for s in (g.get("serie") or []) if str(s).strip()}, key=str.lower)
     series_options = "\n          ".join(f'<option value="{h(s)}">{h(s)}</option>' for s in series_values)
     desc = "Archivo físico de videojuegos de PC en Big Box, DVD Case y Jewel Case. Catálogo documental de ediciones MS-DOS y Windows."
@@ -299,8 +299,10 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
   </div>
 </section>
 <section class="wrap">
-  <div class="section-head"><h2>Últimas fichas destacadas</h2><a href="bigbox.html">Ver Big Box</a></div>
-  <div class="grid cards">{cards}</div>
+  <div class="section-head"><h2>Catálogo de juegos</h2><a href="bigbox.html">Ver Big Box</a></div>
+  <p class="count">{len(games)} juegos encontrados.</p>
+  <div class="grid cards" data-catalog-list>{cards}</div>
+  <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
 </section>
 <section class="wrap text-section">
   <h2>PC Game Archive como archivo documental</h2>
@@ -315,7 +317,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
 
 def generate_listing(games: list[dict[str, Any]], out: Path, base_url: str, filename: str, title: str, description: str, predicate) -> None:
     selected = [g for g in games if predicate(g)]
-    cards = "\n".join(card(g) for g in selected[:240])
+    cards = "\n".join(card(g) for g in selected[:24])
     body = f'''<main class="wrap">
   <div class="page-head">
     <p class="eyebrow">Catálogo</p>
@@ -324,7 +326,10 @@ def generate_listing(games: list[dict[str, Any]], out: Path, base_url: str, file
   </div>
   <form class="toolbar" action="index.html" method="get"><input name="q" placeholder="Filtrar catálogo…"><button>Buscar</button></form>
   <p class="count">{len(selected)} juegos encontrados.</p>
-  <div class="grid cards">{cards}</div>
+  <div class="grid cards" data-catalog-list data-default-formato="{h('Big Box') if filename == 'bigbox.html' else ''}">{cards}</div>
+  <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
+  <script src="assets/js/search-index.js"></script>
+  <script src="assets/js/catalogo.js" defer></script>
 </main>'''
     (out / filename).write_text(layout(title, description, abs_url(base_url, filename), filename, body), encoding="utf-8")
 
@@ -535,29 +540,29 @@ def main() -> int:
 
 
 CSS = r'''
-:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#eee}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){header{position:static}.header-row,.hero-grid,.detail-grid{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}}@media(max-width:480px){.grid.cards,.taxonomy-grid,.gallery{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}}
+:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){header{position:static}.header-row,.hero-grid,.detail-grid{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}}@media(max-width:480px){.grid.cards,.taxonomy-grid,.gallery{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}}
 '''
 
 JS = r'''
 (function(){
+  const PAGE_SIZE = 24;
   const params = new URLSearchParams(location.search);
-  const grid = document.querySelector('.grid.cards');
-  const forms = document.querySelectorAll('form.catalog-search, form.search-hero');
+  const grid = document.querySelector('[data-catalog-list], .grid.cards');
+  const forms = document.querySelectorAll('form.catalog-search, form.search-hero, form.toolbar');
+  const sentinel = document.querySelector('[data-load-sentinel]');
 
   restoreFormValues();
-  if(!params.toString() || !grid) return;
+  if(!grid) return;
+
+  const games = Array.isArray(window.PCGA_SEARCH_INDEX) ? window.PCGA_SEARCH_INDEX : [];
+  if(!games.length) return;
 
   const titulo = normalize(params.get('titulo') || params.get('q') || '');
-  const formato = normalize(params.get('formato') || '');
+  const defaultFormato = normalize(grid.dataset.defaultFormato || '');
+  const formato = normalize(params.get('formato') || '') || defaultFormato;
   const serie = normalize(params.get('serie') || '');
   const genero = normalize(params.get('genero') || '');
   const plataforma = normalize(params.get('plataforma') || '');
-
-  const games = Array.isArray(window.PCGA_SEARCH_INDEX) ? window.PCGA_SEARCH_INDEX : [];
-  if(!games.length){
-    grid.innerHTML = '<p class="content-card">No se pudo cargar el índice de búsqueda generado.</p>';
-    return;
-  }
 
   const selected = games.filter(g => {
     if(titulo && !normalize(g.titulo).includes(titulo)) return false;
@@ -566,17 +571,47 @@ JS = r'''
     if(genero && !(g.genero || []).some(s => normalize(s).includes(genero))) return false;
     if(plataforma && !(g.plataforma || []).some(s => normalize(s) === plataforma)) return false;
     return true;
-  }).slice(0, 240);
+  });
 
-  grid.innerHTML = selected.length ? selected.map(g => card(g)).join('') : '<p class="content-card">No se han encontrado juegos con esos filtros.</p>';
+  let rendered = 0;
+  grid.innerHTML = '';
+  renderNextPage();
+
   const count = document.querySelector('.count');
   if(count) count.textContent = selected.length + ' juegos encontrados.';
+
+  if(!selected.length){
+    grid.innerHTML = '<p class="content-card">No se han encontrado juegos con esos filtros.</p>';
+    if(sentinel) sentinel.remove();
+    return;
+  }
+
+  if(sentinel && 'IntersectionObserver' in window){
+    const observer = new IntersectionObserver(entries => {
+      if(entries.some(entry => entry.isIntersecting)) renderNextPage();
+      if(rendered >= selected.length) observer.disconnect();
+    }, {rootMargin: '700px 0px'});
+    observer.observe(sentinel);
+  } else {
+    window.addEventListener('scroll', () => {
+      if(rendered >= selected.length) return;
+      if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 900) renderNextPage();
+    }, {passive:true});
+  }
+
+  function renderNextPage(){
+    const next = selected.slice(rendered, rendered + PAGE_SIZE);
+    if(!next.length) return;
+    grid.insertAdjacentHTML('beforeend', next.map(g => card(g)).join(''));
+    rendered += next.length;
+    if(sentinel) sentinel.hidden = rendered >= selected.length;
+  }
 
   function normalize(value){
     return String(value || '')
       .toLowerCase()
       .normalize('NFD')
-      .replace(/[̀-ͯ]/g, '')
+      .replace(/[\u0300-\u036f]/g, '')
       .trim();
   }
 
@@ -598,7 +633,7 @@ JS = r'''
     const rawUrl = String(g.url || '#');
     const url = esc(rawUrl.endsWith('/') ? rawUrl + 'index.html' : rawUrl);
     const img = esc(rawUrl.replace(/\/$/, '') + '/img/001.jpg');
-    return `<a class="game-card" href="${url}"><img src="${img}" alt="${esc(g.titulo)}" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+    return `<a class="game-card" href="${url}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }
 })();
 '''
