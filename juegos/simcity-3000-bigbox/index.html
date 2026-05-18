@@ -79,8 +79,17 @@
 <footer>
   <div class="wrap footrow">
     <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
-    <a class="to-top" href="#top">Subir</a>
+    <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
+<script>
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('[data-scroll-top]');
+  if(!btn) return;
+  e.preventDefault();
+  window.scrollTo({top:0,behavior:'smooth'});
+  if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+});
+</script>
 </body>
 </html>
