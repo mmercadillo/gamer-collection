@@ -4108,37 +4108,59 @@
     "titulo": "The Ultimate Doom: The Flesh Consumed",
     "url": "juegos/the-ultimate-doom-the-flesh-consumed-bigbox/",
     "plataforma": [
-      "MsDos",
-      "Win95"
+      "MsDos"
     ],
     "formato": "Big Box",
     "genero": [
       "Shooter en primera persona",
       "Acción",
-      "Ciencia ficción"
+      "Ciencia ficción",
+      "Terror"
     ],
     "desarrollador": [
       "id Software"
     ],
     "distribuidor": [
-      "GT Interactive"
+      "id Software",
+      "GT Interactive Software"
     ],
-    "ean": [],
-    "descripcion": "The Ultimate Doom: The Flesh Consumed es una edición ampliada del Doom original, lanzada en 1995. Incluye el cuarto episodio exclusivo \"Thy Flesh Consumed\", con nueve niveles adicionales diseñados para jugadores experimentados. Mantiene la jugabilidad clásica de acción en primera persona, con un ritmo rápido, diseño de niveles laberíntico y una ambientación infernal de ciencia ficción que definió el género FPS en PC.",
-    "incluye": [],
+    "ean": [
+      "5029988000036"
+    ],
+    "descripcion": "The Ultimate Doom: Thy Flesh Consumed es la edición comercial ampliada del Doom original, publicada en 1995 por id Software y GT Interactive. Incluye los tres episodios originales junto con el cuarto episodio, Thy Flesh Consumed, formado por nueve niveles adicionales diseñados para jugadores veteranos. Doom fue una obra fundamental en la consolidación del shooter en primera persona para PC, destacando por su motor gráfico, su ritmo de acción, su ambientación infernal de ciencia ficción, el soporte para juego en red y la expansión de la cultura de modificación mediante archivos WAD. Esta edición europea en caja grande para IBM PC compatibles conserva especial interés documental por representar la transición de Doom desde su distribución shareware inicial hacia una edición física completa en CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "The Ultimate Doom",
+      "Doom",
+      "Thy Flesh Consumed",
+      "id Software",
+      "GT Interactive",
+      "John Carmack",
+      "John Romero",
+      "FPS clásico",
+      "shooter en primera persona",
+      "MS-DOS",
+      "CD-ROM",
+      "Big Box",
+      "WAD",
+      "Doom Engine",
+      "PC gaming clásico",
+      "preservación"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en BIN/CUE o ISO, junto con digitalización del manual y documentación física. La ejecución virtual es viable mediante DOSBox u otros entornos compatibles con MS-DOS.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
@@ -4203,7 +4225,7 @@
   },
   {
     "num": "000071",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DYhJveQiFR-",
     "titulo": "Links: The Challenge of Golf",
     "url": "juegos/links-the-challenge-of-golf-bigbox/",
     "plataforma": [
@@ -4211,28 +4233,29 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Simulación deportiva",
-      "Golf",
-      "Simulador",
-      "Deportes"
+      "Simulación",
+      "Deportes",
+      "Golf"
     ],
     "desarrollador": [
       "Access Software"
     ],
     "distribuidor": [
       "Erbe Software",
-      "Access Software"
+      "US Gold"
     ],
-    "ean": [],
-    "descripcion": "Links: The Challenge of Golf es uno de los simuladores de golf más influyentes y técnicamente avanzados de comienzos de los años noventa en compatibles PC. Desarrollado por Access Software, el título destacó por su representación realista de campos de golf, físicas avanzadas para la época y soporte gráfico VGA de 256 colores, ofreciendo una experiencia mucho más detallada que otros simuladores deportivos contemporáneos. Esta edición distribuida en España por Erbe Software incluye el recorrido adicional Pinehurst Resort & Country Club y soporte para tarjetas de sonido AdLib, Roland y Sound Blaster. La saga Links acabaría convirtiéndose en una referencia histórica dentro de los simuladores deportivos para PC y marcaría el estándar de calidad del género durante años.",
+    "ean": [
+      "8420244911869"
+    ],
+    "descripcion": "Links: The Challenge of Golf es uno de los simuladores de golf más influyentes y técnicamente avanzados de principios de los años noventa. Desarrollado por Access Software, el juego destacó por su representación pseudo-3D del terreno, físicas avanzadas de la bola y una ambientación extremadamente realista para la época. Esta edición distribuida en España por Erbe Software incluye el campo adicional Pinehurst Resort & Country Club como contenido promocional. El título fue especialmente reconocido por su precisión en la simulación del golpeo, lectura del green y modelado de campos reales, convirtiéndose en una referencia histórica dentro de los simuladores deportivos para PC compatibles IBM.",
     "incluye": [
       "Caja Big Box",
-      "Disquetes de 3½",
-      "Manual",
+      "Disquetes de 5,25 pulgadas",
       "Manual de instalación",
-      "Documentación del recorrido Pinehurst",
+      "Manual del juego",
       "Tarjeta de referencia",
-      "Catálogo publicitario"
+      "Folleto promocional",
+      "Documentación adicional del campo Pinehurst"
     ],
     "serie": [
       "Todos",
@@ -4240,28 +4263,26 @@
     ],
     "tags": [
       "Links",
+      "Links The Challenge of Golf",
       "Access Software",
       "Erbe",
-      "MS-DOS",
-      "VGA 256 colores",
-      "AdLib",
-      "Sound Blaster",
-      "Roland",
+      "US Gold",
       "simulador de golf",
       "golf",
-      "deportes",
+      "MS-DOS",
+      "Big Box",
       "PC gaming clásico",
-      "big box española",
       "preservación",
-      "retro PC",
+      "simulación deportiva",
       "Pinehurst",
-      "simulación deportiva"
+      "256 colores",
+      "VGA"
     ],
     "proteccion": {
-      "tipo": "Manual lookup",
+      "tipo": "Manual",
       "version": "",
-      "preservacion": "Preservable mediante volcado de disquetes en formato IMG o KryoFlux. La protección probablemente utiliza consulta de manual o documentación impresa típica de simuladores deportivos de principios de los noventa.",
-      "formato": "No aplica",
+      "preservacion": "Preservación recomendada mediante imágenes KryoFlux o SCP de los disquetes originales y digitalización completa de manuales y documentación física. Compatible con ejecución virtual mediante DOSBox.",
+      "formato": "Disquete",
       "jugable_virtual": true
     }
   },
