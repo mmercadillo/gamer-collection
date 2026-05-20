@@ -4287,6 +4287,65 @@
     }
   },
   {
+    "num": "000072",
+    "ig": "https://www.instagram.com/p/DYjcwQyCIOw",
+    "titulo": "The Rise & Rule of Ancient Empires",
+    "url": "juegos/the-rise-and-rule-of-ancient-empires-bigbox/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia",
+      "Estrategia histórica",
+      "Gestión de imperios"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra"
+    ],
+    "ean": [],
+    "descripcion": "The Rise & Rule of Ancient Empires es un juego de estrategia histórica desarrollado por Impressions Games y publicado por Sierra en la segunda mitad de los años noventa. Ambientado en la Antigüedad, permite dirigir civilizaciones clásicas mediante expansión territorial, desarrollo económico, diplomacia, comercio, investigación y conflicto militar. Su propuesta se sitúa dentro de la línea de estrategia histórica para PC previa a la consolidación masiva del RTS moderno, con un enfoque más pausado y de gestión imperial. Esta edición española en caja grande para CD-ROM conserva especial interés documental por incluir manual traducido al español y compatibilidad indicada para Windows 3.1 y Windows 95.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de juego",
+      "Tarjeta de referencia",
+      "Catálogo"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Rise and Rule of Ancient Empires",
+      "Rise & Rule",
+      "Impressions Games",
+      "Sierra",
+      "estrategia histórica",
+      "civilizaciones antiguas",
+      "Antigüedad",
+      "gestión de imperios",
+      "PC CD-ROM",
+      "Windows 3.1",
+      "Windows 95",
+      "edición española",
+      "manual en castellano",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización de la documentación impresa asociada. No hay evidencia suficiente en la edición mostrada para confirmar un sistema anticopia concreto.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -5632,36 +5691,57 @@
     "titulo": "The Rise & Rule of Ancient Empires",
     "url": "juegos/the-rise-and-rule-of-ancient-empires-bigbox/",
     "plataforma": [
-      "Win95",
-      "Win98"
+      "Win3.x",
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
-      "Estrategia por turnos",
-      "Construcción"
+      "Estrategia",
+      "Estrategia histórica",
+      "Gestión de imperios"
     ],
     "desarrollador": [
       "Impressions Games"
     ],
     "distribuidor": [
-      "Sierra On-Line"
+      "Sierra"
     ],
     "ean": [],
-    "descripcion": "Juego de estrategia por turnos ambientado en la antigüedad. Construye y expande tu civilización eligiendo entre culturas como egipcios, griegos o chinos, gestionando recursos, diplomacia y conquistas.",
-    "incluye": [],
+    "descripcion": "The Rise & Rule of Ancient Empires es un juego de estrategia histórica desarrollado por Impressions Games y publicado por Sierra en la segunda mitad de los años noventa. Ambientado en la Antigüedad, permite dirigir civilizaciones clásicas mediante expansión territorial, desarrollo económico, diplomacia, comercio, investigación y conflicto militar. Su propuesta se sitúa dentro de la línea de estrategia histórica para PC previa a la consolidación masiva del RTS moderno, con un enfoque más pausado y de gestión imperial. Esta edición española en caja grande para CD-ROM conserva especial interés documental por incluir manual traducido al español y compatibilidad indicada para Windows 3.1 y Windows 95.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de juego",
+      "Tarjeta de referencia",
+      "Catálogo"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "The Rise and Rule of Ancient Empires",
+      "Rise & Rule",
+      "Impressions Games",
+      "Sierra",
+      "estrategia histórica",
+      "civilizaciones antiguas",
+      "Antigüedad",
+      "gestión de imperios",
+      "PC CD-ROM",
+      "Windows 3.1",
+      "Windows 95",
+      "edición española",
+      "manual en castellano",
+      "Big Box PC",
+      "preservación PC"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización de la documentación impresa asociada. No hay evidencia suficiente en la edición mostrada para confirmar un sistema anticopia concreto.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
