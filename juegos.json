@@ -4346,6 +4346,62 @@
     }
   },
   {
+    "num": "000073",
+    "ig": "https://www.instagram.com/p/DYmEmV_iD3u",
+    "titulo": "Los archivos secretos de Sherlock Holmes",
+    "url": "juegos/los-archivos-secretos-de-sherlock-holmes-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Misterio",
+      "Detectives"
+    ],
+    "desarrollador": [
+      "Mythos Software"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Edición española en formato Big Box de la aventura gráfica clásica Sherlock Holmes: Consulting Detective Vol. II, publicada para compatibles IBM PC. Ambientado en el Londres victoriano de 1888, el jugador debe investigar una serie de asesinatos relacionados con un caso inspirado en Jack el Destripador. El título destaca por su estructura detectivesca abierta, el uso de mapas y documentación para avanzar en la investigación y una importante carga narrativa apoyada en escenas digitalizadas y voces. Esta edición distribuida por Dro Soft incluye traducción al castellano y se publicó originalmente en disquetes para MS-DOS, representando una de las adaptaciones más reconocidas del universo Sherlock Holmes en PC durante principios de los años noventa.",
+    "incluye": [
+      "Manual",
+      "Disquetes de 3½",
+      "Guía de comandos",
+      "Hoja de optimización de memoria"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Sherlock Holmes",
+      "Jack el Destripador",
+      "Londres victoriano",
+      "Electronic Arts",
+      "Dro Soft",
+      "MS-DOS",
+      "Edición española",
+      "Big Box",
+      "Retro PC",
+      "Preservación",
+      "Detective",
+      "Disquetes"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "Preservable mediante volcado de disquetes y documentación física asociada. Recomendable conservar imágenes RAW de los discos originales debido a la antigüedad del soporte magnético.",
+      "formato": "No aplica",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -39273,42 +39329,6 @@
     ],
     "ean": [],
     "descripcion": "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work es la quinta entrega de la popular saga de aventuras gráficas cómicas creada por Al Lowe. En este título, Larry y Patti viven aventuras en paralelo con una trama que combina humor, sátira y situaciones absurdas características de la serie.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Los archivos secretos de Sherlock Holmes",
-    "url": "juegos/los-archivos-secretos-de-sherlock-holmes-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win3.x"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Misterio"
-    ],
-    "desarrollador": [
-      "Mythos Software"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "Los archivos secretos de Sherlock Holmes es una aventura gráfica point and click publicada a principios de los años 90. El jugador se pone en la piel del famoso detective londinense, acompañado por el doctor Watson, para resolver un complejo caso de asesinato con múltiples pistas y personajes a interrogar.",
     "incluye": [],
     "serie": [
       "Todos",
