@@ -4402,6 +4402,59 @@
     }
   },
   {
+    "num": "000074",
+    "ig": "https://www.instagram.com/p/DYomUwICC96",
+    "titulo": "Eternam",
+    "url": "juegos/eternam-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Titus France"
+    ],
+    "distribuidor": [
+      "Infogrames",
+      "Erbe Software"
+    ],
+    "ean": [
+      "8420244012733"
+    ],
+    "descripcion": "Aventura gráfica de ciencia ficción ambientada en un gigantesco parque temático futurista llamado Eternam. El jugador encarna a Don Jonz, un joven rebelde que debe sobrevivir en un entorno donde la frontera entre realidad y simulación resulta cada vez más difusa. El juego destaca por sus gráficos VGA de 256 colores, ambientación surrealista y una narrativa con elementos de sátira social y distopía tecnológica.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "4 disquetes de 3½ HD",
+      "Hoja de códigos"
+    ],
+    "serie": [
+      "Big Box"
+    ],
+    "tags": [
+      "Infogrames",
+      "Erbe",
+      "MS-DOS",
+      "VGA",
+      "AdLib",
+      "Disquetes",
+      "Ciencia ficción",
+      "Aventura gráfica",
+      "Retro",
+      "PC Gaming"
+    ],
+    "proteccion": {
+      "tipo": "Código o clave",
+      "version": "",
+      "preservacion": "Incluye hoja de códigos utilizada como sistema de protección durante la carga del juego.",
+      "formato": "No aplica",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -49867,44 +49920,6 @@
       "CD/DVD",
       "FPS",
       "Terror"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Eternam",
-    "url": "juegos/eternam-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura",
-      "Acción",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Infogrames"
-    ],
-    "distribuidor": [
-      "Infogrames"
-    ],
-    "ean": [],
-    "descripcion": "Eternam es un videojuego de aventura y acción lanzado en 1992 para PC compatibles. El jugador controla a Jonathan Blade, un joven transportado a un universo alternativo donde debe recuperar fragmentos de un cristal para regresar a su mundo. El juego combina exploración, acción en tiempo real y resolución de puzles, con gráficos VGA de 256 colores y soporte para sonido AdLib.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
     ],
     "proteccion": {
       "tipo": "No determinado",
