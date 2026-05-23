@@ -4455,6 +4455,63 @@
     }
   },
   {
+    "num": "000075",
+    "ig": "https://www.instagram.com/p/DYrG0SSiPc3",
+    "titulo": "Secret Weapons of the Luftwaffe",
+    "url": "juegos/secret-weapons-of-the-luftwaffe-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación",
+      "Combate aéreo",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Totally Games",
+      "Lucasfilm Games"
+    ],
+    "distribuidor": [
+      "Lucasfilm Games",
+      "Erbe Software"
+    ],
+    "ean": [
+      "8420242011194"
+    ],
+    "descripcion": "Simulador de combate aéreo ambientado en la Segunda Guerra Mundial, lanzado originalmente en 1991. Diseñado por Lawrence Holland y desarrollado por Totally Games para Lucasfilm Games, permite pilotar cazas y bombarderos históricos tanto de la USAAF como de la Luftwaffe, incluyendo prototipos experimentales alemanes como el Me 262, Me 163 Komet y Gotha Go 229. Destacó por su equilibrio entre simulación accesible y profundidad táctica, además de incorporar campañas dinámicas, editor de misiones y una detallada documentación técnica. Esta edición española distribuida por Erbe Software incluye manual extenso y versión en disquetes de 3½.",
+    "incluye": [
+      "manual",
+      "disquetes de 3½",
+      "rueda de protección"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box",
+      "Lucasfilm Games",
+      "Totally Games",
+      "Lawrence Holland",
+      "Simulador de vuelo",
+      "Luftwaffe",
+      "USAAF",
+      "WWII",
+      "Edición española",
+      "Erbe Software",
+      "VGA",
+      "AdLib"
+    ],
+    "proteccion": {
+      "tipo": "Rol de claves",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "WAV/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -9409,44 +9466,6 @@
     ],
     "ean": [],
     "descripcion": "Adaptación digital del juego de mesa homónimo, lanzada en 1998 para Windows. Los jugadores toman el rol de un grupo de detectives de Scotland Yard que persiguen a Mister X por Londres, usando tickets de transporte (taxi, bus, metro) y deducción lógica. El juego incluye un modo mejorado que añade elementos de aventura (interrogatorios y recolección de pistas), y permite jugar tanto contra la IA como en multijugador LAN/Internet.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Secret Weapons of the Luftwaffe",
-    "url": "juegos/secret-weapons-of-the-luftwaffe-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Combate aéreo",
-      "Segunda Guerra Mundial"
-    ],
-    "desarrollador": [
-      "Totally Games (Lucasfilm Games)"
-    ],
-    "distribuidor": [
-      "Lucasfilm Games"
-    ],
-    "ean": [],
-    "descripcion": "Simulador de combate aéreo ambientado en la Segunda Guerra Mundial, lanzado en agosto de 1991. Permite pilotar tanto aviones de la USAAF como de la Luftwaffe, incluidos prototipos de 'armas secretas' (Me 262, Me 163, Gotha GO‑229). Ofrece modo 'Tours of Duty', misiones históricas y editor de misiones, y fue prestigioso por equilibrar accesibilidad estratégica con acción directa.",
     "incluye": [],
     "serie": [
       "Todos",
