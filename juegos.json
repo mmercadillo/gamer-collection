@@ -4512,6 +4512,70 @@
     }
   },
   {
+    "num": "000076",
+    "ig": "https://www.instagram.com/p/DYtl3LLiIXQ",
+    "titulo": "Hexplore",
+    "url": "juegos/hexplore-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Acción",
+      "Dungeon crawler",
+      "Fantasía",
+      "Multijugador",
+      "Cooperativo",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Heliotrope Studios"
+    ],
+    "distribuidor": [
+      "Ocean",
+      "Infogrames Ibérica"
+    ],
+    "ean": [],
+    "descripcion": "Hexplore es un RPG de acción en tiempo real desarrollado por Heliotrope Studios y publicado originalmente en 1998. El juego propone una aventura cooperativa ambientada en un mundo de fantasía medieval donde hasta cuatro jugadores pueden explorar escenarios abiertos, combatir enemigos y completar misiones simultáneamente a través de red local, módem o Internet, una característica especialmente destacada para la época. El título combinaba elementos de dungeon crawler, exploración y combate táctico con una cámara dinámica en 360 grados renderizada íntegramente en 3D acelerado, diferenciándose de otros RPG contemporáneos centrados en combate isométrico tradicional. Esta edición Big Box corresponde a la distribución española comercializada por Ocean e Infogrames Ibérica, incluyendo textos localizados al castellano y soporte para multijugador online.",
+    "incluye": [
+      "CD-ROM",
+      "Manual"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Hexplore",
+      "Heliotrope Studios",
+      "Ocean",
+      "Infogrames",
+      "Infogrames Iberica",
+      "RPG de accion",
+      "dungeon crawler",
+      "fantasia medieval",
+      "multijugador online",
+      "cooperativo",
+      "3D acelerado",
+      "edicion espanola",
+      "big box pc",
+      "pc game archive",
+      "preservacion videojuegos",
+      "retro pc gaming",
+      "juegos de rol",
+      "internet gaming"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservar imagen completa del CD-ROM original y documentación impresa de la edición española. El juego depende de soporte óptico original y resulta recomendable conservar tanto la estructura física del disco como posibles elementos de instalación o validación asociados a la edición distribuida por Ocean.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -47440,46 +47504,6 @@
     ],
     "ean": [],
     "descripcion": "Scorched Planet es un juego de acción en tercera persona ambientado en un futuro postapocalíptico. El jugador controla a un mercenario que debe sobrevivir en un planeta devastado, enfrentándose a hordas de enemigos mediante un amplio arsenal de armas y el uso de vehículos. El título combina acción arcade, exploración de escenarios abiertos y una estética oscura y agresiva, con un enfoque directo en el combate. Esta edición Big Box corresponde a la versión distribuida en Europa, con textos en castellano.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Hexplore",
-    "url": "juegos/hexplore-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Estrategia",
-      "Fantasía",
-      "Multijugador"
-    ],
-    "desarrollador": [
-      "Heliotrope Studios"
-    ],
-    "distribuidor": [
-      "Ocean"
-    ],
-    "ean": [],
-    "descripcion": "Hexplore es un juego de rol y estrategia en tiempo real ambientado en un mundo de fantasía medieval. El jugador lidera un grupo de héroes que debe explorar extensos mapas, completar misiones y enfrentarse a fuerzas oscuras que amenazan el equilibrio del reino. El título combina exploración, combate táctico y gestión de personajes, con la posibilidad de jugar en modo multijugador a través de Internet, una característica destacada para su época. Esta edición Big Box corresponde a la versión distribuida en España, con textos en castellano.",
     "incluye": [],
     "serie": [
       "Todos",
