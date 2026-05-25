@@ -4576,6 +4576,71 @@
     }
   },
   {
+    "num": "000077",
+    "ig": "https://www.instagram.com/p/DYweeZYCNq4",
+    "titulo": "War in the Gulf",
+    "url": "juegos/war-in-the-gulf-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación militar",
+      "Simulador de tanque",
+      "Wargame",
+      "Estrategia táctica",
+      "Combate moderno"
+    ],
+    "desarrollador": [
+      "Oxford Digital Enterprises"
+    ],
+    "distribuidor": [
+      "Empire Software"
+    ],
+    "ean": [
+      "0744788520000"
+    ],
+    "descripcion": "War in the Gulf es una simulación táctica militar publicada por Empire Software en 1993 para IBM PC y compatibles. Ambientado en la Guerra del Golfo, el juego sitúa al jugador al mando de unidades acorazadas modernas, con especial protagonismo de tanques M1 Abrams, vehículos blindados, artillería, helicópteros y apoyo aéreo. Su propuesta combina control táctico, observación del campo de batalla, planificación de movimientos y uso de armamento moderno en escenarios inspirados en el conflicto de Kuwait e Irak. La edición física en caja grande para MS-DOS refleja el enfoque de los simuladores militares de comienzos de los noventa, con documentación impresa, mapas y soporte en disquete de 3,5 pulgadas, conservando interés como representación temprana de un conflicto contemporáneo dentro del PC gaming europeo.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "Disquete de 3,5 pulgadas",
+      "Mapa",
+      "Láminas o fotografías documentales",
+      "Documentación impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "War in the Gulf",
+      "Empire Software",
+      "Oxford Digital Enterprises",
+      "Guerra del Golfo",
+      "Kuwait",
+      "Irak",
+      "M1 Abrams",
+      "simulación militar",
+      "wargame táctico",
+      "combate moderno",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "disquete 3.5",
+      "Big Box PC",
+      "edición europea",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquete de 3,5 pulgadas. Para preservación se recomienda realizar imagen sectorial del disquete original y conservar escaneos de manual, mapa y documentación impresa, ya que no hay evidencia suficiente para confirmar un sistema anticopia concreto.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -10888,43 +10953,6 @@
     ],
     "ean": [],
     "descripcion": "Zone Raiders es un juego de combate vehicular futurista lanzado en 1995 para MsDos. Conduces hovercars armados en zonas post‑apocalípticas, recoges mejoras y compites contra otros raiders en pistas llenas de saltos, atajos y armas. Ofrece 12 circuitos, 5 vehículos (incluido un vehículo secreto), combate en primera persona y modo multijugador IPX/modem para hasta 8 jugadores. Fue recibido positivamente como una experiencia rápida y frenética dentro del género híbrido entre carreras y shooter.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "War in the Gulf",
-    "url": "juegos/war-in-the-gulf-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Estrategia"
-    ],
-    "desarrollador": [
-      "Oxford Digital Enterprises"
-    ],
-    "distribuidor": [
-      "Empire Interactive"
-    ],
-    "ean": [],
-    "descripcion": "War in the Gulf es un simulador de tanques lanzado en 1993 para MsDos. Tercera entrega de la serie iniciada con Team Yankee, presenta combates en el Golfo Pérsico hipotéticos tras una segunda invasión iraquí a Kuwait. Se controla un pelotón de 16 tanques (divididos en cuatro unidades), manejando movimiento y disparo mediante una pantalla dividida y control exclusivo con ratón. Introduce gestión económica: destruir ciertas estructuras da dinero, mientras que destruir civiles lo resta. Combina vista arcade con modo táctico y mejoras de IA respecto a entregas anteriores :contentReference[oaicite:2]{index=2}.",
     "incluye": [],
     "serie": [
       "Todos",
