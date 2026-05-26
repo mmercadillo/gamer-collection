@@ -4641,6 +4641,72 @@
     }
   },
   {
+    "num": "000078",
+    "ig": "https://www.instagram.com/p/DYyyvWviJjK",
+    "titulo": "Gangsters: Organized Crime",
+    "url": "juegos/gangsters-organized-crime-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia",
+      "Estrategia en tiempo real",
+      "Gestión",
+      "Simulación criminal",
+      "Isométrico"
+    ],
+    "desarrollador": [
+      "Hothouse Creations"
+    ],
+    "distribuidor": [
+      "Eidos Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "5032921005227"
+    ],
+    "descripcion": "Gangsters: Organized Crime es un juego de estrategia y gestión criminal publicado en 1998 por Eidos Interactive y desarrollado por Hothouse Creations. Ambientado en una ciudad ficticia inspirada en el Chicago de los años veinte, propone dirigir una organización mafiosa mediante extorsión, sobornos, control territorial, reclutamiento de matones, negocios ilegales y enfrentamientos entre bandas. Su estructura combina planificación estratégica, simulación económica, acción en tiempo real y una presentación isométrica con una ciudad extensa y numerosos personajes civiles con los que interactuar. Esta edición española en formato Big Box distribuida por Proein incluye textos, voces y manual en castellano, conservando el interés documental de las ediciones localizadas de estrategia para PC de finales de los noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Gangsters Organized Crime",
+      "Hothouse Creations",
+      "Eidos Interactive",
+      "Proein",
+      "estrategia criminal",
+      "mafia",
+      "crimen organizado",
+      "Chicago años 20",
+      "gestión criminal",
+      "estrategia isométrica",
+      "PC CD-ROM",
+      "edición española",
+      "voces en castellano",
+      "manual en castellano",
+      "big box",
+      "Windows 95",
+      "Windows 98",
+      "preservación PC",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferentemente BIN/CUE para conservar la estructura del disco. La ejecución virtual debería ser viable en un entorno Windows 95/98, aunque debe verificarse si la edición concreta realiza comprobación de presencia del CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -7656,47 +7722,6 @@
     ],
     "ean": [],
     "descripcion": "Versión mejorada del original *FX Fighter*, este título ofrece combates 1 vs 1 en entornos 3D con personajes alienígenas de distintos planetas. Incluye nuevos luchadores, movimientos especiales adicionales, mejoras gráficas y soporte para aceleración 3D. Su estilo recuerda a clásicos como *Virtua Fighter* o *Tekken*, pero con una ambientación futurista. Combina acción rápida con variedad de estilos de combate y escenarios.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Gangsters: Organized Crime",
-    "url": "juegos/gangsters-organized-crime-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Gestión",
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Hothouse Creations"
-    ],
-    "distribuidor": [
-      "Eidos Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Juego de estrategia y gestión criminal ambientado en la ciudad ficticia de New Temperance durante la era de la Ley Seca. Como jefe de una familia mafiosa, debes extorsionar negocios, reclutar gánsteres, sobornar a políticos y enfrentarte a la competencia mientras evitas la atención policial. Combina fases de planificación por turnos con ejecución táctica en tiempo real. Destaca por su complejidad, libertad de acción y ambientación noir.",
     "incluye": [],
     "serie": [
       "Todos",
