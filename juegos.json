@@ -4707,8 +4707,76 @@
     }
   },
   {
-    "num": "000000",
+    "num": "000079",
     "ig": "",
+    "titulo": "Soulbringer",
+    "url": "juegos/soulbringer-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Action RPG",
+      "Aventura",
+      "Fantasía",
+      "Combate en tiempo real"
+    ],
+    "desarrollador": [
+      "Gremlin Interactive"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [
+      "3546430007075"
+    ],
+    "descripcion": "Soulbringer es un juego de rol y aventura de fantasía publicado en el año 2000 para PC. La obra sitúa al jugador en un mundo fantástico marcado por la amenaza de antiguos reyes demoníacos conocidos como Revenants, combinando exploración en tercera persona, progresión de personaje, combate en tiempo real y un sistema mágico basado en combinaciones elementales. Destaca por su estructura narrativa de largo recorrido, su mundo tridimensional, la presencia de múltiples localizaciones y un sistema de combate que permite definir estrategias personalizadas. Esta edición europea distribuida por Infogrames corresponde a la versión física en caja grande para PC CD-ROM, con voces y subtítulos en español, y conserva interés documental como ejemplo de RPG occidental de transición entre finales de los noventa y comienzos de los años 2000.",
+    "incluye": [
+      "Caja Big Box",
+      "Estuche jewel case",
+      "2 CD-ROM",
+      "Manual",
+      "Hoja informativa de Infogrames"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Soulbringer",
+      "Gremlin Interactive",
+      "Infogrames",
+      "RPG occidental",
+      "action RPG",
+      "fantasía oscura",
+      "Revenants",
+      "magia elemental",
+      "mundo 3D",
+      "combate en tiempo real",
+      "edición europea",
+      "voces en español",
+      "subtítulos en español",
+      "PC CD-ROM",
+      "2 CD-ROM",
+      "Big Box",
+      "Windows 95",
+      "Windows 98",
+      "coleccionismo PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa de ambos CD-ROM originales, preferiblemente en formato BIN/CUE para conservar correctamente la estructura del soporte. Conviene documentar también la caja, el manual y la hoja informativa asociada a la edición. La ejecución virtual debería ser viable en entornos Windows 95/98 o mediante configuración de compatibilidad, aunque debe verificarse si la edición concreta realiza comprobación de disco durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "https://www.instagram.com/p/DY1yP9BiJCT",
     "titulo": "Gunman Chronicles",
     "url": "juegos/gunman-chronicles-bigbox/",
     "plataforma": [
@@ -45745,50 +45813,6 @@
       "Piratas",
       "Acción",
       "Aventura"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Soulbringer",
-    "url": "juegos/soulbringer-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Aventura",
-      "Acción"
-    ],
-    "desarrollador": [
-      "Infogrames North America"
-    ],
-    "distribuidor": [
-      "Infogrames"
-    ],
-    "ean": [],
-    "descripcion": "Soulbringer es un juego de rol en tercera persona desarrollado por Infogrames North America y lanzado en el año 2000. Combina exploración, combate cuerpo a cuerpo basado en movimientos direccionales y un profundo sistema de magia vinculado a los elementos. El jugador asume el papel de un héroe reencarnado que debe liberar un mundo dominado por antiguos señores demoníacos. Destaca por su ambientación oscura, su libertad de exploración y su elaborada trama. La edición española en caja grande incluye textos y voces en castellano.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Rol",
-      "Infogrames",
-      "Acción",
-      "Fantasía",
-      "RPG"
     ],
     "proteccion": {
       "tipo": "No determinado",
