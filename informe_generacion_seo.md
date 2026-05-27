@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-05-27T13:29:16
+- Fecha: 2026-05-27T18:39:37
 - Juegos en catálogo: 1436
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -10,6 +10,8 @@
 - Las páginas de juego se generan como HTML estático en la ruta `juegos/<slug>/index.html`.
 - El sitemap usa `https://pcgamearchive.org` y elimina las rutas antiguas con hash.
 - Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.
+- Se generan landing pages SEO en español para búsquedas genéricas.
+- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.
 
 ## URLs duplicadas
 

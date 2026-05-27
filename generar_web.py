@@ -51,11 +51,21 @@ GA_ID = "G-SQN0WTMVP3"
 OG_IMAGE = "/og/og-image.png"
 PENDING_NUM = "000000"
 
+SEO_LANDING_PAGES = [
+    {"filename":"videojuegos-clasicos-pc.html","label":"PC clásico","title":"Videojuegos clásicos de PC · MS-DOS, Windows y Big Box","h1":"Videojuegos clásicos de PC","description":"Archivo documental de videojuegos clásicos de PC: MS-DOS, Windows 95/98, Big Box, CD-ROM, disquetes y ediciones físicas históricas.","lead":"PC Game Archive documenta videojuegos clásicos de PC en formato físico, con especial atención a cajas grandes, CD-ROM, disquetes, manuales, ediciones españolas y compatibilidad histórica con MS-DOS y Windows.","filter":{}},
+    {"filename":"juegos-pc-big-box.html","label":"Big Box PC","title":"Juegos PC Big Box · Colección y archivo de cajas grandes","h1":"Juegos PC Big Box","description":"Catálogo de juegos de PC en formato Big Box: cajas grandes, manuales, disquetes, CD-ROM y ediciones físicas clásicas de los años 80, 90 y 2000.","lead":"Selección de ediciones Big Box de PC documentadas como piezas físicas: caja exterior, soporte original, manuales, material promocional y contexto histórico.","filter":{"formato":"Big Box"}},
+    {"filename":"juegos-msdos.html","label":"MS-DOS","title":"Juegos MS-DOS de PC · Archivo físico y preservación","h1":"Juegos MS-DOS de PC","description":"Archivo de juegos MS-DOS en formato físico para PC: aventuras gráficas, estrategia, rol, simuladores, disquetes, CD-ROM y ediciones españolas.","lead":"Recorrido por juegos de PC para MS-DOS documentados desde su edición física original, incluyendo soporte, género, distribuidoras y contexto de preservación.","filter":{"plataforma":"MsDos"}},
+    {"filename":"juegos-windows-95-98.html","label":"Windows 95/98","title":"Juegos Windows 95 y Windows 98 · PC clásico en CD-ROM","h1":"Juegos Windows 95 y Windows 98","description":"Catálogo de juegos clásicos de PC para Windows 95 y Windows 98: CD-ROM, Big Box, ediciones españolas, aventuras, estrategia, rol y simulación.","lead":"Documentación de juegos para Windows 95 y Windows 98, una etapa central del CD-ROM, la aceleración 3D, las localizaciones al castellano y el auge de las grandes cajas de PC.","filter":{"plataforma_any":["Win95","Win98"]}},
+    {"filename":"ediciones-espanolas-pc.html","label":"Ediciones españolas","title":"Ediciones españolas de juegos de PC · Archivo documental","h1":"Ediciones españolas de juegos de PC","description":"Documentación de ediciones españolas y europeas de videojuegos clásicos de PC: cajas, manuales en castellano, distribuidoras, localizaciones y material físico.","lead":"PC Game Archive presta especial atención a las ediciones españolas y europeas: localización, distribuidoras, manuales en castellano, variantes físicas y materiales incluidos.","filter":{"text_terms":["españ","castellano","erbe","proein","dinamic","fx interactive","dro soft","virgin interactive españa","havas interactive españa"]}},
+    {"filename":"aventuras-graficas-pc.html","label":"Aventuras gráficas","title":"Aventuras gráficas clásicas de PC · Point and click y MS-DOS","h1":"Aventuras gráficas clásicas de PC","description":"Catálogo de aventuras gráficas clásicas de PC: point and click, LucasArts, Sierra, MS-DOS, Windows, Big Box y ediciones físicas en castellano.","lead":"Selección de aventuras gráficas y point and click documentadas en formato físico, desde MS-DOS hasta Windows 95/98, con especial atención a ediciones Big Box y material impreso.","filter":{"genero_terms":["aventura gráfica","point and click"]}},
+]
+
 ROOT_PAGES = {
     "index.html",
     "bigbox.html",
     "series.html",
     "contacto.html",
+    *(p["filename"] for p in SEO_LANDING_PAGES),
     "sitemap.xml",
     "robots.txt",
 }
@@ -137,7 +147,9 @@ def existing_gallery(project_root: Path, game: dict[str, Any]) -> list[str]:
 def nav(active: str, prefix: str = "") -> str:
     items = [
         ("index.html", "Inicio"),
-        ("bigbox.html", "Big Box"),
+        ("videojuegos-clasicos-pc.html", "PC clásico"),
+        ("juegos-pc-big-box.html", "Big Box PC"),
+        ("juegos-msdos.html", "MS-DOS"),
         ("series.html", "Series"),
         ("contacto.html", "Contacto"),
     ]
@@ -172,6 +184,10 @@ def head(title: str, description: str, canonical: str, prefix: str = "", image: 
 <meta name="twitter:description" content="{h(description)}" />
 <meta name="twitter:image" content="{h(image_url)}" />
 <link rel="icon" href="{prefix}favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="48x48" href="{prefix}favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="{prefix}favicon-96x96.png" />
+<link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png" />
+<link rel="manifest" href="{prefix}site.webmanifest" />
 <link rel="stylesheet" href="{prefix}assets/css/styles.css" />
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA_ID}');</script>{jsonld}'''
@@ -268,7 +284,11 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     cards = "\n".join(card(g) for g in initial_games)
     series_values = sorted({str(s) for g in games for s in (g.get("serie") or []) if str(s).strip()}, key=str.lower)
     series_options = "\n          ".join(f'<option value="{h(s)}">{h(s)}</option>' for s in series_values)
-    desc = "Archivo físico de videojuegos de PC en Big Box, DVD Case y Jewel Case. Catálogo documental de ediciones MS-DOS y Windows."
+    desc = "Archivo y colección de videojuegos clásicos de PC en formato Big Box, MS-DOS y Windows. Preservación, catálogo y documentación de ediciones físicas retro."
+    seo_hub_links = "\n".join(
+        f'<a class="taxonomy-item" href="{h(p["filename"])}"><strong>{h(p["label"])}</strong><small>{h(p["h1"])}</small></a>'
+        for p in SEO_LANDING_PAGES
+    )
     body = f'''<main>
 <section class="hero-section">
   <div class="wrap hero-grid">
@@ -298,6 +318,11 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     </aside>
   </div>
 </section>
+<section class="wrap seo-hub" id="explorar-archivo">
+  <div class="section-head"><h2>Explorar el archivo</h2><a href="series.html">Ver series</a></div>
+  <p class="count">Rutas temáticas para encontrar el catálogo por búsquedas en español: PC clásico, Big Box, MS-DOS, Windows 95/98, ediciones españolas y aventuras gráficas.</p>
+  <div class="taxonomy-grid">{seo_hub_links}</div>
+</section>
 <section class="wrap">
   <div class="section-head"><h2>Catálogo de juegos</h2><a href="bigbox.html">Ver Big Box</a></div>
   <p class="count">{len(games)} juegos encontrados.</p>
@@ -311,9 +336,84 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
 <script src="assets/js/search-index.js"></script>
 <script src="assets/js/catalogo.js" defer></script>
 </main>'''
-    jsonld = [{"@context":"https://schema.org","@type":"WebSite","name":SITE_NAME,"url":base_url.rstrip("/") + "/","potentialAction":{"@type":"SearchAction","target":base_url.rstrip("/") + "/index.html?q={search_term_string}","query-input":"required name=search_term_string"}}]
-    (out / "index.html").write_text(layout("PC Game Archive · Videojuegos físicos de PC", desc, abs_url(base_url, ""), "index.html", body, jsonld=jsonld), encoding="utf-8")
+    jsonld = [organization_jsonld(base_url), {"@context":"https://schema.org","@type":"WebSite","name":SITE_NAME,"url":base_url.rstrip("/") + "/","inLanguage":"es","description":desc,"potentialAction":{"@type":"SearchAction","target":base_url.rstrip("/") + "/index.html?q={search_term_string}","query-input":"required name=search_term_string"}}, collection_jsonld(base_url, "", "Archivo de videojuegos clásicos de PC", desc, games)]
+    (out / "index.html").write_text(layout("PC Game Archive · Videojuegos clásicos de PC · Big Box · MS-DOS · Windows", desc, abs_url(base_url, ""), "index.html", body, jsonld=jsonld), encoding="utf-8")
 
+
+
+def organization_jsonld(base_url: str) -> dict[str, Any]:
+    return {"@context":"https://schema.org","@type":"Organization","name":SITE_NAME,"url":base_url.rstrip("/") + "/","logo":abs_url(base_url,"logo.png"),"sameAs":["https://www.instagram.com/pc_game_archive/"]}
+
+
+def collection_jsonld(base_url: str, path: str, name: str, description: str, games: list[dict[str, Any]]) -> dict[str, Any]:
+    return {"@context":"https://schema.org","@type":"CollectionPage","name":name,"url":abs_url(base_url,path),"description":description,"inLanguage":"es","isPartOf":{"@type":"WebSite","name":SITE_NAME,"url":base_url.rstrip("/") + "/"},"mainEntity":{"@type":"ItemList","numberOfItems":len(games),"itemListElement":[{"@type":"ListItem","position":i+1,"url":abs_url(base_url,g.get("url","")),"name":text(g.get("titulo"))} for i,g in enumerate(games[:50])]}}
+
+
+def matches_landing(game: dict[str, Any], flt: dict[str, Any]) -> bool:
+    if not flt:
+        return True
+    if flt.get("formato") and game.get("formato") != flt["formato"]:
+        return False
+    if flt.get("plataforma") and flt["plataforma"] not in (game.get("plataforma") or []):
+        return False
+    if flt.get("plataforma_any") and not any(p in (game.get("plataforma") or []) for p in flt["plataforma_any"]):
+        return False
+    if flt.get("genero_terms"):
+        blob = " ".join(game.get("genero") or []).lower()
+        if not any(t.lower() in blob for t in flt["genero_terms"]):
+            return False
+    if flt.get("text_terms"):
+        blob = " ".join([text(game.get("titulo"),""), text(game.get("descripcion"),""), text(game.get("formato"),""), text(game.get("genero"),""), text(game.get("desarrollador"),""), text(game.get("distribuidor"),""), text(game.get("tags"),""), text(game.get("incluye"),"")]).lower()
+        if not any(t.lower() in blob for t in flt["text_terms"]):
+            return False
+    return True
+
+
+def default_filter_attr(flt: dict[str, Any]) -> str:
+    if flt.get("formato"):
+        return f' data-default-formato="{h(flt["formato"])}"'
+    if flt.get("plataforma"):
+        return f' data-default-plataforma="{h(flt["plataforma"])}"'
+    if flt.get("plataforma_any"):
+        return f' data-default-plataforma-any="{h("|".join(flt["plataforma_any"]))}"'
+    if flt.get("genero_terms"):
+        return f' data-default-genero-any="{h("|".join(flt["genero_terms"]))}"'
+    if flt.get("text_terms"):
+        return f' data-default-text-any="{h("|".join(flt["text_terms"]))}"'
+    return ""
+
+
+def generate_seo_landing_pages(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
+    for p in SEO_LANDING_PAGES:
+        flt = p.get("filter", {})
+        selected = [g for g in games if matches_landing(g, flt)]
+        cards = "\n".join(card(g) for g in selected[:24])
+        related = "\n".join(f'<a class="taxonomy-item" href="{h(x["filename"])}"><strong>{h(x["label"])}</strong><small>{h(x["h1"])}</small></a>' for x in SEO_LANDING_PAGES if x["filename"] != p["filename"])
+        data_attr = default_filter_attr(flt)
+        body = f'''<main class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">SEO · Archivo documental</p>
+    <h1>{h(p["h1"])}</h1>
+    <p class="lead">{h(p["lead"])}</p>
+  </div>
+  <section class="content-card">
+    <h2>Catálogo orientado a preservación</h2>
+    <p>Esta sección refuerza la búsqueda en español y agrupa fichas por intención: formato físico, plataforma, género, distribución, idioma, soporte original y valor documental.</p>
+    <p>Además de títulos concretos, el archivo quiere ser localizable por búsquedas como videojuegos clásicos de PC, juegos Big Box, juegos MS-DOS, ediciones españolas, aventuras gráficas clásicas y preservación de software físico.</p>
+  </section>
+  <section>
+    <div class="section-head"><h2>Juegos documentados</h2><a href="index.html">Ver catálogo completo</a></div>
+    <form class="toolbar" action="index.html" method="get"><input name="q" placeholder="Filtrar catálogo…"><button>Buscar</button></form>
+    <p class="count">{len(selected)} juegos encontrados.</p>
+    <div class="grid cards" data-catalog-list{data_attr}>{cards}</div>
+    <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
+  </section>
+  <section class="text-section"><h2>Explorar también</h2><div class="taxonomy-grid">{related}</div></section>
+  <script src="assets/js/search-index.js"></script>
+  <script src="assets/js/catalogo.js" defer></script>
+</main>'''
+        jsonld = [organization_jsonld(base_url), collection_jsonld(base_url, p["filename"], p["h1"], p["description"], selected)]
+        (out / p["filename"]).write_text(layout(p["title"], p["description"], abs_url(base_url, p["filename"]), p["filename"], body, jsonld=jsonld), encoding="utf-8")
 
 def generate_listing(games: list[dict[str, Any]], out: Path, base_url: str, filename: str, title: str, description: str, predicate) -> None:
     selected = [g for g in games if predicate(g)]
@@ -331,7 +431,8 @@ def generate_listing(games: list[dict[str, Any]], out: Path, base_url: str, file
   <script src="assets/js/search-index.js"></script>
   <script src="assets/js/catalogo.js" defer></script>
 </main>'''
-    (out / filename).write_text(layout(title, description, abs_url(base_url, filename), filename, body), encoding="utf-8")
+    jsonld = [organization_jsonld(base_url), collection_jsonld(base_url, filename, title, description, selected)]
+    (out / filename).write_text(layout(title, description, abs_url(base_url, filename), filename, body, jsonld=jsonld), encoding="utf-8")
 
 
 def generate_series(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
@@ -458,7 +559,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
 
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
     today = dt.date.today().isoformat()
-    urls = ["", "index.html", "bigbox.html", "series.html", "contacto.html"]
+    urls = ["", "index.html", "bigbox.html", "series.html", "contacto.html"] + [p["filename"] for p in SEO_LANDING_PAGES]
     seen = set(urls)
     for g in games:
         url = g.get("url")
@@ -477,6 +578,25 @@ def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> N
 def generate_robots(out: Path, base_url: str) -> None:
     (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base_url.rstrip('/')}/sitemap.xml\n", encoding="utf-8")
 
+
+
+def generate_favicons(project_root: Path, out: Path) -> None:
+    logo = project_root / "logo.png"
+    if not logo.exists():
+        return
+    try:
+        from PIL import Image
+        img = Image.open(logo).convert("RGBA")
+        side = max(img.size)
+        canvas = Image.new("RGBA", (side, side), (255, 255, 255, 0))
+        canvas.paste(img, ((side - img.size[0]) // 2, (side - img.size[1]) // 2), img)
+        for name, size in {"favicon-48x48.png":(48,48), "favicon-96x96.png":(96,96), "apple-touch-icon.png":(180,180)}.items():
+            canvas.resize(size, Image.LANCZOS).save(out / name, "PNG", optimize=True)
+        canvas.save(out / "favicon.ico", sizes=[(16,16), (32,32), (48,48)])
+        manifest = {"name":SITE_NAME,"short_name":"PCGA","icons":[{"src":"/favicon-48x48.png","sizes":"48x48","type":"image/png"},{"src":"/favicon-96x96.png","sizes":"96x96","type":"image/png"},{"src":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],"theme_color":"#111111","background_color":"#ffffff","display":"standalone","start_url":"/"}
+        (out / "site.webmanifest").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    except Exception:
+        return
 
 def copy_support_files(project_root: Path, out: Path) -> None:
     """
@@ -502,7 +622,22 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
     urls = [g.get("url") for g in games if g.get("url")]
     dup = [u for u,c in Counter(urls).items() if c > 1]
     invalid = [g for g in games if not isinstance(g.get("url"), str) or not re.match(r"^juegos/[a-z0-9\-]+/$", g.get("url", ""))]
-    lines = ["# Informe de generación SEO", "", f"- Fecha: {dt.datetime.now().isoformat(timespec='seconds')}", f"- Juegos en catálogo: {len(games)}", f"- URLs duplicadas detectadas: {len(dup)}", f"- URLs inválidas omitidas: {len(invalid)}", "", "## Observaciones", "", "- Las páginas de juego se generan como HTML estático en la ruta `juegos/<slug>/index.html`.", "- El sitemap usa `https://pcgamearchive.org` y elimina las rutas antiguas con hash.", "- Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo."]
+    lines = [
+        "# Informe de generación SEO",
+        "",
+        f"- Fecha: {dt.datetime.now().isoformat(timespec='seconds')}",
+        f"- Juegos en catálogo: {len(games)}",
+        f"- URLs duplicadas detectadas: {len(dup)}",
+        f"- URLs inválidas omitidas: {len(invalid)}",
+        "",
+        "## Observaciones",
+        "",
+        "- Las páginas de juego se generan como HTML estático en la ruta `juegos/<slug>/index.html`.",
+        "- El sitemap usa `https://pcgamearchive.org` y elimina las rutas antiguas con hash.",
+        "- Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.",
+        "- Se generan landing pages SEO en español para búsquedas genéricas.",
+        "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
+    ]
     if dup:
         lines += ["", "## URLs duplicadas", ""] + [f"- `{u}`" for u in dup[:100]]
     if invalid:
@@ -525,14 +660,18 @@ def main() -> int:
     out.mkdir(parents=True, exist_ok=True)
     write_assets(out, games)
     copy_support_files(project_root, out)
+    generate_favicons(project_root, out)
     generate_index(games, out, args.base_url)
-    generate_listing(games, out, args.base_url, "bigbox.html", "Archivo Big Box · PC Game Archive", "Videojuegos de PC en formato Big Box documentados por PC Game Archive.", lambda g: g.get("formato") == "Big Box")
+    generate_listing(games, out, args.base_url, "bigbox.html", "Juegos PC Big Box · PC Game Archive", "Videojuegos de PC en formato Big Box: cajas grandes, manuales, disquetes, CD-ROM y ediciones físicas clásicas documentadas por PC Game Archive.", lambda g: g.get("formato") == "Big Box")
+    generate_seo_landing_pages(games, out, args.base_url)
     generate_series(games, out, args.base_url)
     generate_contact(out, args.base_url)
     generate_game_pages(games, out, project_root, args.base_url)
     generate_sitemap(games, out, args.base_url)
     generate_robots(out, args.base_url)
     build_report(games, out)
+    print("Versión generador: seo-hub-home-2026-05-27")
+    print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
     print("Modo de assets: no se copian imágenes ni carpetas img; solo se sobrescriben ficheros generados.")
@@ -559,17 +698,29 @@ JS = r'''
 
   const titulo = normalize(params.get('titulo') || params.get('q') || '');
   const defaultFormato = normalize(grid.dataset.defaultFormato || '');
+  const defaultPlataforma = normalize(grid.dataset.defaultPlataforma || '');
+  const defaultPlataformaAny = splitTerms(grid.dataset.defaultPlataformaAny || '');
+  const defaultGenero = normalize(grid.dataset.defaultGenero || '');
+  const defaultGeneroAny = splitTerms(grid.dataset.defaultGeneroAny || '');
+  const defaultTextAny = splitTerms(grid.dataset.defaultTextAny || '');
   const formato = normalize(params.get('formato') || '') || defaultFormato;
   const serie = normalize(params.get('serie') || '');
-  const genero = normalize(params.get('genero') || '');
-  const plataforma = normalize(params.get('plataforma') || '');
+  const genero = normalize(params.get('genero') || '') || defaultGenero;
+  const plataforma = normalize(params.get('plataforma') || '') || defaultPlataforma;
 
   const selected = games.filter(g => {
-    if(titulo && !normalize(g.titulo).includes(titulo)) return false;
+    const titleBlob = normalize(g.titulo);
+    const genreBlob = normalize((g.genero || []).join(' '));
+    const platformValues = (g.plataforma || []).map(normalize);
+    const fullBlob = normalize([g.titulo, g.formato, (g.serie||[]).join(' '), (g.genero||[]).join(' '), (g.plataforma||[]).join(' ')].join(' '));
+    if(titulo && !titleBlob.includes(titulo)) return false;
     if(formato && normalize(g.formato) !== formato) return false;
     if(serie && !(g.serie || []).some(s => normalize(s) === serie)) return false;
-    if(genero && !(g.genero || []).some(s => normalize(s).includes(genero))) return false;
-    if(plataforma && !(g.plataforma || []).some(s => normalize(s) === plataforma)) return false;
+    if(genero && !genreBlob.includes(genero)) return false;
+    if(defaultGeneroAny.length && !defaultGeneroAny.some(t => genreBlob.includes(t))) return false;
+    if(plataforma && !platformValues.some(s => s === plataforma)) return false;
+    if(defaultPlataformaAny.length && !defaultPlataformaAny.some(t => platformValues.includes(t))) return false;
+    if(defaultTextAny.length && !defaultTextAny.some(t => fullBlob.includes(t))) return false;
     return true;
   });
 
@@ -605,6 +756,10 @@ JS = r'''
     grid.insertAdjacentHTML('beforeend', next.map(g => card(g)).join(''));
     rendered += next.length;
     if(sentinel) sentinel.hidden = rendered >= selected.length;
+  }
+
+  function splitTerms(value){
+    return String(value || '').split('|').map(normalize).filter(Boolean);
   }
 
   function normalize(value){

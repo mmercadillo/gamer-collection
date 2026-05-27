@@ -14,17 +14,29 @@
 
   const titulo = normalize(params.get('titulo') || params.get('q') || '');
   const defaultFormato = normalize(grid.dataset.defaultFormato || '');
+  const defaultPlataforma = normalize(grid.dataset.defaultPlataforma || '');
+  const defaultPlataformaAny = splitTerms(grid.dataset.defaultPlataformaAny || '');
+  const defaultGenero = normalize(grid.dataset.defaultGenero || '');
+  const defaultGeneroAny = splitTerms(grid.dataset.defaultGeneroAny || '');
+  const defaultTextAny = splitTerms(grid.dataset.defaultTextAny || '');
   const formato = normalize(params.get('formato') || '') || defaultFormato;
   const serie = normalize(params.get('serie') || '');
-  const genero = normalize(params.get('genero') || '');
-  const plataforma = normalize(params.get('plataforma') || '');
+  const genero = normalize(params.get('genero') || '') || defaultGenero;
+  const plataforma = normalize(params.get('plataforma') || '') || defaultPlataforma;
 
   const selected = games.filter(g => {
-    if(titulo && !normalize(g.titulo).includes(titulo)) return false;
+    const titleBlob = normalize(g.titulo);
+    const genreBlob = normalize((g.genero || []).join(' '));
+    const platformValues = (g.plataforma || []).map(normalize);
+    const fullBlob = normalize([g.titulo, g.formato, (g.serie||[]).join(' '), (g.genero||[]).join(' '), (g.plataforma||[]).join(' ')].join(' '));
+    if(titulo && !titleBlob.includes(titulo)) return false;
     if(formato && normalize(g.formato) !== formato) return false;
     if(serie && !(g.serie || []).some(s => normalize(s) === serie)) return false;
-    if(genero && !(g.genero || []).some(s => normalize(s).includes(genero))) return false;
-    if(plataforma && !(g.plataforma || []).some(s => normalize(s) === plataforma)) return false;
+    if(genero && !genreBlob.includes(genero)) return false;
+    if(defaultGeneroAny.length && !defaultGeneroAny.some(t => genreBlob.includes(t))) return false;
+    if(plataforma && !platformValues.some(s => s === plataforma)) return false;
+    if(defaultPlataformaAny.length && !defaultPlataformaAny.some(t => platformValues.includes(t))) return false;
+    if(defaultTextAny.length && !defaultTextAny.some(t => fullBlob.includes(t))) return false;
     return true;
   });
 
@@ -60,6 +72,10 @@
     grid.insertAdjacentHTML('beforeend', next.map(g => card(g)).join(''));
     rendered += next.length;
     if(sentinel) sentinel.hidden = rendered >= selected.length;
+  }
+
+  function splitTerms(value){
+    return String(value || '').split('|').map(normalize).filter(Boolean);
   }
 
   function normalize(value){
