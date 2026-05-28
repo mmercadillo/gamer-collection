@@ -4908,6 +4908,78 @@
     }
   },
   {
+    "num": "000082",
+    "ig": "",
+    "titulo": "Wizardry: Crusaders of the Dark Savant",
+    "url": "juegos/wizardry-crusaders-of-the-dark-savant-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Dungeon crawler",
+      "Fantasía",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Sir-Tech Software, Inc."
+    ],
+    "distribuidor": [
+      "Sir-Tech Software, Inc.",
+      "U.S. Gold Ltd"
+    ],
+    "ean": [
+      "0054349221031"
+    ],
+    "descripcion": "Wizardry: Crusaders of the Dark Savant, también conocido como Wizardry VII, es un CRPG de 1992 diseñado por D.W. Bradley y publicado por Sir-Tech. Continuación directa de Bane of the Cosmic Forge, permite importar personajes de la entrega anterior o crear un nuevo grupo para explorar un mundo extraño donde la fantasía clásica se mezcla con elementos de ciencia ficción. El juego mantiene la estructura de rol en primera persona, exploración de mazmorras, combate por turnos, creación compleja de personajes y una gran densidad narrativa, incorporando además campañas exteriores, automapeado, interfaz mediante ratón, sonido digital y soporte gráfico VGA/MCGA/EGA. Esta edición Big Box para IBM PC compatibles, comercializada y distribuida por U.S. Gold en el Reino Unido, conserva especial interés documental por sus disquetes, mapa, guía Playmaster y materiales de soporte asociados a uno de los grandes dungeon crawlers occidentales de comienzos de los noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "Disquetes de 3,5 pulgadas",
+      "Wizardry: Crusaders of the Dark Savant Playmaster's Guide",
+      "Mapa",
+      "Notas adicionales de información",
+      "Tarjeta de soporte al cliente",
+      "Cupón de intercambio de discos",
+      "Sobre de respuesta comercial"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Wizardry",
+      "Wizardry VII",
+      "Crusaders of the Dark Savant",
+      "Sir-Tech",
+      "U.S. Gold",
+      "D.W. Bradley",
+      "CRPG clásico",
+      "dungeon crawler",
+      "rol occidental",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "VGA",
+      "MCGA",
+      "EGA",
+      "AdLib",
+      "Sound Blaster",
+      "Roland MT-32",
+      "disquetes 3.5",
+      "big box PC",
+      "preservación PC",
+      "años 90"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "Edición en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete y conservar la guía Playmaster y documentación impresa, relevantes para instalación, consulta y posible verificación manual. La ejecución virtual es viable en DOSBox u otros entornos MS-DOS configurando disco duro, memoria convencional y soporte de sonido compatible.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
