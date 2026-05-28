@@ -4708,7 +4708,7 @@
   },
   {
     "num": "000079",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DY1yP9BiJCT",
     "titulo": "Soulbringer",
     "url": "juegos/soulbringer-bigbox/",
     "plataforma": [
@@ -4775,8 +4775,141 @@
     }
   },
   {
+    "num": "000080",
+    "ig": "https://www.instagram.com/p/DY4AByIiA5e",
+    "titulo": "Dungeon Keeper",
+    "url": "juegos/dungeon-keeper-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "God game",
+      "Construcción y gestión",
+      "Fantasía oscura"
+    ],
+    "desarrollador": [
+      "Bullfrog Productions"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Dungeon Keeper es un juego de estrategia y gestión desarrollado por Bullfrog Productions y publicado por Electronic Arts en 1997. Invierte la fantasía heroica tradicional al situar al jugador en el papel del señor de una mazmorra, encargado de excavar salas, atraer criaturas, gestionar recursos, colocar trampas y derrotar a los héroes que invaden su dominio subterráneo. Su mezcla de estrategia en tiempo real, construcción de mazmorras, humor negro y perspectiva 3D lo convirtió en uno de los títulos más reconocibles de Bullfrog durante la etapa final del estudio. Esta edición española en caja grande destaca por estar traducida y doblada al castellano, y conserva el valor documental de las distribuciones localizadas por Electronic Arts Software para PC CD-ROM de finales de los noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "CD-ROM en caja jewel case",
+      "Tarjeta de referencia",
+      "Hoja de aviso de epilepsia"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Dungeon Keeper",
+      "Bullfrog Productions",
+      "Electronic Arts",
+      "Electronic Arts Software",
+      "Peter Molyneux",
+      "estrategia en tiempo real",
+      "god game",
+      "mazmorras",
+      "fantasía oscura",
+      "humor negro",
+      "PC CD-ROM",
+      "MS-DOS",
+      "Windows 95",
+      "edición española",
+      "doblado al castellano",
+      "traducido al castellano",
+      "big box",
+      "preservación PC",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para conservar correctamente la estructura del disco. La ejecución en entorno virtual es viable mediante MS-DOS/Windows 95 o configuraciones compatibles, manteniendo la imagen montada si la edición realiza comprobación de disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000081",
+    "ig": "",
+    "titulo": "Dungeon Keeper 2",
+    "url": "juegos/dungeon-keeper-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "God game",
+      "Construcción y gestión",
+      "Fantasía oscura"
+    ],
+    "desarrollador": [
+      "Bullfrog Productions"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Dungeon Keeper 2 es la secuela del influyente juego de estrategia y gestión de mazmorras desarrollado por Bullfrog Productions y publicado por Electronic Arts en 1999. Mantiene la inversión de roles característica de la saga, colocando al jugador como señor del mal encargado de excavar estancias, atraer criaturas, entrenarlas, defender su dominio subterráneo y derrotar a las fuerzas heroicas de la superficie. Esta segunda entrega refuerza el tono de humor negro y fantasía oscura del original, incorporando un apartado gráfico completamente tridimensional, aceleración 3D, nuevas criaturas, trampas, salas, modo multijugador y la posibilidad de poseer unidades desde una perspectiva en primera persona. Esta edición europea en caja grande con documentación en neerlandés conserva especial interés documental por pertenecer a la última etapa de Bullfrog bajo Electronic Arts y por representar uno de los últimos grandes lanzamientos físicos de la compañía en formato Big Box para PC.",
+    "incluye": [
+      "Caja Big Box",
+      "Caja interior de cartón",
+      "2 CD-ROM en caja jewel case",
+      "Manual",
+      "Hoja de instalación o introducción",
+      "Tarjeta de referencia de interfaz"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Dungeon Keeper 2",
+      "Dungeon Keeper",
+      "Bullfrog Productions",
+      "Electronic Arts",
+      "estrategia en tiempo real",
+      "god game",
+      "mazmorras",
+      "fantasía oscura",
+      "humor negro",
+      "Horned Reaper",
+      "Keeper",
+      "Direct3D",
+      "aceleración 3D",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición europea",
+      "edición neerlandesa",
+      "Benelux",
+      "big box",
+      "coleccionismo PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa de los CD-ROM originales en formato capaz de conservar la estructura y características de la protección SafeDisc, preferiblemente MDF/MDS o equivalente. La ejecución virtual es viable en entornos Windows 95/98 correctamente configurados, aunque en sistemas modernos puede requerir parches de compatibilidad debido a las restricciones históricas de SafeDisc.",
+      "formato": "MDF/MDS",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
-    "ig": "https://www.instagram.com/p/DY1yP9BiJCT",
+    "ig": "",
     "titulo": "Gunman Chronicles",
     "url": "juegos/gunman-chronicles-bigbox/",
     "plataforma": [
@@ -7319,45 +7452,6 @@
       "040421001491"
     ],
     "descripcion": "Shooter de 1996 con libertad completa en seis grados de movimiento. Pilotas una nave en minas subterráneas para destruir reactores y rescatar rehenes, con guía automática (‘Guide‑Bot’) y modo multijugador hasta 8 jugadores. La versión PlayStation, llamada Descent Maximum, ofrece niveles exclusivos y modos cooperativo por link‑cable.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Dungeon Keeper 2",
-    "url": "juegos/dungeon-keeper-2-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real"
-    ],
-    "desarrollador": [
-      "Bullfrog Productions"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "Secuela lanzada en junio de 1999, lleva la gestión de mazmorras al 3D completo con soporte para hardware gráfico acelerado. Construyes y defiendes tu calabozo en el reino de Harmonia recolectando gemas del portal, gestionando criaturas y compitiendo contra otros Keepers o héroes. Incluye modos como campaña, escaramuza, 'My Pet Dungeon' y multijugador LAN/IPX/TCP‑IP para 2-4 jugadores.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -11522,45 +11616,6 @@
       "4014092002435"
     ],
     "descripcion": "Quinta y última entrega de la saga Battle Isle (2000), mezcla estrategia por turnos con fases en tiempo real. Ambientado en el planeta Chromos, incluye dos campañas con 22 misiones, gestión logística, combate y economía simultánea. Soporta multijugador LAN/Internet hasta 4 vs 4.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Dungeon Keeper",
-    "url": "juegos/dungeon-keeper-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Dungeon management"
-    ],
-    "desarrollador": [
-      "Bullfrog Productions"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "Lanzado en junio de 1997, este innovador RTS/god‑game te pone en el papel del malvado guardián de mazmorras. Debes excavar, reclutar monstruos, colocar trampas y defender tu reino de los ‘héroes’. Destaca por la ‘Hand of Evil’, niveles con vista isométrica y perspectiva en primera persona, sonido con SoundFont para ambiente, y multijugador para hasta 4 jugadores (modem, LAN, IPX). Reeditado en GOG/Steam (versión Gold con expansión y editor).",
     "incluye": [],
     "serie": [
       "Todos",
