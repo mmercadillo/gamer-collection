@@ -4841,7 +4841,7 @@
   },
   {
     "num": "000081",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DY6yxWfiE65",
     "titulo": "Dungeon Keeper 2",
     "url": "juegos/dungeon-keeper-2-bigbox/",
     "plataforma": [
@@ -4851,8 +4851,9 @@
     "formato": "Big Box",
     "genero": [
       "Estrategia en tiempo real",
-      "God game",
-      "Construcción y gestión",
+      "Gestión",
+      "Construcción de mazmorras",
+      "Simulación",
       "Fantasía oscura"
     ],
     "desarrollador": [
@@ -4862,47 +4863,46 @@
       "Electronic Arts"
     ],
     "ean": [],
-    "descripcion": "Dungeon Keeper 2 es la secuela del influyente juego de estrategia y gestión de mazmorras desarrollado por Bullfrog Productions y publicado por Electronic Arts en 1999. Mantiene la inversión de roles característica de la saga, colocando al jugador como señor del mal encargado de excavar estancias, atraer criaturas, entrenarlas, defender su dominio subterráneo y derrotar a las fuerzas heroicas de la superficie. Esta segunda entrega refuerza el tono de humor negro y fantasía oscura del original, incorporando un apartado gráfico completamente tridimensional, aceleración 3D, nuevas criaturas, trampas, salas, modo multijugador y la posibilidad de poseer unidades desde una perspectiva en primera persona. Esta edición europea en caja grande con documentación en neerlandés conserva especial interés documental por pertenecer a la última etapa de Bullfrog bajo Electronic Arts y por representar uno de los últimos grandes lanzamientos físicos de la compañía en formato Big Box para PC.",
+    "descripcion": "Dungeon Keeper 2 es la secuela del influyente juego de estrategia y gestión de mazmorras de Bullfrog Productions, publicada en 1999 para PC. Mantiene la inversión irónica de roles del original: el jugador no dirige héroes, sino una fuerza maligna encargada de excavar, construir salas, atraer criaturas, colocar trampas y defender un dominio subterráneo frente a invasores. Esta segunda entrega trasladó la fórmula a un entorno tridimensional acelerado por hardware, con una presentación más cinematográfica, interfaz renovada, modo de posesión de criaturas en primera persona y un tono de humor negro muy característico de Bullfrog. La edición física mostrada corresponde a una Big Box neerlandesa en CD-ROM, con documentación localizada y materiales de referencia específicos para la versión en neerlandés.",
     "incluye": [
       "Caja Big Box",
-      "Caja interior de cartón",
-      "2 CD-ROM en caja jewel case",
-      "Manual",
-      "Hoja de instalación o introducción",
-      "Tarjeta de referencia de interfaz"
+      "Estuche jewel case",
+      "2 CD-ROM",
+      "Manual de instrucciones",
+      "Tarjeta de referencia",
+      "Addendum de la versión neerlandesa",
+      "Hoja de referencia de interfaz"
     ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Dungeon Keeper 2",
       "Dungeon Keeper",
+      "Dungeon Keeper 2",
       "Bullfrog Productions",
       "Electronic Arts",
       "estrategia en tiempo real",
-      "god game",
-      "mazmorras",
+      "gestión de mazmorras",
+      "dungeon management",
       "fantasía oscura",
       "humor negro",
-      "Horned Reaper",
-      "Keeper",
+      "criaturas",
+      "trampas",
       "Direct3D",
       "aceleración 3D",
       "Windows 95",
       "Windows 98",
-      "PC CD-ROM",
-      "edición europea",
+      "CD-ROM",
       "edición neerlandesa",
-      "Benelux",
-      "big box",
+      "Big Box PC",
       "coleccionismo PC",
       "preservación PC"
     ],
     "proteccion": {
       "tipo": "SafeDisc",
       "version": "",
-      "preservacion": "Preservación recomendada mediante imagen completa de los CD-ROM originales en formato capaz de conservar la estructura y características de la protección SafeDisc, preferiblemente MDF/MDS o equivalente. La ejecución virtual es viable en entornos Windows 95/98 correctamente configurados, aunque en sistemas modernos puede requerir parches de compatibilidad debido a las restricciones históricas de SafeDisc.",
+      "preservacion": "Edición en 2 CD-ROM. Para preservación se recomienda crear imágenes completas de ambos discos en un formato capaz de conservar estructura y subcanales de protección, preferiblemente MDF/MDS o CCD/IMG/SUB, además de documentar la caja y la documentación localizada. La ejecución virtual es viable en Windows 95/98 o entornos compatibles, aunque puede requerir montar la imagen adecuada o aplicar parches de compatibilidad por la protección de CD.",
       "formato": "MDF/MDS",
       "jugable_virtual": true
     }
