@@ -5049,6 +5049,67 @@
     }
   },
   {
+    "num": "000084",
+    "ig": "",
+    "titulo": "Panzer General",
+    "url": "juegos/panzer-general-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Simulación bélica",
+      "Estrategia histórica"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Panzer General es uno de los wargames por turnos más influyentes y accesibles de la década de 1990. Publicado originalmente por Strategic Simulations, Inc. en 1994, trasladó la Segunda Guerra Mundial a un sistema de mapas hexagonales, unidades persistentes, prestigio, experiencia y campañas encadenadas que permitían al jugador dirigir operaciones militares a gran escala desde Polonia hasta escenarios alternativos posteriores. Su importancia histórica reside en haber acercado el wargame operacional a un público más amplio sin abandonar la profundidad táctica característica de SSI. Esta edición española en caja grande distribuida por Dro Soft corresponde a la versión para IBM PC y compatibles en disquetes de 3,5 pulgadas, con documentación localizada y una presentación física representativa del mercado español de estrategia para MS-DOS de mediados de los noventa.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "Manual de instrucciones",
+      "6 disquetes de 3,5 pulgadas",
+      "Contrato de licencia Dro Soft",
+      "Sobre de respuesta comercial Dro Soft"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Panzer General",
+      "Strategic Simulations Inc",
+      "SSI",
+      "Dro Soft",
+      "Segunda Guerra Mundial",
+      "wargame operacional",
+      "estrategia por turnos",
+      "mapas hexagonales",
+      "campaña dinámica",
+      "unidades persistentes",
+      "MS-DOS",
+      "disquetes 3.5",
+      "edición española",
+      "Big Box PC",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, verificar integridad tras el volcado y conservar escaneos de manual, contrato de licencia y material de registro. La ejecución virtual debería ser viable en DOSBox o entorno MS-DOS compatible, aunque no se ha identificado de forma concluyente un sistema anticopia concreto en la edición mostrada.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -5080,60 +5141,6 @@
     ],
     "tags": [
       "Precintado"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Panzer General",
-    "url": "juegos/panzer-general-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Turnos",
-      "Wargame",
-      "Histórico"
-    ],
-    "desarrollador": [
-      "Strategic Simulations, Inc."
-    ],
-    "distribuidor": [
-      "Dro Soft",
-      "SSI"
-    ],
-    "ean": [],
-    "descripcion": "Panzer General es uno de los wargames por turnos más influyentes de los años 90, centrado en las campañas militares de la Segunda Guerra Mundial. El jugador asume el papel de un comandante alemán, gestionando unidades, recursos y estrategias a lo largo de diferentes escenarios históricos. Destaca por su accesibilidad frente a otros títulos del género, sin renunciar a una profundidad táctica considerable. La edición Big Box distribuida en España por Dro Soft incluye múltiples disquetes, documentación y material adicional, ofreciendo una experiencia clásica del MS-DOS con gran valor histórico y jugable.",
-    "incluye": [
-      "Caja Big Box",
-      "Manual de instrucciones",
-      "Disquetes (varios)",
-      "Contrato de licencia",
-      "Documentación adicional"
-    ],
-    "serie": [
-      "Big Box",
-      "Todos"
-    ],
-    "tags": [
-      "Panzer General",
-      "SSI",
-      "Wargame",
-      "Segunda Guerra Mundial",
-      "Estrategia por turnos",
-      "MS-DOS",
-      "Big Box",
-      "1994"
     ],
     "proteccion": {
       "tipo": "No determinado",
@@ -18327,7 +18334,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Rol",
       "Estrategia en tiempo real"
@@ -18368,7 +18375,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Educativo"
     ],
@@ -18406,7 +18413,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Arcade",
       "Carreras"
@@ -18443,7 +18450,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Estrategia en tiempo real"
     ],
@@ -18483,7 +18490,7 @@
       "Win98",
       "WinNT"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Pinball"
     ],
@@ -18523,7 +18530,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Acción",
       "Carreras",
@@ -18563,7 +18570,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Estrategia táctica por turnos"
     ],
@@ -18642,7 +18649,7 @@
     "plataforma": [
       "Win95"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Combate",
       "Dungeon crawler"
@@ -18683,7 +18690,7 @@
       "Win98",
       "WinNT"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Carreras"
     ],
@@ -18723,7 +18730,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Carreras"
     ],
@@ -18799,7 +18806,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Simulación",
       "Gestión"
@@ -18838,7 +18845,7 @@
       "MsDos",
       "Win95"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Simulación"
     ],
@@ -50254,7 +50261,7 @@
     "plataforma": [
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Deportes"
     ],
@@ -50294,7 +50301,7 @@
       "Win98",
       "WinXP"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Simulación",
       "Acción"
@@ -50335,7 +50342,7 @@
       "Win98",
       "WinXP"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Carreras",
       "Conducción"
