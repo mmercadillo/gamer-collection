@@ -4980,6 +4980,75 @@
     }
   },
   {
+    "num": "000083",
+    "ig": "https://www.instagram.com/p/DY_pBpfCNaU",
+    "titulo": "Legacy of Kain: Soul Reaver",
+    "url": "juegos/legacy-of-kain-soul-reaver-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción aventura",
+      "Aventura en tercera persona",
+      "Fantasía oscura",
+      "Puzzle",
+      "Plataformas 3D"
+    ],
+    "desarrollador": [
+      "Crystal Dynamics"
+    ],
+    "distribuidor": [
+      "Eidos Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "5032921005739"
+    ],
+    "descripcion": "Legacy of Kain: Soul Reaver es una aventura de acción en tercera persona desarrollada por Crystal Dynamics y publicada por Eidos Interactive en 1999. Segunda entrega de la saga Legacy of Kain, traslada el protagonismo a Raziel, antiguo lugarteniente vampírico de Kain, condenado a una existencia espectral y movido por la venganza en el decadente reino de Nosgoth. El juego destacó por su estructura de exploración conectada, resolución de puzles ambientales, combate cuerpo a cuerpo y una mecánica central basada en alternar entre el plano material y el plano espectral. Su dirección artística gótica, su narrativa oscura y su tecnología de streaming de escenarios con cargas mínimas lo convirtieron en uno de los títulos de acción-aventura más representativos del cambio de generación entre los noventa y los primeros años del 3D moderno. Esta edición española en caja grande para PC CD-ROM fue distribuida por Proein y se presenta completamente localizada al castellano.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Tarjeta de registro o encuesta de producto"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Legacy of Kain",
+      "Soul Reaver",
+      "Raziel",
+      "Kain",
+      "Nosgoth",
+      "Crystal Dynamics",
+      "Eidos Interactive",
+      "Proein",
+      "fantasía oscura",
+      "acción aventura",
+      "aventura en tercera persona",
+      "plano espectral",
+      "plano material",
+      "gótico",
+      "edición española",
+      "totalmente en castellano",
+      "PC CD-ROM",
+      "Big Box PC",
+      "Windows 95",
+      "Windows 98",
+      "preservación PC",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en BIN/CUE o ISO, conservando también la documentación física y la caja. La edición indica ejecución directa desde el disco, por lo que conviene verificar en entorno Windows 95/98 virtualizado si requiere presencia del CD durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -18534,7 +18603,7 @@
       "Win95",
       "Win98"
     ],
-    "formato": "DVD Case",
+    "formato": "Jewel Case",
     "genero": [
       "Deportes",
       "Manager Deportivo",
@@ -42031,44 +42100,6 @@
     ],
     "ean": [],
     "descripcion": "Invictus: In the Shadow of Olympus combina estrategia en tiempo real con elementos de rol en un mundo inspirado en la mitología griega. El jugador controla héroes, criaturas y ejércitos mitológicos mientras completa misiones y resuelve conflictos entre los dioses del Olimpo.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Legacy of Kain: Soul Reaver",
-    "url": "juegos/legacy-of-kain-soul-reaver-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Aventura"
-    ],
-    "desarrollador": [
-      "Crystal Dynamics"
-    ],
-    "distribuidor": [
-      "Eidos Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Legacy of Kain: Soul Reaver es un juego de acción y aventura en tercera persona en el que el jugador controla a Raziel, un vampiro caído que busca venganza contra Kain. Con un mundo gótico, narrativa profunda y la habilidad de alternar entre planos material y espectral, se convirtió en un clásico del género.",
     "incluye": [],
     "serie": [
       "Todos",
