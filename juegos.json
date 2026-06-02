@@ -5110,6 +5110,193 @@
     }
   },
   {
+    "num": "000085",
+    "ig": "https://www.instagram.com/p/DZFHDMECPfp",
+    "titulo": "Panzer General II",
+    "url": "juegos/panzer-general-ii-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Estrategia histórica",
+      "Simulación bélica"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Mindscape",
+      "Proein Software"
+    ],
+    "ean": [
+      "5028661003074"
+    ],
+    "descripcion": "Panzer General II es la continuación del influyente wargame táctico de Strategic Simulations, Inc., publicado en 1997 dentro de la etapa de SSI como compañía de Mindscape. Mantiene la estructura de estrategia por turnos basada en escenarios y campañas de la Segunda Guerra Mundial, pero actualiza la presentación con campos de batalla más detallados, uso de Living Battlefield, animaciones digitales, repetición VCR de turnos y soporte multijugador. Esta edición española en caja grande para PC CD-ROM Windows 95, distribuida por Proein Software, conserva especial interés documental por su localización al castellano y por representar la evolución de los wargames accesibles de SSI hacia una presentación audiovisual más moderna sin abandonar la profundidad táctica de la saga.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de usuario en castellano",
+      "Tarjeta de registro de producto",
+      "Folleto promocional de Heroes of Might and Magic III"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Panzer General",
+      "Panzer General II",
+      "Strategic Simulations",
+      "SSI",
+      "Mindscape",
+      "Proein",
+      "Segunda Guerra Mundial",
+      "wargame",
+      "estrategia por turnos",
+      "Living Battlefield",
+      "Windows 95",
+      "PC CD-ROM",
+      "manual en castellano",
+      "edición española",
+      "big box PC",
+      "coleccionismo PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para conservar la estructura del disco, junto con escaneos del manual, caja, tarjeta de registro y material publicitario incluido. La ejecución virtual debería ser viable en una máquina Windows 95/98 configurada con la imagen montada, pendiente de verificar si la edición concreta realiza comprobación de presencia de disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000086",
+    "ig": "",
+    "titulo": "Panzer General III: Scorched Earth",
+    "url": "juegos/panzer-general-iii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Wargame",
+      "Estrategia por turnos",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc."
+    ],
+    "ean": [],
+    "descripcion": "Tercera entrega de la serie, lanzada el 28 de septiembre de 2000. Centrada en el Frente Oriental de la Segunda Guerra Mundial, permite comandar campañas como Alemania o la URSS, con cuatro campañas principales, mapas en 3D, gráficos climáticos mejorados, generador de batallas y multijugador para hasta 4 jugadores.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000087",
+    "ig": "",
+    "titulo": "Panzer General II: Allied General",
+    "url": "juegos/panzer-general-ii-allied-general-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Wargame",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc."
+    ],
+    "ean": [],
+    "descripcion": "Lanzado en 1995 para Windows, conocido en Europa como Panzer General II, es la secuela directa de Panzer General centrada en las fuerzas Aliadas. Utiliza el motor de batalla por turnos sobre mapas hexagonales e incluye campañas británicas, estadounidenses y soviéticas en Europa, Rusia y el norte de África. Ofrece campañas no lineales, sistema de prestigio para comprar unidades, IA mejorada, editor de escenarios y soporte multijugador por email o red.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Precintado"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000088",
+    "ig": "",
+    "titulo": "Allied General",
+    "url": "juegos/allied-general-bigbox/",
+    "plataforma": [
+      "Win3.x",
+      "Win95",
+      "Win98",
+      "WinNT",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame"
+    ],
+    "desarrollador": [
+      "Halestorm",
+      "SSI Special Projects Group"
+    ],
+    "distribuidor": [
+      "Strategic Simulations Inc.",
+      "Mindscape"
+    ],
+    "ean": [
+      "0628553012099"
+    ],
+    "descripcion": "Secuela espiritual de Panzer General lanzada en 1995 para Windows. Estrategia por turnos ambientada en la II Guerra Mundial: lideras campañas aliadas (soviética, británica, americana) con comandos tácticos, gestión de unidades y escenarios históricos, e incluso multijugador por e‑mail.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -6634,51 +6821,6 @@
       "0711719695127"
     ],
     "descripcion": "Simulador/arcade de fútbol lanzado en 1996 para PlayStation y Windows. Incluye modo simulado y arcade con movimientos especiales como el Predator Shot, animación mediante captura de movimiento, varias cámaras, comentarios en varios idiomas y competición de liga y torneos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Allied General",
-    "url": "juegos/allied-general-bigbox/",
-    "plataforma": [
-      "Win3.x",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Wargame"
-    ],
-    "desarrollador": [
-      "Halestorm",
-      "SSI Special Projects Group"
-    ],
-    "distribuidor": [
-      "Strategic Simulations Inc.",
-      "Mindscape"
-    ],
-    "ean": [
-      "0628553012099"
-    ],
-    "descripcion": "Secuela espiritual de Panzer General lanzada en 1995 para Windows. Estrategia por turnos ambientada en la II Guerra Mundial: lideras campañas aliadas (soviética, británica, americana) con comandos tácticos, gestión de unidades y escenarios históricos, e incluso multijugador por e‑mail.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -9292,122 +9434,6 @@
     ],
     "ean": [],
     "descripcion": "Simulador de combate de tanques de la Segunda Guerra Mundial lanzado en 1998. Permite manejar más de 20 tanques de Alemania, EE. UU., Reino Unido y la URSS en escenarios individuales y campañas históricas (tres alemanas, tres rusas y escenarios para cada nación). Incluye editor de escenarios, aceleración Direct3D, y soporte multijugador por LAN e Internet para hasta seis jugadores.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Panzer General II",
-    "url": "juegos/panzer-general-ii-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Wargame",
-      "Estrategia por turnos",
-      "Segunda Guerra Mundial"
-    ],
-    "desarrollador": [
-      "Strategic Simulations, Inc."
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Wargame por turnos lanzado el 30 de septiembre de 1997. Usando el motor 'Living Battlefield', abarca campañas desde la Guerra Civil Española (1938) hasta escenarios hipotéticos de post‑1945. Presenta mapas hexagonales, niebla de guerra realista, editor de escenarios, ocho tipos de unidades (infantería, tanques, artillería, aviones…) y modo multijugador por red o correo electrónico. Muy aclamado por su IA polaca y profundidad táctica.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Panzer General II: Allied General",
-    "url": "juegos/panzer-general-ii-allied-general-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Wargame",
-      "Segunda Guerra Mundial"
-    ],
-    "desarrollador": [
-      "Strategic Simulations, Inc."
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Lanzado en 1995 para Windows, conocido en Europa como Panzer General II, es la secuela directa de Panzer General centrada en las fuerzas Aliadas. Utiliza el motor de batalla por turnos sobre mapas hexagonales e incluye campañas británicas, estadounidenses y soviéticas en Europa, Rusia y el norte de África. Ofrece campañas no lineales, sistema de prestigio para comprar unidades, IA mejorada, editor de escenarios y soporte multijugador por email o red.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Panzer General III: Scorched Earth",
-    "url": "juegos/panzer-general-iii-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Wargame",
-      "Estrategia por turnos",
-      "Segunda Guerra Mundial"
-    ],
-    "desarrollador": [
-      "Strategic Simulations, Inc."
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Tercera entrega de la serie, lanzada el 28 de septiembre de 2000. Centrada en el Frente Oriental de la Segunda Guerra Mundial, permite comandar campañas como Alemania o la URSS, con cuatro campañas principales, mapas en 3D, gráficos climáticos mejorados, generador de batallas y multijugador para hasta 4 jugadores.",
     "incluye": [],
     "serie": [
       "Todos",
