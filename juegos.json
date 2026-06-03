@@ -5176,7 +5176,7 @@
   },
   {
     "num": "000086",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DZHcyFwCOfn",
     "titulo": "Panzer General III: Scorched Earth",
     "url": "juegos/panzer-general-iii-bigbox/",
     "plataforma": [
@@ -5185,32 +5185,41 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Wargame",
       "Estrategia por turnos",
-      "Segunda Guerra Mundial"
+      "Wargame"
     ],
-    "desarrollador": [
-      "Strategic Simulations, Inc."
+    "desarrollador": "Strategic Simulations, Inc.",
+    "distribuidor": "Mattel Interactive",
+    "ean": "",
+    "descripcion": "Tercera entrega principal de la serie Panzer General, centrada en campañas del Frente Oriental durante la Segunda Guerra Mundial. Panzer General III: Scorched Earth mantiene la estructura de wargame táctico por turnos característica de Strategic Simulations, Inc., incorporando unidades 3D, efectos atmosféricos como niebla, lluvia y nieve, un sistema de campañas ramificadas y generador de batallas. La edición física en caja grande corresponde a la etapa final de SSI bajo el sello de Mattel Interactive, representando uno de los últimos exponentes comerciales de la saga clásica Panzer General en formato físico de PC.",
+    "incluye": [
+      "Caja de cartón",
+      "CD-ROM",
+      "Manual",
+      "Tarjeta de registro"
     ],
-    "distribuidor": [
-      "Strategic Simulations, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Tercera entrega de la serie, lanzada el 28 de septiembre de 2000. Centrada en el Frente Oriental de la Segunda Guerra Mundial, permite comandar campañas como Alemania o la URSS, con cuatro campañas principales, mapas en 3D, gráficos climáticos mejorados, generador de batallas y multijugador para hasta 4 jugadores.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Panzer General",
+      "SSI",
+      "Strategic Simulations",
+      "Mattel Interactive",
+      "Segunda Guerra Mundial",
+      "Frente Oriental",
+      "wargame clásico",
+      "estrategia por turnos",
+      "campañas ramificadas",
+      "unidades 3D",
+      "CD-ROM",
+      "Big Box PC",
+      "coleccionismo PC",
+      "preservación videojuego físico"
     ],
     "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "tipo": "No determinado"
     }
   },
   {
