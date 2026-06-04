@@ -5224,40 +5224,59 @@
   },
   {
     "num": "000087",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DZKGq6kCEjx",
     "titulo": "Panzer General II: Allied General",
     "url": "juegos/panzer-general-ii-allied-general-bigbox/",
     "plataforma": [
-      "Win95",
-      "Win98"
+      "Win3.x",
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
-      "Wargame",
-      "Segunda Guerra Mundial"
+      "Estrategia por turnos",
+      "Wargame"
     ],
-    "desarrollador": [
-      "Strategic Simulations, Inc."
+    "desarrollador": "Halestorm y Strategic Simulations, Inc.",
+    "distribuidor": "Strategic Simulations, Inc.; Mindscape; Proein",
+    "ean": "",
+    "descripcion": "Edición española en caja grande distribuida por Proein de Panzer General II, una edición especialmente interesante desde el punto de vista documental porque no se corresponde con el Panzer General II más conocido y posterior asociado habitualmente a campañas centradas en el ejército alemán. En esta caja española, el título comercial Panzer General II se utiliza para presentar Allied General, segundo volumen de la línea Five-Star General de Strategic Simulations, Inc., centrado en la perspectiva aliada de la Segunda Guerra Mundial. Esta particularidad convierte la edición en una pieza singular dentro de la catalogación de la saga, ya que la portada española puede inducir a confusión con el Panzer General II tradicional, cuando el contenido, el manual y la contraportada remiten claramente a Allied General. El juego mantiene la estructura de wargame táctico-operacional por turnos de Panzer General, con campañas, escenarios históricos, progresión de unidades veteranas, gestión de tropas y un enfoque más accesible que el de los wargames clásicos más complejos. La edición conserva además elementos propios de la transición del PC de mediados de los noventa, con soporte para Windows 3.x y Windows 95, uso de CD-ROM, manual en castellano y documentación impresa orientada al usuario doméstico.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Manual",
+      "Hoja Léame primero",
+      "Tarjeta de registro",
+      "Sobre o funda de papel"
     ],
-    "distribuidor": [
-      "Strategic Simulations, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Lanzado en 1995 para Windows, conocido en Europa como Panzer General II, es la secuela directa de Panzer General centrada en las fuerzas Aliadas. Utiliza el motor de batalla por turnos sobre mapas hexagonales e incluye campañas británicas, estadounidenses y soviéticas en Europa, Rusia y el norte de África. Ofrece campañas no lineales, sistema de prestigio para comprar unidades, IA mejorada, editor de escenarios y soporte multijugador por email o red.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Precintado"
+      "Panzer General",
+      "Panzer General II",
+      "Allied General",
+      "Five-Star General",
+      "SSI",
+      "Strategic Simulations",
+      "Mindscape",
+      "Proein",
+      "Segunda Guerra Mundial",
+      "bando aliado",
+      "wargame clásico",
+      "estrategia por turnos",
+      "Windows 3.x",
+      "Windows 95",
+      "CD-ROM",
+      "edición española",
+      "manual en castellano",
+      "caja grande",
+      "rareza editorial",
+      "preservación digital",
+      "PC clásico"
     ],
     "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "tipo": "No determinado"
     }
   },
   {
