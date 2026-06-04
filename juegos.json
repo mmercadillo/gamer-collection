@@ -58392,5 +58392,385 @@
       "formato": "ISO",
       "jugable_virtual": false
     }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Police Quest: SWAT 2",
+    "url": "juegos/police-quest-swat-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Simulación"
+    ],
+    "desarrollador": "Yosemite Entertainment",
+    "distribuidor": "Sierra FX / Coktel Educative Multimedia, S.L.",
+    "ean": "3348542041653",
+    "descripcion": "Police Quest: SWAT 2 es una entrega de 1998 dentro de la saga Police Quest y de la subserie SWAT de Sierra, desarrollada por Yosemite Entertainment. A diferencia del primer Police Quest: SWAT, mucho más apoyado en vídeo, formación policial y escenas FMV, esta segunda parte adopta una estructura táctica en tiempo real con perspectiva isométrica, gestión de unidades, planificación de intervenciones, rescate de rehenes, uso de especialistas y toma de decisiones bajo presión. Su planteamiento permite jugar desde el lado del equipo SWAT del LAPD o desde la organización terrorista, lo que le da un enfoque poco habitual dentro de la saga y lo aproxima más a la estrategia táctica de escuadrón que a la aventura policial clásica. Esta edición española en Big Box para Windows 95/98 conserva el posicionamiento comercial de Sierra FX, con textos de pantalla e instrucciones en castellano, y representa una etapa muy concreta del PC de finales de los noventa: CD-ROM, estrategia táctica, manual físico, localización española y una fuerte apuesta por presentar la simulación policial como producto serio, documentado y orientado al realismo.",
+    "incluye": [
+      "CD-ROM",
+      "manual",
+      "guía básica de supervivencia",
+      "tarjeta de registro Sierra Number 1 Club",
+      "caja Jewel Case"
+    ],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Police Quest",
+      "SWAT",
+      "Sierra",
+      "Sierra FX",
+      "Yosemite Entertainment",
+      "Coktel Educative Multimedia",
+      "LAPD",
+      "Daryl F. Gates",
+      "tácticas policiales",
+      "estrategia táctica",
+      "tiempo real",
+      "vista isométrica",
+      "CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "textos en castellano",
+      "Big Box",
+      "multijugador",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM, preferentemente en formato BIN/CUE para conservar la estructura del soporte físico y facilitar su documentación archivística. La ejecución virtual es viable montando la imagen de disco en un entorno Windows 95/98 compatible.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Atletismo 2000",
+    "url": "juegos/pc-atletismo-2000-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Atletismo 2000 es un título deportivo español desarrollado y distribuido por Dinamic Multimedia para PC. Centrado en pruebas de atletismo, pertenece a la etapa final de la compañía y representa una línea de producto muy característica del mercado español de finales de los noventa: juegos deportivos especializados, edición económica en soporte CD-ROM, compatibilidad con Windows 95/98, aceleración 3D opcional y funciones de juego en red. Su interés para preservación reside en documentar tanto el catálogo deportivo de Dinamic Multimedia como el paso desde las ediciones de caja grande hacia formatos compactos como el Jewel Case. La edición resulta especialmente representativa del videojuego español de PC anterior a la desaparición de Dinamic Multimedia, con una presentación vinculada al atletismo federado y orientada al público doméstico de Windows.",
+    "incluye": [
+      "CD-ROM",
+      "caja Jewel Case"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Atletismo 2000",
+      "Dinamic Multimedia",
+      "atletismo",
+      "deporte español",
+      "Real Federación Española de Atletismo",
+      "simulación deportiva",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "Jewel Case",
+      "aceleración 3D",
+      "Direct3D",
+      "juego en red",
+      "edición española",
+      "preservación PC",
+      "videojuego español"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM en formato BIN/CUE, conservando la estructura original del soporte físico antes de cualquier instalación o parcheado. Al no existir evidencia documental suficiente sobre una protección comercial concreta para esta edición, debe verificarse la imagen con herramientas de preservación y documentar si el ejecutable requiere comprobación del disco durante la instalación o el arranque.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "MultiAction 2000",
+    "url": "juegos/multiaction-2000-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Arcade",
+      "Carreras",
+      "Aventura gráfica",
+      "Point and click",
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Unique Development Studios",
+      "Revolution Software",
+      "Disintegrator"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia",
+      "Virgin Interactive",
+      "Empire Interactive"
+    ],
+    "ean": [],
+    "descripcion": "MultiAction 2000 es un recopilatorio para PC publicado por Dinamic Multimedia que reúne tres propuestas muy distintas dentro del catálogo de juegos de finales de los noventa: Ignition, un arcade de carreras con vehículos en miniatura y enfoque rápido; Broken Sword II: Las Fuerzas del Mal, una aventura gráfica point and click desarrollada por Revolution Software y continuadora de una de las sagas europeas más importantes del género; y Tribal Rage, un título de estrategia en tiempo real ambientado en un futuro postapocalíptico. Esta edición española en Jewel Case resulta representativa de los packs económicos de PC distribuidos en España a finales de los años noventa, donde se combinaban licencias internacionales, soporte CD-ROM, compatibilidad Windows 95/98 y una presentación compacta orientada al gran público. Su valor documental reside en preservar no solo los juegos incluidos, sino también una forma muy concreta de distribución física nacional previa a la consolidación definitiva del DVD Case y de las reediciones modernas.",
+    "incluye": [
+      "CD-ROM",
+      "caja Jewel Case",
+      "carátula",
+      "funda plástica exterior"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "MultiAction 2000",
+      "Dinamic Multimedia",
+      "Ignition",
+      "Broken Sword II",
+      "Las Fuerzas del Mal",
+      "Tribal Rage",
+      "Unique Development Studios",
+      "Revolution Software",
+      "Disintegrator",
+      "Virgin Interactive",
+      "Empire Interactive",
+      "arcade de carreras",
+      "aventura gráfica europea",
+      "point and click",
+      "estrategia en tiempo real",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "Jewel Case",
+      "edición española",
+      "pack recopilatorio",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM en formato BIN/CUE. Al tratarse de un recopilatorio con varios juegos y ejecutables, conviene verificar individualmente Ignition, Broken Sword II: Las Fuerzas del Mal y Tribal Rage para documentar si alguno requiere comprobación del disco durante instalación o ejecución. No se identifica evidencia suficiente de una protección comercial concreta como SafeDisc, SecuROM, LaserLock o CD-Cops en esta edición específica, por lo que la catalogación prudente queda como no determinada hasta realizar comprobación técnica del soporte.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "MiG Alley",
+    "url": "juegos/mig-alley-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación de vuelo",
+      "Simulación de combate",
+      "Combate aéreo"
+    ],
+    "desarrollador": [
+      "Rowan Software"
+    ],
+    "distribuidor": [
+      "Empire Interactive",
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "MiG Alley es un simulador de combate aéreo desarrollado por Rowan Software y publicado originalmente por Empire Interactive en 1999. Ambientado en la Guerra de Corea, se centra en los primeros grandes enfrentamientos entre reactores, especialmente los combates entre el F-86 Sabre y el MiG-15 en la zona conocida históricamente como MiG Alley. Su relevancia dentro del género reside en su enfoque de simulación histórica, su campaña dinámica y su intento de representar con detalle el combate aéreo de la primera era del jet. Esta edición española distribuida por Dinamic Multimedia para Windows 95/98 en formato Jewel Case documenta la llegada al mercado nacional de uno de los simuladores militares de PC más especializados de finales de los noventa, en una etapa en la que el CD-ROM, la aceleración 3D y las ediciones compactas sustituyeron progresivamente a la caja grande tradicional.",
+    "incluye": [
+      "CD-ROM",
+      "caja Jewel Case",
+      "carátula",
+      "funda plástica exterior"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "MiG Alley",
+      "Rowan Software",
+      "Empire Interactive",
+      "Dinamic Multimedia",
+      "Guerra de Corea",
+      "MiG-15",
+      "F-86 Sabre",
+      "simulación aérea",
+      "combate aéreo",
+      "campaña dinámica",
+      "aviación militar",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "Jewel Case",
+      "edición española",
+      "preservación PC",
+      "videojuego de simulación"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM en formato BIN/CUE, conservando la estructura original del disco y permitiendo documentar la comprobación de soporte físico durante instalación o ejecución. Para uso archivístico conviene conservar además una copia verificada del contenido del disco y probar la ejecución montando la imagen en un entorno Windows 95/98 virtualizado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Fields of Fire: War Along the Mohawk",
+    "url": "juegos/fields-of-fire-war-along-the-mohawk-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Estrategia",
+      "Estrategia táctica",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Edward Grabowski Communications"
+    ],
+    "distribuidor": [
+      "Empire Interactive",
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Fields of Fire: War Along the Mohawk es un juego de estrategia histórica para PC ambientado en el conflicto colonial norteamericano del siglo XVIII, durante la guerra entre franceses, británicos y pueblos nativos en la región del Mohawk. Desarrollado por Edward Grabowski Communications y publicado originalmente por Empire Interactive, combina gestión de supervivencia, exploración, defensa de asentamientos, combate táctico y toma de decisiones en un contexto poco habitual dentro del videojuego de estrategia de finales de los noventa. Esta edición española distribuida por Dinamic Multimedia para Windows 95/98 en formato Jewel Case documenta la llegada al mercado nacional de un título históricamente singular, alejado de los escenarios bélicos más habituales del PC clásico y representativo de una etapa en la que las editoras españolas distribuían licencias internacionales en ediciones compactas de CD-ROM.",
+    "incluye": [
+      "CD-ROM",
+      "caja Jewel Case",
+      "carátula",
+      "funda plástica exterior"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "Fields of Fire",
+      "War Along the Mohawk",
+      "Edward Grabowski Communications",
+      "Empire Interactive",
+      "Dinamic Multimedia",
+      "estrategia histórica",
+      "estrategia táctica",
+      "Guerra Franco-India",
+      "siglo XVIII",
+      "Mohawk",
+      "colonias norteamericanas",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "Jewel Case",
+      "edición española",
+      "preservación PC",
+      "videojuego histórico"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM en formato BIN/CUE, conservando la estructura original del soporte físico y permitiendo una verificación posterior de posibles comprobaciones de disco durante instalación o ejecución. Al no existir evidencia suficiente de una protección comercial concreta para esta edición, conviene documentar técnicamente el disco antes de clasificarlo como SafeDisc, SecuROM, LaserLock, CD-Cops u otro sistema específico.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Total Annihilation + Heart of Darkness",
+    "url": "juegos/total-annihilation-heart-of-darkness-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Acción",
+      "Plataformas",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Cavedog Entertainment",
+      "Amazing Studio"
+    ],
+    "distribuidor": [
+      "Infogrames",
+      "E-Play"
+    ],
+    "ean": [],
+    "descripcion": "Total Annihilation + Heart of Darkness es una edición recopilatoria en Jewel Case que reúne dos títulos muy distintos del PC de finales de los noventa. Total Annihilation, desarrollado por Cavedog Entertainment, es uno de los referentes de la estrategia en tiempo real por su escala de combate, uso intensivo de unidades, relieve del terreno, economía de recursos y enfoque más físico y sistémico que otros RTS de su época. Heart of Darkness, desarrollado por Amazing Studio, representa otra tradición del PC y la consola de los noventa: la aventura de acción cinemática con animación elaborada, plataformas, escenas de transición y una puesta en escena muy vinculada al legado de Eric Chahi y Delphine Software. Esta edición española bajo sello E-Play/Infogrames en soporte de 2 CD-ROM resulta relevante para preservación porque documenta una forma habitual de reedición económica en España, combinando licencias internacionales, formato Jewel Case, compatibilidad Windows 95/98 y distribución compacta para el mercado doméstico de PC.",
+    "incluye": [
+      "2 CD-ROM",
+      "caja Jewel Case",
+      "carátula",
+      "funda plástica exterior"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Total Annihilation",
+      "Heart of Darkness",
+      "Cavedog Entertainment",
+      "Amazing Studio",
+      "Infogrames",
+      "E-Play",
+      "GT Interactive",
+      "Interplay",
+      "estrategia en tiempo real",
+      "aventura cinemática",
+      "plataformas cinemático",
+      "Eric Chahi",
+      "CD-ROM",
+      "2 CD",
+      "Windows 95",
+      "Windows 98",
+      "Jewel Case",
+      "edición española",
+      "recopilatorio",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa de ambos CD-ROM en formato BIN/CUE, manteniendo la estructura original de los discos y documentando cada soporte por separado. Al tratarse de una edición recopilatoria con dos juegos distintos, conviene verificar individualmente la instalación y ejecución de Total Annihilation y Heart of Darkness con las imágenes montadas, conservando la posible comprobación de disco propia de cada ejecutable.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
   }
 ]
