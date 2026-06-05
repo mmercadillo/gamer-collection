@@ -5281,47 +5281,69 @@
   },
   {
     "num": "000088",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DZMxSsjCCBv",
     "titulo": "Allied General",
     "url": "juegos/allied-general-bigbox/",
     "plataforma": [
-      "Win3.x",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
-      "Wargame"
+      "Wargame",
+      "Estrategia histórica",
+      "Simulación bélica"
     ],
     "desarrollador": [
       "Halestorm",
       "SSI Special Projects Group"
     ],
     "distribuidor": [
-      "Strategic Simulations Inc.",
+      "Strategic Simulations, Inc.",
       "Mindscape"
     ],
-    "ean": [
-      "0628553012099"
+    "ean": [],
+    "descripcion": "Allied General es la segunda entrega de la línea de wargames accesibles iniciada por Panzer General dentro de la 5-Star Series de Strategic Simulations, Inc. Frente al enfoque más conocido de Panzer General, centrado en campañas desde la perspectiva alemana, Allied General desplaza el protagonismo hacia los ejércitos aliados y permite disputar campañas como general estadounidense, británico o soviético contra Alemania. Mantiene la estructura de estrategia por turnos sobre mapa hexagonal, gestión de unidades persistentes, experiencia, reemplazos y toma de objetivos, pero amplía el punto de vista histórico con escenarios del frente occidental, el frente oriental y operaciones hipotéticas como Operation Jupiter. La edición mostrada corresponde a una Big Box europea para Windows 95 publicada bajo los sellos SSI y Mindscape, en formato CD-ROM, representativa de la transición de los wargames clásicos de PC desde MS-DOS hacia entornos Windows con interfaz gráfica, multijugador por correo electrónico y opciones de juego remoto.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "CD-ROM",
+      "Funda o sobre de CD SSI",
+      "Tarjeta de registro",
+      "Documentación impresa adicional"
     ],
-    "descripcion": "Secuela espiritual de Panzer General lanzada en 1995 para Windows. Estrategia por turnos ambientada en la II Guerra Mundial: lideras campañas aliadas (soviética, británica, americana) con comandos tácticos, gestión de unidades y escenarios históricos, e incluso multijugador por e‑mail.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Allied General",
+      "Strategic Simulations",
+      "SSI",
+      "Mindscape",
+      "Five-Star Series",
+      "Panzer General",
+      "wargame clásico",
+      "estrategia por turnos",
+      "Segunda Guerra Mundial",
+      "Aliados",
+      "campaña soviética",
+      "campaña británica",
+      "campaña estadounidense",
+      "hexágonos",
+      "PBEM",
+      "Windows 95",
+      "PC CD-ROM",
+      "Big Box",
+      "juego físico PC",
+      "preservación PC"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición en CD-ROM para Windows 95. Para preservación se recomienda crear una imagen completa del disco original, documentar el contenido físico asociado y verificar la instalación en una máquina virtual Windows 95/98. No hay evidencia suficiente en la edición mostrada para confirmar un sistema anticopia concreto.",
+      "formato": "ISO",
+      "jugable_virtual": true
     }
   },
   {
