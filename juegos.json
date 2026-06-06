@@ -9415,45 +9415,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Neverwinter Nights 2: Lawful Good",
-    "url": "juegos/neverwinter-nights-2-lawful-good-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Obsidian Entertainment"
-    ],
-    "distribuidor": [
-      "Atari Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Edición limitada lanzada el 3 de noviembre de 2006 en Europa. Incluye el juego base *Neverwinter Nights 2* junto con **Neverwinter Nights** y sus dos expansiones (*Shadows of Undrentide*, *Hordes of the Underdark*), además de contenido físico exclusivo (figura del Eldritch Giant, anillo Lawful Good, mapa en papel, libro de arte, DVD con banda sonora y arte), la habilidad especial 'Blessed of Waukeen' y 10 personajes predefinidos de alineamiento lawful good.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "NHL 2000",
     "url": "juegos/nhl-2000-bigbox/",
     "plataforma": [
@@ -12005,44 +11966,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "The X-Files: The Game",
-    "url": "juegos/the-x-files-the-game-2-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura",
-      "FMV"
-    ],
-    "desarrollador": [
-      "HyperBole Studios"
-    ],
-    "distribuidor": [
-      "Fox Interactive"
-    ],
-    "ean": [],
-    "descripcion": "The X-Files: The Game es una aventura interactiva con escenas en vídeo (FMV) que expande el universo de la famosa serie de televisión. El jugador asume el papel del agente Craig Willmore, investigando la desaparición de Mulder y Scully. Con actores originales, escenarios reales y una narrativa ramificada, ofrece una experiencia inmersiva para los fans.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Scotland Yard: A la Búsqueda de Mister X",
     "url": "juegos/scotland-yard-a-la-busqueda-de-mister-x-2-bigbox/",
     "plataforma": [
@@ -12642,7 +12565,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Neverwinter Nights 2: Lawful Good",
-    "url": "juegos/neverwinter-nights-2-lawful-good-2-bigbox/",
+    "url": "juegos/neverwinter-nights-2-lawful-good-bigbox/",
     "plataforma": [
       "Win95",
       "Win98",
