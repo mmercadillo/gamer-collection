@@ -5347,6 +5347,74 @@
     }
   },
   {
+    "num": "000089",
+    "ig": "https://www.instagram.com/p/DZPHf_mCMfO",
+    "titulo": "Pacific General",
+    "url": "juegos/pacific-general-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Simulación bélica",
+      "Estrategia histórica"
+    ],
+    "desarrollador": [
+      "SSI Special Projects Group"
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Mindscape",
+      "Proein Software"
+    ],
+    "ean": [],
+    "descripcion": "Pacific General es un wargame de estrategia por turnos publicado dentro de la familia 5-Star Series de SSI y ambientado en el teatro del Pacífico de la Segunda Guerra Mundial. Frente al enfoque europeo y terrestre de Panzer General, esta entrega desplaza el centro de gravedad hacia las campañas entre Japón y Estados Unidos, incorporando operaciones anfibias, aviación embarcada, portaaviones, acorazados, islas estratégicas y un modelo de combate naval mucho más relevante que en entregas anteriores. Utiliza una evolución del motor de Panzer General y Allied General, con campañas y escenarios para ambos bandos, juego por red o módem y un generador de batallas cargado con mapas y unidades de títulos previos de la serie. Esta edición española en caja grande para PC CD-ROM, distribuida por Proein Software, conserva especial interés para la preservación por representar una de las variantes menos comunes de la línea SSI 5-Star Series y por documentar la transición del wargame accesible de MS-DOS hacia Windows 95.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "Manual de usuario",
+      "CD-ROM en caja jewel case",
+      "Hoja de instalación"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Pacific General",
+      "SSI",
+      "Strategic Simulations Inc",
+      "Mindscape",
+      "Proein Software",
+      "5-Star Series",
+      "Panzer General",
+      "Allied General",
+      "Segunda Guerra Mundial",
+      "Guerra del Pacífico",
+      "wargame clásico",
+      "estrategia por turnos",
+      "combate naval",
+      "portaaviones",
+      "aviación embarcada",
+      "campaña japonesa",
+      "campaña estadounidense",
+      "Windows 95",
+      "PC CD-ROM",
+      "edición española",
+      "manual en castellano",
+      "big box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen ISO del CD-ROM original y digitalización de manual, hoja de instalación y caja. La ejecución virtual es viable en una máquina Windows 95 configurada para juegos de la época; conviene verificar si la edición concreta realiza comprobación de presencia del CD durante la ejecución.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -10309,7 +10377,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Steel Panthers",
-    "url": "juegos/steel-panthers-bigbox/",
+    "url": "juegos/steel-panthers-us-bigbox/",
     "plataforma": [
       "MsDos",
       "Win95",
@@ -50928,7 +50996,7 @@
     "num": "000000",
     "ig": "",
     "titulo": "Steel Panthers",
-    "url": "juegos/steel-panthers-2-bigbox/",
+    "url": "juegos/steel-panthers-esp-bigbox/",
     "plataforma": [
       "Win95"
     ],
