@@ -5415,6 +5415,77 @@
     }
   },
   {
+    "num": "000090",
+    "ig": "https://www.instagram.com/p/DZRqpLqCIVC",
+    "titulo": "Steel Panthers",
+    "url": "juegos/steel-panthers-esp-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Wargame",
+      "Estrategia por turnos",
+      "Simulación táctica",
+      "Simulación bélica",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Mindscape",
+      "Proein"
+    ],
+    "ean": [
+      "5018247953220"
+    ],
+    "descripcion": "Steel Panthers es uno de los wargames tácticos más representativos de mediados de los años noventa en PC. Desarrollado por Strategic Simulations, Inc. dentro de la tradición de diseño bélico asociada a Gary Grigsby, propone combates por turnos centrados en unidades terrestres de la Segunda Guerra Mundial, con especial protagonismo de tanques, infantería, artillería, reconocimiento y apoyo motorizado. Su enfoque combina accesibilidad visual, mapas tácticos, escenarios históricos, campañas en Europa y el Pacífico entre 1939 y 1945, editor de escenarios y una profundidad poco habitual fuera del wargame especializado. Técnicamente destacó por su presentación SVGA, animaciones, sonido digitalizado y abundante material audiovisual de contexto militar. Esta edición Big Box distribuida en España por Proein bajo sello Mindscape/SSI incorpora manual en castellano y resulta especialmente interesante para preservación por conservar tanto el juego base en CD-ROM como material asociado al Steel Panthers Campaign Disk.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "Manual de instrucciones",
+      "CD-ROM del juego en caja jewel case",
+      "CD-ROM Steel Panthers Campaign Disk en caja jewel case",
+      "Hoja informativa Steel Panthers Campaign Disk",
+      "Hoja de registro del producto Proein",
+      "Tarjeta de soporte técnico Mindscape"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Steel Panthers",
+      "Strategic Simulations",
+      "SSI",
+      "Mindscape",
+      "Proein",
+      "Gary Grigsby",
+      "wargame táctico",
+      "estrategia por turnos",
+      "Segunda Guerra Mundial",
+      "tanques",
+      "combate blindado",
+      "hexágonos",
+      "SVGA",
+      "Campaign Disk",
+      "CD-ROM",
+      "MS-DOS",
+      "manual en castellano",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda crear imagen completa del disco del juego y del Steel Panthers Campaign Disk, preferiblemente en BIN/CUE, y conservar escaneos del manual, hojas de campaña, registro y documentación de soporte. La ejecución virtual debería ser viable en entorno MS-DOS emulado como DOSBox, pendiente de verificar si la edición concreta requiere presencia del CD durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -50899,47 +50970,6 @@
     ],
     "ean": [],
     "descripcion": "Clásico de estrategia diseñado por Sid Meier en el que el jugador lidera una potencia europea en la colonización del Nuevo Mundo. Combina exploración, expansión, explotación de recursos y diplomacia con potencias rivales y pueblos nativos. El objetivo final es declarar y ganar la independencia frente a la metrópoli. Esta edición española en CD-ROM incluye manual y textos en castellano, manteniendo intacta la profundidad estratégica que lo convirtió en uno de los grandes títulos 4X de los años 90.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Steel Panthers",
-    "url": "juegos/steel-panthers-esp-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Wargame",
-      "Táctica por turnos",
-      "Segunda Guerra Mundial"
-    ],
-    "desarrollador": [
-      "Strategic Simulations Inc. (SSI)"
-    ],
-    "distribuidor": [
-      "Proein"
-    ],
-    "ean": [
-      "5018247953220"
-    ],
-    "descripcion": "Wargame táctico ambientado en la Segunda Guerra Mundial centrado en combates acorazados y operaciones combinadas. El jugador dirige pelotones y batallones completos en escenarios históricos situados en Europa y el Pacífico entre 1939 y 1945. Destaca por su profundidad estratégica, amplio catálogo de unidades terrestres, editor de escenarios y modo campaña. La edición en CD-ROM incluye el Campaign Disk adicional, ampliando las posibilidades estratégicas y la rejugabilidad del título.",
     "incluye": [],
     "serie": [
       "Todos",
