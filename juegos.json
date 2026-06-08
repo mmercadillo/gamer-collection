@@ -5486,6 +5486,146 @@
     }
   },
   {
+    "num": "000091",
+    "ig": "https://www.instagram.com/p/DZURVKhiPIh",
+    "titulo": "Los Sims",
+    "url": "juegos/los-sims-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación social",
+      "Simulación de vida",
+      "Gestión",
+      "Construcción"
+    ],
+    "desarrollador": [
+      "Maxis"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Los Sims es el simulador social desarrollado por Maxis y publicado por Electronic Arts en el año 2000, diseñado por Will Wright tras el enorme legado de SimCity. El juego trasladó la lógica de la simulación desde la ciudad al hogar y a la vida cotidiana, permitiendo crear personajes, definir su personalidad, construir viviendas, comprar mobiliario, gestionar necesidades, relaciones, trabajo y rutinas domésticas. Su sistema de inteligencia artificial basada en deseos, estados de ánimo, objetos interactivos y comportamientos emergentes convirtió situaciones aparentemente triviales en historias abiertas creadas por el jugador. Esta edición española en caja grande para PC CD-ROM, traducida al castellano, representa el inicio físico de una de las sagas más influyentes y populares del videojuego de PC, especialmente relevante para documentar el cambio cultural que supuso llevar la simulación de vida al gran público.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Guía de instalación",
+      "Hoja de necesidades del sistema"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Los Sims"
+    ],
+    "tags": [
+      "Los Sims",
+      "The Sims",
+      "Maxis",
+      "Electronic Arts",
+      "Will Wright",
+      "SimCity",
+      "simulación social",
+      "simulación de vida",
+      "vida virtual",
+      "construcción de casas",
+      "gestión doméstica",
+      "inteligencia artificial",
+      "edición española",
+      "traducido al castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "juego físico",
+      "preservación PC",
+      "coleccionismo"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y documentación fotográfica o escaneada del material impreso. Debe verificarse en entorno Windows 95/98 virtualizado con la imagen montada, ya que las ediciones físicas de la época podían requerir comprobación de disco durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000092",
+    "ig": "https://www.instagram.com/p/DZURVKhiPIh",
+    "titulo": "Los Sims: Más vivos que nunca",
+    "url": "juegos/los-sims-mas-vivos-que-nunca-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación social",
+      "Simulación de vida",
+      "Gestión",
+      "Construcción",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Maxis"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Los Sims: Más Vivos Que Nunca es la primera expansión oficial de Los Sims, publicada en el año 2000 para ampliar el simulador social creado por Maxis bajo la dirección conceptual de Will Wright. Conocida internacionalmente como The Sims: Livin' Large o Livin' It Up según el territorio, esta expansión añadió nuevas profesiones, objetos, estilos arquitectónicos, vecinos, personajes extravagantes y situaciones imprevisibles que reforzaban el carácter emergente y humorístico del juego original. Entre sus aportaciones más recordadas están los nuevos trabajos, objetos como la bola de cristal, la lámpara maravillosa, la cama corazón, el laboratorio químico, la guitarra eléctrica, robots domésticos, fenómenos paranormales y eventos absurdos como plagas, abducciones alienígenas o apariciones de la muerte. Esta edición española en caja grande, traducida al castellano y dependiente del juego base Los Sims, conserva especial interés documental por representar el inicio del modelo de expansiones físicas que marcaría profundamente la historia comercial de la saga en PC.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Hoja de requisitos de sistema"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "Los Sims"
+    ],
+    "tags": [
+      "Los Sims",
+      "The Sims",
+      "Más Vivos Que Nunca",
+      "Livin' Large",
+      "Livin' It Up",
+      "Maxis",
+      "Electronic Arts",
+      "Will Wright",
+      "expansión",
+      "simulación social",
+      "simulación de vida",
+      "vida virtual",
+      "nuevas profesiones",
+      "nuevos objetos",
+      "robot doméstico",
+      "paranormal",
+      "abducción alienígena",
+      "edición española",
+      "traducido al castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "preservación PC",
+      "coleccionismo"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en BIN/CUE o ISO y conservación conjunta del juego base Los Sims, necesario para instalar y ejecutar la expansión. En entorno virtual conviene usar Windows 95/98 con la imagen montada, verificando la dependencia del disco físico y la compatibilidad con la instalación original.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -43750,53 +43890,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Los Sims: Más vivos que nunca",
-    "url": "juegos/los-sims-mas-vivos-que-nunca-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Estrategia",
-      "Vida virtual"
-    ],
-    "desarrollador": [
-      "Maxis"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "Los Sims: Más vivos que nunca es la primera expansión del exitoso simulador de vida Los Sims. Añade nuevos objetos, decoraciones y actividades que amplían las posibilidades de personalización y convivencia del hogar. Introduce más interacciones sociales y una mayor variedad de estilos de vida.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Simulación de vida",
-      "Expansión",
-      "Estrategia",
-      "Maxis",
-      "Creatividad",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "DethKarz",
     "url": "juegos/dethkarz-bigbox/",
     "plataforma": [
@@ -53043,52 +53136,6 @@
       "Historia",
       "Estrategia militar",
       "Edición española"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Los Sims",
-    "url": "juegos/los-sims-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Vida",
-      "Gestión"
-    ],
-    "desarrollador": [
-      "Maxis"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [
-      "5030930022517"
-    ],
-    "descripcion": "Simulador social creado por Will Wright en el que el jugador diseña personajes, construye sus hogares y controla sus vidas diarias. Los Sims deben gestionar sus necesidades, desarrollar relaciones personales, progresar en sus carreras y desenvolverse en un entorno doméstico abierto con gran libertad de interacción.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Simulación social",
-      "Will Wright",
-      "Maxis",
-      "Vida virtual",
-      "Edición española",
-      "Clásico"
     ],
     "proteccion": {
       "tipo": "No determinado",
