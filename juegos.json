@@ -5626,6 +5626,73 @@
     }
   },
   {
+    "num": "000093",
+    "ig": "https://www.instagram.com/p/DZXDonWCIt5",
+    "titulo": "Zeus: Señor del Olimpo",
+    "url": "juegos/zeus-senor-del-olimpo-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Construcción de ciudades",
+      "Estrategia",
+      "Gestión",
+      "Simulación histórica",
+      "City builder"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra Studios",
+      "Havas Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "Señor del Olimpo: Zeus, conocido internacionalmente como Zeus: Master of Olympus, es un city builder histórico-mitológico desarrollado por Impressions Games dentro de la línea de construcción urbana iniciada por Caesar III y Faraón. Ambientado en la Antigua Grecia, desplaza la simulación de ciudad clásica hacia un modelo más narrativo y fantástico, con ciudades-estado, colonias, comercio, vivienda, impuestos, cultura, estadios, Juegos Olímpicos, héroes, monstruos y la intervención directa de los dioses del Olimpo. Utiliza la tecnología isométrica característica de Impressions, refinando la gestión urbana con una interfaz más accesible y campañas centradas en mitos griegos. Esta edición española en caja grande para PC CD-ROM Windows 95/98 fue distribuida por Sierra/Havas Interactive España y destaca por estar completamente localizada al castellano, conservando especial interés para la documentación de los city builders históricos de finales de los noventa y comienzos de los 2000.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual",
+      "Mapa Geografía del mundo griego",
+      "Hoja de registro o soporte técnico"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Señor del Olimpo Zeus",
+      "Zeus Master of Olympus",
+      "Impressions Games",
+      "Sierra",
+      "Havas Interactive España",
+      "city builder",
+      "construcción de ciudades",
+      "Antigua Grecia",
+      "mitología griega",
+      "dioses olímpicos",
+      "héroes",
+      "monstruos",
+      "Juegos Olímpicos",
+      "edición española",
+      "totalmente en castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE o ISO verificada, junto con escaneado del manual, mapa y documentación impresa. La ejecución virtual debería ser viable en Windows 95/98 o mediante capas de compatibilidad, verificando en la edición concreta si existe comprobación de disco durante instalación o arranque.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -40301,44 +40368,6 @@
       "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
       "formato": "ISO",
       "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Zeus: Señor del Olimpo",
-    "url": "juegos/zeus-senor-del-olimpo-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Gestión"
-    ],
-    "desarrollador": [
-      "Impressions Games"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "Zeus: Señor del Olimpo es un juego de estrategia y construcción de ciudades ambientado en la antigua Grecia. El jugador debe edificar y gestionar polis griegas, enfrentarse a mitos y leyendas, interactuar con dioses del Olimpo y héroes, y expandir su influencia mediante el comercio y la diplomacia.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
     }
   },
   {
