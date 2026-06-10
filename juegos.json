@@ -5693,6 +5693,72 @@
     }
   },
   {
+    "num": "000094",
+    "ig": "https://www.instagram.com/p/DZZiDaGjIRp",
+    "titulo": "Dark Sun: Shattered Lands",
+    "url": "juegos/dark-sun-shattered-lands-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Fantasía",
+      "Estrategia por turnos",
+      "Combate táctico"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Dark Sun: Shattered Lands es un juego de rol para PC publicado por SSI en 1993 dentro de la licencia oficial Advanced Dungeons & Dragons 2nd Edition. Ambientado en Athas, el brutal mundo desértico de Dark Sun, se aleja del tono medieval fantástico más convencional de otros títulos de AD&D para ofrecer una campaña marcada por ciudades-estado, esclavitud, reyes-hechiceros, psiónica, supervivencia y un entorno hostil donde la magia tiene consecuencias ecológicas y sociales. Supuso una evolución importante respecto a la tradición Gold Box de SSI al utilizar una presentación gráfica más integrada, creación completa de grupo, exploración con interfaz de ratón, diálogos, interacción con personajes y combates tácticos por turnos en escenarios isométricos. Esta edición española en caja grande editada y distribuida por Dro Soft destaca por su localización al castellano y por conservar una etapa muy significativa del rol de PC anterior a la hegemonía del CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "Rule Book",
+      "Guía de configuración",
+      "5 disquetes de 3,5 HD"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Dark Sun",
+      "Shattered Lands",
+      "Advanced Dungeons & Dragons",
+      "AD&D 2nd Edition",
+      "SSI",
+      "Strategic Simulations Inc.",
+      "TSR",
+      "Dro Soft",
+      "Athas",
+      "CRPG clásico",
+      "rol táctico",
+      "combate por turnos",
+      "fantasía oscura",
+      "fantasía postapocalíptica",
+      "psiónica",
+      "MS-DOS",
+      "disquetes 3,5",
+      "edición española",
+      "software traducido al castellano",
+      "Big Box PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disco, verificar la integridad de los volcados y conservar escaneos del Rule Book y de la guía de configuración. La ejecución virtual debería ser viable en DOSBox u otro entorno MS-DOS emulado correctamente configurado.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -46593,44 +46659,6 @@
       "RPG",
       "Infinity Engine",
       "Dungeons & Dragons"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Dark Sun: Shattered Lands",
-    "url": "juegos/dark-sun-shattered-lands-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "RPG",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Strategic Simulations, Inc. (SSI)"
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc. (SSI)"
-    ],
-    "ean": [],
-    "descripcion": "Dark Sun: Shattered Lands es un juego de rol clásico basado en el universo Dark Sun de Advanced Dungeons & Dragons. Lanzado en 1993, presenta un mundo postapocalíptico y desértico llamado Athas, donde la magia drena la vida del entorno y los recursos son extremadamente escasos. El jugador lidera un grupo de aventureros que debe sobrevivir, combatir y descubrir los secretos de los Reyes Hechiceros, combinando exploración, narrativa profunda y combates tácticos por turnos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
     ],
     "proteccion": {
       "tipo": "No determinado",
