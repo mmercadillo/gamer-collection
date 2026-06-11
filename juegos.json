@@ -5759,6 +5759,76 @@
     }
   },
   {
+    "num": "000095",
+    "ig": "https://www.instagram.com/p/DZcM3QaiCuX",
+    "titulo": "Avalon Hill's Squad Leader",
+    "url": "juegos/squad-leader-esp-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Táctica por turnos",
+      "Wargame",
+      "Simulación bélica",
+      "Estrategia histórica"
+    ],
+    "desarrollador": [
+      "Random Games"
+    ],
+    "distribuidor": [
+      "Hasbro Interactive",
+      "MicroProse",
+      "Proein"
+    ],
+    "ean": [
+      "5023117570285"
+    ],
+    "descripcion": "Squad Leader es un wargame táctico para PC publicado en el año 2000 bajo el sello MicroProse/Hasbro Interactive y desarrollado por Random Games, inspirado en el histórico juego de tablero Squad Leader de Avalon Hill. Traslada al ordenador la escala de combate de pelotón de la Segunda Guerra Mundial, centrada en liderazgo, moral, posicionamiento, fuego de cobertura y coordinación de pequeñas unidades. La propuesta se articula alrededor de campañas basadas en escenarios históricos como la invasión de Normandía, la batalla de las Ardenas y Arnhem, combinando turnos, gestión de soldados individuales, habilidades, experiencia y decisiones tácticas de corto alcance. Esta edición española en caja grande para PC CD-ROM, distribuida por Proein, conserva especial interés documental por representar una etapa tardía de MicroProse en el wargame de sobremesa digitalizado, cuando el mercado de PC intentaba adaptar licencias clásicas de tablero a interfaces Windows más accesibles sin abandonar la profundidad estratégica.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "CD-ROM en caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Squad Leader",
+      "MicroProse",
+      "Hasbro Interactive",
+      "Avalon Hill",
+      "Random Games",
+      "Proein",
+      "Segunda Guerra Mundial",
+      "wargame táctico",
+      "estrategia por turnos",
+      "juego de tablero adaptado",
+      "Normandía",
+      "Ardenas",
+      "Arnhem",
+      "combate de pelotón",
+      "editor de escenarios",
+      "multijugador",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda realizar imagen completa del disco en formato BIN/CUE o ISO, conservar escaneos del manual y documentar la edición española distribuida por Proein. No se ha identificado de forma concluyente un sistema anticopia concreto a partir de la edición mostrada, por lo que conviene verificar si requiere presencia del CD durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -10542,43 +10612,6 @@
     ],
     "ean": [],
     "descripcion": "Simulador/acción de tanques lanzado en agosto de 1998 para Windows. Controlas un M1A2 Abrams en misiones tácticas del tipo 'Operation Removal' en el norte de África. Incluye 20 misiones individuales, campaña desértica, editor de misiones y multijugador hasta 12 jugadores por LAN/internet.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Avalon Hill's Squad Leader",
-    "url": "juegos/squad-leader-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Segunda Guerra Mundial"
-    ],
-    "desarrollador": [
-      "Random Games"
-    ],
-    "distribuidor": [
-      "Hasbro Interactive (MicroProse label)"
-    ],
-    "ean": [],
-    "descripcion": "Lanzado en octubre de 2000 (NA) y diciembre de 2000 (EU), es la adaptación digital del clásico wargame de mesa. Controlas escuadras aliadas o alemanas en batallas icónicas de la Segunda Guerra Mundial (Normandía, Bulge, Arnhem). Usa motor isométrico heredado de Chaos Gate, presenta campañas, misiones aleatorias, editor de escenarios futuro y gestión de morale y habilidades individuales.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -44948,36 +44981,69 @@
     "num": "000000",
     "ig": "",
     "titulo": "Avalon Hill's Squad Leader",
-    "url": "juegos/squad-leader-esp-bigbox/",
+    "url": "juegos/squad-leader-bigbox/",
     "plataforma": [
-      "Win95"
+      "Win95",
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
       "Estrategia por turnos",
-      "Segunda Guerra Mundial"
+      "Táctica por turnos",
+      "Wargame",
+      "Simulación bélica",
+      "Estrategia histórica"
     ],
     "desarrollador": [
       "Random Games"
     ],
     "distribuidor": [
-      "Hasbro Interactive (MicroProse label)"
+      "Hasbro Interactive",
+      "MicroProse",
+      "Proein"
     ],
-    "ean": [],
-    "descripcion": "Lanzado en octubre de 2000 (NA) y diciembre de 2000 (EU), es la adaptación digital del clásico wargame de mesa. Controlas escuadras aliadas o alemanas en batallas icónicas de la Segunda Guerra Mundial (Normandía, Bulge, Arnhem). Usa motor isométrico heredado de Chaos Gate, presenta campañas, misiones aleatorias, editor de escenarios futuro y gestión de morale y habilidades individuales.",
-    "incluye": [],
+    "ean": [
+      "5023117570285"
+    ],
+    "descripcion": "Squad Leader es un wargame táctico para PC publicado en el año 2000 bajo el sello MicroProse/Hasbro Interactive y desarrollado por Random Games, inspirado en el histórico juego de tablero Squad Leader de Avalon Hill. Traslada al ordenador la escala de combate de pelotón de la Segunda Guerra Mundial, centrada en liderazgo, moral, posicionamiento, fuego de cobertura y coordinación de pequeñas unidades. La propuesta se articula alrededor de campañas basadas en escenarios históricos como la invasión de Normandía, la batalla de las Ardenas y Arnhem, combinando turnos, gestión de soldados individuales, habilidades, experiencia y decisiones tácticas de corto alcance. Esta edición española en caja grande para PC CD-ROM, distribuida por Proein, conserva especial interés documental por representar una etapa tardía de MicroProse en el wargame de sobremesa digitalizado, cuando el mercado de PC intentaba adaptar licencias clásicas de tablero a interfaces Windows más accesibles sin abandonar la profundidad estratégica.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "CD-ROM en caja jewel case"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Squad Leader",
+      "MicroProse",
+      "Hasbro Interactive",
+      "Avalon Hill",
+      "Random Games",
+      "Proein",
+      "Segunda Guerra Mundial",
+      "wargame táctico",
+      "estrategia por turnos",
+      "juego de tablero adaptado",
+      "Normandía",
+      "Ardenas",
+      "Arnhem",
+      "combate de pelotón",
+      "editor de escenarios",
+      "multijugador",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "big box",
+      "preservación PC"
     ],
     "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDF/MDS",
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda realizar imagen completa del disco en formato BIN/CUE o ISO, conservar escaneos del manual y documentar la edición española distribuida por Proein. No se ha identificado de forma concluyente un sistema anticopia concreto a partir de la edición mostrada, por lo que conviene verificar si requiere presencia del CD durante instalación o ejecución.",
+      "formato": "BIN/CUE",
       "jugable_virtual": true
     }
   },
