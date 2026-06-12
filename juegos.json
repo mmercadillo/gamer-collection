@@ -5829,6 +5829,78 @@
     }
   },
   {
+    "num": "000096",
+    "ig": "https://www.instagram.com/p/DZemzeQiMiJ",
+    "titulo": "Conqueror: A.D. 1086",
+    "url": "juegos/conqueror-ad-1086-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación medieval",
+      "Estrategia en tiempo real",
+      "Acción táctica",
+      "Combate medieval"
+    ],
+    "desarrollador": [
+      "Software Sorcery"
+    ],
+    "distribuidor": [
+      "Sierra On-Line",
+      "Coktel Educative"
+    ],
+    "ean": [
+      "0020626836671"
+    ],
+    "descripcion": "Conqueror A.D. 1086 es un híbrido de simulación medieval, estrategia y acción publicado por Sierra On-Line en 1995. Ambientado en la Inglaterra posterior a la conquista normanda, propone ascender social y militarmente mediante la gestión de tierras, la construcción de castillos, el comercio, la diplomacia, los torneos y el combate directo. Su planteamiento combina una capa estratégica de conquista territorial con secuencias de batalla y enfrentamientos cuerpo a cuerpo en tiempo real, apoyados por gráficos SVGA y sonido digitalizado característicos de la etapa multimedia del PC de mediados de los noventa. Esta edición española en caja grande conserva especial interés documental por tratarse de la versión original con manual traducido al español y distribución de Sierra/Coktel Educative en formato CD-ROM compatible con DOS y Windows 95.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de uso",
+      "Mapa o hoja de referencia",
+      "Catálogo SierraOriginals 1996",
+      "Catálogo Programas Ludo-Educativos Coktel 1996",
+      "Hoja de registro o garantía"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Conqueror A.D. 1086",
+      "Sierra",
+      "Sierra On-Line",
+      "Coktel Educative",
+      "Software Sorcery",
+      "Inglaterra medieval",
+      "conquista normanda",
+      "año 1086",
+      "simulación medieval",
+      "estrategia medieval",
+      "combate en tiempo real",
+      "torneos medievales",
+      "castillos",
+      "SVGA",
+      "CD-ROM",
+      "MS-DOS",
+      "Windows 95",
+      "manual en español",
+      "versión original",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda crear una imagen completa del disco en formato BIN/CUE, especialmente si contiene pistas de audio o estructura mixta, y conservar digitalizados el manual, el mapa o referencia y la documentación promocional asociada. La ejecución virtual debería ser viable en DOSBox o en un entorno Windows 95 virtualizado, pendiente de verificar si la edición concreta realiza comprobación de presencia del CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -7924,47 +7996,6 @@
     ],
     "tags": [
       "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Conqueror: A.D. 1086",
-    "url": "juegos/conqueror-ad-1086-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Rol"
-    ],
-    "desarrollador": [
-      "Software Sorcery"
-    ],
-    "distribuidor": [
-      "Sierra On-Line"
-    ],
-    "ean": [],
-    "descripcion": "Juego híbrido de estrategia y rol medieval de 1995 en Inglaterra bajo el reinado de Guillermo el Conquistador. Comienzas como caballero joven, gestionas feudos, participas en juergas de torneo y combates en primera persona, y puedes alzarte al trono o derrotar a un dragón antes de cumplir 30 años.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado"
     ],
     "proteccion": {
       "tipo": "No determinado",
