@@ -5901,6 +5901,77 @@
     }
   },
   {
+    "num": "000097",
+    "ig": "https://www.instagram.com/p/DZhNBELiDtB",
+    "titulo": "Duke Nukem 3D",
+    "url": "juegos/duke-nukem-3d-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Comedia adulta"
+    ],
+    "desarrollador": [
+      "3D Realms Entertainment"
+    ],
+    "distribuidor": [
+      "FormGen Incorporated",
+      "U.S. Gold"
+    ],
+    "ean": [],
+    "descripcion": "Duke Nukem 3D es uno de los shooters en primera persona más influyentes de la segunda mitad de los años noventa. Desarrollado por 3D Realms sobre el Build Engine, trasladó el FPS de estética abstracta y laberíntica hacia escenarios urbanos reconocibles, cargados de interacción ambiental, humor irreverente, referencias cinematográficas, violencia exagerada y una personalidad protagonista muy marcada. La edición Complete Version distribuida comercialmente por FormGen y producida bajo licencia por U.S. Gold representa una de las ediciones europeas en caja grande para PC CD-ROM, con clasificación BBFC 18 y fuerte orientación al mercado adulto. Su valor archivístico reside tanto en la importancia cultural del juego dentro del auge del FPS posterior a Doom como en su papel dentro de la distribución física europea de títulos asociados a Apogee/3D Realms, FormGen y U.S. Gold.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "Caja interior con bandeja plástica U.S. Gold",
+      "CD-ROM en caja jewel case",
+      "Tarjeta u hoja de registro U.S. Gold",
+      "Pegatina U.S. Gold",
+      "Documentación impresa promocional o de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Duke Nukem 3D",
+      "3D Realms",
+      "FormGen",
+      "U.S. Gold",
+      "Build Engine",
+      "Ken Silverman",
+      "Apogee",
+      "FPS clásico",
+      "shooter noventero",
+      "MS-DOS",
+      "Windows 95",
+      "PC CD-ROM",
+      "edición europea",
+      "BBFC 18",
+      "humor adulto",
+      "alienígenas",
+      "Los Ángeles",
+      "deathmatch",
+      "multijugador LAN",
+      "editor de niveles",
+      "shareware era",
+      "big box PC",
+      "preservación PC",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, documentación fotográfica de la caja, jewel case, tarjeta de registro y materiales U.S. Gold incluidos. La ejecución virtual es viable en DOSBox o en un entorno Windows 95 virtualizado; conviene verificar en la edición concreta si existe comprobación de presencia del CD durante instalación o ejecución.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Gunman Chronicles",
@@ -11999,47 +12070,6 @@
     ],
     "ean": [],
     "descripcion": "Juego de estrategia bélica en tiempo real ambientado en la ofensiva alemana de diciembre de 1944. Introduce un mapa estratégico de las Ardenas que influye en la táctica, unidades con moral y estados emocionales realistas, combate simulado con infantería, tanques, artillería y apoyo aéreo. Permite campañas históricas, creación de escenarios y multijugador por IPX/modem.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Duke Nukem 3D",
-    "url": "juegos/duke-nukem-3d-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinNT",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "First‑person shooter"
-    ],
-    "desarrollador": [
-      "3D Realms (alias Apogee/3D Realms Team)"
-    ],
-    "distribuidor": [
-      "FormGen (PC), GT Interactive (retail), Sega (Saturn/PlayStation in some regions)"
-    ],
-    "ean": [],
-    "descripcion": "Lanzado en abril de 1996 para PC, este shooter de acción rápida con el motor Build enfrentó a Duke con una invasión alienígena en la Tierra. Introdujo exploración de niveles no lineales, armas icónicas, interacciones con el entorno (puertas, bares, paneles), modo multijugador en LAN/Internet y una narrativa irreverente cargada de humor adulto. Se consolidó como referente del género FPS junto a Doom y Quake :contentReference[oaicite:2]{index=2}.",
     "incluye": [],
     "serie": [
       "Todos",
