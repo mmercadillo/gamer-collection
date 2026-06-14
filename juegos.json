@@ -5972,8 +5972,77 @@
     }
   },
   {
-    "num": "000000",
+    "num": "000098",
     "ig": "",
+    "titulo": "Majesty: The Fantasy Kingdom Sim",
+    "url": "juegos/majesty-the-fantasy-kingdom-sim-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Simulación",
+      "Gestión",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Cyberlore Studios"
+    ],
+    "distribuidor": [
+      "Hasbro Interactive",
+      "MicroProse",
+      "Proein"
+    ],
+    "ean": [
+      "5023117539107"
+    ],
+    "descripcion": "Majesty: The Fantasy Kingdom Sim es un juego de estrategia y simulación de reino fantástico desarrollado por Cyberlore Studios y publicado bajo los sellos Hasbro Interactive y MicroProse. Su principal singularidad dentro de la estrategia de PC de comienzos de los años 2000 es el control indirecto: el jugador actúa como soberano de Ardania, construye edificios, gestiona la economía, establece recompensas y utiliza hechizos, pero los héroes y aventureros toman sus propias decisiones según sus intereses, clases y motivaciones. Esta mecánica lo diferencia de los RTS convencionales y lo aproxima a una simulación sistémica de reino, con mercados, gremios, tabernas, torres defensivas, monstruos, misiones y escenarios rejugables. La edición española en caja grande distribuida por Proein conserva manual en castellano y software en inglés, representando una publicación física tardía de MicroProse/Hasbro en el mercado español de PC CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en castellano",
+      "Catálogo Proein",
+      "Tarjeta de garantía o registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Majesty",
+      "The Fantasy Kingdom Sim",
+      "Cyberlore Studios",
+      "MicroProse",
+      "Hasbro Interactive",
+      "Proein",
+      "Ardania",
+      "estrategia fantástica",
+      "control indirecto",
+      "simulación de reino",
+      "gestión económica",
+      "héroes autónomos",
+      "PC CD-ROM",
+      "software en inglés",
+      "manual en castellano",
+      "edición española",
+      "big box",
+      "Windows 95",
+      "Windows 98",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente ISO si se confirma que el disco no contiene pistas de audio ni estructura especial, o BIN/CUE para una conservación más completa. Conviene documentar también el manual en castellano, la caja y el material promocional. La ejecución virtual es viable en un entorno Windows 95/98 o mediante capas de compatibilidad, pendiente de verificar si esta edición concreta realiza comprobación de disco.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "https://www.instagram.com/p/DZjrOeVCHPC",
     "titulo": "Gunman Chronicles",
     "url": "juegos/gunman-chronicles-bigbox/",
     "plataforma": [
@@ -9366,45 +9435,6 @@
     ],
     "ean": [],
     "descripcion": "Juego de estrategia por turnos lanzado el 30 de diciembre de 1996. Ambientado en un futuro donde la humanidad debe colonizar planetas para sobrevivir, el jugador asume el rol de un comandante mecánico encargado de construir bases, recolectar recursos y defender su colonia contra otras facciones. Ofrece más de 50 unidades terrestres, aéreas y marítimas, cada una con características únicas y mejorables. Destaca por su modo de juego híbrido que permite alternar entre tiempo real y por turnos, adaptándose al estilo del jugador.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Majesty: The Fantasy Kingdom Sim",
-    "url": "juegos/majesty-the-fantasy-kingdom-sim-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Simulación",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Cyberlore Studios"
-    ],
-    "distribuidor": [
-      "Hasbro Interactive",
-      "MicroProse"
-    ],
-    "ean": [],
-    "descripcion": "Juego de estrategia en tiempo real lanzado el 17 de marzo de 2000. Ambientado en el reino de Ardania, el jugador asume el rol de soberano sin control directo sobre las unidades; en su lugar, se deben incentivar a los héroes mediante recompensas para que realicen tareas como explorar mazmorras o eliminar monstruos. El juego ofrece 19 escenarios, modo multijugador y una expansión llamada 'The Northern Expansion' lanzada en 2001.",
     "incluye": [],
     "serie": [
       "Todos",
