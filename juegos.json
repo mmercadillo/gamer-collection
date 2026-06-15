@@ -6041,6 +6041,111 @@
     }
   },
   {
+    "num": "000099",
+    "ig": "https://www.instagram.com/p/DZmP8CriN9j",
+    "titulo": "Zork: Grand Inquisitor",
+    "url": "juegos/zork-grand-inquisitor-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Aventura en primera persona",
+      "Point and click",
+      "Puzzle",
+      "Comedia",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Activision"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [],
+    "descripcion": "Zork: Grand Inquisitor es una aventura gráfica en primera persona publicada por Activision en 1997 y ambientada en el universo clásico de Zork, heredero directo del legado de Infocom. La historia sitúa al jugador en un Gran Imperio Subterráneo donde la magia ha sido prohibida por el Gran Inquisidor, combinando exploración, puzles, humor absurdo y referencias constantes a la tradición de la ficción interactiva. El juego utiliza tecnología Z-Vision, con escenarios prerenderizados, desplazamiento panorámico de 360 grados, secuencias de vídeo con actores reales y una fuerte carga cómica. Esta edición española en caja grande conserva especial interés documental por representar una de las últimas grandes producciones comerciales vinculadas a la marca Zork en la era del CD-ROM multimedia.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Chronologue de Zork",
+      "Documentación impresa desplegable"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Zork",
+      "Grand Inquisitor",
+      "Activision",
+      "Infocom",
+      "Z-Vision",
+      "aventura gráfica clásica",
+      "aventura en primera persona",
+      "point and click",
+      "puzles",
+      "humor fantástico",
+      "ficción interactiva",
+      "Gran Imperio Subterráneo",
+      "FMV",
+      "CD-ROM multimedia",
+      "Windows 95",
+      "edición española",
+      "en español",
+      "big box PC",
+      "preservación PC",
+      "coleccionismo"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE, junto con digitalización de la documentación impresa y del Chronologue. La ejecución virtual debería ser viable en un entorno Windows 95/98 o mediante soluciones de compatibilidad para aventuras clásicas de Activision, manteniendo montada la imagen del disco si la edición realiza comprobación de CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Return to Zork",
+    "url": "juegos/return-to-zork-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Activision (Infocom)"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica lanzada en agosto de 1993 para MsDos, con una versión compatible para Win95, Win98. Retoma el universo de Zork con gráficos point‑&‑click y secuencias de vídeo en vivo con actores. La historia transcurre después de los juegos originales de texto, investigando una anomalía oscura en el Valle de los Gorriones, y ofrece múltiples formas de resolver puzzles, estado emocional en diálogos y un sistema de cámara y grabación fotográfica.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
     "num": "000000",
     "ig": "https://www.instagram.com/p/DZjrOeVCHPC",
     "titulo": "Gunman Chronicles",
@@ -12198,46 +12303,6 @@
     "num": "000000",
     "ig": "",
     "titulo": "Return to Zork",
-    "url": "juegos/return-to-zork-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Activision (Infocom)"
-    ],
-    "distribuidor": [
-      "Activision"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica lanzada en agosto de 1993 para MsDos, con una versión compatible para Win95, Win98. Retoma el universo de Zork con gráficos point‑&‑click y secuencias de vídeo en vivo con actores. La historia transcurre después de los juegos originales de texto, investigando una anomalía oscura en el Valle de los Gorriones, y ofrece múltiples formas de resolver puzzles, estado emocional en diálogos y un sistema de cámara y grabación fotográfica.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Return to Zork",
     "url": "juegos/return-to-zork-2-bigbox/",
     "plataforma": [
       "MsDos",
@@ -12656,43 +12721,6 @@
     ],
     "ean": [],
     "descripcion": "Sexta entrega de la saga, lanzada originalmente el 13 de octubre de 1992 para MsDos y más tarde adaptada a Windows (CD‑ROM) en 1993. Considerada el punto más alto de la serie por su introducción cinematográfica en 3D, doblaje profesional (con la voz de Robby Benson como el príncipe Alexandre), y narrativa profundamente ramificada. La trama sigue a Alexandre en su viaje entre las Islas Verdes para rescatar a la princesa Cassima, con múltiples finales según tu recorrido y decisiones.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Zork: Grand Inquisitor",
-    "url": "juegos/zork-grand-inquisitor-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point & click"
-    ],
-    "desarrollador": [
-      "Activision"
-    ],
-    "distribuidor": [
-      "Activision"
-    ],
-    "ean": [],
-    "descripcion": "Zork: Grand Inquisitor es una aventura gráfica en primera persona desarrollada por Activision y estrenada el 31 de octubre de 1997 para Windows. Es la duodécima entrega del universo Zork, combinando exploración en entornos prerenderizados (Z-Vision 360°), actores en FMV, puzles ingeniosos y humor clásico del estilo Infocom. El jugador deberá restaurar la magia en el Gran Imperio Subterráneo mientras combate la tiranía del Gran Inquisidor. Incluye cameos en vídeo de actores como Dirk Benedict, Erick Avari y Rip Taylor. El juego tuvo re-lanzamientos en DVD, versiones para Mac OS (2001) y ediciones digitales en GOG/Steam :contentReference[oaicite:2]{index=2}.",
     "incluye": [],
     "serie": [
       "Todos",
