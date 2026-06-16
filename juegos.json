@@ -6106,6 +6106,204 @@
     }
   },
   {
+    "num": "000100",
+    "ig": "https://www.instagram.com/p/DZpADqQCBs1",
+    "titulo": "Fantasy General",
+    "url": "juegos/fantasy-general-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Estrategia táctica",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "SSI Special Projects Group",
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Mindscape"
+    ],
+    "ean": [],
+    "descripcion": "Fantasy General es un juego de estrategia por turnos publicado por Strategic Simulations, Inc. en 1996 dentro de la línea Five-Star Series. Traslada la estructura táctica popularizada por Panzer General a un universo de fantasía épica, sustituyendo ejércitos históricos por héroes, criaturas, unidades mágicas y campañas contra las fuerzas del Shadowlord. El juego conserva el enfoque accesible de la saga General, con mapas por hexágonos, progresión de unidades veteranas, campañas encadenadas y toma de decisiones estratégicas entre batallas. Destaca por ofrecer más de un centenar de unidades fantásticas, varios generales jugables, campañas preparadas, modo Arena y soporte para partidas mediante play-by-mail. Esta edición Big Box para IBM PC CD-ROM representa una de las derivaciones más singulares del catálogo estratégico de SSI en la segunda mitad de los noventa, combinando wargame clásico, fantasía y presentación multimedia con tecnología Smacker Video.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Manual de usuario",
+      "Catálogo SSI Second Half 1996",
+      "Tarjeta de registro Business Reply Card",
+      "Hoja de referencia o instalación"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Fantasy General",
+      "SSI",
+      "Strategic Simulations Inc",
+      "Mindscape",
+      "Five-Star Series",
+      "Panzer General",
+      "wargame fantástico",
+      "estrategia por turnos",
+      "hexágonos",
+      "fantasía épica",
+      "MS-DOS",
+      "Windows 95",
+      "IBM PC CD-ROM",
+      "Smacker Video",
+      "play-by-mail",
+      "big box",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM para IBM PC. Para preservación se recomienda realizar imagen completa del disco, preferiblemente BIN/CUE, y conservar junto a ella el manual y la documentación impresa. La ejecución es viable en entornos DOSBox o Windows 95 virtualizado, manteniendo la imagen montada si la edición concreta requiere acceso al CD durante la partida.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000101",
+    "ig": "",
+    "titulo": "Star General",
+    "url": "juegos/star-general-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Estrategia espacial",
+      "4X",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Strategic Simulations, Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc."
+    ],
+    "ean": [],
+    "descripcion": "Star General es un juego de estrategia por turnos publicado por Strategic Simulations, Inc. dentro de la línea 5-Star General, concebido como una traslación de la fórmula táctica de Panzer General al terreno de la ciencia ficción espacial. El juego combina combate entre flotas, operaciones terrestres, conquista planetaria, gestión de recursos, desarrollo de infraestructuras, investigación y control de múltiples razas alienígenas. Su interés histórico reside en el intento de SSI de ampliar su reconocida escuela de wargames accesibles hacia un marco galáctico, mezclando elementos de wargame operacional, estrategia 4X ligera y campaña militar de ciencia ficción. Esta edición física en Big Box para DOS y Windows 95 CD-ROM conserva especial valor documental dentro del catálogo tardío de SSI, en plena transición del wargame clásico de PC hacia presentaciones multimedia y compatibilidad Windows.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Manual",
+      "Hoja de referencia",
+      "Listado de unidades",
+      "Listado de teclas rápidas",
+      "Folleto promocional de SSI",
+      "Tarjeta de pedido"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star General",
+      "SSI",
+      "Strategic Simulations",
+      "5-Star General",
+      "Panzer General",
+      "wargame espacial",
+      "estrategia por turnos",
+      "4X",
+      "ciencia ficción",
+      "DOS",
+      "Windows 95",
+      "CD-ROM",
+      "Big Box PC",
+      "PC gaming clásico",
+      "coleccionismo PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM para DOS y Windows 95. Para preservación se recomienda realizar imagen completa del disco, preferiblemente BIN/CUE si se desea conservar la estructura exacta del soporte, y documentar manual, listados de unidades y hojas de referencia. La ejecución virtual debería ser viable mediante entorno DOS/Windows 95 compatible, manteniendo la imagen del CD montada si la edición requiere acceso al soporte original.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000102",
+    "ig": "",
+    "titulo": "Advanced Civilization",
+    "url": "juegos/advanced-civilization-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "4X",
+      "Gestión de civilizaciones",
+      "Simulación histórica",
+      "Adaptación de juego de mesa"
+    ],
+    "desarrollador": [
+      "The Avalon Hill Game Company"
+    ],
+    "distribuidor": [
+      "The Avalon Hill Game Company"
+    ],
+    "ean": [],
+    "descripcion": "Advanced Civilization es la adaptación para PC del juego de mesa homónimo de Avalon Hill, heredero directo de Civilization y centrado en la evolución de grandes culturas de la Antigüedad mediterránea. A diferencia de un wargame convencional, su núcleo está en la expansión territorial, el comercio, la gestión demográfica, la adquisición de avances culturales y tecnológicos, la diplomacia y la resistencia ante calamidades como hambrunas, revueltas, guerras civiles o invasiones bárbaras. La versión para MS-DOS conserva el enfoque estratégico de larga duración del tablero y permite partidas con varios jugadores, incluyendo juego asistido por correo electrónico, un rasgo especialmente representativo de la estrategia compleja de PC previa a la generalización del multijugador online moderno. Esta edición Big Box de The Avalon Hill Game Company tiene valor documental por trasladar al ordenador una obra de referencia del juego de civilizaciones, con abundante material impreso de consulta y ayudas propias de las adaptaciones de tablero de mediados de los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Reference Manual",
+      "Loading Instructions",
+      "Carta de avances Man & Machine",
+      "Avalon Hill Universal Games & Parts List",
+      "Sobre de correspondencia o registro de The Avalon Hill Game Company"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Advanced Civilization",
+      "Avalon Hill",
+      "The Avalon Hill Game Company",
+      "Monarch Avalon",
+      "Civilization",
+      "juego de mesa",
+      "adaptación de tablero",
+      "estrategia por turnos",
+      "4X",
+      "gestión de civilizaciones",
+      "Antigüedad",
+      "Edad del Bronce",
+      "comercio",
+      "diplomacia",
+      "calamidades",
+      "MS-DOS",
+      "CD-ROM",
+      "Big Box",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM para MS-DOS. Para preservación se recomienda crear una imagen completa del disco, documentar la versión del soporte y digitalizar el manual de referencia, las instrucciones de carga y la carta de avances, ya que forman parte esencial de la experiencia original y de la consulta durante la partida. La ejecución virtual es viable en DOSBox o entorno DOS equivalente, pendiente de verificar si la edición concreta realiza comprobación de soporte durante la ejecución.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Return to Zork",
@@ -7775,42 +7973,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Advanced Civilization",
-    "url": "juegos/advanced-civilization-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos"
-    ],
-    "desarrollador": [
-      "Avalon Hill Game Company"
-    ],
-    "distribuidor": [
-      "Avalon Hill"
-    ],
-    "ean": [],
-    "descripcion": "Adaptación en PC del clásico juego de mesa 'Advanced Civilization' (1995). Gestionas civilizaciones mediterráneas desde la Edad del Bronce hasta la del Hierro mediante comercio, avances tecnológicos y calamidades. No es un wargame puro: destaca por su enfoque económico y diplomático, con una IA fiel a la experiencia de tablero.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "Sin protección",
-      "version": "",
-      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
-      "formato": "ISO",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Arcatera: La Hermandad Oscura",
     "url": "juegos/arcatera-la-hermandad-oscura-bigbox/",
     "plataforma": [
@@ -8786,45 +8948,6 @@
     ],
     "ean": [],
     "descripcion": "Simulador de Fórmula 1 desarrollado por Ubisoft, basado en la temporada de 1996. Ofrece un enfoque realista con todos los equipos, pilotos y circuitos de la época (con licencias no oficiales). Incluye múltiples modos de juego como práctica, clasificación, carrera completa y campeonato. Destaca por su detallado motor gráfico, física de conducción ajustable y opciones multijugador en LAN o split-screen.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Fantasy General",
-    "url": "juegos/fantasy-general-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Strategic Simulations, Inc. (SSI)"
-    ],
-    "distribuidor": [
-      "Mindscape",
-      "SSI"
-    ],
-    "ean": [],
-    "descripcion": "Juego de estrategia por turnos ambientado en un mundo de fantasía, basado en el sistema de juego de Panzer General. Controlas ejércitos compuestos por unidades de caballería, infantería, criaturas mágicas y héroes legendarios en batallas tácticas sobre mapas hexagonales. Ofrece cuatro campañas con caminos ramificados, evolución de unidades y una rica variedad de escenarios, combinando profundidad estratégica con ambientación épica.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -10849,46 +10972,6 @@
     ],
     "ean": [],
     "descripcion": "Simulador/acción de tanques lanzado en agosto de 1998 para Windows. Controlas un M1A2 Abrams en misiones tácticas del tipo 'Operation Removal' en el norte de África. Incluye 20 misiones individuales, campaña desértica, editor de misiones y multijugador hasta 12 jugadores por LAN/internet.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Star General",
-    "url": "juegos/star-general-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Wargame",
-      "Estrategia",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Catware (SSI)"
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Última entrega de la serie 5‑Star General, publicada en diciembre de 1996. Utiliza el motor de Panzer General adaptado al espacio: gestiona flotas, conquista planetas, desarrolla infraestructuras, tecnología y combate en dos niveles (espacial y superficie planetaria). Ofrece campañas, escenarios y editor de misiones.",
     "incluye": [],
     "serie": [
       "Todos",
