@@ -6376,40 +6376,67 @@
   },
   {
     "num": "000104",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DZw4M_kiLVT",
     "titulo": "Delta Force: The Art of War",
     "url": "juegos/delta-force-the-art-of-war-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "Win2000"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Shooter"
+      "Shooter en primera persona",
+      "Acción táctica",
+      "Simulación militar",
+      "Shooter táctico"
     ],
     "desarrollador": [
       "NovaLogic"
     ],
     "distribuidor": [
-      "NovaLogic"
+      "NovaLogic",
+      "Friendware"
     ],
     "ean": [],
-    "descripcion": "Probablemente una reempaquetación/edición especial del *Delta Force* original (1998), a veces titulada 'The Art of War'. Incluye las mismas misiones tácticas globales basadas en entornos abiertos creados con el motor Voxel Space, énfasis en realismo balístico y soporte para multijugador en NovaWorld. No se han encontrado ediciones físicas con este nombre, pero aparece en listados de CD-ROM usados.",
-    "incluye": [],
+    "descripcion": "Delta Force es un shooter táctico militar desarrollado y publicado por NovaLogic en 1998. El juego sitúa al jugador como miembro de una unidad de operaciones especiales en misiones de infiltración, sabotaje, rescate y combate armado en grandes escenarios abiertos. Su relevancia histórica está ligada al uso del motor Voxel Space, tecnología característica de NovaLogic que permitió representar terrenos exteriores extensos con colinas, valles y largas distancias de visión en una época dominada por shooters de espacios más cerrados. Frente al FPS arcade tradicional, Delta Force apostaba por enfrentamientos a larga distancia, planificación básica, uso de distintas armas, aproximación táctica y una ambientación militar contemporánea. Esta edición española en caja grande fue distribuida por Friendware y conserva interés documental por incluir textos, voces y manuales en castellano, además de representar una de las sagas militares más identificables del PC de finales de los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de campo",
+      "Hoja de registro Friendware"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Delta Force",
+      "NovaLogic",
+      "Friendware",
+      "The Art of War",
+      "edición española",
+      "textos en castellano",
+      "voces en castellano",
+      "manual en castellano",
+      "FPS militar",
+      "shooter táctico",
+      "operaciones especiales",
+      "combate a larga distancia",
+      "Voxel Space",
+      "NovaWorld",
+      "multijugador online",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "preservación PC"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en formato BIN/CUE o ISO, junto con digitalización del manual y documentación incluida. Conviene verificar en instalación original si la edición realiza comprobación de presencia del disco durante la ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
