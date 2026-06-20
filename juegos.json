@@ -6446,14 +6446,14 @@
     "url": "juegos/delta-force-2-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP",
-      "Windows Vista"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Shooter"
+      "Shooter en primera persona",
+      "Acción táctica",
+      "Simulación militar",
+      "FPS táctico"
     ],
     "desarrollador": [
       "NovaLogic"
@@ -6462,26 +6462,50 @@
       "NovaLogic"
     ],
     "ean": [],
-    "descripcion": "Secuela lanzada en noviembre de 1999 para PC. Utiliza el motor Voxel Space 32 con entornos al aire libre, misiones globales contra terroristas en escenarios rurales y urbanos, énfasis en realismo balístico y viento, con multijugador de hasta 50 jugadores en NovaWorld.",
-    "incluye": [],
+    "descripcion": "Delta Force 2 es la segunda entrega de la serie de acción táctica militar de NovaLogic, publicada originalmente en 1999 para PC. Mantiene el enfoque de operaciones especiales en primera persona del título original y lo amplía con misiones diurnas y nocturnas, infiltración, combate a larga distancia, escenarios abiertos y objetivos de asalto, sabotaje o eliminación en distintas localizaciones. Técnicamente destaca por el uso del motor Voxel Space 32, empleado para representar terrenos amplios y ondulados en una época en la que el shooter táctico para PC estaba consolidando su identidad propia frente al FPS arcade tradicional. La edición física en Big Box documenta también la importancia del multijugador de finales de los noventa mediante NovaWorld, partidas online de gran escala y soporte de comunicación por voz, elementos muy característicos del catálogo de NovaLogic.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM",
+      "Caja jewel case",
+      "Manual de operaciones",
+      "Tarjeta de referencia de controles",
+      "Sobre o tarjeta de registro NovaLogic"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Delta Force",
+      "Delta Force 2",
+      "NovaLogic",
+      "Voxel Space 32",
+      "NovaWorld",
+      "operaciones especiales",
+      "shooter táctico",
+      "FPS militar",
+      "multijugador online",
+      "voz sobre red",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "edición física",
+      "preservación PC",
+      "juegos de guerra",
+      "finales de los 90"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferentemente BIN/CUE, junto con escaneo del manual, tarjeta de referencia y documentación física. La ejecución virtual debería verificarse en un entorno Windows 95/98 o mediante capas de compatibilidad, comprobando si la edición concreta requiere presencia del disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
     "num": "000106",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DZzMiPRCDfr",
     "titulo": "Delta Force: Land Warrior",
     "url": "juegos/delta-force-land-warrior-bigbox/",
     "plataforma": [
