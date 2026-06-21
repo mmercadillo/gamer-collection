@@ -6510,14 +6510,15 @@
     "url": "juegos/delta-force-land-warrior-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98",
-      "Win2000",
-      "WinXP",
-      "Windows Vista"
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
-      "Shooter"
+      "Shooter en primera persona",
+      "Shooter táctico",
+      "Acción militar",
+      "Simulación táctica",
+      "Multijugador"
     ],
     "desarrollador": [
       "NovaLogic"
@@ -6525,29 +6526,51 @@
     "distribuidor": [
       "NovaLogic"
     ],
-    "ean": [
-      "0753799097897"
+    "ean": [],
+    "descripcion": "Delta Force: Land Warrior es la tercera entrega principal de la serie Delta Force de NovaLogic y representa un salto técnico dentro de la saga al abandonar el enfoque visual previo basado en terrenos amplios para adoptar un nuevo motor gráfico 3D acelerado por hardware. El juego mantiene la identidad táctica de la serie, centrada en operaciones militares de fuerzas especiales, infiltración, combate a larga distancia, uso de armamento moderno y selección de soldados con habilidades diferenciadas. La edición mostrada corresponde a una versión española en caja grande para PC CD-ROM, destacada por estar traducida y doblada al castellano. Su interés documental reside en reflejar la transición de los shooters tácticos de finales de los noventa hacia entornos 3D más detallados, soporte para aceleradoras 3dfx/NVIDIA y juego multijugador online mediante NovaWorld, con partidas de gran escala para la época.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de campaña",
+      "Documentación impresa"
     ],
-    "descripcion": "Tercer título de la saga, lanzado en noviembre de 2000. Utiliza el nuevo motor poligonal Voxel Space 32 y presenta 30 misiones globales (África, Indonesia, Egipto, Sudamérica). Introduce equipo avanzado (OICW), 27 armas, opciones de inserción táctica (helicóptero/paracaídas), IA realista y multijugador (PvP hasta 50, coop para 4). Incluye editor de mapas.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Delta Force",
+      "Delta Force Land Warrior",
+      "NovaLogic",
+      "NovaWorld",
+      "shooter táctico",
+      "FPS militar",
+      "fuerzas especiales",
+      "operaciones antiterroristas",
+      "multijugador online",
+      "3D acelerado",
+      "3dfx",
+      "NVIDIA",
+      "edición española",
+      "traducido al castellano",
+      "doblado al castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "big box",
+      "preservación PC"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda crear una imagen completa del disco original, preferiblemente en BIN/CUE para conservar la estructura del soporte, y documentar manual, caja y materiales impresos. La ejecución virtual debería ser viable en un entorno Windows 95/98 configurado con aceleración 3D compatible, aunque debe verificarse si la edición concreta realiza comprobación de disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
     "num": "000107",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DZ1sBjdCNEl",
     "titulo": "Command: Aces of the Deep",
     "url": "juegos/command-aces-of-the-deep-bigbox/",
     "plataforma": [
