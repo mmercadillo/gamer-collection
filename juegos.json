@@ -5973,7 +5973,7 @@
   },
   {
     "num": "000098",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DZjrOeVCHPC",
     "titulo": "Majesty: The Fantasy Kingdom Sim",
     "url": "juegos/majesty-the-fantasy-kingdom-sim-bigbox/",
     "plataforma": [
@@ -6871,6 +6871,199 @@
     }
   },
   {
+    "num": "0000114",
+    "ig": "",
+    "titulo": "Half-Life: Juego del Año",
+    "url": "juegos/half-life-juego-del-ano-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Shooter en primera persona",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Valve"
+    ],
+    "distribuidor": [
+      "Sierra"
+    ],
+    "ean": [
+      "3348542045163"
+    ],
+    "descripcion": "Edición española \"Juego del Año\" de Half-Life, el revolucionario shooter en primera persona de Valve que combinó acción, narrativa integrada y una atmósfera opresiva poco habitual en el género a finales de los noventa. Esta edición incluye el juego completo actualizado y contenidos extra como Uplink y Team Fortress Classic, tal y como se anuncia en la caja. Se trata de una Big Box distribuida por Sierra y totalmente en castellano, muy representativa del enorme impacto comercial y cultural que tuvo Half-Life en PC.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM del juego en caja Jewel Case",
+      "Manual",
+      "Hoja adicional de instrucciones/advertencias"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Half-Life",
+      "Valve",
+      "Sierra",
+      "Big Box",
+      "PC CD-ROM",
+      "Shooter en primera persona",
+      "Ciencia ficción",
+      "Juego del Año",
+      "Edición española",
+      "Team Fortress Classic",
+      "Uplink",
+      "Black Mesa"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de verificación directa de la protección exacta de esta edición española. Posible comprobación de CD propia de ediciones retail de la época.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000115",
+    "ig": "",
+    "titulo": "Half-Life: Opposing Force",
+    "url": "juegos/half-life-opposing-force-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Shooter en primera persona",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Gearbox Software"
+    ],
+    "distribuidor": [
+      "Sierra"
+    ],
+    "ean": [],
+    "descripcion": "Expansión oficial de Half-Life desarrollada por Gearbox Software que ofrece una nueva perspectiva de los acontecimientos de Black Mesa, esta vez desde el punto de vista de un marine. En Opposing Force, el jugador debe enfrentarse tanto a la amenaza alienígena como a otros peligros dentro del complejo, ampliando la narrativa original con nuevos escenarios, armas y enemigos. Esta edición Big Box española, distribuida por Sierra y totalmente en castellano, requiere el juego original para su funcionamiento y representa una de las expansiones más valoradas de la época por su calidad y coherencia con el universo Half-Life.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM del juego en caja Jewel Case",
+      "Manual",
+      "Documentación adicional"
+    ],
+    "serie": [
+      "Big Box",
+      "Todos"
+    ],
+    "tags": [
+      "Half-Life",
+      "Opposing Force",
+      "Gearbox Software",
+      "Valve",
+      "Sierra",
+      "Big Box",
+      "PC CD-ROM",
+      "Shooter en primera persona",
+      "Expansión",
+      "Black Mesa",
+      "Edición española"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Probable verificación de CD al tratarse de expansión oficial de Half-Life. Pendiente de verificación exacta en esta edición concreta.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000116",
+    "ig": "",
+    "titulo": "Half-Life Generation",
+    "url": "juegos/half-life-generation-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Shooter en primera persona"
+    ],
+    "desarrollador": [
+      "Valve"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Half-Life Generation es una edición recopilatoria que incluye el juego original Half-Life junto con sus expansiones oficiales Opposing Force y Blue Shift, además de Counter-Strike. Esta edición fue lanzada como un pack completo que reunía gran parte de la experiencia Half-Life en una sola caja.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Multijugador"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000117",
+    "ig": "",
+    "titulo": "Gunman Chronicles",
+    "url": "juegos/gunman-chronicles-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Rewolf Software"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "FPS de ciencia ficción basado en el motor GoldSrc de *Half-Life*. Sigues a un escuadrón militar, los Gunmen, en su lucha contra criaturas alienígenas y una amenaza biotecnológica en planetas remotos. El juego destaca por su ambientación pulp futurista, armas altamente configurables y una campaña con variedad de escenarios y enemigos. Originalmente comenzó como un mod, pero fue profesionalizado por Sierra y lanzado como título independiente.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Precintado"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Return to Zork",
@@ -6901,47 +7094,6 @@
     ],
     "tags": [
       "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "https://www.instagram.com/p/DZjrOeVCHPC",
-    "titulo": "Gunman Chronicles",
-    "url": "juegos/gunman-chronicles-bigbox/",
-    "plataforma": [
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Shooter",
-      "Ciencia ficción",
-      "Acción"
-    ],
-    "desarrollador": [
-      "Rewolf Software"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "FPS de ciencia ficción basado en el motor GoldSrc de *Half-Life*. Sigues a un escuadrón militar, los Gunmen, en su lucha contra criaturas alienígenas y una amenaza biotecnológica en planetas remotos. El juego destaca por su ambientación pulp futurista, armas altamente configurables y una campaña con variedad de escenarios y enemigos. Originalmente comenzó como un mod, pero fue profesionalizado por Sierra y lanzado como título independiente.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado"
     ],
     "proteccion": {
       "tipo": "No determinado",
@@ -40741,47 +40893,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Half-Life Generation",
-    "url": "juegos/half-life-generation-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter en primera persona"
-    ],
-    "desarrollador": [
-      "Valve"
-    ],
-    "distribuidor": [
-      "Sierra Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Half-Life Generation es una edición recopilatoria que incluye el juego original Half-Life junto con sus expansiones oficiales Opposing Force y Blue Shift, además de Counter-Strike. Esta edición fue lanzada como un pack completo que reunía gran parte de la experiencia Half-Life en una sola caja.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Multijugador"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Ultra Pinball: The Lost Continent",
     "url": "juegos/ultra-pinball-the-lost-continent-bigbox/",
     "plataforma": [
@@ -58745,117 +58856,6 @@
       "tipo": "Verificación de CD",
       "version": "",
       "preservacion": "Probablemente requiere comprobación del CD original para jugar. Preservable mediante imagen de disco y, en entornos actuales, suele necesitar ajustes de compatibilidad propios de Windows 95/DirectX de la época.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Half-Life: Juego del Año",
-    "url": "juegos/half-life-juego-del-ano-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter en primera persona",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Valve"
-    ],
-    "distribuidor": [
-      "Sierra"
-    ],
-    "ean": [
-      "3348542045163"
-    ],
-    "descripcion": "Edición española \"Juego del Año\" de Half-Life, el revolucionario shooter en primera persona de Valve que combinó acción, narrativa integrada y una atmósfera opresiva poco habitual en el género a finales de los noventa. Esta edición incluye el juego completo actualizado y contenidos extra como Uplink y Team Fortress Classic, tal y como se anuncia en la caja. Se trata de una Big Box distribuida por Sierra y totalmente en castellano, muy representativa del enorme impacto comercial y cultural que tuvo Half-Life en PC.",
-    "incluye": [
-      "Caja Big Box",
-      "CD-ROM del juego en caja Jewel Case",
-      "Manual",
-      "Hoja adicional de instrucciones/advertencias"
-    ],
-    "serie": [
-      "Big Box",
-      "Todos"
-    ],
-    "tags": [
-      "Half-Life",
-      "Valve",
-      "Sierra",
-      "Big Box",
-      "PC CD-ROM",
-      "Shooter en primera persona",
-      "Ciencia ficción",
-      "Juego del Año",
-      "Edición española",
-      "Team Fortress Classic",
-      "Uplink",
-      "Black Mesa"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de verificación directa de la protección exacta de esta edición española. Posible comprobación de CD propia de ediciones retail de la época.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Half-Life: Opposing Force",
-    "url": "juegos/half-life-opposing-force-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter en primera persona",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Gearbox Software"
-    ],
-    "distribuidor": [
-      "Sierra"
-    ],
-    "ean": [],
-    "descripcion": "Expansión oficial de Half-Life desarrollada por Gearbox Software que ofrece una nueva perspectiva de los acontecimientos de Black Mesa, esta vez desde el punto de vista de un marine. En Opposing Force, el jugador debe enfrentarse tanto a la amenaza alienígena como a otros peligros dentro del complejo, ampliando la narrativa original con nuevos escenarios, armas y enemigos. Esta edición Big Box española, distribuida por Sierra y totalmente en castellano, requiere el juego original para su funcionamiento y representa una de las expansiones más valoradas de la época por su calidad y coherencia con el universo Half-Life.",
-    "incluye": [
-      "Caja Big Box",
-      "CD-ROM del juego en caja Jewel Case",
-      "Manual",
-      "Documentación adicional"
-    ],
-    "serie": [
-      "Big Box",
-      "Todos"
-    ],
-    "tags": [
-      "Half-Life",
-      "Opposing Force",
-      "Gearbox Software",
-      "Valve",
-      "Sierra",
-      "Big Box",
-      "PC CD-ROM",
-      "Shooter en primera persona",
-      "Expansión",
-      "Black Mesa",
-      "Edición española"
-    ],
-    "proteccion": {
-      "tipo": "Verificación de CD",
-      "version": "",
-      "preservacion": "Probable verificación de CD al tratarse de expansión oficial de Half-Life. Pendiente de verificación exacta en esta edición concreta.",
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
