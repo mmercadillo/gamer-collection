@@ -6777,37 +6777,68 @@
   },
   {
     "num": "000110",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DaAH_vgiHnO",
     "titulo": "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work",
     "url": "juegos/leisure-suit-larry-5-bigbox/",
     "plataforma": [
-      "MsDos",
-      "Win3.x"
+      "MsDos"
     ],
     "formato": "Big Box",
     "genero": [
-      "Aventura gráfica"
+      "Aventura gráfica",
+      "Point and click",
+      "Comedia",
+      "Aventura para adultos"
     ],
     "desarrollador": [
       "Sierra On-Line"
     ],
     "distribuidor": [
-      "Sierra On-Line"
+      "Sierra On-Line",
+      "MCM Software"
     ],
-    "ean": [],
-    "descripcion": "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work es la quinta entrega de la popular saga de aventuras gráficas cómicas creada por Al Lowe. En este título, Larry y Patti viven aventuras en paralelo con una trama que combina humor, sátira y situaciones absurdas características de la serie.",
-    "incluye": [],
+    "ean": [
+      "8420224012665"
+    ],
+    "descripcion": "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work es una aventura gráfica humorística para adultos desarrollada por Sierra On-Line y publicada originalmente en 1991. Diseñada por Al Lowe dentro de la saga Leisure Suit Larry, combina sátira sexual, parodia televisiva, humor absurdo y espionaje ligero mediante una estructura alterna entre Larry Laffer y Passionate Patti. El juego utiliza la tecnología SCI de Sierra con gráficos VGA a 256 colores, interfaz point and click y soporte para tarjetas de sonido de la época como AdLib, Sound Blaster y Roland MT-32/LAPC-I. Esta edición española en caja grande distribuida por MCM Software corresponde a la versión en disquetes de 3,5 pulgadas HD para PC compatibles, representativa del catálogo Sierra localizado en España durante la etapa dorada de la aventura gráfica en MS-DOS.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de juego",
+      "8 disquetes de 3,5 pulgadas HD",
+      "Funda para disquetes",
+      "Documentación impresa adicional"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
-    "tags": [],
+    "tags": [
+      "Leisure Suit Larry",
+      "Larry Laffer",
+      "Passionate Patti",
+      "Al Lowe",
+      "Sierra On-Line",
+      "MCM Software",
+      "SCI",
+      "aventura gráfica clásica",
+      "humor adulto",
+      "point and click",
+      "MS-DOS",
+      "VGA 256 colores",
+      "AdLib",
+      "Sound Blaster",
+      "Roland MT-32",
+      "disquetes 3.5",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición en disquetes de 3,5 pulgadas HD. Para preservación se recomienda realizar imagen individual de cada disquete, verificar integridad tras instalación en entorno MS-DOS virtualizado y conservar la documentación impresa asociada. No hay evidencia suficiente para afirmar un sistema anticopia concreto en la edición mostrada.",
+      "formato": "Otro",
+      "jugable_virtual": true
     }
   },
   {
