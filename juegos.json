@@ -6843,7 +6843,7 @@
   },
   {
     "num": "000111",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DaCp1_ViNKv",
     "titulo": "Leisure Suit Larry 6: Shake It Up or Slip Out!!",
     "url": "juegos/leisure-suit-larry-6-shake-it-up-or-slip-out-bigbox/",
     "plataforma": [
@@ -6853,34 +6853,55 @@
     "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
-      "Comedia"
+      "Point and click",
+      "Comedia",
+      "Aventura para adultos"
     ],
     "desarrollador": [
       "Sierra On-Line"
     ],
     "distribuidor": [
-      "Erbe Software"
+      "Sierra On-Line",
+      "MCM Software"
     ],
     "ean": [],
-    "descripcion": "Leisure Suit Larry: Shake It Up or Slip Out!! es una aventura gráfica de humor adulto protagonizada por Larry Laffer. Ambientada en un complejo vacacional de lujo, el jugador debe ayudar a Larry a resolver puzles, interactuar con personajes extravagantes y sobrevivir a situaciones comprometidas, manteniendo el tono irreverente y satírico característico de la saga.",
-    "incluye": [],
+    "descripcion": "Leisure Suit Larry 6: Shape Up or Slip Out! es una aventura gráfica humorística para adultos desarrollada por Sierra On-Line y diseñada por Al Lowe. Publicada originalmente en 1993, sitúa de nuevo a Larry Laffer en una parodia del ocio adulto y del turismo de resort, esta vez en un complejo vacacional donde el jugador debe resolver puzles, conversar con personajes excéntricos y avanzar mediante la clásica interfaz gráfica de Sierra. Utiliza la tecnología SCI de Sierra, gráficos VGA y soporte para MS-DOS y Windows 3.1, representando la etapa de transición de las aventuras de Sierra hacia interfaces más visuales y accesibles. Esta edición española en caja grande distribuida por MCM Software conserva especial interés documental por su presentación localizada, su formato en disquetes de 3,5 pulgadas y su carácter representativo del humor adulto en el PC de comienzos de los noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de juego",
+      "6 disquetes de 3,5 pulgadas",
+      "Folleto impreso Entónate o Piérdete",
+      "Sobre o funda de documentación MCM Software"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box",
+      "Leisure Suit Larry",
+      "Larry Laffer",
+      "Al Lowe",
+      "Sierra On-Line",
+      "MCM Software",
+      "aventura gráfica clásica",
+      "humor adulto",
+      "comedia",
+      "SCI",
+      "VGA",
       "MS-DOS",
-      "Aventura gráfica",
-      "Humor adulto",
-      "Larry"
+      "Windows 3.1",
+      "disquetes 3.5",
+      "edición española",
+      "big box",
+      "PC clásico",
+      "preservación"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición en seis disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, verificar integridad tras la instalación y conservar digitalizada la documentación impresa por su posible utilidad en consultas o verificación contextual de la edición.",
+      "formato": "Otro",
+      "jugable_virtual": true
     }
   },
   {
