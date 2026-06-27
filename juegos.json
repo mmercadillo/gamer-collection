@@ -6906,7 +6906,7 @@
   },
   {
     "num": "000112",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DaFKkRriDeb",
     "titulo": "Elvira II: The Jaws of Cerberus",
     "url": "juegos/elvira-ii-the-jaws-of-cerberus-bigbox/",
     "plataforma": [
@@ -6914,30 +6914,65 @@
     ],
     "formato": "Big Box",
     "genero": [
-      "Aventura gráfica",
+      "Aventura de terror",
+      "Aventura en primera persona",
       "Point and click",
-      "Terror"
+      "Rol",
+      "Dungeon crawler",
+      "Fantasía oscura"
     ],
     "desarrollador": [
-      "Horror Soft"
+      "Horror Soft Ltd."
     ],
     "distribuidor": [
-      "Accolade"
+      "Accolade",
+      "ERBE Software"
     ],
-    "ean": [],
-    "descripcion": "Elvira II: The Jaws of Cerberus es una aventura gráfica point and click lanzada en 1992 y desarrollada por Horror Soft. Secuela directa de Elvira: Mistress of the Dark, el juego vuelve a mezclar humor negro y terror con una ambientación gótica. El jugador debe ayudar a Elvira a recuperar el libro de hechizos Cerberus, resolviendo puzles, explorando distintos escenarios y enfrentándose a criaturas sobrenaturales en una experiencia más narrativa y refinada que su predecesor.",
-    "incluye": [],
+    "ean": [
+      "8420224012481"
+    ],
+    "descripcion": "Elvira II: The Jaws of Cerberus es la secuela de Elvira: Mistress of the Dark y uno de los títulos más representativos de Horror Soft dentro de la aventura de terror para PC de comienzos de los noventa. Publicado originalmente en 1991, combina exploración en primera persona, interfaz iconográfica, resolución de puzles, combate, elementos de rol y una ambientación de horror fantástico protagonizada por Elvira, Mistress of the Dark. La acción traslada al jugador a los estudios Black Widow en Hollywood, donde una fuerza maligna ha capturado a Elvira y ha convertido sus decorados en tres mundos de pesadilla: un cementerio, una casa encantada y unas catacumbas. Esta edición española distribuida por ERBE corresponde a la versión VGA de 256 colores para PC compatibles MS-DOS, con soporte para EGA, MCGA/VGA y tarjetas de sonido AdLib, Sound Blaster, Roland MT-32 y LAPC-I. Conserva especial interés archivístico por su presentación en disquetes de 3,5 pulgadas, su rol físico de claves anticopia y por documentar una etapa temprana del terror interactivo en PC antes de la consolidación comercial del survival horror moderno.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual o documentación para PC IBM y Amiga",
+      "3 disquetes de 3,5 HD",
+      "Rol de claves",
+      "Sobre protector ERBE"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
-    "tags": [],
+    "tags": [
+      "Elvira",
+      "Elvira II",
+      "The Jaws of Cerberus",
+      "Horror Soft",
+      "Accolade",
+      "ERBE Software",
+      "MS-DOS",
+      "VGA 256 colores",
+      "EGA",
+      "AdLib",
+      "Sound Blaster",
+      "Roland MT-32",
+      "LAPC-I",
+      "terror interactivo",
+      "fantasía oscura",
+      "aventura de terror",
+      "dungeon crawler",
+      "rol de claves",
+      "disquetes 3.5",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
     "proteccion": {
-      "tipo": "No determinado",
+      "tipo": "Rol de claves",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición en tres disquetes de 3,5 HD con rol físico de claves como sistema anticopia. Para preservación se recomienda realizar imagen individual de cada disquete, documentar etiquetas y numeración de discos, digitalizar el rol de claves y conservar la documentación impresa asociada. La ejecución es viable en entorno MS-DOS virtualizado como DOSBox, manteniendo disponible la información del rol de claves si el juego la solicita.",
+      "formato": "Otro",
+      "jugable_virtual": true
     }
   },
   {
