@@ -6987,28 +6987,55 @@
     "genero": [
       "Aventura gráfica",
       "Point and click",
-      "Ciencia ficción"
+      "Aventura cinematográfica",
+      "Aventura de exploración"
     ],
     "desarrollador": [
       "Access Software"
     ],
     "distribuidor": [
-      "Access Software"
+      "Access Software",
+      "U.S. Gold",
+      "Dro Soft"
     ],
     "ean": [],
-    "descripcion": "Amazon: Guardians of the Eden es una aventura gráfica point and click lanzada en 1992 y desarrollada por Access Software. Ambientada en un futuro distópico, el jugador controla a Jason Roberts, un aventurero que debe viajar al corazón del Amazonas para desentrañar una conspiración que amenaza a la humanidad. El juego combina exploración, diálogos, resolución de puzles y una fuerte narrativa de ciencia ficción, utilizando el motor gráfico propio de Access Software.",
-    "incluye": [],
+    "descripcion": "Amazon: Guardians of Eden es una aventura gráfica cinematográfica desarrollada por Access Software y publicada originalmente a comienzos de los años noventa para compatibles PC. Ambientada en 1957, plantea una expedición al corazón de la cuenca del Amazonas tras recibir un mensaje desesperado de un familiar desaparecido. El juego combina exploración, resolución de puzles, escenas de acción y una presentación cercana al cine interactivo, con imágenes digitalizadas, personajes con voz, banda sonora completa y soporte para VGA y Super VGA. Esta edición española distribuida por Dro Soft bajo sello U.S. Gold destaca por su software traducido al castellano y por representar una etapa muy concreta del PC multimedia anterior a la consolidación masiva del CD-ROM, cuando algunas aventuras de gran producción todavía se distribuían en múltiples disquetes de 3,5 pulgadas.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual del jugador",
+      "5 disquetes de 3,5 pulgadas",
+      "Sobre de registro o documentación Dro Soft"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
-    "tags": [],
+    "tags": [
+      "Amazon Guardians of Eden",
+      "Access Software",
+      "U.S. Gold",
+      "Dro Soft",
+      "edición española",
+      "software traducido al castellano",
+      "MS-DOS",
+      "VGA",
+      "Super VGA",
+      "Basic VGA",
+      "aventura cinematográfica",
+      "cine interactivo",
+      "años 90",
+      "disquetes 3.5",
+      "PC compatibles",
+      "Big Box PC",
+      "preservación PC",
+      "juego físico PC"
+    ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición distribuida en cinco disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, documentar etiquetas y numeración de discos, conservar el manual físico y verificar la instalación completa en un entorno MS-DOS virtualizado como DOSBox. No se aprecia evidencia suficiente para confirmar un sistema anticopia concreto en la edición mostrada.",
+      "formato": "Otro",
+      "jugable_virtual": true
     }
   },
   {
