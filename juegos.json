@@ -7040,59 +7040,76 @@
   },
   {
     "num": "0000114",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DaKl-ooiJ7d",
     "titulo": "Half-Life: Juego del Año",
     "url": "juegos/half-life-juego-del-ano-bigbox/",
     "plataforma": [
       "Win95",
-      "Win98"
+      "Win98",
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Acción",
       "Shooter en primera persona",
-      "Ciencia ficción"
+      "Acción",
+      "Ciencia ficción",
+      "Aventura narrativa",
+      "Multijugador"
     ],
     "desarrollador": [
       "Valve"
     ],
     "distribuidor": [
-      "Sierra"
+      "Sierra Studios",
+      "Coktel Educative"
     ],
     "ean": [
       "3348542045163"
     ],
-    "descripcion": "Edición española \"Juego del Año\" de Half-Life, el revolucionario shooter en primera persona de Valve que combinó acción, narrativa integrada y una atmósfera opresiva poco habitual en el género a finales de los noventa. Esta edición incluye el juego completo actualizado y contenidos extra como Uplink y Team Fortress Classic, tal y como se anuncia en la caja. Se trata de una Big Box distribuida por Sierra y totalmente en castellano, muy representativa del enorme impacto comercial y cultural que tuvo Half-Life en PC.",
+    "descripcion": "Half-Life: Juego del Año es la edición española de la versión Game of the Year del influyente shooter en primera persona de Valve, publicado originalmente en 1998 y convertido en una referencia absoluta del PC gaming de finales de los noventa. La obra situó al jugador en Black Mesa como Gordon Freeman y destacó por integrar narrativa, exploración, combate, inteligencia artificial y secuencias guionizadas dentro del propio flujo jugable, evitando la estructura tradicional de niveles inconexos y cinemáticas separadas. Esta edición en castellano recoge el juego completo actualizado y contenido adicional asociado a su etapa multijugador, con nuevos niveles, personajes, mapas y Team Fortress Classic, reforzando la dimensión online que Half-Life tendría antes de la transición posterior a Steam. También conserva interés técnico por su uso del motor GoldSrc, aceleración 3D mediante Direct3D/OpenGL y soporte para tecnologías de audio 3D como A3D y EAX.",
     "incluye": [
       "Caja Big Box",
-      "CD-ROM del juego en caja Jewel Case",
-      "Manual",
-      "Hoja adicional de instrucciones/advertencias"
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Hoja impresa de contenido y advertencia"
     ],
     "serie": [
-      "Big Box",
-      "Todos"
+      "Todos",
+      "Big Box"
     ],
     "tags": [
       "Half-Life",
+      "Juego del Año",
+      "Game of the Year Edition",
       "Valve",
       "Sierra",
-      "Big Box",
-      "PC CD-ROM",
-      "Shooter en primera persona",
-      "Ciencia ficción",
-      "Juego del Año",
-      "Edición española",
+      "Coktel",
+      "Gordon Freeman",
+      "Black Mesa",
+      "GoldSrc",
       "Team Fortress Classic",
       "Uplink",
-      "Black Mesa"
+      "FPS clásico",
+      "multijugador online",
+      "Direct3D",
+      "OpenGL",
+      "A3D",
+      "EAX",
+      "Windows 95",
+      "Windows 98",
+      "Windows NT",
+      "PC CD-ROM",
+      "edición española",
+      "totalmente en castellano",
+      "Big Box",
+      "preservación PC"
     ],
     "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de verificación directa de la protección exacta de esta edición española. Posible comprobación de CD propia de ediciones retail de la época.",
+      "tipo": "Código o clave",
+      "version": "CD-Key retail / WON",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM en BIN/CUE y documentación de la clave de producto asociada a la edición retail, necesaria para conservar correctamente la instalación original y el contexto del multijugador WON/Steam temprano. La ejecución virtual es viable en Windows 9x/NT virtualizado o mediante configuraciones modernas compatibles, manteniendo la imagen del disco y la clave física documentadas.",
       "formato": "BIN/CUE",
-      "jugable_virtual": false
+      "jugable_virtual": true
     }
   },
   {
