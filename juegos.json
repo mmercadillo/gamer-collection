@@ -7187,43 +7187,84 @@
   },
   {
     "num": "000116",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DaP0Y0iiIcZ",
     "titulo": "Half-Life Generation",
     "url": "juegos/half-life-generation-bigbox/",
     "plataforma": [
       "Win95",
       "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
+      "Shooter en primera persona",
       "Acción",
-      "Shooter en primera persona"
+      "Ciencia ficción",
+      "Compilación",
+      "Expansión",
+      "Multijugador"
     ],
     "desarrollador": [
-      "Valve"
+      "Valve",
+      "Gearbox Software",
+      "Counter-Strike Team"
     ],
     "distribuidor": [
-      "Sierra Entertainment"
+      "Sierra",
+      "Havas Interactive España S.L."
     ],
     "ean": [],
-    "descripcion": "Half-Life Generation es una edición recopilatoria que incluye el juego original Half-Life junto con sus expansiones oficiales Opposing Force y Blue Shift, además de Counter-Strike. Esta edición fue lanzada como un pack completo que reunía gran parte de la experiencia Half-Life en una sola caja.",
-    "incluye": [],
+    "descripcion": "Half-Life Generation es una recopilación física para PC publicada por Sierra que reúne el impacto inicial de Half-Life con su expansión oficial Opposing Force y el fenómeno multijugador Counter-Strike, además de Team Fortress Classic como parte del ecosistema competitivo surgido alrededor del motor GoldSrc. Half-Life, desarrollado por Valve, transformó el shooter en primera persona al integrar narrativa continua, secuencias guionizadas sin interrupciones cinematográficas tradicionales, inteligencia artificial avanzada para la época y una ambientación científica de ciencia ficción centrada en Black Mesa. Opposing Force, desarrollado por Gearbox Software, amplía la historia desde la perspectiva de un marine de la HECU, aportando nuevas armas, enemigos y situaciones paralelas al incidente original. Counter-Strike representa uno de los saltos culturales más importantes del PC gaming de finales de los noventa y comienzos de los 2000: nacido como mod, terminó consolidando el shooter táctico competitivo online y anticipando una parte esencial de la cultura de los eSports. Esta edición española en caja grande, distribuida por Havas Interactive España bajo el sello Sierra, tiene especial interés documental porque encapsula en una sola edición comercial la transición entre el FPS narrativo moderno, la expansión oficial tradicional y la explosión de los mods multijugador convertidos en productos comerciales.",
+    "incluye": [
+      "Caja Big Box",
+      "3 CD-ROM",
+      "Estuche jewel case doble para CD 1 y CD 2",
+      "Estuche jewel case para CD 3",
+      "Half-Life: Juego del Año",
+      "Half-Life: Opposing Force",
+      "Counter-Strike",
+      "Team Fortress Classic"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Multijugador"
+      "Half-Life",
+      "Half-Life Generation",
+      "Valve",
+      "Gearbox Software",
+      "Sierra",
+      "Havas Interactive España",
+      "GoldSrc",
+      "Black Mesa",
+      "Gordon Freeman",
+      "Opposing Force",
+      "Adrian Shephard",
+      "Counter-Strike",
+      "Team Fortress Classic",
+      "FPS clásico",
+      "shooter táctico",
+      "multijugador online",
+      "mods de PC",
+      "eSports",
+      "WON",
+      "edición española",
+      "totalmente en castellano",
+      "PC CD-ROM",
+      "3 CD-ROM",
+      "Big Box PC",
+      "Windows 95",
+      "Windows 98",
+      "Windows NT",
+      "preservación PC"
     ],
     "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "tipo": "Código o clave",
+      "version": "Clave de CD retail",
+      "preservacion": "Preservación recomendada mediante imagen completa de los 3 CD-ROM originales, preferiblemente en BIN/CUE o formato equivalente que documente con precisión la estructura de los discos. Es importante conservar la asociación entre cada disco, su estuche y las claves físicas de la edición sin publicarlas, ya que las versiones retail de Half-Life y sus derivados utilizaban claves de CD para instalación, identificación o juego online en la infraestructura WON de la época. La ejecución virtual es viable en entornos Windows 95/98/NT o mediante capas de compatibilidad, aunque las funciones online originales dependen de servicios históricos ya discontinuados.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
