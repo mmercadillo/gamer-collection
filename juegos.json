@@ -7335,6 +7335,418 @@
     }
   },
   {
+    "num": "000118",
+    "ig": "",
+    "titulo": "Ultima Underworld: The Stygian Abyss",
+    "url": "juegos/ultima-underworld-the-stygian-abyss-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Dungeon crawler",
+      "RPG en primera persona",
+      "Fantasía",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Blue Sky Productions"
+    ],
+    "distribuidor": [
+      "Origin Systems",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Ultima Underworld: The Stygian Abyss es uno de los juegos de rol más importantes de comienzos de los años noventa y una obra clave en la evolución del videojuego en primera persona. Desarrollado por Blue Sky Productions y publicado por Origin Systems en 1992, trasladó el universo Ultima a un entorno subterráneo tridimensional en tiempo real, con exploración libre, combate, conversación con personajes, magia, gestión de inventario, uso físico de objetos y una fuerte sensación de inmersión. Su motor permitía movimiento continuo, desniveles, iluminación, superficies texturizadas y una interacción con el mundo muy avanzada para la época, anticipando rasgos que posteriormente se asociarían al immersive sim. Esta edición española en caja grande, editada y distribuida por Dro Soft, conserva especial valor documental por su localización al castellano, por el soporte en disquetes de 3,5 pulgadas y por incluir material impreso de consulta y protección propio de las ediciones físicas de PC de principios de los noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "Disquetes de 3,5 pulgadas",
+      "Manual o documentación impresa",
+      "Libro de pistas en castellano",
+      "Libro de claves",
+      "Mapa o material de referencia impreso",
+      "Fundas o sobres de disquetes"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Ultima",
+      "Ultima Underworld",
+      "The Stygian Abyss",
+      "Origin Systems",
+      "Blue Sky Productions",
+      "Looking Glass",
+      "Dro Soft",
+      "Richard Garriott",
+      "Avatar",
+      "Britannia",
+      "Abismo Estigio",
+      "rol clásico",
+      "CRPG",
+      "dungeon crawler",
+      "RPG en primera persona",
+      "simulación inmersiva",
+      "3D en tiempo real",
+      "gráficos VGA",
+      "256 colores",
+      "Sound Blaster",
+      "AdLib",
+      "Roland",
+      "MS-DOS",
+      "IBM PC compatible",
+      "386",
+      "disquetes 3.5",
+      "edición española",
+      "software en castellano",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "Edición en disquetes de 3,5 pulgadas con documentación física asociada. Para preservación se recomienda realizar imagen individual de cada disquete, verificar integridad en entorno MS-DOS o DOSBox y conservar digitalizados el libro de claves, el libro de pistas y el resto de materiales impresos necesarios para la experiencia original y posibles consultas anticopia.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000119",
+    "ig": "",
+    "titulo": "5ª Flota",
+    "url": "juegos/5a-flota-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Wargame",
+      "Estrategia naval",
+      "Simulación naval",
+      "Estrategia por turnos",
+      "Simulación bélica"
+    ],
+    "desarrollador": [
+      "Stanley Associates"
+    ],
+    "distribuidor": [
+      "The Avalon Hill Game Company",
+      "System 4 de España"
+    ],
+    "ean": [],
+    "descripcion": "5ª Flota es la edición española de 5th Fleet, wargame naval moderno publicado por The Avalon Hill Game Company y ambientado en un hipotético conflicto en el Golfo Pérsico y el Océano Índico. El juego sitúa al jugador al mando de fuerzas aeronavales contemporáneas, con unidades de superficie, submarinos, aviación embarcada, bombarderos, interceptores y misiles, dentro de una simulación operacional centrada en control marítimo, superioridad aérea, detección radar, ataques de largo alcance y toma de decisiones estratégicas. La edición destaca por adaptar al PC la tradición de los wargames complejos de Avalon Hill, incorporando escenarios, juego contra la IA, partidas entre jugadores y soporte para juego por e-mail, una característica avanzada para mediados de los noventa. Esta versión física española en caja grande para PC 3,5 pulgadas, distribuida por System 4 de España, conserva especial interés documental por su localización al castellano, su soporte en disquetes y su compatibilidad declarada con Windows 95.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual en castellano",
+      "Cuaderno o documentación adicional",
+      "5 disquetes de 3,5 pulgadas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "5ª Flota",
+      "5th Fleet",
+      "Avalon Hill",
+      "The Avalon Hill Game Company",
+      "Stanley Associates",
+      "System 4",
+      "wargame naval",
+      "combate naval moderno",
+      "Golfo Pérsico",
+      "Océano Índico",
+      "flota naval",
+      "portaviones",
+      "submarinos",
+      "misiles",
+      "aviación embarcada",
+      "estrategia operacional",
+      "juego por e-mail",
+      "MS-DOS",
+      "Windows 95",
+      "disquetes 3.5",
+      "edición española",
+      "software en castellano",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, documentar la numeración y etiquetas de los discos, verificar la instalación en entorno MS-DOS o Windows 95 virtualizado y conservar digitalizada la documentación en castellano por su valor operativo y archivístico. No hay evidencia suficiente para confirmar un sistema anticopia concreto en la edición mostrada.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000120",
+    "ig": "",
+    "titulo": "D-Day: The Beginning of the End",
+    "url": "juegos/d-day-the-beginning-of-the-end-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Simulación bélica",
+      "Estrategia histórica",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Impressions Games",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "D-Day: The Beginning of the End es un wargame histórico de 1994 desarrollado por Impressions Games y centrado en la campaña aliada posterior al desembarco de Normandía durante la Segunda Guerra Mundial. El jugador asume el mando de fuerzas aliadas o alemanas en un sistema estratégico-operacional que combina planificación de campañas, refuerzo de divisiones, resultados de batalla, seguimiento a nivel de campaña y combates tácticos con microminiaturas sobre terreno detallado. La obra forma parte de la línea de estrategia histórica de Impressions previa a su consolidación masiva con los city builders, y refleja una etapa del PC en la que los wargames tradicionales de tablero se trasladaban al ordenador manteniendo profundidad, documentación histórica y gestión militar compleja. Esta edición española en caja grande distribuida por Proein incluye software y manual en castellano, soporte en disquete de 3,5 pulgadas HD y conserva especial interés documental dentro del catálogo de estrategia bélica para compatibles PC de mediados de los noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual en castellano",
+      "Disquete de 3,5 pulgadas HD",
+      "Documentación Proein"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "D-Day",
+      "The Beginning of the End",
+      "Impressions Games",
+      "Proein",
+      "wargame histórico",
+      "Segunda Guerra Mundial",
+      "Normandía",
+      "Frente Occidental",
+      "estrategia operacional",
+      "estrategia por turnos",
+      "microminiaturas",
+      "campaña militar",
+      "software en castellano",
+      "manual en castellano",
+      "MS-DOS",
+      "PC 3.5 HD",
+      "disquete 3.5",
+      "edición española",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquete de 3,5 pulgadas HD. Para preservación se recomienda realizar imagen completa del disquete original, documentar etiqueta y numeración del soporte, verificar instalación y ejecución en entorno MS-DOS o DOSBox, y conservar digitalizado el manual en castellano por su valor operativo y documental. No hay evidencia suficiente para confirmar un sistema anticopia concreto en la edición mostrada.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000121",
+    "ig": "",
+    "titulo": "Industry Giant",
+    "url": "juegos/industry-giant-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación económica",
+      "Gestión",
+      "Estrategia empresarial",
+      "Construcción y gestión",
+      "Tycoon"
+    ],
+    "desarrollador": [
+      "JoWooD Productions"
+    ],
+    "distribuidor": [
+      "Interactive Magic",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Industry Giant es un simulador económico y de gestión empresarial desarrollado por JoWooD Productions y publicado internacionalmente por Interactive Magic a finales de los años noventa. El juego propone construir un imperio industrial desde la extracción y compra de materias primas hasta la fabricación, transporte y venta de productos en el mercado, obligando al jugador a equilibrar cadenas de suministro, localización de industrias, competencia, logística, precios y demanda. Su planteamiento se sitúa dentro de la tradición de los tycoon y simuladores empresariales de PC, con una estructura orientada a planificación económica, expansión progresiva y optimización de redes de producción. Esta edición española en caja grande, distribuida por Friendware y traducida al castellano, conserva interés documental por representar la llegada al mercado español de una de las sagas económicas europeas más reconocibles del periodo Windows 95.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones en castellano",
+      "Tarjeta de registro Friendware"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Industry Giant",
+      "JoWooD",
+      "JoWooD Productions",
+      "Interactive Magic",
+      "Friendware",
+      "simulación económica",
+      "gestión empresarial",
+      "tycoon",
+      "industria",
+      "logística",
+      "cadena de suministro",
+      "transporte",
+      "mercado",
+      "competencia empresarial",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "juego traducido al castellano",
+      "edición española",
+      "big box",
+      "PC clásico",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda crear imagen completa del disco original, documentar el contenido de la caja y conservar digitalizados el manual y la tarjeta de registro. La ejecución virtual debería verificarse en un entorno Windows 95/98 o equivalente, manteniendo la imagen montada si la edición realiza comprobación de disco.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Colossus",
+    "url": "juegos/colossus-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Juegos de mesa",
+      "Simulación",
+      "Estrategia",
+      "Ajedrez",
+      "Backgammon",
+      "Bridge",
+      "Damas"
+    ],
+    "desarrollador": [
+      "CDS Software"
+    ],
+    "distribuidor": [
+      "CDS Software",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Colossus es una compilación de juegos de mesa clásicos para compatibles PC publicada por CDS Software y distribuida en España por Proein. Reúne varios programas de la familia Colossus orientados a la recreación informática de juegos tradicionales: Colossus Backgammon, Colossus Bridge, Colossus Chess X y Colossus Draughts. La colección destaca por trasladar al entorno MS-DOS una selección de juegos de tablero y cartas con oponentes controlados por ordenador, distintos niveles de dificultad y funciones de aprendizaje o ayuda, especialmente relevantes en una época en la que el PC doméstico empezaba a consolidarse también como plataforma para juegos lógicos, ajedrez computacional y simulaciones de sobremesa. Esta edición española en caja grande para PC 5¼ conserva especial interés documental por su distribución localizada por Proein, su soporte en disquetes de gran formato y por representar una línea de software de entretenimiento anterior a la estandarización masiva del CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "Disquetes de 5,25 pulgadas",
+      "Documentación impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Colossus",
+      "CDS Software",
+      "Proein",
+      "Colossus Chess X",
+      "Colossus Backgammon",
+      "Colossus Bridge",
+      "Colossus Draughts",
+      "ajedrez por ordenador",
+      "juegos de mesa clásicos",
+      "backgammon",
+      "bridge",
+      "damas",
+      "MS-DOS",
+      "PC 5.25",
+      "disquetes 5.25",
+      "edición española",
+      "software localizado",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en disquetes de 5,25 pulgadas. Para preservación se recomienda realizar volcado individual de cada disquete, preferiblemente con control de integridad sectorial, documentar etiquetas y orden de los discos, y verificar instalación y ejecución en un entorno MS-DOS emulado o hardware compatible. No hay evidencia suficiente en la edición mostrada para confirmar un sistema anticopia concreto.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Dark Seed",
+    "url": "juegos/dark-seed-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Terror",
+      "Ciencia ficción",
+      "Surrealismo"
+    ],
+    "desarrollador": [
+      "Cyberdreams"
+    ],
+    "distribuidor": [
+      "Cyberdreams",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Dark Seed es una aventura gráfica de terror y ciencia ficción publicada por Cyberdreams en 1992, especialmente recordada por integrar arte y diseños inspirados en la obra biomecánica de H. R. Giger. El juego sitúa al protagonista Mike Dawson en una pesadilla doméstica y extradimensional tras la implantación de una semilla alienígena en su cerebro, combinando investigación, puzles con límite temporal y una atmósfera opresiva muy distinta a la aventura gráfica humorística dominante de comienzos de los noventa. Su uso de gráficos de alta resolución y estética adulta lo convirtió en una pieza singular dentro del catálogo de aventuras de PC y microordenadores. Esta edición española distribuida por Dro Soft conserva especial interés documental por su localización física, su presentación Big Box, el soporte en disquetes de 3,5 pulgadas y la documentación de referencia asociada. La unidad mostrada corresponde visualmente a la versión Amiga distribuida por Dro Soft; el schema actual no contempla Amiga como plataforma, por lo que se consigna la plataforma PC equivalente permitida para mantener validez estructural.",
+    "incluye": [
+      "Caja Big Box",
+      "Guía de referencia",
+      "7 disquetes de 3,5 pulgadas",
+      "Documentación impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Dark Seed",
+      "Darkseed",
+      "Cyberdreams",
+      "Dro Soft",
+      "H. R. Giger",
+      "HR Giger",
+      "terror biomecánico",
+      "ciencia ficción oscura",
+      "aventura gráfica clásica",
+      "point and click",
+      "Mike Dawson",
+      "surrealismo",
+      "pesadilla alienígena",
+      "MS-DOS",
+      "Amiga",
+      "disquetes 3.5",
+      "edición española",
+      "software localizado",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, documentar etiquetas y orden de instalación, conservar digitalizada la guía de referencia y verificar ejecución en el entorno original correspondiente. En la versión PC MS-DOS la ejecución virtual es viable mediante DOSBox; en la unidad mostrada, al tratarse de discos rotulados como versión Amiga, sería necesaria preservación específica de disquete Amiga mediante flujo o imagen compatible.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Return to Zork",
