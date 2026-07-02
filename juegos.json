@@ -7269,43 +7269,69 @@
   },
   {
     "num": "000117",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DaSM9heiBXj",
     "titulo": "Gunman Chronicles",
     "url": "juegos/gunman-chronicles-bigbox/",
     "plataforma": [
+      "Win95",
       "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
+      "WinNT"
     ],
     "formato": "Big Box",
     "genero": [
-      "Shooter",
-      "Ciencia ficción",
-      "Acción"
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción"
     ],
     "desarrollador": [
       "Rewolf Software"
     ],
     "distribuidor": [
-      "Sierra Studios"
+      "Sierra Studios",
+      "Havas Interactive España, S.L."
     ],
     "ean": [],
-    "descripcion": "FPS de ciencia ficción basado en el motor GoldSrc de *Half-Life*. Sigues a un escuadrón militar, los Gunmen, en su lucha contra criaturas alienígenas y una amenaza biotecnológica en planetas remotos. El juego destaca por su ambientación pulp futurista, armas altamente configurables y una campaña con variedad de escenarios y enemigos. Originalmente comenzó como un mod, pero fue profesionalizado por Sierra y lanzado como título independiente.",
-    "incluye": [],
+    "descripcion": "Gunman Chronicles es un shooter en primera persona de ciencia ficción desarrollado por Rewolf Software y publicado por Sierra Studios en el año 2000. Nació a partir de un proyecto de modificación total relacionado con Half-Life y acabó convertido en un lanzamiento comercial independiente basado en el motor GoldSrc, la tecnología derivada de Half-Life. Su campaña mezcla estética pulp, acción militar futurista, planetas hostiles, templos mayas, criaturas alienígenas Xenomes, reptiles gigantes y combates con vehículos. Una de sus características más distintivas es el sistema de armas configurables, con múltiples modos y ajustes por arma, además de soporte multijugador para partidas en LAN o Internet. Esta edición española Big Box para PC CD-ROM aparece completamente localizada al castellano y conserva interés documental por representar una de las raras conversiones de un proyecto nacido en la escena mod hacia producto físico comercial bajo el sello Sierra/Havas.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Anexo a los controles de teclado",
+      "Tarjeta postal Sierra Number 1 Club / Havas Interactive"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Precintado"
+      "Gunman Chronicles",
+      "Rewolf Software",
+      "Sierra Studios",
+      "Havas Interactive España",
+      "Half-Life",
+      "GoldSrc",
+      "motor de Half-Life",
+      "mod comercial",
+      "Xenomes",
+      "edición española",
+      "totalmente en castellano",
+      "PC CD-ROM",
+      "Big Box PC",
+      "Windows 95",
+      "Windows 98",
+      "Windows NT",
+      "Direct3D",
+      "OpenGL",
+      "multijugador LAN",
+      "FPS clásico",
+      "preservación PC"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición PC CD-ROM en castellano. Para preservación se recomienda realizar imagen completa del disco en formato BIN/CUE o ISO y conservar escaneos del manual, anexo de controles y tarjeta de registro. La ejecución virtual debería verificarse en Windows 95/98/NT o entorno compatible, manteniendo la imagen montada y comprobando si la edición concreta aplica verificación de CD o clave durante instalación, ejecución o multijugador.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     }
   },
   {
