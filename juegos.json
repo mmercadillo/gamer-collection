@@ -60042,5 +60042,1266 @@
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Acorazados",
+    "url": "juegos/acorazados-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación naval",
+      "Wargame",
+      "Estrategia táctica",
+      "Simulación histórica",
+      "Combate naval"
+    ],
+    "desarrollador": [
+      "Turcan Research Systems Ltd",
+      "Dr. Peter Turcan"
+    ],
+    "distribuidor": [
+      "Turcan Research Systems Ltd",
+      "System 4 de España"
+    ],
+    "ean": [],
+    "descripcion": "Acorazados es la edición española del simulador naval Dreadnoughts, desarrollado por Turcan Research Systems y programado por el Dr. Peter Turcan. Publicado en 1992 para IBM PC compatibles, recrea grandes enfrentamientos navales de la era de los acorazados, con especial atención a batallas de la Primera Guerra Mundial como Coronel, las Malvinas, Dogger Bank y Jutlandia. Su propuesta se centra en el mando táctico de flotas, la emisión de órdenes, el uso de señales, la visibilidad limitada por niebla y humo, el fuego artillero, los daños progresivos y la posición relativa de los buques. Frente a juegos navales más arcade, Acorazados pertenece a la tradición de los wargames de simulación compleja para PC, donde el jugador asume un rol cercano al de almirante y debe interpretar información incompleta, maniobrar formaciones y gestionar el alcance, el rumbo y la potencia de fuego. Esta edición distribuida en España por System 4 conserva especial interés documental por su localización al castellano, soporte en disquete de 3,5 pulgadas, requisitos para MS-DOS y compatibilidad con gráficos EGA/VGA y tarjetas de sonido Sound Blaster.",
+    "incluye": [
+      "Caja Big Box",
+      "Disquete de 3,5 pulgadas",
+      "Manual de instrucciones",
+      "Mapa naval desplegable",
+      "Documentación de escenarios y flotas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Acorazados",
+      "Dreadnoughts",
+      "Turcan Research Systems",
+      "Dr. Peter Turcan",
+      "System 4",
+      "simulación naval",
+      "wargame naval",
+      "combate naval histórico",
+      "Primera Guerra Mundial",
+      "Batalla de Jutlandia",
+      "Dogger Bank",
+      "Coronel",
+      "Malvinas 1914",
+      "acorazados",
+      "flotas históricas",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "disquete 3.5",
+      "EGA",
+      "VGA",
+      "Sound Blaster",
+      "edición española",
+      "Big Box PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquete de 3,5 pulgadas para MS-DOS. Para preservación se recomienda realizar imagen sectorial del disquete original, documentar etiqueta, caja, manual y mapa desplegable, y verificar la instalación en un entorno DOS virtualizado como DOSBox. No hay evidencia suficiente en la edición mostrada para confirmar un sistema anticopia concreto.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "EF2000",
+    "url": "juegos/ef2000-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de vuelo",
+      "Simulador de combate aéreo",
+      "Simulación militar",
+      "Combate moderno"
+    ],
+    "desarrollador": [
+      "Digital Image Design Ltd"
+    ],
+    "distribuidor": [
+      "Ocean Software Ltd",
+      "Arcadia Software S.L."
+    ],
+    "ean": [],
+    "descripcion": "EF2000 es un simulador de combate aéreo desarrollado por Digital Image Design como evolución tecnológica y conceptual de la línea TFX. Centrado en el caza Eurofighter 2000, propone operaciones modernas sobre escenarios nórdicos con conflicto ficticio en Noruega, combates aire-aire y aire-tierra, aviónica compleja, campañas generadas por inteligencia artificial y un enfoque que permite alternar entre simulación exigente y modos más accesibles. Su presentación SVGA, cabinas instrumentadas, soporte para tarjetas de sonido, ratón y joysticks avanzados lo sitúan entre los simuladores de vuelo militar más ambiciosos de mediados de los noventa en compatibles PC. Esta edición española distribuida por Arcadia Software bajo sello Ocean/DID y línea TFX Military conserva especial interés documental por representar la etapa de los simuladores europeos de alto rendimiento en CD-ROM para MS-DOS.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "EF2000 Addendum / guía de instalación"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "EF2000",
+      "Eurofighter 2000",
+      "Digital Image Design",
+      "Ocean Software",
+      "Arcadia Software",
+      "TFX Military",
+      "simulador de vuelo",
+      "combate aéreo",
+      "simulación militar",
+      "aviónica",
+      "campaña dinámica",
+      "inteligencia artificial",
+      "SVGA",
+      "Sound Blaster",
+      "joystick",
+      "Thrustmaster",
+      "MS-DOS",
+      "CD-ROM",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE, junto con digitalización de la guía de instalación y documentación impresa. La ejecución virtual es viable en entornos MS-DOS como DOSBox, PCem o 86Box, aunque puede requerir ajustar ciclos, memoria y soporte de sonido/joystick por sus requisitos elevados para la época.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "iF-22: The F-22 Raptor Simulator",
+    "url": "juegos/if-22-the-f-22-raptor-simulator-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulador de vuelo",
+      "Simulación de combate aéreo",
+      "Simulador militar",
+      "Combate moderno"
+    ],
+    "desarrollador": [
+      "Interactive Magic"
+    ],
+    "distribuidor": [
+      "Interactive Magic",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "iF-22: The F-22 Raptor Simulator es un simulador de combate aéreo moderno publicado en 1997 por Interactive Magic y centrado en el entonces futurista caza furtivo Lockheed Martin F-22 Raptor. Forma parte de la oleada de simuladores de vuelo de finales de los noventa que intentaron aprovechar la transición al PC multimedia con Windows 95, aceleración 3D y tarjetas gráficas compatibles con Direct3D. Su propuesta combina cabina de piloto operativa, campaña, misiones individuales, generación dinámica de misiones, variedad de aviones y vehículos activos en el campo de batalla, soporte multijugador por módem o red y terrenos fotorealistas generados a partir de imágenes por satélite y datos reales de elevación mediante la tecnología DEMON de Magic Labs. Esta edición española distribuida por Friendware conserva especial interés documental por representar el periodo en el que los simuladores militares de PC pasaron del enfoque DOS clásico a entornos Windows con gráficos 3D acelerados.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Manual de referencia",
+      "Tarjeta de registro Friendware",
+      "Folleto promocional de Fallen Haven"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "iF-22",
+      "F-22 Raptor",
+      "Interactive Magic",
+      "Magic Labs",
+      "Friendware",
+      "simulador de vuelo",
+      "simulación militar",
+      "combate aéreo",
+      "aviación moderna",
+      "Direct3D",
+      "DEMON",
+      "terreno fotorealista",
+      "satélite",
+      "Windows 95",
+      "CD-ROM",
+      "edición española",
+      "big box",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM para Windows 95. Para preservación se recomienda crear una imagen completa del disco, documentar manual y tarjeta de registro, y verificar la ejecución en un entorno Windows 95/98 virtualizado o emulado con soporte adecuado para Direct3D antiguo. No hay evidencia suficiente en la edición mostrada para confirmar un sistema anticopia concreto.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Imperialism",
+    "url": "juegos/imperialism-bigbox/",
+    "plataforma": [
+      "Win95",
+      "MacOs"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Gran estrategia",
+      "Gestión económica",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Frog City Software"
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Proein Software"
+    ],
+    "ean": [],
+    "descripcion": "Imperialism es un juego de estrategia por turnos desarrollado por Frog City Software y publicado por Strategic Simulations, Inc. en 1997. Ambientado en una reinterpretación industrial y colonial del siglo XIX, propone construir una potencia nacional mediante exploración, extracción de materias primas, transformación industrial, comercio, diplomacia, investigación tecnológica y campañas militares. A diferencia de otros juegos de conquista más centrados en el mapa bélico, su núcleo está en la economía: cadenas de producción, red ferroviaria, modernización de recursos y equilibrio entre crecimiento interno y expansión exterior. Esta edición española en caja grande distribuida por Proein Software conserva especial interés documental por tratarse de una edición PC y Mac en CD-ROM con manual en castellano, representativa de la estrategia compleja de finales de los noventa y del catálogo de SSI fuera del wargame militar tradicional.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de usuario",
+      "Hoja de instalación y referencia técnica en castellano",
+      "Hoja de unidades militares"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Imperialism",
+      "Frog City Software",
+      "Strategic Simulations Inc",
+      "SSI",
+      "Proein Software",
+      "estrategia por turnos",
+      "gran estrategia",
+      "gestión económica",
+      "simulación histórica",
+      "siglo XIX",
+      "industrialización",
+      "comercio",
+      "diplomacia",
+      "colonialismo",
+      "Windows 95",
+      "Mac OS",
+      "PC CD-ROM",
+      "edición española",
+      "manual en castellano",
+      "big box PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición híbrida PC y Mac en CD-ROM. Para preservación se recomienda crear imagen completa del disco, preferentemente BIN/CUE o formato equivalente que conserve correctamente la estructura del soporte, y documentar manual y hojas de referencia por su valor archivístico. La ejecución virtual es viable en entornos Windows 95 o Mac OS clásico, pendiente de verificar si la edición concreta realiza comprobación de disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Third Reich",
+    "url": "juegos/third-reich-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Gran estrategia",
+      "Simulación histórica",
+      "Estrategia hexagonal"
+    ],
+    "desarrollador": [
+      "The Avalon Hill Game Company"
+    ],
+    "distribuidor": [
+      "The Avalon Hill Game Company",
+      "System 4 de España"
+    ],
+    "ean": [],
+    "descripcion": "Third Reich es un wargame estratégico por turnos para PC desarrollado y publicado por The Avalon Hill Game Company como adaptación informática de su tradición de juegos de tablero históricos sobre la Segunda Guerra Mundial. El título traslada al ordenador la guerra europea completa, con escenarios que abarcan desde 1939 hasta 1946 y permite dirigir a las principales potencias beligerantes en Europa, el Norte de África y el Atlántico. Su diseño conserva una lógica de tablero basada en mapas hexagonales, frentes operacionales, producción, control territorial, ofensivas terrestres, guerra naval y aérea, y decisiones estratégicas de largo alcance. La edición española en Big Box fue distribuida por System 4 de España e identifica el software como versión inglesa con manual en castellano, un rasgo especialmente relevante para preservación porque combina localización documental española con ejecutable original en inglés.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM",
+      "Caja jewel case",
+      "Manual de referencia y operaciones en castellano",
+      "2 mapas de batalla",
+      "Tarjeta de registro o folleto promocional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Third Reich",
+      "Avalon Hill",
+      "The Avalon Hill Game Company",
+      "System 4 de España",
+      "Segunda Guerra Mundial",
+      "wargame clásico",
+      "estrategia por turnos",
+      "gran estrategia",
+      "mapa hexagonal",
+      "juego de tablero",
+      "Europa 1939-1946",
+      "Norte de África",
+      "Atlántico",
+      "potencias del Eje",
+      "Aliados",
+      "MS-DOS",
+      "CD-ROM",
+      "versión inglesa",
+      "manual en castellano",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización del manual y de los mapas de batalla. Al tratarse de una edición con software en inglés y documentación española, conviene documentar por separado ejecutable, manual localizado y materiales cartográficos; la ejecución virtual debería ser viable en DOSBox o entorno MS-DOS compatible, montando la imagen del CD si el programa exige presencia del disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Jungla de Cristal Trilogía 2: Viva Las Vegas",
+    "url": "juegos/jungla-de-cristal-trilogia-2-viva-las-vegas-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Shooter en tercera persona",
+      "Shoot 'em up",
+      "Conducción arcade"
+    ],
+    "desarrollador": [
+      "n-Space"
+    ],
+    "distribuidor": [
+      "Fox Interactive",
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Jungla de Cristal Trilogía 2: Viva Las Vegas es la segunda entrega de la adaptación interactiva de Die Hard Trilogy y recupera a John McClane en una aventura original ambientada en Las Vegas. El juego mantiene la estructura híbrida que caracterizaba a la serie, combinando fases de acción en tercera persona, secciones de disparo tipo galería y niveles de conducción arcade a lo largo de 25 niveles. Desarrollado por n-Space y publicado por Fox Interactive, representa una producción licenciada de finales de los noventa orientada al PC multimedia con gráficos 3D acelerados, soporte de tecnologías de sonido envolvente y una fuerte dependencia del hardware Direct3D de la época. Esta edición española en caja grande fue distribuida por Electronic Arts y destaca documentalmente por indicar traducción y doblaje al castellano, además de señalar explícitamente el requisito de tarjeta aceleradora 3D.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Jungla de Cristal",
+      "Die Hard Trilogy 2",
+      "Viva Las Vegas",
+      "John McClane",
+      "Fox Interactive",
+      "Electronic Arts",
+      "n-Space",
+      "acción cinematográfica",
+      "licencia cinematográfica",
+      "shoot 'em up",
+      "conducción arcade",
+      "tercera persona",
+      "aceleradora 3D",
+      "Direct3D",
+      "A3D",
+      "Dolby Surround",
+      "edición española",
+      "traducido al castellano",
+      "doblado al castellano",
+      "PC CD-ROM",
+      "Big Box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para conservar la estructura del soporte y documentar posibles pistas o comprobaciones de disco. La ejecución virtual debería ser viable en un entorno Windows 95/98 con DirectX y aceleración 3D compatible, aunque conviene verificar si la edición concreta aplica comprobación de CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Mad Dog: McDonnell Douglas Super 80 Series",
+    "url": "juegos/mad-dog-mcdonnell-douglas-super-80-series-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación aérea",
+      "Simulador de vuelo",
+      "Expansión",
+      "Aviación civil"
+    ],
+    "desarrollador": [
+      "LAGO",
+      "VirtuAlitalia"
+    ],
+    "distribuidor": [
+      "LAGO",
+      "Ubi Soft"
+    ],
+    "ean": [
+      "3307212279444"
+    ],
+    "descripcion": "Mad Dog: McDonnell Douglas Super 80 Series es un complemento de aviación civil para Microsoft Flight Simulator 98 centrado en la familia McDonnell Douglas Super 80/MD-80. La edición ofrece una recreación avanzada para su época del avión comercial, con cabina detallada, sistemas funcionales, piloto automático, gestión hidráulica y eléctrica, instrumentos operativos, radios con frecuencias alternativas, director de vuelo, TRC y procedimientos de cabina orientados a usuarios experimentados del simulador. El contenido anunciado incluye variantes de grandes compañías europeas, escenarios internos y externos, operaciones de pushback, alertas vocales y tráfico aéreo compatible con Flight Simulator, reforzando el carácter especializado de los add-ons de simulación civil de finales de los noventa. Esta edición europea BEN/ESP distribuida con apoyo de Ubi Soft conserva interés documental por pertenecer al ecosistema físico de expansiones no independientes para Microsoft Flight Simulator 98, con textos comerciales multilingües y juego/documentación indicados en inglés.",
+    "incluye": [
+      "Caja DVD Case",
+      "CD-ROM",
+      "Manual o documentación en inglés"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Mad Dog",
+      "McDonnell Douglas",
+      "Super 80",
+      "MD-80",
+      "MD82",
+      "MD83",
+      "MD87",
+      "MD88",
+      "Microsoft Flight Simulator 98",
+      "LAGO",
+      "VirtuAlitalia",
+      "Ubi Soft",
+      "simulación aérea",
+      "aviación civil",
+      "add-on",
+      "expansión",
+      "PC CD-ROM",
+      "DVD Case",
+      "edición europea",
+      "BEN ESP",
+      "software en inglés",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM dependiente de Microsoft Flight Simulator 98. Para preservación se recomienda crear una imagen completa del disco, documentar la carátula y conservar la información de compatibilidad, ya que la ejecución requiere una instalación funcional del simulador base en entorno Windows 95/98 o virtualización equivalente.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Operation Crusader",
+    "url": "juegos/operation-crusader-sp-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Simulación bélica",
+      "Estrategia histórica",
+      "Estrategia operacional"
+    ],
+    "desarrollador": [
+      "The Avalon Hill Game Company"
+    ],
+    "distribuidor": [
+      "The Avalon Hill Game Company",
+      "System 4 de España"
+    ],
+    "ean": [
+      "0045708101604"
+    ],
+    "descripcion": "Operation Crusader es un wargame operacional ambientado en la campaña del Norte de África durante la Segunda Guerra Mundial, centrado en la ofensiva británica de noviembre de 1941 contra las fuerzas del Afrika Korps de Erwin Rommel y sus aliados italianos. Publicado por The Avalon Hill Game Company dentro de su línea de wargames históricos para ordenador, combina mapa hexagonal, órdenes por turnos, gestión de unidades, apoyo aéreo y resolución detallada de combates en un frente donde logística, movilidad y reconocimiento son decisivos. La edición física mostrada corresponde a la versión IBM PC CD-ROM distribuida en España por System 4, con compatibilidad indicada para Windows 95 y documentación localizada al castellano. Su interés archivístico reside en representar la transición del wargame de tablero tradicional de Avalon Hill al formato CD-ROM, manteniendo una fuerte carga documental, escenarios históricos y herramientas para juego contra la IA o contra otro jugador mediante intercambio de órdenes.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Manual",
+      "Mapa del campo de batalla",
+      "Documentación impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Operation Crusader",
+      "Avalon Hill",
+      "System 4 de España",
+      "World at War",
+      "Segunda Guerra Mundial",
+      "Norte de África",
+      "Afrika Korps",
+      "Erwin Rommel",
+      "8º Ejército Británico",
+      "Tobruk",
+      "Libia",
+      "Egipto",
+      "wargame clásico",
+      "estrategia por turnos",
+      "mapa hexagonal",
+      "PC CD-ROM",
+      "Windows 95",
+      "MS-DOS",
+      "edición española",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM para IBM PC. Para preservación se recomienda crear imagen completa del disco, preferiblemente BIN/CUE, conservar el manual y el mapa por su valor documental y verificar la ejecución en entorno MS-DOS o Windows 95 virtualizado. No hay evidencia suficiente en la edición mostrada para confirmar un sistema anticopia concreto.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "S.A.G.A.: La furia de los Vikingos",
+    "url": "juegos/saga-la-furia-de-los-vikingos-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia fantástica",
+      "Gestión de recursos"
+    ],
+    "desarrollador": [
+      "Cryo Interactive Entertainment"
+    ],
+    "distribuidor": [
+      "Cryo Interactive Entertainment",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "S.A.G.A.: La furia de los Vikingos es un juego de estrategia en tiempo real publicado por Cryo Interactive Entertainment en 1999, ambientado en un universo de fantasía inspirado en la mitología nórdica y la expansión vikinga. Su propuesta combina conquista territorial, gestión de clanes, magia, alianzas, estaciones del año y enfrentamientos entre siete razas diferenciadas: vikingos, gigantes, enanos, trolls, elfos, centauros y habitantes del sur. A nivel jugable se aleja del RTS puramente económico para plantear una estructura de imperio fantástico con campañas, editor de mapas, varios niveles de zoom y multijugador local o por Internet para hasta 8 jugadores. Esta edición española distribuida por Friendware conserva especial interés documental por tratarse de un producto en castellano de la etapa final del mercado clásico de caja grande para PC, con presencia destacada de Cryo y material promocional propio de Friendware.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Revista The FriendWare News número 10",
+      "Tarjeta u hoja de registro Friendware"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "SAGA",
+      "La furia de los Vikingos",
+      "Saga Rage of the Vikings",
+      "Cryo Interactive",
+      "Friendware",
+      "estrategia en tiempo real",
+      "RTS",
+      "mitología nórdica",
+      "vikingos",
+      "fantasía",
+      "magia",
+      "editor de mapas",
+      "multijugador online",
+      "edición española",
+      "producto en castellano",
+      "PC CD-ROM",
+      "Big Box",
+      "Windows 95",
+      "Windows 98",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda realizar imagen completa del disco, preferiblemente BIN/CUE, y documentar manual, caja jewel case y materiales de Friendware. No hay evidencia suficiente en la edición mostrada para confirmar una protección anticopia concreta; conviene verificar en entorno Windows 95/98 virtualizado si existe comprobación de disco durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Star Wars: Force Commander",
+    "url": "juegos/star-wars-force-commander-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia táctica",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Ronin Entertainment",
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Star Wars: Force Commander es un juego de estrategia en tiempo real publicado por LucasArts en 2000 y ambientado íntegramente en el conflicto terrestre de la trilogía clásica de Star Wars. A diferencia de otros RTS de la época centrados en construcción de bases, propone una campaña narrativa basada en misiones, mando de unidades imperiales y rebeldes, gestión de puntos de comando y control táctico de más de setenta unidades reconocibles de la saga, incluyendo AT-AT, AT-ST, Snowspeeders e infantería. Su motor 3D permitía rotar y acercar la cámara para seguir los combates desde distintos ángulos, un rasgo muy destacado en el salto tecnológico de los RTS de finales de los noventa. Esta edición española en caja grande, distribuida por Electronic Arts Software, conserva especial interés documental por estar traducida y doblada al castellano y por representar una de las apuestas de LucasArts por trasladar Star Wars al terreno de la estrategia táctica para PC CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual del comandante"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "Force Commander",
+      "LucasArts",
+      "Ronin Entertainment",
+      "Electronic Arts Software",
+      "edición española",
+      "traducido al castellano",
+      "doblado al castellano",
+      "estrategia en tiempo real",
+      "RTS",
+      "combate terrestre",
+      "Imperio Galáctico",
+      "Alianza Rebelde",
+      "AT-AT",
+      "AT-ST",
+      "Snowspeeder",
+      "Command Point System",
+      "motor 3D",
+      "multijugador LAN",
+      "multijugador Internet",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para conservar la estructura del disco y facilitar verificación posterior. La ejecución virtual es viable en un entorno Windows 95/98 con DirectX y aceleración 3D configurada, aunque debe comprobarse en la edición concreta si existe verificación de disco durante la instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Final Conflict",
+    "url": "juegos/the-final-conflict-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Simulación política",
+      "Wargame",
+      "Simulación geopolítica",
+      "Estrategia global"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Impressions",
+      "System 4 de España"
+    ],
+    "ean": [],
+    "descripcion": "The Final Conflict es una simulación estratégica de poder político, crisis internacional y guerra mundial publicada por Impressions a comienzos de los años noventa para compatibles IBM PC. El jugador asume el mando de un país y debe gestionar órdenes militares, producción, recursos, fuerzas terrestres, marina, aviación y armamento nuclear en un contexto de tensión global propio del final de la Guerra Fría. Su planteamiento combina estrategia geopolítica, economía de guerra y conflicto mundial, permitiendo escalar desde la presión diplomática y militar hasta un escenario nuclear opcional. Esta edición española en caja grande para IBM PC 3,5 pulgadas fue distribuida por System 4 de España y conserva interés documental por representar una línea de simuladores políticos y wargames de PC menos habitual que los grandes títulos bélicos tácticos de la época. El ejemplar incluye además un disquete de Ancient Battles de CCS Ltd., lo que añade valor archivístico al conjunto físico y a la preservación de distribuciones españolas tempranas en disquete.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "Disquete de 3,5 pulgadas de The Final Conflict",
+      "Disquete de 3,5 pulgadas de Ancient Battles"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Final Conflict",
+      "Impressions",
+      "Impressions Games",
+      "System 4 de España",
+      "Plato",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "disquetes 3.5",
+      "edición española",
+      "simulación política",
+      "guerra mundial",
+      "Guerra Fría",
+      "estrategia geopolítica",
+      "wargame clásico",
+      "armamento nuclear",
+      "estrategia por turnos",
+      "PC clásico",
+      "big box",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, documentar etiquetas y manual, y verificar posteriormente la instalación y ejecución en un entorno MS-DOS virtualizado como DOSBox. No hay evidencia suficiente para confirmar un sistema anticopia concreto en esta edición.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Persian Wars",
+    "url": "juegos/persian-wars-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Fantasía",
+      "Aventura estratégica"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Cryo Interactive",
+      "Cryo España"
+    ],
+    "ean": [
+      "3554540106506"
+    ],
+    "descripcion": "Persian Wars es un juego de estrategia en tiempo real desarrollado y publicado por Cryo Interactive en 2001, ambientado en un universo fantástico inspirado en Las mil y una noches. La premisa parte de la caída del anillo mágico del rey Salomón, objeto capaz de otorgar un poder absoluto, lo que desencadena la marcha de tres grandes tribus del desierto en busca del fabuloso anillo. Frente al RTS histórico o militar convencional, Persian Wars apuesta por una mezcla de fantasía oriental, campañas ramificadas, alianzas, elección de misiones mediante un sistema de árbol y progresión de unidades por experiencia. Las facciones enfrentadas —amazones, beduinos y gules— aportan una identidad visual y jugable singular dentro del catálogo tardío de Cryo, más conocido por sus aventuras gráficas y producciones multimedia. Esta edición española en caja grande para PC CD-ROM conserva especial interés documental por representar la última etapa del mercado Big Box europeo y por mostrar la aproximación de Cryo a la estrategia fantástica durante los primeros años de Windows 2000.",
+    "incluye": [
+      "Caja Big Box",
+      "1 CD-ROM",
+      "Precintado original"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Persian Wars",
+      "Cryo Interactive",
+      "Cryo España",
+      "edición española",
+      "PC CD-ROM",
+      "Big Box",
+      "precintado",
+      "Las mil y una noches",
+      "fantasía oriental",
+      "rey Salomón",
+      "estrategia fantástica",
+      "RTS europeo",
+      "Windows 95",
+      "Windows 98",
+      "Windows 2000",
+      "juego en castellano",
+      "preservación PC",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM para Windows 95/98/2000. Para preservación se recomienda crear una imagen completa del disco en BIN/CUE o ISO, conservar fotografías de caja, etiqueta y documentación interna si se desprecinta, y verificar posteriormente si la edición aplica comprobación de CD durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Tigershark",
+    "url": "juegos/tigershark-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación militar",
+      "Combate vehicular",
+      "Acción",
+      "Ciencia ficción",
+      "Combate naval"
+    ],
+    "desarrollador": [
+      "n-Space"
+    ],
+    "distribuidor": [
+      "GT Interactive Software"
+    ],
+    "ean": [],
+    "descripcion": "Tigershark es un juego de acción y simulación de combate futurista desarrollado por n-Space y publicado por GT Interactive Software en la segunda mitad de los años noventa. Ambientado en el año 2060, plantea un escenario de guerra tecnológica en el que el jugador pilota un vehículo híbrido de combate capaz de operar tanto bajo el agua como sobre la superficie, enfrentándose a submarinos, buques, aeronaves y defensas enemigas. Su propuesta combina el lenguaje de los simuladores militares de PC con una ejecución más arcade, apoyada en entornos 3D, combate rápido y una estética de ciencia ficción militar propia de la era Windows 95 y DirectX. Esta edición europea en caja grande para PC CD-ROM presenta textos multilingües en el reverso, incluido castellano, y conserva interés documental por representar una producción temprana de n-Space antes de su etapa más conocida en consolas y por situarse en el cruce entre simulador, shooter vehicular y combate naval futurista.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Tigershark",
+      "n-Space",
+      "GT Interactive",
+      "Windows 95",
+      "PC CD-ROM",
+      "Big Box",
+      "combate futurista",
+      "combate naval",
+      "submarinos",
+      "subfoil",
+      "vehículo híbrido",
+      "simulación militar",
+      "acción 3D",
+      "DirectX",
+      "edición europea",
+      "textos multilingües",
+      "USK 12",
+      "caja precintada",
+      "preservación PC",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en formato BIN/CUE o ISO, documentando además caja, etiquetas, manual y posibles datos de edición. Al tratarse de un título de Windows 95 con gráficos 3D de época, la ejecución virtual debería realizarse preferentemente en un entorno Windows 9x con DirectX compatible, verificando si la edición concreta aplica comprobación de disco durante instalación o arranque.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Seven Kingdoms II: The Fryhtan Wars",
+    "url": "juegos/seven-kingdoms-ii-the-fryhtan-wars-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Estrategia fantástica",
+      "Gestión de reinos",
+      "Estrategia económica",
+      "Estrategia militar"
+    ],
+    "desarrollador": [
+      "Enlight Software"
+    ],
+    "distribuidor": [
+      "Ubi Soft"
+    ],
+    "ean": [
+      "3307212281850"
+    ],
+    "descripcion": "Seven Kingdoms II: The Fryhtan Wars es la secuela del juego de estrategia diseñado por Trevor Chan y desarrollado por Enlight Software. Frente al RTS convencional centrado únicamente en producir unidades y destruir al rival, esta entrega combina guerra en tiempo real, economía, comercio, diplomacia, espionaje, reputación, investigación y gestión de población dentro de un modelo de reinos muy sistémico. La gran novedad temática y jugable es la presencia de los Fryhtans, clanes de criaturas monstruosas que pueden ser enemigos o facciones jugables, ampliando el conflicto más allá de las civilizaciones humanas. Incluye campañas, partidas aleatorias y generador de campañas, lo que refuerza su valor como estrategia de alta rejugabilidad de finales de los noventa. Esta edición europea hispano-italiana en caja grande, distribuida por Ubi Soft, indica juego en inglés y manual en castellano e italiano, rasgo relevante para documentar la localización parcial de la edición física.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM",
+      "Manual en castellano/italiano"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Seven Kingdoms",
+      "The Fryhtan Wars",
+      "Seven Kingdoms II",
+      "Trevor Chan",
+      "Enlight Software",
+      "Ubi Soft",
+      "Fryhtans",
+      "estrategia clásica",
+      "fantasía estratégica",
+      "gestión económica",
+      "diplomacia",
+      "espionaje",
+      "generador de campañas",
+      "juego en inglés",
+      "manual en castellano",
+      "manual en italiano",
+      "edición hispano-italiana",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM original mediante imagen BIN/CUE o ISO y conservar escaneos del manual localizado. La ejecución virtual debería ser viable en un entorno Windows 95/98 correctamente configurado, verificando en la edición concreta si existe comprobación de disco durante instalación o arranque.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Great Naval Battles: Super Ships of the Atlantic - America in the Atlantic",
+    "url": "juegos/great-naval-battles-super-ships-of-the-atlantic-america-in-the-atlantic-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación naval",
+      "Wargame naval",
+      "Estrategia por turnos",
+      "Simulación histórica",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "IO Design Group"
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Expansión y disco de escenarios para Great Naval Battles: North Atlantic 1939-43, el simulador naval de Strategic Simulations, Inc. centrado en combates de superficie de la Segunda Guerra Mundial en el Atlántico Norte. Esta edición española en caja grande reúne los módulos Super Ships of the Atlantic y America in the Atlantic, orientados a escenarios hipotéticos y de historia alternativa: por un lado introduce grandes unidades navales que no llegaron a combatir o navegar en el contexto del juego original, como acorazados y cruceros de diseño avanzado; por otro plantea la incorporación de buques estadounidenses al teatro atlántico para enfrentarse a la Kriegsmarine antes de la entrada plena de Estados Unidos en la guerra. Su interés documental reside en ampliar un wargame naval complejo, de gestión táctica por turnos y representación detallada de buques, blindaje, artillería, velocidad, autonomía y daño, además de incluir actualización a la versión 1.2 y compatibilidad con IBM PC VGA de 256 colores.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "3 disquetes de 3.5 HD de Great Naval Battles",
+      "Disquete de 3.5 HD de escenarios y campañas Super Ships of the Atlantic / America in the Atlantic",
+      "Tarjeta de registro Dro Soft",
+      "Hoja de atención y actualización a versión 1.2"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Great Naval Battles",
+      "Super Ships of the Atlantic",
+      "America in the Atlantic",
+      "North Atlantic 1939-43",
+      "Strategic Simulations Inc",
+      "SSI",
+      "Dro Soft",
+      "IO Design Group",
+      "wargame naval",
+      "simulación naval",
+      "Segunda Guerra Mundial",
+      "Atlántico Norte",
+      "Kriegsmarine",
+      "US Navy",
+      "Royal Navy",
+      "historia alternativa",
+      "escenarios hipotéticos",
+      "VGA 256 colores",
+      "MS-DOS",
+      "disquetes 3.5",
+      "edición española",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, documentar etiquetas y actualización a versión 1.2, y verificar la instalación en DOSBox o en una máquina virtual MS-DOS compatible. No se aprecia evidencia suficiente para afirmar un sistema anticopia concreto.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "El Imperio de las Hormigas",
+    "url": "juegos/el-imperio-de-las-hormigas-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Gestión",
+      "Simulación",
+      "Gestión de recursos"
+    ],
+    "desarrollador": [
+      "Microïds"
+    ],
+    "distribuidor": [
+      "Microïds",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "El Imperio de las Hormigas es un juego de estrategia y gestión desarrollado por Microïds y basado en la novela de Bernard Werber, conocida originalmente como Les Fourmis. Su planteamiento resulta singular dentro de la estrategia de PC de comienzos de los años 2000 al trasladar la construcción, expansión y supervivencia de una civilización al universo de una colonia de hormigas. El jugador debe explorar nuevos territorios, recolectar recursos, proteger el hormiguero frente a depredadores y fuerzas naturales, organizar expediciones y expandirse hacia colonias vecinas. El título utiliza un entorno 3D en tiempo real con cámara dinámica, inteligencia artificial orientada al comportamiento colectivo de los insectos y reproducción de distintas especies, buscando una aproximación híbrida entre RTS, simulación ecológica y gestión de colonia. Esta edición española distribuida por Friendware conserva interés documental por representar una adaptación literaria europea poco habitual, publicada en PC CD-ROM durante la transición del género de estrategia hacia motores tridimensionales.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "El Imperio de las Hormigas",
+      "Empire of the Ants",
+      "Les Fourmis",
+      "Bernard Werber",
+      "Microïds",
+      "Friendware",
+      "edición española",
+      "PC CD-ROM",
+      "Big Box",
+      "estrategia y gestión",
+      "estrategia en tiempo real",
+      "simulación de colonia",
+      "hormigas",
+      "insectos",
+      "3D en tiempo real",
+      "inteligencia artificial",
+      "juego basado en novela",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en formato BIN/CUE o ISO, junto con digitalización de la caja y documentación asociada si se conserva. La ejecución virtual debería ser viable en un entorno Windows 95/98 con DirectX de época, aunque debe verificarse si la edición concreta aplica comprobación de disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Scorcher",
+    "url": "juegos/scorcher-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Carreras futuristas",
+      "Carreras arcade",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Zyrinx"
+    ],
+    "distribuidor": [
+      "Scavenger, Inc.",
+      "GT Interactive Software"
+    ],
+    "ean": [
+      "5029988000531"
+    ],
+    "descripcion": "Scorcher es un juego de carreras futuristas publicado en 1996 dentro del catálogo de Scavenger y distribuido en Europa por GT Interactive. La propuesta combina velocidad arcade, estética industrial de ciencia ficción y circuitos tridimensionales de gran sensación de movimiento, con vehículos antigravitatorios que atraviesan túneles y entornos urbanos subterráneos. Llegó en plena etapa de transición del PC hacia Windows 95 y el CD-ROM multimedia, pero manteniendo compatibilidad oficial con MS-DOS 5.0, lo que lo convierte en una pieza representativa del cruce entre el juego de acción DOS de mediados de los noventa y la nueva oleada de carreras futuristas inspiradas por la moda audiovisual de la época. Esta edición europea en caja grande conserva interés documental por su presentación multilingüe, el uso del sello Scavenger y la distribución de GT Interactive en el mercado PC CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "CD-ROM en caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Scorcher",
+      "Zyrinx",
+      "Scavenger",
+      "GT Interactive",
+      "carreras futuristas",
+      "carreras arcade",
+      "vehículos antigravitatorios",
+      "ciencia ficción",
+      "túneles 3D",
+      "MS-DOS",
+      "Windows 95",
+      "DOS 5.0",
+      "PC CD-ROM",
+      "edición europea",
+      "caja grande",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición PC CD-ROM compatible con MS-DOS 5.0 y Windows 95. Para preservación se recomienda crear una imagen completa del disco en BIN/CUE o ISO y conservar escaneos del manual y la caja; no hay evidencia suficiente en la edición mostrada para afirmar un sistema anticopia concreto.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Settlers III",
+    "url": "juegos/the-settlers-iii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Construcción y gestión",
+      "Simulación económica",
+      "Gestión de recursos",
+      "Colonización"
+    ],
+    "desarrollador": [
+      "Blue Byte Software"
+    ],
+    "distribuidor": [
+      "Blue Byte Software",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "The Settlers III es una entrega clave de la serie de estrategia y simulación económica de Blue Byte, publicada originalmente a finales de los años noventa para Windows. Mantiene la identidad característica de la saga, basada en cadenas de producción, logística, asentamientos autosuficientes, exploración, comercio marítimo y expansión territorial, pero refuerza el componente de estrategia en tiempo real con combate más directo, multijugador por red e Internet y civilizaciones diferenciadas como romanos, egipcios y asiáticos. Esta edición española en caja grande, distribuida por Friendware y señalada como producto en castellano, conserva interés documental por representar la etapa de consolidación de Blue Byte en el mercado PC europeo y por mostrar una estrategia menos centrada en la microgestión militar que en el equilibrio entre economía, territorio y suministro.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual",
+      "Friendlyware News número 9",
+      "Carátula e inserto de jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Settlers",
+      "Settlers III",
+      "Blue Byte",
+      "Friendware",
+      "edición española",
+      "producto en castellano",
+      "PC CD-ROM",
+      "Big Box",
+      "Windows 95",
+      "Windows 98",
+      "estrategia alemana",
+      "simulación económica",
+      "cadenas de producción",
+      "colonización",
+      "logística",
+      "multijugador online",
+      "romanos",
+      "egipcios",
+      "asiáticos",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Otro",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda imagen completa del disco, preferiblemente BIN/CUE o formato con datos de bajo nivel si se desea conservar con máxima fidelidad la protección original, además de escanear manual y material impreso. The Settlers III es históricamente conocido por incorporar medidas anticopia que podían alterar el comportamiento de la partida en copias no autorizadas, por lo que conviene verificar la imagen preservada en una instalación limpia de Windows 95/98.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Close Combat: A Bridge Too Far",
+    "url": "juegos/close-combat-a-bridge-too-far-bigbox/",
+    "plataforma": [
+      "Win95",
+      "WinNT"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Táctica en tiempo real",
+      "Wargame",
+      "Simulación bélica",
+      "Estrategia histórica"
+    ],
+    "desarrollador": [
+      "Atomic Games"
+    ],
+    "distribuidor": [
+      "Microsoft",
+      "ERBE Software"
+    ],
+    "ean": [],
+    "descripcion": "Close Combat: A Bridge Too Far es la segunda entrega de la serie Close Combat, desarrollada por Atomic Games y publicada por Microsoft en 1997. El juego recrea la Operación Market Garden de 1944, con especial atención a los combates alrededor de Arnhem y los puentes holandeses que dieron nombre al título. A diferencia de la estrategia en tiempo real convencional de los años noventa, no se centra en construcción de bases ni producción masiva de unidades, sino en mando táctico de infantería, blindados y apoyo de combate sobre escenarios históricos en tiempo real. Su sistema de moral, fatiga, supresión, experiencia, líneas de visión y comportamiento psicológico de las tropas fue uno de sus elementos más distintivos: las unidades podían entrar en pánico, rechazar órdenes o actuar de forma limitada bajo fuego enemigo. Esta edición española en caja grande, editada por ERBE y publicada bajo sello Microsoft, conserva especial interés documental por incluir manual en español con software en inglés, una combinación habitual en ciertas localizaciones parciales del mercado español de PC durante la segunda mitad de los noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en español",
+      "Tarjeta de registro ERBE"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Close Combat",
+      "A Bridge Too Far",
+      "Atomic Games",
+      "Microsoft",
+      "ERBE Software",
+      "Operación Market Garden",
+      "Arnhem",
+      "Segunda Guerra Mundial",
+      "wargame táctico",
+      "táctica en tiempo real",
+      "real-time tactics",
+      "moral de tropas",
+      "simulación bélica",
+      "Windows 95",
+      "Windows NT",
+      "PC CD-ROM",
+      "edición española",
+      "manual en español",
+      "software en inglés",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para documentar fielmente el soporte óptico. La ejecución en entorno virtual es viable con Windows 95 o Windows NT configurado, manteniendo la imagen montada si la edición realiza comprobación de disco durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
   }
 ]
