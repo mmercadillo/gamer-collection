@@ -7617,6 +7617,207 @@
   },
   {
     "num": "000000",
+    "ig": "https://www.instagram.com/p/DafBNwGCHeB",
+    "titulo": "Requiem: Avenging Angel",
+    "url": "juegos/requiem-avenging-angel-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Fantasía oscura"
+    ],
+    "desarrollador": [
+      "Cyclone Studios"
+    ],
+    "distribuidor": [
+      "The 3DO Company",
+      "Proein"
+    ],
+    "ean": [
+      "7905615009192"
+    ],
+    "descripcion": "Requiem: Avenging Angel es un shooter en primera persona desarrollado por Cyclone Studios y publicado por The 3DO Company en 1999. Su propuesta mezcla acción futurista, imaginería bíblica y fantasía oscura: el jugador encarna a Malachi, un ángel enviado a una Tierra devastada por la guerra entre fuerzas celestiales y ángeles caídos. A diferencia de muchos FPS de finales de los noventa centrados únicamente en arsenal convencional, incorpora poderes angelicales como posesión, manipulación de enemigos, ataques sobrenaturales y habilidades defensivas, combinándolos con armas de fuego y combates de ritmo rápido. La edición española distribuida por Proein destaca por indicar manual, textos y voces en castellano, además de soporte para juego multijugador en red local e Internet. Es una pieza representativa del periodo de transición del FPS de PC hacia motores 3D más ambiciosos, ambientaciones híbridas y producciones localizadas para el mercado español.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de usuario",
+      "Hoja de referencia o instalación",
+      "Folleto publicitario de Proein"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Requiem Avenging Angel",
+      "Cyclone Studios",
+      "The 3DO Company",
+      "Proein",
+      "edición española",
+      "voces en castellano",
+      "textos en castellano",
+      "shooter en primera persona",
+      "FPS clásico",
+      "ángeles caídos",
+      "poderes angelicales",
+      "ciencia ficción religiosa",
+      "fantasía oscura",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "multijugador LAN",
+      "Internet",
+      "big box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en BIN/CUE o ISO, documentando además manual, caja y materiales impresos asociados. Para ejecución virtual conviene usar un entorno Windows 95/98 con DirectX de época y mantener la imagen montada si la edición realiza comprobación de disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Ground Control",
+    "url": "juegos/ground-control-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Táctica en tiempo real",
+      "Estrategia táctica",
+      "Ciencia ficción militar",
+      "Acción táctica"
+    ],
+    "desarrollador": [
+      "Massive Entertainment"
+    ],
+    "distribuidor": [
+      "Sierra Studios",
+      "Havas Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "Ground Control es un juego de táctica en tiempo real desarrollado por Massive Entertainment y publicado por Sierra a comienzos de los años 2000. A diferencia de muchos RTS de la época, prescinde de la construcción de bases y de la recolección clásica de recursos para centrarse en la planificación previa de escuadrones, el despliegue de unidades terrestres y aéreas, el uso del terreno, la línea de visión y la ejecución táctica durante la misión. Ambientado en un conflicto futurista entre facciones como la Crayven Corporation y la Orden del Nuevo Amanecer, destacó por su motor 3D con cámara libre, escenarios de gran escala y un enfoque más cercano al combate táctico que a la estrategia económica tradicional. Esta edición española en caja de cartón para PC CD-ROM Windows 95/98 fue distribuida por Havas Interactive España bajo el sello Sierra y se presenta como una versión totalmente en castellano, con soporte para juego online mediante WON, lo que la convierte en una pieza representativa de la transición del RTS clásico hacia propuestas tácticas 3D más especializadas.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual de instrucciones",
+      "CD-ROM en caja jewel case",
+      "Tarjeta postal de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Ground Control",
+      "Massive Entertainment",
+      "Sierra",
+      "Sierra Studios",
+      "Havas Interactive España",
+      "táctica en tiempo real",
+      "real-time tactics",
+      "estrategia táctica",
+      "ciencia ficción militar",
+      "juego 3D",
+      "Direct3D",
+      "unidades terrestres",
+      "unidades aéreas",
+      "multijugador online",
+      "WON",
+      "edición española",
+      "totalmente en castellano",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "Big Box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en PC CD-ROM. Para preservación se recomienda crear una imagen completa del disco original en BIN/CUE o formato equivalente y conservar digitalizados el manual y la tarjeta de registro. La ejecución virtual es viable en entornos Windows 95/98 con soporte DirectX/Direct3D, aunque conviene verificar si la edición concreta realiza comprobación de disco durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Ground Control: Dark Conspiracy",
+    "url": "juegos/ground-control-dark-conspiracy-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Táctica en tiempo real",
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Massive Entertainment",
+      "High Voltage Software"
+    ],
+    "distribuidor": [
+      "Sierra Studios",
+      "Havas Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "Ground Control: Dark Conspiracy es la expansión oficial de Ground Control, el influyente título táctico en 3D de Massive Entertainment publicado por Sierra a comienzos de los años 2000. Continúa la historia tras el final del juego original y vuelve a situar a la Mayor Sarah Parker en Krig-7B, esta vez obligada a colaborar con una nueva facción mercenaria para sobrevivir y descubrir una amenaza tecnológica de gran alcance. La expansión añade una campaña de 15 misiones repartidas en tres planetas, la facción de los Mercenarios Fénix, nuevas unidades para la Crayven Corporation y la Orden del Nuevo Amanecer, terrenos adicionales y mapas multijugador. Su interés histórico reside en ampliar una propuesta que se alejaba del RTS tradicional de recolección y construcción de bases para centrarse en posicionamiento, cobertura, composición de escuadras y uso táctico del relieve en escenarios 3D. Esta edición española en caja grande para PC CD-ROM está totalmente en castellano, fue distribuida por Havas Interactive España y requiere Ground Control para jugar.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Tarjeta postal o de registro de Havas Interactive España"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Ground Control",
+      "Dark Conspiracy",
+      "Sierra",
+      "Sierra Studios",
+      "Massive Entertainment",
+      "High Voltage Software",
+      "Havas Interactive España",
+      "táctica en tiempo real",
+      "estrategia en 3D",
+      "ciencia ficción militar",
+      "expansión oficial",
+      "Mercenarios Fénix",
+      "Sarah Parker",
+      "Krig-7B",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "totalmente en castellano",
+      "Big Box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en BIN/CUE o ISO, documentando caja, carátula y tarjeta de registro. Al ser una expansión, la ejecución virtual requiere una instalación funcional de Ground Control y debe verificarse si la edición realiza comprobación de disco durante instalación o arranque.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
     "ig": "",
     "titulo": "Colossus",
     "url": "juegos/colossus-bigbox/",
@@ -43392,85 +43593,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Ground Control: Dark Conspiracy",
-    "url": "juegos/ground-control-dark-conspiracy-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Táctica"
-    ],
-    "desarrollador": [
-      "Massive Entertainment"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "Ground Control: Dark Conspiracy es la expansión independiente del aclamado juego de estrategia en tiempo real Ground Control. Introduce una nueva campaña, unidades adicionales y mejoras gráficas, manteniendo el enfoque táctico sin construcción de bases.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Requiem: Avenging Angel",
-    "url": "juegos/requiem-avenging-angel-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter en primera persona"
-    ],
-    "desarrollador": [
-      "Cyclone Studios"
-    ],
-    "distribuidor": [
-      "3DO"
-    ],
-    "ean": [],
-    "descripcion": "Requiem: Avenging Angel es un shooter en primera persona ambientado en un futuro dominado por las fuerzas demoníacas. El jugador asume el papel de un ángel enviado a la Tierra para combatir la invasión infernal, utilizando tanto armas convencionales como poderes divinos únicos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Action Man: Asalto a la Isla",
     "url": "juegos/action-man-asalto-a-la-isla-bigbox/",
     "plataforma": [
@@ -43839,46 +43961,6 @@
     ],
     "ean": [],
     "descripcion": "Invictus: In the Shadow of Olympus combina estrategia en tiempo real con elementos de rol en un mundo inspirado en la mitología griega. El jugador controla héroes, criaturas y ejércitos mitológicos mientras completa misiones y resuelve conflictos entre los dioses del Olimpo.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Ground Control",
-    "url": "juegos/ground-control-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Táctica"
-    ],
-    "desarrollador": [
-      "Massive Entertainment"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "Ground Control es un innovador juego de estrategia táctica en tiempo real que elimina la construcción de bases para centrarse en el combate directo. Ambientado en un futuro de ciencia ficción, ofrece batallas en 3D con unidades personalizables y escenarios espectaculares.",
     "incluye": [],
     "serie": [
       "Todos",

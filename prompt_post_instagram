@@ -62,7 +62,7 @@ El post COMPLETO:
 
 * texto,
 * saltos de línea,
-* hashtags,
+* hashtags, no se deben usar hashtags en exceso máximo 8
 
 Debes controlar activamente la longitud. DEBES acercarte lo máximo posible a 2200 caracteres SIN SUPERARLOS
 
