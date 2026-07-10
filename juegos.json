@@ -7817,6 +7817,665 @@
     }
   },
   {
+    "num": "000125",
+    "ig": "",
+    "titulo": "Daryl F. Gates' Police Quest: SWAT",
+    "url": "juegos/daryl-f-gates-police-quest-swat-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación policial",
+      "Aventura interactiva",
+      "FMV",
+      "Táctica policial"
+    ],
+    "desarrollador": [
+      "Sierra On-Line"
+    ],
+    "distribuidor": [
+      "Sierra On-Line",
+      "Coktel Educative"
+    ],
+    "ean": [
+      "3348542009523"
+    ],
+    "descripcion": "Daryl F. Gates' Police Quest: SWAT es una producción multimedia de 1995 que trasladó la serie Police Quest desde la aventura gráfica tradicional hacia una simulación interactiva del trabajo de una unidad policial de intervención. Diseñado por Tammy Dargan con la colaboración de Daryl F. Gates, antiguo jefe del Departamento de Policía de Los Ángeles y figura vinculada a la creación de las primeras unidades SWAT, el juego combina secuencias de vídeo con actores reales, entrenamiento táctico, prácticas de tiro y operaciones en primera persona. La progresión exige aprender procedimientos policiales, reconocer amenazas, obedecer órdenes, coordinarse con el equipo y decidir cuándo utilizar fuerza letal, penalizando las actuaciones contrarias al protocolo. Su estructura híbrida entre película interactiva, simulador de entrenamiento y aventura representa el auge del CD-ROM multimedia de mediados de los noventa y constituye el antecedente directo de la posterior orientación táctica de la saga SWAT. Esta edición española en caja grande fue distribuida por Coktel Educative, incluye manual traducido al castellano y ofrece compatibilidad oficial con MS-DOS, Windows 3.1 y Windows 95.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones en castellano",
+      "Hoja de adenda para equipos con 8 MB de memoria RAM",
+      "Tarjeta de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Police Quest",
+      "SWAT",
+      "Daryl F. Gates",
+      "Sierra On-Line",
+      "Coktel Educative",
+      "LAPD",
+      "policía de Los Ángeles",
+      "unidad antiterrorista",
+      "simulación táctica",
+      "procedimientos policiales",
+      "película interactiva",
+      "vídeo de imagen real",
+      "CD-ROM multimedia",
+      "edición española",
+      "manual en castellano",
+      "MS-DOS",
+      "Windows 3.1",
+      "Windows 95",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM original y conservar digitalizaciones del manual, la adenda de instalación y la tarjeta de registro. La ejecución virtual es viable mediante una máquina virtual con Windows 3.x o Windows 95, o mediante un entorno MS-DOS compatible, prestando atención a los códecs y componentes multimedia originales.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000126",
+    "ig": "",
+    "titulo": "Police Quest: SWAT 2",
+    "url": "juegos/police-quest-swat-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Simulación"
+    ],
+    "desarrollador": "Yosemite Entertainment",
+    "distribuidor": "Sierra FX / Coktel Educative Multimedia, S.L.",
+    "ean": "3348542041653",
+    "descripcion": "Police Quest: SWAT 2 es una entrega de 1998 dentro de la saga Police Quest y de la subserie SWAT de Sierra, desarrollada por Yosemite Entertainment. A diferencia del primer Police Quest: SWAT, mucho más apoyado en vídeo, formación policial y escenas FMV, esta segunda parte adopta una estructura táctica en tiempo real con perspectiva isométrica, gestión de unidades, planificación de intervenciones, rescate de rehenes, uso de especialistas y toma de decisiones bajo presión. Su planteamiento permite jugar desde el lado del equipo SWAT del LAPD o desde la organización terrorista, lo que le da un enfoque poco habitual dentro de la saga y lo aproxima más a la estrategia táctica de escuadrón que a la aventura policial clásica. Esta edición española en Big Box para Windows 95/98 conserva el posicionamiento comercial de Sierra FX, con textos de pantalla e instrucciones en castellano, y representa una etapa muy concreta del PC de finales de los noventa: CD-ROM, estrategia táctica, manual físico, localización española y una fuerte apuesta por presentar la simulación policial como producto serio, documentado y orientado al realismo.",
+    "incluye": [
+      "CD-ROM",
+      "manual",
+      "guía básica de supervivencia",
+      "tarjeta de registro Sierra Number 1 Club",
+      "caja Jewel Case"
+    ],
+    "serie": [
+      "Todos",
+      "Bigbox"
+    ],
+    "tags": [
+      "Police Quest",
+      "SWAT",
+      "Sierra",
+      "Sierra FX",
+      "Yosemite Entertainment",
+      "Coktel Educative Multimedia",
+      "LAPD",
+      "Daryl F. Gates",
+      "tácticas policiales",
+      "estrategia táctica",
+      "tiempo real",
+      "vista isométrica",
+      "CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "textos en castellano",
+      "Big Box",
+      "multijugador",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM, preferentemente en formato BIN/CUE para conservar la estructura del soporte físico y facilitar su documentación archivística. La ejecución virtual es viable montando la imagen de disco en un entorno Windows 95/98 compatible.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000127",
+    "ig": "",
+    "titulo": "SWAT 3: Close Quarters Battle",
+    "url": "juegos/swat-3-close-quarters-battle-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter táctico en primera persona",
+      "Simulación policial",
+      "Táctica en tiempo real",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Sierra Northwest"
+    ],
+    "distribuidor": [
+      "Sierra Studios",
+      "Havas Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "SWAT 3: Close Quarters Battle es un shooter táctico en primera persona desarrollado por Sierra Northwest y publicado originalmente en 1999. Ambientado en Los Ángeles en el entonces futurista año 2005, sitúa al jugador al mando de una unidad de cinco agentes del equipo SWAT del Departamento de Policía de Los Ángeles durante una serie de intervenciones relacionadas con terrorismo, secuestros y amenazas contra la firma de un tratado internacional de desarme nuclear. Frente al enfoque puramente ofensivo de otros títulos de acción, exige valorar la amenaza, seguir procedimientos policiales, proteger a civiles, detener sospechosos y emplear fuerza letal únicamente cuando resulte necesario. Su motor tridimensional utilizaba tecnología de celdas y portales, mientras que la inteligencia artificial permitía impartir órdenes al equipo y afrontar situaciones variables mediante aproximaciones sigilosas o entradas dinámicas. La colaboración del equipo de desarrollo con miembros del LAPD SWAT y el uso de captura de movimiento contribuyeron a su orientación realista. Esta edición española en caja grande, distribuida por Havas Interactive España y completamente localizada al castellano, documenta el lanzamiento original anterior a las posteriores ediciones Elite y Tactical Game of the Year.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Tarjeta postal de Sierra Number 1 Club"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "SWAT",
+      "Police Quest",
+      "Sierra Northwest",
+      "Sierra Studios",
+      "Havas Interactive España",
+      "LAPD",
+      "policía",
+      "operaciones especiales",
+      "combate en espacios cerrados",
+      "Close Quarters Battle",
+      "inteligencia artificial",
+      "captura de movimiento",
+      "Los Ángeles",
+      "edición española",
+      "totalmente en castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM original y conservar digitalizados el manual y la documentación específica de la edición española. Ante la ausencia de una identificación concluyente del sistema anticopia de esta tirada, conviene realizar una imagen BIN/CUE y verificar su instalación y ejecución en una máquina virtual con Windows 95 o Windows 98.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000128",
+    "ig": "",
+    "titulo": "Star Wars: X-Wing",
+    "url": "juegos/star-wars-x-wing-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de combate espacial",
+      "Simulador de vuelo",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Star Wars: X-Wing es un simulador de combate espacial diseñado por Lawrence Holland y Edward Kilham y publicado originalmente en 1993 para MS-DOS. El jugador se incorpora a la Alianza Rebelde como piloto de cazas estelares y participa en campañas que transcurren antes y durante los acontecimientos de Star Wars: Una nueva esperanza, culminando en el ataque contra la Estrella de la Muerte. Permite pilotar naves como el X-wing, el Y-wing y el A-wing en misiones de escolta, reconocimiento, interceptación y asalto contra las fuerzas imperiales. Técnicamente destacó por representar las naves mediante gráficos poligonales tridimensionales, ofrecer cabinas funcionales con gestión de energía entre motores, escudos y armamento, y emplear el sistema musical interactivo iMUSE para adaptar dinámicamente la banda sonora inspirada en las composiciones de John Williams. Su combinación de simulación, narrativa cinematográfica y progresión mediante campañas convirtió a X-Wing en una obra fundamental del catálogo de LucasArts y en el inicio de una de las sagas de simulación espacial más importantes del PC. Esta edición española en caja grande, distribuida por Erbe Software en cinco disquetes de 3,5 pulgadas, conserva documentación localizada al castellano y representa el lanzamiento original anterior a las posteriores ediciones en CD-ROM.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual del piloto de caza estelar",
+      "Tarjeta de referencia",
+      "5 disquetes de 3,5 pulgadas",
+      "Sobre protector de Erbe Software"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "X-Wing",
+      "LucasArts",
+      "Erbe Software",
+      "Lawrence Holland",
+      "Edward Kilham",
+      "Alianza Rebelde",
+      "Imperio Galáctico",
+      "Estrella de la Muerte",
+      "simulación espacial",
+      "combate espacial",
+      "gráficos poligonales 3D",
+      "iMUSE",
+      "John Williams",
+      "MS-DOS",
+      "disquetes de 3,5 pulgadas",
+      "edición española",
+      "manual en castellano",
+      "Big Box PC",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "La edición original en cinco disquetes de 3,5 pulgadas debe preservarse mediante imágenes individuales de cada soporte, preferiblemente con volcado sectorial capaz de registrar errores, geometría y posibles particularidades físicas. También debe digitalizarse el manual, ya que la versión en disquetes utiliza comprobaciones documentales como protección anticopia. La ejecución es viable mediante DOSBox u otros entornos MS-DOS virtualizados.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000129",
+    "ig": "",
+    "titulo": "Buck Rogers: Matrix Cubed",
+    "url": "juegos/buck-rogers-matrix-cubed-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Ciencia ficción",
+      "Combate táctico por turnos",
+      "Exploración en primera persona"
+    ],
+    "desarrollador": [
+      "SSI Special Projects Team"
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc."
+    ],
+    "ean": [],
+    "descripcion": "Buck Rogers: Matrix Cubed es un videojuego de rol de ciencia ficción publicado en 1992 por Strategic Simulations, Inc. y segunda entrega de la serie iniciada con Countdown to Doomsday. Ambientado en el universo Buck Rogers XXVC de TSR, continúa directamente la campaña anterior y permite importar personajes o crear un grupo de hasta seis aventureros. Su argumento gira alrededor del Matrix Device, una tecnología capaz de transformar cualquier sustancia en energía pura y potencialmente decisiva para la recuperación de una Tierra devastada. El juego utiliza una variante del motor Gold Box de SSI, combinando exploración en primera persona, desplazamiento espacial, desarrollo de personajes y combates tácticos por turnos representados desde una perspectiva cenital. Esta edición norteamericana para IBM PC y compatibles se distribuyó en disquetes y requiere instalación en disco duro. Constituye una pieza singular dentro del catálogo Gold Box por sustituir la fantasía de Advanced Dungeons & Dragons por ciencia ficción espacial, ingeniería genética, corporaciones interplanetarias y el sistema de clases y habilidades propio de Buck Rogers XXVC.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Rule Book",
+      "Log Book",
+      "2 disquetes de 5,25 pulgadas",
+      "Catálogo How to Play SSI",
+      "Tarjeta de registro y servicio técnico",
+      "Formulario de pedido SSI",
+      "Formulario promocional del Clue Book"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Buck Rogers",
+      "Matrix Cubed",
+      "Buck Rogers XXVC",
+      "Strategic Simulations Inc",
+      "SSI",
+      "TSR",
+      "Gold Box",
+      "Countdown to Doomsday",
+      "rol espacial",
+      "ciencia ficción pulp",
+      "combate táctico",
+      "grupo de personajes",
+      "IBM PC",
+      "MS-DOS",
+      "disquetes de 5,25 pulgadas",
+      "edición norteamericana",
+      "big box PC",
+      "1992",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "Los disquetes no incorporan protección física contra copia, pero el inicio del juego solicita una palabra localizada en el Rule Book o el Log Book. Para una preservación completa deben realizarse imágenes sectoriales individuales de los disquetes y digitalizarse ambos libros, conservando la correspondencia entre el software y la documentación utilizada para la verificación.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000130",
+    "ig": "",
+    "titulo": "Warcraft II: Tides of Darkness",
+    "url": "juegos/warcraft-ii-tides-of-darkness-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Fantasía",
+      "Estrategia militar",
+      "Gestión de recursos"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Warcraft II: Tides of Darkness es un juego de estrategia en tiempo real desarrollado y publicado por Blizzard Entertainment en 1995. Continúa la guerra entre humanos y orcos iniciada en Warcraft: Orcs & Humans, ampliando considerablemente su fórmula mediante dos campañas diferenciadas, construcción de bases, extracción de oro y madera, desarrollo tecnológico y combates combinados por tierra, mar y aire. Incorporó unidades navales, criaturas voladoras, niebla de guerra y un sistema de control más refinado que contribuyó a establecer numerosas convenciones del RTS moderno. Su apartado audiovisual, con gráficos SVGA, voces digitalizadas y una reconocible banda sonora orquestal reproducida desde el CD-ROM, ayudó a consolidar el estilo narrativo y artístico de Blizzard. Esta edición norteamericana en inglés pertenece a una tirada compatible con MS-DOS, Windows 3.1 y Windows 95, promocionada por sus modalidades multijugador mediante red, módem y conexión directa, así como por la tecnología de instalación múltiple denominada spawning. Warcraft II fue decisivo para la expansión comercial de Blizzard y para la consolidación de Azeroth como uno de los universos de fantasía más relevantes del videojuego para PC.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Folleto promocional de Blizzard Entertainment",
+      "Documentación técnica",
+      "Tarjeta de registro o pedido"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Warcraft",
+      "Warcraft II",
+      "Tides of Darkness",
+      "Blizzard Entertainment",
+      "Azeroth",
+      "Humanos y Orcos",
+      "estrategia fantástica",
+      "multijugador en red",
+      "juego por módem",
+      "spawning",
+      "SVGA",
+      "CD Audio",
+      "MS-DOS",
+      "Windows 3.1",
+      "Windows 95",
+      "edición norteamericana",
+      "versión en inglés",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen BIN/CUE del CD-ROM para conservar tanto la pista de datos como las posibles pistas de audio reproducidas durante el juego. Deben digitalizarse también el manual y la documentación de la edición. La ejecución es viable mediante DOSBox para la versión MS-DOS o mediante una máquina virtual con Windows 3.x o Windows 95.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000131",
+    "ig": "",
+    "titulo": "Lands of Lore: The Throne of Chaos",
+    "url": "juegos/lands-of-lore-the-throne-of-chaos-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "Dungeon crawler",
+      "Rol en primera persona",
+      "Fantasía",
+      "Combate en tiempo real"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Games",
+      "Arcadia Software"
+    ],
+    "ean": [
+      "5013715045506"
+    ],
+    "descripcion": "Lands of Lore: The Throne of Chaos es un juego de rol en primera persona desarrollado por Westwood Studios y publicado originalmente en 1993. Concebido como una aproximación más accesible al dungeon crawler occidental, combina exploración de mazmorras, desplazamiento por casillas, formación de grupo, resolución de puzles y combate en tiempo real dentro del mundo fantástico de las Tierras. La aventura comienza cuando la hechicera Scotia amenaza el reino y el jugador debe encontrar la Piedra de la Verdad para detenerla, incorporando progresión de personajes, magia, equipamiento, criaturas animadas y una presentación audiovisual especialmente cuidada para los compatibles PC de su época. Su interfaz gráfica, el mapa automático y la simplificación de determinadas reglas estadísticas facilitaron la entrada al género sin eliminar su profundidad exploratoria. Esta edición española en caja grande fue distribuida por Arcadia Software bajo el sello Virgin Games, está formada por ocho disquetes de 3,5 pulgadas y conserva una localización al castellano de especial interés documental dentro del catálogo temprano de Westwood anterior a su consolidación mundial con Command & Conquer.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual de instrucciones",
+      "Documentación de referencia",
+      "8 disquetes de 3,5 pulgadas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Lands of Lore",
+      "The Throne of Chaos",
+      "Westwood Studios",
+      "Virgin Games",
+      "Arcadia Software",
+      "edición española",
+      "software en castellano",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "disquetes de 3,5 pulgadas",
+      "rol occidental",
+      "RPG en primera persona",
+      "exploración de mazmorras",
+      "Scotia",
+      "Piedra de la Verdad",
+      "fantasía medieval",
+      "VGA",
+      "AdLib",
+      "Sound Blaster",
+      "Roland MT-32",
+      "Big Box PC",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "La edición debe preservarse mediante una imagen individual y verificación sectorial de cada uno de los ocho disquetes de 3,5 pulgadas, conservando además los manuales y la documentación localizada. La ejecución es viable en un entorno MS-DOS virtualizado como DOSBox, siempre que se mantenga correctamente el orden de instalación de los discos.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000132",
+    "ig": "",
+    "titulo": "Master of Magic",
+    "url": "juegos/master-of-magic-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "4X",
+      "Estrategia fantástica",
+      "Gestión de imperios",
+      "Combate táctico"
+    ],
+    "desarrollador": [
+      "Simtex"
+    ],
+    "distribuidor": [
+      "MicroProse"
+    ],
+    "ean": [
+      "0019703598123"
+    ],
+    "descripcion": "Master of Magic es un juego de estrategia fantástica por turnos desarrollado por Simtex y publicado por MicroProse en 1994 para MS-DOS. Diseñado por Steve Barcia tras Master of Orion, trasladó la fórmula 4X de exploración, expansión, explotación y conquista a un universo dominado por hechiceros, criaturas fantásticas y escuelas de magia. El jugador puede escoger uno de catorce magos o crear uno personalizado, desarrollar ciudades, investigar más de doscientos hechizos, reclutar héroes, invocar criaturas y dirigir ejércitos en combates tácticos. Una de sus características más distintivas es la existencia de dos planos paralelos, Arcanus y Myrror, conectados mediante torres mágicas y dotados de razas, recursos y amenazas diferentes. Aunque su lanzamiento inicial estuvo marcado por problemas de equilibrio y numerosos errores posteriormente corregidos mediante actualizaciones, terminó consolidándose como una obra de culto y como uno de los referentes históricos de la estrategia 4X fantástica. La edición mostrada corresponde a la publicación norteamericana en CD-ROM y caja grande de MicroProse, con documentación en inglés y abundante material de consulta impreso.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Spellbook",
+      "Suplemento técnico y requisitos del sistema",
+      "Hoja de instalación",
+      "Folleto de pistas de MicroProse"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Master of Magic",
+      "Simtex",
+      "MicroProse",
+      "Steve Barcia",
+      "Arcanus",
+      "Myrror",
+      "magia",
+      "hechiceros",
+      "fantasía",
+      "estrategia clásica",
+      "estrategia 4X",
+      "combate por turnos",
+      "gestión de ciudades",
+      "generación procedural",
+      "MS-DOS",
+      "CD-ROM",
+      "edición norteamericana",
+      "documentación en inglés",
+      "Big Box PC",
+      "juego de culto",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM original, conservar la estructura de archivos y documentar la versión ejecutable y cualquier parche aplicado. También deben digitalizarse el manual y el Spellbook por su valor documental y como referencia esencial de las numerosas unidades, hechizos y mecánicas. La ejecución es viable mediante DOSBox o una máquina virtual configurada para MS-DOS.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000133",
+    "ig": "",
+    "titulo": "Shadowlands",
+    "url": "juegos/shadowlands-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Dungeon crawler",
+      "Fantasía",
+      "Isométrico",
+      "Tiempo real"
+    ],
+    "desarrollador": [
+      "Teque London"
+    ],
+    "distribuidor": [
+      "Domark",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Shadowlands es un juego de rol fantástico desarrollado por Teque London y publicado por Domark en 1992. El jugador dirige en tiempo real a un grupo de cuatro aventureros a través de mazmorras, ruinas y espacios exteriores, combinando exploración isométrica, combate, resolución de puzles y gestión individual de personajes. Su rasgo técnico más distintivo fue el sistema de iluminación dinámica, con fuentes de luz que proyectaban sombras y condicionaban la visibilidad, una solución especialmente avanzada para un CRPG de comienzos de los años noventa. Esta edición española para compatibles IBM PC fue editada y distribuida por Dro Soft en dos disquetes de 5,25 pulgadas y conserva el diseño físico de caja grande característico del mercado nacional de MS-DOS.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual de instrucciones",
+      "2 disquetes de 5,25 pulgadas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Shadowlands",
+      "Teque London",
+      "Domark",
+      "Dro Soft",
+      "MS-DOS",
+      "edición española",
+      "disquetes de 5,25 pulgadas",
+      "rol isométrico",
+      "grupo de aventureros",
+      "iluminación dinámica",
+      "sombras dinámicas",
+      "fantasía oscura",
+      "PC compatibles",
+      "Big Box PC",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en dos disquetes de 5,25 pulgadas. Se recomienda realizar un volcado sectorial individual de cada disco, documentar etiquetas y orden de instalación, y conservar el manual junto a las imágenes para verificar cualquier posible consulta documental no identificada.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000134",
+    "ig": "",
+    "titulo": "La sombra sobre Riva",
+    "url": "juegos/la-sombra-sobre-riva-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Dungeon crawler",
+      "Fantasía",
+      "Exploración en primera persona"
+    ],
+    "desarrollador": [
+      "Attic Entertainment Software",
+      "Fantasy Productions"
+    ],
+    "distribuidor": [
+      "TopWare Interactive",
+      "Hollywood Multimedia S.L."
+    ],
+    "ean": [],
+    "descripcion": "El Ojo Negro: La Sombra sobre Riva es la edición española de Realms of Arkania III: Shadows over Riva, tercera y última entrega de la denominada Trilogía de las Tierras del Norte, basada en el sistema alemán de rol de mesa Das Schwarze Auge. Desarrollado por Attic Entertainment Software y publicado originalmente en 1996, el juego permite dirigir un grupo de hasta seis aventureros a través de la ciudad portuaria de Riva y sus alrededores, investigando una conspiración vinculada a una presencia oscura que amenaza a sus habitantes. Combina exploración tridimensional en primera persona, mazmorras, conversaciones, gestión detallada del grupo y combates tácticos por turnos, con un sistema de personajes especialmente complejo heredado del juego de rol original. Técnicamente destacó por sus escenarios 3D, personajes animados, abundantes secuencias audiovisuales, voces digitalizadas y música reproducida desde el propio CD. Esta edición española en caja grande fue distribuida por Hollywood Multimedia bajo el sello Hollywood Publishing, incluye versión en castellano y constituye una publicación poco habitual dentro del mercado español de rol para MS-DOS.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "El Ojo Negro",
+      "Das Schwarze Auge",
+      "Realms of Arkania",
+      "Shadows over Riva",
+      "Trilogía de las Tierras del Norte",
+      "Attic Entertainment Software",
+      "Fantasy Productions",
+      "TopWare Interactive",
+      "Hollywood Multimedia",
+      "rol alemán",
+      "fantasía medieval",
+      "grupo de aventureros",
+      "combate por turnos",
+      "exploración 3D",
+      "música CD Audio",
+      "MS-DOS",
+      "CD-ROM",
+      "edición española",
+      "versión en castellano",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE para conservar tanto la pista de datos como las posibles pistas de audio utilizadas por la música del juego. También debe digitalizarse el manual en castellano y documentarse la versión localizada. La ejecución es viable mediante DOSBox o una máquina virtual con MS-DOS, manteniendo la imagen del CD montada durante la partida.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -12540,44 +13199,6 @@
     ],
     "ean": [],
     "descripcion": "Simulador de combate submarino futurista lanzado en 1993. Ambientado en el año 2050, el jugador asume el papel de un mercenario independiente que opera submarinos avanzados para proteger los intereses de corporaciones multinacionales. El juego presenta escenarios en 3D con misiones en diversos teatros de operaciones, incluyendo el Océano Antártico, el Atlántico Norte, el Mar de China Meridional y el Mar de Japón. La expansión 'The Plot Deepens' añade nuevas campañas en el Triángulo de las Bermudas, el Mediterráneo y el Cabo Norte.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "SWAT 3: Close Quarters Battle",
-    "url": "juegos/swat-3-close-quarters-battle-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Shooter"
-    ],
-    "desarrollador": [
-      "Sierra Northwest"
-    ],
-    "distribuidor": [
-      "Sierra Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "SWAT 3 es un shooter táctico en primera persona en el que asumes el papel de un miembro del equipo SWAT del Departamento de Policía de Los Ángeles. El juego se enfoca en operaciones antiterroristas realistas y requiere planificación, precisión y cumplimiento de reglas estrictas de enfrentamiento. Fue aclamado por su realismo y su enfoque táctico frente a otros FPS más arcade de la época.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -49019,44 +49640,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "La sombra sobre Riva",
-    "url": "juegos/la-sombra-sobre-riva-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Attic Entertainment Software"
-    ],
-    "distribuidor": [
-      "Sir-Tech"
-    ],
-    "ean": [],
-    "descripcion": "La sombra sobre Riva (Realms of Arkania: Shadows over Riva) es un RPG de fantasía ambientado en el universo de The Dark Eye. Continúa la trilogía de Realms of Arkania con exploración en primera persona, combate por turnos y gestión detallada del grupo. La aventura se centra en intrigas y sucesos sobrenaturales en la ciudad de Riva, combinando narrativa, investigación y progresión de personajes.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Lurid Land",
     "url": "juegos/lurid-land-bigbox/",
     "plataforma": [
@@ -59743,65 +60326,6 @@
       "preservacion": "El juego requiere clave de acceso asociada a una cuenta online y conexión a los servidores del servicio. La preservación física puede realizarse mediante imagen de los discos, pero la jugabilidad depende de una cuenta válida y de la disponibilidad del servicio online.",
       "formato": "ISO",
       "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Police Quest: SWAT 2",
-    "url": "juegos/police-quest-swat-2-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Simulación"
-    ],
-    "desarrollador": "Yosemite Entertainment",
-    "distribuidor": "Sierra FX / Coktel Educative Multimedia, S.L.",
-    "ean": "3348542041653",
-    "descripcion": "Police Quest: SWAT 2 es una entrega de 1998 dentro de la saga Police Quest y de la subserie SWAT de Sierra, desarrollada por Yosemite Entertainment. A diferencia del primer Police Quest: SWAT, mucho más apoyado en vídeo, formación policial y escenas FMV, esta segunda parte adopta una estructura táctica en tiempo real con perspectiva isométrica, gestión de unidades, planificación de intervenciones, rescate de rehenes, uso de especialistas y toma de decisiones bajo presión. Su planteamiento permite jugar desde el lado del equipo SWAT del LAPD o desde la organización terrorista, lo que le da un enfoque poco habitual dentro de la saga y lo aproxima más a la estrategia táctica de escuadrón que a la aventura policial clásica. Esta edición española en Big Box para Windows 95/98 conserva el posicionamiento comercial de Sierra FX, con textos de pantalla e instrucciones en castellano, y representa una etapa muy concreta del PC de finales de los noventa: CD-ROM, estrategia táctica, manual físico, localización española y una fuerte apuesta por presentar la simulación policial como producto serio, documentado y orientado al realismo.",
-    "incluye": [
-      "CD-ROM",
-      "manual",
-      "guía básica de supervivencia",
-      "tarjeta de registro Sierra Number 1 Club",
-      "caja Jewel Case"
-    ],
-    "serie": [
-      "Todos",
-      "Bigbox"
-    ],
-    "tags": [
-      "Police Quest",
-      "SWAT",
-      "Sierra",
-      "Sierra FX",
-      "Yosemite Entertainment",
-      "Coktel Educative Multimedia",
-      "LAPD",
-      "Daryl F. Gates",
-      "tácticas policiales",
-      "estrategia táctica",
-      "tiempo real",
-      "vista isométrica",
-      "CD-ROM",
-      "Windows 95",
-      "Windows 98",
-      "edición española",
-      "textos en castellano",
-      "Big Box",
-      "multijugador",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "Verificación de CD",
-      "version": "",
-      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM, preferentemente en formato BIN/CUE para conservar la estructura del soporte físico y facilitar su documentación archivística. La ejecución virtual es viable montando la imagen de disco en un entorno Windows 95/98 compatible.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
     }
   },
   {
