@@ -8145,74 +8145,6 @@
   {
     "num": "000130",
     "ig": "",
-    "titulo": "Warcraft II: Tides of Darkness",
-    "url": "juegos/warcraft-ii-tides-of-darkness-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win3.x",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "RTS",
-      "Fantasía",
-      "Estrategia militar",
-      "Gestión de recursos"
-    ],
-    "desarrollador": [
-      "Blizzard Entertainment"
-    ],
-    "distribuidor": [
-      "Blizzard Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Warcraft II: Tides of Darkness es un juego de estrategia en tiempo real desarrollado y publicado por Blizzard Entertainment en 1995. Continúa la guerra entre humanos y orcos iniciada en Warcraft: Orcs & Humans, ampliando considerablemente su fórmula mediante dos campañas diferenciadas, construcción de bases, extracción de oro y madera, desarrollo tecnológico y combates combinados por tierra, mar y aire. Incorporó unidades navales, criaturas voladoras, niebla de guerra y un sistema de control más refinado que contribuyó a establecer numerosas convenciones del RTS moderno. Su apartado audiovisual, con gráficos SVGA, voces digitalizadas y una reconocible banda sonora orquestal reproducida desde el CD-ROM, ayudó a consolidar el estilo narrativo y artístico de Blizzard. Esta edición norteamericana en inglés pertenece a una tirada compatible con MS-DOS, Windows 3.1 y Windows 95, promocionada por sus modalidades multijugador mediante red, módem y conexión directa, así como por la tecnología de instalación múltiple denominada spawning. Warcraft II fue decisivo para la expansión comercial de Blizzard y para la consolidación de Azeroth como uno de los universos de fantasía más relevantes del videojuego para PC.",
-    "incluye": [
-      "Caja exterior Big Box",
-      "CD-ROM en caja jewel case",
-      "Manual de instrucciones",
-      "Folleto promocional de Blizzard Entertainment",
-      "Documentación técnica",
-      "Tarjeta de registro o pedido"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Warcraft",
-      "Warcraft II",
-      "Tides of Darkness",
-      "Blizzard Entertainment",
-      "Azeroth",
-      "Humanos y Orcos",
-      "estrategia fantástica",
-      "multijugador en red",
-      "juego por módem",
-      "spawning",
-      "SVGA",
-      "CD Audio",
-      "MS-DOS",
-      "Windows 3.1",
-      "Windows 95",
-      "edición norteamericana",
-      "versión en inglés",
-      "PC CD-ROM",
-      "Big Box PC",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Se recomienda crear una imagen BIN/CUE del CD-ROM para conservar tanto la pista de datos como las posibles pistas de audio reproducidas durante el juego. Deben digitalizarse también el manual y la documentación de la edición. La ejecución es viable mediante DOSBox para la versión MS-DOS o mediante una máquina virtual con Windows 3.x o Windows 95.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000131",
-    "ig": "",
     "titulo": "Lands of Lore: The Throne of Chaos",
     "url": "juegos/lands-of-lore-the-throne-of-chaos-bigbox/",
     "plataforma": [
@@ -8280,7 +8212,7 @@
     }
   },
   {
-    "num": "000132",
+    "num": "000131",
     "ig": "",
     "titulo": "Master of Magic",
     "url": "juegos/master-of-magic-bigbox/",
@@ -8350,7 +8282,7 @@
     }
   },
   {
-    "num": "000133",
+    "num": "000132",
     "ig": "",
     "titulo": "Shadowlands",
     "url": "juegos/shadowlands-bigbox/",
@@ -8410,7 +8342,7 @@
     }
   },
   {
-    "num": "000134",
+    "num": "000133",
     "ig": "",
     "titulo": "La sombra sobre Riva",
     "url": "juegos/la-sombra-sobre-riva-bigbox/",
@@ -8471,6 +8403,74 @@
       "tipo": "No determinado",
       "version": "",
       "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE para conservar tanto la pista de datos como las posibles pistas de audio utilizadas por la música del juego. También debe digitalizarse el manual en castellano y documentarse la versión localizada. La ejecución es viable mediante DOSBox o una máquina virtual con MS-DOS, manteniendo la imagen del CD montada durante la partida.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000134",
+    "ig": "",
+    "titulo": "Warcraft II: Tides of Darkness",
+    "url": "juegos/warcraft-ii-tides-of-darkness-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Fantasía",
+      "Estrategia militar",
+      "Gestión de recursos"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Warcraft II: Tides of Darkness es un juego de estrategia en tiempo real desarrollado y publicado por Blizzard Entertainment en 1995. Continúa la guerra entre humanos y orcos iniciada en Warcraft: Orcs & Humans, ampliando considerablemente su fórmula mediante dos campañas diferenciadas, construcción de bases, extracción de oro y madera, desarrollo tecnológico y combates combinados por tierra, mar y aire. Incorporó unidades navales, criaturas voladoras, niebla de guerra y un sistema de control más refinado que contribuyó a establecer numerosas convenciones del RTS moderno. Su apartado audiovisual, con gráficos SVGA, voces digitalizadas y una reconocible banda sonora orquestal reproducida desde el CD-ROM, ayudó a consolidar el estilo narrativo y artístico de Blizzard. Esta edición norteamericana en inglés pertenece a una tirada compatible con MS-DOS, Windows 3.1 y Windows 95, promocionada por sus modalidades multijugador mediante red, módem y conexión directa, así como por la tecnología de instalación múltiple denominada spawning. Warcraft II fue decisivo para la expansión comercial de Blizzard y para la consolidación de Azeroth como uno de los universos de fantasía más relevantes del videojuego para PC.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Folleto promocional de Blizzard Entertainment",
+      "Documentación técnica",
+      "Tarjeta de registro o pedido"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Warcraft",
+      "Warcraft II",
+      "Tides of Darkness",
+      "Blizzard Entertainment",
+      "Azeroth",
+      "Humanos y Orcos",
+      "estrategia fantástica",
+      "multijugador en red",
+      "juego por módem",
+      "spawning",
+      "SVGA",
+      "CD Audio",
+      "MS-DOS",
+      "Windows 3.1",
+      "Windows 95",
+      "edición norteamericana",
+      "versión en inglés",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen BIN/CUE del CD-ROM para conservar tanto la pista de datos como las posibles pistas de audio reproducidas durante el juego. Deben digitalizarse también el manual y la documentación de la edición. La ejecución es viable mediante DOSBox para la versión MS-DOS o mediante una máquina virtual con Windows 3.x o Windows 95.",
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
