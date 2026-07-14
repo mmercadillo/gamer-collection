@@ -8077,74 +8077,7 @@
   },
   {
     "num": "000129",
-    "ig": "",
-    "titulo": "Buck Rogers: Matrix Cubed",
-    "url": "juegos/buck-rogers-matrix-cubed-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "CRPG",
-      "Ciencia ficción",
-      "Combate táctico por turnos",
-      "Exploración en primera persona"
-    ],
-    "desarrollador": [
-      "SSI Special Projects Team"
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Buck Rogers: Matrix Cubed es un videojuego de rol de ciencia ficción publicado en 1992 por Strategic Simulations, Inc. y segunda entrega de la serie iniciada con Countdown to Doomsday. Ambientado en el universo Buck Rogers XXVC de TSR, continúa directamente la campaña anterior y permite importar personajes o crear un grupo de hasta seis aventureros. Su argumento gira alrededor del Matrix Device, una tecnología capaz de transformar cualquier sustancia en energía pura y potencialmente decisiva para la recuperación de una Tierra devastada. El juego utiliza una variante del motor Gold Box de SSI, combinando exploración en primera persona, desplazamiento espacial, desarrollo de personajes y combates tácticos por turnos representados desde una perspectiva cenital. Esta edición norteamericana para IBM PC y compatibles se distribuyó en disquetes y requiere instalación en disco duro. Constituye una pieza singular dentro del catálogo Gold Box por sustituir la fantasía de Advanced Dungeons & Dragons por ciencia ficción espacial, ingeniería genética, corporaciones interplanetarias y el sistema de clases y habilidades propio de Buck Rogers XXVC.",
-    "incluye": [
-      "Caja de cartón Big Box",
-      "Rule Book",
-      "Log Book",
-      "2 disquetes de 5,25 pulgadas",
-      "Catálogo How to Play SSI",
-      "Tarjeta de registro y servicio técnico",
-      "Formulario de pedido SSI",
-      "Formulario promocional del Clue Book"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Buck Rogers",
-      "Matrix Cubed",
-      "Buck Rogers XXVC",
-      "Strategic Simulations Inc",
-      "SSI",
-      "TSR",
-      "Gold Box",
-      "Countdown to Doomsday",
-      "rol espacial",
-      "ciencia ficción pulp",
-      "combate táctico",
-      "grupo de personajes",
-      "IBM PC",
-      "MS-DOS",
-      "disquetes de 5,25 pulgadas",
-      "edición norteamericana",
-      "big box PC",
-      "1992",
-      "preservación de videojuegos"
-    ],
-    "proteccion": {
-      "tipo": "Manual lookup",
-      "version": "",
-      "preservacion": "Los disquetes no incorporan protección física contra copia, pero el inicio del juego solicita una palabra localizada en el Rule Book o el Log Book. Para una preservación completa deben realizarse imágenes sectoriales individuales de los disquetes y digitalizarse ambos libros, conservando la correspondencia entre el software y la documentación utilizada para la verificación.",
-      "formato": "Otro",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000130",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DaxKMjrCL7n",
     "titulo": "Lands of Lore: The Throne of Chaos",
     "url": "juegos/lands-of-lore-the-throne-of-chaos-bigbox/",
     "plataforma": [
@@ -8207,6 +8140,73 @@
       "tipo": "No determinado",
       "version": "",
       "preservacion": "La edición debe preservarse mediante una imagen individual y verificación sectorial de cada uno de los ocho disquetes de 3,5 pulgadas, conservando además los manuales y la documentación localizada. La ejecución es viable en un entorno MS-DOS virtualizado como DOSBox, siempre que se mantenga correctamente el orden de instalación de los discos.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000130",
+    "ig": "",
+    "titulo": "Buck Rogers: Matrix Cubed",
+    "url": "juegos/buck-rogers-matrix-cubed-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Ciencia ficción",
+      "Combate táctico por turnos",
+      "Exploración en primera persona"
+    ],
+    "desarrollador": [
+      "SSI Special Projects Team"
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc."
+    ],
+    "ean": [],
+    "descripcion": "Buck Rogers: Matrix Cubed es un videojuego de rol de ciencia ficción publicado en 1992 por Strategic Simulations, Inc. y segunda entrega de la serie iniciada con Countdown to Doomsday. Ambientado en el universo Buck Rogers XXVC de TSR, continúa directamente la campaña anterior y permite importar personajes o crear un grupo de hasta seis aventureros. Su argumento gira alrededor del Matrix Device, una tecnología capaz de transformar cualquier sustancia en energía pura y potencialmente decisiva para la recuperación de una Tierra devastada. El juego utiliza una variante del motor Gold Box de SSI, combinando exploración en primera persona, desplazamiento espacial, desarrollo de personajes y combates tácticos por turnos representados desde una perspectiva cenital. Esta edición norteamericana para IBM PC y compatibles se distribuyó en disquetes y requiere instalación en disco duro. Constituye una pieza singular dentro del catálogo Gold Box por sustituir la fantasía de Advanced Dungeons & Dragons por ciencia ficción espacial, ingeniería genética, corporaciones interplanetarias y el sistema de clases y habilidades propio de Buck Rogers XXVC.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Rule Book",
+      "Log Book",
+      "2 disquetes de 5,25 pulgadas",
+      "Catálogo How to Play SSI",
+      "Tarjeta de registro y servicio técnico",
+      "Formulario de pedido SSI",
+      "Formulario promocional del Clue Book"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Buck Rogers",
+      "Matrix Cubed",
+      "Buck Rogers XXVC",
+      "Strategic Simulations Inc",
+      "SSI",
+      "TSR",
+      "Gold Box",
+      "Countdown to Doomsday",
+      "rol espacial",
+      "ciencia ficción pulp",
+      "combate táctico",
+      "grupo de personajes",
+      "IBM PC",
+      "MS-DOS",
+      "disquetes de 5,25 pulgadas",
+      "edición norteamericana",
+      "big box PC",
+      "1992",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "Los disquetes no incorporan protección física contra copia, pero el inicio del juego solicita una palabra localizada en el Rule Book o el Log Book. Para una preservación completa deben realizarse imágenes sectoriales individuales de los disquetes y digitalizarse ambos libros, conservando la correspondencia entre el software y la documentación utilizada para la verificación.",
       "formato": "Otro",
       "jugable_virtual": true
     }
