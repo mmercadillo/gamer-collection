@@ -61909,5 +61909,135 @@
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Secret of Monkey Island",
+    "url": "juegos/the-secret-of-monkey-island-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Comedia",
+      "Aventura pirata"
+    ],
+    "desarrollador": [
+      "Lucasfilm Games"
+    ],
+    "distribuidor": [
+      "Lucasfilm Games",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Edición española en caja grande de The Secret of Monkey Island, aventura gráfica diseñada por Ron Gilbert y publicada originalmente por Lucasfilm Games en 1990. El juego presenta a Guybrush Threepwood y su aspiración de convertirse en pirata mediante una estructura de exploración, diálogos y puzles construida sobre el motor SCUMM. Esta versión para compatibles PC corresponde a la edición mejorada con gráficos VGA y MCGA de 256 colores, soporte de sonido AdLib y Sound Blaster y distribución en cuatro disquetes de 3,5 pulgadas de alta densidad. Su humor, su sistema de combate mediante insultos y su diseño sin situaciones de muerte injusta la convirtieron en una referencia central de la edad dorada de la aventura gráfica y en una pieza especialmente relevante para documentar la localización española de Lucasfilm Games distribuida por Erbe Software.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "4 disquetes de 3,5 pulgadas HD",
+      "Rueda de códigos Dial-a-Pirate"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Monkey Island",
+      "Guybrush Threepwood",
+      "Ron Gilbert",
+      "Lucasfilm Games",
+      "Erbe Software",
+      "SCUMM",
+      "VGA 256 colores",
+      "MCGA",
+      "AdLib",
+      "Sound Blaster",
+      "MS-DOS",
+      "piratas",
+      "humor",
+      "edición española",
+      "disquetes de 3,5 pulgadas",
+      "Dial-a-Pirate",
+      "Big Box PC",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "Rol de claves",
+      "version": "Dial-a-Pirate",
+      "preservacion": "Preservar mediante imágenes sectoriales independientes de los cuatro disquetes y digitalización completa de la rueda Dial-a-Pirate, manteniendo visibles sus dos discos, ventanas y correspondencias. La ejecución virtual es viable mediante DOSBox o ScummVM una vez conservados los datos y el elemento físico de protección.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Dogfight: 80 Years of Aerial Warfare",
+    "url": "juegos/dogfight-80-years-of-aerial-warfare-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de vuelo",
+      "Simulador de combate aéreo",
+      "Simulación histórica",
+      "Multijugador"
+    ],
+    "desarrollador": [
+      "Vektor Grafix",
+      "MicroProse Leeds"
+    ],
+    "distribuidor": [
+      "MicroProse",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Dogfight: 80 Years of Aerial Warfare es un simulador de combate aéreo publicado por MicroProse en 1993, desarrollado por el equipo británico Vektor Grafix durante su integración en MicroProse Leeds. Recorre la evolución del combate aéreo desde los biplanos de la Primera Guerra Mundial hasta los reactores de finales del siglo XX mediante doce aeronaves históricas, cabinas funcionales y escenarios inspirados en conflictos como la Segunda Guerra Mundial, Corea, Vietnam, las Malvinas y Oriente Próximo. Combina duelos individuales, misiones con planificación y gestión de recursos y un modo «What If?» que permite enfrentar aparatos de épocas distintas. También admite enfrentamientos para dos jugadores mediante módem o conexión directa. Esta edición española para IBM PC y compatibles se distribuyó en caja grande por Erbe Software, con el programa en cuatro disquetes de 3,5 pulgadas y documentación localizada al castellano, constituyendo una muestra representativa de la etapa clásica de los simuladores militares de MicroProse.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "4 disquetes de 3,5 pulgadas",
+      "Suplemento técnico para IBM PC y compatibles",
+      "Guía del teclado"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Dogfight",
+      "80 Years of Aerial Warfare",
+      "Vektor Grafix",
+      "MicroProse",
+      "MicroProse Leeds",
+      "Erbe Software",
+      "simulación aérea",
+      "combate aéreo",
+      "aviación militar",
+      "Primera Guerra Mundial",
+      "Segunda Guerra Mundial",
+      "Guerra de Corea",
+      "Guerra de Vietnam",
+      "Guerra de las Malvinas",
+      "MS-DOS",
+      "VGA",
+      "módem",
+      "conexión directa",
+      "disquetes de 3,5 pulgadas",
+      "edición española",
+      "manual en castellano",
+      "Big Box PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "Preservar mediante imagen sectorial individual de los cuatro disquetes de 3,5 pulgadas, registrando etiquetas, orden de instalación y posibles errores físicos. Deben digitalizarse también el manual, la guía del teclado y el suplemento técnico, ya que la edición utiliza comprobaciones basadas en documentación. La ejecución es viable en DOSBox u otro entorno MS-DOS virtualizado, conservando la configuración de sonido y controles indicada en la documentación original.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
   }
 ]
