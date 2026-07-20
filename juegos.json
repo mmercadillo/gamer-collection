@@ -8540,6 +8540,79 @@
   {
     "num": "000136",
     "ig": "",
+    "titulo": "World of Warcraft: Wrath of the Lich King - Collector's Edition",
+    "url": "juegos/world-of-warcraft-wrath-of-the-lich-king-collectors-edition-bigbox/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "MacOs"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol multijugador masivo en línea (MMORPG)",
+      "Fantasía",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Blizzard Entertainment"
+    ],
+    "distribuidor": [
+      "Blizzard Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Edición coleccionista de World of Warcraft: Wrath of the Lich King, segunda expansión del juego de rol multijugador masivo en línea de Blizzard Entertainment, publicada en 2008 para Windows y Mac OS X. Requiere World of Warcraft y The Burning Crusade, además de una cuenta activa y conexión a los servidores del servicio. La expansión abre el continente de Rasganorte, desarrolla el enfrentamiento con Arthas Menethil como Rey Exánime, eleva el nivel máximo a 80 e introduce la clase heroica Caballero de la Muerte, el sistema de logros, nuevas bandas y mazmorras y un uso destacado de la tecnología de fases para modificar el entorno según el progreso narrativo. La Collector's Edition conserva un conjunto especialmente amplio de materiales físicos y audiovisuales, incluidos libro de arte, banda sonora, documental, alfombrilla-mapa y componentes del juego de cartas, por lo que constituye una edición relevante para documentar el auge comercial y cultural de los juegos multijugador persistentes y de las ediciones de coleccionista para PC de finales de los años 2000. ([Macworld][1])",
+    "incluye": [
+      "Caja rígida de edición coleccionista con bandeja interior",
+      "DVD-ROM de World of Warcraft: Wrath of the Lich King para PC y Mac",
+      "Manual y clave de producto",
+      "Libro de arte The Art of World of Warcraft: Wrath of the Lich King de 208 páginas",
+      "DVD Entre bastidores",
+      "CD de la banda sonora oficial con 21 pistas y temas adicionales",
+      "Alfombrilla de ratón con mapa de Rasganorte",
+      "Dos mazos de inicio de World of Warcraft Trading Card Game: March of the Legion",
+      "Dos cartas exclusivas de World of Warcraft Trading Card Game",
+      "Mascota exclusiva Frosty, cría de vermis de escarcha, vinculada a la edición ([Wowpedia][2])"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "World of Warcraft"
+    ],
+    "tags": [
+      "World of Warcraft",
+      "Wrath of the Lich King",
+      "Blizzard Entertainment",
+      "Arthas Menethil",
+      "Rey Exánime",
+      "Rasganorte",
+      "Azeroth",
+      "Battle.net",
+      "Caballero de la Muerte",
+      "edición coleccionista",
+      "edición española",
+      "PC y Mac",
+      "DVD-ROM",
+      "libro de arte",
+      "banda sonora",
+      "DVD documental",
+      "World of Warcraft Trading Card Game",
+      "March of the Legion",
+      "Frosty",
+      "juego online por suscripción",
+      "preservación de juegos multijugador",
+      "Big Box PC"
+    ],
+    "proteccion": {
+      "tipo": "Código o clave",
+      "version": "Clave de producto asociada a una cuenta de World of Warcraft/Battle.net",
+      "preservacion": "Preservar el DVD-ROM del cliente como imagen ISO, el DVD adicional como ISO y el CD de audio como BIN/CUE, junto con escaneos del manual, la clave, las cartas y el resto de materiales. La clave puede estar ya canjeada y la versión histórica del cliente depende de autenticación y servicios remotos; el cliente puede ejecutarse en una máquina virtual compatible, pero la reproducción funcional de la experiencia original requiere además un servidor compatible y no queda garantizada únicamente con los soportes físicos.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000137",
+    "ig": "",
     "titulo": "Warcraft II: Tides of Darkness",
     "url": "juegos/warcraft-ii-tides-of-darkness-bigbox/",
     "plataforma": [
@@ -8601,6 +8674,76 @@
       "tipo": "No determinado",
       "version": "",
       "preservacion": "Se recomienda crear una imagen BIN/CUE del CD-ROM para conservar tanto la pista de datos como las posibles pistas de audio reproducidas durante el juego. Deben digitalizarse también el manual y la documentación de la edición. La ejecución es viable mediante DOSBox para la versión MS-DOS o mediante una máquina virtual con Windows 3.x o Windows 95.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000138",
+    "ig": "",
+    "titulo": "Star Wars: Rebel Assault",
+    "url": "juegos/star-wars-rebel-assault-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción arcade",
+      "Shooter sobre raíles",
+      "Ciencia ficción",
+      "FMV"
+    ],
+    "desarrollador": [
+      "LucasArts"
+    ],
+    "distribuidor": [
+      "LucasArts",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Star Wars: Rebel Assault es un juego de acción arcade publicado originalmente en 1993 y una de las primeras grandes producciones de LucasArts concebidas específicamente para aprovechar el CD-ROM. Bajo la dirección de Vince Lee, combina secuencias de vídeo digitalizado procedentes de la trilogía cinematográfica, gráficos tridimensionales prerenderizados, escenas animadas y fases de disparo sobre raíles. El jugador se incorpora a la Alianza Rebelde y participa en misiones espaciales y terrestres inspiradas en acontecimientos como la defensa de Hoth, los combates entre cazas X-Wing y TIE y el asalto a instalaciones imperiales. Su presentación audiovisual, apoyada en la música de John Williams interpretada por la London Symphony Orchestra, lo convirtió en uno de los títulos emblemáticos de la primera expansión multimedia del PC. Esta edición española en caja grande fue distribuida por Erbe Software e incorpora documentación en castellano junto al material original de LucasArts.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM",
+      "Manual original en inglés",
+      "Guía de usuario en castellano",
+      "Tarjeta de referencia en inglés",
+      "Tarjeta de referencia en castellano",
+      "Guía de solución de problemas",
+      "Revista promocional The Adventurer",
+      "Tarjeta de pedido de The Making of Rebel Assault",
+      "Carátula o folleto para el CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "Rebel Assault",
+      "LucasArts",
+      "Erbe Software",
+      "Vince Lee",
+      "Alianza Rebelde",
+      "Imperio Galáctico",
+      "X-Wing",
+      "TIE Fighter",
+      "Hoth",
+      "CD-ROM",
+      "vídeo digitalizado",
+      "gráficos prerenderizados",
+      "John Williams",
+      "MS-DOS",
+      "edición española",
+      "manual en castellano",
+      "Big Box PC",
+      "PC multimedia",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen BIN/CUE del CD-ROM original, acompañada de escaneos de los manuales, tarjetas de referencia y documentación promocional. La ejecución virtual es viable en DOSBox o en un entorno MS-DOS compatible, montando la imagen como unidad de CD-ROM para conservar el acceso a las secuencias audiovisuales y a los datos originales.",
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
@@ -62037,6 +62180,465 @@
       "version": "",
       "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para documentar fielmente el soporte óptico. La ejecución en entorno virtual es viable con Windows 95 o Windows NT configurado, manteniendo la imagen montada si la edición realiza comprobación de disco durante instalación o ejecución.",
       "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Nick Faldo's Championship Golf",
+    "url": "juegos/nick-faldos-championship-golf-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación deportiva",
+      "Simulador de golf",
+      "Golf"
+    ],
+    "desarrollador": [
+      "Arc Developments Limited"
+    ],
+    "distribuidor": [
+      "Grandslam Video Ltd."
+    ],
+    "ean": [],
+    "descripcion": "Nick Faldo's Championship Golf es un simulador deportivo desarrollado por Arc Developments y publicado por Grandslam Video durante los primeros años de la década de 1990. ([MobyGames][1]) Esta edición europea para MS-DOS utiliza gráficos VGA de 256 colores y un sistema de representación poligonal orientado a recrear el relieve, las calles, los obstáculos y las condiciones del campo con un nivel de detalle notable para su época. Ofrece dos recorridos completos de 18 hoyos, tres niveles de dificultad —principiante, aficionado y profesional—, efectos de sonido digitalizados y una sección de entrenamiento asociada a Nick Faldo, con indicaciones sobre putt, draw, fade, juego desde búnker y comportamiento de la bola con viento. Su presentación en disquetes y caja grande documenta la etapa en la que los simuladores de golf para compatibles PC buscaban combinar precisión técnica, licencia de deportistas profesionales y una experiencia de juego cercana a la práctica real.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual Gameplay Instructions",
+      "2 disquetes de 3,5 pulgadas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Nick Faldo",
+      "Arc Developments",
+      "Grandslam Video",
+      "MS-DOS",
+      "VGA 256 colores",
+      "gráficos poligonales",
+      "licencia deportiva",
+      "dos campos de 18 hoyos",
+      "entrenamiento de golf",
+      "sonido digitalizado",
+      "disquetes de 3,5 pulgadas",
+      "edición europea",
+      "Big Box PC",
+      "PC clásico",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en dos disquetes de 3,5 pulgadas. Se recomienda crear una imagen sectorial individual de cada soporte, registrar etiquetas y orden de instalación, verificar la integridad de los volcados y conservar una copia del manual junto con las imágenes. La ejecución virtual es viable en un entorno MS-DOS emulado, aunque debe comprobarse si la edición concreta incorpora alguna validación documental o protección basada en el soporte original. ([myabandonware.com][2])",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Neverwinter Nights Legends",
+    "url": "juegos/neverwinter-nights-legends-cddvd/",
+    "plataforma": [
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Fantasía",
+      "Tiempo real con pausa",
+      "Compilación"
+    ],
+    "desarrollador": [
+      "BioWare",
+      "Obsidian Entertainment"
+    ],
+    "distribuidor": [
+      "Atari"
+    ],
+    "ean": [
+      "3546430132616"
+    ],
+    "descripcion": "Neverwinter Nights Legends es una recopilación física publicada por Atari en 2008 que reúne Neverwinter Nights, sus expansiones Shadows of Undrentide y Hordes of the Underdark, y Neverwinter Nights 2. Los títulos trasladan al PC las reglas de Dungeons & Dragons de tercera edición y 3.5 dentro de los Reinos Olvidados, combinando campañas narrativas, combate en tiempo real con pausa, multijugador y herramientas para crear módulos y aventuras propias. La colección documenta además la transición tecnológica entre el Aurora Engine de BioWare y el Electron Engine empleado por Obsidian Entertainment. Esta edición española en caja de cartón incorpora documentación en castellano y la banda sonora oficial de Neverwinter Nights 2, por lo que resulta especialmente relevante para preservar la etapa de expansión del rol occidental y del contenido creado por usuarios en PC.",
+    "incluye": [
+      "Caja exterior de cartón",
+      "Estuche DVD Case de Neverwinter Nights 2",
+      "Caja Jewel Case para Neverwinter Nights y sus expansiones",
+      "DVD-ROM de Neverwinter Nights 2",
+      "DVD-ROM de Neverwinter Nights, Shadows of Undrentide y Hordes of the Underdark",
+      "CD de banda sonora oficial de Neverwinter Nights 2",
+      "Manual impreso completo de más de 140 páginas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Neverwinter Nights",
+      "Neverwinter Nights 2",
+      "Shadows of Undrentide",
+      "Hordes of the Underdark",
+      "BioWare",
+      "Obsidian Entertainment",
+      "Atari",
+      "Dungeons & Dragons",
+      "Forgotten Realms",
+      "Reinos Olvidados",
+      "Aurora Engine",
+      "Electron Engine",
+      "Aurora Toolset",
+      "D&D 3ª edición",
+      "D&D 3.5",
+      "rol occidental",
+      "módulos de usuario",
+      "multijugador",
+      "edición española",
+      "DVD-ROM",
+      "banda sonora",
+      "caja de cartón",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "La edición combina dos DVD-ROM de datos y un CD de audio. Para una preservación completa se recomienda crear imágenes ISO verificadas de ambos DVD-ROM, conservar el CD de banda sonora mediante BIN/CUE o WAV/CUE y digitalizar el manual y la caja. La instalación puede comprobarse en una máquina virtual con Windows XP y aceleración 3D compatible.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Championship Surfer",
+    "url": "juegos/championship-surfer-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación deportiva",
+      "Surf",
+      "Deportes extremos",
+      "Arcade"
+    ],
+    "desarrollador": [
+      "Krome Studios"
+    ],
+    "distribuidor": [
+      "GAME Studios",
+      "The Learning Company",
+      "The Learning Company España, S.A."
+    ],
+    "ean": [
+      "3307212305440"
+    ],
+    "descripcion": "Championship Surfer es un videojuego de surf tridimensional desarrollado por Krome Studios y publicado en 2000 bajo el sello GAME Studios de The Learning Company. Su propuesta combina simulación deportiva y enfoque arcade mediante olas dinámicas, seis ángulos de cámara, más de cuarenta maniobras y trucos, distintas tablas y siete modalidades para uno o varios jugadores. Incorpora ocho surfistas profesionales vinculados al equipo O'Neill, entre ellos Cory Lopez, Shane Beschen y Rochelle Ballard, además de diez localizaciones internacionales. Esta variante física española para PC CD-ROM fue distribuida por The Learning Company España dentro de un embalaje europeo multilingüe y documenta la etapa de expansión de los deportes extremos en el videojuego de comienzos de los años 2000.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM",
+      "Caja jewel case",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Championship Surfer",
+      "Krome Studios",
+      "GAME Studios",
+      "The Learning Company",
+      "O'Neill",
+      "O'Neill Team",
+      "Cory Lopez",
+      "Shane Beschen",
+      "Rochelle Ballard",
+      "surf profesional",
+      "olas en 3D",
+      "multijugador",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "edición europea multilingüe",
+      "Big Box PC",
+      "año 2000",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM mediante una imagen BIN/CUE verificada y digitalizar el manual y el embalaje. Al no haberse identificado de forma concluyente la protección de esta tirada, conviene conservar también una lectura con subcanales si el volcado estándar presenta errores. La ejecución virtual es viable en Windows 95/98, aunque puede requerir aceleración 3D emulada o un wrapper gráfico compatible.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "ArchLord",
+    "url": "juegos/archlord-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Rol multijugador masivo en línea",
+      "Fantasía",
+      "Combate jugador contra jugador",
+      "Mundo persistente"
+    ],
+    "desarrollador": [
+      "NHN Games Corporation"
+    ],
+    "distribuidor": [
+      "Codemasters Online Gaming",
+      "Atari Ibérica"
+    ],
+    "ean": [
+      "5024866331578"
+    ],
+    "descripcion": "ArchLord es un juego de rol multijugador masivo en línea de fantasía desarrollado por NHN Games y publicado en Europa por Codemasters Online Gaming en 2006. Ambientado en el continente de Chantra, permite crear personajes pertenecientes a tres razas y ocho clases, formar gremios, participar en asedios y competir por convertirse en el único ArchLord de cada servidor. Su propuesta se apoyaba especialmente en el combate entre jugadores, las guerras de gremios y un mundo persistente construido con tecnología RenderWare. Esta edición física europea en formato DVD Case con funda exterior de cartón, para Windows 2000 y Windows XP, presenta textos exteriores en castellano e italiano, manual bilingüe y treinta días de juego online incluidos. El servicio pasó posteriormente a Webzen y sus servidores oficiales terminaron cerrando en 2014, circunstancia esencial para documentar y preservar esta edición dependiente de infraestructura remota. ([company.webzen.com][1])",
+    "incluye": [
+      "Funda exterior de cartón",
+      "DVD-ROM",
+      "Manual en castellano e italiano"
+    ],
+    "serie": [
+      "Todos",
+      "DVD Case"
+    ],
+    "tags": [
+      "ArchLord",
+      "NHN Games",
+      "Codemasters Online Gaming",
+      "Atari Ibérica",
+      "RenderWare",
+      "MMORPG",
+      "Chantra",
+      "gremios",
+      "asedios",
+      "juego exclusivamente online",
+      "suscripción",
+      "edición española e italiana",
+      "DVD-ROM",
+      "Windows 2000",
+      "Windows XP",
+      "servidores cerrados",
+      "DVD Case PC",
+      "preservación de videojuegos online"
+    ],
+    "proteccion": {
+      "tipo": "Otro",
+      "version": "Cuenta online, autenticación en servidor y suscripción",
+      "preservacion": "Crear una imagen ISO íntegra del DVD-ROM y digitalizar la caja, el manual y cualquier código de registro que conserve el ejemplar. Deben documentarse también la versión del cliente, los instaladores y los parches disponibles. La imagen del soporte permite preservar el software distribuido, pero no restituye por sí sola la experiencia jugable: ArchLord depende de autenticación e infraestructura de servidor y el servicio oficial cerró definitivamente en 2014. ([Engadget][2])",
+      "formato": "ISO",
+      "jugable_virtual": false
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Two Worlds II: Game of the Year Edition",
+    "url": "juegos/two-worlds-ii-game-of-the-year-edition-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista",
+      "Win7",
+      "MacOs"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Rol",
+      "Action RPG",
+      "Mundo abierto",
+      "Fantasía",
+      "Compilación"
+    ],
+    "desarrollador": [
+      "Reality Pump Studios"
+    ],
+    "distribuidor": [
+      "TopWare Interactive"
+    ],
+    "ean": [
+      "4250230210403"
+    ],
+    "descripcion": "Two Worlds II: Game of the Year Edition reúne el juego de rol de mundo abierto desarrollado por Reality Pump Studios y la expansión Pirates of the Flying Fortress. Ambientado en Antaloor, combina exploración libre, combate en tiempo real, decisiones narrativas, multijugador y sistemas de personalización especialmente amplios, entre ellos la creación modular de hechizos DEMONS y la mejora de equipo mediante CRAFT. El título utiliza el motor GRACE, concebido para ofrecer escenarios extensos, iluminación dinámica y soporte de representación estereoscópica en 3D. Esta edición europea para PC y Mac incorpora el contenido ampliado de la expansión y constituye una publicación física representativa de la etapa final de las ediciones de rol para ordenador presentadas en caja de cartón con estuche y materiales impresos.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Estuche DVD Case",
+      "Manual de instrucciones",
+      "Mapa desplegable",
+      "DVD-ROM Two Worlds II: Game of the Year Edition",
+      "DVD-ROM Bonus Disc"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Two Worlds",
+      "Two Worlds II",
+      "Game of the Year Edition",
+      "Pirates of the Flying Fortress",
+      "Reality Pump Studios",
+      "TopWare Interactive",
+      "Antaloor",
+      "GRACE Engine",
+      "DEMONS Magic System",
+      "CRAFT Technology",
+      "3D estereoscópico",
+      "edición europea multilingüe",
+      "PC y Mac",
+      "DVD-ROM",
+      "juego físico de PC",
+      "caja de cartón",
+      "preservación digital",
+      "rol occidental"
+    ],
+    "proteccion": {
+      "tipo": "Otro",
+      "version": "Activación por teléfono o Internet",
+      "preservacion": "Preservar ambos DVD-ROM mediante imágenes ISO verificadas y digitalizar el manual, el mapa y la caja. La edición exige activación por teléfono o Internet, por lo que también debe documentarse y conservarse cualquier número de serie o credencial asociada; la futura instalación puede depender de la disponibilidad del servicio de activación o de un procedimiento legítimo de activación sin conexión.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Great Naval Battles: North Atlantic 1939-43",
+    "url": "juegos/great-naval-battles-north-atlantic-1939-43-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación naval",
+      "Wargame",
+      "Estrategia en tiempo real",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "IO Design Group Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Great Naval Battles: North Atlantic 1939-43 es un simulador de combate naval y wargame publicado en 1992, primera entrega de la serie Great Naval Battles. Permite dirigir fuerzas británicas o alemanas durante la campaña del Atlántico Norte en la Segunda Guerra Mundial mediante campañas completas, minicampañas y enfrentamientos individuales. Combina acción en tiempo real con tres escalas de mando —capitán, flota y almirante—, control directo de acorazados y cruceros, navegación, artillería, dirección de tiro, evaluación de daños por cubiertas, una base de datos histórica de buques y repetición de las batallas. Esta edición española en disquetes, editada y distribuida por Dro Soft para compatibles IBM PC, documenta la etapa de los simuladores militares complejos de Strategic Simulations y la localización al castellano del software especializado de comienzos de los noventa. ([MobyGames][1])",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual de usuario en castellano",
+      "3 disquetes de 3,5 pulgadas HD",
+      "Hoja de fe de erratas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Great Naval Battles",
+      "North Atlantic 1939-43",
+      "IO Design Group",
+      "Strategic Simulations",
+      "SSI",
+      "Dro Soft",
+      "Segunda Guerra Mundial",
+      "Batalla del Atlántico",
+      "Royal Navy",
+      "Kriegsmarine",
+      "combate naval",
+      "simulación militar",
+      "buques de guerra",
+      "MS-DOS",
+      "VGA",
+      "EGA",
+      "AdLib",
+      "Sound Blaster",
+      "Roland",
+      "disquetes de 3,5 pulgadas",
+      "edición española",
+      "software en castellano",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "Comprobación mediante identificación o consulta de información del manual",
+      "preservacion": "Preservar los tres disquetes mediante imágenes individuales de bajo nivel o formato IMG/RAW, verificar sectores y documentar su orden. Debe digitalizarse también el manual en castellano, ya que el programa incorpora una comprobación anticopia basada en documentación física. La ejecución virtual es viable mediante DOSBox conservando accesible la información requerida por la protección. ([MobyGames][2])",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Chess Player 2150",
+    "url": "juegos/chess-player-2150-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Ajedrez",
+      "Estrategia por turnos",
+      "Simulación de ajedrez",
+      "Juego de tablero"
+    ],
+    "desarrollador": [
+      "Oxford Softworks"
+    ],
+    "distribuidor": [
+      "Oxford Softworks",
+      "System 4"
+    ],
+    "ean": [],
+    "descripcion": "Chess Player 2150 es un programa de ajedrez para compatibles IBM PC desarrollado por Oxford Softworks y publicado originalmente en 1989. Su motor fue promocionado como ganador del British Open Personal Computer Chess Championship de 1989 y estaba orientado tanto a principiantes como a jugadores de club, con numerosos niveles configurables mediante controles de tiempo, análisis durante el turno del rival, movimientos recomendados y pruebas para estimar el nivel ELO. Técnicamente ofrecía tableros en 2D y 3D, control mediante ratón, guardado de partidas, edición de posiciones, cambio de bando y una biblioteca de aperturas de más de 96.000 bytes capaz de incorporar nuevas líneas. Esta edición española en caja grande para MS-DOS fue distribuida por System 4, utiliza un disquete de 5,25 pulgadas e incluye una guía del usuario localizada al castellano.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Guía del usuario en castellano",
+      "Disquete de 5,25 pulgadas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Chess Player 2150",
+      "Oxford Softworks",
+      "CP Software",
+      "System 4",
+      "IBM PC y compatibles",
+      "MS-DOS",
+      "ajedrez por ordenador",
+      "motor de ajedrez",
+      "British Open Computer Chess Championship",
+      "ELO",
+      "gráficos 2D y 3D",
+      "control por ratón",
+      "disquete de 5,25 pulgadas",
+      "edición española",
+      "manual en castellano",
+      "1989",
+      "Big Box PC",
+      "preservación de software"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquete de 5,25 pulgadas. Se recomienda realizar un volcado sectorial del soporte original, conservar una imagen de disquete verificada y digitalizar la guía del usuario. La ejecución es viable en un entorno MS-DOS virtualizado siempre que la imagen conserve correctamente la geometría y los posibles sectores no estándar.",
+      "formato": "Otro",
       "jugable_virtual": true
     }
   }
