@@ -62641,5 +62641,740 @@
       "formato": "Otro",
       "jugable_virtual": true
     }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 6.0: Temporada 97-98",
+    "url": "juegos/pc-futbol-6-0-temporada-97-98-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Simulación futbolística",
+      "Estrategia deportiva",
+      "Deportes"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 6.0: Temporada 97-98 es una entrega de la emblemática saga española de gestión futbolística desarrollada y publicada por Dinamic Multimedia. Actualizada con los clubes, plantillas y competiciones de la temporada 1997-1998 de la Liga de Fútbol Profesional, combina una amplia base de datos deportiva con dirección de equipos, administración económica, fichajes, alineaciones, tácticas y simulación de partidos. Esta versión supuso una evolución tecnológica de la serie al incorporar una presentación renovada para Windows 95, compatibilidad con DirectX y representación tridimensional de los encuentros. Su equilibrio entre información estadística, accesibilidad y profundidad de gestión convirtió a PC Fútbol en un fenómeno cultural del videojuego español y en una referencia generacional para los aficionados al fútbol durante la década de 1990.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "Dinamic Multimedia",
+      "temporada 1997-1998",
+      "Liga española",
+      "Liga de Fútbol Profesional",
+      "fútbol español",
+      "base de datos deportiva",
+      "mercado de fichajes",
+      "Windows 95",
+      "DirectX",
+      "CD-ROM",
+      "videojuego español",
+      "edición española",
+      "jewel case",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen ISO completa del CD-ROM original, acompañada del registro de la etiqueta del disco y de la documentación incluida. La ejecución puede realizarse en una máquina virtual con Windows 95, DirectX compatible y la imagen del disco montada, aunque debe verificarse si esta edición concreta realiza comprobación de presencia del CD.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 6.0: Extensión 2 - PC Fútbol Plus",
+    "url": "juegos/pc-futbol-6-0-extension-2-pc-futbol-plus-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Manager de fútbol",
+      "Simulación futbolística",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Segunda ampliación oficial de PC Fútbol 6.0, publicada por Dinamic Multimedia para prolongar y actualizar la edición dedicada a la temporada 1997-98. PC Fútbol Plus requiere una instalación del programa original e incorpora información ampliada de la Liga sobre jugadores, entrenadores y partidos, además de contenidos identificados comercialmente como Manager y Pro-Manager 98-99 y una actualización del simulador a la versión 6.5. La edición refleja el modelo de evolución continua que convirtió a PC Fútbol en una referencia del software deportivo español de los años noventa, combinando bases de datos futbolísticas, dirección técnica, administración económica y simulación de encuentros en un mismo entorno para Windows 95 y Windows 98.",
+    "incluye": [
+      "Estuche jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 6.0",
+      "PC Fútbol Plus",
+      "Extensión 2",
+      "Dinamic Multimedia",
+      "fútbol español",
+      "temporada 1997-98",
+      "temporada 1998-99",
+      "base de datos futbolística",
+      "manager deportivo",
+      "simulador 6.5",
+      "expansión para PC",
+      "edición española",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "jewel case",
+      "videojuego español",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar mediante imagen ISO completa del CD-ROM y conservarla junto con una copia funcional de PC Fútbol 6.0, ya que esta edición es una ampliación y requiere el programa original. La ejecución virtual es viable en una máquina con Windows 95 o Windows 98, pendiente de verificar si la edición concreta realiza comprobación de presencia del disco.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 6.0: Extensión 1",
+    "url": "juegos/pc-futbol-6-0-extension-1-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Simulación futbolística",
+      "Fútbol",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [
+      "8426239090445"
+    ],
+    "descripcion": "Primera expansión oficial de PC Fútbol 6.0 para la temporada 1997-98, publicada en España por Dinamic Multimedia en 1998 y dependiente de una instalación previa del juego base. Actualiza la primera vuelta de la Liga española con resultados, clasificaciones, incidencias, alineaciones y plantillas de Primera y Segunda División, e incorpora los 289 goles disputados hasta la jornada 19 en vídeo digital. También eleva el simulador a la versión 6.1, con cámara de eventos, mejoras tácticas y soporte opcional para aceleración 3D con suavizado, niebla y sombreado, además de una revisión de Pro-Quinielas. Representa el modelo de «juego vivo» con el que Dinamic prolongaba cada temporada mediante extensiones físicas antes de la distribución generalizada de actualizaciones por Internet. La edición comercial está documentada con el EAN 8426239090445. ([Archivo Internet][1])",
+    "incluye": [
+      "Caja Jewel Case",
+      "2 CD-ROM",
+      "Revista PC Fútbol 6.0: Extensión 1"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 6.0",
+      "Dinamic Multimedia",
+      "Liga 1997-98",
+      "Liga de Fútbol Profesional",
+      "LFP",
+      "Michael Robinson",
+      "simulador 6.1",
+      "aceleración 3D",
+      "vídeo digital",
+      "Pro-Quinielas",
+      "actualización de plantillas",
+      "edición española",
+      "Windows 95",
+      "PC CD-ROM",
+      "Jewel Case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar ambos CD-ROM mediante imágenes BIN/CUE y digitalizar la revista asociada. La extensión requiere una instalación funcional de PC Fútbol 6.0; para ejecución virtual conviene utilizar Windows 95 y mantener disponibles las imágenes de los discos durante la instalación y el uso. ([Archivo Internet][2])",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Calcio 6.0: Temporada 97-98",
+    "url": "juegos/pc-calcio-6-0-temporada-97-98-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Simulación de fútbol",
+      "Manager de fútbol",
+      "Estrategia deportiva"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Calcio 6.0 es la adaptación de PC Fútbol 6.0 dedicada al campeonato italiano de la temporada 1997-98, desarrollada y publicada por Dinamic Multimedia para Windows 95. Mantiene la combinación característica de base de datos futbolística, dirección técnica y gestión integral del club, con control de alineaciones, fichajes, economía, estadio, merchandising y derechos televisivos, además de representación tridimensional de los partidos con aceleración 3D opcional. Esta edición comercial en castellano incorpora comentarios de Chus del Río y Massimo Tecca y reúne en el mismo producto PC Fútbol 5.0 Argentina: Apertura '98, convirtiéndola en una edición especialmente relevante para documentar las variantes internacionales de la saga PC Fútbol. ([Computer Emuzone][1])",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM con PC Calcio 6.0 y PC Fútbol 5.0 Argentina: Apertura '98"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Calcio",
+      "PC Fútbol",
+      "Dinamic Multimedia",
+      "temporada 1997-98",
+      "liga italiana",
+      "Serie A",
+      "fútbol italiano",
+      "gestión de clubes",
+      "base de datos futbolística",
+      "comentarios deportivos",
+      "Chus del Río",
+      "Massimo Tecca",
+      "aceleración 3D",
+      "Windows 95",
+      "CD-ROM",
+      "edición en castellano",
+      "videojuego español",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen BIN/CUE del CD-ROM original y documentar sus archivos, etiqueta y materiales impresos. La ejecución virtual es viable mediante una máquina virtual con Windows 95 o Windows 98, aunque debe verificarse en la copia concreta si existe comprobación de presencia del disco durante el arranque. ([Archivo Internet][2])",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Premier: PC Fútbol Liga Inglesa 6.0 - Temporada 97-98",
+    "url": "juegos/pc-premier-pc-futbol-liga-inglesa-6-0-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Gestión deportiva",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Premier: PC Fútbol Liga Inglesa 6.0 es una edición de la temporada 1997-98 centrada en el fútbol inglés y construida sobre la fórmula de gestión deportiva popularizada por la saga PC Fútbol de Dinamic Multimedia. Permite administrar clubes, plantillas, fichajes, alineaciones, economía y competiciones mediante una amplia base de datos, combinando la vertiente de mánager con la representación de los partidos. Esta versión para Windows 95 y Windows 98 ofrece aceleración 3D opcional y comentarios de Carlos del Río y Tomás Díaz. La edición incorpora además PC France 5.0, dedicado a la liga francesa, por lo que documenta el intento de Dinamic Multimedia de extender su modelo de simulación futbolística a otros campeonatos europeos durante la segunda mitad de los noventa.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Premier",
+      "PC Fútbol",
+      "Dinamic Multimedia",
+      "liga inglesa",
+      "Premier League",
+      "temporada 1997-98",
+      "PC France 5.0",
+      "liga francesa",
+      "gestión futbolística",
+      "base de datos deportiva",
+      "aceleración 3D",
+      "comentarios deportivos",
+      "Carlos del Río",
+      "Tomás Díaz",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "PC CD-ROM",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM en formato ISO y conservación de las carátulas y documentación asociada. La ejecución virtual es viable en una máquina virtual con Windows 95 o Windows 98, aunque puede requerir configurar DirectX y desactivar la aceleración 3D si el adaptador virtual no es compatible.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Premier: PC Fútbol Liga Inglesa 5.0 - Temporada 96-97",
+    "url": "juegos/pc-premier-pc-futbol-liga-inglesa-5-0-temporada-96-97-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Simulación futbolística",
+      "Manager de fútbol",
+      "Estrategia deportiva",
+      "Deportes"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Premier: PC Fútbol Liga Inglesa 5.0 - Temporada 96-97 es una adaptación de la fórmula de PC Fútbol 5.0 dedicada al campeonato inglés de la temporada 1996-1997. Desarrollado y publicado por Dinamic Multimedia para Windows 95, combina gestión de club, planificación de alineaciones, fichajes, economía, estadísticas y seguimiento de la competición con una base de datos especializada elaborada por Julio Maldonado. La edición incorpora comentarios de Chus del Río y Tomás Díaz y fue diseñada para ejecutarse desde CD-ROM con soporte de gráficos SVGA y DirectX 3.0. Constituye una pieza representativa de la expansión de la saga PC Fútbol hacia ligas internacionales durante la segunda mitad de los años noventa y del auge de los simuladores deportivos españoles en formato multimedia.",
+    "incluye": [
+      "Caja Jewel Case",
+      "CD-ROM",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Premier",
+      "PC Fútbol",
+      "Dinamic Multimedia",
+      "Liga inglesa",
+      "Premier League",
+      "Temporada 1996-97",
+      "Fútbol inglés",
+      "Julio Maldonado",
+      "Chus del Río",
+      "Tomás Díaz",
+      "Windows 95",
+      "DirectX 3.0",
+      "CD-ROM",
+      "Edición española",
+      "Jewel Case",
+      "Simulación deportiva",
+      "Preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM en formato BIN/CUE, conservando también la carátula y cualquier documentación asociada. La ejecución virtual es viable en una máquina virtual con Windows 95, unidad óptica montada y compatibilidad con DirectX 3.0.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Calcio 5.0: Temporada 96-97",
+    "url": "juegos/pc-calcio-5-0-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Fútbol",
+      "Simulación deportiva",
+      "Estrategia deportiva"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Calcio 5.0 es la adaptación italiana de la línea PC Fútbol de Dinamic Multimedia para la temporada 1996-97. Combina gestión integral de clubes, planificación de plantillas y competiciones con una amplia base de datos dedicada al fútbol italiano. Esta edición incorpora información evaluada por Julio Maldonado, comentarios de Chus del Río y Massimo Tecca, fotografías de jugadores de las series A y B y autorización de la Associazione Italiana Calciatori. Técnicamente corresponde a la etapa de transición de los simuladores deportivos españoles hacia Windows 95 y DirectX 3.0, distribuida en CD-ROM y orientada a equipos 486 con gráficos SVGA. Su interés documental reside en la internacionalización de una de las sagas más representativas del software deportivo español de los años noventa.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Calcio",
+      "PC Fútbol",
+      "Dinamic Multimedia",
+      "temporada 1996-97",
+      "fútbol italiano",
+      "Serie A",
+      "Serie B",
+      "Associazione Italiana Calciatori",
+      "Julio Maldonado",
+      "Chus del Río",
+      "Massimo Tecca",
+      "edición italiana",
+      "Windows 95",
+      "DirectX 3.0",
+      "CD-ROM",
+      "software español",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar mediante una imagen ISO completa del CD-ROM y digitalización de las carátulas. Para reproducir la configuración original se recomienda un entorno virtualizado con Windows 95 y DirectX 3.0; no existe evidencia suficiente para identificar un sistema anticopia concreto en esta edición.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 5.0: Extensión 2",
+    "url": "juegos/pc-futbol-5-0-extension-2-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Gestión deportiva",
+      "Simulación",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 5.0: Extensión 2 es una ampliación oficial para PC Fútbol 5.0 publicada por Dinamic Multimedia durante la temporada 1996-97. Requiere el juego base y actualiza su contenido con La Biblia de la Liga 96-97, nuevas tácticas de equipo y una colección histórica de PC Fútbol que recorre las versiones 1.0 a 4.0. La edición refleja el modelo de actualizaciones en CD-ROM utilizado por la compañía española para mantener vigentes sus bases de datos futbolísticas entre entregas principales, combinando gestión de clubes, información estadística y seguimiento de la competición profesional. Su compatibilidad oficial con Windows 95 y DirectX 3.0 la sitúa en la transición de la saga hacia el entorno multimedia de mediados de los noventa.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 5.0",
+      "Dinamic Multimedia",
+      "Liga 1996-97",
+      "LFP",
+      "extensión oficial",
+      "actualización de temporada",
+      "base de datos futbolística",
+      "gestión de clubes",
+      "tácticas de equipo",
+      "colección histórica PC Fútbol",
+      "Windows 95",
+      "DirectX 3.0",
+      "CD-ROM",
+      "edición española",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM como imagen ISO y documentar que la extensión requiere una instalación funcional de PC Fútbol 5.0. Conviene conservar también el orden de instalación y comprobar si la edición realiza verificación de presencia del disco durante el uso.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 5.0: eXtensión 1",
+    "url": "juegos/pc-futbol-5-0-extension-1-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Simulación futbolística",
+      "Fútbol",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Primera expansión oficial de PC Fútbol 5.0, publicada por Dinamic Multimedia en 1997 para actualizar y ampliar la edición correspondiente a la temporada 1996-1997. Requiere una instalación previa de PC Fútbol 5.0 y añade una base de datos puesta al día hasta la jornada 33, aproximadamente 200 equipos adicionales, una nueva opción de Highlights y contenidos vinculados al análisis futbolístico de Michael Robinson. También actualiza los módulos Pro-Quinielas e Infofútbol, reforzando el carácter de producto vivo que distinguió a la saga mediante ampliaciones periódicas de resultados, plantillas y estadísticas. Constituye un documento representativo del auge del software deportivo español en CD-ROM y de la estrategia editorial de Dinamic Multimedia alrededor de las competiciones oficiales de la Liga de Fútbol Profesional.",
+    "incluye": [
+      "CD-ROM",
+      "Caja jewel case",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 5.0",
+      "Dinamic Multimedia",
+      "temporada 1996-1997",
+      "Liga de Fútbol Profesional",
+      "Michael Robinson",
+      "Windows 95",
+      "CD-ROM",
+      "edición española",
+      "actualización de plantillas",
+      "Highlights",
+      "Pro-Quinielas",
+      "Infofútbol",
+      "fútbol español",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM mediante una imagen BIN/CUE y documentar su dependencia obligatoria de una instalación funcional de PC Fútbol 5.0. La ejecución puede verificarse en una máquina virtual con Windows 95, conservando conjuntamente el juego base y esta expansión para mantener el contexto completo de instalación y uso.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 5.0",
+    "url": "juegos/pc-futbol-5-0-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación deportiva",
+      "Gestión futbolística",
+      "Estrategia deportiva",
+      "Fútbol"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 5.0 es una entrega de la histórica serie española de gestión futbolística desarrollada y publicada por Dinamic Multimedia para la temporada 1996-1997. Reúne una extensa base de datos de clubes y jugadores de la Liga española con herramientas de dirección deportiva, gestión económica, alineaciones, tácticas, fichajes y simulación de encuentros. Esta versión incorporó además Infofútbol, concebido como una enciclopedia y base documental para aficionados, y ProQuinielas, una utilidad orientada a la elaboración y análisis de pronósticos de la quiniela. Su combinación de información deportiva, simulación y actualización anual convirtió a PC Fútbol en uno de los fenómenos más representativos del software español de los años noventa y en una referencia cultural para varias generaciones de usuarios de PC.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 5.0",
+      "Dinamic Multimedia",
+      "temporada 1996-1997",
+      "Liga española",
+      "Liga de Fútbol Profesional",
+      "LFP",
+      "gestión deportiva",
+      "manager de fútbol",
+      "simulador de fútbol",
+      "base de datos futbolística",
+      "Infofútbol",
+      "ProQuinielas",
+      "quinielas",
+      "software español",
+      "videojuego español",
+      "PC CD-ROM",
+      "MS-DOS",
+      "Windows 95",
+      "Jewel Case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente en formato BIN/CUE para conservar su estructura. La ejecución virtual debería ser viable mediante un entorno MS-DOS o Windows 95 correctamente configurado, pendiente de comprobar si esta edición realiza verificación de presencia del disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Real Madrid Basket '99: Temporada 98-99",
+    "url": "juegos/pc-real-madrid-basket-99-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación deportiva",
+      "Gestión deportiva",
+      "Baloncesto",
+      "Manager"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia",
+      "Diario MARCA"
+    ],
+    "ean": [
+      "8426239090544"
+    ],
+    "descripcion": "Edición especial de la serie PC Basket desarrollada y publicada por Dinamic Multimedia para la temporada 1998-1999, centrada exclusivamente en la sección de baloncesto del Real Madrid. El programa adapta la base tecnológica, estadística y de gestión de PC Basket 6.5 para ofrecer el control deportivo del club, con plantillas, competiciones y datos correspondientes a la campaña 98-99. Combina dirección de equipo, seguimiento estadístico y simulación de partidos, incorporando comentarios en castellano de Luis Jiménez. La edición fue impulsada comercialmente junto al diario deportivo MARCA y constituye un ejemplo representativo de las versiones temáticas de clubes españoles que Dinamic Multimedia produjo durante el auge de sus simuladores deportivos para Windows.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Real Madrid Basket 99",
+      "PC Basket",
+      "Real Madrid",
+      "Real Madrid Baloncesto",
+      "Dinamic Multimedia",
+      "Diario MARCA",
+      "Luis Jiménez",
+      "temporada 1998-1999",
+      "Liga ACB",
+      "baloncesto español",
+      "manager deportivo",
+      "videojuego español",
+      "edición española",
+      "voces en castellano",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar mediante una imagen completa del CD-ROM original, preferiblemente en formato BIN/CUE, y documentar la carátula y cualquier material impreso asociado. La ejecución virtual es viable mediante un entorno Windows 95/98 correctamente configurado; debe verificarse sobre la edición concreta si exige mantener el disco montado durante el arranque.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Los Justicieros",
+    "url": "juegos/los-justicieros-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Película interactiva",
+      "Shooter sobre raíles",
+      "Acción",
+      "Western",
+      "FMV"
+    ],
+    "desarrollador": [
+      "Picmatic"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Los Justicieros es una película interactiva española de ambientación western desarrollada por Picmatic y comercializada para PC por Dinamic Multimedia durante la expansión del CD-ROM multimedia en la década de 1990. La propuesta combina secuencias de vídeo con imagen real, humor paródico y fases de disparo sobre raíles en las que el jugador debe reaccionar ante enemigos y situaciones predeterminadas. Procede de una producción concebida inicialmente para máquinas recreativas basadas en vídeo, posteriormente adaptada al ordenador doméstico mediante almacenamiento óptico. Su utilización de vídeo digitalizado y actores reales la convierte en una muestra representativa de la experimentación española con el Full Motion Video y el concepto de cine interactivo durante los primeros años de Windows 95.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "Los Justicieros",
+      "Picmatic",
+      "Dinamic Multimedia",
+      "videojuego español",
+      "película interactiva",
+      "cine interactivo",
+      "Full Motion Video",
+      "FMV",
+      "imagen real",
+      "western",
+      "shooter sobre raíles",
+      "adaptación de recreativa",
+      "Windows 95",
+      "PC CD-ROM",
+      "edición española",
+      "Jewel Case",
+      "multimedia de los noventa",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE que conserve la estructura completa del soporte y documentar las características audiovisuales de la edición. La ejecución puede realizarse en una máquina virtual con Windows 95, aunque podrían ser necesarios ajustes de compatibilidad relacionados con vídeo, profundidad de color y reproducción multimedia.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
   }
 ]
