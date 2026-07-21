@@ -63376,5 +63376,2503 @@
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Fields of Fire: War Along the Mohawk",
+    "url": "juegos/fields-of-fire-war-along-the-mohawk-2-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Rol",
+      "Estrategia histórica",
+      "Gestión de recursos"
+    ],
+    "desarrollador": [
+      "Edward Grabowski Communications Ltd.",
+      "Entertainment International (UK) Ltd."
+    ],
+    "distribuidor": [
+      "Empire Interactive Entertainment",
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Fields of Fire: War Along the Mohawk es un híbrido de estrategia en tiempo real y rol histórico publicado en 1998. Ambientado en 1757, durante la guerra franco-india por el control de las colonias norteamericanas, permite elegir bando y desarrollar un personaje mientras se gestionan recursos, asentamientos, aliados y enfrentamientos en tiempo real. Su propuesta combina progresión individual, adquisición de habilidades, exploración y administración de una base con campañas militares protagonizadas por franceses, británicos, colonos y pueblos indígenas. Esta edición española para Windows 95 y Windows 98 fue distribuida por Dinamic Multimedia en CD-ROM y localizada al castellano, constituyendo una muestra poco habitual de estrategia histórica centrada en la Norteamérica colonial dentro del catálogo europeo de finales de los años noventa.",
+    "incluye": [
+      "CD-ROM",
+      "Caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "Fields of Fire",
+      "War Along the Mohawk",
+      "Edward Grabowski Communications",
+      "Entertainment International",
+      "Empire Interactive",
+      "Dinamic Multimedia",
+      "guerra franco-india",
+      "Guerra de los Siete Años",
+      "Norteamérica colonial",
+      "siglo XVIII",
+      "estrategia histórica",
+      "gestión de asentamientos",
+      "progresión de personaje",
+      "edición española",
+      "juego en castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Jewel Case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "La edición requiere la presencia del CD-ROM durante la ejecución. Se recomienda crear una imagen completa BIN/CUE del disco original, conservar una copia del parche oficial 1.7.3 y documentar la versión española del ejecutable, que presenta problemas conocidos en determinadas misiones. Para su ejecución puede utilizarse una máquina virtual con Windows 95 o Windows 98 manteniendo la imagen montada como unidad óptica.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Castrol Honda World Superbike Team: Superbike 2000",
+    "url": "juegos/castrol-honda-superbike-2000-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación de motociclismo",
+      "Carreras",
+      "Simulación deportiva",
+      "Conducción"
+    ],
+    "desarrollador": [
+      "Interactive Entertainment Ltd."
+    ],
+    "distribuidor": [
+      "Midas Interactive Entertainment",
+      "Dinamic Multimedia"
+    ],
+    "ean": [
+      "8426239092005"
+    ],
+    "descripcion": "Castrol Honda World Superbike Team: Superbike 2000 es un videojuego de motociclismo desarrollado por Interactive Entertainment Ltd. y publicado originalmente por Midas Interactive Entertainment a finales de los años noventa. La edición española fue distribuida por Dinamic Multimedia para Windows 95 y Windows 98. El título cuenta con licencia del equipo Castrol Honda del Campeonato Mundial de Superbikes y permite pilotar la Honda RVF750 RC45 asociada a los pilotos Aaron Slight y Colin Edwards. Su propuesta combina conducción accesible con opciones de simulación, sesiones de entrenamiento, práctica, clasificación, carreras individuales y un campeonato completo. También permite configurar aspectos mecánicos de la motocicleta, ajustar el grado de realismo y competir bajo condiciones meteorológicas variables. Esta edición localizada al castellano representa la expansión de los simuladores de motociclismo para PC durante la etapa de consolidación de DirectX y la aceleración gráfica tridimensional.",
+    "incluye": [
+      "Caja Jewel Case",
+      "CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "Castrol Honda Superbike 2000",
+      "Castrol Honda",
+      "Interactive Entertainment",
+      "Midas Interactive",
+      "Dinamic Multimedia",
+      "Honda RVF750 RC45",
+      "Aaron Slight",
+      "Colin Edwards",
+      "Campeonato Mundial de Superbikes",
+      "motociclismo",
+      "simulador de motos",
+      "carreras en circuito",
+      "DirectX 6",
+      "multijugador en red local",
+      "edición española",
+      "juego en castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Jewel Case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM original y conservar digitalizaciones de la carátula y del manual. Una imagen BIN/CUE permite documentar adecuadamente la estructura del soporte mientras se verifica si la edición incorpora pistas adicionales o alguna comprobación física del disco. La ejecución virtual es viable mediante Windows 95 o Windows 98 virtualizado, aunque puede requerir aceleración gráfica compatible con DirectX 6 o ajustes específicos para hardware tridimensional antiguo.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Atmosfear: La Dimensión de lo Desconocido",
+    "url": "juegos/atmosfear-la-dimension-de-lo-desconocido-jewelcase/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Estrategia por turnos",
+      "Juego de tablero",
+      "Aventura en primera persona",
+      "Terror",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "A Couple 'A Cowboys Pty Limited"
+    ],
+    "distribuidor": [
+      "EMG Publishing",
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Edición española de Atmosfear: The Third Dimension, adaptación para ordenador de la conocida serie australiana de juegos de tablero interactivos Atmosfear. Publicado en España por Dinamic Multimedia en 1996, propone una carrera contrarreloj por un mundo de terror gobernado por el Guardián de la Puerta, donde el jugador debe explorar escenarios en primera persona, superar pruebas, resolver enigmas y evitar distintas amenazas sobrenaturales. Su presentación combina gráficos tridimensionales prerenderizados, secuencias de vídeo, voces digitalizadas y elementos propios de los juegos de tablero y de las producciones multimedia de mediados de los años noventa. La edición localizada al castellano se distribuyó en dos CD-ROM y constituye un ejemplo representativo de la transición de las franquicias de vídeo interactivo y juegos de mesa con VHS hacia experiencias autónomas para PC.",
+    "incluye": [
+      "Caja jewel case",
+      "2 CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "Atmosfear",
+      "The Third Dimension",
+      "Dinamic Multimedia",
+      "EMG Publishing",
+      "A Couple 'A Cowboys",
+      "Guardián de la Puerta",
+      "juego de tablero interactivo",
+      "terror sobrenatural",
+      "multimedia",
+      "gráficos prerenderizados",
+      "vídeo digital",
+      "primera persona",
+      "edición española",
+      "localización al castellano",
+      "2 CD-ROM",
+      "Windows 3.x",
+      "Windows 95",
+      "jewel case",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar ambos CD-ROM mediante imágenes BIN/CUE para conservar posibles pistas, sesiones o estructuras multimedia, documentando el orden de los discos y la versión española. La ejecución virtual es viable mediante una máquina virtual con Windows 3.1 o Windows 95 y configuración de vídeo y audio compatible con software multimedia de 16 bits.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Basket 6.0",
+    "url": "juegos/pc-basket-6-0-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación deportiva",
+      "Gestión deportiva",
+      "Baloncesto",
+      "Estrategia"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Basket 6.0 es un simulador de baloncesto desarrollado y publicado por la compañía española Dinamic Multimedia para la temporada 1997-98. Combina la gestión integral de clubes con la simulación de partidos en 3D, permitiendo administrar plantillas, fichajes, tácticas y otros aspectos deportivos de los equipos de la Asociación de Clubes de Baloncesto. Su base de datos profesional reúne información sobre jugadores, entrenadores, clubes y más de 150 equipos europeos, constituyendo una valiosa referencia estadística del baloncesto continental de finales de los años noventa. La presencia del entrenador Aíto García Reneses en la portada y el distintivo de producto oficial de la ACB reflejan la estrecha vinculación comercial de esta entrega con la competición española. Es una obra representativa de la línea de simuladores deportivos de Dinamic Multimedia y de la transición de la saga PC Basket hacia entornos Windows y partidos tridimensionales.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Basket",
+      "Dinamic Multimedia",
+      "ACB",
+      "Aíto García Reneses",
+      "temporada 1997-98",
+      "baloncesto español",
+      "baloncesto europeo",
+      "mánager deportivo",
+      "base de datos deportiva",
+      "simulación 3D",
+      "videojuego español",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición española",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa y documentar la versión del ejecutable, la base de datos de la temporada y cualquier actualización disponible. Al no haberse verificado el sistema anticopia de esta edición concreta, conviene conservar también una copia sectorial del soporte original.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Atletismo 2000",
+    "url": "juegos/pc-atletismo-2000-2-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Atletismo",
+      "Simulación deportiva",
+      "Gestión deportiva"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [
+      "8426239092074"
+    ],
+    "descripcion": "PC Atletismo 2000 es un videojuego español de simulación deportiva desarrollado y publicado por Dinamic Multimedia en 2000 para Windows 95 y Windows 98. Su propuesta combina la participación directa en distintas pruebas de atletismo con un modo de gestión y entrenamiento de deportistas, siguiendo la tradición de las series deportivas de la compañía. Incorpora disciplinas de velocidad, saltos, lanzamientos y pruebas combinadas, representación tridimensional mediante Direct3D y modalidades multijugador en red local para hasta ocho participantes. La edición cuenta con el respaldo de la Real Federación Española de Atletismo y ofrece textos y voces en castellano. Constituye una producción singular dentro del videojuego español de finales de los noventa por trasladar al PC un deporte poco habitual, integrando competición arcade, simulación y planificación de la carrera profesional de los atletas.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Atletismo 2000",
+      "Dinamic Multimedia",
+      "videojuego español",
+      "Real Federación Española de Atletismo",
+      "RFEA",
+      "atletismo",
+      "simulación deportiva",
+      "gestión de atletas",
+      "pruebas de pista y campo",
+      "Direct3D",
+      "multijugador LAN",
+      "voces en castellano",
+      "textos en castellano",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición española",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM y conservar las pistas, la etiqueta del disco y la documentación impresa asociada. Al no haberse confirmado un sistema anticopia concreto para esta edición, debe verificarse la imagen en un entorno Windows 95 o Windows 98 virtualizado y comprobarse si exige mantener el disco montado durante la ejecución.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Barça Basket '99",
+    "url": "juegos/pc-barca-basket-99-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación deportiva",
+      "Gestión deportiva",
+      "Baloncesto",
+      "Estrategia"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia",
+      "Diario Sport"
+    ],
+    "ean": [],
+    "descripcion": "PC Barça Basket '99 es una edición temática de la serie PC Basket dedicada al Fútbol Club Barcelona durante la temporada 1998-1999. Desarrollado por Dinamic Multimedia sobre la base tecnológica y jugable de PC Basket 6, combina gestión deportiva, seguimiento estadístico, planificación de la plantilla y simulación de baloncesto con contenidos específicos sobre la historia y los jugadores de la sección azulgrana. La edición incorpora versiones en catalán y castellano, además de comentarios de los periodistas Jordi Basté y Juan Antonio San Epifanio, Epi, una de las figuras históricas del baloncesto español y del propio club. Fue distribuida en colaboración con el diario Sport dentro de una línea de productos multimedia centrados en el Fútbol Club Barcelona, representativa de la expansión de las colecciones de prensa y los videojuegos deportivos de producción española a finales de los años noventa.",
+    "incluye": [
+      "CD-ROM",
+      "Caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Barça Basket",
+      "PC Basket",
+      "Dinamic Multimedia",
+      "Fútbol Club Barcelona",
+      "FC Barcelona Basket",
+      "Diario Sport",
+      "Jordi Basté",
+      "Epi",
+      "temporada 1998-1999",
+      "baloncesto español",
+      "Liga ACB",
+      "gestión deportiva",
+      "versión en castellano",
+      "versión en catalán",
+      "edición española",
+      "PC CD-ROM",
+      "videojuego español",
+      "colección de prensa",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa ISO o BIN/CUE y documentar la variante lingüística incluida. La ejecución virtual es viable mediante un entorno Windows 95/98 configurado para aplicaciones y gráficos de finales de los años noventa.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Basket 4.5",
+    "url": "juegos/pc-basket-45-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación deportiva",
+      "Mánager de baloncesto",
+      "Gestión deportiva",
+      "Baloncesto"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Basket 4.5 es un simulador y mánager de baloncesto español publicado por Dinamic Multimedia para la temporada 1996-97. Concebido como una actualización de PC Basket 4.0, conserva su combinación de base de datos deportiva, dirección de equipos y simulación de partidos, incorporando las plantillas y competiciones de la nueva campaña. Incluye la Liga ACB regular y sus play-offs, además de una competición europea con 32 equipos, y contó con licencia oficial de la Asociación de Clubes de Baloncesto. La portada está protagonizada por Juan Antonio San Epifanio, Epi, una de las figuras históricas del baloncesto español. Esta edición en CD-ROM para MS-DOS, compatible con Windows 95, forma parte de la etapa de mayor popularidad de los simuladores deportivos de Dinamic Multimedia y conserva especial interés como documento de la liga española de baloncesto de mediados de los años noventa.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Basket",
+      "Dinamic Multimedia",
+      "Juan Antonio San Epifanio",
+      "Epi",
+      "Liga ACB",
+      "temporada 1996-97",
+      "baloncesto español",
+      "liga europea",
+      "base de datos deportiva",
+      "simulación de partidos",
+      "gestión de equipos",
+      "producto oficial ACB",
+      "MS-DOS",
+      "Windows 95",
+      "CD-ROM",
+      "edición española",
+      "software en castellano",
+      "videojuego español",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferentemente en formato BIN/CUE para conservar íntegramente la estructura del soporte. La ejecución es viable mediante DOSBox o un entorno MS-DOS virtualizado; también puede funcionar desde Windows 95, tal como indica la edición física.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 2001",
+    "url": "juegos/pc-futbol-2001-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "WinXP"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Simulación deportiva",
+      "Gestión deportiva"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 2001 es la última entrega de la serie publicada por Dinamic Multimedia antes del cierre de la compañía. Lanzado en 2001, combina gestión integral de clubes, administración económica, mercado de fichajes, seguimiento estadístico y simulación de partidos de fútbol en tres dimensiones. Su base de datos reúne competiciones, equipos y jugadores de distintas ligas europeas y argentinas correspondientes a la temporada 2001-2002, junto con modalidades como Euromanager y opciones multijugador. La edición conserva especial relevancia histórica por representar el final de la etapa clásica de PC Fútbol, una de las sagas más emblemáticas del videojuego español y un fenómeno cultural estrechamente ligado a la expansión del ordenador doméstico en España durante los años noventa.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 2001",
+      "Dinamic Multimedia",
+      "videojuego español",
+      "Liga de Fútbol Profesional",
+      "gestión de clubes",
+      "mánager de fútbol",
+      "temporada 2001-2002",
+      "base de datos futbolística",
+      "partidos en 3D",
+      "Euromanager",
+      "edición española",
+      "PC CD-ROM",
+      "jewel case",
+      "Windows clásico",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa BIN/CUE o ISO y conservar la carátula y posibles documentos asociados. La ejecución virtual puede realizarse en un entorno Windows 98 o Windows Me, aunque pueden ser necesarios ajustes de compatibilidad gráfica y de instalación.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 2000: La Biblia de la Liga",
+    "url": "juegos/pc-futbol-2000-la-biblia-de-la-liga-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Base de datos deportiva",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 2000: La Biblia de la Liga es una extensión publicada por Dinamic Multimedia en 2000 para complementar la edición principal de PC Fútbol 2000. El programa reúne información estadística, histórica y documental relacionada con la competición española, siguiendo la tradición de los contenidos enciclopédicos que acompañaron a distintas entregas de la saga. Su funcionamiento depende de una instalación operativa de PC Fútbol 2000, por lo que no constituye un producto autónomo. Esta edición oficial, identificada con la licencia de la Liga de Fútbol Profesional, representa la vertiente documental de una de las franquicias españolas más importantes de gestión deportiva para PC y conserva interés para estudiar la evolución de las bases de datos futbolísticas multimedia de finales de los años noventa.",
+    "incluye": [
+      "Estuche jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 2000",
+      "La Biblia de la Liga",
+      "Dinamic Multimedia",
+      "Liga de Fútbol Profesional",
+      "LFP",
+      "fútbol español",
+      "estadísticas deportivas",
+      "base de datos futbolística",
+      "extensión",
+      "temporada 1999-2000",
+      "edición española",
+      "PC CD-ROM",
+      "jewel case",
+      "software en castellano",
+      "videojuego español",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa BIN/CUE y documentar su dependencia de una instalación funcional de PC Fútbol 2000. Para su ejecución virtual debe reproducirse un entorno Windows 95 o Windows 98 con el juego base previamente instalado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 2000",
+    "url": "juegos/pc-futbol-2000-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Mánager de fútbol",
+      "Simulación futbolística",
+      "Estrategia deportiva"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 2000 es una entrega de la histórica serie española de gestión futbolística desarrollada y publicada por Dinamic Multimedia para la temporada 1999-2000. Con licencia oficial de la Liga de Fútbol Profesional, permite dirigir clubes, configurar plantillas y alineaciones, gestionar fichajes, contratos, economía e instalaciones y disputar competiciones mediante su simulador de partidos. La combinación de una amplia base de datos del fútbol español, funciones de administración deportiva y actualización estacional convirtió a la saga en un fenómeno cultural del videojuego para PC en España. Esta edición en CD-ROM y caja jewel case pertenece a la etapa final de Dinamic Multimedia y documenta la consolidación del mánager de fútbol como uno de los géneros más representativos del mercado informático español de finales de los años noventa.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 2000",
+      "Dinamic Multimedia",
+      "Liga de Fútbol Profesional",
+      "LFP",
+      "fútbol español",
+      "temporada 1999-2000",
+      "mánager de fútbol",
+      "gestión de clubes",
+      "base de datos futbolística",
+      "simulador de partidos",
+      "videojuego español",
+      "edición española",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa del soporte original y documentar su versión, estructura de archivos y posibles comprobaciones de presencia del disco. La ejecución virtual es viable mediante una máquina virtual con Windows 95 o Windows 98, aunque pueden ser necesarios ajustes de compatibilidad y mantener la imagen montada durante el uso.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Real Madrid '99: Temporada 98-99",
+    "url": "juegos/pc-real-madrid-99-temporada-98-99-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Gestión deportiva",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia",
+      "MARCA"
+    ],
+    "ean": [
+      "8426239090537"
+    ],
+    "descripcion": "PC Real Madrid '99: Temporada 98-99 es una edición temática de la serie PC Fútbol dedicada exclusivamente al Real Madrid Club de Fútbol. Desarrollada y publicada por Dinamic Multimedia en colaboración promocional con el diario deportivo MARCA, utiliza como base tecnológica y jugable el motor de PC Fútbol 6.5. Permite gestionar la plantilla madridista, consultar información deportiva y disputar encuentros correspondientes al contexto de la temporada 1998-1999, combinando simulación futbolística, dirección técnica y administración del club. Incorpora comentarios de José María del Toro y una presentación centrada en la identidad, los jugadores y la trayectoria del Real Madrid. Esta edición española en CD-ROM representa la estrategia de Dinamic Multimedia de adaptar su popular sistema de gestión deportiva a clubes concretos y constituye una pieza característica del auge del software futbolístico español de finales de los años noventa.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Real Madrid 99",
+      "Real Madrid",
+      "PC Fútbol",
+      "Dinamic Multimedia",
+      "MARCA",
+      "José María del Toro",
+      "temporada 1998-1999",
+      "Liga española",
+      "gestión de clubes",
+      "simulador de fútbol",
+      "videojuego español",
+      "software en castellano",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición española",
+      "Jewel Case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante una imagen completa del CD-ROM original y digitalización del manual y las carátulas. Al no haberse verificado un sistema anticopia concreto para esta edición, conviene conservar una copia sectorial íntegra antes de generar una imagen ISO de acceso. La ejecución es viable en un entorno Windows 95 o Windows 98 virtualizado, aunque puede requerir ajustes de compatibilidad gráfica y montaje permanente del CD-ROM.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol: Selección Española - Mundial 98",
+    "url": "juegos/pc-futbol-seleccion-espanola-mundial-98-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación deportiva",
+      "Gestión futbolística",
+      "Fútbol"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Edición especial de la serie PC Fútbol dedicada a la selección española y al Mundial de Francia 1998. Publicada por Dinamic Multimedia durante la etapa de mayor popularidad de la franquicia, combina información estadística, seguimiento de jugadores, datos de la competición y contenidos centrados en el combinado nacional español. Forma parte de la línea de productos deportivos y enciclopédicos con la que Dinamic amplió el alcance de PC Fútbol más allá de las entregas anuales de gestión de clubes. Su publicación en CD-ROM para Windows 95 representa el auge del software futbolístico español de finales de los años noventa y conserva especial interés documental por su vinculación directa con la Copa Mundial de la FIFA de 1998.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "Selección Española",
+      "Mundial 98",
+      "Francia 98",
+      "Dinamic Multimedia",
+      "fútbol español",
+      "Copa Mundial de la FIFA",
+      "gestión futbolística",
+      "estadísticas deportivas",
+      "Windows 95",
+      "PC CD-ROM",
+      "edición española",
+      "software deportivo español",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa del disco y documentar la versión del ejecutable y los archivos incluidos. La ejecución virtual debería verificarse en un entorno Windows 95 configurado con una unidad de CD-ROM montada.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 7: Temporada 98-99",
+    "url": "juegos/pc-futbol-7-temporada-98-99-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación deportiva",
+      "Gestión futbolística",
+      "Estrategia deportiva",
+      "Fútbol"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 7: Temporada 98-99 es una entrega de la emblemática serie española de gestión futbolística desarrollada y publicada por Dinamic Multimedia. Actualizada con los clubes, plantillas y competiciones de la temporada 1998-1999, permite ejercer funciones de entrenador, director deportivo y gestor económico, combinando alineaciones, tácticas, fichajes, contratos, finanzas e infraestructuras del club. La saga PC Fútbol alcanzó durante los años noventa una enorme relevancia cultural y comercial en España gracias a su extensa base de datos, su presentación cercana a la prensa deportiva y su capacidad para condensar múltiples facetas de la administración de un equipo. Esta edición para Windows 95 y Windows 98 se distribuyó en CD-ROM dentro de una caja jewel case y representa una etapa de madurez de la franquicia antes de la transición hacia PC Fútbol 2000.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Manual en formato libreto"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 7",
+      "Dinamic Multimedia",
+      "temporada 1998-1999",
+      "fútbol español",
+      "Liga española",
+      "gestión de clubes",
+      "manager de fútbol",
+      "simulación deportiva",
+      "base de datos futbolística",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición española",
+      "software en castellano",
+      "jewel case",
+      "videojuego español",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en formato ISO, acompañada de digitalización del libreto y las carátulas. La ejecución es viable en una máquina virtual con Windows 95 o Windows 98, aunque deben documentarse posibles comprobaciones de presencia del disco durante la instalación o el arranque.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 7: eXtensión",
+    "url": "juegos/pc-futbol-7-extension-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Gestión deportiva",
+      "Simulación futbolística",
+      "Estrategia",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 7: eXtensión es la ampliación publicada en 1999 para PC Fútbol 7, la entrega de Dinamic Multimedia correspondiente originalmente a la temporada 1998-1999. Esta actualización adapta el simulador y gestor futbolístico a la temporada 1999-2000, renovando plantillas, competiciones, estadísticas y otros datos deportivos, además de incorporar ajustes sobre la base jugable del programa original. Mantiene la combinación característica de la saga entre dirección de club, gestión económica, seguimiento estadístico, base de datos futbolística y representación de partidos. La edición forma parte de la etapa de mayor popularidad de PC Fútbol en España y documenta el modelo de ampliaciones con el que Dinamic Multimedia prolongaba la vigencia de cada entrega antes del lanzamiento de la siguiente versión principal.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 7",
+      "Dinamic Multimedia",
+      "fútbol español",
+      "temporada 1999-2000",
+      "gestión de clubes",
+      "manager de fútbol",
+      "base de datos futbolística",
+      "actualización de temporada",
+      "expansión",
+      "videojuego español",
+      "edición española",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y documentación de su dependencia respecto a PC Fútbol 7. Para ejecutarlo puede ser necesario instalar previamente el juego base en un entorno Windows 95 o Windows 98 virtualizado.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Resident Evil 2",
+    "url": "juegos/resident-evil-2-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Survival horror",
+      "Acción",
+      "Terror",
+      "Aventura",
+      "Aventura en tercera persona"
+    ],
+    "desarrollador": [
+      "Capcom"
+    ],
+    "distribuidor": [
+      "Capcom",
+      "Virgin Interactive Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Conversión para PC de Resident Evil 2, segunda entrega de la influyente saga de terror de Capcom, publicada originalmente en 1998. La historia presenta dos campañas interrelacionadas protagonizadas por Leon S. Kennedy y Claire Redfield durante el brote vírico que devasta Raccoon City. Su diseño combina exploración de escenarios prerenderizados, cámaras fijas, combate, resolución de puzles y una gestión limitada de munición y objetos, elementos fundamentales en la consolidación del survival horror. La edición para Windows se distribuyó en dos CD-ROM y adaptó al ordenador las secuencias cinematográficas, los escenarios y el sistema de campañas del lanzamiento original, incorporando opciones gráficas propias del hardware de PC de finales de los noventa. Esta presentación europea en caja jewel case, publicada bajo los sellos de Capcom y Virgin Interactive, documenta la comercialización independiente del juego para PC CD-ROM fuera del formato de caja grande.",
+    "incluye": [
+      "Caja jewel case",
+      "2 CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Resident Evil",
+      "Resident Evil 2",
+      "Capcom",
+      "Virgin Interactive",
+      "Raccoon City",
+      "Leon S. Kennedy",
+      "Claire Redfield",
+      "zombis",
+      "terror japonés",
+      "escenarios prerenderizados",
+      "cámaras fijas",
+      "PC CD-ROM",
+      "dos discos",
+      "Windows 95",
+      "Windows 98",
+      "edición europea",
+      "jewel case",
+      "videojuego físico",
+      "preservación PC",
+      "años 90"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda realizar una imagen completa de cada uno de los dos CD-ROM y conservar su orden e identificación. El formato BIN/CUE permite documentar adecuadamente la estructura de los discos; la ejecución virtual es viable en un entorno Windows 95 o Windows 98 correctamente configurado, aunque debe verificarse la posible comprobación de presencia del CD durante el juego.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Caesar II",
+    "url": "juegos/caesar-ii-eng-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Construcción de ciudades",
+      "Estrategia",
+      "Gestión",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [],
+    "descripcion": "Caesar II es un juego de construcción y administración de ciudades ambientado en la Antigua Roma, desarrollado por Impressions Games y publicado por Sierra On-Line en 1995. Amplió considerablemente la fórmula del Caesar original mediante una representación isométrica más detallada, planificación urbana, comercio, impuestos, producción, servicios públicos, defensa militar y gestión provincial. El jugador debe desarrollar ciudades prósperas y extender la influencia de Roma por distintas regiones del Imperio, combinando decisiones económicas con campañas militares y objetivos políticos. Su modelo de ciudadanos itinerantes, evolución de viviendas y cadenas de producción anticipó numerosos sistemas que Impressions Games perfeccionaría posteriormente en Caesar III, Faraón y Zeus. Esta edición para PC en estuche jewel case pertenece a la etapa inicial de consolidación del city builder histórico como género diferenciado.",
+    "incluye": [
+      "Estuche jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Caesar",
+      "Caesar II",
+      "Impressions Games",
+      "Sierra On-Line",
+      "Antigua Roma",
+      "Imperio romano",
+      "city builder",
+      "simulación urbana",
+      "gestión económica",
+      "estrategia histórica",
+      "PC CD-ROM",
+      "MS-DOS",
+      "Windows 3.x",
+      "Windows 95",
+      "jewel case",
+      "PC clásico",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa y documentar las versiones ejecutables para MS-DOS y Windows incluidas en la edición. La ejecución virtual es viable mediante DOSBox para la versión DOS o mediante un entorno Windows clásico virtualizado para la versión de Windows.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Sanitarium",
+    "url": "juegos/sanitarium-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Terror psicológico",
+      "Misterio",
+      "Aventura isométrica"
+    ],
+    "desarrollador": [
+      "DreamForge Intertainment"
+    ],
+    "distribuidor": [
+      "ASC Games"
+    ],
+    "ean": [],
+    "descripcion": "Sanitarium es una aventura gráfica de terror psicológico desarrollada por DreamForge Intertainment y publicada por ASC Games en 1998. Su historia sigue a Max Laughton, un hombre que despierta desfigurado y sin memoria en una institución psiquiátrica, iniciando un recorrido por escenarios inquietantes que oscilan entre la realidad, el trauma y la alucinación. El juego emplea una perspectiva isométrica, escenarios bidimensionales dibujados y una interfaz point and click orientada a la exploración, los diálogos y la resolución de puzles. Sus capítulos presentan identidades, ambientaciones y personajes profundamente distintos, unidos por una narrativa sobre la memoria, la culpa y la percepción de la realidad. Su atmósfera opresiva, imaginería perturbadora y enfoque adulto lo convirtieron en una obra de culto de la aventura gráfica de finales de los años noventa. Esta edición física en estuche jewel case corresponde a la publicación para PC CD-ROM distribuida en varios discos.",
+    "incluye": [
+      "Estuche jewel case",
+      "3 CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Sanitarium",
+      "DreamForge Intertainment",
+      "ASC Games",
+      "Max Laughton",
+      "terror psicológico",
+      "horror surrealista",
+      "thriller psicológico",
+      "amnesia",
+      "institución psiquiátrica",
+      "perspectiva isométrica",
+      "aventura gráfica de los años 90",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "jewel case",
+      "edición física",
+      "videojuego de culto",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en tres CD-ROM. Para una preservación completa se recomienda crear una imagen individual de cada disco, preferiblemente en formato BIN/CUE, verificar su integridad y conservar la numeración y el orden original necesarios durante la instalación y los cambios de disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Full Throttle",
+    "url": "juegos/full-throttle-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Aventura cinematográfica",
+      "Comedia",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Full Throttle es una aventura gráfica desarrollada y publicada por LucasArts en 1995 bajo la dirección de Tim Schafer. Ambientada en un futuro cercano dominado por corporaciones y bandas de motoristas, sigue a Ben, líder de los Polecats, después de ser acusado injustamente del asesinato del industrial Malcolm Corley. El juego utiliza el motor SCUMM e incorpora secuencias animadas mediante la tecnología INSANE, voces digitalizadas, música del grupo The Gone Jackals y una interfaz contextual basada en acciones representadas mediante iconos. Su combinación de estética motera, ciencia ficción, humor, narrativa cinematográfica y secuencias de acción la convirtió en una de las obras más reconocibles de la etapa final de las aventuras SCUMM. Esta primera edición española para PC CD-ROM fue distribuida por Erbe Software y conserva el doblaje y los textos localizados al castellano.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Full Throttle",
+      "LucasArts",
+      "Erbe Software",
+      "Tim Schafer",
+      "SCUMM",
+      "INSANE",
+      "Ben",
+      "Polecats",
+      "The Gone Jackals",
+      "aventura gráfica clásica",
+      "interfaz contextual",
+      "moteros",
+      "carreteras",
+      "ciencia ficción",
+      "humor",
+      "voces digitalizadas",
+      "edición española",
+      "doblaje al castellano",
+      "MS-DOS",
+      "PC CD-ROM",
+      "jewel case",
+      "1995",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante una imagen completa BIN/CUE del CD-ROM original, acompañada de la digitalización del manual y las carátulas. La versión para MS-DOS puede ejecutarse en una máquina virtual o mediante intérpretes compatibles con SCUMM, conservando los archivos de datos y audio originales.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Prisoner of Ice",
+    "url": "juegos/prisoner-of-ice-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Terror",
+      "Misterio",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Infogrames Multimedia"
+    ],
+    "distribuidor": [
+      "Infogrames Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Prisoner of Ice es una aventura gráfica publicada por Infogrames en 1995 e inspirada en los Mitos de Cthulhu de H. P. Lovecraft. Concebida como continuación temática de Shadow of the Comet, sitúa al jugador en los años previos a la Segunda Guerra Mundial y combina espionaje, expediciones polares, arqueología fantástica y terror cósmico. La historia sigue al teniente estadounidense Ryan durante una misión a bordo de un submarino británico que transporta unas misteriosas criaturas recuperadas del hielo antártico. Su desarrollo emplea una estructura clásica de aventura point and click, escenarios dibujados, secuencias animadas, diálogos digitalizados y puzles basados en la exploración y el uso de objetos. Esta edición física en estuche jewel case para PC CD-ROM representa la etapa multimedia de Infogrames a mediados de los años noventa y conserva especial interés por su adaptación del universo lovecraftiano al formato de aventura gráfica cinematográfica.",
+    "incluye": [
+      "Estuche jewel case",
+      "CD-ROM",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Prisoner of Ice",
+      "Call of Cthulhu",
+      "H. P. Lovecraft",
+      "Mitos de Cthulhu",
+      "Infogrames",
+      "Shadow of the Comet",
+      "terror cósmico",
+      "Antártida",
+      "submarinos",
+      "aventura gráfica clásica",
+      "CD-ROM multimedia",
+      "MS-DOS",
+      "Windows 3.x",
+      "Windows 95",
+      "jewel case",
+      "PC clásico",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente en formato BIN/CUE para conservar posibles pistas o estructuras del soporte. Conviene digitalizar también la carátula y cualquier documentación asociada. La ejecución virtual es viable mediante un entorno MS-DOS o Windows clásico correctamente configurado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Total Distortion",
+    "url": "juegos/total-distortion-jewelcase/",
+    "plataforma": [
+      "Win3.x"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Aventura multimedia",
+      "Simulación empresarial",
+      "Creación musical",
+      "FMV"
+    ],
+    "desarrollador": [
+      "Pop Rocket"
+    ],
+    "distribuidor": [
+      "Pop Rocket"
+    ],
+    "ean": [],
+    "descripcion": "Total Distortion es una aventura multimedia publicada en 1995 por Pop Rocket para ordenadores Windows y Macintosh. El jugador encarna a un productor de vídeos musicales que viaja a la Dimensión de la Distorsión para grabar criaturas, paisajes y actuaciones con las que crear videoclips y obtener beneficios. Su diseño combina exploración, conversaciones, gestión económica, composición audiovisual, combates musicales y abundantes secuencias de vídeo digitalizado. El título fue una producción especialmente representativa de la expansión del CD-ROM interactivo durante mediados de los años noventa y destacó por permitir editar vídeos mediante una extensa biblioteca de clips, efectos y canciones. Su estética surrealista, su humor y su célebre secuencia musical de derrota lo han convertido en una obra de culto dentro de la multimedia experimental para ordenadores personales.",
+    "incluye": [
+      "CD-ROM",
+      "Libreto de instrucciones",
+      "Caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Total Distortion",
+      "Pop Rocket",
+      "Joe Sparks",
+      "Windows 3.1",
+      "CD-ROM multimedia",
+      "QuickTime",
+      "vídeo digital",
+      "full motion video",
+      "edición de videoclips",
+      "industria musical",
+      "música rock",
+      "aventura experimental",
+      "multimedia interactiva",
+      "juego de culto",
+      "años 90",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM mediante una imagen ISO verificada y digitalizar el libreto y las carátulas. Para su ejecución se recomienda un entorno virtualizado con Windows 3.1, controladores multimedia y una versión compatible de QuickTime para Windows; las aplicaciones de 16 bits no funcionan directamente en sistemas Windows modernos de 64 bits.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Lands of Lore: The Throne of Chaos",
+    "url": "juegos/lands-of-lore-the-throne-of-chaos-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Rol",
+      "Dungeon crawler",
+      "Rol en primera persona",
+      "Fantasía",
+      "Combate en tiempo real"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Lands of Lore: The Throne of Chaos es un juego de rol en primera persona desarrollado por Westwood Studios y publicado originalmente en 1993. Concebido tras la experiencia del estudio con la serie Eye of the Beholder, combina exploración de mazmorras, resolución de puzles, gestión de un grupo de aventureros y combate en tiempo real dentro del reino fantástico de Gladstone. El jugador debe detener a la hechicera Scotia, capaz de alterar su apariencia mediante una poderosa máscara, mientras recorre bosques, fortalezas, minas y complejos subterráneos representados mediante gráficos VGA. La versión en CD-ROM amplió la edición original en disquetes con voces digitalizadas, secuencias adicionales y la participación de Patrick Stewart como el rey Richard. Esta publicación en caja jewel case documenta la etapa inicial del CD-ROM multimedia y una de las obras de rol más relevantes de Westwood antes de su consolidación internacional con la estrategia en tiempo real.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Folleto frontal"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Lands of Lore",
+      "The Throne of Chaos",
+      "Westwood Studios",
+      "Virgin Interactive",
+      "Gladstone",
+      "Scotia",
+      "Patrick Stewart",
+      "rol occidental",
+      "dungeon crawler clásico",
+      "primera persona",
+      "fantasía medieval",
+      "combate en tiempo real",
+      "gráficos VGA",
+      "voces digitalizadas",
+      "versión talkie",
+      "MS-DOS",
+      "PC CD-ROM",
+      "jewel case",
+      "PC clásico",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante una imagen ISO completa del CD-ROM original. La versión en CD elimina la consulta anticopia al manual presente en algunas ediciones en disquete, pero requiere conservar o montar el soporte óptico durante la ejecución. Es reproducible en DOSBox y otros entornos MS-DOS virtualizados con la imagen configurada como unidad de CD-ROM.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Simon the Sorcerer",
+    "url": "juegos/simon-the-sorcerer-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía",
+      "Comedia"
+    ],
+    "desarrollador": [
+      "Adventure Soft"
+    ],
+    "distribuidor": [
+      "Adventure Soft",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Simon the Sorcerer es una aventura gráfica británica desarrollada por Adventure Soft y publicada originalmente en 1993. El juego sigue a Simon, un adolescente transportado accidentalmente a un mundo fantástico en el que debe rescatar al mago Calypso de las manos del hechicero Sórdido. Su diseño combina exploración, conversaciones y resolución de puzles mediante una interfaz point and click, con abundantes parodias de cuentos populares, novelas de fantasía y convenciones del género. Utiliza el motor Adventure Graphic Operating System, también conocido como AGOS, y presenta gráficos VGA en 256 colores. Esta edición española en CD-ROM distribuida por Erbe Software incorpora subtítulos en castellano y las voces inglesas de la versión hablada, con Chris Barrie interpretando a Simon. Representa la transición de las aventuras distribuidas en disquete hacia las ediciones multimedia en CD-ROM de mediados de los años noventa.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Simon the Sorcerer",
+      "Adventure Soft",
+      "Erbe Software",
+      "AGOS",
+      "Chris Barrie",
+      "aventura gráfica británica",
+      "humor británico",
+      "fantasía paródica",
+      "VGA",
+      "256 colores",
+      "voces en inglés",
+      "subtítulos en castellano",
+      "edición española",
+      "MS-DOS",
+      "PC CD-ROM",
+      "jewel case",
+      "años 90",
+      "ScummVM",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM mediante una imagen BIN/CUE que conserve íntegramente la estructura del soporte, junto con digitalizaciones de las carátulas y de cualquier documentación interior existente. La versión para MS-DOS puede ejecutarse en un entorno virtualizado o directamente mediante ScummVM, que ofrece compatibilidad con el motor AGOS y facilita su conservación funcional.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Grim Fandango",
+    "url": "juegos/grim-fandango-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Aventura 3D",
+      "Puzzle",
+      "Comedia negra",
+      "Cine negro"
+    ],
+    "desarrollador": [
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Grim Fandango es una aventura gráfica desarrollada por LucasArts y publicada originalmente en 1998 bajo la dirección de Tim Schafer. La historia sigue a Manny Calavera, agente de viajes del Departamento de la Muerte, durante un recorrido por el Mundo de los Muertos inspirado en el folclore mexicano, el Día de Muertos, el cine negro y la estética art déco. Supuso una importante transición tecnológica dentro del catálogo de LucasArts al sustituir el clásico motor SCUMM por GrimE, combinando personajes tridimensionales con fondos prerenderizados y control directo mediante teclado. Su narrativa, dirección artística, música de inspiración jazzística y humor oscuro la convirtieron en una de las obras más reconocidas de la aventura gráfica de finales de los años noventa. Esta edición física en estuche jewel case incorpora documentación en castellano y conserva el lanzamiento original para Windows en CD-ROM.",
+    "incluye": [
+      "Estuche jewel case",
+      "CD-ROM",
+      "Guía de viaje y manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Grim Fandango",
+      "LucasArts",
+      "Tim Schafer",
+      "GrimE",
+      "Manny Calavera",
+      "Mundo de los Muertos",
+      "Día de Muertos",
+      "cine negro",
+      "art déco",
+      "aventura gráfica clásica",
+      "personajes 3D",
+      "fondos prerenderizados",
+      "edición española",
+      "manual en castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferentemente en formato BIN/CUE, junto con la digitalización de la guía de viaje y manual de instrucciones. La ejecución virtual es viable mediante un entorno Windows 95/98 o soluciones modernas compatibles con el motor GrimE, manteniendo montada la imagen del disco cuando la versión original realice comprobación de CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Wheel of Time",
+    "url": "juegos/the-wheel-of-time-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Acción en primera persona",
+      "Shooter en primera persona",
+      "Fantasía",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Legend Entertainment"
+    ],
+    "distribuidor": [
+      "GT Interactive Software"
+    ],
+    "ean": [],
+    "descripcion": "The Wheel of Time es un videojuego de acción y aventura en primera persona publicado en 1999 y basado en la serie literaria de fantasía de Robert Jordan. Desarrollado por Legend Entertainment, estudio especializado en adaptaciones narrativas y aventuras para PC, utiliza una versión modificada del Unreal Engine para representar fortalezas, ruinas, mazmorras y escenarios inspirados en el universo de La Rueda del Tiempo. En lugar de un arsenal convencional, el sistema de combate se articula mediante ter'angreal que permiten lanzar ataques mágicos, levantar defensas, colocar trampas y alterar el desplazamiento de personajes y enemigos. Su campaña combina exploración, resolución de situaciones, combates y una historia protagonizada por Elayna Sedai, creada específicamente para el juego. Esta edición europea en estuche jewel case se distribuyó en dos CD-ROM y presenta documentación multilingüe en inglés, español e italiano.",
+    "incluye": [
+      "Estuche jewel case",
+      "2 CD-ROM",
+      "Manual en inglés, español e italiano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "The Wheel of Time",
+      "La Rueda del Tiempo",
+      "Robert Jordan",
+      "Legend Entertainment",
+      "GT Interactive",
+      "Unreal Engine",
+      "fantasía épica",
+      "magia",
+      "ter'angreal",
+      "Aes Sedai",
+      "adaptación literaria",
+      "acción en primera persona",
+      "PC CD-ROM",
+      "edición europea",
+      "manual multilingüe",
+      "Windows 95",
+      "Windows 98",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar ambos CD-ROM mediante imágenes completas y documentar su orden de instalación. Se recomienda BIN/CUE para conservar la estructura original de los discos y verificar posteriormente la instalación y ejecución en un entorno Windows 95/98 virtualizado con aceleración gráfica compatible.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Dig",
+    "url": "juegos/the-dig-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Ciencia ficción",
+      "Aventura espacial",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "The Dig es una aventura gráfica de ciencia ficción desarrollada por LucasArts y publicada originalmente en 1995 a partir de una idea concebida por Steven Spielberg. La historia sigue a un grupo de astronautas enviado para desviar un asteroide que amenaza la Tierra, misión que termina trasladándolos a un remoto mundo alienígena repleto de ruinas, tecnología desconocida y enigmas arqueológicos. Utiliza el motor SCUMM y el sistema musical interactivo iMUSE, combinando escenarios dibujados, animación tradicional, secuencias cinematográficas y una ambientación más seria y contemplativa que la habitual en otras aventuras de LucasArts. Esta edición española para PC CD-ROM ofrece ejecución tanto en MS-DOS como en Windows 95 y conserva la localización al castellano en un formato físico representativo de la expansión del videojuego multimedia durante mediados de los años noventa.",
+    "incluye": [
+      "CD-ROM",
+      "Manual",
+      "Guía de referencia",
+      "Tarjeta de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "The Dig",
+      "LucasArts",
+      "Erbe Software",
+      "Steven Spielberg",
+      "SCUMM",
+      "iMUSE",
+      "aventura gráfica clásica",
+      "arqueología alienígena",
+      "exploración espacial",
+      "ciencia ficción",
+      "PC CD-ROM",
+      "MS-DOS",
+      "Windows 95",
+      "edición española",
+      "software en castellano",
+      "jewel case",
+      "años 90",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa BIN/CUE del CD-ROM original y digitalización de la guía de referencia, el manual y la tarjeta de registro. La ejecución virtual es viable mediante un entorno MS-DOS o Windows 95 virtualizado y mediante intérpretes compatibles con aventuras SCUMM, conservando montada la imagen del disco cuando sea necesario acceder a sus datos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Outlaws",
+    "url": "juegos/outlaws-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Western"
+    ],
+    "desarrollador": [
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company"
+    ],
+    "ean": [],
+    "descripcion": "Outlaws es un shooter en primera persona ambientado en el Viejo Oeste, desarrollado y publicado por LucasArts en 1997. El jugador encarna al antiguo marshal James Anderson, que emprende una campaña de venganza contra una banda de forajidos tras el asesinato de su esposa y el secuestro de su hija. Utiliza una versión evolucionada del motor Jedi empleado anteriormente en Star Wars: Dark Forces, con escenarios tridimensionales, personajes y objetos representados mediante sprites y una estética inspirada en el western cinematográfico y la animación dibujada a mano. Destaca por su narrativa presentada mediante secuencias animadas, sus duelos, el uso de armas históricas y la banda sonora orquestal de Clint Bajakian, reproducida parcialmente como audio de CD. Esta edición española en formato jewel case se distribuye en dos CD-ROM e incluye manual localizado al castellano.",
+    "incluye": [
+      "Caja jewel case",
+      "2 CD-ROM",
+      "Manual en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Outlaws",
+      "LucasArts",
+      "James Anderson",
+      "Viejo Oeste",
+      "western cinematográfico",
+      "Jedi Engine",
+      "Clint Bajakian",
+      "audio CD",
+      "secuencias animadas",
+      "Windows 95",
+      "edición española",
+      "manual en castellano",
+      "2 CD-ROM",
+      "jewel case",
+      "PC clásico",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar ambos CD-ROM mediante imágenes BIN/CUE para conservar correctamente las pistas de datos y el posible audio de CD asociado a la banda sonora. La ejecución virtual es viable mediante un entorno Windows 95/98 compatible, manteniendo montadas las imágenes cuando el juego solicite el disco correspondiente.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Caesar II",
+    "url": "juegos/caesar-ii-esp-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Construcción de ciudades",
+      "Estrategia",
+      "Gestión",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [],
+    "descripcion": "Caesar II es un juego de construcción, estrategia y gestión ambientado en el Imperio romano, desarrollado por Impressions Games y publicado por Sierra On-Line en 1995. El jugador administra una provincia completa y debe fundar ciudades, desarrollar viviendas, industria, comercio, servicios públicos y redes de transporte, además de mantener el orden, recaudar impuestos y proteger el territorio frente a incursiones enemigas. La combinación de planificación urbana a escala local, gestión provincial y combates tácticos amplió notablemente el planteamiento del Caesar original y anticipó la fórmula que Impressions Games perfeccionaría posteriormente en Caesar III y otros city builders históricos. Esta edición física localizada al castellano se presenta en CD-ROM dentro de una caja jewel case e incluye manual de juego en español.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Manual de juego en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Caesar",
+      "Caesar II",
+      "Impressions Games",
+      "Sierra",
+      "Sierra On-Line",
+      "Imperio romano",
+      "Antigua Roma",
+      "city builder",
+      "gestión urbana",
+      "gestión provincial",
+      "estrategia histórica",
+      "PC CD-ROM",
+      "MS-DOS",
+      "Windows 3.x",
+      "edición española",
+      "manual en castellano",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante una imagen completa del CD-ROM original y digitalización del manual en castellano. Debe verificarse en la edición concreta si el ejecutable realiza comprobación de presencia del disco. La ejecución virtual es viable mediante un entorno MS-DOS emulado o una máquina virtual con Windows 3.x.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "FIFA 2000",
+    "url": "juegos/fifa-2000-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Simulación deportiva"
+    ],
+    "desarrollador": [
+      "EA Canada"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "EA Sports"
+    ],
+    "ean": [],
+    "descripcion": "FIFA 2000 es una entrega de la serie futbolística de Electronic Arts publicada para PC en 1999. Desarrollado por EA Canada, mantiene la estructura de partidos, competiciones y gestión de alineaciones característica de la franquicia, incorporando clubes y selecciones con licencias oficiales, plantillas correspondientes a la temporada 1999-2000 y distintos modos para uno o varios jugadores. La versión para Windows utiliza gráficos tridimensionales acelerados por hardware, animaciones capturadas para los futbolistas y una presentación audiovisual inspirada en las retransmisiones televisivas. Entre sus elementos distintivos se encuentran la inclusión de equipos históricos y una mayor variedad de competiciones y opciones tácticas. Esta edición europea en caja jewel case representa el periodo de consolidación anual de EA Sports en el mercado de videojuegos deportivos para PC de finales de los años noventa.",
+    "incluye": [
+      "CD-ROM",
+      "Manual en formato libreto"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "EA Sports"
+    ],
+    "tags": [
+      "FIFA",
+      "FIFA 2000",
+      "EA Canada",
+      "Electronic Arts",
+      "EA Sports",
+      "fútbol",
+      "simulación deportiva",
+      "licencias oficiales",
+      "temporada 1999-2000",
+      "equipos históricos",
+      "multijugador local",
+      "gráficos 3D",
+      "Direct3D",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición europea",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen de disco que conserve la estructura física y los datos auxiliares de la protección SafeDisc, preferentemente en formato CCD/IMG/SUB. La ejecución en sistemas modernos puede requerir una máquina virtual con Windows 95/98 o una solución de compatibilidad, ya que el controlador original de SafeDisc no funciona en versiones recientes de Windows.",
+      "formato": "CCD/IMG/SUB",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Roberta Williams' Phantasmagoria",
+    "url": "juegos/roberta-williams-phantasmagoria-jewelcase/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Terror psicológico",
+      "FMV",
+      "Aventura para adultos"
+    ],
+    "desarrollador": [
+      "Sierra On-Line"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [],
+    "descripcion": "Roberta Williams' Phantasmagoria es una aventura gráfica de terror publicada por Sierra On-Line en 1995 y concebida como una de las producciones multimedia más ambiciosas de la era del CD-ROM. La historia sigue a Adrienne Delaney, una escritora que se instala con su marido en una antigua mansión vinculada a un ilusionista y a una sucesión de crímenes sobrenaturales. El juego combina escenarios prerenderizados, actores filmados sobre fondos digitales, secuencias de vídeo a pantalla completa y una interfaz point and click simplificada. Su producción necesitó siete CD-ROM, una cantidad excepcional para la época, y destacó por su tratamiento explícito de la violencia, su clasificación para adultos y la controversia que acompañó a su lanzamiento. Esta edición europea en estuches jewel case corresponde a la versión íntegra en inglés y documenta el periodo de expansión del videojuego cinematográfico para Windows durante mediados de los años noventa.",
+    "incluye": [
+      "Estuches Jewel Case",
+      "7 CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Phantasmagoria",
+      "Roberta Williams",
+      "Sierra On-Line",
+      "Sierra",
+      "Full Motion Video",
+      "vídeo digital",
+      "terror sobrenatural",
+      "terror psicológico",
+      "mansión encantada",
+      "aventura cinematográfica",
+      "contenido para adultos",
+      "versión inglesa",
+      "edición europea",
+      "Windows 3.1",
+      "Windows 95",
+      "7 CD-ROM",
+      "jewel case",
+      "PC multimedia",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar los siete CD-ROM mediante imágenes BIN/CUE individuales, manteniendo el orden y la identificación de cada disco. Conviene conservar también el manual y documentar la versión ejecutable, el idioma y cualquier actualización incluida. La ejecución virtual es viable mediante una máquina virtual con Windows 3.1 o Windows 95, montando las imágenes de disco cuando el programa solicite el cambio de CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Pharaoh Gold",
+    "url": "juegos/pharaoh-gold-en-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Construcción de ciudades",
+      "Estrategia",
+      "Gestión",
+      "Simulación histórica",
+      "Compilación"
+    ],
+    "desarrollador": [
+      "Impressions Games",
+      "BreakAway Games"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "Pharaoh Gold es una edición recopilatoria que reúne Pharaoh y su expansión Cleopatra: Queen of the Nile en un único lanzamiento físico de dos CD-ROM. Desarrollado a partir del motor y la fórmula de construcción urbana de Caesar III, permite levantar y administrar ciudades del Antiguo Egipto mediante la planificación de viviendas, agricultura vinculada a las crecidas del Nilo, producción, comercio, religión, defensa y construcción de monumentos. La expansión añade nuevas campañas, edificios, recursos, enemigos y desafíos históricos asociados a periodos posteriores de la civilización egipcia. Esta edición en jewel case conserva en un solo paquete la experiencia completa de uno de los city builders históricos más representativos de Impressions Games y Sierra a finales de los años noventa.",
+    "incluye": [
+      "Estuche jewel case doble",
+      "2 CD-ROM",
+      "Carátula frontal",
+      "Carátula trasera"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Pharaoh Gold",
+      "Pharaoh",
+      "Cleopatra Queen of the Nile",
+      "Impressions Games",
+      "BreakAway Games",
+      "Sierra Studios",
+      "Antiguo Egipto",
+      "Nilo",
+      "city builder",
+      "construcción de ciudades",
+      "gestión urbana",
+      "estrategia histórica",
+      "compilación",
+      "2 CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar ambos CD-ROM mediante imágenes completas y conservar el orden de instalación del juego base y la expansión. Al no haberse verificado la protección de esta edición concreta, se recomienda emplear BIN/CUE para documentar la estructura original de cada disco y probar la instalación en un entorno Windows 95/98 virtualizado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Starsiege Universe",
+    "url": "juegos/starsiege-universe-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Compilación",
+      "Simulación de combate",
+      "Simulador de mechas",
+      "Shooter en primera persona",
+      "Acción multijugador",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Dynamix"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [],
+    "descripcion": "Starsiege Universe es una recopilación para PC que reúne Starsiege y Starsiege: Tribes, dos producciones desarrolladas por Dynamix y ambientadas en el universo de ciencia ficción iniciado con Metaltech: Earthsiege. Starsiege propone una simulación de combate mecanizado con campañas para humanos y cybrids, pilotaje de vehículos HERC y personalización de armamento, mientras que Starsiege: Tribes traslada el mismo trasfondo a un shooter en primera persona diseñado principalmente para enfrentamientos multijugador por equipos. Tribes destacó por sus extensos escenarios exteriores, el uso de jetpacks, vehículos y clases de armadura, así como por modos basados en objetivos que anticiparon buena parte de la evolución posterior del juego competitivo en línea. Esta edición en estuche jewel case, también conocida comercialmente como Tribes Action Pak, conserva en un mismo paquete dos aproximaciones jugables complementarias al universo Starsiege.",
+    "incluye": [
+      "Caja jewel case",
+      "2 CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Starsiege Universe",
+      "Starsiege",
+      "Starsiege Tribes",
+      "Tribes Action Pak",
+      "Dynamix",
+      "Sierra On-Line",
+      "Metaltech",
+      "Earthsiege",
+      "HERC",
+      "Cybrids",
+      "combate mecanizado",
+      "jetpack",
+      "juego por equipos",
+      "multijugador online",
+      "Battle.net alternativo",
+      "Windows 95",
+      "Windows 98",
+      "Windows NT",
+      "PC CD-ROM",
+      "edición física",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar individualmente los dos CD-ROM mediante imágenes BIN/CUE, conservando la estructura de pistas y documentando qué disco corresponde a Starsiege y cuál a Starsiege: Tribes. La ejecución virtual es viable mediante un entorno Windows 95, Windows 98 o Windows NT correctamente configurado; las funciones multijugador originales pueden depender de servidores comunitarios o conexiones de red compatibles.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Half-Life: Juego del Año",
+    "url": "juegos/half-life-juego-del-ano-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Terror"
+    ],
+    "desarrollador": [
+      "Valve"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "Edición Juego del Año de Half-Life, el influyente shooter en primera persona desarrollado por Valve y publicado originalmente en 1998. El jugador encarna al físico Gordon Freeman durante una catástrofe científica en el complejo de investigación Black Mesa, donde un experimento abre una brecha hacia una dimensión alienígena. El título transformó el género mediante una narración integrada en la acción, secuencias desarrolladas sin abandonar la perspectiva del protagonista, inteligencia artificial avanzada para su época y una combinación continua de combate, exploración y puzles ambientales. Utiliza el motor GoldSrc, derivado y profundamente modificado a partir de tecnología de Quake. Su éxito impulsó una extensa comunidad de modificaciones y dio origen a proyectos fundamentales para la historia del videojuego en PC, entre ellos Counter-Strike. Esta reedición europea en caja jewel case pertenece a la línea comercial que destacaba sus numerosos reconocimientos como Juego del Año.",
+    "incluye": [
+      "CD-ROM en caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Half-Life",
+      "Valve",
+      "Sierra Studios",
+      "Gordon Freeman",
+      "Black Mesa",
+      "GoldSrc",
+      "ciencia ficción",
+      "experimento científico",
+      "invasión alienígena",
+      "narrativa inmersiva",
+      "inteligencia artificial",
+      "mods",
+      "Counter-Strike",
+      "edición Juego del Año",
+      "PC CD-ROM",
+      "jewel case",
+      "Windows 95",
+      "Windows 98",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Código o clave",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM mediante una imagen completa y documentar la clave de producto asociada a la edición, necesaria para la instalación original. Conviene conservar también la estructura de pistas y los metadatos del soporte físico. La ejecución virtual es viable mediante un entorno Windows clásico compatible, manteniendo disponible la imagen del disco cuando sea requerida.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Daryl F. Gates' Police Quest: SWAT",
+    "url": "juegos/daryl-f-gates-police-quest-swat-en-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Simulación policial",
+      "Película interactiva",
+      "FMV",
+      "Educativo"
+    ],
+    "desarrollador": [
+      "Sierra On-Line"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [
+      "3348542006867"
+    ],
+    "descripcion": "Daryl F. Gates' Police Quest: SWAT es una aventura y simulación policial publicada por Sierra On-Line en 1995 como quinta entrega de Police Quest y origen de la posterior subserie SWAT. Con la colaboración del antiguo jefe del Departamento de Policía de Los Ángeles Daryl F. Gates, propone completar instrucción táctica y participar en intervenciones de alto riesgo siguiendo procedimientos policiales, reglas de enfrentamiento y una estricta cadena de mando. Su diseño combina escenarios fotográficos, actores digitalizados, secuencias de vídeo de movimiento completo y decisiones contextuales sobre el motor SCI de Sierra, reflejando el auge del multimedia en CD-ROM a mediados de los años noventa. Esta edición europea en inglés se distribuyó en un estuche jewel case múltiple y ofrece compatibilidad oficial con MS-DOS 5.0, Windows 3.1 y Windows 95.",
+    "incluye": [
+      "Estuche Jewel Case múltiple",
+      "4 CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Police Quest",
+      "SWAT",
+      "Daryl F. Gates",
+      "Sierra On-Line",
+      "SCI",
+      "vídeo de movimiento completo",
+      "actores digitalizados",
+      "procedimientos policiales",
+      "entrenamiento táctico",
+      "Departamento de Policía de Los Ángeles",
+      "versión inglesa",
+      "edición europea",
+      "MS-DOS",
+      "Windows 3.1",
+      "Windows 95",
+      "multimedia CD-ROM",
+      "jewel case múltiple",
+      "PC clásico",
+      "preservación digital"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar los cuatro CD-ROM mediante imágenes BIN/CUE individuales, manteniendo su numeración y orden de instalación. Conviene digitalizar también el manual y verificar los cambios de disco durante la ejecución en MS-DOS o Windows 3.1 virtualizados.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Spider-Man contra Los Seis Siniestros",
+    "url": "juegos/spider-man-contra-los-seis-siniestros-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Acción",
+      "Aventura interactiva",
+      "Superhéroes"
+    ],
+    "desarrollador": [
+      "Brooklyn Multimedia",
+      "Byron Preiss Multimedia"
+    ],
+    "distribuidor": [
+      "Byron Preiss Multimedia",
+      "DreamBox"
+    ],
+    "ean": [],
+    "descripcion": "Spider-Man contra Los Seis Siniestros es una aventura interactiva publicada en 1996 y basada en el universo de Marvel Comics. El jugador alterna entre Peter Parker y Spider-Man mientras investiga una amenaza organizada por seis de sus adversarios clásicos: Doctor Octopus, el Duende, Shocker, Camaleón, Mysterio y el Buitre. Su desarrollo combina exploración mediante interfaz point and click, conversaciones, búsqueda de objetos, decisiones narrativas, puzles y secuencias de acción o minijuegos. La presentación emplea gráficos bidimensionales con estética de cómic, voces digitalizadas y contenido multimedia propio del auge del CD-ROM doméstico de mediados de los años noventa. Esta edición española de DreamBox destaca por ofrecer textos y voces en castellano y constituye una muestra representativa de las adaptaciones multimedia de personajes de cómic comercializadas para compatibles PC.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Spider-Man",
+      "Marvel Comics",
+      "Los Seis Siniestros",
+      "Byron Preiss Multimedia",
+      "Brooklyn Multimedia",
+      "DreamBox",
+      "Doctor Octopus",
+      "Mysterio",
+      "Shocker",
+      "Camaleón",
+      "Buitre",
+      "superhéroes",
+      "aventura multimedia",
+      "cómic interactivo",
+      "CD-ROM",
+      "voces en castellano",
+      "edición española",
+      "MS-DOS",
+      "Windows 3.x",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante una imagen completa del CD-ROM en formato BIN/CUE, acompañada de la digitalización de las carátulas y de cualquier documentación existente. Su ejecución virtual es viable mediante emulación de MS-DOS o una máquina virtual con Windows de 16 bits y soporte multimedia.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Star Wars: X-Wing - CD-ROM para Coleccionistas",
+    "url": "juegos/star-wars-x-wing-cd-rom-para-coleccionistas-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación espacial",
+      "Combate espacial",
+      "Simulación de vuelo",
+      "Ciencia ficción",
+      "Compilación"
+    ],
+    "desarrollador": [
+      "Totally Games",
+      "LucasArts"
+    ],
+    "distribuidor": [
+      "LucasArts",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Edición española en CD-ROM para coleccionistas de Star Wars: X-Wing, el influyente simulador de combate espacial diseñado por Lawrence Holland y desarrollado por el equipo que posteriormente adoptaría el nombre Totally Games. Esta recopilación reúne el juego original y las ampliaciones Tour of Duty: Imperial Pursuit y B-Wing, además de incorporar misiones nuevas o revisadas, secuencias gráficas mejoradas, voces digitalizadas y efectos de sonido actualizados. La edición utiliza una versión evolucionada del motor de X-Wing, próxima tecnológicamente a la empleada en TIE Fighter, con mejoras visuales como sombreado Gouraud y una presentación audiovisual más elaborada que la edición inicial en disquetes. Su combinación de simulación, gestión de energía, asignación de escudos, control de armamento y campañas estructuradas convirtió a X-Wing en una referencia fundamental de los simuladores espaciales para compatibles PC y en una de las adaptaciones más relevantes del universo Star Wars durante la primera mitad de los años noventa. Esta versión localizada y distribuida en España por Erbe Software posee especial interés documental por reunir en un único soporte óptico la experiencia completa de X-Wing para MS-DOS.",
+    "incluye": [
+      "Caja Jewel Case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Star Wars",
+      "X-Wing",
+      "LucasArts",
+      "Totally Games",
+      "Lawrence Holland",
+      "Erbe Software",
+      "Imperial Pursuit",
+      "B-Wing",
+      "Tour of Duty",
+      "Alianza Rebelde",
+      "Imperio Galáctico",
+      "simulador espacial",
+      "combate espacial",
+      "joystick",
+      "gráficos VGA",
+      "voces digitalizadas",
+      "MS-DOS",
+      "CD-ROM",
+      "edición española",
+      "Jewel Case",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM en formato BIN/CUE, conservando la estructura de datos y cualquier pista adicional del soporte. La ejecución es viable mediante DOSBox u otro entorno MS-DOS virtualizado, preferentemente con emulación de joystick y la imagen del disco montada como unidad de CD-ROM.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Chaos Control",
+    "url": "juegos/chaos-control-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Shooter sobre raíles",
+      "Acción",
+      "Ciencia ficción",
+      "FMV"
+    ],
+    "desarrollador": [
+      "Infogrames Multimedia"
+    ],
+    "distribuidor": [
+      "Infogrames Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Chaos Control es un videojuego de acción y ciencia ficción publicado originalmente a mediados de los años noventa, durante el auge del CD-ROM multimedia. El jugador participa en una guerra contra una fuerza alienígena que amenaza la Tierra, recorriendo secuencias predeterminadas mientras apunta y dispara contra naves, criaturas y objetivos que aparecen en pantalla. Su diseño combina shooter sobre raíles, animaciones prerenderizadas, vídeo digital y escenas de estética cinematográfica, con una ambientación futurista centrada en la defensa de ciudades como Nueva York. Técnicamente representa una etapa en la que numerosas producciones europeas utilizaron el aumento de capacidad del CD-ROM para integrar vídeo de movimiento completo, voces digitalizadas y secuencias tridimensionales. Esta edición física para PC en caja jewel case presenta textos comerciales en castellano y constituye un ejemplo representativo de las reediciones económicas y distribuciones compactas de juegos multimedia de la década de 1990.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Chaos Control",
+      "Infogrames",
+      "Infogrames Multimedia",
+      "ciencia ficción",
+      "invasión alienígena",
+      "shooter cinematográfico",
+      "shooter sobre raíles",
+      "vídeo de movimiento completo",
+      "FMV",
+      "gráficos prerenderizados",
+      "CD-ROM multimedia",
+      "edición en castellano",
+      "edición europea",
+      "jewel case",
+      "PC clásico",
+      "años 90",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM en formato BIN/CUE para conservar posibles pistas de datos o audio, verificarla mediante sumas de comprobación y digitalizar las carátulas de la edición. La ejecución virtual resulta viable mediante un entorno MS-DOS o Windows 3.x correctamente configurado, aunque pueden ser necesarios ajustes de vídeo, sonido y velocidad.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "TerraTopia",
+    "url": "juegos/terratopia-jewelcase/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Educativo",
+      "Infantil",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Funsoft"
+    ],
+    "distribuidor": [
+      "Creative Consultants",
+      "Virgin Interactive Entertainment",
+      "Virgin Sound and Vision"
+    ],
+    "ean": [],
+    "descripcion": "TerraTopia es una aventura gráfica educativa publicada en 1996 y basada en la serie infantil homónima dedicada a la naturaleza y la protección del medioambiente. El jugador se convierte en un terrasoldado y recorre distintos ecosistemas resolviendo puzles, buscando objetos y obteniendo poderes totémicos que permiten adoptar formas animales. Su desarrollo combina exploración en primera persona, escenarios bidimensionales, secuencias animadas y control mediante ratón. Técnicamente fue creado con tecnología Macromedia Director e integra vídeo y sonido mediante QuickTime, elementos habituales en las producciones multimedia en CD-ROM de mediados de los años noventa. Esta primera edición española de la serie de aventuras de Virgin incorpora textos y voces en castellano y constituye un ejemplo representativo del software ludoeducativo comercializado para Windows 3.x y Windows 95.",
+    "incluye": [
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "TerraTopia",
+      "Funsoft",
+      "Creative Consultants",
+      "Virgin Interactive",
+      "Virgin Sound and Vision",
+      "aventura educativa",
+      "software infantil",
+      "ecología",
+      "medioambiente",
+      "naturaleza",
+      "animales",
+      "poderes totémicos",
+      "Macromedia Director",
+      "QuickTime",
+      "Windows 3.x",
+      "Windows 95",
+      "edición española",
+      "voces en castellano",
+      "CD-ROM multimedia",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar mediante una imagen completa del CD-ROM y conservar la estructura original de archivos, los componentes de Macromedia Director y la versión de QuickTime incluida. Para una ejecución fiel se recomienda utilizar una máquina virtual con Windows 3.1 o Windows 95, resolución y profundidad de color propias de la época y la versión original de QuickTime suministrada con el juego.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Rise & Rule of Ancient Empires",
+    "url": "juegos/the-rise-and-rule-of-ancient-empires-jewelcase/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Estrategia por turnos",
+      "4X",
+      "Construcción de imperios",
+      "Gestión de ciudades",
+      "Estrategia histórica"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Sierra On-Line"
+    ],
+    "ean": [],
+    "descripcion": "The Rise & Rule of Ancient Empires es un juego de estrategia por turnos y construcción de imperios desarrollado por Impressions Games y publicado por Sierra On-Line en 1996. Inspirado en la fórmula de Civilization, permite dirigir una de seis civilizaciones de la Antigüedad —acadios, celtas, chinos, egipcios, griegos e indios del Imperio Maurya— mediante exploración territorial, fundación y desarrollo de ciudades, investigación, comercio y formación de ejércitos. Su escala histórica se concentra en el mundo antiguo y combina gestión urbana con conquista militar, edificios mejorables, diferentes tipos de unidades y acontecimientos aleatorios. La edición para PC CD-ROM utiliza un ejecutable de Windows de 16 bits compatible oficialmente con Windows 3.1 y Windows 95, por lo que constituye una pieza representativa de la estrategia histórica publicada por Sierra durante la transición entre ambas generaciones de Windows.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "The Rise & Rule of Ancient Empires",
+      "Impressions Games",
+      "Sierra On-Line",
+      "civilizaciones antiguas",
+      "construcción de imperios",
+      "gestión urbana",
+      "estrategia histórica",
+      "Windows 3.1",
+      "Windows 95",
+      "software de 16 bits",
+      "PC CD-ROM",
+      "formato jewel case",
+      "juego de 1996",
+      "multijugador local",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "El juego accede al CD-ROM durante la ejecución y requiere que el disco permanezca introducido. Se recomienda crear una imagen completa del soporte, conservarla junto con sus metadatos y ejecutarla montada en una máquina virtual con Windows 3.1 o Windows 95 de 32 bits.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Simon the Sorcerer II: El León, el Mago y el Armario",
+    "url": "juegos/simon-the-sorcerer-ii-el-leon-el-mago-y-el-armario-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Comedia",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Adventure Soft"
+    ],
+    "distribuidor": [
+      "Adventure Soft",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Simon the Sorcerer II: El León, el Mago y el Armario es una aventura gráfica desarrollada por Adventure Soft y publicada originalmente en 1995. La historia recupera al joven y sarcástico Simon, transportado nuevamente a un mundo fantástico cuando el hechicero Sórdido regresa en busca de venganza. Mantiene la estructura point and click de la primera entrega, con escenarios dibujados a mano, inventario, diálogos humorísticos y numerosos puzles construidos alrededor de parodias de cuentos, literatura fantástica y convenciones del género. La versión española en CD-ROM fue distribuida por Erbe Software y destaca por su localización completa al castellano, incluidas las voces, un elemento especialmente relevante dentro del mercado español de aventuras gráficas de mediados de los años noventa. Esta edición en caja jewel case representa una distribución compacta del lanzamiento español para compatibles PC con MS-DOS.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Simon the Sorcerer",
+      "Adventure Soft",
+      "Erbe Software",
+      "aventura gráfica británica",
+      "humor fantástico",
+      "Sórdido",
+      "fantasía cómica",
+      "gráficos dibujados a mano",
+      "voces en castellano",
+      "edición española",
+      "MS-DOS",
+      "PC CD-ROM",
+      "jewel case",
+      "años 90",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar mediante una imagen completa del CD-ROM original y digitalizar las carátulas y cualquier documentación incluida. La ejecución es viable mediante un entorno MS-DOS virtualizado o mediante ScummVM, conservando los archivos de voces y datos correspondientes a la versión española.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "MegaRace",
+    "url": "juegos/megarace-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Carreras",
+      "Combate vehicular",
+      "Arcade",
+      "Acción",
+      "FMV"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Mindscape",
+      "Siro Software"
+    ],
+    "ean": [],
+    "descripcion": "MegaRace es un juego de carreras futuristas y combate vehicular desarrollado por Cryo Interactive y publicado originalmente en 1993 para PC CD-ROM. La competición se presenta como un violento programa de televisión conducido por el excéntrico Lance Boyle, personaje interpretado mediante secuencias de vídeo digitalizado. El jugador participa en circuitos prerenderizados enfrentándose a vehículos rivales mediante conducción arcade, colisiones y armamento. Su combinación de vídeo de movimiento completo, escenarios generados por ordenador, música electrónica y presentación televisiva convirtió al título en una producción representativa de la primera etapa multimedia del CD-ROM. Esta edición española en caja jewel case fue comercializada por Siro Software y conserva interés documental como reedición económica localizada para el mercado de compatibles PC.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "MegaRace",
+      "Cryo Interactive",
+      "Mindscape",
+      "Siro Software",
+      "Lance Boyle",
+      "carreras futuristas",
+      "combate vehicular",
+      "vídeo digitalizado",
+      "FMV",
+      "gráficos prerenderizados",
+      "CD-ROM multimedia",
+      "MS-DOS",
+      "edición española",
+      "jewel case",
+      "PC clásico",
+      "años 90",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen BIN/CUE del CD-ROM para conservar posibles pistas de audio y la estructura completa del soporte. La ejecución virtual es viable mediante DOSBox o un entorno MS-DOS equivalente con la imagen montada como unidad de CD-ROM.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
   }
 ]
