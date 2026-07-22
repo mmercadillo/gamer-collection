@@ -65874,5 +65874,706 @@
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Sensible Soccer: European Champions - 1992/93 Season Edition",
+    "url": "juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Arcade deportivo"
+    ],
+    "desarrollador": [
+      "Sensible Software"
+    ],
+    "distribuidor": [
+      "Renegade Software"
+    ],
+    "ean": [],
+    "descripcion": "Edición 1992/93 para IBM PC de Sensible Soccer: European Champions, desarrollada por Sensible Software y publicada por Renegade. El juego trasladó al compatible PC su reconocible fútbol arcade con perspectiva cenital, control inmediato, ritmo elevado y un sistema de pases especialmente fluido. Esta actualización incorpora plantillas, fichajes y selecciones europeas revisadas para la temporada 1992/93, junto con nuevas reglas como la cesión al guardameta, tarjetas, suspensiones y mejoras en los porteros. Permite disputar partidos para uno o dos jugadores, organizar torneos personalizados y gestionar competiciones con hasta 64 participantes, reuniendo alrededor de cien equipos europeos. La versión utiliza un único disquete de 3,5 pulgadas y ofrece compatibilidad gráfica EGA y VGA, además de sonido mediante Roland, AdLib, Sound Blaster o altavoz interno, por lo que constituye una pieza representativa del fútbol europeo para MS-DOS de comienzos de los noventa.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual multilingüe",
+      "Disquete de 3,5 pulgadas 720K",
+      "Hoja adicional de instrucciones para IBM PC v1.1",
+      "Hoja de nuevas características y reglas de la edición 1992/93",
+      "Tarjeta de registro postal de Renegade"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Sensible Soccer",
+      "Sensible Software",
+      "Renegade Software",
+      "MS-DOS",
+      "IBM PC",
+      "fútbol europeo",
+      "temporada 1992/93",
+      "disquete de 3,5 pulgadas",
+      "720K",
+      "EGA",
+      "VGA",
+      "Sound Blaster",
+      "AdLib",
+      "Roland",
+      "multijugador local",
+      "torneos personalizados",
+      "edición europea",
+      "Big Box PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en un disquete de 3,5 pulgadas y 720K. Se recomienda realizar un volcado sectorial completo, conservar una imagen maestra sin modificar, documentar etiquetas y soportes impresos y verificar la carga en un entorno MS-DOS virtualizado. No existe evidencia suficiente en los materiales mostrados para identificar un sistema anticopia concreto.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Expert Pool",
+    "url": "juegos/expert-pool-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación deportiva",
+      "Billar",
+      "Deportes",
+      "Simulación física"
+    ],
+    "desarrollador": [
+      "Visual Sciences"
+    ],
+    "distribuidor": [
+      "Psygnosis"
+    ],
+    "ean": [],
+    "descripcion": "Expert Pool es un simulador de billar para Windows publicado en 1999 por Psygnosis y desarrollado por Visual Sciences. Su propuesta busca reproducir con precisión el comportamiento de las bolas, los efectos aplicados con el taco y la geometría de las mesas mediante gráficos tridimensionales y un motor físico orientado a la simulación. Ofrece numerosas modalidades de billar y snooker, diferentes niveles de dificultad, rivales controlados por el ordenador y opciones multijugador local, por red local e Internet. Sus trece escenarios y la amplia selección de oponentes aportan variedad ambiental a una producción representativa del auge de los simuladores deportivos tridimensionales para PC de finales de los años noventa. Esta edición física en Jewel Case conserva el lanzamiento comercial en CD-ROM acompañado de su manual impreso.",
+    "incluye": [
+      "Caja Jewel Case",
+      "CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Expert Pool",
+      "Visual Sciences",
+      "Psygnosis",
+      "billar americano",
+      "snooker",
+      "simulación 3D",
+      "física de bolas",
+      "multijugador",
+      "red local",
+      "juego online",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición física",
+      "Jewel Case",
+      "videojuego deportivo",
+      "preservación PC",
+      "años 90"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM original y conservar digitalizaciones del manual y de las carátulas. Al no haberse identificado de forma concluyente el sistema anticopia de esta edición, conviene realizar una lectura con información de subcanales y comprobar posteriormente la instalación y ejecución en un entorno Windows 95 o Windows 98 virtualizado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Virtual Chess Platinum",
+    "url": "juegos/virtual-chess-platinum-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Ajedrez",
+      "Estrategia por turnos",
+      "Simulación de juego de mesa"
+    ],
+    "desarrollador": [
+      "Titus France SA"
+    ],
+    "distribuidor": [
+      "Titus France SA",
+      "Versus Technologies"
+    ],
+    "ean": [],
+    "descripcion": "Virtual Chess Platinum es una edición en CD-ROM del simulador de ajedrez Virtual Chess desarrollado por Titus France a mediados de los años noventa. El programa ofrece partidas contra la inteligencia artificial o contra otro jugador, representación tridimensional del tablero, distintos niveles de dificultad y herramientas relacionadas con aperturas y análisis de las jugadas. Su presentación audiovisual, con piezas modeladas y secuencias animadas, refleja el periodo de expansión del CD-ROM multimedia en compatibles PC. La denominación Platinum identifica esta reedición comercial en estuche Jewel Case, distribuida mediante la línea Versus, y conserva interés documental como ejemplo de los programas de ajedrez orientados al mercado doméstico anterior a la generalización del juego en línea.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM",
+      "Carátula impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Virtual Chess",
+      "Titus",
+      "Titus France",
+      "Versus Technologies",
+      "ajedrez por ordenador",
+      "inteligencia artificial",
+      "juego de tablero",
+      "tablero 3D",
+      "PC CD-ROM",
+      "MS-DOS",
+      "Windows 3.x",
+      "Windows 95",
+      "edición europea",
+      "Jewel Case",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa y documentar las carátulas de esta reedición Platinum. La ejecución virtual es viable mediante un entorno MS-DOS o Windows clásico correctamente configurado, según el ejecutable incluido en el disco.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Gunman Chronicles",
+    "url": "juegos/gunman-chronicles-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Western espacial"
+    ],
+    "desarrollador": [
+      "Rewolf Software"
+    ],
+    "distribuidor": [
+      "Sierra Studios"
+    ],
+    "ean": [],
+    "descripcion": "Gunman Chronicles es un shooter en primera persona de ciencia ficción desarrollado por Rewolf Software y publicado por Sierra Studios en 2000. El proyecto nació como una modificación de Half-Life antes de transformarse en un lanzamiento comercial independiente construido sobre el motor GoldSrc. Su campaña combina estética de western espacial, tecnología futurista, criaturas prehistóricas y conflictos militares interplanetarios, siguiendo al comandante Archer y a los Gunmen en su enfrentamiento contra el general renegado Xhan y una amenaza biológica de origen alienígena. Destaca especialmente por su sistema de armas configurables, que permite alterar parámetros como potencia, cadencia, trayectoria o tipo de munición, además de incorporar vehículos, torretas y enfrentamientos contra grandes criaturas. Esta edición física española en estuche jewel case conserva la documentación localizada al castellano y representa uno de los pocos títulos comerciales independientes derivados directamente de la tecnología original de Half-Life.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Manual de instrucciones en castellano",
+      "Anexo de controles de teclado"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Gunman Chronicles",
+      "Rewolf Software",
+      "Sierra Studios",
+      "GoldSrc",
+      "motor de Half-Life",
+      "western espacial",
+      "ciencia ficción",
+      "armas configurables",
+      "dinosaurios",
+      "vehículos",
+      "edición española",
+      "manual en castellano",
+      "PC CD-ROM",
+      "jewel case",
+      "Windows 95",
+      "Windows 98",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE que mantenga la estructura completa del soporte y digitalizar el manual y el anexo de controles. La ejecución virtual es viable en un entorno Windows 98 o Windows 2000 virtualizado, aunque debe verificarse en la edición concreta la posible existencia de comprobación de disco o clave durante la instalación.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "UEFA Champions League Season 1999/2000",
+    "url": "juegos/uefa-champions-league-season-1999-2000-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Simulación deportiva"
+    ],
+    "desarrollador": [
+      "Silicon Dreams Studio"
+    ],
+    "distribuidor": [
+      "Eidos Interactive",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "UEFA Champions League Season 1999/2000 es un videojuego oficial de fútbol desarrollado por Silicon Dreams Studio y publicado por Eidos Interactive para ordenadores Windows. Recrea la principal competición europea de clubes correspondiente a la temporada 1999-2000, incorporando equipos, estadios, jugadores y elementos audiovisuales asociados a la licencia de la UEFA Champions League. Además de disputar el torneo, permite participar en partidos amistosos y afrontar escenarios inspirados en encuentros históricos de la competición. Forma parte de la etapa en la que Silicon Dreams adaptó su tecnología de simulación futbolística a varias entregas oficiales de la Champions League, antes de que la licencia pasara a otros editores. Esta edición física europea distribuida en España por Proein conserva el lanzamiento para PC CD-ROM en caja jewel case con documentación impresa.",
+    "incluye": [
+      "Caja jewel case",
+      "CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "UEFA Champions League",
+      "Champions League 1999-2000",
+      "Silicon Dreams Studio",
+      "Eidos Interactive",
+      "Proein",
+      "fútbol europeo",
+      "competición de clubes",
+      "licencia UEFA",
+      "temporada 1999-2000",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "jewel case",
+      "simulación futbolística",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE que conserve la estructura completa del soporte y digitalizar el manual asociado. La presencia y versión concreta de una protección anticopia debe comprobarse directamente sobre el disco antes de seleccionar un perfil de lectura específico.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "SiN",
+    "url": "juegos/sin-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Cyberpunk"
+    ],
+    "desarrollador": [
+      "Ritual Entertainment"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [],
+    "descripcion": "SiN es un shooter en primera persona desarrollado por Ritual Entertainment y publicado por Activision en 1998. Ambientado en la futurista ciudad de Freeport, enfrenta al comandante John R. Blade, miembro de la fuerza de seguridad HardCorps, contra la organización criminal dirigida por Elexis Sinclaire y una conspiración relacionada con drogas mutagénicas y experimentación genética. Utiliza una versión modificada del motor de Quake II e incorpora escenarios interactivos, objetivos variables, terminales informáticos utilizables, daños localizados y una narrativa presentada mediante secuencias cinematográficas. Aunque su lanzamiento inicial quedó condicionado por problemas técnicos y tiempos de carga prolongados, el juego adquirió condición de título de culto dentro de los shooters para PC de finales de los noventa por su ambientación cyberpunk, su protagonista, su antagonista y su enfoque más narrativo que el de muchos contemporáneos.",
+    "incluye": [
+      "CD-ROM en caja jewel case",
+      "Manual HardCorps"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "SiN",
+      "Ritual Entertainment",
+      "Activision",
+      "John R. Blade",
+      "Elexis Sinclaire",
+      "HardCorps",
+      "Freeport",
+      "motor Quake II",
+      "shooter clásico",
+      "ciencia ficción distópica",
+      "mutaciones genéticas",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición física",
+      "jewel case",
+      "preservación PC",
+      "años 90"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM en formato BIN/CUE y conservar digitalizado el manual asociado. La ejecución virtual es viable mediante un entorno Windows 95/98 o soluciones modernas de compatibilidad, aunque debe verificarse si la edición concreta exige la presencia del disco durante la instalación o el arranque.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Viva Football",
+    "url": "juegos/viva-football-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Simulación deportiva",
+      "Multijugador"
+    ],
+    "desarrollador": [
+      "Crimson Studio"
+    ],
+    "distribuidor": [
+      "Virgin Interactive Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Viva Football es un videojuego de fútbol desarrollado por Crimson Studio y publicado por Virgin Interactive a finales de los años noventa. Su principal rasgo distintivo es su ambicioso enfoque histórico: reúne selecciones nacionales, alineaciones y jugadores correspondientes a los campeonatos mundiales y fases clasificatorias disputados entre 1958 y 1998, permitiendo recrear torneos completos o enfrentar equipos pertenecientes a épocas diferentes. El juego incorpora más de un millar de combinaciones históricas de selecciones y una extensa base de datos de futbolistas, además de partidos amistosos, entrenamiento y juego para varios participantes. Su sistema audiovisual prescinde del comentario deportivo tradicional y utiliza voces contextuales de los propios jugadores, disponibles en varios idiomas. Esta edición europea para PC CD-ROM en formato jewel case conserva interés documental por representar una propuesta singular de simulación futbolística centrada en la memoria histórica de los mundiales.",
+    "incluye": [
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Viva Football",
+      "Viva Soccer",
+      "Crimson Studio",
+      "Virgin Interactive",
+      "fútbol internacional",
+      "Copa Mundial de Fútbol",
+      "selecciones nacionales",
+      "mundiales 1958-1998",
+      "historia del fútbol",
+      "simulación deportiva",
+      "multijugador local",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición europea",
+      "formato físico",
+      "jewel case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa ISO y digitalizar el manual asociado. La ejecución virtual debería ser viable en una máquina virtual con Windows 95 o Windows 98, aunque debe verificarse en la edición concreta la posible presencia de comprobación física del disco.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "La Colección de Videojuegos '99",
+    "url": "juegos/la-coleccion-de-videojuegos-99-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Compilación",
+      "Aventura gráfica",
+      "Estrategia en tiempo real",
+      "Carreras",
+      "Simulación deportiva",
+      "Pinball",
+      "Acción",
+      "Ajedrez"
+    ],
+    "desarrollador": [
+      "Milestone",
+      "Revolution Software",
+      "ReadySoft",
+      "Cunning Developments",
+      "Anco Software",
+      "Dinamic Multimedia",
+      "Westwood Studios",
+      "Infogrames",
+      "East Point Software",
+      "Interplay Productions",
+      "NEON Software"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia",
+      "El Mundo"
+    ],
+    "ean": [],
+    "descripcion": "La Colección de Videojuegos '99 es una colección española para PC distribuida en quioscos por el diario El Mundo en colaboración con Dinamic Multimedia. Publicada entre 1998 y 1999, reunió doce videojuegos comerciales en CD-ROM pertenecientes a géneros muy diversos: Screamer 2, Broken Sword: La Leyenda de los Templarios, Dragon's Lair II: Time Warp, Pro Pinball: Timeshock!, Kick Off 98, PC Basket 6.5, Command & Conquer, Prisoner of Ice, Speed Demons, Battle Chess, Tunnel B1 y Alone in the Dark. La selección combina títulos para MS-DOS y Windows 95 y constituye un ejemplo representativo de las colecciones de videojuegos distribuidas junto con periódicos durante la expansión doméstica del CD-ROM en España. Su presentación conjunta, formada por estuches jewel case numerados, expositor de cartón y dos libros de pistas, posee especial interés para documentar la distribución popular, asequible y seriada de videojuegos de PC a finales de los años noventa.",
+    "incluye": [
+      "Expositor de cartón de la colección",
+      "12 CD-ROM en estuches jewel case",
+      "Screamer 2",
+      "Broken Sword: La Leyenda de los Templarios",
+      "Dragon's Lair II: Time Warp",
+      "Pro Pinball: Timeshock!",
+      "Kick Off 98",
+      "PC Basket 6.5",
+      "Command & Conquer",
+      "Prisoner of Ice",
+      "Speed Demons",
+      "Battle Chess",
+      "Tunnel B1",
+      "Alone in the Dark",
+      "Libro de pistas I",
+      "Libro de pistas II"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "La Colección de Videojuegos 99",
+      "El Mundo",
+      "Dinamic Multimedia",
+      "colección de quiosco",
+      "colección completa",
+      "edición española",
+      "12 videojuegos",
+      "CD-ROM",
+      "jewel case",
+      "libros de pistas",
+      "videojuegos de prensa",
+      "PC clásico",
+      "MS-DOS",
+      "Windows 95",
+      "años noventa",
+      "distribución en quioscos",
+      "preservación de videojuegos",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "La colección reúne doce títulos independientes que pueden utilizar sistemas anticopia distintos. Para una preservación rigurosa se recomienda crear una imagen individual de cada CD-ROM, preferentemente en BIN/CUE, registrar las sumas de comprobación y digitalizar las carátulas, los libros de pistas y el expositor. La ejecución virtual debe evaluarse por separado para cada juego mediante DOSBox o una máquina virtual con Windows 95.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "La colección de videojuegos 2000: Edición especial",
+    "url": "juegos/la-coleccion-de-videojuegos-2000-edicion-especial-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Compilación",
+      "Aventura gráfica",
+      "Acción",
+      "Carreras",
+      "Estrategia",
+      "Simulación deportiva",
+      "Pinball",
+      "Ajedrez"
+    ],
+    "desarrollador": [
+      "Gremlin Interactive",
+      "Revistronic",
+      "Revolution Software",
+      "Milestone",
+      "ReadySoft",
+      "Treyarch",
+      "Cunning Developments",
+      "Minds Eye Productions",
+      "Rowan Software",
+      "Microïds",
+      "Blue Byte Software",
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia",
+      "El Mundo"
+    ],
+    "ean": [],
+    "descripcion": "La colección de videojuegos 2000: Edición especial es una recopilación española para PC distribuida en el año 2000 por el diario El Mundo en colaboración con Dinamic Multimedia. Reúne doce lanzamientos comerciales en cajas jewel case numeradas y presentadas conjuntamente en un expositor de cartón. Su catálogo ofrece una muestra transversal del videojuego europeo de los años noventa, incluyendo deporte, conducción arcade, aventura gráfica, animación interactiva, acción tridimensional, pinball, ajedrez, simulación aérea y estrategia táctica. La colección está formada por Actua Soccer 3, Toyland Racing, Broken Sword II: Las Fuerzas del Mal, Screamer Rally, Space Ace, Die by the Sword, Pro Pinball: Big Race USA, Combat Chess, Flying Corps Gold, Evidence: The Last Report, Incubation: Se te está acabando el tiempo y Lost Eden. Como edición de quiosco constituye un documento representativo de la popularización del videojuego físico para PC en España mediante prensa generalista y colecciones de precio reducido.",
+    "incluye": [
+      "Expositor exterior de cartón",
+      "12 cajas jewel case numeradas",
+      "Actua Soccer 3",
+      "Toyland Racing",
+      "Broken Sword II: Las Fuerzas del Mal",
+      "Screamer Rally",
+      "Space Ace",
+      "Die by the Sword",
+      "Pro Pinball: Big Race USA",
+      "Combat Chess",
+      "Flying Corps Gold",
+      "Evidence: The Last Report",
+      "Incubation: Se te está acabando el tiempo",
+      "Lost Eden",
+      "CD-ROM de cada entrega",
+      "Carátulas impresas"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "La colección de videojuegos 2000",
+      "El Mundo",
+      "Dinamic Multimedia",
+      "colección de quiosco",
+      "edición especial",
+      "recopilación de 12 juegos",
+      "edición española",
+      "PC CD-ROM",
+      "cajas numeradas",
+      "prensa española",
+      "videojuegos de los años 90",
+      "distribución en periódicos",
+      "software en castellano",
+      "coleccionismo PC",
+      "formato físico",
+      "preservación digital"
+    ],
+    "proteccion": {
+      "tipo": "Otro",
+      "version": "Protecciones variables según el título",
+      "preservacion": "La colección debe preservarse mediante imágenes independientes de cada CD-ROM, preferiblemente en formato BIN/CUE para conservar posibles pistas de audio y estructuras originales. Conviene documentar la numeración de las doce entregas, escanear las carátulas y el expositor exterior, y verificar individualmente los sistemas de comprobación de disco o consulta documental presentes en cada juego.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "La colección de Videojuegos para PC",
+    "url": "juegos/la-coleccion-de-videojuegos-para-pc-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Compilación",
+      "Carreras",
+      "Aventura gráfica",
+      "Shooter sobre raíles",
+      "Simulación aérea",
+      "Pinball",
+      "Deportes",
+      "Juego de cartas",
+      "Plataformas"
+    ],
+    "desarrollador": [
+      "Graffiti",
+      "PicMatic",
+      "Rowan Software",
+      "Cunning Developments",
+      "Anco Software",
+      "ReadySoft",
+      "Círculo",
+      "Dinamic Multimedia",
+      "Pendulo Studios",
+      "Dinamic Software",
+      "Zeus Software"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia",
+      "El Mundo"
+    ],
+    "ean": [],
+    "descripcion": "Colección española distribuida por el diario El Mundo en colaboración con Dinamic Multimedia durante la segunda mitad de los años noventa. Reúne diez videojuegos completos en CD-ROM, presentados individualmente en cajas jewel case numeradas: Screamer, Los Justicieros, Dawn Patrol, Pro Pinball: The Web, Kick Off 97, Dragon's Lair, PC Mus, PC Basket 4.5 (97-98), Igor: Objetivo Uikokahonia y Risky Woods. Su catálogo combina producciones internacionales y títulos vinculados a la industria española, abarcando carreras arcade, aventura gráfica, simulación aérea, pinball, deportes, cartas y plataformas. La edición constituye un ejemplo representativo de las colecciones de quiosco que facilitaron el acceso del público generalista español al videojuego físico de PC.",
+    "incluye": [
+      "Caja expositora de cartón",
+      "10 CD-ROM en cajas jewel case",
+      "Screamer",
+      "Los Justicieros",
+      "Dawn Patrol",
+      "Pro Pinball: The Web",
+      "Kick Off 97",
+      "Dragon's Lair",
+      "PC Mus",
+      "PC Basket 4.5 (97-98)",
+      "Igor: Objetivo Uikokahonia",
+      "Risky Woods",
+      "Libro de pistas I",
+      "Libro de pistas II"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "La colección de Videojuegos para PC",
+      "El Mundo",
+      "Dinamic Multimedia",
+      "colección de quiosco",
+      "recopilación de videojuegos",
+      "10 CD-ROM",
+      "cajas jewel case",
+      "MS-DOS",
+      "Windows 95",
+      "edición española",
+      "industria española del videojuego",
+      "Screamer",
+      "Los Justicieros",
+      "Dawn Patrol",
+      "Pro Pinball The Web",
+      "Kick Off 97",
+      "Dragon's Lair",
+      "PC Mus",
+      "PC Basket",
+      "Igor Objetivo Uikokahonia",
+      "Risky Woods",
+      "años 90",
+      "coleccionismo PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar cada uno de los diez CD-ROM mediante una imagen individual, preferentemente en formato BIN/CUE, y digitalizar las carátulas, la caja expositora y los dos libros de pistas. La ejecución virtual es viable mediante entornos MS-DOS o Windows 95 según el título concreto.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
   }
 ]
