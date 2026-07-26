@@ -8861,6 +8861,407 @@
     }
   },
   {
+    "num": "000141",
+    "ig": "https://www.instagram.com/p/DbP48prCASU",
+    "titulo": "Star Wars: Rebel Assault II - The Hidden Empire",
+    "url": "juegos/star-wars-rebel-assault-ii-the-hidden-empire-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Rail shooter",
+      "Película interactiva",
+      "Combate espacial",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Erbe Software",
+      "MCM Software"
+    ],
+    "ean": [],
+    "descripcion": "Star Wars: Rebel Assault II - El Imperio Oculto es una aventura de acción cinematográfica desarrollada por LucasArts y publicada originalmente en 1995. Como continuación de Rebel Assault, combina secuencias de vídeo a pantalla completa, escenarios prerenderizados y combates sobre raíles con naves, vehículos y enfrentamientos en primera persona. Su historia, creada específicamente para el videojuego, sigue a Rookie One durante la investigación de un proyecto secreto imperial relacionado con una nueva tecnología de camuflaje. Fue una de las producciones multimedia más ambiciosas de LucasArts durante la expansión del CD-ROM, con actores reales, decorados físicos, efectos digitales y sonido estéreo multicanal. Esta edición española en caja grande, distribuida por Erbe y vinculada documentalmente a MCM Software, incluye compatibilidad oficial con MS-DOS y Windows 95 y conserva el lanzamiento localizado como El Imperio Oculto.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Estuche jewel case",
+      "2 CD-ROM",
+      "Guía de problemas técnicos",
+      "Guía de inicio",
+      "Sobre de registro de MCM Software",
+      "Documentación impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "Rebel Assault",
+      "Rebel Assault II",
+      "El Imperio Oculto",
+      "The Hidden Empire",
+      "LucasArts",
+      "Erbe Software",
+      "MCM Software",
+      "edición española",
+      "vídeo de movimiento completo",
+      "FMV",
+      "CD-ROM multimedia",
+      "combate espacial",
+      "Rookie One",
+      "Imperio Galáctico",
+      "Alianza Rebelde",
+      "MS-DOS",
+      "Windows 95",
+      "2 CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda realizar imágenes BIN/CUE independientes de los dos CD-ROM para conservar íntegramente su estructura y contenido multimedia, además de digitalizar las guías y la documentación de registro. La ejecución virtual es viable mediante un entorno MS-DOS o Windows 95 correctamente configurado, manteniendo montado el disco solicitado durante la partida.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000142",
+    "ig": "",
+    "titulo": "Turok: Dinosaur Hunter",
+    "url": "juegos/turok-dinosaur-hunter-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Iguana Entertainment"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Turok: Dinosaur Hunter es un shooter en primera persona publicado para PC en 1997 como adaptación del título aparecido originalmente en Nintendo 64. Basado en el personaje de cómic Turok, presenta una campaña ambientada en la Tierra Perdida, un entorno que mezcla selvas, ruinas, tecnología alienígena, guerreros y criaturas prehistóricas. El juego destaca por sus escenarios tridimensionales de gran amplitud, exploración con componentes de plataformas, enemigos con distintos patrones de comportamiento, zonas acuáticas y un arsenal de catorce armas que combina armamento convencional y tecnología fantástica. La versión para Windows 95 fue representativa de la primera generación de juegos para PC orientados al uso de aceleradoras gráficas 3D, promocionándose específicamente por su acción acelerada por hardware. Esta edición europea en caja grande conserva el lanzamiento físico de Acclaim con documentación multilingüe y soporte óptico en CD-ROM.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Hoja de soporte técnico"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Turok",
+      "Dinosaur Hunter",
+      "Iguana Entertainment",
+      "Acclaim Entertainment",
+      "Turok el guerrero de piedra",
+      "dinosaurios",
+      "Tierra Perdida",
+      "shooter clásico",
+      "primera persona",
+      "aceleración 3D",
+      "3dfx",
+      "Windows 95",
+      "PC CD-ROM",
+      "edición europea",
+      "caja grande",
+      "adaptación de Nintendo 64",
+      "videojuegos basados en cómics",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda crear una imagen completa del CD-ROM en formato BIN/CUE y conservar digitalizaciones del manual y de la documentación incluida. Para su ejecución puede utilizarse un entorno Windows 95 virtualizado con aceleración 3D compatible o soluciones modernas específicas para juegos gráficos de esta generación.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000143",
+    "ig": "",
+    "titulo": "Turok 2: Seeds of Evil",
+    "url": "juegos/turok-2-seeds-of-evil-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "desarrollador": [
+      "Iguana Entertainment"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Turok 2: Seeds of Evil es un shooter en primera persona publicado para PC en 1999 tras su lanzamiento original en Nintendo 64. La campaña sigue a Joshua Fireseed en su lucha contra el Primagen y sus ejércitos, combinando exploración de grandes niveles, objetivos múltiples, plataformas, puzles ambientales y combates contra criaturas de inspiración prehistórica y alienígena. Destacó por su amplio arsenal, que incluye armas especialmente recordadas como el Cerebral Bore, por la variedad de enemigos y por incorporar detección localizada de impactos. La versión para compatibles PC añadió soporte para aceleración gráfica 3D, controles mediante teclado y ratón y partidas multijugador para hasta 16 participantes mediante red local o Internet. Esta edición europea en caja grande presenta textos promocionales multilingües e incluye material adicional relacionado con Shadowman y Machines, reflejando la estrategia comercial de Acclaim a finales de los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones en castellano",
+      "Hoja impresa adicional",
+      "Cómic de Shadowman en edición limitada",
+      "Demo de Machines"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Turok",
+      "Turok 2",
+      "Seeds of Evil",
+      "Iguana Entertainment",
+      "Acclaim Entertainment",
+      "Joshua Fireseed",
+      "Primagen",
+      "dinosaurios",
+      "Cerebral Bore",
+      "shooter clásico",
+      "aceleración 3D",
+      "multijugador LAN",
+      "multijugador online",
+      "PC CD-ROM",
+      "edición europea",
+      "manual en castellano",
+      "Shadowman",
+      "Machines",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE que conserve la estructura completa del soporte y digitalizar el manual, la hoja adicional y los materiales promocionales incluidos. La ejecución virtual es viable mediante una máquina virtual con Windows 95/98 o mediante soluciones modernas de compatibilidad para juegos con aceleración gráfica 3D.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000144",
+    "ig": "",
+    "titulo": "Jagged Alliance: Deadly Games",
+    "url": "juegos/jagged-alliance-deadly-games-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Táctica por turnos",
+      "Rol táctico",
+      "Estrategia militar"
+    ],
+    "desarrollador": [
+      "Sir-Tech Canada"
+    ],
+    "distribuidor": [
+      "Sir-Tech Software",
+      "Virgin Interactive Entertainment",
+      "Virgin Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "Jagged Alliance: Deadly Games es una continuación independiente del primer Jagged Alliance, desarrollada por Sir-Tech Canada y publicada para MS-DOS en 1996. Sustituye la gestión territorial de la entrega original por una sucesión de operaciones tácticas protagonizadas por un amplio grupo de mercenarios con atributos, especialidades, relaciones personales y voces digitalizadas. Sus misiones incluyen rescates de rehenes, infiltración, sabotaje y eliminación de objetivos, desarrolladas en escenarios desérticos, urbanos, selváticos y nevados. Amplía el sistema de combate por turnos con nuevas armas, morteros, lanzagranadas y accesorios modificadores, además de incorporar editor de campañas, editor de escenarios y modalidades multijugador mediante módem, red local o conexión serie. Esta edición española en caja grande fue distribuida por Virgin Interactive e incluye un CD adicional gratuito destinado al juego multijugador, constituyendo una pieza representativa de la estrategia táctica para PC de mediados de los noventa.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Caja jewel case",
+      "2 CD-ROM",
+      "Manual en castellano",
+      "Tarjeta postal de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Jagged Alliance",
+      "Deadly Games",
+      "Sir-Tech",
+      "Virgin Interactive",
+      "edición española",
+      "MS-DOS",
+      "mercenarios",
+      "combate por turnos",
+      "operaciones especiales",
+      "editor de campañas",
+      "editor de escenarios",
+      "multijugador",
+      "módem",
+      "red local",
+      "voces digitalizadas",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar individualmente los dos CD-ROM mediante imágenes BIN/CUE, identificando el disco principal y el CD multijugador incluido. También debe digitalizarse el manual y conservarse la documentación de registro. La ejecución es viable mediante DOSBox o una máquina virtual compatible con MS-DOS, aunque las funciones multijugador originales pueden requerir configuración adicional de red, módem o puerto serie virtual.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000145",
+    "ig": "",
+    "titulo": "Hexen",
+    "url": "juegos/hexen-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Acción",
+      "Fantasía oscura",
+      "Exploración",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "Raven Software"
+    ],
+    "distribuidor": [
+      "id Software",
+      "GT Interactive Software (Europe) Limited"
+    ],
+    "ean": [
+      "5029988000104"
+    ],
+    "descripcion": "Hexen: Beyond Heretic es un shooter en primera persona de fantasía oscura desarrollado por Raven Software y publicado en 1995 como continuación temática de Heretic. Utiliza una versión profundamente modificada del motor de Doom, incorporando niveles interconectados mediante una estructura de hubs, puzles ambientales, escenarios con elementos móviles, inventario de objetos y tres clases jugables diferenciadas: guerrero, clérigo y mago. Cada clase dispone de armas y estilos de combate propios, ampliando la rejugabilidad y aportando componentes próximos al rol dentro de la acción en primera persona. Su ambientación medieval, el diseño laberíntico y el juego cooperativo y competitivo consolidaron el universo de los Serpent Riders y convirtieron a Hexen en una obra relevante dentro de la evolución tecnológica y jugable de los shooters para MS-DOS. Esta edición europea en caja grande para CD-ROM fue distribuida por GT Interactive Software (Europe) Limited.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja Jewel Case",
+      "Manual de instrucciones",
+      "Documentación impresa adicional",
+      "Tarjeta o sobre de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Hexen",
+      "Beyond Heretic",
+      "Raven Software",
+      "id Software",
+      "GT Interactive",
+      "motor Doom",
+      "Doom engine",
+      "Serpent Riders",
+      "Korax",
+      "fantasía medieval",
+      "fantasía oscura",
+      "clases de personaje",
+      "estructura de hubs",
+      "multijugador",
+      "juego cooperativo",
+      "MS-DOS",
+      "PC CD-ROM",
+      "edición europea",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE que conserve correctamente las pistas y la estructura original del soporte, además de digitalizar el manual y la documentación incluida. La ejecución virtual es viable mediante DOSBox u otros entornos compatibles con MS-DOS.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000146",
+    "ig": "",
+    "titulo": "Planescape: Torment",
+    "url": "juegos/planescape-torment-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Fantasía oscura",
+      "Rol narrativo",
+      "Tiempo real con pausa",
+      "Isométrico"
+    ],
+    "desarrollador": [
+      "Black Isle Studios"
+    ],
+    "distribuidor": [
+      "Interplay Entertainment",
+      "Virgin Interactive España"
+    ],
+    "ean": [
+      "5026102003294"
+    ],
+    "descripcion": "Planescape: Torment es un juego de rol occidental desarrollado por Black Isle Studios y publicado originalmente en 1999. Ambientado en el escenario Planescape de Advanced Dungeons & Dragons, sigue al Sin Nombre, un inmortal que despierta en la Mortuary de Sigil e intenta reconstruir sus vidas anteriores y comprender la naturaleza de su condena. Utiliza el Infinity Engine de BioWare, adaptado para ofrecer una experiencia especialmente centrada en los diálogos, la exploración, las decisiones morales y el desarrollo narrativo, con menor énfasis en el combate que otros CRPG contemporáneos. Su ambientación filosófica, sus compañeros memorables y su tratamiento de temas como la identidad, la culpa, la memoria y la redención lo convirtieron en una obra de culto y en uno de los referentes narrativos del rol para PC. Esta edición española en caja grande fue distribuida por Virgin Interactive y conserva el lanzamiento original en varios CD-ROM, con textos y documentación localizados al castellano.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Caja jewel case",
+      "4 CD-ROM",
+      "Manual de instrucciones",
+      "Documentación impresa",
+      "Tarjeta promocional de Virgin Interactive"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Planescape Torment",
+      "Black Isle Studios",
+      "Interplay Entertainment",
+      "Virgin Interactive",
+      "Advanced Dungeons & Dragons",
+      "Dungeons & Dragons",
+      "Planescape",
+      "Sigil",
+      "Infinity Engine",
+      "El Sin Nombre",
+      "rol occidental",
+      "CRPG clásico",
+      "fantasía oscura",
+      "rol isométrico",
+      "narrativa interactiva",
+      "edición española",
+      "textos en castellano",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Se recomienda preservar individualmente los cuatro CD-ROM mediante imágenes BIN/CUE, manteniendo su orden y etiquetado original. La documentación impresa también debe digitalizarse por su valor archivístico. La ejecución en máquina virtual es viable con Windows 95 o Windows 98, conservando montado el disco solicitado cuando el programa realice la comprobación de CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -14600,44 +15001,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Star Wars: Rebel Assault II - The Hidden Empire",
-    "url": "juegos/star-wars-rebel-assault-ii-the-hidden-empire-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter"
-    ],
-    "desarrollador": [
-      "LucasArts"
-    ],
-    "distribuidor": [
-      "LucasArts"
-    ],
-    "ean": [],
-    "descripcion": "Secuela del exitoso Rebel Assault, combina escenas cinemáticas en vídeo con fases de disparos sobre raíles y combates espaciales. Una experiencia interactiva ambientada en el universo de Star Wars.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "America: No Peace Beyond the Line!",
     "url": "juegos/america-no-peace-beyond-the-line-bigbox/",
     "plataforma": [
@@ -19766,95 +20129,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Turok: Dinosaur Hunter",
-    "url": "juegos/turok-dinosaur-hunter-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "FPS",
-      "Ciencia ficción",
-      "Dinosaurios"
-    ],
-    "desarrollador": [
-      "Iguana Entertainment"
-    ],
-    "distribuidor": [
-      "Acclaim Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Turok: Dinosaur Hunter es un shooter en primera persona lanzado en 1997 originalmente para Nintendo 64 y adaptado a PC ese mismo año. Desarrollado por Iguana Entertainment y publicado por Acclaim, el juego combina acción frenética, exploración y combates contra dinosaurios y enemigos humanos en entornos selváticos. Fue uno de los primeros FPS 3D en consolas y destacó en PC por su ambientación prehistórica y arsenal variado. La versión en caja grande para PC es muy buscada por coleccionistas, especialmente la edición española con manual traducido.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "FPS",
-      "Dinosaurios",
-      "Acclaim",
-      "Selva",
-      "Shooter clásico"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Turok 2: Seeds of Evil",
-    "url": "juegos/turok-2-seeds-of-evil-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "FPS",
-      "Ciencia ficción",
-      "Dinosaurios"
-    ],
-    "desarrollador": [
-      "Iguana Entertainment"
-    ],
-    "distribuidor": [
-      "Acclaim Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Turok 2: Seeds of Evil es la secuela del exitoso Turok: Dinosaur Hunter, lanzada en 1998. Mejora todos los aspectos del original: gráficos más detallados, niveles más grandes y complejos, una historia más desarrollada y uno de los arsenales más creativos de su época (incluyendo el mítico Cerebral Bore). Ambientado en un universo donde la tecnología y la prehistoria conviven, el juego mezcla combate brutal con exploración y plataformas. La edición en caja grande para PC tuvo distribución en España, y es una pieza codiciada entre los coleccionistas de FPS clásicos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "FPS",
-      "Dinosaurios",
-      "Acclaim",
-      "Shooter noventero",
-      "Ciencia ficción"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Atlantis II",
     "url": "juegos/atlantis-ii-bigbox/",
     "plataforma": [
@@ -20017,51 +20291,6 @@
       "MTV",
       "GT Interactive",
       "Beavis and Butt-Head"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Planescape: Torment",
-    "url": "juegos/planescape-torment-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Fantasía",
-      "Aventura"
-    ],
-    "desarrollador": [
-      "Black Isle Studios"
-    ],
-    "distribuidor": [
-      "Interplay Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Planescape: Torment es un juego de rol isométrico desarrollado por Black Isle Studios y publicado por Interplay Entertainment en 1999. Ambientado en el multiverso de Dungeons & Dragons, utiliza el motor Infinity Engine y se centra en una profunda narrativa más que en el combate. El jugador encarna a El Sin Nombre, un inmortal que busca descubrir la verdad sobre su pasado y la naturaleza de su existencia. Considerado uno de los mejores RPG de todos los tiempos por su guion, ambientación y filosofía. La edición Big Box en español incluye los cuatro CDs originales y manual traducido.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Rol",
-      "Interplay",
-      "Black Isle",
-      "RPG",
-      "Infinity Engine",
-      "Dungeons & Dragons"
     ],
     "proteccion": {
       "tipo": "No determinado",
@@ -20349,46 +20578,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Jagged Alliance: Deadly Games",
-    "url": "juegos/jagged-alliance-deadly-games-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Táctica",
-      "Guerra",
-      "Estrategia"
-    ],
-    "desarrollador": [
-      "Sir-Tech"
-    ],
-    "distribuidor": [
-      "Sir-Tech"
-    ],
-    "ean": [],
-    "descripcion": "Jagged Alliance: Deadly Games es una expansión independiente del aclamado Jagged Alliance, desarrollada por Sir-Tech. El juego amplía la experiencia táctica por turnos con nuevas campañas, escenarios, mercenarios, armas y un potente editor que permite crear misiones personalizadas. Incluye modos multijugador por módem, red local y conexión serie, así como un enfoque más arcade y experimental respecto al juego original. Esta edición Big Box corresponde a la versión distribuida en España, con textos en castellano.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Scorched Planet",
     "url": "juegos/scorched-planet-bigbox/",
     "plataforma": [
@@ -20611,45 +20800,6 @@
       "286177558507"
     ],
     "descripcion": "Simulador y manager de ciclismo en el que el jugador dirige uno de los principales equipos profesionales durante una temporada completa o en competiciones individuales. Incluye más de 125 etapas reales modeladas en 3D y jugables en tiempo real, gestión de plantilla, estrategias de carrera, calendario y tácticas dinámicas. Permite competir en pruebas inspiradas en las grandes vueltas europeas y gestionar cada detalle del equipo para alcanzar la victoria.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Hexen",
-    "url": "juegos/hexen-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "FPS",
-      "Fantasía oscura"
-    ],
-    "desarrollador": [
-      "Raven Software"
-    ],
-    "distribuidor": [
-      "id Software"
-    ],
-    "ean": [],
-    "descripcion": "Shooter en primera persona ambientado en un universo de fantasía oscura, sucesor espiritual de Heretic. Hexen introduce tres clases de personaje jugables —Guerrero, Clérigo y Mago— cada una con armas y habilidades propias. Combina acción intensa, exploración no lineal y resolución de puzles en escenarios interconectados. Incluye modo cooperativo y Deathmatch en red, ampliando la fórmula clásica de los FPS de los años 90 con un diseño más complejo y atmosférico.",
     "incluye": [],
     "serie": [
       "Todos",
