@@ -9262,6 +9262,287 @@
     }
   },
   {
+    "num": "000147",
+    "ig": "",
+    "titulo": "Close Combat: A Bridge Too Far",
+    "url": "juegos/close-combat-a-bridge-too-far-bigbox/",
+    "plataforma": [
+      "Win95",
+      "WinNT"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Táctica en tiempo real",
+      "Wargame",
+      "Estrategia militar",
+      "Simulación bélica",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Atomic Games"
+    ],
+    "distribuidor": [
+      "Microsoft",
+      "ERBE Software"
+    ],
+    "ean": [],
+    "descripcion": "Close Combat: A Bridge Too Far es la segunda entrega de la serie de táctica militar en tiempo real desarrollada por Atomic Games y publicada por Microsoft en 1997. Ambientada en la Operación Market Garden de septiembre de 1944, recrea los combates entre fuerzas aliadas y alemanas por el control de los puentes estratégicos de los Países Bajos. Frente a los juegos de estrategia tradicionales, Close Combat destacó por modelar el comportamiento individual de los soldados, incluyendo moral, fatiga, miedo, heridas, experiencia y capacidad para obedecer órdenes bajo presión. Las unidades utilizan cobertura, líneas de visión y características del terreno, mientras que las bajas y conquistas obtenidas pueden influir en enfrentamientos posteriores de una operación. Incluye batallas aisladas, operaciones y campañas, además de juego multijugador mediante módem, red local LAN o Internet. Esta edición española en caja grande fue editada por ERBE Software, incorpora manual en español y mantiene el software en inglés, tal como se especifica en la propia edición. Es representativa de la etapa en la que Microsoft amplió su catálogo de juegos para Windows con simulaciones y títulos de estrategia orientados al público especializado.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en español",
+      "Tarjeta de registro ERBE"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Close Combat",
+      "A Bridge Too Far",
+      "Atomic Games",
+      "Microsoft",
+      "ERBE Software",
+      "Operación Market Garden",
+      "Segunda Guerra Mundial",
+      "Frente Occidental",
+      "Aliados",
+      "Wehrmacht",
+      "Países Bajos",
+      "táctica militar",
+      "moral de tropas",
+      "combate en tiempo real",
+      "multijugador LAN",
+      "Windows 95",
+      "Windows NT",
+      "PC CD-ROM",
+      "edición española",
+      "manual en español",
+      "software en inglés",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM original mediante una imagen BIN/CUE para conservar íntegramente la estructura del soporte y documentar por separado el manual en español y la tarjeta de registro de esta edición de ERBE. La ejecución puede realizarse en un entorno virtualizado con Windows 95 o Windows NT 4.0 compatible, aunque debe verificarse sobre el disco concreto la existencia de cualquier comprobación de soporte durante instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000148",
+    "ig": "",
+    "titulo": "Dune 2000",
+    "url": "juegos/dune-2000-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Ciencia ficción",
+      "Estrategia militar"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive Entertainment",
+      "Electronic Arts Software"
+    ],
+    "ean": [
+      "5028587100918"
+    ],
+    "descripcion": "Dune 2000 es un juego de estrategia en tiempo real desarrollado por Westwood Studios y publicado en 1998 como reinterpretación moderna de Dune II, título fundamental en la consolidación del género RTS. Mantiene el conflicto por el control de Arrakis y la Especia Melange entre las casas Atreides, Harkonnen y Ordos, combinando construcción de bases, extracción de recursos y producción de unidades con campañas diferenciadas para cada facción. Técnicamente actualizó la fórmula original con gráficos de 16 bits de color, una interfaz y mecánicas influenciadas por la experiencia adquirida por Westwood con Command & Conquer y secuencias cinematográficas con actores reales, característica habitual de las grandes producciones del estudio durante los años noventa. Esta edición física española en formato Big Box fue publicada por Virgin Interactive y distribuida localmente por Electronic Arts Software, con juego traducido y doblado al castellano. Constituye una pieza significativa para documentar tanto la evolución de la estrategia en tiempo real como la adaptación al videojuego del universo creado por Frank Herbert.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja Jewel Case",
+      "Manual en castellano",
+      "Hoja de soporte técnico Westwood",
+      "Tarjeta de registro de Electronic Arts Software",
+      "Documentación de licencia y garantía"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Dune",
+      "Dune 2000",
+      "Westwood Studios",
+      "Virgin Interactive",
+      "Electronic Arts",
+      "Frank Herbert",
+      "Arrakis",
+      "Atreides",
+      "Harkonnen",
+      "Ordos",
+      "Especia Melange",
+      "ciencia ficción",
+      "estrategia clásica",
+      "FMV",
+      "edición española",
+      "traducido al castellano",
+      "doblado al castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM original mediante una imagen completa ISO y digitalizar la documentación impresa asociada. La ejecución en entorno virtual es viable mediante Windows 95/98, manteniendo montada la imagen del CD cuando sea necesaria la comprobación de presencia del soporte original.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000149",
+    "ig": "",
+    "titulo": "Drácula: Resurrección",
+    "url": "juegos/dracula-resurreccion-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Aventura en primera persona",
+      "Terror gótico",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "Index+"
+    ],
+    "distribuidor": [
+      "Microïds",
+      "France Telecom Multimedia",
+      "Canal+ Multimedia",
+      "Index+"
+    ],
+    "ean": [
+      "3563650030171"
+    ],
+    "descripcion": "Drácula: Resurrección es una aventura gráfica en primera persona publicada a finales de los años noventa y concebida como continuación de los acontecimientos de la novela Drácula de Bram Stoker. La historia comienza en Londres en 1904, siete años después de la supuesta destrucción del conde: Mina Harker regresa inexplicablemente a Transilvania y Jonathan Harker parte tras ella convencido de que Drácula sigue vivo. El juego utiliza escenarios prerenderizados con exploración panorámica de 360 grados, desplazamiento mediante nodos y una interfaz point and click centrada en investigación, manipulación de objetos y resolución de enigmas. Su ambientación combina arquitectura centroeuropea, folclore vampírico y terror gótico con la estética característica de las aventuras multimedia europeas de finales de los noventa. Esta edición española para PC CD-ROM se comercializó en caja grande y conserva especial interés documental por su localización al castellano y por representar la etapa de producción conjunta entre Index+, France Telecom Multimedia, Canal+ Multimedia y Microïds.",
+    "incluye": [
+      "Caja Big Box",
+      "Caja jewel case",
+      "2 CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Drácula",
+      "Dracula Resurrection",
+      "Bram Stoker",
+      "Jonathan Harker",
+      "Mina Harker",
+      "Transilvania",
+      "vampiros",
+      "terror gótico",
+      "aventura europea",
+      "exploración 360 grados",
+      "escenarios prerenderizados",
+      "Index+",
+      "Microïds",
+      "France Telecom Multimedia",
+      "Canal+ Multimedia",
+      "PC CD-ROM",
+      "edición española",
+      "castellano",
+      "Windows 95",
+      "Windows 98",
+      "Big Box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en 2 CD-ROM. Para preservación se recomienda crear imágenes completas de ambos discos en formato BIN/CUE y conservar conjuntamente la estructura de la edición y su documentación física. La ejecución virtual es viable mediante un entorno Windows clásico compatible, manteniendo montadas las imágenes de disco cuando sea necesario.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000150",
+    "ig": "",
+    "titulo": "Drácula II: El último santuario",
+    "url": "juegos/dracula-ii-el-ultimo-santuario-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Aventura en primera persona",
+      "Terror gótico",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "Wanadoo Edition"
+    ],
+    "distribuidor": [
+      "Friendware",
+      "Canal+ Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "Drácula II: El Último Santuario es una aventura gráfica en primera persona publicada en 2000 y continuación directa de Drácula: Resurrección. La historia retoma a Jonathan Harker y Mina en Londres, en octubre de 1904, con el regreso de la amenaza del conde Drácula y el Anillo del Dragón como eje narrativo. Desarrollado por Wanadoo Edition, el juego emplea tecnología de exploración panorámica de 360 grados asociada al motor Phoenix VR, escenarios prerenderizados y personajes 3D con captura de movimiento, combinando investigación, puzles, inventario de objetos y secuencias de confrontación. Esta edición española Big Box distribuida por Friendware destaca por ofrecer textos y voces en castellano y por presentarse en dos CD-ROM, constituyendo una edición representativa de la aventura gráfica europea en CD-ROM de comienzos de los años 2000.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "Estuche jewel case doble",
+      "2 CD-ROM",
+      "Revista promocional Friendware n.º 6",
+      "Folleto promocional Area66",
+      "Tarjeta postal o de registro Friendware"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Drácula",
+      "Dracula: The Last Sanctuary",
+      "Wanadoo Edition",
+      "Friendware",
+      "Canal+ Multimedia",
+      "Index+",
+      "France Télécom Multimedia",
+      "Bram Stoker",
+      "Jonathan Harker",
+      "Mina Harker",
+      "Londres 1904",
+      "vampiros",
+      "terror gótico",
+      "Phoenix VR",
+      "visión 360 grados",
+      "captura de movimiento",
+      "edición española",
+      "textos y voces en castellano",
+      "2 CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda realizar un volcado sectorial individual de los dos CD-ROM, preferiblemente en BIN/CUE, conservar hashes de verificación y documentar por separado todos los impresos de la edición. La protección concreta de la edición española Friendware no está suficientemente documentada; otras ediciones internacionales emplearon sistemas distintos, por lo que no conviene asignar uno sin comprobar los discos. La ejecución en máquina virtual con Windows 98 es viable manteniendo las imágenes de CD montadas y aplicando, si fuese necesario, ajustes de compatibilidad propios del software de la época.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -14961,46 +15242,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Drácula: Resurrección",
-    "url": "juegos/dracula-resurreccion-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click"
-    ],
-    "desarrollador": [
-      "Index+",
-      "France Telecom Multimedia"
-    ],
-    "distribuidor": [
-      "Microïds"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica en primera persona que continúa la historia de *Drácula* de Bram Stoker. Encarnas a Jonathan Harker en su viaje a Transilvania para rescatar a Mina y enfrentarte al legendario vampiro.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "America: No Peace Beyond the Line!",
     "url": "juegos/america-no-peace-beyond-the-line-bigbox/",
     "plataforma": [
@@ -18901,51 +19142,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Drácula II: El último santuario",
-    "url": "juegos/dracula-ii-el-ultimo-santuario-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura",
-      "Terror",
-      "Puzle"
-    ],
-    "desarrollador": [
-      "Wanadoo Edition"
-    ],
-    "distribuidor": [
-      "Index+ / MC2 France"
-    ],
-    "ean": [],
-    "descripcion": "Drácula II: El último santuario es una aventura gráfica en primera persona que continúa la historia del primer juego. El jugador encarna a Jonathan Harker en su intento de rescatar a Mina y enfrentarse al conde Drácula en escenarios oscuros y góticos. Con atmósfera inmersiva, puzles ambientales y narrativa clásica de horror, ofrece una experiencia envolvente para los amantes del género.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Aventura gráfica",
-      "Terror",
-      "Vampiros",
-      "Puzles",
-      "Gótico",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "BreakNeck",
     "url": "juegos/breakneck-bigbox/",
     "plataforma": [
@@ -20406,45 +20602,6 @@
     ],
     "tags": [
       "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Dune 2000",
-    "url": "juegos/dune-2000-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Westwood Studios"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "Dune 2000 es un juego de estrategia en tiempo real lanzado en 1998 y desarrollado por Westwood Studios. Se trata de una reinterpretación moderna del clásico Dune II, ambientado en el universo de ciencia ficción creado por Frank Herbert. El jugador controla una de las grandes casas enfrentadas por el control de la especia en el planeta Arrakis, gestionando recursos, construyendo bases y dirigiendo ejércitos en combates tácticos. Esta edición española en formato Big Box fue distribuida por Electronic Arts y cuenta con textos y doblaje completos al castellano.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Edición Española"
     ],
     "proteccion": {
       "tipo": "No determinado",
@@ -23487,73 +23644,6 @@
       "tipo": "Otro",
       "version": "",
       "preservacion": "Edición en CD-ROM. Para preservación se recomienda imagen completa del disco, preferiblemente BIN/CUE o formato con datos de bajo nivel si se desea conservar con máxima fidelidad la protección original, además de escanear manual y material impreso. The Settlers III es históricamente conocido por incorporar medidas anticopia que podían alterar el comportamiento de la partida en copias no autorizadas, por lo que conviene verificar la imagen preservada en una instalación limpia de Windows 95/98.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Close Combat: A Bridge Too Far",
-    "url": "juegos/close-combat-a-bridge-too-far-bigbox/",
-    "plataforma": [
-      "Win95",
-      "WinNT"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Táctica en tiempo real",
-      "Wargame",
-      "Simulación bélica",
-      "Estrategia histórica"
-    ],
-    "desarrollador": [
-      "Atomic Games"
-    ],
-    "distribuidor": [
-      "Microsoft",
-      "ERBE Software"
-    ],
-    "ean": [],
-    "descripcion": "Close Combat: A Bridge Too Far es la segunda entrega de la serie Close Combat, desarrollada por Atomic Games y publicada por Microsoft en 1997. El juego recrea la Operación Market Garden de 1944, con especial atención a los combates alrededor de Arnhem y los puentes holandeses que dieron nombre al título. A diferencia de la estrategia en tiempo real convencional de los años noventa, no se centra en construcción de bases ni producción masiva de unidades, sino en mando táctico de infantería, blindados y apoyo de combate sobre escenarios históricos en tiempo real. Su sistema de moral, fatiga, supresión, experiencia, líneas de visión y comportamiento psicológico de las tropas fue uno de sus elementos más distintivos: las unidades podían entrar en pánico, rechazar órdenes o actuar de forma limitada bajo fuego enemigo. Esta edición española en caja grande, editada por ERBE y publicada bajo sello Microsoft, conserva especial interés documental por incluir manual en español con software en inglés, una combinación habitual en ciertas localizaciones parciales del mercado español de PC durante la segunda mitad de los noventa.",
-    "incluye": [
-      "Caja Big Box",
-      "CD-ROM en caja jewel case",
-      "Manual en español",
-      "Tarjeta de registro ERBE"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Close Combat",
-      "A Bridge Too Far",
-      "Atomic Games",
-      "Microsoft",
-      "ERBE Software",
-      "Operación Market Garden",
-      "Arnhem",
-      "Segunda Guerra Mundial",
-      "wargame táctico",
-      "táctica en tiempo real",
-      "real-time tactics",
-      "moral de tropas",
-      "simulación bélica",
-      "Windows 95",
-      "Windows NT",
-      "PC CD-ROM",
-      "edición española",
-      "manual en español",
-      "software en inglés",
-      "Big Box PC",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "Verificación de CD",
-      "version": "",
-      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para documentar fielmente el soporte óptico. La ejecución en entorno virtual es viable con Windows 95 o Windows NT configurado, manteniendo la imagen montada si la edición realiza comprobación de disco durante instalación o ejecución.",
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
