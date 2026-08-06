@@ -9677,6 +9677,274 @@
     }
   },
   {
+    "num": "000153",
+    "ig": "",
+    "titulo": "Star Wars: X-Wing vs. TIE Fighter",
+    "url": "juegos/x-wing-vs-tie-fighter-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de combate espacial",
+      "Simulador de vuelo",
+      "Acción",
+      "Multijugador"
+    ],
+    "desarrollador": [
+      "Totally Games"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "ERBE Software"
+    ],
+    "ean": [],
+    "descripcion": "Star Wars: X-Wing vs. TIE Fighter es un simulador de combate espacial desarrollado por Totally Games bajo la dirección de Lawrence Holland y publicado por LucasArts en 1997. Tercera entrega principal de la serie iniciada con X-Wing, fue concebido especialmente para el juego multijugador y permite enfrentar o reunir a pilotos de la Alianza Rebelde y el Imperio Galáctico mediante módem, red local o Internet, con partidas cooperativas y competitivas de entre dos y ocho jugadores. Ofrece más de cincuenta misiones, nueve cazas pilotables, entornos tridimensionales en alta resolución y color de 16 bits, inteligencia artificial mejorada y control optimizado para joystick. Su orientación al combate compartido, en lugar de una campaña narrativa tradicional, lo convirtió en una propuesta singular dentro de los simuladores espaciales de los años noventa. Esta edición española en caja grande fue distribuida por ERBE Software e incorpora un segundo CD-ROM destinado a facilitar el modo multijugador, además de documentación localizada al castellano.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "Estuche jewel case",
+      "2 CD-ROM",
+      "Manual de instrucciones",
+      "Instalación / Guía rápida de inicio",
+      "Guía de referencia del teclado y cabina",
+      "Folleto Jugando con LucasArts Internet"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "X-Wing",
+      "TIE Fighter",
+      "Totally Games",
+      "Lawrence Holland",
+      "LucasArts",
+      "ERBE Software",
+      "Alianza Rebelde",
+      "Imperio Galáctico",
+      "combate espacial",
+      "simulador de vuelo espacial",
+      "multijugador",
+      "módem",
+      "red local",
+      "Internet",
+      "joystick",
+      "Windows 95",
+      "2 CD-ROM",
+      "edición española",
+      "Big Box PC",
+      "1997",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservar ambos CD-ROM mediante imágenes BIN/CUE y documentar cuál corresponde al disco principal y cuál al disco adicional para multijugador. La ejecución es viable en una máquina virtual con Windows 95 y unidad óptica virtual montada; las funciones de red pueden requerir configuración de protocolos y servicios compatibles con el entorno original.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000154",
+    "ig": "",
+    "titulo": "Star Wars: TIE Fighter - Coleccionistas del CD-ROM",
+    "url": "juegos/star-wars-tie-fighter-coleccionistas-del-cd-rom-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de combate espacial",
+      "Simulador de vuelo",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Totally Games"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Edición recopilatoria y ampliada en CD-ROM de Star Wars: TIE Fighter, simulador de combate espacial publicado en 1995 y desarrollado por Totally Games bajo la dirección de Lawrence Holland. El jugador sirve como piloto de la Armada Imperial y participa en campañas narrativas ambientadas entre los acontecimientos de El Imperio contraataca y El retorno del Jedi, con gestión de energía, escudos, armamento, objetivos tácticos y progresión dentro de la estructura militar del Imperio. Esta versión reúne la campaña original, la expansión Defender of the Empire y la campaña adicional Enemies of the Empire, superando las cien misiones e incorporando gráficos en alta resolución, nuevas secuencias animadas y voces digitalizadas en inglés. Su diseño técnico, el sistema musical interactivo iMUSE y la posibilidad de pilotar distintas naves imperiales consolidaron a TIE Fighter como una referencia histórica de la simulación espacial para PC. La edición española en caja grande fue distribuida por Erbe Software.",
+    "incluye": [
+      "Caja Big Box",
+      "1 CD-ROM en estuche jewel case",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "TIE Fighter",
+      "LucasArts",
+      "Totally Games",
+      "Erbe Software",
+      "Lawrence Holland",
+      "Edward Kilham",
+      "Defender of the Empire",
+      "Enemies of the Empire",
+      "Imperio Galáctico",
+      "Armada Imperial",
+      "Darth Vader",
+      "iMUSE",
+      "SVGA",
+      "MS-DOS",
+      "CD-ROM",
+      "edición española",
+      "Big Box PC",
+      "simulación espacial clásica",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en formato ISO, acompañada de escaneos de la caja y del manual. La ejecución es viable en DOSBox u otros entornos MS-DOS virtualizados; conviene mantener montada la imagen del disco durante la instalación y las pruebas.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000155",
+    "ig": "",
+    "titulo": "Star Wars: Episodio I - La Amenaza Fantasma",
+    "url": "juegos/star-wars-episodio-i-la-amenaza-fantasma-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción aventura",
+      "Aventura en tercera persona",
+      "Plataformas 3D",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Big Ape Productions"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Adaptación interactiva de Star Wars: Episodio I - La Amenaza Fantasma, desarrollada por Big Ape Productions y publicada por LucasArts en 1999. El juego recrea y amplía distintos acontecimientos de la película mediante una aventura de acción en tercera persona que combina exploración tridimensional, plataformas, combates con sable de luz y armas de fuego, resolución de situaciones y conversaciones con numerosos personajes. A lo largo de la campaña permite asumir el papel de Obi-Wan Kenobi, Qui-Gon Jinn, la reina Amidala y el capitán Panaka, recorriendo localizaciones como Naboo, Mos Espa, Otoh Gunga y Coruscant. Esta edición española en caja grande fue distribuida por Electronic Arts Software y presenta el juego traducido y doblado al castellano, constituyendo un lanzamiento representativo del auge comercial de Star Wars en PC tras el estreno cinematográfico del Episodio I.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Tarjeta de registro y servicio de atención al usuario"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "Episodio I",
+      "La Amenaza Fantasma",
+      "LucasArts",
+      "Big Ape Productions",
+      "Electronic Arts Software",
+      "Obi-Wan Kenobi",
+      "Qui-Gon Jinn",
+      "reina Amidala",
+      "capitán Panaka",
+      "Naboo",
+      "Tatooine",
+      "Coruscant",
+      "sable de luz",
+      "aventura cinematográfica",
+      "tercera persona",
+      "edición española",
+      "doblaje al castellano",
+      "PC CD-ROM",
+      "Big Box PC",
+      "Windows 95",
+      "Windows 98",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE que conserve íntegramente la estructura del soporte y digitalizar el manual y la documentación de registro. La ejecución virtual es viable mediante un entorno Windows 95/98 correctamente configurado o soluciones de compatibilidad para juegos tridimensionales de finales de los años noventa.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000156",
+    "ig": "",
+    "titulo": "Star Wars: Force Commander",
+    "url": "juegos/star-wars-force-commander-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia táctica",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Ronin Entertainment",
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Star Wars: Force Commander es un juego de estrategia en tiempo real publicado por LucasArts en 2000 y ambientado íntegramente en el conflicto terrestre de la trilogía clásica de Star Wars. A diferencia de otros RTS de la época centrados en construcción de bases, propone una campaña narrativa basada en misiones, mando de unidades imperiales y rebeldes, gestión de puntos de comando y control táctico de más de setenta unidades reconocibles de la saga, incluyendo AT-AT, AT-ST, Snowspeeders e infantería. Su motor 3D permitía rotar y acercar la cámara para seguir los combates desde distintos ángulos, un rasgo muy destacado en el salto tecnológico de los RTS de finales de los noventa. Esta edición española en caja grande, distribuida por Electronic Arts Software, conserva especial interés documental por estar traducida y doblada al castellano y por representar una de las apuestas de LucasArts por trasladar Star Wars al terreno de la estrategia táctica para PC CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual del comandante"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "Force Commander",
+      "LucasArts",
+      "Ronin Entertainment",
+      "Electronic Arts Software",
+      "edición española",
+      "traducido al castellano",
+      "doblado al castellano",
+      "estrategia en tiempo real",
+      "RTS",
+      "combate terrestre",
+      "Imperio Galáctico",
+      "Alianza Rebelde",
+      "AT-AT",
+      "AT-ST",
+      "Snowspeeder",
+      "Command Point System",
+      "motor 3D",
+      "multijugador LAN",
+      "multijugador Internet",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para conservar la estructura del disco y facilitar verificación posterior. La ejecución virtual es viable en un entorno Windows 95/98 con DirectX y aceleración 3D configurada, aunque debe comprobarse en la edición concreta si existe verificación de disco durante la instalación o ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -14515,84 +14783,6 @@
       "4014092002435"
     ],
     "descripcion": "Quinta y última entrega de la saga Battle Isle (2000), mezcla estrategia por turnos con fases en tiempo real. Ambientado en el planeta Chromos, incluye dos campañas con 22 misiones, gestión logística, combate y economía simultánea. Soporta multijugador LAN/Internet hasta 4 vs 4.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Star Wars: X-Wing vs. TIE Fighter",
-    "url": "juegos/x-wing-vs-tie-fighter-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Combate"
-    ],
-    "desarrollador": [
-      "Totally Games"
-    ],
-    "distribuidor": [
-      "LucasArts"
-    ],
-    "ean": [],
-    "descripcion": "Es la tercera entrega de la saga X‑Wing, lanzada el 29 de abril de 1997 para Windows. Centrada principalmente en el multijugador (hasta 8 jugadores), también ofrece misiones individuales, mejoras gráficas (texturas, iluminación, soportes 3D) y control por joystick. Posteriormente se lanzó la expansión “Balance of Power” con campañas independientes para Imperio y Alianza Rebelde, cada una con 15 misiones cooperativas (Imperio o Rebelde)  .",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Star Wars: Episodio I - La Amenaza Fantasma",
-    "url": "juegos/star-wars-episodio-i-la-amenaza-fantasma-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Aventura"
-    ],
-    "desarrollador": [
-      "Big Ape Productions"
-    ],
-    "distribuidor": [
-      "LucasArts"
-    ],
-    "ean": [],
-    "descripcion": "Adaptación oficial del film lanzada el 18 de mayo de 1999 para PC. El jugador controla a personajes como Qui‑Gon Jinn, Obi‑Wan Kenobi, la Reina Amidala y Panaka, reviviendo escenas clave del episodio. El diseño combina combate con sables láser, uso de la Fuerza, fases de exploración y puzles, en una cámara cenital/oblicua.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -21753,48 +21943,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Star Wars: TIE Fighter - Coleccionistas del CD-ROM",
-    "url": "juegos/star-wars-tie-fighter-coleccionistas-del-cd-rom-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Acción",
-      "Espacial"
-    ],
-    "desarrollador": [
-      "LucasArts"
-    ],
-    "distribuidor": [
-      "Erbe Software"
-    ],
-    "ean": [],
-    "descripcion": "Edicion coleccionista en CD-ROM de Star Wars: TIE Fighter. Incluye el juego original, la expansion Defender of the Empire y misiones adicionales. Simulador espacial ambientado en el universo Star Wars donde el jugador pilota cazas imperiales al servicio del Imperio.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Star Wars",
-      "LucasArts",
-      "TIE Fighter",
-      "Simulador Espacial",
-      "Imperio"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Privateer 2: The Darkening",
     "url": "juegos/privateer-2-the-darkening-bigbox/",
     "plataforma": [
@@ -23098,74 +23246,6 @@
       "tipo": "No determinado",
       "version": "",
       "preservacion": "Edición en CD-ROM. Para preservación se recomienda realizar imagen completa del disco, preferiblemente BIN/CUE, y documentar manual, caja jewel case y materiales de Friendware. No hay evidencia suficiente en la edición mostrada para confirmar una protección anticopia concreta; conviene verificar en entorno Windows 95/98 virtualizado si existe comprobación de disco durante instalación o ejecución.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Star Wars: Force Commander",
-    "url": "juegos/star-wars-force-commander-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "RTS",
-      "Estrategia táctica",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Ronin Entertainment",
-      "LucasArts Entertainment Company"
-    ],
-    "distribuidor": [
-      "LucasArts Entertainment Company",
-      "Electronic Arts Software"
-    ],
-    "ean": [],
-    "descripcion": "Star Wars: Force Commander es un juego de estrategia en tiempo real publicado por LucasArts en 2000 y ambientado íntegramente en el conflicto terrestre de la trilogía clásica de Star Wars. A diferencia de otros RTS de la época centrados en construcción de bases, propone una campaña narrativa basada en misiones, mando de unidades imperiales y rebeldes, gestión de puntos de comando y control táctico de más de setenta unidades reconocibles de la saga, incluyendo AT-AT, AT-ST, Snowspeeders e infantería. Su motor 3D permitía rotar y acercar la cámara para seguir los combates desde distintos ángulos, un rasgo muy destacado en el salto tecnológico de los RTS de finales de los noventa. Esta edición española en caja grande, distribuida por Electronic Arts Software, conserva especial interés documental por estar traducida y doblada al castellano y por representar una de las apuestas de LucasArts por trasladar Star Wars al terreno de la estrategia táctica para PC CD-ROM.",
-    "incluye": [
-      "Caja Big Box",
-      "CD-ROM en caja jewel case",
-      "Manual del comandante"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Star Wars",
-      "Force Commander",
-      "LucasArts",
-      "Ronin Entertainment",
-      "Electronic Arts Software",
-      "edición española",
-      "traducido al castellano",
-      "doblado al castellano",
-      "estrategia en tiempo real",
-      "RTS",
-      "combate terrestre",
-      "Imperio Galáctico",
-      "Alianza Rebelde",
-      "AT-AT",
-      "AT-ST",
-      "Snowspeeder",
-      "Command Point System",
-      "motor 3D",
-      "multijugador LAN",
-      "multijugador Internet",
-      "PC CD-ROM",
-      "Big Box PC",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE para conservar la estructura del disco y facilitar verificación posterior. La ejecución virtual es viable en un entorno Windows 95/98 con DirectX y aceleración 3D configurada, aunque debe comprobarse en la edición concreta si existe verificación de disco durante la instalación o ejecución.",
       "formato": "BIN/CUE",
       "jugable_virtual": true
     }
