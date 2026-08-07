@@ -9947,6 +9947,206 @@
   {
     "num": "000000",
     "ig": "",
+    "titulo": "Blade: The Edge of Darkness - Edición Especial",
+    "url": "juegos/blade-the-edge-of-darkness-edicion-especial-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción en tercera persona",
+      "Aventura de acción",
+      "Hack and slash",
+      "Fantasía oscura"
+    ],
+    "desarrollador": [
+      "Rebel Act Studios"
+    ],
+    "distribuidor": [
+      "Codemasters"
+    ],
+    "ean": [],
+    "descripcion": "Blade: The Edge of Darkness es un videojuego de acción en tercera persona desarrollado por el estudio español Rebel Act Studios y publicado por Codemasters en 2001. Ambientado en un mundo de fantasía oscura, permite elegir entre cuatro personajes con atributos, armas y estilos de combate diferenciados, y centra su diseño en enfrentamientos cuerpo a cuerpo exigentes, bloqueo, esquiva, combos y desmembramiento de enemigos. El título destacó técnicamente por su motor 3D, el uso avanzado de iluminación y sombras dinámicas en tiempo real, superficies reflectantes y transparentes, físicas aplicadas a objetos del escenario y elementos destructibles. Conocido en algunos mercados como Severance: Blade of Darkness, se convirtió en una obra de culto del PC europeo y en uno de los desarrollos españoles más ambiciosos de comienzos de los años 2000. Esta Edición Especial en caja grande añade valor documental y coleccionista al lanzamiento físico original.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM",
+      "Estuche plástico del juego",
+      "Manual del usuario",
+      "Póster desplegable",
+      "Certificado de Edición Especial"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Blade The Edge of Darkness",
+      "Severance Blade of Darkness",
+      "Rebel Act Studios",
+      "Codemasters",
+      "videojuego español",
+      "edición especial",
+      "edición española",
+      "combate cuerpo a cuerpo",
+      "desmembramiento",
+      "iluminación dinámica",
+      "sombras en tiempo real",
+      "motor 3D",
+      "PC CD-ROM",
+      "Big Box PC",
+      "2001",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "No se dispone de evidencia suficiente para identificar con seguridad el sistema anticopia de esta edición. Para preservación se recomienda realizar una imagen completa del CD-ROM con un formato que conserve la estructura del disco y posibles datos de protección, además de digitalizar el manual, el póster y el certificado de la Edición Especial. La ejecución es viable en entornos Windows clásicos o mediante soluciones modernas de compatibilidad, aunque puede requerir ajustes de aceleración 3D.",
+      "formato": "CCD/IMG/SUB",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Commandos: Strike Force",
+    "url": "juegos/commandos-strike-force-bigbox/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Shooter táctico",
+      "Sigilo",
+      "Acción bélica"
+    ],
+    "desarrollador": [
+      "Pyro Studios"
+    ],
+    "distribuidor": [
+      "Eidos Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "8431019020116"
+    ],
+    "descripcion": "Commandos: Strike Force es la entrega de 2006 con la que Pyro Studios trasladó su saga de táctica en tiempo real a un shooter en primera persona ambientado en la Segunda Guerra Mundial. La campaña permite alternar entre tres especialistas —boina verde, francotirador y espía— con habilidades diferenciadas, combinando combate directo, infiltración, sabotaje y sigilo en 14 misiones desarrolladas en Francia, Noruega y Rusia, además de multijugador para hasta 16 jugadores en PC. Técnicamente pertenece a la generación DirectX 9.0c y fue concebido para Windows 2000 y Windows XP. Esta edición coleccionista española, distribuida por Proein y completamente en castellano, acompañó el lanzamiento nacional con la banda sonora original de Mateo Pascual, interpretada por la Orquesta Sinfónica de Bratislava y el Coro de la Ciudad de Bratislava, y una memoria USB de 64 MB, convirtiéndola en una de las presentaciones físicas más singulares de la etapa final de la saga desarrollada por Pyro Studios.",
+    "incluye": [
+      "Caja exterior Edición Coleccionista",
+      "Videojuego en DVD-ROM dentro de DVD Case",
+      "Banda sonora original en CD con 19 temas",
+      "Memory Stick USB de 64 MB en formato tarjeta",
+      "Bandeja interior de presentación"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Commandos",
+      "Commandos Strike Force",
+      "Pyro Studios",
+      "Eidos Interactive",
+      "Proein",
+      "Segunda Guerra Mundial",
+      "boina verde",
+      "francotirador",
+      "espía",
+      "infiltración",
+      "sabotaje",
+      "DirectX 9.0c",
+      "multijugador",
+      "edición coleccionista",
+      "edición española",
+      "totalmente en castellano",
+      "banda sonora original",
+      "Mateo Pascual",
+      "USB 64 MB",
+      "PC DVD-ROM",
+      "Big Box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SecuROM",
+      "version": "7",
+      "preservacion": "La edición física en DVD-ROM utiliza SecuROM 7. Para una preservación fiel conviene realizar una imagen con información de posición física del disco mediante herramientas compatibles con DPM, preferiblemente en MDF/MDS, y conservar el soporte original. La ejecución virtual es viable en un entorno Windows 2000/XP adecuadamente configurado, aunque SecuROM puede requerir una unidad virtual compatible y presentar problemas en sistemas Windows modernos.",
+      "formato": "MDF/MDS",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Commandos 3: Destination Berlin - Edición Coleccionista",
+    "url": "juegos/commandos-3-destination-berlin-edicion-coleccionista-bigbox/",
+    "plataforma": [
+      "Win98",
+      "WinMe",
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Táctica en tiempo real",
+      "Estrategia en tiempo real",
+      "Sigilo",
+      "Estrategia bélica"
+    ],
+    "desarrollador": [
+      "Pyro Studios"
+    ],
+    "distribuidor": [
+      "Eidos Interactive",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Commandos 3: Destination Berlin es la tercera entrega principal de la saga de táctica en tiempo real creada por el estudio español Pyro Studios y publicada en 2003. Mantiene la fórmula basada en coordinar un pequeño grupo de especialistas aliados tras las líneas enemigas, combinando infiltración, sigilo, combate y resolución táctica de objetivos durante la Segunda Guerra Mundial. La campaña recorre escenarios vinculados a Stalingrado, Europa Central y Normandía, utilizando una evolución del motor isométrico de Commandos 2 con interiores detallados, situaciones más dinámicas y un ritmo de acción más intenso. Esta edición española «Edición Coleccionista», distribuida por Proein y presentada completamente en castellano, amplía notablemente el valor documental del lanzamiento al reunir el juego con banda sonora, guía oficial, material audiovisual y una camiseta promocional, constituyendo una edición especialmente relevante para el coleccionismo y la preservación del videojuego español de comienzos de los años 2000.",
+    "incluye": [
+      "Caja exterior Big Box Edición Coleccionista",
+      "Commandos 3: Destination Berlin para PC CD-ROM en estuche DVD Case",
+      "Banda sonora original con 24 temas",
+      "Camiseta Commandos 3",
+      "Guía oficial del juego",
+      "DVD Inside Commandos 3"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Commandos",
+      "Destination Berlin",
+      "Pyro Studios",
+      "Eidos Interactive",
+      "Proein",
+      "videojuego español",
+      "Segunda Guerra Mundial",
+      "edición coleccionista",
+      "edición española",
+      "totalmente en castellano",
+      "banda sonora",
+      "guía oficial",
+      "DVD making of",
+      "PC CD-ROM",
+      "caja grande",
+      "2003",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "No se dispone de evidencia suficiente para identificar con rigor el sistema anticopia de esta edición concreta. Para preservación se recomienda crear imágenes BIN/CUE de los soportes CD-ROM del juego y verificar sus hashes; la banda sonora debe conservarse además mediante extracción sin pérdida con CUE y el DVD adicional mediante una imagen ISO independiente. La ejecución es viable en una máquina virtual con una versión compatible de Windows, sujeta a la compatibilidad del sistema de protección que se determine posteriormente.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "titulo": "Colossus",
     "url": "juegos/colossus-bigbox/",
     "plataforma": [
