@@ -9945,6 +9945,70 @@
     }
   },
   {
+    "num": "000157",
+    "ig": "",
+    "titulo": "Star Wars: Rebellion",
+    "url": "juegos/star-wars-rebellion-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Gran estrategia",
+      "Estrategia espacial",
+      "Gestión",
+      "Simulación estratégica"
+    ],
+    "desarrollador": [
+      "Coolhand Interactive",
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Electronic Arts Software España"
+    ],
+    "ean": [],
+    "descripcion": "Star Wars: Rebellion es un juego de estrategia galáctica para PC publicado en 1998 que permite dirigir la Alianza Rebelde o el Imperio Galáctico en una campaña en tiempo real a gran escala. Desarrollado por Coolhand Interactive en colaboración con LucasArts, combina administración de recursos, producción, investigación, diplomacia, espionaje, asignación de personajes y movimiento de flotas a través de una galaxia de hasta 200 mundos, mientras que los enfrentamientos entre naves pueden resolverse mediante un módulo táctico de batallas espaciales en 3D. En el Reino Unido fue comercializado con el título Star Wars: Supremacy. Esta edición española Big Box para Windows 95 está traducida y doblada al castellano y fue distribuida en el mercado nacional por Electronic Arts, constituyendo una de las aproximaciones estratégicas más ambiciosas al universo Star Wars durante la etapa clásica de LucasArts. ",
+    "incluye": [
+      "Caja Big Box",
+      "Manual del juego",
+      "CD-ROM en caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Wars",
+      "Star Wars Rebellion",
+      "Star Wars Supremacy",
+      "LucasArts",
+      "Coolhand Interactive",
+      "Electronic Arts España",
+      "Alianza Rebelde",
+      "Imperio Galáctico",
+      "batallas espaciales 3D",
+      "estrategia galáctica",
+      "multijugador",
+      "edición española",
+      "traducido al castellano",
+      "doblado al castellano",
+      "Windows 95",
+      "PC CD-ROM",
+      "Big Box",
+      "1998",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Se recomienda preservar el disco mediante imagen BIN/CUE completa y conservar el manual asociado. La ejecución virtual es viable en una máquina virtual con Windows 95 o un entorno compatible, montando la imagen del CD cuando sea necesario; el sistema anticopia concreto de esta edición debe verificarse antes de documentarlo como definitivo.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Blade: The Edge of Darkness - Edición Especial",
@@ -22348,49 +22412,6 @@
       "Simulador Aereo",
       "Su-27",
       "Digital Combat Series"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Star Wars: Rebellion",
-    "url": "juegos/star-wars-rebellion-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Simulación"
-    ],
-    "desarrollador": [
-      "Coolhand Interactive"
-    ],
-    "distribuidor": [
-      "LucasArts"
-    ],
-    "ean": [],
-    "descripcion": "Juego de estrategia a gran escala ambientado en el universo de Star Wars. El jugador puede liderar la Alianza Rebelde o el Imperio Galáctico, gestionando recursos, diplomacia, investigación y flotas espaciales en tiempo real, con batallas en 3D y control de más de 200 sistemas planetarios.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Star Wars",
-      "LucasArts",
-      "Estrategia espacial",
-      "Gestión",
-      "Tiempo real",
-      "Edición española",
-      "Doblado al castellano"
     ],
     "proteccion": {
       "tipo": "No determinado",
