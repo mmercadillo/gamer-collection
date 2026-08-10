@@ -10009,6 +10009,194 @@
     }
   },
   {
+    "num": "000158",
+    "ig": "",
+    "titulo": "Army Men: Real Combat. Plastic Men",
+    "url": "juegos/army-men-real-combat-plastic-men-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Táctica en tiempo real",
+      "Acción",
+      "Estrategia militar"
+    ],
+    "desarrollador": [
+      "The 3DO Company"
+    ],
+    "distribuidor": [
+      "The 3DO Company",
+      "Ubi Soft Entertainment Ltd."
+    ],
+    "ean": [],
+    "descripcion": "Army Men es la primera entrega de la saga de soldados de plástico creada por The 3DO Company, publicada para PC a finales de los años noventa. Su propuesta combina acción y táctica en tiempo real desde una perspectiva elevada, enfrentando al ejército Verde contra las fuerzas Tan en más de treinta misiones repartidas por distintos tipos de terreno. El jugador dirige diferentes clases de soldados, puede utilizar vehículos como tanques, jeeps, semiorugas y camiones, y dispone de apoyos como ataques aéreos, paracaidistas y reconocimiento. También incorpora multijugador para hasta cuatro participantes. Su estética basada en figuras militares de plástico y la representación visual de explosiones, vehículos y unidades como juguetes convirtieron el concepto en la base de una extensa franquicia de 3DO. Esta edición física europea en caja grande fue distribuida por Ubi Soft Entertainment Ltd. para PC CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja Jewel Case",
+      "Manual de instrucciones",
+      "Tarjeta de registro de Ubi Soft",
+      "Tarjeta de referencia de controles"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Army Men",
+      "The 3DO Company",
+      "Ubi Soft",
+      "soldados de plástico",
+      "ejército Verde",
+      "ejército Tan",
+      "vehículos militares",
+      "ataques aéreos",
+      "multijugador hasta 4 jugadores",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición europea",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Sin protección",
+      "version": "",
+      "preservacion": "Edición en CD-ROM preservable mediante imagen ISO del disco original. La ejecución virtual es viable en una máquina virtual con Windows 95/98 o en sistemas posteriores con los ajustes de compatibilidad necesarios para software gráfico de finales de los años noventa.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000159",
+    "ig": "",
+    "titulo": "Army Men: In Space",
+    "url": "juegos/army-men-in-space-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Shooter cenital",
+      "Acción táctica",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "The 3DO Company"
+    ],
+    "distribuidor": [
+      "The 3DO Company"
+    ],
+    "ean": [],
+    "descripcion": "Army Men in Space es una entrega de la saga Army Men publicada a finales de los años noventa para PC y conocida también internacionalmente como Army Men: Toys in Space. Mantiene la perspectiva cenital y la acción táctica característica de la serie, pero desplaza el conflicto entre soldados de plástico hacia una invasión alienígena, incorporando al Sargento Sarge y a Tina Tomorrow junto a tropas y enemigos de temática espacial. El juego combina combate con armas, vehículos y control de unidades en escenarios domésticos reinterpretados como campos de batalla a escala. Esta edición europea multilingüe en caja grande resulta especialmente singular por su presentación física promocional con figuras de soldados integradas en el embalaje, un ejemplo representativo del merchandising y de las ediciones comerciales llamativas de finales de la era clásica del PC CD-ROM.",
+    "incluye": [
+      "Caja exterior Big Box con expositor transparente",
+      "2 figuras de soldados de plástico",
+      "CD-ROM en caja jewel case",
+      "Manual de usuario"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Army Men",
+      "Army Men: Toys in Space",
+      "The 3DO Company",
+      "Sarge",
+      "Tina Tomorrow",
+      "soldados de plástico",
+      "alienígenas",
+      "ciencia ficción militar",
+      "acción cenital",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición europea multilingüe",
+      "figuras promocionales",
+      "Big Box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en BIN/CUE y digitalización del manual y del embalaje especial con figuras. No se ha identificado de forma concluyente un sistema anticopia concreto para la edición mostrada; la ejecución es viable en un entorno Windows 95/98 virtualizado o emulado compatible.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000160",
+    "ig": "",
+    "titulo": "Army Men II",
+    "url": "juegos/army-men-ii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Táctica en tiempo real",
+      "Acción",
+      "Shooter cenital",
+      "Estrategia militar"
+    ],
+    "desarrollador": [
+      "The 3DO Company"
+    ],
+    "distribuidor": [
+      "The 3DO Company",
+      "Proein"
+    ],
+    "ean": [
+      "0790561502616"
+    ],
+    "descripcion": "Army Men II es la secuela directa de Army Men, desarrollada y publicada por The 3DO Company en 1999. Mantiene la guerra entre los soldados de plástico verdes y marrones liderados por Sarge, pero amplía el conflicto desde su mundo de juguete a escenarios cotidianos como la cocina, el dormitorio, el jardín y el garaje. Su jugabilidad combina acción cenital y control táctico de tropas en tiempo real, con nuevas armas improvisadas, vehículos, una interfaz de ratón más directa, inteligencia artificial mejorada y modos multijugador. Esta edición española en caja grande para PC CD-ROM fue distribuida por Proein y conserva documentación localizada al castellano, representando una de las primeras entregas que consolidaron la extensa franquicia Army Men durante la expansión de The 3DO Company a finales de los años noventa.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual del usuario en castellano",
+      "Catálogo general Proein",
+      "Formulario de soporte técnico Proein"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Army Men",
+      "Army Men II",
+      "Sarge",
+      "The 3DO Company",
+      "3DO",
+      "Proein",
+      "soldados de plástico",
+      "guerra de juguete",
+      "perspectiva cenital",
+      "multijugador",
+      "inteligencia artificial",
+      "edición española",
+      "manual en castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box",
+      "SafeDisc",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "",
+      "preservacion": "La edición en CD-ROM utiliza SafeDisc. Para preservación se recomienda una imagen sectorial capaz de conservar la estructura y los sectores característicos de la protección, preferentemente CCD/IMG/SUB, además de digitalizar el manual y la documentación de Proein. La ejecución virtual es viable en un entorno Windows 95/98 correctamente configurado, aunque SafeDisc presenta incompatibilidades con versiones modernas de Windows.",
+      "formato": "CCD/IMG/SUB",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Blade: The Edge of Darkness - Edición Especial",
@@ -16508,44 +16696,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Army Men: Real Combat. Plastic Men",
-    "url": "juegos/army-men-real-combat-plastic-men-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Estrategia"
-    ],
-    "desarrollador": [
-      "The 3DO Company"
-    ],
-    "distribuidor": [
-      "The 3DO Company"
-    ],
-    "ean": [],
-    "descripcion": "Army Men: Real Combat. Plastic Men es una recopilación dentro de la saga Army Men que incluye varios títulos protagonizados por los soldados de plástico verde y beige. Combina acción en tercera persona con elementos de estrategia, ofreciendo misiones variadas ambientadas en campos de batalla caseros y escenarios fantásticos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Multijugador"
-    ],
-    "proteccion": {
-      "tipo": "Sin protección",
-      "version": "",
-      "preservacion": "ImgBurn o Alcohol 120% - Perfil Normal CD",
-      "formato": "ISO",
-      "jugable_virtual": true
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Gothic 4: Arcania",
     "url": "juegos/gothic-4-arcania-bigbox/",
     "plataforma": [
@@ -16772,45 +16922,6 @@
       "preservacion": "Pendiente de documentación",
       "formato": "No aplica",
       "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Army Men: In Space",
-    "url": "juegos/army-men-in-space-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter"
-    ],
-    "desarrollador": [
-      "The 3DO Company"
-    ],
-    "distribuidor": [
-      "The 3DO Company"
-    ],
-    "ean": [],
-    "descripcion": "Army Men: In Space es una entrega de la saga Army Men en la que los icónicos soldados de plástico se enfrentan en escenarios de temática espacial. Incluye misiones de combate en tercera persona y batallas futuristas, manteniendo el estilo humorístico y arcade característico de la serie.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Precintado",
-      "Multijugador"
-    ],
-    "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDF/MDS",
-      "jugable_virtual": true
     }
   },
   {
@@ -17857,44 +17968,6 @@
       "preservacion": "Pendiente de documentación",
       "formato": "No aplica",
       "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Army Men II",
-    "url": "juegos/army-men-ii-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Acción"
-    ],
-    "desarrollador": [
-      "The 3DO Company"
-    ],
-    "distribuidor": [
-      "The 3DO Company"
-    ],
-    "ean": [],
-    "descripcion": "Army Men II continúa la guerra entre los ejércitos de soldados de plástico verdes y marrones. Esta secuela introduce nuevos escenarios tanto en el mundo real como en el universo de los juguetes, con misiones más variadas, vehículos y una jugabilidad que combina estrategia y acción en tiempo real.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "SafeDisc",
-      "version": "1.x",
-      "preservacion": "Alcohol 120% - Perfil SafeDisc",
-      "formato": "MDF/MDS",
-      "jugable_virtual": true
     }
   },
   {
