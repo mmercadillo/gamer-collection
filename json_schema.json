@@ -19,7 +19,12 @@
     "incluye",
     "serie",
     "tags",
-    "proteccion"
+    "proteccion",
+    "anio",
+    "mercado",
+    "idioma",
+    "soporte",
+    "tipo_edicion"
   ],
   "properties": {
     "num": {
@@ -228,6 +233,166 @@
         "jugable_virtual": {
           "type": "boolean"
         }
+      }
+    },
+    "anio": {
+      "type": "string",
+      "pattern": "^$|^\\d{4}$",
+      "description": "Año de publicación de la edición física catalogada. Usa cuatro dígitos; vacío si todavía no está documentado."
+    },
+    "mercado": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "Mercado o territorio comercial al que estaba destinada la edición física. Array vacío si todavía no está documentado.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "España",
+          "Portugal",
+          "Francia",
+          "Alemania",
+          "Italia",
+          "Reino Unido",
+          "Irlanda",
+          "Países Bajos",
+          "Bélgica",
+          "Luxemburgo",
+          "Austria",
+          "Suiza",
+          "Dinamarca",
+          "Suecia",
+          "Noruega",
+          "Finlandia",
+          "Islandia",
+          "Polonia",
+          "República Checa",
+          "Eslovaquia",
+          "Hungría",
+          "Rumanía",
+          "Bulgaria",
+          "Grecia",
+          "Croacia",
+          "Eslovenia",
+          "Estonia",
+          "Letonia",
+          "Lituania",
+          "Europa",
+          "Estados Unidos",
+          "Canadá",
+          "México",
+          "Norteamérica",
+          "Brasil",
+          "Argentina",
+          "Latinoamérica",
+          "Australia",
+          "Nueva Zelanda",
+          "Japón",
+          "Corea del Sur",
+          "China",
+          "Asia",
+          "Internacional",
+          "Otro",
+          "No determinado"
+        ]
+      }
+    },
+    "idioma": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "Idiomas presentes en la edición física catalogada (caja, documentación y/o software según lo documentado). Array vacío si todavía no está documentado.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Español",
+          "Catalán",
+          "Gallego",
+          "Euskera",
+          "Portugués",
+          "Inglés",
+          "Francés",
+          "Alemán",
+          "Italiano",
+          "Neerlandés",
+          "Danés",
+          "Sueco",
+          "Noruego",
+          "Finés",
+          "Islandés",
+          "Polaco",
+          "Checo",
+          "Eslovaco",
+          "Húngaro",
+          "Rumano",
+          "Búlgaro",
+          "Griego",
+          "Croata",
+          "Esloveno",
+          "Estonio",
+          "Letón",
+          "Lituano",
+          "Ruso",
+          "Ucraniano",
+          "Turco",
+          "Árabe",
+          "Hebreo",
+          "Japonés",
+          "Coreano",
+          "Chino simplificado",
+          "Chino tradicional",
+          "Multilingüe",
+          "Sin contenido lingüístico",
+          "Otro",
+          "No determinado"
+        ]
+      }
+    },
+    "soporte": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "Soporte o soportes de distribución incluidos en la edición. Array vacío si todavía no está documentado.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Disquete 3,5\"",
+          "Disquete 5,25\"",
+          "CD-ROM",
+          "DVD-ROM",
+          "Blu-ray Disc",
+          "CD de audio",
+          "DVD de vídeo",
+          "USB",
+          "Tarjeta de memoria",
+          "Código de descarga",
+          "Sin soporte físico",
+          "Otro",
+          "No determinado"
+        ]
+      }
+    },
+    "tipo_edicion": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "Clasificación de la edición física. Puede contener varios valores compatibles; array vacío si todavía no está documentado.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Lanzamiento original",
+          "Reedición",
+          "Budget",
+          "Colección",
+          "Compilación",
+          "Bundle/Pack",
+          "Edición especial",
+          "Edición limitada",
+          "Edición coleccionista",
+          "OEM",
+          "Promocional",
+          "Prensa",
+          "Demo",
+          "Shareware",
+          "Otro",
+          "No determinado"
+        ]
       }
     }
   },

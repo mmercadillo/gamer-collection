@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-08-14T14:09:19
+- Fecha: 2026-08-14T14:42:13
 - Juegos en catálogo: 1552
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -10,8 +10,8 @@
 - Plataformas con página/landing indexable: 13
 - Formatos con página/landing indexable: 3
 - Páginas estáticas del catálogo: 65
-- Fichas con imágenes documentales detectadas: 1550
-- Imágenes documentales incluidas en el sitemap: 2547
+- Fichas con imágenes documentales detectadas: 0
+- Imágenes documentales incluidas en el sitemap: 0
 
 ## Observaciones
 
