@@ -78,14 +78,22 @@ if(window.PCGA_ANALYTICS_ENABLED){
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Distribuidores","item":"https://pcgamearchive.org/distribuidores/"},{"@type":"ListItem","position":3,"name":"NovaLogic","item":"https://pcgamearchive.org/distribuidores/novalogic/"}]}</script>
 </head>
 <body>
-<header id="top">
-  <div class="wrap header-row">
-    <a class="brand" href="../../" aria-label="PC Game Archive">
-      <img class="logo" src="../../logo.png" alt="PC Game Archive logo">
-      <span><strong>PC Game Archive</strong><small>Distribuidores · Archivo documental</small></span>
-    </a>
-    <nav class="nav" aria-label="Navegación principal">
-      <a class="active" href="../../">Inicio</a>
+<header id="top" class="site-header">
+  <div class="site-identity">
+    <div class="wrap brand-row">
+      <a class="brand" href="../../" aria-label="PC Game Archive">
+        <img class="logo" src="../../logo.png" alt="PC Game Archive logo">
+        <span><strong>PC Game Archive</strong><small>Distribuidores · Archivo documental</small></span>
+      </a>
+    </div>
+  </div>
+  <div class="site-navigation">
+    <div class="wrap nav-row">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-nav-toggle>
+        <span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menú</span>
+      </button>
+      <nav class="nav" id="main-navigation" aria-label="Navegación principal">
+        <a class="active" href="../../">Inicio</a>
 <a href="../../catalogo/">Catálogo</a>
 <a href="../../videojuegos-clasicos-pc.html">PC clásico</a>
 <a href="../../juegos-pc-big-box.html">Big Box PC</a>
@@ -94,7 +102,8 @@ if(window.PCGA_ANALYTICS_ENABLED){
 <a href="../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a href="../../contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
-    </nav>
+      </nav>
+    </div>
   </div>
 </header>
 <main class="wrap">
@@ -212,6 +221,23 @@ if(window.PCGA_ANALYTICS_ENABLED){
   </div>
 </footer>
 <script>
+(function(){
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var menu=document.getElementById('main-navigation');
+  if(!toggle || !menu) return;
+  toggle.addEventListener('click',function(){
+    var open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    menu.classList.toggle('is-open',!open);
+  });
+  menu.addEventListener('click',function(e){
+    if(!e.target.closest('a')) return;
+    if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){
+      toggle.setAttribute('aria-expanded','false');
+      menu.classList.remove('is-open');
+    }
+  });
+})();
 document.addEventListener('click',function(e){
   var btn=e.target.closest('[data-scroll-top]');
   if(btn){

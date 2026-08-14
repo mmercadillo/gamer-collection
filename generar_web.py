@@ -739,15 +739,24 @@ def layout(title: str, description: str, canonical: str, active: str, body: str,
 {head(title, description, canonical, prefix, image, jsonld, image_alt)}
 </head>
 <body>
-<header id="top">
-  <div class="wrap header-row">
-    <a class="brand" href="{home_href(prefix)}" aria-label="PC Game Archive">
-      <img class="logo" src="{prefix}logo.png" alt="PC Game Archive logo">
-      <span><strong>PC Game Archive</strong><small>{h(subtitle)}</small></span>
-    </a>
-    <nav class="nav" aria-label="Navegación principal">
-      {nav(active, prefix)}
-    </nav>
+<header id="top" class="site-header">
+  <div class="site-identity">
+    <div class="wrap brand-row">
+      <a class="brand" href="{home_href(prefix)}" aria-label="PC Game Archive">
+        <img class="logo" src="{prefix}logo.png" alt="PC Game Archive logo">
+        <span><strong>PC Game Archive</strong><small>{h(subtitle)}</small></span>
+      </a>
+    </div>
+  </div>
+  <div class="site-navigation">
+    <div class="wrap nav-row">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-nav-toggle>
+        <span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menú</span>
+      </button>
+      <nav class="nav" id="main-navigation" aria-label="Navegación principal">
+        {nav(active, prefix)}
+      </nav>
+    </div>
   </div>
 </header>
 {body}
@@ -758,6 +767,23 @@ def layout(title: str, description: str, canonical: str, active: str, body: str,
   </div>
 </footer>
 <script>
+(function(){{
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var menu=document.getElementById('main-navigation');
+  if(!toggle || !menu) return;
+  toggle.addEventListener('click',function(){{
+    var open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    menu.classList.toggle('is-open',!open);
+  }});
+  menu.addEventListener('click',function(e){{
+    if(!e.target.closest('a')) return;
+    if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){{
+      toggle.setAttribute('aria-expanded','false');
+      menu.classList.remove('is-open');
+    }}
+  }});
+}})();
 document.addEventListener('click',function(e){{
   var btn=e.target.closest('[data-scroll-top]');
   if(btn){{
@@ -2157,7 +2183,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase12.1-layout-buscador-2026-08-14")
+    print("Versión generador: fase12.2-cabecera-dos-niveles-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
@@ -2171,6 +2197,12 @@ CSS = r'''
 CSS += r'''
 .catalog-search-advanced{display:grid;grid-template-columns:1fr;gap:10px;margin-top:20px;align-items:stretch}.catalog-search-advanced .search-query-row{min-width:0}.catalog-search-advanced .search-filter-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr) auto;gap:10px;align-items:stretch}.catalog-search-advanced .search-query-row>input,.catalog-search-advanced .search-autocomplete{width:100%}.catalog-search-advanced .search-query-row input{font-size:18px;padding:16px 18px}.catalog-search-advanced .search-filter-row select{width:100%;min-width:0}.catalog-search-advanced .search-filter-row>button{min-width:126px}.search-autocomplete{position:relative;flex:1;min-width:0}.search-autocomplete>input{width:100%}.search-suggestions{position:absolute;left:0;right:0;top:calc(100% + 7px);z-index:40;background:#fff;border:1px solid var(--bd);border-radius:16px;box-shadow:0 16px 42px rgba(0,0,0,.14);padding:8px;max-height:430px;overflow:auto}.search-suggestions[hidden]{display:none}.search-hero button.search-suggestion{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;text-align:left;border:1px solid transparent;background:#fff;color:#111;padding:13px 14px;border-radius:12px;cursor:pointer}.search-hero button.search-suggestion:hover,.search-hero button.search-suggestion.is-active{background:#f7f7f5;color:#111;border-color:var(--bd)}.search-suggestion-main{min-width:0;display:flex;flex-direction:column;gap:3px}.search-suggestion-main strong{white-space:normal;overflow:visible;text-overflow:clip;font-size:15px;line-height:1.28}.search-suggestion-main small,.search-suggestion-count{color:var(--g);font-size:12px;line-height:1.3}.search-suggestion-count{white-space:nowrap;font-weight:700}.search-facets{margin:16px 0 8px;padding:14px;background:#fff;border:1px solid var(--bd);border-radius:18px}.search-facets-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}.search-facets-head strong{font-size:14px}.search-facets-head a{font-size:12px;color:var(--g);font-weight:800}.search-facet-groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.search-facet-group{min-width:0}.search-facet-group>strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--g);margin-bottom:7px}.search-facet-values{display:flex;flex-wrap:wrap;gap:6px}.facet-chip{display:inline-flex;gap:5px;align-items:center;padding:5px 8px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none;font-size:11px;line-height:1.2}.facet-chip:hover,.facet-chip.active{background:#111;color:#fff;border-color:#111}.facet-chip span{opacity:.7}.search-empty{grid-column:1/-1}.search-empty h3{margin-top:0}.search-empty-suggestions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.search-empty-suggestions a{font-size:12px;padding:7px 10px;border:1px solid var(--bd);border-radius:999px;text-decoration:none;background:#fff}.search-empty-suggestions a:hover{background:var(--soft)}
 @media(max-width:900px){.search-facet-groups{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:700px){.catalog-search-advanced .search-filter-row{grid-template-columns:1fr}.catalog-search-advanced .search-filter-row>button{width:100%}}@media(max-width:520px){.search-facet-groups{grid-template-columns:1fr}.search-suggestions{max-height:320px}.search-hero button.search-suggestion{padding:12px;gap:10px}.search-suggestion-main strong{font-size:14px}}
+'''
+CSS += r'''
+/* Fase 12.2: cabecera en dos niveles */
+.site-header{background:rgba(255,255,255,.96)}.site-identity{background:#fff}.brand-row{display:flex;align-items:center;padding-top:16px;padding-bottom:16px}.brand{min-width:0}.brand strong{font-size:20px;line-height:1.2}.brand small{font-size:13px;line-height:1.45;margin-top:3px}.logo{width:58px;height:58px}.site-navigation{border-top:1px solid var(--bd);background:rgba(255,255,255,.96)}.nav-row{display:flex;align-items:center;justify-content:center;min-height:54px;padding-top:6px;padding-bottom:6px}.nav{width:100%;justify-content:center;align-items:center;flex-wrap:nowrap;gap:4px}.nav a{white-space:nowrap;font-size:13.5px;padding:8px 10px}.nav-toggle{display:none;border:1px solid var(--bd);background:#fff;color:#111;border-radius:12px;padding:9px 12px;font-weight:850;font-size:14px;cursor:pointer;align-items:center;gap:8px}.nav-toggle:hover{background:#f7f7f5}.nav-toggle-icon{font-size:17px;line-height:1}
+@media(max-width:900px){header.site-header{position:sticky}.brand-row{padding-top:12px;padding-bottom:12px}.brand strong{font-size:18px}.brand small{font-size:12px}.logo{width:52px;height:52px}.nav-row{display:grid;grid-template-columns:1fr;min-height:50px;padding-top:6px;padding-bottom:6px}.nav-toggle{display:inline-flex;justify-self:end}.nav{display:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:7px 0 5px}.nav.is-open{display:grid}.nav a{text-align:center;border:1px solid var(--bd);border-radius:12px;padding:10px 9px;background:#fff}.nav a:hover,.nav a.active{background:#f3f3f1}.nav a.active{border-color:#cfcfca}}
+@media(max-width:520px){.brand small{max-width:260px}.nav{grid-template-columns:1fr}.nav a{text-align:left;padding-left:12px}}
 '''
 
 JS = r'''(function(){
