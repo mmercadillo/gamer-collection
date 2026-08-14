@@ -24,48 +24,97 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
 <link rel="manifest" href="../../site.webmanifest" />
 <link rel="stylesheet" href="../../assets/css/styles.css" />
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SQN0WTMVP3');</script>
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/juegos/duke-nukem-3d-bigbox/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
+</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"Duke Nukem 3D","url":"https://pcgamearchive.org/juegos/duke-nukem-3d-bigbox/","description":"Duke Nukem 3D es uno de los shooters en primera persona más influyentes de la segunda mitad de los años noventa. Desarrollado por 3D Realms sobre el Build Engine, trasladó el FPS de estética abstracta y laberíntica hacia escenarios urbanos reconocibles, cargados de interacción ambiental, humor irreverente, referencias cinematográficas, violencia exagerada y una personalidad protagonista muy marcada. La edición Complete Version distribuida comercialmente por FormGen y producida bajo licencia…","gamePlatform":["MsDos","Win95"],"genre":["Shooter en primera persona","Acción","Ciencia ficción","Comedia adulta"],"author":[{"@type":"Organization","name":"3D Realms Entertainment"}],"publisher":[{"@type":"Organization","name":"FormGen Incorporated"},{"@type":"Organization","name":"U.S. Gold"}],"image":"https://pcgamearchive.org/juegos/duke-nukem-3d-bigbox/img/001.jpg"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Big Box","item":"https://pcgamearchive.org/bigbox.html"},{"@type":"ListItem","position":3,"name":"Duke Nukem 3D","item":"https://pcgamearchive.org/juegos/duke-nukem-3d-bigbox/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Big Box","item":"https://pcgamearchive.org/juegos-pc-big-box.html"},{"@type":"ListItem","position":3,"name":"Duke Nukem 3D","item":"https://pcgamearchive.org/juegos/duke-nukem-3d-bigbox/"}]}</script>
 </head>
 <body>
 <header id="top">
   <div class="wrap header-row">
-    <a class="brand" href="../../index.html" aria-label="PC Game Archive">
+    <a class="brand" href="../../" aria-label="PC Game Archive">
       <img class="logo" src="../../logo.png" alt="PC Game Archive logo">
       <span><strong>PC Game Archive</strong><small>Ficha documental</small></span>
     </a>
     <nav class="nav" aria-label="Navegación principal">
-      <a href="../../index.html">Inicio</a>
+      <a class="active" href="../../">Inicio</a>
+<a href="../../catalogo/">Catálogo</a>
 <a href="../../videojuegos-clasicos-pc.html">PC clásico</a>
 <a href="../../juegos-pc-big-box.html">Big Box PC</a>
 <a href="../../juegos-msdos.html">MS-DOS</a>
 <a href="../../series.html">Series</a>
+<a href="../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a href="../../contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
     </nav>
   </div>
 </header>
 <main class="wrap game-detail">
-  <nav class="breadcrumbs"><a href="../../index.html">Inicio</a> / <a href="../../bigbox.html">Catálogo</a> / <span>Duke Nukem 3D</span></nav>
+  <nav class="breadcrumbs"><a href="../../">Inicio</a> / <a href="../../juegos-pc-big-box.html">Big Box</a> / <span>Duke Nukem 3D</span></nav>
   <article class="detail-grid">
     <section class="media-card">
-      <img class="hero-img" src="../../juegos/duke-nukem-3d-bigbox/img/001.jpg" alt="Edición física de Duke Nukem 3D" width="760" height="570" onerror="this.classList.add('missing');this.removeAttribute('src')">
-      <div class="chips"><a class="chip" href="../../index.html?q=Big%20Box">Big Box</a><a class="chip" href="../../index.html?q=MsDos">MsDos</a><a class="chip" href="../../index.html?q=Win95">Win95</a><a class="chip" href="../../index.html?q=Todos">Todos</a><a class="chip" href="../../index.html?q=Big%20Box">Big Box</a></div>
-      <div class="actions"><a class="button" href="../../index.html">Volver al catálogo</a><a class="button" href="https://www.instagram.com/p/DZhNBELiDtB" target="_blank" rel="noopener">Ver publicación en Instagram</a></div>
+      <img class="hero-img" src="/juegos/duke-nukem-3d-bigbox/img/001.jpg" alt="Edición física de Duke Nukem 3D" width="760" height="570" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')">
+      <div class="chips"><a class="chip" href="../../juegos-pc-big-box.html">Big Box</a><a class="chip" href="../../juegos-msdos.html">MsDos</a><a class="chip" href="../../juegos-windows-95-98.html">Win95</a><a class="chip" href="../../?serie=Todos">Todos</a><a class="chip" href="../../?serie=Big%20Box">Big Box</a></div>
+      <div class="actions"><a class="button" href="../../">Volver al catálogo</a><a class="button" href="https://www.instagram.com/p/DZhNBELiDtB" target="_blank" rel="noopener">Ver publicación en Instagram</a></div>
     </section>
     <section class="content-card">
       <p class="eyebrow">Ficha #000097</p>
       <h1>Duke Nukem 3D</h1>
       <p class="lead">Duke Nukem 3D es uno de los shooters en primera persona más influyentes de la segunda mitad de los años noventa. Desarrollado por 3D Realms sobre el Build Engine, trasladó el FPS de estética abstracta y laberíntica hacia escenarios urbanos reconocibles, cargados de interacción ambiental, humor irreverente, referencias cinematográficas, violencia exagerada y una personalidad protagonista muy marcada. La edición Complete Version distribuida comercialmente por FormGen y producida bajo licencia por U.S. Gold representa una de las ediciones europeas en caja grande para PC CD-ROM, con clasificación BBFC 18 y fuerte orientación al mercado adulto. Su valor archivístico reside tanto en la importancia cultural del juego dentro del auge del FPS posterior a Doom como en su papel dentro de la distribución física europea de títulos asociados a Apogee/3D Realms, FormGen y U.S. Gold.</p>
       <dl class="kv">
-        <dt>Formato</dt><dd>Big Box</dd>
-        <dt>Plataforma</dt><dd class="tagrow"><a class="tag" href="../../index.html?plataforma=MsDos">MsDos</a> <a class="tag" href="../../index.html?plataforma=Win95">Win95</a></dd>
-        <dt>Género</dt><dd class="tagrow"><a class="tag" href="../../index.html?genero=Shooter%20en%20primera%20persona">Shooter en primera persona</a> <a class="tag" href="../../index.html?genero=Acci%C3%B3n">Acción</a> <a class="tag" href="../../index.html?genero=Ciencia%20ficci%C3%B3n">Ciencia ficción</a> <a class="tag" href="../../index.html?genero=Comedia%20adulta">Comedia adulta</a></dd>
-        <dt>Serie</dt><dd class="tagrow"><a class="tag" href="../../index.html?serie=Todos">Todos</a> <a class="tag" href="../../index.html?serie=Big%20Box">Big Box</a></dd>
-        <dt>Desarrollador</dt><dd>3D Realms Entertainment</dd>
-        <dt>Distribuidor</dt><dd>FormGen Incorporated, U.S. Gold</dd>
+        <dt>Formato</dt><dd class="tagrow"><a class="tag" href="../../juegos-pc-big-box.html">Big Box</a></dd>
+        <dt>Plataforma</dt><dd class="tagrow"><a class="tag" href="../../juegos-msdos.html">MsDos</a> <a class="tag" href="../../juegos-windows-95-98.html">Win95</a></dd>
+        <dt>Género</dt><dd class="tagrow"><a class="tag" href="../../generos/shooter-en-primera-persona/">Shooter en primera persona</a> <a class="tag" href="../../generos/accion/">Acción</a> <a class="tag" href="../../generos/ciencia-ficcion/">Ciencia ficción</a> <span class="tag">Comedia adulta</span></dd>
+        <dt>Serie</dt><dd class="tagrow"><a class="tag" href="../../?serie=Todos">Todos</a> <a class="tag" href="../../?serie=Big%20Box">Big Box</a></dd>
+        <dt>Desarrollador</dt><dd class="tagrow"><span class="tag">3D Realms Entertainment</span></dd>
+        <dt>Distribuidor</dt><dd class="tagrow"><span class="tag">FormGen Incorporated</span> <a class="tag" href="../../distribuidores/u-s-gold/">U.S. Gold</a></dd>
         <dt>EAN</dt><dd>—</dd>
       </dl>
       <h2>Contenido de la edición</h2>
@@ -75,9 +124,41 @@
       <p>Preservación recomendada mediante imagen completa del CD-ROM original, documentación fotográfica de la caja, jewel case, tarjeta de registro y materiales U.S. Gold incluidos. La ejecución virtual es viable en DOSBox o en un entorno Windows 95 virtualizado; conviene verificar en la edición concreta si existe comprobación de presencia del CD durante instalación o ejecución.</p>
     </section>
   </article>
-  <section class="content-card"><h2>Galería documental</h2><div class="gallery"><img src="../../juegos/duke-nukem-3d-bigbox/img/001.jpg" alt="Duke Nukem 3D" loading="lazy" width="480" height="360" onerror="this.remove()">
-<img src="../../juegos/duke-nukem-3d-bigbox/img/002.jpg" alt="Duke Nukem 3D" loading="lazy" width="480" height="360" onerror="this.remove()">
-<img src="../../juegos/duke-nukem-3d-bigbox/img/003.jpg" alt="Duke Nukem 3D" loading="lazy" width="480" height="360" onerror="this.remove()"></div></section>
+  <section class="content-card"><h2>Galería documental</h2><div class="gallery"><img src="/juegos/duke-nukem-3d-bigbox/img/001.jpg" alt="Duke Nukem 3D" loading="lazy" width="480" height="360" onerror="this.remove()">
+<img src="/juegos/duke-nukem-3d-bigbox/img/002.jpg" alt="Duke Nukem 3D" loading="lazy" width="480" height="360" onerror="this.remove()">
+<img src="/juegos/duke-nukem-3d-bigbox/img/003.jpg" alt="Duke Nukem 3D" loading="lazy" width="480" height="360" onerror="this.remove()"></div></section>
+  <section class="related-area" aria-label="Explorar juegos relacionados"><section class="related-section" data-related-kind="similar"><div class="section-head"><h2>Juegos relacionados</h2></div><div class="related-grid"><a class="game-card" href="/juegos/gunman-chronicles-bigbox/" data-game-link data-game-id="gunman-chronicles-bigbox">
+  <img src="/juegos/gunman-chronicles-bigbox/img/001.jpg" alt="Portada de Gunman Chronicles" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Gunman Chronicles</strong>
+    <small>Shooter en primera persona, Acción, Ciencia ficción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/half-life-generation-bigbox/" data-game-link data-game-id="half-life-generation-bigbox">
+  <img src="/juegos/half-life-generation-bigbox/img/001.jpg" alt="Portada de Half-Life Generation" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Half-Life Generation</strong>
+    <small>Shooter en primera persona, Acción, Ciencia ficción, Compilación, Expansión, Multijugador</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/half-life-juego-del-ano-bigbox/" data-game-link data-game-id="half-life-juego-del-ano-bigbox">
+  <img src="/juegos/half-life-juego-del-ano-bigbox/img/001.jpg" alt="Portada de Half-Life: Juego del Año" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Half-Life: Juego del Año</strong>
+    <small>Shooter en primera persona, Acción, Ciencia ficción, Aventura narrativa, Multijugador</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/half-life-opposing-force-bigbox/" data-game-link data-game-id="half-life-opposing-force-bigbox">
+  <img src="/juegos/half-life-opposing-force-bigbox/img/001.jpg" alt="Portada de Half-Life: Opposing Force" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Half-Life: Opposing Force</strong>
+    <small>Shooter en primera persona, Acción, Ciencia ficción, Expansión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a></div></section></section>
 </main>
 <footer>
   <div class="wrap footrow">
@@ -88,10 +169,60 @@
 <script>
 document.addEventListener('click',function(e){
   var btn=e.target.closest('[data-scroll-top]');
-  if(!btn) return;
-  e.preventDefault();
-  window.scrollTo({top:0,behavior:'smooth'});
-  if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    var offerEvent={
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
+  }
+
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  }
 });
 </script>
 </body>

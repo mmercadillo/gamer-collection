@@ -24,48 +24,97 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
 <link rel="manifest" href="../../site.webmanifest" />
 <link rel="stylesheet" href="../../assets/css/styles.css" />
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SQN0WTMVP3');</script>
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/juegos/war-for-the-overlord-cddvd/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
+</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"War for the Overlord","url":"https://pcgamearchive.org/juegos/war-for-the-overlord-cddvd/","description":"Sucesor espiritual de Dungeon Keeper, este título permite al jugador construir y gestionar su propia mazmorra, entrenar criaturas y enfrentarse a héroes que intentan invadirla.","gamePlatform":["WinXP","Windows Vista","Win7"],"genre":["Estrategia","Gestión"],"author":[{"@type":"Organization","name":"Subterranean Games"}],"publisher":[{"@type":"Organization","name":"Subterranean Games"}],"image":"https://pcgamearchive.org/juegos/war-for-the-overlord-cddvd/img/001.jpg"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"DVD Case","item":"https://pcgamearchive.org/index.html"},{"@type":"ListItem","position":3,"name":"War for the Overlord","item":"https://pcgamearchive.org/juegos/war-for-the-overlord-cddvd/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"DVD Case","item":"https://pcgamearchive.org/formatos/dvd-case/"},{"@type":"ListItem","position":3,"name":"War for the Overlord","item":"https://pcgamearchive.org/juegos/war-for-the-overlord-cddvd/"}]}</script>
 </head>
 <body>
 <header id="top">
   <div class="wrap header-row">
-    <a class="brand" href="../../index.html" aria-label="PC Game Archive">
+    <a class="brand" href="../../" aria-label="PC Game Archive">
       <img class="logo" src="../../logo.png" alt="PC Game Archive logo">
       <span><strong>PC Game Archive</strong><small>Ficha documental</small></span>
     </a>
     <nav class="nav" aria-label="Navegación principal">
-      <a href="../../index.html">Inicio</a>
+      <a class="active" href="../../">Inicio</a>
+<a href="../../catalogo/">Catálogo</a>
 <a href="../../videojuegos-clasicos-pc.html">PC clásico</a>
 <a href="../../juegos-pc-big-box.html">Big Box PC</a>
 <a href="../../juegos-msdos.html">MS-DOS</a>
 <a href="../../series.html">Series</a>
+<a href="../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a href="../../contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
     </nav>
   </div>
 </header>
 <main class="wrap game-detail">
-  <nav class="breadcrumbs"><a href="../../index.html">Inicio</a> / <a href="../../bigbox.html">Catálogo</a> / <span>War for the Overlord</span></nav>
+  <nav class="breadcrumbs"><a href="../../">Inicio</a> / <a href="../../formatos/dvd-case/">DVD Case</a> / <span>War for the Overlord</span></nav>
   <article class="detail-grid">
     <section class="media-card">
-      <img class="hero-img" src="../../juegos/war-for-the-overlord-cddvd/img/001.jpg" alt="Edición física de War for the Overlord" width="760" height="570" onerror="this.classList.add('missing');this.removeAttribute('src')">
-      <div class="chips"><a class="chip" href="../../index.html?q=DVD%20Case">DVD Case</a><a class="chip" href="../../index.html?q=WinXP">WinXP</a><a class="chip" href="../../index.html?q=Windows%20Vista">Windows Vista</a><a class="chip" href="../../index.html?q=Win7">Win7</a><a class="chip" href="../../index.html?q=Todos">Todos</a><a class="chip" href="../../index.html?q=DVD%20Case">DVD Case</a></div>
-      <div class="actions"><a class="button" href="../../index.html">Volver al catálogo</a></div>
+      <img class="hero-img" src="/juegos/war-for-the-overlord-cddvd/img/001.jpg" alt="Edición física de War for the Overlord" width="760" height="570" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')">
+      <div class="chips"><a class="chip" href="../../formatos/dvd-case/">DVD Case</a><a class="chip" href="../../plataformas/winxp/">WinXP</a><a class="chip" href="../../plataformas/windows-vista/">Windows Vista</a><a class="chip" href="../../plataformas/win7/">Win7</a><a class="chip" href="../../?serie=Todos">Todos</a><a class="chip" href="../../?serie=DVD%20Case">DVD Case</a></div>
+      <div class="actions"><a class="button" href="../../">Volver al catálogo</a></div>
     </section>
     <section class="content-card">
       <p class="eyebrow">Ficha #000000</p>
       <h1>War for the Overlord</h1>
       <p class="lead">Sucesor espiritual de Dungeon Keeper, este título permite al jugador construir y gestionar su propia mazmorra, entrenar criaturas y enfrentarse a héroes que intentan invadirla.</p>
       <dl class="kv">
-        <dt>Formato</dt><dd>DVD Case</dd>
-        <dt>Plataforma</dt><dd class="tagrow"><a class="tag" href="../../index.html?plataforma=WinXP">WinXP</a> <a class="tag" href="../../index.html?plataforma=Windows%20Vista">Windows Vista</a> <a class="tag" href="../../index.html?plataforma=Win7">Win7</a></dd>
-        <dt>Género</dt><dd class="tagrow"><a class="tag" href="../../index.html?genero=Estrategia">Estrategia</a> <a class="tag" href="../../index.html?genero=Gesti%C3%B3n">Gestión</a></dd>
-        <dt>Serie</dt><dd class="tagrow"><a class="tag" href="../../index.html?serie=Todos">Todos</a> <a class="tag" href="../../index.html?serie=DVD%20Case">DVD Case</a></dd>
-        <dt>Desarrollador</dt><dd>Subterranean Games</dd>
-        <dt>Distribuidor</dt><dd>Subterranean Games</dd>
+        <dt>Formato</dt><dd class="tagrow"><a class="tag" href="../../formatos/dvd-case/">DVD Case</a></dd>
+        <dt>Plataforma</dt><dd class="tagrow"><a class="tag" href="../../plataformas/winxp/">WinXP</a> <a class="tag" href="../../plataformas/windows-vista/">Windows Vista</a> <a class="tag" href="../../plataformas/win7/">Win7</a></dd>
+        <dt>Género</dt><dd class="tagrow"><a class="tag" href="../../generos/estrategia/">Estrategia</a> <a class="tag" href="../../generos/gestion/">Gestión</a></dd>
+        <dt>Serie</dt><dd class="tagrow"><a class="tag" href="../../?serie=Todos">Todos</a> <a class="tag" href="../../?serie=DVD%20Case">DVD Case</a></dd>
+        <dt>Desarrollador</dt><dd class="tagrow"><span class="tag">Subterranean Games</span></dd>
+        <dt>Distribuidor</dt><dd class="tagrow"><span class="tag">Subterranean Games</span></dd>
         <dt>EAN</dt><dd>—</dd>
       </dl>
       <h2>Contenido de la edición</h2>
@@ -75,7 +124,39 @@
       <p>Pendiente de documentación</p>
     </section>
   </article>
-  <section class="content-card"><h2>Galería documental</h2><div class="gallery"><img src="../../juegos/war-for-the-overlord-cddvd/img/001.jpg" alt="War for the Overlord" loading="lazy" width="480" height="360" onerror="this.remove()"></div></section>
+  <section class="content-card"><h2>Galería documental</h2><div class="gallery"><img src="/juegos/war-for-the-overlord-cddvd/img/001.jpg" alt="War for the Overlord" loading="lazy" width="480" height="360" onerror="this.remove()"></div></section>
+  <section class="related-area" aria-label="Explorar juegos relacionados"><section class="related-section" data-related-kind="similar"><div class="section-head"><h2>Juegos relacionados</h2></div><div class="related-grid"><a class="game-card" href="/juegos/chicago-1930-cddvd/" data-game-link data-game-id="chicago-1930-cddvd">
+  <img src="/juegos/chicago-1930-cddvd/img/001.jpg" alt="Portada de Chicago 1930" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Chicago 1930</strong>
+    <small>Estrategia, Gestión, Crimen</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">WinXP</span><span class="tag">Windows Vista</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/anno-1404-cddvd/" data-game-link data-game-id="anno-1404-cddvd">
+  <img src="/juegos/anno-1404-cddvd/img/001.jpg" alt="Portada de Anno 1404" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Anno 1404</strong>
+    <small>Estrategia, Gestión, Construcción de ciudades</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">WinXP</span><span class="tag">Windows Vista</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/caesar-iv-cddvd/" data-game-link data-game-id="caesar-iv-cddvd">
+  <img src="/juegos/caesar-iv-cddvd/img/001.jpg" alt="Portada de Caesar IV" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Caesar IV</strong>
+    <small>Estrategia, Gestión, Construcción</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">Win2000</span><span class="tag">WinXP</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/the-nations-cddvd/" data-game-link data-game-id="the-nations-cddvd">
+  <img src="/juegos/the-nations-cddvd/img/001.jpg" alt="Portada de The Nations" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>The Nations</strong>
+    <small>Estrategia, Gestión</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a></div></section></section>
 </main>
 <footer>
   <div class="wrap footrow">
@@ -86,10 +167,60 @@
 <script>
 document.addEventListener('click',function(e){
   var btn=e.target.closest('[data-scroll-top]');
-  if(!btn) return;
-  e.preventDefault();
-  window.scrollTo({top:0,behavior:'smooth'});
-  if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    var offerEvent={
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
+  }
+
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  }
 });
 </script>
 </body>

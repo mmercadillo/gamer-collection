@@ -24,48 +24,97 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
 <link rel="manifest" href="../../site.webmanifest" />
 <link rel="stylesheet" href="../../assets/css/styles.css" />
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SQN0WTMVP3');</script>
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/juegos/los-sims-bigbox/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
+</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"Los Sims","url":"https://pcgamearchive.org/juegos/los-sims-bigbox/","description":"Los Sims es el simulador social desarrollado por Maxis y publicado por Electronic Arts en el año 2000, diseñado por Will Wright tras el enorme legado de SimCity. El juego trasladó la lógica de la simulación desde la ciudad al hogar y a la vida cotidiana, permitiendo crear personajes, definir su personalidad, construir viviendas, comprar mobiliario, gestionar necesidades, relaciones, trabajo y rutinas domésticas. Su sistema de inteligencia artificial basada en deseos, estados de ánimo, objetos…","gamePlatform":["Win95","Win98"],"genre":["Simulación social","Simulación de vida","Gestión","Construcción"],"author":[{"@type":"Organization","name":"Maxis"}],"publisher":[{"@type":"Organization","name":"Electronic Arts"},{"@type":"Organization","name":"Electronic Arts Software"}],"image":"https://pcgamearchive.org/juegos/los-sims-bigbox/img/001.jpg"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Big Box","item":"https://pcgamearchive.org/bigbox.html"},{"@type":"ListItem","position":3,"name":"Los Sims","item":"https://pcgamearchive.org/juegos/los-sims-bigbox/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Big Box","item":"https://pcgamearchive.org/juegos-pc-big-box.html"},{"@type":"ListItem","position":3,"name":"Los Sims","item":"https://pcgamearchive.org/juegos/los-sims-bigbox/"}]}</script>
 </head>
 <body>
 <header id="top">
   <div class="wrap header-row">
-    <a class="brand" href="../../index.html" aria-label="PC Game Archive">
+    <a class="brand" href="../../" aria-label="PC Game Archive">
       <img class="logo" src="../../logo.png" alt="PC Game Archive logo">
       <span><strong>PC Game Archive</strong><small>Ficha documental</small></span>
     </a>
     <nav class="nav" aria-label="Navegación principal">
-      <a href="../../index.html">Inicio</a>
+      <a class="active" href="../../">Inicio</a>
+<a href="../../catalogo/">Catálogo</a>
 <a href="../../videojuegos-clasicos-pc.html">PC clásico</a>
 <a href="../../juegos-pc-big-box.html">Big Box PC</a>
 <a href="../../juegos-msdos.html">MS-DOS</a>
 <a href="../../series.html">Series</a>
+<a href="../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a href="../../contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
     </nav>
   </div>
 </header>
 <main class="wrap game-detail">
-  <nav class="breadcrumbs"><a href="../../index.html">Inicio</a> / <a href="../../bigbox.html">Catálogo</a> / <span>Los Sims</span></nav>
+  <nav class="breadcrumbs"><a href="../../">Inicio</a> / <a href="../../juegos-pc-big-box.html">Big Box</a> / <span>Los Sims</span></nav>
   <article class="detail-grid">
     <section class="media-card">
-      <img class="hero-img" src="../../juegos/los-sims-bigbox/img/001.jpg" alt="Edición física de Los Sims" width="760" height="570" onerror="this.classList.add('missing');this.removeAttribute('src')">
-      <div class="chips"><a class="chip" href="../../index.html?q=Big%20Box">Big Box</a><a class="chip" href="../../index.html?q=Win95">Win95</a><a class="chip" href="../../index.html?q=Win98">Win98</a><a class="chip" href="../../index.html?q=Todos">Todos</a><a class="chip" href="../../index.html?q=Big%20Box">Big Box</a><a class="chip" href="../../index.html?q=Los%20Sims">Los Sims</a></div>
-      <div class="actions"><a class="button" href="../../index.html">Volver al catálogo</a><a class="button" href="https://www.instagram.com/p/DZURVKhiPIh" target="_blank" rel="noopener">Ver publicación en Instagram</a></div>
+      <img class="hero-img" src="/juegos/los-sims-bigbox/img/001.jpg" alt="Edición física de Los Sims" width="760" height="570" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')">
+      <div class="chips"><a class="chip" href="../../juegos-pc-big-box.html">Big Box</a><a class="chip" href="../../juegos-windows-95-98.html">Win95</a><a class="chip" href="../../juegos-windows-95-98.html">Win98</a><a class="chip" href="../../?serie=Todos">Todos</a><a class="chip" href="../../?serie=Big%20Box">Big Box</a><a class="chip" href="../../?serie=Los%20Sims">Los Sims</a></div>
+      <div class="actions"><a class="button" href="../../">Volver al catálogo</a><a class="button" href="https://www.instagram.com/p/DZURVKhiPIh" target="_blank" rel="noopener">Ver publicación en Instagram</a></div>
     </section>
     <section class="content-card">
       <p class="eyebrow">Ficha #000091</p>
       <h1>Los Sims</h1>
       <p class="lead">Los Sims es el simulador social desarrollado por Maxis y publicado por Electronic Arts en el año 2000, diseñado por Will Wright tras el enorme legado de SimCity. El juego trasladó la lógica de la simulación desde la ciudad al hogar y a la vida cotidiana, permitiendo crear personajes, definir su personalidad, construir viviendas, comprar mobiliario, gestionar necesidades, relaciones, trabajo y rutinas domésticas. Su sistema de inteligencia artificial basada en deseos, estados de ánimo, objetos interactivos y comportamientos emergentes convirtió situaciones aparentemente triviales en historias abiertas creadas por el jugador. Esta edición española en caja grande para PC CD-ROM, traducida al castellano, representa el inicio físico de una de las sagas más influyentes y populares del videojuego de PC, especialmente relevante para documentar el cambio cultural que supuso llevar la simulación de vida al gran público.</p>
       <dl class="kv">
-        <dt>Formato</dt><dd>Big Box</dd>
-        <dt>Plataforma</dt><dd class="tagrow"><a class="tag" href="../../index.html?plataforma=Win95">Win95</a> <a class="tag" href="../../index.html?plataforma=Win98">Win98</a></dd>
-        <dt>Género</dt><dd class="tagrow"><a class="tag" href="../../index.html?genero=Simulaci%C3%B3n%20social">Simulación social</a> <a class="tag" href="../../index.html?genero=Simulaci%C3%B3n%20de%20vida">Simulación de vida</a> <a class="tag" href="../../index.html?genero=Gesti%C3%B3n">Gestión</a> <a class="tag" href="../../index.html?genero=Construcci%C3%B3n">Construcción</a></dd>
-        <dt>Serie</dt><dd class="tagrow"><a class="tag" href="../../index.html?serie=Todos">Todos</a> <a class="tag" href="../../index.html?serie=Big%20Box">Big Box</a> <a class="tag" href="../../index.html?serie=Los%20Sims">Los Sims</a></dd>
-        <dt>Desarrollador</dt><dd>Maxis</dd>
-        <dt>Distribuidor</dt><dd>Electronic Arts, Electronic Arts Software</dd>
+        <dt>Formato</dt><dd class="tagrow"><a class="tag" href="../../juegos-pc-big-box.html">Big Box</a></dd>
+        <dt>Plataforma</dt><dd class="tagrow"><a class="tag" href="../../juegos-windows-95-98.html">Win95</a> <a class="tag" href="../../juegos-windows-95-98.html">Win98</a></dd>
+        <dt>Género</dt><dd class="tagrow"><span class="tag">Simulación social</span> <span class="tag">Simulación de vida</span> <a class="tag" href="../../generos/gestion/">Gestión</a> <a class="tag" href="../../generos/construccion/">Construcción</a></dd>
+        <dt>Serie</dt><dd class="tagrow"><a class="tag" href="../../?serie=Todos">Todos</a> <a class="tag" href="../../?serie=Big%20Box">Big Box</a> <a class="tag" href="../../?serie=Los%20Sims">Los Sims</a></dd>
+        <dt>Desarrollador</dt><dd class="tagrow"><a class="tag" href="../../desarrolladores/maxis/">Maxis</a></dd>
+        <dt>Distribuidor</dt><dd class="tagrow"><a class="tag" href="../../distribuidores/electronic-arts/">Electronic Arts</a> <a class="tag" href="../../distribuidores/electronic-arts-software/">Electronic Arts Software</a></dd>
         <dt>EAN</dt><dd>—</dd>
       </dl>
       <h2>Contenido de la edición</h2>
@@ -75,9 +124,105 @@
       <p>Preservación recomendada mediante imagen completa del CD-ROM original y documentación fotográfica o escaneada del material impreso. Debe verificarse en entorno Windows 95/98 virtualizado con la imagen montada, ya que las ediciones físicas de la época podían requerir comprobación de disco durante instalación o ejecución.</p>
     </section>
   </article>
-  <section class="content-card"><h2>Galería documental</h2><div class="gallery"><img src="../../juegos/los-sims-bigbox/img/001.jpg" alt="Los Sims" loading="lazy" width="480" height="360" onerror="this.remove()">
-<img src="../../juegos/los-sims-bigbox/img/002.jpg" alt="Los Sims" loading="lazy" width="480" height="360" onerror="this.remove()">
-<img src="../../juegos/los-sims-bigbox/img/003.jpg" alt="Los Sims" loading="lazy" width="480" height="360" onerror="this.remove()"></div></section>
+  <section class="content-card"><h2>Galería documental</h2><div class="gallery"><img src="/juegos/los-sims-bigbox/img/001.jpg" alt="Los Sims" loading="lazy" width="480" height="360" onerror="this.remove()">
+<img src="/juegos/los-sims-bigbox/img/002.jpg" alt="Los Sims" loading="lazy" width="480" height="360" onerror="this.remove()">
+<img src="/juegos/los-sims-bigbox/img/003.jpg" alt="Los Sims" loading="lazy" width="480" height="360" onerror="this.remove()"></div></section>
+  <section class="related-area" aria-label="Explorar juegos relacionados"><section class="related-section" data-related-kind="series"><div class="section-head"><h2>Más de Los Sims</h2></div><div class="related-grid"><a class="game-card" href="/juegos/los-sims-2-sims-cddvd/" data-game-link data-game-id="los-sims-2-sims-cddvd">
+  <img src="/juegos/los-sims-2-sims-cddvd/img/001.jpg" alt="Portada de Los Sims 2" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Los Sims 2</strong>
+    <small>Simulación</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/los-sims-2-y-las-cuatro-estaciones-sims-cddvd/" data-game-link data-game-id="los-sims-2-y-las-cuatro-estaciones-sims-cddvd">
+  <img src="/juegos/los-sims-2-y-las-cuatro-estaciones-sims-cddvd/img/001.jpg" alt="Portada de Los Sims 2 y Las Cuatro Estaciones" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Los Sims 2 y Las Cuatro Estaciones</strong>
+    <small>Simulación</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/los-sims-2-y-sus-hobbies-sims-cddvd/" data-game-link data-game-id="los-sims-2-y-sus-hobbies-sims-cddvd">
+  <img src="/juegos/los-sims-2-y-sus-hobbies-sims-cddvd/img/001.jpg" alt="Portada de Los Sims 2 y sus Hobbies" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Los Sims 2 y sus Hobbies</strong>
+    <small>Simulación</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/los-sims-2-abren-negocios-sims-cddvd/" data-game-link data-game-id="los-sims-2-abren-negocios-sims-cddvd">
+  <img src="/juegos/los-sims-2-abren-negocios-sims-cddvd/img/001.jpg" alt="Portada de Los Sims 2: Abren Negocios" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Los Sims 2: Abren Negocios</strong>
+    <small>Simulación</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a></div></section>
+<section class="related-section" data-related-kind="developer"><div class="section-head"><h2>Otros juegos de Maxis</h2></div><div class="related-grid"><a class="game-card" href="/juegos/los-sims-mas-vivos-que-nunca-bigbox/" data-game-link data-game-id="los-sims-mas-vivos-que-nunca-bigbox">
+  <img src="/juegos/los-sims-mas-vivos-que-nunca-bigbox/img/001.jpg" alt="Portada de Los Sims: Más vivos que nunca" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Los Sims: Más vivos que nunca</strong>
+    <small>Simulación social, Simulación de vida, Gestión, Construcción, Expansión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/simcity-3000-bigbox/" data-game-link data-game-id="simcity-3000-bigbox">
+  <img src="/juegos/simcity-3000-bigbox/img/001.jpg" alt="Portada de SimCity 3000" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>SimCity 3000</strong>
+    <small>Simulación, Construcción</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/sim-city-3000-world-edition-cddvd/" data-game-link data-game-id="sim-city-3000-world-edition-cddvd">
+  <img src="/juegos/sim-city-3000-world-edition-cddvd/img/001.jpg" alt="Portada de SimCity 3000 World Edition" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>SimCity 3000 World Edition</strong>
+    <small>Simulación, Construcción</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/sim-city-4-cddvd/" data-game-link data-game-id="sim-city-4-cddvd">
+  <img src="/juegos/sim-city-4-cddvd/img/001.jpg" alt="Portada de SimCity 4" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>SimCity 4</strong>
+    <small>Simulación, Construcción</small>
+    <span class="tagrow"><span class="tag">DVD Case</span><span class="tag">Win98</span><span class="tag">WinMe</span></span>
+  </span>
+</a></div></section>
+<section class="related-section" data-related-kind="similar"><div class="section-head"><h2>Juegos relacionados</h2></div><div class="related-grid"><a class="game-card" href="/juegos/dungeon-keeper-2-bigbox/" data-game-link data-game-id="dungeon-keeper-2-bigbox">
+  <img src="/juegos/dungeon-keeper-2-bigbox/img/001.jpg" alt="Portada de Dungeon Keeper 2" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Dungeon Keeper 2</strong>
+    <small>Estrategia en tiempo real, Gestión, Construcción de mazmorras, Simulación, Fantasía oscura</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/theme-park-world-bigbox/" data-game-link data-game-id="theme-park-world-bigbox">
+  <img src="/juegos/theme-park-world-bigbox/img/001.jpg" alt="Portada de Theme Park World" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Theme Park World</strong>
+    <small>Simulación, Gestión, Construcción y gestión, Tycoon</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/the-settlers-ii-veni-vidi-vici-bigbox/" data-game-link data-game-id="the-settlers-ii-veni-vidi-vici-bigbox">
+  <img src="/juegos/the-settlers-ii-veni-vidi-vici-bigbox/img/001.jpg" alt="Portada de The Settlers II: Veni, Vidi, Vinci" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>The Settlers II: Veni, Vidi, Vinci</strong>
+    <small>Estrategia, Construcción, Gestión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span></span>
+  </span>
+</a>
+<a class="game-card" href="/juegos/caesar-iii-bigbox/" data-game-link data-game-id="caesar-iii-bigbox">
+  <img src="/juegos/caesar-iii-bigbox/img/001.jpg" alt="Portada de Caesar III" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')" />
+  <span class="game-card-body">
+    <strong>Caesar III</strong>
+    <small>Estrategia, Construcción de ciudades, Simulación histórica, Gestión</small>
+    <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
+  </span>
+</a></div></section></section>
 </main>
 <footer>
   <div class="wrap footrow">
@@ -88,10 +233,60 @@
 <script>
 document.addEventListener('click',function(e){
   var btn=e.target.closest('[data-scroll-top]');
-  if(!btn) return;
-  e.preventDefault();
-  window.scrollTo({top:0,behavior:'smooth'});
-  if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    var offerEvent={
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
+  }
+
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  }
 });
 </script>
 </body>
