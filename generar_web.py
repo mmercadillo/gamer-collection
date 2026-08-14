@@ -67,7 +67,97 @@ SEO_LANDING_PAGES = [
     {"filename":"juegos-windows-95-98.html","label":"Windows 95/98","title":"Juegos Windows 95 y Windows 98 · PC clásico en CD-ROM","h1":"Juegos Windows 95 y Windows 98","description":"Catálogo de juegos clásicos de PC para Windows 95 y Windows 98: CD-ROM, Big Box, ediciones españolas, aventuras, estrategia, rol y simulación.","lead":"Documentación de juegos para Windows 95 y Windows 98, una etapa central del CD-ROM, la aceleración 3D, las localizaciones al castellano y el auge de las grandes cajas de PC.","filter":{"plataforma_any":["Win95","Win98"]}},
     {"filename":"ediciones-espanolas-pc.html","label":"Ediciones españolas","title":"Ediciones españolas de juegos de PC · Archivo documental","h1":"Ediciones españolas de juegos de PC","description":"Documentación de ediciones españolas y europeas de videojuegos clásicos de PC: cajas, manuales en castellano, distribuidoras, localizaciones y material físico.","lead":"PC Game Archive presta especial atención a las ediciones españolas y europeas: localización, distribuidoras, manuales en castellano, variantes físicas y materiales incluidos.","filter":{"text_terms":["españ","castellano","erbe","proein","dinamic","fx interactive","dro soft","virgin interactive españa","havas interactive españa"]}},
     {"filename":"aventuras-graficas-pc.html","label":"Aventuras gráficas","title":"Aventuras gráficas clásicas de PC · Point and click y MS-DOS","h1":"Aventuras gráficas clásicas de PC","description":"Catálogo de aventuras gráficas clásicas de PC: point and click, LucasArts, Sierra, MS-DOS, Windows, Big Box y ediciones físicas en castellano.","lead":"Selección de aventuras gráficas y point and click documentadas en formato físico, desde MS-DOS hasta Windows 95/98, con especial atención a ediciones Big Box y material impreso.","filter":{"genero_terms":["aventura gráfica","point and click"]}},
+
 ]
+
+# Contenido editorial específico de las landings principales. Se mantiene separado de
+# los filtros para poder evolucionar el texto sin alterar la lógica del catálogo.
+LANDING_EDITORIAL = {
+    "videojuegos-clasicos-pc.html": {
+        "eyebrow": "Archivo de PC clásico",
+        "intro_title": "Un archivo centrado en la edición física",
+        "paragraphs": [
+            "El videojuego clásico de PC no se conserva solo como software. Cada edición física documenta una forma concreta de publicar, distribuir y utilizar un juego: cajas, manuales, soportes ópticos o magnéticos, requisitos de sistema, material promocional y variantes de mercado.",
+            "Esta selección reúne el núcleo histórico del archivo y permite recorrer distintas generaciones del PC, desde MS-DOS y Windows 3.x hasta Windows 95/98 y sistemas posteriores, manteniendo el foco en la pieza física y en la información asociada a cada edición."
+        ],
+        "secondary_title": "Cómo recorrer esta colección",
+        "secondary_paragraphs": [
+            "Puedes explorar el archivo por formato, plataforma, género, desarrollador o distribuidor. Las relaciones entre fichas permiten pasar de un juego concreto a otras ediciones que comparten contexto técnico o editorial.",
+            "El catálogo se amplía de forma continua. Cuando se incorpora una nueva edición, esta página y sus relaciones se actualizan automáticamente a partir de los datos documentados en el archivo."
+        ],
+        "explore_taxonomies": ["formatos", "plataformas", "generos", "desarrolladores"]
+    },
+    "juegos-pc-big-box.html": {
+        "eyebrow": "Formato físico · Big Box",
+        "intro_title": "La gran caja como parte de la historia del PC",
+        "paragraphs": [
+            "Las ediciones Big Box fueron uno de los formatos más reconocibles del videojuego de PC. Su tamaño permitía reunir no solo el soporte del juego, sino también manuales extensos, mapas, referencias rápidas, catálogos, tarjetas de registro y otros materiales que hoy ayudan a reconstruir cómo se comercializaba y utilizaba el software.",
+            "PC Game Archive documenta estas ediciones como conjuntos físicos. La caja, el contenido y las variantes de distribución forman parte de la ficha, porque dos publicaciones del mismo juego pueden ser documentalmente distintas aunque ejecuten el mismo software."
+        ],
+        "secondary_title": "Qué buscamos preservar en una Big Box",
+        "secondary_paragraphs": [
+            "La conservación no se limita al disco o al CD-ROM: también interesa identificar manuales, inserts, mapas, guías, referencias de distribuidor y cualquier elemento original que permita describir la edición con precisión.",
+            "Desde esta página puedes comparar Big Box de distintas plataformas, géneros, desarrolladores y distribuidores y acceder a las fotografías y datos disponibles de cada ejemplar."
+        ],
+        "explore_taxonomies": ["plataformas", "generos", "desarrolladores", "distribuidores"]
+    },
+    "juegos-msdos.html": {
+        "eyebrow": "Plataforma · MS-DOS",
+        "intro_title": "El PC antes de la estandarización de Windows",
+        "paragraphs": [
+            "MS-DOS concentra una parte esencial de la historia del videojuego para compatibles IBM PC. En sus ediciones físicas conviven disquetes, CD-ROM, manuales técnicos, tablas de referencia y requisitos de hardware que reflejan una época en la que instalar y configurar un juego podía formar parte de la propia experiencia.",
+            "El archivo reúne ediciones identificadas como compatibles con MS-DOS y las conecta con sus géneros, desarrolladores, distribuidores y formatos físicos. Esto permite estudiar no solo los títulos, sino también cómo fueron publicados y adaptados a diferentes mercados."
+        ],
+        "secondary_title": "Disquetes, CD-ROM y documentación técnica",
+        "secondary_paragraphs": [
+            "Las fichas pueden recoger el soporte original, el contenido de la caja y datos de compatibilidad cuando están documentados. Esa información resulta especialmente valiosa en software de MS-DOS, donde versiones, memoria disponible, tarjetas de sonido o métodos de instalación podían condicionar el funcionamiento.",
+            "La colección incluye desde aventuras y juegos de rol hasta estrategia, simulación y acción, ofreciendo un recorrido transversal por varias etapas del PC clásico."
+        ],
+        "explore_taxonomies": ["generos", "desarrolladores", "distribuidores", "formatos"]
+    },
+    "juegos-windows-95-98.html": {
+        "eyebrow": "Plataforma · Windows 95/98",
+        "intro_title": "La consolidación del PC multimedia",
+        "paragraphs": [
+            "Windows 95 y Windows 98 marcaron una etapa de transición decisiva para el videojuego de PC. El CD-ROM se generalizó, crecieron las instalaciones en disco duro, la aceleración 3D ganó protagonismo y las ediciones físicas comenzaron a combinar grandes cajas con formatos más compactos.",
+            "Esta página reúne las ediciones del archivo compatibles con Windows 95 o Windows 98 y permite relacionarlas con sus desarrolladores, distribuidores, géneros y formatos. Una misma obra puede aparecer en más de una plataforma o edición, y el catálogo conserva esas diferencias cuando están documentadas."
+        ],
+        "secondary_title": "Una época de cambios en la edición física",
+        "secondary_paragraphs": [
+            "Durante estos años convivieron Big Box, cajas de CD, manuales impresos de distinto tamaño y numerosas reediciones. Esa variedad hace especialmente útil documentar cada publicación como una edición concreta y no únicamente como un título de software.",
+            "Las fichas del archivo permiten recorrer esa evolución desde el punto de vista físico y editorial, además de consultar los datos técnicos disponibles de cada juego."
+        ],
+        "explore_taxonomies": ["generos", "desarrolladores", "distribuidores", "formatos"]
+    },
+    "ediciones-espanolas-pc.html": {
+        "eyebrow": "Mercado español · Archivo documental",
+        "intro_title": "Documentar cómo llegaron los juegos de PC a España",
+        "paragraphs": [
+            "Las ediciones distribuidas en España son especialmente útiles para reconstruir la historia local del PC: traducciones y manuales en castellano, cambios de carátula, referencias comerciales, sellos de distribuidor, reediciones económicas y materiales creados específicamente para nuestro mercado.",
+            "PC Game Archive intenta conservar esas diferencias editoriales porque una edición española puede aportar información que no aparece en la publicación internacional del mismo juego. La distribuidora, el idioma, el contenido físico y las referencias impresas forman parte de esa identidad documental."
+        ],
+        "secondary_title": "Una clasificación que seguirá ganando precisión",
+        "secondary_paragraphs": [
+            "La selección actual se construye a partir de los datos disponibles en las fichas —referencias a idioma, distribución y edición—. A medida que el catálogo incorpore campos más específicos de mercado e idioma, esta agrupación podrá afinarse todavía más.",
+            "Mientras tanto, esta página funciona como punto de entrada a las ediciones con señales documentales vinculadas al mercado español y a los principales distribuidores representados en el archivo."
+        ],
+        "explore_taxonomies": ["distribuidores", "desarrolladores", "generos", "plataformas"]
+    },
+    "aventuras-graficas-pc.html": {
+        "eyebrow": "Género · Aventura gráfica",
+        "intro_title": "La aventura gráfica como patrimonio del PC",
+        "paragraphs": [
+            "La aventura gráfica está estrechamente ligada a varias generaciones del PC doméstico. Desde interfaces basadas en verbos hasta el point and click y las aventuras en 3D, el género dejó algunas de las ediciones físicas más reconocibles por sus ilustraciones, manuales, pistas, mapas y materiales narrativos.",
+            "Esta selección reúne las fichas catalogadas como aventura gráfica o point and click y permite recorrerlas por plataforma, desarrollador, distribuidor y formato. El objetivo es conservar tanto el juego como el contexto editorial de cada publicación."
+        ],
+        "secondary_title": "Más allá del título del juego",
+        "secondary_paragraphs": [
+            "En este género, la edición física suele aportar elementos que amplían la experiencia: documentación de ambientación, manuales integrados en la ficción, guías de referencia o presentaciones especialmente cuidadas. Registrar esos componentes ayuda a diferenciar reediciones y variantes.",
+            "El archivo conecta las aventuras de MS-DOS y Windows con las compañías y formatos presentes en la colección para facilitar una exploración histórica más amplia."
+        ],
+        "explore_taxonomies": ["desarrolladores", "distribuidores", "plataformas", "formatos"]
+    }
+}
 
 TAXONOMIES = {
     "desarrolladores": {
@@ -715,37 +805,130 @@ def default_filter_attr(flt: dict[str, Any]) -> str:
     return ""
 
 
+def landing_distinct_count(games: list[dict[str, Any]], field: str) -> int:
+    keys: set[str] = set()
+    for game in games:
+        for value in list_values(game.get(field)):
+            key = entity_key(value)
+            if key:
+                keys.add(key)
+    return len(keys)
+
+
+def landing_top_entity_links(selected: list[dict[str, Any]], taxonomy: str, lookup: dict[str, dict[str, dict[str, Any]]], limit: int = 3) -> list[tuple[str, int, str]]:
+    cfg = TAXONOMIES[taxonomy]
+    field = cfg["field"]
+    counts: Counter[str] = Counter()
+    for game in selected:
+        seen: set[str] = set()
+        for value in list_values(game.get(field)):
+            key = entity_key(value)
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            if key in lookup.get(taxonomy, {}):
+                counts[key] += 1
+
+    result: list[tuple[str, int, str]] = []
+    for key, count in counts.most_common():
+        entity = lookup[taxonomy][key]
+        result.append((entity["name"], count, "/" + entity_route(taxonomy, entity).lstrip("/")))
+        if len(result) >= limit:
+            break
+    return result
+
+
+def landing_explore_html(selected: list[dict[str, Any]], editorial: dict[str, Any], lookup: dict[str, dict[str, dict[str, Any]]]) -> str:
+    items: list[str] = []
+    seen_hrefs: set[str] = set()
+    for taxonomy in editorial.get("explore_taxonomies", []):
+        cfg = TAXONOMIES[taxonomy]
+        for name, count, href in landing_top_entity_links(selected, taxonomy, lookup):
+            if href in seen_hrefs:
+                continue
+            seen_hrefs.add(href)
+            items.append(
+                f'<a class="taxonomy-item" href="{h(href)}"><strong>{h(name)}</strong>'
+                f'<small>{h(cfg["label"])} · {count} ediciones</small></a>'
+            )
+    return "\n".join(items)
+
+
+def landing_breadcrumb_jsonld(base_url: str, page: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Inicio", "item": abs_url(base_url, "")},
+            {"@type": "ListItem", "position": 2, "name": page["h1"], "item": abs_url(base_url, page["filename"])},
+        ],
+    }
+
+
 def generate_seo_landing_pages(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
+    taxonomy_lookup = build_taxonomy_lookup(games)
     for p in SEO_LANDING_PAGES:
         flt = p.get("filter", {})
         selected = [g for g in games if matches_landing(g, flt)]
         cards = "\n".join(card(g) for g in selected[:24])
-        related = "\n".join(f'<a class="taxonomy-item" href="{h(x["filename"])}"><strong>{h(x["label"])}</strong><small>{h(x["h1"])}</small></a>' for x in SEO_LANDING_PAGES if x["filename"] != p["filename"])
+        editorial = LANDING_EDITORIAL.get(p["filename"], {})
+        related = "\n".join(
+            f'<a class="taxonomy-item" href="/{h(x["filename"])}"><strong>{h(x["label"])}</strong><small>{h(x["h1"])}</small></a>'
+            for x in SEO_LANDING_PAGES if x["filename"] != p["filename"]
+        )
+        explore = landing_explore_html(selected, editorial, taxonomy_lookup)
         data_attr = default_filter_attr(flt)
-        body = f'''<main class="wrap">
+
+        paragraphs = "\n".join(f'<p>{h(paragraph)}</p>' for paragraph in editorial.get("paragraphs", []))
+        secondary_paragraphs = "\n".join(f'<p>{h(paragraph)}</p>' for paragraph in editorial.get("secondary_paragraphs", []))
+        intro_title = editorial.get("intro_title", "Archivo documental")
+        secondary_title = editorial.get("secondary_title", "Explorar la colección")
+        eyebrow = editorial.get("eyebrow", "Archivo documental")
+
+        dev_count = landing_distinct_count(selected, "desarrollador")
+        dist_count = landing_distinct_count(selected, "distribuidor")
+        genre_count = landing_distinct_count(selected, "genero")
+
+        body = f"""<main class="wrap">
+  <nav class="breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a> / <span>{h(p["h1"])}</span></nav>
   <div class="page-head">
-    <p class="eyebrow">SEO · Archivo documental</p>
+    <p class="eyebrow">{h(eyebrow)}</p>
     <h1>{h(p["h1"])}</h1>
     <p class="lead">{h(p["lead"])}</p>
   </div>
-  <section class="content-card">
-    <h2>Catálogo orientado a preservación</h2>
-    <p>Esta sección refuerza la búsqueda en español y agrupa fichas por intención: formato físico, plataforma, género, distribución, idioma, soporte original y valor documental.</p>
-    <p>Además de títulos concretos, el archivo quiere ser localizable por búsquedas como videojuegos clásicos de PC, juegos Big Box, juegos MS-DOS, ediciones españolas, aventuras gráficas clásicas y preservación de software físico.</p>
+  <section class="landing-stats" aria-label="Resumen del catálogo">
+    <div class="landing-stat"><strong>{len(selected)}</strong><span>ediciones documentadas</span></div>
+    <div class="landing-stat"><strong>{dev_count}</strong><span>desarrolladores</span></div>
+    <div class="landing-stat"><strong>{dist_count}</strong><span>distribuidores</span></div>
+    <div class="landing-stat"><strong>{genre_count}</strong><span>géneros y subgéneros</span></div>
+  </section>
+  <section class="content-card landing-editorial">
+    <h2>{h(intro_title)}</h2>
+    {paragraphs}
   </section>
   <section>
-    <div class="section-head"><h2>Juegos documentados</h2><a href="./">Ver catálogo completo</a></div>
-    <form class="toolbar" action="./" method="get"><input name="q" placeholder="Filtrar catálogo…"><button>Buscar</button></form>
+    <div class="section-head"><h2>Juegos documentados</h2><a href="/catalogo/">Ver catálogo completo</a></div>
+    <form class="toolbar" action="/" method="get"><input name="q" placeholder="Buscar dentro del archivo…"><button>Buscar</button></form>
     <p class="count">{len(selected)} juegos encontrados.</p>
     <div class="grid cards" data-catalog-list{data_attr}>{cards}</div>
     <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
   </section>
-  <section class="text-section"><h2>Explorar también</h2><div class="taxonomy-grid">{related}</div></section>
+  <section class="content-card landing-editorial">
+    <h2>{h(secondary_title)}</h2>
+    {secondary_paragraphs}
+  </section>
+  <section class="text-section">
+    <h2>Explorar esta colección</h2>
+    <p>Algunas de las entidades con mayor presencia dentro de esta selección.</p>
+    <div class="taxonomy-grid">{explore}</div>
+  </section>
+  <section class="text-section"><h2>Otras rutas del archivo</h2><div class="taxonomy-grid">{related}</div></section>
   <script src="assets/js/search-index.js"></script>
   <script src="assets/js/catalogo.js" defer></script>
-</main>'''
-        jsonld = [organization_jsonld(base_url), collection_jsonld(base_url, p["filename"], p["h1"], p["description"], selected)]
+</main>"""
+        jsonld = [organization_jsonld(base_url), landing_breadcrumb_jsonld(base_url, p), collection_jsonld(base_url, p["filename"], p["h1"], p["description"], selected)]
         (out / p["filename"]).write_text(layout(p["title"], p["description"], abs_url(base_url, p["filename"]), p["filename"], body, jsonld=jsonld), encoding="utf-8")
+
 
 def generate_listing(games: list[dict[str, Any]], out: Path, base_url: str, filename: str, title: str, description: str, predicate) -> None:
     selected = [g for g in games if predicate(g)]
@@ -1223,6 +1406,7 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         "- Se generan automáticamente hubs y páginas SEO por desarrollador, distribuidor, género, plataforma y formato cuando una entidad aparece en 3 o más fichas.",
         "- Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.",
         "- Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.",
+        "- Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.",
         "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
         "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
         "- El scroll infinito de la portada se complementa con `/catalogo/` y una serie paginada de enlaces HTML rastreables, con canonical propio por página.",
@@ -1262,7 +1446,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url)
     generate_robots(out, args.base_url)
     build_report(games, out)
-    print("Versión generador: seo-pagination-2026-08-14")
+    print("Versión generador: seo-landings-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
@@ -1271,7 +1455,7 @@ def main() -> int:
 
 
 CSS = r'''
-:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){header{position:static}.header-row,.hero-grid,.detail-grid{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}}@media(max-width:480px){.grid.cards,.taxonomy-grid,.gallery{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}}
+:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.taxonomy-grid,.gallery{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}}
 '''
 
 JS = r'''

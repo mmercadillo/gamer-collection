@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-08-14T12:45:33
+- Fecha: 2026-08-14T13:00:08
 - Juegos en catálogo: 1552
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -23,6 +23,7 @@
 - Se generan automáticamente hubs y páginas SEO por desarrollador, distribuidor, género, plataforma y formato cuando una entidad aparece en 3 o más fichas.
 - Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.
 - Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.
+- Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.
 - Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.
 - Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.
 - El scroll infinito de la portada se complementa con `/catalogo/` y una serie paginada de enlaces HTML rastreables, con canonical propio por página.
