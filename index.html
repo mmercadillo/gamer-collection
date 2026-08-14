@@ -104,17 +104,20 @@ if(window.PCGA_ANALYTICS_ENABLED){
       <p class="eyebrow">Preservación · Coleccionismo · PC clásico</p>
       <h1>Archivo físico de videojuegos de PC</h1>
       <p class="lead">Catálogo documental de ediciones físicas para PC, con especial atención a Big Box, MS-DOS, Windows clásicos, distribución española y preservación del soporte original.</p>
-      <form class="search-hero catalog-search" action="./" method="get">
-        <input name="q" placeholder="Buscar en todo el archivo…" aria-label="Buscar en todo el archivo">
-        <select name="formato" aria-label="Filtrar por formato">
-          <option value="">Todos los formatos</option>
-          <option value="Big Box">Big Box</option>
-          <option value="DVD Case">CD/DVD</option>
-          <option value="Jewel Case">Jewel Case</option>
-        </select>
-        <select name="serie" aria-label="Filtrar por serie">
-          <option value="">Todas las series</option>
-          <option value="Age of Empires">Age of Empires</option>
+      <form class="search-hero catalog-search catalog-search-advanced" action="./" method="get">
+        <div class="search-query-row">
+          <input name="q" placeholder="Buscar en todo el archivo…" aria-label="Buscar en todo el archivo">
+        </div>
+        <div class="search-filter-row">
+          <select name="formato" aria-label="Filtrar por formato">
+            <option value="">Todos los formatos</option>
+            <option value="Big Box">Big Box</option>
+            <option value="DVD Case">CD/DVD</option>
+            <option value="Jewel Case">Jewel Case</option>
+          </select>
+          <select name="serie" aria-label="Filtrar por serie">
+            <option value="">Todas las series</option>
+            <option value="Age of Empires">Age of Empires</option>
           <option value="Best of Atari">Best of Atari</option>
           <option value="BestSeller Series">BestSeller Series</option>
           <option value="Big Box">Big Box</option>
@@ -142,8 +145,9 @@ if(window.PCGA_ANALYTICS_ENABLED){
           <option value="Xtreme Collection">Xtreme Collection</option>
           <option value="Zeta Games">Zeta Games</option>
           <option value="Zipi y Zape">Zipi y Zape</option>
-        </select>
-        <button>Buscar</button>
+          </select>
+          <button>Buscar</button>
+        </div>
       </form>
     </div>
     <aside class="stats-card" aria-label="Resumen del catálogo por formato">

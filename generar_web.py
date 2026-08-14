@@ -1158,19 +1158,23 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
       <p class="eyebrow">Preservación · Coleccionismo · PC clásico</p>
       <h1>Archivo físico de videojuegos de PC</h1>
       <p class="lead">Catálogo documental de ediciones físicas para PC, con especial atención a Big Box, MS-DOS, Windows clásicos, distribución española y preservación del soporte original.</p>
-      <form class="search-hero catalog-search" action="./" method="get">
-        <input name="q" placeholder="Buscar en todo el archivo…" aria-label="Buscar en todo el archivo">
-        <select name="formato" aria-label="Filtrar por formato">
-          <option value="">Todos los formatos</option>
-          <option value="Big Box">Big Box</option>
-          <option value="DVD Case">CD/DVD</option>
-          <option value="Jewel Case">Jewel Case</option>
-        </select>
-        <select name="serie" aria-label="Filtrar por serie">
-          <option value="">Todas las series</option>
-          {series_options}
-        </select>
-        <button>Buscar</button>
+      <form class="search-hero catalog-search catalog-search-advanced" action="./" method="get">
+        <div class="search-query-row">
+          <input name="q" placeholder="Buscar en todo el archivo…" aria-label="Buscar en todo el archivo">
+        </div>
+        <div class="search-filter-row">
+          <select name="formato" aria-label="Filtrar por formato">
+            <option value="">Todos los formatos</option>
+            <option value="Big Box">Big Box</option>
+            <option value="DVD Case">CD/DVD</option>
+            <option value="Jewel Case">Jewel Case</option>
+          </select>
+          <select name="serie" aria-label="Filtrar por serie">
+            <option value="">Todas las series</option>
+            {series_options}
+          </select>
+          <button>Buscar</button>
+        </div>
       </form>
     </div>
     <aside class="stats-card" aria-label="Resumen del catálogo por formato">
@@ -2153,7 +2157,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase10d-taxonomias-2026-08-14")
+    print("Versión generador: fase12.1-layout-buscador-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
@@ -2164,21 +2168,27 @@ def main() -> int:
 CSS = r'''
 :root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-figure{margin:0}.hero-figure figcaption{margin-top:9px;color:var(--g);font-size:12px;line-height:1.4}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery-item{margin:0;min-width:0}.gallery-link{display:block;text-decoration:none}.gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;border-radius:14px;border:1px solid var(--bd);background:#eee}.gallery-item figcaption{margin-top:6px;color:var(--g);font-size:12px;line-height:1.35}.gallery-missing img{object-fit:contain}.related-area{margin-top:34px}.related-section{margin-top:30px}.related-section:first-child{margin-top:0}.related-section .section-head{margin-bottom:14px}.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.related-grid .game-card{min-height:230px}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}.button-secondary{background:#fff;color:#111;border-color:#111}.button-secondary:hover{background:#f2f2f0}.acquisition-strip{margin-top:32px;margin-bottom:12px;background:#111;color:#fff;border-radius:24px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px}.acquisition-strip h2{margin-bottom:8px}.acquisition-strip p:not(.eyebrow){margin:0;color:#ddd;max-width:760px}.acquisition-strip .eyebrow{color:#bbb}.acquisition-strip .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}.acquisition-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.acquisition-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,430px);gap:42px;align-items:center;padding-bottom:48px}.acquisition-hero .breadcrumbs{padding-top:22px}.acquisition-visual{margin:28px 0 0}.acquisition-visual img{display:block;width:100%;height:auto;border-radius:24px;border:1px solid var(--bd);box-shadow:0 16px 45px rgba(0,0,0,.08)}.acquisition-section{padding-top:36px;padding-bottom:36px}.acquisition-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-grid .content-card{margin-top:0}.acquisition-grid h3{margin-top:0;margin-bottom:8px}.acquisition-grid p{margin:0;color:#444}.acquisition-note{margin:20px 0 0;padding:16px 18px;border-left:4px solid #111;background:#fff;border-radius:0 14px 14px 0}.acquisition-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.acquisition-steps{list-style:none;counter-reset:acq;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-steps li{counter-increment:acq;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:7px}.acquisition-steps li:before{content:counter(acq);width:34px;height:34px;border-radius:50%;background:#111;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:900;margin-bottom:5px}.acquisition-steps span{color:#555;font-size:14px}.acquisition-contact-card{background:#111;color:#fff;border-radius:24px;padding:26px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:30px}.acquisition-contact-card h2{margin-bottom:8px}.acquisition-contact-card p:not(.eyebrow){color:#ddd;max-width:760px;margin-bottom:0}.acquisition-contact-card .eyebrow{color:#bbb}.acquisition-contact-card .button{background:#fff;color:#111;border-color:#fff}.acquisition-contact-card .button-secondary{background:transparent;color:#fff;border-color:#fff}.acquisition-actions{margin-top:20px}.acquisition-faq details{background:#fff;border:1px solid var(--bd);border-radius:14px;margin:10px 0;padding:0 16px}.acquisition-faq summary{cursor:pointer;font-weight:800;padding:15px 0}.acquisition-faq details p{margin:0 0 16px;color:#444}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.related-grid{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}.acquisition-grid,.acquisition-steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid,.acquisition-hero-grid,.acquisition-contact-card{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.related-grid{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}.acquisition-strip{align-items:flex-start;flex-direction:column}.acquisition-contact-card .actions{justify-content:flex-start}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.related-grid,.taxonomy-grid,.gallery,.acquisition-grid,.acquisition-steps{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}.acquisition-actions{flex-direction:column}.acquisition-actions .button{width:100%}}
 '''
+CSS += r'''
+.catalog-search-advanced{display:grid;grid-template-columns:1fr;gap:10px;margin-top:20px;align-items:stretch}.catalog-search-advanced .search-query-row{min-width:0}.catalog-search-advanced .search-filter-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr) auto;gap:10px;align-items:stretch}.catalog-search-advanced .search-query-row>input,.catalog-search-advanced .search-autocomplete{width:100%}.catalog-search-advanced .search-query-row input{font-size:18px;padding:16px 18px}.catalog-search-advanced .search-filter-row select{width:100%;min-width:0}.catalog-search-advanced .search-filter-row>button{min-width:126px}.search-autocomplete{position:relative;flex:1;min-width:0}.search-autocomplete>input{width:100%}.search-suggestions{position:absolute;left:0;right:0;top:calc(100% + 7px);z-index:40;background:#fff;border:1px solid var(--bd);border-radius:16px;box-shadow:0 16px 42px rgba(0,0,0,.14);padding:8px;max-height:430px;overflow:auto}.search-suggestions[hidden]{display:none}.search-hero button.search-suggestion{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;text-align:left;border:1px solid transparent;background:#fff;color:#111;padding:13px 14px;border-radius:12px;cursor:pointer}.search-hero button.search-suggestion:hover,.search-hero button.search-suggestion.is-active{background:#f7f7f5;color:#111;border-color:var(--bd)}.search-suggestion-main{min-width:0;display:flex;flex-direction:column;gap:3px}.search-suggestion-main strong{white-space:normal;overflow:visible;text-overflow:clip;font-size:15px;line-height:1.28}.search-suggestion-main small,.search-suggestion-count{color:var(--g);font-size:12px;line-height:1.3}.search-suggestion-count{white-space:nowrap;font-weight:700}.search-facets{margin:16px 0 8px;padding:14px;background:#fff;border:1px solid var(--bd);border-radius:18px}.search-facets-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}.search-facets-head strong{font-size:14px}.search-facets-head a{font-size:12px;color:var(--g);font-weight:800}.search-facet-groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.search-facet-group{min-width:0}.search-facet-group>strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--g);margin-bottom:7px}.search-facet-values{display:flex;flex-wrap:wrap;gap:6px}.facet-chip{display:inline-flex;gap:5px;align-items:center;padding:5px 8px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none;font-size:11px;line-height:1.2}.facet-chip:hover,.facet-chip.active{background:#111;color:#fff;border-color:#111}.facet-chip span{opacity:.7}.search-empty{grid-column:1/-1}.search-empty h3{margin-top:0}.search-empty-suggestions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.search-empty-suggestions a{font-size:12px;padding:7px 10px;border:1px solid var(--bd);border-radius:999px;text-decoration:none;background:#fff}.search-empty-suggestions a:hover{background:var(--soft)}
+@media(max-width:900px){.search-facet-groups{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:700px){.catalog-search-advanced .search-filter-row{grid-template-columns:1fr}.catalog-search-advanced .search-filter-row>button{width:100%}}@media(max-width:520px){.search-facet-groups{grid-template-columns:1fr}.search-suggestions{max-height:320px}.search-hero button.search-suggestion{padding:12px;gap:10px}.search-suggestion-main strong{font-size:14px}}
+'''
 
-JS = r'''
-(function(){
+JS = r'''(function(){
   const PAGE_SIZE = 24;
   const params = new URLSearchParams(location.search);
   const grid = document.querySelector('[data-catalog-list], .grid.cards');
   const forms = document.querySelectorAll('form.catalog-search, form.search-hero, form.toolbar');
   const sentinel = document.querySelector('[data-load-sentinel]');
+  const games = Array.isArray(window.PCGA_SEARCH_INDEX) ? window.PCGA_SEARCH_INDEX : [];
+  const FILTER_FIELDS = ['formato','serie','genero','plataforma','desarrollador','distribuidor','mercado','idioma','soporte','tipo_edicion','anio'];
+  const FACET_FIELDS = [
+    ['formato','Formato'],['plataforma','Plataforma'],['genero','Género'],['desarrollador','Desarrollador']
+  ];
 
   restoreFormValues();
   prepareCleanSubmissions();
-  if(!grid) return;
-
-  const games = Array.isArray(window.PCGA_SEARCH_INDEX) ? window.PCGA_SEARCH_INDEX : [];
-  if(!games.length) return;
+  setupAutocomplete();
+  if(!grid || !games.length) return;
 
   const rawSearchTerm = String(params.get('titulo') || params.get('q') || '').trim();
   const searchTerms = tokenize(rawSearchTerm);
@@ -2190,50 +2200,38 @@ JS = r'''
   const defaultTextAny = splitTerms(grid.dataset.defaultTextAny || '');
   const defaultTaxonomy = String(grid.dataset.defaultTaxonomy || '').trim();
   const defaultTaxonomyValues = splitTerms(grid.dataset.defaultTaxonomyValues || '');
-  const formato = normalize(params.get('formato') || '') || defaultFormato;
-  const serie = normalize(params.get('serie') || '');
-  const genero = normalize(params.get('genero') || '') || defaultGenero;
-  const plataforma = normalize(params.get('plataforma') || '') || defaultPlataforma;
 
-  const selected = games.filter(g => {
-    const genreBlob = normalize((g.genero || []).join(' '));
-    const platformValues = (g.plataforma || []).map(normalize);
-    const searchBlob = normalize(g.search_text || [g.titulo, g.formato, (g.serie||[]).join(' '), (g.genero||[]).join(' '), (g.plataforma||[]).join(' ')].join(' '));
-    if(searchTerms.length && !searchTerms.every(term => searchBlob.includes(term))) return false;
-    if(formato && normalize(g.formato) !== formato) return false;
-    if(serie && !(g.serie || []).some(s => normalize(s) === serie)) return false;
-    if(genero && !genreBlob.includes(genero)) return false;
-    if(defaultGeneroAny.length && !defaultGeneroAny.some(t => genreBlob.includes(t))) return false;
-    if(plataforma && !platformValues.some(s => s === plataforma)) return false;
-    if(defaultPlataformaAny.length && !defaultPlataformaAny.some(t => platformValues.includes(t))) return false;
-    if(defaultTextAny.length && !defaultTextAny.some(t => searchBlob.includes(t))) return false;
-    if(defaultTaxonomy && defaultTaxonomyValues.length){
-      const rawValues = Array.isArray(g[defaultTaxonomy]) ? g[defaultTaxonomy] : [g[defaultTaxonomy]];
-      const entityValues = rawValues.map(normalize).filter(Boolean);
-      if(!defaultTaxonomyValues.some(t => entityValues.includes(t))) return false;
-    }
-    return true;
+  const filters = {};
+  FILTER_FIELDS.forEach(name => filters[name] = normalize(params.get(name) || ''));
+  if(!filters.formato) filters.formato = defaultFormato;
+  if(!filters.genero) filters.genero = defaultGenero;
+  if(!filters.plataforma) filters.plataforma = defaultPlataforma;
+
+  const ranked = [];
+  games.forEach((g, order) => {
+    const searchScore = scoreSearch(g, searchTerms);
+    if(searchTerms.length && searchScore < 0) return;
+    if(!matchesDefaults(g)) return;
+    if(!matchesFilters(g)) return;
+    ranked.push({g, score: searchScore, order});
   });
+  if(searchTerms.length){
+    ranked.sort((a,b) => b.score - a.score || normalize(a.g.titulo).localeCompare(normalize(b.g.titulo)) || a.order-b.order);
+  }
+  const selected = ranked.map(x => x.g);
 
   if(rawSearchTerm && typeof gtag === 'function'){
-    gtag('event','search',{
-      search_term: rawSearchTerm,
-      results_count: selected.length
-    });
-    if(!selected.length){
-      gtag('event','search_no_results',{search_term: rawSearchTerm});
-    }
+    gtag('event','search',{search_term: rawSearchTerm,results_count: selected.length});
+    if(!selected.length) gtag('event','search_no_results',{search_term: rawSearchTerm});
   }
-
   if(typeof gtag === 'function'){
-    ['formato','serie','genero','plataforma'].forEach(name => {
+    FILTER_FIELDS.forEach(name => {
       const value = params.get(name);
-      if(value){
-        gtag('event','filter_used',{filter_name:name,filter_value:value});
-      }
+      if(value) gtag('event','filter_used',{filter_name:name,filter_value:value});
     });
   }
 
+  renderFacets();
   let rendered = 0;
   grid.innerHTML = '';
   renderNextPage();
@@ -2242,7 +2240,7 @@ JS = r'''
   if(count) count.textContent = selected.length + ' juegos encontrados.';
 
   if(!selected.length){
-    grid.innerHTML = '<p class="content-card">No se han encontrado juegos con esos filtros.</p>';
+    renderEmptyState();
     if(sentinel) sentinel.remove();
     return;
   }
@@ -2268,59 +2266,222 @@ JS = r'''
     if(sentinel) sentinel.hidden = rendered >= selected.length;
   }
 
-  function splitTerms(value){
-    return String(value || '').split('|').map(normalize).filter(Boolean);
+  function matchesDefaults(g){
+    const genreValues = valueList(g,'genero');
+    const platformValues = valueList(g,'plataforma');
+    const searchBlob = normalizedSearchBlob(g);
+    if(defaultGeneroAny.length && !defaultGeneroAny.some(t => genreValues.includes(t))) return false;
+    if(defaultPlataformaAny.length && !defaultPlataformaAny.some(t => platformValues.includes(t))) return false;
+    if(defaultTextAny.length && !defaultTextAny.some(t => searchBlob.includes(t))) return false;
+    if(defaultTaxonomy && defaultTaxonomyValues.length){
+      const entityValues = valueList(g, defaultTaxonomy);
+      if(!defaultTaxonomyValues.some(t => entityValues.includes(t))) return false;
+    }
+    return true;
   }
 
-  function tokenize(value){
-    return normalize(value).split(/\s+/).filter(Boolean);
+  function matchesFilters(g, ignoreField){
+    for(const name of FILTER_FIELDS){
+      if(name === ignoreField) continue;
+      const wanted = filters[name];
+      if(!wanted) continue;
+      if(name === 'genero'){
+        if(!valueList(g,name).some(v => v.includes(wanted))) return false;
+      } else if(!valueList(g,name).includes(wanted)) return false;
+    }
+    return true;
   }
 
-  function normalize(value){
-    return String(value || '')
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .trim();
+  function scoreSearch(g, terms){
+    if(!terms.length) return 0;
+    const title = normalize(g.titulo || '');
+    const blob = normalizedSearchBlob(g);
+    const words = uniqueWords(blob);
+    let score = 0;
+    for(const term of terms){
+      if(title === term){ score += 130; continue; }
+      if(title.startsWith(term)){ score += 95; continue; }
+      if(title.includes(term)){ score += 72; continue; }
+      if(blob.includes(term)){ score += 48; continue; }
+      const fuzzy = bestFuzzy(term, words);
+      if(fuzzy < 0) return -1;
+      score += fuzzy;
+    }
+    if(terms.length > 1 && title.includes(terms.join(' '))) score += 70;
+    return score;
   }
 
-  function esc(s){
-    return String(s || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  function bestFuzzy(term, words){
+    if(term.length < 4) return -1;
+    const maxDistance = term.length >= 8 ? 2 : 1;
+    let best = 99;
+    for(const word of words){
+      if(Math.abs(word.length-term.length) > maxDistance) continue;
+      const d = levenshteinLimited(term, word, maxDistance);
+      if(d < best) best = d;
+      if(best === 1) break;
+    }
+    return best <= maxDistance ? (term.length >= 8 ? 28-best*5 : 24-best*5) : -1;
   }
 
-  function restoreFormValues(){
-    forms.forEach(form => {
-      ['titulo','q','formato','serie','genero','plataforma'].forEach(name => {
-        const el = form.querySelector(`[name="${name}"]`);
-        if(el && params.has(name)) el.value = params.get(name) || '';
-      });
-      const q = form.querySelector('[name="q"]');
-      if(q && !params.has('q') && params.has('titulo')) q.value = params.get('titulo') || '';
-    });
+  function levenshteinLimited(a,b,limit){
+    if(a === b) return 0;
+    if(Math.abs(a.length-b.length) > limit) return limit+1;
+    let prev = Array.from({length:b.length+1},(_,i)=>i);
+    for(let i=1;i<=a.length;i++){
+      const cur=[i]; let rowMin=i;
+      for(let j=1;j<=b.length;j++){
+        const value=Math.min(cur[j-1]+1,prev[j]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));
+        cur[j]=value; if(value<rowMin) rowMin=value;
+      }
+      if(rowMin>limit) return limit+1;
+      prev=cur;
+    }
+    return prev[b.length];
   }
 
-  function prepareCleanSubmissions(){
-    forms.forEach(form => {
-      form.addEventListener('submit', () => {
-        form.querySelectorAll('input[name], select[name]').forEach(el => {
-          if(!String(el.value || '').trim()) el.disabled = true;
+  function renderFacets(){
+    const hasQueryOrFilter = rawSearchTerm || FILTER_FIELDS.some(name => params.get(name));
+    if(!hasQueryOrFilter) return;
+    const section = grid.closest('section') || grid.parentElement;
+    if(!section || section.querySelector('.search-facets')) return;
+    const groups=[];
+    FACET_FIELDS.forEach(([field,label]) => {
+      const counts=new Map();
+      games.forEach(g => {
+        if(searchTerms.length && scoreSearch(g,searchTerms)<0) return;
+        if(!matchesDefaults(g) || !matchesFilters(g,field)) return;
+        rawValues(g,field).forEach(raw => {
+          if(!raw || (field==='serie' && normalize(raw)==='todos')) return;
+          counts.set(raw,(counts.get(raw)||0)+1);
         });
       });
+      const current=normalize(params.get(field)||'');
+      const values=[...counts.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'es')).slice(0,6);
+      if(!values.length) return;
+      const chips=values.map(([value,n]) => {
+        const u=new URL(location.href); u.searchParams.set(field,value); u.searchParams.delete('titulo');
+        if(rawSearchTerm && !u.searchParams.get('q')) u.searchParams.set('q',rawSearchTerm);
+        const active=current===normalize(value)?' active':'';
+        return `<a class="facet-chip${active}" href="${esc(u.pathname+u.search)}">${esc(value)} <span>${n}</span></a>`;
+      }).join('');
+      groups.push(`<div class="search-facet-group"><strong>${esc(label)}</strong><div class="search-facet-values">${chips}</div></div>`);
+    });
+    if(!groups.length) return;
+    const clearUrl=new URL(location.href); FILTER_FIELDS.forEach(f=>clearUrl.searchParams.delete(f)); clearUrl.searchParams.delete('titulo'); if(rawSearchTerm) clearUrl.searchParams.set('q',rawSearchTerm);
+    const box=document.createElement('div'); box.className='search-facets';
+    box.innerHTML=`<div class="search-facets-head"><strong>Refinar resultados</strong><a href="${esc(clearUrl.pathname+clearUrl.search)}">Limpiar filtros</a></div><div class="search-facet-groups">${groups.join('')}</div>`;
+    const countEl=section.querySelector('.count');
+    if(countEl) countEl.insertAdjacentElement('afterend',box); else grid.insertAdjacentElement('beforebegin',box);
+  }
+
+  function renderEmptyState(){
+    const suggestions = nearestSuggestions(rawSearchTerm,5);
+    const suggestionHtml=suggestions.length?`<div class="search-empty-suggestions">${suggestions.map(s=>`<a href="${esc(s.href)}" data-search-suggestion="empty">${esc(s.label)}</a>`).join('')}</div>`:'';
+    const clear=new URL(location.href); clear.search='';
+    grid.innerHTML=`<div class="content-card search-empty"><h3>No hemos encontrado coincidencias</h3><p>Prueba con menos palabras, una variante del nombre o elimina alguno de los filtros.</p>${suggestionHtml}<p><a class="button button-secondary" href="${esc(clear.pathname)}">Ver todo el catálogo</a></p></div>`;
+  }
+
+  function setupAutocomplete(){
+    if(!games.length) return;
+    const suggestionsIndex=buildSuggestionsIndex();
+    forms.forEach(form => {
+      const input=form.querySelector('input[name="q"],input[name="titulo"]');
+      if(!input || input.dataset.autocompleteReady) return;
+      input.dataset.autocompleteReady='1'; input.setAttribute('autocomplete','off'); input.setAttribute('aria-autocomplete','list');
+      const wrap=document.createElement('div'); wrap.className='search-autocomplete';
+      input.parentNode.insertBefore(wrap,input); wrap.appendChild(input);
+      const panel=document.createElement('div'); panel.className='search-suggestions'; panel.hidden=true; panel.setAttribute('role','listbox'); wrap.appendChild(panel);
+      let active=-1, current=[];
+      const update=()=>{
+        const q=input.value.trim(); active=-1;
+        if(q.length<2){panel.hidden=true; panel.innerHTML=''; return;}
+        current=findSuggestions(q,suggestionsIndex,8);
+        panel.innerHTML=current.map((s,i)=>`<button type="button" class="search-suggestion" role="option" data-i="${i}"><span class="search-suggestion-main"><strong>${esc(s.label)}</strong><small>${esc(s.type)}</small></span><span class="search-suggestion-count">${s.count>1?esc(s.count+' fichas'):''}</span></button>`).join('');
+        panel.hidden=!current.length;
+      };
+      input.addEventListener('input',update);
+      input.addEventListener('focus',update);
+      input.addEventListener('keydown',e=>{
+        if(panel.hidden || !current.length) return;
+        if(e.key==='ArrowDown'){e.preventDefault();active=(active+1)%current.length;paintActive();}
+        else if(e.key==='ArrowUp'){e.preventDefault();active=(active-1+current.length)%current.length;paintActive();}
+        else if(e.key==='Escape'){panel.hidden=true;active=-1;}
+        else if(e.key==='Enter' && active>=0){e.preventDefault();choose(current[active]);}
+      });
+      panel.addEventListener('mousedown',e=>{
+        const btn=e.target.closest('[data-i]'); if(!btn) return; e.preventDefault(); choose(current[Number(btn.dataset.i)]);
+      });
+      document.addEventListener('click',e=>{if(!wrap.contains(e.target)) panel.hidden=true;});
+      function paintActive(){panel.querySelectorAll('.search-suggestion').forEach((el,i)=>el.classList.toggle('is-active',i===active));}
+      function choose(s){
+        if(typeof gtag==='function') gtag('event','search_suggestion_click',{suggestion_type:s.type,suggestion_value:s.label});
+        if(s.url){location.href=s.url;return;}
+        if(s.field){const u=new URL('/',location.origin);u.searchParams.set(s.field,s.label);location.href=u.pathname+u.search;return;}
+        input.value=s.label; panel.hidden=true; form.requestSubmit?form.requestSubmit():form.submit();
+      }
     });
   }
 
+  function buildSuggestionsIndex(){
+    const map=new Map();
+    const fields=[['desarrollador','Desarrollador'],['distribuidor','Distribuidor'],['serie','Serie'],['genero','Género'],['plataforma','Plataforma'],['formato','Formato'],['mercado','Mercado'],['idioma','Idioma'],['soporte','Soporte']];
+    games.forEach(g=>{
+      const title=String(g.titulo||'').trim();
+      if(title){const key='j:'+normalize(title);const cur=map.get(key)||{label:title,type:'Juego',count:0,url:g.url};cur.count++;if(cur.count>1)cur.url=null;map.set(key,cur);}
+      fields.forEach(([field,type])=>rawValues(g,field).forEach(value=>{if(!value||normalize(value)==='todos')return;const key=field+':'+normalize(value);const cur=map.get(key)||{label:value,type,count:0,url:null,field};cur.count++;map.set(key,cur);}));
+    });
+    return [...map.values()].map(s=>({...s,norm:normalize(s.label),words:uniqueWords(normalize(s.label))}));
+  }
+
+  function findSuggestions(query,index,limit){
+    const q=normalize(query); const qTerms=tokenize(q); const ranked=[];
+    index.forEach(s=>{
+      let score=0;
+      if(s.norm===q)score=150; else if(s.norm.startsWith(q))score=115; else if(s.norm.includes(q))score=85; else {
+        let ok=true;
+        for(const t of qTerms){const f=bestFuzzy(t,s.words);if(f<0){ok=false;break;}score+=f;}
+        if(!ok)return;
+      }
+      if(s.type==='Juego')score+=12;
+      score+=Math.min(s.count,20)/10;
+      ranked.push({s,score});
+    });
+    return ranked.sort((a,b)=>b.score-a.score||a.s.label.localeCompare(b.s.label,'es')).slice(0,limit).map(x=>x.s);
+  }
+
+  function nearestSuggestions(query,limit){
+    if(!query) return [];
+    const idx=buildSuggestionsIndex();
+    return findSuggestions(query,idx,limit).map(s=>({label:s.label,href:s.url||(s.field?buildFacetHref(s.field,s.label):buildQueryHref(s.label))}));
+  }
+
+  function buildQueryHref(q){const u=new URL(location.href);u.search='';u.searchParams.set('q',q);return u.pathname+u.search;}
+  function buildFacetHref(field,value){const u=new URL('/',location.origin);u.searchParams.set(field,value);return u.pathname+u.search;}
+  function rawValues(g,field){const v=g[field];return (Array.isArray(v)?v:[v]).map(x=>String(x||'').trim()).filter(Boolean);}
+  function valueList(g,field){return rawValues(g,field).map(normalize);}
+  function normalizedSearchBlob(g){return normalize(g.search_text||[g.titulo,g.formato,(g.serie||[]).join(' '),(g.genero||[]).join(' '),(g.plataforma||[]).join(' ')].join(' '));}
+  function uniqueWords(value){return [...new Set(String(value||'').split(/[^a-z0-9]+/).filter(Boolean))];}
+  function splitTerms(value){return String(value||'').split('|').map(normalize).filter(Boolean);}
+  function tokenize(value){return normalize(value).split(/\s+/).filter(Boolean);}
+  function normalize(value){return String(value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();}
+  function esc(s){return String(s||'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
+
+  function restoreFormValues(){
+    forms.forEach(form=>{
+      FILTER_FIELDS.concat(['titulo','q']).forEach(name=>{const el=form.querySelector(`[name="${name}"]`);if(el&&params.has(name))el.value=params.get(name)||'';});
+      const q=form.querySelector('[name="q"]');if(q&&!params.has('q')&&params.has('titulo'))q.value=params.get('titulo')||'';
+    });
+  }
+  function prepareCleanSubmissions(){forms.forEach(form=>form.addEventListener('submit',()=>form.querySelectorAll('input[name],select[name]').forEach(el=>{if(!String(el.value||'').trim())el.disabled=true;})));}
+
   function card(g){
-    const tags = [g.formato].concat(g.plataforma || []).filter(Boolean).slice(0, 3).map(t => `<span class="tag">${esc(t)}</span>`).join('');
-    const rawUrl = String(g.url || '#');
-    const siteUrl = rawUrl === '#' ? '#' : '/' + rawUrl.replace(/^\/+/, '');
-    const url = esc(siteUrl);
-    const img = esc(siteUrl === '#' ? '/no_disponible.png' : siteUrl.replace(/\/$/, '') + '/img/001.jpg');
-    const gameId = esc(rawUrl.replace(/^\/+|\/+$/g, '').split('/').pop() || 'game_unknown');
-    const platforms = (g.plataforma || []).filter(Boolean).slice(0, 3).join(', ');
-    let imageAlt = 'Portada de ' + (g.titulo || 'videojuego');
-    if(g.formato) imageAlt += ', formato ' + g.formato;
-    if(platforms) imageAlt += ', para ' + platforms;
-    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc(imageAlt)}" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+    const tags=[g.formato].concat(g.plataforma||[]).filter(Boolean).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
+    const rawUrl=String(g.url||'#');const siteUrl=rawUrl==='#'?'#':'/'+rawUrl.replace(/^\/+/, '');const url=esc(siteUrl);
+    const img=esc(siteUrl==='#'?'/no_disponible.png':siteUrl.replace(/\/$/,'')+'/img/001.jpg');
+    const gameId=esc(rawUrl.replace(/^\/+|\/+$/g,'').split('/').pop()||'game_unknown');
+    const platforms=(g.plataforma||[]).filter(Boolean).slice(0,3).join(', ');let imageAlt='Portada de '+(g.titulo||'videojuego');if(g.formato)imageAlt+=', formato '+g.formato;if(platforms)imageAlt+=', para '+platforms;
+    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc(imageAlt)}" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero||[]).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }
 })();
 '''
