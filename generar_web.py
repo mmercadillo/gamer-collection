@@ -910,6 +910,9 @@ def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
     searchable_fields = (
         "num", "titulo", "plataforma", "formato", "genero", "desarrollador",
         "distribuidor", "ean", "descripcion", "incluye", "serie", "tags", "proteccion",
+        # Fase 10B: nuevos metadatos. Mientras estén vacíos no alteran el índice
+        # generado; cuando se documenten pasan a formar parte de la búsqueda global.
+        "anio", "mercado", "idioma", "soporte", "tipo_edicion",
     )
     for g in games:
         search_values: list[str] = []
@@ -1609,6 +1612,15 @@ def game_jsonld(game: dict[str, Any], base_url: str, image_path: str | None = No
         obj["image"] = image_object_jsonld(game, base_url, image_path)
     if game.get("ean"):
         obj["gtin"] = game.get("ean")
+
+    # Fase 10B: los nuevos campos del modelo solo enriquecen el JSON-LD cuando
+    # están documentados. Con valores vacíos la salida permanece idéntica.
+    anio = str(game.get("anio") or "").strip()
+    idiomas = list_values(game.get("idioma"))
+    if anio:
+        obj["datePublished"] = anio
+    if idiomas:
+        obj["inLanguage"] = idiomas
     return obj
 
 
@@ -1691,6 +1703,28 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         ig = game.get("ig") or ""
         ig_btn = f'<a class="button" href="{h(ig)}" target="_blank" rel="noopener">Ver publicación en Instagram</a>' if ig else ""
         prot = game.get("proteccion") if isinstance(game.get("proteccion"), dict) else {}
+
+        # Fase 10B: metadatos editoriales nuevos. Todos son obligatorios en el
+        # schema, pero se admiten vacíos. Por eso las filas solo aparecen cuando
+        # hay información real y no cambian visualmente las fichas actuales.
+        extra_metadata_rows: list[str] = []
+        anio = str(game.get("anio") or "").strip()
+        mercado_values = list_values(game.get("mercado"))
+        idioma_values = list_values(game.get("idioma"))
+        soporte_values = list_values(game.get("soporte"))
+        tipo_edicion_values = list_values(game.get("tipo_edicion"))
+        if anio:
+            extra_metadata_rows.append(f'<dt>Año</dt><dd>{h(anio)}</dd>')
+        if mercado_values:
+            extra_metadata_rows.append('<dt>Mercado</dt><dd class="tagrow">' + ''.join(f'<span class="tag">{h(v)}</span>' for v in mercado_values) + '</dd>')
+        if idioma_values:
+            extra_metadata_rows.append('<dt>Idioma</dt><dd class="tagrow">' + ''.join(f'<span class="tag">{h(v)}</span>' for v in idioma_values) + '</dd>')
+        if soporte_values:
+            extra_metadata_rows.append('<dt>Soporte</dt><dd class="tagrow">' + ''.join(f'<span class="tag">{h(v)}</span>' for v in soporte_values) + '</dd>')
+        if tipo_edicion_values:
+            extra_metadata_rows.append('<dt>Tipo de edición</dt><dd class="tagrow">' + ''.join(f'<span class="tag">{h(v)}</span>' for v in tipo_edicion_values) + '</dd>')
+        extra_metadata_html = ''.join(extra_metadata_rows)
+
         related_html = related_groups_html(game, related_index, prefix)
         body = f'''<main class="wrap game-detail">
   <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{h(format_href)}">{h(format_value)}</a> / <span>{h(title)}</span></nav>
@@ -1714,7 +1748,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         <dt>Serie</dt><dd class="tagrow">{serie_links}</dd>
         <dt>Desarrollador</dt><dd class="tagrow">{developer_links}</dd>
         <dt>Distribuidor</dt><dd class="tagrow">{distributor_links}</dd>
-        <dt>EAN</dt><dd>{h(text(game.get('ean')))}</dd>
+        <dt>EAN</dt><dd>{h(text(game.get('ean')))}</dd>{extra_metadata_html}
       </dl>
       <h2>Contenido de la edición</h2>
       <ul>{''.join(f'<li>{h(x)}</li>' for x in (game.get('incluye') or [])) or '<li>Pendiente de documentación.</li>'}</ul>
@@ -1963,7 +1997,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: image-seo-2026-08-14")
+    print("Versión generador: data-model-ready-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
