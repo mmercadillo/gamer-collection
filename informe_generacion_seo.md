@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-08-14T13:23:58
+- Fecha: 2026-08-14T13:48:19
 - Juegos en catálogo: 1552
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -26,6 +26,7 @@
 - Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.
 - Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.
 - Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.
+- Las fichas incorporan bloques automáticos de otras ediciones, serie/colección, desarrollador y juegos relacionados, deduplicados entre sí para reforzar la navegación contextual.
 - Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.
 - El scroll infinito de la portada se complementa con `/catalogo/` y una serie paginada de enlaces HTML rastreables, con canonical propio por página.
 
