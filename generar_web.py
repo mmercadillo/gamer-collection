@@ -8,6 +8,7 @@ Lee juegos.json como fuente maestra y genera una web estática indexable:
   - bigbox.html (compatibilidad/redirección)
   - series.html
   - contacto.html
+  - vender-videojuegos-pc-antiguos/index.html
   - robots.txt
   - sitemap.xml
   - assets/css/styles.css
@@ -304,6 +305,7 @@ def nav(active: str, prefix: str = "") -> str:
         ("juegos-pc-big-box.html", "Big Box PC"),
         ("juegos-msdos.html", "MS-DOS"),
         ("series.html", "Series"),
+        ("vender-videojuegos-pc-antiguos/", "Ofrecer juegos"),
         ("contacto.html", "Contacto"),
     ]
     links = []
@@ -409,6 +411,15 @@ document.addEventListener('click',function(e){{
   }}
 
   var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){{
+    gtag('event','offer_games_click',{{
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href
+    }});
+  }}
+
   if(href.indexOf('mailto:')===0){{
     gtag('event','contact_click',{{method:'email',link_url:href}});
   }} else if(href.indexOf('instagram.com/')!==-1){{
@@ -744,6 +755,14 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
   <div class="section-head"><h2>Explorar por datos del catálogo</h2></div>
   <p class="count">Desarrolladores, distribuidores, géneros, plataformas y formatos enlazados directamente con las fichas documentales.</p>
   <div class="taxonomy-grid">{entity_hub_links}</div>
+</section>
+<section class="wrap acquisition-strip" aria-labelledby="acquisition-home-title">
+  <div>
+    <p class="eyebrow">Ayuda a ampliar el archivo</p>
+    <h2 id="acquisition-home-title">¿Tienes videojuegos físicos de PC?</h2>
+    <p>Compramos colecciones, lotes y juegos individuales y también aceptamos donaciones de material con interés documental.</p>
+  </div>
+  <a class="button" href="vender-videojuegos-pc-antiguos/">Vender o donar juegos</a>
 </section>
 <section class="wrap">
   <div class="section-head"><h2>Catálogo de juegos</h2><a href="catalogo/">Ver catálogo completo</a></div>
@@ -1130,6 +1149,94 @@ def generate_series(games: list[dict[str, Any]], out: Path, base_url: str) -> No
     (out / "series.html").write_text(layout(title, desc, abs_url(base_url, "series.html"), "series.html", body), encoding="utf-8")
 
 
+def acquisition_breadcrumb_jsonld(base_url: str) -> dict[str, Any]:
+    return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":abs_url(base_url, "")},
+        {"@type":"ListItem","position":2,"name":"Vender o donar videojuegos de PC","item":abs_url(base_url, "vender-videojuegos-pc-antiguos/")},
+    ]}
+
+
+def generate_acquisition_landing(out: Path, base_url: str) -> None:
+    route = "vender-videojuegos-pc-antiguos/"
+    title = "Vender o donar videojuegos antiguos de PC · PC Game Archive"
+    desc = "Compra y donación de videojuegos antiguos de PC: Big Box, CD-ROM, DVD, Jewel Case, disquetes, manuales y colecciones. Contacta con PC Game Archive."
+    prefix = "../"
+    sell_mail = "mailto:contacto@pcgamearchive.org?subject=Quiero%20vender%20videojuegos%20de%20PC"
+    donate_mail = "mailto:contacto@pcgamearchive.org?subject=Quiero%20donar%20videojuegos%20de%20PC"
+    general_mail = "mailto:contacto@pcgamearchive.org?subject=Consulta%20sobre%20videojuegos%20para%20PC%20Game%20Archive"
+    body = f'''<main>
+<section class="acquisition-hero">
+  <div class="wrap acquisition-hero-grid">
+    <div>
+      <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../">Inicio</a> / <span>Ofrecer juegos</span></nav>
+      <p class="eyebrow">Compramos · Recibimos donaciones · Preservamos</p>
+      <h1>¿Tienes videojuegos antiguos de PC?</h1>
+      <p class="lead">PC Game Archive busca ediciones físicas para ampliar y documentar el archivo. Compramos colecciones, lotes y juegos individuales y también aceptamos donaciones.</p>
+      <div class="actions acquisition-actions">
+        <a class="button" href="{sell_mail}" data-acquisition-intent="sell" data-acquisition-channel="email">Quiero vender juegos</a>
+        <a class="button button-secondary" href="{donate_mail}" data-acquisition-intent="donate" data-acquisition-channel="email">Quiero donar material</a>
+      </div>
+    </div>
+    <figure class="acquisition-visual">
+      <img src="/anuncio_with_bgc.png" alt="PC Game Archive busca videojuegos clásicos de PC para preservar y documentar" width="1080" height="1080" loading="eager">
+    </figure>
+  </div>
+</section>
+<section class="wrap acquisition-section">
+  <div class="section-head"><h2>Qué material buscamos</h2></div>
+  <div class="acquisition-grid">
+    <article class="content-card"><h3>Ediciones físicas</h3><p>Big Box, CD-ROM, DVD, Jewel Case y juegos distribuidos en disquete.</p></article>
+    <article class="content-card"><h3>Documentación</h3><p>Manuales, mapas, guías, referencias rápidas, catálogos y otros elementos originales de la edición.</p></article>
+    <article class="content-card"><h3>Material promocional</h3><p>Folletos, press kits, material de distribuidor y otros documentos relacionados con la publicación del juego.</p></article>
+    <article class="content-card"><h3>Ediciones españolas y europeas</h3><p>Nos interesan especialmente las variantes distribuidas en España y Europa, aunque puedes consultarnos por cualquier edición física de PC.</p></article>
+  </div>
+  <p class="acquisition-note"><strong>No tiene que estar todo completo.</strong> Una caja, un manual, un disco o un lote parcial también puede tener interés documental para el archivo.</p>
+</section>
+<section class="acquisition-soft">
+  <div class="wrap acquisition-section">
+    <div class="section-head"><h2>Cómo funciona</h2></div>
+    <ol class="acquisition-steps">
+      <li><strong>Cuéntanos qué tienes.</strong><span>Puede ser una colección completa, un lote o unos pocos juegos.</span></li>
+      <li><strong>Envíanos fotos o una lista.</strong><span>Con unas imágenes generales y los títulos podemos hacer una primera revisión.</span></li>
+      <li><strong>Revisamos el material.</strong><span>Valoramos su interés para el archivo y te indicamos si podemos adquirirlo o incorporarlo como donación.</span></li>
+      <li><strong>Acordamos los siguientes pasos.</strong><span>Si seguimos adelante, concretamos contigo la forma de entrega o envío.</span></li>
+    </ol>
+  </div>
+</section>
+<section class="wrap acquisition-section">
+  <div class="acquisition-contact-card">
+    <div>
+      <p class="eyebrow">Contacto directo</p>
+      <h2>¿Quieres ofrecernos una colección o un juego?</h2>
+      <p>Escríbenos indicando, si puedes, qué títulos tienes y adjunta algunas fotografías. No hace falta preparar un inventario perfecto antes de contactar.</p>
+    </div>
+    <div class="actions acquisition-actions">
+      <a class="button" href="{general_mail}" data-acquisition-intent="general" data-acquisition-channel="email">contacto@pcgamearchive.org</a>
+      <a class="button button-secondary" href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener" data-acquisition-intent="general" data-acquisition-channel="instagram">@pc_game_archive</a>
+    </div>
+  </div>
+</section>
+<section class="wrap acquisition-section acquisition-faq" aria-labelledby="faq-title">
+  <div class="section-head"><h2 id="faq-title">Preguntas habituales</h2></div>
+  <details><summary>¿Solo os interesan colecciones grandes?</summary><p>No. Puedes contactar aunque tengas un único juego o unos pocos títulos.</p></details>
+  <details><summary>¿Aceptáis material incompleto?</summary><p>Sí. Cajas, manuales, discos, disquetes y otros elementos sueltos pueden tener valor documental aunque la edición no esté completa.</p></details>
+  <details><summary>¿Compráis y también aceptáis donaciones?</summary><p>Sí. Estudiamos ambas opciones en función del material y de lo que prefiera la persona que contacta.</p></details>
+  <details><summary>¿Puedo contactar aunque no sepa exactamente qué edición tengo?</summary><p>Sí. Unas fotografías de la portada, trasera y contenido suelen ser suficientes para comenzar a identificarla.</p></details>
+</section>
+</main>'''
+    jsonld = [
+        organization_jsonld(base_url),
+        acquisition_breadcrumb_jsonld(base_url),
+        {"@context":"https://schema.org","@type":"WebPage","name":"Vender o donar videojuegos antiguos de PC","url":abs_url(base_url, route),"description":desc,"inLanguage":"es","about":{"@type":"Thing","name":"Videojuegos físicos de PC"}},
+    ]
+    target = out / route / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(
+        layout(title, desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación de videojuegos físicos de PC", image=abs_url(base_url, "anuncio_with_bgc.png"), jsonld=jsonld),
+        encoding="utf-8",
+    )
+
+
 def generate_contact(out: Path, base_url: str) -> None:
     title = "Contacto · PC Game Archive"
     desc = "Contacto de PC Game Archive para correcciones, aportaciones documentales y propuestas sobre videojuegos físicos de PC."
@@ -1138,6 +1245,7 @@ def generate_contact(out: Path, base_url: str) -> None:
     <h1>Contacto</h1>
     <p><strong>PC Game Archive</strong> es un proyecto dedicado a la preservación y documentación de videojuegos de PC en formato físico, con especial atención a ediciones clásicas de MS-DOS y Windows, Big Box, manuales, discos, disquetes y distribución española.</p>
     <p>Para proponer correcciones del catálogo, aportar información adicional sobre una edición concreta o compartir documentación relacionada con algún título, puedes usar estos canales.</p>
+    <p>Si quieres <strong>vender o donar videojuegos físicos de PC</strong>, consulta primero nuestra página de <a href="vender-videojuegos-pc-antiguos/">ofrecimiento de juegos y colecciones</a>.</p>
     <dl class="kv"><dt>Email</dt><dd><a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a></dd><dt>Instagram</dt><dd><a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">@pc_game_archive</a></dd></dl>
   </article>
 </main>'''
@@ -1249,7 +1357,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
 
 
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
-    urls = ["", "series.html", "contacto.html"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    urls = ["", "series.html", "contacto.html", "vender-videojuegos-pc-antiguos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
     seen = set(urls)
     total_catalog_pages = max(1, math.ceil(len(games) / CATALOG_PAGE_SIZE))
     for page_number in range(1, total_catalog_pages + 1):
@@ -1368,7 +1476,7 @@ def copy_support_files(project_root: Path, out: Path) -> None:
     if out.resolve() == project_root.resolve():
         return
 
-    for name in ["CNAME", "juegos.json", "json_schema.json", "logo.png", "no_disponible.png", "favicon.ico", "favicon.svg", "apple-touch-icon.png", "site.webmanifest"]:
+    for name in ["CNAME", "juegos.json", "json_schema.json", "logo.png", "no_disponible.png", "anuncio_with_bgc.png", "favicon.ico", "favicon.svg", "apple-touch-icon.png", "site.webmanifest"]:
         src = project_root / name
         dst = out / name
         if src.exists() and src.is_file():
@@ -1407,6 +1515,7 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         "- Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.",
         "- Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.",
         "- Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.",
+        "- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`.",
         "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
         "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
         "- El scroll infinito de la portada se complementa con `/catalogo/` y una serie paginada de enlaces HTML rastreables, con canonical propio por página.",
@@ -1439,6 +1548,7 @@ def main() -> int:
     generate_seo_landing_pages(games, out, args.base_url)
     generate_taxonomy_pages(games, out, args.base_url)
     generate_series(games, out, args.base_url)
+    generate_acquisition_landing(out, args.base_url)
     generate_contact(out, args.base_url)
     generate_game_pages(games, out, project_root, args.base_url)
     generate_static_redirect(out, args.base_url, "bigbox.html", "juegos-pc-big-box.html", "Big Box · PC Game Archive")
@@ -1446,7 +1556,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url)
     generate_robots(out, args.base_url)
     build_report(games, out)
-    print("Versión generador: seo-landings-2026-08-14")
+    print("Versión generador: acquisition-landing-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
@@ -1455,7 +1565,7 @@ def main() -> int:
 
 
 CSS = r'''
-:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.taxonomy-grid,.gallery{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}}
+:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}.button-secondary{background:#fff;color:#111;border-color:#111}.button-secondary:hover{background:#f2f2f0}.acquisition-strip{margin-top:32px;margin-bottom:12px;background:#111;color:#fff;border-radius:24px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px}.acquisition-strip h2{margin-bottom:8px}.acquisition-strip p:not(.eyebrow){margin:0;color:#ddd;max-width:760px}.acquisition-strip .eyebrow{color:#bbb}.acquisition-strip .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}.acquisition-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.acquisition-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,430px);gap:42px;align-items:center;padding-bottom:48px}.acquisition-hero .breadcrumbs{padding-top:22px}.acquisition-visual{margin:28px 0 0}.acquisition-visual img{display:block;width:100%;height:auto;border-radius:24px;border:1px solid var(--bd);box-shadow:0 16px 45px rgba(0,0,0,.08)}.acquisition-section{padding-top:36px;padding-bottom:36px}.acquisition-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-grid .content-card{margin-top:0}.acquisition-grid h3{margin-top:0;margin-bottom:8px}.acquisition-grid p{margin:0;color:#444}.acquisition-note{margin:20px 0 0;padding:16px 18px;border-left:4px solid #111;background:#fff;border-radius:0 14px 14px 0}.acquisition-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.acquisition-steps{list-style:none;counter-reset:acq;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-steps li{counter-increment:acq;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:7px}.acquisition-steps li:before{content:counter(acq);width:34px;height:34px;border-radius:50%;background:#111;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:900;margin-bottom:5px}.acquisition-steps span{color:#555;font-size:14px}.acquisition-contact-card{background:#111;color:#fff;border-radius:24px;padding:26px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:30px}.acquisition-contact-card h2{margin-bottom:8px}.acquisition-contact-card p:not(.eyebrow){color:#ddd;max-width:760px;margin-bottom:0}.acquisition-contact-card .eyebrow{color:#bbb}.acquisition-contact-card .button{background:#fff;color:#111;border-color:#fff}.acquisition-contact-card .button-secondary{background:transparent;color:#fff;border-color:#fff}.acquisition-actions{margin-top:20px}.acquisition-faq details{background:#fff;border:1px solid var(--bd);border-radius:14px;margin:10px 0;padding:0 16px}.acquisition-faq summary{cursor:pointer;font-weight:800;padding:15px 0}.acquisition-faq details p{margin:0 0 16px;color:#444}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}.acquisition-grid,.acquisition-steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid,.acquisition-hero-grid,.acquisition-contact-card{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}.acquisition-strip{align-items:flex-start;flex-direction:column}.acquisition-contact-card .actions{justify-content:flex-start}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.taxonomy-grid,.gallery,.acquisition-grid,.acquisition-steps{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}.acquisition-actions{flex-direction:column}.acquisition-actions .button{width:100%}}
 '''
 
 JS = r'''

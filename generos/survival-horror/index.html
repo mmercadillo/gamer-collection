@@ -58,6 +58,7 @@ gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/generos/s
 <a href="../../juegos-pc-big-box.html">Big Box PC</a>
 <a href="../../juegos-msdos.html">MS-DOS</a>
 <a href="../../series.html">Series</a>
+<a href="../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a href="../../contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
     </nav>
@@ -214,6 +215,15 @@ document.addEventListener('click',function(e){
   }
 
   var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    gtag('event','offer_games_click',{
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href
+    });
+  }
+
   if(href.indexOf('mailto:')===0){
     gtag('event','contact_click',{method:'email',link_url:href});
   } else if(href.indexOf('instagram.com/')!==-1){

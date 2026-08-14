@@ -55,6 +55,7 @@ gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/contacto.
 <a href="juegos-pc-big-box.html">Big Box PC</a>
 <a href="juegos-msdos.html">MS-DOS</a>
 <a href="series.html">Series</a>
+<a href="vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a class="active" href="contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
     </nav>
@@ -65,6 +66,7 @@ gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/contacto.
     <h1>Contacto</h1>
     <p><strong>PC Game Archive</strong> es un proyecto dedicado a la preservación y documentación de videojuegos de PC en formato físico, con especial atención a ediciones clásicas de MS-DOS y Windows, Big Box, manuales, discos, disquetes y distribución española.</p>
     <p>Para proponer correcciones del catálogo, aportar información adicional sobre una edición concreta o compartir documentación relacionada con algún título, puedes usar estos canales.</p>
+    <p>Si quieres <strong>vender o donar videojuegos físicos de PC</strong>, consulta primero nuestra página de <a href="vender-videojuegos-pc-antiguos/">ofrecimiento de juegos y colecciones</a>.</p>
     <dl class="kv"><dt>Email</dt><dd><a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a></dd><dt>Instagram</dt><dd><a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">@pc_game_archive</a></dd></dl>
   </article>
 </main>
@@ -95,6 +97,15 @@ document.addEventListener('click',function(e){
   }
 
   var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    gtag('event','offer_games_click',{
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href
+    });
+  }
+
   if(href.indexOf('mailto:')===0){
     gtag('event','contact_click',{method:'email',link_url:href});
   } else if(href.indexOf('instagram.com/')!==-1){

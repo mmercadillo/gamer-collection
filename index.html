@@ -58,6 +58,7 @@ gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/"});
 <a href="juegos-pc-big-box.html">Big Box PC</a>
 <a href="juegos-msdos.html">MS-DOS</a>
 <a href="series.html">Series</a>
+<a href="vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a href="contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
     </nav>
@@ -137,6 +138,14 @@ gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/"});
 <a class="taxonomy-item" href="generos/"><strong>Géneros</strong><small>Explorar por género</small></a>
 <a class="taxonomy-item" href="plataformas/"><strong>Plataformas</strong><small>Explorar por plataforma</small></a>
 <a class="taxonomy-item" href="formatos/"><strong>Formatos</strong><small>Explorar por formato</small></a></div>
+</section>
+<section class="wrap acquisition-strip" aria-labelledby="acquisition-home-title">
+  <div>
+    <p class="eyebrow">Ayuda a ampliar el archivo</p>
+    <h2 id="acquisition-home-title">¿Tienes videojuegos físicos de PC?</h2>
+    <p>Compramos colecciones, lotes y juegos individuales y también aceptamos donaciones de material con interés documental.</p>
+  </div>
+  <a class="button" href="vender-videojuegos-pc-antiguos/">Vender o donar juegos</a>
 </section>
 <section class="wrap">
   <div class="section-head"><h2>Catálogo de juegos</h2><a href="catalogo/">Ver catálogo completo</a></div>
@@ -369,6 +378,15 @@ document.addEventListener('click',function(e){
   }
 
   var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    gtag('event','offer_games_click',{
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href
+    });
+  }
+
   if(href.indexOf('mailto:')===0){
     gtag('event','contact_click',{method:'email',link_url:href});
   } else if(href.indexOf('instagram.com/')!==-1){
