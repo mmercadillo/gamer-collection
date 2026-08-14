@@ -14,6 +14,7 @@ Lee juegos.json como fuente maestra y genera una web estática indexable:
   - assets/js/catalogo.js
   - assets/js/search-index.js
   - índices y páginas de desarrolladores, distribuidores, géneros, plataformas y formatos
+  - catálogo HTML paginado y rastreable en /catalogo/
   - una página HTML por juego en la ruta definida por juego["url"]
 
 Uso recomendado:
@@ -30,6 +31,7 @@ Notas:
   - Solo sobrescribe ficheros generados: HTML, sitemap.xml, robots.txt, assets/css/styles.css, assets/js/catalogo.js, assets/js/search-index.js, directorios de taxonomías e informe_generacion_seo.md.
   - Buscador global por metadatos del catálogo, combinado con filtros de formato, serie, género y plataforma.
   - Los enlaces internos usan siempre URLs canónicas limpias, sin `index.html`.
+  - El scroll infinito de la portada se complementa con paginación HTML estática para rastreo.
   - Para probar localmente las URLs limpias se recomienda servir el directorio por HTTP (por ejemplo, `python -m http.server`).
   - En detalle de juego, la imagen principal se muestra completa sin recorte y los botones tienen separación respecto a las series/chips.
 """
@@ -41,6 +43,7 @@ import datetime as dt
 import hashlib
 import html
 import json
+import math
 import os
 import re
 import shutil
@@ -55,6 +58,7 @@ DEFAULT_BASE_URL = "https://pcgamearchive.org"
 GA_ID = "G-SQN0WTMVP3"
 OG_IMAGE = "/no_disponible.png"
 PENDING_NUM = "000000"
+CATALOG_PAGE_SIZE = 24
 
 SEO_LANDING_PAGES = [
     {"filename":"videojuegos-clasicos-pc.html","label":"PC clásico","title":"Videojuegos clásicos de PC · MS-DOS, Windows y Big Box","h1":"Videojuegos clásicos de PC","description":"Archivo documental de videojuegos clásicos de PC: MS-DOS, Windows 95/98, Big Box, CD-ROM, disquetes y ediciones físicas históricas.","lead":"PC Game Archive documenta videojuegos clásicos de PC en formato físico, con especial atención a cajas grandes, CD-ROM, disquetes, manuales, ediciones españolas y compatibilidad histórica con MS-DOS y Windows.","filter":{}},
@@ -205,6 +209,7 @@ def existing_gallery(project_root: Path, game: dict[str, Any]) -> list[str]:
 def nav(active: str, prefix: str = "") -> str:
     items = [
         ("", "Inicio"),
+        ("catalogo/", "Catálogo"),
         ("videojuegos-clasicos-pc.html", "PC clásico"),
         ("juegos-pc-big-box.html", "Big Box PC"),
         ("juegos-msdos.html", "MS-DOS"),
@@ -494,6 +499,106 @@ def write_assets(out: Path, games: list[dict[str, Any]]) -> None:
     (out / "assets/js/catalogo.js").write_text(JS, encoding="utf-8")
 
 
+
+def catalog_page_route(page_number: int) -> str:
+    # URL canónica de una página del catálogo estático.
+    return "catalogo/" if page_number <= 1 else f"catalogo/pagina/{page_number}/"
+
+
+def pagination_numbers(current: int, total: int) -> list[int | None]:
+    # Ventana compacta de páginas. None representa un separador visual.
+    if total <= 9:
+        return list(range(1, total + 1))
+    keep = {1, 2, total - 1, total, current - 2, current - 1, current, current + 1, current + 2}
+    values = sorted(n for n in keep if 1 <= n <= total)
+    result: list[int | None] = []
+    previous = 0
+    for number in values:
+        if previous and number - previous > 1:
+            result.append(None)
+        result.append(number)
+        previous = number
+    return result
+
+
+def pagination_html(current: int, total: int) -> str:
+    # Navegación mediante enlaces HTML reales, independiente de JavaScript.
+    if total <= 1:
+        return ""
+    parts: list[str] = []
+    if current > 1:
+        parts.append(f'<a class="pagination-prev" href="{h(site_path(catalog_page_route(current - 1)))}" rel="prev">← Anterior</a>')
+    for number in pagination_numbers(current, total):
+        if number is None:
+            parts.append('<span class="pagination-gap" aria-hidden="true">…</span>')
+        elif number == current:
+            parts.append(f'<span class="pagination-current" aria-current="page">{number}</span>')
+        else:
+            parts.append(f'<a href="{h(site_path(catalog_page_route(number)))}" aria-label="Página {number}">{number}</a>')
+    if current < total:
+        parts.append(f'<a class="pagination-next" href="{h(site_path(catalog_page_route(current + 1)))}" rel="next">Siguiente →</a>')
+    return '<nav class="pagination" aria-label="Paginación del catálogo">' + "".join(parts) + '</nav>'
+
+
+def catalog_breadcrumb_jsonld(base_url: str, page_number: int) -> dict[str, Any]:
+    items = [
+        {"@type":"ListItem","position":1,"name":"Inicio","item":abs_url(base_url, "")},
+        {"@type":"ListItem","position":2,"name":"Catálogo","item":abs_url(base_url, "catalogo/")},
+    ]
+    if page_number > 1:
+        items.append({"@type":"ListItem","position":3,"name":f"Página {page_number}","item":abs_url(base_url, catalog_page_route(page_number))})
+    return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":items}
+
+
+def generate_catalog_pages(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
+    # Genera una serie paginada rastreable que complementa el scroll infinito de la portada.
+    root = out / "catalogo"
+    if root.exists():
+        shutil.rmtree(root)
+    total_games = len(games)
+    total_pages = max(1, math.ceil(total_games / CATALOG_PAGE_SIZE))
+    for page_number in range(1, total_pages + 1):
+        start = (page_number - 1) * CATALOG_PAGE_SIZE
+        end = min(start + CATALOG_PAGE_SIZE, total_games)
+        page_games = games[start:end]
+        route = catalog_page_route(page_number)
+        prefix = rel_prefix_for(route + "index.html")
+        cards = "\n".join(card(game, prefix) for game in page_games)
+        page_suffix = "" if page_number == 1 else f" · Página {page_number}"
+        title = f"Catálogo de videojuegos de PC{page_suffix} · {SITE_NAME}"
+        description = truncate(
+            f"Catálogo físico de videojuegos de PC de {SITE_NAME}{page_suffix.lower()}: Big Box, CD/DVD, Jewel Case, MS-DOS y Windows clásicos.",
+            155,
+        )
+        breadcrumb_tail = "" if page_number == 1 else f" / <span>Página {page_number}</span>"
+        pagination = pagination_html(page_number, total_pages)
+        body = f'''<main class="wrap">
+  <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{h(site_path('catalogo/'))}">Catálogo</a>{breadcrumb_tail}</nav>
+  <div class="page-head">
+    <p class="eyebrow">Catálogo completo · Página {page_number} de {total_pages}</p>
+    <h1>Catálogo de videojuegos de PC{h(page_suffix)}</h1>
+    <p class="lead">Explora el archivo mediante páginas HTML rastreables. Cada edición enlaza directamente con su ficha documental y esta navegación complementa el scroll infinito de la portada.</p>
+  </div>
+  <section>
+    <div class="section-head"><h2>Ediciones documentadas</h2><a href="{home_href(prefix)}">Buscar y filtrar</a></div>
+    <p class="count">Mostrando {start + 1}–{end} de {total_games} juegos.</p>
+    <div class="grid cards">{cards}</div>
+    {pagination}
+  </section>
+</main>'''
+        jsonld = [
+            organization_jsonld(base_url),
+            collection_jsonld(base_url, route, f"Catálogo de videojuegos de PC{page_suffix}", description, page_games),
+            catalog_breadcrumb_jsonld(base_url, page_number),
+        ]
+        target = out / route / "index.html"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(
+            layout(title, description, abs_url(base_url, route), "catalogo/", body, prefix=prefix, subtitle="Catálogo físico de videojuegos de PC", jsonld=jsonld),
+            encoding="utf-8",
+        )
+
+
 def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
     bigbox = sum(1 for g in games if g.get("formato") == "Big Box")
     dvd_case = sum(1 for g in games if g.get("formato") == "DVD Case")
@@ -551,7 +656,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
   <div class="taxonomy-grid">{entity_hub_links}</div>
 </section>
 <section class="wrap">
-  <div class="section-head"><h2>Catálogo de juegos</h2><a href="juegos-pc-big-box.html">Ver Big Box</a></div>
+  <div class="section-head"><h2>Catálogo de juegos</h2><a href="catalogo/">Ver catálogo completo</a></div>
   <p class="count">{len(games)} juegos encontrados.</p>
   <div class="grid cards" data-catalog-list>{cards}</div>
   <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
@@ -963,6 +1068,12 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
     urls = ["", "series.html", "contacto.html"] + [p["filename"] for p in SEO_LANDING_PAGES]
     seen = set(urls)
+    total_catalog_pages = max(1, math.ceil(len(games) / CATALOG_PAGE_SIZE))
+    for page_number in range(1, total_catalog_pages + 1):
+        route = catalog_page_route(page_number)
+        if route not in seen:
+            urls.append(route)
+            seen.add(route)
     for taxonomy, cfg in TAXONOMIES.items():
         hub = f"{taxonomy}/"
         if hub not in seen:
@@ -1098,6 +1209,7 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         f"- Géneros con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'generos') if e['count'] >= TAXONOMIES['generos']['min_count'])}",
         f"- Plataformas con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'plataformas') if e['count'] >= TAXONOMIES['plataformas']['min_count'])}",
         f"- Formatos con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'formatos') if e['count'] >= TAXONOMIES['formatos']['min_count'])}",
+        f"- Páginas estáticas del catálogo: {max(1, math.ceil(len(games) / CATALOG_PAGE_SIZE))}",
         "",
         "## Observaciones",
         "",
@@ -1113,6 +1225,7 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         "- Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.",
         "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
         "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
+        "- El scroll infinito de la portada se complementa con `/catalogo/` y una serie paginada de enlaces HTML rastreables, con canonical propio por página.",
     ]
     if dup:
         lines += ["", "## URLs duplicadas", ""] + [f"- `{u}`" for u in dup[:100]]
@@ -1138,6 +1251,7 @@ def main() -> int:
     copy_support_files(project_root, out)
     generate_favicons(project_root, out)
     generate_index(games, out, args.base_url)
+    generate_catalog_pages(games, out, args.base_url)
     generate_seo_landing_pages(games, out, args.base_url)
     generate_taxonomy_pages(games, out, args.base_url)
     generate_series(games, out, args.base_url)
@@ -1148,7 +1262,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url)
     generate_robots(out, args.base_url)
     build_report(games, out)
-    print("Versión generador: seo-taxonomies-2026-08-14")
+    print("Versión generador: seo-pagination-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
@@ -1157,7 +1271,7 @@ def main() -> int:
 
 
 CSS = r'''
-:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){header{position:static}.header-row,.hero-grid,.detail-grid{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}}@media(max-width:480px){.grid.cards,.taxonomy-grid,.gallery{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}}
+:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){header{position:static}.header-row,.hero-grid,.detail-grid{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}}@media(max-width:480px){.grid.cards,.taxonomy-grid,.gallery{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}}
 '''
 
 JS = r'''

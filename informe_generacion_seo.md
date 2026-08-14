@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-08-14T12:32:54
+- Fecha: 2026-08-14T12:45:33
 - Juegos en catálogo: 1552
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -9,6 +9,7 @@
 - Géneros con página/landing indexable: 143
 - Plataformas con página/landing indexable: 13
 - Formatos con página/landing indexable: 3
+- Páginas estáticas del catálogo: 65
 
 ## Observaciones
 
@@ -24,6 +25,7 @@
 - Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.
 - Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.
 - Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.
+- El scroll infinito de la portada se complementa con `/catalogo/` y una serie paginada de enlaces HTML rastreables, con canonical propio por página.
 
 ## URLs duplicadas
 
