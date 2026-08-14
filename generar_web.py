@@ -33,6 +33,8 @@ Notas:
   - Buscador global por metadatos del catálogo, combinado con filtros de formato, serie, género y plataforma.
   - Los enlaces internos usan siempre URLs canónicas limpias, sin `index.html`.
   - El scroll infinito de la portada se complementa con paginación HTML estática para rastreo.
+  - Las fotografías existentes en /juegos/<slug>/img/ se incorporan automáticamente al sitemap mediante la extensión de imágenes de Google.
+  - Las fichas generan alt/captions descriptivos, ImageObject/primaryImageOfPage y prioridad alta para la imagen principal sin renombrar los originales.
   - Para probar localmente las URLs limpias se recomienda servir el directorio por HTTP (por ejemplo, `python -m http.server`).
   - En detalle de juego, la imagen principal se muestra completa sin recorte y los botones tienen separación respecto a las series/chips.
 """
@@ -296,6 +298,89 @@ def existing_gallery(project_root: Path, game: dict[str, Any]) -> list[str]:
     )
     return [site_path(f"{url.rstrip('/')}/img/{name}") for name in files]
 
+
+def build_gallery_index(project_root: Path, games: list[dict[str, Any]]) -> dict[str, list[str]]:
+    """Inventario único de imágenes documentales existentes por ficha.
+
+    Solo se incluyen ficheros que existen físicamente en /juegos/<slug>/img/.
+    El índice se reutiliza para las fichas y para el sitemap de imágenes.
+    """
+    index: dict[str, list[str]] = {}
+    for game in games:
+        url = str(game.get("url", "")).strip()
+        if not url or not re.match(r"^juegos/[a-z0-9\-]+/$", url):
+            continue
+        index[url] = existing_gallery(project_root, game)
+    return index
+
+
+def image_platform_text(game: dict[str, Any]) -> str:
+    labels = {
+        "msdos": "MS-DOS",
+        "win3x": "Windows 3.x",
+        "win95": "Windows 95",
+        "win98": "Windows 98",
+        "winme": "Windows Me",
+        "winnt": "Windows NT",
+        "win2k": "Windows 2000",
+        "winxp": "Windows XP",
+        "winvista": "Windows Vista",
+        "win7": "Windows 7",
+        "win8": "Windows 8",
+        "win10": "Windows 10",
+        "win11": "Windows 11",
+    }
+    values = list_values(game.get("plataforma"))
+    result: list[str] = []
+    for value in values[:3]:
+        key = entity_key(value).replace(" ", "").replace("-", "")
+        result.append(labels.get(key, value))
+    return ", ".join(result)
+
+
+def edition_image_label(game: dict[str, Any], *, kind: str = "principal", position: int | None = None) -> str:
+    """Alt descriptivo de una fotografía documental, sin keyword stuffing."""
+    title = text(game.get("titulo"), "videojuego")
+    fmt = text(game.get("formato"), "")
+    platform = image_platform_text(game)
+    if kind == "cover":
+        lead = f"Portada de {title}"
+    elif kind == "gallery" and position is not None:
+        lead = f"Imagen documental {position} de {title}"
+    else:
+        lead = f"Edición física de {title}"
+    details: list[str] = []
+    if fmt:
+        details.append(f"formato {fmt}")
+    if platform:
+        details.append(f"para {platform}")
+    return lead + (", " + ", ".join(details) if details else "")
+
+
+def edition_image_caption(game: dict[str, Any]) -> str:
+    parts = [text(game.get("titulo"), "Videojuego")]
+    fmt = text(game.get("formato"), "")
+    platform = image_platform_text(game)
+    if fmt:
+        parts.append(fmt)
+    if platform:
+        parts.append(platform)
+    return " · ".join(parts)
+
+
+def image_object_jsonld(game: dict[str, Any], base_url: str, image_path: str) -> dict[str, Any]:
+    image_url = abs_url(base_url, image_path)
+    return {
+        "@type": "ImageObject",
+        "@id": image_url + "#image",
+        "url": image_url,
+        "contentUrl": image_url,
+        "name": edition_image_label(game),
+        "caption": edition_image_caption(game),
+        "representativeOfPage": True,
+    }
+
+
 RELATED_GENERIC_SERIES = {"todos", "big box", "dvd case", "jewel case"}
 
 
@@ -512,17 +597,20 @@ def nav(active: str, prefix: str = "") -> str:
     return "\n".join(links)
 
 
-def head(title: str, description: str, canonical: str, prefix: str = "", image: str | None = None, extra_jsonld: list[dict[str, Any]] | None = None) -> str:
+def head(title: str, description: str, canonical: str, prefix: str = "", image: str | None = None, extra_jsonld: list[dict[str, Any]] | None = None, image_alt: str | None = None) -> str:
     image_url = image or abs_url(DEFAULT_BASE_URL, OG_IMAGE)
     canonical_js = json.dumps(canonical, ensure_ascii=False)
     jsonld = ""
     for obj in extra_jsonld or []:
         jsonld += f'\n<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False, separators=(",", ":"))}</script>'
+    image_alt_meta = ""
+    if image_alt:
+        image_alt_meta = f'\n<meta property="og:image:alt" content="{h(image_alt)}" />\n<meta name="twitter:image:alt" content="{h(image_alt)}" />'
     return f'''<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>{h(title)}</title>
 <meta name="description" content="{h(description)}" />
-<meta name="robots" content="index,follow" />
+<meta name="robots" content="index,follow,max-image-preview:large" />
 <meta name="theme-color" content="#111111" />
 <link rel="canonical" href="{h(canonical)}" />
 <meta property="og:type" content="website" />
@@ -530,7 +618,7 @@ def head(title: str, description: str, canonical: str, prefix: str = "", image: 
 <meta property="og:title" content="{h(title)}" />
 <meta property="og:description" content="{h(description)}" />
 <meta property="og:url" content="{h(canonical)}" />
-<meta property="og:image" content="{h(image_url)}" />
+<meta property="og:image" content="{h(image_url)}" />{image_alt_meta}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{h(title)}" />
 <meta name="twitter:description" content="{h(description)}" />
@@ -592,11 +680,11 @@ if(window.PCGA_ANALYTICS_ENABLED){{
 </script>{jsonld}'''
 
 
-def layout(title: str, description: str, canonical: str, active: str, body: str, prefix: str = "", subtitle: str = "Archivo físico de videojuegos de PC · Big Box · MS-DOS · Windows", image: str | None = None, jsonld: list[dict[str, Any]] | None = None) -> str:
+def layout(title: str, description: str, canonical: str, active: str, body: str, prefix: str = "", subtitle: str = "Archivo físico de videojuegos de PC · Big Box · MS-DOS · Windows", image: str | None = None, jsonld: list[dict[str, Any]] | None = None, image_alt: str | None = None) -> str:
     return f'''<!doctype html>
 <html lang="es">
 <head>
-{head(title, description, canonical, prefix, image, jsonld)}
+{head(title, description, canonical, prefix, image, jsonld, image_alt)}
 </head>
 <body>
 <header id="top">
@@ -689,8 +777,9 @@ def card(game: dict[str, Any], prefix: str = "") -> str:
     fallback = "/no_disponible.png"
     tags = [game.get("formato", "")] + (game.get("plataforma") or [])[:2]
     tag_html = "".join(f'<span class="tag">{h(t)}</span>' for t in tags if t)
+    image_alt = edition_image_label(game, kind="cover")
     return f'''<a class="game-card" href="{h(url)}" data-game-link data-game-id="{h(game_id)}">
-  <img src="{h(img)}" alt="{h('Portada de ' + title)}" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='{h(fallback)}';this.classList.add('missing')" />
+  <img src="{h(img)}" alt="{h(image_alt)}" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='{h(fallback)}';this.alt='Imagen no disponible';this.classList.add('missing')" />
   <span class="game-card-body">
     <strong>{h(title)}</strong>
     <small>{h(text(game.get('genero')))}</small>
@@ -1427,7 +1516,7 @@ def generate_acquisition_landing(out: Path, base_url: str) -> None:
       </div>
     </div>
     <figure class="acquisition-visual">
-      <img src="/anuncio_with_bgc.png" alt="PC Game Archive busca videojuegos clásicos de PC para preservar y documentar" width="1080" height="1080" loading="eager">
+      <img src="/anuncio_with_bgc.png" alt="PC Game Archive busca videojuegos clásicos de PC para preservar y documentar" width="1080" height="1080" loading="eager" fetchpriority="high">
     </figure>
   </div>
 </section>
@@ -1481,7 +1570,7 @@ def generate_acquisition_landing(out: Path, base_url: str) -> None:
     target = out / route / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(
-        layout(title, desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación de videojuegos físicos de PC", image=abs_url(base_url, "anuncio_with_bgc.png"), jsonld=jsonld),
+        layout(title, desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación de videojuegos físicos de PC", image=abs_url(base_url, "anuncio_with_bgc.png"), jsonld=jsonld, image_alt="PC Game Archive busca videojuegos clásicos de PC para preservar y documentar"),
         encoding="utf-8",
     )
 
@@ -1506,19 +1595,37 @@ def game_jsonld(game: dict[str, Any], base_url: str, image_path: str | None = No
     obj = {
         "@context": "https://schema.org",
         "@type": "VideoGame",
+        "@id": url + "#videogame",
         "name": text(game.get("titulo")),
         "url": url,
+        "mainEntityOfPage": url,
         "description": truncate(text(game.get("descripcion"), ""), 500),
         "gamePlatform": list_values(game.get("plataforma")),
         "genre": list_values(game.get("genero")),
         "author": [{"@type":"Organization","name": v} for v in list_values(game.get("desarrollador"))],
         "publisher": [{"@type":"Organization","name": v} for v in list_values(game.get("distribuidor"))],
-        "image": abs_url(base_url, image_path or OG_IMAGE),
     }
+    if image_path:
+        obj["image"] = image_object_jsonld(game, base_url, image_path)
     if game.get("ean"):
         obj["gtin"] = game.get("ean")
     return obj
 
+
+def game_page_jsonld(game: dict[str, Any], base_url: str, image_path: str | None = None) -> dict[str, Any]:
+    url = abs_url(base_url, game.get("url", ""))
+    obj: dict[str, Any] = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": url + "#webpage",
+        "url": url,
+        "name": text(game.get("titulo")),
+        "inLanguage": "es",
+        "mainEntity": {"@id": url + "#videogame"},
+    }
+    if image_path:
+        obj["primaryImageOfPage"] = image_object_jsonld(game, base_url, image_path)
+    return obj
 
 def breadcrumb_jsonld(game: dict[str, Any], base_url: str, taxonomy_lookup: dict[str, dict[str, dict[str, Any]]]) -> dict[str, Any]:
     format_value = text(game.get("formato"), "Catálogo")
@@ -1531,10 +1638,11 @@ def breadcrumb_jsonld(game: dict[str, Any], base_url: str, taxonomy_lookup: dict
     ]}
 
 
-def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Path, base_url: str) -> None:
+def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
     url_counts = Counter(g.get("url") for g in games)
     taxonomy_lookup = build_taxonomy_lookup(games)
     related_index = build_related_indexes(games)
+    gallery_index = gallery_index or build_gallery_index(project_root, games)
     for idx, game in enumerate(games, start=1):
         url = str(game.get("url", "")).strip()
         if not url or not re.match(r"^juegos/[a-z0-9\-]+/$", url):
@@ -1547,18 +1655,31 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         title = text(game.get("titulo"))
         page_title = f"{title} · {text(game.get('formato'))} · PC Game Archive"
         desc = truncate(text(game.get("descripcion")), 155)
-        gallery = existing_gallery(project_root, game)
-        hero_path = gallery[0] if gallery else "/no_disponible.png"
+        gallery = gallery_index.get(url, [])
+        primary_image_path = gallery[0] if gallery else None
+        hero_path = primary_image_path or "/no_disponible.png"
         hero = hero_path
+        hero_alt = edition_image_label(game) if primary_image_path else f"Imagen no disponible de {title}"
+        hero_caption = edition_image_caption(game) if primary_image_path else f"{title} · imagen documental pendiente"
         chip_parts: list[str] = []
         if game.get("formato"):
             chip_parts.append(entity_tag("formatos", str(game.get("formato")), taxonomy_lookup, prefix, "chip"))
         chip_parts.extend(entity_tag("plataformas", p, taxonomy_lookup, prefix, "chip") for p in list_values(game.get("plataforma")))
         chip_parts.extend(f'<a class="chip" href="{h(taxonomy_link("serie", s, prefix))}">{h(s)}</a>' for s in list_values(game.get("serie"))[:3])
         chip_html = "".join(chip_parts)
-        gallery_html = "\n".join(f'<img src="{h(src)}" alt="{h(title)}" loading="lazy" width="480" height="360" onerror="this.remove()">' for src in gallery)
+        gallery_items: list[str] = []
+        total_gallery = len(gallery)
+        for image_number, src in enumerate(gallery, start=1):
+            alt = edition_image_label(game, kind="gallery", position=image_number)
+            caption = f"Imagen documental {image_number} de {total_gallery}"
+            gallery_items.append(
+                f'<figure class="gallery-item"><a class="gallery-link" href="{h(src)}" target="_blank" rel="noopener" aria-label="Abrir imagen documental {image_number} de {h(title)} a tamaño completo">'
+                f'<img src="{h(src)}" alt="{h(alt)}" loading="lazy" decoding="async" width="480" height="360" onerror="this.closest(\'figure\').remove()"></a>'
+                f'<figcaption>{h(caption)}</figcaption></figure>'
+            )
+        gallery_html = "\n".join(gallery_items)
         if not gallery_html:
-            gallery_html = f'<img src="/no_disponible.png" alt="{h("Imágenes no disponibles de " + title)}" loading="lazy" width="480" height="360">'
+            gallery_html = f'<figure class="gallery-item gallery-missing"><img src="/no_disponible.png" alt="{h("Imágenes no disponibles de " + title)}" loading="lazy" decoding="async" width="480" height="360"><figcaption>Galería pendiente de documentación</figcaption></figure>'
         format_link = entity_tag("formatos", text(game.get("formato"), ""), taxonomy_lookup, prefix) if text(game.get("formato"), "") else "—"
         platform_links = " ".join(entity_tag("plataformas", p, taxonomy_lookup, prefix) for p in list_values(game.get("plataforma")))
         genre_links = " ".join(entity_tag("generos", g, taxonomy_lookup, prefix) for g in list_values(game.get("genero")))
@@ -1575,7 +1696,10 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
   <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{h(format_href)}">{h(format_value)}</a> / <span>{h(title)}</span></nav>
   <article class="detail-grid">
     <section class="media-card">
-      <img class="hero-img" src="{h(hero)}" alt="{h('Edición física de ' + title)}" width="760" height="570" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')">
+      <figure class="hero-figure">
+        <img class="hero-img" src="{h(hero)}" alt="{h(hero_alt)}" width="760" height="570" loading="eager" fetchpriority="high" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')">
+        <figcaption>{h(hero_caption)}</figcaption>
+      </figure>
       <div class="chips">{chip_html}</div>
       <div class="actions"><a class="button" href="{home_href(prefix)}">Volver al catálogo</a>{ig_btn}</div>
     </section>
@@ -1602,13 +1726,18 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
   <section class="content-card"><h2>Galería documental</h2><div class="gallery">{gallery_html}</div></section>
   {related_html}
 </main>'''
-        page = layout(page_title, desc, abs_url(base_url, url), "", body, prefix=prefix, subtitle="Ficha documental", image=abs_url(base_url, hero_path), jsonld=[game_jsonld(game, base_url, hero_path), breadcrumb_jsonld(game, base_url, taxonomy_lookup)])
+        page = layout(
+            page_title, desc, abs_url(base_url, url), "", body, prefix=prefix, subtitle="Ficha documental",
+            image=abs_url(base_url, hero_path),
+            jsonld=[game_page_jsonld(game, base_url, primary_image_path), game_jsonld(game, base_url, primary_image_path), breadcrumb_jsonld(game, base_url, taxonomy_lookup)],
+            image_alt=hero_alt,
+        )
         target = out / url / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(page, encoding="utf-8")
 
 
-def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
+def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
     urls = ["", "series.html", "contacto.html", "vender-videojuegos-pc-antiguos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
     seen = set(urls)
     total_catalog_pages = max(1, math.ceil(len(games) / CATALOG_PAGE_SIZE))
@@ -1634,10 +1763,24 @@ def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> N
         if isinstance(url, str) and re.match(r"^juegos/[a-z0-9\-]+/$", url) and url not in seen:
             urls.append(url)
             seen.add(url)
-    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    gallery_index = gallery_index or {}
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
+    ]
     for u in urls:
         loc = abs_url(base_url, u)
-        lines.append(f"  <url><loc>{h(loc)}</loc></url>")
+        images = gallery_index.get(u, []) if isinstance(u, str) and u.startswith("juegos/") else []
+        if images:
+            lines.append("  <url>")
+            lines.append(f"    <loc>{h(loc)}</loc>")
+            for image_path in images[:1000]:
+                lines.append("    <image:image>")
+                lines.append(f"      <image:loc>{h(abs_url(base_url, image_path))}</image:loc>")
+                lines.append("    </image:image>")
+            lines.append("  </url>")
+        else:
+            lines.append(f"  <url><loc>{h(loc)}</loc></url>")
     lines.append("</urlset>")
     (out / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -1736,10 +1879,13 @@ def copy_support_files(project_root: Path, out: Path) -> None:
             dst.write_bytes(src.read_bytes())
 
 
-def build_report(games: list[dict[str, Any]], out: Path) -> None:
+def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str, list[str]] | None = None) -> None:
     urls = [g.get("url") for g in games if g.get("url")]
     dup = [u for u,c in Counter(urls).items() if c > 1]
     invalid = [g for g in games if not isinstance(g.get("url"), str) or not re.match(r"^juegos/[a-z0-9\-]+/$", g.get("url", ""))]
+    gallery_index = gallery_index or {}
+    image_count = sum(len(images) for images in gallery_index.values())
+    games_with_images = sum(1 for images in gallery_index.values() if images)
     lines = [
         "# Informe de generación SEO",
         "",
@@ -1753,11 +1899,18 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         f"- Plataformas con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'plataformas') if e['count'] >= TAXONOMIES['plataformas']['min_count'])}",
         f"- Formatos con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'formatos') if e['count'] >= TAXONOMIES['formatos']['min_count'])}",
         f"- Páginas estáticas del catálogo: {max(1, math.ceil(len(games) / CATALOG_PAGE_SIZE))}",
+        f"- Fichas con imágenes documentales detectadas: {games_with_images}",
+        f"- Imágenes documentales incluidas en el sitemap: {image_count}",
         "",
         "## Observaciones",
         "",
         "- Las páginas de juego se generan físicamente como `juegos/<slug>/index.html`, pero todos los enlaces y canonical usan `/juegos/<slug>/`.",
         "- El sitemap contiene exclusivamente URLs canónicas y no publica fechas `lastmod` artificiales.",
+        "- El sitemap usa la extensión oficial de imágenes y asocia a cada ficha únicamente las imágenes que existen físicamente en `/juegos/<slug>/img/`.",
+        "- Las fichas añaden `primaryImageOfPage`/`ImageObject` solo cuando existe fotografía real; `no_disponible.png` se mantiene como fallback visual/social pero no se presenta como imagen documental en datos estructurados ni en el sitemap de imágenes.",
+        "- Las imágenes documentales tienen alt descriptivo, captions visibles y la imagen principal usa `fetchpriority=high`; el resto mantiene carga diferida nativa.",
+        "- Se permite `max-image-preview:large` para que Google pueda usar previsualizaciones grandes cuando corresponda.",
+        "- Se conservan los nombres documentales originales (`001.jpg`, etc.); no se renombran ficheros ni se rompen rutas históricas del archivo.",
         "- `bigbox.html` se conserva únicamente como redirección a `juegos-pc-big-box.html`.",
         "- `detalle.html?juego=<slug>` se conserva únicamente como compatibilidad con URLs antiguas.",
         "- Google Analytics normaliza la ruta a la canonical, conserva parámetros de campaña (`utm_*`, `gclid`, `gbraid`, `wbraid`, `dclid`) para no perder atribución SEM y no se inicializa en localhost/127.0.0.1/::1.",
@@ -1791,6 +1944,7 @@ def main() -> int:
     catalog_path = (project_root / args.catalogo).resolve()
     out = (project_root / args.out).resolve()
     games = load_json(catalog_path)
+    gallery_index = build_gallery_index(project_root, games)
 
     out.mkdir(parents=True, exist_ok=True)
     write_assets(out, games)
@@ -1803,13 +1957,13 @@ def main() -> int:
     generate_series(games, out, args.base_url)
     generate_acquisition_landing(out, args.base_url)
     generate_contact(out, args.base_url)
-    generate_game_pages(games, out, project_root, args.base_url)
+    generate_game_pages(games, out, project_root, args.base_url, gallery_index)
     generate_static_redirect(out, args.base_url, "bigbox.html", "juegos-pc-big-box.html", "Big Box · PC Game Archive")
     generate_legacy_detail(out, args.base_url)
-    generate_sitemap(games, out, args.base_url)
+    generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
-    build_report(games, out)
-    print("Versión generador: related-games-2026-08-14")
+    build_report(games, out, gallery_index)
+    print("Versión generador: image-seo-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
@@ -1818,7 +1972,7 @@ def main() -> int:
 
 
 CSS = r'''
-:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid var(--bd);background:#eee}.related-area{margin-top:34px}.related-section{margin-top:30px}.related-section:first-child{margin-top:0}.related-section .section-head{margin-bottom:14px}.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.related-grid .game-card{min-height:230px}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}.button-secondary{background:#fff;color:#111;border-color:#111}.button-secondary:hover{background:#f2f2f0}.acquisition-strip{margin-top:32px;margin-bottom:12px;background:#111;color:#fff;border-radius:24px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px}.acquisition-strip h2{margin-bottom:8px}.acquisition-strip p:not(.eyebrow){margin:0;color:#ddd;max-width:760px}.acquisition-strip .eyebrow{color:#bbb}.acquisition-strip .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}.acquisition-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.acquisition-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,430px);gap:42px;align-items:center;padding-bottom:48px}.acquisition-hero .breadcrumbs{padding-top:22px}.acquisition-visual{margin:28px 0 0}.acquisition-visual img{display:block;width:100%;height:auto;border-radius:24px;border:1px solid var(--bd);box-shadow:0 16px 45px rgba(0,0,0,.08)}.acquisition-section{padding-top:36px;padding-bottom:36px}.acquisition-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-grid .content-card{margin-top:0}.acquisition-grid h3{margin-top:0;margin-bottom:8px}.acquisition-grid p{margin:0;color:#444}.acquisition-note{margin:20px 0 0;padding:16px 18px;border-left:4px solid #111;background:#fff;border-radius:0 14px 14px 0}.acquisition-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.acquisition-steps{list-style:none;counter-reset:acq;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-steps li{counter-increment:acq;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:7px}.acquisition-steps li:before{content:counter(acq);width:34px;height:34px;border-radius:50%;background:#111;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:900;margin-bottom:5px}.acquisition-steps span{color:#555;font-size:14px}.acquisition-contact-card{background:#111;color:#fff;border-radius:24px;padding:26px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:30px}.acquisition-contact-card h2{margin-bottom:8px}.acquisition-contact-card p:not(.eyebrow){color:#ddd;max-width:760px;margin-bottom:0}.acquisition-contact-card .eyebrow{color:#bbb}.acquisition-contact-card .button{background:#fff;color:#111;border-color:#fff}.acquisition-contact-card .button-secondary{background:transparent;color:#fff;border-color:#fff}.acquisition-actions{margin-top:20px}.acquisition-faq details{background:#fff;border:1px solid var(--bd);border-radius:14px;margin:10px 0;padding:0 16px}.acquisition-faq summary{cursor:pointer;font-weight:800;padding:15px 0}.acquisition-faq details p{margin:0 0 16px;color:#444}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.related-grid{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}.acquisition-grid,.acquisition-steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid,.acquisition-hero-grid,.acquisition-contact-card{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.related-grid{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}.acquisition-strip{align-items:flex-start;flex-direction:column}.acquisition-contact-card .actions{justify-content:flex-start}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.related-grid,.taxonomy-grid,.gallery,.acquisition-grid,.acquisition-steps{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}.acquisition-actions{flex-direction:column}.acquisition-actions .button{width:100%}}
+:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-figure{margin:0}.hero-figure figcaption{margin-top:9px;color:var(--g);font-size:12px;line-height:1.4}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery-item{margin:0;min-width:0}.gallery-link{display:block;text-decoration:none}.gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;border-radius:14px;border:1px solid var(--bd);background:#eee}.gallery-item figcaption{margin-top:6px;color:var(--g);font-size:12px;line-height:1.35}.gallery-missing img{object-fit:contain}.related-area{margin-top:34px}.related-section{margin-top:30px}.related-section:first-child{margin-top:0}.related-section .section-head{margin-bottom:14px}.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.related-grid .game-card{min-height:230px}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}.button-secondary{background:#fff;color:#111;border-color:#111}.button-secondary:hover{background:#f2f2f0}.acquisition-strip{margin-top:32px;margin-bottom:12px;background:#111;color:#fff;border-radius:24px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px}.acquisition-strip h2{margin-bottom:8px}.acquisition-strip p:not(.eyebrow){margin:0;color:#ddd;max-width:760px}.acquisition-strip .eyebrow{color:#bbb}.acquisition-strip .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}.acquisition-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.acquisition-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,430px);gap:42px;align-items:center;padding-bottom:48px}.acquisition-hero .breadcrumbs{padding-top:22px}.acquisition-visual{margin:28px 0 0}.acquisition-visual img{display:block;width:100%;height:auto;border-radius:24px;border:1px solid var(--bd);box-shadow:0 16px 45px rgba(0,0,0,.08)}.acquisition-section{padding-top:36px;padding-bottom:36px}.acquisition-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-grid .content-card{margin-top:0}.acquisition-grid h3{margin-top:0;margin-bottom:8px}.acquisition-grid p{margin:0;color:#444}.acquisition-note{margin:20px 0 0;padding:16px 18px;border-left:4px solid #111;background:#fff;border-radius:0 14px 14px 0}.acquisition-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.acquisition-steps{list-style:none;counter-reset:acq;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-steps li{counter-increment:acq;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:7px}.acquisition-steps li:before{content:counter(acq);width:34px;height:34px;border-radius:50%;background:#111;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:900;margin-bottom:5px}.acquisition-steps span{color:#555;font-size:14px}.acquisition-contact-card{background:#111;color:#fff;border-radius:24px;padding:26px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:30px}.acquisition-contact-card h2{margin-bottom:8px}.acquisition-contact-card p:not(.eyebrow){color:#ddd;max-width:760px;margin-bottom:0}.acquisition-contact-card .eyebrow{color:#bbb}.acquisition-contact-card .button{background:#fff;color:#111;border-color:#fff}.acquisition-contact-card .button-secondary{background:transparent;color:#fff;border-color:#fff}.acquisition-actions{margin-top:20px}.acquisition-faq details{background:#fff;border:1px solid var(--bd);border-radius:14px;margin:10px 0;padding:0 16px}.acquisition-faq summary{cursor:pointer;font-weight:800;padding:15px 0}.acquisition-faq details p{margin:0 0 16px;color:#444}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.related-grid{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}.acquisition-grid,.acquisition-steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid,.acquisition-hero-grid,.acquisition-contact-card{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.related-grid{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}.acquisition-strip{align-items:flex-start;flex-direction:column}.acquisition-contact-card .actions{justify-content:flex-start}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.related-grid,.taxonomy-grid,.gallery,.acquisition-grid,.acquisition-steps{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}.acquisition-actions{flex-direction:column}.acquisition-actions .button{width:100%}}
 '''
 
 JS = r'''
@@ -1972,7 +2126,11 @@ JS = r'''
     const url = esc(siteUrl);
     const img = esc(siteUrl === '#' ? '/no_disponible.png' : siteUrl.replace(/\/$/, '') + '/img/001.jpg');
     const gameId = esc(rawUrl.replace(/^\/+|\/+$/g, '').split('/').pop() || 'game_unknown');
-    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+    const platforms = (g.plataforma || []).filter(Boolean).slice(0, 3).join(', ');
+    let imageAlt = 'Portada de ' + (g.titulo || 'videojuego');
+    if(g.formato) imageAlt += ', formato ' + g.formato;
+    if(platforms) imageAlt += ', para ' + platforms;
+    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc(imageAlt)}" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }
 })();
 '''

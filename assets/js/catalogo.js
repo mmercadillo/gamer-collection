@@ -149,6 +149,10 @@
     const url = esc(siteUrl);
     const img = esc(siteUrl === '#' ? '/no_disponible.png' : siteUrl.replace(/\/$/, '') + '/img/001.jpg');
     const gameId = esc(rawUrl.replace(/^\/+|\/+$/g, '').split('/').pop() || 'game_unknown');
-    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+    const platforms = (g.plataforma || []).filter(Boolean).slice(0, 3).join(', ');
+    let imageAlt = 'Portada de ' + (g.titulo || 'videojuego');
+    if(g.formato) imageAlt += ', formato ' + g.formato;
+    if(platforms) imageAlt += ', para ' + platforms;
+    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc(imageAlt)}" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }
 })();

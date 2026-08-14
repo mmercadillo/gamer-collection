@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-08-14T13:59:59
+- Fecha: 2026-08-14T14:09:19
 - Juegos en catálogo: 1552
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -10,11 +10,18 @@
 - Plataformas con página/landing indexable: 13
 - Formatos con página/landing indexable: 3
 - Páginas estáticas del catálogo: 65
+- Fichas con imágenes documentales detectadas: 1550
+- Imágenes documentales incluidas en el sitemap: 2547
 
 ## Observaciones
 
 - Las páginas de juego se generan físicamente como `juegos/<slug>/index.html`, pero todos los enlaces y canonical usan `/juegos/<slug>/`.
 - El sitemap contiene exclusivamente URLs canónicas y no publica fechas `lastmod` artificiales.
+- El sitemap usa la extensión oficial de imágenes y asocia a cada ficha únicamente las imágenes que existen físicamente en `/juegos/<slug>/img/`.
+- Las fichas añaden `primaryImageOfPage`/`ImageObject` solo cuando existe fotografía real; `no_disponible.png` se mantiene como fallback visual/social pero no se presenta como imagen documental en datos estructurados ni en el sitemap de imágenes.
+- Las imágenes documentales tienen alt descriptivo, captions visibles y la imagen principal usa `fetchpriority=high`; el resto mantiene carga diferida nativa.
+- Se permite `max-image-preview:large` para que Google pueda usar previsualizaciones grandes cuando corresponda.
+- Se conservan los nombres documentales originales (`001.jpg`, etc.); no se renombran ficheros ni se rompen rutas históricas del archivo.
 - `bigbox.html` se conserva únicamente como redirección a `juegos-pc-big-box.html`.
 - `detalle.html?juego=<slug>` se conserva únicamente como compatibilidad con URLs antiguas.
 - Google Analytics normaliza la ruta a la canonical, conserva parámetros de campaña (`utm_*`, `gclid`, `gbraid`, `wbraid`, `dclid`) para no perder atribución SEM y no se inicializa en localhost/127.0.0.1/::1.
