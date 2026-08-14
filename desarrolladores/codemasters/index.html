@@ -93,12 +93,34 @@ if(window.PCGA_ANALYTICS_ENABLED){
         <span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menú</span>
       </button>
       <nav class="nav" id="main-navigation" aria-label="Navegación principal">
-        <a class="active" href="../../">Inicio</a>
+        <a href="../../">Inicio</a>
 <a href="../../catalogo/">Catálogo</a>
-<a href="../../videojuegos-clasicos-pc.html">PC clásico</a>
-<a href="../../juegos-pc-big-box.html">Big Box PC</a>
-<a href="../../juegos-msdos.html">MS-DOS</a>
-<a href="../../series.html">Series</a>
+<details class="nav-explore active">
+  <summary>Explorar <span class="nav-caret" aria-hidden="true">▾</span></summary>
+  <div class="nav-dropdown">
+    <div class="nav-dropdown-group">
+      <strong>Colecciones</strong>
+      <a class="nav-dropdown-link" href="../../videojuegos-clasicos-pc.html">PC clásico</a>
+<a class="nav-dropdown-link" href="../../juegos-pc-big-box.html">Big Box PC</a>
+<a class="nav-dropdown-link" href="../../juegos-msdos.html">MS-DOS</a>
+<a class="nav-dropdown-link" href="../../juegos-windows-95-98.html">Windows 95/98</a>
+<a class="nav-dropdown-link" href="../../aventuras-graficas-pc.html">Aventuras gráficas</a>
+<a class="nav-dropdown-link" href="../../ediciones-espanolas-pc.html">Ediciones españolas</a>
+<a class="nav-dropdown-link" href="../../series.html">Series</a>
+    </div>
+    <div class="nav-dropdown-group">
+      <strong>Datos del archivo</strong>
+      <a class="nav-dropdown-link active" href="../../desarrolladores/">Desarrolladores</a>
+<a class="nav-dropdown-link" href="../../distribuidores/">Distribuidores</a>
+<a class="nav-dropdown-link" href="../../generos/">Géneros</a>
+<a class="nav-dropdown-link" href="../../plataformas/">Plataformas</a>
+<a class="nav-dropdown-link" href="../../formatos/">Formatos</a>
+<a class="nav-dropdown-link" href="../../mercados/">Mercados</a>
+<a class="nav-dropdown-link" href="../../idiomas/">Idiomas</a>
+<a class="nav-dropdown-link" href="../../soportes/">Soportes</a>
+    </div>
+  </div>
+</details>
 <a href="../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a href="../../contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
@@ -296,10 +318,16 @@ if(window.PCGA_ANALYTICS_ENABLED){
   });
   menu.addEventListener('click',function(e){
     if(!e.target.closest('a')) return;
+    menu.querySelectorAll('details[open]').forEach(function(item){item.removeAttribute('open');});
     if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){
       toggle.setAttribute('aria-expanded','false');
       menu.classList.remove('is-open');
     }
+  });
+  document.addEventListener('click',function(e){
+    menu.querySelectorAll('details.nav-explore[open]').forEach(function(item){
+      if(!item.contains(e.target)) item.removeAttribute('open');
+    });
   });
 })();
 document.addEventListener('click',function(e){

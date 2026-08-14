@@ -95,10 +95,32 @@ if(window.PCGA_ANALYTICS_ENABLED){
       <nav class="nav" id="main-navigation" aria-label="Navegación principal">
         <a class="active" href="./">Inicio</a>
 <a href="catalogo/">Catálogo</a>
-<a href="videojuegos-clasicos-pc.html">PC clásico</a>
-<a href="juegos-pc-big-box.html">Big Box PC</a>
-<a href="juegos-msdos.html">MS-DOS</a>
-<a href="series.html">Series</a>
+<details class="nav-explore">
+  <summary>Explorar <span class="nav-caret" aria-hidden="true">▾</span></summary>
+  <div class="nav-dropdown">
+    <div class="nav-dropdown-group">
+      <strong>Colecciones</strong>
+      <a class="nav-dropdown-link" href="videojuegos-clasicos-pc.html">PC clásico</a>
+<a class="nav-dropdown-link" href="juegos-pc-big-box.html">Big Box PC</a>
+<a class="nav-dropdown-link" href="juegos-msdos.html">MS-DOS</a>
+<a class="nav-dropdown-link" href="juegos-windows-95-98.html">Windows 95/98</a>
+<a class="nav-dropdown-link" href="aventuras-graficas-pc.html">Aventuras gráficas</a>
+<a class="nav-dropdown-link" href="ediciones-espanolas-pc.html">Ediciones españolas</a>
+<a class="nav-dropdown-link" href="series.html">Series</a>
+    </div>
+    <div class="nav-dropdown-group">
+      <strong>Datos del archivo</strong>
+      <a class="nav-dropdown-link" href="desarrolladores/">Desarrolladores</a>
+<a class="nav-dropdown-link" href="distribuidores/">Distribuidores</a>
+<a class="nav-dropdown-link" href="generos/">Géneros</a>
+<a class="nav-dropdown-link" href="plataformas/">Plataformas</a>
+<a class="nav-dropdown-link" href="formatos/">Formatos</a>
+<a class="nav-dropdown-link" href="mercados/">Mercados</a>
+<a class="nav-dropdown-link" href="idiomas/">Idiomas</a>
+<a class="nav-dropdown-link" href="soportes/">Soportes</a>
+    </div>
+  </div>
+</details>
 <a href="vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
 <a href="contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
@@ -107,15 +129,46 @@ if(window.PCGA_ANALYTICS_ENABLED){
   </div>
 </header>
 <main>
-<section class="hero-section">
+<script>
+(function(){
+  var p=new URLSearchParams(location.search);
+  var searchKeys=['q','titulo','formato','serie','genero','plataforma','desarrollador','distribuidor','mercado','idioma','soporte','tipo_edicion','anio'];
+  if(searchKeys.some(function(key){return p.has(key) && String(p.get(key)||'').trim();})){
+    document.documentElement.classList.add('pcga-search-mode');
+  }
+})();
+</script>
+<section class="wrap acquisition-strip home-acquisition" aria-labelledby="acquisition-home-title">
+  <div>
+    <p class="eyebrow">Ayuda a ampliar el archivo</p>
+    <h2 id="acquisition-home-title">¿Tienes videojuegos físicos de PC?</h2>
+    <p>Compramos colecciones, lotes y juegos individuales y también aceptamos donaciones de material con interés documental.</p>
+  </div>
+  <a class="button" href="vender-videojuegos-pc-antiguos/">Vender o donar juegos</a>
+</section>
+<section class="hero-section home-overview">
   <div class="wrap hero-grid">
     <div>
       <p class="eyebrow">Preservación · Coleccionismo · PC clásico</p>
       <h1>Archivo físico de videojuegos de PC</h1>
       <p class="lead">Catálogo documental de ediciones físicas para PC, con especial atención a Big Box, MS-DOS, Windows clásicos, distribución española y preservación del soporte original.</p>
+    </div>
+    <aside class="stats-card" aria-label="Resumen del catálogo por formato">
+      <strong>489</strong><span>ediciones Big Box</span>
+      <strong>980</strong><span>formato CD/DVD</span>
+      <strong>83</strong><span>formato Jewel Case</span>
+    </aside>
+  </div>
+</section>
+<section class="search-section" id="buscar">
+  <div class="wrap">
+    <div class="search-panel">
+      <p class="eyebrow">Consulta el catálogo</p>
+      <div class="section-head search-section-head"><h2>Buscar en el archivo</h2><a href="catalogo/">Ver catálogo paginado</a></div>
+      <p class="search-help">Busca por título, desarrollador, distribuidor, serie, género, plataforma, formato, EAN, mercado, idioma o soporte.</p>
       <form class="search-hero catalog-search catalog-search-advanced" action="./" method="get">
         <div class="search-query-row">
-          <input name="q" placeholder="Buscar en todo el archivo…" aria-label="Buscar en todo el archivo">
+          <input name="q" placeholder="Título, desarrollador, distribuidor, EAN…" aria-label="Buscar en todo el archivo">
         </div>
         <div class="search-filter-row">
           <select name="formato" aria-label="Filtrar por formato">
@@ -158,48 +211,11 @@ if(window.PCGA_ANALYTICS_ENABLED){
           <button>Buscar</button>
         </div>
       </form>
-    </div>
-    <aside class="stats-card" aria-label="Resumen del catálogo por formato">
-      <strong>489</strong><span>ediciones Big Box</span>
-      <strong>980</strong><span>formato CD/DVD</span>
-      <strong>83</strong><span>formato Jewel Case</span>
-    </aside>
-  </div>
-</section>
-<section class="wrap seo-hub" id="explorar-archivo">
-  <div class="section-head"><h2>Explorar el archivo</h2><a href="series.html">Ver series</a></div>
-  <p class="count">Rutas temáticas para encontrar el catálogo por búsquedas en español: PC clásico, Big Box, MS-DOS, Windows 95/98, ediciones españolas y aventuras gráficas.</p>
-  <div class="taxonomy-grid"><a class="taxonomy-item" href="videojuegos-clasicos-pc.html"><strong>PC clásico</strong><small>Videojuegos clásicos de PC</small></a>
-<a class="taxonomy-item" href="juegos-pc-big-box.html"><strong>Big Box PC</strong><small>Juegos PC Big Box</small></a>
-<a class="taxonomy-item" href="juegos-msdos.html"><strong>MS-DOS</strong><small>Juegos MS-DOS de PC</small></a>
-<a class="taxonomy-item" href="juegos-windows-95-98.html"><strong>Windows 95/98</strong><small>Juegos Windows 95 y Windows 98</small></a>
-<a class="taxonomy-item" href="ediciones-espanolas-pc.html"><strong>Ediciones españolas</strong><small>Ediciones españolas de juegos de PC</small></a>
-<a class="taxonomy-item" href="aventuras-graficas-pc.html"><strong>Aventuras gráficas</strong><small>Aventuras gráficas clásicas de PC</small></a></div>
-</section>
-<section class="wrap seo-hub" id="explorar-entidades">
-  <div class="section-head"><h2>Explorar por datos del catálogo</h2></div>
-  <p class="count">Explora desarrolladores, distribuidores, géneros, plataformas, formatos y, cuando existe cobertura suficiente, metadatos editoriales como mercado, idioma o soporte.</p>
-  <div class="taxonomy-grid"><a class="taxonomy-item" href="desarrolladores/"><strong>Desarrolladores</strong><small>Explorar por desarrollador</small></a>
-<a class="taxonomy-item" href="distribuidores/"><strong>Distribuidores</strong><small>Explorar por distribuidor</small></a>
-<a class="taxonomy-item" href="generos/"><strong>Géneros</strong><small>Explorar por género</small></a>
-<a class="taxonomy-item" href="plataformas/"><strong>Plataformas</strong><small>Explorar por plataforma</small></a>
-<a class="taxonomy-item" href="formatos/"><strong>Formatos</strong><small>Explorar por formato</small></a>
-<a class="taxonomy-item" href="mercados/"><strong>Mercados</strong><small>Explorar por mercado</small></a>
-<a class="taxonomy-item" href="idiomas/"><strong>Idiomas</strong><small>Explorar por idioma</small></a>
-<a class="taxonomy-item" href="soportes/"><strong>Soportes</strong><small>Explorar por soporte</small></a></div>
-</section>
-<section class="wrap acquisition-strip" aria-labelledby="acquisition-home-title">
-  <div>
-    <p class="eyebrow">Ayuda a ampliar el archivo</p>
-    <h2 id="acquisition-home-title">¿Tienes videojuegos físicos de PC?</h2>
-    <p>Compramos colecciones, lotes y juegos individuales y también aceptamos donaciones de material con interés documental.</p>
-  </div>
-  <a class="button" href="vender-videojuegos-pc-antiguos/">Vender o donar juegos</a>
-</section>
-<section class="wrap">
-  <div class="section-head"><h2>Catálogo de juegos</h2><a href="catalogo/">Ver catálogo completo</a></div>
-  <p class="count">1552 juegos encontrados.</p>
-  <div class="grid cards" data-catalog-list><a class="game-card" href="/juegos/dreamweb-bigbox/" data-game-link data-game-id="dreamweb-bigbox">
+      <div class="search-results-meta">
+        <strong>Resultados</strong>
+        <span class="count">1552 juegos encontrados.</span>
+      </div>
+      <div class="grid cards" data-catalog-list><a class="game-card" href="/juegos/dreamweb-bigbox/" data-game-link data-game-id="dreamweb-bigbox">
   <img src="/juegos/dreamweb-bigbox/img/001.jpg" alt="Portada de DreamWeb, formato Big Box, para MS-DOS" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')" />
   <span class="game-card-body">
     <strong>DreamWeb</strong>
@@ -391,11 +407,14 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <span class="tagrow"><span class="tag">Big Box</span><span class="tag">Win95</span><span class="tag">Win98</span></span>
   </span>
 </a></div>
-  <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
+      <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
+    </div>
+  </div>
 </section>
-<section class="wrap text-section">
+<section class="wrap text-section home-documentary-note">
   <h2>PC Game Archive como archivo documental</h2>
   <p>El objetivo del proyecto es documentar ediciones físicas de videojuegos de PC con valor histórico, técnico y coleccionista: cajas, manuales, discos, disquetes, plataformas compatibles, distribuidoras, sistemas de protección y contexto editorial.</p>
+  <p>Las colecciones temáticas y los índices por desarrollador, distribuidor, género, plataforma, formato, mercado, idioma y soporte están disponibles desde <strong>Explorar</strong> en la navegación principal.</p>
 </section>
 <script src="assets/js/search-index.js"></script>
 <script src="assets/js/catalogo.js" defer></script>
@@ -418,10 +437,16 @@ if(window.PCGA_ANALYTICS_ENABLED){
   });
   menu.addEventListener('click',function(e){
     if(!e.target.closest('a')) return;
+    menu.querySelectorAll('details[open]').forEach(function(item){item.removeAttribute('open');});
     if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){
       toggle.setAttribute('aria-expanded','false');
       menu.classList.remove('is-open');
     }
+  });
+  document.addEventListener('click',function(e){
+    menu.querySelectorAll('details.nav-explore[open]').forEach(function(item){
+      if(!item.contains(e.target)) item.removeAttribute('open');
+    });
   });
 })();
 document.addEventListener('click',function(e){

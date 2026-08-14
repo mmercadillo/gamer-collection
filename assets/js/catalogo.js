@@ -197,7 +197,10 @@
     const box=document.createElement('div'); box.className='search-facets';
     box.innerHTML=`<div class="search-facets-head"><strong>Refinar resultados</strong><a href="${esc(clearUrl.pathname+clearUrl.search)}">Limpiar filtros</a></div><div class="search-facet-groups">${groups.join('')}</div>`;
     const countEl=section.querySelector('.count');
-    if(countEl) countEl.insertAdjacentElement('afterend',box); else grid.insertAdjacentElement('beforebegin',box);
+    const resultsMeta=countEl ? countEl.closest('.search-results-meta') : null;
+    if(resultsMeta) resultsMeta.insertAdjacentElement('afterend',box);
+    else if(countEl) countEl.insertAdjacentElement('afterend',box);
+    else grid.insertAdjacentElement('beforebegin',box);
   }
 
   function renderEmptyState(){

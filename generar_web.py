@@ -251,6 +251,8 @@ TAXONOMIES = {
 
 # Reutiliza landings editoriales existentes cuando ya cubren claramente la misma intención.
 # Así evitamos crear una segunda URL SEO para Big Box, MS-DOS, Windows 95/98 o aventura gráfica.
+NAV_PUBLISHED_TAXONOMIES: set[str] = set()
+
 TAXONOMY_ROUTE_OVERRIDES = {
     ("formatos", "big box"): "juegos-pc-big-box.html",
     ("plataformas", "msdos"): "juegos-msdos.html",
@@ -629,22 +631,56 @@ def related_groups_html(game: dict[str, Any], related_index: dict[str, Any], pre
 
 
 def nav(active: str, prefix: str = "") -> str:
-    items = [
+    primary_items = [
         ("", "Inicio"),
         ("catalogo/", "Catálogo"),
-        ("videojuegos-clasicos-pc.html", "PC clásico"),
-        ("juegos-pc-big-box.html", "Big Box PC"),
-        ("juegos-msdos.html", "MS-DOS"),
-        ("series.html", "Series"),
+    ]
+    utility_items = [
         ("vender-videojuegos-pc-antiguos/", "Ofrecer juegos"),
         ("contacto.html", "Contacto"),
     ]
-    links = []
-    for href, label in items:
+    collection_items = [
+        ("videojuegos-clasicos-pc.html", "PC clásico"),
+        ("juegos-pc-big-box.html", "Big Box PC"),
+        ("juegos-msdos.html", "MS-DOS"),
+        ("juegos-windows-95-98.html", "Windows 95/98"),
+        ("aventuras-graficas-pc.html", "Aventuras gráficas"),
+        ("ediciones-espanolas-pc.html", "Ediciones españolas"),
+        ("series.html", "Series"),
+    ]
+
+    def make_link(href: str, label: str, extra_class: str = "") -> str:
         is_active = (not href and active == "index.html") or href == active
-        cls = ' class="active"' if is_active else ""
+        classes = [c for c in [extra_class, "active" if is_active else ""] if c]
+        cls = f' class="{" ".join(classes)}"' if classes else ""
         target = home_href(prefix) if not href else prefix + href
-        links.append(f'<a{cls} href="{target}">{label}</a>')
+        return f'<a{cls} href="{target}">{h(label)}</a>'
+
+    links = [make_link(href, label) for href, label in primary_items]
+
+    explore_active = active in {href for href, _ in collection_items} or active.rstrip("/") in NAV_PUBLISHED_TAXONOMIES
+    explore_cls = ' class="nav-explore active"' if explore_active else ' class="nav-explore"'
+    collection_links = "\n".join(make_link(href, label, "nav-dropdown-link") for href, label in collection_items)
+    taxonomy_links = "\n".join(
+        make_link(f"{taxonomy}/", TAXONOMIES[taxonomy]["label"], "nav-dropdown-link")
+        for taxonomy in TAXONOMIES
+        if taxonomy in NAV_PUBLISHED_TAXONOMIES
+    )
+    explore = f'''<details{explore_cls}>
+  <summary>Explorar <span class="nav-caret" aria-hidden="true">▾</span></summary>
+  <div class="nav-dropdown">
+    <div class="nav-dropdown-group">
+      <strong>Colecciones</strong>
+      {collection_links}
+    </div>
+    <div class="nav-dropdown-group">
+      <strong>Datos del archivo</strong>
+      {taxonomy_links}
+    </div>
+  </div>
+</details>'''
+    links.append(explore)
+    links.extend(make_link(href, label) for href, label in utility_items)
     links.append('<a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>')
     return "\n".join(links)
 
@@ -778,10 +814,16 @@ def layout(title: str, description: str, canonical: str, active: str, body: str,
   }});
   menu.addEventListener('click',function(e){{
     if(!e.target.closest('a')) return;
+    menu.querySelectorAll('details[open]').forEach(function(item){{item.removeAttribute('open');}});
     if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){{
       toggle.setAttribute('aria-expanded','false');
       menu.classList.remove('is-open');
     }}
+  }});
+  document.addEventListener('click',function(e){{
+    menu.querySelectorAll('details.nav-explore[open]').forEach(function(item){{
+      if(!item.contains(e.target)) item.removeAttribute('open');
+    }});
   }});
 }})();
 document.addEventListener('click',function(e){{
@@ -1161,32 +1203,47 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     series_values = sorted({str(s) for g in games for s in (g.get("serie") or []) if str(s).strip()}, key=str.lower)
     series_options = "\n          ".join(f'<option value="{h(s)}">{h(s)}</option>' for s in series_values)
     desc = "Archivo y colección de videojuegos clásicos de PC en formato Big Box, MS-DOS y Windows. Preservación, catálogo y documentación de ediciones físicas retro."
-    seo_hub_links = "\n".join(
-        f'<a class="taxonomy-item" href="{h(p["filename"])}"><strong>{h(p["label"])}</strong><small>{h(p["h1"])}</small></a>'
-        for p in SEO_LANDING_PAGES
-    )
-    entity_hub_links = "\n".join(
-        f'<a class="taxonomy-item" href="{h(taxonomy)}/"><strong>{h(cfg["label"])}</strong><small>Explorar por {h(cfg["singular"])}</small></a>'
-        for taxonomy, cfg in TAXONOMIES.items()
-        if taxonomy_is_publishable(games, taxonomy)
-    )
-    editorial_taxonomies = {"anos", "mercados", "idiomas", "soportes", "tipos-edicion"}
-    has_editorial_taxonomies = any(taxonomy_is_publishable(games, taxonomy) for taxonomy in editorial_taxonomies)
-    entity_hub_description = (
-        "Explora desarrolladores, distribuidores, géneros, plataformas, formatos y, cuando existe cobertura suficiente, metadatos editoriales como mercado, idioma o soporte."
-        if has_editorial_taxonomies
-        else "Desarrolladores, distribuidores, géneros, plataformas y formatos enlazados directamente con las fichas documentales."
-    )
     body = f'''<main>
-<section class="hero-section">
+<script>
+(function(){{
+  var p=new URLSearchParams(location.search);
+  var searchKeys=['q','titulo','formato','serie','genero','plataforma','desarrollador','distribuidor','mercado','idioma','soporte','tipo_edicion','anio'];
+  if(searchKeys.some(function(key){{return p.has(key) && String(p.get(key)||'').trim();}})){{
+    document.documentElement.classList.add('pcga-search-mode');
+  }}
+}})();
+</script>
+<section class="wrap acquisition-strip home-acquisition" aria-labelledby="acquisition-home-title">
+  <div>
+    <p class="eyebrow">Ayuda a ampliar el archivo</p>
+    <h2 id="acquisition-home-title">¿Tienes videojuegos físicos de PC?</h2>
+    <p>Compramos colecciones, lotes y juegos individuales y también aceptamos donaciones de material con interés documental.</p>
+  </div>
+  <a class="button" href="vender-videojuegos-pc-antiguos/">Vender o donar juegos</a>
+</section>
+<section class="hero-section home-overview">
   <div class="wrap hero-grid">
     <div>
       <p class="eyebrow">Preservación · Coleccionismo · PC clásico</p>
       <h1>Archivo físico de videojuegos de PC</h1>
       <p class="lead">Catálogo documental de ediciones físicas para PC, con especial atención a Big Box, MS-DOS, Windows clásicos, distribución española y preservación del soporte original.</p>
+    </div>
+    <aside class="stats-card" aria-label="Resumen del catálogo por formato">
+      <strong>{bigbox}</strong><span>ediciones Big Box</span>
+      <strong>{dvd_case}</strong><span>formato CD/DVD</span>
+      <strong>{jewel_case}</strong><span>formato Jewel Case</span>
+    </aside>
+  </div>
+</section>
+<section class="search-section" id="buscar">
+  <div class="wrap">
+    <div class="search-panel">
+      <p class="eyebrow">Consulta el catálogo</p>
+      <div class="section-head search-section-head"><h2>Buscar en el archivo</h2><a href="catalogo/">Ver catálogo paginado</a></div>
+      <p class="search-help">Busca por título, desarrollador, distribuidor, serie, género, plataforma, formato, EAN, mercado, idioma o soporte.</p>
       <form class="search-hero catalog-search catalog-search-advanced" action="./" method="get">
         <div class="search-query-row">
-          <input name="q" placeholder="Buscar en todo el archivo…" aria-label="Buscar en todo el archivo">
+          <input name="q" placeholder="Título, desarrollador, distribuidor, EAN…" aria-label="Buscar en todo el archivo">
         </div>
         <div class="search-filter-row">
           <select name="formato" aria-label="Filtrar por formato">
@@ -1202,48 +1259,25 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
           <button>Buscar</button>
         </div>
       </form>
+      <div class="search-results-meta">
+        <strong>Resultados</strong>
+        <span class="count">{len(games)} juegos encontrados.</span>
+      </div>
+      <div class="grid cards" data-catalog-list>{cards}</div>
+      <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
     </div>
-    <aside class="stats-card" aria-label="Resumen del catálogo por formato">
-      <strong>{bigbox}</strong><span>ediciones Big Box</span>
-      <strong>{dvd_case}</strong><span>formato CD/DVD</span>
-      <strong>{jewel_case}</strong><span>formato Jewel Case</span>
-    </aside>
   </div>
 </section>
-<section class="wrap seo-hub" id="explorar-archivo">
-  <div class="section-head"><h2>Explorar el archivo</h2><a href="series.html">Ver series</a></div>
-  <p class="count">Rutas temáticas para encontrar el catálogo por búsquedas en español: PC clásico, Big Box, MS-DOS, Windows 95/98, ediciones españolas y aventuras gráficas.</p>
-  <div class="taxonomy-grid">{seo_hub_links}</div>
-</section>
-<section class="wrap seo-hub" id="explorar-entidades">
-  <div class="section-head"><h2>Explorar por datos del catálogo</h2></div>
-  <p class="count">{h(entity_hub_description)}</p>
-  <div class="taxonomy-grid">{entity_hub_links}</div>
-</section>
-<section class="wrap acquisition-strip" aria-labelledby="acquisition-home-title">
-  <div>
-    <p class="eyebrow">Ayuda a ampliar el archivo</p>
-    <h2 id="acquisition-home-title">¿Tienes videojuegos físicos de PC?</h2>
-    <p>Compramos colecciones, lotes y juegos individuales y también aceptamos donaciones de material con interés documental.</p>
-  </div>
-  <a class="button" href="vender-videojuegos-pc-antiguos/">Vender o donar juegos</a>
-</section>
-<section class="wrap">
-  <div class="section-head"><h2>Catálogo de juegos</h2><a href="catalogo/">Ver catálogo completo</a></div>
-  <p class="count">{len(games)} juegos encontrados.</p>
-  <div class="grid cards" data-catalog-list>{cards}</div>
-  <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
-</section>
-<section class="wrap text-section">
+<section class="wrap text-section home-documentary-note">
   <h2>PC Game Archive como archivo documental</h2>
   <p>El objetivo del proyecto es documentar ediciones físicas de videojuegos de PC con valor histórico, técnico y coleccionista: cajas, manuales, discos, disquetes, plataformas compatibles, distribuidoras, sistemas de protección y contexto editorial.</p>
+  <p>Las colecciones temáticas y los índices por desarrollador, distribuidor, género, plataforma, formato, mercado, idioma y soporte están disponibles desde <strong>Explorar</strong> en la navegación principal.</p>
 </section>
 <script src="assets/js/search-index.js"></script>
 <script src="assets/js/catalogo.js" defer></script>
 </main>'''
     jsonld = [organization_jsonld(base_url), {"@context":"https://schema.org","@type":"WebSite","name":SITE_NAME,"url":base_url.rstrip("/") + "/","inLanguage":"es","description":desc,"potentialAction":{"@type":"SearchAction","target":base_url.rstrip("/") + "/?q={search_term_string}","query-input":"required name=search_term_string"}}, collection_jsonld(base_url, "", "Archivo de videojuegos clásicos de PC", desc, games)]
     (out / "index.html").write_text(layout("PC Game Archive · Videojuegos clásicos de PC · Big Box · MS-DOS · Windows", desc, abs_url(base_url, ""), "index.html", body, jsonld=jsonld), encoding="utf-8")
-
 
 
 def organization_jsonld(base_url: str) -> dict[str, Any]:
@@ -1588,7 +1622,7 @@ def generate_taxonomy_pages(games: list[dict[str, Any]], out: Path, base_url: st
             hub_title,
             hub_desc,
             abs_url(base_url, f"{taxonomy}/"),
-            "",
+            f"{taxonomy}/",
             hub_body,
             prefix=hub_prefix,
             subtitle=f'Índice de {cfg["label"].lower()}',
@@ -1637,7 +1671,7 @@ def generate_taxonomy_pages(games: list[dict[str, Any]], out: Path, base_url: st
                 title,
                 description,
                 abs_url(base_url, entity_route(taxonomy, entity)),
-                "",
+                f"{taxonomy}/",
                 entity_body,
                 prefix=entity_prefix,
                 subtitle=f'{cfg["label"]} · Archivo documental',
@@ -2166,6 +2200,9 @@ def main() -> int:
     games = load_json(catalog_path)
     gallery_index = build_gallery_index(project_root, games)
 
+    global NAV_PUBLISHED_TAXONOMIES
+    NAV_PUBLISHED_TAXONOMIES = {taxonomy for taxonomy in TAXONOMIES if taxonomy_is_publishable(games, taxonomy)}
+
     out.mkdir(parents=True, exist_ok=True)
     write_assets(out, games)
     copy_support_files(project_root, out)
@@ -2183,8 +2220,8 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase12.2-cabecera-dos-niveles-2026-08-14")
-    print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
+    print("Versión generador: fase12.3-portada-navegacion-2026-08-14")
+    print("Portada: captación prioritaria, buscador independiente y navegación Explorar agrupada")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
     print("Modo de assets: no se copian imágenes ni carpetas img; solo se sobrescriben ficheros generados.")
@@ -2203,6 +2240,13 @@ CSS += r'''
 .site-header{background:rgba(255,255,255,.96)}.site-identity{background:#fff}.brand-row{display:flex;align-items:center;padding-top:16px;padding-bottom:16px}.brand{min-width:0}.brand strong{font-size:20px;line-height:1.2}.brand small{font-size:13px;line-height:1.45;margin-top:3px}.logo{width:58px;height:58px}.site-navigation{border-top:1px solid var(--bd);background:rgba(255,255,255,.96)}.nav-row{display:flex;align-items:center;justify-content:center;min-height:54px;padding-top:6px;padding-bottom:6px}.nav{width:100%;justify-content:center;align-items:center;flex-wrap:nowrap;gap:4px}.nav a{white-space:nowrap;font-size:13.5px;padding:8px 10px}.nav-toggle{display:none;border:1px solid var(--bd);background:#fff;color:#111;border-radius:12px;padding:9px 12px;font-weight:850;font-size:14px;cursor:pointer;align-items:center;gap:8px}.nav-toggle:hover{background:#f7f7f5}.nav-toggle-icon{font-size:17px;line-height:1}
 @media(max-width:900px){header.site-header{position:sticky}.brand-row{padding-top:12px;padding-bottom:12px}.brand strong{font-size:18px}.brand small{font-size:12px}.logo{width:52px;height:52px}.nav-row{display:grid;grid-template-columns:1fr;min-height:50px;padding-top:6px;padding-bottom:6px}.nav-toggle{display:inline-flex;justify-self:end}.nav{display:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:7px 0 5px}.nav.is-open{display:grid}.nav a{text-align:center;border:1px solid var(--bd);border-radius:12px;padding:10px 9px;background:#fff}.nav a:hover,.nav a.active{background:#f3f3f1}.nav a.active{border-color:#cfcfca}}
 @media(max-width:520px){.brand small{max-width:260px}.nav{grid-template-columns:1fr}.nav a{text-align:left;padding-left:12px}}
+'''
+
+CSS += r'''
+/* Fase 12.3: jerarquía de portada y navegación Explorar */
+.nav-explore{position:relative}.nav-explore summary{list-style:none;cursor:pointer;text-decoration:none;font-weight:800;font-size:13.5px;padding:8px 10px;border-radius:999px;border:1px solid transparent;white-space:nowrap;user-select:none}.nav-explore summary::-webkit-details-marker{display:none}.nav-explore summary:hover,.nav-explore[open] summary,.nav-explore.active summary{background:#f7f7f7;border-color:var(--bd)}.nav-caret{display:inline-block;margin-left:3px;font-size:11px;transition:transform .15s ease}.nav-explore[open] .nav-caret{transform:rotate(180deg)}.nav-dropdown{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);z-index:80;width:min(620px,calc(100vw - 36px));display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:18px;background:#fff;border:1px solid var(--bd);border-radius:18px;box-shadow:0 18px 50px rgba(0,0,0,.16)}.nav-dropdown-group{display:flex;flex-direction:column;gap:4px;min-width:0}.nav-dropdown-group>strong{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--g);padding:3px 8px 7px}.nav .nav-dropdown a.nav-dropdown-link{display:block;text-align:left;white-space:normal;font-size:13px;font-weight:750;padding:8px;border:0;border-radius:10px;background:transparent}.nav .nav-dropdown a.nav-dropdown-link:hover,.nav .nav-dropdown a.nav-dropdown-link.active{background:var(--soft);border:0}.home-acquisition{margin-top:24px;margin-bottom:24px}.home-overview .hero-grid{padding-top:30px;padding-bottom:30px}.home-overview h1{font-size:clamp(32px,4.2vw,50px);margin-bottom:12px}.home-overview .lead{margin-bottom:0}.search-section{padding:30px 0 34px}.search-panel{background:#fff;border:1px solid var(--bd);border-radius:24px;padding:24px;box-shadow:0 8px 30px rgba(0,0,0,.04)}.search-section-head{margin:0 0 6px;align-items:center}.search-section-head h2{margin:0}.search-help{margin:0;color:#555;max-width:850px}.search-panel .catalog-search-advanced{margin-top:16px}.search-results-meta{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:22px 0 14px;padding-top:18px;border-top:1px solid var(--bd)}.search-results-meta>strong{font-size:18px}.search-results-meta .count{font-size:13px}.search-panel .search-facets{margin-top:0}.home-documentary-note{margin-top:34px}.pcga-search-mode .home-acquisition,.pcga-search-mode .home-overview{display:none}.pcga-search-mode .search-section{padding-top:24px}.pcga-search-mode .search-panel{box-shadow:none}
+@media(max-width:900px){.nav-explore{grid-column:1/-1}.nav-explore summary{display:block;text-align:center;border:1px solid var(--bd);border-radius:12px;padding:10px 9px;background:#fff}.nav-explore summary:hover,.nav-explore[open] summary,.nav-explore.active summary{background:#f3f3f1;border-color:#cfcfca}.nav-dropdown{position:static;transform:none;width:100%;margin-top:6px;grid-template-columns:repeat(2,minmax(0,1fr));padding:12px;box-shadow:none;border-radius:14px}.nav .nav-dropdown a.nav-dropdown-link{text-align:left;border:0;background:transparent;padding:8px}.home-acquisition{margin-top:18px}.search-panel{padding:20px}}
+@media(max-width:600px){.nav-dropdown{grid-template-columns:1fr}.search-results-meta{align-items:flex-start;flex-direction:column;gap:2px}.home-overview .stats-card{margin-top:4px}.search-panel{border-radius:18px;padding:16px}}
 '''
 
 JS = r'''(function(){
@@ -2404,7 +2448,10 @@ JS = r'''(function(){
     const box=document.createElement('div'); box.className='search-facets';
     box.innerHTML=`<div class="search-facets-head"><strong>Refinar resultados</strong><a href="${esc(clearUrl.pathname+clearUrl.search)}">Limpiar filtros</a></div><div class="search-facet-groups">${groups.join('')}</div>`;
     const countEl=section.querySelector('.count');
-    if(countEl) countEl.insertAdjacentElement('afterend',box); else grid.insertAdjacentElement('beforebegin',box);
+    const resultsMeta=countEl ? countEl.closest('.search-results-meta') : null;
+    if(resultsMeta) resultsMeta.insertAdjacentElement('afterend',box);
+    else if(countEl) countEl.insertAdjacentElement('afterend',box);
+    else grid.insertAdjacentElement('beforebegin',box);
   }
 
   function renderEmptyState(){
