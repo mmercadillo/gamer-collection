@@ -67,7 +67,7 @@ Características:
 /
 ├── juegos.json
 ├── json_schema.json
-├── generar_web_v8.py
+├── generar_web.py
 ├── validar_catalogo.py
 ├── sitemap.xml
 ├── robots.txt
@@ -75,6 +75,11 @@ Características:
 ├── assets/
 │   ├── css/
 │   └── js/
+├── desarrolladores/
+├── distribuidores/
+├── generos/
+├── plataformas/
+├── formatos/
 └── juegos/
     ├── doom-bigbox/
     │   ├── index.html
@@ -130,7 +135,7 @@ python validar_catalogo.py
 ## 4. Regenerar la web
 
 ```bash
-python generar_web_v8.py
+python generar_web.py
 ```
 
 El generador:
@@ -142,7 +147,8 @@ El generador:
   - sitemap,
   - robots,
   - índices,
-  - buscador.
+  - buscador,
+  - páginas de desarrolladores, distribuidores, géneros, plataformas y formatos.
 
 ---
 
@@ -157,6 +163,7 @@ La web utiliza:
 - sitemap XML,
 - robots.txt,
 - navegación enlazada,
+- páginas de entidad generadas automáticamente,
 - estructura optimizada para indexación.
 
 Ejemplo de URL:
@@ -173,7 +180,16 @@ El buscador integrado permite localizar juegos por:
 
 - título,
 - formato,
-- serie.
+- serie,
+- género,
+- plataforma,
+- desarrollador,
+- distribuidor,
+- EAN,
+- tags,
+- descripción,
+- contenido de la edición,
+- protección.
 
 Google Analytics registra además búsquedas internas, filtros utilizados,
 selección de fichas y clics de contacto. Las páginas se miden usando su URL
@@ -202,6 +218,22 @@ python -m http.server 8000
 y abrir `http://localhost:8000/`.
 
 El índice de búsqueda se genera automáticamente desde `juegos.json`.
+
+## Entidades del catálogo
+
+`generar_web.py` crea automáticamente índices y páginas SEO para:
+
+- desarrolladores,
+- distribuidores,
+- géneros,
+- plataformas,
+- formatos.
+
+Solo se crea una página indexable cuando la entidad aparece en al menos 3
+fichas. Variantes puramente tipográficas (por ejemplo, diferencias de
+mayúsculas o acentos) se agrupan en una única entidad. Las landings existentes
+de Big Box, MS-DOS, Windows 95/98 y aventura gráfica se reutilizan para evitar
+crear URLs competidoras para la misma intención.
 
 ---
 

@@ -1,9 +1,14 @@
 # Informe de generación SEO
 
-- Fecha: 2026-08-14T10:04:45
+- Fecha: 2026-08-14T12:32:54
 - Juegos en catálogo: 1552
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
+- Desarrolladores con página/landing indexable: 157
+- Distribuidores con página/landing indexable: 100
+- Géneros con página/landing indexable: 143
+- Plataformas con página/landing indexable: 13
+- Formatos con página/landing indexable: 3
 
 ## Observaciones
 
@@ -14,6 +19,10 @@
 - Google Analytics normaliza `page_location` a la canonical y registra búsquedas, filtros, selección de juegos y clics de contacto.
 - Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.
 - Se generan landing pages SEO en español para búsquedas genéricas.
+- Se generan automáticamente hubs y páginas SEO por desarrollador, distribuidor, género, plataforma y formato cuando una entidad aparece en 3 o más fichas.
+- Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.
+- Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.
+- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.
 - Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.
 
 ## URLs duplicadas

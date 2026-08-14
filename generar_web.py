@@ -13,6 +13,7 @@ Lee juegos.json como fuente maestra y genera una web estática indexable:
   - assets/css/styles.css
   - assets/js/catalogo.js
   - assets/js/search-index.js
+  - índices y páginas de desarrolladores, distribuidores, géneros, plataformas y formatos
   - una página HTML por juego en la ruta definida por juego["url"]
 
 Uso recomendado:
@@ -26,7 +27,7 @@ Notas:
   - Por defecto genera in-place, en el directorio actual.
   - No modifica juegos.json.
   - No copia ni sobrescribe imágenes, carpetas img ni otros assets documentales de los juegos.
-  - Solo sobrescribe ficheros generados: HTML, sitemap.xml, robots.txt, assets/css/styles.css, assets/js/catalogo.js, assets/js/search-index.js e informe_generacion_seo.md.
+  - Solo sobrescribe ficheros generados: HTML, sitemap.xml, robots.txt, assets/css/styles.css, assets/js/catalogo.js, assets/js/search-index.js, directorios de taxonomías e informe_generacion_seo.md.
   - Buscador global por metadatos del catálogo, combinado con filtros de formato, serie, género y plataforma.
   - Los enlaces internos usan siempre URLs canónicas limpias, sin `index.html`.
   - Para probar localmente las URLs limpias se recomienda servir el directorio por HTTP (por ejemplo, `python -m http.server`).
@@ -37,10 +38,13 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import html
 import json
 import os
 import re
+import shutil
+import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
@@ -60,6 +64,55 @@ SEO_LANDING_PAGES = [
     {"filename":"ediciones-espanolas-pc.html","label":"Ediciones españolas","title":"Ediciones españolas de juegos de PC · Archivo documental","h1":"Ediciones españolas de juegos de PC","description":"Documentación de ediciones españolas y europeas de videojuegos clásicos de PC: cajas, manuales en castellano, distribuidoras, localizaciones y material físico.","lead":"PC Game Archive presta especial atención a las ediciones españolas y europeas: localización, distribuidoras, manuales en castellano, variantes físicas y materiales incluidos.","filter":{"text_terms":["españ","castellano","erbe","proein","dinamic","fx interactive","dro soft","virgin interactive españa","havas interactive españa"]}},
     {"filename":"aventuras-graficas-pc.html","label":"Aventuras gráficas","title":"Aventuras gráficas clásicas de PC · Point and click y MS-DOS","h1":"Aventuras gráficas clásicas de PC","description":"Catálogo de aventuras gráficas clásicas de PC: point and click, LucasArts, Sierra, MS-DOS, Windows, Big Box y ediciones físicas en castellano.","lead":"Selección de aventuras gráficas y point and click documentadas en formato físico, desde MS-DOS hasta Windows 95/98, con especial atención a ediciones Big Box y material impreso.","filter":{"genero_terms":["aventura gráfica","point and click"]}},
 ]
+
+TAXONOMIES = {
+    "desarrolladores": {
+        "field": "desarrollador",
+        "singular": "desarrollador",
+        "label": "Desarrolladores",
+        "eyebrow": "Desarrollo",
+        "min_count": 3,
+    },
+    "distribuidores": {
+        "field": "distribuidor",
+        "singular": "distribuidor",
+        "label": "Distribuidores",
+        "eyebrow": "Distribución",
+        "min_count": 3,
+    },
+    "generos": {
+        "field": "genero",
+        "singular": "género",
+        "label": "Géneros",
+        "eyebrow": "Género",
+        "min_count": 3,
+    },
+    "plataformas": {
+        "field": "plataforma",
+        "singular": "plataforma",
+        "label": "Plataformas",
+        "eyebrow": "Plataforma",
+        "min_count": 3,
+    },
+    "formatos": {
+        "field": "formato",
+        "singular": "formato",
+        "label": "Formatos",
+        "eyebrow": "Formato físico",
+        "min_count": 3,
+    },
+}
+
+# Reutiliza landings editoriales existentes cuando ya cubren claramente la misma intención.
+# Así evitamos crear una segunda URL SEO para Big Box, MS-DOS, Windows 95/98 o aventura gráfica.
+TAXONOMY_ROUTE_OVERRIDES = {
+    ("formatos", "big box"): "juegos-pc-big-box.html",
+    ("plataformas", "msdos"): "juegos-msdos.html",
+    ("plataformas", "win95"): "juegos-windows-95-98.html",
+    ("plataformas", "win98"): "juegos-windows-95-98.html",
+    ("generos", "aventura grafica"): "aventuras-graficas-pc.html",
+    ("generos", "point and click"): "aventuras-graficas-pc.html",
+}
 
 ROOT_PAGES = {
     "index.html",
@@ -115,13 +168,21 @@ def rel_prefix_for(path: str) -> str:
     return "../" * depth
 
 
+def site_path(path: str) -> str:
+    """Convierte una ruta del catálogo en ruta absoluta desde la raíz del sitio."""
+    raw = str(path or "").strip()
+    if not raw:
+        return "/"
+    return "/" + raw.lstrip("/")
+
+
 def img_path(game: dict[str, Any], filename: str = "001.jpg") -> str:
-    return f"{game.get('url', '').rstrip('/')}/img/{filename}"
+    return site_path(f"{game.get('url', '').rstrip('/')}/img/{filename}")
 
 
 def game_href(game: dict[str, Any], prefix: str = "") -> str:
-    """Devuelve siempre la URL canónica limpia de una ficha."""
-    return prefix + str(game.get("url", ""))
+    """Devuelve siempre la URL canónica limpia de una ficha desde la raíz del sitio."""
+    return site_path(str(game.get("url", "")))
 
 
 def home_href(prefix: str = "") -> str:
@@ -138,7 +199,7 @@ def existing_gallery(project_root: Path, game: dict[str, Any]) -> list[str]:
         f.name for f in img_dir.iterdir()
         if f.is_file() and f.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}
     )
-    return [f"{url.rstrip('/')}/img/{name}" for name in files]
+    return [site_path(f"{url.rstrip('/')}/img/{name}") for name in files]
 
 
 def nav(active: str, prefix: str = "") -> str:
@@ -267,10 +328,10 @@ document.addEventListener('click',function(e){{
 
 def card(game: dict[str, Any], prefix: str = "") -> str:
     url = game_href(game, prefix)
-    img = prefix + img_path(game)
+    img = img_path(game)
     title = text(game.get("titulo"))
     game_id = str(game.get("url", "")).strip("/").split("/")[-1] or "game_unknown"
-    fallback = prefix + "no_disponible.png"
+    fallback = "/no_disponible.png"
     tags = [game.get("formato", "")] + (game.get("plataforma") or [])[:2]
     tag_html = "".join(f'<span class="tag">{h(t)}</span>' for t in tags if t)
     return f'''<a class="game-card" href="{h(url)}" data-game-link data-game-id="{h(game_id)}">
@@ -285,6 +346,100 @@ def card(game: dict[str, Any], prefix: str = "") -> str:
 
 def taxonomy_link(kind: str, value: str, prefix: str = "") -> str:
     return f'{home_href(prefix)}?{kind}={quote(value)}'
+
+
+def list_values(value: Any) -> list[str]:
+    """Normaliza campos que históricamente pueden aparecer como string o lista."""
+    if value is None:
+        return []
+    if isinstance(value, (list, tuple, set)):
+        return [str(v).strip() for v in value if str(v).strip()]
+    raw = str(value).strip()
+    return [raw] if raw else []
+
+
+def entity_key(value: str) -> str:
+    """Clave estable para agrupar diferencias solo tipográficas (acentos/caja)."""
+    normalized = unicodedata.normalize("NFKD", str(value))
+    normalized = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+    return re.sub(r"\s+", " ", normalized).strip().casefold()
+
+
+def slugify(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", str(value))
+    normalized = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+    normalized = normalized.casefold().replace("&", " y ")
+    normalized = re.sub(r"[^a-z0-9]+", "-", normalized).strip("-")
+    return normalized or "sin-nombre"
+
+
+def build_taxonomy_entities(games: list[dict[str, Any]], taxonomy: str) -> list[dict[str, Any]]:
+    """Agrupa entidades del catálogo y fusiona variantes solo tipográficas."""
+    cfg = TAXONOMIES[taxonomy]
+    field = cfg["field"]
+    grouped: dict[str, dict[str, Any]] = {}
+    for game in games:
+        # Evita contar dos veces una misma entidad dentro de una misma ficha.
+        seen_in_game: set[str] = set()
+        for value in list_values(game.get(field)):
+            key = entity_key(value)
+            if not key or key in seen_in_game:
+                continue
+            seen_in_game.add(key)
+            entry = grouped.setdefault(key, {"variants": Counter(), "games": []})
+            entry["variants"][value] += 1
+            entry["games"].append(game)
+
+    entities: list[dict[str, Any]] = []
+    used_slugs: dict[str, str] = {}
+    for key, data in grouped.items():
+        # Preferimos la grafía más frecuente en el catálogo; empate: más descriptiva y estable.
+        variants = data["variants"]
+        name = sorted(variants, key=lambda v: (-variants[v], -len(v), v.casefold()))[0]
+        route_slug = slugify(name)
+        if route_slug in used_slugs and used_slugs[route_slug] != key:
+            # Colisión real entre nombres distintos tras slugificar: sufijo determinista corto.
+            suffix = hashlib.sha1(key.encode("utf-8")).hexdigest()[:6]
+            route_slug = f"{route_slug}-{suffix}"
+        used_slugs[route_slug] = key
+        entities.append({
+            "key": key,
+            "name": name,
+            "slug": route_slug,
+            "count": len(data["games"]),
+            "games": data["games"],
+            "variants": sorted(variants),
+        })
+    return sorted(entities, key=lambda e: (-e["count"], e["name"].casefold()))
+
+
+def build_taxonomy_lookup(games: list[dict[str, Any]]) -> dict[str, dict[str, dict[str, Any]]]:
+    lookup: dict[str, dict[str, dict[str, Any]]] = {}
+    for taxonomy, cfg in TAXONOMIES.items():
+        lookup[taxonomy] = {
+            e["key"]: e
+            for e in build_taxonomy_entities(games, taxonomy)
+            if e["count"] >= cfg["min_count"]
+        }
+    return lookup
+
+
+def entity_route(taxonomy: str, entity: dict[str, Any]) -> str:
+    return TAXONOMY_ROUTE_OVERRIDES.get((taxonomy, entity["key"]), f'{taxonomy}/{entity["slug"]}/')
+
+
+def entity_href(taxonomy: str, value: str, lookup: dict[str, dict[str, dict[str, Any]]], prefix: str = "") -> str | None:
+    entity = lookup.get(taxonomy, {}).get(entity_key(value))
+    if not entity:
+        return None
+    return prefix + entity_route(taxonomy, entity)
+
+
+def entity_tag(taxonomy: str, value: str, lookup: dict[str, dict[str, dict[str, Any]]], prefix: str = "", css_class: str = "tag") -> str:
+    href = entity_href(taxonomy, value, lookup, prefix)
+    if href:
+        return f'<a class="{h(css_class)}" href="{h(href)}">{h(value)}</a>'
+    return f'<span class="{h(css_class)}">{h(value)}</span>'
 
 
 def flatten_search_values(value: Any) -> list[str]:
@@ -318,11 +473,13 @@ def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
             search_values.extend(flatten_search_values(g.get(field)))
         index.append({
             "titulo": g.get("titulo", ""),
-            "url": g.get("url", ""),
+            "url": site_path(str(g.get("url", ""))),
             "formato": g.get("formato", ""),
-            "serie": g.get("serie") or [],
-            "genero": g.get("genero") or [],
-            "plataforma": g.get("plataforma") or [],
+            "serie": list_values(g.get("serie")),
+            "genero": list_values(g.get("genero")),
+            "plataforma": list_values(g.get("plataforma")),
+            "desarrollador": list_values(g.get("desarrollador")),
+            "distribuidor": list_values(g.get("distribuidor")),
             "search_text": " ".join(search_values),
         })
     return index
@@ -349,6 +506,10 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     seo_hub_links = "\n".join(
         f'<a class="taxonomy-item" href="{h(p["filename"])}"><strong>{h(p["label"])}</strong><small>{h(p["h1"])}</small></a>'
         for p in SEO_LANDING_PAGES
+    )
+    entity_hub_links = "\n".join(
+        f'<a class="taxonomy-item" href="{h(taxonomy)}/"><strong>{h(cfg["label"])}</strong><small>Explorar por {h(cfg["singular"])}</small></a>'
+        for taxonomy, cfg in TAXONOMIES.items()
     )
     body = f'''<main>
 <section class="hero-section">
@@ -383,6 +544,11 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
   <div class="section-head"><h2>Explorar el archivo</h2><a href="series.html">Ver series</a></div>
   <p class="count">Rutas temáticas para encontrar el catálogo por búsquedas en español: PC clásico, Big Box, MS-DOS, Windows 95/98, ediciones españolas y aventuras gráficas.</p>
   <div class="taxonomy-grid">{seo_hub_links}</div>
+</section>
+<section class="wrap seo-hub" id="explorar-entidades">
+  <div class="section-head"><h2>Explorar por datos del catálogo</h2></div>
+  <p class="count">Desarrolladores, distribuidores, géneros, plataformas y formatos enlazados directamente con las fichas documentales.</p>
+  <div class="taxonomy-grid">{entity_hub_links}</div>
 </section>
 <section class="wrap">
   <div class="section-head"><h2>Catálogo de juegos</h2><a href="juegos-pc-big-box.html">Ver Big Box</a></div>
@@ -496,6 +662,168 @@ def generate_listing(games: list[dict[str, Any]], out: Path, base_url: str, file
     (out / filename).write_text(layout(title, description, abs_url(base_url, filename), filename, body, jsonld=jsonld), encoding="utf-8")
 
 
+def taxonomy_breadcrumb_jsonld(base_url: str, taxonomy: str, entity: dict[str, Any] | None = None) -> dict[str, Any]:
+    cfg = TAXONOMIES[taxonomy]
+    items = [
+        {"@type":"ListItem","position":1,"name":"Inicio","item":abs_url(base_url, "")},
+        {"@type":"ListItem","position":2,"name":cfg["label"],"item":abs_url(base_url, f"{taxonomy}/")},
+    ]
+    if entity is not None:
+        items.append({"@type":"ListItem","position":3,"name":entity["name"],"item":abs_url(base_url, entity_route(taxonomy, entity))})
+    return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":items}
+
+
+def top_values(games: list[dict[str, Any]], field: str, limit: int = 4) -> list[str]:
+    counter: Counter[str] = Counter()
+    for game in games:
+        seen: set[str] = set()
+        for value in list_values(game.get(field)):
+            key = entity_key(value)
+            if key in seen:
+                continue
+            seen.add(key)
+            counter[value] += 1
+    return [name for name, _ in counter.most_common(limit)]
+
+
+def readable_list(values: list[str]) -> str:
+    if not values:
+        return ""
+    if len(values) == 1:
+        return values[0]
+    return ", ".join(values[:-1]) + " y " + values[-1]
+
+
+def entity_context_text(entity: dict[str, Any]) -> str:
+    games = entity["games"]
+    formats = readable_list(top_values(games, "formato", 3))
+    platforms = readable_list(top_values(games, "plataforma", 4))
+    genres = readable_list(top_values(games, "genero", 4))
+    parts = []
+    if formats:
+        parts.append(f"Los formatos físicos más representados en estas fichas son {formats}.")
+    if platforms:
+        parts.append(f"Entre las plataformas documentadas aparecen {platforms}.")
+    if genres:
+        parts.append(f"Entre los géneros con presencia en este conjunto figuran {genres}.")
+    return " ".join(parts)
+
+
+def taxonomy_hub_jsonld(base_url: str, taxonomy: str, entities: list[dict[str, Any]]) -> dict[str, Any]:
+    cfg = TAXONOMIES[taxonomy]
+    return {
+        "@context":"https://schema.org",
+        "@type":"CollectionPage",
+        "name":f'{cfg["label"]} · {SITE_NAME}',
+        "url":abs_url(base_url, f"{taxonomy}/"),
+        "inLanguage":"es",
+        "isPartOf":{"@type":"WebSite","name":SITE_NAME,"url":base_url.rstrip("/") + "/"},
+        "mainEntity":{
+            "@type":"ItemList",
+            "numberOfItems":len(entities),
+            "itemListElement":[
+                {"@type":"ListItem","position":i+1,"name":entity["name"],"url":abs_url(base_url, entity_route(taxonomy, entity))}
+                for i, entity in enumerate(entities)
+            ],
+        },
+    }
+
+
+def generate_taxonomy_pages(games: list[dict[str, Any]], out: Path, base_url: str) -> dict[str, list[dict[str, Any]]]:
+    """Genera hubs y páginas SEO de entidades con suficiente representación en el catálogo."""
+    generated: dict[str, list[dict[str, Any]]] = {}
+    for taxonomy, cfg in TAXONOMIES.items():
+        root = out / taxonomy
+        if root.exists():
+            shutil.rmtree(root)
+        root.mkdir(parents=True, exist_ok=True)
+
+        entities = [e for e in build_taxonomy_entities(games, taxonomy) if e["count"] >= cfg["min_count"]]
+        generated[taxonomy] = entities
+        hub_prefix = "../"
+        hub_items = "\n".join(
+            f'<a class="taxonomy-item" href="{h(hub_prefix + entity_route(taxonomy, entity))}"><strong>{h(entity["name"])}</strong><small>{entity["count"]} juegos</small></a>'
+            for entity in entities
+        )
+        hub_title = f'{cfg["label"]} de videojuegos de PC · {SITE_NAME}'
+        hub_desc = truncate(f'Explora {cfg["label"].lower()} presentes en las ediciones físicas documentadas por {SITE_NAME}. Índice conectado con las fichas del archivo.', 155)
+        hub_body = f'''<main class="wrap">
+  <nav class="breadcrumbs"><a href="{hub_prefix}">Inicio</a> / <span>{h(cfg["label"])}</span></nav>
+  <div class="page-head">
+    <p class="eyebrow">Explorar el catálogo</p>
+    <h1>{h(cfg["label"])}</h1>
+    <p class="lead">Índice de {h(cfg["label"].lower())} presentes en PC Game Archive. Se muestran entidades con al menos {cfg["min_count"]} fichas documentadas para mantener páginas con contenido suficiente.</p>
+  </div>
+  <p class="count">{len(entities)} entidades disponibles.</p>
+  <div class="taxonomy-grid">{hub_items}</div>
+</main>'''
+        hub_page = layout(
+            hub_title,
+            hub_desc,
+            abs_url(base_url, f"{taxonomy}/"),
+            "",
+            hub_body,
+            prefix=hub_prefix,
+            subtitle=f'Índice de {cfg["label"].lower()}',
+            jsonld=[organization_jsonld(base_url), taxonomy_hub_jsonld(base_url, taxonomy, entities), taxonomy_breadcrumb_jsonld(base_url, taxonomy)],
+        )
+        (root / "index.html").write_text(hub_page, encoding="utf-8")
+
+        for entity in entities:
+            # Las landings editoriales existentes son el destino canónico de estas entidades.
+            if (taxonomy, entity["key"]) in TAXONOMY_ROUTE_OVERRIDES:
+                continue
+            selected = entity["games"]
+            entity_prefix = "../../"
+            cards = "\n".join(card(game, entity_prefix) for game in selected[:24])
+            context = entity_context_text(entity)
+            values_attr = "|".join(entity["variants"])
+            title = f'{entity["name"]}: juegos de PC · {SITE_NAME}'
+            description = truncate(f'{entity["count"]} ediciones físicas de videojuegos de PC relacionadas con {entity["name"]}, documentadas en {SITE_NAME}.', 155)
+            lead = f'PC Game Archive reúne {entity["count"]} ediciones físicas del catálogo asociadas a {entity["name"]} como {cfg["singular"]}.'
+            related = [e for e in entities if e["key"] != entity["key"]][:8]
+            related_html = "\n".join(
+                f'<a class="taxonomy-item" href="{h(entity_prefix + entity_route(taxonomy, other))}"><strong>{h(other["name"])}</strong><small>{other["count"]} juegos</small></a>'
+                for other in related
+            )
+            entity_body = f'''<main class="wrap">
+  <nav class="breadcrumbs"><a href="{entity_prefix}">Inicio</a> / <a href="{entity_prefix}{taxonomy}/">{h(cfg["label"])}</a> / <span>{h(entity["name"])}</span></nav>
+  <div class="page-head">
+    <p class="eyebrow">{h(cfg["eyebrow"])}</p>
+    <h1>{h(entity["name"])}: juegos de PC</h1>
+    <p class="lead">{h(lead)}</p>
+  </div>
+  <section class="content-card">
+    <h2>Presencia en el archivo</h2>
+    <p>{h(context or 'Esta página agrupa las ediciones físicas relacionadas con esta entidad dentro del catálogo documental.')}</p>
+  </section>
+  <section>
+    <div class="section-head"><h2>Ediciones documentadas</h2><a href="{entity_prefix}{taxonomy}/">Ver {h(cfg["label"].lower())}</a></div>
+    <form class="toolbar" action="./" method="get"><input name="q" placeholder="Filtrar dentro de {h(entity['name'])}…"><button>Buscar</button></form>
+    <p class="count">{len(selected)} juegos encontrados.</p>
+    <div class="grid cards" data-catalog-list data-default-taxonomy="{h(cfg['field'])}" data-default-taxonomy-values="{h(values_attr)}">{cards}</div>
+    <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
+  </section>
+  <section class="text-section"><h2>Explorar otros {h(cfg["label"].lower())}</h2><div class="taxonomy-grid">{related_html}</div></section>
+  <script src="{entity_prefix}assets/js/search-index.js"></script>
+  <script src="{entity_prefix}assets/js/catalogo.js" defer></script>
+</main>'''
+            page = layout(
+                title,
+                description,
+                abs_url(base_url, entity_route(taxonomy, entity)),
+                "",
+                entity_body,
+                prefix=entity_prefix,
+                subtitle=f'{cfg["label"]} · Archivo documental',
+                jsonld=[organization_jsonld(base_url), collection_jsonld(base_url, entity_route(taxonomy, entity), f'{entity["name"]}: juegos de PC', description, selected), taxonomy_breadcrumb_jsonld(base_url, taxonomy, entity)],
+            )
+            target = root / entity["slug"] / "index.html"
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(page, encoding="utf-8")
+    return generated
+
+
 def generate_series(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
     counter = Counter()
     for g in games:
@@ -536,10 +864,10 @@ def game_jsonld(game: dict[str, Any], base_url: str, image_path: str | None = No
         "name": text(game.get("titulo")),
         "url": url,
         "description": truncate(text(game.get("descripcion"), ""), 500),
-        "gamePlatform": game.get("plataforma") or [],
-        "genre": game.get("genero") or [],
-        "author": [{"@type":"Organization","name": v} for v in game.get("desarrollador") or []],
-        "publisher": [{"@type":"Organization","name": v} for v in game.get("distribuidor") or []],
+        "gamePlatform": list_values(game.get("plataforma")),
+        "genre": list_values(game.get("genero")),
+        "author": [{"@type":"Organization","name": v} for v in list_values(game.get("desarrollador"))],
+        "publisher": [{"@type":"Organization","name": v} for v in list_values(game.get("distribuidor"))],
         "image": abs_url(base_url, image_path or OG_IMAGE),
     }
     if game.get("ean"):
@@ -547,16 +875,20 @@ def game_jsonld(game: dict[str, Any], base_url: str, image_path: str | None = No
     return obj
 
 
-def breadcrumb_jsonld(game: dict[str, Any], base_url: str) -> dict[str, Any]:
+def breadcrumb_jsonld(game: dict[str, Any], base_url: str, taxonomy_lookup: dict[str, dict[str, dict[str, Any]]]) -> dict[str, Any]:
+    format_value = text(game.get("formato"), "Catálogo")
+    format_entity = taxonomy_lookup.get("formatos", {}).get(entity_key(format_value))
+    format_path = entity_route("formatos", format_entity) if format_entity else ""
     return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"Inicio","item":abs_url(base_url,"")},
-        {"@type":"ListItem","position":2,"name":text(game.get("formato")),"item":abs_url(base_url,"juegos-pc-big-box.html" if game.get("formato")=="Big Box" else "")},
+        {"@type":"ListItem","position":2,"name":format_value,"item":abs_url(base_url,format_path)},
         {"@type":"ListItem","position":3,"name":text(game.get("titulo")),"item":abs_url(base_url,game.get("url",""))},
     ]}
 
 
 def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Path, base_url: str) -> None:
     url_counts = Counter(g.get("url") for g in games)
+    taxonomy_lookup = build_taxonomy_lookup(games)
     for idx, game in enumerate(games, start=1):
         url = str(game.get("url", "")).strip()
         if not url or not re.match(r"^juegos/[a-z0-9\-]+/$", url):
@@ -570,24 +902,33 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         page_title = f"{title} · {text(game.get('formato'))} · PC Game Archive"
         desc = truncate(text(game.get("descripcion")), 155)
         gallery = existing_gallery(project_root, game)
-        hero_path = gallery[0] if gallery else "no_disponible.png"
-        hero = prefix + hero_path
-        chips = [game.get("formato")] + (game.get("plataforma") or []) + (game.get("serie") or [])[:3]
-        chip_html = "".join(f'<a class="chip" href="{h(taxonomy_link("q", c, prefix))}">{h(c)}</a>' for c in chips if c)
-        gallery_html = "\n".join(f'<img src="{h(prefix + src)}" alt="{h(title)}" loading="lazy" width="480" height="360" onerror="this.remove()">' for src in gallery)
+        hero_path = gallery[0] if gallery else "/no_disponible.png"
+        hero = hero_path
+        chip_parts: list[str] = []
+        if game.get("formato"):
+            chip_parts.append(entity_tag("formatos", str(game.get("formato")), taxonomy_lookup, prefix, "chip"))
+        chip_parts.extend(entity_tag("plataformas", p, taxonomy_lookup, prefix, "chip") for p in list_values(game.get("plataforma")))
+        chip_parts.extend(f'<a class="chip" href="{h(taxonomy_link("serie", s, prefix))}">{h(s)}</a>' for s in list_values(game.get("serie"))[:3])
+        chip_html = "".join(chip_parts)
+        gallery_html = "\n".join(f'<img src="{h(src)}" alt="{h(title)}" loading="lazy" width="480" height="360" onerror="this.remove()">' for src in gallery)
         if not gallery_html:
-            gallery_html = f'<img src="{h(prefix + "no_disponible.png")}" alt="{h("Imágenes no disponibles de " + title)}" loading="lazy" width="480" height="360">'
-        platform_links = " ".join(f'<a class="tag" href="{h(taxonomy_link("plataforma", p, prefix))}">{h(p)}</a>' for p in game.get("plataforma") or [])
-        genre_links = " ".join(f'<a class="tag" href="{h(taxonomy_link("genero", g, prefix))}">{h(g)}</a>' for g in game.get("genero") or [])
-        serie_links = " ".join(f'<a class="tag" href="{h(taxonomy_link("serie", s, prefix))}">{h(s)}</a>' for s in game.get("serie") or [])
+            gallery_html = f'<img src="/no_disponible.png" alt="{h("Imágenes no disponibles de " + title)}" loading="lazy" width="480" height="360">'
+        format_link = entity_tag("formatos", text(game.get("formato"), ""), taxonomy_lookup, prefix) if text(game.get("formato"), "") else "—"
+        platform_links = " ".join(entity_tag("plataformas", p, taxonomy_lookup, prefix) for p in list_values(game.get("plataforma")))
+        genre_links = " ".join(entity_tag("generos", g, taxonomy_lookup, prefix) for g in list_values(game.get("genero")))
+        serie_links = " ".join(f'<a class="tag" href="{h(taxonomy_link("serie", s, prefix))}">{h(s)}</a>' for s in list_values(game.get("serie")))
+        developer_links = " ".join(entity_tag("desarrolladores", d, taxonomy_lookup, prefix) for d in list_values(game.get("desarrollador"))) or "—"
+        distributor_links = " ".join(entity_tag("distribuidores", d, taxonomy_lookup, prefix) for d in list_values(game.get("distribuidor"))) or "—"
+        format_value = text(game.get("formato"), "Catálogo")
+        format_href = entity_href("formatos", format_value, taxonomy_lookup, prefix) or home_href(prefix)
         ig = game.get("ig") or ""
         ig_btn = f'<a class="button" href="{h(ig)}" target="_blank" rel="noopener">Ver publicación en Instagram</a>' if ig else ""
         prot = game.get("proteccion") if isinstance(game.get("proteccion"), dict) else {}
         body = f'''<main class="wrap game-detail">
-  <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{prefix}{'juegos-pc-big-box.html' if game.get('formato') == 'Big Box' else ''}">{'Big Box' if game.get('formato') == 'Big Box' else 'Catálogo'}</a> / <span>{h(title)}</span></nav>
+  <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{h(format_href)}">{h(format_value)}</a> / <span>{h(title)}</span></nav>
   <article class="detail-grid">
     <section class="media-card">
-      <img class="hero-img" src="{h(hero)}" alt="{h('Edición física de ' + title)}" width="760" height="570" onerror="this.onerror=null;this.src='{h(prefix + 'no_disponible.png')}';this.classList.add('missing')">
+      <img class="hero-img" src="{h(hero)}" alt="{h('Edición física de ' + title)}" width="760" height="570" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')">
       <div class="chips">{chip_html}</div>
       <div class="actions"><a class="button" href="{home_href(prefix)}">Volver al catálogo</a>{ig_btn}</div>
     </section>
@@ -596,12 +937,12 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
       <h1>{h(title)}</h1>
       <p class="lead">{h(text(game.get('descripcion')))}</p>
       <dl class="kv">
-        <dt>Formato</dt><dd>{h(text(game.get('formato')))}</dd>
+        <dt>Formato</dt><dd class="tagrow">{format_link}</dd>
         <dt>Plataforma</dt><dd class="tagrow">{platform_links}</dd>
         <dt>Género</dt><dd class="tagrow">{genre_links}</dd>
         <dt>Serie</dt><dd class="tagrow">{serie_links}</dd>
-        <dt>Desarrollador</dt><dd>{h(text(game.get('desarrollador')))}</dd>
-        <dt>Distribuidor</dt><dd>{h(text(game.get('distribuidor')))}</dd>
+        <dt>Desarrollador</dt><dd class="tagrow">{developer_links}</dd>
+        <dt>Distribuidor</dt><dd class="tagrow">{distributor_links}</dd>
         <dt>EAN</dt><dd>{h(text(game.get('ean')))}</dd>
       </dl>
       <h2>Contenido de la edición</h2>
@@ -613,7 +954,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
   </article>
   <section class="content-card"><h2>Galería documental</h2><div class="gallery">{gallery_html}</div></section>
 </main>'''
-        page = layout(page_title, desc, abs_url(base_url, url), "", body, prefix=prefix, subtitle="Ficha documental", image=abs_url(base_url, hero_path), jsonld=[game_jsonld(game, base_url, hero_path), breadcrumb_jsonld(game, base_url)])
+        page = layout(page_title, desc, abs_url(base_url, url), "", body, prefix=prefix, subtitle="Ficha documental", image=abs_url(base_url, hero_path), jsonld=[game_jsonld(game, base_url, hero_path), breadcrumb_jsonld(game, base_url, taxonomy_lookup)])
         target = out / url / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(page, encoding="utf-8")
@@ -622,6 +963,18 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
     urls = ["", "series.html", "contacto.html"] + [p["filename"] for p in SEO_LANDING_PAGES]
     seen = set(urls)
+    for taxonomy, cfg in TAXONOMIES.items():
+        hub = f"{taxonomy}/"
+        if hub not in seen:
+            urls.append(hub)
+            seen.add(hub)
+        for entity in build_taxonomy_entities(games, taxonomy):
+            if entity["count"] < cfg["min_count"]:
+                continue
+            route = entity_route(taxonomy, entity)
+            if route not in seen:
+                urls.append(route)
+                seen.add(route)
     for g in games:
         url = g.get("url")
         if isinstance(url, str) and re.match(r"^juegos/[a-z0-9\-]+/$", url) and url not in seen:
@@ -648,6 +1001,7 @@ def generate_static_redirect(out: Path, base_url: str, filename: str, target: st
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>{h(title)}</title>
+<meta name="robots" content="noindex,follow" />
 <link rel="canonical" href="{h(target_url)}" />
 <meta http-equiv="refresh" content="0; url={h(target_url)}" />
 </head>
@@ -668,6 +1022,7 @@ def generate_legacy_detail(out: Path, base_url: str) -> None:
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Ficha trasladada · PC Game Archive</title>
+<meta name="robots" content="noindex,follow" />
 <script>
 (function(){{
   var params=new URLSearchParams(location.search);
@@ -738,6 +1093,11 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         f"- Juegos en catálogo: {len(games)}",
         f"- URLs duplicadas detectadas: {len(dup)}",
         f"- URLs inválidas omitidas: {len(invalid)}",
+        f"- Desarrolladores con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'desarrolladores') if e['count'] >= TAXONOMIES['desarrolladores']['min_count'])}",
+        f"- Distribuidores con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'distribuidores') if e['count'] >= TAXONOMIES['distribuidores']['min_count'])}",
+        f"- Géneros con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'generos') if e['count'] >= TAXONOMIES['generos']['min_count'])}",
+        f"- Plataformas con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'plataformas') if e['count'] >= TAXONOMIES['plataformas']['min_count'])}",
+        f"- Formatos con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'formatos') if e['count'] >= TAXONOMIES['formatos']['min_count'])}",
         "",
         "## Observaciones",
         "",
@@ -748,6 +1108,10 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         "- Google Analytics normaliza `page_location` a la canonical y registra búsquedas, filtros, selección de juegos y clics de contacto.",
         "- Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.",
         "- Se generan landing pages SEO en español para búsquedas genéricas.",
+        "- Se generan automáticamente hubs y páginas SEO por desarrollador, distribuidor, género, plataforma y formato cuando una entidad aparece en 3 o más fichas.",
+        "- Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.",
+        "- Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.",
+        "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
         "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
     ]
     if dup:
@@ -775,6 +1139,7 @@ def main() -> int:
     generate_favicons(project_root, out)
     generate_index(games, out, args.base_url)
     generate_seo_landing_pages(games, out, args.base_url)
+    generate_taxonomy_pages(games, out, args.base_url)
     generate_series(games, out, args.base_url)
     generate_contact(out, args.base_url)
     generate_game_pages(games, out, project_root, args.base_url)
@@ -783,7 +1148,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url)
     generate_robots(out, args.base_url)
     build_report(games, out)
-    print("Versión generador: seo-search-global-2026-08-14")
+    print("Versión generador: seo-taxonomies-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
@@ -818,6 +1183,8 @@ JS = r'''
   const defaultGenero = normalize(grid.dataset.defaultGenero || '');
   const defaultGeneroAny = splitTerms(grid.dataset.defaultGeneroAny || '');
   const defaultTextAny = splitTerms(grid.dataset.defaultTextAny || '');
+  const defaultTaxonomy = String(grid.dataset.defaultTaxonomy || '').trim();
+  const defaultTaxonomyValues = splitTerms(grid.dataset.defaultTaxonomyValues || '');
   const formato = normalize(params.get('formato') || '') || defaultFormato;
   const serie = normalize(params.get('serie') || '');
   const genero = normalize(params.get('genero') || '') || defaultGenero;
@@ -835,6 +1202,11 @@ JS = r'''
     if(plataforma && !platformValues.some(s => s === plataforma)) return false;
     if(defaultPlataformaAny.length && !defaultPlataformaAny.some(t => platformValues.includes(t))) return false;
     if(defaultTextAny.length && !defaultTextAny.some(t => searchBlob.includes(t))) return false;
+    if(defaultTaxonomy && defaultTaxonomyValues.length){
+      const rawValues = Array.isArray(g[defaultTaxonomy]) ? g[defaultTaxonomy] : [g[defaultTaxonomy]];
+      const entityValues = rawValues.map(normalize).filter(Boolean);
+      if(!defaultTaxonomyValues.some(t => entityValues.includes(t))) return false;
+    }
     return true;
   });
 
@@ -935,8 +1307,9 @@ JS = r'''
   function card(g){
     const tags = [g.formato].concat(g.plataforma || []).filter(Boolean).slice(0, 3).map(t => `<span class="tag">${esc(t)}</span>`).join('');
     const rawUrl = String(g.url || '#');
-    const url = esc(rawUrl);
-    const img = esc(rawUrl.replace(/\/$/, '') + '/img/001.jpg');
+    const siteUrl = rawUrl === '#' ? '#' : '/' + rawUrl.replace(/^\/+/, '');
+    const url = esc(siteUrl);
+    const img = esc(siteUrl === '#' ? '/no_disponible.png' : siteUrl.replace(/\/$/, '') + '/img/001.jpg');
     const gameId = esc(rawUrl.replace(/^\/+|\/+$/g, '').split('/').pop() || 'game_unknown');
     return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }

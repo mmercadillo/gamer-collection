@@ -21,6 +21,8 @@
   const defaultGenero = normalize(grid.dataset.defaultGenero || '');
   const defaultGeneroAny = splitTerms(grid.dataset.defaultGeneroAny || '');
   const defaultTextAny = splitTerms(grid.dataset.defaultTextAny || '');
+  const defaultTaxonomy = String(grid.dataset.defaultTaxonomy || '').trim();
+  const defaultTaxonomyValues = splitTerms(grid.dataset.defaultTaxonomyValues || '');
   const formato = normalize(params.get('formato') || '') || defaultFormato;
   const serie = normalize(params.get('serie') || '');
   const genero = normalize(params.get('genero') || '') || defaultGenero;
@@ -38,6 +40,11 @@
     if(plataforma && !platformValues.some(s => s === plataforma)) return false;
     if(defaultPlataformaAny.length && !defaultPlataformaAny.some(t => platformValues.includes(t))) return false;
     if(defaultTextAny.length && !defaultTextAny.some(t => searchBlob.includes(t))) return false;
+    if(defaultTaxonomy && defaultTaxonomyValues.length){
+      const rawValues = Array.isArray(g[defaultTaxonomy]) ? g[defaultTaxonomy] : [g[defaultTaxonomy]];
+      const entityValues = rawValues.map(normalize).filter(Boolean);
+      if(!defaultTaxonomyValues.some(t => entityValues.includes(t))) return false;
+    }
     return true;
   });
 
@@ -138,8 +145,9 @@
   function card(g){
     const tags = [g.formato].concat(g.plataforma || []).filter(Boolean).slice(0, 3).map(t => `<span class="tag">${esc(t)}</span>`).join('');
     const rawUrl = String(g.url || '#');
-    const url = esc(rawUrl);
-    const img = esc(rawUrl.replace(/\/$/, '') + '/img/001.jpg');
+    const siteUrl = rawUrl === '#' ? '#' : '/' + rawUrl.replace(/^\/+/, '');
+    const url = esc(siteUrl);
+    const img = esc(siteUrl === '#' ? '/no_disponible.png' : siteUrl.replace(/\/$/, '') + '/img/001.jpg');
     const gameId = esc(rawUrl.replace(/^\/+|\/+$/g, '').split('/').pop() || 'game_unknown');
     return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }
