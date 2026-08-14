@@ -7,12 +7,14 @@
   const sentinel = document.querySelector('[data-load-sentinel]');
 
   restoreFormValues();
+  prepareCleanSubmissions();
   if(!grid) return;
 
   const games = Array.isArray(window.PCGA_SEARCH_INDEX) ? window.PCGA_SEARCH_INDEX : [];
   if(!games.length) return;
 
-  const titulo = normalize(params.get('titulo') || params.get('q') || '');
+  const rawSearchTerm = String(params.get('titulo') || params.get('q') || '').trim();
+  const searchTerms = tokenize(rawSearchTerm);
   const defaultFormato = normalize(grid.dataset.defaultFormato || '');
   const defaultPlataforma = normalize(grid.dataset.defaultPlataforma || '');
   const defaultPlataformaAny = splitTerms(grid.dataset.defaultPlataformaAny || '');
@@ -25,26 +27,44 @@
   const plataforma = normalize(params.get('plataforma') || '') || defaultPlataforma;
 
   const selected = games.filter(g => {
-    const titleBlob = normalize(g.titulo);
     const genreBlob = normalize((g.genero || []).join(' '));
     const platformValues = (g.plataforma || []).map(normalize);
-    const fullBlob = normalize([g.titulo, g.formato, (g.serie||[]).join(' '), (g.genero||[]).join(' '), (g.plataforma||[]).join(' ')].join(' '));
-    if(titulo && !titleBlob.includes(titulo)) return false;
+    const searchBlob = normalize(g.search_text || [g.titulo, g.formato, (g.serie||[]).join(' '), (g.genero||[]).join(' '), (g.plataforma||[]).join(' ')].join(' '));
+    if(searchTerms.length && !searchTerms.every(term => searchBlob.includes(term))) return false;
     if(formato && normalize(g.formato) !== formato) return false;
     if(serie && !(g.serie || []).some(s => normalize(s) === serie)) return false;
     if(genero && !genreBlob.includes(genero)) return false;
     if(defaultGeneroAny.length && !defaultGeneroAny.some(t => genreBlob.includes(t))) return false;
     if(plataforma && !platformValues.some(s => s === plataforma)) return false;
     if(defaultPlataformaAny.length && !defaultPlataformaAny.some(t => platformValues.includes(t))) return false;
-    if(defaultTextAny.length && !defaultTextAny.some(t => fullBlob.includes(t))) return false;
+    if(defaultTextAny.length && !defaultTextAny.some(t => searchBlob.includes(t))) return false;
     return true;
   });
+
+  if(rawSearchTerm && typeof gtag === 'function'){
+    gtag('event','search',{
+      search_term: rawSearchTerm,
+      results_count: selected.length
+    });
+    if(!selected.length){
+      gtag('event','search_no_results',{search_term: rawSearchTerm});
+    }
+  }
+
+  if(typeof gtag === 'function'){
+    ['formato','serie','genero','plataforma'].forEach(name => {
+      const value = params.get(name);
+      if(value){
+        gtag('event','filter_used',{filter_name:name,filter_value:value});
+      }
+    });
+  }
 
   let rendered = 0;
   grid.innerHTML = '';
   renderNextPage();
 
-  const count = document.querySelector('.count');
+  const count = (grid.closest('section') || document).querySelector('.count');
   if(count) count.textContent = selected.length + ' juegos encontrados.';
 
   if(!selected.length){
@@ -78,6 +98,10 @@
     return String(value || '').split('|').map(normalize).filter(Boolean);
   }
 
+  function tokenize(value){
+    return normalize(value).split(/\s+/).filter(Boolean);
+  }
+
   function normalize(value){
     return String(value || '')
       .toLowerCase()
@@ -96,14 +120,27 @@
         const el = form.querySelector(`[name="${name}"]`);
         if(el && params.has(name)) el.value = params.get(name) || '';
       });
+      const q = form.querySelector('[name="q"]');
+      if(q && !params.has('q') && params.has('titulo')) q.value = params.get('titulo') || '';
+    });
+  }
+
+  function prepareCleanSubmissions(){
+    forms.forEach(form => {
+      form.addEventListener('submit', () => {
+        form.querySelectorAll('input[name], select[name]').forEach(el => {
+          if(!String(el.value || '').trim()) el.disabled = true;
+        });
+      });
     });
   }
 
   function card(g){
     const tags = [g.formato].concat(g.plataforma || []).filter(Boolean).slice(0, 3).map(t => `<span class="tag">${esc(t)}</span>`).join('');
     const rawUrl = String(g.url || '#');
-    const url = esc(rawUrl.endsWith('/') ? rawUrl + 'index.html' : rawUrl);
+    const url = esc(rawUrl);
     const img = esc(rawUrl.replace(/\/$/, '') + '/img/001.jpg');
-    return `<a class="game-card" href="${url}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+    const gameId = esc(rawUrl.replace(/^\/+|\/+$/g, '').split('/').pop() || 'game_unknown');
+    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }
 })();

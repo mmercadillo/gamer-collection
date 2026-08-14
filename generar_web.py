@@ -5,7 +5,7 @@ Generador estático SEO/SEM para PC Game Archive.
 
 Lee juegos.json como fuente maestra y genera una web estática indexable:
   - index.html
-  - bigbox.html
+  - bigbox.html (compatibilidad/redirección)
   - series.html
   - contacto.html
   - robots.txt
@@ -27,8 +27,9 @@ Notas:
   - No modifica juegos.json.
   - No copia ni sobrescribe imágenes, carpetas img ni otros assets documentales de los juegos.
   - Solo sobrescribe ficheros generados: HTML, sitemap.xml, robots.txt, assets/css/styles.css, assets/js/catalogo.js, assets/js/search-index.js e informe_generacion_seo.md.
-  - Buscador funcional por título, formato y serie en index.html.
-  - Los enlaces internos a juegos apuntan explícitamente a index.html para funcionar también abriendo la web en local con file://.
+  - Buscador global por metadatos del catálogo, combinado con filtros de formato, serie, género y plataforma.
+  - Los enlaces internos usan siempre URLs canónicas limpias, sin `index.html`.
+  - Para probar localmente las URLs limpias se recomienda servir el directorio por HTTP (por ejemplo, `python -m http.server`).
   - En detalle de juego, la imagen principal se muestra completa sin recorte y los botones tienen separación respecto a las series/chips.
 """
 
@@ -48,7 +49,7 @@ from urllib.parse import quote
 SITE_NAME = "PC Game Archive"
 DEFAULT_BASE_URL = "https://pcgamearchive.org"
 GA_ID = "G-SQN0WTMVP3"
-OG_IMAGE = "/og/og-image.png"
+OG_IMAGE = "/no_disponible.png"
 PENDING_NUM = "000000"
 
 SEO_LANDING_PAGES = [
@@ -119,17 +120,13 @@ def img_path(game: dict[str, Any], filename: str = "001.jpg") -> str:
 
 
 def game_href(game: dict[str, Any], prefix: str = "") -> str:
-    """Devuelve enlace navegable a ficha.
+    """Devuelve siempre la URL canónica limpia de una ficha."""
+    return prefix + str(game.get("url", ""))
 
-    En producción, la URL canónica sigue siendo /juegos/<slug>/, pero para
-    pruebas locales con file:// los navegadores suelen mostrar el índice del
-    directorio si el enlace acaba en /. Por eso los enlaces HTML internos
-    apuntan explícitamente a index.html.
-    """
-    url = str(game.get("url", ""))
-    if url.endswith("/"):
-        return prefix + url + "index.html"
-    return prefix + url
+
+def home_href(prefix: str = "") -> str:
+    """Enlace a la raíz del sitio compatible con páginas en subdirectorios."""
+    return prefix or "./"
 
 
 def existing_gallery(project_root: Path, game: dict[str, Any]) -> list[str]:
@@ -146,7 +143,7 @@ def existing_gallery(project_root: Path, game: dict[str, Any]) -> list[str]:
 
 def nav(active: str, prefix: str = "") -> str:
     items = [
-        ("index.html", "Inicio"),
+        ("", "Inicio"),
         ("videojuegos-clasicos-pc.html", "PC clásico"),
         ("juegos-pc-big-box.html", "Big Box PC"),
         ("juegos-msdos.html", "MS-DOS"),
@@ -155,14 +152,17 @@ def nav(active: str, prefix: str = "") -> str:
     ]
     links = []
     for href, label in items:
-        cls = ' class="active"' if href == active else ""
-        links.append(f'<a{cls} href="{prefix}{href}">{label}</a>')
+        is_active = (not href and active == "index.html") or href == active
+        cls = ' class="active"' if is_active else ""
+        target = home_href(prefix) if not href else prefix + href
+        links.append(f'<a{cls} href="{target}">{label}</a>')
     links.append('<a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>')
     return "\n".join(links)
 
 
 def head(title: str, description: str, canonical: str, prefix: str = "", image: str | None = None, extra_jsonld: list[dict[str, Any]] | None = None) -> str:
     image_url = image or abs_url(DEFAULT_BASE_URL, OG_IMAGE)
+    canonical_js = json.dumps(canonical, ensure_ascii=False)
     jsonld = ""
     for obj in extra_jsonld or []:
         jsonld += f'\n<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False, separators=(",", ":"))}</script>'
@@ -189,8 +189,22 @@ def head(title: str, description: str, canonical: str, prefix: str = "", image: 
 <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png" />
 <link rel="manifest" href="{prefix}site.webmanifest" />
 <link rel="stylesheet" href="{prefix}assets/css/styles.css" />
+<script>
+(function(){{
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){{
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }}
+}})();
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA_ID}');</script>{jsonld}'''
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('js',new Date());
+gtag('config','{GA_ID}',{{page_location:{canonical_js}}});
+</script>{jsonld}'''
 
 
 def layout(title: str, description: str, canonical: str, active: str, body: str, prefix: str = "", subtitle: str = "Archivo físico de videojuegos de PC · Big Box · MS-DOS · Windows", image: str | None = None, jsonld: list[dict[str, Any]] | None = None) -> str:
@@ -202,7 +216,7 @@ def layout(title: str, description: str, canonical: str, active: str, body: str,
 <body>
 <header id="top">
   <div class="wrap header-row">
-    <a class="brand" href="{prefix}index.html" aria-label="PC Game Archive">
+    <a class="brand" href="{home_href(prefix)}" aria-label="PC Game Archive">
       <img class="logo" src="{prefix}logo.png" alt="PC Game Archive logo">
       <span><strong>PC Game Archive</strong><small>{h(subtitle)}</small></span>
     </a>
@@ -221,10 +235,29 @@ def layout(title: str, description: str, canonical: str, active: str, body: str,
 <script>
 document.addEventListener('click',function(e){{
   var btn=e.target.closest('[data-scroll-top]');
-  if(!btn) return;
-  e.preventDefault();
-  window.scrollTo({{top:0,behavior:'smooth'}});
-  if(history.replaceState){{history.replaceState(null,'',location.pathname+location.search);}}
+  if(btn){{
+    e.preventDefault();
+    window.scrollTo({{top:0,behavior:'smooth'}});
+    if(history.replaceState){{history.replaceState(null,'',location.pathname+location.search);}}
+    return;
+  }}
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){{
+    gtag('event','select_content',{{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    }});
+  }}
+
+  var href=link.getAttribute('href')||'';
+  if(href.indexOf('mailto:')===0){{
+    gtag('event','contact_click',{{method:'email',link_url:href}});
+  }} else if(href.indexOf('instagram.com/')!==-1){{
+    gtag('event','outbound_social_click',{{platform:'instagram',link_url:href}});
+  }}
 }});
 </script>
 </body>
@@ -236,10 +269,12 @@ def card(game: dict[str, Any], prefix: str = "") -> str:
     url = game_href(game, prefix)
     img = prefix + img_path(game)
     title = text(game.get("titulo"))
+    game_id = str(game.get("url", "")).strip("/").split("/")[-1] or "game_unknown"
+    fallback = prefix + "no_disponible.png"
     tags = [game.get("formato", "")] + (game.get("plataforma") or [])[:2]
     tag_html = "".join(f'<span class="tag">{h(t)}</span>' for t in tags if t)
-    return f'''<a class="game-card" href="{h(url)}">
-  <img src="{h(img)}" alt="{h('Portada de ' + title)}" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')" />
+    return f'''<a class="game-card" href="{h(url)}" data-game-link data-game-id="{h(game_id)}">
+  <img src="{h(img)}" alt="{h('Portada de ' + title)}" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='{h(fallback)}';this.classList.add('missing')" />
   <span class="game-card-body">
     <strong>{h(title)}</strong>
     <small>{h(text(game.get('genero')))}</small>
@@ -249,13 +284,38 @@ def card(game: dict[str, Any], prefix: str = "") -> str:
 
 
 def taxonomy_link(kind: str, value: str, prefix: str = "") -> str:
-    return f'{prefix}index.html?{kind}={quote(value)}'
+    return f'{home_href(prefix)}?{kind}={quote(value)}'
+
+
+def flatten_search_values(value: Any) -> list[str]:
+    """Aplana valores JSON para construir el texto de búsqueda sin perder metadatos."""
+    if value is None:
+        return []
+    if isinstance(value, dict):
+        values: list[str] = []
+        for item in value.values():
+            values.extend(flatten_search_values(item))
+        return values
+    if isinstance(value, (list, tuple, set)):
+        values: list[str] = []
+        for item in value:
+            values.extend(flatten_search_values(item))
+        return values
+    raw = str(value).strip()
+    return [raw] if raw else []
 
 
 def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Genera un índice ligero para búsqueda en cliente."""
+    """Genera el índice de búsqueda global en cliente."""
     index: list[dict[str, Any]] = []
+    searchable_fields = (
+        "num", "titulo", "plataforma", "formato", "genero", "desarrollador",
+        "distribuidor", "ean", "descripcion", "incluye", "serie", "tags", "proteccion",
+    )
     for g in games:
+        search_values: list[str] = []
+        for field in searchable_fields:
+            search_values.extend(flatten_search_values(g.get(field)))
         index.append({
             "titulo": g.get("titulo", ""),
             "url": g.get("url", ""),
@@ -263,6 +323,7 @@ def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "serie": g.get("serie") or [],
             "genero": g.get("genero") or [],
             "plataforma": g.get("plataforma") or [],
+            "search_text": " ".join(search_values),
         })
     return index
 
@@ -296,8 +357,8 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
       <p class="eyebrow">Preservación · Coleccionismo · PC clásico</p>
       <h1>Archivo físico de videojuegos de PC</h1>
       <p class="lead">Catálogo documental de ediciones físicas para PC, con especial atención a Big Box, MS-DOS, Windows clásicos, distribución española y preservación del soporte original.</p>
-      <form class="search-hero catalog-search" action="index.html" method="get">
-        <input name="titulo" placeholder="Buscar por título…" aria-label="Buscar por título">
+      <form class="search-hero catalog-search" action="./" method="get">
+        <input name="q" placeholder="Buscar en todo el archivo…" aria-label="Buscar en todo el archivo">
         <select name="formato" aria-label="Filtrar por formato">
           <option value="">Todos los formatos</option>
           <option value="Big Box">Big Box</option>
@@ -324,7 +385,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
   <div class="taxonomy-grid">{seo_hub_links}</div>
 </section>
 <section class="wrap">
-  <div class="section-head"><h2>Catálogo de juegos</h2><a href="bigbox.html">Ver Big Box</a></div>
+  <div class="section-head"><h2>Catálogo de juegos</h2><a href="juegos-pc-big-box.html">Ver Big Box</a></div>
   <p class="count">{len(games)} juegos encontrados.</p>
   <div class="grid cards" data-catalog-list>{cards}</div>
   <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
@@ -336,7 +397,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
 <script src="assets/js/search-index.js"></script>
 <script src="assets/js/catalogo.js" defer></script>
 </main>'''
-    jsonld = [organization_jsonld(base_url), {"@context":"https://schema.org","@type":"WebSite","name":SITE_NAME,"url":base_url.rstrip("/") + "/","inLanguage":"es","description":desc,"potentialAction":{"@type":"SearchAction","target":base_url.rstrip("/") + "/index.html?q={search_term_string}","query-input":"required name=search_term_string"}}, collection_jsonld(base_url, "", "Archivo de videojuegos clásicos de PC", desc, games)]
+    jsonld = [organization_jsonld(base_url), {"@context":"https://schema.org","@type":"WebSite","name":SITE_NAME,"url":base_url.rstrip("/") + "/","inLanguage":"es","description":desc,"potentialAction":{"@type":"SearchAction","target":base_url.rstrip("/") + "/?q={search_term_string}","query-input":"required name=search_term_string"}}, collection_jsonld(base_url, "", "Archivo de videojuegos clásicos de PC", desc, games)]
     (out / "index.html").write_text(layout("PC Game Archive · Videojuegos clásicos de PC · Big Box · MS-DOS · Windows", desc, abs_url(base_url, ""), "index.html", body, jsonld=jsonld), encoding="utf-8")
 
 
@@ -402,8 +463,8 @@ def generate_seo_landing_pages(games: list[dict[str, Any]], out: Path, base_url:
     <p>Además de títulos concretos, el archivo quiere ser localizable por búsquedas como videojuegos clásicos de PC, juegos Big Box, juegos MS-DOS, ediciones españolas, aventuras gráficas clásicas y preservación de software físico.</p>
   </section>
   <section>
-    <div class="section-head"><h2>Juegos documentados</h2><a href="index.html">Ver catálogo completo</a></div>
-    <form class="toolbar" action="index.html" method="get"><input name="q" placeholder="Filtrar catálogo…"><button>Buscar</button></form>
+    <div class="section-head"><h2>Juegos documentados</h2><a href="./">Ver catálogo completo</a></div>
+    <form class="toolbar" action="./" method="get"><input name="q" placeholder="Filtrar catálogo…"><button>Buscar</button></form>
     <p class="count">{len(selected)} juegos encontrados.</p>
     <div class="grid cards" data-catalog-list{data_attr}>{cards}</div>
     <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
@@ -424,7 +485,7 @@ def generate_listing(games: list[dict[str, Any]], out: Path, base_url: str, file
     <h1>{h(title)}</h1>
     <p>{h(description)}</p>
   </div>
-  <form class="toolbar" action="index.html" method="get"><input name="q" placeholder="Filtrar catálogo…"><button>Buscar</button></form>
+  <form class="toolbar" action="./" method="get"><input name="q" placeholder="Filtrar catálogo…"><button>Buscar</button></form>
   <p class="count">{len(selected)} juegos encontrados.</p>
   <div class="grid cards" data-catalog-list data-default-formato="{h('Big Box') if filename == 'bigbox.html' else ''}">{cards}</div>
   <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
@@ -441,7 +502,7 @@ def generate_series(games: list[dict[str, Any]], out: Path, base_url: str) -> No
         for s in g.get("serie") or []:
             counter[s] += 1
     items = "\n".join(
-        f'<a class="taxonomy-item" href="index.html?serie={quote(name)}"><strong>{h(name)}</strong><small>{count} juegos</small></a>'
+        f'<a class="taxonomy-item" href="./?serie={quote(name)}"><strong>{h(name)}</strong><small>{count} juegos</small></a>'
         for name, count in sorted(counter.items(), key=lambda x: (-x[1], x[0].lower()))
     )
     title = "Series y colecciones · PC Game Archive"
@@ -467,7 +528,7 @@ def generate_contact(out: Path, base_url: str) -> None:
     (out / "contacto.html").write_text(layout(title, desc, abs_url(base_url, "contacto.html"), "contacto.html", body), encoding="utf-8")
 
 
-def game_jsonld(game: dict[str, Any], base_url: str) -> dict[str, Any]:
+def game_jsonld(game: dict[str, Any], base_url: str, image_path: str | None = None) -> dict[str, Any]:
     url = abs_url(base_url, game.get("url", ""))
     obj = {
         "@context": "https://schema.org",
@@ -479,7 +540,7 @@ def game_jsonld(game: dict[str, Any], base_url: str) -> dict[str, Any]:
         "genre": game.get("genero") or [],
         "author": [{"@type":"Organization","name": v} for v in game.get("desarrollador") or []],
         "publisher": [{"@type":"Organization","name": v} for v in game.get("distribuidor") or []],
-        "image": abs_url(base_url, img_path(game)),
+        "image": abs_url(base_url, image_path or OG_IMAGE),
     }
     if game.get("ean"):
         obj["gtin"] = game.get("ean")
@@ -489,7 +550,7 @@ def game_jsonld(game: dict[str, Any], base_url: str) -> dict[str, Any]:
 def breadcrumb_jsonld(game: dict[str, Any], base_url: str) -> dict[str, Any]:
     return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"Inicio","item":abs_url(base_url,"")},
-        {"@type":"ListItem","position":2,"name":text(game.get("formato")),"item":abs_url(base_url,"bigbox.html" if game.get("formato")=="Big Box" else "index.html")},
+        {"@type":"ListItem","position":2,"name":text(game.get("formato")),"item":abs_url(base_url,"juegos-pc-big-box.html" if game.get("formato")=="Big Box" else "")},
         {"@type":"ListItem","position":3,"name":text(game.get("titulo")),"item":abs_url(base_url,game.get("url",""))},
     ]}
 
@@ -509,12 +570,13 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         page_title = f"{title} · {text(game.get('formato'))} · PC Game Archive"
         desc = truncate(text(game.get("descripcion")), 155)
         gallery = existing_gallery(project_root, game)
-        if not gallery:
-            gallery = [img_path(game)]
-        hero = prefix + gallery[0]
+        hero_path = gallery[0] if gallery else "no_disponible.png"
+        hero = prefix + hero_path
         chips = [game.get("formato")] + (game.get("plataforma") or []) + (game.get("serie") or [])[:3]
         chip_html = "".join(f'<a class="chip" href="{h(taxonomy_link("q", c, prefix))}">{h(c)}</a>' for c in chips if c)
         gallery_html = "\n".join(f'<img src="{h(prefix + src)}" alt="{h(title)}" loading="lazy" width="480" height="360" onerror="this.remove()">' for src in gallery)
+        if not gallery_html:
+            gallery_html = f'<img src="{h(prefix + "no_disponible.png")}" alt="{h("Imágenes no disponibles de " + title)}" loading="lazy" width="480" height="360">'
         platform_links = " ".join(f'<a class="tag" href="{h(taxonomy_link("plataforma", p, prefix))}">{h(p)}</a>' for p in game.get("plataforma") or [])
         genre_links = " ".join(f'<a class="tag" href="{h(taxonomy_link("genero", g, prefix))}">{h(g)}</a>' for g in game.get("genero") or [])
         serie_links = " ".join(f'<a class="tag" href="{h(taxonomy_link("serie", s, prefix))}">{h(s)}</a>' for s in game.get("serie") or [])
@@ -522,12 +584,12 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         ig_btn = f'<a class="button" href="{h(ig)}" target="_blank" rel="noopener">Ver publicación en Instagram</a>' if ig else ""
         prot = game.get("proteccion") if isinstance(game.get("proteccion"), dict) else {}
         body = f'''<main class="wrap game-detail">
-  <nav class="breadcrumbs"><a href="{prefix}index.html">Inicio</a> / <a href="{prefix}bigbox.html">Catálogo</a> / <span>{h(title)}</span></nav>
+  <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{prefix}{'juegos-pc-big-box.html' if game.get('formato') == 'Big Box' else ''}">{'Big Box' if game.get('formato') == 'Big Box' else 'Catálogo'}</a> / <span>{h(title)}</span></nav>
   <article class="detail-grid">
     <section class="media-card">
-      <img class="hero-img" src="{h(hero)}" alt="{h('Edición física de ' + title)}" width="760" height="570" onerror="this.classList.add('missing');this.removeAttribute('src')">
+      <img class="hero-img" src="{h(hero)}" alt="{h('Edición física de ' + title)}" width="760" height="570" onerror="this.onerror=null;this.src='{h(prefix + 'no_disponible.png')}';this.classList.add('missing')">
       <div class="chips">{chip_html}</div>
-      <div class="actions"><a class="button" href="{prefix}index.html">Volver al catálogo</a>{ig_btn}</div>
+      <div class="actions"><a class="button" href="{home_href(prefix)}">Volver al catálogo</a>{ig_btn}</div>
     </section>
     <section class="content-card">
       <p class="eyebrow">Ficha #{h(game.get('num') or '000000')}</p>
@@ -551,15 +613,14 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
   </article>
   <section class="content-card"><h2>Galería documental</h2><div class="gallery">{gallery_html}</div></section>
 </main>'''
-        page = layout(page_title, desc, abs_url(base_url, url), "", body, prefix=prefix, subtitle="Ficha documental", image=abs_url(base_url, img_path(game)), jsonld=[game_jsonld(game, base_url), breadcrumb_jsonld(game, base_url)])
+        page = layout(page_title, desc, abs_url(base_url, url), "", body, prefix=prefix, subtitle="Ficha documental", image=abs_url(base_url, hero_path), jsonld=[game_jsonld(game, base_url, hero_path), breadcrumb_jsonld(game, base_url)])
         target = out / url / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(page, encoding="utf-8")
 
 
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
-    today = dt.date.today().isoformat()
-    urls = ["", "index.html", "bigbox.html", "series.html", "contacto.html"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    urls = ["", "series.html", "contacto.html"] + [p["filename"] for p in SEO_LANDING_PAGES]
     seen = set(urls)
     for g in games:
         url = g.get("url")
@@ -569,14 +630,62 @@ def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str) -> N
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
         loc = abs_url(base_url, u)
-        prio = "1.0" if u in {"", "index.html"} else ("0.9" if not u.startswith("juegos/") else "0.7")
-        lines.append(f"  <url><loc>{h(loc)}</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq><priority>{prio}</priority></url>")
+        lines.append(f"  <url><loc>{h(loc)}</loc></url>")
     lines.append("</urlset>")
     (out / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def generate_robots(out: Path, base_url: str) -> None:
     (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base_url.rstrip('/')}/sitemap.xml\n", encoding="utf-8")
+
+
+def generate_static_redirect(out: Path, base_url: str, filename: str, target: str, title: str) -> None:
+    """Genera una redirección permanente compatible con hosting estático."""
+    target_url = abs_url(base_url, target)
+    page = f'''<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>{h(title)}</title>
+<link rel="canonical" href="{h(target_url)}" />
+<meta http-equiv="refresh" content="0; url={h(target_url)}" />
+</head>
+<body>
+<p>Esta página se ha trasladado a <a href="{h(target_url)}">{h(target_url)}</a>.</p>
+</body>
+</html>
+'''
+    (out / filename).write_text(page, encoding="utf-8")
+
+
+def generate_legacy_detail(out: Path, base_url: str) -> None:
+    """Compatibilidad para antiguas URLs detalle.html?juego=<slug>."""
+    home_url = abs_url(base_url, "")
+    page = f'''<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ficha trasladada · PC Game Archive</title>
+<script>
+(function(){{
+  var params=new URLSearchParams(location.search);
+  var slug=(params.get('juego')||'').trim().toLowerCase();
+  var target={json.dumps(home_url)};
+  if(/^[a-z0-9-]+$/.test(slug)){{
+    target={json.dumps(base_url.rstrip('/') + '/juegos/')}+slug+'/';
+  }}
+  location.replace(target);
+}})();
+</script>
+</head>
+<body>
+<p>La ficha se ha trasladado. <a href="{h(home_url)}">Ir a PC Game Archive</a>.</p>
+</body>
+</html>
+'''
+    (out / "detalle.html").write_text(page, encoding="utf-8")
 
 
 
@@ -610,7 +719,7 @@ def copy_support_files(project_root: Path, out: Path) -> None:
     if out.resolve() == project_root.resolve():
         return
 
-    for name in ["CNAME", "juegos.json", "json_schema.json", "favicon.ico", "favicon.svg", "apple-touch-icon.png", "site.webmanifest"]:
+    for name in ["CNAME", "juegos.json", "json_schema.json", "logo.png", "no_disponible.png", "favicon.ico", "favicon.svg", "apple-touch-icon.png", "site.webmanifest"]:
         src = project_root / name
         dst = out / name
         if src.exists() and src.is_file():
@@ -632,8 +741,11 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         "",
         "## Observaciones",
         "",
-        "- Las páginas de juego se generan como HTML estático en la ruta `juegos/<slug>/index.html`.",
-        "- El sitemap usa `https://pcgamearchive.org` y elimina las rutas antiguas con hash.",
+        "- Las páginas de juego se generan físicamente como `juegos/<slug>/index.html`, pero todos los enlaces y canonical usan `/juegos/<slug>/`.",
+        "- El sitemap contiene exclusivamente URLs canónicas y no publica fechas `lastmod` artificiales.",
+        "- `bigbox.html` se conserva únicamente como redirección a `juegos-pc-big-box.html`.",
+        "- `detalle.html?juego=<slug>` se conserva únicamente como compatibilidad con URLs antiguas.",
+        "- Google Analytics normaliza `page_location` a la canonical y registra búsquedas, filtros, selección de juegos y clics de contacto.",
         "- Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.",
         "- Se generan landing pages SEO en español para búsquedas genéricas.",
         "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
@@ -662,15 +774,16 @@ def main() -> int:
     copy_support_files(project_root, out)
     generate_favicons(project_root, out)
     generate_index(games, out, args.base_url)
-    generate_listing(games, out, args.base_url, "bigbox.html", "Juegos PC Big Box · PC Game Archive", "Videojuegos de PC en formato Big Box: cajas grandes, manuales, disquetes, CD-ROM y ediciones físicas clásicas documentadas por PC Game Archive.", lambda g: g.get("formato") == "Big Box")
     generate_seo_landing_pages(games, out, args.base_url)
     generate_series(games, out, args.base_url)
     generate_contact(out, args.base_url)
     generate_game_pages(games, out, project_root, args.base_url)
+    generate_static_redirect(out, args.base_url, "bigbox.html", "juegos-pc-big-box.html", "Big Box · PC Game Archive")
+    generate_legacy_detail(out, args.base_url)
     generate_sitemap(games, out, args.base_url)
     generate_robots(out, args.base_url)
     build_report(games, out)
-    print("Versión generador: seo-hub-home-2026-05-27")
+    print("Versión generador: seo-search-global-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
@@ -691,12 +804,14 @@ JS = r'''
   const sentinel = document.querySelector('[data-load-sentinel]');
 
   restoreFormValues();
+  prepareCleanSubmissions();
   if(!grid) return;
 
   const games = Array.isArray(window.PCGA_SEARCH_INDEX) ? window.PCGA_SEARCH_INDEX : [];
   if(!games.length) return;
 
-  const titulo = normalize(params.get('titulo') || params.get('q') || '');
+  const rawSearchTerm = String(params.get('titulo') || params.get('q') || '').trim();
+  const searchTerms = tokenize(rawSearchTerm);
   const defaultFormato = normalize(grid.dataset.defaultFormato || '');
   const defaultPlataforma = normalize(grid.dataset.defaultPlataforma || '');
   const defaultPlataformaAny = splitTerms(grid.dataset.defaultPlataformaAny || '');
@@ -709,26 +824,44 @@ JS = r'''
   const plataforma = normalize(params.get('plataforma') || '') || defaultPlataforma;
 
   const selected = games.filter(g => {
-    const titleBlob = normalize(g.titulo);
     const genreBlob = normalize((g.genero || []).join(' '));
     const platformValues = (g.plataforma || []).map(normalize);
-    const fullBlob = normalize([g.titulo, g.formato, (g.serie||[]).join(' '), (g.genero||[]).join(' '), (g.plataforma||[]).join(' ')].join(' '));
-    if(titulo && !titleBlob.includes(titulo)) return false;
+    const searchBlob = normalize(g.search_text || [g.titulo, g.formato, (g.serie||[]).join(' '), (g.genero||[]).join(' '), (g.plataforma||[]).join(' ')].join(' '));
+    if(searchTerms.length && !searchTerms.every(term => searchBlob.includes(term))) return false;
     if(formato && normalize(g.formato) !== formato) return false;
     if(serie && !(g.serie || []).some(s => normalize(s) === serie)) return false;
     if(genero && !genreBlob.includes(genero)) return false;
     if(defaultGeneroAny.length && !defaultGeneroAny.some(t => genreBlob.includes(t))) return false;
     if(plataforma && !platformValues.some(s => s === plataforma)) return false;
     if(defaultPlataformaAny.length && !defaultPlataformaAny.some(t => platformValues.includes(t))) return false;
-    if(defaultTextAny.length && !defaultTextAny.some(t => fullBlob.includes(t))) return false;
+    if(defaultTextAny.length && !defaultTextAny.some(t => searchBlob.includes(t))) return false;
     return true;
   });
+
+  if(rawSearchTerm && typeof gtag === 'function'){
+    gtag('event','search',{
+      search_term: rawSearchTerm,
+      results_count: selected.length
+    });
+    if(!selected.length){
+      gtag('event','search_no_results',{search_term: rawSearchTerm});
+    }
+  }
+
+  if(typeof gtag === 'function'){
+    ['formato','serie','genero','plataforma'].forEach(name => {
+      const value = params.get(name);
+      if(value){
+        gtag('event','filter_used',{filter_name:name,filter_value:value});
+      }
+    });
+  }
 
   let rendered = 0;
   grid.innerHTML = '';
   renderNextPage();
 
-  const count = document.querySelector('.count');
+  const count = (grid.closest('section') || document).querySelector('.count');
   if(count) count.textContent = selected.length + ' juegos encontrados.';
 
   if(!selected.length){
@@ -762,6 +895,10 @@ JS = r'''
     return String(value || '').split('|').map(normalize).filter(Boolean);
   }
 
+  function tokenize(value){
+    return normalize(value).split(/\s+/).filter(Boolean);
+  }
+
   function normalize(value){
     return String(value || '')
       .toLowerCase()
@@ -780,15 +917,28 @@ JS = r'''
         const el = form.querySelector(`[name="${name}"]`);
         if(el && params.has(name)) el.value = params.get(name) || '';
       });
+      const q = form.querySelector('[name="q"]');
+      if(q && !params.has('q') && params.has('titulo')) q.value = params.get('titulo') || '';
+    });
+  }
+
+  function prepareCleanSubmissions(){
+    forms.forEach(form => {
+      form.addEventListener('submit', () => {
+        form.querySelectorAll('input[name], select[name]').forEach(el => {
+          if(!String(el.value || '').trim()) el.disabled = true;
+        });
+      });
     });
   }
 
   function card(g){
     const tags = [g.formato].concat(g.plataforma || []).filter(Boolean).slice(0, 3).map(t => `<span class="tag">${esc(t)}</span>`).join('');
     const rawUrl = String(g.url || '#');
-    const url = esc(rawUrl.endsWith('/') ? rawUrl + 'index.html' : rawUrl);
+    const url = esc(rawUrl);
     const img = esc(rawUrl.replace(/\/$/, '') + '/img/001.jpg');
-    return `<a class="game-card" href="${url}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.classList.add('missing');this.removeAttribute('src')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+    const gameId = esc(rawUrl.replace(/^\/+|\/+$/g, '').split('/').pop() || 'game_unknown');
+    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc('Portada de ' + (g.titulo || ''))}" loading="lazy" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero || []).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
   }
 })();
 '''

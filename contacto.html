@@ -13,29 +13,43 @@
 <meta property="og:title" content="Contacto · PC Game Archive" />
 <meta property="og:description" content="Contacto de PC Game Archive para correcciones, aportaciones documentales y propuestas sobre videojuegos físicos de PC." />
 <meta property="og:url" content="https://pcgamearchive.org/contacto.html" />
-<meta property="og:image" content="https://pcgamearchive.org/og/og-image.png" />
+<meta property="og:image" content="https://pcgamearchive.org/no_disponible.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Contacto · PC Game Archive" />
 <meta name="twitter:description" content="Contacto de PC Game Archive para correcciones, aportaciones documentales y propuestas sobre videojuegos físicos de PC." />
-<meta name="twitter:image" content="https://pcgamearchive.org/og/og-image.png" />
+<meta name="twitter:image" content="https://pcgamearchive.org/no_disponible.png" />
 <link rel="icon" href="favicon.ico" sizes="any" />
 <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png" />
 <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 <link rel="manifest" href="site.webmanifest" />
 <link rel="stylesheet" href="assets/css/styles.css" />
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SQN0WTMVP3');</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/contacto.html"});
+</script>
 </head>
 <body>
 <header id="top">
   <div class="wrap header-row">
-    <a class="brand" href="index.html" aria-label="PC Game Archive">
+    <a class="brand" href="./" aria-label="PC Game Archive">
       <img class="logo" src="logo.png" alt="PC Game Archive logo">
       <span><strong>PC Game Archive</strong><small>Archivo físico de videojuegos de PC · Big Box · MS-DOS · Windows</small></span>
     </a>
     <nav class="nav" aria-label="Navegación principal">
-      <a href="index.html">Inicio</a>
+      <a href="./">Inicio</a>
 <a href="videojuegos-clasicos-pc.html">PC clásico</a>
 <a href="juegos-pc-big-box.html">Big Box PC</a>
 <a href="juegos-msdos.html">MS-DOS</a>
@@ -62,10 +76,29 @@
 <script>
 document.addEventListener('click',function(e){
   var btn=e.target.closest('[data-scroll-top]');
-  if(!btn) return;
-  e.preventDefault();
-  window.scrollTo({top:0,behavior:'smooth'});
-  if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+  }
 });
 </script>
 </body>

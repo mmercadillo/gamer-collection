@@ -162,7 +162,7 @@ La web utiliza:
 Ejemplo de URL:
 
 ```text
-https://pcgamearchive.org/juegos/diablo-bigbox/index.html
+https://pcgamearchive.org/juegos/diablo-bigbox/
 ```
 
 ---
@@ -174,6 +174,32 @@ El buscador integrado permite localizar juegos por:
 - título,
 - formato,
 - serie.
+
+Google Analytics registra además búsquedas internas, filtros utilizados,
+selección de fichas y clics de contacto. Las páginas se miden usando su URL
+canónica para evitar separar métricas entre `/` y `/index.html` o entre
+`/juegos/slug/` y `/juegos/slug/index.html`.
+
+---
+
+# URLs y SEO técnico
+
+- La portada canónica es `https://pcgamearchive.org/`.
+- Las fichas usan como URL canónica `https://pcgamearchive.org/juegos/<slug>/`.
+- Los enlaces internos no incluyen `index.html`.
+- `bigbox.html` se mantiene solo como compatibilidad y redirige a `juegos-pc-big-box.html`.
+- `detalle.html?juego=<slug>` redirige las antiguas fichas dinámicas a la ficha estática actual.
+- El sitemap publica únicamente URLs canónicas.
+- No se generan fechas `lastmod` si no existe una fecha real de modificación de la ficha.
+- `no_disponible.png` se usa como imagen de respaldo visual y Open Graph cuando una ficha no dispone de imágenes.
+
+Para probar la web generada localmente con las mismas rutas que producción:
+
+```bash
+python -m http.server 8000
+```
+
+y abrir `http://localhost:8000/`.
 
 El índice de búsqueda se genera automáticamente desde `juegos.json`.
 
