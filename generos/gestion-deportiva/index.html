@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/generos/gestion-deportiva/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/generos/gestion-deportiva/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Gestión deportiva: juegos de PC","url":"https://pcgamearchive.org/generos/gestion-deportiva/","description":"25 ediciones físicas de videojuegos de PC relacionadas con Gestión deportiva, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":25,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/pc-futbol-2005-cd-cddvd/","name":"PC Fútbol 2005"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/fifa-manager-10-easports-cddvd/","name":"FIFA Manager 10"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/total-club-manager-2005-easports-cddvd/","name":"Total Club Manager 2005"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/lma-manager-2007-cddvd/","name":"LMA Manager 2007"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/pro-cycling-manager-2008-2009-cddvd/","name":"Pro Cycling Manager 2008-2009"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/football-manager-2012-cddvd/","name":"Football Manager 2012"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/football-manager-2010-cddvd/","name":"Football Manager 2010"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/pc-futbol-6-0-temporada-97-98-jewelcase/","name":"PC Fútbol 6.0: Temporada 97-98"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/pc-futbol-6-0-extension-2-pc-futbol-plus-jewelcase/","name":"PC Fútbol 6.0: Extensión 2 - PC Fútbol Plus"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/pc-futbol-6-0-extension-1-jewelcase/","name":"PC Fútbol 6.0: Extensión 1"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/pc-calcio-6-0-temporada-97-98-jewelcase/","name":"PC Calcio 6.0: Temporada 97-98"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/pc-premier-pc-futbol-liga-inglesa-6-0-jewelcase/","name":"PC Premier: PC Fútbol Liga Inglesa 6.0 - Temporada 97-98"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/pc-premier-pc-futbol-liga-inglesa-5-0-temporada-96-97-jewelcase/","name":"PC Premier: PC Fútbol Liga Inglesa 5.0 - Temporada 96-97"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/pc-calcio-5-0-jewelcase/","name":"PC Calcio 5.0: Temporada 96-97"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/pc-futbol-5-0-extension-2-jewelcase/","name":"PC Fútbol 5.0: Extensión 2"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/pc-futbol-5-0-extension-1-jewelcase/","name":"PC Fútbol 5.0: eXtensión 1"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/pc-real-madrid-basket-99-jewelcase/","name":"PC Real Madrid Basket '99: Temporada 98-99"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/pc-basket-6-0-jewelcase/","name":"PC Basket 6.0"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/pc-atletismo-2000-2-jewelcase/","name":"PC Atletismo 2000"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/pc-barca-basket-99-jewelcase/","name":"PC Barça Basket '99"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/pc-basket-45-jewelcase/","name":"PC Basket 4.5"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/pc-futbol-2001-jewelcase/","name":"PC Fútbol 2001"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/pc-futbol-2000-jewelcase/","name":"PC Fútbol 2000"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/pc-real-madrid-99-temporada-98-99-jewelcase/","name":"PC Real Madrid '99: Temporada 98-99"},{"@type":"ListItem","position":25,"url":"https://pcgamearchive.org/juegos/pc-futbol-7-extension-jewelcase/","name":"PC Fútbol 7: eXtensión"}]}}</script>
@@ -313,17 +346,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

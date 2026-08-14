@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/generos/fantasia/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/generos/fantasia/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Fantasía: juegos de PC","url":"https://pcgamearchive.org/generos/fantasia/","description":"86 ediciones físicas de videojuegos de PC relacionadas con Fantasía, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":86,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/curse-of-enchantia-bigbox/","name":"Curse of Enchantia"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/arcanum-hechizos-y-engranajes-bigbox/","name":"Arcanum: Hechizos y Engranajes"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/baldurs-gate-bigbox/","name":"Baldur's Gate"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/baldurs-gate-ii-shadows-of-amn-bigbox/","name":"Baldur's Gate II: Shadows of Amn"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/loom-bigbox/","name":"Loom"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/darkstone-evil-reigns-bigbox/","name":"Darkstone: Evil Reigns"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/silver-bigbox/","name":"Silver"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/lands-of-lore-ii-guardians-of-destiny-bigbox/","name":"Lands of Lore II: Guardians of Destiny"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/pool-of-radiance-bigbox/","name":"Pool of Radiance"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/pool-of-radiance-ruins-of-myth-drannor-bigbox/","name":"Pool of Radiance: Ruins of Myth Drannor"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/black-crown-bigbox/","name":"Black Crown"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/duelo-de-hechiceros-bigbox/","name":"Duelo de Hechiceros"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/hexplore-bigbox/","name":"Hexplore"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/soulbringer-bigbox/","name":"Soulbringer"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/wizardry-crusaders-of-the-dark-savant-bigbox/","name":"Wizardry: Crusaders of the Dark Savant"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/dark-sun-shattered-lands-bigbox/","name":"Dark Sun: Shattered Lands"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/majesty-the-fantasy-kingdom-sim-bigbox/","name":"Majesty: The Fantasy Kingdom Sim"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/zork-grand-inquisitor-bigbox/","name":"Zork: Grand Inquisitor"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/fantasy-general-bigbox/","name":"Fantasy General"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/toonstruck-bigbox/","name":"Toonstruck"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/ultima-underworld-the-stygian-abyss-bigbox/","name":"Ultima Underworld: The Stygian Abyss"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/lands-of-lore-the-throne-of-chaos-bigbox/","name":"Lands of Lore: The Throne of Chaos"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/shadowlands-bigbox/","name":"Shadowlands"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/la-sombra-sobre-riva-bigbox/","name":"La sombra sobre Riva"},{"@type":"ListItem","position":25,"url":"https://pcgamearchive.org/juegos/world-of-warcraft-wrath-of-the-lich-king-collectors-edition-bigbox/","name":"World of Warcraft: Wrath of the Lich King - Collector's Edition"},{"@type":"ListItem","position":26,"url":"https://pcgamearchive.org/juegos/warcraft-ii-tides-of-darkness-bigbox/","name":"Warcraft II: Tides of Darkness"},{"@type":"ListItem","position":27,"url":"https://pcgamearchive.org/juegos/evil-islands-curse-of-the-lost-soul-bigbox/","name":"Evil Islands: Curse of the Lost Soul"},{"@type":"ListItem","position":28,"url":"https://pcgamearchive.org/juegos/return-to-zork-bigbox/","name":"Return to Zork"},{"@type":"ListItem","position":29,"url":"https://pcgamearchive.org/juegos/el-rey-arturo-el-secreto-de-merlin-bigbox/","name":"El Rey Arturo: El Secreto de Merlín"},{"@type":"ListItem","position":30,"url":"https://pcgamearchive.org/juegos/heroes-of-might-and-magic-iv-bigbox/","name":"Heroes of Might and Magic IV"},{"@type":"ListItem","position":31,"url":"https://pcgamearchive.org/juegos/limited-run-loom-bigbox/","name":"Loom"},{"@type":"ListItem","position":32,"url":"https://pcgamearchive.org/juegos/ring-el-anillo-de-los-nibelungos-bigbox/","name":"Ring: El Anillo de los Nibelungos"},{"@type":"ListItem","position":33,"url":"https://pcgamearchive.org/juegos/riverworld-bigbox/","name":"Riverworld"},{"@type":"ListItem","position":34,"url":"https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/","name":"Return to Zork"},{"@type":"ListItem","position":35,"url":"https://pcgamearchive.org/juegos/kings-quest-iv-bigbox/","name":"King's Quest IV: The Perils of Rosella"},{"@type":"ListItem","position":36,"url":"https://pcgamearchive.org/juegos/kings-quest-vi-bigbox/","name":"King’s Quest VI: Heir Today, Gone Tomorrow"},{"@type":"ListItem","position":37,"url":"https://pcgamearchive.org/juegos/kings-quest-v-bigbox/","name":"King's Quest V: Absence Makes the Heart Go Yonder!"},{"@type":"ListItem","position":38,"url":"https://pcgamearchive.org/juegos/kings-quest-vi-2-bigbox/","name":"King's Quest VI: Heir Today, Gone Tomorrow"},{"@type":"ListItem","position":39,"url":"https://pcgamearchive.org/juegos/neverwinter-nights-2-chaotic-evil-bigbox/","name":"Neverwinter Nights 2: Chaotic Evil"},{"@type":"ListItem","position":40,"url":"https://pcgamearchive.org/juegos/neverwinter-nights-2-lawful-good-bigbox/","name":"Neverwinter Nights 2: Lawful Good"},{"@type":"ListItem","position":41,"url":"https://pcgamearchive.org/juegos/grouch-dinamic-bigbox/","name":"Grouch"},{"@type":"ListItem","position":42,"url":"https://pcgamearchive.org/juegos/resurrection-dinamic-bigbox/","name":"Resurrection: Return of the Black Dragon"},{"@type":"ListItem","position":43,"url":"https://pcgamearchive.org/juegos/excalibug-dinamic-bigbox/","name":"Excalibug"},{"@type":"ListItem","position":44,"url":"https://pcgamearchive.org/juegos/age-of-wonders-bigbox/","name":"Age of Wonders"},{"@type":"ListItem","position":45,"url":"https://pcgamearchive.org/juegos/warlords-battlecry-bigbox/","name":"Warlords Battlecry"},{"@type":"ListItem","position":46,"url":"https://pcgamearchive.org/juegos/wizards-and-warriors-bigbox/","name":"Wizards & Warriors"},{"@type":"ListItem","position":47,"url":"https://pcgamearchive.org/juegos/everquest-the-ruins-of-kunark-bigbox/","name":"EverQuest: The Ruins of Kunark"},{"@type":"ListItem","position":48,"url":"https://pcgamearchive.org/juegos/die-by-the-sword-bigbox/","name":"Die by the Sword"},{"@type":"ListItem","position":49,"url":"https://pcgamearchive.org/juegos/drakan-order-of-the-flame-bigbox/","name":"Drakan: Order of the Flame"},{"@type":"ListItem","position":50,"url":"https://pcgamearchive.org/juegos/kingdoms-bigbox/","name":"Kingdoms"}]}}</script>
@@ -313,17 +346,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

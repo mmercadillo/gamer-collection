@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/generos/simulacion-futbolistica/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/generos/simulacion-futbolistica/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Simulación futbolística: juegos de PC","url":"https://pcgamearchive.org/generos/simulacion-futbolistica/","description":"7 ediciones físicas de videojuegos de PC relacionadas con Simulación futbolística, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/pc-futbol-6-0-temporada-97-98-jewelcase/","name":"PC Fútbol 6.0: Temporada 97-98"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/pc-futbol-6-0-extension-2-pc-futbol-plus-jewelcase/","name":"PC Fútbol 6.0: Extensión 2 - PC Fútbol Plus"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/pc-futbol-6-0-extension-1-jewelcase/","name":"PC Fútbol 6.0: Extensión 1"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/pc-premier-pc-futbol-liga-inglesa-5-0-temporada-96-97-jewelcase/","name":"PC Premier: PC Fútbol Liga Inglesa 5.0 - Temporada 96-97"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/pc-futbol-5-0-extension-1-jewelcase/","name":"PC Fútbol 5.0: eXtensión 1"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/pc-futbol-2000-jewelcase/","name":"PC Fútbol 2000"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/pc-futbol-7-extension-jewelcase/","name":"PC Fútbol 7: eXtensión"}]}}</script>
@@ -177,17 +210,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

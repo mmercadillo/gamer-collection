@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/generos/gestion/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/generos/gestion/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Gestión: juegos de PC","url":"https://pcgamearchive.org/generos/gestion/","description":"51 ediciones físicas de videojuegos de PC relacionadas con Gestión, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":51,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/sid-meiers-civilization-ii-bigbox/","name":"Sid Meier's Civilization II"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/caesar-iii-bigbox/","name":"Caesar III"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/faraon-bigbox/","name":"Faraón"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/cleopatra-la-reina-del-nilo-bigbox/","name":"Cleopatra: La Reina del Nilo"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/theme-park-world-bigbox/","name":"Theme Park World"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/rollercoaster-tycoon-bigbox/","name":"RollerCoaster Tycoon"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/gangsters-organized-crime-bigbox/","name":"Gangsters: Organized Crime"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/dungeon-keeper-2-bigbox/","name":"Dungeon Keeper 2"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/los-sims-bigbox/","name":"Los Sims"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/los-sims-mas-vivos-que-nunca-bigbox/","name":"Los Sims: Más vivos que nunca"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/zeus-senor-del-olimpo-bigbox/","name":"Zeus: Señor del Olimpo"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/majesty-the-fantasy-kingdom-sim-bigbox/","name":"Majesty: The Fantasy Kingdom Sim"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/industry-giant-bigbox/","name":"Industry Giant"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/imperialism-ii-the-age-of-exploration-bigbox/","name":"Imperialism II: The Age of Exploration"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/star-wars-rebellion-bigbox/","name":"Star Wars: Rebellion"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/barca-manager-2000-bigbox/","name":"Barça Manager 2000"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/primera-division-stars-2001-bigbox/","name":"Primera División Stars"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/pc-futbol-2001-dinamic-bigbox/","name":"PC Fútbol 2001"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/euro-tour-cycling-dinamic-bigbox/","name":"Euro Tour Cycling"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/airport-inc-bigbox/","name":"Airport Inc."},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/theocracy-bigbox/","name":"Theocracy"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/castles-bigbox/","name":"Castles"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/sid-meiers-colonization-bigbox/","name":"Sid Meier's Colonization"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/","name":"The Settlers II: Veni, Vidi, Vinci"},{"@type":"ListItem","position":25,"url":"https://pcgamearchive.org/juegos/el-imperio-de-las-hormigas-bigbox/","name":"El Imperio de las Hormigas"},{"@type":"ListItem","position":26,"url":"https://pcgamearchive.org/juegos/caesar-iv-cddvd/","name":"Caesar IV"},{"@type":"ListItem","position":27,"url":"https://pcgamearchive.org/juegos/industry-giant-chj-cddvd/","name":"Industry Giant"},{"@type":"ListItem","position":28,"url":"https://pcgamearchive.org/juegos/knights-and-merchants-chj-cddvd/","name":"Knights and Merchants"},{"@type":"ListItem","position":29,"url":"https://pcgamearchive.org/juegos/chicago-1930-cddvd/","name":"Chicago 1930"},{"@type":"ListItem","position":30,"url":"https://pcgamearchive.org/juegos/football-manager-2007-cddvd/","name":"Football Manager 2007"},{"@type":"ListItem","position":31,"url":"https://pcgamearchive.org/juegos/football-manager-2011-cddvd/","name":"Football Manager 2011"},{"@type":"ListItem","position":32,"url":"https://pcgamearchive.org/juegos/war-for-the-overlord-cddvd/","name":"War for the Overlord"},{"@type":"ListItem","position":33,"url":"https://pcgamearchive.org/juegos/imperium-online-fxinteractive-cddvd/","name":"Imperivm Online"},{"@type":"ListItem","position":34,"url":"https://pcgamearchive.org/juegos/the-nations-cddvd/","name":"The Nations"},{"@type":"ListItem","position":35,"url":"https://pcgamearchive.org/juegos/pc-futbol-2006-cd-cddvd/","name":"PC Fútbol 2006"},{"@type":"ListItem","position":36,"url":"https://pcgamearchive.org/juegos/building-and-co-cddvd/","name":"Building & Co ¡Sé tú el arquitecto!"},{"@type":"ListItem","position":37,"url":"https://pcgamearchive.org/juegos/the-movies-cddvd/","name":"The Movies"},{"@type":"ListItem","position":38,"url":"https://pcgamearchive.org/juegos/horsez-cddvd/","name":"Horsez"},{"@type":"ListItem","position":39,"url":"https://pcgamearchive.org/juegos/the-settlers-el-linaje-de-los-reyes-gold-edition-cddvd/","name":"The Settlers: El linaje de los reyes – Gold Edition"},{"@type":"ListItem","position":40,"url":"https://pcgamearchive.org/juegos/anno-1404-cddvd/","name":"Anno 1404"},{"@type":"ListItem","position":41,"url":"https://pcgamearchive.org/juegos/cycling-manager-2-cddvd/","name":"Cycling Manager 2"},{"@type":"ListItem","position":42,"url":"https://pcgamearchive.org/juegos/seven-kingdoms-cddvd/","name":"Seven Kingdoms"},{"@type":"ListItem","position":43,"url":"https://pcgamearchive.org/juegos/casino-tycoon-cddvd/","name":"Casino Tycoon"},{"@type":"ListItem","position":44,"url":"https://pcgamearchive.org/juegos/zoo-tycoon-2-cddvd/","name":"Zoo Tycoon 2"},{"@type":"ListItem","position":45,"url":"https://pcgamearchive.org/juegos/cultures-2-cddvd/","name":"Cultures 2"},{"@type":"ListItem","position":46,"url":"https://pcgamearchive.org/juegos/airport-tycoon-2-cddvd/","name":"Airport Tycoon 2"},{"@type":"ListItem","position":47,"url":"https://pcgamearchive.org/juegos/pc-futbol-2007-cddvd/","name":"PC Fútbol 2007"},{"@type":"ListItem","position":48,"url":"https://pcgamearchive.org/juegos/pizza-syndicate-dinamic-jewelcase/","name":"Pizza Syndicate"},{"@type":"ListItem","position":49,"url":"https://pcgamearchive.org/juegos/caesar-ii-eng-jewelcase/","name":"Caesar II"},{"@type":"ListItem","position":50,"url":"https://pcgamearchive.org/juegos/caesar-ii-esp-jewelcase/","name":"Caesar II"}]}}</script>
@@ -313,17 +346,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

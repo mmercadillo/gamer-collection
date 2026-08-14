@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/distribuidores/eidos-interactive/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/distribuidores/eidos-interactive/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Eidos Interactive: juegos de PC","url":"https://pcgamearchive.org/distribuidores/eidos-interactive/","description":"42 ediciones físicas de videojuegos de PC relacionadas con Eidos Interactive, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":42,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/commandos-behind-enemy-lines-bigbox/","name":"Commandos: Behind Enemy Lines"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/commandos-mas-alla-del-deber-bigbox/","name":"Commandos: Más Allá del Deber"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/gangsters-organized-crime-bigbox/","name":"Gangsters: Organized Crime"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/legacy-of-kain-soul-reaver-bigbox/","name":"Legacy of Kain: Soul Reaver"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/revenant-bigbox/","name":"Revenant"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/","name":"Commandos: Strike Force"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/commandos-3-destination-berlin-edicion-coleccionista-bigbox/","name":"Commandos 3: Destination Berlin - Edición Coleccionista"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/abomination-the-nemesis-project-bigbox/","name":"Abomination: The Nemesis Project"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/power-f1-bigbox/","name":"Power F1"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/urban-chaos-bigbox/","name":"Urban Chaos"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/sydney-2000-bigbox/","name":"Sydney 2000"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/flight-unlimited-iii-bigbox/","name":"Flight Unlimited III"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/cutthroats-terror-on-the-high-seas-bigbox/","name":"Cutthroats: Terror on the High Seas"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/beach-life-chj-cddvd/","name":"Beach life"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/deus-ex-chj-cddvd/","name":"Deus Ex"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/soul-reaver-2-chj-cddvd/","name":"Soul Reaver 2"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/soul-reaver-legacy-of-kain-chj-cddvd/","name":"Legacy of Kain: Soul Reaver"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/tomb-raider-chj-cddvd/","name":"Tomb Raider"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/tomb-raider-chronicles-chj-cddvd/","name":"Tomb Raider: Chronicles"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/tomb-raider-ii-chj-cddvd/","name":"Tomb Raider II"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/tomb-raider-iii-chj-cddvd/","name":"Tomb raider III"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/tomb-raider-the-last-revelation-chj-cddvd/","name":"Tomb Raider: The Last Revelation"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/anachronox-cddvd/","name":"Anachronox"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/commandos-saga-cddvd/","name":"Commandos Saga"},{"@type":"ListItem","position":25,"url":"https://pcgamearchive.org/juegos/commandos-strike-force-cddvd/","name":"Commandos: Strike Force"},{"@type":"ListItem","position":26,"url":"https://pcgamearchive.org/juegos/imperial-glory-cddvd/","name":"Imperial Glory"},{"@type":"ListItem","position":27,"url":"https://pcgamearchive.org/juegos/lego-star-wars-el-videojuego-cddvd/","name":"LEGO Star Wars: El Videojuego"},{"@type":"ListItem","position":28,"url":"https://pcgamearchive.org/juegos/praetorians-cddvd/","name":"Praetorians"},{"@type":"ListItem","position":29,"url":"https://pcgamearchive.org/juegos/reservoir-dogs-cddvd/","name":"Reservoir Dogs"},{"@type":"ListItem","position":30,"url":"https://pcgamearchive.org/juegos/restaurant-empire-ii-cddvd/","name":"Restaurant Empire II"},{"@type":"ListItem","position":31,"url":"https://pcgamearchive.org/juegos/tomb-raider-cddvd/","name":"Tomb Raider"},{"@type":"ListItem","position":32,"url":"https://pcgamearchive.org/juegos/tomb-raider-legend-cddvd/","name":"Tomb Raider: Legend"},{"@type":"ListItem","position":33,"url":"https://pcgamearchive.org/juegos/tomb-raider-the-last-revelation-cddvd/","name":"Tomb Raider: The Last Revelation"},{"@type":"ListItem","position":34,"url":"https://pcgamearchive.org/juegos/kane-and-lynch-death-men-gfw-cddvd/","name":"Kane & Lynch: Dead Men"},{"@type":"ListItem","position":35,"url":"https://pcgamearchive.org/juegos/tomb-raider-el-angel-de-la-oscuridad-cddvd/","name":"Tomb Raider: El Ángel de la Oscuridad"},{"@type":"ListItem","position":36,"url":"https://pcgamearchive.org/juegos/total-overdose-cddvd/","name":"Total Overdose"},{"@type":"ListItem","position":37,"url":"https://pcgamearchive.org/juegos/commandos-strike-force-cddvd-2-cddvd/","name":"Commandos: Strike Force"},{"@type":"ListItem","position":38,"url":"https://pcgamearchive.org/juegos/hitman-trilogy-cddvd/","name":"Hitman Trilogy"},{"@type":"ListItem","position":39,"url":"https://pcgamearchive.org/juegos/project-snowblind-cddvd/","name":"Project: Snowblind"},{"@type":"ListItem","position":40,"url":"https://pcgamearchive.org/juegos/hitman-2-silent-assassin-cddvd/","name":"Hitman 2: Silent Assassin"},{"@type":"ListItem","position":41,"url":"https://pcgamearchive.org/juegos/batman-arkham-asylum-cddvd/","name":"Batman: Arkham Asylum"},{"@type":"ListItem","position":42,"url":"https://pcgamearchive.org/juegos/uefa-champions-league-season-1999-2000-jewelcase/","name":"UEFA Champions League Season 1999/2000"}]}}</script>
@@ -313,17 +346,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

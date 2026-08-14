@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/generos/vuelo/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/generos/vuelo/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Vuelo: juegos de PC","url":"https://pcgamearchive.org/generos/vuelo/","description":"13 ediciones físicas de videojuegos de PC relacionadas con Vuelo, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":13,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/enemy-engaged-dinamic-bigbox/","name":"Enemy Engaged: Apache vs Havoc"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/pro-pilot-bigbox/","name":"Pro Pilot"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/fly-bigbox/","name":"Fly!"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/flight-unlimited-iii-bigbox/","name":"Flight Unlimited III"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/fighter-pilot-bigbox/","name":"Fighter Pilot"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/janes-usaf-bigbox/","name":"Jane's USAF"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/flanker-2-0-the-combat-flight-simulator-bigbox/","name":"Flanker 2.0 - The Combat Flight Simulator"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/x-plane-8-flight-simulator-fxinteractive-cddvd/","name":"X-Plane 8 Flight Simulator"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/x-plane-7-flight-simulator-fxinteractive-cddvd/","name":"X-Plane 7 Flight Simulator"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/lock-on-air-combat-simulation-codegme-cddvd/","name":"Lock On: Air Combat Simulation"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/microsoft-flight-simulator-2002-codegame-cddvd/","name":"Microsoft Flight Simulator 2002: Máximo Realismo"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/pacific-fighters-cddvd/","name":"Pacific Fighters"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/il-2-sturmovik-cddvd/","name":"IL-2 Sturmovik"}]}}</script>
@@ -225,17 +258,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

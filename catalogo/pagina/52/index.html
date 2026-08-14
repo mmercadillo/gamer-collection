@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/catalogo/pagina/52/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/catalogo/pagina/52/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Catálogo de videojuegos de PC · Página 52","url":"https://pcgamearchive.org/catalogo/pagina/52/","description":"Catálogo físico de videojuegos de PC de PC Game Archive · página 52: Big Box, CD/DVD, Jewel Case, MS-DOS y Windows clásicos.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":24,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/diablo-iii-reaper-of-souls-edesp-cddvd/","name":"Diablo III: Reaper of Souls"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/american-mcgees-alice-cddvd/","name":"American McGee's Alice"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/counter-strike-cddvd/","name":"Counter Strike. Condition Zero"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/viper-racing-cddvd/","name":"Viper Racing"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/el-senor-de-los-anillos-la-guerra-del-anillo-cddvd/","name":"El Señor de los Anillos: La Guerra del Anillo"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/fear-bestseller-series-cddvd/","name":"F.E.A.R."},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/warcraft-ii-battlenet-edition-bestseller-series-cddvd/","name":"Warcraft II: Battle.net Edition"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/building-and-co-cddvd/","name":"Building & Co ¡Sé tú el arquitecto!"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/act-of-aggression-cddvd/","name":"Act of Aggression"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/yo-presidente-objetivo-crisis-global-cddvd/","name":"Yo Presidente: Objetivo Crisis Global"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/lma-manager-2007-cddvd/","name":"LMA Manager 2007"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/the-movies-cddvd/","name":"The Movies"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/horsez-cddvd/","name":"Horsez"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/dogz-cddvd/","name":"Dogz"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/winter-sports-2008-the-ultimate-challenge-cddvd/","name":"Winter Sports 2008: The Ultimate Challenge"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/torino-2006-cddvd/","name":"Torino 2006"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/sing-it-high-school-musical-3-cddvd/","name":"Sing It: High School Musical 3"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/star-wars-caballeros-de-la-antigua-republica-ii-los-senores-sith-cddvd/","name":"Star Wars: Caballeros de la Antigua República II – Los Señores Sith"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/panzer-elite-action-gold-edition-cddvd/","name":"Panzer Elite: Action – Gold Edition"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/team-factor-estrategia-fuerza-y-sigilo-cddvd/","name":"Team Factor: Estrategia, Fuerza y Sigilo"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/need-for-speed-prostreet-cddvd/","name":"Need for Speed: ProStreet"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/mega-drive-classic-collection-gold-edition-cddvd/","name":"Mega Drive: Classic Collection – Gold Edition"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/los-sims-medieval-piratas-y-caballeros-cddvd/","name":"Los Sims Medieval: Piratas y Caballeros"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/citadels-cddvd/","name":"Citadels"}]}}</script>
@@ -298,17 +331,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

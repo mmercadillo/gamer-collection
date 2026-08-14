@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/generos/carreras/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/generos/carreras/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Carreras: juegos de PC","url":"https://pcgamearchive.org/generos/carreras/","description":"82 ediciones físicas de videojuegos de PC relacionadas con Carreras, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":82,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/death-rally-bigbox/","name":"Death Rally"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/colin-mcrae-rally-bigbox/","name":"Colin McRae Rally"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/extreme-games-espn-2-bigbox/","name":"Extreme Games ESPN 2"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/manic-karts-bigbox/","name":"Manic Karts"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/nascar-revolution-bigbox/","name":"NASCAR Revolution"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/need-for-speed-special-edition-bigbox/","name":"Need for Speed: Special Edition"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/power-f1-bigbox/","name":"Power F1"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/rally-championship-bigbox/","name":"Rally Championship"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/re-volt-bigbox/","name":"Re‑Volt"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/stunt-gp-bigbox/","name":"Stunt GP"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/toca-touring-car-championship-bigbox/","name":"TOCA: Touring Car Championship"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-bigbox/","name":"V‑Rally: Multiplayer Championship Edition"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/virtual-karts-bigbox/","name":"Virtual Karts"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/zone-raiders-bigbox/","name":"Zone Raiders"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/scars-bigbox/","name":"S.C.A.R.S."},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/tank-racer-bigbox/","name":"Tank Racer"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/millennium-racer-y2k-fighters-bigbox/","name":"Millennium Racer: Y2K Fighters"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/","name":"Monaco Grand Prix: Racing Simulation 2"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/trickstyle-bigbox/","name":"TrickStyle"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/nascar-racing-4-bigbox/","name":"NASCAR Racing 4"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/superbike-2000-bigbox/","name":"Superbike 2000"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/dethkarz-bigbox/","name":"DethKarz"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/carmageddon-ii-carpocalypse-now-bigbox/","name":"Carmageddon II: Carpocalypse Now"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/breakneck-bigbox/","name":"BreakNeck"},{"@type":"ListItem","position":25,"url":"https://pcgamearchive.org/juegos/south-park-rally-bigbox/","name":"South Park Rally"},{"@type":"ListItem","position":26,"url":"https://pcgamearchive.org/juegos/nascar-racing-2002-season-cddvd/","name":"NASCAR Racing 2002 Season"},{"@type":"ListItem","position":27,"url":"https://pcgamearchive.org/juegos/downtown-run-codegame-cddvd/","name":"Downtown Run"},{"@type":"ListItem","position":28,"url":"https://pcgamearchive.org/juegos/motocross-madness-2-codegame-cddvd/","name":"Motocross Madness 2"},{"@type":"ListItem","position":29,"url":"https://pcgamearchive.org/juegos/mashed-xxl-chj-cddvd/","name":"Mashed XXL"},{"@type":"ListItem","position":30,"url":"https://pcgamearchive.org/juegos/nascar-racing-4-chj-cddvd/","name":"Nascar racing 4"},{"@type":"ListItem","position":31,"url":"https://pcgamearchive.org/juegos/nyr-new-york-race-chj-cddvd/","name":"NYR: New York Race"},{"@type":"ListItem","position":32,"url":"https://pcgamearchive.org/juegos/re-volt-chj-cddvd/","name":"Re-volt"},{"@type":"ListItem","position":33,"url":"https://pcgamearchive.org/juegos/collin-mcrae-dirt-cddvd/","name":"Colin McRae: DiRT"},{"@type":"ListItem","position":34,"url":"https://pcgamearchive.org/juegos/collin-mcrae-rally-3-cddvd/","name":"Colin McRae Rally 3"},{"@type":"ListItem","position":35,"url":"https://pcgamearchive.org/juegos/need-for-speed-underground-cddvd/","name":"Need for Speed: Underground"},{"@type":"ListItem","position":36,"url":"https://pcgamearchive.org/juegos/sbkx-superbike-world-champioship-cddvd/","name":"SBK X: Superbike World Championship"},{"@type":"ListItem","position":37,"url":"https://pcgamearchive.org/juegos/crazy-taxi-3-fxinteractive-cddvd/","name":"Crazy Taxi 3: High Roller"},{"@type":"ListItem","position":38,"url":"https://pcgamearchive.org/juegos/crazy-taxi-fxinteractive-cddvd/","name":"Crazy Taxi"},{"@type":"ListItem","position":39,"url":"https://pcgamearchive.org/juegos/colin-mcrae-rally-2-0-fxinteractive-cddvd/","name":"Colin McRae Rally 2.0"},{"@type":"ListItem","position":40,"url":"https://pcgamearchive.org/juegos/colin-mcrae-rally-04-fxinteractive-cddvd/","name":"Colin McRae Rally 04"},{"@type":"ListItem","position":41,"url":"https://pcgamearchive.org/juegos/colin-mcrae-dirt-2-fxinteractive-cddvd/","name":"Colin McRae: DiRT 2"},{"@type":"ListItem","position":42,"url":"https://pcgamearchive.org/juegos/superbike-2000-fxinteractive-cddvd/","name":"Superbike 2000"},{"@type":"ListItem","position":43,"url":"https://pcgamearchive.org/juegos/flatout-2-fxinteractive-cddvd/","name":"FlatOut 2"},{"@type":"ListItem","position":44,"url":"https://pcgamearchive.org/juegos/moto-gp-ultimate-racing-technology-fxinteractive-cddvd/","name":"MotoGP: Ultimate Racing Technology"},{"@type":"ListItem","position":45,"url":"https://pcgamearchive.org/juegos/moto-gp-ultimate-racing-technology-2-fxinteractive-cddvd/","name":"MotoGP: Ultimate Racing Technology 2"},{"@type":"ListItem","position":46,"url":"https://pcgamearchive.org/juegos/4x4-offroad-drive-fxinteractive-cddvd/","name":"Off‑Road Drive 4x4"},{"@type":"ListItem","position":47,"url":"https://pcgamearchive.org/juegos/race-driver-grid-fxinteractive-cddvd/","name":"Race Driver: GRID"},{"@type":"ListItem","position":48,"url":"https://pcgamearchive.org/juegos/sega-rally-championship-fxinteractive-cddvd/","name":"Sega Rally Championship"},{"@type":"ListItem","position":49,"url":"https://pcgamearchive.org/juegos/toca-race-driver-2-fxinteractive-cddvd/","name":"TOCA Race Driver 2"},{"@type":"ListItem","position":50,"url":"https://pcgamearchive.org/juegos/trackmania-original-oro-fxinteractive-cddvd/","name":"TrackMania Original Oro"}]}}</script>
@@ -313,17 +346,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

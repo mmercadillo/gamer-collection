@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/catalogo/pagina/33/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/catalogo/pagina/33/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Catálogo de videojuegos de PC · Página 33","url":"https://pcgamearchive.org/catalogo/pagina/33/","description":"Catálogo físico de videojuegos de PC de PC Game Archive · página 33: Big Box, CD/DVD, Jewel Case, MS-DOS y Windows clásicos.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":24,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/lego-star-wars-el-videojuego-cddvd/","name":"LEGO Star Wars: El Videojuego"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/leisure-suite-larry-magna-cum-laude-cddvd/","name":"Leisure Suit Larry: Magna Cum Laude"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/life-is-strange-before-the-storm-cddvd/","name":"Life is Strange: Before the Storm"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/lionheart-legacy-of-the-crusader-cddvd/","name":"Lionheart: Legacy of the Crusader"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/los-increibles-cddvd/","name":"Los Increíbles"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/los-miserables-el-destino-de-cosette-cddvd/","name":"Los Miserables: El destino de Cosette"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/lula-3d-cddvd/","name":"Lula 3D"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/marranos-en-gueraa-cddvd/","name":"Marranos en Guerra"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/martin-mystere-operacion-dorian-gray-cddvd/","name":"Martin Mystère: Operación Dorian Gray"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/max-payne-cddvd/","name":"Max Payne"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/max-payne-2-the-fall-of-max-payne-cddvd/","name":"Max Payne 2: The Fall of Max Payne"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/max-payne-2-the-fall-of-max-payne-2-cddvd/","name":"Max Payne 2: The Fall of Max Payne"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/medal-of-honor-allied-assault-cddvd/","name":"Medal of Honor: Allied Assault"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/medal-of-honor-allied-assault-breakthrough-cddvd/","name":"Medal of Honor: Allied Assault - Breakthrough"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/medal-of-honor-pacific-assault-cddvd/","name":"Medal of Honor: Pacific Assault"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/medieval-total-war-cddvd/","name":"Medieval: Total War"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/megadrive-classic-collection-volume-4-cddvd/","name":"Mega Drive Classic Collection: Volume 4"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/men-of-valor-cddvd/","name":"Men of Valor"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/mi-monstruo-y-yo-cddvd/","name":"Mi Monstruo y Yo"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/midway-arcade-treasures-cddvd/","name":"Midway Arcade Treasures"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/monkey-king-hero-is-back-cddvd/","name":"Monkey King: Hero is Back"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/monopoly-tycoon-cddvd/","name":"Monopoly Tycoon"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/mount-and-blade-cddvd/","name":"Mount & Blade"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/need-for-speed-underground-cddvd/","name":"Need for Speed: Underground"}]}}</script>
@@ -298,17 +331,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

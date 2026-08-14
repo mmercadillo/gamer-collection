@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/plataformas/windows-vista/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/plataformas/windows-vista/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Windows Vista: juegos de PC","url":"https://pcgamearchive.org/plataformas/windows-vista/","description":"346 ediciones físicas de videojuegos de PC relacionadas con Windows Vista, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":346,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/world-of-warcraft-wrath-of-the-lich-king-collectors-edition-bigbox/","name":"World of Warcraft: Wrath of the Lich King - Collector's Edition"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/subwar-2050-bigbox/","name":"Subwar 2050"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/gothic-4-arcania-bigbox/","name":"Gothic 4: Arcania"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/world-of-warcraft-coleccionistas-bigbox/","name":"World of Warcraft"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/fear-gold-edition-cddvd/","name":"F.E.A.R. Gold edition"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/scarface-el-precio-del-poder-cddvd/","name":"Scarface. El precio del poder"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/the-simpsons-hit-and-run-cddvd/","name":"The Simpsons. Hit & run"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/heroes-of-might-and-magic-v-gold-edition-cddvd/","name":"Heroes of Might and Magic V: Gold Edition"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/anatomia-de-grey-el-videojuego-codegame-cddvd/","name":"Anatomía de Grey: El Videojuego"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/anno-1404-codegame-cddvd/","name":"Anno 1404"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/assasins-creed-codegame-cddvd/","name":"Assassin's Creed"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/blazing-angels-2-secret-missions-of-wwii-codegame-cddvd/","name":"Blazing Angels 2: Secret Missions of WWII"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/brothers-in-arms-hells-highway-codegame-cddvd/","name":"Brothers in Arms: Hell's Highway"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/brothers-in-arms-pack-codegame-cddvd/","name":"Brothers in Arms Pack"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/call-of-juarez-bound-in-blood-codegame-cddvd/","name":"Call of Juarez: Bound in Blood"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/csi-la-conspiracion-codegame-cddvd/","name":"CSI: La Conspiración"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/csi-ny-el-videojuego-codegame-cddvd/","name":"CSI: NY - El Videojuego"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/csi-pruebas-ocultas-codegame-cddvd/","name":"CSI: Pruebas Ocultas"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/farcry-2-fortunes-edition-codegame-cddvd/","name":"Far Cry 2: Fortune's Edition"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/prince-of-persia-codegame-cddvd/","name":"Prince of Persia"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/prince-of-persia-edicion-coleccionista-codegame-cddvd/","name":"Prince of Persia: Edición Coleccionista"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/rayman-raving-rabbids-codegame-cddvd/","name":"Rayman Raving Rabbids"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/silent-hunter-4-wolves-of-the-pacific-codegame-cddvd/","name":"Silent Hunter 4: Wolves of the Pacific"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/the-settlers-construye-tu-imperio-codegame-cddvd/","name":"The Settlers: Construye tu Imperio"},{"@type":"ListItem","position":25,"url":"https://pcgamearchive.org/juegos/tom-clancys-endwar-codegame-cddvd/","name":"Tom Clancy's EndWar"},{"@type":"ListItem","position":26,"url":"https://pcgamearchive.org/juegos/tom-clancys-hawx-codegame-cddvd/","name":"Tom Clancy's H.A.W.X."},{"@type":"ListItem","position":27,"url":"https://pcgamearchive.org/juegos/tom-clancys-rainbow-six-2-vegas-codegame-cddvd/","name":"Tom Clancy's Rainbow Six: Vegas 2"},{"@type":"ListItem","position":28,"url":"https://pcgamearchive.org/juegos/world-in-conflict-complete-edition-codegame-cddvd/","name":"World in Conflict: Complete Edition"},{"@type":"ListItem","position":29,"url":"https://pcgamearchive.org/juegos/runaway-trilogia-cddvd/","name":"Runaway: Trilogía"},{"@type":"ListItem","position":30,"url":"https://pcgamearchive.org/juegos/1917-project-helios-collectors-edition-cddvd/","name":"1917: Project Helios Collector's Edition"},{"@type":"ListItem","position":31,"url":"https://pcgamearchive.org/juegos/age-of-empires-iii-cddvd/","name":"Age of Empires III"},{"@type":"ListItem","position":32,"url":"https://pcgamearchive.org/juegos/apb-all-points-bulletin-cddvd/","name":"APB: All Points Bulletin"},{"@type":"ListItem","position":33,"url":"https://pcgamearchive.org/juegos/arma-armed-assault-cddvd/","name":"Arma: Armed Assault"},{"@type":"ListItem","position":34,"url":"https://pcgamearchive.org/juegos/art-of-murder-fbi-confidential-cddvd/","name":"Art of Murder: FBI Confidential"},{"@type":"ListItem","position":35,"url":"https://pcgamearchive.org/juegos/battlefield-bad-company-2-cddvd/","name":"Battlefield: Bad Company 2"},{"@type":"ListItem","position":36,"url":"https://pcgamearchive.org/juegos/belief-betrayal-el-medallon-de-judas-cddvd/","name":"Belief & Betrayal: El Medallón de Judas"},{"@type":"ListItem","position":37,"url":"https://pcgamearchive.org/juegos/beowulf-the-game-cddvd/","name":"Beowulf: The Game"},{"@type":"ListItem","position":38,"url":"https://pcgamearchive.org/juegos/black-and-white-2-cddvd/","name":"Black & White 2"},{"@type":"ListItem","position":39,"url":"https://pcgamearchive.org/juegos/black-mirror-cddvd/","name":"Black Mirror"},{"@type":"ListItem","position":40,"url":"https://pcgamearchive.org/juegos/call-of-duty-4-modern-warfare-cddvd/","name":"Call of Duty 4: Modern Warfare"},{"@type":"ListItem","position":41,"url":"https://pcgamearchive.org/juegos/call-of-duty-la-gran-ofensiva-cddvd/","name":"Call of Duty: La Gran Ofensiva"},{"@type":"ListItem","position":42,"url":"https://pcgamearchive.org/juegos/chicago-1930-cddvd/","name":"Chicago 1930"},{"@type":"ListItem","position":43,"url":"https://pcgamearchive.org/juegos/chronicles-of-mystery-the-scorpio-ritual-cddvd/","name":"Chronicles of Mystery: The Scorpio Ritual"},{"@type":"ListItem","position":44,"url":"https://pcgamearchive.org/juegos/collin-mcrae-dirt-cddvd/","name":"Colin McRae: DiRT"},{"@type":"ListItem","position":45,"url":"https://pcgamearchive.org/juegos/commandos-strike-force-cddvd/","name":"Commandos: Strike Force"},{"@type":"ListItem","position":46,"url":"https://pcgamearchive.org/juegos/crimson-cows-cycling-evolution-cddvd/","name":"Crimson Cow's Cycling Evolution"},{"@type":"ListItem","position":47,"url":"https://pcgamearchive.org/juegos/dawn-of-magic-cddvd/","name":"Dawn of Magic"},{"@type":"ListItem","position":48,"url":"https://pcgamearchive.org/juegos/dawn-of-war-soulstorm-cddvd/","name":"Warhammer 40,000: Dawn of War - Soulstorm"},{"@type":"ListItem","position":49,"url":"https://pcgamearchive.org/juegos/death-to-spies-cddvd/","name":"Death to Spies"},{"@type":"ListItem","position":50,"url":"https://pcgamearchive.org/juegos/divinity-ii-ego-draconis-cddvd/","name":"Divinity II: Ego Draconis"}]}}</script>
@@ -313,17 +346,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

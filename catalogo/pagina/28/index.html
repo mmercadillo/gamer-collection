@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/catalogo/pagina/28/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/catalogo/pagina/28/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Catálogo de videojuegos de PC · Página 28","url":"https://pcgamearchive.org/catalogo/pagina/28/","description":"Catálogo físico de videojuegos de PC de PC Game Archive · página 28: Big Box, CD/DVD, Jewel Case, MS-DOS y Windows clásicos.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":24,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/zeus-senor-del-olimpo-chj-cddvd/","name":"Zeus: Señor del Olimpo"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/mega-sports-dinamic-cddvd/","name":"Mega Sports"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/alien-paranoia-dinamic-cddvd/","name":"Alien Paranoia"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/runaway-trilogia-cddvd/","name":"Runaway: Trilogía"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/7-sins-cddvd/","name":"7 Sins"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/1917-project-helios-collectors-edition-cddvd/","name":"1917: Project Helios Collector's Edition"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/age-of-empires-iii-cddvd/","name":"Age of Empires III"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/age-of-mithology-the-titans-cddvd/","name":"Age of Mythology: The Titans"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/alien-logic-cddvd/","name":"Alien Logic"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/alone-in-the-dark-cddvd/","name":"Alone in the Dark: The new nightmare"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/anachronox-cddvd/","name":"Anachronox"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/apb-all-points-bulletin-cddvd/","name":"APB: All Points Bulletin"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/arma-armed-assault-cddvd/","name":"Arma: Armed Assault"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/army-men-sarges-heroes-cddvd/","name":"Army Men: Sarge's Heroes"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/art-of-murder-fbi-confidential-cddvd/","name":"Art of Murder: FBI Confidential"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/atlantis-iii-el-nuevo-mundo-cddvd/","name":"Atlantis III: El Nuevo Mundo"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/baldurs-gate-ii-shadows-of-amn-cddvd/","name":"Baldur's Gate II: Shadows of Amn"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/battlefield-bad-company-2-cddvd/","name":"Battlefield: Bad Company 2"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/belief-betrayal-el-medallon-de-judas-cddvd/","name":"Belief & Betrayal: El Medallón de Judas"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/beowulf-the-game-cddvd/","name":"Beowulf: The Game"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/black-and-white-cddvd/","name":"Black & White"},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/black-and-white-2-cddvd/","name":"Black & White 2"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/black-mirror-cddvd/","name":"Black Mirror"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/broken-sword-el-angel-de-la-muerte-cddvd/","name":"Broken Sword: El Ángel de la Muerte"}]}}</script>
@@ -298,17 +331,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

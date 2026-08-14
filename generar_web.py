@@ -19,7 +19,7 @@ Lee juegos.json como fuente maestra y genera una web estática indexable:
   - una página HTML por juego en la ruta definida por juego["url"]
 
 Uso recomendado:
-  python generar_web_v7.py
+  python generar_web.py
 
 Uso alternativo generando en otra carpeta:
   python generar_web.py --catalogo juegos.json --out dist
@@ -356,12 +356,45 @@ def head(title: str, description: str, canonical: str, prefix: str = "", image: 
   }}
 }})();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){{dataLayer.push(arguments);}}
-gtag('js',new Date());
-gtag('config','{GA_ID}',{{page_location:{canonical_js}}});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){{
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id={GA_ID}';
+  document.head.appendChild(gaScript);
+}}
+(function(){{
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={{}};
+  campaignKeys.forEach(function(key){{
+    var value=current.get(key);
+    if(value){{
+      tracking.set(key,value);
+      attribution[key]=value;
+    }}
+  }});
+  try{{
+    if(Object.keys(attribution).length){{
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }}
+    window.pcgaCampaignAttribution=function(){{
+      try{{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{{}}');}}catch(e){{return {{}};}}
+    }};
+  }}catch(e){{
+    window.pcgaCampaignAttribution=function(){{return attribution;}};
+  }}
+  var canonical={canonical_js};
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+}})();
+if(window.PCGA_ANALYTICS_ENABLED){{
+  gtag('js',new Date());
+  gtag('config','{GA_ID}',{{page_location:window.PCGA_TRACKING_LOCATION}});
+}}
 </script>{jsonld}'''
 
 
@@ -413,17 +446,39 @@ document.addEventListener('click',function(e){{
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){{
-    gtag('event','offer_games_click',{{
+    var offerEvent={{
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    }});
+      link_url:href,
+      source_page:location.pathname
+    }};
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){{
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){{
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      }};
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }}
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }}
 
   if(href.indexOf('mailto:')===0){{
-    gtag('event','contact_click',{{method:'email',link_url:href}});
+    gtag('event','contact_click',{{method:'email',link_url:href,source_page:location.pathname}});
   }} else if(href.indexOf('instagram.com/')!==-1){{
-    gtag('event','outbound_social_click',{{platform:'instagram',link_url:href}});
+    gtag('event','outbound_social_click',{{platform:'instagram',link_url:href,source_page:location.pathname}});
   }}
 }});
 </script>
@@ -1508,14 +1563,14 @@ def build_report(games: list[dict[str, Any]], out: Path) -> None:
         "- El sitemap contiene exclusivamente URLs canónicas y no publica fechas `lastmod` artificiales.",
         "- `bigbox.html` se conserva únicamente como redirección a `juegos-pc-big-box.html`.",
         "- `detalle.html?juego=<slug>` se conserva únicamente como compatibilidad con URLs antiguas.",
-        "- Google Analytics normaliza `page_location` a la canonical y registra búsquedas, filtros, selección de juegos y clics de contacto.",
+        "- Google Analytics normaliza la ruta a la canonical, conserva parámetros de campaña (`utm_*`, `gclid`, `gbraid`, `wbraid`, `dclid`) para no perder atribución SEM y no se inicializa en localhost/127.0.0.1/::1.",
         "- Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.",
         "- Se generan landing pages SEO en español para búsquedas genéricas.",
         "- Se generan automáticamente hubs y páginas SEO por desarrollador, distribuidor, género, plataforma y formato cuando una entidad aparece en 3 o más fichas.",
         "- Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.",
         "- Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.",
         "- Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.",
-        "- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`.",
+        "- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.",
         "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
         "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
         "- El scroll infinito de la portada se complementa con `/catalogo/` y una serie paginada de enlaces HTML rastreables, con canonical propio por página.",
@@ -1556,7 +1611,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url)
     generate_robots(out, args.base_url)
     build_report(games, out)
-    print("Versión generador: acquisition-landing-2026-08-14")
+    print("Versión generador: sem-ready-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")

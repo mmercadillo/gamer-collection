@@ -33,12 +33,45 @@
   }
 })();
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-SQN0WTMVP3',{page_location:"https://pcgamearchive.org/catalogo/pagina/37/"});
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://pcgamearchive.org/catalogo/pagina/37/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://pcgamearchive.org/","logo":"https://pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Catálogo de videojuegos de PC · Página 37","url":"https://pcgamearchive.org/catalogo/pagina/37/","description":"Catálogo físico de videojuegos de PC de PC Game Archive · página 37: Big Box, CD/DVD, Jewel Case, MS-DOS y Windows clásicos.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":24,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://pcgamearchive.org/juegos/strategic-command-2-blitzkrieg-cddvd/","name":"Strategic Command 2: Blitzkrieg"},{"@type":"ListItem","position":2,"url":"https://pcgamearchive.org/juegos/strategic-command-la-segunda-guerra-mundial-cddvd/","name":"Strategic Command: La Segunda Guerra Mundial"},{"@type":"ListItem","position":3,"url":"https://pcgamearchive.org/juegos/streets-of-sim-city-cddvd/","name":"Streets of SimCity"},{"@type":"ListItem","position":4,"url":"https://pcgamearchive.org/juegos/stronghold-3-cddvd/","name":"Stronghold 3"},{"@type":"ListItem","position":5,"url":"https://pcgamearchive.org/juegos/stronghold-legends-cddvd/","name":"Stronghold Legends"},{"@type":"ListItem","position":6,"url":"https://pcgamearchive.org/juegos/supreme-commander-2-cddvd/","name":"Supreme Commander 2"},{"@type":"ListItem","position":7,"url":"https://pcgamearchive.org/juegos/syberia-ii-cddvd/","name":"Syberia II"},{"@type":"ListItem","position":8,"url":"https://pcgamearchive.org/juegos/synchrome-cddvd/","name":"Synchrome"},{"@type":"ListItem","position":9,"url":"https://pcgamearchive.org/juegos/taito-legends-i-cddvd/","name":"Taito Legends"},{"@type":"ListItem","position":10,"url":"https://pcgamearchive.org/juegos/technomancer-cddvd/","name":"The Technomancer"},{"@type":"ListItem","position":11,"url":"https://pcgamearchive.org/juegos/terrorist-takedown-cddvd/","name":"Terrorist Takedown"},{"@type":"ListItem","position":12,"url":"https://pcgamearchive.org/juegos/the-book-of-unwritten-tales-2-cddvd/","name":"The Book of Unwritten Tales 2"},{"@type":"ListItem","position":13,"url":"https://pcgamearchive.org/juegos/the-dark-eye-blackguards-cddvd/","name":"The Dark Eye: Blackguards"},{"@type":"ListItem","position":14,"url":"https://pcgamearchive.org/juegos/the-elders-scroll-iii-morrowind-cddvd/","name":"The Elder Scrolls III: Morrowind"},{"@type":"ListItem","position":15,"url":"https://pcgamearchive.org/juegos/the-elders-scroll-iv-oblivion-collectors-edition-cddvd/","name":"The Elder Scrolls IV: Oblivion - Collector's Edition"},{"@type":"ListItem","position":16,"url":"https://pcgamearchive.org/juegos/the-gladiators-of-rome-cddvd/","name":"The Gladiators of Rome"},{"@type":"ListItem","position":17,"url":"https://pcgamearchive.org/juegos/the-inner-world-the-last-wind-monk-cddvd/","name":"The Inner World: The Last Wind Monk"},{"@type":"ListItem","position":18,"url":"https://pcgamearchive.org/juegos/the-stronghold-collection-cddvd/","name":"The Stronghold Collection"},{"@type":"ListItem","position":19,"url":"https://pcgamearchive.org/juegos/the-witcher-enhanced-edition-cddvd/","name":"The Witcher: Enhanced Edition"},{"@type":"ListItem","position":20,"url":"https://pcgamearchive.org/juegos/the-witcher-iii-wild-hunt-cddvd/","name":"The Witcher III: Wild Hunt"},{"@type":"ListItem","position":21,"url":"https://pcgamearchive.org/juegos/theme-park-inc-cddvd/","name":"Theme Park Inc."},{"@type":"ListItem","position":22,"url":"https://pcgamearchive.org/juegos/timeshift-cddvd/","name":"TimeShift"},{"@type":"ListItem","position":23,"url":"https://pcgamearchive.org/juegos/titan-quest-cddvd/","name":"Titan Quest"},{"@type":"ListItem","position":24,"url":"https://pcgamearchive.org/juegos/titan-quest-gold-edition-cddvd/","name":"Titan Quest: Gold Edition"}]}}</script>
@@ -298,17 +331,39 @@ document.addEventListener('click',function(e){
   var href=link.getAttribute('href')||'';
   var acquisition=link.getAttribute('data-acquisition-intent');
   if(acquisition){
-    gtag('event','offer_games_click',{
+    var offerEvent={
       intent:acquisition,
       channel:link.getAttribute('data-acquisition-channel')||'unknown',
-      link_url:href
-    });
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
   }
 
   if(href.indexOf('mailto:')===0){
-    gtag('event','contact_click',{method:'email',link_url:href});
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
-    gtag('event','outbound_social_click',{platform:'instagram',link_url:href});
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
 </script>

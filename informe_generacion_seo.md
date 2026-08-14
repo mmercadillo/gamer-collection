@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-08-14T13:12:11
+- Fecha: 2026-08-14T13:23:58
 - Juegos en catálogo: 1552
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -17,14 +17,14 @@
 - El sitemap contiene exclusivamente URLs canónicas y no publica fechas `lastmod` artificiales.
 - `bigbox.html` se conserva únicamente como redirección a `juegos-pc-big-box.html`.
 - `detalle.html?juego=<slug>` se conserva únicamente como compatibilidad con URLs antiguas.
-- Google Analytics normaliza `page_location` a la canonical y registra búsquedas, filtros, selección de juegos y clics de contacto.
+- Google Analytics normaliza la ruta a la canonical, conserva parámetros de campaña (`utm_*`, `gclid`, `gbraid`, `wbraid`, `dclid`) para no perder atribución SEM y no se inicializa en localhost/127.0.0.1/::1.
 - Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.
 - Se generan landing pages SEO en español para búsquedas genéricas.
 - Se generan automáticamente hubs y páginas SEO por desarrollador, distribuidor, género, plataforma y formato cuando una entidad aparece en 3 o más fichas.
 - Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.
 - Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.
 - Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.
-- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`.
+- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.
 - Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.
 - Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.
 - El scroll infinito de la portada se complementa con `/catalogo/` y una serie paginada de enlaces HTML rastreables, con canonical propio por página.
