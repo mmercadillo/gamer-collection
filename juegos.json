@@ -10197,6 +10197,339 @@
     }
   },
   {
+    "num": "000161",
+    "ig": "",
+    "titulo": "Crusader: No Remorse",
+    "url": "juegos/crusader-no-remorse-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Shooter isométrico",
+      "Aventura de acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Origin Systems"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Crusader: No Remorse es un juego de acción isométrica y ciencia ficción desarrollado por Origin Systems y publicado por Electronic Arts en 1995 para MS-DOS. Ambientado en un futuro distópico dominado por el World Economic Consortium, sitúa al jugador en el papel de un Silencer que abandona las fuerzas del régimen para colaborar con la Resistencia. Su diseño combina combate con armas de fuego, movimientos acrobáticos, infiltración, interacción con elementos del escenario y un notable grado de destrucción ambiental, todo ello presentado desde una característica perspectiva aérea isométrica 3/4. También destacó por integrar secuencias de vídeo con actores y por una presentación audiovisual avanzada para los compatibles PC de mediados de los noventa, con gráficos Super VGA y sonido digitalizado. Esta edición española en formato Big Box corresponde a la versión CD-ROM para IBM PC compatibles y está expresamente traducida al castellano, constituyendo una pieza representativa de la etapa multimedia de Origin Systems bajo Electronic Arts.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de la Resistencia",
+      "Guía de instalación rápida"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Crusader",
+      "Crusader No Remorse",
+      "Origin Systems",
+      "Electronic Arts",
+      "MS-DOS",
+      "World Economic Consortium",
+      "Silencer",
+      "ciencia ficción distópica",
+      "acción isométrica",
+      "perspectiva 3/4",
+      "escenarios destructibles",
+      "FMV",
+      "VESA Super VGA",
+      "Sound Blaster",
+      "CD-ROM",
+      "edición española",
+      "traducido al castellano",
+      "Big Box",
+      "PC clásico",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "La edición utiliza el CD-ROM durante la ejecución. Para preservación se recomienda crear una imagen completa del disco original en BIN/CUE y conservar digitalizados el manual y la guía de instalación. La ejecución virtual es viable en un entorno MS-DOS emulado, manteniendo la imagen del CD montada como unidad óptica.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000162",
+    "ig": "",
+    "titulo": "Evil Islands: Curse of the Lost Soul",
+    "url": "juegos/evil-islands-curse-of-the-lost-soul-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol",
+      "RPG táctico",
+      "Estrategia táctica en tiempo real",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Nival Interactive"
+    ],
+    "distribuidor": [
+      "Fishtank Interactive",
+      "Ubi Soft"
+    ],
+    "ean": [
+      "3307212304276"
+    ],
+    "descripcion": "Evil Islands: Curse of the Lost Soul es un juego de rol táctico de fantasía desarrollado por Nival Interactive y publicado en Europa a comienzos de los años 2000. Combina exploración en escenarios tridimensionales, combate en tiempo real, desarrollo de personajes, sigilo y un sistema de daños localizados, además de permitir fabricar y modificar armas y equipamiento. La campaña se estructura alrededor de tres islas con culturas, criaturas y condiciones ambientales diferenciadas, y la edición anuncia una estructura no lineal, unas 80 misiones y modos multijugador por red local e Internet. Esta edición física española en caja grande fue comercializada por Ubi Soft con el sello Fishtank Interactive; el juego está en inglés y el manual en español, circunstancia indicada expresamente en el embalaje.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en español"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Evil Islands",
+      "Curse of the Lost Soul",
+      "Nival Interactive",
+      "Fishtank Interactive",
+      "Ubi Soft",
+      "RPG táctico",
+      "fantasía",
+      "combate en tiempo real",
+      "sigilo",
+      "daños localizados",
+      "fabricación de equipo",
+      "multijugador LAN",
+      "multijugador por Internet",
+      "edición española",
+      "juego en inglés",
+      "manual en español",
+      "PC CD-ROM",
+      "Big Box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa BIN/CUE y conservar escaneos del manual y del embalaje. La edición mostrada no aporta evidencia suficiente para identificar con certeza el sistema anticopia; antes de normalizar la imagen conviene verificar si el disco contiene protección basada en sectores o comprobación física.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000163",
+    "ig": "",
+    "titulo": "Revenant",
+    "url": "juegos/revenant-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Rol de acción",
+      "Action RPG",
+      "Hack and slash",
+      "Fantasía oscura",
+      "Isométrico"
+    ],
+    "desarrollador": [
+      "Cinematix Studios"
+    ],
+    "distribuidor": [
+      "Eidos Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "5032921007924"
+    ],
+    "descripcion": "Revenant es un juego de rol de acción desarrollado por Cinematix Studios y publicado por Eidos Interactive en 1999 para Windows 95/98. El jugador controla a Locke D'Averam, un guerrero devuelto a la vida y obligado a rescatar a la hija de un poderoso caudillo mientras reconstruye los recuerdos de su existencia anterior. Su propuesta combina exploración isométrica, progresión de personaje, combate en tiempo real y un sistema especialmente elaborado de ataques encadenados y combinaciones, junto con magia basada en talismanes. Técnicamente destacó por sus gráficos acelerados mediante Direct3D y por una presentación visual avanzada para un RPG de finales de los noventa. Incluye además multijugador para hasta cuatro participantes, modalidades de combate y exploración de mazmorras y un editor de juego. Esta edición española distribuida por Proein conserva el software original en inglés acompañado de manual en castellano y constituye una representación característica de la distribución Big Box europea de Eidos en la transición hacia el RPG de acción tridimensional. ",
+    "incluye": [
+      "Caja Big Box",
+      "2 CD-ROM en caja jewel case",
+      "Manual en castellano",
+      "Catálogo de Navidad Proein 1999",
+      "Hoja de registro o encuesta Proein"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Revenant",
+      "Cinematix Studios",
+      "Eidos Interactive",
+      "Proein",
+      "Locke D'Averam",
+      "Direct3D",
+      "combate en tiempo real",
+      "combos",
+      "magia con talismanes",
+      "multijugador",
+      "editor de juego",
+      "fantasía oscura",
+      "edición española",
+      "manual en castellano",
+      "software en inglés",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "Big Box PC",
+      "1999",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "",
+      "preservacion": "La edición original utiliza SafeDisc y está distribuida en dos CD-ROM. Para una preservación fiel se recomienda una imagen de bajo nivel que conserve la estructura original del soporte y la información necesaria para reproducir la protección, preferiblemente CCD/IMG/SUB, documentando ambos discos por separado. La ejecución virtual es viable mediante un entorno Windows 95/98 adecuadamente configurado y emulación compatible con SafeDisc; los sistemas Windows modernos presentan incompatibilidades con el controlador empleado por esta protección. ",
+      "formato": "CCD/IMG/SUB",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000164",
+    "ig": "",
+    "titulo": "Redline: Gang Warfare 2066",
+    "url": "juegos/redline-gang-warfare-2066-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en primera persona",
+      "Combate vehicular",
+      "Acción",
+      "Ciencia ficción postapocalíptica"
+    ],
+    "desarrollador": [
+      "Beyond Games"
+    ],
+    "distribuidor": [
+      "Accolade",
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Redline: Gang Warfare: 2066 es la denominación europea de Redline, videojuego para Windows lanzado en 1999 y desarrollado por Beyond Games. Su propuesta híbrida combina shooter en primera persona y combate vehicular, permitiendo alternar durante las misiones entre enfrentamientos a pie y conducción de vehículos armados. La acción transcurre en un futuro postapocalíptico en el que las clases privilegiadas viven protegidas en ciudades fortificadas mientras diferentes bandas luchan por sobrevivir en el exterior. La propia edición destaca escenarios de gran extensión, progresión dentro de una banda, más de veinte vehículos especializados y multijugador para hasta doce participantes mediante red local o Internet. Accolade publicó el título y Electronic Arts asumió su distribución europea, circunstancia reflejada en esta edición física española en caja grande. El juego resulta especialmente representativo de los experimentos de finales de los noventa por fusionar el shooter 3D con el combate motorizado dentro de una misma estructura jugable. ",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Tarjeta de actualización de datos de Electronic Arts"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Redline",
+      "Gang Warfare 2066",
+      "Beyond Games",
+      "Accolade",
+      "Electronic Arts",
+      "shooter en primera persona",
+      "combate vehicular",
+      "vehículos armados",
+      "bandas",
+      "postapocalíptico",
+      "ciencia ficción",
+      "multijugador LAN",
+      "multijugador por Internet",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "Big Box PC",
+      "años 90",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en CD-ROM. Se recomienda realizar una imagen BIN/CUE del disco original y conservar digitalizados el manual y la documentación impresa. La ejecución virtual debería ser viable mediante un entorno Windows 95/98 correctamente configurado, aunque conviene verificar en la edición concreta cualquier comprobación de disco y los requisitos de aceleración gráfica 3D.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
+    "num": "000165",
+    "ig": "",
+    "titulo": "H.E.D.Z. (Head Extreme Destruction Zone)",
+    "url": "juegos/hedz-head-extreme-destruction-zone-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción en tercera persona",
+      "Shooter en tercera persona",
+      "Plataformas 3D",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "VIS Interactive plc"
+    ],
+    "distribuidor": [
+      "Hasbro Interactive, Inc.",
+      "Hasbro Interactive Ltd",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "H.E.D.Z. (Head Extreme Destruction Zone) es un juego de acción tridimensional publicado en 1998 por Hasbro Interactive y desarrollado por VIS Interactive. Su propuesta gira alrededor de una competición gladiatoria intergaláctica en la que el jugador derrota a otros alienígenas para coleccionar sus cabezas: existen 225 y cada una proporciona armas, movimientos o habilidades diferentes, convirtiendo el cambio de cabeza en la mecánica central de combate y progresión. Combina disparos en tercera persona, exploración y plataformas en escenarios 3D, e incorpora juego multijugador mediante red local o módem. Esta edición europea Big Box fue distribuida en España por Electronic Arts Software y señala software y manual de instrucciones íntegramente en español. Es representativa de la experimentación con acción 3D y aceleración gráfica de finales de los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Folleto impreso adicional",
+      "Tarjeta de atención al usuario"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "H.E.D.Z.",
+      "Head Extreme Destruction Zone",
+      "VIS Interactive",
+      "Hasbro Interactive",
+      "Electronic Arts Software",
+      "edición española",
+      "software en castellano",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "225 cabezas",
+      "coleccionismo de cabezas",
+      "multijugador LAN",
+      "multijugador por módem",
+      "acción 3D",
+      "ciencia ficción",
+      "humor",
+      "aceleración 3D",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "1.x",
+      "preservacion": "La edición en CD-ROM utiliza SafeDisc de primera generación. Para preservar la estructura del disco y los sectores de protección se recomienda una imagen de bajo nivel en formato CCD/IMG/SUB o equivalente, además de conservar la documentación física. La ejecución virtual es viable en un entorno Windows 95/98 adecuadamente configurado y con soporte para la protección original.",
+      "formato": "CCD/IMG/SUB",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Blade: The Edge of Darkness - Edición Especial",
@@ -11507,46 +11840,6 @@
     ],
     "ean": [],
     "descripcion": "Juego de acción y combates aéreos ambientado en una versión alternativa de los años 30, donde Estados Unidos está fragmentado en estados independientes. El jugador pilota aviones personalizados en intensas batallas aéreas llenas de estilo pulp y cinematográfico.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Crusader: No Remorse",
-    "url": "juegos/crusader-no-remorse-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter"
-    ],
-    "desarrollador": [
-      "Origin Systems"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [
-      "0078829003991",
-      "5030930010829"
-    ],
-    "descripcion": "Shooter isométrico lanzado en agosto de 1995 (PC) donde encarnas a un Silencer que se rebela contra el opresivo World Economic Consortium. Destaca por gráficos SVGA 640×480, niveles destructibles, FMV, gran arsenal (bombas de proximidad, pistolas, lanzallamas), y puertos en consola en 1997.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -18015,51 +18308,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "H.E.D.Z. (Head Extreme Destruction Zone)",
-    "url": "juegos/hedz-head-extreme-destruction-zone-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Aventura"
-    ],
-    "desarrollador": [
-      "Electronic Arts"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "H.E.D.Z. (Head Extreme Destruction Zone) es un juego de acción y aventura en tercera persona donde el jugador controla un androide que puede intercambiar cabezas para obtener distintas habilidades. Ambientado en un campeonato galáctico, combina combates, exploración y elementos de plataformas en entornos 3D llenos de color y humor.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Acción",
-      "Plataformas",
-      "Aventura",
-      "Ciencia ficción",
-      "Humor",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Warlords Battlecry",
     "url": "juegos/warlords-battlecry-bigbox/",
     "plataforma": [
@@ -18746,53 +18994,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Revenant",
-    "url": "juegos/revenant-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Acción",
-      "Aventura",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Cinematix Studios"
-    ],
-    "distribuidor": [
-      "Eidos Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Revenant es un juego de rol y acción ambientado en un oscuro mundo de fantasía. El jugador encarna a Locke, un guerrero resucitado que debe rescatar a una joven secuestrada y descubrir los secretos de su pasado. Combina combates en tiempo real, exploración isométrica, magia y elementos de aventura clásica.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "RPG",
-      "Acción",
-      "Fantasía oscura",
-      "Aventura",
-      "Isométrico",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Martian Gothic: Unification",
     "url": "juegos/martian-gothic-unification-bigbox/",
     "plataforma": [
@@ -18964,53 +19165,6 @@
       "Naturaleza",
       "Deportivo",
       "Realismo",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Redline: Gang Warfare 2066",
-    "url": "juegos/redline-gang-warfare-2066-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter",
-      "Conducción",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Beyond Games"
-    ],
-    "distribuidor": [
-      "Accolade"
-    ],
-    "ean": [],
-    "descripcion": "Redline: Gang Warfare 2066 es un juego de acción y conducción ambientado en un futuro postapocalíptico. Combina combates en primera persona con secuencias de conducción armada, permitiendo al jugador alternar entre tiroteos intensos y persecuciones vehiculares en un mundo dominado por bandas y caos urbano.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Acción",
-      "Shooter",
-      "Vehículos",
-      "Ciencia ficción",
-      "Postapocalíptico",
       "Big Box"
     ],
     "proteccion": {
@@ -20837,51 +20991,6 @@
       "Warcraft",
       "Blizzard",
       "Battle Chest"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    }
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Evil Islands: Curse of the Lost Soul",
-    "url": "juegos/evil-islands-curse-of-the-lost-soul-bigbox/",
-    "plataforma": [
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Rol",
-      "Estrategia en tiempo real",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Nival Interactive"
-    ],
-    "distribuidor": [
-      "Ubisoft"
-    ],
-    "ean": [],
-    "descripcion": "Evil Islands: Curse of the Lost Soul es un juego de rol táctico con elementos de estrategia en tiempo real, lanzado en 2001 por Nival Interactive y distribuido por Ubisoft. Ambientado en un oscuro mundo de fantasía dividido en islas, el jugador controla a Zak, un héroe amnésico que debe descubrir su pasado mientras lucha contra enemigos y criaturas mediante un sistema de combate pausable. Combina sigilo, crafteo de armas y hechizos, progresión de personaje y narrativa. Su edición en caja grande fue distribuida principalmente en Europa y destaca por su localización al castellano.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "RPG táctico",
-      "Estrategia en tiempo real",
-      "Nival",
-      "Ubisoft",
-      "Fantasía oscura"
     ],
     "proteccion": {
       "tipo": "No determinado",
