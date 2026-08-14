@@ -10530,6 +10530,73 @@
     }
   },
   {
+    "num": "000166",
+    "ig": "",
+    "titulo": "Railroad Tycoon II",
+    "url": "juegos/railroad-tycoon-ii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación económica",
+      "Estrategia",
+      "Gestión ferroviaria",
+      "Construcción y gestión",
+      "Tycoon"
+    ],
+    "desarrollador": [
+      "PopTop Software"
+    ],
+    "distribuidor": [
+      "Take-Two Interactive Software",
+      "Gathering of Developers",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Railroad Tycoon II es un juego de estrategia y simulación económica desarrollado por PopTop Software y publicado en 1998 como continuación del clásico Railroad Tycoon. Propone construir y administrar compañías ferroviarias a lo largo de casi dos siglos de historia, desde 1804 hasta el año 2000, combinando tendido de vías, compra de locomotoras, transporte de mercancías y pasajeros, inversión bursátil y competencia empresarial. Esta edición española en caja grande destaca por una campaña con 18 escenarios, 34 tipos de carga, 59 locomotoras, mapas basados en cartografía real, editor integrado y juego multijugador por red local o Internet. Su motor ofrece mapas amplios con representación 3D y resoluciones de hasta 1024 x 768 en color de 16 bits, convirtiéndolo en una referencia del subgénero de gestión ferroviaria de finales de los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "2 cuadernos impresos de documentación"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Railroad Tycoon",
+      "PopTop Software",
+      "Take-Two Interactive",
+      "Gathering of Developers",
+      "Proein",
+      "ferrocarriles",
+      "locomotoras",
+      "gestión empresarial",
+      "simulación ferroviaria",
+      "mapas históricos",
+      "editor de mapas",
+      "multijugador LAN",
+      "Internet",
+      "edición española",
+      "PC CD-ROM",
+      "Big Box",
+      "Windows 95",
+      "Windows 98",
+      "Windows NT",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "No se ha identificado de forma concluyente un sistema anticopia específico en la edición mostrada. Para preservación se recomienda crear una imagen completa del CD-ROM, conservar la estructura original del soporte y documentar los materiales impresos asociados. La ejecución es viable en una máquina virtual o entorno compatible con Windows 95/98/NT.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    }
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Blade: The Edge of Darkness - Edición Especial",
