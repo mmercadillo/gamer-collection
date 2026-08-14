@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-08-14T16:13:09
+- Fecha: 2026-08-14T16:39:28
 - Juegos en catálogo: 1552
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -9,6 +9,11 @@
 - Géneros con página/landing indexable: 143
 - Plataformas con página/landing indexable: 13
 - Formatos con página/landing indexable: 3
+- Años documentados: 13 fichas (0.8%); entidades indexables: 0
+- Mercados documentados: 267 fichas (17.2%); entidades indexables: 3
+- Idiomas documentados: 176 fichas (11.3%); entidades indexables: 4
+- Soportes documentados: 262 fichas (16.9%); entidades indexables: 5
+- Tipos de edición documentados: 106 fichas (6.8%); entidades indexables: 0
 - Páginas estáticas del catálogo: 65
 - Fichas con imágenes documentales detectadas: 1550
 - Imágenes documentales incluidas en el sitemap: 2547
@@ -28,6 +33,7 @@
 - Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.
 - Se generan landing pages SEO en español para búsquedas genéricas.
 - Se generan automáticamente hubs y páginas SEO por desarrollador, distribuidor, género, plataforma y formato cuando una entidad aparece en 3 o más fichas.
+- Fase 10D añade año, mercado, idioma, soporte y tipo de edición como taxonomías potenciales; además del mínimo por entidad, cada campo nuevo exige al menos 150 fichas documentadas antes de publicar su hub para evitar páginas prematuras y despublicaciones por crecimiento del catálogo.
 - Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.
 - Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.
 - Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.

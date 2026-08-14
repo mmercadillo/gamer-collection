@@ -15,6 +15,7 @@ Lee juegos.json como fuente maestra y genera una web estática indexable:
   - assets/js/catalogo.js
   - assets/js/search-index.js
   - índices y páginas de desarrolladores, distribuidores, géneros, plataformas y formatos
+  - taxonomías editoriales por año, mercado, idioma, soporte y tipo de edición cuando existe cobertura suficiente
   - catálogo HTML paginado y rastreable en /catalogo/
   - una página HTML por juego en la ruta definida por juego["url"]
 
@@ -169,6 +170,7 @@ TAXONOMIES = {
         "label": "Desarrolladores",
         "eyebrow": "Desarrollo",
         "min_count": 3,
+        "min_documented": 0,
     },
     "distribuidores": {
         "field": "distribuidor",
@@ -176,6 +178,7 @@ TAXONOMIES = {
         "label": "Distribuidores",
         "eyebrow": "Distribución",
         "min_count": 3,
+        "min_documented": 0,
     },
     "generos": {
         "field": "genero",
@@ -183,6 +186,7 @@ TAXONOMIES = {
         "label": "Géneros",
         "eyebrow": "Género",
         "min_count": 3,
+        "min_documented": 0,
     },
     "plataformas": {
         "field": "plataforma",
@@ -190,6 +194,7 @@ TAXONOMIES = {
         "label": "Plataformas",
         "eyebrow": "Plataforma",
         "min_count": 3,
+        "min_documented": 0,
     },
     "formatos": {
         "field": "formato",
@@ -197,6 +202,50 @@ TAXONOMIES = {
         "label": "Formatos",
         "eyebrow": "Formato físico",
         "min_count": 3,
+        "min_documented": 0,
+    },
+    # Fase 10D: nuevas taxonomías editoriales. Además del mínimo por entidad,
+    # exigen una masa crítica absoluta de fichas documentadas. Un umbral absoluto
+    # evita que un hub ya publicado desaparezca al crecer el catálogo con campos vacíos.
+    "anos": {
+        "field": "anio",
+        "singular": "año",
+        "label": "Años",
+        "eyebrow": "Año de la edición",
+        "min_count": 3,
+        "min_documented": 150,
+    },
+    "mercados": {
+        "field": "mercado",
+        "singular": "mercado",
+        "label": "Mercados",
+        "eyebrow": "Mercado editorial",
+        "min_count": 3,
+        "min_documented": 150,
+    },
+    "idiomas": {
+        "field": "idioma",
+        "singular": "idioma",
+        "label": "Idiomas",
+        "eyebrow": "Idioma de la edición",
+        "min_count": 3,
+        "min_documented": 150,
+    },
+    "soportes": {
+        "field": "soporte",
+        "singular": "soporte",
+        "label": "Soportes",
+        "eyebrow": "Soporte de distribución",
+        "min_count": 3,
+        "min_documented": 150,
+    },
+    "tipos-edicion": {
+        "field": "tipo_edicion",
+        "singular": "tipo de edición",
+        "label": "Tipos de edición",
+        "eyebrow": "Clasificación editorial",
+        "min_count": 3,
+        "min_documented": 150,
     },
 }
 
@@ -209,6 +258,9 @@ TAXONOMY_ROUTE_OVERRIDES = {
     ("plataformas", "win98"): "juegos-windows-95-98.html",
     ("generos", "aventura grafica"): "aventuras-graficas-pc.html",
     ("generos", "point and click"): "aventuras-graficas-pc.html",
+    # Mercado España reutiliza la landing editorial histórica para evitar dos
+    # URLs compitiendo por la misma intención de búsqueda.
+    ("mercados", "espana"): "ediciones-espanolas-pc.html",
 }
 
 ROOT_PAGES = {
@@ -857,12 +909,35 @@ def build_taxonomy_entities(games: list[dict[str, Any]], taxonomy: str) -> list[
     return sorted(entities, key=lambda e: (-e["count"], e["name"].casefold()))
 
 
+def taxonomy_coverage(games: list[dict[str, Any]], taxonomy: str) -> tuple[int, float]:
+    """Devuelve fichas con dato y cobertura global del campo de una taxonomía."""
+    if not games:
+        return 0, 0.0
+    field = TAXONOMIES[taxonomy]["field"]
+    documented = sum(1 for game in games if list_values(game.get(field)))
+    return documented, documented / len(games)
+
+
+def taxonomy_is_publishable(games: list[dict[str, Any]], taxonomy: str, entities: list[dict[str, Any]] | None = None) -> bool:
+    """Publica un hub solo cuando el campo tiene cobertura y alguna entidad útil."""
+    cfg = TAXONOMIES[taxonomy]
+    documented, _ = taxonomy_coverage(games, taxonomy)
+    if documented < int(cfg.get("min_documented", 0)):
+        return False
+    entities = entities if entities is not None else build_taxonomy_entities(games, taxonomy)
+    return any(entity["count"] >= cfg["min_count"] for entity in entities)
+
+
 def build_taxonomy_lookup(games: list[dict[str, Any]]) -> dict[str, dict[str, dict[str, Any]]]:
     lookup: dict[str, dict[str, dict[str, Any]]] = {}
     for taxonomy, cfg in TAXONOMIES.items():
+        entities = build_taxonomy_entities(games, taxonomy)
+        if not taxonomy_is_publishable(games, taxonomy, entities):
+            lookup[taxonomy] = {}
+            continue
         lookup[taxonomy] = {
             e["key"]: e
-            for e in build_taxonomy_entities(games, taxonomy)
+            for e in entities
             if e["count"] >= cfg["min_count"]
         }
     return lookup
@@ -918,7 +993,7 @@ def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
         search_values: list[str] = []
         for field in searchable_fields:
             search_values.extend(flatten_search_values(g.get(field)))
-        index.append({
+        item = {
             "titulo": g.get("titulo", ""),
             "url": site_path(str(g.get("url", ""))),
             "formato": g.get("formato", ""),
@@ -928,7 +1003,17 @@ def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "desarrollador": list_values(g.get("desarrollador")),
             "distribuidor": list_values(g.get("distribuidor")),
             "search_text": " ".join(search_values),
-        })
+        }
+        # Mantiene compatibilidad byte a byte cuando los nuevos campos están
+        # vacíos, pero expone sus valores al filtro de taxonomía cuando existen.
+        anio = str(g.get("anio") or "").strip()
+        if anio:
+            item["anio"] = anio
+        for field in ("mercado", "idioma", "soporte", "tipo_edicion"):
+            values = list_values(g.get(field))
+            if values:
+                item[field] = values
+        index.append(item)
     return index
 
 
@@ -1057,6 +1142,14 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     entity_hub_links = "\n".join(
         f'<a class="taxonomy-item" href="{h(taxonomy)}/"><strong>{h(cfg["label"])}</strong><small>Explorar por {h(cfg["singular"])}</small></a>'
         for taxonomy, cfg in TAXONOMIES.items()
+        if taxonomy_is_publishable(games, taxonomy)
+    )
+    editorial_taxonomies = {"anos", "mercados", "idiomas", "soportes", "tipos-edicion"}
+    has_editorial_taxonomies = any(taxonomy_is_publishable(games, taxonomy) for taxonomy in editorial_taxonomies)
+    entity_hub_description = (
+        "Explora desarrolladores, distribuidores, géneros, plataformas, formatos y, cuando existe cobertura suficiente, metadatos editoriales como mercado, idioma o soporte."
+        if has_editorial_taxonomies
+        else "Desarrolladores, distribuidores, géneros, plataformas y formatos enlazados directamente con las fichas documentales."
     )
     body = f'''<main>
 <section class="hero-section">
@@ -1094,7 +1187,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
 </section>
 <section class="wrap seo-hub" id="explorar-entidades">
   <div class="section-head"><h2>Explorar por datos del catálogo</h2></div>
-  <p class="count">Desarrolladores, distribuidores, géneros, plataformas y formatos enlazados directamente con las fichas documentales.</p>
+  <p class="count">{h(entity_hub_description)}</p>
   <div class="taxonomy-grid">{entity_hub_links}</div>
 </section>
 <section class="wrap acquisition-strip" aria-labelledby="acquisition-home-title">
@@ -1357,6 +1450,57 @@ def entity_context_text(entity: dict[str, Any]) -> str:
     return " ".join(parts)
 
 
+def taxonomy_entity_copy(taxonomy: str, entity: dict[str, Any]) -> tuple[str, str, str, str]:
+    """Copy específico para que las nuevas taxonomías sean naturales y útiles."""
+    name = entity["name"]
+    count = entity["count"]
+    cfg = TAXONOMIES[taxonomy]
+
+    if taxonomy == "idiomas":
+        if entity_key(name) == entity_key("Multilingüe"):
+            h1 = "Juegos de PC multilingües"
+        else:
+            h1 = f"Juegos de PC en {name.casefold()}"
+        title = f"{h1} · {SITE_NAME}"
+        description = truncate(f"{count} ediciones físicas de juegos de PC con contenido documentado en {name}, catalogadas en {SITE_NAME}.", 155)
+        lead = f"PC Game Archive reúne {count} ediciones físicas con {name} documentado como idioma de la edición."
+        return title, h1, description, lead
+
+    if taxonomy == "soportes":
+        h1 = f"Juegos de PC en {name}"
+        title = f"{h1} · {SITE_NAME}"
+        description = truncate(f"{count} ediciones físicas de juegos de PC distribuidas en {name}, documentadas en {SITE_NAME}.", 155)
+        lead = f"PC Game Archive reúne {count} ediciones físicas que incluyen {name} como soporte de distribución documentado."
+        return title, h1, description, lead
+
+    if taxonomy == "mercados":
+        h1 = f"Ediciones de PC para {name}"
+        title = f"{h1} · {SITE_NAME}"
+        description = truncate(f"{count} ediciones físicas de videojuegos de PC destinadas al mercado de {name}, documentadas en {SITE_NAME}.", 155)
+        lead = f"PC Game Archive reúne {count} ediciones físicas con {name} documentado como mercado o territorio comercial."
+        return title, h1, description, lead
+
+    if taxonomy == "anos":
+        h1 = f"Juegos de PC de {name}"
+        title = f"{h1} · {SITE_NAME}"
+        description = truncate(f"{count} ediciones físicas de juegos de PC publicadas en {name}, documentadas en {SITE_NAME}.", 155)
+        lead = f"PC Game Archive reúne {count} ediciones físicas cuyo año de publicación documentado es {name}."
+        return title, h1, description, lead
+
+    if taxonomy == "tipos-edicion":
+        h1 = f"{name}: ediciones de juegos de PC"
+        title = f"{h1} · {SITE_NAME}"
+        description = truncate(f"{count} ediciones físicas de juegos de PC clasificadas como {name}, documentadas en {SITE_NAME}.", 155)
+        lead = f"PC Game Archive reúne {count} ediciones físicas clasificadas como {name}."
+        return title, h1, description, lead
+
+    h1 = f"{name}: juegos de PC"
+    title = f"{h1} · {SITE_NAME}"
+    description = truncate(f"{count} ediciones físicas de videojuegos de PC relacionadas con {name}, documentadas en {SITE_NAME}.", 155)
+    lead = f"PC Game Archive reúne {count} ediciones físicas del catálogo asociadas a {name} como {cfg['singular']}."
+    return title, h1, description, lead
+
+
 def taxonomy_hub_jsonld(base_url: str, taxonomy: str, entities: list[dict[str, Any]]) -> dict[str, Any]:
     cfg = TAXONOMIES[taxonomy]
     return {
@@ -1384,9 +1528,14 @@ def generate_taxonomy_pages(games: list[dict[str, Any]], out: Path, base_url: st
         root = out / taxonomy
         if root.exists():
             shutil.rmtree(root)
-        root.mkdir(parents=True, exist_ok=True)
 
-        entities = [e for e in build_taxonomy_entities(games, taxonomy) if e["count"] >= cfg["min_count"]]
+        all_entities = build_taxonomy_entities(games, taxonomy)
+        if not taxonomy_is_publishable(games, taxonomy, all_entities):
+            generated[taxonomy] = []
+            continue
+
+        root.mkdir(parents=True, exist_ok=True)
+        entities = [e for e in all_entities if e["count"] >= cfg["min_count"]]
         generated[taxonomy] = entities
         hub_prefix = "../"
         hub_items = "\n".join(
@@ -1400,7 +1549,7 @@ def generate_taxonomy_pages(games: list[dict[str, Any]], out: Path, base_url: st
   <div class="page-head">
     <p class="eyebrow">Explorar el catálogo</p>
     <h1>{h(cfg["label"])}</h1>
-    <p class="lead">Índice de {h(cfg["label"].lower())} presentes en PC Game Archive. Se muestran entidades con al menos {cfg["min_count"]} fichas documentadas para mantener páginas con contenido suficiente.</p>
+    <p class="lead">Índice de {h(cfg["label"].lower())} presentes en PC Game Archive. Se muestran entidades con al menos {cfg["min_count"]} fichas documentadas y solo se publica el índice cuando el campo dispone de masa crítica suficiente.</p>
   </div>
   <p class="count">{len(entities)} entidades disponibles.</p>
   <div class="taxonomy-grid">{hub_items}</div>
@@ -1426,9 +1575,7 @@ def generate_taxonomy_pages(games: list[dict[str, Any]], out: Path, base_url: st
             cards = "\n".join(card(game, entity_prefix) for game in selected[:24])
             context = entity_context_text(entity)
             values_attr = "|".join(entity["variants"])
-            title = f'{entity["name"]}: juegos de PC · {SITE_NAME}'
-            description = truncate(f'{entity["count"]} ediciones físicas de videojuegos de PC relacionadas con {entity["name"]}, documentadas en {SITE_NAME}.', 155)
-            lead = f'PC Game Archive reúne {entity["count"]} ediciones físicas del catálogo asociadas a {entity["name"]} como {cfg["singular"]}.'
+            title, entity_h1, description, lead = taxonomy_entity_copy(taxonomy, entity)
             related = [e for e in entities if e["key"] != entity["key"]][:8]
             related_html = "\n".join(
                 f'<a class="taxonomy-item" href="{h(entity_prefix + entity_route(taxonomy, other))}"><strong>{h(other["name"])}</strong><small>{other["count"]} juegos</small></a>'
@@ -1438,7 +1585,7 @@ def generate_taxonomy_pages(games: list[dict[str, Any]], out: Path, base_url: st
   <nav class="breadcrumbs"><a href="{entity_prefix}">Inicio</a> / <a href="{entity_prefix}{taxonomy}/">{h(cfg["label"])}</a> / <span>{h(entity["name"])}</span></nav>
   <div class="page-head">
     <p class="eyebrow">{h(cfg["eyebrow"])}</p>
-    <h1>{h(entity["name"])}: juegos de PC</h1>
+    <h1>{h(entity_h1)}</h1>
     <p class="lead">{h(lead)}</p>
   </div>
   <section class="content-card">
@@ -1714,15 +1861,15 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         soporte_values = list_values(game.get("soporte"))
         tipo_edicion_values = list_values(game.get("tipo_edicion"))
         if anio:
-            extra_metadata_rows.append(f'<dt>Año</dt><dd>{h(anio)}</dd>')
+            extra_metadata_rows.append(f'<dt>Año</dt><dd class="tagrow">{entity_tag("anos", anio, taxonomy_lookup, prefix)}</dd>')
         if mercado_values:
-            extra_metadata_rows.append('<dt>Mercado</dt><dd class="tagrow">' + ''.join(f'<span class="tag">{h(v)}</span>' for v in mercado_values) + '</dd>')
+            extra_metadata_rows.append('<dt>Mercado</dt><dd class="tagrow">' + ''.join(entity_tag("mercados", v, taxonomy_lookup, prefix) for v in mercado_values) + '</dd>')
         if idioma_values:
-            extra_metadata_rows.append('<dt>Idioma</dt><dd class="tagrow">' + ''.join(f'<span class="tag">{h(v)}</span>' for v in idioma_values) + '</dd>')
+            extra_metadata_rows.append('<dt>Idioma</dt><dd class="tagrow">' + ''.join(entity_tag("idiomas", v, taxonomy_lookup, prefix) for v in idioma_values) + '</dd>')
         if soporte_values:
-            extra_metadata_rows.append('<dt>Soporte</dt><dd class="tagrow">' + ''.join(f'<span class="tag">{h(v)}</span>' for v in soporte_values) + '</dd>')
+            extra_metadata_rows.append('<dt>Soporte</dt><dd class="tagrow">' + ''.join(entity_tag("soportes", v, taxonomy_lookup, prefix) for v in soporte_values) + '</dd>')
         if tipo_edicion_values:
-            extra_metadata_rows.append('<dt>Tipo de edición</dt><dd class="tagrow">' + ''.join(f'<span class="tag">{h(v)}</span>' for v in tipo_edicion_values) + '</dd>')
+            extra_metadata_rows.append('<dt>Tipo de edición</dt><dd class="tagrow">' + ''.join(entity_tag("tipos-edicion", v, taxonomy_lookup, prefix) for v in tipo_edicion_values) + '</dd>')
         extra_metadata_html = ''.join(extra_metadata_rows)
 
         related_html = related_groups_html(game, related_index, prefix)
@@ -1781,11 +1928,14 @@ def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str, gall
             urls.append(route)
             seen.add(route)
     for taxonomy, cfg in TAXONOMIES.items():
+        entities = build_taxonomy_entities(games, taxonomy)
+        if not taxonomy_is_publishable(games, taxonomy, entities):
+            continue
         hub = f"{taxonomy}/"
         if hub not in seen:
             urls.append(hub)
             seen.add(hub)
-        for entity in build_taxonomy_entities(games, taxonomy):
+        for entity in entities:
             if entity["count"] < cfg["min_count"]:
                 continue
             route = entity_route(taxonomy, entity)
@@ -1932,6 +2082,11 @@ def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str
         f"- Géneros con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'generos') if e['count'] >= TAXONOMIES['generos']['min_count'])}",
         f"- Plataformas con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'plataformas') if e['count'] >= TAXONOMIES['plataformas']['min_count'])}",
         f"- Formatos con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'formatos') if e['count'] >= TAXONOMIES['formatos']['min_count'])}",
+        f"- Años documentados: {taxonomy_coverage(games, 'anos')[0]} fichas ({taxonomy_coverage(games, 'anos')[1]:.1%}); entidades indexables: {sum(1 for e in build_taxonomy_entities(games, 'anos') if taxonomy_is_publishable(games, 'anos') and e['count'] >= TAXONOMIES['anos']['min_count'])}",
+        f"- Mercados documentados: {taxonomy_coverage(games, 'mercados')[0]} fichas ({taxonomy_coverage(games, 'mercados')[1]:.1%}); entidades indexables: {sum(1 for e in build_taxonomy_entities(games, 'mercados') if taxonomy_is_publishable(games, 'mercados') and e['count'] >= TAXONOMIES['mercados']['min_count'])}",
+        f"- Idiomas documentados: {taxonomy_coverage(games, 'idiomas')[0]} fichas ({taxonomy_coverage(games, 'idiomas')[1]:.1%}); entidades indexables: {sum(1 for e in build_taxonomy_entities(games, 'idiomas') if taxonomy_is_publishable(games, 'idiomas') and e['count'] >= TAXONOMIES['idiomas']['min_count'])}",
+        f"- Soportes documentados: {taxonomy_coverage(games, 'soportes')[0]} fichas ({taxonomy_coverage(games, 'soportes')[1]:.1%}); entidades indexables: {sum(1 for e in build_taxonomy_entities(games, 'soportes') if taxonomy_is_publishable(games, 'soportes') and e['count'] >= TAXONOMIES['soportes']['min_count'])}",
+        f"- Tipos de edición documentados: {taxonomy_coverage(games, 'tipos-edicion')[0]} fichas ({taxonomy_coverage(games, 'tipos-edicion')[1]:.1%}); entidades indexables: {sum(1 for e in build_taxonomy_entities(games, 'tipos-edicion') if taxonomy_is_publishable(games, 'tipos-edicion') and e['count'] >= TAXONOMIES['tipos-edicion']['min_count'])}",
         f"- Páginas estáticas del catálogo: {max(1, math.ceil(len(games) / CATALOG_PAGE_SIZE))}",
         f"- Fichas con imágenes documentales detectadas: {games_with_images}",
         f"- Imágenes documentales incluidas en el sitemap: {image_count}",
@@ -1951,6 +2106,7 @@ def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str
         "- Los duplicados no se sobrescriben: se conserva la primera aparición en el catálogo.",
         "- Se generan landing pages SEO en español para búsquedas genéricas.",
         "- Se generan automáticamente hubs y páginas SEO por desarrollador, distribuidor, género, plataforma y formato cuando una entidad aparece en 3 o más fichas.",
+        "- Fase 10D añade año, mercado, idioma, soporte y tipo de edición como taxonomías potenciales; además del mínimo por entidad, cada campo nuevo exige al menos 150 fichas documentadas antes de publicar su hub para evitar páginas prematuras y despublicaciones por crecimiento del catálogo.",
         "- Variantes puramente tipográficas de una entidad (mayúsculas/acentos) se agrupan en una única página.",
         "- Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.",
         "- Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.",
@@ -1997,7 +2153,7 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: data-model-ready-2026-08-14")
+    print("Versión generador: fase10d-taxonomias-2026-08-14")
     print("Bloque SEO home: Explorar el archivo antes de Catálogo de juegos")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
