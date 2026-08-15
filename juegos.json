@@ -11776,7 +11776,9 @@
     "titulo": "Crusader: No Remorse",
     "url": "juegos/crusader-no-remorse-bigbox/",
     "plataforma": [
-      "MsDos"
+      "MsDos",
+      "Win95",
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
