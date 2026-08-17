@@ -12239,6 +12239,163 @@
     "tipo_edicion": []
   },
   {
+    "num": "000167",
+    "ig": "",
+    "titulo": "Great Naval Battles: North Atlantic 1939-43",
+    "url": "juegos/great-naval-battles-north-atlantic-1939-43-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación naval",
+      "Wargame",
+      "Estrategia en tiempo real",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "IO Design Group Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Great Naval Battles: North Atlantic 1939-43 es un simulador de combate naval y wargame publicado en 1992, primera entrega de la serie Great Naval Battles. Permite dirigir fuerzas británicas o alemanas durante la campaña del Atlántico Norte en la Segunda Guerra Mundial mediante campañas completas, minicampañas y enfrentamientos individuales. Combina acción en tiempo real con tres escalas de mando —capitán, flota y almirante—, control directo de acorazados y cruceros, navegación, artillería, dirección de tiro, evaluación de daños por cubiertas, una base de datos histórica de buques y repetición de las batallas. Esta edición española en disquetes, editada y distribuida por Dro Soft para compatibles IBM PC, documenta la etapa de los simuladores militares complejos de Strategic Simulations y la localización al castellano del software especializado de comienzos de los noventa. ([MobyGames][1])",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual de usuario en castellano",
+      "3 disquetes de 3,5 pulgadas HD",
+      "Hoja de fe de erratas"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Great Naval Battles",
+      "North Atlantic 1939-43",
+      "IO Design Group",
+      "Strategic Simulations",
+      "SSI",
+      "Dro Soft",
+      "Segunda Guerra Mundial",
+      "Batalla del Atlántico",
+      "Royal Navy",
+      "Kriegsmarine",
+      "combate naval",
+      "simulación militar",
+      "buques de guerra",
+      "MS-DOS",
+      "VGA",
+      "EGA",
+      "AdLib",
+      "Sound Blaster",
+      "Roland",
+      "disquetes de 3,5 pulgadas",
+      "edición española",
+      "software en castellano",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "Comprobación mediante identificación o consulta de información del manual",
+      "preservacion": "Preservar los tres disquetes mediante imágenes individuales de bajo nivel o formato IMG/RAW, verificar sectores y documentar su orden. Debe digitalizarse también el manual en castellano, ya que el programa incorpora una comprobación anticopia basada en documentación física. La ejecución virtual es viable mediante DOSBox conservando accesible la información requerida por la protección. ([MobyGames][2])",
+      "formato": "Otro",
+      "jugable_virtual": true
+    },
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": []
+  },
+  {
+    "num": "000168",
+    "ig": "",
+    "titulo": "Great Naval Battles: Super Ships of the Atlantic - America in the Atlantic",
+    "url": "juegos/great-naval-battles-super-ships-of-the-atlantic-america-in-the-atlantic-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación naval",
+      "Wargame naval",
+      "Estrategia por turnos",
+      "Simulación histórica",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "IO Design Group"
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Expansión y disco de escenarios para Great Naval Battles: North Atlantic 1939-43, el simulador naval de Strategic Simulations, Inc. centrado en combates de superficie de la Segunda Guerra Mundial en el Atlántico Norte. Esta edición española en caja grande reúne los módulos Super Ships of the Atlantic y America in the Atlantic, orientados a escenarios hipotéticos y de historia alternativa: por un lado introduce grandes unidades navales que no llegaron a combatir o navegar en el contexto del juego original, como acorazados y cruceros de diseño avanzado; por otro plantea la incorporación de buques estadounidenses al teatro atlántico para enfrentarse a la Kriegsmarine antes de la entrada plena de Estados Unidos en la guerra. Su interés documental reside en ampliar un wargame naval complejo, de gestión táctica por turnos y representación detallada de buques, blindaje, artillería, velocidad, autonomía y daño, además de incluir actualización a la versión 1.2 y compatibilidad con IBM PC VGA de 256 colores.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "3 disquetes de 3.5 HD de Great Naval Battles",
+      "Disquete de 3.5 HD de escenarios y campañas Super Ships of the Atlantic / America in the Atlantic",
+      "Tarjeta de registro Dro Soft",
+      "Hoja de atención y actualización a versión 1.2"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Great Naval Battles",
+      "Super Ships of the Atlantic",
+      "America in the Atlantic",
+      "North Atlantic 1939-43",
+      "Strategic Simulations Inc",
+      "SSI",
+      "Dro Soft",
+      "IO Design Group",
+      "wargame naval",
+      "simulación naval",
+      "Segunda Guerra Mundial",
+      "Atlántico Norte",
+      "Kriegsmarine",
+      "US Navy",
+      "Royal Navy",
+      "historia alternativa",
+      "escenarios hipotéticos",
+      "VGA 256 colores",
+      "MS-DOS",
+      "disquetes 3.5",
+      "edición española",
+      "big box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, documentar etiquetas y actualización a versión 1.2, y verificar la instalación en DOSBox o en una máquina virtual MS-DOS compatible. No se aprecia evidencia suficiente para afirmar un sistema anticopia concreto.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    },
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": []
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Blade: The Edge of Darkness - Edición Especial",
@@ -27427,84 +27584,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Great Naval Battles: Super Ships of the Atlantic - America in the Atlantic",
-    "url": "juegos/great-naval-battles-super-ships-of-the-atlantic-america-in-the-atlantic-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación naval",
-      "Wargame naval",
-      "Estrategia por turnos",
-      "Simulación histórica",
-      "Expansión"
-    ],
-    "desarrollador": [
-      "IO Design Group"
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc.",
-      "Dro Soft"
-    ],
-    "ean": [],
-    "descripcion": "Expansión y disco de escenarios para Great Naval Battles: North Atlantic 1939-43, el simulador naval de Strategic Simulations, Inc. centrado en combates de superficie de la Segunda Guerra Mundial en el Atlántico Norte. Esta edición española en caja grande reúne los módulos Super Ships of the Atlantic y America in the Atlantic, orientados a escenarios hipotéticos y de historia alternativa: por un lado introduce grandes unidades navales que no llegaron a combatir o navegar en el contexto del juego original, como acorazados y cruceros de diseño avanzado; por otro plantea la incorporación de buques estadounidenses al teatro atlántico para enfrentarse a la Kriegsmarine antes de la entrada plena de Estados Unidos en la guerra. Su interés documental reside en ampliar un wargame naval complejo, de gestión táctica por turnos y representación detallada de buques, blindaje, artillería, velocidad, autonomía y daño, además de incluir actualización a la versión 1.2 y compatibilidad con IBM PC VGA de 256 colores.",
-    "incluye": [
-      "Caja exterior Big Box",
-      "3 disquetes de 3.5 HD de Great Naval Battles",
-      "Disquete de 3.5 HD de escenarios y campañas Super Ships of the Atlantic / America in the Atlantic",
-      "Tarjeta de registro Dro Soft",
-      "Hoja de atención y actualización a versión 1.2"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Great Naval Battles",
-      "Super Ships of the Atlantic",
-      "America in the Atlantic",
-      "North Atlantic 1939-43",
-      "Strategic Simulations Inc",
-      "SSI",
-      "Dro Soft",
-      "IO Design Group",
-      "wargame naval",
-      "simulación naval",
-      "Segunda Guerra Mundial",
-      "Atlántico Norte",
-      "Kriegsmarine",
-      "US Navy",
-      "Royal Navy",
-      "historia alternativa",
-      "escenarios hipotéticos",
-      "VGA 256 colores",
-      "MS-DOS",
-      "disquetes 3.5",
-      "edición española",
-      "big box",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Edición en disquetes de 3,5 pulgadas. Para preservación se recomienda realizar imagen individual de cada disquete, documentar etiquetas y actualización a versión 1.2, y verificar la instalación en DOSBox o en una máquina virtual MS-DOS compatible. No se aprecia evidencia suficiente para afirmar un sistema anticopia concreto.",
-      "formato": "Otro",
-      "jugable_virtual": true
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [],
-    "soporte": [
-      "Disquete 3,5\""
-    ],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "El Imperio de las Hormigas",
     "url": "juegos/el-imperio-de-las-hormigas-bigbox/",
     "plataforma": [
@@ -27864,85 +27943,6 @@
     ],
     "soporte": [
       "CD-ROM"
-    ],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Great Naval Battles: North Atlantic 1939-43",
-    "url": "juegos/great-naval-battles-north-atlantic-1939-43-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación naval",
-      "Wargame",
-      "Estrategia en tiempo real",
-      "Simulación histórica"
-    ],
-    "desarrollador": [
-      "IO Design Group Inc."
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc.",
-      "Dro Soft"
-    ],
-    "ean": [],
-    "descripcion": "Great Naval Battles: North Atlantic 1939-43 es un simulador de combate naval y wargame publicado en 1992, primera entrega de la serie Great Naval Battles. Permite dirigir fuerzas británicas o alemanas durante la campaña del Atlántico Norte en la Segunda Guerra Mundial mediante campañas completas, minicampañas y enfrentamientos individuales. Combina acción en tiempo real con tres escalas de mando —capitán, flota y almirante—, control directo de acorazados y cruceros, navegación, artillería, dirección de tiro, evaluación de daños por cubiertas, una base de datos histórica de buques y repetición de las batallas. Esta edición española en disquetes, editada y distribuida por Dro Soft para compatibles IBM PC, documenta la etapa de los simuladores militares complejos de Strategic Simulations y la localización al castellano del software especializado de comienzos de los noventa. ([MobyGames][1])",
-    "incluye": [
-      "Caja de cartón Big Box",
-      "Manual de usuario en castellano",
-      "3 disquetes de 3,5 pulgadas HD",
-      "Hoja de fe de erratas"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Great Naval Battles",
-      "North Atlantic 1939-43",
-      "IO Design Group",
-      "Strategic Simulations",
-      "SSI",
-      "Dro Soft",
-      "Segunda Guerra Mundial",
-      "Batalla del Atlántico",
-      "Royal Navy",
-      "Kriegsmarine",
-      "combate naval",
-      "simulación militar",
-      "buques de guerra",
-      "MS-DOS",
-      "VGA",
-      "EGA",
-      "AdLib",
-      "Sound Blaster",
-      "Roland",
-      "disquetes de 3,5 pulgadas",
-      "edición española",
-      "software en castellano",
-      "Big Box PC",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "Manual lookup",
-      "version": "Comprobación mediante identificación o consulta de información del manual",
-      "preservacion": "Preservar los tres disquetes mediante imágenes individuales de bajo nivel o formato IMG/RAW, verificar sectores y documentar su orden. Debe digitalizarse también el manual en castellano, ya que el programa incorpora una comprobación anticopia basada en documentación física. La ejecución virtual es viable mediante DOSBox conservando accesible la información requerida por la protección. ([MobyGames][2])",
-      "formato": "Otro",
-      "jugable_virtual": true
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "soporte": [
-      "Disquete 3,5\""
     ],
     "tipo_edicion": []
   },
