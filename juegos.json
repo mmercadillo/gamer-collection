@@ -12633,6 +12633,381 @@
   {
     "num": "000000",
     "ig": "",
+    "titulo": "Caveman Ugh-Lympics",
+    "url": "juegos/caveman-ugh-lympics-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Arcade",
+      "Minijuegos",
+      "Multijugador local"
+    ],
+    "desarrollador": [
+      "Dynamix"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Caveman Ugh-Lympics es un juego deportivo arcade desarrollado por Dynamix y publicado originalmente por Electronic Arts a finales de los años ochenta. Su propuesta parodia las competiciones olímpicas trasladándolas a una prehistoria caricaturesca, con distintas pruebas de habilidad, fuerza y supervivencia protagonizadas por cavernícolas y criaturas prehistóricas. La estructura basada en pruebas breves y competición entre jugadores lo convierte en un temprano ejemplo de juego multideporte y de minijuegos para compatibles PC. Esta edición española distribuida por Dro Soft se presenta en caja grande para MS-DOS, con cuatro disquetes de 5,25 pulgadas y documentación en castellano, conservando especial interés documental por pertenecer a la primera etapa de Dynamix y por el carácter perecedero del soporte magnético.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "4 disquetes de 5,25 pulgadas",
+      "Hoja o periódico Ugh-Times"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Caveman Ugh-Lympics",
+      "Dynamix",
+      "Electronic Arts",
+      "Dro Soft",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "edición española",
+      "Big Box PC",
+      "disquetes 5.25",
+      "prehistoria",
+      "deportes prehistóricos",
+      "competición multijugador",
+      "juegos de los 80",
+      "software en castellano",
+      "preservación de disquetes",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en cuatro disquetes de 5,25 pulgadas. Para preservación se recomienda realizar una imagen sectorial o de flujo de cada disco, registrar hashes y digitalizar el manual y la hoja Ugh-Times. No se ha identificado con certeza un sistema anticopia concreto; la ejecución virtual es viable en un entorno MS-DOS emulado si las imágenes conservan correctamente la estructura original.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    },
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Simon the Sorcerer",
+    "url": "juegos/simon-the-sorcerer-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía",
+      "Comedia"
+    ],
+    "desarrollador": [
+      "Adventure Soft"
+    ],
+    "distribuidor": [
+      "Adventure Soft",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Simon the Sorcerer es una aventura gráfica británica desarrollada por Adventure Soft y publicada en 1993 para compatibles IBM PC. Sigue a Simon, un adolescente transportado accidentalmente a un mundo de fantasía donde debe rescatar al mago Calypso del hechicero Sórdido. Su diseño se apoya en exploración, diálogos y resolución de puzles mediante una interfaz point and click, con abundante humor británico y parodias de cuentos, leyendas y convenciones de la fantasía. La versión para MS-DOS utiliza el motor Adventure Graphic Operating System (AGOS), gráficos VGA de 256 colores y soporte de sonido propio del PC de comienzos de los noventa. Esta edición española en caja grande distribuida por Erbe Software corresponde a la versión en disquetes, sin voces y con textos y documentación en castellano, y conserva especial interés para documentar la etapa previa a la reedición hablada en CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones en castellano",
+      "3 disquetes de 3,5 pulgadas",
+      "Funda protectora ERBE para disquetes"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Simon the Sorcerer",
+      "Adventure Soft",
+      "Erbe Software",
+      "AGOS",
+      "VGA",
+      "MS-DOS",
+      "aventura británica",
+      "humor británico",
+      "fantasía",
+      "parodia",
+      "edición española",
+      "textos en castellano",
+      "disquetes 3.5",
+      "Big Box PC",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "La versión en disquetes utiliza una comprobación basada en símbolos del manual. Para preservación se recomienda realizar una imagen individual de cada uno de los tres disquetes de 3,5 pulgadas y digitalizar íntegramente el manual, ya que forma parte funcional del sistema anticopia. La ejecución es viable en entornos MS-DOS virtualizados y mediante intérpretes compatibles con AGOS.",
+      "formato": "No aplica",
+      "jugable_virtual": true
+    },
+    "anio": "1993",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "The Feeble Files",
+    "url": "juegos/the-feeble-files-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Ciencia ficción",
+      "Comedia",
+      "Distopía"
+    ],
+    "desarrollador": [
+      "Adventure Soft"
+    ],
+    "distribuidor": [
+      "Adventure Soft Publishing",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "The Feeble Files es una aventura gráfica de ciencia ficción desarrollada por Adventure Soft y publicada originalmente en 1997, tras los éxitos del estudio con la saga Simon the Sorcerer. El jugador controla a Feeble, un alienígena débil y aparentemente insignificante que termina involucrado en una rebelión contra la Compañía y el omnipresente OmniCerebro, dentro de una sociedad totalitaria construida como sátira de las grandes distopías de la ciencia ficción. Mantiene la estructura point and click característica de Adventure Soft, pero supuso un salto audiovisual respecto a sus obras anteriores mediante personajes y animaciones generados con tecnología Silicon Graphics, gráficos de alta resolución y sonido estéreo de 16 bits. Su extensa aventura supera las ochenta localizaciones y contiene miles de líneas de diálogo, combinando humor británico, referencias culturales, conspiración, traiciones y crítica social. Esta edición española en caja grande, distribuida por Erbe Software, conserva la versión original de cuatro CD-ROM y está totalmente localizada al castellano, constituyendo una edición especialmente relevante para documentar la etapa final de las grandes aventuras gráficas comerciales europeas de los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "4 CD-ROM",
+      "Caja jewel case",
+      "Manual",
+      "Tarjeta de registro de usuario ERBE"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Feeble Files",
+      "Adventure Soft",
+      "Adventure Soft Publishing",
+      "Erbe Software",
+      "Simon the Sorcerer",
+      "AGOS",
+      "Silicon Graphics",
+      "aventura británica",
+      "ciencia ficción satírica",
+      "distopía",
+      "OmniCerebro",
+      "The Company",
+      "humor británico",
+      "gráficos prerenderizados",
+      "SVGA",
+      "sonido 16 bits",
+      "4 CD-ROM",
+      "Windows 95",
+      "edición española",
+      "totalmente en castellano",
+      "Big Box PC",
+      "preservación PC",
+      "aventura gráfica de los 90"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición original distribuida en cuatro CD-ROM. Para su preservación se recomienda crear una imagen completa e individual de cada disco, preferiblemente en BIN/CUE, verificar los volcados y conservar la correspondencia entre los cuatro soportes. La versión original puede ejecutarse actualmente mediante entornos Windows clásicos virtualizados y mediante intérpretes compatibles como ScummVM, por lo que resulta importante preservar también los archivos y la localización castellana específica de esta edición.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1997",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Sanitarium",
+    "url": "juegos/sanitarium-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Terror psicológico",
+      "Misterio"
+    ],
+    "desarrollador": [
+      "DreamForge Intertainment"
+    ],
+    "distribuidor": [
+      "ASC Games",
+      "Mindscape Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Sanitarium es una aventura gráfica de terror psicológico desarrollada por DreamForge Intertainment y publicada originalmente en 1998. La historia sigue a Max Laughton, un hombre que despierta amnésico en un sanatorio tras un accidente y recorre una sucesión de escenarios surrealistas donde realidad, memoria y trauma se confunden. Su diseño combina exploración y resolución de puzles mediante interfaz point and click con perspectiva isométrica, secuencias cinematográficas prerenderizadas y una estructura narrativa dividida en episodios de identidades y entornos muy distintos. El título se convirtió en una obra de culto de la aventura para PC de finales de los noventa por su imaginería inquietante, su tratamiento de la memoria y la culpa y su alejamiento del tono humorístico dominante en buena parte del género. La edición catalogada corresponde a una presentación Big Box destinada al mercado británico, con distribución de Mindscape Entertainment y clasificación por edades 15.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "3 CD-ROM en estuche jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Sanitarium",
+      "DreamForge Intertainment",
+      "ASC Games",
+      "Mindscape Entertainment",
+      "Max Laughton",
+      "sanatorio",
+      "amnesia",
+      "surrealismo",
+      "horror psicológico",
+      "aventura narrativa",
+      "perspectiva isométrica",
+      "cinemáticas prerenderizadas",
+      "Windows 95",
+      "PC CD-ROM",
+      "edición británica",
+      "Big Box PC",
+      "1998",
+      "preservación de videojuegos físicos"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa de los tres CD-ROM originales, preferiblemente en BIN/CUE, conservando también el manual y la identificación de cada disco. La ejecución virtual es viable en un entorno Windows 95 compatible manteniendo montado el soporte óptico cuando el juego solicite el disco correspondiente.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1998",
+    "mercado": [
+      "Reino Unido"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Alien Odyssey",
+    "url": "juegos/alien-odyssey-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura de acción",
+      "Aventura 3D",
+      "Shooter sobre raíles",
+      "Simulación de vuelo",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Argonaut Software Limited"
+    ],
+    "distribuidor": [
+      "Philips Media, Inc."
+    ],
+    "ean": [],
+    "descripcion": "Alien Odyssey es una aventura de acción tridimensional desarrollada por Argonaut Software y publicada por Philips Media en 1995 para MS-DOS. La historia comienza tras el accidente de la nave del protagonista en un planeta desconocido, donde un habitante alienígena le salva la vida y lo implica en la resistencia contra un ejército de invasores robóticos. Su diseño combina exploración y acción en tercera persona, resolución de puzles y secuencias de vuelo y disparo, ofreciendo una estructura híbrida característica de la experimentación multimedia de mediados de los años noventa. Técnicamente destacó por el empleo de gráficos tridimensionales y animación digital en una producción diseñada específicamente para ordenadores multimedia con CD-ROM. Esta edición norteamericana en caja grande, publicada directamente por Philips Media, representa la etapa en la que Argonaut trasladaba al PC su experiencia con tecnología 3D antes de que la aceleración gráfica por hardware se generalizara.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Folleto promocional Philips"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Alien Odyssey",
+      "Argonaut Software",
+      "Philips Media",
+      "MS-DOS",
+      "BRender",
+      "gráficos 3D",
+      "aventura tridimensional",
+      "shooter sobre raíles",
+      "simulación de vuelo",
+      "ciencia ficción",
+      "robots",
+      "alienígenas",
+      "CD-ROM multimedia",
+      "edición norteamericana",
+      "Big Box PC",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización de la caja y documentación asociada. La ejecución es viable en un entorno MS-DOS virtualizado como DOSBox, aunque debe verificarse la edición concreta para determinar si incorpora algún mecanismo adicional de comprobación del soporte.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1995",
+    "mercado": [
+      "Estados Unidos"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "titulo": "Colossus",
     "url": "juegos/colossus-bigbox/",
     "plataforma": [
@@ -72373,6 +72748,80 @@
     "tipo_edicion": [
       "Budget",
       "Compilación"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "PC Fútbol 6.0: Temporada 97-98",
+    "url": "juegos/pc-futbol-6-0-temporada-97-98-2-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Gestión deportiva",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Dinamic Multimedia"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia"
+    ],
+    "ean": [],
+    "descripcion": "PC Fútbol 6.0: Temporada 97-98 es una entrega de la popular serie española de gestión y simulación futbolística desarrollada por Dinamic Multimedia. Publicada coincidiendo con la temporada 1997-1998 de la Liga española, combina una extensa base de datos de clubes y jugadores con funciones de gestión deportiva, seguimiento de competiciones y simulación de partidos en 3D. La edición incorpora además contenidos multimedia vinculados al fútbol español, incluyendo vídeo digital con goles de la Liga, en una etapa en la que el CD-ROM permitió a PC Fútbol evolucionar desde una base de datos interactiva hacia un producto multimedia de gran alcance. La serie alcanzó durante los años noventa una enorme popularidad en España y se convirtió en una referencia del videojuego deportivo nacional, destacando por sus actualizaciones de temporada, su profundidad estadística y su estrecha vinculación con las competiciones profesionales de la Liga de Fútbol Profesional.",
+    "incluye": [
+      "Revista PC Fútbol 6.0",
+      "CD-ROM en caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "PC Fútbol",
+      "PC Fútbol 6.0",
+      "Dinamic Multimedia",
+      "Liga española",
+      "Liga de Fútbol Profesional",
+      "LFP",
+      "temporada 1997-1998",
+      "fútbol español",
+      "manager de fútbol",
+      "base de datos futbolística",
+      "simulador 3D",
+      "vídeo digital",
+      "CD-ROM multimedia",
+      "Windows 95",
+      "edición española",
+      "videojuego español",
+      "Jewel Case",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en CD-ROM para Windows 95. Para preservación se recomienda realizar una imagen completa del disco original en BIN/CUE y conservar digitalizada la revista asociada. La ejecución puede realizarse mediante un entorno Windows 95 virtualizado compatible con DirectX de la época, aunque debe verificarse en el soporte original si existe algún mecanismo específico de comprobación de CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1997",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
     ]
   },
   {
