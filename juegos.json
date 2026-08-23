@@ -12471,6 +12471,79 @@
     ]
   },
   {
+    "num": "000170",
+    "ig": "https://www.instagram.com/p/DcX828GiDU2",
+    "titulo": "Simon the Sorcerer",
+    "url": "juegos/simon-the-sorcerer-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía",
+      "Comedia"
+    ],
+    "desarrollador": [
+      "Adventure Soft"
+    ],
+    "distribuidor": [
+      "Adventure Soft",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Simon the Sorcerer es una aventura gráfica británica desarrollada por Adventure Soft y publicada en 1993 para compatibles IBM PC. Sigue a Simon, un adolescente transportado accidentalmente a un mundo de fantasía donde debe rescatar al mago Calypso del hechicero Sórdido. Su diseño se apoya en exploración, diálogos y resolución de puzles mediante una interfaz point and click, con abundante humor británico y parodias de cuentos, leyendas y convenciones de la fantasía. La versión para MS-DOS utiliza el motor Adventure Graphic Operating System (AGOS), gráficos VGA de 256 colores y soporte de sonido propio del PC de comienzos de los noventa. Esta edición española en caja grande distribuida por Erbe Software corresponde a la versión en disquetes, sin voces y con textos y documentación en castellano, y conserva especial interés para documentar la etapa previa a la reedición hablada en CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones en castellano",
+      "3 disquetes de 3,5 pulgadas",
+      "Funda protectora ERBE para disquetes"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Simon the Sorcerer",
+      "Adventure Soft",
+      "Erbe Software",
+      "AGOS",
+      "VGA",
+      "MS-DOS",
+      "aventura británica",
+      "humor británico",
+      "fantasía",
+      "parodia",
+      "edición española",
+      "textos en castellano",
+      "disquetes 3.5",
+      "Big Box PC",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "La versión en disquetes utiliza una comprobación basada en símbolos del manual. Para preservación se recomienda realizar una imagen individual de cada uno de los tres disquetes de 3,5 pulgadas y digitalizar íntegramente el manual, ya que forma parte funcional del sistema anticopia. La ejecución es viable en entornos MS-DOS virtualizados y mediante intérpretes compatibles con AGOS.",
+      "formato": "No aplica",
+      "jugable_virtual": true
+    },
+    "anio": "1993",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Commandos: Strike Force",
@@ -12698,79 +12771,6 @@
     ],
     "soporte": [
       "Disquete 5,25\""
-    ],
-    "tipo_edicion": [
-      "Lanzamiento original"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Simon the Sorcerer",
-    "url": "juegos/simon-the-sorcerer-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Fantasía",
-      "Comedia"
-    ],
-    "desarrollador": [
-      "Adventure Soft"
-    ],
-    "distribuidor": [
-      "Adventure Soft",
-      "Erbe Software"
-    ],
-    "ean": [],
-    "descripcion": "Simon the Sorcerer es una aventura gráfica británica desarrollada por Adventure Soft y publicada en 1993 para compatibles IBM PC. Sigue a Simon, un adolescente transportado accidentalmente a un mundo de fantasía donde debe rescatar al mago Calypso del hechicero Sórdido. Su diseño se apoya en exploración, diálogos y resolución de puzles mediante una interfaz point and click, con abundante humor británico y parodias de cuentos, leyendas y convenciones de la fantasía. La versión para MS-DOS utiliza el motor Adventure Graphic Operating System (AGOS), gráficos VGA de 256 colores y soporte de sonido propio del PC de comienzos de los noventa. Esta edición española en caja grande distribuida por Erbe Software corresponde a la versión en disquetes, sin voces y con textos y documentación en castellano, y conserva especial interés para documentar la etapa previa a la reedición hablada en CD-ROM.",
-    "incluye": [
-      "Caja Big Box",
-      "Manual de instrucciones en castellano",
-      "3 disquetes de 3,5 pulgadas",
-      "Funda protectora ERBE para disquetes"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Simon the Sorcerer",
-      "Adventure Soft",
-      "Erbe Software",
-      "AGOS",
-      "VGA",
-      "MS-DOS",
-      "aventura británica",
-      "humor británico",
-      "fantasía",
-      "parodia",
-      "edición española",
-      "textos en castellano",
-      "disquetes 3.5",
-      "Big Box PC",
-      "PC clásico",
-      "preservación"
-    ],
-    "proteccion": {
-      "tipo": "Manual lookup",
-      "version": "",
-      "preservacion": "La versión en disquetes utiliza una comprobación basada en símbolos del manual. Para preservación se recomienda realizar una imagen individual de cada uno de los tres disquetes de 3,5 pulgadas y digitalizar íntegramente el manual, ya que forma parte funcional del sistema anticopia. La ejecución es viable en entornos MS-DOS virtualizados y mediante intérpretes compatibles con AGOS.",
-      "formato": "No aplica",
-      "jugable_virtual": true
-    },
-    "anio": "1993",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "soporte": [
-      "Disquete 3,5\""
     ],
     "tipo_edicion": [
       "Lanzamiento original"

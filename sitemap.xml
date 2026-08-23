@@ -2548,6 +2548,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://pcgamearchive.org/juegos/simon-the-sorcerer-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/simon-the-sorcerer-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/simon-the-sorcerer-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/simon-the-sorcerer-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/img/001.jpg</image:loc>
@@ -2578,18 +2590,6 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/caveman-ugh-lympics-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://pcgamearchive.org/juegos/simon-the-sorcerer-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/simon-the-sorcerer-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/simon-the-sorcerer-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/simon-the-sorcerer-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
