@@ -12544,6 +12544,80 @@
     ]
   },
   {
+    "num": "000171",
+    "ig": "https://www.instagram.com/p/Dcak881iF1c",
+    "titulo": "Sanitarium",
+    "url": "juegos/sanitarium-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Terror psicológico",
+      "Misterio"
+    ],
+    "desarrollador": [
+      "DreamForge Intertainment"
+    ],
+    "distribuidor": [
+      "ASC Games",
+      "Mindscape Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Sanitarium es una aventura gráfica de terror psicológico desarrollada por DreamForge Intertainment y publicada originalmente en 1998. La historia sigue a Max Laughton, un hombre que despierta amnésico en un sanatorio tras un accidente y recorre una sucesión de escenarios surrealistas donde realidad, memoria y trauma se confunden. Su diseño combina exploración y resolución de puzles mediante interfaz point and click con perspectiva isométrica, secuencias cinematográficas prerenderizadas y una estructura narrativa dividida en episodios de identidades y entornos muy distintos. El título se convirtió en una obra de culto de la aventura para PC de finales de los noventa por su imaginería inquietante, su tratamiento de la memoria y la culpa y su alejamiento del tono humorístico dominante en buena parte del género. La edición catalogada corresponde a una presentación Big Box destinada al mercado británico, con distribución de Mindscape Entertainment y clasificación por edades 15.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "3 CD-ROM en estuche jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Sanitarium",
+      "DreamForge Intertainment",
+      "ASC Games",
+      "Mindscape Entertainment",
+      "Max Laughton",
+      "sanatorio",
+      "amnesia",
+      "surrealismo",
+      "horror psicológico",
+      "aventura narrativa",
+      "perspectiva isométrica",
+      "cinemáticas prerenderizadas",
+      "Windows 95",
+      "PC CD-ROM",
+      "edición británica",
+      "Big Box PC",
+      "1998",
+      "preservación de videojuegos físicos"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa de los tres CD-ROM originales, preferiblemente en BIN/CUE, conservando también el manual y la identificación de cada disco. La ejecución virtual es viable en un entorno Windows 95 compatible manteniendo montado el soporte óptico cuando el juego solicite el disco correspondiente.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1998",
+    "mercado": [
+      "Reino Unido"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Commandos: Strike Force",
@@ -12850,80 +12924,6 @@
     ],
     "idioma": [
       "Español"
-    ],
-    "soporte": [
-      "CD-ROM"
-    ],
-    "tipo_edicion": [
-      "Lanzamiento original"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Sanitarium",
-    "url": "juegos/sanitarium-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Terror psicológico",
-      "Misterio"
-    ],
-    "desarrollador": [
-      "DreamForge Intertainment"
-    ],
-    "distribuidor": [
-      "ASC Games",
-      "Mindscape Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Sanitarium es una aventura gráfica de terror psicológico desarrollada por DreamForge Intertainment y publicada originalmente en 1998. La historia sigue a Max Laughton, un hombre que despierta amnésico en un sanatorio tras un accidente y recorre una sucesión de escenarios surrealistas donde realidad, memoria y trauma se confunden. Su diseño combina exploración y resolución de puzles mediante interfaz point and click con perspectiva isométrica, secuencias cinematográficas prerenderizadas y una estructura narrativa dividida en episodios de identidades y entornos muy distintos. El título se convirtió en una obra de culto de la aventura para PC de finales de los noventa por su imaginería inquietante, su tratamiento de la memoria y la culpa y su alejamiento del tono humorístico dominante en buena parte del género. La edición catalogada corresponde a una presentación Big Box destinada al mercado británico, con distribución de Mindscape Entertainment y clasificación por edades 15.",
-    "incluye": [
-      "Caja Big Box",
-      "Manual de instrucciones",
-      "3 CD-ROM en estuche jewel case"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Sanitarium",
-      "DreamForge Intertainment",
-      "ASC Games",
-      "Mindscape Entertainment",
-      "Max Laughton",
-      "sanatorio",
-      "amnesia",
-      "surrealismo",
-      "horror psicológico",
-      "aventura narrativa",
-      "perspectiva isométrica",
-      "cinemáticas prerenderizadas",
-      "Windows 95",
-      "PC CD-ROM",
-      "edición británica",
-      "Big Box PC",
-      "1998",
-      "preservación de videojuegos físicos"
-    ],
-    "proteccion": {
-      "tipo": "Verificación de CD",
-      "version": "",
-      "preservacion": "Preservación recomendada mediante imagen completa de los tres CD-ROM originales, preferiblemente en BIN/CUE, conservando también el manual y la identificación de cada disco. La ejecución virtual es viable en un entorno Windows 95 compatible manteniendo montado el soporte óptico cuando el juego solicite el disco correspondiente.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    },
-    "anio": "1998",
-    "mercado": [
-      "Reino Unido"
-    ],
-    "idioma": [
-      "Inglés"
     ],
     "soporte": [
       "CD-ROM"
