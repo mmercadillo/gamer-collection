@@ -12618,6 +12618,79 @@
     ]
   },
   {
+    "num": "000172",
+    "ig": "https://www.instagram.com/p/DcdFUOFCGzD",
+    "titulo": "Caveman Ugh-Lympics",
+    "url": "juegos/caveman-ugh-lympics-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Arcade",
+      "Minijuegos",
+      "Multijugador local"
+    ],
+    "desarrollador": [
+      "Dynamix"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Caveman Ugh-Lympics es un juego deportivo arcade desarrollado por Dynamix y publicado originalmente por Electronic Arts a finales de los años ochenta. Su propuesta parodia las competiciones olímpicas trasladándolas a una prehistoria caricaturesca, con distintas pruebas de habilidad, fuerza y supervivencia protagonizadas por cavernícolas y criaturas prehistóricas. La estructura basada en pruebas breves y competición entre jugadores lo convierte en un temprano ejemplo de juego multideporte y de minijuegos para compatibles PC. Esta edición española distribuida por Dro Soft se presenta en caja grande para MS-DOS, con cuatro disquetes de 5,25 pulgadas y documentación en castellano, conservando especial interés documental por pertenecer a la primera etapa de Dynamix y por el carácter perecedero del soporte magnético.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual",
+      "4 disquetes de 5,25 pulgadas",
+      "Hoja o periódico Ugh-Times"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Caveman Ugh-Lympics",
+      "Dynamix",
+      "Electronic Arts",
+      "Dro Soft",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "edición española",
+      "Big Box PC",
+      "disquetes 5.25",
+      "prehistoria",
+      "deportes prehistóricos",
+      "competición multijugador",
+      "juegos de los 80",
+      "software en castellano",
+      "preservación de disquetes",
+      "coleccionismo PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en cuatro disquetes de 5,25 pulgadas. Para preservación se recomienda realizar una imagen sectorial o de flujo de cada disco, registrar hashes y digitalizar el manual y la hoja Ugh-Times. No se ha identificado con certeza un sistema anticopia concreto; la ejecución virtual es viable en un entorno MS-DOS emulado si las imágenes conservan correctamente la estructura original.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    },
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Commandos: Strike Force",
@@ -12775,79 +12848,6 @@
     ],
     "tipo_edicion": [
       "Edición coleccionista"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Caveman Ugh-Lympics",
-    "url": "juegos/caveman-ugh-lympics-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Deportes",
-      "Arcade",
-      "Minijuegos",
-      "Multijugador local"
-    ],
-    "desarrollador": [
-      "Dynamix"
-    ],
-    "distribuidor": [
-      "Electronic Arts",
-      "Dro Soft"
-    ],
-    "ean": [],
-    "descripcion": "Caveman Ugh-Lympics es un juego deportivo arcade desarrollado por Dynamix y publicado originalmente por Electronic Arts a finales de los años ochenta. Su propuesta parodia las competiciones olímpicas trasladándolas a una prehistoria caricaturesca, con distintas pruebas de habilidad, fuerza y supervivencia protagonizadas por cavernícolas y criaturas prehistóricas. La estructura basada en pruebas breves y competición entre jugadores lo convierte en un temprano ejemplo de juego multideporte y de minijuegos para compatibles PC. Esta edición española distribuida por Dro Soft se presenta en caja grande para MS-DOS, con cuatro disquetes de 5,25 pulgadas y documentación en castellano, conservando especial interés documental por pertenecer a la primera etapa de Dynamix y por el carácter perecedero del soporte magnético.",
-    "incluye": [
-      "Caja Big Box",
-      "Manual",
-      "4 disquetes de 5,25 pulgadas",
-      "Hoja o periódico Ugh-Times"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Caveman Ugh-Lympics",
-      "Dynamix",
-      "Electronic Arts",
-      "Dro Soft",
-      "MS-DOS",
-      "IBM PC compatibles",
-      "edición española",
-      "Big Box PC",
-      "disquetes 5.25",
-      "prehistoria",
-      "deportes prehistóricos",
-      "competición multijugador",
-      "juegos de los 80",
-      "software en castellano",
-      "preservación de disquetes",
-      "coleccionismo PC"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Edición distribuida en cuatro disquetes de 5,25 pulgadas. Para preservación se recomienda realizar una imagen sectorial o de flujo de cada disco, registrar hashes y digitalizar el manual y la hoja Ugh-Times. No se ha identificado con certeza un sistema anticopia concreto; la ejecución virtual es viable en un entorno MS-DOS emulado si las imágenes conservan correctamente la estructura original.",
-      "formato": "Otro",
-      "jugable_virtual": true
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "soporte": [
-      "Disquete 5,25\""
-    ],
-    "tipo_edicion": [
-      "Lanzamiento original"
     ]
   },
   {
