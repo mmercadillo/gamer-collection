@@ -2584,6 +2584,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://pcgamearchive.org/juegos/alien-odyssey-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/alien-odyssey-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/alien-odyssey-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/alien-odyssey-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/img/001.jpg</image:loc>
@@ -2614,18 +2626,6 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/the-feeble-files-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://pcgamearchive.org/juegos/alien-odyssey-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/alien-odyssey-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/alien-odyssey-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/alien-odyssey-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>

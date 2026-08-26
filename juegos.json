@@ -12691,6 +12691,79 @@
     ]
   },
   {
+    "num": "000173",
+    "ig": "https://www.instagram.com/p/DcfpnE6iGJs",
+    "titulo": "Alien Odyssey",
+    "url": "juegos/alien-odyssey-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura de acción",
+      "Aventura 3D",
+      "Shooter sobre raíles",
+      "Simulación de vuelo",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Argonaut Software Limited"
+    ],
+    "distribuidor": [
+      "Philips Media, Inc."
+    ],
+    "ean": [],
+    "descripcion": "Alien Odyssey es una aventura de acción tridimensional desarrollada por Argonaut Software y publicada por Philips Media en 1995 para MS-DOS. La historia comienza tras el accidente de la nave del protagonista en un planeta desconocido, donde un habitante alienígena le salva la vida y lo implica en la resistencia contra un ejército de invasores robóticos. Su diseño combina exploración y acción en tercera persona, resolución de puzles y secuencias de vuelo y disparo, ofreciendo una estructura híbrida característica de la experimentación multimedia de mediados de los años noventa. Técnicamente destacó por el empleo de gráficos tridimensionales y animación digital en una producción diseñada específicamente para ordenadores multimedia con CD-ROM. Esta edición norteamericana en caja grande, publicada directamente por Philips Media, representa la etapa en la que Argonaut trasladaba al PC su experiencia con tecnología 3D antes de que la aceleración gráfica por hardware se generalizara.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Folleto promocional Philips"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Alien Odyssey",
+      "Argonaut Software",
+      "Philips Media",
+      "MS-DOS",
+      "BRender",
+      "gráficos 3D",
+      "aventura tridimensional",
+      "shooter sobre raíles",
+      "simulación de vuelo",
+      "ciencia ficción",
+      "robots",
+      "alienígenas",
+      "CD-ROM multimedia",
+      "edición norteamericana",
+      "Big Box PC",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización de la caja y documentación asociada. La ejecución es viable en un entorno MS-DOS virtualizado como DOSBox, aunque debe verificarse la edición concreta para determinar si incorpora algún mecanismo adicional de comprobación del soporte.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1995",
+    "mercado": [
+      "Estados Unidos"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Commandos: Strike Force",
@@ -12924,79 +12997,6 @@
     ],
     "idioma": [
       "Español"
-    ],
-    "soporte": [
-      "CD-ROM"
-    ],
-    "tipo_edicion": [
-      "Lanzamiento original"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Alien Odyssey",
-    "url": "juegos/alien-odyssey-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura de acción",
-      "Aventura 3D",
-      "Shooter sobre raíles",
-      "Simulación de vuelo",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Argonaut Software Limited"
-    ],
-    "distribuidor": [
-      "Philips Media, Inc."
-    ],
-    "ean": [],
-    "descripcion": "Alien Odyssey es una aventura de acción tridimensional desarrollada por Argonaut Software y publicada por Philips Media en 1995 para MS-DOS. La historia comienza tras el accidente de la nave del protagonista en un planeta desconocido, donde un habitante alienígena le salva la vida y lo implica en la resistencia contra un ejército de invasores robóticos. Su diseño combina exploración y acción en tercera persona, resolución de puzles y secuencias de vuelo y disparo, ofreciendo una estructura híbrida característica de la experimentación multimedia de mediados de los años noventa. Técnicamente destacó por el empleo de gráficos tridimensionales y animación digital en una producción diseñada específicamente para ordenadores multimedia con CD-ROM. Esta edición norteamericana en caja grande, publicada directamente por Philips Media, representa la etapa en la que Argonaut trasladaba al PC su experiencia con tecnología 3D antes de que la aceleración gráfica por hardware se generalizara.",
-    "incluye": [
-      "Caja Big Box",
-      "CD-ROM en caja jewel case",
-      "Folleto promocional Philips"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Alien Odyssey",
-      "Argonaut Software",
-      "Philips Media",
-      "MS-DOS",
-      "BRender",
-      "gráficos 3D",
-      "aventura tridimensional",
-      "shooter sobre raíles",
-      "simulación de vuelo",
-      "ciencia ficción",
-      "robots",
-      "alienígenas",
-      "CD-ROM multimedia",
-      "edición norteamericana",
-      "Big Box PC",
-      "PC clásico",
-      "preservación"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización de la caja y documentación asociada. La ejecución es viable en un entorno MS-DOS virtualizado como DOSBox, aunque debe verificarse la edición concreta para determinar si incorpora algún mecanismo adicional de comprobación del soporte.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    },
-    "anio": "1995",
-    "mercado": [
-      "Estados Unidos"
-    ],
-    "idioma": [
-      "Inglés"
     ],
     "soporte": [
       "CD-ROM"
