@@ -12923,6 +12923,86 @@
     ]
   },
   {
+    "num": "000176",
+    "ig": "",
+    "titulo": "3 Skulls of the Toltecs",
+    "url": "juegos/3-skulls-of-the-toltecs-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Comedia",
+      "Western"
+    ],
+    "desarrollador": [
+      "Revistronic Industrial Programs"
+    ],
+    "distribuidor": [
+      "GT Interactive Software Corp."
+    ],
+    "ean": [],
+    "descripcion": "3 Skulls of the Toltecs es una aventura gráfica española desarrollada por Revistronic Industrial Programs y publicada en 1996. Protagonizada por el vaquero Fenimore Fillmore, sitúa su historia en un Salvaje Oeste caricaturesco donde la búsqueda de tres calaveras de oro conduce a una sucesión de encuentros con forajidos, soldados, revolucionarios, indígenas y otros personajes construidos desde la parodia del western. Su diseño responde a la tradición clásica point and click, con escenarios bidimensionales dibujados, inventario, verbos de interacción, diálogos humorísticos y puzles basados en objetos. Técnicamente funciona a 640x480 y 256 colores y dispone de instalaciones diferenciadas para MS-DOS y Windows 95. El título tuvo especial relevancia como una de las aventuras gráficas españolas de los años noventa que consiguió una distribución internacional significativa. Esta edición europea en caja grande fue publicada y distribuida por GT Interactive bajo licencia de Revistronic y presenta caja y documentación multilingües, además del juego en CD-ROM.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual multilingüe"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "3 Skulls of the Toltecs",
+      "Fenimore Fillmore",
+      "Revistronic",
+      "Revistronic Industrial Programs",
+      "GT Interactive",
+      "videojuego español",
+      "aventura gráfica española",
+      "Salvaje Oeste",
+      "western",
+      "humor",
+      "gráficos 2D",
+      "640x480",
+      "256 colores",
+      "MS-DOS",
+      "Windows 95",
+      "CD-ROM",
+      "edición europea",
+      "edición multilingüe",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "No se dispone de evidencia suficiente para identificar con rigor un sistema anticopia concreto en esta edición. Para preservación se recomienda crear una imagen completa del CD-ROM original y digitalizar el manual multilingüe y la caja. La ejecución virtual es viable mediante un entorno MS-DOS compatible o una máquina virtual con Windows 95.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    },
+    "anio": "1996",
+    "mercado": [
+      "Europa"
+    ],
+    "idioma": [
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Español",
+      "Italiano"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Commandos: Strike Force",

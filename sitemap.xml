@@ -374,9 +374,9 @@
   <url><loc>https://pcgamearchive.org/generos/plataformas/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/rts/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/segunda-guerra-mundial/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/comedia/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-belica/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/baloncesto/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/comedia/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/compilacion/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/rally/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/tactica/</loc></url>
@@ -435,6 +435,7 @@
   <url><loc>https://pcgamearchive.org/generos/rol-de-accion/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/shooter-sobre-railes/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/supervivencia/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/western/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/automovilismo/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/aventura-3d/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/aventura-de-accion/</loc></url>
@@ -451,7 +452,6 @@
   <url><loc>https://pcgamearchive.org/generos/tiempo-real-con-pausa/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/tycoon/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/tactica-por-turnos/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/western/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/accion-aventura/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/accion-rpg/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/atletismo/</loc></url>
@@ -2605,18 +2605,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://pcgamearchive.org/juegos/the-feeble-files-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/the-feeble-files-bigbox/img/001.jpg</image:loc>
@@ -2626,6 +2614,30 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/the-feeble-files-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pcgamearchive.org/juegos/3-skulls-of-the-toltecs-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/3-skulls-of-the-toltecs-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/3-skulls-of-the-toltecs-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/3-skulls-of-the-toltecs-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/commandos-strike-force-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
