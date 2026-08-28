@@ -12841,6 +12841,88 @@
     ]
   },
   {
+    "num": "000175",
+    "ig": "https://www.instagram.com/p/DckygZyiC9P",
+    "titulo": "The Feeble Files",
+    "url": "juegos/the-feeble-files-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Ciencia ficción",
+      "Comedia",
+      "Distopía"
+    ],
+    "desarrollador": [
+      "Adventure Soft"
+    ],
+    "distribuidor": [
+      "Adventure Soft Publishing",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "The Feeble Files es una aventura gráfica de ciencia ficción desarrollada por Adventure Soft y publicada originalmente en 1997, tras los éxitos del estudio con la saga Simon the Sorcerer. El jugador controla a Feeble, un alienígena débil y aparentemente insignificante que termina involucrado en una rebelión contra la Compañía y el omnipresente OmniCerebro, dentro de una sociedad totalitaria construida como sátira de las grandes distopías de la ciencia ficción. Mantiene la estructura point and click característica de Adventure Soft, pero supuso un salto audiovisual respecto a sus obras anteriores mediante personajes y animaciones generados con tecnología Silicon Graphics, gráficos de alta resolución y sonido estéreo de 16 bits. Su extensa aventura supera las ochenta localizaciones y contiene miles de líneas de diálogo, combinando humor británico, referencias culturales, conspiración, traiciones y crítica social. Esta edición española en caja grande, distribuida por Erbe Software, conserva la versión original de cuatro CD-ROM y está totalmente localizada al castellano, constituyendo una edición especialmente relevante para documentar la etapa final de las grandes aventuras gráficas comerciales europeas de los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "4 CD-ROM",
+      "Caja jewel case",
+      "Manual",
+      "Tarjeta de registro de usuario ERBE"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Feeble Files",
+      "Adventure Soft",
+      "Adventure Soft Publishing",
+      "Erbe Software",
+      "Simon the Sorcerer",
+      "AGOS",
+      "Silicon Graphics",
+      "aventura británica",
+      "ciencia ficción satírica",
+      "distopía",
+      "OmniCerebro",
+      "The Company",
+      "humor británico",
+      "gráficos prerenderizados",
+      "SVGA",
+      "sonido 16 bits",
+      "4 CD-ROM",
+      "Windows 95",
+      "edición española",
+      "totalmente en castellano",
+      "Big Box PC",
+      "preservación PC",
+      "aventura gráfica de los 90"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición original distribuida en cuatro CD-ROM. Para su preservación se recomienda crear una imagen completa e individual de cada disco, preferiblemente en BIN/CUE, verificar los volcados y conservar la correspondencia entre los cuatro soportes. La versión original puede ejecutarse actualmente mediante entornos Windows clásicos virtualizados y mediante intérpretes compatibles como ScummVM, por lo que resulta importante preservar también los archivos y la localización castellana específica de esta edición.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1997",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Commandos: Strike Force",
@@ -12921,88 +13003,6 @@
     ],
     "tipo_edicion": [
       "Edición coleccionista"
-    ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "The Feeble Files",
-    "url": "juegos/the-feeble-files-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Ciencia ficción",
-      "Comedia",
-      "Distopía"
-    ],
-    "desarrollador": [
-      "Adventure Soft"
-    ],
-    "distribuidor": [
-      "Adventure Soft Publishing",
-      "Erbe Software"
-    ],
-    "ean": [],
-    "descripcion": "The Feeble Files es una aventura gráfica de ciencia ficción desarrollada por Adventure Soft y publicada originalmente en 1997, tras los éxitos del estudio con la saga Simon the Sorcerer. El jugador controla a Feeble, un alienígena débil y aparentemente insignificante que termina involucrado en una rebelión contra la Compañía y el omnipresente OmniCerebro, dentro de una sociedad totalitaria construida como sátira de las grandes distopías de la ciencia ficción. Mantiene la estructura point and click característica de Adventure Soft, pero supuso un salto audiovisual respecto a sus obras anteriores mediante personajes y animaciones generados con tecnología Silicon Graphics, gráficos de alta resolución y sonido estéreo de 16 bits. Su extensa aventura supera las ochenta localizaciones y contiene miles de líneas de diálogo, combinando humor británico, referencias culturales, conspiración, traiciones y crítica social. Esta edición española en caja grande, distribuida por Erbe Software, conserva la versión original de cuatro CD-ROM y está totalmente localizada al castellano, constituyendo una edición especialmente relevante para documentar la etapa final de las grandes aventuras gráficas comerciales europeas de los años noventa.",
-    "incluye": [
-      "Caja Big Box",
-      "4 CD-ROM",
-      "Caja jewel case",
-      "Manual",
-      "Tarjeta de registro de usuario ERBE"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "The Feeble Files",
-      "Adventure Soft",
-      "Adventure Soft Publishing",
-      "Erbe Software",
-      "Simon the Sorcerer",
-      "AGOS",
-      "Silicon Graphics",
-      "aventura británica",
-      "ciencia ficción satírica",
-      "distopía",
-      "OmniCerebro",
-      "The Company",
-      "humor británico",
-      "gráficos prerenderizados",
-      "SVGA",
-      "sonido 16 bits",
-      "4 CD-ROM",
-      "Windows 95",
-      "edición española",
-      "totalmente en castellano",
-      "Big Box PC",
-      "preservación PC",
-      "aventura gráfica de los 90"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Edición original distribuida en cuatro CD-ROM. Para su preservación se recomienda crear una imagen completa e individual de cada disco, preferiblemente en BIN/CUE, verificar los volcados y conservar la correspondencia entre los cuatro soportes. La versión original puede ejecutarse actualmente mediante entornos Windows clásicos virtualizados y mediante intérpretes compatibles como ScummVM, por lo que resulta importante preservar también los archivos y la localización castellana específica de esta edición.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    },
-    "anio": "1997",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "soporte": [
-      "CD-ROM"
-    ],
-    "tipo_edicion": [
-      "Lanzamiento original"
     ]
   },
   {
