@@ -13003,8 +13003,8 @@
     ]
   },
   {
-    "num": "000000",
-    "ig": "",
+    "num": "000177",
+    "ig": "https://www.instagram.com/p/Dcp3gYciHYA",
     "titulo": "Commandos: Strike Force",
     "url": "juegos/commandos-strike-force-bigbox/",
     "plataforma": [
@@ -13084,6 +13084,127 @@
     "tipo_edicion": [
       "Edición coleccionista"
     ]
+  },
+  {
+    "num": "000178",
+    "ig": "",
+    "titulo": "The Settlers II: Veni, Vidi, Vinci",
+    "url": "juegos/the-settlers-ii-veni-vidi-vici-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia",
+      "Construcción",
+      "Gestión"
+    ],
+    "desarrollador": [
+      "Blue Byte"
+    ],
+    "distribuidor": [
+      "Blue Byte"
+    ],
+    "ean": [],
+    "descripcion": "The Settlers II: Veni, Vidi, Vici es la expansión independiente del exitoso The Settlers II. Combina gestión económica, construcción de asentamientos y estrategia militar en un entorno isométrico detallado. El jugador debe gestionar recursos, expandir su territorio y enfrentarse a otras civilizaciones para lograr la supremacía.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box",
+      "Blue Byte",
+      "Estrategia clásica"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    },
+    "anio": "",
+    "mercado": [],
+    "idioma": [],
+    "soporte": [],
+    "tipo_edicion": []
+  },
+  {
+    "num": "000179",
+    "ig": "",
+    "titulo": "The Settlers III",
+    "url": "juegos/the-settlers-iii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Construcción y gestión",
+      "Simulación económica",
+      "Gestión de recursos",
+      "Colonización"
+    ],
+    "desarrollador": [
+      "Blue Byte Software"
+    ],
+    "distribuidor": [
+      "Blue Byte Software",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "The Settlers III es una entrega clave de la serie de estrategia y simulación económica de Blue Byte, publicada originalmente a finales de los años noventa para Windows. Mantiene la identidad característica de la saga, basada en cadenas de producción, logística, asentamientos autosuficientes, exploración, comercio marítimo y expansión territorial, pero refuerza el componente de estrategia en tiempo real con combate más directo, multijugador por red e Internet y civilizaciones diferenciadas como romanos, egipcios y asiáticos. Esta edición española en caja grande, distribuida por Friendware y señalada como producto en castellano, conserva interés documental por representar la etapa de consolidación de Blue Byte en el mercado PC europeo y por mostrar una estrategia menos centrada en la microgestión militar que en el equilibrio entre economía, territorio y suministro.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual",
+      "Friendlyware News número 9",
+      "Carátula e inserto de jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Settlers",
+      "Settlers III",
+      "Blue Byte",
+      "Friendware",
+      "edición española",
+      "producto en castellano",
+      "PC CD-ROM",
+      "Big Box",
+      "Windows 95",
+      "Windows 98",
+      "estrategia alemana",
+      "simulación económica",
+      "cadenas de producción",
+      "colonización",
+      "logística",
+      "multijugador online",
+      "romanos",
+      "egipcios",
+      "asiáticos",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Otro",
+      "version": "",
+      "preservacion": "Edición en CD-ROM. Para preservación se recomienda imagen completa del disco, preferiblemente BIN/CUE o formato con datos de bajo nivel si se desea conservar con máxima fidelidad la protección original, además de escanear manual y material impreso. The Settlers III es históricamente conocido por incorporar medidas anticopia que podían alterar el comportamiento de la partida en copias no autorizadas, por lo que conviene verificar la imagen preservada en una instalación limpia de Windows 95/98.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": []
   },
   {
     "num": "000000",
@@ -25896,51 +26017,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "The Settlers II: Veni, Vidi, Vinci",
-    "url": "juegos/the-settlers-ii-veni-vidi-vici-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Construcción",
-      "Gestión"
-    ],
-    "desarrollador": [
-      "Blue Byte"
-    ],
-    "distribuidor": [
-      "Blue Byte"
-    ],
-    "ean": [],
-    "descripcion": "The Settlers II: Veni, Vidi, Vici es la expansión independiente del exitoso The Settlers II. Combina gestión económica, construcción de asentamientos y estrategia militar en un entorno isométrico detallado. El jugador debe gestionar recursos, expandir su territorio y enfrentarse a otras civilizaciones para lograr la supremacía.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Blue Byte",
-      "Estrategia clásica"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Operation Crusader",
     "url": "juegos/operation-crusader-bigbox/",
     "plataforma": [
@@ -28175,82 +28251,6 @@
     "idioma": [
       "Multilingüe"
     ],
-    "soporte": [
-      "CD-ROM"
-    ],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "The Settlers III",
-    "url": "juegos/the-settlers-iii-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Construcción y gestión",
-      "Simulación económica",
-      "Gestión de recursos",
-      "Colonización"
-    ],
-    "desarrollador": [
-      "Blue Byte Software"
-    ],
-    "distribuidor": [
-      "Blue Byte Software",
-      "Friendware"
-    ],
-    "ean": [],
-    "descripcion": "The Settlers III es una entrega clave de la serie de estrategia y simulación económica de Blue Byte, publicada originalmente a finales de los años noventa para Windows. Mantiene la identidad característica de la saga, basada en cadenas de producción, logística, asentamientos autosuficientes, exploración, comercio marítimo y expansión territorial, pero refuerza el componente de estrategia en tiempo real con combate más directo, multijugador por red e Internet y civilizaciones diferenciadas como romanos, egipcios y asiáticos. Esta edición española en caja grande, distribuida por Friendware y señalada como producto en castellano, conserva interés documental por representar la etapa de consolidación de Blue Byte en el mercado PC europeo y por mostrar una estrategia menos centrada en la microgestión militar que en el equilibrio entre economía, territorio y suministro.",
-    "incluye": [
-      "Caja Big Box",
-      "CD-ROM en caja jewel case",
-      "Manual",
-      "Friendlyware News número 9",
-      "Carátula e inserto de jewel case"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "The Settlers",
-      "Settlers III",
-      "Blue Byte",
-      "Friendware",
-      "edición española",
-      "producto en castellano",
-      "PC CD-ROM",
-      "Big Box",
-      "Windows 95",
-      "Windows 98",
-      "estrategia alemana",
-      "simulación económica",
-      "cadenas de producción",
-      "colonización",
-      "logística",
-      "multijugador online",
-      "romanos",
-      "egipcios",
-      "asiáticos",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "Otro",
-      "version": "",
-      "preservacion": "Edición en CD-ROM. Para preservación se recomienda imagen completa del disco, preferiblemente BIN/CUE o formato con datos de bajo nivel si se desea conservar con máxima fidelidad la protección original, además de escanear manual y material impreso. The Settlers III es históricamente conocido por incorporar medidas anticopia que podían alterar el comportamiento de la partida en copias no autorizadas, por lo que conviene verificar la imagen preservada en una instalación limpia de Windows 95/98.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [],
     "soporte": [
       "CD-ROM"
     ],

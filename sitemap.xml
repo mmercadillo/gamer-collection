@@ -2641,6 +2641,30 @@
     </image:image>
   </url>
   <url>
+    <loc>https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pcgamearchive.org/juegos/the-settlers-iii-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/the-settlers-iii-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/the-settlers-iii-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/the-settlers-iii-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://pcgamearchive.org/juegos/colossus-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/colossus-bigbox/img/001.jpg</image:loc>
@@ -5818,18 +5842,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/the-settlers-ii-veni-vidi-vici-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://pcgamearchive.org/juegos/operation-crusader-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/operation-crusader-bigbox/img/001.jpg</image:loc>
@@ -6253,18 +6265,6 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/scorcher-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://pcgamearchive.org/juegos/the-settlers-iii-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/the-settlers-iii-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/the-settlers-iii-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/the-settlers-iii-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
