@@ -2665,6 +2665,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://pcgamearchive.org/juegos/third-reich-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/third-reich-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/third-reich-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/third-reich-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://pcgamearchive.org/juegos/colossus-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/colossus-bigbox/img/001.jpg</image:loc>
@@ -6133,18 +6145,6 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/if-22-the-f-22-raptor-simulator-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://pcgamearchive.org/juegos/third-reich-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/third-reich-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/third-reich-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/third-reich-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>

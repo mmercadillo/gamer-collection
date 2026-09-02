@@ -13207,6 +13207,86 @@
     "tipo_edicion": []
   },
   {
+    "num": "000180",
+    "ig": "https://www.instagram.com/p/Dcxrzj8CLT1",
+    "titulo": "Third Reich",
+    "url": "juegos/third-reich-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Gran estrategia",
+      "Simulación histórica",
+      "Estrategia hexagonal"
+    ],
+    "desarrollador": [
+      "The Avalon Hill Game Company"
+    ],
+    "distribuidor": [
+      "The Avalon Hill Game Company",
+      "System 4 de España"
+    ],
+    "ean": [],
+    "descripcion": "Third Reich es un wargame estratégico por turnos para PC desarrollado y publicado por The Avalon Hill Game Company como adaptación informática de su tradición de juegos de tablero históricos sobre la Segunda Guerra Mundial. El título traslada al ordenador la guerra europea completa, con escenarios que abarcan desde 1939 hasta 1946 y permite dirigir a las principales potencias beligerantes en Europa, el Norte de África y el Atlántico. Su diseño conserva una lógica de tablero basada en mapas hexagonales, frentes operacionales, producción, control territorial, ofensivas terrestres, guerra naval y aérea, y decisiones estratégicas de largo alcance. La edición española en Big Box fue distribuida por System 4 de España e identifica el software como versión inglesa con manual en castellano, un rasgo especialmente relevante para preservación porque combina localización documental española con ejecutable original en inglés.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM",
+      "Caja jewel case",
+      "Manual de referencia y operaciones en castellano",
+      "2 mapas de batalla",
+      "Tarjeta de registro o folleto promocional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Third Reich",
+      "Avalon Hill",
+      "The Avalon Hill Game Company",
+      "System 4 de España",
+      "Segunda Guerra Mundial",
+      "wargame clásico",
+      "estrategia por turnos",
+      "gran estrategia",
+      "mapa hexagonal",
+      "juego de tablero",
+      "Europa 1939-1946",
+      "Norte de África",
+      "Atlántico",
+      "potencias del Eje",
+      "Aliados",
+      "MS-DOS",
+      "CD-ROM",
+      "versión inglesa",
+      "manual en castellano",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización del manual y de los mapas de batalla. Al tratarse de una edición con software en inglés y documentación española, conviene documentar por separado ejecutable, manual localizado y materiales cartográficos; la ejecución virtual debería ser viable en DOSBox o entorno MS-DOS compatible, montando la imagen del CD si el programa exige presencia del disco.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": []
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -27410,86 +27490,6 @@
       "España"
     ],
     "idioma": [],
-    "soporte": [
-      "CD-ROM"
-    ],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Third Reich",
-    "url": "juegos/third-reich-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia por turnos",
-      "Wargame",
-      "Gran estrategia",
-      "Simulación histórica",
-      "Estrategia hexagonal"
-    ],
-    "desarrollador": [
-      "The Avalon Hill Game Company"
-    ],
-    "distribuidor": [
-      "The Avalon Hill Game Company",
-      "System 4 de España"
-    ],
-    "ean": [],
-    "descripcion": "Third Reich es un wargame estratégico por turnos para PC desarrollado y publicado por The Avalon Hill Game Company como adaptación informática de su tradición de juegos de tablero históricos sobre la Segunda Guerra Mundial. El título traslada al ordenador la guerra europea completa, con escenarios que abarcan desde 1939 hasta 1946 y permite dirigir a las principales potencias beligerantes en Europa, el Norte de África y el Atlántico. Su diseño conserva una lógica de tablero basada en mapas hexagonales, frentes operacionales, producción, control territorial, ofensivas terrestres, guerra naval y aérea, y decisiones estratégicas de largo alcance. La edición española en Big Box fue distribuida por System 4 de España e identifica el software como versión inglesa con manual en castellano, un rasgo especialmente relevante para preservación porque combina localización documental española con ejecutable original en inglés.",
-    "incluye": [
-      "Caja de cartón Big Box",
-      "CD-ROM",
-      "Caja jewel case",
-      "Manual de referencia y operaciones en castellano",
-      "2 mapas de batalla",
-      "Tarjeta de registro o folleto promocional"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Third Reich",
-      "Avalon Hill",
-      "The Avalon Hill Game Company",
-      "System 4 de España",
-      "Segunda Guerra Mundial",
-      "wargame clásico",
-      "estrategia por turnos",
-      "gran estrategia",
-      "mapa hexagonal",
-      "juego de tablero",
-      "Europa 1939-1946",
-      "Norte de África",
-      "Atlántico",
-      "potencias del Eje",
-      "Aliados",
-      "MS-DOS",
-      "CD-ROM",
-      "versión inglesa",
-      "manual en castellano",
-      "edición española",
-      "Big Box PC",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización del manual y de los mapas de batalla. Al tratarse de una edición con software en inglés y documentación española, conviene documentar por separado ejecutable, manual localizado y materiales cartográficos; la ejecución virtual debería ser viable en DOSBox o entorno MS-DOS compatible, montando la imagen del CD si el programa exige presencia del disco.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [
-      "Español"
-    ],
     "soporte": [
       "CD-ROM"
     ],
