@@ -265,9 +265,9 @@
   <url><loc>https://pcgamearchive.org/distribuidores/microprose/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/ea-sports/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/gathering-of-developers/</loc></url>
+  <url><loc>https://pcgamearchive.org/distribuidores/virgin-interactive/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/acclaim-entertainment/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/focus-home-interactive/</loc></url>
-  <url><loc>https://pcgamearchive.org/distribuidores/virgin-interactive/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/dreamcatcher-interactive/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/dro-soft/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/jowood-productions/</loc></url>
@@ -288,7 +288,6 @@
   <url><loc>https://pcgamearchive.org/distribuidores/lucasfilm-games/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/planeta-deagostini-interactive/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/strategic-simulations-inc-98189a/</loc></url>
-  <url><loc>https://pcgamearchive.org/distribuidores/gt-interactive/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/havas-interactive-espana/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/interactive-magic/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/mk-interactive/</loc></url>
@@ -300,6 +299,8 @@
   <url><loc>https://pcgamearchive.org/distribuidores/capcom/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/city-interactive/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/coktel-educative/</loc></url>
+  <url><loc>https://pcgamearchive.org/distribuidores/gt-interactive/</loc></url>
+  <url><loc>https://pcgamearchive.org/distribuidores/gt-interactive-software/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/interplay/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/interplay-productions/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/midway-games/</loc></url>
@@ -310,7 +311,6 @@
   <url><loc>https://pcgamearchive.org/distribuidores/virgin-interactive-espana/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/wanadoo-edition/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/zeta-games/</loc></url>
-  <url><loc>https://pcgamearchive.org/distribuidores/gt-interactive-software/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/kalypso-media/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/puntosoft/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/ssi/</loc></url>
@@ -350,8 +350,8 @@
   <url><loc>https://pcgamearchive.org/generos/fantasia/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/carreras/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/gestion/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/futbol/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/arcade/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/futbol/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/shooter-en-primera-persona/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/conduccion/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/construccion/</loc></url>
@@ -382,6 +382,7 @@
   <url><loc>https://pcgamearchive.org/generos/tactica/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/fantasia-oscura/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/vuelo/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/survival-horror/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/tercera-persona/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/ajedrez/</loc></url>
@@ -389,7 +390,6 @@
   <url><loc>https://pcgamearchive.org/generos/estrategia-tactica/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/fmv/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/gran-estrategia/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/tiempo-real/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/action-rpg/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/construccion-de-ciudades/</loc></url>
@@ -413,6 +413,7 @@
   <url><loc>https://pcgamearchive.org/generos/guerra/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/manager-deportivo/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/motociclismo/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/shooter-en-tercera-persona/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-de-vuelo/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-futbolistica/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
@@ -422,13 +423,13 @@
   <url><loc>https://pcgamearchive.org/generos/formula-1/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/hack-y-slash/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/rpg/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/shooter-en-tercera-persona/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/shooter-tactico/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-naval/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulador-de-vuelo/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/tenis/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/accion-por-turnos/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/cyberpunk/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/golf/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/historica/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/infantil/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/isometrico/</loc></url>
@@ -446,7 +447,6 @@
   <url><loc>https://pcgamearchive.org/generos/construccion-de-imperios/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/exploracion/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/gestion-de-imperios/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/golf/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/manager-de-futbol/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-economica/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/tiempo-real-con-pausa/</loc></url>
@@ -2674,6 +2674,30 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/third-reich-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pcgamearchive.org/juegos/giants-citizen-kabuto-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/giants-citizen-kabuto-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/giants-citizen-kabuto-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/giants-citizen-kabuto-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pcgamearchive.org/juegos/beavis-and-butt-head-bunghole-in-one-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/beavis-and-butt-head-bunghole-in-one-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/beavis-and-butt-head-bunghole-in-one-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/beavis-and-butt-head-bunghole-in-one-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -5584,18 +5608,6 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/mision-van-gogh-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://pcgamearchive.org/juegos/beavis-and-butt-head-bunghole-in-one-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/beavis-and-butt-head-bunghole-in-one-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/beavis-and-butt-head-bunghole-in-one-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/beavis-and-butt-head-bunghole-in-one-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>

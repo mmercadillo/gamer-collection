@@ -13287,6 +13287,174 @@
     "tipo_edicion": []
   },
   {
+    "num": "000181",
+    "ig": "",
+    "titulo": "Giants: Citizen Kabuto",
+    "url": "juegos/giants-citizen-kabuto-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter en tercera persona",
+      "Acción",
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Multijugador"
+    ],
+    "desarrollador": [
+      "Planet Moon Studios"
+    ],
+    "distribuidor": [
+      "Interplay Entertainment Corp.",
+      "Virgin Interactive"
+    ],
+    "ean": [
+      "5026102003508"
+    ],
+    "descripcion": "Giants: Citizen Kabuto es un híbrido de acción, shooter en tercera persona y estrategia desarrollado por Planet Moon Studios y publicado por Interplay en 2000. Ambientado en una enorme isla habitada por los alienígenas Meccaryns, las Sea Reapers y la gigantesca criatura Kabuto, estructura su campaña alrededor de tres facciones con estilos de juego claramente diferenciados. La propuesta combina combate en primera o tercera persona, exploración de escenarios tridimensionales, construcción y gestión de bases y secuencias de acción a gran escala, además de un marcado tono humorístico. Técnicamente fue una producción destacada de comienzos de los años 2000 por sus amplios entornos 3D, el uso de aceleración gráfica por hardware y tecnologías de sonido ambiental como Creative EAX. También incorpora multijugador mediante red local o TCP/IP para hasta 10 jugadores. Esta edición española en caja grande, identificada con la referencia FG-C95-749-SP y distribuida en 2 CD-ROM, presenta versión íntegra en castellano y constituye un ejemplo representativo de las ediciones europeas de Interplay distribuidas por Virgin Interactive durante la transición hacia el PC 3D de principios de siglo.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "Estuche jewel case",
+      "2 CD-ROM",
+      "Manual en castellano",
+      "Hoja de referencia de controles"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Giants Citizen Kabuto",
+      "Planet Moon Studios",
+      "Interplay",
+      "Virgin Interactive",
+      "Meccaryns",
+      "Sea Reapers",
+      "Kabuto",
+      "ciencia ficción",
+      "combate 3D",
+      "construcción de bases",
+      "multijugador LAN",
+      "TCP/IP",
+      "Creative EAX",
+      "aceleración 3D",
+      "edición española",
+      "versión íntegra en castellano",
+      "2 CD-ROM",
+      "Big Box PC",
+      "Windows 95",
+      "Windows 98",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar individualmente los dos CD-ROM mediante imágenes BIN/CUE y conservar digitalizados el manual y la hoja de referencia. La edición debe verificarse posteriormente para determinar si incorpora protección física o comprobación de disco específica. La ejecución virtual es viable mediante entornos Windows clásicos o soluciones modernas de compatibilidad gráfica.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000182",
+    "ig": "",
+    "titulo": "Beavis and Butt-Head: Bunghole in One",
+    "url": "juegos/beavis-and-butt-head-bunghole-in-one-bigbox/",
+    "plataforma": [
+      "Win95",
+      "MacOs"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Golf",
+      "Minigolf",
+      "Arcade",
+      "Comedia"
+    ],
+    "desarrollador": [
+      "Illusions Gaming Company"
+    ],
+    "distribuidor": [
+      "GT Interactive Software",
+      "GT Interactive Software (UK) Ltd"
+    ],
+    "ean": [],
+    "descripcion": "MTV's Beavis and Butt-Head: Bunghole in One es un juego de minigolf publicado en 1998 y basado en la serie de animación creada por Mike Judge. Desarrollado por Illusions Gaming Company en colaboración con MTV y comercializado por GT Interactive, propone 18 hoyos de diseño humorístico inspirados en escenarios y personajes del universo de Beavis and Butt-Head, con localizaciones como Burger World, el salón, Nacho Pitch o el campo psicodélico de Mr. Van Driessen. Permite jugar con varios personajes de la serie, incorpora diálogos y voces de Mike Judge y ofrece modo multijugador para hasta cuatro participantes. Esta edición europea en CD-ROM es compatible con Windows 95 y Macintosh y utiliza una presentación multimedia propia de finales de los noventa, combinando minigolf arcade con el humor irreverente de la licencia de MTV.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual multilingüe",
+      "Tarjeta de registro o documentación de GT Interactive"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Beavis and Butt-Head",
+      "MTV",
+      "Mike Judge",
+      "Illusions Gaming Company",
+      "GT Interactive",
+      "minigolf",
+      "golf arcade",
+      "humor irreverente",
+      "licencia televisiva",
+      "CD-ROM",
+      "Windows 95",
+      "Macintosh",
+      "edición europea",
+      "manual multilingüe",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE, junto con digitalización del manual multilingüe y de la documentación incluida. La ejecución virtual es viable en un entorno compatible con Windows 95 o mediante emulación de Macintosh clásico; conviene mantener la imagen del disco montada hasta verificar si esta edición realiza comprobación de presencia del CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1998",
+    "mercado": [
+      "Europa",
+      "Reino Unido",
+      "Francia",
+      "Alemania",
+      "Italia",
+      "España"
+    ],
+    "idioma": [
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -25033,57 +25201,6 @@
       "España"
     ],
     "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Beavis and Butt-Head: Bunghole in One",
-    "url": "juegos/beavis-and-butt-head-bunghole-in-one-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Deportes",
-      "Comedia"
-    ],
-    "desarrollador": [
-      "Sandbox Studios"
-    ],
-    "distribuidor": [
-      "GT Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Beavis and Butt-Head: Bunghole in One es un juego de golf humorístico desarrollado por Sandbox Studios y publicado por GT Interactive en 1998 para Windows 95/98. Inspirado en la serie animada de MTV, combina minijuegos de golf con las bromas y comentarios característicos de Beavis y Butt-Head. Los escenarios están repletos de obstáculos absurdos, referencias televisivas y animaciones cómicas. La edición en formato Big Box incluye voces originales en inglés y textos en castellano.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Comedia",
-      "Golf",
-      "MTV",
-      "GT Interactive",
-      "Beavis and Butt-Head"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [
-      "Español",
-      "Inglés"
-    ],
     "soporte": [],
     "tipo_edicion": []
   },
