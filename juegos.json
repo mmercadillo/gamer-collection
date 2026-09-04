@@ -13455,6 +13455,185 @@
     ]
   },
   {
+    "num": "000183",
+    "ig": "",
+    "titulo": "Return to Zork",
+    "url": "juegos/return-to-zork-2-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía"
+    ],
+    "desarrollador": [
+      "Activision (Infocom)"
+    ],
+    "distribuidor": [
+      "Activision"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica lanzada en agosto de 1993 para MsDos, con una versión compatible para Win95, Win98. Retoma el universo de Zork con gráficos point‑&‑click y secuencias de vídeo en vivo con actores. La historia transcurre después de los juegos originales de texto, investigando una anomalía oscura en el Valle de los Gorriones, y ofrece múltiples formas de resolver puzzles, estado emocional en diálogos y un sistema de cámara y grabación fotográfica.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    },
+    "anio": "",
+    "mercado": [],
+    "idioma": [],
+    "soporte": [],
+    "tipo_edicion": []
+  },
+  {
+    "num": "000184",
+    "ig": "",
+    "titulo": "FX Fighter Turbo",
+    "url": "juegos/fx-fighter-turbo-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Lucha",
+      "Arcade",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Argonaut Software"
+    ],
+    "distribuidor": [
+      "GTE Entertainment",
+      "BMG Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Versión mejorada del original *FX Fighter*, este título ofrece combates 1 vs 1 en entornos 3D con personajes alienígenas de distintos planetas. Incluye nuevos luchadores, movimientos especiales adicionales, mejoras gráficas y soporte para aceleración 3D. Su estilo recuerda a clásicos como *Virtua Fighter* o *Tekken*, pero con una ambientación futurista. Combina acción rápida con variedad de estilos de combate y escenarios.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    },
+    "anio": "",
+    "mercado": [],
+    "idioma": [],
+    "soporte": [],
+    "tipo_edicion": []
+  },
+  {
+    "num": "000185",
+    "ig": "",
+    "titulo": "Carnivores",
+    "url": "juegos/carnivores-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Action Forms"
+    ],
+    "distribuidor": [
+      "WizardWorks",
+      "Infogrames"
+    ],
+    "ean": [],
+    "descripcion": "Carnivores es un juego de caza en primera persona ambientado en un planeta prehistórico habitado por dinosaurios. El jugador debe rastrear y cazar diferentes especies utilizando armas y equipos, combinando exploración, sigilo y estrategia.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    },
+    "anio": "",
+    "mercado": [],
+    "idioma": [],
+    "soporte": [],
+    "tipo_edicion": []
+  },
+  {
+    "num": "000186",
+    "ig": "",
+    "titulo": "Creature Shock",
+    "url": "juegos/creature-shock-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Dungeon crawler",
+      "Shooter"
+    ],
+    "desarrollador": [
+      "Argonaut Software"
+    ],
+    "distribuidor": [
+      "Virgin Interactive, Data East (Saturn/PS)"
+    ],
+    "ean": [
+      "4961082500092",
+      "013252017030"
+    ],
+    "descripcion": "Shooter sci‑fi de 1994 que combina fases en rail‑shooter pre‑renderizadas con exploración en primera persona en un escenario de horror espacial. Sigues al comandante Jason Barr investigando una señal extraña desde una nave alienígena cerca de Saturno, enfrentándote a criaturas letales con puntos débiles específicos y secciones de pilotaje en entorno 3D.",
+    "incluye": [],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Big Box"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    },
+    "anio": "",
+    "mercado": [],
+    "idioma": [],
+    "soporte": [],
+    "tipo_edicion": []
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -14643,51 +14822,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Creature Shock",
-    "url": "juegos/creature-shock-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Dungeon crawler",
-      "Shooter"
-    ],
-    "desarrollador": [
-      "Argonaut Software"
-    ],
-    "distribuidor": [
-      "Virgin Interactive, Data East (Saturn/PS)"
-    ],
-    "ean": [
-      "4961082500092",
-      "013252017030"
-    ],
-    "descripcion": "Shooter sci‑fi de 1994 que combina fases en rail‑shooter pre‑renderizadas con exploración en primera persona en un escenario de horror espacial. Sigues al comandante Jason Barr investigando una señal extraña desde una nave alienígena cerca de Saturno, enfrentándote a criaturas letales con puntos débiles específicos y secciones de pilotaje en entorno 3D.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Crimson Skies",
     "url": "juegos/crimson-skies-bigbox/",
     "plataforma": [
@@ -15149,51 +15283,6 @@
     ],
     "ean": [],
     "descripcion": "Juego oficial de la temporada 1999 de Fórmula 1 con todos los equipos, pilotos y circuitos licenciados. Ofrece una mezcla entre simulación y estilo arcade, con modos de carrera rápida, gran premio, campeonato y multijugador. Mejora aspectos técnicos y jugables respecto a entregas anteriores, con un control más pulido, efectos climáticos y comentarios dinámicos durante las carreras.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "FX Fighter Turbo",
-    "url": "juegos/fx-fighter-turbo-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Lucha",
-      "Arcade",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Argonaut Software"
-    ],
-    "distribuidor": [
-      "GTE Entertainment",
-      "BMG Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Versión mejorada del original *FX Fighter*, este título ofrece combates 1 vs 1 en entornos 3D con personajes alienígenas de distintos planetas. Incluye nuevos luchadores, movimientos especiales adicionales, mejoras gráficas y soporte para aceleración 3D. Su estilo recuerda a clásicos como *Virtua Fighter* o *Tekken*, pero con una ambientación futurista. Combina acción rápida con variedad de estilos de combate y escenarios.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -18760,51 +18849,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Return to Zork",
-    "url": "juegos/return-to-zork-2-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Point and click",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Activision (Infocom)"
-    ],
-    "distribuidor": [
-      "Activision"
-    ],
-    "ean": [],
-    "descripcion": "Aventura gráfica lanzada en agosto de 1993 para MsDos, con una versión compatible para Win95, Win98. Retoma el universo de Zork con gráficos point‑&‑click y secuencias de vídeo en vivo con actores. La historia transcurre después de los juegos originales de texto, investigando una anomalía oscura en el Valle de los Gorriones, y ofrece múltiples formas de resolver puzzles, estado emocional en diálogos y un sistema de cámara y grabación fotográfica.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Myst III: Exile",
     "url": "juegos/myst-iii-exile-bigbox/",
     "plataforma": [
@@ -21603,50 +21647,6 @@
     ],
     "ean": [],
     "descripcion": "Invictus: In the Shadow of Olympus combina estrategia en tiempo real con elementos de rol en un mundo inspirado en la mitología griega. El jugador controla héroes, criaturas y ejércitos mitológicos mientras completa misiones y resuelve conflictos entre los dioses del Olimpo.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Carnivores",
-    "url": "juegos/carnivores-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Simulación"
-    ],
-    "desarrollador": [
-      "Action Forms"
-    ],
-    "distribuidor": [
-      "WizardWorks",
-      "Infogrames"
-    ],
-    "ean": [],
-    "descripcion": "Carnivores es un juego de caza en primera persona ambientado en un planeta prehistórico habitado por dinosaurios. El jugador debe rastrear y cazar diferentes especies utilizando armas y equipos, combinando exploración, sigilo y estrategia.",
     "incluye": [],
     "serie": [
       "Todos",
