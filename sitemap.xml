@@ -256,8 +256,8 @@
   <url><loc>https://pcgamearchive.org/distribuidores/microids/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/microsoft-game-studios/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/virgin-interactive-entertainment/</loc></url>
-  <url><loc>https://pcgamearchive.org/distribuidores/2k-games/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/friendware/</loc></url>
+  <url><loc>https://pcgamearchive.org/distribuidores/2k-games/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/mindscape/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/strategic-simulations-inc/</loc></url>
   <url><loc>https://pcgamearchive.org/distribuidores/cryo-interactive/</loc></url>
@@ -357,8 +357,8 @@
   <url><loc>https://pcgamearchive.org/generos/construccion/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/mundo-abierto/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/sigilo/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/wargame/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/terror/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/wargame/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/belico/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/puzzle/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/gestion-deportiva/</loc></url>
@@ -409,6 +409,7 @@
   <url><loc>https://pcgamearchive.org/generos/gestion-de-recursos/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-aerea/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-militar/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/estrategia-deportiva/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/guerra/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/manager-deportivo/</loc></url>
@@ -416,13 +417,13 @@
   <url><loc>https://pcgamearchive.org/generos/shooter-en-tercera-persona/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-de-vuelo/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-futbolistica/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/construccion-y-gestion/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/crimen/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/formula-1/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/hack-y-slash/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/rpg/</loc></url>
+  <url><loc>https://pcgamearchive.org/generos/shooter-sobre-railes/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/shooter-tactico/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulacion-naval/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/simulador-de-vuelo/</loc></url>
@@ -434,7 +435,6 @@
   <url><loc>https://pcgamearchive.org/generos/infantil/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/isometrico/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/rol-de-accion/</loc></url>
-  <url><loc>https://pcgamearchive.org/generos/shooter-sobre-railes/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/supervivencia/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/western/</loc></url>
   <url><loc>https://pcgamearchive.org/generos/automovilismo/</loc></url>
@@ -501,6 +501,8 @@
   <url><loc>https://pcgamearchive.org/idiomas/ingles/</loc></url>
   <url><loc>https://pcgamearchive.org/idiomas/multilingue/</loc></url>
   <url><loc>https://pcgamearchive.org/idiomas/italiano/</loc></url>
+  <url><loc>https://pcgamearchive.org/idiomas/aleman/</loc></url>
+  <url><loc>https://pcgamearchive.org/idiomas/frances/</loc></url>
   <url><loc>https://pcgamearchive.org/soportes/</loc></url>
   <url><loc>https://pcgamearchive.org/soportes/cd-rom/</loc></url>
   <url><loc>https://pcgamearchive.org/soportes/disquete-3-5/</loc></url>
@@ -2701,6 +2703,54 @@
     </image:image>
   </url>
   <url>
+    <loc>https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pcgamearchive.org/juegos/carnivores-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/carnivores-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/carnivores-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/carnivores-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://pcgamearchive.org/juegos/creature-shock-bigbox/</loc>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/creature-shock-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/creature-shock-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pcgamearchive.org/juegos/creature-shock-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://pcgamearchive.org/juegos/colossus-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/colossus-bigbox/img/001.jpg</image:loc>
@@ -2968,18 +3018,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://pcgamearchive.org/juegos/creature-shock-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/creature-shock-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/creature-shock-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/creature-shock-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://pcgamearchive.org/juegos/crimson-skies-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/crimson-skies-bigbox/img/001.jpg</image:loc>
@@ -3097,18 +3135,6 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/formula-one-99-bigbox/img/002.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -4027,18 +4053,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/return-to-zork-2-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://pcgamearchive.org/juegos/myst-iii-exile-bigbox/</loc>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/myst-iii-exile-bigbox/img/001.jpg</image:loc>
@@ -4738,18 +4752,6 @@
     </image:image>
     <image:image>
       <image:loc>https://pcgamearchive.org/juegos/invictus-in-the-shadow-of-olympus-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://pcgamearchive.org/juegos/carnivores-bigbox/</loc>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/carnivores-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/carnivores-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://pcgamearchive.org/juegos/carnivores-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>

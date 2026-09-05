@@ -13456,48 +13456,83 @@
   },
   {
     "num": "000183",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/Dc5YjELCMB9",
     "titulo": "Return to Zork",
     "url": "juegos/return-to-zork-2-bigbox/",
     "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98"
+      "MsDos"
     ],
     "formato": "Big Box",
     "genero": [
       "Aventura gráfica",
       "Point and click",
+      "Aventura en primera persona",
       "Fantasía"
     ],
     "desarrollador": [
-      "Activision (Infocom)"
+      "Infocom"
     ],
     "distribuidor": [
-      "Activision"
+      "Activision",
+      "Infocom"
     ],
     "ean": [],
-    "descripcion": "Aventura gráfica lanzada en agosto de 1993 para MsDos, con una versión compatible para Win95, Win98. Retoma el universo de Zork con gráficos point‑&‑click y secuencias de vídeo en vivo con actores. La historia transcurre después de los juegos originales de texto, investigando una anomalía oscura en el Valle de los Gorriones, y ofrece múltiples formas de resolver puzzles, estado emocional en diálogos y un sistema de cámara y grabación fotográfica.",
-    "incluye": [],
+    "descripcion": "Return to Zork es una aventura gráfica publicada en 1993 que recuperó el universo de Zork en una etapa muy distinta de las clásicas aventuras conversacionales de Infocom. El juego abandona la interacción exclusivamente textual y adopta una perspectiva en primera persona controlada mediante ratón, combinando escenarios digitalizados, personajes interpretados por actores, secuencias audiovisuales y una estructura de exploración y resolución de puzles. Ambientado nuevamente en el Great Underground Empire, comienza en el Valle de los Gorriones y desarrolla una historia en la que el regreso de fuerzas oscuras amenaza un mundo que creía haber dejado atrás su pasado mágico. Fue una producción representativa de la transición de la aventura para PC hacia formatos multimedia durante los primeros años noventa. La edición catalogada corresponde a la versión para MS-DOS distribuida en doce disquetes de 3,5 pulgadas, anterior a la consolidación del CD-ROM como soporte dominante, y conserva documentación vinculada al universo de Zork como la Encyclopedia Frobozzica. La caja identifica el programa en inglés y documentación destinada también a usuarios francófonos y germanófonos, característica propia de una distribución europea multilingüe.",
+    "incluye": [
+      "Caja Big Box",
+      "12 disquetes de 3,5 pulgadas",
+      "Manual de instrucciones",
+      "Encyclopedia Frobozzica",
+      "Hoja de instalación de la versión en disquetes",
+      "Documentación impresa adicional",
+      "Tarjeta promocional de sorteo"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Return to Zork",
+      "Zork",
+      "Infocom",
+      "Activision",
+      "Great Underground Empire",
+      "Valley of the Sparrows",
+      "aventura multimedia",
+      "actores digitalizados",
+      "FMV",
+      "MS-DOS",
+      "disquetes 3.5",
+      "12 disquetes",
+      "edición europea",
+      "documentación multilingüe",
+      "Big Box PC",
+      "PC clásico",
+      "1993",
+      "preservación"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición distribuida en doce disquetes de 3,5 pulgadas. Para una preservación adecuada se recomienda realizar una imagen sectorial individual de cada disco, conservar el orden original de instalación y digitalizar la documentación impresa asociada, especialmente la Encyclopedia Frobozzica y las instrucciones de instalación. La ejecución es viable en entornos MS-DOS virtualizados como DOSBox una vez preservados correctamente los soportes.",
+      "formato": "Otro",
+      "jugable_virtual": true
     },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
+    "anio": "1993",
+    "mercado": [
+      "Europa"
+    ],
+    "idioma": [
+      "Inglés",
+      "Francés",
+      "Alemán"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
   },
   {
     "num": "000184",
@@ -13505,12 +13540,12 @@
     "titulo": "FX Fighter Turbo",
     "url": "juegos/fx-fighter-turbo-bigbox/",
     "plataforma": [
-      "Win95",
-      "Win98"
+      "Win95"
     ],
     "formato": "Big Box",
     "genero": [
       "Lucha",
+      "Lucha 3D",
       "Arcade",
       "Ciencia ficción"
     ],
@@ -13521,28 +13556,63 @@
       "GTE Entertainment",
       "BMG Interactive"
     ],
-    "ean": [],
-    "descripcion": "Versión mejorada del original *FX Fighter*, este título ofrece combates 1 vs 1 en entornos 3D con personajes alienígenas de distintos planetas. Incluye nuevos luchadores, movimientos especiales adicionales, mejoras gráficas y soporte para aceleración 3D. Su estilo recuerda a clásicos como *Virtua Fighter* o *Tekken*, pero con una ambientación futurista. Combina acción rápida con variedad de estilos de combate y escenarios.",
-    "incluye": [],
+    "ean": [
+      "8712581051976"
+    ],
+    "descripcion": "FX Fighter Turbo es una versión ampliada y mejorada de FX Fighter, desarrollada por Argonaut Software para PC y publicada en 1996. Mantiene el combate uno contra uno con luchadores alienígenas representados mediante gráficos poligonales 3D y amplía el original con nuevos personajes, entre ellos Kwondo y Linna, además de movimientos y contenidos adicionales. Una de sus características más destacadas es la incorporación de juego multijugador mediante red IPX y conexión directa módem a módem, funcionalidad promocionada expresamente en esta edición y especialmente significativa en el contexto del PC de mediados de los años noventa. Su ambientación de ciencia ficción, arenas tridimensionales y enfoque competitivo lo sitúan dentro de la primera generación de juegos de lucha 3D desarrollados específicamente para ordenadores compatibles. Esta edición europea para Windows 95 se distribuyó en CD-ROM y caja grande con presentación multilingüe.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "FX Fighter Turbo",
+      "FX Fighter",
+      "Argonaut Software",
+      "GTE Entertainment",
+      "BMG Interactive",
+      "Philips",
+      "Windows 95",
+      "PC CD-ROM",
+      "gráficos poligonales 3D",
+      "juego en red",
+      "IPX",
+      "módem a módem",
+      "multijugador",
+      "luchadores alienígenas",
+      "edición europea",
+      "Big Box PC",
+      "preservación PC"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización del manual y de la documentación exterior. Al no haberse identificado de forma concluyente un sistema anticopia concreto, conviene conservar una imagen BIN/CUE y verificar la instalación y ejecución en un entorno Windows 95 virtualizado o emulado compatible.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
+    "anio": "1996",
+    "mercado": [
+      "Europa"
+    ],
+    "idioma": [
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Neerlandés",
+      "Italiano",
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición"
+    ]
   },
   {
     "num": "000185",
@@ -13556,37 +13626,69 @@
     "formato": "Big Box",
     "genero": [
       "Acción",
-      "Simulación"
+      "Shooter en primera persona",
+      "Simulación de caza"
     ],
     "desarrollador": [
       "Action Forms"
     ],
     "distribuidor": [
       "WizardWorks",
-      "Infogrames"
+      "Friendware"
     ],
     "ean": [],
-    "descripcion": "Carnivores es un juego de caza en primera persona ambientado en un planeta prehistórico habitado por dinosaurios. El jugador debe rastrear y cazar diferentes especies utilizando armas y equipos, combinando exploración, sigilo y estrategia.",
-    "incluye": [],
+    "descripcion": "Carnivores es un juego de acción y caza en primera persona desarrollado por Action Forms y publicado por WizardWorks en 1998. Su premisa traslada al jugador a un planeta remoto poblado por dinosaurios prehistóricos, donde debe explorar amplios entornos tridimensionales, localizar presas y decidir entre abatirlas o emplear tranquilizantes. El juego combina desplazamiento libre, observación del terreno, selección de equipo y comportamiento diferenciado de las criaturas, incluyendo especies como Stegosaurus, Velociraptor y Tyrannosaurus rex. La edición documentada corresponde a la distribución española de Friendware en formato Big Box para Windows 95/98, con textos de caja y documentación en castellano. Técnicamente representa la primera etapa de los juegos de caza tridimensionales para PC de finales de los noventa, con escenarios abiertos, fauna dotada de inteligencia y comportamiento propio y renderizado 3D característico de la época. La edición ya figuraba en el catálogo preliminar del archivo con compatibilidad Windows 95/98 y autoría de Action Forms. ",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Tarjeta postal o de registro Friendware"
+    ],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Carnivores",
+      "Action Forms",
+      "WizardWorks",
+      "Friendware",
+      "dinosaurios",
+      "Tyrannosaurus rex",
+      "Velociraptor",
+      "Stegosaurus",
+      "caza de dinosaurios",
+      "planeta prehistórico",
+      "entornos 3D",
+      "inteligencia artificial",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "CD-ROM",
+      "Big Box PC",
+      "PC clásico",
+      "preservación PC"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa BIN/CUE y digitalizar el manual y la documentación de Friendware. No existe evidencia suficiente en la edición documentada para afirmar un sistema anticopia concreto. La ejecución virtual es viable mediante un entorno Windows 95/98 correctamente configurado o soluciones modernas de compatibilidad para juegos DirectX de finales de los noventa.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
+    "anio": "1998",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
   },
   {
     "num": "000186",
@@ -13598,40 +13700,77 @@
     ],
     "formato": "Big Box",
     "genero": [
+      "Shooter sobre raíles",
+      "Acción en primera persona",
       "Dungeon crawler",
-      "Shooter"
+      "Ciencia ficción",
+      "Terror"
     ],
     "desarrollador": [
       "Argonaut Software"
     ],
     "distribuidor": [
-      "Virgin Interactive, Data East (Saturn/PS)"
+      "Virgin Interactive Entertainment",
+      "Arcadia"
     ],
-    "ean": [
-      "4961082500092",
-      "013252017030"
+    "ean": [],
+    "descripcion": "Creature Shock es un videojuego de ciencia ficción desarrollado por Argonaut Software y publicado originalmente en 1994 para PC MS-DOS. Concebido durante el auge del CD-ROM multimedia, combina secuencias de disparo sobre raíles con exploración y combate en primera persona dentro de entornos prerenderizados de temática biomecánica y horror espacial. Su producción destacó técnicamente por el uso intensivo de animaciones renderizadas, vídeo a pantalla completa y una gran cantidad de datos distribuidos en dos CD-ROM, algo todavía poco habitual en el mercado doméstico de la época. La aventura sitúa al jugador en una misión destinada a investigar la desaparición de una nave enviada a buscar nuevos mundos habitables tras el deterioro ambiental de la Tierra. Esta edición española en caja grande fue distribuida por Arcadia bajo el sello de Virgin Interactive y conserva especial interés documental como ejemplo de las producciones multimedia de gran capacidad que anticiparon la expansión del videojuego basado en CD-ROM durante la segunda mitad de los años noventa.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "2 CD-ROM",
+      "Caja jewel case",
+      "Manual",
+      "Addendum multilingüe",
+      "Folleto publicitario"
     ],
-    "descripcion": "Shooter sci‑fi de 1994 que combina fases en rail‑shooter pre‑renderizadas con exploración en primera persona en un escenario de horror espacial. Sigues al comandante Jason Barr investigando una señal extraña desde una nave alienígena cerca de Saturno, enfrentándote a criaturas letales con puntos débiles específicos y secciones de pilotaje en entorno 3D.",
-    "incluye": [],
     "serie": [
       "Todos",
       "Big Box"
     ],
     "tags": [
-      "Big Box"
+      "Creature Shock",
+      "Argonaut Software",
+      "Virgin Interactive",
+      "Arcadia",
+      "MS-DOS",
+      "CD-ROM",
+      "doble CD",
+      "Full Motion Video",
+      "FMV",
+      "gráficos prerenderizados",
+      "horror espacial",
+      "ciencia ficción",
+      "rail shooter",
+      "primera persona",
+      "multimedia CD-ROM",
+      "edición española",
+      "Big Box PC",
+      "PC clásico",
+      "años 90",
+      "preservación PC"
     ],
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
+      "preservacion": "Edición distribuida en dos CD-ROM. Para una preservación completa se recomienda crear imágenes BIN/CUE de ambos discos, conservando posibles pistas de audio y la estructura original de las sesiones, además de digitalizar manual, addendum y demás documentación física. La ejecución es viable mediante un entorno MS-DOS virtualizado compatible.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
     },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
+    "anio": "1994",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés",
+      "Multilingüe"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
   },
   {
     "num": "000000",
