@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://pcgamearchive.org/schemas/juego.schema.json",
+  "$id": "https://www.pcgamearchive.org/schemas/juego.schema.json",
   "title": "Ficha de juego",
   "type": "object",
   "additionalProperties": false,

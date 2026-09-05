@@ -13,7 +13,7 @@ El proyecto está centrado especialmente en:
 
 Sitio web oficial:
 
-https://pcgamearchive.org
+https://www.pcgamearchive.org
 
 Instagram:
 
@@ -169,7 +169,7 @@ La web utiliza:
 Ejemplo de URL:
 
 ```text
-https://pcgamearchive.org/juegos/diablo-bigbox/
+https://www.pcgamearchive.org/juegos/diablo-bigbox/
 ```
 
 ---
@@ -200,8 +200,8 @@ canónica para evitar separar métricas entre `/` y `/index.html` o entre
 
 # URLs y SEO técnico
 
-- La portada canónica es `https://pcgamearchive.org/`.
-- Las fichas usan como URL canónica `https://pcgamearchive.org/juegos/<slug>/`.
+- La portada canónica es `https://www.pcgamearchive.org/`.
+- Las fichas usan como URL canónica `https://www.pcgamearchive.org/juegos/<slug>/`.
 - Los enlaces internos no incluyen `index.html`.
 - `bigbox.html` se mantiene solo como compatibilidad y redirige a `juegos-pc-big-box.html`.
 - `detalle.html?juego=<slug>` redirige las antiguas fichas dinámicas a la ficha estática actual.
@@ -284,7 +284,7 @@ Las imágenes, logotipos y materiales físicos documentados pertenecen a sus res
 
 Web:
 
-https://pcgamearchive.org
+https://www.pcgamearchive.org
 
 Instagram:
 

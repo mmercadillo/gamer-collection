@@ -11,7 +11,7 @@ No se plantea pagar por tráfico genérico de nostalgia, nombres de juegos o bú
 - Search.
 - Ubicación: España.
 - Idioma: español.
-- Una sola landing: `https://pcgamearchive.org/vender-videojuegos-pc-antiguos/`.
+- Una sola landing: `https://www.pcgamearchive.org/vender-videojuegos-pc-antiguos/`.
 - Empezar con concordancia exacta y de frase.
 - Ampliar únicamente cuando exista suficiente información en el informe de términos de búsqueda.
 

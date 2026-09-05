@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pcgamearchive.org/sitemap.xml
+Sitemap: https://www.pcgamearchive.org/sitemap.xml

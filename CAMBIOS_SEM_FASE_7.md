@@ -58,7 +58,7 @@ En la consola del navegador:
 
 Debe contener:
 
-`https://pcgamearchive.org/vender-videojuegos-pc-antiguos/?utm_source=google&utm_medium=cpc&utm_campaign=pcga_captacion&utm_term=vender+juegos+pc&utm_content=rsa01&gclid=TEST123`
+`https://www.pcgamearchive.org/vender-videojuegos-pc-antiguos/?utm_source=google&utm_medium=cpc&utm_campaign=pcga_captacion&utm_term=vender+juegos+pc&utm_content=rsa01&gclid=TEST123`
 
 Una URL funcional como:
 
@@ -66,7 +66,7 @@ Una URL funcional como:
 
 mantiene como `PCGA_TRACKING_LOCATION`:
 
-`https://pcgamearchive.org/`
+`https://www.pcgamearchive.org/`
 
 ## Configuración manual necesaria en Google Analytics / Google Ads
 

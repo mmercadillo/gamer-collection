@@ -24,7 +24,7 @@ Uso recomendado:
 
 Uso alternativo generando en otra carpeta:
   python generar_web.py --catalogo juegos.json --out dist
-  python generar_web.py --base-url https://pcgamearchive.org
+  python generar_web.py --base-url https://www.pcgamearchive.org
 
 Notas:
   - Por defecto genera in-place, en el directorio actual.
@@ -58,7 +58,7 @@ from typing import Any
 from urllib.parse import quote
 
 SITE_NAME = "PC Game Archive"
-DEFAULT_BASE_URL = "https://pcgamearchive.org"
+DEFAULT_BASE_URL = "https://www.pcgamearchive.org"
 GA_ID = "G-SQN0WTMVP3"
 OG_IMAGE = "/no_disponible.png"
 PENDING_NUM = "000000"

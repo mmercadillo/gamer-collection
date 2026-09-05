@@ -9,15 +9,15 @@
 (function(){
   var params=new URLSearchParams(location.search);
   var slug=(params.get('juego')||'').trim().toLowerCase();
-  var target="https://pcgamearchive.org/";
+  var target="https://www.pcgamearchive.org/";
   if(/^[a-z0-9-]+$/.test(slug)){
-    target="https://pcgamearchive.org/juegos/"+slug+'/';
+    target="https://www.pcgamearchive.org/juegos/"+slug+'/';
   }
   location.replace(target);
 })();
 </script>
 </head>
 <body>
-<p>La ficha se ha trasladado. <a href="https://pcgamearchive.org/">Ir a PC Game Archive</a>.</p>
+<p>La ficha se ha trasladado. <a href="https://www.pcgamearchive.org/">Ir a PC Game Archive</a>.</p>
 </body>
 </html>
