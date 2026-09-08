@@ -13773,6 +13773,327 @@
     ]
   },
   {
+    "num": "000187",
+    "ig": "",
+    "titulo": "Hidden & Dangerous",
+    "url": "juegos/hidden-and-dangerous-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Shooter táctico",
+      "Táctica en tiempo real",
+      "Acción táctica",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Illusion Softworks"
+    ],
+    "distribuidor": [
+      "TalonSoft",
+      "Take-Two Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "5026555031752"
+    ],
+    "descripcion": "Hidden & Dangerous es un shooter táctico en 3D ambientado en la Segunda Guerra Mundial, desarrollado por Illusion Softworks y publicado originalmente en 1999. El jugador dirige un equipo de cuatro comandos aliados en operaciones tras las líneas enemigas, combinando control directo en primera o tercera persona con planificación táctica sobre mapas, selección de soldados, equipamiento y coordinación de movimientos. La campaña se estructura en 23 misiones repartidas en seis campañas e incorpora vehículos históricos, inteligencia artificial orientada al sigilo y acción cooperativa para hasta cuatro jugadores en red. Su uso de entornos tridimensionales acelerados mediante Direct3D y la mezcla de acción, infiltración y mando de escuadra lo sitúan entre los primeros referentes del shooter táctico 3D en PC. Esta edición española en caja grande, distribuida por Proein y anunciada como totalmente en castellano, conserva el lanzamiento comercial en CD-ROM para Windows 95/98.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Hidden & Dangerous",
+      "Illusion Softworks",
+      "TalonSoft",
+      "Take-Two Interactive",
+      "Proein",
+      "Segunda Guerra Mundial",
+      "comandos",
+      "SAS",
+      "shooter táctico 3D",
+      "infiltración",
+      "combate por escuadras",
+      "Direct3D",
+      "multijugador cooperativo",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "totalmente en castellano",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "",
+      "preservacion": "Edición distribuida en CD-ROM con protección SafeDisc. Para preservación conviene realizar una imagen que conserve la estructura y los sectores característicos del disco original, preferiblemente en MDF/MDS, junto con la digitalización del manual y la caja. La ejecución virtual es viable en un entorno Windows 95/98 adecuadamente configurado, aunque SafeDisc presenta incompatibilidades con versiones modernas de Windows.",
+      "formato": "MDF/MDS",
+      "jugable_virtual": true
+    },
+    "anio": "1999",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000188",
+    "ig": "",
+    "titulo": "Dragon Lore II: El Corazón del Dragón",
+    "url": "juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Aventura en primera persona",
+      "Aventura de acción",
+      "Fantasía medieval"
+    ],
+    "desarrollador": [
+      "Cryo Interactive Entertainment"
+    ],
+    "distribuidor": [
+      "Cryo Interactive Entertainment",
+      "ERBE Software"
+    ],
+    "ean": [],
+    "descripcion": "Dragon Lore II: El Corazón del Dragón es la segunda entrega de la serie Dragon Lore, desarrollada por Cryo Interactive Entertainment y publicada en 1996. Continúa la historia de Werner von Wallenrod, ya convertido en Caballero Dragón, en una aventura de fantasía medieval centrada en la búsqueda de su dragón protector Maraach y en la defensa del Valle de los Sueños. Su propuesta combina exploración en primera persona, diálogos, resolución de situaciones y secuencias de combate, con escenarios y personajes modelados en 3D y una presentación audiovisual característica de las producciones multimedia de Cryo de mediados de los noventa. La edición española distribuida por ERBE se comercializó en caja grande y utiliza tres CD-ROM, constituyendo una pieza representativa de la etapa de expansión del CD-ROM en el PC europeo.",
+    "incluye": [
+      "Caja Big Box",
+      "Estuche jewel case",
+      "3 CD-ROM",
+      "Manual de instrucciones",
+      "Tarjeta de registro de Cryo Espagne"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Dragon Lore",
+      "Dragon Lore II",
+      "Cryo Interactive",
+      "ERBE Software",
+      "Werner von Wallenrod",
+      "Maraach",
+      "Valle de los Sueños",
+      "fantasía medieval",
+      "primera persona",
+      "gráficos 3D",
+      "multimedia",
+      "MS-DOS",
+      "3 CD-ROM",
+      "edición española",
+      "Big Box PC",
+      "PC clásico",
+      "1996",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar los tres CD-ROM mediante imágenes completas de disco, manteniendo identificados el orden y la correspondencia de cada volumen, y digitalizar el manual y la tarjeta de registro. La edición es ejecutable en entornos DOS virtualizados, por lo que conviene conservar también la configuración de instalación y los nombres originales de los discos.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000189",
+    "ig": "",
+    "titulo": "Battleground: Napoleon in Russia 1812",
+    "url": "juegos/battleground-napoleon-in-russia-1812-bigbox/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Wargame",
+      "Estrategia por turnos",
+      "Simulación bélica",
+      "Estrategia histórica",
+      "Táctica por hexágonos"
+    ],
+    "desarrollador": [
+      "TalonSoft"
+    ],
+    "distribuidor": [
+      "TalonSoft",
+      "Empire Interactive"
+    ],
+    "ean": [
+      "0744788550868"
+    ],
+    "descripcion": "Battleground: Napoleón en Rusia 1812 es un wargame táctico por turnos de TalonSoft publicado en 1997 y editado en esta versión europea por Empire Interactive. Recrea la campaña de Borodinó de septiembre de 1812 y permite dirigir a las fuerzas napoleónicas o rusas en la batalla principal y en los enfrentamientos de Shevardino, Utitza y Kolocha. Su sistema BattleView combina una representación 3D del campo de batalla con un mapa estratégico 2D, utilizando unidades organizadas en regimientos y una escala detallada por hexágonos. La edición también documenta inteligencia artificial dinámica y partidas para dos jugadores mediante módem, cable serie o correo electrónico, rasgos representativos del wargame de PC de mediados de los noventa. Esta edición física en caja grande, localizada al castellano para Windows 3.1 y Windows 95, conserva especial interés por su documentación y por el enfoque histórico y operacional de la serie Battleground.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual del usuario",
+      "Hoja de instrucciones de carga"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Battleground",
+      "Napoleon in Russia",
+      "TalonSoft",
+      "Empire Interactive",
+      "guerras napoleónicas",
+      "campaña de Rusia de 1812",
+      "Borodinó",
+      "Shevardino",
+      "Utitza",
+      "Kolocha",
+      "hexágonos",
+      "BattleView",
+      "multijugador por módem",
+      "juego por correo electrónico",
+      "Windows 3.1",
+      "Windows 95",
+      "CD-ROM",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "No se ha identificado de forma concluyente un sistema anticopia específico en la edición mostrada. Para preservación se recomienda realizar una imagen completa del CD-ROM, conservar digitalizaciones del manual y de la hoja de carga y documentar la versión instalada antes de ejecutarla en un entorno Windows 3.1/95 virtualizado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1997",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000190",
+    "ig": "",
+    "titulo": "Schizm: Mysterious Journey",
+    "url": "juegos/schizm-mysterious-journey-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Aventura en primera persona",
+      "Puzzle",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Detalion",
+      "LK Avalon"
+    ],
+    "distribuidor": [
+      "Project Three Interactive",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Schizm: Mysterious Journey es una aventura gráfica de ciencia ficción en primera persona creada por Detalion y LK Avalon. Ambientada en 2083, lleva a los tripulantes Sam Mainey y Hannah Grant al planeta Argilus, donde una expedición científica y la civilización alienígena que estudiaba han desaparecido sin dejar rastro. El juego emplea el motor V-Cruise para recorrer escenarios 3D prerenderizados mediante panoramas de 360 grados y construye una experiencia no violenta centrada en exploración y puzles mecánicos, lógicos, sonoros y de inventario; además, permite alternar entre dos protagonistas cuya cooperación resulta necesaria en determinados enigmas. El argumento contó con la participación del escritor australiano de ciencia ficción Terry Dowling. Esta edición española de 2002 fue distribuida por Friendware a través de Project Three Interactive después de que la prevista distribución por Dinamic Multimedia quedara frustrada por el cierre de la compañía. Se comercializó en caja grande, repartida en 5 CD-ROM y completamente localizada al castellano, conservando especial interés como edición española tardía de la etapa clásica de las aventuras tipo Myst en soporte óptico.",
+    "incluye": [
+      "Caja Big Box",
+      "Estuche jewel case",
+      "5 CD-ROM",
+      "Manual de instrucciones",
+      "Tarjeta de registro Friendware"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Schizm",
+      "Mysterious Journey",
+      "Argilus",
+      "Detalion",
+      "LK Avalon",
+      "Project Three Interactive",
+      "Friendware",
+      "Terry Dowling",
+      "V-Cruise",
+      "panoramas 360 grados",
+      "gráficos prerenderizados",
+      "dos protagonistas",
+      "aventura no violenta",
+      "Myst-like",
+      "edición española",
+      "íntegramente en castellano",
+      "5 CD-ROM",
+      "Big Box PC",
+      "Windows clásico",
+      "Dinamic Multimedia",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en 5 CD-ROM. Para preservación se recomienda crear una imagen completa de cada disco, conservar hashes de verificación y digitalizar el manual y la tarjeta de registro. Al no estar documentado de forma concluyente el sistema anticopia de esta edición española, conviene preservar los discos sector a sector y verificar la instalación y ejecución en un entorno Windows 95/98/Me/2000 virtualizado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2002",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -23278,58 +23599,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Hidden & Dangerous",
-    "url": "juegos/hidden-and-dangerous-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Táctica",
-      "Shooter",
-      "Acción",
-      "Segunda Guerra Mundial"
-    ],
-    "desarrollador": [
-      "Illusion Softworks"
-    ],
-    "distribuidor": [
-      "Take-Two Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Hidden & Dangerous es un juego de acción táctica en tercera persona ambientado en la Segunda Guerra Mundial. El jugador lidera un escuadrón de fuerzas especiales británicas en misiones tras las líneas enemigas, combinando sigilo, estrategia, control de escuadra y combate intenso en entornos realistas.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Táctica",
-      "Shooter",
-      "Segunda Guerra Mundial",
-      "Sigilo",
-      "Fuerzas especiales",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Jack Nicklaus 6: Golden Bear Challenge",
     "url": "juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/",
     "plataforma": [
@@ -24941,60 +25210,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Dragon Lore II: El Corazón del Dragón",
-    "url": "juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win3.x",
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Cryo Interactive"
-    ],
-    "distribuidor": [
-      "Mindscape"
-    ],
-    "ean": [],
-    "descripcion": "Dragon Lore II: El Corazón del Dragón es una aventura gráfica en primera persona desarrollada por Cryo Interactive y lanzada en 1996 como secuela directa del clásico Dragon Lore. El jugador vuelve a encarnar a Werner von Wallenrod en una historia de fantasía épica con castillos, bestias mágicas y secretos antiguos. Presenta entornos prerenderizados, doblaje en varios idiomas, combate ocasional y exploración en 3D por nodos. Su edición Big Box fue distribuida en Europa en múltiples versiones, incluyendo doblaje y textos en castellano en la edición española.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Aventura gráfica",
-      "Cryo Interactive",
-      "Fantasía",
-      "Mindscape"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [
-      "España",
-      "Europa"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Conquest: Frontier Wars",
     "url": "juegos/conquest-frontier-wars-bigbox/",
     "plataforma": [
@@ -26540,55 +26755,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Schizm: Mysterious Journey",
-    "url": "juegos/schizm-mysterious-journey-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura grafica",
-      "Puzles",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Detalion"
-    ],
-    "distribuidor": [
-      "DreamCatcher Interactive",
-      "Friendware"
-    ],
-    "ean": [],
-    "descripcion": "Schizm: Mysterious Journey es una aventura gráfica en primera persona ambientada en el planeta Argilus. Tras el misterioso abandono de una colonia humana, el jugador deberá explorar entornos industriales y orgánicos resolviendo complejos puzles basados en lógica, lenguaje y tecnología alienígena. Destaca por su estructura narrativa dividida entre dos protagonistas y por su ambientación de ciencia ficción con escenarios prerenderizados.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box",
-      "Aventura grafica",
-      "Sci-Fi",
-      "Puzles",
-      "Friendware"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Wild Metal Country",
     "url": "juegos/wild-metal-country-bigbox/",
     "plataforma": [
@@ -27086,59 +27252,6 @@
       "Aventura",
       "Edición española",
       "Friendware"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Battleground: Napoleon in Russia 1812",
-    "url": "juegos/battleground-napoleon-in-russia-1812-bigbox/",
-    "plataforma": [
-      "Win3.x",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Wargame",
-      "Turnos"
-    ],
-    "desarrollador": [
-      "TalonSoft"
-    ],
-    "distribuidor": [
-      "Empire Interactive"
-    ],
-    "ean": [
-      "744788550866"
-    ],
-    "descripcion": "Wargame táctico ambientado en la campaña de Rusia de 1812 durante las guerras napoleónicas. El jugador dirige ejércitos imperiales o aliados en batallas históricas utilizando mapas hexagonales, unidades detalladas y un sistema de combate que combina visión estratégica en 2D con recreaciones tácticas del campo de batalla.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Napoleónico",
-      "Wargame",
-      "TalonSoft",
-      "Historia",
-      "Estrategia militar",
-      "Edición española"
     ],
     "proteccion": {
       "tipo": "No determinado",

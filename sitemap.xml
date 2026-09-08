@@ -78,9 +78,9 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/dinamic-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/maxis/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/cryo-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ubisoft-montreal/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/blizzard-entertainment/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/cryo-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/impressions-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/codemasters/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ensemble-studios/</loc></url>
@@ -153,6 +153,7 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/bohemia-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/bullfrog-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/capcom/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/cryo-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/daedalic-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/deep-red-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/digital-reality/</loc></url>
@@ -190,7 +191,6 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/blue-fang-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cd-projekt-red/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/climax-brighton/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/cryo-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cyan-worlds/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cyberlore-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/dice/</loc></url>
@@ -246,8 +246,8 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-on-line/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/codemasters/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/blizzard-entertainment/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/erbe-software/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sega/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/thq/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/atari/</loc></url>
@@ -258,22 +258,22 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/friendware/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/2k-games/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/mindscape/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategic-simulations-inc/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/cryo-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microprose/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/mindscape/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ea-sports/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/gathering-of-developers/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/acclaim-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/focus-home-interactive/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/dreamcatcher-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/dro-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/jowood-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts-entertainment-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/dreamcatcher-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/deep-silver/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/novalogic/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/paradox-interactive/</loc></url>
@@ -292,7 +292,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/interactive-magic/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/mk-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/neo-juegos/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/take-two-interactive-0eef57/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/take-two-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/the-3do-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/the-avalon-hill-game-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/1c-company/</loc></url>
@@ -314,6 +314,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/kalypso-media/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/puntosoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ssi/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/talonsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/u-s-gold/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-entertainment-espana/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/vivendi-universal-games/</loc></url>
@@ -332,6 +333,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/new-world-computing/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/on-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/proein-software/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/project-three-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/square-enix/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategy-first/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/zeta-multimedia/</loc></url>
@@ -374,13 +376,13 @@
   <url><loc>https://www.pcgamearchive.org/generos/plataformas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/segunda-guerra-mundial/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/comedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-belica/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/comedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/baloncesto/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/compilacion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rally/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/fantasia-oscura/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/survival-horror/</loc></url>
@@ -391,6 +393,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/fmv/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gran-estrategia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tiempo-real/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/accion-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/action-rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-de-ciudades/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-and-slash/</loc></url>
@@ -399,22 +402,22 @@
   <url><loc>https://www.pcgamearchive.org/generos/point-y-click/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulador/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/tactica-en-tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/4x/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/accion-tactica/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/crpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/mmorpg/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/tactica-en-tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-de-recursos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-aerea/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-militar/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-deportiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/guerra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/manager-deportivo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/motociclismo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shooter-en-tercera-persona/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/shooter-tactico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-futbolistica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
@@ -424,11 +427,11 @@
   <url><loc>https://www.pcgamearchive.org/generos/hack-y-slash/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shooter-sobre-railes/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/shooter-tactico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-naval/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulador-de-vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tenis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-por-turnos/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/aventura-de-accion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/cyberpunk/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/golf/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/historica/</loc></url>
@@ -439,7 +442,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/western/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/automovilismo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-3d/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/aventura-de-accion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-en-tercera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-para-adultos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/billar/</loc></url>
@@ -478,7 +480,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/simulador-de-combate-aereo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/superheroes/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/terror-psicologico/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/turnos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/plataformas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/plataformas/winxp/</loc></url>
   <url><loc>https://www.pcgamearchive.org/plataformas/win2000/</loc></url>
@@ -2748,6 +2749,54 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/creature-shock-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/hidden-and-dangerous-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/hidden-and-dangerous-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/hidden-and-dangerous-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/hidden-and-dangerous-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/battleground-napoleon-in-russia-1812-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/battleground-napoleon-in-russia-1812-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/battleground-napoleon-in-russia-1812-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/battleground-napoleon-in-russia-1812-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/schizm-mysterious-journey-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/schizm-mysterious-journey-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/schizm-mysterious-journey-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/schizm-mysterious-journey-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -5112,18 +5161,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/hidden-and-dangerous-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/hidden-and-dangerous-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/hidden-and-dangerous-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/hidden-and-dangerous-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/img/001.jpg</image:loc>
@@ -5505,18 +5542,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/nba-live-99-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/dragon-lore-ii-el-corazon-del-dragon-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -5919,18 +5944,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/schizm-mysterious-journey-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/schizm-mysterious-journey-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/schizm-mysterious-journey-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/schizm-mysterious-journey-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.pcgamearchive.org/juegos/wild-metal-country-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/wild-metal-country-bigbox/img/001.jpg</image:loc>
@@ -6045,18 +6058,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/odisea-la-busqueda-de-ulises-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/battleground-napoleon-in-russia-1812-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/battleground-napoleon-in-russia-1812-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/battleground-napoleon-in-russia-1812-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/battleground-napoleon-in-russia-1812-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
