@@ -14094,6 +14094,406 @@
     ]
   },
   {
+    "num": "000191",
+    "ig": "",
+    "titulo": "Privateer 2: The Darkening",
+    "url": "juegos/privateer-2-the-darkening-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación espacial",
+      "Combate espacial",
+      "Comercio espacial"
+    ],
+    "desarrollador": [
+      "EA Manchester"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Electronic Arts Software, S.L."
+    ],
+    "ean": [],
+    "descripcion": "Edición española en formato Big Box de Privateer 2: The Darkening, simulador de combate y comercio espacial publicado en 1996 por Electronic Arts bajo la marca Origin. Desarrollado por EA Manchester como continuación de Wing Commander: Privateer, sitúa al jugador en el papel de Ser Lev Arris, un hombre con amnesia que intenta reconstruir su identidad mientras viaja por el Tri-System comerciando, aceptando misiones, mejorando sus naves y participando en combates espaciales. El juego combina un motor gráfico 3D en tiempo real con una extensa producción cinematográfica de vídeo de imagen real, integrada en la narrativa y protagonizada por intérpretes como Clive Owen, John Hurt, Christopher Walken, Mathilda May y Jürgen Prochnow. Esta edición comercial española está traducida y doblada al castellano, se distribuye en tres CD-ROM y documenta oficialmente funcionamiento bajo MS-DOS y compatibilidad con Windows 95 mediante un entorno MS-DOS correctamente configurado. Constituye un ejemplo destacado de la etapa de mediados de los años noventa en la que los juegos de PC combinaron simulación, gráficos tridimensionales y secuencias FMV de gran presupuesto.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "3 CD-ROM del juego",
+      "Estuche para los CD-ROM",
+      "Guía de instalación",
+      "Guía de vuelo \"Igual que en el cielo: guía para dominar los vuelos interplanetarios\"",
+      "Tarjeta de respuesta comercial de Electronic Arts"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Privateer",
+      "Wing Commander",
+      "Origin",
+      "Origin Systems",
+      "EA Manchester",
+      "Electronic Arts",
+      "Tri-System",
+      "Ser Lev Arris",
+      "FMV",
+      "vídeo de imagen real",
+      "motor 3D",
+      "Clive Owen",
+      "John Hurt",
+      "Christopher Walken",
+      "ciencia ficción",
+      "edición española",
+      "traducido al castellano",
+      "doblado al castellano",
+      "MS-DOS",
+      "Windows 95",
+      "3 CD-ROM",
+      "Big Box PC",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar individualmente los tres CD-ROM mediante imágenes BIN/CUE y digitalizar la caja, la guía de instalación, la guía de vuelo y la tarjeta de respuesta comercial. La edición original para MS-DOS puede conservarse y ejecutarse en un entorno virtual compatible, montando las imágenes de los discos y utilizando DOSBox o una máquina virtual adecuadamente configurada. Al no existir evidencia suficiente en los materiales examinados para identificar con rigor un sistema anticopia concreto, la protección se mantiene como no determinada.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000192",
+    "ig": "",
+    "titulo": "Formula One 99",
+    "url": "juegos/formula-one-99-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de conducción",
+      "Carreras",
+      "Fórmula 1",
+      "Simulación deportiva"
+    ],
+    "desarrollador": [
+      "Studio 33"
+    ],
+    "distribuidor": [
+      "Psygnosis",
+      "Take 2 Interactive Software"
+    ],
+    "ean": [],
+    "descripcion": "Formula One 99 es un simulador de Fórmula 1 desarrollado por Studio 33 y publicado en 1999, basado oficialmente en el Campeonato Mundial de Fórmula 1 de la temporada 1999. Reproduce pilotos, equipos, monoplazas, circuitos y reglamentación de aquella campaña, incorporando penalizaciones stop-and-go, sistema completo de banderas y salidas anticipadas. Entre sus características destacan las vistas desde el cockpit con retrovisores funcionales, condiciones meteorológicas variables con previsiones para los fines de semana de carrera y juego en red para hasta ocho participantes. La edición europea distribuida por Psygnosis y Take 2 incorpora contenidos localizados para los mercados británico, español y francés, incluyendo comentarios televisivos específicos para cada idioma. Constituye una representación documental de la etapa de transición de los simuladores de Fórmula 1 para PC hacia gráficos tridimensionales más avanzados, juego multijugador en red y una recreación cada vez más completa de las temporadas oficiales del campeonato.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones",
+      "Tarjeta de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Formula One 99",
+      "Formula 1",
+      "Fórmula 1",
+      "Studio 33",
+      "Psygnosis",
+      "Take 2 Interactive",
+      "Campeonato Mundial de Fórmula 1 1999",
+      "FIA Formula One World Championship",
+      "temporada 1999",
+      "simulación de conducción",
+      "automovilismo",
+      "monoplazas",
+      "multijugador en red",
+      "hasta 8 jugadores",
+      "meteorología dinámica",
+      "comentarios en castellano",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "Big Box PC",
+      "edición europea",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa BIN/CUE y conservar digitalizados el manual, la tarjeta de registro y el resto de materiales impresos. No existe evidencia suficiente en la edición documentada para identificar de forma concluyente un sistema anticopia concreto. La ejecución virtual es viable mediante un entorno Windows 95/98 adecuadamente configurado, teniendo en cuenta posibles requisitos de aceleración gráfica propios de finales de los años noventa.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1999",
+    "mercado": [
+      "España",
+      "Francia",
+      "Reino Unido"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés",
+      "Francés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000193",
+    "ig": "",
+    "titulo": "Sid Meier's Civilization III",
+    "url": "juegos/sid-meiers-civilization-iii-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "4X",
+      "Gestión",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Firaxis Games"
+    ],
+    "distribuidor": [
+      "Infogrames"
+    ],
+    "ean": [
+      "3546430022337"
+    ],
+    "descripcion": "Sid Meier's Civilization III es la tercera entrega numerada de la histórica saga de estrategia 4X y uno de los títulos fundamentales de Firaxis Games a comienzos de los años 2000. El jugador dirige una civilización desde el año 4000 a. C. hasta la era moderna, desarrollando ciudades, investigación científica, comercio, diplomacia, cultura y fuerzas militares mientras compite con otras potencias por distintas condiciones de victoria. Esta entrega introdujo elementos especialmente relevantes para la evolución de la serie, como las fronteras culturales, los recursos estratégicos y de lujo, una diplomacia más elaborada y un mayor peso de la identidad cultural de cada imperio. Su presentación utiliza un mapa isométrico bidimensional con unidades y ciudades representadas mediante gráficos prerenderizados. La edición española catalogada fue comercializada por Infogrames en 2002 en formato Big Box para PC CD-ROM, con caja y documentación en castellano, e incorpora además un editor que permite modificar mapas, escenarios y reglas del juego.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual de instrucciones",
+      "CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Civilization",
+      "Sid Meier",
+      "Firaxis Games",
+      "Infogrames",
+      "civilizaciones",
+      "construcción de imperios",
+      "diplomacia",
+      "investigación tecnológica",
+      "cultura",
+      "recursos estratégicos",
+      "editor de escenarios",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en formato BIN/CUE y conservación digital de la documentación impresa. Conviene verificar la edición concreta antes de atribuirle un sistema anticopia específico. La ejecución virtual es viable mediante un entorno Windows clásico compatible.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2002",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000194",
+    "ig": "",
+    "titulo": "Urban Runner",
+    "url": "juegos/urban-runner-2-bigbox/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Aventura cinematográfica",
+      "Full Motion Video",
+      "Thriller interactivo"
+    ],
+    "desarrollador": [
+      "Coktel Vision"
+    ],
+    "distribuidor": [
+      "Sierra On-Line",
+      "Coktel Educative"
+    ],
+    "ean": [
+      "3348542002210"
+    ],
+    "descripcion": "Urban Runner es una aventura cinematográfica interactiva desarrollada por Coktel Vision y publicada por Sierra On-Line en 1996. Construida alrededor de vídeo a pantalla completa con actores reales, combina investigación, decisiones rápidas, secuencias de acción y fases de deducción dentro de una trama policíaca en la que el protagonista, Max, queda implicado en un caso de asesinato y contrabando industrial. La propia edición destaca el uso de vídeo SVGA a 32.000 colores, más de 180 minutos de imágenes filmadas y una producción con 25 actores, elementos representativos del auge del Full Motion Video en el PC multimedia de mediados de los noventa. Esta edición española Big Box para Windows 3.1 y Windows 95 incorpora voces en español y distribución física en CD-ROM, por lo que resulta especialmente útil para documentar la localización castellana de los títulos cinematográficos de Sierra y Coktel Vision.",
+    "incluye": [
+      "Caja Big Box",
+      "2 estuches Jewel Case",
+      "CD-ROM",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Urban Runner",
+      "Coktel Vision",
+      "Sierra On-Line",
+      "Coktel Educative",
+      "Full Motion Video",
+      "FMV",
+      "cine interactivo",
+      "thriller policiaco",
+      "investigación",
+      "Windows 3.1",
+      "Windows 95",
+      "SVGA",
+      "32.000 colores",
+      "voces en español",
+      "edición española",
+      "Big Box PC",
+      "CD-ROM",
+      "PC multimedia",
+      "años 90",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar todos los CD-ROM de la edición mediante imágenes BIN/CUE y digitalizar el manual y la documentación asociada. La ejecución virtual es viable en un entorno Windows 3.1/95 correctamente configurado, aunque debe verificarse en la copia concreta si existe comprobación física de disco durante la instalación o la ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000195",
+    "ig": "",
+    "titulo": "Iron Man / X-O Manowar in Heavy Metal",
+    "url": "juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Beat 'em up",
+      "Plataformas",
+      "Acción de desplazamiento lateral"
+    ],
+    "desarrollador": [
+      "Realtime Associates"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Iron Man / X-O Manowar in Heavy Metal es un juego de acción de 1996 desarrollado por Realtime Associates y publicado por Acclaim Entertainment, concebido como un inusual cruce entre Iron Man, personaje de Marvel Comics, y X-O Manowar, héroe del universo de Valiant Comics. La jugabilidad combina avance lateral, combate cuerpo a cuerpo, ataques a distancia y secciones de vuelo aprovechando las capacidades de ambos protagonistas, con presentación 2D propia de las conversiones multiplataforma de mediados de los noventa. Esta edición europea en caja grande corresponde al producto para DOS en CD-ROM y declara compatibilidad con Windows 95, reflejando el periodo de transición entre MS-DOS y Windows en el mercado de PC. Su interés documental reside también en reunir en un mismo título dos licencias de cómic procedentes de editoriales distintas, una colaboración poco habitual dentro de las adaptaciones de superhéroes de la época.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Iron Man",
+      "X-O Manowar",
+      "Marvel Comics",
+      "Valiant Comics",
+      "Realtime Associates",
+      "Acclaim Entertainment",
+      "superhéroes",
+      "cómics",
+      "acción 2D",
+      "desplazamiento lateral",
+      "MS-DOS",
+      "Windows 95",
+      "CD-ROM",
+      "edición europea",
+      "Big Box PC",
+      "1996",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización del manual y de la caja. Al no estar documentado de forma concluyente un sistema anticopia específico para esta edición, conviene conservar la estructura íntegra del disco y verificar la ejecución con la imagen montada en un entorno MS-DOS o Windows 95 virtualizado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1996",
+    "mercado": [
+      "Europa"
+    ],
+    "idioma": [
+      "Inglés",
+      "Alemán",
+      "Francés",
+      "Español",
+      "Italiano"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Colossus",
@@ -15722,51 +16122,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Formula One 99",
-    "url": "juegos/formula-one-99-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Fórmula 1",
-      "Conducción"
-    ],
-    "desarrollador": [
-      "Studio 33"
-    ],
-    "distribuidor": [
-      "Psygnosis"
-    ],
-    "ean": [],
-    "descripcion": "Juego oficial de la temporada 1999 de Fórmula 1 con todos los equipos, pilotos y circuitos licenciados. Ofrece una mezcla entre simulación y estilo arcade, con modos de carrera rápida, gran premio, campeonato y multijugador. Mejora aspectos técnicos y jugables respecto a entregas anteriores, con un control más pulido, efectos climáticos y comentarios dinámicos durante las carreras.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Grand Prix 3",
     "url": "juegos/grand-prix-3-bigbox/",
     "plataforma": [
@@ -16058,50 +16413,6 @@
     ],
     "ean": [],
     "descripcion": "Juego de rugby league con perspectiva isométrica lanzado en 1996. Incluye licencias oficiales de la ARL (Australian Rugby League) y el State of Origin, además de varios equipos internacionales. Ofrece controles simples (placaje, pase, patada, sprint) y permite partidos amistosos y torneos. Fue desarrollado por Creative Assembly y publicado por EA Sports bajo licencia.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Iron Man / X-O Manowar in Heavy Metal",
-    "url": "juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter",
-      "Arcade"
-    ],
-    "desarrollador": [
-      "Realtime Associates"
-    ],
-    "distribuidor": [
-      "Acclaim Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Juego de desplazamiento lateral (side‑scrolling) lanzado en 1996, donde eliges jugar como Iron Man (Marvel) o X‑O Manowar (Valiant). Combina acción tipo 'beat ’em up' con disparos y elementos arcade, enfrentando niveles llenos de villanos cómicos y jefes finales. Incluye modo cooperativo para dos jugadores y mejoras de ataque mediante íconos recogibles.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -25604,49 +25915,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Urban Runner",
-    "url": "juegos/urban-runner-2-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura",
-      "Aventura gráfica",
-      "Cinematográfica"
-    ],
-    "desarrollador": [
-      "Coktel Vision"
-    ],
-    "distribuidor": [
-      "Sierra On-Line"
-    ],
-    "ean": [],
-    "descripcion": "Urban Runner es una aventura cinematográfica lanzada en 1996 y desarrollada por Coktel Vision. El juego combina secuencias de vídeo con gráficos prerenderizados y una narrativa interactiva en tiempo real. El jugador controla a Max, un joven mensajero envuelto accidentalmente en una conspiración criminal, debiendo tomar decisiones rápidas, resolver situaciones de riesgo y sobrevivir a persecuciones constantes en una ciudad moderna.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Theocracy",
     "url": "juegos/theocracy-bigbox/",
     "plataforma": [
@@ -26853,58 +27121,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Privateer 2: The Darkening",
-    "url": "juegos/privateer-2-the-darkening-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Acción",
-      "Espacial"
-    ],
-    "desarrollador": [
-      "Origin Systems"
-    ],
-    "distribuidor": [
-      "Electronic Arts"
-    ],
-    "ean": [],
-    "descripcion": "Privateer 2: The Darkening es un simulador espacial ambientado en el universo Wing Commander. El jugador asume el papel de Lev Arris, un piloto con amnesia que debe abrirse camino en una galaxia hostil realizando misiones, comercio y combates espaciales. Esta edicion corresponde a la version española traducida y doblada al castellano.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Privateer",
-      "Wing Commander",
-      "Origin",
-      "Electronic Arts",
-      "Simulador Espacial",
-      "Doblado Castellano"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "FreeSpace 2",
     "url": "juegos/freespace-2-bigbox/",
     "plataforma": [
@@ -27163,60 +27379,6 @@
     "tipo_edicion": [
       "Bundle/Pack"
     ]
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Sid Meier's Civilization III",
-    "url": "juegos/sid-meiers-civilization-iii-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Turnos"
-    ],
-    "desarrollador": [
-      "Firaxis Games"
-    ],
-    "distribuidor": [
-      "Infogrames"
-    ],
-    "ean": [
-      "3546430022337"
-    ],
-    "descripcion": "Tercera entrega de la saga Civilization. Juego de estrategia por turnos en el que el jugador guía una civilización desde la Antigüedad hasta la era moderna, gestionando diplomacia, investigación tecnológica, expansión territorial y conflictos militares con múltiples condiciones de victoria.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Civilization",
-      "Sid Meier",
-      "Estrategia por turnos",
-      "4X",
-      "Firaxis",
-      "Edición española"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
   },
   {
     "num": "000000",
