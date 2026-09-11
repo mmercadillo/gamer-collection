@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-09-11T09:45:22
+- Fecha: 2026-09-11T17:16:25
 - Juegos en catálogo: 1560
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
@@ -15,8 +15,8 @@
 - Soportes documentados: 284 fichas (18.2%); entidades indexables: 5
 - Tipos de edición documentados: 128 fichas (8.2%); entidades indexables: 0
 - Páginas estáticas del catálogo: 65
-- Fichas con imágenes documentales detectadas: 1558
-- Imágenes documentales incluidas en el sitemap: 2570
+- Fichas con imágenes documentales detectadas: 0
+- Imágenes documentales incluidas en el sitemap: 0
 
 ## Observaciones
 
@@ -38,6 +38,7 @@
 - Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.
 - Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.
 - Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.
+- Fase 13 genera `/proyecto/` como página institucional del archivo con propósito, actividad, principios, conservación, roadmap y estado actual; la landing de aportación enlaza el tratamiento de las donaciones con esta página.
 - Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.
 - Las fichas incorporan bloques automáticos de otras ediciones, serie/colección, desarrollador y juegos relacionados, deduplicados entre sí para reforzar la navegación contextual.
 - Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.

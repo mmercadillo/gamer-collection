@@ -9,6 +9,7 @@ Lee juegos.json como fuente maestra y genera una web estática indexable:
   - series.html
   - contacto.html
   - vender-videojuegos-pc-antiguos/index.html
+  - proyecto/index.html
   - robots.txt
   - sitemap.xml
   - assets/css/styles.css
@@ -636,6 +637,7 @@ def nav(active: str, prefix: str = "") -> str:
         ("catalogo/", "Catálogo"),
     ]
     utility_items = [
+        ("proyecto/", "El proyecto"),
         ("vender-videojuegos-pc-antiguos/", "Ofrecer juegos"),
         ("contacto.html", "Contacto"),
     ]
@@ -1272,6 +1274,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
   <h2>PC Game Archive como archivo documental</h2>
   <p>El objetivo del proyecto es documentar ediciones físicas de videojuegos de PC con valor histórico, técnico y coleccionista: cajas, manuales, discos, disquetes, plataformas compatibles, distribuidoras, sistemas de protección y contexto editorial.</p>
   <p>Las colecciones temáticas y los índices por desarrollador, distribuidor, género, plataforma, formato, mercado, idioma y soporte están disponibles desde <strong>Explorar</strong> en la navegación principal.</p>
+  <p><a class="text-link-strong" href="proyecto/">Conoce el propósito, el método de conservación y el roadmap de PC Game Archive →</a></p>
 </section>
 <script src="assets/js/search-index.js"></script>
 <script src="assets/js/catalogo.js" defer></script>
@@ -1755,6 +1758,23 @@ def generate_acquisition_landing(out: Path, base_url: str) -> None:
     </ol>
   </div>
 </section>
+<section class="wrap acquisition-section donation-transparency" aria-labelledby="donation-treatment-title">
+  <div class="project-split">
+    <div>
+      <p class="eyebrow">Donaciones y conservación</p>
+      <h2 id="donation-treatment-title">¿Qué ocurre con el material que se dona?</h2>
+      <p class="lead-small">Una donación no se incorpora simplemente a un almacén. Cada pieza pasa por un proceso de documentación y conservación pensado para preservar tanto el objeto físico como su contexto.</p>
+      <a class="button button-secondary" href="../proyecto/#conservacion">Ver cómo conservamos el material</a>
+    </div>
+    <div class="donation-treatment-grid">
+      <article><strong>Procedencia</strong><span>Registramos el origen de la pieza cuando el donante desea que quede documentado.</span></article>
+      <article><strong>Catalogación</strong><span>Identificamos edición, formato, soporte, idioma, mercado y elementos incluidos.</span></article>
+      <article><strong>Conservación física</strong><span>Limpiamos, protegemos y almacenamos caja, manuales y soportes para reducir su deterioro.</span></article>
+      <article><strong>Preservación digital</strong><span>Cuando procede, realizamos y verificamos copias de preservación de los soportes para evitar depender del original en comprobaciones internas.</span></article>
+    </div>
+  </div>
+  <p class="acquisition-note"><strong>Situación actual:</strong> el catálogo y la documentación son públicos en la web, pero la colección física todavía no dispone de una exposición permanente. El roadmap del proyecto contempla colaborar con entidades y espacios que permitan exponerla con garantías.</p>
+</section>
 <section class="wrap acquisition-section">
   <div class="acquisition-contact-card">
     <div>
@@ -1773,6 +1793,8 @@ def generate_acquisition_landing(out: Path, base_url: str) -> None:
   <details><summary>¿Solo os interesan colecciones grandes?</summary><p>No. Puedes contactar aunque tengas un único juego o unos pocos títulos.</p></details>
   <details><summary>¿Aceptáis material incompleto?</summary><p>Sí. Cajas, manuales, discos, disquetes y otros elementos sueltos pueden tener valor documental aunque la edición no esté completa.</p></details>
   <details><summary>¿Compráis y también aceptáis donaciones?</summary><p>Sí. Estudiamos ambas opciones en función del material y de lo que prefiera la persona que contacta.</p></details>
+  <details><summary>¿Qué tratamiento recibe una donación?</summary><p>La documentamos, catalogamos, protegemos físicamente y, cuando procede, realizamos copias de preservación de los soportes. Puedes consultar el proceso completo en <a href="../proyecto/#conservacion">El proyecto</a>.</p></details>
+  <details><summary>¿La colección está expuesta al público?</summary><p>Actualmente la documentación del archivo es pública en la web, mientras que la colección física se conserva de forma privada y protegida. El objetivo es habilitar en el futuro exposiciones o colaboraciones con entidades que puedan ofrecer condiciones adecuadas de seguridad y conservación.</p></details>
   <details><summary>¿Puedo contactar aunque no sepa exactamente qué edición tengo?</summary><p>Sí. Unas fotografías de la portada, trasera y contenido suelen ser suficientes para comenzar a identificarla.</p></details>
 </section>
 </main>'''
@@ -1789,6 +1811,157 @@ def generate_acquisition_landing(out: Path, base_url: str) -> None:
     )
 
 
+
+def project_breadcrumb_jsonld(base_url: str) -> dict[str, Any]:
+    return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":abs_url(base_url, "")},
+        {"@type":"ListItem","position":2,"name":"El proyecto","item":abs_url(base_url, "proyecto/")},
+    ]}
+
+
+def generate_project_page(out: Path, base_url: str) -> None:
+    route = "proyecto/"
+    title = "El proyecto · Propósito, conservación y roadmap · PC Game Archive"
+    desc = "Conoce el propósito de PC Game Archive, cómo conservamos videojuegos físicos de PC, nuestros principios y el roadmap del proyecto."
+    prefix = "../"
+    body = '''<main class="project-page">
+<section class="project-hero">
+  <div class="wrap project-hero-grid">
+    <div>
+      <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../">Inicio</a> / <span>El proyecto</span></nav>
+      <p class="eyebrow">Preservar · Documentar · Divulgar</p>
+      <h1>Preservar el videojuego de PC como patrimonio documental</h1>
+      <p class="lead">PC Game Archive es un proyecto independiente dedicado a conservar ediciones físicas de videojuegos de PC, documentarlas con rigor y mantener accesible la información que las rodea.</p>
+      <div class="actions project-actions">
+        <a class="button" href="#proposito">Conocer el propósito</a>
+        <a class="button button-secondary" href="#roadmap">Ver roadmap</a>
+      </div>
+    </div>
+    <aside class="project-status-card" aria-label="Estado actual de PC Game Archive">
+      <p class="eyebrow">Estado actual</p>
+      <strong>Proyecto independiente en desarrollo</strong>
+      <p>Dos personas impulsan actualmente el archivo, su conservación física, la infraestructura técnica y la documentación pública.</p>
+      <a href="../catalogo/">Explorar el catálogo →</a>
+    </aside>
+  </div>
+</section>
+<nav class="project-subnav" aria-label="Secciones de El proyecto">
+  <div class="wrap">
+    <a href="#proposito">Propósito</a>
+    <a href="#que-hacemos">Qué hacemos</a>
+    <a href="#principios">Principios</a>
+    <a href="#conservacion">Conservación</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#quienes-somos">Quiénes somos</a>
+  </div>
+</nav>
+<section class="wrap project-section" id="proposito">
+  <div class="project-section-intro">
+    <p class="eyebrow">Propósito del proyecto</p>
+    <h2>Conservar algo más que el software</h2>
+    <p>Una edición física cuenta una parte de la historia que no está contenida únicamente en el ejecutable: caja, manuales, mapas, soportes, requisitos técnicos, distribuidor, idioma, mercado, sistemas de protección y materiales promocionales.</p>
+    <p>El propósito de PC Game Archive es preservar ese conjunto y documentarlo de forma estructurada para que siga teniendo valor histórico, técnico y cultural con el paso del tiempo.</p>
+  </div>
+  <div class="project-purpose-grid">
+    <article><span aria-hidden="true">01</span><h3>Preservar</h3><p>Proteger las ediciones físicas y reducir el deterioro de cajas, documentación y soportes originales.</p></article>
+    <article><span aria-hidden="true">02</span><h3>Documentar</h3><p>Registrar cada edición, sus particularidades y su contexto mediante datos estructurados y fotografía.</p></article>
+    <article><span aria-hidden="true">03</span><h3>Investigar</h3><p>Relacionar desarrolladores, distribuidores, plataformas, mercados, formatos y variantes de publicación.</p></article>
+    <article><span aria-hidden="true">04</span><h3>Divulgar</h3><p>Hacer accesible el conocimiento generado y acercar la historia del videojuego de PC a aficionados e investigadores.</p></article>
+  </div>
+</section>
+<section class="project-soft" id="que-hacemos">
+  <div class="wrap project-section">
+    <div class="project-section-intro">
+      <p class="eyebrow">Qué hacemos</p>
+      <h2>Un archivo físico apoyado por una capa documental digital</h2>
+    </div>
+    <div class="project-work-grid">
+      <article><h3>Archivo físico</h3><p>Conservamos los ejemplares originales y los elementos que forman parte de cada edición.</p></article>
+      <article><h3>Catálogo documental</h3><p>Creamos fichas públicas con fotografías, datos editoriales, técnicos y de conservación de cada pieza.</p></article>
+      <article><h3>Preservación de soportes</h3><p>Realizamos copias de preservación de CD, DVD y disquetes cuando procede y verificamos su integridad para reducir el uso del soporte original.</p></article>
+      <article><h3>Contexto histórico</h3><p>Conectamos las piezas por formato, plataforma, desarrollador, distribuidor, mercado, idioma, soporte y otros atributos documentales.</p></article>
+    </div>
+  </div>
+</section>
+<section class="wrap project-section" id="principios">
+  <div class="project-section-intro">
+    <p class="eyebrow">Principios</p>
+    <h2>Cómo entendemos el archivo</h2>
+  </div>
+  <div class="principles-list">
+    <article><strong>Preservación antes que especulación.</strong><p>Las piezas incorporadas al archivo tienen una finalidad documental y de conservación, no forman un inventario comercial.</p></article>
+    <article><strong>La edición importa.</strong><p>Dos copias del mismo juego pueden documentar mercados, idiomas, contenidos o distribuidores diferentes.</p></article>
+    <article><strong>La procedencia también es patrimonio.</strong><p>Cuando es posible y la persona que aporta el material lo desea, conservamos la información sobre su origen y donación.</p></article>
+    <article><strong>Transparencia sobre el estado del proyecto.</strong><p>Diferenciamos lo que PC Game Archive ofrece hoy de los objetivos que todavía forman parte del roadmap.</p></article>
+    <article><strong>Respeto por la propiedad intelectual.</strong><p>La preservación técnica del software no implica su distribución pública. Cualquier futura modalidad de acceso se planteará dentro del marco jurídico aplicable.</p></article>
+  </div>
+</section>
+<section class="project-conservation" id="conservacion">
+  <div class="wrap project-section">
+    <div class="project-section-intro">
+      <p class="eyebrow">Conservación</p>
+      <h2>Qué ocurre cuando una pieza entra en PC Game Archive</h2>
+      <p>El proceso se adapta al estado y características de cada edición, pero sigue una secuencia común orientada a conservar el objeto y generar documentación útil.</p>
+    </div>
+    <ol class="conservation-steps">
+      <li><span>01</span><div><strong>Recepción y procedencia</strong><p>Identificamos el material recibido, su estado y, cuando corresponde, la persona o colección de procedencia.</p></div></li>
+      <li><span>02</span><div><strong>Inspección y limpieza</strong><p>Revisamos caja, manuales, discos, disquetes y otros elementos y realizamos una limpieza no invasiva cuando es necesaria.</p></div></li>
+      <li><span>03</span><div><strong>Catalogación</strong><p>Documentamos edición, año, mercado, idioma, formato, soportes, plataforma, desarrollador, distribuidor y contenido.</p></div></li>
+      <li><span>04</span><div><strong>Documentación fotográfica</strong><p>Fotografiamos la pieza y sus elementos para dejar constancia visual de la edición conservada.</p></div></li>
+      <li><span>05</span><div><strong>Preservación digital</strong><p>Cuando procede, generamos copias de preservación de los soportes y comprobamos su integridad y capacidad de ejecución para uso interno del archivo.</p></div></li>
+      <li><span>06</span><div><strong>Protección y almacenamiento</strong><p>Protegemos el material —incluidas cajas de tereftalato de polietileno (PET) cuando son adecuadas— y lo almacenamos evitando exposición directa al sol, polvo y humedad.</p></div></li>
+    </ol>
+    <div class="project-current-note">
+      <strong>¿Está expuesta actualmente la colección?</strong>
+      <p>La documentación es pública a través de pcgamearchive.org. La colección física todavía se conserva en un espacio privado y protegido; la exposición pública forma parte de una fase posterior del proyecto.</p>
+    </div>
+  </div>
+</section>
+<section class="wrap project-section" id="roadmap">
+  <div class="project-section-intro">
+    <p class="eyebrow">Roadmap</p>
+    <h2>De archivo independiente a proyecto de preservación estable</h2>
+    <p>El roadmap expresa dirección, no fechas cerradas. PC Game Archive crece de forma gradual con recursos propios y cada hito debe consolidarse antes de abordar el siguiente.</p>
+  </div>
+  <div class="roadmap-list">
+    <article class="roadmap-item is-done"><div class="roadmap-state">En funcionamiento</div><div><h3>Archivo físico y catálogo documental</h3><p>Conservación de ejemplares, catalogación estructurada, fotografía y publicación de fichas en la web.</p></div></article>
+    <article class="roadmap-item is-done"><div class="roadmap-state">En funcionamiento</div><div><h3>Preservación de soportes</h3><p>Copias de seguridad y verificación técnica de soportes originales para reducir su manipulación.</p></div></article>
+    <article class="roadmap-item is-progress"><div class="roadmap-state">En desarrollo</div><div><h3>Forma jurídica del proyecto</h3><p>Estudio de la figura adecuada para dotar al archivo de una estructura estable, sin ánimo especulativo y compatible con sus objetivos culturales.</p></div></article>
+    <article class="roadmap-item is-progress"><div class="roadmap-state">En desarrollo</div><div><h3>Protocolo formal de donaciones</h3><p>Definición de trazabilidad, documentación de procedencia, recepción y condiciones de conservación del material donado.</p></div></article>
+    <article class="roadmap-item is-future"><div class="roadmap-state">Objetivo futuro</div><div><h3>Colaboración y exposición</h3><p>Buscar acuerdos con ayuntamientos, asociaciones, instituciones culturales u otros espacios que permitan exposiciones temporales o permanentes con garantías adecuadas.</p></div></article>
+    <article class="roadmap-item is-future"><div class="roadmap-state">Objetivo futuro</div><div><h3>Reconocimiento y protección cultural</h3><p>Estudiar las vías de registro, reconocimiento o colaboración cultural que resulten aplicables a la colección una vez consolidada su estructura jurídica.</p></div></article>
+    <article class="roadmap-item is-future"><div class="roadmap-state">Objetivo futuro</div><div><h3>Acceso técnico al software preservado</h3><p>Investigar un entorno controlado de consulta o ejecución del software histórico, condicionado a la viabilidad técnica y al marco de propiedad intelectual.</p></div></article>
+  </div>
+</section>
+<section class="project-soft" id="quienes-somos">
+  <div class="wrap project-section project-about-grid">
+    <div>
+      <p class="eyebrow">Quiénes somos</p>
+      <h2>Dos personas y una colección que quiere convertirse en archivo</h2>
+      <p>PC Game Archive está impulsado actualmente por dos aficionados a la historia del videojuego de PC. El proyecto nace de una colección particular y de la convicción de que este patrimonio merece ser documentado y conservado antes de que cajas, manuales y soportes desaparezcan o pierdan su contexto.</p>
+      <p>La infraestructura, el espacio, la catalogación y la conservación se mantienen hoy con recursos propios. Por eso preferimos explicar con claridad qué hacemos ya y qué queremos construir progresivamente.</p>
+    </div>
+    <aside class="project-cta-card">
+      <p class="eyebrow">Ayuda a preservar</p>
+      <h3>¿Tienes material que pueda formar parte del archivo?</h3>
+      <p>Si conservas videojuegos físicos, manuales, soportes o documentación de PC, puedes proponernos una venta o una donación.</p>
+      <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos o material</a>
+    </aside>
+  </div>
+</section>
+</main>'''
+    jsonld = [
+        organization_jsonld(base_url),
+        project_breadcrumb_jsonld(base_url),
+        {"@context":"https://schema.org","@type":"AboutPage","name":"El proyecto · PC Game Archive","url":abs_url(base_url, route),"description":desc,"inLanguage":"es","about":{"@type":"Thing","name":"Preservación y documentación de videojuegos físicos de PC"}},
+    ]
+    target = out / route / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(
+        layout(title, desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación y documentación de videojuegos físicos de PC", jsonld=jsonld),
+        encoding="utf-8",
+    )
+
 def generate_contact(out: Path, base_url: str) -> None:
     title = "Contacto · PC Game Archive"
     desc = "Contacto de PC Game Archive para correcciones, aportaciones documentales y propuestas sobre videojuegos físicos de PC."
@@ -1796,6 +1969,7 @@ def generate_contact(out: Path, base_url: str) -> None:
   <article class="content-card">
     <h1>Contacto</h1>
     <p><strong>PC Game Archive</strong> es un proyecto dedicado a la preservación y documentación de videojuegos de PC en formato físico, con especial atención a ediciones clásicas de MS-DOS y Windows, Big Box, manuales, discos, disquetes y distribución española.</p>
+    <p>Si quieres conocer nuestra finalidad, el proceso de conservación y los siguientes hitos, consulta <a href="proyecto/"><strong>El proyecto</strong></a>.</p>
     <p>Para proponer correcciones del catálogo, aportar información adicional sobre una edición concreta o compartir documentación relacionada con algún título, puedes usar estos canales.</p>
     <p>Si quieres <strong>vender o donar videojuegos físicos de PC</strong>, consulta primero nuestra página de <a href="vender-videojuegos-pc-antiguos/">ofrecimiento de juegos y colecciones</a>.</p>
     <dl class="kv"><dt>Email</dt><dd><a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a></dd><dt>Instagram</dt><dd><a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">@pc_game_archive</a></dd></dl>
@@ -1983,7 +2157,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
 
 
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
-    urls = ["", "series.html", "contacto.html", "vender-videojuegos-pc-antiguos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
     seen = set(urls)
     total_catalog_pages = max(1, math.ceil(len(games) / CATALOG_PAGE_SIZE))
     for page_number in range(1, total_catalog_pages + 1):
@@ -2175,6 +2349,7 @@ def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str
         "- Big Box, MS-DOS, Windows 95/98 y aventura gráfica reutilizan sus landings editoriales existentes para evitar canibalización.",
         "- Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.",
         "- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.",
+        "- Fase 13 genera `/proyecto/` como página institucional del archivo con propósito, actividad, principios, conservación, roadmap y estado actual; la landing de aportación enlaza el tratamiento de las donaciones con esta página.",
         "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
         "- Las fichas incorporan bloques automáticos de otras ediciones, serie/colección, desarrollador y juegos relacionados, deduplicados entre sí para reforzar la navegación contextual.",
         "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
@@ -2213,6 +2388,7 @@ def main() -> int:
     generate_taxonomy_pages(games, out, args.base_url)
     generate_series(games, out, args.base_url)
     generate_acquisition_landing(out, args.base_url)
+    generate_project_page(out, args.base_url)
     generate_contact(out, args.base_url)
     generate_game_pages(games, out, project_root, args.base_url, gallery_index)
     generate_static_redirect(out, args.base_url, "bigbox.html", "juegos-pc-big-box.html", "Big Box · PC Game Archive")
@@ -2220,8 +2396,8 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase12.3-portada-navegacion-2026-08-14")
-    print("Portada: captación prioritaria, buscador independiente y navegación Explorar agrupada")
+    print("Versión generador: fase13-proyecto-conservacion-donaciones-2026-09-11")
+    print("Fase 13: página El proyecto, conservación, donaciones y roadmap integrados")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
     print("Modo de assets: no se copian imágenes ni carpetas img; solo se sobrescriben ficheros generados.")
@@ -2247,6 +2423,15 @@ CSS += r'''
 .nav-explore{position:relative}.nav-explore summary{list-style:none;cursor:pointer;text-decoration:none;font-weight:800;font-size:13.5px;padding:8px 10px;border-radius:999px;border:1px solid transparent;white-space:nowrap;user-select:none}.nav-explore summary::-webkit-details-marker{display:none}.nav-explore summary:hover,.nav-explore[open] summary,.nav-explore.active summary{background:#f7f7f7;border-color:var(--bd)}.nav-caret{display:inline-block;margin-left:3px;font-size:11px;transition:transform .15s ease}.nav-explore[open] .nav-caret{transform:rotate(180deg)}.nav-dropdown{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);z-index:80;width:min(620px,calc(100vw - 36px));display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:18px;background:#fff;border:1px solid var(--bd);border-radius:18px;box-shadow:0 18px 50px rgba(0,0,0,.16)}.nav-dropdown-group{display:flex;flex-direction:column;gap:4px;min-width:0}.nav-dropdown-group>strong{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--g);padding:3px 8px 7px}.nav .nav-dropdown a.nav-dropdown-link{display:block;text-align:left;white-space:normal;font-size:13px;font-weight:750;padding:8px;border:0;border-radius:10px;background:transparent}.nav .nav-dropdown a.nav-dropdown-link:hover,.nav .nav-dropdown a.nav-dropdown-link.active{background:var(--soft);border:0}.home-acquisition{margin-top:24px;margin-bottom:24px}.home-overview .hero-grid{padding-top:30px;padding-bottom:30px}.home-overview h1{font-size:clamp(32px,4.2vw,50px);margin-bottom:12px}.home-overview .lead{margin-bottom:0}.search-section{padding:30px 0 34px}.search-panel{background:#fff;border:1px solid var(--bd);border-radius:24px;padding:24px;box-shadow:0 8px 30px rgba(0,0,0,.04)}.search-section-head{margin:0 0 6px;align-items:center}.search-section-head h2{margin:0}.search-help{margin:0;color:#555;max-width:850px}.search-panel .catalog-search-advanced{margin-top:16px}.search-results-meta{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:22px 0 14px;padding-top:18px;border-top:1px solid var(--bd)}.search-results-meta>strong{font-size:18px}.search-results-meta .count{font-size:13px}.search-panel .search-facets{margin-top:0}.home-documentary-note{margin-top:34px}.pcga-search-mode .home-acquisition,.pcga-search-mode .home-overview{display:none}.pcga-search-mode .search-section{padding-top:24px}.pcga-search-mode .search-panel{box-shadow:none}
 @media(max-width:900px){.nav-explore{grid-column:1/-1}.nav-explore summary{display:block;text-align:center;border:1px solid var(--bd);border-radius:12px;padding:10px 9px;background:#fff}.nav-explore summary:hover,.nav-explore[open] summary,.nav-explore.active summary{background:#f3f3f1;border-color:#cfcfca}.nav-dropdown{position:static;transform:none;width:100%;margin-top:6px;grid-template-columns:repeat(2,minmax(0,1fr));padding:12px;box-shadow:none;border-radius:14px}.nav .nav-dropdown a.nav-dropdown-link{text-align:left;border:0;background:transparent;padding:8px}.home-acquisition{margin-top:18px}.search-panel{padding:20px}}
 @media(max-width:600px){.nav-dropdown{grid-template-columns:1fr}.search-results-meta{align-items:flex-start;flex-direction:column;gap:2px}.home-overview .stats-card{margin-top:4px}.search-panel{border-radius:18px;padding:16px}}
+'''
+
+
+CSS += r'''
+/* Fase 13: identidad del proyecto, conservación, donaciones y roadmap */
+.text-link-strong{font-weight:900;text-decoration-thickness:1.5px;text-underline-offset:3px}.project-page{background:#fff}.project-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.project-hero-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.55fr);gap:42px;align-items:center;padding-bottom:54px}.project-hero h1{max-width:900px}.project-actions{margin-top:22px}.project-status-card{background:#111;color:#fff;border-radius:24px;padding:26px}.project-status-card .eyebrow{color:#bbb}.project-status-card>strong{display:block;font-size:24px;line-height:1.15;margin-bottom:12px}.project-status-card p:not(.eyebrow){color:#ddd}.project-status-card a{font-weight:900}.project-subnav{background:#fff;border-bottom:1px solid var(--bd);position:sticky;top:123px;z-index:8}.project-subnav .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:thin}.project-subnav a{white-space:nowrap;text-decoration:none;font-size:13px;font-weight:850;padding:7px 10px;border-radius:999px}.project-subnav a:hover{background:var(--soft)}.project-section{padding-top:54px;padding-bottom:54px;scroll-margin-top:190px}.project-section-intro{max-width:860px;margin-bottom:26px}.project-section-intro>p:not(.eyebrow){font-size:17px;color:#3e3e3e}.project-purpose-grid,.project-work-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.project-purpose-grid article,.project-work-grid article{border:1px solid var(--bd);border-radius:20px;padding:20px;background:#fff}.project-purpose-grid article>span{display:inline-block;font-size:12px;font-weight:900;color:var(--g);letter-spacing:.08em;margin-bottom:24px}.project-purpose-grid h3,.project-work-grid h3{margin:0 0 8px;font-size:19px}.project-purpose-grid p,.project-work-grid p{margin:0;color:#4a4a4a}.project-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd);scroll-margin-top:190px}.principles-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.principles-list article{background:#fff;border:1px solid var(--bd);border-radius:18px;padding:20px}.principles-list article:last-child{grid-column:1/-1}.principles-list strong{font-size:17px}.principles-list p{margin:7px 0 0;color:#444}.project-conservation{background:#111;color:#fff;scroll-margin-top:190px}.project-conservation .eyebrow{color:#bbb}.project-conservation .project-section-intro>p:not(.eyebrow){color:#d9d9d9}.conservation-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.conservation-steps li{border:1px solid #3a3a3a;border-radius:20px;padding:20px;display:grid;grid-template-columns:46px 1fr;gap:14px;background:#171717}.conservation-steps li>span{width:42px;height:42px;border-radius:50%;background:#fff;color:#111;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:950}.conservation-steps strong{font-size:17px}.conservation-steps p{color:#ccc;margin:6px 0 0}.project-current-note{margin-top:18px;border:1px solid #444;border-radius:18px;padding:20px;background:#171717}.project-current-note p{margin:7px 0 0;color:#ccc}.roadmap-list{display:grid;gap:12px}.roadmap-item{display:grid;grid-template-columns:160px minmax(0,1fr);gap:24px;align-items:start;border:1px solid var(--bd);border-radius:18px;padding:20px;background:#fff}.roadmap-state{font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;padding:6px 9px;border-radius:999px;text-align:center;border:1px solid var(--bd)}.roadmap-item.is-done .roadmap-state{background:#111;color:#fff;border-color:#111}.roadmap-item.is-progress .roadmap-state{background:var(--soft)}.roadmap-item.is-future .roadmap-state{color:var(--g)}.roadmap-item h3{margin:1px 0 6px;font-size:19px}.roadmap-item p{margin:0;color:#444}.project-about-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.6fr);gap:30px;align-items:start}.project-about-grid h2{max-width:780px}.project-cta-card{background:#111;color:#fff;border-radius:22px;padding:24px}.project-cta-card .eyebrow{color:#bbb}.project-cta-card h3{font-size:22px;line-height:1.2;margin:0 0 10px}.project-cta-card p:not(.eyebrow){color:#ddd}.project-cta-card .button{background:#fff;color:#111;border-color:#fff}.lead-small{font-size:17px;color:#444;max-width:760px}.project-split{display:grid;grid-template-columns:minmax(280px,.8fr) minmax(0,1.2fr);gap:30px;align-items:start}.donation-treatment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.donation-treatment-grid article{border:1px solid var(--bd);border-radius:16px;padding:16px;background:#fff;display:flex;flex-direction:column;gap:5px}.donation-treatment-grid strong{font-size:15px}.donation-treatment-grid span{font-size:13px;color:#555}.donation-transparency .button{margin-top:12px}.donation-transparency .acquisition-note{margin-top:24px}
+@media(max-width:1000px){.project-purpose-grid,.project-work-grid{grid-template-columns:repeat(2,1fr)}.project-hero-grid,.project-about-grid,.project-split{grid-template-columns:1fr}.project-status-card{max-width:680px}.project-subnav{top:112px}}
+@media(max-width:800px){.project-subnav{position:static}.project-section,.project-soft,.project-conservation{scroll-margin-top:20px}.conservation-steps,.principles-list{grid-template-columns:1fr}.principles-list article:last-child{grid-column:auto}.roadmap-item{grid-template-columns:1fr;gap:12px}.roadmap-state{justify-self:start}.donation-treatment-grid{grid-template-columns:1fr}}
+@media(max-width:520px){.project-purpose-grid,.project-work-grid{grid-template-columns:1fr}.project-section{padding-top:40px;padding-bottom:40px}.project-hero-grid{padding-bottom:40px}.project-actions{flex-direction:column}.project-actions .button{width:100%}.conservation-steps li{grid-template-columns:38px 1fr;padding:16px}.conservation-steps li>span{width:36px;height:36px}.project-subnav .wrap{padding-left:12px;padding-right:12px}}
 '''
 
 JS = r'''(function(){

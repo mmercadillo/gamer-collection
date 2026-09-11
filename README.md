@@ -52,6 +52,8 @@ Características:
 
 - generación estática SEO-friendly,
 - páginas individuales por juego,
+- página institucional `/proyecto/` con propósito, conservación y roadmap,
+- landing de compra/donación con explicación del tratamiento del material,
 - sitemap automático,
 - robots.txt automático,
 - buscador integrado,
@@ -72,6 +74,10 @@ Características:
 ├── sitemap.xml
 ├── robots.txt
 ├── logo.png
+├── proyecto/
+│   └── index.html
+├── vender-videojuegos-pc-antiguos/
+│   └── index.html
 ├── assets/
 │   ├── css/
 │   └── js/
@@ -257,18 +263,42 @@ La intención es tratar el videojuego de PC como patrimonio tecnológico y cultu
 
 # Roadmap
 
-## Próximamente
+El roadmap público del proyecto de preservación se publica en:
 
-- PWA instalable
-- APK Android ligera
-- filtros avanzados
-- navegación por plataforma
-- timeline histórico
-- fichas relacionadas
-- estadísticas del archivo
-- mejoras mobile-first
-- búsqueda avanzada
-- soporte multilenguaje
+```text
+https://www.pcgamearchive.org/proyecto/#roadmap
+```
+
+La página diferencia de forma explícita los hitos **en funcionamiento**, **en desarrollo** y **objetivos futuros**.
+
+## Roadmap técnico de la web
+
+Las evoluciones técnicas se priorizan según necesidades reales del archivo. Entre las líneas posibles se mantienen:
+
+- mejoras de búsqueda y filtros,
+- estadísticas del archivo,
+- evolución mobile-first,
+- capacidades PWA,
+- soporte multilenguaje,
+- mejoras de accesibilidad y rendimiento.
+
+---
+
+# Fase 13 — Identidad, conservación y donaciones
+
+La Fase 13 incorpora una nueva página pública **El proyecto** (`/proyecto/`) con:
+
+- propósito del archivo,
+- actividad actual,
+- principios de conservación,
+- proceso de incorporación y preservación de piezas,
+- roadmap público,
+- situación actual de la exposición física,
+- presentación breve de las personas impulsoras del proyecto.
+
+La landing `/vender-videojuegos-pc-antiguos/` se amplía además con información específica para donantes: procedencia, catalogación, conservación física, preservación digital y situación actual de la colección.
+
+La navegación principal, el sitemap, las páginas generadas y los datos estructurados se actualizan automáticamente desde `generar_web.py`.
 
 ---
 

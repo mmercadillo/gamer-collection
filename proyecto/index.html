@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>El proyecto · Propósito, conservación y roadmap · PC Game Archive</title>
+<meta name="description" content="Conoce el propósito de PC Game Archive, cómo conservamos videojuegos físicos de PC, nuestros principios y el roadmap del proyecto." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="theme-color" content="#111111" />
+<link rel="canonical" href="https://www.pcgamearchive.org/proyecto/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PC Game Archive" />
+<meta property="og:title" content="El proyecto · Propósito, conservación y roadmap · PC Game Archive" />
+<meta property="og:description" content="Conoce el propósito de PC Game Archive, cómo conservamos videojuegos físicos de PC, nuestros principios y el roadmap del proyecto." />
+<meta property="og:url" content="https://www.pcgamearchive.org/proyecto/" />
+<meta property="og:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="El proyecto · Propósito, conservación y roadmap · PC Game Archive" />
+<meta name="twitter:description" content="Conoce el propósito de PC Game Archive, cómo conservamos videojuegos físicos de PC, nuestros principios y el roadmap del proyecto." />
+<meta name="twitter:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<link rel="icon" href="../favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="48x48" href="../favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png" />
+<link rel="apple-touch-icon" href="../apple-touch-icon.png" />
+<link rel="manifest" href="../site.webmanifest" />
+<link rel="stylesheet" href="../assets/css/styles.css" />
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://www.pcgamearchive.org/proyecto/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/","logo":"https://www.pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"El proyecto","item":"https://www.pcgamearchive.org/proyecto/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","name":"El proyecto · PC Game Archive","url":"https://www.pcgamearchive.org/proyecto/","description":"Conoce el propósito de PC Game Archive, cómo conservamos videojuegos físicos de PC, nuestros principios y el roadmap del proyecto.","inLanguage":"es","about":{"@type":"Thing","name":"Preservación y documentación de videojuegos físicos de PC"}}</script>
+</head>
+<body>
+<header id="top" class="site-header">
+  <div class="site-identity">
+    <div class="wrap brand-row">
+      <a class="brand" href="../" aria-label="PC Game Archive">
+        <img class="logo" src="../logo.png" alt="PC Game Archive logo">
+        <span><strong>PC Game Archive</strong><small>Preservación y documentación de videojuegos físicos de PC</small></span>
+      </a>
+    </div>
+  </div>
+  <div class="site-navigation">
+    <div class="wrap nav-row">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-nav-toggle>
+        <span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menú</span>
+      </button>
+      <nav class="nav" id="main-navigation" aria-label="Navegación principal">
+        <a href="../">Inicio</a>
+<a href="../catalogo/">Catálogo</a>
+<details class="nav-explore">
+  <summary>Explorar <span class="nav-caret" aria-hidden="true">▾</span></summary>
+  <div class="nav-dropdown">
+    <div class="nav-dropdown-group">
+      <strong>Colecciones</strong>
+      <a class="nav-dropdown-link" href="../videojuegos-clasicos-pc.html">PC clásico</a>
+<a class="nav-dropdown-link" href="../juegos-pc-big-box.html">Big Box PC</a>
+<a class="nav-dropdown-link" href="../juegos-msdos.html">MS-DOS</a>
+<a class="nav-dropdown-link" href="../juegos-windows-95-98.html">Windows 95/98</a>
+<a class="nav-dropdown-link" href="../aventuras-graficas-pc.html">Aventuras gráficas</a>
+<a class="nav-dropdown-link" href="../ediciones-espanolas-pc.html">Ediciones españolas</a>
+<a class="nav-dropdown-link" href="../series.html">Series</a>
+    </div>
+    <div class="nav-dropdown-group">
+      <strong>Datos del archivo</strong>
+      <a class="nav-dropdown-link" href="../desarrolladores/">Desarrolladores</a>
+<a class="nav-dropdown-link" href="../distribuidores/">Distribuidores</a>
+<a class="nav-dropdown-link" href="../generos/">Géneros</a>
+<a class="nav-dropdown-link" href="../plataformas/">Plataformas</a>
+<a class="nav-dropdown-link" href="../formatos/">Formatos</a>
+<a class="nav-dropdown-link" href="../mercados/">Mercados</a>
+<a class="nav-dropdown-link" href="../idiomas/">Idiomas</a>
+<a class="nav-dropdown-link" href="../soportes/">Soportes</a>
+    </div>
+  </div>
+</details>
+<a class="active" href="../proyecto/">El proyecto</a>
+<a href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
+<a href="../contacto.html">Contacto</a>
+<a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main class="project-page">
+<section class="project-hero">
+  <div class="wrap project-hero-grid">
+    <div>
+      <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../">Inicio</a> / <span>El proyecto</span></nav>
+      <p class="eyebrow">Preservar · Documentar · Divulgar</p>
+      <h1>Preservar el videojuego de PC como patrimonio documental</h1>
+      <p class="lead">PC Game Archive es un proyecto independiente dedicado a conservar ediciones físicas de videojuegos de PC, documentarlas con rigor y mantener accesible la información que las rodea.</p>
+      <div class="actions project-actions">
+        <a class="button" href="#proposito">Conocer el propósito</a>
+        <a class="button button-secondary" href="#roadmap">Ver roadmap</a>
+      </div>
+    </div>
+    <aside class="project-status-card" aria-label="Estado actual de PC Game Archive">
+      <p class="eyebrow">Estado actual</p>
+      <strong>Proyecto independiente en desarrollo</strong>
+      <p>Dos personas impulsan actualmente el archivo, su conservación física, la infraestructura técnica y la documentación pública.</p>
+      <a href="../catalogo/">Explorar el catálogo →</a>
+    </aside>
+  </div>
+</section>
+<nav class="project-subnav" aria-label="Secciones de El proyecto">
+  <div class="wrap">
+    <a href="#proposito">Propósito</a>
+    <a href="#que-hacemos">Qué hacemos</a>
+    <a href="#principios">Principios</a>
+    <a href="#conservacion">Conservación</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#quienes-somos">Quiénes somos</a>
+  </div>
+</nav>
+<section class="wrap project-section" id="proposito">
+  <div class="project-section-intro">
+    <p class="eyebrow">Propósito del proyecto</p>
+    <h2>Conservar algo más que el software</h2>
+    <p>Una edición física cuenta una parte de la historia que no está contenida únicamente en el ejecutable: caja, manuales, mapas, soportes, requisitos técnicos, distribuidor, idioma, mercado, sistemas de protección y materiales promocionales.</p>
+    <p>El propósito de PC Game Archive es preservar ese conjunto y documentarlo de forma estructurada para que siga teniendo valor histórico, técnico y cultural con el paso del tiempo.</p>
+  </div>
+  <div class="project-purpose-grid">
+    <article><span aria-hidden="true">01</span><h3>Preservar</h3><p>Proteger las ediciones físicas y reducir el deterioro de cajas, documentación y soportes originales.</p></article>
+    <article><span aria-hidden="true">02</span><h3>Documentar</h3><p>Registrar cada edición, sus particularidades y su contexto mediante datos estructurados y fotografía.</p></article>
+    <article><span aria-hidden="true">03</span><h3>Investigar</h3><p>Relacionar desarrolladores, distribuidores, plataformas, mercados, formatos y variantes de publicación.</p></article>
+    <article><span aria-hidden="true">04</span><h3>Divulgar</h3><p>Hacer accesible el conocimiento generado y acercar la historia del videojuego de PC a aficionados e investigadores.</p></article>
+  </div>
+</section>
+<section class="project-soft" id="que-hacemos">
+  <div class="wrap project-section">
+    <div class="project-section-intro">
+      <p class="eyebrow">Qué hacemos</p>
+      <h2>Un archivo físico apoyado por una capa documental digital</h2>
+    </div>
+    <div class="project-work-grid">
+      <article><h3>Archivo físico</h3><p>Conservamos los ejemplares originales y los elementos que forman parte de cada edición.</p></article>
+      <article><h3>Catálogo documental</h3><p>Creamos fichas públicas con fotografías, datos editoriales, técnicos y de conservación de cada pieza.</p></article>
+      <article><h3>Preservación de soportes</h3><p>Realizamos copias de preservación de CD, DVD y disquetes cuando procede y verificamos su integridad para reducir el uso del soporte original.</p></article>
+      <article><h3>Contexto histórico</h3><p>Conectamos las piezas por formato, plataforma, desarrollador, distribuidor, mercado, idioma, soporte y otros atributos documentales.</p></article>
+    </div>
+  </div>
+</section>
+<section class="wrap project-section" id="principios">
+  <div class="project-section-intro">
+    <p class="eyebrow">Principios</p>
+    <h2>Cómo entendemos el archivo</h2>
+  </div>
+  <div class="principles-list">
+    <article><strong>Preservación antes que especulación.</strong><p>Las piezas incorporadas al archivo tienen una finalidad documental y de conservación, no forman un inventario comercial.</p></article>
+    <article><strong>La edición importa.</strong><p>Dos copias del mismo juego pueden documentar mercados, idiomas, contenidos o distribuidores diferentes.</p></article>
+    <article><strong>La procedencia también es patrimonio.</strong><p>Cuando es posible y la persona que aporta el material lo desea, conservamos la información sobre su origen y donación.</p></article>
+    <article><strong>Transparencia sobre el estado del proyecto.</strong><p>Diferenciamos lo que PC Game Archive ofrece hoy de los objetivos que todavía forman parte del roadmap.</p></article>
+    <article><strong>Respeto por la propiedad intelectual.</strong><p>La preservación técnica del software no implica su distribución pública. Cualquier futura modalidad de acceso se planteará dentro del marco jurídico aplicable.</p></article>
+  </div>
+</section>
+<section class="project-conservation" id="conservacion">
+  <div class="wrap project-section">
+    <div class="project-section-intro">
+      <p class="eyebrow">Conservación</p>
+      <h2>Qué ocurre cuando una pieza entra en PC Game Archive</h2>
+      <p>El proceso se adapta al estado y características de cada edición, pero sigue una secuencia común orientada a conservar el objeto y generar documentación útil.</p>
+    </div>
+    <ol class="conservation-steps">
+      <li><span>01</span><div><strong>Recepción y procedencia</strong><p>Identificamos el material recibido, su estado y, cuando corresponde, la persona o colección de procedencia.</p></div></li>
+      <li><span>02</span><div><strong>Inspección y limpieza</strong><p>Revisamos caja, manuales, discos, disquetes y otros elementos y realizamos una limpieza no invasiva cuando es necesaria.</p></div></li>
+      <li><span>03</span><div><strong>Catalogación</strong><p>Documentamos edición, año, mercado, idioma, formato, soportes, plataforma, desarrollador, distribuidor y contenido.</p></div></li>
+      <li><span>04</span><div><strong>Documentación fotográfica</strong><p>Fotografiamos la pieza y sus elementos para dejar constancia visual de la edición conservada.</p></div></li>
+      <li><span>05</span><div><strong>Preservación digital</strong><p>Cuando procede, generamos copias de preservación de los soportes y comprobamos su integridad y capacidad de ejecución para uso interno del archivo.</p></div></li>
+      <li><span>06</span><div><strong>Protección y almacenamiento</strong><p>Protegemos el material —incluidas cajas de tereftalato de polietileno (PET) cuando son adecuadas— y lo almacenamos evitando exposición directa al sol, polvo y humedad.</p></div></li>
+    </ol>
+    <div class="project-current-note">
+      <strong>¿Está expuesta actualmente la colección?</strong>
+      <p>La documentación es pública a través de pcgamearchive.org. La colección física todavía se conserva en un espacio privado y protegido; la exposición pública forma parte de una fase posterior del proyecto.</p>
+    </div>
+  </div>
+</section>
+<section class="wrap project-section" id="roadmap">
+  <div class="project-section-intro">
+    <p class="eyebrow">Roadmap</p>
+    <h2>De archivo independiente a proyecto de preservación estable</h2>
+    <p>El roadmap expresa dirección, no fechas cerradas. PC Game Archive crece de forma gradual con recursos propios y cada hito debe consolidarse antes de abordar el siguiente.</p>
+  </div>
+  <div class="roadmap-list">
+    <article class="roadmap-item is-done"><div class="roadmap-state">En funcionamiento</div><div><h3>Archivo físico y catálogo documental</h3><p>Conservación de ejemplares, catalogación estructurada, fotografía y publicación de fichas en la web.</p></div></article>
+    <article class="roadmap-item is-done"><div class="roadmap-state">En funcionamiento</div><div><h3>Preservación de soportes</h3><p>Copias de seguridad y verificación técnica de soportes originales para reducir su manipulación.</p></div></article>
+    <article class="roadmap-item is-progress"><div class="roadmap-state">En desarrollo</div><div><h3>Forma jurídica del proyecto</h3><p>Estudio de la figura adecuada para dotar al archivo de una estructura estable, sin ánimo especulativo y compatible con sus objetivos culturales.</p></div></article>
+    <article class="roadmap-item is-progress"><div class="roadmap-state">En desarrollo</div><div><h3>Protocolo formal de donaciones</h3><p>Definición de trazabilidad, documentación de procedencia, recepción y condiciones de conservación del material donado.</p></div></article>
+    <article class="roadmap-item is-future"><div class="roadmap-state">Objetivo futuro</div><div><h3>Colaboración y exposición</h3><p>Buscar acuerdos con ayuntamientos, asociaciones, instituciones culturales u otros espacios que permitan exposiciones temporales o permanentes con garantías adecuadas.</p></div></article>
+    <article class="roadmap-item is-future"><div class="roadmap-state">Objetivo futuro</div><div><h3>Reconocimiento y protección cultural</h3><p>Estudiar las vías de registro, reconocimiento o colaboración cultural que resulten aplicables a la colección una vez consolidada su estructura jurídica.</p></div></article>
+    <article class="roadmap-item is-future"><div class="roadmap-state">Objetivo futuro</div><div><h3>Acceso técnico al software preservado</h3><p>Investigar un entorno controlado de consulta o ejecución del software histórico, condicionado a la viabilidad técnica y al marco de propiedad intelectual.</p></div></article>
+  </div>
+</section>
+<section class="project-soft" id="quienes-somos">
+  <div class="wrap project-section project-about-grid">
+    <div>
+      <p class="eyebrow">Quiénes somos</p>
+      <h2>Dos personas y una colección que quiere convertirse en archivo</h2>
+      <p>PC Game Archive está impulsado actualmente por dos aficionados a la historia del videojuego de PC. El proyecto nace de una colección particular y de la convicción de que este patrimonio merece ser documentado y conservado antes de que cajas, manuales y soportes desaparezcan o pierdan su contexto.</p>
+      <p>La infraestructura, el espacio, la catalogación y la conservación se mantienen hoy con recursos propios. Por eso preferimos explicar con claridad qué hacemos ya y qué queremos construir progresivamente.</p>
+    </div>
+    <aside class="project-cta-card">
+      <p class="eyebrow">Ayuda a preservar</p>
+      <h3>¿Tienes material que pueda formar parte del archivo?</h3>
+      <p>Si conservas videojuegos físicos, manuales, soportes o documentación de PC, puedes proponernos una venta o una donación.</p>
+      <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos o material</a>
+    </aside>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap footrow">
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <button class="to-top" type="button" data-scroll-top>Subir</button>
+  </div>
+</footer>
+<script>
+(function(){
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var menu=document.getElementById('main-navigation');
+  if(!toggle || !menu) return;
+  toggle.addEventListener('click',function(){
+    var open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    menu.classList.toggle('is-open',!open);
+  });
+  menu.addEventListener('click',function(e){
+    if(!e.target.closest('a')) return;
+    menu.querySelectorAll('details[open]').forEach(function(item){item.removeAttribute('open');});
+    if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){
+      toggle.setAttribute('aria-expanded','false');
+      menu.classList.remove('is-open');
+    }
+  });
+  document.addEventListener('click',function(e){
+    menu.querySelectorAll('details.nav-explore[open]').forEach(function(item){
+      if(!item.contains(e.target)) item.removeAttribute('open');
+    });
+  });
+})();
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('[data-scroll-top]');
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    var offerEvent={
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
+  }
+
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  }
+});
+</script>
+</body>
+</html>
