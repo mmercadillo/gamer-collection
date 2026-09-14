@@ -14177,6 +14177,83 @@
   },
   {
     "num": "000192",
+    "ig": "https://www.instagram.com/p/DdQmmjfCHOm",
+    "titulo": "Iron Man / X-O Manowar in Heavy Metal",
+    "url": "juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Beat 'em up",
+      "Plataformas",
+      "Acción de desplazamiento lateral"
+    ],
+    "desarrollador": [
+      "Realtime Associates"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Iron Man / X-O Manowar in Heavy Metal es un juego de acción de 1996 desarrollado por Realtime Associates y publicado por Acclaim Entertainment, concebido como un inusual cruce entre Iron Man, personaje de Marvel Comics, y X-O Manowar, héroe del universo de Valiant Comics. La jugabilidad combina avance lateral, combate cuerpo a cuerpo, ataques a distancia y secciones de vuelo aprovechando las capacidades de ambos protagonistas, con presentación 2D propia de las conversiones multiplataforma de mediados de los noventa. Esta edición europea en caja grande corresponde al producto para DOS en CD-ROM y declara compatibilidad con Windows 95, reflejando el periodo de transición entre MS-DOS y Windows en el mercado de PC. Su interés documental reside también en reunir en un mismo título dos licencias de cómic procedentes de editoriales distintas, una colaboración poco habitual dentro de las adaptaciones de superhéroes de la época.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Iron Man",
+      "X-O Manowar",
+      "Marvel Comics",
+      "Valiant Comics",
+      "Realtime Associates",
+      "Acclaim Entertainment",
+      "superhéroes",
+      "cómics",
+      "acción 2D",
+      "desplazamiento lateral",
+      "MS-DOS",
+      "Windows 95",
+      "CD-ROM",
+      "edición europea",
+      "Big Box PC",
+      "1996",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización del manual y de la caja. Al no estar documentado de forma concluyente un sistema anticopia específico para esta edición, conviene conservar la estructura íntegra del disco y verificar la ejecución con la imagen montada en un entorno MS-DOS o Windows 95 virtualizado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1996",
+    "mercado": [
+      "Europa"
+    ],
+    "idioma": [
+      "Inglés",
+      "Alemán",
+      "Francés",
+      "Español",
+      "Italiano"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000193",
     "ig": "",
     "titulo": "Formula One 99",
     "url": "juegos/formula-one-99-bigbox/",
@@ -14260,7 +14337,7 @@
     ]
   },
   {
-    "num": "000193",
+    "num": "000194",
     "ig": "",
     "titulo": "Sid Meier's Civilization III",
     "url": "juegos/sid-meiers-civilization-iii-bigbox/",
@@ -14337,7 +14414,7 @@
     ]
   },
   {
-    "num": "000194",
+    "num": "000195",
     "ig": "",
     "titulo": "Urban Runner",
     "url": "juegos/urban-runner-2-bigbox/",
@@ -14408,83 +14485,6 @@
     ],
     "idioma": [
       "Español"
-    ],
-    "soporte": [
-      "CD-ROM"
-    ],
-    "tipo_edicion": [
-      "Lanzamiento original"
-    ]
-  },
-  {
-    "num": "000195",
-    "ig": "",
-    "titulo": "Iron Man / X-O Manowar in Heavy Metal",
-    "url": "juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Beat 'em up",
-      "Plataformas",
-      "Acción de desplazamiento lateral"
-    ],
-    "desarrollador": [
-      "Realtime Associates"
-    ],
-    "distribuidor": [
-      "Acclaim Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Iron Man / X-O Manowar in Heavy Metal es un juego de acción de 1996 desarrollado por Realtime Associates y publicado por Acclaim Entertainment, concebido como un inusual cruce entre Iron Man, personaje de Marvel Comics, y X-O Manowar, héroe del universo de Valiant Comics. La jugabilidad combina avance lateral, combate cuerpo a cuerpo, ataques a distancia y secciones de vuelo aprovechando las capacidades de ambos protagonistas, con presentación 2D propia de las conversiones multiplataforma de mediados de los noventa. Esta edición europea en caja grande corresponde al producto para DOS en CD-ROM y declara compatibilidad con Windows 95, reflejando el periodo de transición entre MS-DOS y Windows en el mercado de PC. Su interés documental reside también en reunir en un mismo título dos licencias de cómic procedentes de editoriales distintas, una colaboración poco habitual dentro de las adaptaciones de superhéroes de la época.",
-    "incluye": [
-      "Caja Big Box",
-      "CD-ROM en caja jewel case",
-      "Manual de instrucciones"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Iron Man",
-      "X-O Manowar",
-      "Marvel Comics",
-      "Valiant Comics",
-      "Realtime Associates",
-      "Acclaim Entertainment",
-      "superhéroes",
-      "cómics",
-      "acción 2D",
-      "desplazamiento lateral",
-      "MS-DOS",
-      "Windows 95",
-      "CD-ROM",
-      "edición europea",
-      "Big Box PC",
-      "1996",
-      "preservación PC"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original y digitalización del manual y de la caja. Al no estar documentado de forma concluyente un sistema anticopia específico para esta edición, conviene conservar la estructura íntegra del disco y verificar la ejecución con la imagen montada en un entorno MS-DOS o Windows 95 virtualizado.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    },
-    "anio": "1996",
-    "mercado": [
-      "Europa"
-    ],
-    "idioma": [
-      "Inglés",
-      "Alemán",
-      "Francés",
-      "Español",
-      "Italiano"
     ],
     "soporte": [
       "CD-ROM"
@@ -48724,6 +48724,85 @@
     "idioma": [],
     "soporte": [],
     "tipo_edicion": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "LEGO Star Wars II: La Trilogía Original",
+    "url": "juegos/lego-star-wars-ii-la-trilogia-original-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción y aventura",
+      "Plataformas 3D",
+      "Puzzle",
+      "Cooperativo local"
+    ],
+    "desarrollador": [
+      "Traveller's Tales"
+    ],
+    "distribuidor": [
+      "LucasArts",
+      "Activision"
+    ],
+    "ean": [
+      "0023272007447"
+    ],
+    "descripcion": "LEGO Star Wars II: La Trilogía Original adapta con humor y estética LEGO los episodios IV, V y VI de Star Wars en una aventura de acción tridimensional centrada en combate, plataformas, puzles y construcción. Desarrollado por Traveller's Tales y publicado originalmente en 2006, amplió la fórmula del primer LEGO Star Wars con creación y combinación de personajes, vehículos construibles y cooperación local para dos jugadores con entrada y salida dinámica. Esta edición europea destinada al mercado español pertenece a la línea económica BestSeller Series, se presenta en DVD Case con un único PC CD-ROM y está completamente localizada al castellano. Desde el punto de vista técnico representa la etapa de consolidación de los juegos LEGO en PC bajo DirectX 9 y conserva interés documental tanto por la reedición física de LucasArts como por su protección SecuROM 7.",
+    "incluye": [
+      "Caja DVD Case",
+      "1 CD-ROM",
+      "Hoja informativa \"Buscar el manual en el disco\"",
+      "Manual digital en el CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "DVD Case",
+      "BestSeller Series"
+    ],
+    "tags": [
+      "LEGO Star Wars",
+      "Star Wars",
+      "Trilogía Original",
+      "Traveller's Tales",
+      "LucasArts",
+      "Activision",
+      "BestSeller Series",
+      "edición española",
+      "PC CD-ROM",
+      "DirectX 9",
+      "cooperativo local",
+      "personalización de personajes",
+      "vehículos LEGO",
+      "reedición budget",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SecuROM",
+      "version": "7",
+      "preservacion": "La edición retail utiliza SecuROM 7. Para una preservación fiel conviene realizar una imagen que conserve la información física de protección, preferiblemente MDF/MDS con datos de posición del disco, además de documentar el CD-ROM y el inserto. La ejecución virtual es viable en un entorno Windows 2000/XP/Vista compatible, aunque SecuROM puede rechazar determinadas unidades virtuales y presenta incompatibilidades con versiones modernas de Windows.",
+      "formato": "MDF/MDS",
+      "jugable_virtual": true
+    },
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget",
+      "Colección"
+    ]
   },
   {
     "num": "000000",

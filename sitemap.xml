@@ -76,6 +76,7 @@
   <url><loc>https://www.pcgamearchive.org/catalogo/pagina/63/</loc></url>
   <url><loc>https://www.pcgamearchive.org/catalogo/pagina/64/</loc></url>
   <url><loc>https://www.pcgamearchive.org/catalogo/pagina/65/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/catalogo/pagina/66/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/dinamic-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/maxis/</loc></url>
@@ -258,9 +259,9 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/friendware/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/2k-games/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategic-simulations-inc/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/cryo-interactive/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microprose/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/mindscape/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ea-sports/</loc></url>
@@ -451,6 +452,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/exploracion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-de-imperios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/manager-de-futbol/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/plataformas-3d/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-economica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tiempo-real-con-pausa/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tycoon/</loc></url>
@@ -471,7 +473,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/multideporte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pelicula-interactiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/piratas/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/plataformas-3d/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shoot-em-up/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-policial/</loc></url>
@@ -2812,6 +2813,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.pcgamearchive.org/juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/juegos/formula-one-99-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/formula-one-99-bigbox/img/001.jpg</image:loc>
@@ -2845,18 +2858,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/urban-runner-2-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/iron-man-xo-manowar-in-heavy-metal-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -9138,6 +9139,7 @@
       <image:loc>https://www.pcgamearchive.org/juegos/disciples-iii-resurrection-fxinteractive-cddvd/img/001.jpg</image:loc>
     </image:image>
   </url>
+  <url><loc>https://www.pcgamearchive.org/juegos/lego-star-wars-ii-la-trilogia-original-cddvd/</loc></url>
   <url>
     <loc>https://www.pcgamearchive.org/juegos/dracula-origin-fxinteractive-cddvd/</loc>
     <image:image>
