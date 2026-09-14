@@ -14496,6 +14496,92 @@
   {
     "num": "000000",
     "ig": "",
+    "titulo": "Star Trek: ConQuest Online",
+    "url": "juegos/star-trek-conquest-online-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Estrategia online",
+      "Juego de tablero",
+      "Control territorial",
+      "Ciencia ficción",
+      "Multijugador online"
+    ],
+    "desarrollador": [
+      "Genetic Anomalies"
+    ],
+    "distribuidor": [
+      "Activision",
+      "Proein"
+    ],
+    "ean": [
+      "5030917010743"
+    ],
+    "descripcion": "Star Trek: ConQuest Online es un juego de estrategia multijugador desarrollado por Genetic Anomalies y publicado por Activision en 2000, basado en el universo de Star Trek: The Next Generation. Su planteamiento traslada al PC una competición de control territorial claramente inspirada en los juegos de tablero estratégicos como Risk, enfrentando a dos jugadores a través de Internet por el dominio de la galaxia. Cada participante adopta el papel de un Q y utiliza personajes, naves y elementos del universo de Star Trek como piezas virtuales, incluyendo un sistema de más de 150 'Collectible Bits' con diferentes propiedades y valores. La edición promocionaba expresamente una experiencia exclusivamente online y sin cuota mensual, circunstancia especialmente relevante desde el punto de vista de la preservación, ya que la conservación del cliente en CD-ROM no garantiza por sí sola la recuperación de la funcionalidad multijugador dependiente de infraestructura remota. Esta edición española en caja grande fue distribuida por Proein, con caja y manual en castellano y software en inglés.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en castellano",
+      "Clave de acceso impresa en la caja jewel case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Star Trek",
+      "Star Trek The Next Generation",
+      "ConQuest Online",
+      "Genetic Anomalies",
+      "Activision",
+      "Proein",
+      "THQ",
+      "Q",
+      "estrategia online",
+      "control territorial",
+      "juego de tablero",
+      "multijugador para dos jugadores",
+      "Collectible Bits",
+      "juego exclusivamente online",
+      "sin cuota mensual",
+      "edición española",
+      "manual en castellano",
+      "software en inglés",
+      "PC CD-ROM",
+      "Big Box",
+      "Windows 95",
+      "Windows 98",
+      "preservación de videojuegos online"
+    ],
+    "proteccion": {
+      "tipo": "Código o clave",
+      "version": "Clave de acceso online",
+      "preservacion": "Preservar una imagen ISO íntegra del CD-ROM, digitalizar caja y manual y documentar la clave asociada al ejemplar. La edición fue concebida para jugarse únicamente online, por lo que la preservación del soporte y del cliente no garantiza por sí sola la recuperación de la experiencia jugable: también sería necesaria la infraestructura de servidor o una implementación compatible del servicio original.",
+      "formato": "ISO",
+      "jugable_virtual": false
+    },
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "titulo": "Colossus",
     "url": "juegos/colossus-bigbox/",
     "plataforma": [

@@ -240,8 +240,8 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/ubisoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/electronic-arts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/dinamic-multimedia/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/eidos-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/proein/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/eidos-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/activision/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-on-line/</loc></url>
@@ -470,6 +470,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-fantastica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-futbolistica/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/juego-de-tablero/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multideporte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pelicula-interactiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/piratas/</loc></url>
@@ -2858,6 +2859,18 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/urban-runner-2-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
