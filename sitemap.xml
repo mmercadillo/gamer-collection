@@ -297,6 +297,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/take-two-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/the-3do-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/the-avalon-hill-game-company/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-espana/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/1c-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/capcom/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/city-interactive/</loc></url>
@@ -307,15 +308,14 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/midway-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/monte-cristo-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/system-4-de-espana/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/talonsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/the-adventure-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/topware-interactive/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-espana/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/wanadoo-edition/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/zeta-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/kalypso-media/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/puntosoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ssi/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/talonsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/u-s-gold/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-entertainment-espana/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/vivendi-universal-games/</loc></url>
@@ -357,11 +357,11 @@
   <url><loc>https://www.pcgamearchive.org/generos/arcade/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shooter-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/conduccion/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/wargame/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/mundo-abierto/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/sigilo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/terror/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/wargame/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/belico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/puzzle/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-deportiva/</loc></url>
@@ -373,41 +373,41 @@
   <url><loc>https://www.pcgamearchive.org/generos/expansion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-aereo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/plataformas/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/segunda-guerra-mundial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/fps/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rts/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/segunda-guerra-mundial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-belica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/comedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/baloncesto/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/compilacion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rally/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/fantasia-oscura/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/vuelo/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/estrategia-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/survival-horror/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tercera-persona/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/ajedrez/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/educativo/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/estrategia-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/fmv/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gran-estrategia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tiempo-real/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/tactica-en-tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/4x/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/action-rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-de-ciudades/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-and-slash/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/historico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pinball/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/point-y-click/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulador/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/tactica-en-tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/crpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-militar/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/historico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/mmorpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-de-recursos/</loc></url>
@@ -423,7 +423,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-futbolistica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-y-gestion/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/crimen/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/formula-1/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-y-slash/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rpg/</loc></url>
@@ -434,6 +433,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/accion-por-turnos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-de-accion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-espacial/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/crimen/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/cyberpunk/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/golf/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/historica/</loc></url>
@@ -470,6 +470,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-fantastica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-futbolistica/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/historia-alternativa/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/juego-de-tablero/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multideporte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pelicula-interactiva/</loc></url>
@@ -502,8 +503,8 @@
   <url><loc>https://www.pcgamearchive.org/idiomas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/espanol/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/ingles/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/idiomas/multilingue/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/italiano/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/idiomas/multilingue/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/frances/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/aleman/</loc></url>
   <url><loc>https://www.pcgamearchive.org/soportes/</loc></url>
@@ -2862,6 +2863,54 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.pcgamearchive.org/juegos/heist-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/heist-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/heist-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/heist-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/crimson-skies-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/crimson-skies-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/crimson-skies-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/crimson-skies-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/rising-sun-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/rising-sun-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/rising-sun-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/rising-sun-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/img/001.jpg</image:loc>
@@ -3138,18 +3187,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/conflict-zone-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/crimson-skies-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/crimson-skies-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/crimson-skies-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/crimson-skies-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -4254,18 +4291,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/heist-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/heist-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/heist-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/heist-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.pcgamearchive.org/juegos/imperium-galactica-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/imperium-galactica-bigbox/img/001.jpg</image:loc>
@@ -5046,18 +5071,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/descent-3-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/rising-sun-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/rising-sun-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/rising-sun-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/rising-sun-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -6333,18 +6346,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/chess-player-2150-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>

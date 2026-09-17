@@ -14494,6 +14494,332 @@
     ]
   },
   {
+    "num": "000196",
+    "ig": "",
+    "titulo": "Heist",
+    "url": "juegos/heist-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinMe",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Táctica en tiempo real",
+      "Sigilo",
+      "Acción"
+    ],
+    "desarrollador": [
+      "Crimson"
+    ],
+    "distribuidor": [
+      "Virgin Interactive Entertainment (Europe) Ltd.",
+      "Virgin Interactive España"
+    ],
+    "ean": [
+      "5028587103094"
+    ],
+    "descripcion": "Heist es un juego de acción y estrategia táctica en tiempo real desarrollado por Crimson, la rama de desarrollo londinense de Virgin Interactive, y publicado por Virgin Interactive Entertainment en 2001. Desde una perspectiva isométrica, propone formar y equipar una banda de especialistas —entre ellos hackers, cerrajeros, pistoleros y antiguos militares— para planificar y ejecutar robos en distintas ciudades de Estados Unidos, combinando infiltración, vigilancia, uso de herramientas y armas, gestión del equipo y huida ante policías, bandas rivales y, conforme aumenta la notoriedad, el FBI. Su estructura de misiones, la inteligencia artificial de los agentes de seguridad y el ciclo día/noche lo sitúan dentro de la corriente de estrategia táctica y acción criminal de comienzos de los años 2000. Esta edición española en caja de cartón para PC CD-ROM se comercializó íntegramente en castellano y documenta una etapa tardía de Virgin Interactive en el mercado físico europeo.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Hoja de instalación en castellano",
+      "Manual electrónico incluido con el juego"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Heist",
+      "Crimson",
+      "Virgin Interactive",
+      "robos",
+      "crimen organizado",
+      "planificación de atracos",
+      "perspectiva isométrica",
+      "especialistas criminales",
+      "hackers",
+      "cerrajería",
+      "FBI",
+      "ciclo día y noche",
+      "edición española",
+      "versión íntegra en castellano",
+      "PC CD-ROM",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "No se ha identificado de forma concluyente un sistema anticopia concreto para esta edición. Se recomienda preservar el CD-ROM mediante una imagen BIN/CUE y conservar la hoja de instalación y el manual electrónico asociado. La ejecución virtual es viable en una máquina virtual con Windows 95/98/Me/2000, montando la imagen del disco si el juego requiere acceso al CD.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2001",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000197",
+    "ig": "",
+    "titulo": "Sensible Soccer: European Champions - 1992/93 Season Edition",
+    "url": "juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Arcade deportivo"
+    ],
+    "desarrollador": [
+      "Sensible Software"
+    ],
+    "distribuidor": [
+      "Renegade Software"
+    ],
+    "ean": [],
+    "descripcion": "Edición para IBM PC de Sensible Soccer: European Champions - 1992/3 Season Edition, versión actualizada del influyente juego de fútbol de Sensible Software y conocida también como Sensible Soccer v1.1. Esta revisión adapta plantillas y competiciones a la temporada 1992/93 e incorpora nuevas reglas y ajustes jugables, entre ellos tarjetas amarillas y rojas, suspensiones, la regla de cesión al portero, guardametas mejorados, información actualizada de equipos y traspasos y competiciones vinculadas al fútbol europeo y a la clasificación para el Mundial de 1994. Mantiene la característica perspectiva cenital, el ritmo extremadamente rápido y el sistema de control sencillo pero preciso que convirtió a Sensible Soccer en una referencia del fútbol arcade europeo. La versión para DOS soporta gráficos EGA y VGA, incluyendo modos de 256 colores, y sonido mediante AdLib, Sound Blaster y altavoz interno del PC. Esta edición física europea en caja grande se distribuye en un único disquete de 3,5 pulgadas de 720 KB e incluye documentación multilingüe, constituyendo un ejemplo representativo de la adaptación al IBM PC de uno de los títulos deportivos fundamentales de comienzos de los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "Manual multilingüe",
+      "Disquete de 3,5 pulgadas de 720 KB",
+      "Hoja Sensible Soccer v1.1 IBM PC - Instructions and Manual addendum sheet",
+      "Hoja 1992/3 Season Edition - New Features and Rules",
+      "Sobre preimpreso de Renegade"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Sensible Soccer",
+      "Sensible Soccer v1.1",
+      "European Champions",
+      "1992/3 Season Edition",
+      "Sensible Software",
+      "Renegade Software",
+      "fútbol europeo",
+      "fútbol arcade",
+      "vista cenital",
+      "multijugador local",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "VGA",
+      "EGA",
+      "AdLib",
+      "Sound Blaster",
+      "disquete 3.5",
+      "720 KB",
+      "edición europea",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Manual lookup",
+      "version": "",
+      "preservacion": "La versión comercial para DOS utiliza una comprobación basada en palabras de la documentación impresa. Para una preservación completa se recomienda realizar una imagen sectorial del disquete original de 720 KB y digitalizar el manual y las hojas adicionales, ya que la documentación forma parte funcional de la protección. La ejecución virtual es viable mediante DOSBox u otros entornos DOS compatibles.",
+      "formato": "Otro",
+      "jugable_virtual": true
+    },
+    "anio": "1993",
+    "mercado": [
+      "Europa"
+    ],
+    "idioma": [
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Reedición"
+    ]
+  },
+  {
+    "num": "000198",
+    "ig": "",
+    "titulo": "Crimson Skies",
+    "url": "juegos/crimson-skies-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de combate aéreo",
+      "Acción aérea",
+      "Vuelo arcade",
+      "Historia alternativa"
+    ],
+    "desarrollador": [
+      "Zipper Interactive"
+    ],
+    "distribuidor": [
+      "Microsoft"
+    ],
+    "ean": [],
+    "descripcion": "Crimson Skies es un juego de combate aéreo desarrollado por Zipper Interactive y publicado por Microsoft en 2000, ambientado en una versión alternativa de los Estados Unidos de 1937 marcada por la fragmentación política, el auge de los zepelines y la proliferación de piratas aéreos. El jugador encarna a Nathan Zachary, líder de los Fortune Hunters, participando en una campaña de marcado tono pulp que combina duelos aéreos, ataques contra objetivos terrestres, defensa de convoyes y operaciones alrededor de grandes dirigibles. Su diseño se distancia de la simulación aeronáutica estricta para favorecer maniobras espectaculares y combates accesibles, manteniendo al mismo tiempo sistemas de personalización de aviones y armamento. La edición anuncia once aeronaves pilotables y veinticuatro misiones, además de juego multijugador mediante LAN, módem e Internet, originalmente integrado con MSN Gaming Zone. Su estética art déco, la recreación de la aviación aventurera de entreguerras y su universo de historia alternativa convirtieron a Crimson Skies en una producción singular dentro del catálogo de Microsoft para PC de comienzos de los años 2000. Esta edición española en caja grande conserva además documentación temática presentada como una revista de aviación, característica del cuidado diseño físico del lanzamiento original.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones Air Action Weekly",
+      "Hoja de soporte técnico de Microsoft",
+      "Documento de garantía limitada",
+      "Folleto de información sobre filiales de Microsoft",
+      "Documentación impresa adicional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Crimson Skies",
+      "Zipper Interactive",
+      "Microsoft",
+      "Nathan Zachary",
+      "Fortune Hunters",
+      "piratas aéreos",
+      "aviación",
+      "zepelines",
+      "historia alternativa",
+      "dieselpunk",
+      "pulp",
+      "años treinta",
+      "combate aéreo",
+      "DirectX",
+      "multijugador LAN",
+      "MSN Gaming Zone",
+      "edición española",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM original mediante una imagen completa BIN/CUE y digitalizar toda la documentación impresa de la edición. No se dispone de evidencia suficiente para identificar con rigor el sistema anticopia concreto de este ejemplar. La ejecución virtual es viable mediante entornos Windows clásicos o configuraciones de compatibilidad adecuadas para DirectX y aceleración 3D de la época.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000199",
+    "ig": "",
+    "titulo": "Rising Sun",
+    "url": "juegos/rising-sun-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Estrategia táctica",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "TalonSoft"
+    ],
+    "distribuidor": [
+      "TalonSoft",
+      "Take-Two Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "5026555032520"
+    ],
+    "descripcion": "TalonSoft's Rising Sun es un wargame táctico por turnos ambientado en el frente del Pacífico durante la Segunda Guerra Mundial y publicado en 2000 como parte de la línea de juegos de campaña histórica de TalonSoft. Traslada al sistema de combate por hexágonos característico de la compañía operaciones desarrolladas entre 1941 y 1945, con fuerzas japonesas, estadounidenses y de la Commonwealth y escenarios relacionados con campañas como Filipinas, Guadalcanal, Nueva Guinea, Birmania, Iwo Jima y Okinawa. Incluye más de 30 escenarios y varias campañas, con órdenes de batalla históricos, gestión de numerosas unidades terrestres y un enfoque orientado a la simulación táctica detallada. Esta edición española en formato Big Box fue distribuida por Proein y conserva una localización documental característica de la época: caja y manual en castellano, mientras que el software permanece en inglés. Representa la etapa final de los wargames comerciales de TalonSoft antes de la integración de su catálogo dentro de Take-Two Interactive.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en castellano",
+      "Tarjeta de registro Proein"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Rising Sun",
+      "TalonSoft",
+      "Take-Two Interactive",
+      "Proein",
+      "Campaign Series",
+      "Segunda Guerra Mundial",
+      "Guerra del Pacífico",
+      "wargame táctico",
+      "combate por hexágonos",
+      "estrategia por turnos",
+      "Imperio japonés",
+      "US Marines",
+      "Commonwealth",
+      "Guadalcanal",
+      "Iwo Jima",
+      "Okinawa",
+      "Filipinas",
+      "Nueva Guinea",
+      "Birmania",
+      "edición española",
+      "manual en castellano",
+      "software en inglés",
+      "PC CD-ROM",
+      "Big Box",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente BIN/CUE, junto con digitalización del manual en castellano y de la tarjeta de registro. No hay evidencia suficiente en la edición mostrada para afirmar un sistema anticopia concreto. La ejecución virtual es viable mediante un entorno Windows 95/98 correctamente configurado.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "titulo": "Star Trek: ConQuest Online",
@@ -15744,50 +16070,6 @@
       "0008888610199"
     ],
     "descripcion": "RTS militar moderno lanzado en octubre‑noviembre de 2001. Juegas como la organización pacificadora ICP o el grupo rebelde GHOST en conflictos ficticios (Ucrania, Sudeste Asiático, África Occidental). Introduce el sistema de popularidad mediática (‘propaganda’) como recurso, inteligencia artificial avanzada (DirectIA), y ofrece campañas, escaramuzas y multijugador hasta 8 jugadores.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Crimson Skies",
-    "url": "juegos/crimson-skies-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Simulación"
-    ],
-    "desarrollador": [
-      "Zipper Interactive"
-    ],
-    "distribuidor": [
-      "Microsoft"
-    ],
-    "ean": [],
-    "descripcion": "Juego de acción y combates aéreos ambientado en una versión alternativa de los años 30, donde Estados Unidos está fragmentado en estados independientes. El jugador pilota aviones personalizados en intensas batallas aéreas llenas de estilo pulp y cinematográfico.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -20066,53 +20348,6 @@
   {
     "num": "000000",
     "ig": "",
-    "titulo": "Heist",
-    "url": "juegos/heist-bigbox/",
-    "plataforma": [
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Estrategia",
-      "Sigilo",
-      "Crimen"
-    ],
-    "desarrollador": [
-      "Virgin Interactive Entertainment (Europe) Ltd."
-    ],
-    "distribuidor": [
-      "Virgin Interactive Entertainment (Europe) Ltd."
-    ],
-    "ean": [],
-    "descripcion": "Juego de acción y estrategia isométrica ambientado en el espionaje y el robo. Diriges un equipo de especialistas (hackers, ladrones, tiradores) en una serie de más de 20 atracos —gasolineras, bancos, trenes o casinos— con planificación en tiempo real, infiltración, desactivación de alarmas y escape. Cada miembro tiene habilidades únicas, y el juego destaca por su sistema de 'calor' (alerta policial) y la necesidad de una ejecución precisa :contentReference[oaicite:0]{index=0}.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
     "titulo": "Imperium Galactica",
     "url": "juegos/imperium-galactica-bigbox/",
     "plataforma": [
@@ -23266,56 +23501,6 @@
       "Ciencia ficción",
       "Acción",
       "Espacial",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Rising Sun",
-    "url": "juegos/rising-sun-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Táctica",
-      "Histórico"
-    ],
-    "desarrollador": [
-      "TalonSoft"
-    ],
-    "distribuidor": [
-      "Take-Two Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Rising Sun es un juego de estrategia táctica ambientado en el teatro del Pacífico durante la Segunda Guerra Mundial. El jugador puede comandar fuerzas japonesas o aliadas en campañas históricas, gestionando unidades terrestres, aéreas y navales con gran nivel de detalle táctico.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Estrategia",
-      "Segunda Guerra Mundial",
-      "Táctica",
-      "Histórico",
-      "Wargame",
       "Big Box"
     ],
     "proteccion": {
@@ -29087,80 +29272,6 @@
     ],
     "soporte": [
       "Disquete 5,25\""
-    ],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "titulo": "Sensible Soccer: European Champions - 1992/93 Season Edition",
-    "url": "juegos/sensible-soccer-european-champions-1992-93-season-edition-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Deportes",
-      "Fútbol",
-      "Arcade deportivo"
-    ],
-    "desarrollador": [
-      "Sensible Software"
-    ],
-    "distribuidor": [
-      "Renegade Software"
-    ],
-    "ean": [],
-    "descripcion": "Edición 1992/93 para IBM PC de Sensible Soccer: European Champions, desarrollada por Sensible Software y publicada por Renegade. El juego trasladó al compatible PC su reconocible fútbol arcade con perspectiva cenital, control inmediato, ritmo elevado y un sistema de pases especialmente fluido. Esta actualización incorpora plantillas, fichajes y selecciones europeas revisadas para la temporada 1992/93, junto con nuevas reglas como la cesión al guardameta, tarjetas, suspensiones y mejoras en los porteros. Permite disputar partidos para uno o dos jugadores, organizar torneos personalizados y gestionar competiciones con hasta 64 participantes, reuniendo alrededor de cien equipos europeos. La versión utiliza un único disquete de 3,5 pulgadas y ofrece compatibilidad gráfica EGA y VGA, además de sonido mediante Roland, AdLib, Sound Blaster o altavoz interno, por lo que constituye una pieza representativa del fútbol europeo para MS-DOS de comienzos de los noventa.",
-    "incluye": [
-      "Caja de cartón Big Box",
-      "Manual multilingüe",
-      "Disquete de 3,5 pulgadas 720K",
-      "Hoja adicional de instrucciones para IBM PC v1.1",
-      "Hoja de nuevas características y reglas de la edición 1992/93",
-      "Tarjeta de registro postal de Renegade"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Sensible Soccer",
-      "Sensible Software",
-      "Renegade Software",
-      "MS-DOS",
-      "IBM PC",
-      "fútbol europeo",
-      "temporada 1992/93",
-      "disquete de 3,5 pulgadas",
-      "720K",
-      "EGA",
-      "VGA",
-      "Sound Blaster",
-      "AdLib",
-      "Roland",
-      "multijugador local",
-      "torneos personalizados",
-      "edición europea",
-      "Big Box PC",
-      "preservación"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Edición distribuida en un disquete de 3,5 pulgadas y 720K. Se recomienda realizar un volcado sectorial completo, conservar una imagen maestra sin modificar, documentar etiquetas y soportes impresos y verificar la carga en un entorno MS-DOS virtualizado. No existe evidencia suficiente en los materiales mostrados para identificar un sistema anticopia concreto.",
-      "formato": "Otro",
-      "jugable_virtual": true
-    },
-    "anio": "",
-    "mercado": [
-      "Europa"
-    ],
-    "idioma": [
-      "Multilingüe"
-    ],
-    "soporte": [
-      "Disquete 3,5\""
     ],
     "tipo_edicion": []
   },
