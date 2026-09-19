@@ -306,9 +306,14 @@
   function card(g){
     const tags=[g.formato].concat(g.plataforma||[]).filter(Boolean).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
     const rawUrl=String(g.url||'#');const siteUrl=rawUrl==='#'?'#':'/'+rawUrl.replace(/^\/+/, '');const url=esc(siteUrl);
-    const img=esc(siteUrl==='#'?'/no_disponible.png':siteUrl.replace(/\/$/,'')+'/img/001.jpg');
+    const imageBase=siteUrl==='#'?'':siteUrl.replace(/\/$/,'')+'/img/001';
+    const defaults=imageBase?[imageBase+'.jpg',imageBase+'.jpeg',imageBase+'.png',imageBase+'.webp',imageBase+'.JPG',imageBase+'.JPEG',imageBase+'.PNG',imageBase+'.WEBP']:[];
+    const preferred=String(g.imagen||'').trim();
+    const candidates=[preferred].concat(defaults).filter((v,i,a)=>v&&a.indexOf(v)===i);
+    const img=esc(candidates.shift()||'/no_disponible.png');
+    const fallbackData=esc(candidates.join('|'));
     const gameId=esc(rawUrl.replace(/^\/+|\/+$/g,'').split('/').pop()||'game_unknown');
     const platforms=(g.plataforma||[]).filter(Boolean).slice(0,3).join(', ');let imageAlt='Portada de '+(g.titulo||'videojuego');if(g.formato)imageAlt+=', formato '+g.formato;if(platforms)imageAlt+=', para '+platforms;
-    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc(imageAlt)}" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero||[]).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
-  }
-})();
+    const onerror=`var q=(this.dataset.pcgaImageFallbacks||'').split('|').filter(Boolean);var i=Number(this.dataset.pcgaImageFallbackIndex||0);if(i<q.length){this.dataset.pcgaImageFallbackIndex=String(i+1);this.src=q[i];}else{this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing');}`;
+    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc(imageAlt)}" loading="lazy" decoding="async" width="420" height="315" data-pcga-image-fallbacks="${fallbackData}" data-pcga-image-fallback-index="0" onerror="${onerror}"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero||[]).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+  }})();

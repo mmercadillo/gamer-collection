@@ -1,22 +1,23 @@
 # Informe de generación SEO
 
-- Fecha: 2026-09-19T08:56:44
-- Juegos en catálogo: 1562
+- Fecha: 2026-09-19T16:13:15
+- Juegos en catálogo: 1564
+- Incorporaciones con fecha documentada: 16
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
 - Desarrolladores con página/landing indexable: 157
-- Distribuidores con página/landing indexable: 103
+- Distribuidores con página/landing indexable: 104
 - Géneros con página/landing indexable: 144
 - Plataformas con página/landing indexable: 13
 - Formatos con página/landing indexable: 3
-- Años documentados: 39 fichas (2.5%); entidades indexables: 0
-- Mercados documentados: 290 fichas (18.6%); entidades indexables: 4
-- Idiomas documentados: 200 fichas (12.8%); entidades indexables: 6
-- Soportes documentados: 289 fichas (18.5%); entidades indexables: 5
-- Tipos de edición documentados: 134 fichas (8.6%); entidades indexables: 0
+- Años documentados: 41 fichas (2.6%); entidades indexables: 0
+- Mercados documentados: 292 fichas (18.7%); entidades indexables: 4
+- Idiomas documentados: 202 fichas (12.9%); entidades indexables: 6
+- Soportes documentados: 291 fichas (18.6%); entidades indexables: 5
+- Tipos de edición documentados: 136 fichas (8.7%); entidades indexables: 0
 - Páginas estáticas del catálogo: 66
-- Fichas con imágenes documentales detectadas: 1559
-- Imágenes documentales incluidas en el sitemap: 2573
+- Fichas con imágenes documentales detectadas: 1562
+- Imágenes documentales incluidas en el sitemap: 2581
 
 ## Observaciones
 
@@ -39,6 +40,7 @@
 - Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.
 - Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.
 - Fase 13 genera `/proyecto/` como página institucional del archivo con propósito, actividad, principios, conservación, roadmap y estado actual; la landing de aportación enlaza el tratamiento de las donaciones con esta página.
+- Fase 14 añade `fecha_incorporacion` como dato documental independiente del número de ficha y de RRSS; cuando existen fechas reales, genera la sección de portada y una vista limitada a las 24 incorporaciones más recientes en `/incorporaciones/`.
 - Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.
 - Las fichas incorporan bloques automáticos de otras ediciones, serie/colección, desarrollador y juegos relacionados, deduplicados entre sí para reforzar la navegación contextual.
 - Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.

@@ -380,3 +380,17 @@ La prioridad máxima es:
 3. utilidad archivística,
 4. coherencia documental,
 5. utilidad para coleccionismo y preservación.
+
+
+---
+
+# Fecha de incorporación al archivo (Fase 14)
+
+El schema incluye el campo obligatorio `fecha_incorporacion`.
+
+- Formato: `YYYY-MM-DD`.
+- Representa la fecha en la que esa edición física se incorpora documentalmente a PC Game Archive.
+- Si el usuario proporciona o confirma la fecha, úsala.
+- Si la fecha no está documentada, devuelve `"fecha_incorporacion": ""`.
+- NO la deduzcas de `num`, `ig`, fecha de publicación en redes, orden del JSON, año del juego ni metadatos de las fotografías.
+- NO uses automáticamente la fecha actual salvo que el usuario indique que está catalogando una incorporación realizada hoy.

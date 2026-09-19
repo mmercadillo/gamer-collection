@@ -18,6 +18,7 @@ Lee juegos.json como fuente maestra y genera una web estática indexable:
   - índices y páginas de desarrolladores, distribuidores, géneros, plataformas y formatos
   - taxonomías editoriales por año, mercado, idioma, soporte y tipo de edición cuando existe cobertura suficiente
   - catálogo HTML paginado y rastreable en /catalogo/
+  - selección de las incorporaciones más recientes en /incorporaciones/ cuando existen fechas documentadas
   - una página HTML por juego en la ruta definida por juego["url"]
 
 Uso recomendado:
@@ -64,6 +65,9 @@ GA_ID = "G-SQN0WTMVP3"
 OG_IMAGE = "/no_disponible.png"
 PENDING_NUM = "000000"
 CATALOG_PAGE_SIZE = 24
+RECENT_INCORPORATIONS_LIMIT = 6
+LATEST_INCORPORATIONS_LIMIT = 24
+IMAGE_EXTENSIONS = ("jpg", "jpeg", "png", "webp", "JPG", "JPEG", "PNG", "WEBP")
 
 SEO_LANDING_PAGES = [
     {"filename":"videojuegos-clasicos-pc.html","label":"PC clásico","title":"Videojuegos clásicos de PC · MS-DOS, Windows y Big Box","h1":"Videojuegos clásicos de PC","description":"Archivo documental de videojuegos clásicos de PC: MS-DOS, Windows 95/98, Big Box, CD-ROM, disquetes y ediciones físicas históricas.","lead":"PC Game Archive documenta videojuegos clásicos de PC en formato físico, con especial atención a cajas grandes, CD-ROM, disquetes, manuales, ediciones españolas y compatibilidad histórica con MS-DOS y Windows.","filter":{}},
@@ -253,6 +257,7 @@ TAXONOMIES = {
 # Reutiliza landings editoriales existentes cuando ya cubren claramente la misma intención.
 # Así evitamos crear una segunda URL SEO para Big Box, MS-DOS, Windows 95/98 o aventura gráfica.
 NAV_PUBLISHED_TAXONOMIES: set[str] = set()
+HAS_INCORPORATIONS = False
 
 TAXONOMY_ROUTE_OVERRIDES = {
     ("formatos", "big box"): "juegos-pc-big-box.html",
@@ -328,7 +333,45 @@ def site_path(path: str) -> str:
     return "/" + raw.lstrip("/")
 
 
+def image_candidates(game: dict[str, Any], stem: str = "001") -> list[str]:
+    """Rutas candidatas de la imagen principal sin depender del sistema de ficheros.
+
+    PC Game Archive usa por convención /juegos/<slug>/img/001.* para la portada.
+    Se contemplan extensiones y mayúsculas habituales porque GitHub Pages distingue
+    mayúsculas/minúsculas y las fotografías nuevas pueden llegar con cualquiera de ellas.
+    """
+    url = str(game.get("url", "")).strip().rstrip("/")
+    if not url:
+        return ["/no_disponible.png"]
+    base = site_path(f"{url}/img/{stem}")
+    return [f"{base}.{ext}" for ext in IMAGE_EXTENSIONS]
+
+
+def resolved_primary_image(game: dict[str, Any]) -> str:
+    """Imagen principal detectada físicamente o ruta convencional como fallback."""
+    detected = str(game.get("_pcga_primary_image") or "").strip()
+    if detected:
+        return detected
+    return image_candidates(game)[0]
+
+
+def image_fallback_attributes(game: dict[str, Any], primary: str | None = None) -> str:
+    """Atributos HTML para probar extensiones alternativas antes del placeholder."""
+    first = primary or resolved_primary_image(game)
+    candidates = [first] + [c for c in image_candidates(game) if c != first]
+    remaining = candidates[1:]
+    encoded = "|".join(remaining)
+    return (
+        f'data-pcga-image-fallbacks="{h(encoded)}" data-pcga-image-fallback-index="0" '
+        'onerror="var q=(this.dataset.pcgaImageFallbacks||\'\').split(\'|\').filter(Boolean);'
+        'var i=Number(this.dataset.pcgaImageFallbackIndex||0);'
+        'if(i<q.length){this.dataset.pcgaImageFallbackIndex=String(i+1);this.src=q[i];}'
+        'else{this.onerror=null;this.src=\'/no_disponible.png\';this.alt=\'Imagen no disponible\';this.classList.add(\'missing\');}"'
+    )
+
+
 def img_path(game: dict[str, Any], filename: str = "001.jpg") -> str:
+    # Compatibilidad con llamadas históricas.
     return site_path(f"{game.get('url', '').rstrip('/')}/img/{filename}")
 
 
@@ -641,7 +684,10 @@ def nav(active: str, prefix: str = "") -> str:
         ("vender-videojuegos-pc-antiguos/", "Ofrecer juegos"),
         ("contacto.html", "Contacto"),
     ]
-    collection_items = [
+    collection_items = []
+    if HAS_INCORPORATIONS:
+        collection_items.append(("incorporaciones/", "Últimas incorporaciones"))
+    collection_items.extend([
         ("videojuegos-clasicos-pc.html", "PC clásico"),
         ("juegos-pc-big-box.html", "Big Box PC"),
         ("juegos-msdos.html", "MS-DOS"),
@@ -649,7 +695,7 @@ def nav(active: str, prefix: str = "") -> str:
         ("aventuras-graficas-pc.html", "Aventuras gráficas"),
         ("ediciones-espanolas-pc.html", "Ediciones españolas"),
         ("series.html", "Series"),
-    ]
+    ])
 
     def make_link(href: str, label: str, extra_class: str = "") -> str:
         is_active = (not href and active == "index.html") or href == active
@@ -891,23 +937,60 @@ document.addEventListener('click',function(e){{
 '''
 
 
-def card(game: dict[str, Any], prefix: str = "") -> str:
+def card(game: dict[str, Any], prefix: str = "", meta: str = "") -> str:
     url = game_href(game, prefix)
-    img = img_path(game)
+    img = resolved_primary_image(game)
     title = text(game.get("titulo"))
     game_id = str(game.get("url", "")).strip("/").split("/")[-1] or "game_unknown"
-    fallback = "/no_disponible.png"
     tags = [game.get("formato", "")] + (game.get("plataforma") or [])[:2]
     tag_html = "".join(f'<span class="tag">{h(t)}</span>' for t in tags if t)
+    meta_html = f'<small class="game-card-meta">{h(meta)}</small>' if meta else ""
     image_alt = edition_image_label(game, kind="cover")
+    fallback_attrs = image_fallback_attributes(game, img)
     return f'''<a class="game-card" href="{h(url)}" data-game-link data-game-id="{h(game_id)}">
-  <img src="{h(img)}" alt="{h(image_alt)}" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='{h(fallback)}';this.alt='Imagen no disponible';this.classList.add('missing')" />
+  <img src="{h(img)}" alt="{h(image_alt)}" loading="lazy" decoding="async" width="420" height="315" {fallback_attrs} />
   <span class="game-card-body">
     <strong>{h(title)}</strong>
     <small>{h(text(game.get('genero')))}</small>
+    {meta_html}
     <span class="tagrow">{tag_html}</span>
   </span>
 </a>'''
+
+
+SPANISH_MONTHS = ("", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
+
+def parse_incorporation_date(game: dict[str, Any]) -> dt.date | None:
+    raw = str(game.get("fecha_incorporacion") or "").strip()
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", raw):
+        return None
+    try:
+        return dt.date.fromisoformat(raw)
+    except ValueError:
+        return None
+
+def incorporation_date_label(value: dt.date) -> str:
+    return f"{value.day} de {SPANISH_MONTHS[value.month]} de {value.year}"
+
+def dated_incorporations(games: list[dict[str, Any]]) -> list[tuple[dt.date, int, dict[str, Any]]]:
+    """Devuelve incorporaciones publicables, ordenadas de más reciente a más antigua.
+
+    Las fechas futuras se excluyen de las vistas de novedades: el validador ya las
+    señala como WARN y no deben alterar la portada ni /incorporaciones/. Para
+    varias altas en la misma fecha se conserva el orden original de juegos.json;
+    ``list.sort`` es estable y por eso solo usamos la fecha como clave.
+    """
+    today = dt.date.today()
+    dated: list[tuple[dt.date, int, dict[str, Any]]] = []
+    for position, game in enumerate(games):
+        value = parse_incorporation_date(game)
+        if value is not None and value <= today:
+            dated.append((value, position, game))
+    dated.sort(key=lambda item: item[0], reverse=True)
+    return dated
+
+def incorporation_card(game: dict[str, Any], value: dt.date, prefix: str = "") -> str:
+    return card(game, prefix, f"Incorporado · {incorporation_date_label(value)}")
 
 
 def taxonomy_link(kind: str, value: str, prefix: str = "") -> str:
@@ -1066,6 +1149,7 @@ def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
         item = {
             "titulo": g.get("titulo", ""),
             "url": site_path(str(g.get("url", ""))),
+            "imagen": resolved_primary_image(g),
             "formato": g.get("formato", ""),
             "serie": list_values(g.get("serie")),
             "genero": list_values(g.get("genero")),
@@ -1202,6 +1286,18 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     jewel_case = sum(1 for g in games if g.get("formato") == "Jewel Case")
     initial_games = games[:24]
     cards = "\n".join(card(g) for g in initial_games)
+    recent = dated_incorporations(games)[:RECENT_INCORPORATIONS_LIMIT]
+    recent_section = ""
+    if recent:
+        recent_cards = "\n".join(incorporation_card(game, value) for value, _, game in recent)
+        recent_section = f'''<section class="home-recent" aria-labelledby="recent-home-title">
+  <div class="wrap">
+    <p class="eyebrow">El archivo sigue creciendo</p>
+    <div class="section-head recent-section-head"><h2 id="recent-home-title">Últimas incorporaciones al archivo</h2><a href="incorporaciones/">Ver últimas incorporaciones</a></div>
+    <p class="recent-help">Ediciones físicas incorporadas recientemente y documentadas con fecha de entrada en PC Game Archive.</p>
+    <div class="recent-grid">{recent_cards}</div>
+  </div>
+</section>'''
     series_values = sorted({str(s) for g in games for s in (g.get("serie") or []) if str(s).strip()}, key=str.lower)
     series_options = "\n          ".join(f'<option value="{h(s)}">{h(s)}</option>' for s in series_values)
     desc = "Archivo y colección de videojuegos clásicos de PC en formato Big Box, MS-DOS y Windows. Preservación, catálogo y documentación de ediciones físicas retro."
@@ -1237,6 +1333,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     </aside>
   </div>
 </section>
+{recent_section}
 <section class="search-section" id="buscar">
   <div class="wrap">
     <div class="search-panel">
@@ -1281,6 +1378,61 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
 </main>'''
     jsonld = [organization_jsonld(base_url), {"@context":"https://schema.org","@type":"WebSite","name":SITE_NAME,"url":base_url.rstrip("/") + "/","inLanguage":"es","description":desc,"potentialAction":{"@type":"SearchAction","target":base_url.rstrip("/") + "/?q={search_term_string}","query-input":"required name=search_term_string"}}, collection_jsonld(base_url, "", "Archivo de videojuegos clásicos de PC", desc, games)]
     (out / "index.html").write_text(layout("PC Game Archive · Videojuegos clásicos de PC · Big Box · MS-DOS · Windows", desc, abs_url(base_url, ""), "index.html", body, jsonld=jsonld), encoding="utf-8")
+
+
+def generate_incorporations(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
+    """Genera una vista limitada de novedades, nunca un segundo catálogo histórico."""
+    dated = dated_incorporations(games)
+    target_dir = out / "incorporaciones"
+
+    # La ruta se regenera completa para no conservar páginas antiguas de la
+    # implementación paginada de la Fase 14 inicial.
+    if target_dir.exists():
+        shutil.rmtree(target_dir)
+    if not dated:
+        return
+
+    latest = dated[:LATEST_INCORPORATIONS_LIMIT]
+    route = "incorporaciones/"
+    prefix = rel_prefix_for(route + "index.html")
+    cards = "\n".join(incorporation_card(game, value, prefix) for value, _, game in latest)
+    total_dated = len(dated)
+    shown = len(latest)
+    count_text = (
+        f"Mostrando las {shown} incorporaciones más recientes."
+        if total_dated > shown
+        else f"Mostrando {shown} incorporación{'es' if shown != 1 else ''} documentada{'s' if shown != 1 else ''}."
+    )
+    description = "Últimas incorporaciones documentadas en PC Game Archive: una selección limitada de las ediciones físicas añadidas más recientemente al archivo."
+    body = f'''<main class="wrap">
+  <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <span>Últimas incorporaciones</span></nav>
+  <div class="page-head">
+    <p class="eyebrow">Novedades del archivo</p>
+    <h1>Últimas incorporaciones al archivo</h1>
+    <p class="lead">Una ventana a las ediciones físicas incorporadas más recientemente a PC Game Archive. Esta página muestra como máximo las {LATEST_INCORPORATIONS_LIMIT} últimas entradas y no funciona como un histórico ni como un segundo catálogo.</p>
+  </div>
+  <section>
+    <div class="section-head"><h2>Ediciones incorporadas recientemente</h2><a href="{prefix}catalogo/">Ver catálogo completo</a></div>
+    <p class="count">{h(count_text)}</p>
+    <div class="grid cards">{cards}</div>
+  </section>
+</main>'''
+    page_jsonld = collection_jsonld(base_url, route, "Últimas incorporaciones a PC Game Archive", description, [game for _, _, game in latest])
+    target = out / route / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(
+        layout(
+            "Últimas incorporaciones · PC Game Archive",
+            description,
+            abs_url(base_url, route),
+            "incorporaciones/",
+            body,
+            prefix=prefix,
+            subtitle="Archivo físico de videojuegos de PC",
+            jsonld=[organization_jsonld(base_url), page_jsonld],
+        ),
+        encoding="utf-8",
+    )
 
 
 def organization_jsonld(base_url: str) -> dict[str, Any]:
@@ -2054,10 +2206,13 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         desc = truncate(text(game.get("descripcion")), 155)
         gallery = gallery_index.get(url, [])
         primary_image_path = gallery[0] if gallery else None
-        hero_path = primary_image_path or "/no_disponible.png"
+        # La imagen visual principal no depende de que juegos/ estuviera disponible
+        # al generar el ZIP. Si no se pudo inspeccionar, el navegador intenta /img/001.*.
+        hero_path = primary_image_path or resolved_primary_image(game)
         hero = hero_path
-        hero_alt = edition_image_label(game) if primary_image_path else f"Imagen no disponible de {title}"
-        hero_caption = edition_image_caption(game) if primary_image_path else f"{title} · imagen documental pendiente"
+        hero_alt = edition_image_label(game)
+        hero_caption = edition_image_caption(game) if primary_image_path else f"{title} · imagen documental"
+        hero_fallback_attrs = image_fallback_attributes(game, hero_path)
         chip_parts: list[str] = []
         if game.get("formato"):
             chip_parts.append(entity_tag("formatos", str(game.get("formato")), taxonomy_lookup, prefix, "chip"))
@@ -2098,6 +2253,9 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         idioma_values = list_values(game.get("idioma"))
         soporte_values = list_values(game.get("soporte"))
         tipo_edicion_values = list_values(game.get("tipo_edicion"))
+        fecha_incorporacion = parse_incorporation_date(game)
+        if fecha_incorporacion:
+            extra_metadata_rows.append(f'<dt>Incorporado al archivo</dt><dd><time datetime="{fecha_incorporacion.isoformat()}">{h(incorporation_date_label(fecha_incorporacion))}</time></dd>')
         if anio:
             extra_metadata_rows.append(f'<dt>Año</dt><dd class="tagrow">{entity_tag("anos", anio, taxonomy_lookup, prefix)}</dd>')
         if mercado_values:
@@ -2116,7 +2274,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
   <article class="detail-grid">
     <section class="media-card">
       <figure class="hero-figure">
-        <img class="hero-img" src="{h(hero)}" alt="{h(hero_alt)}" width="760" height="570" loading="eager" fetchpriority="high" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')">
+        <img class="hero-img" src="{h(hero)}" alt="{h(hero_alt)}" width="760" height="570" loading="eager" fetchpriority="high" {hero_fallback_attrs}>
         <figcaption>{h(hero_caption)}</figcaption>
       </figure>
       <div class="chips">{chip_html}</div>
@@ -2158,6 +2316,9 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
 
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
     urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    incorporation_count = len(dated_incorporations(games))
+    if incorporation_count:
+        urls.append("incorporaciones/")
     seen = set(urls)
     total_catalog_pages = max(1, math.ceil(len(games) / CATALOG_PAGE_SIZE))
     for page_number in range(1, total_catalog_pages + 1):
@@ -2313,6 +2474,7 @@ def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str
         "",
         f"- Fecha: {dt.datetime.now().isoformat(timespec='seconds')}",
         f"- Juegos en catálogo: {len(games)}",
+        f"- Incorporaciones con fecha documentada: {len(dated_incorporations(games))}",
         f"- URLs duplicadas detectadas: {len(dup)}",
         f"- URLs inválidas omitidas: {len(invalid)}",
         f"- Desarrolladores con página/landing indexable: {sum(1 for e in build_taxonomy_entities(games, 'desarrolladores') if e['count'] >= TAXONOMIES['desarrolladores']['min_count'])}",
@@ -2350,6 +2512,7 @@ def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str
         "- Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.",
         "- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.",
         "- Fase 13 genera `/proyecto/` como página institucional del archivo con propósito, actividad, principios, conservación, roadmap y estado actual; la landing de aportación enlaza el tratamiento de las donaciones con esta página.",
+        "- Fase 14 añade `fecha_incorporacion` como dato documental independiente del número de ficha y de RRSS; cuando existen fechas reales, genera la sección de portada y una vista limitada a las 24 incorporaciones más recientes en `/incorporaciones/`.",
         "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
         "- Las fichas incorporan bloques automáticos de otras ediciones, serie/colección, desarrollador y juegos relacionados, deduplicados entre sí para reforzar la navegación contextual.",
         "- Se generan favicon PNG/ICO y manifest desde logo.png para favorecer el icono en resultados de Google.",
@@ -2374,15 +2537,23 @@ def main() -> int:
     out = (project_root / args.out).resolve()
     games = load_json(catalog_path)
     gallery_index = build_gallery_index(project_root, games)
+    # Metadato transitorio para que todas las tarjetas usen la misma imagen real
+    # detectada. No se persiste en juegos.json.
+    for game in games:
+        game_url = str(game.get("url", "")).strip()
+        detected = gallery_index.get(game_url, [])
+        game["_pcga_primary_image"] = detected[0] if detected else ""
 
-    global NAV_PUBLISHED_TAXONOMIES
+    global NAV_PUBLISHED_TAXONOMIES, HAS_INCORPORATIONS
     NAV_PUBLISHED_TAXONOMIES = {taxonomy for taxonomy in TAXONOMIES if taxonomy_is_publishable(games, taxonomy)}
+    HAS_INCORPORATIONS = bool(dated_incorporations(games))
 
     out.mkdir(parents=True, exist_ok=True)
     write_assets(out, games)
     copy_support_files(project_root, out)
     generate_favicons(project_root, out)
     generate_index(games, out, args.base_url)
+    generate_incorporations(games, out, args.base_url)
     generate_catalog_pages(games, out, args.base_url)
     generate_seo_landing_pages(games, out, args.base_url)
     generate_taxonomy_pages(games, out, args.base_url)
@@ -2396,8 +2567,8 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase13-proyecto-conservacion-donaciones-2026-09-11")
-    print("Fase 13: página El proyecto, conservación, donaciones y roadmap integrados")
+    print("Versión generador: fase14.3-orden-incorporaciones-2026-09-19")
+    print("Fase 14.3: últimas incorporaciones ordenadas por fecha descendente; fechas futuras excluidas")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
     print("Modo de assets: no se copian imágenes ni carpetas img; solo se sobrescriben ficheros generados.")
@@ -2742,12 +2913,23 @@ JS = r'''(function(){
   function card(g){
     const tags=[g.formato].concat(g.plataforma||[]).filter(Boolean).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
     const rawUrl=String(g.url||'#');const siteUrl=rawUrl==='#'?'#':'/'+rawUrl.replace(/^\/+/, '');const url=esc(siteUrl);
-    const img=esc(siteUrl==='#'?'/no_disponible.png':siteUrl.replace(/\/$/,'')+'/img/001.jpg');
+    const imageBase=siteUrl==='#'?'':siteUrl.replace(/\/$/,'')+'/img/001';
+    const defaults=imageBase?[imageBase+'.jpg',imageBase+'.jpeg',imageBase+'.png',imageBase+'.webp',imageBase+'.JPG',imageBase+'.JPEG',imageBase+'.PNG',imageBase+'.WEBP']:[];
+    const preferred=String(g.imagen||'').trim();
+    const candidates=[preferred].concat(defaults).filter((v,i,a)=>v&&a.indexOf(v)===i);
+    const img=esc(candidates.shift()||'/no_disponible.png');
+    const fallbackData=esc(candidates.join('|'));
     const gameId=esc(rawUrl.replace(/^\/+|\/+$/g,'').split('/').pop()||'game_unknown');
     const platforms=(g.plataforma||[]).filter(Boolean).slice(0,3).join(', ');let imageAlt='Portada de '+(g.titulo||'videojuego');if(g.formato)imageAlt+=', formato '+g.formato;if(platforms)imageAlt+=', para '+platforms;
-    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc(imageAlt)}" loading="lazy" decoding="async" width="420" height="315" onerror="this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing')"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero||[]).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
-  }
-})();
+    const onerror=`var q=(this.dataset.pcgaImageFallbacks||'').split('|').filter(Boolean);var i=Number(this.dataset.pcgaImageFallbackIndex||0);if(i<q.length){this.dataset.pcgaImageFallbackIndex=String(i+1);this.src=q[i];}else{this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing');}`;
+    return `<a class="game-card" href="${url}" data-game-link data-game-id="${gameId}"><img src="${img}" alt="${esc(imageAlt)}" loading="lazy" decoding="async" width="420" height="315" data-pcga-image-fallbacks="${fallbackData}" data-pcga-image-fallback-index="0" onerror="${onerror}"><span class="game-card-body"><strong>${esc(g.titulo)}</strong><small>${esc((g.genero||[]).join(', '))}</small><span class="tagrow">${tags}</span></span></a>`;
+  }})();
+'''
+
+CSS += r'''
+/* Fase 14: últimas incorporaciones */
+.home-recent{padding:34px 0 38px;background:#fff;border-bottom:1px solid var(--bd)}.recent-section-head{margin:0 0 6px;align-items:center}.recent-section-head h2{margin:0}.recent-help{margin:0 0 18px;color:#555;max-width:850px}.recent-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}.recent-grid .game-card{min-height:245px}.game-card-meta{font-weight:750;color:#444!important}.pcga-search-mode .home-recent{display:none}
+@media(max-width:1100px){.recent-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:700px){.recent-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.recent-grid{grid-template-columns:1fr}}
 '''
 
 if __name__ == "__main__":

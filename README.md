@@ -78,6 +78,8 @@ Características:
 │   └── index.html
 ├── vender-videojuegos-pc-antiguos/
 │   └── index.html
+├── incorporaciones/              # Se genera cuando existen fechas documentadas
+│   └── index.html
 ├── assets/
 │   ├── css/
 │   └── js/
@@ -104,12 +106,15 @@ Características:
 
 Cada juego se define mediante un objeto JSON validado contra el schema oficial del proyecto.
 
+`fecha_incorporacion` registra cuándo la edición se incorpora documentalmente a PC Game Archive y utiliza formato ISO `YYYY-MM-DD`. Para fichas históricas cuya fecha real no está documentada se mantiene como cadena vacía (`""`); no debe inferirse a partir de `num`, Instagram ni del orden del JSON.
+
 Ejemplo:
 
 ```json
 {
   "num": "000999",
   "ig": "",
+  "fecha_incorporacion": "2026-09-19",
   "titulo": "Example Game",
   "url": "juegos/example-game-bigbox/",
   "formato": "Big Box"
@@ -154,6 +159,7 @@ El generador:
   - robots,
   - índices,
   - buscador,
+  - vista de últimas incorporaciones cuando procede,
   - páginas de desarrolladores, distribuidores, géneros, plataformas y formatos.
 
 ---
@@ -299,6 +305,25 @@ La Fase 13 incorpora una nueva página pública **El proyecto** (`/proyecto/`) c
 La landing `/vender-videojuegos-pc-antiguos/` se amplía además con información específica para donantes: procedencia, catalogación, conservación física, preservación digital y situación actual de la colección.
 
 La navegación principal, el sitemap, las páginas generadas y los datos estructurados se actualizan automáticamente desde `generar_web.py`.
+
+---
+
+
+# Fase 14 — Últimas incorporaciones
+
+La Fase 14 incorpora una fecha documental de entrada al archivo mediante el campo obligatorio `fecha_incorporacion`, utilizada para construir una vista de novedades sin duplicar el catálogo.
+
+- `fecha_incorporacion` admite `YYYY-MM-DD` o cadena vacía para fichas históricas sin fecha documentada.
+- El dato es independiente de `num` y de la publicación en Instagram/redes sociales.
+- La portada muestra hasta 6 **Últimas incorporaciones al archivo** cuando existen fechas reales.
+- `/incorporaciones/` muestra únicamente las 24 incorporaciones más recientes, sin paginación ni histórico acumulativo.
+- Las incorporaciones se ordenan estrictamente por `fecha_incorporacion`, de más reciente a más antigua; a igualdad de fecha se conserva el orden de `juegos.json`.
+- Las fechas futuras se excluyen de las vistas de novedades y quedan señaladas por el validador para su corrección.
+- Las fichas individuales muestran **Incorporado al archivo** cuando la fecha está documentada.
+- El sitemap incluye únicamente la ruta canónica `/incorporaciones/` cuando existen registros fechados.
+- El validador comprueba formato ISO, fechas calendáricamente válidas y avisa si se registra una fecha futura.
+
+Las 1.562 fichas existentes se migran con `fecha_incorporacion: ""` para no fabricar fechas históricas que el archivo no puede acreditar. A partir de esta fase, la fecha debe documentarse en las nuevas incorporaciones reales.
 
 ---
 

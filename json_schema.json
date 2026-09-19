@@ -7,6 +7,7 @@
   "required": [
     "num",
     "ig",
+    "fecha_incorporacion",
     "titulo",
     "url",
     "plataforma",
@@ -42,6 +43,11 @@
           "const": ""
         }
       ]
+    },
+    "fecha_incorporacion": {
+      "type": "string",
+      "pattern": "^$|^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Fecha en la que la edición física se incorpora documentalmente a PC Game Archive, en formato ISO YYYY-MM-DD. Vacío para incorporaciones históricas cuya fecha no está documentada."
     },
     "titulo": {
       "type": "string",

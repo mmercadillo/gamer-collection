@@ -18,6 +18,7 @@ Criterio especial del proyecto:
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import os
 import re
@@ -178,6 +179,24 @@ def check_num_and_ig(games: list[dict[str, Any]], issues: list[Issue]) -> None:
     pending = counts.get(PENDING_NUM, 0)
     if pending:
         add(issues, "INFO", None, None, "num", f"{pending} juego(s) pendientes con num=000000. No se consideran duplicados.")
+
+
+def check_incorporation_dates(games: list[dict[str, Any]], issues: list[Issue]) -> None:
+    today = dt.date.today()
+    for idx, game in enumerate(games):
+        raw = game.get("fecha_incorporacion")
+        if raw == "":
+            continue
+        if not isinstance(raw, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", raw):
+            add(issues, "ERROR", idx, game, "fecha_incorporacion", "Debe estar vacía o usar el formato ISO YYYY-MM-DD.")
+            continue
+        try:
+            value = dt.date.fromisoformat(raw)
+        except ValueError:
+            add(issues, "ERROR", idx, game, "fecha_incorporacion", "La fecha no es válida en el calendario.")
+            continue
+        if value > today:
+            add(issues, "WARN", idx, game, "fecha_incorporacion", f"La fecha {raw} está en el futuro respecto a {today.isoformat()}.")
 
 
 def check_urls(games: list[dict[str, Any]], issues: list[Issue]) -> None:
@@ -375,6 +394,7 @@ def main() -> int:
 
     check_required_order(games, issues)
     check_num_and_ig(games, issues)
+    check_incorporation_dates(games, issues)
     check_urls(games, issues)
     check_arrays_and_duplicates(games, issues)
     check_ean(games, issues)
