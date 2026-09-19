@@ -199,6 +199,41 @@ def check_incorporation_dates(games: list[dict[str, Any]], issues: list[Issue]) 
             add(issues, "WARN", idx, game, "fecha_incorporacion", f"La fecha {raw} está en el futuro respecto a {today.isoformat()}.")
 
 
+def check_provenance(games: list[dict[str, Any]], issues: list[Issue]) -> None:
+    """Validaciones semánticas de la procedencia pública además del JSON Schema."""
+    domain_patterns = {
+        "instagram": re.compile(r"^https?://([A-Za-z0-9-]+\.)?instagram\.com/|^(www\.)?instagram\.com/", re.I),
+        "facebook": re.compile(r"^https?://([A-Za-z0-9-]+\.)?facebook\.com/|^(www\.)?facebook\.com/", re.I),
+        "x": re.compile(r"^https?://(www\.)?(x\.com|twitter\.com)/|^(www\.)?(x\.com|twitter\.com)/", re.I),
+    }
+    handle_patterns = {
+        "instagram": re.compile(r"^@?[A-Za-z0-9._]{1,30}$"),
+        "facebook": re.compile(r"^@?[A-Za-z0-9._-]+$"),
+        "x": re.compile(r"^@?[A-Za-z0-9_]{1,15}$"),
+    }
+    for idx, game in enumerate(games):
+        p = game.get("procedencia")
+        if not isinstance(p, dict):
+            continue
+        tipo = str(p.get("tipo") or "").strip()
+        nombre = str(p.get("nombre_publico") or "").strip()
+        redes = p.get("redes") if isinstance(p.get("redes"), dict) else {}
+        has_identity = bool(nombre or any(str(redes.get(k) or "").strip() for k in domain_patterns))
+        if has_identity and not tipo:
+            add(issues, "WARN", idx, game, "procedencia.tipo", "Hay identidad pública de procedencia, pero el tipo de procedencia está vacío.")
+        for network in domain_patterns:
+            value = str(redes.get(network) or "").strip()
+            if not value:
+                continue
+            is_url_like = value.lower().startswith(("http://", "https://", "www.", "instagram.com/", "facebook.com/", "x.com/", "twitter.com/"))
+            if is_url_like:
+                if not domain_patterns[network].match(value):
+                    add(issues, "ERROR", idx, game, f"procedencia.redes.{network}", f"La URL no corresponde al dominio esperado para {network}.")
+            elif not handle_patterns[network].fullmatch(value):
+                add(issues, "ERROR", idx, game, f"procedencia.redes.{network}", f"El usuario/alias no tiene un formato válido para {network}.")
+
+
+
 def check_urls(games: list[dict[str, Any]], issues: list[Issue]) -> None:
     urls = [g.get("url") for g in games]
     counts = Counter(urls)
@@ -395,6 +430,7 @@ def main() -> int:
     check_required_order(games, issues)
     check_num_and_ig(games, issues)
     check_incorporation_dates(games, issues)
+    check_provenance(games, issues)
     check_urls(games, issues)
     check_arrays_and_duplicates(games, issues)
     check_ean(games, issues)

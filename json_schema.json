@@ -8,6 +8,7 @@
     "num",
     "ig",
     "fecha_incorporacion",
+    "procedencia",
     "titulo",
     "url",
     "plataforma",
@@ -48,6 +49,103 @@
       "type": "string",
       "pattern": "^$|^\\d{4}-\\d{2}-\\d{2}$",
       "description": "Fecha en la que la edición física se incorpora documentalmente a PC Game Archive, en formato ISO YYYY-MM-DD. Vacío para incorporaciones históricas cuya fecha no está documentada."
+    },
+    "procedencia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tipo",
+        "nombre_publico",
+        "redes"
+      ],
+      "description": "Procedencia pública del ejemplar físico conservado. No debe contener datos personales que la persona de origen no haya autorizado a publicar.",
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "",
+            "Compra",
+            "Donación",
+            "Cesión",
+            "Intercambio",
+            "Colección fundacional",
+            "Otro"
+          ],
+          "description": "Forma mediante la que el ejemplar se incorporó al archivo. Vacío cuando la procedencia histórica no está documentada."
+        },
+        "nombre_publico": {
+          "type": "string",
+          "description": "Nombre, alias o denominación que la persona o entidad ha autorizado expresamente a mostrar. Vacío si no desea figurar o no está documentado."
+        },
+        "redes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "instagram",
+            "facebook",
+            "x"
+          ],
+          "properties": {
+            "instagram": {
+              "type": "string",
+              "anyOf": [
+                {
+                  "const": ""
+                },
+                {
+                  "pattern": "^@?[A-Za-z0-9._]{1,30}$"
+                },
+                {
+                  "format": "uri",
+                  "pattern": "^https?://([A-Za-z0-9-]+\\.)?instagram\\.com/"
+                },
+                {
+                  "pattern": "^(www\\.)?instagram\\.com/"
+                }
+              ],
+              "description": "Cuenta pública de Instagram autorizada para mostrar. Admite @usuario, usuario o URL completa."
+            },
+            "facebook": {
+              "type": "string",
+              "anyOf": [
+                {
+                  "const": ""
+                },
+                {
+                  "pattern": "^@?[A-Za-z0-9._-]+$"
+                },
+                {
+                  "format": "uri",
+                  "pattern": "^https?://([A-Za-z0-9-]+\\.)?facebook\\.com/"
+                },
+                {
+                  "pattern": "^(www\\.)?facebook\\.com/"
+                }
+              ],
+              "description": "Cuenta pública de Facebook autorizada para mostrar. Se recomienda URL completa; también admite alias simple."
+            },
+            "x": {
+              "type": "string",
+              "anyOf": [
+                {
+                  "const": ""
+                },
+                {
+                  "pattern": "^@?[A-Za-z0-9_]{1,15}$"
+                },
+                {
+                  "format": "uri",
+                  "pattern": "^https?://(www\\.)?(x\\.com|twitter\\.com)/"
+                },
+                {
+                  "pattern": "^(www\\.)?(x\\.com|twitter\\.com)/"
+                }
+              ],
+              "description": "Cuenta pública de X autorizada para mostrar. Admite @usuario, usuario o URL completa (x.com o twitter.com)."
+            }
+          }
+        }
+      }
     },
     "titulo": {
       "type": "string",

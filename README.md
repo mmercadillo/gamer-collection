@@ -115,6 +115,15 @@ Ejemplo:
   "num": "000999",
   "ig": "",
   "fecha_incorporacion": "2026-09-19",
+  "procedencia": {
+    "tipo": "Donación",
+    "nombre_publico": "",
+    "redes": {
+      "instagram": "https://www.instagram.com/usuario/",
+      "facebook": "",
+      "x": ""
+    }
+  },
   "titulo": "Example Game",
   "url": "juegos/example-game-bigbox/",
   "formato": "Big Box"
@@ -324,6 +333,36 @@ La Fase 14 incorpora una fecha documental de entrada al archivo mediante el camp
 - El validador comprueba formato ISO, fechas calendáricamente válidas y avisa si se registra una fecha futura.
 
 Las 1.562 fichas existentes se migran con `fecha_incorporacion: ""` para no fabricar fechas históricas que el archivo no puede acreditar. A partir de esta fase, la fecha debe documentarse en las nuevas incorporaciones reales.
+
+---
+
+
+# Fase 15 — Procedencia y trazabilidad pública
+
+La Fase 15 añade el campo obligatorio `procedencia` para documentar cómo llegó al archivo el ejemplar físico concreto y, cuando existe autorización, reconocer públicamente a la persona o entidad de origen.
+
+- `tipo`: Compra, Donación, Cesión, Intercambio, Colección fundacional, Otro o vacío cuando no se conoce.
+- `nombre_publico`: nombre, alias o denominación autorizada para publicación; puede quedar vacío.
+- `redes.instagram` y `redes.x`: aceptan `@usuario`, usuario sin `@` o URL completa. `redes.facebook` acepta URL completa (recomendada) o alias simple.
+- Es válido publicar una procedencia únicamente con una red social y sin nombre público.
+- La ficha muestra la procedencia solo cuando existe algún dato documentado.
+- Las redes se renderizan como enlaces externos seguros y no generan taxonomías ni páginas de donantes.
+- Para las fichas históricas se utiliza la estructura vacía; no se inventa una procedencia.
+- **Privacidad:** `juegos.json` es un fichero público. No se debe guardar en él un nombre privado para ocultarlo después con CSS o lógica de presentación. Solo se registra identidad que pueda publicarse.
+
+Ejemplo:
+
+```json
+"procedencia": {
+  "tipo": "Donación",
+  "nombre_publico": "",
+  "redes": {
+    "instagram": "https://www.instagram.com/usuario/",
+    "facebook": "",
+    "x": "https://x.com/usuario"
+  }
+}
+```
 
 ---
 

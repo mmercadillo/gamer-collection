@@ -394,3 +394,35 @@ El schema incluye el campo obligatorio `fecha_incorporacion`.
 - Si la fecha no está documentada, devuelve `"fecha_incorporacion": ""`.
 - NO la deduzcas de `num`, `ig`, fecha de publicación en redes, orden del JSON, año del juego ni metadatos de las fotografías.
 - NO uses automáticamente la fecha actual salvo que el usuario indique que está catalogando una incorporación realizada hoy.
+
+
+---
+
+# Procedencia del ejemplar (Fase 15)
+
+El schema incluye el objeto obligatorio `procedencia`, que documenta el origen del ejemplar físico concreto conservado por PC Game Archive.
+
+Estructura:
+
+```json
+"procedencia": {
+  "tipo": "",
+  "nombre_publico": "",
+  "redes": {
+    "instagram": "",
+    "facebook": "",
+    "x": ""
+  }
+}
+```
+
+Reglas:
+
+- `tipo` solo puede usar los valores permitidos por el schema: vacío, Compra, Donación, Cesión, Intercambio, Colección fundacional u Otro.
+- `nombre_publico` es únicamente el nombre, alias o denominación que la persona o entidad autoriza a publicar. Puede quedar vacío aunque existan RRSS.
+- Las redes son independientes y opcionales. Una persona puede figurar exclusivamente mediante Instagram, Facebook o X sin publicar su nombre.
+- Las RRSS se almacenan como URL pública `https://`, no como información privada ni credenciales.
+- Si el usuario no proporciona información de procedencia, devuelve la estructura completa con todos sus valores vacíos.
+- NO deduzcas la procedencia a partir de fotografías, número de ficha, publicación en RRSS o cualquier otro dato indirecto.
+- NO inventes nombres, alias, cuentas sociales ni tipo de adquisición.
+- `juegos.json` es contenido público del sitio: nunca incluyas un nombre o dato personal que deba permanecer privado aunque exista la intención de no mostrarlo visualmente.
