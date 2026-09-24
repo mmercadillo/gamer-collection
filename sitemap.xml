@@ -124,13 +124,13 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/milestone/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/techland/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/valve/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/activision/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/arxel-tribe/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/blue-byte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/city-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cunning-developments/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/pandemic-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/quicksilver-software/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/activision/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/atomic-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/blizzard-north/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/crystal-dynamics/</loc></url>
@@ -263,12 +263,12 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategic-simulations-inc/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/cryo-interactive/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/microprose/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/mindscape/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/acclaim-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ea-sports/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/gathering-of-developers/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/microprose/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/acclaim-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/focus-home-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts-entertainment-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/dro-soft/</loc></url>
@@ -287,12 +287,12 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/electronic-arts-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/interplay-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/hasbro-interactive/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/havas-interactive-espana/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasfilm-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/planeta-deagostini-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategic-simulations-inc-98189a/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/coktel-educative/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/gt-interactive-software/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/havas-interactive-espana/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/interactive-magic/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/mk-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/neo-juegos/</loc></url>
@@ -390,12 +390,12 @@
   <url><loc>https://www.pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/survival-horror/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tercera-persona/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/ajedrez/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/educativo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/fmv/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gran-estrategia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tiempo-real/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tactica-en-tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/4x/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-tactica/</loc></url>
@@ -415,6 +415,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/gestion-de-recursos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-aerea/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-militar/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-deportiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/guerra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/manager-deportivo/</loc></url>
@@ -424,7 +425,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-futbolistica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-de-accion/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-y-gestion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/formula-1/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-y-slash/</loc></url>
@@ -466,7 +466,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/combate-en-tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-moderno/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-tactico/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/deportivo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/espionaje/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-belica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-espacial/</loc></url>
@@ -478,6 +477,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/pelicula-interactiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/piratas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shoot-em-up/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate-aereo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-policial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-tactica/</loc></url>
@@ -506,9 +506,10 @@
   <url><loc>https://www.pcgamearchive.org/idiomas/espanol/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/ingles/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/italiano/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/idiomas/multilingue/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/frances/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/idiomas/multilingue/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/aleman/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/idiomas/neerlandes/</loc></url>
   <url><loc>https://www.pcgamearchive.org/soportes/</loc></url>
   <url><loc>https://www.pcgamearchive.org/soportes/cd-rom/</loc></url>
   <url><loc>https://www.pcgamearchive.org/soportes/disquete-3-5/</loc></url>
@@ -2937,6 +2938,42 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/mia-missing-in-action-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/mia-missing-in-action-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/mia-missing-in-action-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/mia-missing-in-action-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/img/001.jpg</image:loc>
@@ -5124,18 +5161,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/mia-missing-in-action-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/mia-missing-in-action-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/mia-missing-in-action-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/mia-missing-in-action-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.pcgamearchive.org/juegos/flight-unlimited-iii-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/flight-unlimited-iii-bigbox/img/001.jpg</image:loc>
@@ -5250,18 +5275,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/gorky-17-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -6114,18 +6127,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/odisea-la-busqueda-de-ulises-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -7122,6 +7123,15 @@
     <loc>https://www.pcgamearchive.org/juegos/faraon-chj-cddvd/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/faraon-chj-cddvd/img/001.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/edgar-torronteras-extreme-biker-cddvd/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/edgar-torronteras-extreme-biker-cddvd/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/edgar-torronteras-extreme-biker-cddvd/img/002.jpg</image:loc>
     </image:image>
   </url>
   <url>

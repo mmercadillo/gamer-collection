@@ -16986,6 +16986,267 @@
     ]
   },
   {
+    "num": "000202",
+    "ig": "https://www.instagram.com/p/DdqdyopiMtz",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "South Park Rally",
+    "url": "juegos/south-park-rally-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Carreras arcade",
+      "Carreras de karts",
+      "Combate vehicular"
+    ],
+    "desarrollador": [
+      "Tantalus Interactive"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "South Park Rally es un juego de carreras arcade publicado en 2000 y basado en la serie de animación South Park. Desarrollado por Tantalus Interactive y publicado por Acclaim Entertainment bajo licencia de Comedy Central, traslada a Cartman, Stan, Kyle, Kenny y otros personajes de la serie a competiciones con vehículos, armas y potenciadores. Frente al esquema convencional de un juego de karts, muchas pruebas plantean objetivos específicos, como recoger o transportar objetos y alcanzar determinados rivales, además de carreras de circuito. La versión para Windows utiliza gráficos 3D acelerados mediante Direct3D y ofrece juego para un jugador y multijugador. Esta edición europea en caja grande para PC CD-ROM conserva una presentación multilingüe y documentación en español, y forma parte de la primera etapa de adaptaciones de South Park publicadas por Acclaim a finales de los noventa y comienzos de los 2000.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de instrucciones en español",
+      "Guía de controles con esquema de teclado",
+      "Documentación impresa adicional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "South Park",
+      "Tantalus Interactive",
+      "Acclaim Entertainment",
+      "Comedy Central",
+      "videojuego con licencia",
+      "vehículos",
+      "potenciadores",
+      "multijugador",
+      "Direct3D",
+      "Windows 95",
+      "Windows 98",
+      "edición europea",
+      "edición multilingüe",
+      "manual en español",
+      "PC CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SecuROM",
+      "version": "",
+      "preservacion": "La edición retail para Windows utiliza SecuROM. Para preservación se recomienda una imagen que conserve los subcanales del CD, como CCD/IMG/SUB, además de documentar el contenido impreso y conservar los parches oficiales. La ejecución virtual es viable en un entorno Windows 95/98 compatible, aunque la protección óptica y la aceleración Direct3D pueden requerir configuración específica.",
+      "formato": "CCD/IMG/SUB",
+      "jugable_virtual": true
+    },
+    "anio": "2000",
+    "mercado": [
+      "España",
+      "Europa"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Neerlandés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000203",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Jack Nicklaus 6: Golden Bear Challenge",
+    "url": "juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación deportiva",
+      "Golf",
+      "Simulación"
+    ],
+    "desarrollador": [
+      "Hypnos Entertainment"
+    ],
+    "distribuidor": [
+      "Activision",
+      "Proein"
+    ],
+    "ean": [
+      "5030917008375"
+    ],
+    "descripcion": "Jack Nicklaus 6: Golden Bear Challenge es un simulador de golf desarrollado por Hypnos Entertainment y publicado por Activision en 1999, tras la adquisición por Activision de los derechos de la serie Jack Nicklaus. Fue la primera entrega de la saga que permitió jugar directamente como Jack Nicklaus, además de enfrentarse a él, y destacó por su orientación a la simulación, sus golfistas tridimensionales, físicas de bola, cámaras de estilo televisivo y comentarios de los periodistas deportivos Jim Nantz y Gary McCord. Incluye seis campos reales vinculados a Jack Nicklaus, entre ellos Shoal Creek, Muirfield Village y Montecastillo, junto con editores de campos y hoyos que permitían crear recorridos propios. Esta edición española en caja grande para PC CD-ROM fue distribuida por Proein, presenta caja y manual en castellano y conserva el EAN 5030917008375.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en castellano",
+      "Catálogo Proein",
+      "Hoja de registro o encuesta de producto"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Jack Nicklaus",
+      "Golden Bear Challenge",
+      "Hypnos Entertainment",
+      "Activision",
+      "Proein",
+      "golf",
+      "simulación deportiva",
+      "editor de campos",
+      "Course Designer",
+      "Hole Editor",
+      "Jim Nantz",
+      "Gary McCord",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en formato ISO, acompañada de escaneos del manual y de la documentación impresa. Conviene conservar también los parches oficiales publicados para la versión de 1999 y verificar la instalación y ejecución en un entorno Windows 95/98 virtualizado.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    },
+    "anio": "1999",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000204",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "M.I.A.: Missing in Action",
+    "url": "juegos/mia-missing-in-action-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Combate de helicópteros",
+      "Simulación de combate aéreo"
+    ],
+    "desarrollador": [
+      "Glass Ghost"
+    ],
+    "distribuidor": [
+      "GT Interactive Software (UK) Ltd."
+    ],
+    "ean": [],
+    "descripcion": "M.I.A.: Missing in Action es un videojuego de acción y combate de helicópteros ambientado en la guerra de Vietnam. La campaña se estructura en 26 misiones repartidas en cuatro campañas y permite pilotar cuatro helicópteros reproducidos a partir de modelos históricos. Su propuesta combina combate aéreo y apoyo a fuerzas terrestres con una presentación cinematográfica basada en secuencias de vídeo, gráficos 3D y sonido posicional. La edición física europea para PC CD-ROM corresponde a la etapa de expansión de la aceleración 3D en Windows a finales de los años noventa y anuncia compatibilidad con hardware 3D acelerado, tecnología MMX, Direct3D y QSound.",
+    "incluye": [
+      "Caja Big Box"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "M.I.A.",
+      "Missing in Action",
+      "Glass Ghost",
+      "GT Interactive",
+      "guerra de Vietnam",
+      "helicópteros militares",
+      "26 misiones",
+      "4 campañas",
+      "aceleración 3D",
+      "Direct3D",
+      "MMX",
+      "QSound",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición europea",
+      "Big Box PC",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM mediante una imagen completa del soporte y conservar la caja y documentación asociada. Al no estar documentado el sistema anticopia concreto de esta edición, conviene verificar el disco original antes de fijar un método de ejecución virtual definitivo.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1998",
+    "mercado": [
+      "Europa"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés",
+      "Italiano"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "fecha_incorporacion": "",
@@ -27727,66 +27988,6 @@
         "x": ""
       }
     },
-    "titulo": "M.I.A. (Missing In Action)",
-    "url": "juegos/mia-missing-in-action-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter",
-      "Táctica"
-    ],
-    "desarrollador": [
-      "Team 17"
-    ],
-    "distribuidor": [
-      "MicroProse"
-    ],
-    "ean": [],
-    "descripcion": "M.I.A. (Missing In Action) es un juego de acción táctica ambientado en conflictos militares modernos. El jugador lidera a un escuadrón de operaciones especiales en misiones de infiltración, rescate y sabotaje, combinando sigilo, estrategia y combate en tiempo real.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Acción táctica",
-      "Shooter",
-      "Militar",
-      "Estrategia en tiempo real",
-      "Guerra moderna",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
     "titulo": "Flight Unlimited III",
     "url": "juegos/flight-unlimited-iii-bigbox/",
     "plataforma": [
@@ -28369,65 +28570,6 @@
       "Terror",
       "Ciencia ficción",
       "Experimentos",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Jack Nicklaus 6: Golden Bear Challenge",
-    "url": "juegos/jack-nicklaus-6-golden-bear-challenge-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Deportivo",
-      "Simulación",
-      "Golf"
-    ],
-    "desarrollador": [
-      "Activision"
-    ],
-    "distribuidor": [
-      "Activision"
-    ],
-    "ean": [],
-    "descripcion": "Jack Nicklaus 6: Golden Bear Challenge es un simulador de golf realista que permite jugar en campos profesionales y crear recorridos personalizados con su potente editor. Con gráficos detallados, físicas precisas y la presencia del legendario Jack Nicklaus, ofrece una experiencia profunda tanto para jugadores casuales como avanzados.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Golf",
-      "Simulación deportiva",
-      "Editor de campos",
-      "Jack Nicklaus",
       "Big Box"
     ],
     "proteccion": {
@@ -32623,64 +32765,6 @@
     "mercado": [
       "España"
     ],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "South Park Rally",
-    "url": "juegos/south-park-rally-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Carreras",
-      "Arcade"
-    ],
-    "desarrollador": [
-      "Tantalus Interactive"
-    ],
-    "distribuidor": [
-      "Acclaim"
-    ],
-    "ean": [],
-    "descripcion": "Juego de carreras arcade ambientado en el universo de South Park. Los jugadores compiten en caóticas carreras a través de escenarios inspirados en la serie mientras utilizan objetos y trampas para sabotear a sus rivales. Incluye personajes clásicos como Cartman, Stan, Kyle y Kenny, circuitos llenos de humor irreverente y desafíos inspirados en episodios de la serie.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "South Park",
-      "Carreras",
-      "Arcade",
-      "Humor",
-      "Acclaim",
-      "Licencia TV"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
     "idioma": [],
     "soporte": [],
     "tipo_edicion": []
@@ -41085,6 +41169,94 @@
     "idioma": [],
     "soporte": [],
     "tipo_edicion": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-09-24",
+    "procedencia": {
+      "tipo": "Compra",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Edgar Torronteras' eXtreme Biker",
+    "url": "juegos/edgar-torronteras-extreme-biker-cddvd/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Motocross",
+      "Deportes",
+      "Simulación",
+      "Carreras de motos"
+    ],
+    "desarrollador": [
+      "Deibus Studios"
+    ],
+    "distribuidor": [
+      "Sierra Entertainment",
+      "Havas Interactive España"
+    ],
+    "ean": [
+      "3348542129979"
+    ],
+    "descripcion": "Edgar Torronteras' eXtreme Biker es un juego de motocross y freestyle protagonizado por el piloto español Edgar Torronteras. Su propuesta combina pruebas de motocross, supercross, estilo libre y torneo con acrobacias, circuitos tridimensionales, diferentes cámaras, repeticiones y juego multijugador para hasta ocho participantes mediante red local o Internet. Desarrollado por Deibus Studios y publicado bajo el sello Sierra, representa el auge de los deportes extremos en el videojuego de PC de comienzos de los años 2000. Esta edición española pertenece a la línea económica BestSeller Series de Sierra, se presenta en DVD Case, utiliza un CD-ROM y conserva el software en castellano.",
+    "incluye": [
+      "Caja DVD Case",
+      "CD-ROM",
+      "Folleto catálogo BestSeller Series",
+      "Tarjeta postal Sierra Number 1 Club"
+    ],
+    "serie": [
+      "Todos",
+      "DVD Case",
+      "BestSeller Series"
+    ],
+    "tags": [
+      "Edgar Torronteras",
+      "eXtreme Biker",
+      "Deibus Studios",
+      "Sierra Entertainment",
+      "Havas Interactive España",
+      "motocross",
+      "supercross",
+      "freestyle motocross",
+      "deportes extremos",
+      "multijugador LAN",
+      "multijugador por Internet",
+      "edición española",
+      "BestSeller Series",
+      "PC CD-ROM",
+      "DVD Case",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM mediante una imagen completa del disco y conservar el material impreso asociado. No se ha identificado de forma concluyente el sistema anticopia de esta edición; la ejecución en máquina virtual es viable mediante un entorno Windows 95/98 compatible, aunque puede requerir ajustes para aceleración 3D y dispositivos gráficos de la época.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    },
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget"
+    ]
   },
   {
     "num": "000000",
