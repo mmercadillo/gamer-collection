@@ -115,7 +115,6 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/raven-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/relic-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/strategic-simulations-inc/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/ubisoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ascaron-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/frogwares/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/illusion-softworks/</loc></url>
@@ -123,10 +122,12 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/lucasfilm-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/milestone/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/techland/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/ubisoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/valve/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/arxel-tribe/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/blue-byte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/city-interactive/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/cryo-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cunning-developments/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/pandemic-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/quicksilver-software/</loc></url>
@@ -156,7 +157,6 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/bohemia-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/bullfrog-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/capcom/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/cryo-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/daedalic-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/deep-red-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/digital-reality/</loc></url>
@@ -254,11 +254,11 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/thq/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/atari/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/infogrames/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/friendware/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/empire-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microids/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft-game-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-entertainment/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/friendware/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/2k-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategic-simulations-inc/</loc></url>
@@ -276,11 +276,11 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/dreamcatcher-interactive/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/ubi-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/deep-silver/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/novalogic/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/paradox-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/rockstar-games/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/ubi-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/cdv-software-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/psygnosis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/bethesda-softworks/</loc></url>
@@ -324,6 +324,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/adventure-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/arcadia-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/canal-multimedia/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/cryo-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/daedalic-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/digital-jesters/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/disney-interactive-studios/</loc></url>
@@ -400,13 +401,13 @@
   <url><loc>https://www.pcgamearchive.org/generos/4x/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/action-rpg/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-de-ciudades/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-and-slash/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pinball/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/point-y-click/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulador/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/crpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/historico/</loc></url>
@@ -438,7 +439,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/crimen/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/cyberpunk/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/golf/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/infantil/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/isometrico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rol-de-accion/</loc></url>
@@ -472,6 +472,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-fantastica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-futbolistica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/historia-alternativa/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/juego-de-tablero/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multideporte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pelicula-interactiva/</loc></url>
@@ -2974,6 +2975,54 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.pcgamearchive.org/juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/torero-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/torero-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/torero-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/torero-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/aliens-versus-predator-2-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/aliens-versus-predator-2-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/aliens-versus-predator-2-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/aliens-versus-predator-2-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/star-trek-conquest-online-bigbox/img/001.jpg</image:loc>
@@ -3025,18 +3074,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/wall-street-trader-99-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/egipto-1156-ac-la-tumba-del-faraon-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -3274,15 +3311,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/descent-ii-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/egipto-ii-la-profecia-de-heliopolis-bigbox/img/002.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -6082,18 +6110,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/torero-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/torero-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/torero-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/torero-el-juli-presenta-arte-y-pasion-en-la-arena-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.pcgamearchive.org/juegos/flanker-2-0-the-combat-flight-simulator-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/flanker-2-0-the-combat-flight-simulator-bigbox/img/001.jpg</image:loc>
@@ -6127,18 +6143,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/odisea-la-busqueda-de-ulises-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/aliens-versus-predator-2-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/aliens-versus-predator-2-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/aliens-versus-predator-2-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/aliens-versus-predator-2-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
