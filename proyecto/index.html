@@ -124,6 +124,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </details>
 <a class="active" href="../proyecto/">El proyecto</a>
 <a href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
+<a href="../apoyar/">Apoyar</a>
 <a href="../contacto.html">Contacto</a>
 <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>
       </nav>
@@ -250,8 +251,11 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <aside class="project-cta-card">
       <p class="eyebrow">Ayuda a preservar</p>
       <h3>¿Tienes material que pueda formar parte del archivo?</h3>
-      <p>Si conservas videojuegos físicos, manuales, soportes o documentación de PC, puedes proponernos una venta o una donación.</p>
-      <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos o material</a>
+      <p>Si conservas videojuegos físicos, manuales, soportes o documentación de PC, puedes proponernos una venta o una donación. Si prefieres contribuir a la sostenibilidad del proyecto, también puedes apoyarlo económicamente.</p>
+      <div class="actions project-actions">
+        <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos o material</a>
+        <a class="button button-secondary" href="../apoyar/">Apoyar el proyecto</a>
+      </div>
     </aside>
   </div>
 </section>
@@ -337,12 +341,21 @@ document.addEventListener('click',function(e){
     return;
   }
 
+  var supportProvider=link.getAttribute('data-support-provider');
+  if(supportProvider){
+    gtag('event','support_click',{provider:supportProvider,link_url:href,source_page:location.pathname});
+    return;
+  }
+
   if(href.indexOf('mailto:')===0){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
   }
 });
+if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){
+  gtag('event','support_page_view',{support_provider:'ko-fi',source_page:location.pathname});
+}
 </script>
 </body>
 </html>

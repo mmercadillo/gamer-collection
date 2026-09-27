@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-09-27T10:39:35
+- Fecha: 2026-09-27T19:25:31
 - Juegos en catálogo: 1565
 - Incorporaciones con fecha documentada: 16
 - URLs duplicadas detectadas: 1
@@ -40,6 +40,7 @@
 - Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.
 - Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.
 - Fase 13 genera `/proyecto/` como página institucional del archivo con propósito, actividad, principios, conservación, roadmap y estado actual; la landing de aportación enlaza el tratamiento de las donaciones con esta página.
+- Fase 16 genera `/apoyar/` como vía diferenciada de sostenibilidad económica, enlaza Ko-fi y mide `support_page_view` y `support_click` en GA4.
 - Fase 14 añade `fecha_incorporacion` como dato documental independiente del número de ficha y de RRSS; cuando existen fechas reales, genera la sección de portada y una vista limitada a las 24 incorporaciones más recientes en `/incorporaciones/`.
 - Fase 15 añade `procedencia` para documentar el origen público del ejemplar: tipo, nombre/alias autorizado y enlaces opcionales a Instagram, Facebook y X. El JSON público no debe contener identidades privadas ocultas solo por presentación.
 - Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.

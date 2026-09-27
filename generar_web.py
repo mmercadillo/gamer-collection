@@ -683,6 +683,7 @@ def nav(active: str, prefix: str = "") -> str:
     utility_items = [
         ("proyecto/", "El proyecto"),
         ("vender-videojuegos-pc-antiguos/", "Ofrecer juegos"),
+        ("apoyar/", "Apoyar"),
         ("contacto.html", "Contacto"),
     ]
     collection_items = []
@@ -926,12 +927,21 @@ document.addEventListener('click',function(e){{
     return;
   }}
 
+  var supportProvider=link.getAttribute('data-support-provider');
+  if(supportProvider){{
+    gtag('event','support_click',{{provider:supportProvider,link_url:href,source_page:location.pathname}});
+    return;
+  }}
+
   if(href.indexOf('mailto:')===0){{
     gtag('event','contact_click',{{method:'email',link_url:href,source_page:location.pathname}});
   }} else if(href.indexOf('instagram.com/')!==-1){{
     gtag('event','outbound_social_click',{{platform:'instagram',link_url:href,source_page:location.pathname}});
   }}
 }});
+if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){{
+  gtag('event','support_page_view',{{support_provider:'ko-fi',source_page:location.pathname}});
+}}
 </script>
 </body>
 </html>
@@ -2199,8 +2209,11 @@ def generate_project_page(out: Path, base_url: str) -> None:
     <aside class="project-cta-card">
       <p class="eyebrow">Ayuda a preservar</p>
       <h3>¿Tienes material que pueda formar parte del archivo?</h3>
-      <p>Si conservas videojuegos físicos, manuales, soportes o documentación de PC, puedes proponernos una venta o una donación.</p>
-      <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos o material</a>
+      <p>Si conservas videojuegos físicos, manuales, soportes o documentación de PC, puedes proponernos una venta o una donación. Si prefieres contribuir a la sostenibilidad del proyecto, también puedes apoyarlo económicamente.</p>
+      <div class="actions project-actions">
+        <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos o material</a>
+        <a class="button button-secondary" href="../apoyar/">Apoyar el proyecto</a>
+      </div>
     </aside>
   </div>
 </section>
@@ -2216,6 +2229,97 @@ def generate_project_page(out: Path, base_url: str) -> None:
         layout(title, desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación y documentación de videojuegos físicos de PC", jsonld=jsonld),
         encoding="utf-8",
     )
+
+def support_breadcrumb_jsonld(base_url: str) -> dict[str, Any]:
+    return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":abs_url(base_url, "")},
+        {"@type":"ListItem","position":2,"name":"Apoya PC Game Archive","item":abs_url(base_url, "apoyar/")},
+    ]}
+
+
+def generate_support_page(out: Path, base_url: str) -> None:
+    route = "apoyar/"
+    title = "Apoya PC Game Archive · Preservación de videojuegos de PC"
+    desc = "Apoya la conservación, documentación y crecimiento de PC Game Archive, un archivo independiente de ediciones físicas de videojuegos de PC."
+    prefix = "../"
+    body = '''<main class="support-page">
+<section class="support-hero">
+  <div class="wrap support-hero-grid">
+    <div>
+      <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../">Inicio</a> / <span>Apoyar</span></nav>
+      <p class="eyebrow">Sostenibilidad del archivo</p>
+      <h1>Ayúdanos a preservar la historia del videojuego de PC</h1>
+      <p class="lead">PC Game Archive es un proyecto independiente dedicado a preservar, catalogar y documentar ediciones físicas de videojuegos de PC.</p>
+      <p>El archivo se mantiene con recursos propios. Cada nueva incorporación implica no solo conservar un juego, sino también catalogarlo, fotografiarlo, documentarlo, almacenarlo adecuadamente y mantener disponible públicamente toda esa información.</p>
+      <p>Si consideras valioso este trabajo y quieres contribuir a que continúe creciendo, puedes apoyar económicamente el proyecto mediante una aportación voluntaria.</p>
+      <div class="actions support-actions">
+        <a class="button" href="https://ko-fi.com/pcgamearchive" target="_blank" rel="noopener noreferrer" data-support-provider="ko-fi">Apoyar PC Game Archive en Ko-fi</a>
+      </div>
+      <p class="support-payment-note">Las aportaciones se realizan externamente mediante Ko-fi. Actualmente el pago está disponible a través de PayPal.</p>
+    </div>
+    <aside class="support-principle-card">
+      <p class="eyebrow">Nuestro compromiso</p>
+      <strong>El archivo seguirá siendo público</strong>
+      <p>El apoyo económico contribuye a sostener el proyecto, pero no condiciona el acceso a sus fichas, fotografías, herramientas de búsqueda ni contenidos documentales.</p>
+    </aside>
+  </div>
+</section>
+<section class="wrap support-section" id="destino">
+  <div class="support-section-intro">
+    <p class="eyebrow">Destino de las aportaciones</p>
+    <h2>¿A qué ayuda tu apoyo?</h2>
+    <p>Las aportaciones ayudan a cubrir recursos directamente relacionados con la conservación, documentación, infraestructura y crecimiento del archivo.</p>
+  </div>
+  <div class="support-grid">
+    <article><span aria-hidden="true">01</span><h3>Conservación física</h3><p>Materiales de protección y almacenamiento adecuados para conservar cajas, manuales, discos y demás componentes de las ediciones físicas.</p></article>
+    <article><span aria-hidden="true">02</span><h3>Preservación digital</h3><p>Almacenamiento y equipamiento necesario para realizar y conservar copias de preservación del material cuando sea posible.</p></article>
+    <article><span aria-hidden="true">03</span><h3>Infraestructura</h3><p>Dominio, almacenamiento, servicios y herramientas necesarios para mantener PC Game Archive disponible y continuar desarrollándolo.</p></article>
+    <article><span aria-hidden="true">04</span><h3>Nuevas incorporaciones</h3><p>Adquisición de videojuegos y ediciones relevantes que permitan ampliar la representación del videojuego físico de PC dentro del archivo.</p></article>
+    <article><span aria-hidden="true">05</span><h3>Documentación</h3><p>Catalogación, fotografía, investigación y contextualización de las ediciones incorporadas.</p></article>
+  </div>
+</section>
+<section class="support-soft">
+  <div class="wrap support-section support-open-grid">
+    <div>
+      <p class="eyebrow">Un archivo abierto</p>
+      <h2>PC Game Archive seguirá siendo público</h2>
+      <p>El apoyo económico no da acceso a contenido exclusivo porque nuestro objetivo es precisamente el contrario: que la documentación que generamos permanezca accesible públicamente.</p>
+      <p>Las fichas, fotografías, herramientas de búsqueda y contenidos documentales del archivo continuarán estando disponibles para todos.</p>
+      <p>Apoyar PC Game Archive significa contribuir a que podamos seguir preservando, documentando y haciendo accesible este patrimonio.</p>
+    </div>
+    <div>
+      <p class="eyebrow">Transparencia e independencia</p>
+      <h2>Un proyecto independiente</h2>
+      <p>PC Game Archive es un proyecto independiente mantenido actualmente por sus responsables con recursos propios.</p>
+      <p>Las aportaciones recibidas se destinan al mantenimiento, conservación y crecimiento del archivo. La existencia de apoyo económico, colaboraciones o futuras formas de financiación no condicionará qué videojuegos se documentan ni el contenido de sus fichas.</p>
+      <p>Nuestra prioridad seguirá siendo la preservación y documentación rigurosa de las ediciones físicas de videojuegos de PC.</p>
+    </div>
+  </div>
+</section>
+<section class="wrap support-section">
+  <div class="support-material-card">
+    <div>
+      <p class="eyebrow">Otra forma de colaborar</p>
+      <h2>¿Prefieres aportar videojuegos al archivo?</h2>
+      <p>Si tienes videojuegos físicos de PC, colecciones, lotes o material relacionado que quieras vender o ceder, disponemos de una vía específica para ello.</p>
+      <p>Las incorporaciones pueden conservar información sobre su procedencia cuando la persona que aporta el material así lo desea.</p>
+    </div>
+    <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos a PC Game Archive</a>
+  </div>
+</section>
+</main>'''
+    jsonld = [
+        organization_jsonld(base_url),
+        support_breadcrumb_jsonld(base_url),
+        {"@context":"https://schema.org","@type":"WebPage","name":"Apoya PC Game Archive","url":abs_url(base_url, route),"description":desc,"inLanguage":"es","isPartOf":{"@type":"WebSite","name":SITE_NAME,"url":abs_url(base_url, "")}},
+    ]
+    target = out / route / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(
+        layout(title, desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación y documentación de videojuegos físicos de PC", jsonld=jsonld),
+        encoding="utf-8",
+    )
+
 
 def generate_contact(out: Path, base_url: str) -> None:
     title = "Contacto · PC Game Archive"
@@ -2421,7 +2525,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
 
 
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
-    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/"] + [p["filename"] for p in SEO_LANDING_PAGES]
     incorporation_count = len(dated_incorporations(games))
     if incorporation_count:
         urls.append("incorporaciones/")
@@ -2618,6 +2722,7 @@ def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str
         "- Las landings principales incorporan contenido editorial específico, métricas dinámicas, breadcrumbs y enlaces internos a entidades relevantes.",
         "- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.",
         "- Fase 13 genera `/proyecto/` como página institucional del archivo con propósito, actividad, principios, conservación, roadmap y estado actual; la landing de aportación enlaza el tratamiento de las donaciones con esta página.",
+        "- Fase 16 genera `/apoyar/` como vía diferenciada de sostenibilidad económica, enlaza Ko-fi y mide `support_page_view` y `support_click` en GA4.",
         "- Fase 14 añade `fecha_incorporacion` como dato documental independiente del número de ficha y de RRSS; cuando existen fechas reales, genera la sección de portada y una vista limitada a las 24 incorporaciones más recientes en `/incorporaciones/`.",
         "- Fase 15 añade `procedencia` para documentar el origen público del ejemplar: tipo, nombre/alias autorizado y enlaces opcionales a Instagram, Facebook y X. El JSON público no debe contener identidades privadas ocultas solo por presentación.",
         "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
@@ -2667,6 +2772,7 @@ def main() -> int:
     generate_series(games, out, args.base_url)
     generate_acquisition_landing(out, args.base_url)
     generate_project_page(out, args.base_url)
+    generate_support_page(out, args.base_url)
     generate_contact(out, args.base_url)
     generate_game_pages(games, out, project_root, args.base_url, gallery_index)
     generate_static_redirect(out, args.base_url, "bigbox.html", "juegos-pc-big-box.html", "Big Box · PC Game Archive")
@@ -2674,8 +2780,8 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase15.1-procedencia-rrss-2026-09-19")
-    print("Fase 15: procedencia pública del ejemplar con nombre/alias y RRSS opcionales")
+    print("Versión generador: fase16.2-sostenibilidad-ko-fi-2026-09-27")
+    print("Fase 16.2: sostenibilidad, página de apoyo Ko-fi e instrumentación GA4")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
     print("Modo de assets: no se copian imágenes ni carpetas img; solo se sobrescriben ficheros generados.")
@@ -2685,6 +2791,11 @@ def main() -> int:
 CSS = r'''
 :root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-figure{margin:0}.hero-figure figcaption{margin-top:9px;color:var(--g);font-size:12px;line-height:1.4}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.provenance{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.provenance-main{display:block}.provenance-social{gap:6px}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery-item{margin:0;min-width:0}.gallery-link{display:block;text-decoration:none}.gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;border-radius:14px;border:1px solid var(--bd);background:#eee}.gallery-item figcaption{margin-top:6px;color:var(--g);font-size:12px;line-height:1.35}.gallery-missing img{object-fit:contain}.related-area{margin-top:34px}.related-section{margin-top:30px}.related-section:first-child{margin-top:0}.related-section .section-head{margin-bottom:14px}.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.related-grid .game-card{min-height:230px}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}.button-secondary{background:#fff;color:#111;border-color:#111}.button-secondary:hover{background:#f2f2f0}.acquisition-strip{margin-top:32px;margin-bottom:12px;background:#111;color:#fff;border-radius:24px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px}.acquisition-strip h2{margin-bottom:8px}.acquisition-strip p:not(.eyebrow){margin:0;color:#ddd;max-width:760px}.acquisition-strip .eyebrow{color:#bbb}.acquisition-strip .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}.acquisition-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.acquisition-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,430px);gap:42px;align-items:center;padding-bottom:48px}.acquisition-hero .breadcrumbs{padding-top:22px}.acquisition-visual{margin:28px 0 0}.acquisition-visual img{display:block;width:100%;height:auto;border-radius:24px;border:1px solid var(--bd);box-shadow:0 16px 45px rgba(0,0,0,.08)}.acquisition-section{padding-top:36px;padding-bottom:36px}.acquisition-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-grid .content-card{margin-top:0}.acquisition-grid h3{margin-top:0;margin-bottom:8px}.acquisition-grid p{margin:0;color:#444}.acquisition-note{margin:20px 0 0;padding:16px 18px;border-left:4px solid #111;background:#fff;border-radius:0 14px 14px 0}.acquisition-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.acquisition-steps{list-style:none;counter-reset:acq;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-steps li{counter-increment:acq;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:7px}.acquisition-steps li:before{content:counter(acq);width:34px;height:34px;border-radius:50%;background:#111;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:900;margin-bottom:5px}.acquisition-steps span{color:#555;font-size:14px}.acquisition-contact-card{background:#111;color:#fff;border-radius:24px;padding:26px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:30px}.acquisition-contact-card h2{margin-bottom:8px}.acquisition-contact-card p:not(.eyebrow){color:#ddd;max-width:760px;margin-bottom:0}.acquisition-contact-card .eyebrow{color:#bbb}.acquisition-contact-card .button{background:#fff;color:#111;border-color:#fff}.acquisition-contact-card .button-secondary{background:transparent;color:#fff;border-color:#fff}.acquisition-actions{margin-top:20px}.acquisition-faq details{background:#fff;border:1px solid var(--bd);border-radius:14px;margin:10px 0;padding:0 16px}.acquisition-faq summary{cursor:pointer;font-weight:800;padding:15px 0}.acquisition-faq details p{margin:0 0 16px;color:#444}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.related-grid{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}.acquisition-grid,.acquisition-steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid,.acquisition-hero-grid,.acquisition-contact-card{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.related-grid{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}.acquisition-strip{align-items:flex-start;flex-direction:column}.acquisition-contact-card .actions{justify-content:flex-start}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.related-grid,.taxonomy-grid,.gallery,.acquisition-grid,.acquisition-steps{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}.acquisition-actions{flex-direction:column}.acquisition-actions .button{width:100%}}
 '''
+
+CSS += r'''
+.support-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.support-hero-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.6fr);gap:42px;align-items:center;padding-bottom:48px}.support-hero .breadcrumbs{padding-top:22px}.support-hero h1{max-width:850px}.support-hero p:not(.eyebrow){max-width:850px}.support-actions{margin-top:24px}.support-payment-note{font-size:12px;color:var(--g);margin-top:10px}.support-principle-card{background:#111;color:#fff;border-radius:24px;padding:26px}.support-principle-card .eyebrow{color:#bbb}.support-principle-card strong{display:block;font-size:24px;line-height:1.15;margin:8px 0 12px}.support-principle-card p:not(.eyebrow){color:#ddd;margin-bottom:0}.support-section{padding-top:42px;padding-bottom:42px}.support-section-intro{max-width:820px;margin-bottom:22px}.support-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.support-grid article{border:1px solid var(--bd);border-radius:20px;padding:20px;background:#fff}.support-grid article>span{display:inline-flex;width:34px;height:34px;border-radius:50%;align-items:center;justify-content:center;background:#111;color:#fff;font-weight:900;margin-bottom:14px}.support-grid h3{margin:0 0 8px}.support-grid p{margin:0;color:#444}.support-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.support-open-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.support-material-card{background:#111;color:#fff;border-radius:24px;padding:28px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:30px;align-items:center}.support-material-card .eyebrow{color:#bbb}.support-material-card p:not(.eyebrow){color:#ddd;max-width:800px}.support-material-card .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}@media(max-width:1100px){.support-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){.support-hero-grid,.support-open-grid,.support-material-card{grid-template-columns:1fr}.support-grid{grid-template-columns:repeat(2,1fr)}.support-material-card .button{justify-self:start}}@media(max-width:480px){.support-grid{grid-template-columns:1fr}.support-actions .button{width:100%}}
+'''
+
 CSS += r'''
 .catalog-search-advanced{display:grid;grid-template-columns:1fr;gap:10px;margin-top:20px;align-items:stretch}.catalog-search-advanced .search-query-row{min-width:0}.catalog-search-advanced .search-filter-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr) auto;gap:10px;align-items:stretch}.catalog-search-advanced .search-query-row>input,.catalog-search-advanced .search-autocomplete{width:100%}.catalog-search-advanced .search-query-row input{font-size:18px;padding:16px 18px}.catalog-search-advanced .search-filter-row select{width:100%;min-width:0}.catalog-search-advanced .search-filter-row>button{min-width:126px}.search-autocomplete{position:relative;flex:1;min-width:0}.search-autocomplete>input{width:100%}.search-suggestions{position:absolute;left:0;right:0;top:calc(100% + 7px);z-index:40;background:#fff;border:1px solid var(--bd);border-radius:16px;box-shadow:0 16px 42px rgba(0,0,0,.14);padding:8px;max-height:430px;overflow:auto}.search-suggestions[hidden]{display:none}.search-hero button.search-suggestion{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;text-align:left;border:1px solid transparent;background:#fff;color:#111;padding:13px 14px;border-radius:12px;cursor:pointer}.search-hero button.search-suggestion:hover,.search-hero button.search-suggestion.is-active{background:#f7f7f5;color:#111;border-color:var(--bd)}.search-suggestion-main{min-width:0;display:flex;flex-direction:column;gap:3px}.search-suggestion-main strong{white-space:normal;overflow:visible;text-overflow:clip;font-size:15px;line-height:1.28}.search-suggestion-main small,.search-suggestion-count{color:var(--g);font-size:12px;line-height:1.3}.search-suggestion-count{white-space:nowrap;font-weight:700}.search-facets{margin:16px 0 8px;padding:14px;background:#fff;border:1px solid var(--bd);border-radius:18px}.search-facets-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}.search-facets-head strong{font-size:14px}.search-facets-head a{font-size:12px;color:var(--g);font-weight:800}.search-facet-groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.search-facet-group{min-width:0}.search-facet-group>strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--g);margin-bottom:7px}.search-facet-values{display:flex;flex-wrap:wrap;gap:6px}.facet-chip{display:inline-flex;gap:5px;align-items:center;padding:5px 8px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none;font-size:11px;line-height:1.2}.facet-chip:hover,.facet-chip.active{background:#111;color:#fff;border-color:#111}.facet-chip span{opacity:.7}.search-empty{grid-column:1/-1}.search-empty h3{margin-top:0}.search-empty-suggestions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.search-empty-suggestions a{font-size:12px;padding:7px 10px;border:1px solid var(--bd);border-radius:999px;text-decoration:none;background:#fff}.search-empty-suggestions a:hover{background:var(--soft)}
 @media(max-width:900px){.search-facet-groups{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:700px){.catalog-search-advanced .search-filter-row{grid-template-columns:1fr}.catalog-search-advanced .search-filter-row>button{width:100%}}@media(max-width:520px){.search-facet-groups{grid-template-columns:1fr}.search-suggestions{max-height:320px}.search-hero button.search-suggestion{padding:12px;gap:10px}.search-suggestion-main strong{font-size:14px}}
