@@ -17601,6 +17601,181 @@
     ]
   },
   {
+    "num": "000209",
+    "ig": "https://www.instagram.com/p/Dd8lCHiiKti",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Earth 2150",
+    "url": "juegos/earth-2150-ssi-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Ciencia ficción",
+      "Estrategia militar",
+      "Construcción de bases"
+    ],
+    "desarrollador": [
+      "Reality Pump Studios"
+    ],
+    "distribuidor": [
+      "TopWare Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Earth 2150 es un juego de estrategia en tiempo real de ciencia ficción publicado en 2000 y ambientado en una Tierra condenada tras un conflicto global que ha alterado la órbita del planeta. Tres facciones —la Dinastía Euroasiática, los Estados Civilizados Unidos y la Corporación Lunar— compiten por los recursos necesarios para abandonar la Tierra antes de su destrucción. Desarrollado por Reality Pump Studios y publicado por TopWare Interactive, destacó técnicamente por trasladar la estrategia en tiempo real a un entorno tridimensional completo, con terreno 3D, ciclo de día y noche, iluminación dinámica, unidades personalizables y combate en varios niveles de altura. Su campaña incorpora además gestión persistente de recursos y unidades entre misiones, vinculada a la construcción de una nave de evacuación. Esta edición española en caja grande pertenece al lanzamiento físico para PC distribuido con software totalmente en castellano y constituye una muestra representativa de la evolución tecnológica del RTS europeo a comienzos de los años 2000.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual de instrucción",
+      "CD-ROM en caja Jewel Case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Earth 2150",
+      "Reality Pump Studios",
+      "TopWare Interactive",
+      "RTS europeo",
+      "estrategia 3D",
+      "ciencia ficción",
+      "guerra futurista",
+      "Tierra postapocalíptica",
+      "Dinastía Euroasiática",
+      "Estados Civilizados Unidos",
+      "Corporación Lunar",
+      "unidades personalizables",
+      "entorno 3D",
+      "edición española",
+      "software en castellano",
+      "CD-ROM",
+      "Big Box PC",
+      "PC clásico",
+      "preservación"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Edición distribuida en CD-ROM. Para preservación se recomienda realizar una imagen completa del disco óptico, preferentemente BIN/CUE cuando se desee conservar la estructura física del soporte, y documentar conjuntamente el manual y la caja original. No existe evidencia suficiente en el ejemplar mostrado para atribuir con rigor un sistema anticopia concreto.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000210",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Starship Troopers",
+    "url": "juegos/starship-troopers-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Táctica en tiempo real",
+      "Ciencia ficción",
+      "Estrategia militar"
+    ],
+    "desarrollador": [
+      "Blue Tongue Entertainment"
+    ],
+    "distribuidor": [
+      "Hasbro Interactive",
+      "MicroProse",
+      "Proein"
+    ],
+    "ean": [
+      "5023117564307"
+    ],
+    "descripcion": "Starship Troopers es un juego de estrategia y táctica en tiempo real desarrollado por Blue Tongue Entertainment y publicado en 2000, conocido también internacionalmente como Starship Troopers: Terran Ascendancy. Inspirado en el universo de ciencia ficción militar de Starship Troopers, sitúa al jugador al mando de unidades de la Infantería Móvil en la guerra de la humanidad contra los arácnidos. Las misiones se desarrollan en escenarios tridimensionales y combinan combate táctico en tiempo real, gestión de escuadras, empleo de armamento y armaduras especializadas y progresión de los soldados supervivientes. El juego destaca por enfrentar grupos relativamente reducidos de infantes contra grandes concentraciones de criaturas y por incorporar distintas clases de especialistas, entre ellas ingenieros, médicos y tropas equipadas con armamento pesado. Esta edición española en caja grande para PC CD-ROM fue comercializada bajo los sellos MicroProse y Hasbro Interactive y distribuida en España por Proein; la contraportada y el manual están localizados al castellano. Constituye una pieza representativa de la etapa final de las ediciones Big Box para Windows y de la adaptación del imaginario de Starship Troopers al género de la estrategia táctica para PC.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Starship Troopers",
+      "Terran Ascendancy",
+      "Blue Tongue Entertainment",
+      "MicroProse",
+      "Hasbro Interactive",
+      "Proein",
+      "Infantería Móvil",
+      "Mobile Infantry",
+      "arácnidos",
+      "Bugs",
+      "ciencia ficción militar",
+      "combate táctico",
+      "escuadras",
+      "entornos 3D",
+      "Robert A. Heinlein",
+      "PC CD-ROM",
+      "Windows 95",
+      "Windows 98",
+      "edición española",
+      "manual en castellano",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original, preferiblemente en formato BIN/CUE, junto con la digitalización del manual y del embalaje. Al no haberse identificado de forma concluyente el sistema anticopia de esta edición concreta, conviene conservar una imagen de bajo nivel del soporte antes de realizar conversiones posteriores. La ejecución puede verificarse mediante una máquina virtual o un entorno compatible con Windows 95/98.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": []
+  },
+  {
     "num": "000000",
     "ig": "",
     "fecha_incorporacion": "",
@@ -21941,64 +22116,6 @@
     ],
     "ean": [],
     "descripcion": "Simulador/acción de tanques lanzado en agosto de 1998 para Windows. Controlas un M1A2 Abrams en misiones tácticas del tipo 'Operation Removal' en el norte de África. Incluye 20 misiones individuales, campaña desértica, editor de misiones y multijugador hasta 12 jugadores por LAN/internet.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Starship Troopers",
-    "url": "juegos/starship-troopers-bigbox/",
-    "plataforma": [
-      "MsDos",
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Blue Tongue Entertainment (SSI en MsDos)"
-    ],
-    "distribuidor": [
-      "Strategic Simulations, Inc.",
-      "Hasbro Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Lanzado en diciembre de 1996 (inicio en DOS) y reeditado en 2000 para Windows bajo el nombre *Starship Troopers: Terran Ascendancy*. Basado en la novela de Robert A. Heinlein y parcialmente en la película, es un juego de táctica en tiempo real donde diriges patrullas de la Infantería Móvil contra los Bugs. Incluye campañas, misiones tácticas, desarrollo de tropas, múltiples razas alienígenas y editor de misiones.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -27161,59 +27278,6 @@
     ],
     "ean": [],
     "descripcion": "Invictus: In the Shadow of Olympus combina estrategia en tiempo real con elementos de rol en un mundo inspirado en la mitología griega. El jugador controla héroes, criaturas y ejércitos mitológicos mientras completa misiones y resuelve conflictos entre los dioses del Olimpo.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Earth 2150",
-    "url": "juegos/earth-2150-ssi-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "SSI"
-    ],
-    "distribuidor": [
-      "SSI"
-    ],
-    "ean": [],
-    "descripcion": "Earth 2150 es un juego de estrategia en tiempo real publicado por SSI que combina elementos de combate futurista y gestión de recursos. El jugador dirige unidades y bases en un entorno de ciencia ficción con tecnología avanzada y enfrentamientos tácticos entre facciones rivales.",
     "incluye": [],
     "serie": [
       "Todos",
