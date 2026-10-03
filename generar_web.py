@@ -927,9 +927,29 @@ document.addEventListener('click',function(e){{
     return;
   }}
 
+  var gameSupport=link.getAttribute('data-game-support');
+  if(gameSupport){{
+    gtag('event','game_support_click',{{
+      game_title:link.getAttribute('data-game-title')||'',
+      game_slug:link.getAttribute('data-game-slug')||'',
+      game_num:link.getAttribute('data-game-num')||'',
+      game_format:link.getAttribute('data-game-format')||'',
+      source_page:location.pathname
+    }});
+    return;
+  }}
+
   var supportProvider=link.getAttribute('data-support-provider');
   if(supportProvider){{
-    gtag('event','support_click',{{provider:supportProvider,link_url:href,source_page:location.pathname}});
+    var supportParams=new URLSearchParams(location.search);
+    var supportSlug=(supportParams.get('juego')||'').trim();
+    gtag('event','support_click',{{
+      provider:supportProvider,
+      link_url:href,
+      source_page:location.pathname,
+      support_context:supportSlug?'game':'general',
+      game_slug:supportSlug
+    }});
     return;
   }}
 
@@ -940,7 +960,14 @@ document.addEventListener('click',function(e){{
   }}
 }});
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){{
-  gtag('event','support_page_view',{{support_provider:'ko-fi',source_page:location.pathname}});
+  var supportViewParams=new URLSearchParams(location.search);
+  var supportViewSlug=(supportViewParams.get('juego')||'').trim();
+  gtag('event','support_page_view',{{
+    support_provider:'ko-fi',
+    source_page:location.pathname,
+    support_context:supportViewSlug?'game':'general',
+    game_slug:supportViewSlug
+  }});
 }}
 </script>
 </body>
@@ -2249,13 +2276,20 @@ def generate_support_page(out: Path, base_url: str) -> None:
       <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../">Inicio</a> / <span>Apoyar</span></nav>
       <p class="eyebrow">Sostenibilidad del archivo</p>
       <h1>Ayúdanos a preservar la historia del videojuego de PC</h1>
+      <div class="support-piece-context" data-support-piece-context hidden>
+        <h2>Estás apoyando la conservación de <span data-support-piece-title></span></h2>
+        <p>Has llegado desde la documentación de esta pieza. Tu aportación contribuye a conservarla y documentarla dentro del conjunto de PC Game Archive.</p>
+        <div class="actions support-piece-actions">
+          <a class="button" href="https://ko-fi.com/pcgamearchive" target="_blank" rel="noopener noreferrer" data-support-provider="ko-fi" data-support-piece-kofi-button>Apoyar la conservación de esta pieza en Ko-fi</a>
+        </div>
+      </div>
       <p class="lead">PC Game Archive es un proyecto independiente dedicado a preservar, catalogar y documentar ediciones físicas de videojuegos de PC.</p>
       <p>El archivo se mantiene con recursos propios. Cada nueva incorporación implica no solo conservar un juego, sino también catalogarlo, fotografiarlo, documentarlo, almacenarlo adecuadamente y mantener disponible públicamente toda esa información.</p>
       <p>Si consideras valioso este trabajo y quieres contribuir a que continúe creciendo, puedes apoyar económicamente el proyecto mediante una aportación voluntaria.</p>
-      <div class="actions support-actions">
-        <a class="button" href="https://ko-fi.com/pcgamearchive" target="_blank" rel="noopener noreferrer" data-support-provider="ko-fi">Apoyar PC Game Archive en Ko-fi</a>
+      <div class="actions support-actions" data-support-general-actions>
+        <a class="button" href="https://ko-fi.com/pcgamearchive" target="_blank" rel="noopener noreferrer" data-support-provider="ko-fi" data-support-kofi-button>Apoyar PC Game Archive en Ko-fi</a>
       </div>
-      <p class="support-payment-note">Las aportaciones se realizan externamente mediante Ko-fi. Actualmente el pago está disponible a través de PayPal.</p>
+      <p class="support-payment-note" data-support-general-note>Las aportaciones se realizan externamente mediante Ko-fi. Actualmente el pago está disponible a través de PayPal.</p>
     </div>
     <aside class="support-principle-card">
       <p class="eyebrow">Nuestro compromiso</p>
@@ -2307,6 +2341,27 @@ def generate_support_page(out: Path, base_url: str) -> None:
     <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos a PC Game Archive</a>
   </div>
 </section>
+<script src="../assets/js/search-index.js"></script>
+<script>
+(function(){
+  var params=new URLSearchParams(location.search);
+  var slug=(params.get('juego')||'').trim();
+  if(!slug) return;
+  var context=document.querySelector('[data-support-piece-context]');
+  var titleNode=document.querySelector('[data-support-piece-title]');
+  var generalActions=document.querySelector('[data-support-general-actions]');
+  var generalNote=document.querySelector('[data-support-general-note]');
+  if(!context || !titleNode) return;
+  var games=Array.isArray(window.PCGA_SEARCH_INDEX)?window.PCGA_SEARCH_INDEX:[];
+  var expected='/juegos/'+slug+'/';
+  var game=games.find(function(item){return item && item.url===expected;});
+  if(!game || !game.titulo) return;
+  titleNode.textContent=game.titulo;
+  if(generalActions) generalActions.hidden=true;
+  if(generalNote) generalNote.hidden=true;
+  context.hidden=false;
+})();
+</script>
 </main>'''
     jsonld = [
         organization_jsonld(base_url),
@@ -2479,17 +2534,31 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         extra_metadata_html = ''.join(extra_metadata_rows)
 
         related_html = related_groups_html(game, related_index, prefix)
+        game_slug = url.strip('/').split('/')[-1]
+        support_href = f"{prefix}apoyar/?juego={quote(game_slug)}"
+        support_block = f'''<section class="piece-support-card" aria-labelledby="piece-support-title">
+  <div>
+    <p class="eyebrow">Conservación del archivo</p>
+    <h2 id="piece-support-title">Ayuda a conservar esta pieza</h2>
+    <p>Esta edición de <strong>{h(title)}</strong> forma parte del fondo documental de PC Game Archive. Tu aportación ayuda a su conservación física, documentación, preservación digital y a la infraestructura necesaria para mantener el archivo accesible.</p>
+    <p class="piece-support-note">Las aportaciones contribuyen al mantenimiento general de PC Game Archive y no quedan asignadas exclusivamente a una pieza concreta.</p>
+  </div>
+  <a class="button" href="{h(support_href)}" data-game-support="1" data-game-title="{h(title)}" data-game-slug="{h(game_slug)}" data-game-num="{h(game.get('num') or '000000')}" data-game-format="{h(text(game.get('formato')))}">Apoyar la conservación de esta pieza</a>
+</section>'''
         body = f'''<main class="wrap game-detail">
   <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{h(format_href)}">{h(format_value)}</a> / <span>{h(title)}</span></nav>
   <article class="detail-grid">
-    <section class="media-card">
-      <figure class="hero-figure">
-        <img class="hero-img" src="{h(hero)}" alt="{h(hero_alt)}" width="760" height="570" loading="eager" fetchpriority="high" {hero_fallback_attrs}>
-        <figcaption>{h(hero_caption)}</figcaption>
-      </figure>
-      <div class="chips">{chip_html}</div>
-      <div class="actions"><a class="button" href="{home_href(prefix)}">Volver al catálogo</a>{ig_btn}</div>
-    </section>
+    <div class="detail-media-column">
+      <section class="media-card">
+        <figure class="hero-figure">
+          <img class="hero-img" src="{h(hero)}" alt="{h(hero_alt)}" width="760" height="570" loading="eager" fetchpriority="high" {hero_fallback_attrs}>
+          <figcaption>{h(hero_caption)}</figcaption>
+        </figure>
+        <div class="chips">{chip_html}</div>
+        <div class="actions"><a class="button" href="{home_href(prefix)}">Volver al catálogo</a>{ig_btn}</div>
+      </section>
+      {support_block}
+    </div>
     <section class="content-card">
       <p class="eyebrow">Ficha #{h(game.get('num') or '000000')}</p>
       <h1>{h(title)}</h1>
@@ -2723,6 +2792,7 @@ def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str
         "- Se genera `/vender-videojuegos-pc-antiguos/` como landing de captación para compra/donación, con CTA medidos mediante `offer_games_click`; los mailto esperan brevemente al callback del Google tag antes de abrir el correo.",
         "- Fase 13 genera `/proyecto/` como página institucional del archivo con propósito, actividad, principios, conservación, roadmap y estado actual; la landing de aportación enlaza el tratamiento de las donaciones con esta página.",
         "- Fase 16 genera `/apoyar/` como vía diferenciada de sostenibilidad económica, enlaza Ko-fi y mide `support_page_view` y `support_click` en GA4.",
+        "- Fase 16.3 añade apoyo contextual desde cada pieza mediante `/apoyar/?juego=<slug>`, resuelve el título desde el índice de búsqueda y mide `game_support_click` junto al contexto de los eventos de apoyo existentes.",
         "- Fase 14 añade `fecha_incorporacion` como dato documental independiente del número de ficha y de RRSS; cuando existen fechas reales, genera la sección de portada y una vista limitada a las 24 incorporaciones más recientes en `/incorporaciones/`.",
         "- Fase 15 añade `procedencia` para documentar el origen público del ejemplar: tipo, nombre/alias autorizado y enlaces opcionales a Instagram, Facebook y X. El JSON público no debe contener identidades privadas ocultas solo por presentación.",
         "- Las fichas enlazan directamente a las páginas de entidad cuando existe una landing indexable.",
@@ -2780,8 +2850,8 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase16.2-sostenibilidad-ko-fi-2026-09-27")
-    print("Fase 16.2: sostenibilidad, página de apoyo Ko-fi e instrumentación GA4")
+    print("Versión generador: fase16.3-apoyo-contextual-piezas-2026-10-03")
+    print("Fase 16.3: apoyo contextual a la conservación de piezas")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
     print("Modo de assets: no se copian imágenes ni carpetas img; solo se sobrescriben ficheros generados.")
@@ -2794,6 +2864,10 @@ CSS = r'''
 
 CSS += r'''
 .support-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.support-hero-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.6fr);gap:42px;align-items:center;padding-bottom:48px}.support-hero .breadcrumbs{padding-top:22px}.support-hero h1{max-width:850px}.support-hero p:not(.eyebrow){max-width:850px}.support-actions{margin-top:24px}.support-payment-note{font-size:12px;color:var(--g);margin-top:10px}.support-principle-card{background:#111;color:#fff;border-radius:24px;padding:26px}.support-principle-card .eyebrow{color:#bbb}.support-principle-card strong{display:block;font-size:24px;line-height:1.15;margin:8px 0 12px}.support-principle-card p:not(.eyebrow){color:#ddd;margin-bottom:0}.support-section{padding-top:42px;padding-bottom:42px}.support-section-intro{max-width:820px;margin-bottom:22px}.support-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.support-grid article{border:1px solid var(--bd);border-radius:20px;padding:20px;background:#fff}.support-grid article>span{display:inline-flex;width:34px;height:34px;border-radius:50%;align-items:center;justify-content:center;background:#111;color:#fff;font-weight:900;margin-bottom:14px}.support-grid h3{margin:0 0 8px}.support-grid p{margin:0;color:#444}.support-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.support-open-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.support-material-card{background:#111;color:#fff;border-radius:24px;padding:28px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:30px;align-items:center}.support-material-card .eyebrow{color:#bbb}.support-material-card p:not(.eyebrow){color:#ddd;max-width:800px}.support-material-card .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}@media(max-width:1100px){.support-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){.support-hero-grid,.support-open-grid,.support-material-card{grid-template-columns:1fr}.support-grid{grid-template-columns:repeat(2,1fr)}.support-material-card .button{justify-self:start}}@media(max-width:480px){.support-grid{grid-template-columns:1fr}.support-actions .button{width:100%}}
+'''
+
+CSS += r'''
+.detail-media-column{display:flex;flex-direction:column;gap:20px;min-width:0}.detail-media-column .media-card{margin:0}.detail-media-column .piece-support-card{margin:0}.piece-support-card{background:#111;color:#fff;border-radius:20px;padding:20px;display:flex;flex-direction:column;gap:14px;align-items:stretch}.piece-support-card .eyebrow{color:#bbb;margin-bottom:4px}.piece-support-card h2{font-size:22px;line-height:1.2;margin:0 0 8px}.piece-support-card p:not(.eyebrow){color:#ddd;margin-top:0}.piece-support-card .piece-support-note{font-size:12px;color:#bbb;margin-bottom:0}.piece-support-card .button{background:#fff;color:#111;border-color:#fff;white-space:normal;width:100%;text-align:center;justify-content:center}.support-piece-context{margin:0 0 24px;padding:20px 22px;border:1px solid #d8d4ca;border-radius:18px;background:#fff}.support-piece-context h2{font-size:24px;margin-bottom:8px}.support-piece-context p{margin-bottom:0}.support-piece-actions{margin-top:18px}.support-piece-actions .button{white-space:normal}.support-piece-context[hidden]{display:none}@media(max-width:800px){.detail-media-column{gap:16px}}
 '''
 
 CSS += r'''

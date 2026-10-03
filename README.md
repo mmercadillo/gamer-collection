@@ -383,3 +383,19 @@ https://www.pcgamearchive.org
 Instagram:
 
 https://www.instagram.com/pc_game_archive/
+
+---
+
+# Fase 16.3 — Apoyo contextual a la conservación de piezas
+
+La Fase 16.3 extiende la infraestructura de sostenibilidad de `/apoyar/` a todas las piezas documentadas del archivo.
+
+- Cada ficha incorpora un bloque **Ayuda a conservar esta pieza** como segunda tarjeta independiente de la columna izquierda, justo debajo de la imagen principal y sus acciones.
+- El CTA no enlaza directamente con el proveedor de pago: pasa por `/apoyar/?juego=<slug>` para mantener el contexto dentro de PC Game Archive.
+- `/apoyar/` reutiliza `assets/js/search-index.js` para resolver el título real de la pieza sin duplicar datos ni añadir campos a `juegos.json`.
+- Cuando existe contexto, la página de apoyo muestra **Estás apoyando la conservación de <título>** y adapta el CTA de Ko-fi.
+- Se declara expresamente que las aportaciones ayudan al mantenimiento general del archivo y no quedan asignadas exclusivamente a una pieza concreta.
+- GA4 añade `game_support_click` con `game_title`, `game_slug`, `game_num`, `game_format` y `source_page`.
+- `support_page_view` y `support_click` conservan sus nombres para mantener continuidad analítica y añaden `support_context` y `game_slug`.
+- No se modifica el modelo de datos del catálogo: el apoyo contextual es una capacidad transversal del archivo, no un atributo de cada juego.
+

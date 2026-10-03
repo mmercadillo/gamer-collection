@@ -136,14 +136,25 @@ if(window.PCGA_ANALYTICS_ENABLED){
 <main class="wrap game-detail">
   <nav class="breadcrumbs"><a href="../../">Inicio</a> / <a href="../../juegos-pc-big-box.html">Big Box</a> / <span>Curse of Enchantia</span></nav>
   <article class="detail-grid">
-    <section class="media-card">
-      <figure class="hero-figure">
-        <img class="hero-img" src="/juegos/curse-of-enchantia-bigbox/img/001.jpg" alt="Edición física de Curse of Enchantia, formato Big Box, para MS-DOS" width="760" height="570" loading="eager" fetchpriority="high" data-pcga-image-fallbacks="/juegos/curse-of-enchantia-bigbox/img/001.jpeg|/juegos/curse-of-enchantia-bigbox/img/001.png|/juegos/curse-of-enchantia-bigbox/img/001.webp|/juegos/curse-of-enchantia-bigbox/img/001.JPG|/juegos/curse-of-enchantia-bigbox/img/001.JPEG|/juegos/curse-of-enchantia-bigbox/img/001.PNG|/juegos/curse-of-enchantia-bigbox/img/001.WEBP" data-pcga-image-fallback-index="0" onerror="var q=(this.dataset.pcgaImageFallbacks||'').split('|').filter(Boolean);var i=Number(this.dataset.pcgaImageFallbackIndex||0);if(i<q.length){this.dataset.pcgaImageFallbackIndex=String(i+1);this.src=q[i];}else{this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing');}">
-        <figcaption>Curse of Enchantia · Big Box · MS-DOS</figcaption>
-      </figure>
-      <div class="chips"><a class="chip" href="../../juegos-pc-big-box.html">Big Box</a><a class="chip" href="../../juegos-msdos.html">MsDos</a><a class="chip" href="../../?serie=Todos">Todos</a><a class="chip" href="../../?serie=Big%20Box">Big Box</a></div>
-      <div class="actions"><a class="button" href="../../">Volver al catálogo</a><a class="button" href="https://www.instagram.com/p/DVq1F7tCEj-" target="_blank" rel="noopener">Ver publicación en Instagram</a></div>
-    </section>
+    <div class="detail-media-column">
+      <section class="media-card">
+        <figure class="hero-figure">
+          <img class="hero-img" src="/juegos/curse-of-enchantia-bigbox/img/001.jpg" alt="Edición física de Curse of Enchantia, formato Big Box, para MS-DOS" width="760" height="570" loading="eager" fetchpriority="high" data-pcga-image-fallbacks="/juegos/curse-of-enchantia-bigbox/img/001.jpeg|/juegos/curse-of-enchantia-bigbox/img/001.png|/juegos/curse-of-enchantia-bigbox/img/001.webp|/juegos/curse-of-enchantia-bigbox/img/001.JPG|/juegos/curse-of-enchantia-bigbox/img/001.JPEG|/juegos/curse-of-enchantia-bigbox/img/001.PNG|/juegos/curse-of-enchantia-bigbox/img/001.WEBP" data-pcga-image-fallback-index="0" onerror="var q=(this.dataset.pcgaImageFallbacks||'').split('|').filter(Boolean);var i=Number(this.dataset.pcgaImageFallbackIndex||0);if(i<q.length){this.dataset.pcgaImageFallbackIndex=String(i+1);this.src=q[i];}else{this.onerror=null;this.src='/no_disponible.png';this.alt='Imagen no disponible';this.classList.add('missing');}">
+          <figcaption>Curse of Enchantia · Big Box · MS-DOS</figcaption>
+        </figure>
+        <div class="chips"><a class="chip" href="../../juegos-pc-big-box.html">Big Box</a><a class="chip" href="../../juegos-msdos.html">MsDos</a><a class="chip" href="../../?serie=Todos">Todos</a><a class="chip" href="../../?serie=Big%20Box">Big Box</a></div>
+        <div class="actions"><a class="button" href="../../">Volver al catálogo</a><a class="button" href="https://www.instagram.com/p/DVq1F7tCEj-" target="_blank" rel="noopener">Ver publicación en Instagram</a></div>
+      </section>
+      <section class="piece-support-card" aria-labelledby="piece-support-title">
+  <div>
+    <p class="eyebrow">Conservación del archivo</p>
+    <h2 id="piece-support-title">Ayuda a conservar esta pieza</h2>
+    <p>Esta edición de <strong>Curse of Enchantia</strong> forma parte del fondo documental de PC Game Archive. Tu aportación ayuda a su conservación física, documentación, preservación digital y a la infraestructura necesaria para mantener el archivo accesible.</p>
+    <p class="piece-support-note">Las aportaciones contribuyen al mantenimiento general de PC Game Archive y no quedan asignadas exclusivamente a una pieza concreta.</p>
+  </div>
+  <a class="button" href="../../apoyar/?juego=curse-of-enchantia-bigbox" data-game-support="1" data-game-title="Curse of Enchantia" data-game-slug="curse-of-enchantia-bigbox" data-game-num="000006" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
+</section>
+    </div>
     <section class="content-card">
       <p class="eyebrow">Ficha #000006</p>
       <h1>Curse of Enchantia</h1>
@@ -285,9 +296,29 @@ document.addEventListener('click',function(e){
     return;
   }
 
+  var gameSupport=link.getAttribute('data-game-support');
+  if(gameSupport){
+    gtag('event','game_support_click',{
+      game_title:link.getAttribute('data-game-title')||'',
+      game_slug:link.getAttribute('data-game-slug')||'',
+      game_num:link.getAttribute('data-game-num')||'',
+      game_format:link.getAttribute('data-game-format')||'',
+      source_page:location.pathname
+    });
+    return;
+  }
+
   var supportProvider=link.getAttribute('data-support-provider');
   if(supportProvider){
-    gtag('event','support_click',{provider:supportProvider,link_url:href,source_page:location.pathname});
+    var supportParams=new URLSearchParams(location.search);
+    var supportSlug=(supportParams.get('juego')||'').trim();
+    gtag('event','support_click',{
+      provider:supportProvider,
+      link_url:href,
+      source_page:location.pathname,
+      support_context:supportSlug?'game':'general',
+      game_slug:supportSlug
+    });
     return;
   }
 
@@ -298,7 +329,14 @@ document.addEventListener('click',function(e){
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){
-  gtag('event','support_page_view',{support_provider:'ko-fi',source_page:location.pathname});
+  var supportViewParams=new URLSearchParams(location.search);
+  var supportViewSlug=(supportViewParams.get('juego')||'').trim();
+  gtag('event','support_page_view',{
+    support_provider:'ko-fi',
+    source_page:location.pathname,
+    support_context:supportViewSlug?'game':'general',
+    game_slug:supportViewSlug
+  });
 }
 </script>
 </body>

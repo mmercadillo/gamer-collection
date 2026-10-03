@@ -330,9 +330,29 @@ document.addEventListener('click',function(e){
     return;
   }
 
+  var gameSupport=link.getAttribute('data-game-support');
+  if(gameSupport){
+    gtag('event','game_support_click',{
+      game_title:link.getAttribute('data-game-title')||'',
+      game_slug:link.getAttribute('data-game-slug')||'',
+      game_num:link.getAttribute('data-game-num')||'',
+      game_format:link.getAttribute('data-game-format')||'',
+      source_page:location.pathname
+    });
+    return;
+  }
+
   var supportProvider=link.getAttribute('data-support-provider');
   if(supportProvider){
-    gtag('event','support_click',{provider:supportProvider,link_url:href,source_page:location.pathname});
+    var supportParams=new URLSearchParams(location.search);
+    var supportSlug=(supportParams.get('juego')||'').trim();
+    gtag('event','support_click',{
+      provider:supportProvider,
+      link_url:href,
+      source_page:location.pathname,
+      support_context:supportSlug?'game':'general',
+      game_slug:supportSlug
+    });
     return;
   }
 
@@ -343,7 +363,14 @@ document.addEventListener('click',function(e){
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){
-  gtag('event','support_page_view',{support_provider:'ko-fi',source_page:location.pathname});
+  var supportViewParams=new URLSearchParams(location.search);
+  var supportViewSlug=(supportViewParams.get('juego')||'').trim();
+  gtag('event','support_page_view',{
+    support_provider:'ko-fi',
+    source_page:location.pathname,
+    support_context:supportViewSlug?'game':'general',
+    game_slug:supportViewSlug
+  });
 }
 </script>
 </body>

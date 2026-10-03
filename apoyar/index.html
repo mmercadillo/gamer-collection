@@ -138,13 +138,20 @@ if(window.PCGA_ANALYTICS_ENABLED){
       <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../">Inicio</a> / <span>Apoyar</span></nav>
       <p class="eyebrow">Sostenibilidad del archivo</p>
       <h1>Ayúdanos a preservar la historia del videojuego de PC</h1>
+      <div class="support-piece-context" data-support-piece-context hidden>
+        <h2>Estás apoyando la conservación de <span data-support-piece-title></span></h2>
+        <p>Has llegado desde la documentación de esta pieza. Tu aportación contribuye a conservarla y documentarla dentro del conjunto de PC Game Archive.</p>
+        <div class="actions support-piece-actions">
+          <a class="button" href="https://ko-fi.com/pcgamearchive" target="_blank" rel="noopener noreferrer" data-support-provider="ko-fi" data-support-piece-kofi-button>Apoyar la conservación de esta pieza en Ko-fi</a>
+        </div>
+      </div>
       <p class="lead">PC Game Archive es un proyecto independiente dedicado a preservar, catalogar y documentar ediciones físicas de videojuegos de PC.</p>
       <p>El archivo se mantiene con recursos propios. Cada nueva incorporación implica no solo conservar un juego, sino también catalogarlo, fotografiarlo, documentarlo, almacenarlo adecuadamente y mantener disponible públicamente toda esa información.</p>
       <p>Si consideras valioso este trabajo y quieres contribuir a que continúe creciendo, puedes apoyar económicamente el proyecto mediante una aportación voluntaria.</p>
-      <div class="actions support-actions">
-        <a class="button" href="https://ko-fi.com/pcgamearchive" target="_blank" rel="noopener noreferrer" data-support-provider="ko-fi">Apoyar PC Game Archive en Ko-fi</a>
+      <div class="actions support-actions" data-support-general-actions>
+        <a class="button" href="https://ko-fi.com/pcgamearchive" target="_blank" rel="noopener noreferrer" data-support-provider="ko-fi" data-support-kofi-button>Apoyar PC Game Archive en Ko-fi</a>
       </div>
-      <p class="support-payment-note">Las aportaciones se realizan externamente mediante Ko-fi. Actualmente el pago está disponible a través de PayPal.</p>
+      <p class="support-payment-note" data-support-general-note>Las aportaciones se realizan externamente mediante Ko-fi. Actualmente el pago está disponible a través de PayPal.</p>
     </div>
     <aside class="support-principle-card">
       <p class="eyebrow">Nuestro compromiso</p>
@@ -196,6 +203,27 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <a class="button" href="../vender-videojuegos-pc-antiguos/">Ofrecer juegos a PC Game Archive</a>
   </div>
 </section>
+<script src="../assets/js/search-index.js"></script>
+<script>
+(function(){
+  var params=new URLSearchParams(location.search);
+  var slug=(params.get('juego')||'').trim();
+  if(!slug) return;
+  var context=document.querySelector('[data-support-piece-context]');
+  var titleNode=document.querySelector('[data-support-piece-title]');
+  var generalActions=document.querySelector('[data-support-general-actions]');
+  var generalNote=document.querySelector('[data-support-general-note]');
+  if(!context || !titleNode) return;
+  var games=Array.isArray(window.PCGA_SEARCH_INDEX)?window.PCGA_SEARCH_INDEX:[];
+  var expected='/juegos/'+slug+'/';
+  var game=games.find(function(item){return item && item.url===expected;});
+  if(!game || !game.titulo) return;
+  titleNode.textContent=game.titulo;
+  if(generalActions) generalActions.hidden=true;
+  if(generalNote) generalNote.hidden=true;
+  context.hidden=false;
+})();
+</script>
 </main>
 <footer>
   <div class="wrap footrow">
@@ -278,9 +306,29 @@ document.addEventListener('click',function(e){
     return;
   }
 
+  var gameSupport=link.getAttribute('data-game-support');
+  if(gameSupport){
+    gtag('event','game_support_click',{
+      game_title:link.getAttribute('data-game-title')||'',
+      game_slug:link.getAttribute('data-game-slug')||'',
+      game_num:link.getAttribute('data-game-num')||'',
+      game_format:link.getAttribute('data-game-format')||'',
+      source_page:location.pathname
+    });
+    return;
+  }
+
   var supportProvider=link.getAttribute('data-support-provider');
   if(supportProvider){
-    gtag('event','support_click',{provider:supportProvider,link_url:href,source_page:location.pathname});
+    var supportParams=new URLSearchParams(location.search);
+    var supportSlug=(supportParams.get('juego')||'').trim();
+    gtag('event','support_click',{
+      provider:supportProvider,
+      link_url:href,
+      source_page:location.pathname,
+      support_context:supportSlug?'game':'general',
+      game_slug:supportSlug
+    });
     return;
   }
 
@@ -291,7 +339,14 @@ document.addEventListener('click',function(e){
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){
-  gtag('event','support_page_view',{support_provider:'ko-fi',source_page:location.pathname});
+  var supportViewParams=new URLSearchParams(location.search);
+  var supportViewSlug=(supportViewParams.get('juego')||'').trim();
+  gtag('event','support_page_view',{
+    support_provider:'ko-fi',
+    source_page:location.pathname,
+    support_context:supportViewSlug?'game':'general',
+    game_slug:supportViewSlug
+  });
 }
 </script>
 </body>
