@@ -276,24 +276,24 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/dro-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/jowood-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/sierra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/dreamcatcher-interactive/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/sierra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ubi-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/deep-silver/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/novalogic/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/paradox-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/rockstar-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/cdv-software-entertainment/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/interplay-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/psygnosis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/bethesda-softworks/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/electronic-arts-software/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/interplay-entertainment/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/coktel-educative/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/hasbro-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/havas-interactive-espana/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasfilm-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/planeta-deagostini-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategic-simulations-inc-98189a/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/coktel-educative/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/gt-interactive-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/interactive-magic/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/mk-interactive/</loc></url>
@@ -428,6 +428,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-futbolistica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-de-accion/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/combate-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-y-gestion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/formula-1/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-y-slash/</loc></url>
@@ -437,7 +438,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/simulador-de-vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tenis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-por-turnos/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/combate-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/crimen/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/cyberpunk/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/golf/</loc></url>
@@ -482,6 +482,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/shoot-em-up/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate-aereo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate-espacial/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/simulacion-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-policial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulador-de-combate-aereo/</loc></url>
@@ -3046,6 +3047,30 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/starship-troopers-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/red-baron-ii-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/red-baron-ii-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/red-baron-ii-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/red-baron-ii-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/freespace-2-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/freespace-2-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/freespace-2-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/freespace-2-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -6088,18 +6113,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/freespace-2-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/freespace-2-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/freespace-2-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/freespace-2-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.pcgamearchive.org/juegos/mechcommander-2-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/mechcommander-2-bigbox/img/001.jpg</image:loc>
@@ -6169,18 +6182,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/amerzone-el-legado-del-explorador-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/red-baron-ii-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/red-baron-ii-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/red-baron-ii-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/red-baron-ii-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>

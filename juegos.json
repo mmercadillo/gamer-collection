@@ -17776,6 +17776,198 @@
     "tipo_edicion": []
   },
   {
+    "num": "000211",
+    "ig": "https://www.instagram.com/p/DeBiSeqiCWG",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Red Baron II",
+    "url": "juegos/red-baron-ii-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de vuelo",
+      "Combate aéreo",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Dynamix"
+    ],
+    "distribuidor": [
+      "Sierra On-Line",
+      "Coktel Educative"
+    ],
+    "ean": [
+      "3348542011854"
+    ],
+    "descripcion": "Red Baron II es un simulador de combate aéreo ambientado en la Primera Guerra Mundial, desarrollado por Dynamix y publicado por Sierra On-Line en 1997. Continúa la línea de simulación histórica iniciada por Red Baron y recrea la aviación militar de 1914-1918 mediante campañas dinámicas, misiones de combate, progresión del piloto y más de cuarenta modelos de avión, entre ellos numerosos aparatos reproducidos hasta el último detalle. El juego utiliza el motor 3-Space 2.0 y permite personalizar los aviones mediante un editor de pintura, además de incorporar editor de misiones y modalidades multijugador por red, módem o Internet. Esta primera edición española en caja grande fue distribuida por Coktel Educative y está localizada al castellano en textos de pantalla, manuales y voces, lo que le confiere especial interés documental dentro de la historia de los simuladores de vuelo publicados para PC en España durante los años noventa.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual Volumen 1",
+      "Manual Volumen 2",
+      "Tarjeta o folleto impreso",
+      "Nota sobre problemas con DirectX"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Red Baron",
+      "Red Baron II",
+      "Dynamix",
+      "Sierra On-Line",
+      "Coktel Educative",
+      "Primera Guerra Mundial",
+      "aviación militar",
+      "combate aéreo",
+      "simulación histórica",
+      "3-Space 2.0",
+      "biplanos",
+      "Manfred von Richthofen",
+      "Barón Rojo",
+      "editor de misiones",
+      "multijugador",
+      "Windows 95",
+      "CD-ROM",
+      "edición española",
+      "versión en castellano",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservar el CD-ROM original mediante una imagen completa BIN/CUE, junto con los dos volúmenes del manual y la documentación impresa de la edición. La ejecución puede reproducirse en un entorno Windows 95 virtualizado compatible con DirectX de la época; debe verificarse sobre el ejemplar original si existe comprobación de presencia del CD durante el arranque o la ejecución.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1997",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000212",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "FreeSpace 2",
+    "url": "juegos/freespace-2-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación",
+      "Simulación espacial",
+      "Combate espacial",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Volition"
+    ],
+    "distribuidor": [
+      "Interplay Entertainment",
+      "Virgin Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "FreeSpace 2 es un simulador de combate espacial desarrollado por Volition y publicado originalmente por Interplay Entertainment en 1999 como continuación de Descent: FreeSpace. Ambientado 32 años después de la Gran Guerra, sitúa al jugador al servicio de la Galactic Terran-Vasudan Alliance durante el conflicto con el Neo-Terran Front y el posterior regreso de los Shivans. Su campaña destaca por la escala de las batallas, la presencia de enormes naves capitales, cazas y bombarderos pilotables, armamento de haces y fuego antiaéreo, comunicaciones dinámicas y una puesta en escena cinematográfica poco habitual en los simuladores espaciales de finales de los noventa. Técnicamente requiere aceleración gráfica 3D y emplea Direct3D o Glide bajo DirectX 6, con soporte para tecnologías de sonido 3D como EAX y A3D. También incorpora multijugador por LAN e Internet y el editor de misiones FRED2. El título se convirtió en una referencia del género y su motor adquirió especial relevancia histórica tras la publicación de su código fuente por Volition en 2002, origen del proyecto comunitario FreeSpace 2 Source Code Project. Esta edición española en formato Big Box fue distribuida por Virgin Interactive España; la documentación conservada está localizada al castellano, mientras que el juego mantiene voces y textos en inglés.",
+    "incluye": [
+      "Caja exterior Big Box",
+      "Estuche para CD-ROM",
+      "3 CD-ROM",
+      "Manual",
+      "Hoja de referencia de controles",
+      "Documentación de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "FreeSpace",
+      "FreeSpace 2",
+      "Volition",
+      "Interplay Entertainment",
+      "Virgin Interactive España",
+      "Shivans",
+      "GTVA",
+      "Neo-Terran Front",
+      "combate espacial",
+      "ciencia ficción",
+      "simulador espacial",
+      "naves capitales",
+      "Direct3D",
+      "Glide",
+      "DirectX 6",
+      "EAX",
+      "A3D",
+      "FRED2",
+      "multijugador LAN",
+      "multijugador Internet",
+      "aceleración 3D",
+      "FreeSpace 2 Source Code Project",
+      "edición española",
+      "3 CD-ROM",
+      "Big Box PC",
+      "Windows 95",
+      "Windows 98",
+      "1999",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "Verificación de CD",
+      "version": "",
+      "preservacion": "Se recomienda preservar individualmente los tres CD-ROM originales mediante imágenes BIN/CUE, manteniendo la estructura completa de cada disco y verificando posteriormente las imágenes mediante hashes. Deben digitalizarse también el manual, la hoja de controles y el resto de documentación impresa. La versión original realiza comprobaciones del CD durante la instalación y ejecución, por lo que conviene conservar imágenes montables de los soportes. Para ejecución contemporánea resulta especialmente relevante FreeSpace 2 Open, derivado del código fuente liberado del motor original, aunque para preservación documental debe mantenerse también una copia íntegra y sin modificar de los soportes de esta edición.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1999",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
     "num": "000000",
     "ig": "",
     "fecha_incorporacion": "",
@@ -32719,66 +32911,6 @@
         "x": ""
       }
     },
-    "titulo": "FreeSpace 2",
-    "url": "juegos/freespace-2-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Acción",
-      "Espacial"
-    ],
-    "desarrollador": [
-      "Volition"
-    ],
-    "distribuidor": [
-      "Virgin Interactive España"
-    ],
-    "ean": [],
-    "descripcion": "FreeSpace 2 es la secuela del galardonado simulador de combate espacial desarrollado por Volition. Ambientado en una guerra interestelar contra la amenaza Shivans, ofrece una campaña cinematografica, multiples cazas pilotables y combates espaciales a gran escala. Esta edicion corresponde a la version española en formato Big Box distribuida por Virgin Interactive España.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "FreeSpace",
-      "Volition",
-      "Interplay",
-      "Simulador Espacial",
-      "Shivans"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
     "titulo": "MechCommander 2",
     "url": "juegos/mechcommander-2-bigbox/",
     "plataforma": [
@@ -33157,83 +33289,6 @@
     "anio": "",
     "mercado": [],
     "idioma": [],
-    "soporte": [
-      "CD-ROM"
-    ],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Red Baron II",
-    "url": "juegos/red-baron-ii-bigbox/",
-    "plataforma": [
-      "Win95"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación de vuelo",
-      "Combate aéreo",
-      "Simulación histórica"
-    ],
-    "desarrollador": [
-      "Dynamix"
-    ],
-    "distribuidor": [
-      "Sierra"
-    ],
-    "ean": [
-      "3348542011854"
-    ],
-    "descripcion": "Red Baron II es la secuela del célebre simulador de combate aéreo ambientado en la Primera Guerra Mundial, desarrollado por Dynamix y publicado por Sierra en 1997. El juego traslada al jugador a los cielos del frente occidental en 1914-1918, recreando duelos entre biplanos con una mezcla de simulación accesible, componente histórico y fuerte énfasis en la inmersión. Su propuesta gira en torno a campañas, misiones individuales y combates en red, permitiendo pilotar aparatos de distintas naciones y enfrentarse en dogfights donde la altura, la energía y la puntería importan tanto como la sangre fría.\n\nUno de sus mayores atractivos fue la ambientación: Red Baron II no buscaba solo ofrecer acción, sino también transmitir la fragilidad de aquellos primeros aviones de combate, construidos con madera, tela y motores limitados. El resultado era una experiencia muy distinta a la de los simuladores de reactores modernos, más táctica y cercana, con combates visuales y maniobras ajustadas a corta distancia. Además, el juego incorporó editor de misiones y opciones de personalización, ampliando notablemente su vida útil.\n\nEsta edición española Big Box de Sierra destaca por su poderosa portada en tonos rojos y por su clara orientación al mercado local, con textos de pantalla, manual y voces en castellano. Dentro del coleccionismo de PC, Red Baron II representa muy bien una época en la que Sierra seguía publicando simuladores ambiciosos en gran formato, acompañados de abundante documentación física. Es una pieza especialmente interesante para aficionados a la aviación histórica, a Dynamix y a la edad dorada de la simulación en PC.",
-    "incluye": [
-      "Caja Big Box original",
-      "CD-ROM del juego",
-      "Manual Volumen 1",
-      "Manual Volumen 2",
-      "Tarjeta o folleto publicitario",
-      "Nota sobre problemas con DirectX"
-    ],
-    "serie": [
-      "Big Box",
-      "Todos"
-    ],
-    "tags": [
-      "Red Baron II",
-      "Dynamix",
-      "Sierra",
-      "Primera Guerra Mundial",
-      "Simulación de vuelo",
-      "Combate aéreo",
-      "Biplanos",
-      "Big Box",
-      "Retro PC",
-      "Simulación histórica"
-    ],
-    "proteccion": {
-      "tipo": "Verificación de CD",
-      "version": "",
-      "preservacion": "Probablemente requiere comprobación del CD original para jugar. Preservable mediante imagen de disco y, en entornos actuales, suele necesitar ajustes de compatibilidad propios de Windows 95/DirectX de la época.",
-      "formato": "BIN/CUE",
-      "jugable_virtual": true
-    },
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [
-      "Español"
-    ],
     "soporte": [
       "CD-ROM"
     ],
