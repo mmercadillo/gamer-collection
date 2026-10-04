@@ -13010,5 +13010,13 @@
       <image:loc>https://www.pcgamearchive.org/juegos/lego-indiana-jones-la-trilogia-original-cddvd/img/002.jpg</image:loc>
     </image:image>
   </url>
-  <url><loc>https://www.pcgamearchive.org/juegos/el-universo-en-guerra-salto-a-la-tierra-cddvd/</loc></url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/el-universo-en-guerra-salto-a-la-tierra-cddvd/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/el-universo-en-guerra-salto-a-la-tierra-cddvd/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/el-universo-en-guerra-salto-a-la-tierra-cddvd/img/002.jpg</image:loc>
+    </image:image>
+  </url>
 </urlset>
