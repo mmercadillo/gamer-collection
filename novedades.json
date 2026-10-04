@@ -1,0 +1,19 @@
+[
+  {
+    "fecha": "2026-10-04",
+    "titulo": "Cinco nuevas ediciones se incorporan al archivo",
+    "descripcion": "PC Game Archive amplía el catálogo con nuevas ediciones físicas documentadas el 4 de octubre de 2026.",
+    "url": "incorporaciones/"
+  },
+  {
+    "fecha": "2026-10-04",
+    "titulo": "La portada muestra la fecha de última actualización",
+    "descripcion": "Se incorpora una configuración global del proyecto para indicar de forma explícita cuándo se ha actualizado el archivo."
+  },
+  {
+    "fecha": "2026-10-03",
+    "titulo": "Apoyo contextual a la conservación de cada pieza",
+    "descripcion": "Las fichas permiten acceder a Ko-fi manteniendo el contexto de la pieza desde la que se solicita el apoyo.",
+    "url": "apoyar/"
+  }
+]

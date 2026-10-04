@@ -2,8 +2,8 @@
 
 Documento vivo para registrar, ordenar y mantener los próximos evolutivos de PC Game Archive.
 
-**Base actual:** F16.3 — Apoyo contextual a la conservación de piezas  
-**Última actualización:** 03/10/2026
+**Base actual:** F16.5 — Novedades del archivo  
+**Última actualización:** 04/10/2026
 
 ---
 
@@ -300,6 +300,8 @@ Esta sección permite retirar elementos del backlog activo sin perder trazabilid
 
 | Evolutivo | Fecha de cierre | Resultado |
 |---|---|---|
+| F16.5 — Novedades del archivo | 04/10/2026 | `novedades.json`, bloque en portada, histórico `/novedades/`, navegación y sitemap. |
+| F16.4 — Propiedades globales y fecha de última actualización | 04/10/2026 | `propiedades.json` como configuración transversal inicial y fecha de última actualización visible en portada. |
 | F16.3 — Apoyo contextual a la conservación de piezas | 03/10/2026 | CTA por pieza, contexto en `/apoyar/`, integración con Ko-fi y analítica GA4. |
 
 ---

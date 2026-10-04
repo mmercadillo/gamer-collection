@@ -3,7 +3,7 @@
 """
 Generador estático SEO/SEM para PC Game Archive.
 
-Lee juegos.json como fuente maestra y genera una web estática indexable:
+Lee juegos.json como fuente maestra, propiedades.json como configuración global y novedades.json como registro editorial, y genera una web estática indexable:
   - index.html
   - bigbox.html (compatibilidad/redirección)
   - series.html
@@ -26,7 +26,7 @@ Uso recomendado:
   python generar_web.py
 
 Uso alternativo generando en otra carpeta:
-  python generar_web.py --catalogo juegos.json --out dist
+  python generar_web.py --catalogo juegos.json --propiedades propiedades.json --novedades novedades.json --out dist
   python generar_web.py --base-url https://www.pcgamearchive.org
 
 Notas:
@@ -291,6 +291,71 @@ def load_json(path: Path) -> list[dict[str, Any]]:
     if isinstance(data, dict) and isinstance(data.get("juegos"), list):
         return data["juegos"]
     raise ValueError("El catálogo debe ser una lista JSON o un objeto con propiedad 'juegos'.")
+
+
+def load_properties(path: Path) -> dict[str, Any]:
+    if not path.is_file():
+        raise FileNotFoundError(f"No se encuentra el fichero de propiedades globales: {path}")
+    with path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise ValueError("propiedades.json debe contener un objeto JSON.")
+    if not str(data.get("ultima_actualizacion", "")).strip():
+        raise ValueError("Falta la propiedad obligatoria 'ultima_actualizacion' en propiedades.json.")
+    return data
+
+
+def load_news(path: Path) -> list[dict[str, Any]]:
+    if not path.is_file():
+        raise FileNotFoundError(f"No se encuentra el fichero de novedades: {path}")
+    with path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, list):
+        raise ValueError("novedades.json debe contener una lista JSON.")
+
+    news: list[dict[str, Any]] = []
+    for index, item in enumerate(data, start=1):
+        if not isinstance(item, dict):
+            raise ValueError(f"La novedad #{index} debe ser un objeto JSON.")
+        raw_date = str(item.get("fecha", "")).strip()
+        title = str(item.get("titulo", "")).strip()
+        if not raw_date:
+            raise ValueError(f"Falta el campo obligatorio 'fecha' en la novedad #{index}.")
+        if not title:
+            raise ValueError(f"Falta el campo obligatorio 'titulo' en la novedad #{index}.")
+        try:
+            parsed = dt.date.fromisoformat(raw_date)
+        except ValueError as exc:
+            raise ValueError(
+                f"El campo 'fecha' de la novedad #{index} debe usar el formato ISO YYYY-MM-DD "
+                f"(valor recibido: {raw_date!r})."
+            ) from exc
+
+        news.append({
+            "fecha": raw_date,
+            "_fecha": parsed,
+            "titulo": title,
+            "descripcion": str(item.get("descripcion", "") or "").strip(),
+            "url": str(item.get("url", "") or "").strip(),
+        })
+
+    return sorted(news, key=lambda item: item["_fecha"], reverse=True)
+
+
+def format_spanish_date(value: Any) -> str:
+    raw = str(value or "").strip()
+    try:
+        parsed = dt.date.fromisoformat(raw)
+    except ValueError as exc:
+        raise ValueError(
+            "La propiedad 'ultima_actualizacion' debe usar el formato ISO YYYY-MM-DD "
+            f"(valor recibido: {raw!r})."
+        ) from exc
+    months = (
+        "enero", "febrero", "marzo", "abril", "mayo", "junio",
+        "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+    )
+    return f"{parsed.day} de {months[parsed.month - 1]} de {parsed.year}"
 
 
 def h(value: Any) -> str:
@@ -679,6 +744,7 @@ def nav(active: str, prefix: str = "") -> str:
     primary_items = [
         ("", "Inicio"),
         ("catalogo/", "Catálogo"),
+        ("novedades/", "Novedades"),
     ]
     utility_items = [
         ("proyecto/", "El proyecto"),
@@ -1420,12 +1486,74 @@ def generate_catalog_pages(games: list[dict[str, Any]], out: Path, base_url: str
         )
 
 
-def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> None:
+def news_href(url: str, prefix: str = "") -> str:
+    if re.match(r"^(?:https?://|mailto:)", url, flags=re.IGNORECASE) or url.startswith("/"):
+        return url
+    return prefix + url
+
+
+def news_entry_html(item: dict[str, Any], prefix: str = "", compact: bool = False) -> str:
+    formatted = format_spanish_date(item["fecha"])
+    title = h(item["titulo"])
+    description = h(item.get("descripcion", ""))
+    url = str(item.get("url", "") or "").strip()
+    href = news_href(url, prefix) if url else ""
+    title_html = f'<a href="{h(href)}">{title}</a>' if url else title
+    description_html = f'<p>{description}</p>' if description else ""
+    action_html = f'<a class="news-link" href="{h(href)}">Ver más →</a>' if url and not compact else ""
+    cls = "news-item news-item-compact" if compact else "news-item"
+    return (
+        f'<article class="{cls}">'
+        f'<time datetime="{h(item["fecha"])}">{h(formatted)}</time>'
+        f'<h3>{title_html}</h3>'
+        f'{description_html}'
+        f'{action_html}'
+        '</article>'
+    )
+
+
+def generate_news(news: list[dict[str, Any]], out: Path, base_url: str) -> None:
+    route = "novedades/"
+    prefix = rel_prefix_for(route + "index.html")
+    entries = "\n".join(news_entry_html(item, prefix) for item in news)
+    if not entries:
+        entries = '<p class="news-empty">Todavía no hay novedades publicadas.</p>'
+    desc = "Últimas novedades de PC Game Archive: nuevas incorporaciones, documentación, guías de compatibilidad, preservación y evolución del archivo."
+    body = f'''<main>
+  <section class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / Novedades</nav>
+    <p class="eyebrow">Actividad del archivo</p>
+    <h1>Novedades</h1>
+    <p class="lead">Un registro cronológico de las incorporaciones, guías, trabajos de preservación y cambios relevantes de PC Game Archive.</p>
+  </section>
+  <section class="wrap news-page" aria-label="Histórico de novedades">
+    <div class="news-list">{entries}</div>
+  </section>
+</main>'''
+    target = out / route / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(layout("Novedades · PC Game Archive", desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Actividad y evolución del archivo"), encoding="utf-8")
+
+
+def generate_index(games: list[dict[str, Any]], properties: dict[str, Any], news: list[dict[str, Any]], out: Path, base_url: str) -> None:
     bigbox = sum(1 for g in games if g.get("formato") == "Big Box")
     dvd_case = sum(1 for g in games if g.get("formato") == "DVD Case")
     jewel_case = sum(1 for g in games if g.get("formato") == "Jewel Case")
     initial_games = games[:24]
     cards = "\n".join(card(g) for g in initial_games)
+    home_news = news[:4]
+    news_section = ""
+    if home_news:
+        news_cards = "\n".join(news_entry_html(item, "", compact=True) for item in home_news)
+        news_section = f'''<section class="home-news" aria-labelledby="news-home-title">
+  <div class="wrap">
+    <p class="eyebrow">Actividad del archivo</p>
+    <div class="section-head news-section-head"><h2 id="news-home-title">Novedades</h2><a href="novedades/">Ver todas las novedades</a></div>
+    <p class="news-help">Incorporaciones, documentación, preservación y cambios relevantes en PC Game Archive.</p>
+    <div class="home-news-grid">{news_cards}</div>
+  </div>
+</section>'''
+
     recent = dated_incorporations(games)[:RECENT_INCORPORATIONS_LIMIT]
     recent_section = ""
     if recent:
@@ -1441,6 +1569,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     series_values = sorted({str(s) for g in games for s in (g.get("serie") or []) if str(s).strip()}, key=str.lower)
     series_options = "\n          ".join(f'<option value="{h(s)}">{h(s)}</option>' for s in series_values)
     desc = "Archivo y colección de videojuegos clásicos de PC en formato Big Box, MS-DOS y Windows. Preservación, catálogo y documentación de ediciones físicas retro."
+    last_update = format_spanish_date(properties["ultima_actualizacion"])
     body = f'''<main>
 <script>
 (function(){{
@@ -1465,6 +1594,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
       <p class="eyebrow">Preservación · Coleccionismo · PC clásico</p>
       <h1>Archivo físico de videojuegos de PC</h1>
       <p class="lead">Catálogo documental de ediciones físicas para PC, con especial atención a Big Box, MS-DOS, Windows clásicos, distribución española y preservación del soporte original.</p>
+      <p class="last-update">Última actualización del archivo · <time datetime="{h(properties['ultima_actualizacion'])}">{h(last_update)}</time></p>
     </div>
     <aside class="stats-card" aria-label="Resumen del catálogo por formato">
       <strong>{bigbox}</strong><span>ediciones Big Box</span>
@@ -1473,6 +1603,7 @@ def generate_index(games: list[dict[str, Any]], out: Path, base_url: str) -> Non
     </aside>
   </div>
 </section>
+{news_section}
 {recent_section}
 <section class="search-section" id="buscar">
   <div class="wrap">
@@ -2594,7 +2725,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
 
 
 def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
-    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/", "novedades/"] + [p["filename"] for p in SEO_LANDING_PAGES]
     incorporation_count = len(dated_incorporations(games))
     if incorporation_count:
         urls.append("incorporaciones/")
@@ -2810,14 +2941,20 @@ def build_report(games: list[dict[str, Any]], out: Path, gallery_index: dict[str
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--catalogo", default="juegos.json")
+    parser.add_argument("--propiedades", default="propiedades.json", help="Configuración global del sitio.")
+    parser.add_argument("--novedades", default="novedades.json", help="Registro editorial de novedades del archivo.")
     parser.add_argument("--out", default=".", help="Directorio de salida. Por defecto: directorio actual, sin copiar imágenes.")
     parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
     args = parser.parse_args()
 
     project_root = Path.cwd()
     catalog_path = (project_root / args.catalogo).resolve()
+    properties_path = (project_root / args.propiedades).resolve()
+    news_path = (project_root / args.novedades).resolve()
     out = (project_root / args.out).resolve()
     games = load_json(catalog_path)
+    properties = load_properties(properties_path)
+    news = load_news(news_path)
     gallery_index = build_gallery_index(project_root, games)
     # Metadato transitorio para que todas las tarjetas usen la misma imagen real
     # detectada. No se persiste en juegos.json.
@@ -2834,7 +2971,8 @@ def main() -> int:
     write_assets(out, games)
     copy_support_files(project_root, out)
     generate_favicons(project_root, out)
-    generate_index(games, out, args.base_url)
+    generate_index(games, properties, news, out, args.base_url)
+    generate_news(news, out, args.base_url)
     generate_incorporations(games, out, args.base_url)
     generate_catalog_pages(games, out, args.base_url)
     generate_seo_landing_pages(games, out, args.base_url)
@@ -2850,8 +2988,9 @@ def main() -> int:
     generate_sitemap(games, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase16.3-apoyo-contextual-piezas-2026-10-03")
-    print("Fase 16.3: apoyo contextual a la conservación de piezas")
+    print("Versión generador: fase16.5-novedades-2026-10-04")
+    print("Fase 16.5: registro editorial y sección de novedades")
+    print(f"Novedades procesadas: {len(news)}")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
     print("Modo de assets: no se copian imágenes ni carpetas img; solo se sobrescriben ficheros generados.")
@@ -2883,7 +3022,7 @@ CSS += r'''
 
 CSS += r'''
 /* Fase 12.3: jerarquía de portada y navegación Explorar */
-.nav-explore{position:relative}.nav-explore summary{list-style:none;cursor:pointer;text-decoration:none;font-weight:800;font-size:13.5px;padding:8px 10px;border-radius:999px;border:1px solid transparent;white-space:nowrap;user-select:none}.nav-explore summary::-webkit-details-marker{display:none}.nav-explore summary:hover,.nav-explore[open] summary,.nav-explore.active summary{background:#f7f7f7;border-color:var(--bd)}.nav-caret{display:inline-block;margin-left:3px;font-size:11px;transition:transform .15s ease}.nav-explore[open] .nav-caret{transform:rotate(180deg)}.nav-dropdown{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);z-index:80;width:min(620px,calc(100vw - 36px));display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:18px;background:#fff;border:1px solid var(--bd);border-radius:18px;box-shadow:0 18px 50px rgba(0,0,0,.16)}.nav-dropdown-group{display:flex;flex-direction:column;gap:4px;min-width:0}.nav-dropdown-group>strong{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--g);padding:3px 8px 7px}.nav .nav-dropdown a.nav-dropdown-link{display:block;text-align:left;white-space:normal;font-size:13px;font-weight:750;padding:8px;border:0;border-radius:10px;background:transparent}.nav .nav-dropdown a.nav-dropdown-link:hover,.nav .nav-dropdown a.nav-dropdown-link.active{background:var(--soft);border:0}.home-acquisition{margin-top:24px;margin-bottom:24px}.home-overview .hero-grid{padding-top:30px;padding-bottom:30px}.home-overview h1{font-size:clamp(32px,4.2vw,50px);margin-bottom:12px}.home-overview .lead{margin-bottom:0}.search-section{padding:30px 0 34px}.search-panel{background:#fff;border:1px solid var(--bd);border-radius:24px;padding:24px;box-shadow:0 8px 30px rgba(0,0,0,.04)}.search-section-head{margin:0 0 6px;align-items:center}.search-section-head h2{margin:0}.search-help{margin:0;color:#555;max-width:850px}.search-panel .catalog-search-advanced{margin-top:16px}.search-results-meta{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:22px 0 14px;padding-top:18px;border-top:1px solid var(--bd)}.search-results-meta>strong{font-size:18px}.search-results-meta .count{font-size:13px}.search-panel .search-facets{margin-top:0}.home-documentary-note{margin-top:34px}.pcga-search-mode .home-acquisition,.pcga-search-mode .home-overview{display:none}.pcga-search-mode .search-section{padding-top:24px}.pcga-search-mode .search-panel{box-shadow:none}
+.nav-explore{position:relative}.nav-explore summary{list-style:none;cursor:pointer;text-decoration:none;font-weight:800;font-size:13.5px;padding:8px 10px;border-radius:999px;border:1px solid transparent;white-space:nowrap;user-select:none}.nav-explore summary::-webkit-details-marker{display:none}.nav-explore summary:hover,.nav-explore[open] summary,.nav-explore.active summary{background:#f7f7f7;border-color:var(--bd)}.nav-caret{display:inline-block;margin-left:3px;font-size:11px;transition:transform .15s ease}.nav-explore[open] .nav-caret{transform:rotate(180deg)}.nav-dropdown{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);z-index:80;width:min(620px,calc(100vw - 36px));display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:18px;background:#fff;border:1px solid var(--bd);border-radius:18px;box-shadow:0 18px 50px rgba(0,0,0,.16)}.nav-dropdown-group{display:flex;flex-direction:column;gap:4px;min-width:0}.nav-dropdown-group>strong{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--g);padding:3px 8px 7px}.nav .nav-dropdown a.nav-dropdown-link{display:block;text-align:left;white-space:normal;font-size:13px;font-weight:750;padding:8px;border:0;border-radius:10px;background:transparent}.nav .nav-dropdown a.nav-dropdown-link:hover,.nav .nav-dropdown a.nav-dropdown-link.active{background:var(--soft);border:0}.home-acquisition{margin-top:24px;margin-bottom:24px}.home-overview .hero-grid{padding-top:30px;padding-bottom:30px}.home-overview h1{font-size:clamp(32px,4.2vw,50px);margin-bottom:12px}.home-overview .lead{margin-bottom:0}.last-update{margin:12px 0 0;color:var(--g);font-size:13px;font-weight:700}.search-section{padding:30px 0 34px}.search-panel{background:#fff;border:1px solid var(--bd);border-radius:24px;padding:24px;box-shadow:0 8px 30px rgba(0,0,0,.04)}.search-section-head{margin:0 0 6px;align-items:center}.search-section-head h2{margin:0}.search-help{margin:0;color:#555;max-width:850px}.search-panel .catalog-search-advanced{margin-top:16px}.search-results-meta{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:22px 0 14px;padding-top:18px;border-top:1px solid var(--bd)}.search-results-meta>strong{font-size:18px}.search-results-meta .count{font-size:13px}.search-panel .search-facets{margin-top:0}.home-documentary-note{margin-top:34px}.pcga-search-mode .home-acquisition,.pcga-search-mode .home-overview{display:none}.pcga-search-mode .search-section{padding-top:24px}.pcga-search-mode .search-panel{box-shadow:none}
 @media(max-width:900px){.nav-explore{grid-column:1/-1}.nav-explore summary{display:block;text-align:center;border:1px solid var(--bd);border-radius:12px;padding:10px 9px;background:#fff}.nav-explore summary:hover,.nav-explore[open] summary,.nav-explore.active summary{background:#f3f3f1;border-color:#cfcfca}.nav-dropdown{position:static;transform:none;width:100%;margin-top:6px;grid-template-columns:repeat(2,minmax(0,1fr));padding:12px;box-shadow:none;border-radius:14px}.nav .nav-dropdown a.nav-dropdown-link{text-align:left;border:0;background:transparent;padding:8px}.home-acquisition{margin-top:18px}.search-panel{padding:20px}}
 @media(max-width:600px){.nav-dropdown{grid-template-columns:1fr}.search-results-meta{align-items:flex-start;flex-direction:column;gap:2px}.home-overview .stats-card{margin-top:4px}.search-panel{border-radius:18px;padding:16px}}
 '''
@@ -3222,6 +3361,10 @@ CSS += r'''
 /* Fase 14: últimas incorporaciones */
 .home-recent{padding:34px 0 38px;background:#fff;border-bottom:1px solid var(--bd)}.recent-section-head{margin:0 0 6px;align-items:center}.recent-section-head h2{margin:0}.recent-help{margin:0 0 18px;color:#555;max-width:850px}.recent-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}.recent-grid .game-card{min-height:245px}.game-card-meta{font-weight:750;color:#444!important}.pcga-search-mode .home-recent{display:none}
 @media(max-width:1100px){.recent-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:700px){.recent-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.recent-grid{grid-template-columns:1fr}}
+'''
+
+CSS += r'''
+.home-news{padding:34px 0 38px;background:var(--soft);border-bottom:1px solid var(--bd)}.news-section-head{margin:0 0 6px;align-items:center}.news-section-head h2{margin:0}.news-help{margin:0 0 18px;color:#555;max-width:850px}.home-news-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.news-item{background:#fff;border:1px solid var(--bd);border-radius:18px;padding:20px}.news-item time{display:block;color:var(--g);font-size:12px;font-weight:800;margin-bottom:8px}.news-item h3{font-size:20px;line-height:1.25;margin:0 0 9px}.news-item h3 a{text-decoration:none}.news-item h3 a:hover{text-decoration:underline}.news-item p{margin:0;color:#444}.news-link{display:inline-block;margin-top:14px;font-weight:900}.news-item-compact{min-height:180px}.news-item-compact h3{font-size:17px}.news-page{padding-bottom:30px}.news-list{display:grid;gap:14px;max-width:900px}.news-list .news-item{padding:24px}.news-list .news-item h3{font-size:22px}.news-empty{color:var(--g)}.pcga-search-mode .home-news{display:none}@media(max-width:900px){.home-news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.home-news-grid{grid-template-columns:1fr}.news-item-compact{min-height:0}}
 '''
 
 if __name__ == "__main__":
