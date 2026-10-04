@@ -18331,6 +18331,105 @@
   {
     "num": "000000",
     "ig": "",
+    "fecha_incorporacion": "2026-10-04",
+    "procedencia": {
+      "tipo": "Donacion",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "@aranchagrarridojuara",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "The Perfect General II",
+    "url": "juegos/the-perfect-general-ii-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Estrategia táctica",
+      "Simulación militar"
+    ],
+    "desarrollador": [
+      "Quantum Quality Productions"
+    ],
+    "distribuidor": [
+      "Quantum Quality Productions",
+      "American Laser Games",
+      "DRO Soft"
+    ],
+    "ean": [],
+    "descripcion": "The Perfect General II es un wargame táctico por turnos desarrollado por Quantum Quality Productions y publicado originalmente en 1994 para MS-DOS. Secuela de The Perfect General, amplía la fórmula del título original mediante campañas completas, numerosos escenarios, cinco niveles de dificultad, una inteligencia artificial mejorada y un sistema de combate en el que terreno, movimiento, alcance, potencia de fuego y composición de las fuerzas condicionan cada enfrentamiento. El jugador dirige unidades de infantería, carros de combate, artillería y otras fuerzas terrestres, además de disponer de apoyo aéreo, alternando entre vistas tácticas y estratégicas del campo de batalla. Técnicamente utiliza gráficos SVGA, sonido digital y secuencias de vídeo con consejos y estrategias militares, y admite partidas entre dos jugadores mediante módem o conexión null-modem. Esta edición europea en CD-ROM corresponde a la etapa en la que Quantum Quality Productions estaba integrada en American Laser Games y el ejemplar conservado incorpora documentación en castellano identificada por DRO Soft, junto con abundante material cartográfico y de referencia. Constituye una pieza representativa del wargame de PC de mediados de los años noventa y de la transición del género hacia presentaciones multimedia en CD-ROM.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM",
+      "Manual de instrucciones, reglas y tácticas",
+      "Map Book Volume One",
+      "Map Book Volume Two",
+      "Documentación en castellano",
+      "Mapas de campaña",
+      "Tarjeta de garantía y registro",
+      "Documentación promocional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Perfect General",
+      "The Perfect General II",
+      "Quantum Quality Productions",
+      "QQP",
+      "American Laser Games",
+      "DRO Soft",
+      "wargame clásico",
+      "estrategia militar",
+      "estrategia por turnos",
+      "combate táctico",
+      "guerra moderna",
+      "mapas tácticos",
+      "campañas militares",
+      "inteligencia artificial",
+      "SVGA",
+      "Sound Blaster",
+      "multijugador por módem",
+      "null-modem",
+      "MS-DOS",
+      "CD-ROM multimedia",
+      "edición española",
+      "documentación en castellano",
+      "Big Box PC",
+      "PC clásico",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM mediante una imagen completa en formato BIN/CUE y digitalizar por separado la caja, el manual de instrucciones, reglas y tácticas, los dos Map Book, los mapas de campaña, la documentación específica en castellano y las tarjetas incluidas. Al tratarse de software para MS-DOS, la ejecución en un entorno virtual es viable mediante DOSBox o una máquina virtual DOS correctamente configurada; debe conservarse la imagen original del soporte incluso si para la ejecución se utiliza una instalación desde disco duro.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1995",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",

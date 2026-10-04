@@ -272,9 +272,9 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/ea-sports/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/gathering-of-developers/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/dro-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/focus-home-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts-entertainment-company/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/dro-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/jowood-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/dreamcatcher-interactive/</loc></url>
@@ -362,8 +362,8 @@
   <url><loc>https://www.pcgamearchive.org/generos/shooter-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/futbol/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/arcade/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/conduccion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/wargame/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/conduccion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/mundo-abierto/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/sigilo/</loc></url>
@@ -389,9 +389,9 @@
   <url><loc>https://www.pcgamearchive.org/generos/compilacion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/fantasia-oscura/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rally/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/estrategia-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/4x/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/estrategia-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/survival-horror/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tercera-persona/</loc></url>
@@ -417,9 +417,9 @@
   <url><loc>https://www.pcgamearchive.org/generos/historico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/mmorpg/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/simulacion-militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-aerea/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vuelo/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/simulacion-militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-deportiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/guerra/</loc></url>
@@ -3131,6 +3131,21 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/a-sangre-fria-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/003.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/004.jpg</image:loc>
     </image:image>
   </url>
   <url>
