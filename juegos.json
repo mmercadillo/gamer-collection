@@ -17868,7 +17868,7 @@
   },
   {
     "num": "000212",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DeENlT2iLxp",
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",
@@ -17959,6 +17959,367 @@
     "idioma": [
       "Español",
       "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000213",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Warlords Battlecry",
+    "url": "juegos/warlords-battlecry-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Rol",
+      "Fantasía",
+      "Estrategia con elementos RPG"
+    ],
+    "desarrollador": [
+      "Strategic Studies Group"
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Mattel Interactive",
+      "Mattel España, S.A."
+    ],
+    "ean": [],
+    "descripcion": "Warlords Battlecry es un juego de estrategia en tiempo real con elementos de rol desarrollado por Strategic Studies Group y publicado en 2000 como derivado de la veterana saga Warlords. Su principal rasgo distintivo fue combinar la construcción de bases, gestión de recursos y combate propios del RTS con héroes persistentes capaces de ganar experiencia, mejorar atributos y desarrollar habilidades entre escenarios. Las unidades también podían adquirir experiencia, reforzando la relación entre la estrategia tradicional y la progresión característica de los juegos de rol. Ambientado en un universo de fantasía, ofrece campañas, escenarios independientes y juego multijugador con numerosas facciones y tipos de unidad. Esta edición española en caja grande para Windows 95/98 conserva el software en inglés y documentación impresa en castellano, constituyendo un ejemplo representativo de la experimentación con fórmulas híbridas de estrategia y RPG en el PC de comienzos de los años 2000.",
+    "incluye": [
+      "Caja Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual del usuario en castellano",
+      "Glosario",
+      "Tarjeta de teclas calientes y atajos"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Warlords Battlecry",
+      "Warlords",
+      "Strategic Studies Group",
+      "SSG",
+      "Strategic Simulations",
+      "SSI",
+      "Mattel Interactive",
+      "fantasía",
+      "héroes persistentes",
+      "progresión de personajes",
+      "unidades con experiencia",
+      "estrategia y rol",
+      "multijugador",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "edición española",
+      "manual en castellano",
+      "software en inglés",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM original mediante una imagen completa ISO o BIN/CUE y digitalizar la documentación impresa asociada. Al tratarse de software para Windows 95/98, su conservación funcional puede apoyarse en una máquina virtual o entorno compatible con Windows clásico; el sistema anticopia concreto de esta edición debe verificarse sobre el soporte original.",
+      "formato": "ISO",
+      "jugable_virtual": true
+    },
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000214",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Panzer Commander: WWII Tank Simulator",
+    "url": "juegos/panzer-commander-wwii-tank-simulator-bigbox/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de tanques",
+      "Simulación de vehículos",
+      "Simulación bélica",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Ultimation Inc."
+    ],
+    "distribuidor": [
+      "Strategic Simulations, Inc.",
+      "Mindscape",
+      "Proein Software"
+    ],
+    "ean": [],
+    "descripcion": "Panzer Commander es un simulador de carros de combate de la Segunda Guerra Mundial desarrollado por Ultimation Inc. y publicado por Strategic Simulations, Inc. en 1998 como parte de su línea Digital Combat Series. Permite ocupar distintos puestos dentro del vehículo —comandante, conductor, artillero principal o ametrallador— y controlar carros alemanes, soviéticos, estadounidenses y británicos, incluyendo modelos como Tiger, Panther, T-34, IS-II, Sherman, Pershing, Matilda y Cromwell. Su propuesta combina campañas y escenarios individuales con un modelo físico orientado a reproducir el comportamiento de los vehículos sobre distintos terrenos, retroceso del armamento y características diferenciadas de los blindados. Incorpora gráficos 3D con texturas, iluminación y niebla, editor de escenarios con más de 150 variables y partidas multijugador para hasta seis participantes. Esta edición española en caja grande, distribuida por Proein Software y vinculada comercialmente a Mindscape y SSI, incluye documentación en castellano y constituye una pieza representativa de la etapa de los simuladores militares 3D para Windows 95 de finales de los noventa.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual de usuario en castellano",
+      "Hoja de comandos del joystick",
+      "Tarjeta de registro y encuesta de producto",
+      "Folleto promocional Juega y gana"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Panzer Commander",
+      "Digital Combat Series",
+      "Strategic Simulations",
+      "SSI",
+      "Ultimation",
+      "Mindscape",
+      "Proein Software",
+      "Segunda Guerra Mundial",
+      "carros de combate",
+      "tanques",
+      "Tiger",
+      "Panther",
+      "T-34",
+      "Sherman",
+      "combate acorazado",
+      "física de vehículos",
+      "gráficos 3D",
+      "editor de escenarios",
+      "multijugador",
+      "Windows 95",
+      "PC CD-ROM",
+      "edición española",
+      "manual en castellano",
+      "Big Box PC",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Preservación recomendada mediante imagen completa del CD-ROM original en formato BIN/CUE, acompañada de comprobaciones de integridad y digitalización de la caja, manual, hoja de comandos del joystick, documentación de registro y material promocional. Para preservar la experiencia de ejecución resulta recomendable documentar una instalación funcional de Windows 95 en máquina virtual con soporte gráfico compatible con DirectX de la época.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1998",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000215",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Red Baron 3-D",
+    "url": "juegos/red-baron-3d-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de vuelo",
+      "Simulación de combate aéreo",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Dynamix"
+    ],
+    "distribuidor": [
+      "Sierra On-Line",
+      "Coktel Educative"
+    ],
+    "ean": [
+      "3348542050372"
+    ],
+    "descripcion": "Red Baron 3-D es un simulador de combate aéreo ambientado en la Primera Guerra Mundial desarrollado por Dynamix y publicado por Sierra On-Line. Lanzado en 1998 como evolución tecnológica de Red Baron II, incorporó aceleración gráfica 3D para mejorar la representación de aeronaves, terrenos y combates, manteniendo el enfoque histórico y de simulación que caracterizaba a la serie. Permite pilotar numerosos aviones de las principales fuerzas enfrentadas, participar en campañas históricas, crear misiones, personalizar el aspecto de los aparatos y disputar combates multijugador. Su temática gira en torno a los primeros años de la aviación militar y a figuras como Manfred von Richthofen, el célebre Barón Rojo. Esta edición española en caja grande, distribuida por Coktel Educative, está íntegramente localizada al castellano y constituye un ejemplo representativo de los simuladores de vuelo para PC de finales de los años noventa, en plena transición hacia la aceleración gráfica 3D.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM en caja jewel case",
+      "Manual histórico",
+      "Manual Empezar a jugar",
+      "Tarjeta de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Red Baron",
+      "Red Baron 3-D",
+      "Dynamix",
+      "Sierra",
+      "Sierra On-Line",
+      "Coktel Educative",
+      "Primera Guerra Mundial",
+      "Manfred von Richthofen",
+      "Barón Rojo",
+      "aviación militar",
+      "combate aéreo",
+      "aceleración 3D",
+      "multijugador",
+      "campañas históricas",
+      "edición española",
+      "versión en castellano",
+      "Windows 95",
+      "Windows 98",
+      "CD-ROM",
+      "Big Box PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM original mediante una imagen completa BIN/CUE y conservar digitalmente los manuales y la documentación impresa de esta edición española. La ejecución virtual es viable en una máquina virtual con Windows 95/98 y soporte gráfico compatible, aunque la aceleración 3D original puede requerir configuración específica o soluciones de compatibilidad.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "1998",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000216",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "A Sangre Fría",
+    "url": "juegos/a-sangre-fria-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Acción",
+      "Infiltración",
+      "Espionaje"
+    ],
+    "desarrollador": [
+      "Revolution Software"
+    ],
+    "distribuidor": [
+      "Ubisoft"
+    ],
+    "ean": [
+      "3307212296885"
+    ],
+    "descripcion": "A Sangre Fría es la edición española para PC de In Cold Blood, aventura de espionaje desarrollada por Revolution Software y publicada en 2000. El jugador encarna a John Cord, un agente británico capturado durante una misión en Volgia que debe reconstruir los acontecimientos que condujeron a su detención mientras intenta escapar y descubrir una trama de traición. El diseño combina exploración y resolución de puzles propios de la aventura gráfica con infiltración, diálogos, combate y secuencias de acción, utilizando escenarios tridimensionales prerenderizados y personajes en tiempo real para construir una puesta en escena de marcado carácter cinematográfico. La edición española mostrada fue distribuida por Ubisoft y conserva la presentación física en caja grande característica del mercado de PC de comienzos de los años 2000.",
+    "incluye": [
+      "2 CD-ROM",
+      "Manual"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "A Sangre Fría",
+      "In Cold Blood",
+      "Revolution Software",
+      "Ubisoft",
+      "John Cord",
+      "espionaje",
+      "thriller",
+      "Guerra Fría",
+      "aventura cinematográfica",
+      "gráficos prerenderizados",
+      "edición española",
+      "Big Box PC",
+      "PC Game Archive",
+      "preservación videojuegos",
+      "retro PC gaming"
+    ],
+    "proteccion": {
+      "tipo": "SecuROM",
+      "version": "4.x",
+      "preservacion": "Preservar ambos CD-ROM mediante imágenes capaces de conservar la información asociada a SecuROM, preferentemente MDF/MDS, junto con el manual y el embalaje de la edición española. La conservación de una imagen simple ISO puede no reproducir toda la información necesaria de una protección basada en características físicas del disco.",
+      "formato": "MDF/MDS",
+      "jugable_virtual": true
+    },
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
     ],
     "soporte": [
       "CD-ROM"
@@ -18489,61 +18850,6 @@
       "preservacion": "Pendiente de documentación",
       "formato": "No aplica",
       "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "A Sangre Fría",
-    "url": "juegos/a-sangre-fria-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica",
-      "Acción"
-    ],
-    "desarrollador": [
-      "Revolution Software"
-    ],
-    "distribuidor": [
-      "Ubisoft (PC, Europa), DreamCatcher (PC, Norteamérica), Sony Computer Entertainment (PlayStation)"
-    ],
-    "ean": [
-      "711719168027"
-    ],
-    "descripcion": "Juego de aventura gráfica con elementos de sigilo y acción, protagonizado por John Cord, un agente del MI6 infiltrado en Volgia tras el colapso de la URSS. Combina resolución de acertijos, diálogos y enfrentamientos armados. Ambientación con estilo cinematográfico y ambientación fría.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "SecuROM",
-      "version": "4.x",
-      "preservacion": "Alcohol 120% - Perfil SecuROM New",
-      "formato": "MDF/MDS",
-      "jugable_virtual": true
     },
     "anio": "",
     "mercado": [],
@@ -21314,60 +21620,6 @@
     ],
     "ean": [],
     "descripcion": "Juego oficial de fútbol de los Juegos Olímpicos de Atlanta 1996, lanzado en 1996 para PC. Incluye 32 selecciones nacionales, modos arcade, copa olímpica y liga, distintos estadios oficiales, control ampliado y comentarios de Alan Green.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Panzer Commander: WWII Tank Simulator",
-    "url": "juegos/panzer-commander-wwii-tank-simulator-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Tanques",
-      "Segunda Guerra Mundial"
-    ],
-    "desarrollador": [
-      "Ultimation Inc."
-    ],
-    "distribuidor": [
-      "Strategic Simulations Inc. (SSI)"
-    ],
-    "ean": [],
-    "descripcion": "Simulador de combate de tanques de la Segunda Guerra Mundial lanzado en 1998. Permite manejar más de 20 tanques de Alemania, EE. UU., Reino Unido y la URSS en escenarios individuales y campañas históricas (tres alemanas, tres rusas y escenarios para cada nación). Incluye editor de escenarios, aceleración Direct3D, y soporte multijugador por LAN e Internet para hasta seis jugadores.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -27181,59 +27433,6 @@
         "x": ""
       }
     },
-    "titulo": "Red Baron 3-D",
-    "url": "juegos/red-baron-3d-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Acción"
-    ],
-    "desarrollador": [
-      "Dynamix"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "Red Baron 3-D es un simulador de vuelo ambientado en la Primera Guerra Mundial. El jugador pilota aviones de combate históricos en misiones realistas, participando en combates aéreos intensos con gráficos 3D mejorados respecto a la versión original de Red Baron II.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
     "titulo": "Mortyr",
     "url": "juegos/mortyr-bigbox/",
     "plataforma": [
@@ -27853,67 +28052,6 @@
       "Futurista",
       "Aerotabla",
       "Arcade",
-      "Big Box"
-    ],
-    "proteccion": {
-      "tipo": "No determinado",
-      "version": "",
-      "preservacion": "Pendiente de documentación",
-      "formato": "No aplica",
-      "jugable_virtual": false
-    },
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": []
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Warlords Battlecry",
-    "url": "juegos/warlords-battlecry-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia",
-      "Rol",
-      "Fantasía"
-    ],
-    "desarrollador": [
-      "Strategic Studies Group (SSG)"
-    ],
-    "distribuidor": [
-      "Ubi Soft Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Warlords Battlecry combina la estrategia en tiempo real con elementos de rol, permitiendo al jugador crear y desarrollar un héroe persistente que lidera ejércitos en un mundo de fantasía. Con más de una docena de razas y campañas no lineales, ofrece una profunda jugabilidad táctica y narrativa.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Estrategia en tiempo real",
-      "Rol",
-      "Fantasía",
-      "Hero System",
-      "Campañas",
       "Big Box"
     ],
     "proteccion": {
@@ -94369,5 +94507,433 @@
       "CD-ROM"
     ],
     "tipo_edicion": []
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-10",
+    "procedencia": {
+      "tipo": "Compra",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Los Sims 4: ¿Quedamos?",
+    "url": "juegos/los-sims-4-quedamos-sims-cddvd/",
+    "plataforma": [
+      "Win7",
+      "Win8",
+      "Win10",
+      "MacOs"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Simulación",
+      "Simulación de vida"
+    ],
+    "desarrollador": [
+      "Maxis"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Primera gran expansión de Los Sims 4, publicada en 2015 y centrada en ampliar la dimensión social de la simulación de vida de Maxis. Introduce el mundo de Windenburg, inspirado en entornos europeos, y un sistema de clubes que permite crear grupos de Sims con intereses, comportamientos, actividades y lugares de reunión definidos por el jugador. Añade nuevas actividades sociales, locales, habilidades como baile y DJ, objetos y opciones de personalización. La edición física española se comercializó como «Los Sims 4: ¿Quedamos?» —título localizado de The Sims 4: Get Together— y requiere el juego base Los Sims 4 para funcionar. El ejemplar documentado conserva el DVD-ROM de la expansión y documentación impresa de instalación; el disco mantiene el título internacional «Get Together», mientras que la carátula y la documentación utilizan la denominación española. Por su dependencia de la plataforma de distribución y activación de Electronic Arts, su preservación debe contemplar tanto la conservación del soporte óptico como las limitaciones derivadas de los servicios digitales asociados.",
+    "incluye": [
+      "Caja DVD",
+      "DVD-ROM de Los Sims 4: ¿Quedamos?",
+      "Hoja de instrucciones de instalación para Mac y PC"
+    ],
+    "serie": [
+      "Todos",
+      "Los Sims",
+      "DVD Case"
+    ],
+    "tags": [
+      "Los Sims 4",
+      "The Sims 4",
+      "Get Together",
+      "¿Quedamos?",
+      "Maxis",
+      "Electronic Arts",
+      "Expansión",
+      "Windenburg",
+      "clubes",
+      "simulación social",
+      "simulación de vida",
+      "edición española",
+      "DVD-ROM",
+      "Origin",
+      "PC",
+      "Mac",
+      "preservación de videojuegos"
+    ],
+    "proteccion": {
+      "tipo": "Otro",
+      "version": "Origin / activación mediante cuenta de Electronic Arts",
+      "preservacion": "Conservar una imagen ISO íntegra del DVD-ROM y digitalizar la carátula y la documentación impresa. La edición depende de Los Sims 4 y de la infraestructura de distribución y activación digital de Electronic Arts originalmente asociada a Origin, por lo que la conservación del soporte físico no garantiza por sí sola una instalación o ejecución autónoma en un entorno virtual.",
+      "formato": "ISO",
+      "jugable_virtual": false
+    },
+    "anio": "2015",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "DVD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-04",
+    "procedencia": {
+      "tipo": "Compra",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Sid Meier's Civilization IV: Warlords",
+    "url": "juegos/sid-meiers-civilization-iv-warlords-cddvd/",
+    "plataforma": [
+      "Win2000",
+      "WinXP"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Estrategia por turnos",
+      "4X",
+      "Gestión",
+      "Simulación histórica"
+    ],
+    "desarrollador": [
+      "Firaxis Games"
+    ],
+    "distribuidor": [
+      "2K Games"
+    ],
+    "ean": [
+      "5026555038934"
+    ],
+    "descripcion": "Sid Meier's Civilization IV: Warlords es la primera expansión oficial de Sid Meier's Civilization IV, desarrollada por Firaxis Games y publicada por 2K Games en 2006. Requiere el juego original y amplía su modelo de estrategia 4X por turnos con nuevas civilizaciones, líderes, unidades, edificios y maravillas, además de introducir la figura del Gran General y el edificio especial de cada civilización. Uno de sus elementos más destacados son los nuevos escenarios históricos, que trasladan las reglas de Civilization IV a conflictos y periodos concretos, entre ellos las conquistas de Alejandro Magno, las guerras de Gengis Kan, el auge de Roma y otros episodios militares. Warlords representa la primera gran ampliación del sistema de Civilization IV antes de Beyond the Sword y reforzó especialmente las dimensiones militar e histórica de la cuarta entrega. La edición catalogada corresponde a la versión física española para PC CD-ROM en estuche DVD Case, con documentación en castellano y distribución de 2K Games.",
+    "incluye": [
+      "Estuche DVD Case",
+      "CD-ROM",
+      "Manual de instrucciones",
+      "Tarjeta de registro 2K"
+    ],
+    "serie": [
+      "Todos",
+      "DVD Case"
+    ],
+    "tags": [
+      "Civilization",
+      "Civilization IV",
+      "Civilization IV Warlords",
+      "Sid Meier",
+      "Firaxis Games",
+      "2K Games",
+      "expansión",
+      "estrategia 4X",
+      "civilizaciones",
+      "construcción de imperios",
+      "diplomacia",
+      "investigación tecnológica",
+      "Grandes Generales",
+      "escenarios históricos",
+      "edición española",
+      "PC CD-ROM",
+      "Windows 2000",
+      "Windows XP",
+      "DVD Case PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Se recomienda preservar el CD-ROM original mediante una imagen completa en formato BIN/CUE y conservar digitalizados el manual, la tarjeta de registro y las carátulas de la edición. Al tratarse de una expansión, debe documentarse también su dependencia de una instalación compatible de Sid Meier's Civilization IV. La ejecución virtual es viable en un entorno Windows 2000/XP adecuadamente configurado, aunque conviene verificar experimentalmente la compatibilidad de la imagen preservada y cualquier comprobación del soporte óptico.",
+      "formato": "BIN/CUE",
+      "jugable_virtual": true
+    },
+    "anio": "2006",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-04",
+    "procedencia": {
+      "tipo": "Compra",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Sid Meier's Civilization IV: Colonization",
+    "url": "juegos/sid-meiers-civilization-iv-colonization-gfw-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Estrategia por turnos",
+      "4X",
+      "Estrategia histórica",
+      "Gestión de recursos",
+      "Construcción de ciudades"
+    ],
+    "desarrollador": [
+      "Firaxis Games"
+    ],
+    "distribuidor": [
+      "2K Games",
+      "Take Two Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "Sid Meier's Civilization IV: Colonization es un juego de estrategia por turnos desarrollado por Firaxis Games y publicado por 2K Games en 2008. Reinterpreta el clásico Sid Meier's Colonization de 1994 utilizando una versión modificada del motor de Civilization IV, aunque funciona como título independiente y no requiere tener instalado Civilization IV. El jugador dirige una potencia colonial europea en el Nuevo Mundo entre los siglos XV y XVIII, fundando asentamientos, explotando recursos, estableciendo rutas comerciales, gestionando población y relaciones con los pueblos indígenas y desarrollando una economía capaz de sostener finalmente una guerra de independencia contra la metrópoli. Su sistema económico basado en profesiones, materias primas y cadenas de producción constituye uno de sus elementos distintivos frente a otras entregas de Civilization. Esta edición física española pertenece a la línea Games for Windows y fue distribuida en España por Take Two Interactive España. La versión comercial europea apareció en septiembre de 2008 y constituye una pieza relevante para documentar tanto la recuperación moderna de Colonization como la etapa de Civilization IV y de las ediciones físicas de estrategia para Windows de finales de la década de 2000.",
+    "incluye": [
+      "Caja DVD",
+      "Disco óptico",
+      "Manual"
+    ],
+    "serie": [
+      "Todos",
+      "DVD Case",
+      "Games for windows"
+    ],
+    "tags": [
+      "Sid Meier's Civilization IV Colonization",
+      "Civilization",
+      "Colonization",
+      "Sid Meier",
+      "Firaxis Games",
+      "2K Games",
+      "Take Two Interactive España",
+      "Games for Windows",
+      "estrategia histórica",
+      "4X",
+      "colonización",
+      "Nuevo Mundo",
+      "independencia",
+      "gestión económica",
+      "gestión de recursos",
+      "construcción de ciudades",
+      "motor Civilization IV",
+      "remake",
+      "multijugador",
+      "edición española",
+      "DVD Case PC",
+      "preservación PC"
+    ],
+    "proteccion": {
+      "tipo": "SecuROM",
+      "version": "7.37.0014",
+      "preservacion": "La edición física comercial utiliza SecuROM 7.37.0014; la actualización oficial 1.01 eliminó esta protección. Para preservación se recomienda crear una imagen del soporte original en un formato capaz de conservar información adicional relevante para protecciones ópticas, preferentemente MDF/MDS, además de digitalizar el manual y las carátulas. Debe conservarse también una copia del parche 1.01 por su importancia para la ejecución futura sin dependencia de SecuROM. La versión original puede presentar problemas con SecuROM en sistemas Windows modernos, mientras que una instalación actualizada resulta más adecuada para entornos virtualizados o de compatibilidad.",
+      "formato": "MDF/MDS",
+      "jugable_virtual": true
+    },
+    "anio": "2008",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "DVD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-04",
+    "procedencia": {
+      "tipo": "Compra",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "LEGO Indiana Jones: La Trilogía Original",
+    "url": "juegos/lego-indiana-jones-la-trilogia-original-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Plataformas",
+      "Puzles"
+    ],
+    "desarrollador": [
+      "Traveller's Tales"
+    ],
+    "distribuidor": [
+      "LucasArts"
+    ],
+    "ean": [],
+    "descripcion": "LEGO Indiana Jones: La Trilogía Original es un videojuego de acción, aventura, plataformas y resolución de puzles desarrollado por Traveller's Tales y publicado en 2008. Traslada al característico universo LEGO los acontecimientos de las tres primeras películas de Indiana Jones: En busca del arca perdida, Indiana Jones y el templo maldito e Indiana Jones y la última cruzada. Su estructura combina exploración, combate, construcción de objetos con piezas LEGO, resolución de rompecabezas y habilidades específicas de numerosos personajes, incluyendo el uso del látigo de Indiana Jones. Permite recorrer reinterpretaciones humorísticas de escenas y localizaciones emblemáticas de la trilogía cinematográfica y dispone de juego cooperativo local. Esta edición española para PC pertenece a la etapa Games for Windows, se presenta completamente en castellano y constituye un ejemplo representativo de la consolidación de la fórmula iniciada por los videojuegos LEGO Star Wars, aplicada aquí a otra de las grandes licencias cinematográficas de Lucasfilm.",
+    "incluye": [
+      "DVD-ROM",
+      "Manual"
+    ],
+    "serie": [
+      "Todos",
+      "DVD Case",
+      "Games for windows"
+    ],
+    "tags": [
+      "LEGO",
+      "Indiana Jones",
+      "LucasArts",
+      "Traveller's Tales",
+      "Games for Windows",
+      "Lucasfilm",
+      "Cine",
+      "Arqueología",
+      "Cooperativo local",
+      "Edición española",
+      "Castellano",
+      "DVD-ROM",
+      "2008"
+    ],
+    "proteccion": {
+      "tipo": "No determinado",
+      "version": "",
+      "preservacion": "Pendiente de documentación",
+      "formato": "No aplica",
+      "jugable_virtual": false
+    },
+    "anio": "2008",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "DVD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-04",
+    "procedencia": {
+      "tipo": "Compra",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "El Universo en Guerra: Salto a la Tierra",
+    "url": "juegos/el-universo-en-guerra-salto-a-la-tierra-cddvd/",
+    "plataforma": [
+      "WinXP",
+      "Windows Vista"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Petroglyph Games"
+    ],
+    "distribuidor": [
+      "SEGA"
+    ],
+    "ean": [],
+    "descripcion": "El Universo en Guerra: Salto a la Tierra es la edición española para PC de Universe at War: Earth Assault, juego de estrategia en tiempo real desarrollado por Petroglyph Games y publicado por SEGA. Lanzado en España en 2008, plantea una invasión extraterrestre de la Tierra y articula sus enfrentamientos alrededor de tres facciones profundamente asimétricas: la Hierarchy, los Novus y los Masari, cada una con sistemas de producción, expansión y combate propios. Destaca especialmente la Hierarchy por sus enormes caminantes, unidades móviles que funcionan como auténticas bases de operaciones y pueden personalizarse durante la batalla. El juego utiliza el Alamo Engine de Petroglyph, incorpora renderizado DirectX 9 y DirectX 10 y formó parte de la iniciativa Games for Windows, integrando Games for Windows - LIVE para funciones multijugador y juego cruzado con Xbox 360. Esta edición española en DVD-ROM presenta título y documentación localizados al castellano. Su versión física resulta relevante para preservación por emplear SafeDisc en el soporte óptico y por depender de tecnologías de Microsoft posteriormente discontinuadas, circunstancias que complican su ejecución directa en sistemas Windows modernos.",
+    "incluye": [
+      "Caja DVD",
+      "DVD-ROM",
+      "Manual"
+    ],
+    "serie": [
+      "Todos",
+      "DVD Case",
+      "Games for windows"
+    ],
+    "tags": [
+      "Universe at War",
+      "Earth Assault",
+      "El Universo en Guerra",
+      "Petroglyph Games",
+      "SEGA",
+      "Alamo Engine",
+      "Games for Windows",
+      "Games for Windows LIVE",
+      "Hierarchy",
+      "Novus",
+      "Masari",
+      "invasión alienígena",
+      "ciencia ficción",
+      "facciones asimétricas",
+      "DirectX 9",
+      "DirectX 10",
+      "edición española",
+      "DVD-ROM",
+      "SafeDisc"
+    ],
+    "proteccion": {
+      "tipo": "SafeDisc",
+      "version": "4.85",
+      "preservacion": "La edición física en DVD-ROM emplea SafeDisc 4.85. Para preservación se recomienda generar una imagen que conserve la estructura y características físicas necesarias para documentar correctamente la protección, preferentemente MDF/MDS, manteniendo además una copia verificada del soporte original. SafeDisc presenta problemas de compatibilidad con versiones modernas de Windows debido a la desactivación y retirada de su controlador, por lo que la ejecución preservada resulta más viable mediante un entorno Windows XP o Windows Vista adecuadamente configurado. Debe conservarse también la información relativa a Games for Windows - LIVE, ya que sus servicios fueron utilizados por las funciones multijugador del título.",
+      "formato": "MDF/MDS",
+      "jugable_virtual": true
+    },
+    "anio": "2008",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "DVD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ]
   }
 ]
