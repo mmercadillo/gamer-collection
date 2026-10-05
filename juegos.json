@@ -18228,7 +18228,7 @@
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Preservación digital realizada y verificada el 05/10/2026 mediante dos adquisiciones independientes coincidentes con MPF 3.10.0 y Redumper build b749. El CD consta de una pista MODE1/2352; el escaneo realizado no detectó protección de copia. El máster BIN/CUE y sus evidencias se conservan separados de futuras copias de trabajo.",
+      "preservacion": "Preservación digital realizada y verificada el 05/10/2026 mediante dos adquisiciones independientes coincidentes con MPF 3.10.0 y Redumper build b749. El CD consta de una pista MODE1/2352; el escaneo realizado no detectó protección de copia. La compatibilidad se verificó desde una copia de trabajo derivada del máster: la edición se instala y funciona de forma nativa en Windows 10 Pro 22H2 build 19045, montando BIN/CUE con WinCDEmu 4.1, sin parches ni modos de compatibilidad.",
       "formato": "BIN/CUE",
       "jugable_virtual": false
     },

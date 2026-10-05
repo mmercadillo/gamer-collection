@@ -62,3 +62,23 @@ Durante la revisión del primer registro público se detectó que documentar ún
 
 El estándar continúa siendo un único documento vivo. Los registros cerrados mantienen la versión que utilizaron y no se reescriben retrospectivamente al evolucionar el estándar.
 
+
+## Segunda etapa — guía de ejecución en Windows 10
+
+La copia de trabajo derivada del máster se verificó mediante SHA-256 antes de utilizarse. Se montó con **WinCDEmu 4.1** y se probó sobre:
+
+- Windows 10 Pro 22H2, build 19045;
+- Intel Core i5-3470;
+- 16 GB RAM;
+- Intel HD Graphics, driver 10.18.10.4358;
+- resolución 1360 × 768.
+
+`SETUP.EXE` se instaló correctamente sin modo de compatibilidad ni elevación administrativa. El juego arrancó de forma nativa y se verificaron menú, gráficos, sonido, música, teclado/ratón, inicio de partida, guardado, carga, cierre y segundo arranque.
+
+No se probaron multijugador ni joystick/gamepad. No se realizó una prueba específica de cambio de nivel/escena.
+
+Se publica `/documentacion/guias/red-baron-3d-windows-10/` y se relaciona con `juegos/red-baron-3d-bigbox/` mediante `documentacion.json`.
+
+El registro interno queda en `registros_compatibilidad/red-baron-3d-bigbox-windows-10.md`.
+
+La ficha se actualiza para reflejar que la copia de trabajo es jugable en el entorno probado. La afirmación queda limitada expresamente a esta edición y configuración verificadas.

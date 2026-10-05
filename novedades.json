@@ -1,6 +1,12 @@
 [
   {
     "fecha": "2026-10-05",
+    "titulo": "Red Baron 3-D también funciona en Windows 10",
+    "descripcion": "Hemos probado la edición española Big Box conservada en el archivo: se instala y funciona en Windows 10 sin parches ni modos de compatibilidad. La guía paso a paso ya está disponible.",
+    "url": "documentacion/guias/red-baron-3d-windows-10/"
+  },
+  {
+    "fecha": "2026-10-05",
     "titulo": "Red Baron 3-D, primera pieza con preservación digital verificada",
     "descripcion": "Hemos creado dos copias digitales independientes de su CD-ROM y ambas coinciden exactamente. El proceso, las herramientas utilizadas y sus hashes quedan documentados en el archivo.",
     "url": "documentacion/preservacion/red-baron-3d-bigbox/"

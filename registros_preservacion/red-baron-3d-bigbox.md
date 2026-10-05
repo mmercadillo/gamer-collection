@@ -1,6 +1,6 @@
 # Registro de preservación — Red Baron 3-D
 
-**Estado:** Preservación verificada · compatibilidad pendiente  
+**Estado:** Preservación verificada · compatibilidad Windows 10 verificada  
 **Ficha PCGA:** #000215  
 **URL:** `juegos/red-baron-3d-bigbox/`  
 **Fecha de adquisición/verificación:** 05/10/2026
@@ -106,7 +106,7 @@ SHA-256 obtenidos:
 - Evidencia auxiliar: logs, submission info, protection info y fichero SCRAM generado por Redumper/MPF
 - Adquisición 02: conservar como evidencia independiente de repetibilidad
 - Máster: no modificar
-- Copia de trabajo: todavía no creada
+- Copia de trabajo: creada y verificada mediante SHA-256 antes de las pruebas de compatibilidad
 - Copias de seguridad: pendientes de registrar dentro del piloto si no se han efectuado todavía
 
 ## 8. Definition of Done de preservación
@@ -124,6 +124,6 @@ SHA-256 obtenidos:
 - [x] Máster separado de cualquier copia de trabajo.
 - [x] Registro de preservación asociado a la pieza.
 
-## 9. Siguiente etapa
+## 9. Compatibilidad asociada
 
-Crear una copia de trabajo derivada del máster y abordar la instalación/ejecución en un sistema actual siguiendo `PLANTILLA_GUIA_EJECUCION.md`. No modificar el máster verificado.
+La copia de trabajo se montó con **WinCDEmu 4.1** y se utilizó para validar la edición en Windows 10 Pro 22H2 build 19045. El resultado y la matriz funcional se conservan en `registros_compatibilidad/red-baron-3d-bigbox-windows-10.md` y se publican en la guía asociada. El máster de preservación permanece sin modificar.

@@ -1,6 +1,6 @@
 # PC Game Archive — F17 — Diseño del área documental y protocolo de preservación reproducible
 
-**Estado:** F17.1–F17.4 completadas · F17.5 en curso  
+**Estado:** F17.1–F17.5 completadas técnicamente · pendiente F17.6 de validación y cierre  
 **Base de partida:** F16.5 — Novedades del archivo  
 **Fecha:** 05/10/2026
 
@@ -646,7 +646,7 @@ F17.4 establece:
 
 La bidireccionalidad no implica duplicación de datos. La relación se declara una sola vez en `documentacion.json` y todas las vistas derivadas se generan automáticamente.
 
-### F17.5 — Pieza piloto completa — EN CURSO
+### F17.5 — Pieza piloto completa — COMPLETADA TÉCNICAMENTE
 
 La pieza piloto seleccionada es **Red Baron 3-D, edición española Big Box (ficha #000215)**.
 
@@ -663,8 +663,13 @@ La etapa de preservación ha producido evidencia real suficiente para estrenar l
 - registro interno en `registros_preservacion/red-baron-3d-bigbox.md`;
 - publicación pública en `/documentacion/preservacion/red-baron-3d-bigbox/`;
 - relación bidireccional real con la ficha `juegos/red-baron-3d-bigbox/`.
+- WinCDEmu 4.1 como herramienta de montaje de la copia de trabajo;
+- Windows 10 Pro 22H2 build 19045 como entorno real de compatibilidad;
+- instalación y ejecución nativas sin parches, wrappers, modo compatibilidad ni elevación administrativa.
 
-**Pendiente para completar F17.5:** crear una copia de trabajo derivada del máster y realizar el ciclo real de instalación, ejecución, compatibilidad, validación por subsistemas y guía pública.
+La segunda etapa crea y verifica una copia de trabajo derivada del máster, la monta con **WinCDEmu 4.1** y valida la edición en Windows 10 Pro 22H2 build 19045. La instalación y ejecución funcionan de forma nativa en el entorno probado, sin parches, wrappers, modo de compatibilidad ni elevación administrativa. Se verifican instalación, arranque, menús, gráficos, sonido, música, teclado/ratón, inicio de partida, guardado, carga, cierre y segundo arranque. Multijugador y joystick/gamepad quedan como no probados. La guía pública se publica en `/documentacion/guias/red-baron-3d-windows-10/` y el registro interno en `registros_compatibilidad/red-baron-3d-bigbox-windows-10.md`.
+
+**Pendiente de F17.6:** revisar el recorrido completo, identificar ajustes al estándar derivados del piloto y cerrar formalmente F17.
 
 ## 16. Regla de trabajo para futuras sesiones
 

@@ -1,5 +1,18 @@
 [
   {
+    "id": "guia-red-baron-3d-windows-10",
+    "titulo": "Jugar a Red Baron 3-D en Windows 10 — edición española Big Box",
+    "categoria": "guias",
+    "fecha": "2026-10-05",
+    "descripcion": "Guía paso a paso probada sobre la edición española Big Box conservada por PC Game Archive: montaje de la copia de trabajo, instalación y ejecución nativa en Windows 10 Pro 22H2.",
+    "url": "documentacion/guias/red-baron-3d-windows-10/",
+    "juegos": [
+      "juegos/red-baron-3d-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/guia-red-baron-3d-windows-10.md",
+    "actualizado": "2026-10-05"
+  },
+  {
     "id": "preservacion-red-baron-3d-bigbox",
     "titulo": "Preservación digital de Red Baron 3-D — edición española Big Box",
     "categoria": "preservacion",

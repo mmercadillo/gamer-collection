@@ -82,7 +82,10 @@ Características:
 ├── documentacion/
 │   ├── fuentes/                  # Fuentes Markdown versionadas
 │   ├── index.html                # Hub documental generado
-│   └── preservacion/             # Páginas documentales generadas
+│   ├── preservacion/             # Páginas de preservación generadas
+│   └── guias/                    # Guías de ejecución generadas
+├── registros_preservacion/       # Evidencia operativa interna por pieza
+├── registros_compatibilidad/     # Evidencia interna de ejecución/compatibilidad
 ├── vender-videojuegos-pc-antiguos/
 │   └── index.html
 ├── incorporaciones/              # Se genera cuando existen fechas documentadas
@@ -119,6 +122,8 @@ El estándar es único y versionado: cada registro debe conservar la versión ap
 F17.3 publica el estándar de guías de ejecución y compatibilidad. `PLANTILLA_GUIA_EJECUCION.md` es la hoja de trabajo obligatoria para documentar edición, entorno, herramientas, procedimiento, matriz funcional, limitaciones y repetición antes de declarar una guía verificada.
 
 F17.4 integra documentación y catálogo sin añadir campos a las fichas. Cuando un documento incluye `juegos`, el generador crea automáticamente ambos sentidos de navegación. Si una pieza no tiene documentación específica asociada, su ficha no muestra bloques vacíos ni mensajes de “próximamente”.
+
+F17.5 valida el modelo con **Red Baron 3-D, edición española Big Box (#000215)**: preservación digital verificada mediante doble adquisición coincidente y guía de ejecución real en Windows 10 Pro 22H2. La copia de trabajo BIN/CUE se montó con **WinCDEmu 4.1** y la edición funcionó de forma nativa, sin parches, wrappers, modo de compatibilidad ni elevación administrativa en el entorno probado.
 
 
 # Cómo añadir un nuevo juego
