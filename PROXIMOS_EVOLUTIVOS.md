@@ -2,7 +2,7 @@
 
 Documento vivo para registrar, ordenar y mantener los próximos evolutivos de PC Game Archive.
 
-**Base actual:** F17.5 — Piloto real Red Baron 3-D completado técnicamente  
+**Base actual:** F17 — Área documental, preservación y compatibilidad reproducible cerrada  
 **Última actualización:** 05/10/2026
 
 ---
@@ -20,123 +20,25 @@ Documento vivo para registrar, ordenar y mantener los próximos evolutivos de PC
 
 # Backlog activo
 
-## 1. Área documental de PC Game Archive
+## Líneas operativas consolidadas tras F17
 
-**Prioridad:** Alta  
-**Estado:** F17.1–F17.4 completadas · F17.5 completado técnicamente con Red Baron 3-D (preservación y compatibilidad verificadas)  
-**Fase asignada:** F17
+F17 deja de formar parte del backlog activo y pasa a operación continua. Quedan consolidadas las siguientes capacidades:
 
-Crear una sección documental propia dentro de PC Game Archive que permita publicar contenidos de preservación, historia, formatos y conocimiento técnico sin depender únicamente de las fichas de los juegos.
+- área pública `/documentacion/` con fuentes Markdown, SEO, breadcrumbs y sitemap;
+- relación bidireccional entre documentación y fichas mediante `documentacion.json`;
+- estándar de preservación digital único y versionado, actualmente **v1.0**;
+- caracterización previa obligatoria antes de elegir método de adquisición;
+- `PLANTILLA_REGISTRO_PRESERVACION.md` para cada pieza preservada;
+- estándar y `PLANTILLA_GUIA_EJECUCION.md` para compatibilidad en sistemas actuales;
+- primer recorrido completo validado con **Red Baron 3-D, ficha #000215**;
+- separación obligatoria entre máster de preservación y copia de trabajo;
+- publicación únicamente de resultados respaldados por evidencia real.
 
-### Alcance previsto
-
-- Nueva sección `/documentacion/`. **Implementada en F17.1.**
-- Categorías y navegación propia. **Base implementada en F17.1.**
-- URLs limpias y permanentes. **Contrato implementado en F17.1.**
-- Breadcrumbs. **Implementados en F17.1.**
-- Metadatos SEO y datos estructurados cuando proceda. **Hub implementado en F17.1.**
-- Integración con sitemap. **Implementada en F17.1.**
-- Enlaces bidireccionales entre artículos y piezas del catálogo. **Implementados en F17.4.**
-- Plantilla reutilizable para nuevos contenidos. **Infraestructura Markdown implementada en F17.2.**
-- Posibilidad de relacionar varios artículos con una misma pieza. **Implementada en F17.4.**
-- Diseño rector documentado en `DISENO_FASE_17_AREA_DOCUMENTAL_PRESERVACION.md`.
-- Checklist obligatoria por pieza y Definition of Done de preservación reproducible.
-- Estándar de preservación único y versionado; cada registro conserva la versión aplicada para mantener trazabilidad histórica. **Formalizado en F17.5 (v1.0).**
-
-### Primeros contenidos candidatos
-
-- Preservación de CD-ROM y DVD-ROM.
-- Preservación de disquetes.
-- Qué es una edición Big Box.
-- Formatos y soportes físicos de juegos de PC.
-- Compatibilidad de juegos antiguos con sistemas actuales.
-- Historia y documentación de editoras/distribuidoras relevantes.
+Los nuevos soportes, protecciones o escenarios de compatibilidad que aparezcan no constituyen automáticamente una nueva fase: primero se evaluará si pueden resolverse evolucionando el estándar/procedimiento vigente con su versionado correspondiente.
 
 ---
 
-## 2. Procedimientos de preservación digital
-
-**Prioridad:** Alta  
-**Estado:** Estándar general completado en F17.2 · procedimientos específicos crecerán con casos reales
-
-Definir y documentar un procedimiento reproducible para preservar digitalmente los soportes físicos del archivo. El diseño rector y la checklist obligatoria quedan recogidos en `DISENO_FASE_17_AREA_DOCUMENTAL_PRESERVACION.md`.
-
-F17.2 publica además:
-
-- `/documentacion/preservacion/estandar-preservacion-digital/`;
-- `/documentacion/preservacion/caracterizacion-soportes-opticos/`;
-- `PLANTILLA_REGISTRO_PRESERVACION.md` como registro operativo obligatorio por pieza.
-
-### Alcance previsto
-
-- Procedimiento para CD-ROM/DVD-ROM.
-- Procedimiento para disquetes.
-- Caracterización previa obligatoria de cada soporte.
-- Adquisición digital de preservación (no limitada a imágenes ISO).
-- Selección del método según estructura, pistas, sesiones, protecciones y otras características de la pieza concreta.
-- Herramientas recomendadas por tipo de soporte.
-- Verificación de lectura e integridad.
-- Hashes y algoritmos admitidos.
-- Convenciones de nombres.
-- Metadatos mínimos de preservación.
-- Registro de errores de lectura o daños.
-- Copias maestras y copias de trabajo.
-- Estrategia de copias de seguridad.
-- Separación estricta entre master de preservación y copia/derivado de trabajo.
-- Política de no modificación de los originales digitales.
-- Documentación de cualquier intervención realizada sobre el soporte.
-
-### Objetivo
-
-Que otra persona pueda repetir el proceso sobre una pieza y obtener un resultado compatible con el estándar de PC Game Archive.
-
----
-
-## 3. Guías de ejecución y compatibilidad — “Guías burros”
-
-**Prioridad:** Alta  
-**Estado:** Estándar y plantilla completados en F17.3 · integración con fichas completada en F17.4 · primer caso real completado en F17.5 con Red Baron 3-D
-
-Crear guías muy prácticas y reproducibles para ejecutar juegos antiguos en equipos actuales, diferenciadas del proceso de preservación y basadas siempre que sea posible en una copia de trabajo derivada del master de la edición conservada.
-
-### Casos a cubrir
-
-- Ejecución nativa en Windows 10/11.
-- Modos de compatibilidad.
-- Parches oficiales y comunitarios.
-- Wrappers gráficos o de sonido.
-- DOSBox y derivados.
-- ScummVM.
-- Máquinas virtuales.
-- Versiones antiguas de Windows cuando sean necesarias.
-- Instaladores de 16 bits y otras incompatibilidades históricas.
-- Configuración de resolución, audio y aceleración gráfica.
-
-### Criterios
-
-Cada guía debería indicar, como mínimo:
-
-- juego/edición probada;
-- sistema anfitrión;
-- herramientas y versiones utilizadas;
-- pasos exactos;
-- resultado esperado;
-- limitaciones conocidas;
-- advertencias;
-- fecha de la última prueba.
-- matriz funcional por subsistemas;
-- diferenciación entre evidencia propia y fuentes externas;
-- repetición del procedimiento desde un estado suficientemente limpio;
-- estado final de compatibilidad.
-
-F17.3 publica además:
-
-- `/documentacion/guias/estandar-guias-ejecucion-compatibilidad/`;
-- `PLANTILLA_GUIA_EJECUCION.md` como hoja de trabajo obligatoria para cada guía.
-
----
-
-## 4. Formalización de las modalidades de incorporación de piezas
+## 1. Formalización de las modalidades de incorporación de piezas
 
 **Prioridad:** Alta  
 **Estado:** Pendiente de definición jurídica/documental
@@ -169,7 +71,7 @@ Revisar si el modelo actual de `procedencia` es suficiente o si debe evolucionar
 
 ---
 
-## 5. Enriquecimiento de las fichas de las piezas
+## 2. Enriquecimiento de las fichas de las piezas
 
 **Prioridad:** Media-Alta  
 **Estado:** Backlog
@@ -199,22 +101,7 @@ Evitar convertir la ficha en una acumulación indiscriminada de campos. Cada dat
 
 ---
 
-## 6. Relación entre pieza física, preservación digital y documentación
-
-**Prioridad:** Media-Alta  
-**Estado:** Backlog conceptual
-
-Definir un modelo que permita reflejar claramente las tres capas del archivo:
-
-1. **pieza física conservada**;
-2. **copia o evidencia de preservación digital**;
-3. **documentación pública asociada**.
-
-Esto permitirá saber en el futuro, por ejemplo, qué piezas están únicamente catalogadas, cuáles han sido digitalizadas y cuáles además tienen una guía de ejecución verificada.
-
----
-
-## 7. Seguimiento y analítica del apoyo por pieza
+## 3. Seguimiento y analítica del apoyo por pieza
 
 **Prioridad:** Media  
 **Estado:** Observar antes de evolucionar
@@ -242,7 +129,7 @@ No implementar contadores o mensajes económicos por pieza sin disponer previame
 
 ---
 
-## 8. Revisión del tráfico automatizado y procedencia geográfica
+## 4. Revisión del tráfico automatizado y procedencia geográfica
 
 **Prioridad:** Media  
 **Estado:** En observación
@@ -260,7 +147,7 @@ Se ha detectado un incremento significativo de tráfico procedente de China y po
 
 ---
 
-## 9. SEO técnico y calidad del catálogo
+## 5. SEO técnico y calidad del catálogo
 
 **Prioridad:** Media  
 **Estado:** Mantenimiento continuo
@@ -282,7 +169,7 @@ Las correcciones de datos deben realizarse separadamente de los evolutivos funci
 
 ---
 
-## 10. Evolución de sostenibilidad y monetización
+## 6. Evolución de sostenibilidad y monetización
 
 **Prioridad:** Baja / condicionada a datos  
 **Estado:** En espera
@@ -321,6 +208,11 @@ Esta sección permite retirar elementos del backlog activo sin perder trazabilid
 
 | Evolutivo | Fecha de cierre | Resultado |
 |---|---|---|
+| F17 — Área documental, preservación y compatibilidad reproducible | 05/10/2026 | F17.1–F17.6 cerradas. Área documental, estándares versionados, integración con fichas y piloto completo de Red Baron 3-D desde pieza física hasta guía de ejecución en Windows 10. |
+| F17.6 — Validación y cierre | 05/10/2026 | Lecciones del piloto consolidadas, Definition of Done validado y estándar v1.0 declarado estable. |
+| F17.5 — Piloto real Red Baron 3-D | 05/10/2026 | Preservación verificada por doble adquisición coincidente, copia de trabajo validada y guía reproducible de Windows 10 publicada. |
+| F17.4 — Integración documentación-fichas | 05/10/2026 | Relación bidireccional generada desde `documentacion.json` sin duplicar datos en el catálogo. |
+| F17.3 — Estándar de guías de ejecución | 04/10/2026 | Estándar y plantilla de compatibilidad reproducible por edición y entorno. |
 | F17.2 — Estándar y procedimientos de preservación | 04/10/2026 | Estándar público, caracterización de soportes ópticos, publicación Markdown y plantilla operativa por pieza. |
 | F17.1 — Arquitectura del área documental | 04/10/2026 | `/documentacion/`, índice `documentacion.json`, navegación, SEO, breadcrumbs y sitemap. |
 | F16.5 — Novedades del archivo | 04/10/2026 | `novedades.json`, bloque en portada, histórico `/novedades/`, navegación y sitemap. |

@@ -646,7 +646,7 @@ F17.4 establece:
 
 La bidireccionalidad no implica duplicación de datos. La relación se declara una sola vez en `documentacion.json` y todas las vistas derivadas se generan automáticamente.
 
-### F17.5 — Pieza piloto completa — COMPLETADA TÉCNICAMENTE
+### F17.5 — Pieza piloto completa — COMPLETADA
 
 La pieza piloto seleccionada es **Red Baron 3-D, edición española Big Box (ficha #000215)**.
 
@@ -669,7 +669,49 @@ La etapa de preservación ha producido evidencia real suficiente para estrenar l
 
 La segunda etapa crea y verifica una copia de trabajo derivada del máster, la monta con **WinCDEmu 4.1** y valida la edición en Windows 10 Pro 22H2 build 19045. La instalación y ejecución funcionan de forma nativa en el entorno probado, sin parches, wrappers, modo de compatibilidad ni elevación administrativa. Se verifican instalación, arranque, menús, gráficos, sonido, música, teclado/ratón, inicio de partida, guardado, carga, cierre y segundo arranque. Multijugador y joystick/gamepad quedan como no probados. La guía pública se publica en `/documentacion/guias/red-baron-3d-windows-10/` y el registro interno en `registros_compatibilidad/red-baron-3d-bigbox-windows-10.md`.
 
-**Pendiente de F17.6:** revisar el recorrido completo, identificar ajustes al estándar derivados del piloto y cerrar formalmente F17.
+La pieza piloto completa el recorrido de extremo a extremo exigido por F17: pieza física → caracterización → adquisición → verificación → máster → copia de trabajo → instalación/compatibilidad → guía reproducible → publicación enlazada a la ficha.
+
+### F17.6 — Validación, correcciones y cierre — COMPLETADA
+
+F17.6 revisa el recorrido completo realizado con Red Baron 3-D y formaliza las conclusiones operativas que pasan a ser obligatorias para futuras piezas.
+
+#### Lecciones consolidadas del piloto
+
+1. **No se parte de supuestos previos de la ficha.** Datos históricos como protección, virtualización o formato recomendado deben tratarse como hipótesis hasta ser verificados sobre la pieza real.
+2. **La caracterización precede siempre a la adquisición.** El tipo de soporte por sí solo no determina el formato ni el método de preservación.
+3. **La unidad óptica real importa.** Deben registrarse fabricante, modelo y firmware del mecanismo lector, no únicamente la carcasa o adaptador externo.
+4. **«No detectado» no equivale a «no existe».** Los resultados de escaneo de protección se documentan como evidencia de la herramienta utilizada, evitando afirmaciones absolutas que el procedimiento no puede demostrar.
+5. **La reproducibilidad exige versiones y parámetros.** Hardware, software, versión/build, velocidad, reintentos y comandos relevantes forman parte del registro, no son detalles opcionales.
+6. **El máster se verifica por evidencia repetible.** En el piloto, dos adquisiciones independientes con SHA-256 coincidentes permitieron declarar la preservación verificada.
+7. **La copia de trabajo debe verificarse antes de usarla.** Los hashes del derivado utilizado para compatibilidad se comprobaron contra el máster antes de montar e instalar.
+8. **Preservación y compatibilidad permanecen separadas.** Un soporte puede estar preservado aunque todavía no exista una guía de ejecución, y una solución para jugar no altera el máster.
+9. **La compatibilidad se expresa por subsistemas y alcance probado.** Lo no probado se declara como tal; alcanzar el menú principal no basta para declarar una guía verificada.
+10. **La documentación pública debe servir para repetir el proceso.** El registro no se limita a resultados: incluye herramientas, pasos, parámetros, hashes, limitaciones y evidencia suficiente.
+11. **El estándar es único, vivo y versionado.** Cada pieza conserva la versión aplicada. Las mejoras futuras no reescriben retrospectivamente lo realizado.
+12. **La comunicación pública evita nomenclatura interna.** Fases, builds de proyecto y términos de seguimiento no deben aparecer en `Novedades`; allí se explica el cambio con lenguaje de visitante.
+13. **La documentación reutiliza la interfaz existente.** Los artículos deben emplear los componentes visuales ya consolidados en la web y evitar estilos paralelos que puedan alterar navegación o scroll.
+
+#### Resultado sobre el estándar v1.0
+
+El piloto no obliga a introducir una versión 1.1 antes del cierre. Los ajustes detectados se incorporaron durante la definición inicial y quedan consolidados dentro de **v1.0**, que pasa a considerarse la primera versión estable del estándar de preservación de PC Game Archive.
+
+Una futura pieza que revele una necesidad no cubierta deberá seguir la regla de evolución definida en este documento: documentar el caso, actualizar el estándar o procedimiento con trazabilidad y solo después reutilizar el nuevo criterio.
+
+#### Definition of Done de F17
+
+F17 se considera cerrada porque se ha demostrado de extremo a extremo que el sistema permite:
+
+- publicar documentación técnica versionada;
+- relacionarla bidireccionalmente con una pieza real;
+- caracterizar y preservar un soporte físico con evidencia verificable;
+- separar máster y copia de trabajo;
+- verificar una copia de trabajo antes de usarla;
+- probar una edición real en un sistema actual;
+- documentar los subsistemas verificados y los no probados;
+- publicar una guía reproducible vinculada a la misma pieza;
+- mantener trazabilidad interna sin trasladar nomenclatura de desarrollo al visitante.
+
+**F17 queda formalmente cerrada el 05/10/2026.**
 
 ## 16. Regla de trabajo para futuras sesiones
 

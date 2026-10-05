@@ -71,6 +71,8 @@ Características:
 ├── propiedades.json
 ├── novedades.json
 ├── documentacion.json            # Índice de metadatos del área documental
+├── registros_preservacion/       # Evidencia interna por pieza preservada
+├── registros_compatibilidad/     # Evidencia interna de pruebas de ejecución
 ├── json_schema.json
 ├── generar_web.py
 ├── validar_catalogo.py
@@ -122,6 +124,10 @@ El estándar es único y versionado: cada registro debe conservar la versión ap
 F17.3 publica el estándar de guías de ejecución y compatibilidad. `PLANTILLA_GUIA_EJECUCION.md` es la hoja de trabajo obligatoria para documentar edición, entorno, herramientas, procedimiento, matriz funcional, limitaciones y repetición antes de declarar una guía verificada.
 
 F17.4 integra documentación y catálogo sin añadir campos a las fichas. Cuando un documento incluye `juegos`, el generador crea automáticamente ambos sentidos de navegación. Si una pieza no tiene documentación específica asociada, su ficha no muestra bloques vacíos ni mensajes de “próximamente”.
+
+F17.5 valida el modelo completo con **Red Baron 3-D (ficha #000215)**: preservación digital verificada mediante dos adquisiciones independientes coincidentes, copia de trabajo comprobada contra el máster y guía real de ejecución en Windows 10 Pro 22H2 con WinCDEmu 4.1. Los registros internos quedan en `registros_preservacion/` y `registros_compatibilidad/`; la información pública se mantiene en `documentacion/fuentes/`.
+
+F17.6 cierra la fase y declara estable el **Estándar de preservación digital v1.0**. Para futuras piezas es obligatorio consultar `DISENO_FASE_17_AREA_DOCUMENTAL_PRESERVACION.md`, utilizar las plantillas correspondientes y evolucionar el estándar con trazabilidad cuando aparezca un caso no cubierto.
 
 F17.5 valida el modelo con **Red Baron 3-D, edición española Big Box (#000215)**: preservación digital verificada mediante doble adquisición coincidente y guía de ejecución real en Windows 10 Pro 22H2. La copia de trabajo BIN/CUE se montó con **WinCDEmu 4.1** y la edición funcionó de forma nativa, sin parches, wrappers, modo de compatibilidad ni elevación administrativa en el entorno probado.
 

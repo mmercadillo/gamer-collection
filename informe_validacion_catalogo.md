@@ -1,6 +1,6 @@
 # Informe de validación - PC Game Archive
 
-Errores: 815
+Errores: 814
 Avisos: 1614
 Info: 2
 
@@ -30,7 +30,6 @@ Info: 2
 - [ERROR] #126 num=000126 · Police Quest: SWAT 2 · serie: ['Todos', 'Bigbox'] does not contain items matching the given schema
 - [ERROR] #126 num=000126 · Police Quest: SWAT 2 · serie[1]: 'Bigbox' is not one of ['Age of Empires', 'Best of Atari', 'BestSeller Series', 'Big Box', 'DVD Case', 'Jewel Case', 'Codegame', 'Computer hoy juegos', 'Dinamic multimedia', 'EA Games Classics', 'EA Sports', 'EA Value Games', 'FX Interactive', 'Games for windows', 'Heroes of Might and Magic', 'Juegos del verano', 'Limited Run', 'Los Sims', 'LucasArts Legends', 'Market way', 'Mk Interactive', 'RED Collection', 'World of Warcraft', 'Xtreme Collection', 'Zeta Games', 'Zipi y Zape', 'Todos']
 - [ERROR] #208 num=000208 · Aliens versus Predator 2 · tags: ['Alien', 'Predator', 'Aliens versus Predator', 'AVP', 'Monolith Productions', 'Sierra', 'Fox Interactive', 'LithTech', 'Direct3D', 'Marine colonial', 'Xenomorfo', 'Predator', 'LV-1201', 'Multijugador', 'Hasta 16 jugadores', 'Edición española', 'PC CD-ROM', 'Big Box', '2001'] has non-unique elements
-- [ERROR] #215 num=000215 · Red Baron 3-D · proteccion.tipo: 'No detectada mediante el análisis realizado' is not one of ['Sin protección', 'Verificación de CD', 'Código o clave', 'Manual lookup', 'Key disk', 'Rol de claves', 'SafeDisc', 'SecuROM', 'LaserLock', 'DiscGuard', 'CD-Cops', 'StarForce', 'TAGES', 'ProtectDISC', 'No determinado', 'Uplay/activación online', 'DRM online de Ubisoft', 'Otro']
 - [ERROR] #217 num=000000 · The Perfect General II · procedencia.tipo: 'Donacion' is not one of ['', 'Compra', 'Donación', 'Cesión', 'Intercambio', 'Colección fundacional', 'Otro']
 - [ERROR] #231 num=000000 · Assault Rigs · ean[1]: '711719615620' does not match '^(\\d{8}|\\d{13})$'
 - [ERROR] #231 num=000000 · Assault Rigs · ean[2]: '711719440529' does not match '^(\\d{8}|\\d{13})$'
