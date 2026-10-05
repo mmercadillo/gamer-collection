@@ -1,0 +1,29 @@
+[
+  {
+    "id": "estandar-guias-ejecucion-compatibilidad",
+    "titulo": "Estándar de guías de ejecución y compatibilidad",
+    "categoria": "guias",
+    "fecha": "2026-10-04",
+    "descripcion": "Criterios de PC Game Archive para documentar de forma reproducible cómo instalar, ajustar, probar y ejecutar una edición física concreta en sistemas actuales.",
+    "url": "documentacion/guias/estandar-guias-ejecucion-compatibilidad/",
+    "contenido": "documentacion/fuentes/estandar-guias-ejecucion-compatibilidad.md"
+  },
+  {
+    "id": "estandar-preservacion-digital-pc-game-archive",
+    "titulo": "Estándar de preservación digital de PC Game Archive",
+    "categoria": "preservacion",
+    "fecha": "2026-10-04",
+    "descripcion": "Metodología común para identificar, caracterizar, adquirir, verificar y conservar digitalmente una pieza física sin confundir preservación con compatibilidad.",
+    "url": "documentacion/preservacion/estandar-preservacion-digital/",
+    "contenido": "documentacion/fuentes/estandar-preservacion-digital.md"
+  },
+  {
+    "id": "caracterizacion-soportes-opticos",
+    "titulo": "Caracterización previa de soportes ópticos",
+    "categoria": "preservacion",
+    "fecha": "2026-10-04",
+    "descripcion": "Procedimiento previo para determinar estructura, pistas, sesiones, protecciones y otras características antes de elegir cómo preservar un CD-ROM o DVD-ROM.",
+    "url": "documentacion/preservacion/caracterizacion-soportes-opticos/",
+    "contenido": "documentacion/fuentes/caracterizacion-soportes-opticos.md"
+  }
+]

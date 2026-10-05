@@ -68,6 +68,9 @@ Características:
 ```text
 /
 ├── juegos.json
+├── propiedades.json
+├── novedades.json
+├── documentacion.json            # Índice de metadatos del área documental
 ├── json_schema.json
 ├── generar_web.py
 ├── validar_catalogo.py
@@ -76,6 +79,10 @@ Características:
 ├── logo.png
 ├── proyecto/
 │   └── index.html
+├── documentacion/
+│   ├── fuentes/                  # Fuentes Markdown versionadas
+│   ├── index.html                # Hub documental generado
+│   └── preservacion/             # Páginas documentales generadas
 ├── vender-videojuegos-pc-antiguos/
 │   └── index.html
 ├── incorporaciones/              # Se genera cuando existen fechas documentadas
@@ -99,6 +106,19 @@ Características:
 ```
 
 ---
+
+## Área documental (F17)
+
+`documentacion.json` es el índice único de metadatos de la documentación pública. Cada documento declara su categoría, fecha, URL, fuente Markdown y, cuando proceda, las piezas relacionadas mediante sus URLs canónicas de `juegos.json`. Desde F17.4 esa relación es bidireccional: el documento enlaza a las piezas relacionadas y las fichas generan automáticamente su bloque **Preservación y compatibilidad**. La relación se declara una sola vez en `documentacion.json`; nunca debe duplicarse manualmente en `juegos.json`.
+
+Desde F17.2 el cuerpo se mantiene en `documentacion/fuentes/*.md`. El generador renderiza un subconjunto controlado de Markdown (H2-H4, párrafos, listas, blockquotes, bloques de código, código inline, negrita y enlaces), sin admitir HTML crudo ni requerir librerías externas.
+
+F17.2 publica el estándar de preservación digital y la caracterización previa de soportes ópticos. `PLANTILLA_REGISTRO_PRESERVACION.md` es la checklist operativa que debe utilizarse al abordar cada pieza real.
+
+F17.3 publica el estándar de guías de ejecución y compatibilidad. `PLANTILLA_GUIA_EJECUCION.md` es la hoja de trabajo obligatoria para documentar edición, entorno, herramientas, procedimiento, matriz funcional, limitaciones y repetición antes de declarar una guía verificada.
+
+F17.4 integra documentación y catálogo sin añadir campos a las fichas. Cuando un documento incluye `juegos`, el generador crea automáticamente ambos sentidos de navegación. Si una pieza no tiene documentación específica asociada, su ficha no muestra bloques vacíos ni mensajes de “próximamente”.
+
 
 # Cómo añadir un nuevo juego
 

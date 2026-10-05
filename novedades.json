@@ -1,6 +1,30 @@
 [
   {
     "fecha": "2026-10-04",
+    "titulo": "Las fichas quedan preparadas para enlazar preservación y compatibilidad",
+    "descripcion": "PC Game Archive integra de forma bidireccional la documentación técnica con las piezas del catálogo, sin duplicar relaciones ni mostrar bloques vacíos.",
+    "url": "documentacion/"
+  },
+  {
+    "fecha": "2026-10-04",
+    "titulo": "PC Game Archive define su estándar de guías de ejecución",
+    "descripcion": "Las futuras guías documentarán de forma reproducible cómo ejecutar una edición concreta en sistemas actuales, incluyendo entorno, herramientas, pasos, limitaciones y una matriz funcional de pruebas.",
+    "url": "documentacion/guias/estandar-guias-ejecucion-compatibilidad/"
+  },
+  {
+    "fecha": "2026-10-04",
+    "titulo": "PC Game Archive publica su estándar de preservación digital",
+    "descripcion": "El archivo define cómo caracterizar, adquirir, verificar y conservar digitalmente una pieza antes de crear copias de trabajo para compatibilidad.",
+    "url": "documentacion/preservacion/estandar-preservacion-digital/"
+  },
+  {
+    "fecha": "2026-10-04",
+    "titulo": "PC Game Archive estrena su área de documentación",
+    "descripcion": "Nueva infraestructura para publicar procedimientos de preservación, guías de ejecución y documentación técnica vinculada a las piezas del archivo.",
+    "url": "/documentacion/"
+  },
+  {
+    "fecha": "2026-10-04",
     "titulo": "Cinco nuevas ediciones se incorporan al archivo",
     "descripcion": "PC Game Archive amplía el catálogo con nuevas ediciones físicas documentadas el 4 de octubre de 2026.",
     "url": "incorporaciones/"

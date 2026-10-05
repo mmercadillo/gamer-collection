@@ -3,13 +3,14 @@
 """
 Generador estático SEO/SEM para PC Game Archive.
 
-Lee juegos.json como fuente maestra, propiedades.json como configuración global y novedades.json como registro editorial, y genera una web estática indexable:
+Lee juegos.json como fuente maestra, propiedades.json como configuración global, novedades.json como registro editorial y documentacion.json como índice documental, y genera una web estática indexable:
   - index.html
   - bigbox.html (compatibilidad/redirección)
   - series.html
   - contacto.html
   - vender-videojuegos-pc-antiguos/index.html
   - proyecto/index.html
+  - documentacion/index.html
   - robots.txt
   - sitemap.xml
   - assets/css/styles.css
@@ -26,7 +27,7 @@ Uso recomendado:
   python generar_web.py
 
 Uso alternativo generando en otra carpeta:
-  python generar_web.py --catalogo juegos.json --propiedades propiedades.json --novedades novedades.json --out dist
+  python generar_web.py --catalogo juegos.json --propiedades propiedades.json --novedades novedades.json --documentacion documentacion.json --out dist
   python generar_web.py --base-url https://www.pcgamearchive.org
 
 Notas:
@@ -340,6 +341,311 @@ def load_news(path: Path) -> list[dict[str, Any]]:
         })
 
     return sorted(news, key=lambda item: item["_fecha"], reverse=True)
+
+
+DOCUMENTATION_CATEGORIES = {
+    "preservacion": {
+        "label": "Preservación digital",
+        "description": "Protocolos, procedimientos reutilizables y registros verificables para conservar digitalmente los soportes físicos del archivo.",
+    },
+    "guias": {
+        "label": "Guías de ejecución",
+        "description": "Procedimientos paso a paso, reproducibles y verificados para ejecutar ediciones concretas del archivo en sistemas actuales.",
+    },
+    "formatos": {
+        "label": "Formatos y soportes",
+        "description": "Documentación técnica sobre CD-ROM, DVD-ROM, disquetes, cajas, soportes y otros elementos físicos relevantes para la preservación.",
+    },
+    "historia": {
+        "label": "Historia y contexto",
+        "description": "Contenido documental sobre ediciones, editoras, distribuidoras y contexto histórico del videojuego físico de PC.",
+    },
+}
+
+
+def load_documentation(path: Path) -> list[dict[str, Any]]:
+    if not path.is_file():
+        raise FileNotFoundError(f"No se encuentra el índice documental: {path}")
+    with path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, list):
+        raise ValueError("documentacion.json debe contener una lista JSON.")
+
+    documents: list[dict[str, Any]] = []
+    ids: set[str] = set()
+    urls: set[str] = set()
+    for index, item in enumerate(data, start=1):
+        if not isinstance(item, dict):
+            raise ValueError(f"El documento #{index} debe ser un objeto JSON.")
+        doc_id = str(item.get("id", "")).strip()
+        title = str(item.get("titulo", "")).strip()
+        category = str(item.get("categoria", "")).strip()
+        raw_date = str(item.get("fecha", "")).strip()
+        url = str(item.get("url", "")).strip()
+        for field, value in (("id", doc_id), ("titulo", title), ("categoria", category), ("fecha", raw_date), ("url", url)):
+            if not value:
+                raise ValueError(f"Falta el campo obligatorio '{field}' en el documento #{index}.")
+        if doc_id in ids:
+            raise ValueError(f"Identificador documental duplicado: {doc_id!r}.")
+        if category not in DOCUMENTATION_CATEGORIES:
+            raise ValueError(
+                f"Categoría documental no admitida en {doc_id!r}: {category!r}. "
+                f"Valores válidos: {', '.join(DOCUMENTATION_CATEGORIES)}."
+            )
+        try:
+            parsed = dt.date.fromisoformat(raw_date)
+        except ValueError as exc:
+            raise ValueError(
+                f"El campo 'fecha' del documento {doc_id!r} debe usar YYYY-MM-DD "
+                f"(valor recibido: {raw_date!r})."
+            ) from exc
+        updated_raw = str(item.get("actualizado", "") or "").strip()
+        updated = None
+        if updated_raw:
+            try:
+                updated = dt.date.fromisoformat(updated_raw)
+            except ValueError as exc:
+                raise ValueError(
+                    f"El campo 'actualizado' del documento {doc_id!r} debe usar YYYY-MM-DD "
+                    f"(valor recibido: {updated_raw!r})."
+                ) from exc
+        if not re.match(r"^documentacion/[a-z0-9\-/]+/$", url):
+            raise ValueError(
+                f"La URL documental de {doc_id!r} debe ser canónica, relativa y terminar en '/': {url!r}."
+            )
+        if url == "documentacion/" or url in urls:
+            raise ValueError(f"URL documental duplicada o reservada: {url!r}.")
+        related_games = item.get("juegos", []) or []
+        if not isinstance(related_games, list) or any(not isinstance(v, str) or not v.strip() for v in related_games):
+            raise ValueError(f"El campo 'juegos' de {doc_id!r} debe ser una lista de URLs de piezas.")
+        normalized_related_games = [v.strip() for v in related_games]
+        if len(normalized_related_games) != len(set(normalized_related_games)):
+            raise ValueError(f"El documento {doc_id!r} contiene piezas relacionadas duplicadas.")
+        documents.append({
+            "id": doc_id,
+            "titulo": title,
+            "categoria": category,
+            "fecha": raw_date,
+            "_fecha": parsed,
+            "actualizado": updated_raw,
+            "_actualizado": updated,
+            "descripcion": str(item.get("descripcion", "") or "").strip(),
+            "url": url,
+            "juegos": normalized_related_games,
+            "contenido": str(item.get("contenido", "") or "").strip(),
+        })
+        ids.add(doc_id)
+        urls.add(url)
+    return sorted(documents, key=lambda d: (d["_actualizado"] or d["_fecha"], d["titulo"].lower()), reverse=True)
+
+
+def validate_documentation_relations(documents: list[dict[str, Any]], games: list[dict[str, Any]]) -> None:
+    game_urls = {str(g.get("url", "")).strip() for g in games if str(g.get("url", "")).strip()}
+    for document in documents:
+        for game_url in document["juegos"]:
+            if game_url not in game_urls:
+                raise ValueError(
+                    f"El documento {document['id']!r} referencia una pieza inexistente en juegos.json: {game_url!r}."
+                )
+
+
+
+
+def build_documentation_game_index(documents: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+    index: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for document in documents:
+        for game_url in document.get("juegos", []):
+            index[game_url].append(document)
+    for related in index.values():
+        related.sort(
+            key=lambda d: (d.get("_actualizado") or d.get("_fecha"), d.get("titulo", "").lower()),
+            reverse=True,
+        )
+    return index
+
+
+def documentation_block_for_game(
+    game_url: str,
+    documents_by_game: dict[str, list[dict[str, Any]]],
+    prefix: str,
+) -> str:
+    related = documents_by_game.get(game_url, [])
+    if not related:
+        return ""
+
+    primary_categories = [
+        ("preservacion", "Preservación digital"),
+        ("guias", "Guías de ejecución"),
+    ]
+    sections: list[str] = []
+    consumed: set[str] = set()
+
+    for category, label in primary_categories:
+        docs = [d for d in related if d.get("categoria") == category]
+        if not docs:
+            continue
+        consumed.update(d["id"] for d in docs)
+        items: list[str] = []
+        for document in docs:
+            description = document.get("descripcion", "")
+            detail = f'<br><span class="count">{h(description)}</span>' if description else ""
+            items.append(
+                f'<li><a href="{prefix}{h(document["url"])}"><strong>{h(document["titulo"])}</strong></a>{detail}</li>'
+            )
+        sections.append(f'<h3>{h(label)}</h3><ul>{"".join(items)}</ul>')
+
+    others = [d for d in related if d.get("id") not in consumed]
+    if others:
+        items: list[str] = []
+        for document in others:
+            cfg = DOCUMENTATION_CATEGORIES.get(document.get("categoria"), {})
+            label = cfg.get("label", "Documentación")
+            description = document.get("descripcion", "")
+            detail_text = f"{label} · {description}" if description else label
+            items.append(
+                f'<li><a href="{prefix}{h(document["url"])}"><strong>{h(document["titulo"])}</strong></a>'
+                f'<br><span class="count">{h(detail_text)}</span></li>'
+            )
+        sections.append(f'<h3>Documentación relacionada</h3><ul>{"".join(items)}</ul>')
+
+    return f'''<section class="content-card">
+  <p class="eyebrow">Documentación de la pieza</p>
+  <h2>Preservación y compatibilidad</h2>
+  <p>Documentación técnica publicada y vinculada específicamente con esta edición conservada por PC Game Archive.</p>
+  {"".join(sections)}
+</section>'''
+
+def resolve_document_source(project_root: Path, document: dict[str, Any]) -> Path:
+    raw = str(document.get("contenido", "") or "").strip()
+    if not raw:
+        raise ValueError(f"El documento {document['id']!r} no define un fichero de contenido.")
+    rel = Path(raw)
+    if rel.is_absolute() or rel.suffix.lower() != ".md":
+        raise ValueError(
+            f"El contenido de {document['id']!r} debe ser una ruta Markdown relativa al proyecto: {raw!r}."
+        )
+    source = (project_root / rel).resolve()
+    try:
+        source.relative_to(project_root.resolve())
+    except ValueError as exc:
+        raise ValueError(f"La ruta de contenido de {document['id']!r} sale del proyecto: {raw!r}.") from exc
+    if not source.is_file():
+        raise FileNotFoundError(f"No existe el contenido del documento {document['id']!r}: {source}")
+    return source
+
+
+def _markdown_inline(value: str) -> str:
+    escaped = html.escape(value, quote=False)
+    placeholders: list[str] = []
+
+    def stash(fragment: str) -> str:
+        placeholders.append(fragment)
+        return f"@@PCGA{len(placeholders)-1}@@"
+
+    escaped = re.sub(
+        r"`([^`]+)`",
+        lambda m: stash(f"<code>{m.group(1)}</code>"),
+        escaped,
+    )
+    escaped = re.sub(
+        r"\[([^\]]+)\]\(((?:https?://|/|\.\.?/)[^\s)]+)\)",
+        lambda m: stash(
+            f'<a href="{html.escape(m.group(2), quote=True)}" rel="noopener noreferrer">{m.group(1)}</a>'
+        ),
+        escaped,
+    )
+    escaped = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", escaped)
+    for index, fragment in enumerate(placeholders):
+        escaped = escaped.replace(f"@@PCGA{index}@@", fragment)
+    return escaped
+
+
+def markdown_to_safe_html(source: str) -> str:
+    """Renderiza el subconjunto Markdown documental admitido por PC Game Archive."""
+    lines = source.replace("\r\n", "\n").replace("\r", "\n").split("\n")
+    out: list[str] = []
+    paragraph: list[str] = []
+    in_code = False
+    code_lines: list[str] = []
+    list_kind = ""
+
+    def flush_paragraph() -> None:
+        nonlocal paragraph
+        if paragraph:
+            out.append(f"<p>{_markdown_inline(' '.join(part.strip() for part in paragraph))}</p>")
+            paragraph = []
+
+    def close_list() -> None:
+        nonlocal list_kind
+        if list_kind:
+            out.append(f"</{list_kind}>")
+            list_kind = ""
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            flush_paragraph()
+            close_list()
+            if in_code:
+                out.append("<pre><code>" + html.escape("\n".join(code_lines)) + "</code></pre>")
+                code_lines = []
+                in_code = False
+            else:
+                in_code = True
+            continue
+        if in_code:
+            code_lines.append(line)
+            continue
+        if not stripped:
+            flush_paragraph()
+            close_list()
+            continue
+        heading = re.match(r"^(#{2,4})\s+(.+)$", stripped)
+        if heading:
+            flush_paragraph()
+            close_list()
+            level = len(heading.group(1))
+            out.append(f"<h{level}>{_markdown_inline(heading.group(2))}</h{level}>")
+            continue
+        if stripped == "---":
+            flush_paragraph()
+            close_list()
+            out.append("<hr>")
+            continue
+        if stripped.startswith("> "):
+            flush_paragraph()
+            close_list()
+            out.append(f"<blockquote><p>{_markdown_inline(stripped[2:])}</p></blockquote>")
+            continue
+        unordered = re.match(r"^-\s+(.+)$", stripped)
+        ordered = re.match(r"^\d+\.\s+(.+)$", stripped)
+        if unordered or ordered:
+            flush_paragraph()
+            desired = "ul" if unordered else "ol"
+            if list_kind != desired:
+                close_list()
+                out.append(f"<{desired}>")
+                list_kind = desired
+            value = (unordered or ordered).group(1)
+            if value.startswith("[ ] "):
+                value = "☐ " + value[4:]
+            elif value.startswith("[x] ") or value.startswith("[X] "):
+                value = "☑ " + value[4:]
+            out.append(f"<li>{_markdown_inline(value)}</li>")
+            continue
+        paragraph.append(stripped)
+
+    if in_code:
+        raise ValueError("Bloque de código Markdown sin cerrar en contenido documental.")
+    flush_paragraph()
+    close_list()
+    return "\n".join(out)
+
+
+def validate_documentation_sources(documents: list[dict[str, Any]], project_root: Path) -> None:
+    for document in documents:
+        source = resolve_document_source(project_root, document)
+        markdown_to_safe_html(source.read_text(encoding="utf-8"))
 
 
 def format_spanish_date(value: Any) -> str:
@@ -745,6 +1051,7 @@ def nav(active: str, prefix: str = "") -> str:
         ("", "Inicio"),
         ("catalogo/", "Catálogo"),
         ("novedades/", "Novedades"),
+        ("documentacion/", "Documentación"),
     ]
     utility_items = [
         ("proyecto/", "El proyecto"),
@@ -1533,6 +1840,159 @@ def generate_news(news: list[dict[str, Any]], out: Path, base_url: str) -> None:
     target = out / route / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(layout("Novedades · PC Game Archive", desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Actividad y evolución del archivo"), encoding="utf-8")
+
+
+def documentation_breadcrumb_jsonld(base_url: str) -> dict[str, Any]:
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Inicio", "item": abs_url(base_url, "")},
+            {"@type": "ListItem", "position": 2, "name": "Documentación", "item": abs_url(base_url, "documentacion/")},
+        ],
+    }
+
+
+def documentation_article_breadcrumb_jsonld(base_url: str, document: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Inicio", "item": abs_url(base_url, "")},
+            {"@type": "ListItem", "position": 2, "name": "Documentación", "item": abs_url(base_url, "documentacion/")},
+            {"@type": "ListItem", "position": 3, "name": document["titulo"], "item": abs_url(base_url, document["url"])},
+        ],
+    }
+
+
+def generate_documentation_pages(documents: list[dict[str, Any]], games: list[dict[str, Any]], out: Path, project_root: Path, base_url: str) -> None:
+    game_lookup = {str(g.get("url", "")).strip(): g for g in games}
+    for document in documents:
+        route = document["url"]
+        prefix = rel_prefix_for(route + "index.html")
+        source = resolve_document_source(project_root, document)
+        article_html = markdown_to_safe_html(source.read_text(encoding="utf-8"))
+        cfg = DOCUMENTATION_CATEGORIES[document["categoria"]]
+        updated = document.get("actualizado", "") or document["fecha"]
+        description = document.get("descripcion", "") or f"{document['titulo']} · PC Game Archive"
+        related = ""
+        if document["juegos"]:
+            links: list[str] = []
+            for game_url in document["juegos"]:
+                game = game_lookup[game_url]
+                label = text(game.get("titulo"), game_url)
+                num = str(game.get("num") or "000000")
+                links.append(
+                    f'<li><a href="{prefix}{h(game_url)}"><strong>{h(label)}</strong></a>'
+                    f'<br><span class="count">Ficha #{h(num)}</span></li>'
+                )
+            related = (
+                '<aside class="content-card text-section"><h2>Piezas relacionadas</h2>'
+                '<p>Este documento está vinculado explícitamente a las siguientes ediciones del archivo.</p>'
+                f'<ul>{"".join(links)}</ul></aside>'
+            )
+        body = f"""<main>
+  <section class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / <a href="{prefix}documentacion/">Documentación</a> / <span>{h(document['titulo'])}</span></nav>
+    <p class="eyebrow">{h(cfg['label'])}</p>
+    <h1>{h(document['titulo'])}</h1>
+    <p class="lead">{h(description)}</p>
+    <p class="count">Publicado: {h(format_spanish_date(document['fecha']))} · Última revisión: {h(format_spanish_date(updated))}</p>
+  </section>
+  <section class="wrap">
+    <article class="content-card landing-editorial">{article_html}</article>
+    {related}
+  </section>
+</main>"""
+        jsonld = [
+            {
+                "@context": "https://schema.org",
+                "@type": "TechArticle",
+                "headline": document["titulo"],
+                "description": description,
+                "datePublished": document["fecha"],
+                "dateModified": updated,
+                "url": abs_url(base_url, route),
+                "publisher": {"@type": "Organization", "name": "PC Game Archive", "url": abs_url(base_url, "")},
+            },
+            documentation_article_breadcrumb_jsonld(base_url, document),
+        ]
+        target = out / route / "index.html"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(
+            layout(f"{document['titulo']} · PC Game Archive", description, abs_url(base_url, route), route, body, prefix=prefix, subtitle=cfg["label"], jsonld=jsonld),
+            encoding="utf-8",
+        )
+
+
+def generate_documentation_hub(documents: list[dict[str, Any]], out: Path, base_url: str) -> None:
+    route = "documentacion/"
+    prefix = rel_prefix_for(route + "index.html")
+    by_category: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for document in documents:
+        by_category[document["categoria"]].append(document)
+
+    category_cards = []
+    for key, cfg in DOCUMENTATION_CATEGORIES.items():
+        count = len(by_category.get(key, []))
+        count_label = f"{count} documento" if count == 1 else f"{count} documentos"
+        category_cards.append(
+            f'<article class="documentation-card">'
+            f'<p class="eyebrow">{h(count_label)}</p>'
+            f'<h2>{h(cfg["label"])}</h2>'
+            f'<p>{h(cfg["description"])}</p>'
+            f'</article>'
+        )
+
+    recent_html = ""
+    if documents:
+        entries = []
+        for document in documents[:8]:
+            cfg = DOCUMENTATION_CATEGORIES[document["categoria"]]
+            description = f'<p>{h(document["descripcion"])}</p>' if document["descripcion"] else ""
+            entries.append(
+                f'<article class="documentation-entry">'
+                f'<p class="eyebrow">{h(cfg["label"])} · {h(format_spanish_date(document["fecha"]))}</p>'
+                f'<h3><a href="{prefix}{h(document["url"])}">{h(document["titulo"])}</a></h3>'
+                f'{description}'
+                f'</article>'
+            )
+        recent_html = f'''<section class="wrap documentation-section" aria-labelledby="documentation-recent-title">
+  <div class="section-head"><h2 id="documentation-recent-title">Documentación publicada</h2></div>
+  <div class="documentation-list">{"".join(entries)}</div>
+</section>'''
+
+    desc = "Documentación de PC Game Archive sobre preservación digital, compatibilidad, soportes físicos e historia de los videojuegos de PC."
+    body = f'''<main>
+  <section class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / Documentación</nav>
+    <p class="eyebrow">Conocimiento reproducible del archivo</p>
+    <h1>Documentación</h1>
+    <p class="lead">Procedimientos, guías y contexto técnico para conservar, comprender y ejecutar las ediciones físicas documentadas por PC Game Archive.</p>
+  </section>
+  <section class="wrap documentation-section" aria-labelledby="documentation-areas-title">
+    <div class="section-head"><h2 id="documentation-areas-title">Áreas documentales</h2></div>
+    <div class="documentation-grid">{"".join(category_cards)}</div>
+    <p class="documentation-principle"><strong>Principio de trabajo:</strong> la metodología de preservación puede ser reutilizable, pero la caracterización, la selección del método y la evidencia pertenecen siempre a la pieza o edición concreta tratada.</p>
+  </section>
+  {recent_html}
+</main>'''
+    jsonld = [
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Documentación · PC Game Archive",
+            "description": desc,
+            "url": abs_url(base_url, route),
+        },
+        documentation_breadcrumb_jsonld(base_url),
+    ]
+    target = out / route / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(
+        layout("Documentación · PC Game Archive", desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación, compatibilidad y documentación técnica", jsonld=jsonld),
+        encoding="utf-8",
+    )
 
 
 def generate_index(games: list[dict[str, Any]], properties: dict[str, Any], news: list[dict[str, Any]], out: Path, base_url: str) -> None:
@@ -2580,10 +3040,11 @@ def breadcrumb_jsonld(game: dict[str, Any], base_url: str, taxonomy_lookup: dict
     ]}
 
 
-def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
+def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, Any]], out: Path, project_root: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
     url_counts = Counter(g.get("url") for g in games)
     taxonomy_lookup = build_taxonomy_lookup(games)
     related_index = build_related_indexes(games)
+    documents_by_game = build_documentation_game_index(documents)
     gallery_index = gallery_index or build_gallery_index(project_root, games)
     for idx, game in enumerate(games, start=1):
         url = str(game.get("url", "")).strip()
@@ -2665,6 +3126,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         extra_metadata_html = ''.join(extra_metadata_rows)
 
         related_html = related_groups_html(game, related_index, prefix)
+        documentation_html = documentation_block_for_game(url, documents_by_game, prefix)
         game_slug = url.strip('/').split('/')[-1]
         support_href = f"{prefix}apoyar/?juego={quote(game_slug)}"
         support_block = f'''<section class="piece-support-card" aria-labelledby="piece-support-title">
@@ -2710,6 +3172,7 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
       <p>{h(text(prot.get('preservacion'), 'Pendiente de documentación.'))}</p>
     </section>
   </article>
+  {documentation_html}
   <section class="content-card"><h2>Galería documental</h2><div class="gallery">{gallery_html}</div></section>
   {related_html}
 </main>'''
@@ -2724,8 +3187,9 @@ def generate_game_pages(games: list[dict[str, Any]], out: Path, project_root: Pa
         target.write_text(page, encoding="utf-8")
 
 
-def generate_sitemap(games: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
-    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/", "novedades/"] + [p["filename"] for p in SEO_LANDING_PAGES]
+def generate_sitemap(games: list[dict[str, Any]], documents: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
+    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/", "novedades/", "documentacion/"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    urls.extend(document["url"] for document in documents)
     incorporation_count = len(dated_incorporations(games))
     if incorporation_count:
         urls.append("incorporaciones/")
@@ -2864,7 +3328,7 @@ def copy_support_files(project_root: Path, out: Path) -> None:
     if out.resolve() == project_root.resolve():
         return
 
-    for name in ["CNAME", "juegos.json", "json_schema.json", "logo.png", "no_disponible.png", "anuncio_with_bgc.png", "favicon.ico", "favicon.svg", "apple-touch-icon.png", "site.webmanifest"]:
+    for name in ["CNAME", "juegos.json", "json_schema.json", "propiedades.json", "novedades.json", "documentacion.json", "logo.png", "no_disponible.png", "anuncio_with_bgc.png", "favicon.ico", "favicon.svg", "apple-touch-icon.png", "site.webmanifest"]:
         src = project_root / name
         dst = out / name
         if src.exists() and src.is_file():
@@ -2943,6 +3407,7 @@ def main() -> int:
     parser.add_argument("--catalogo", default="juegos.json")
     parser.add_argument("--propiedades", default="propiedades.json", help="Configuración global del sitio.")
     parser.add_argument("--novedades", default="novedades.json", help="Registro editorial de novedades del archivo.")
+    parser.add_argument("--documentacion", default="documentacion.json", help="Índice de metadatos del área documental.")
     parser.add_argument("--out", default=".", help="Directorio de salida. Por defecto: directorio actual, sin copiar imágenes.")
     parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
     args = parser.parse_args()
@@ -2951,10 +3416,14 @@ def main() -> int:
     catalog_path = (project_root / args.catalogo).resolve()
     properties_path = (project_root / args.propiedades).resolve()
     news_path = (project_root / args.novedades).resolve()
+    documentation_path = (project_root / args.documentacion).resolve()
     out = (project_root / args.out).resolve()
     games = load_json(catalog_path)
     properties = load_properties(properties_path)
     news = load_news(news_path)
+    documents = load_documentation(documentation_path)
+    validate_documentation_relations(documents, games)
+    validate_documentation_sources(documents, project_root)
     gallery_index = build_gallery_index(project_root, games)
     # Metadato transitorio para que todas las tarjetas usen la misma imagen real
     # detectada. No se persiste en juegos.json.
@@ -2973,6 +3442,8 @@ def main() -> int:
     generate_favicons(project_root, out)
     generate_index(games, properties, news, out, args.base_url)
     generate_news(news, out, args.base_url)
+    generate_documentation_hub(documents, out, args.base_url)
+    generate_documentation_pages(documents, games, out, project_root, args.base_url)
     generate_incorporations(games, out, args.base_url)
     generate_catalog_pages(games, out, args.base_url)
     generate_seo_landing_pages(games, out, args.base_url)
@@ -2982,15 +3453,16 @@ def main() -> int:
     generate_project_page(out, args.base_url)
     generate_support_page(out, args.base_url)
     generate_contact(out, args.base_url)
-    generate_game_pages(games, out, project_root, args.base_url, gallery_index)
+    generate_game_pages(games, documents, out, project_root, args.base_url, gallery_index)
     generate_static_redirect(out, args.base_url, "bigbox.html", "juegos-pc-big-box.html", "Big Box · PC Game Archive")
     generate_legacy_detail(out, args.base_url)
-    generate_sitemap(games, out, args.base_url, gallery_index)
+    generate_sitemap(games, documents, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase16.5-novedades-2026-10-04")
-    print("Fase 16.5: registro editorial y sección de novedades")
+    print("Versión generador: fase17.4-integracion-documentacion-fichas-2026-10-04")
+    print("Fase 17.4: integración bidireccional entre documentación y fichas")
     print(f"Novedades procesadas: {len(news)}")
+    print(f"Documentos indexados: {len(documents)}")
     print(f"Generación completada: {out}")
     print(f"Juegos procesados: {len(games)}")
     print("Modo de assets: no se copian imágenes ni carpetas img; solo se sobrescriben ficheros generados.")
@@ -2998,7 +3470,7 @@ def main() -> int:
 
 
 CSS = r'''
-:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-figure{margin:0}.hero-figure figcaption{margin-top:9px;color:var(--g);font-size:12px;line-height:1.4}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.provenance{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.provenance-main{display:block}.provenance-social{gap:6px}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery-item{margin:0;min-width:0}.gallery-link{display:block;text-decoration:none}.gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;border-radius:14px;border:1px solid var(--bd);background:#eee}.gallery-item figcaption{margin-top:6px;color:var(--g);font-size:12px;line-height:1.35}.gallery-missing img{object-fit:contain}.related-area{margin-top:34px}.related-section{margin-top:30px}.related-section:first-child{margin-top:0}.related-section .section-head{margin-bottom:14px}.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.related-grid .game-card{min-height:230px}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}.button-secondary{background:#fff;color:#111;border-color:#111}.button-secondary:hover{background:#f2f2f0}.acquisition-strip{margin-top:32px;margin-bottom:12px;background:#111;color:#fff;border-radius:24px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px}.acquisition-strip h2{margin-bottom:8px}.acquisition-strip p:not(.eyebrow){margin:0;color:#ddd;max-width:760px}.acquisition-strip .eyebrow{color:#bbb}.acquisition-strip .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}.acquisition-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.acquisition-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,430px);gap:42px;align-items:center;padding-bottom:48px}.acquisition-hero .breadcrumbs{padding-top:22px}.acquisition-visual{margin:28px 0 0}.acquisition-visual img{display:block;width:100%;height:auto;border-radius:24px;border:1px solid var(--bd);box-shadow:0 16px 45px rgba(0,0,0,.08)}.acquisition-section{padding-top:36px;padding-bottom:36px}.acquisition-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-grid .content-card{margin-top:0}.acquisition-grid h3{margin-top:0;margin-bottom:8px}.acquisition-grid p{margin:0;color:#444}.acquisition-note{margin:20px 0 0;padding:16px 18px;border-left:4px solid #111;background:#fff;border-radius:0 14px 14px 0}.acquisition-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.acquisition-steps{list-style:none;counter-reset:acq;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-steps li{counter-increment:acq;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:7px}.acquisition-steps li:before{content:counter(acq);width:34px;height:34px;border-radius:50%;background:#111;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:900;margin-bottom:5px}.acquisition-steps span{color:#555;font-size:14px}.acquisition-contact-card{background:#111;color:#fff;border-radius:24px;padding:26px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:30px}.acquisition-contact-card h2{margin-bottom:8px}.acquisition-contact-card p:not(.eyebrow){color:#ddd;max-width:760px;margin-bottom:0}.acquisition-contact-card .eyebrow{color:#bbb}.acquisition-contact-card .button{background:#fff;color:#111;border-color:#fff}.acquisition-contact-card .button-secondary{background:transparent;color:#fff;border-color:#fff}.acquisition-actions{margin-top:20px}.acquisition-faq details{background:#fff;border:1px solid var(--bd);border-radius:14px;margin:10px 0;padding:0 16px}.acquisition-faq summary{cursor:pointer;font-weight:800;padding:15px 0}.acquisition-faq details p{margin:0 0 16px;color:#444}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.related-grid{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}.acquisition-grid,.acquisition-steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid,.acquisition-hero-grid,.acquisition-contact-card{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.related-grid{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}.acquisition-strip{align-items:flex-start;flex-direction:column}.acquisition-contact-card .actions{justify-content:flex-start}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.related-grid,.taxonomy-grid,.gallery,.acquisition-grid,.acquisition-steps{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}.acquisition-actions{flex-direction:column}.acquisition-actions .button{width:100%}}
+:root{--b:#111;--g:#666;--bd:#e6e6e6;--bg:#f7f7f5;--w:#fff;--soft:#f0eee9;--accent:#111;--max:1200px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--b);background:var(--bg);line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}.site-header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}.header-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand strong{display:block;font-size:18px;letter-spacing:.2px}.brand small{display:block;color:var(--g);font-size:12px}.logo{width:64px;height:64px;object-fit:contain;display:block}.nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}.nav a{text-decoration:none;font-weight:800;font-size:14px;padding:8px 10px;border-radius:999px;border:1px solid transparent}.nav a:hover,.nav a.active{background:#f7f7f7;border-color:var(--bd)}main{padding-bottom:42px}.hero-section{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:28px;align-items:center;padding-top:48px;padding-bottom:48px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--g);font-weight:900;margin:0 0 10px}h1{font-size:clamp(32px,5vw,58px);line-height:1.02;margin:0 0 18px;letter-spacing:-.04em}h2{font-size:26px;line-height:1.15;margin:0 0 14px}.lead{font-size:18px;color:#333;max-width:760px}.search-hero,.toolbar{display:flex;gap:10px;margin-top:20px}.search-hero input,.toolbar input,.search-hero select,.toolbar select{flex:1;min-width:0;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:#fff;font-size:16px}.search-hero select,.toolbar select{min-width:180px}.catalog-search{align-items:stretch}.search-hero button,.toolbar button,.button{border:1px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.stats-card{background:#111;color:#fff;border-radius:24px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px}.stats-card strong{font-size:34px;line-height:1}.stats-card span{align-self:center;color:#ddd}.section-head,.meta{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 0 14px}.section-head a{font-weight:900}.grid.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.game-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:18px;overflow:hidden;text-decoration:none;min-height:245px;transition:transform .15s ease,box-shadow .15s ease}.game-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}.game-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#eee;padding:6px}.game-card img.missing,.hero-img.missing{background:repeating-linear-gradient(45deg,#eee,#eee 10px,#f8f8f8 10px,#f8f8f8 20px)}.game-card-body{display:flex;flex-direction:column;gap:6px;padding:12px}.game-card strong{font-size:14px;line-height:1.2}.game-card small,.count{color:var(--g);font-size:12px}.tagrow,.chips,.actions{display:flex;flex-wrap:wrap;gap:8px}.media-card .chips{margin-top:14px;margin-bottom:18px}.media-card .actions{margin-top:8px;padding-top:16px;border-top:1px solid var(--bd)}.tag,.chip{font-size:12px;padding:5px 9px;border:1px solid var(--bd);border-radius:999px;background:#fff;text-decoration:none}.page-head{padding:34px 0 20px}.page-head h1{font-size:42px}.taxonomy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.taxonomy-item,.content-card,.media-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px}.taxonomy-item{text-decoration:none;display:flex;justify-content:space-between;gap:16px}.taxonomy-item small{color:var(--g)}.text-section,.content-card{margin-top:28px}.landing-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:4px 0 28px}.landing-stat{background:#111;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:4px}.landing-stat strong{font-size:30px;line-height:1}.landing-stat span{color:#ddd;font-size:13px}.landing-editorial p{max-width:900px}.landing-editorial p:last-child{margin-bottom:0}.breadcrumbs{font-size:13px;color:var(--g);padding:18px 0}.detail-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:20px;align-items:start}.hero-figure{margin:0}.hero-figure figcaption{margin-top:9px;color:var(--g);font-size:12px;line-height:1.4}.hero-img{width:100%;height:auto;max-height:620px;object-fit:contain;border:1px solid var(--bd);border-radius:16px;background:#f3f3f1;display:block}.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 14px;border-top:1px solid var(--bd);padding-top:14px;margin-top:18px}.kv dt{color:var(--g);font-weight:700}.kv dd{margin:0}.provenance{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.provenance-main{display:block}.provenance-social{gap:6px}.kv.compact{grid-template-columns:180px 1fr}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery-item{margin:0;min-width:0}.gallery-link{display:block;text-decoration:none}.gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;border-radius:14px;border:1px solid var(--bd);background:#eee}.gallery-item figcaption{margin-top:6px;color:var(--g);font-size:12px;line-height:1.35}.gallery-missing img{object-fit:contain}.related-area{margin-top:34px}.related-section{margin-top:30px}.related-section:first-child{margin-top:0}.related-section .section-head{margin-bottom:14px}.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.related-grid .game-card{min-height:230px}.pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:28px 0 10px}.pagination a,.pagination-current,.pagination-gap{min-width:38px;height:38px;padding:0 10px;border:1px solid var(--bd);border-radius:10px;background:#fff;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;font-size:13px}.pagination a:hover{background:#f2f2f0}.pagination-current{background:#111;color:#fff;border-color:#111}.pagination-gap{border-color:transparent;background:transparent;color:var(--g)}.pagination-prev,.pagination-next{min-width:auto!important}.button-secondary{background:#fff;color:#111;border-color:#111}.button-secondary:hover{background:#f2f2f0}.acquisition-strip{margin-top:32px;margin-bottom:12px;background:#111;color:#fff;border-radius:24px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:24px}.acquisition-strip h2{margin-bottom:8px}.acquisition-strip p:not(.eyebrow){margin:0;color:#ddd;max-width:760px}.acquisition-strip .eyebrow{color:#bbb}.acquisition-strip .button{background:#fff;color:#111;border-color:#fff;white-space:nowrap}.acquisition-hero{background:linear-gradient(180deg,#fff,var(--soft));border-bottom:1px solid var(--bd)}.acquisition-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,430px);gap:42px;align-items:center;padding-bottom:48px}.acquisition-hero .breadcrumbs{padding-top:22px}.acquisition-visual{margin:28px 0 0}.acquisition-visual img{display:block;width:100%;height:auto;border-radius:24px;border:1px solid var(--bd);box-shadow:0 16px 45px rgba(0,0,0,.08)}.acquisition-section{padding-top:36px;padding-bottom:36px}.acquisition-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-grid .content-card{margin-top:0}.acquisition-grid h3{margin-top:0;margin-bottom:8px}.acquisition-grid p{margin:0;color:#444}.acquisition-note{margin:20px 0 0;padding:16px 18px;border-left:4px solid #111;background:#fff;border-radius:0 14px 14px 0}.acquisition-soft{background:var(--soft);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}.acquisition-steps{list-style:none;counter-reset:acq;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.acquisition-steps li{counter-increment:acq;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:7px}.acquisition-steps li:before{content:counter(acq);width:34px;height:34px;border-radius:50%;background:#111;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:900;margin-bottom:5px}.acquisition-steps span{color:#555;font-size:14px}.acquisition-contact-card{background:#111;color:#fff;border-radius:24px;padding:26px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:30px}.acquisition-contact-card h2{margin-bottom:8px}.acquisition-contact-card p:not(.eyebrow){color:#ddd;max-width:760px;margin-bottom:0}.acquisition-contact-card .eyebrow{color:#bbb}.acquisition-contact-card .button{background:#fff;color:#111;border-color:#fff}.acquisition-contact-card .button-secondary{background:transparent;color:#fff;border-color:#fff}.acquisition-actions{margin-top:20px}.acquisition-faq details{background:#fff;border:1px solid var(--bd);border-radius:14px;margin:10px 0;padding:0 16px}.acquisition-faq summary{cursor:pointer;font-weight:800;padding:15px 0}.acquisition-faq details p{margin:0 0 16px;color:#444}footer{background:#fff;border-top:1px solid var(--bd);padding:22px 0}.footrow{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--g);font-size:13px}.to-top{padding:8px 10px;border:1px solid var(--bd);border-radius:12px;text-decoration:none;font-weight:800;color:#111;background:#fff;cursor:pointer;font:inherit}.to-top:hover{background:#f7f7f7}@media(max-width:1100px){.grid.cards{grid-template-columns:repeat(4,1fr)}.related-grid{grid-template-columns:repeat(4,1fr)}.taxonomy-grid{grid-template-columns:repeat(3,1fr)}.acquisition-grid,.acquisition-steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:800px){.landing-stats{grid-template-columns:repeat(2,1fr)}header{position:static}.header-row,.hero-grid,.detail-grid,.acquisition-hero-grid,.acquisition-contact-card{grid-template-columns:1fr;display:grid}.nav{justify-content:flex-start}.grid.cards{grid-template-columns:repeat(2,1fr)}.related-grid{grid-template-columns:repeat(2,1fr)}.taxonomy-grid,.gallery{grid-template-columns:repeat(2,1fr)}.search-hero,.toolbar{flex-direction:column}.kv{grid-template-columns:1fr}.page-head h1{font-size:34px}.acquisition-strip{align-items:flex-start;flex-direction:column}.acquisition-contact-card .actions{justify-content:flex-start}}@media(max-width:480px){.landing-stats{grid-template-columns:1fr}.grid.cards,.related-grid,.taxonomy-grid,.gallery,.acquisition-grid,.acquisition-steps{grid-template-columns:1fr}.hero-grid{padding-top:30px;padding-bottom:30px}.acquisition-actions{flex-direction:column}.acquisition-actions .button{width:100%}}
 '''
 
 CSS += r'''
@@ -3365,6 +3837,10 @@ CSS += r'''
 
 CSS += r'''
 .home-news{padding:34px 0 38px;background:var(--soft);border-bottom:1px solid var(--bd)}.news-section-head{margin:0 0 6px;align-items:center}.news-section-head h2{margin:0}.news-help{margin:0 0 18px;color:#555;max-width:850px}.home-news-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.news-item{background:#fff;border:1px solid var(--bd);border-radius:18px;padding:20px}.news-item time{display:block;color:var(--g);font-size:12px;font-weight:800;margin-bottom:8px}.news-item h3{font-size:20px;line-height:1.25;margin:0 0 9px}.news-item h3 a{text-decoration:none}.news-item h3 a:hover{text-decoration:underline}.news-item p{margin:0;color:#444}.news-link{display:inline-block;margin-top:14px;font-weight:900}.news-item-compact{min-height:180px}.news-item-compact h3{font-size:17px}.news-page{padding-bottom:30px}.news-list{display:grid;gap:14px;max-width:900px}.news-list .news-item{padding:24px}.news-list .news-item h3{font-size:22px}.news-empty{color:var(--g)}.pcga-search-mode .home-news{display:none}@media(max-width:900px){.home-news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.home-news-grid{grid-template-columns:1fr}.news-item-compact{min-height:0}}
+'''
+
+CSS += r'''
+.documentation-section{padding-top:18px;padding-bottom:34px}.documentation-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.documentation-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:22px}.documentation-card h2{margin:0 0 8px}.documentation-card p:last-child{margin-bottom:0;color:#444}.documentation-principle{margin:20px 0 0;padding:18px 20px;background:var(--soft);border-left:4px solid #111;border-radius:0 14px 14px 0;max-width:980px}.documentation-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.documentation-entry{background:#fff;border:1px solid var(--bd);border-radius:18px;padding:18px}.documentation-entry h3{margin:0 0 8px}.documentation-entry h3 a{text-decoration:none}.documentation-entry h3 a:hover{text-decoration:underline}.documentation-entry p:last-child{margin-bottom:0;color:#444}@media(max-width:800px){.documentation-grid,.documentation-list{grid-template-columns:1fr}}
 '''
 
 if __name__ == "__main__":

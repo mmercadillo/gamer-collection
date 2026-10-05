@@ -2,7 +2,7 @@
 
 Documento vivo para registrar, ordenar y mantener los próximos evolutivos de PC Game Archive.
 
-**Base actual:** F16.5 — Novedades del archivo  
+**Base actual:** F17.4 — Integración bidireccional entre documentación y fichas  
 **Última actualización:** 04/10/2026
 
 ---
@@ -23,22 +23,24 @@ Documento vivo para registrar, ordenar y mantener los próximos evolutivos de PC
 ## 1. Área documental de PC Game Archive
 
 **Prioridad:** Alta  
-**Estado:** Pendiente de definición funcional  
-**Propuesta inicial:** F17
+**Estado:** F17.1–F17.4 completadas · F17.5 piloto real pendiente  
+**Fase asignada:** F17
 
 Crear una sección documental propia dentro de PC Game Archive que permita publicar contenidos de preservación, historia, formatos y conocimiento técnico sin depender únicamente de las fichas de los juegos.
 
 ### Alcance previsto
 
-- Nueva sección `/documentacion/`.
-- Categorías y navegación propia.
-- URLs limpias y permanentes.
-- Breadcrumbs.
-- Metadatos SEO y datos estructurados cuando proceda.
-- Integración con sitemap.
-- Enlaces bidireccionales entre artículos y piezas del catálogo.
-- Plantilla reutilizable para nuevos contenidos.
-- Posibilidad de relacionar varios artículos con una misma pieza.
+- Nueva sección `/documentacion/`. **Implementada en F17.1.**
+- Categorías y navegación propia. **Base implementada en F17.1.**
+- URLs limpias y permanentes. **Contrato implementado en F17.1.**
+- Breadcrumbs. **Implementados en F17.1.**
+- Metadatos SEO y datos estructurados cuando proceda. **Hub implementado en F17.1.**
+- Integración con sitemap. **Implementada en F17.1.**
+- Enlaces bidireccionales entre artículos y piezas del catálogo. **Implementados en F17.4.**
+- Plantilla reutilizable para nuevos contenidos. **Infraestructura Markdown implementada en F17.2.**
+- Posibilidad de relacionar varios artículos con una misma pieza. **Implementada en F17.4.**
+- Diseño rector documentado en `DISENO_FASE_17_AREA_DOCUMENTAL_PRESERVACION.md`.
+- Checklist obligatoria por pieza y Definition of Done de preservación reproducible.
 
 ### Primeros contenidos candidatos
 
@@ -54,15 +56,23 @@ Crear una sección documental propia dentro de PC Game Archive que permita publi
 ## 2. Procedimientos de preservación digital
 
 **Prioridad:** Alta  
-**Estado:** Pendiente de diseño
+**Estado:** Estándar general completado en F17.2 · procedimientos específicos crecerán con casos reales
 
-Definir y documentar un procedimiento reproducible para preservar digitalmente los soportes físicos del archivo.
+Definir y documentar un procedimiento reproducible para preservar digitalmente los soportes físicos del archivo. El diseño rector y la checklist obligatoria quedan recogidos en `DISENO_FASE_17_AREA_DOCUMENTAL_PRESERVACION.md`.
+
+F17.2 publica además:
+
+- `/documentacion/preservacion/estandar-preservacion-digital/`;
+- `/documentacion/preservacion/caracterizacion-soportes-opticos/`;
+- `PLANTILLA_REGISTRO_PRESERVACION.md` como registro operativo obligatorio por pieza.
 
 ### Alcance previsto
 
 - Procedimiento para CD-ROM/DVD-ROM.
 - Procedimiento para disquetes.
-- Creación de imágenes de preservación.
+- Caracterización previa obligatoria de cada soporte.
+- Adquisición digital de preservación (no limitada a imágenes ISO).
+- Selección del método según estructura, pistas, sesiones, protecciones y otras características de la pieza concreta.
 - Herramientas recomendadas por tipo de soporte.
 - Verificación de lectura e integridad.
 - Hashes y algoritmos admitidos.
@@ -71,6 +81,7 @@ Definir y documentar un procedimiento reproducible para preservar digitalmente l
 - Registro de errores de lectura o daños.
 - Copias maestras y copias de trabajo.
 - Estrategia de copias de seguridad.
+- Separación estricta entre master de preservación y copia/derivado de trabajo.
 - Política de no modificación de los originales digitales.
 - Documentación de cualquier intervención realizada sobre el soporte.
 
@@ -83,9 +94,9 @@ Que otra persona pueda repetir el proceso sobre una pieza y obtener un resultado
 ## 3. Guías de ejecución y compatibilidad — “Guías burros”
 
 **Prioridad:** Alta  
-**Estado:** Pendiente de diseño
+**Estado:** Estándar y plantilla completados en F17.3 · integración con fichas completada en F17.4 · piloto real pendiente
 
-Crear guías muy prácticas y reproducibles para ejecutar juegos antiguos en equipos actuales.
+Crear guías muy prácticas y reproducibles para ejecutar juegos antiguos en equipos actuales, diferenciadas del proceso de preservación y basadas siempre que sea posible en una copia de trabajo derivada del master de la edición conservada.
 
 ### Casos a cubrir
 
@@ -112,6 +123,15 @@ Cada guía debería indicar, como mínimo:
 - limitaciones conocidas;
 - advertencias;
 - fecha de la última prueba.
+- matriz funcional por subsistemas;
+- diferenciación entre evidencia propia y fuentes externas;
+- repetición del procedimiento desde un estado suficientemente limpio;
+- estado final de compatibilidad.
+
+F17.3 publica además:
+
+- `/documentacion/guias/estandar-guias-ejecucion-compatibilidad/`;
+- `PLANTILLA_GUIA_EJECUCION.md` como hoja de trabajo obligatoria para cada guía.
 
 ---
 
@@ -300,6 +320,8 @@ Esta sección permite retirar elementos del backlog activo sin perder trazabilid
 
 | Evolutivo | Fecha de cierre | Resultado |
 |---|---|---|
+| F17.2 — Estándar y procedimientos de preservación | 04/10/2026 | Estándar público, caracterización de soportes ópticos, publicación Markdown y plantilla operativa por pieza. |
+| F17.1 — Arquitectura del área documental | 04/10/2026 | `/documentacion/`, índice `documentacion.json`, navegación, SEO, breadcrumbs y sitemap. |
 | F16.5 — Novedades del archivo | 04/10/2026 | `novedades.json`, bloque en portada, histórico `/novedades/`, navegación y sitemap. |
 | F16.4 — Propiedades globales y fecha de última actualización | 04/10/2026 | `propiedades.json` como configuración transversal inicial y fecha de última actualización visible en portada. |
 | F16.3 — Apoyo contextual a la conservación de piezas | 03/10/2026 | CTA por pieza, contexto en `/apoyar/`, integración con Ko-fi y analítica GA4. |
