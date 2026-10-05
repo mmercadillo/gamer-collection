@@ -1,5 +1,18 @@
 [
   {
+    "id": "preservacion-red-baron-3d-bigbox",
+    "titulo": "Preservación digital de Red Baron 3-D — edición española Big Box",
+    "categoria": "preservacion",
+    "fecha": "2026-10-05",
+    "descripcion": "Registro verificable de la preservación del CD-ROM de la edición española Big Box conservada por PC Game Archive, obtenida mediante dos adquisiciones independientes coincidentes.",
+    "url": "documentacion/preservacion/red-baron-3d-bigbox/",
+    "juegos": [
+      "juegos/red-baron-3d-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-red-baron-3d-bigbox.md",
+    "actualizado": "2026-10-05"
+  },
+  {
     "id": "estandar-guias-ejecucion-compatibilidad",
     "titulo": "Estándar de guías de ejecución y compatibilidad",
     "categoria": "guias",
@@ -13,9 +26,10 @@
     "titulo": "Estándar de preservación digital de PC Game Archive",
     "categoria": "preservacion",
     "fecha": "2026-10-04",
-    "descripcion": "Metodología común para identificar, caracterizar, adquirir, verificar y conservar digitalmente una pieza física sin confundir preservación con compatibilidad.",
+    "descripcion": "Metodología versionada de PC Game Archive para identificar, caracterizar, adquirir, verificar y conservar digitalmente una pieza física sin confundir preservación con compatibilidad.",
     "url": "documentacion/preservacion/estandar-preservacion-digital/",
-    "contenido": "documentacion/fuentes/estandar-preservacion-digital.md"
+    "contenido": "documentacion/fuentes/estandar-preservacion-digital.md",
+    "actualizado": "2026-10-05"
   },
   {
     "id": "caracterizacion-soportes-opticos",

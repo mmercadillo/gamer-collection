@@ -114,6 +114,7 @@ Características:
 Desde F17.2 el cuerpo se mantiene en `documentacion/fuentes/*.md`. El generador renderiza un subconjunto controlado de Markdown (H2-H4, párrafos, listas, blockquotes, bloques de código, código inline, negrita y enlaces), sin admitir HTML crudo ni requerir librerías externas.
 
 F17.2 publica el estándar de preservación digital y la caracterización previa de soportes ópticos. `PLANTILLA_REGISTRO_PRESERVACION.md` es la checklist operativa que debe utilizarse al abordar cada pieza real.
+El estándar es único y versionado: cada registro debe conservar la versión aplicada en el momento de la adquisición para mantener trazabilidad histórica aunque el estándar evolucione.
 
 F17.3 publica el estándar de guías de ejecución y compatibilidad. `PLANTILLA_GUIA_EJECUCION.md` es la hoja de trabajo obligatoria para documentar edición, entorno, herramientas, procedimiento, matriz funcional, limitaciones y repetición antes de declarar una guía verificada.
 

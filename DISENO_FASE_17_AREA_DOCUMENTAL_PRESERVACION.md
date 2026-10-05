@@ -1,8 +1,8 @@
 # PC Game Archive — F17 — Diseño del área documental y protocolo de preservación reproducible
 
-**Estado:** F17.1–F17.4 completadas · F17.5 pendiente  
+**Estado:** F17.1–F17.4 completadas · F17.5 en curso  
 **Base de partida:** F16.5 — Novedades del archivo  
-**Fecha:** 04/10/2026
+**Fecha:** 05/10/2026
 
 ---
 
@@ -646,6 +646,26 @@ F17.4 establece:
 
 La bidireccionalidad no implica duplicación de datos. La relación se declara una sola vez en `documentacion.json` y todas las vistas derivadas se generan automáticamente.
 
+### F17.5 — Pieza piloto completa — EN CURSO
+
+La pieza piloto seleccionada es **Red Baron 3-D, edición española Big Box (ficha #000215)**.
+
+La etapa de preservación ha producido evidencia real suficiente para estrenar la integración de F17.4:
+
+- CD-ROM caracterizado como una única pista `MODE1/2352`;
+- escaneo de protección sin detección de protección de copia;
+- adquisición con MPF 3.10.0 y Redumper build b749;
+- unidad HL-DT-ST DVDRAM GTB0N, firmware FU03;
+- lectura a 1x con 20 reintentos configurados;
+- Error Count y C2 Error Count iguales a 0;
+- dos adquisiciones independientes;
+- SHA-256 de BIN y CUE coincidentes entre ambas lecturas;
+- registro interno en `registros_preservacion/red-baron-3d-bigbox.md`;
+- publicación pública en `/documentacion/preservacion/red-baron-3d-bigbox/`;
+- relación bidireccional real con la ficha `juegos/red-baron-3d-bigbox/`.
+
+**Pendiente para completar F17.5:** crear una copia de trabajo derivada del máster y realizar el ciclo real de instalación, ejecución, compatibilidad, validación por subsistemas y guía pública.
+
 ## 16. Regla de trabajo para futuras sesiones
 
 Antes de abordar la preservación o compatibilidad de una nueva pieza, se debe consultar este documento y utilizar su checklist.
@@ -659,3 +679,7 @@ Si un caso real demuestra que el estándar es insuficiente:
 5. solo después se continuará aplicando el nuevo criterio a otras piezas.
 
 Este documento es parte de la documentación viva de PC Game Archive y debe evolucionar con la experiencia real obtenida durante la preservación de la colección.
+
+### Versionado del estándar de preservación
+
+El estándar de preservación es un único documento vivo y versionado. Cada registro de pieza debe indicar la versión aplicada. Las evoluciones posteriores del estándar no alteran retrospectivamente la evidencia histórica de una preservación ya realizada. Los cambios compatibles incrementan versión menor; los cambios sustanciales de método, verificación o Definition of Done incrementan versión mayor.

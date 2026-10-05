@@ -1,26 +1,32 @@
 [
   {
+    "fecha": "2026-10-05",
+    "titulo": "Red Baron 3-D, primera pieza con preservación digital verificada",
+    "descripcion": "Hemos creado dos copias digitales independientes de su CD-ROM y ambas coinciden exactamente. El proceso, las herramientas utilizadas y sus hashes quedan documentados en el archivo.",
+    "url": "documentacion/preservacion/red-baron-3d-bigbox/"
+  },
+  {
     "fecha": "2026-10-04",
-    "titulo": "Las fichas quedan preparadas para enlazar preservación y compatibilidad",
-    "descripcion": "PC Game Archive integra de forma bidireccional la documentación técnica con las piezas del catálogo, sin duplicar relaciones ni mostrar bloques vacíos.",
+    "titulo": "Las fichas empiezan a conectar juegos y documentación",
+    "descripcion": "Cuando una pieza tenga documentación de preservación o una guía para jugarla en sistemas actuales, podrás acceder a ella directamente desde su ficha.",
     "url": "documentacion/"
   },
   {
     "fecha": "2026-10-04",
-    "titulo": "PC Game Archive define su estándar de guías de ejecución",
-    "descripcion": "Las futuras guías documentarán de forma reproducible cómo ejecutar una edición concreta en sistemas actuales, incluyendo entorno, herramientas, pasos, limitaciones y una matriz funcional de pruebas.",
+    "titulo": "Preparamos guías para jugar a clásicos en sistemas actuales",
+    "descripcion": "Las nuevas guías explicarán paso a paso cómo poner en marcha ediciones concretas del archivo, indicando qué se ha probado, qué ajustes hacen falta y qué limitaciones encontramos.",
     "url": "documentacion/guias/estandar-guias-ejecucion-compatibilidad/"
   },
   {
     "fecha": "2026-10-04",
-    "titulo": "PC Game Archive publica su estándar de preservación digital",
-    "descripcion": "El archivo define cómo caracterizar, adquirir, verificar y conservar digitalmente una pieza antes de crear copias de trabajo para compatibilidad.",
+    "titulo": "Definimos cómo preservar digitalmente los juegos del archivo",
+    "descripcion": "Antes de copiar un disco analizaremos sus características, elegiremos el método adecuado y verificaremos el resultado para conservar una copia digital fiable.",
     "url": "documentacion/preservacion/estandar-preservacion-digital/"
   },
   {
     "fecha": "2026-10-04",
-    "titulo": "PC Game Archive estrena su área de documentación",
-    "descripcion": "Nueva infraestructura para publicar procedimientos de preservación, guías de ejecución y documentación técnica vinculada a las piezas del archivo.",
+    "titulo": "Estrenamos una sección de documentación",
+    "descripcion": "Un nuevo espacio reúne los procedimientos de preservación, las futuras guías de ejecución y otros contenidos técnicos relacionados con las piezas del archivo.",
     "url": "/documentacion/"
   },
   {
@@ -31,13 +37,13 @@
   },
   {
     "fecha": "2026-10-04",
-    "titulo": "La portada muestra la fecha de última actualización",
-    "descripcion": "Se incorpora una configuración global del proyecto para indicar de forma explícita cuándo se ha actualizado el archivo."
+    "titulo": "Ahora puedes ver cuándo se actualizó el archivo",
+    "descripcion": "La portada muestra la fecha de la última actualización para que sea fácil saber cuándo se han incorporado cambios o nuevos contenidos."
   },
   {
     "fecha": "2026-10-03",
-    "titulo": "Apoyo contextual a la conservación de cada pieza",
-    "descripcion": "Las fichas permiten acceder a Ko-fi manteniendo el contexto de la pieza desde la que se solicita el apoyo.",
+    "titulo": "Ya puedes apoyar la conservación desde cada ficha",
+    "descripcion": "Al consultar una pieza puedes acceder directamente a la página de apoyo manteniendo el contexto del juego que estabas viendo.",
     "url": "apoyar/"
   }
 ]

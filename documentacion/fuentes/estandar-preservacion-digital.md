@@ -1,3 +1,6 @@
+**Versión vigente:** 1.0  
+**Fecha de entrada en vigor:** 05/10/2026
+
 ## Propósito
 
 Este estándar define cómo debe abordar PC Game Archive la preservación digital de una pieza física. Su finalidad es obtener una representación verificable del soporte original y conservar evidencia suficiente para comprender, repetir y auditar el proceso en el futuro.
@@ -230,6 +233,26 @@ Si cualquiera de estos puntos no puede cumplirse, el registro debe reflejarlo y 
 ## 13. Qué no publica necesariamente PC Game Archive
 
 Documentar una adquisición no implica distribuir públicamente su contenido. PC Game Archive puede publicar metodología, metadatos, hashes, logs seleccionados, incidencias y evidencia de preservación sin ofrecer descargas de software protegido.
+
+## Versionado del estándar
+
+El estándar es un **documento vivo y único**. PC Game Archive no crea un estándar independiente por cada pieza ni sustituye retrospectivamente el procedimiento que se utilizó en una preservación anterior.
+
+Cada registro de preservación debe indicar de forma explícita la **versión del estándar aplicada** en el momento de realizar la adquisición. De este modo, una pieza preservada con una versión anterior conserva su contexto histórico aunque el estándar vigente evolucione.
+
+Criterio de versionado:
+
+- cambios editoriales, aclaraciones o correcciones que no alteren el procedimiento: no requieren cambio de versión;
+- mejoras compatibles del procedimiento o de la evidencia exigida: incremento menor, por ejemplo `1.0` → `1.1`;
+- cambios que alteren de forma sustancial el método, los criterios de verificación o el Definition of Done: incremento mayor, por ejemplo `1.x` → `2.0`.
+
+Los registros ya cerrados **no se reescriben para simular que aplicaron la versión nueva**. Solo se revisarán si se realiza una nueva adquisición o una reverificación formal, que deberá quedar documentada como una nueva intervención.
+
+## Historial de versiones
+
+### 1.0 — 05/10/2026
+
+Primera versión formal del estándar. Validada durante el piloto de preservación de **Red Baron 3-D, edición española Big Box (ficha #000215)**. Define caracterización previa, adquisición documentada, SHA-256, verificación, separación entre máster y copia de trabajo y Definition of Done.
 
 ## Referencias técnicas de apoyo
 

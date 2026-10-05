@@ -2,8 +2,8 @@
 
 Documento vivo para registrar, ordenar y mantener los próximos evolutivos de PC Game Archive.
 
-**Base actual:** F17.4 — Integración bidireccional entre documentación y fichas  
-**Última actualización:** 04/10/2026
+**Base actual:** F17.5 — Piloto real Red Baron 3-D en curso  
+**Última actualización:** 05/10/2026
 
 ---
 
@@ -23,7 +23,7 @@ Documento vivo para registrar, ordenar y mantener los próximos evolutivos de PC
 ## 1. Área documental de PC Game Archive
 
 **Prioridad:** Alta  
-**Estado:** F17.1–F17.4 completadas · F17.5 piloto real pendiente  
+**Estado:** F17.1–F17.4 completadas · F17.5 en curso (preservación de Red Baron 3-D verificada; compatibilidad pendiente)  
 **Fase asignada:** F17
 
 Crear una sección documental propia dentro de PC Game Archive que permita publicar contenidos de preservación, historia, formatos y conocimiento técnico sin depender únicamente de las fichas de los juegos.
@@ -41,6 +41,7 @@ Crear una sección documental propia dentro de PC Game Archive que permita publi
 - Posibilidad de relacionar varios artículos con una misma pieza. **Implementada en F17.4.**
 - Diseño rector documentado en `DISENO_FASE_17_AREA_DOCUMENTAL_PRESERVACION.md`.
 - Checklist obligatoria por pieza y Definition of Done de preservación reproducible.
+- Estándar de preservación único y versionado; cada registro conserva la versión aplicada para mantener trazabilidad histórica. **Formalizado en F17.5 (v1.0).**
 
 ### Primeros contenidos candidatos
 
@@ -94,7 +95,7 @@ Que otra persona pueda repetir el proceso sobre una pieza y obtener un resultado
 ## 3. Guías de ejecución y compatibilidad — “Guías burros”
 
 **Prioridad:** Alta  
-**Estado:** Estándar y plantilla completados en F17.3 · integración con fichas completada en F17.4 · piloto real pendiente
+**Estado:** Estándar y plantilla completados en F17.3 · integración con fichas completada en F17.4 · F17.5 en curso con Red Baron 3-D
 
 Crear guías muy prácticas y reproducibles para ejecutar juegos antiguos en equipos actuales, diferenciadas del proceso de preservación y basadas siempre que sea posible en una copia de trabajo derivada del master de la edición conservada.
 

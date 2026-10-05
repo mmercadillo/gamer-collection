@@ -17969,7 +17969,7 @@
   },
   {
     "num": "000213",
-    "ig": "https://www.instagram.com/p/DeGsOKtiK-r",
+    "ig": "",
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",
@@ -18228,9 +18228,9 @@
     "proteccion": {
       "tipo": "No determinado",
       "version": "",
-      "preservacion": "Se recomienda preservar el CD-ROM original mediante una imagen completa BIN/CUE y conservar digitalmente los manuales y la documentación impresa de esta edición española. La ejecución virtual es viable en una máquina virtual con Windows 95/98 y soporte gráfico compatible, aunque la aceleración 3D original puede requerir configuración específica o soluciones de compatibilidad.",
+      "preservacion": "Preservación digital realizada y verificada el 05/10/2026 mediante dos adquisiciones independientes coincidentes con MPF 3.10.0 y Redumper build b749. El CD consta de una pista MODE1/2352; el escaneo realizado no detectó protección de copia. El máster BIN/CUE y sus evidencias se conservan separados de futuras copias de trabajo.",
       "formato": "BIN/CUE",
-      "jugable_virtual": true
+      "jugable_virtual": false
     },
     "anio": "1998",
     "mercado": [

@@ -2,6 +2,11 @@
 
 Esta plantilla debe utilizarse como checklist operativa al abordar una nueva pieza. No sustituye el estándar público de preservación ni el procedimiento específico que corresponda al soporte.
 
+Antes de iniciar el trabajo debe registrarse la **versión vigente del Estándar de preservación digital de PC Game Archive**. El registro conservará esa versión aunque el estándar evolucione posteriormente.
+
+- Versión del estándar aplicada:
+- Fecha de inicio del registro:
+
 ## 1. Identificación
 
 - Título:
@@ -94,6 +99,7 @@ SHA256  fichero
 
 ## 10. Cierre / Definition of Done
 
+- [ ] Versión del estándar aplicada registrada.
 - [ ] Edición identificada.
 - [ ] Estado físico registrado.
 - [ ] Caracterización completada antes de elegir el método.

@@ -29,6 +29,8 @@ Incorporar un registro editorial cronológico que permita consultar rápidamente
 
 Las novedades no se derivan automáticamente de `juegos.json`. `novedades.json` es un registro editorial explícito: permite agrupar incorporaciones, anunciar guías, preservación, donaciones, cambios del proyecto u otros hitos sin crear ruido automático.
 
+La redacción de **Novedades** está dirigida al visitante del archivo, no al equipo de desarrollo. Debe evitar nomenclatura interna de fases (`F16`, `F17`, etc.), términos de implementación como «infraestructura» o «integración bidireccional» cuando no aporten valor al lector y cualquier formulación propia de un changelog técnico. Cada entrada debe explicar de forma cercana **qué ha cambiado, qué se ha incorporado o qué puede hacer ahora el visitante**. La trazabilidad técnica y las fases se mantienen exclusivamente en los documentos internos de seguimiento.
+
 ## Entradas iniciales
 
 Se incluyen únicamente hitos ya verificables en la base de proyecto utilizada para F16.5:
