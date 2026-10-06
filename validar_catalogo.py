@@ -320,21 +320,20 @@ def check_taxonomy(games: list[dict[str, Any]], issues: list[Issue]) -> None:
                     add(issues, "WARN", idx, game, field, f"Valor '{item}' normalizable como '{mapping[item]}'.")
 
 
-def check_proteccion(games: list[dict[str, Any]], issues: list[Issue]) -> None:
+def check_preservacion(games: list[dict[str, Any]], issues: list[Issue]) -> None:
     for idx, game in enumerate(games):
-        prot = game.get("proteccion")
-        if prot is None:
-            add(issues, "WARN", idx, game, "proteccion", "Falta bloque de preservación/protección. Recomendable completarlo.")
+        preservacion = game.get("preservacion")
+        if preservacion is None:
+            add(issues, "ERROR", idx, game, "preservacion", "Falta el bloque obligatorio de preservación.")
             continue
-        if not isinstance(prot, dict):
-            add(issues, "ERROR", idx, game, "proteccion", "Debe ser un objeto.")
+        if not isinstance(preservacion, dict):
+            add(issues, "ERROR", idx, game, "preservacion", "Debe ser un objeto.")
             continue
-        for field in ["tipo", "version", "preservacion", "formato", "jugable_virtual"]:
-            if field not in prot:
-                add(issues, "ERROR", idx, game, f"proteccion.{field}", "Campo obligatorio ausente.")
-        if prot.get("tipo") in {"SafeDisc", "SecuROM", "LaserLock", "StarForce", "TAGES"} and not prot.get("version"):
-            add(issues, "WARN", idx, game, "proteccion.version", "Conviene indicar versión cuando la protección es conocida.")
-
+        if "resumen" not in preservacion:
+            add(issues, "ERROR", idx, game, "preservacion.resumen", "Campo obligatorio ausente.")
+            continue
+        if not isinstance(preservacion.get("resumen"), str):
+            add(issues, "ERROR", idx, game, "preservacion.resumen", "Debe ser una cadena de texto.")
 
 def check_images(games: list[dict[str, Any]], base_dir: Path, issues: list[Issue]) -> None:
     for idx, game in enumerate(games):
@@ -435,7 +434,7 @@ def main() -> int:
     check_arrays_and_duplicates(games, issues)
     check_ean(games, issues)
     check_taxonomy(games, issues)
-    check_proteccion(games, issues)
+    check_preservacion(games, issues)
 
     if not args.no_images:
         check_images(games, base_dir, issues)

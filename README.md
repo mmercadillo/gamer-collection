@@ -129,6 +129,8 @@ F17.5 valida el modelo completo con **Red Baron 3-D (ficha #000215)**: preservac
 
 F17.6 cierra la fase y declara estable el **Estándar de preservación digital v1.0**. Para futuras piezas es obligatorio consultar `DISENO_FASE_17_AREA_DOCUMENTAL_PRESERVACION.md`, utilizar las plantillas correspondientes y evolucionar el estándar con trazabilidad cuando aparezca un caso no cubierto.
 
+`PROMPT_MAESTRO_PRESERVACION_COMPATIBILIDAD.md` es el protocolo operativo de arranque obligatorio para nuevas preservaciones y pruebas de compatibilidad. Reúne el flujo paso a paso, reglas de evidencia, Definition of Done y tratamiento específico de ediciones multi-CD/multi-soporte. Debe consultarse antes de iniciar una nueva pieza.
+
 F17.5 valida el modelo con **Red Baron 3-D, edición española Big Box (#000215)**: preservación digital verificada mediante doble adquisición coincidente y guía de ejecución real en Windows 10 Pro 22H2. La copia de trabajo BIN/CUE se montó con **WinCDEmu 4.1** y la edición funcionó de forma nativa, sin parches, wrappers, modo de compatibilidad ni elevación administrativa en el entorno probado.
 
 
@@ -202,6 +204,29 @@ El generador:
   - buscador,
   - vista de últimas incorporaciones cuando procede,
   - páginas de desarrolladores, distribuidores, géneros, plataformas y formatos.
+
+---
+
+## Modelo mínimo de preservación en `juegos.json`
+
+Cada pieza mantiene únicamente un resumen público del resultado verificado del laboratorio:
+
+```json
+"preservacion": {
+  "resumen": ""
+}
+```
+
+`preservacion.resumen` debe permanecer vacío mientras la pieza no haya sido preservada o estudiada con evidencia real. No se deben anticipar protección, formato de adquisición ni compatibilidad mediante recomendaciones genéricas. Los detalles técnicos completos viven en `documentacion.json`, `documentacion/fuentes/`, `registros_preservacion/` y `registros_compatibilidad/`.
+
+La migración desde el antiguo bloque `proteccion` se realiza con:
+
+```bash
+python migrar_preservacion_resumen.py          # simulación
+python migrar_preservacion_resumen.py --apply  # aplica cambios
+```
+
+El script solo conserva automáticamente un texto legado cuando la pieza ya tiene una documentación pública de categoría `preservacion` asociada; el resto queda vacío para evitar convertir recomendaciones no verificadas en hechos.
 
 ---
 

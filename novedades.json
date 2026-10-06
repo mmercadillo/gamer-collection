@@ -1,5 +1,11 @@
 [
   {
+    "fecha": "2026-10-06",
+    "titulo": "Las fichas mostrarán solo preservación realmente verificada",
+    "descripcion": "Hemos simplificado la información de preservación del catálogo: cada pieza solo mostrará resultados cuando haya pasado por nuestro proceso de laboratorio y exista evidencia documentada.",
+    "url": "documentacion/preservacion/estandar-preservacion-digital/"
+  },
+  {
     "fecha": "2026-10-05",
     "titulo": "Red Baron 3-D también funciona en Windows 10",
     "descripcion": "Hemos probado la edición española Big Box conservada en el archivo: se instala y funciona en Windows 10 sin parches ni modos de compatibilidad. La guía paso a paso ya está disponible.",

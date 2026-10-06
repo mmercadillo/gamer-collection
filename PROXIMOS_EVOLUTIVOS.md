@@ -3,7 +3,7 @@
 Documento vivo para registrar, ordenar y mantener los próximos evolutivos de PC Game Archive.
 
 **Base actual:** F17 — Área documental, preservación y compatibilidad reproducible cerrada  
-**Última actualización:** 05/10/2026
+**Última actualización:** 06/10/2026
 
 ---
 
@@ -33,6 +33,7 @@ F17 deja de formar parte del backlog activo y pasa a operación continua. Quedan
 - primer recorrido completo validado con **Red Baron 3-D, ficha #000215**;
 - separación obligatoria entre máster de preservación y copia de trabajo;
 - publicación únicamente de resultados respaldados por evidencia real.
+- `juegos.json` conserva solo `preservacion.resumen`; permanece vacío hasta disponer de resultados de laboratorio verificados.
 
 Los nuevos soportes, protecciones o escenarios de compatibilidad que aparezcan no constituyen automáticamente una nueva fase: primero se evaluará si pueden resolverse evolucionando el estándar/procedimiento vigente con su versionado correspondiente.
 

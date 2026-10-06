@@ -21,7 +21,7 @@
     "incluye",
     "serie",
     "tags",
-    "proteccion",
+    "preservacion",
     "anio",
     "mercado",
     "idioma",
@@ -280,65 +280,6 @@
         "minLength": 1
       }
     },
-    "proteccion": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "tipo",
-        "version",
-        "preservacion",
-        "formato",
-        "jugable_virtual"
-      ],
-      "properties": {
-        "tipo": {
-          "type": "string",
-          "enum": [
-            "Sin protección",
-            "Verificación de CD",
-            "Código o clave",
-            "Manual lookup",
-            "Key disk",
-            "Rol de claves",
-            "SafeDisc",
-            "SecuROM",
-            "LaserLock",
-            "DiscGuard",
-            "CD-Cops",
-            "StarForce",
-            "TAGES",
-            "ProtectDISC",
-            "No determinado",
-            "Uplay/activación online",
-            "DRM online de Ubisoft",
-            "Otro"
-          ]
-        },
-        "version": {
-          "type": "string"
-        },
-        "preservacion": {
-          "type": "string",
-          "minLength": 1
-        },
-        "formato": {
-          "type": "string",
-          "enum": [
-            "ISO",
-            "BIN/CUE",
-            "MDF/MDS",
-            "NRG",
-            "CCD/IMG/SUB",
-            "WAV/CUE",
-            "No aplica",
-            "Otro"
-          ]
-        },
-        "jugable_virtual": {
-          "type": "boolean"
-        }
-      }
-    },
     "anio": {
       "type": "string",
       "pattern": "^$|^\\d{4}$",
@@ -497,6 +438,20 @@
           "Otro",
           "No determinado"
         ]
+      }
+    },
+    "preservacion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "resumen"
+      ],
+      "description": "Resumen público del resultado verificado de preservación y, cuando proceda, compatibilidad de esta pieza. Debe permanecer vacío hasta que la pieza haya sido tratada en laboratorio y exista evidencia documental.",
+      "properties": {
+        "resumen": {
+          "type": "string",
+          "description": "Texto breve basado exclusivamente en resultados verificados del laboratorio. Cadena vacía mientras la pieza no haya sido preservada o estudiada."
+        }
       }
     }
   },

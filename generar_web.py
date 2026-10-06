@@ -1650,7 +1650,7 @@ def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
     index: list[dict[str, Any]] = []
     searchable_fields = (
         "num", "titulo", "plataforma", "formato", "genero", "desarrollador",
-        "distribuidor", "ean", "descripcion", "incluye", "serie", "tags", "proteccion",
+        "distribuidor", "ean", "descripcion", "incluye", "serie", "tags", "preservacion",
         # Fase 10B: nuevos metadatos. Mientras estén vacíos no alteran el índice
         # generado; cuando se documenten pasan a formar parte de la búsqueda global.
         "anio", "mercado", "idioma", "soporte", "tipo_edicion",
@@ -3096,7 +3096,8 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
         format_href = entity_href("formatos", format_value, taxonomy_lookup, prefix) or home_href(prefix)
         ig = game.get("ig") or ""
         ig_btn = f'<a class="button" href="{h(ig)}" target="_blank" rel="noopener">Ver publicación en Instagram</a>' if ig else ""
-        prot = game.get("proteccion") if isinstance(game.get("proteccion"), dict) else {}
+        preservacion = game.get("preservacion") if isinstance(game.get("preservacion"), dict) else {}
+        preservacion_resumen = str(preservacion.get("resumen", "") or "").strip()
 
         # Fase 10B: metadatos editoriales nuevos. Todos son obligatorios en el
         # schema, pero se admiten vacíos. Por eso las filas solo aparecen cuando
@@ -3167,9 +3168,7 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
       </dl>
       <h2>Contenido de la edición</h2>
       <ul>{''.join(f'<li>{h(x)}</li>' for x in (game.get('incluye') or [])) or '<li>Pendiente de documentación.</li>'}</ul>
-      <h2>Preservación</h2>
-      <dl class="kv compact"><dt>Protección</dt><dd>{h(text(prot.get('tipo')))}</dd><dt>Formato recomendado</dt><dd>{h(text(prot.get('formato')))}</dd><dt>Jugable en virtualización</dt><dd>{'Sí' if prot.get('jugable_virtual') else 'No determinado'}</dd></dl>
-      <p>{h(text(prot.get('preservacion'), 'Pendiente de documentación.'))}</p>
+      {f'<h2>Preservación</h2><p>{h(preservacion_resumen)}</p>' if preservacion_resumen else ''}
     </section>
   </article>
   {documentation_html}
@@ -3459,8 +3458,8 @@ def main() -> int:
     generate_sitemap(games, documents, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: fase17.4-integracion-documentacion-fichas-2026-10-04")
-    print("Fase 17.4: integración bidireccional entre documentación y fichas")
+    print("Versión generador: post-f17-modelo-preservacion-2026-10-06")
+    print("Modelo de preservación: resumen verificado por pieza")
     print(f"Novedades procesadas: {len(news)}")
     print(f"Documentos indexados: {len(documents)}")
     print(f"Generación completada: {out}")

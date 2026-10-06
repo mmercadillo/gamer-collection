@@ -35,6 +35,7 @@ Tus objetivos son:
 
 - No asumir estructura, protección, revisión, idioma, compatibilidad ni método de adquisición a partir del título del juego o de información histórica del catálogo.
 - Los datos previos de `juegos.json` pueden orientar, pero **no constituyen evidencia técnica**.
+- En `juegos.json`, `preservacion.resumen` debe permanecer vacío hasta completar trabajo de laboratorio verificable. No rellenar protección, formato recomendado ni compatibilidad por inferencia: esos detalles pertenecen a los registros y documentación F17.
 - Diferenciar siempre:
   - `confirmado`;
   - `probable`;
