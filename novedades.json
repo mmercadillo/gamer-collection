@@ -1,5 +1,17 @@
 [
   {
+    "fecha": "2026-10-07",
+    "titulo": "A Sangre Fría funciona en Windows 10 desde sus tres CD",
+    "descripcion": "Hemos probado la edición española Big Box conservada en el archivo: se instala desde los tres discos, solicita correctamente los cambios de CD y funciona en Windows 10 sin parches ni modos de compatibilidad.",
+    "url": "documentacion/guias/a-sangre-fria-windows-10/"
+  },
+  {
+    "fecha": "2026-10-07",
+    "titulo": "A Sangre Fría: tres CD preservados y verificados",
+    "descripcion": "Los tres CD-ROM de la edición española han sido preservados mediante dos adquisiciones independientes por soporte. Las seis imágenes principales coinciden por SHA-256 y el proceso queda documentado.",
+    "url": "documentacion/preservacion/a-sangre-fria-bigbox/"
+  },
+  {
     "fecha": "2026-10-06",
     "titulo": "Las fichas mostrarán solo preservación realmente verificada",
     "descripcion": "Hemos simplificado la información de preservación del catálogo: cada pieza solo mostrará resultados cuando haya pasado por nuestro proceso de laboratorio y exista evidencia documentada.",

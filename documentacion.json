@@ -1,5 +1,31 @@
 [
   {
+    "id": "guia-a-sangre-fria-windows-10",
+    "titulo": "Jugar a A Sangre Fría en Windows 10 — edición española Big Box",
+    "categoria": "guias",
+    "fecha": "2026-10-07",
+    "descripcion": "Guía paso a paso probada sobre la edición española Big Box de tres CD conservada por PC Game Archive: montaje, instalación con cambios de disco y ejecución nativa en Windows 10 Pro.",
+    "url": "documentacion/guias/a-sangre-fria-windows-10/",
+    "juegos": [
+      "juegos/a-sangre-fria-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/guia-a-sangre-fria-windows-10.md",
+    "actualizado": "2026-10-07"
+  },
+  {
+    "id": "preservacion-a-sangre-fria-bigbox",
+    "titulo": "Preservación digital de A Sangre Fría — edición española Big Box",
+    "categoria": "preservacion",
+    "fecha": "2026-10-07",
+    "descripcion": "Registro verificable de la preservación de los tres CD-ROM de la edición española Big Box conservada por PC Game Archive, con doble adquisición independiente coincidente por soporte.",
+    "url": "documentacion/preservacion/a-sangre-fria-bigbox/",
+    "juegos": [
+      "juegos/a-sangre-fria-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-a-sangre-fria-bigbox.md",
+    "actualizado": "2026-10-07"
+  },
+  {
     "id": "guia-red-baron-3d-windows-10",
     "titulo": "Jugar a Red Baron 3-D en Windows 10 — edición española Big Box",
     "categoria": "guias",
