@@ -128,7 +128,6 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ascaron-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/frogwares/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/illusion-softworks/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/infogrames/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/lucasfilm-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/milestone/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/techland/</loc></url>
@@ -139,6 +138,7 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/city-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cryo-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cunning-developments/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/infogrames/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/pandemic-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/quicksilver-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/activision/</loc></url>
@@ -224,6 +224,7 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/iguana-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/image-space-incorporated/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/index/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/infogrames-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/jowood-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/kheops-studio/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/legend-entertainment/</loc></url>
@@ -316,7 +317,6 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/1c-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/capcom/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/city-interactive/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/gt-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/interplay/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/interplay-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/midway-games/</loc></url>
@@ -326,6 +326,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/the-adventure-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/wanadoo-edition/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/zeta-games/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/gt-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/kalypso-media/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/proein-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/puntosoft/</loc></url>
@@ -343,6 +344,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/el-mundo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/fox-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/id-software/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/infogrames-europe/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/konami/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/mcm-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ncsoft/</loc></url>
@@ -399,9 +401,9 @@
   <url><loc>https://www.pcgamearchive.org/generos/fantasia-oscura/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rally/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-tactica/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/4x/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/survival-horror/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tercera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tactica-en-tiempo-real/</loc></url>
@@ -427,10 +429,11 @@
   <url><loc>https://www.pcgamearchive.org/generos/militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/mmorpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-militar/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-aerea/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vuelo/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-deportiva/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/formula-1/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/guerra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/manager-deportivo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/motociclismo/</loc></url>
@@ -440,7 +443,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/aventura-de-accion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-y-gestion/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/formula-1/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-y-slash/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shooter-sobre-railes/</loc></url>
@@ -448,6 +450,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/simulador-de-vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tenis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-por-turnos/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/automovilismo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/crimen/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/cyberpunk/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/golf/</loc></url>
@@ -456,7 +459,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/rol-de-accion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/supervivencia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/western/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/automovilismo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-3d/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-cinematografica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-en-tercera-persona/</loc></url>
@@ -476,6 +478,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/accion-aventura/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/atletismo/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/carreras-arcade/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/ciclismo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-en-tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-moderno/</loc></url>
@@ -493,6 +496,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/puzles/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shoot-em-up/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate-espacial/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-conduccion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vida/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-policial/</loc></url>
@@ -3143,6 +3147,42 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.pcgamearchive.org/juegos/dethkarz-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/dethkarz-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/dethkarz-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/dethkarz-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-2-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-2-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-2-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-2-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/001.jpg</image:loc>
@@ -5108,18 +5148,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/monaco-grand-prix-racing-simulation-2-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.pcgamearchive.org/juegos/force-21-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/force-21-bigbox/img/001.jpg</image:loc>
@@ -5309,18 +5337,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/lander-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/dethkarz-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/dethkarz-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/dethkarz-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/dethkarz-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -5594,18 +5610,6 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/kingdoms-bigbox/img/003.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-2-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-2-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-2-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/v-rally-multiplayer-championship-edition-2-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
