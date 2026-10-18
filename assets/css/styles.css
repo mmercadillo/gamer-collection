@@ -34,6 +34,7 @@
 
 /* Vídeos introductorios opcionales en la ficha de juego */
 .game-intro-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:20px;min-width:0}
+.media-card .game-intro-card{margin-top:16px;padding:16px 0 0;border:0;border-top:1px solid var(--bd);border-radius:0;background:transparent}
 .game-intro-card h2{font-size:22px;line-height:1.2;margin:0 0 10px}
 .game-intro-card p{color:#444;font-size:14px;margin:0 0 14px}
 .game-intro-card video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111;border-radius:12px;object-fit:contain}

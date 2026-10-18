@@ -3190,11 +3190,11 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
           <img class="hero-img" src="{h(hero)}" alt="{h(hero_alt)}" width="760" height="570" loading="eager" fetchpriority="high" {hero_fallback_attrs}>
           <figcaption>{h(hero_caption)}</figcaption>
         </figure>
+        {video_block}
         <div class="chips">{chip_html}</div>
         <div class="actions"><a class="button" href="{home_href(prefix)}">Volver al catálogo</a>{ig_btn}</div>
       </section>
       {support_block}
-      {video_block}
     </div>
     <section class="content-card">
       <p class="eyebrow">Ficha #{h(game.get('num') or '000000')}</p>
@@ -3888,6 +3888,7 @@ CSS += r'''
 CSS += r'''
 /* Vídeos introductorios opcionales en la ficha de juego */
 .game-intro-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:20px;min-width:0}
+.media-card .game-intro-card{margin-top:16px;padding:16px 0 0;border:0;border-top:1px solid var(--bd);border-radius:0;background:transparent}
 .game-intro-card h2{font-size:22px;line-height:1.2;margin:0 0 10px}
 .game-intro-card p{color:#444;font-size:14px;margin:0 0 14px}
 .game-intro-card video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111;border-radius:12px;object-fit:contain}
