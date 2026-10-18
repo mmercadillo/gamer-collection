@@ -360,6 +360,10 @@ DOCUMENTATION_CATEGORIES = {
         "label": "Historia y contexto",
         "description": "Contenido documental sobre ediciones, editoras, distribuidoras y contexto histórico del videojuego físico de PC.",
     },
+    "laboratorio": {
+        "label": "Entornos de referencia",
+        "description": "Hardware, software y reglas operativas de los entornos con los que PC Game Archive preserva soportes y valida compatibilidad de forma reproducible.",
+    },
 }
 
 
@@ -1962,13 +1966,13 @@ def generate_documentation_hub(documents: list[dict[str, Any]], out: Path, base_
   <div class="documentation-list">{"".join(entries)}</div>
 </section>'''
 
-    desc = "Documentación de PC Game Archive sobre preservación digital, compatibilidad, soportes físicos e historia de los videojuegos de PC."
+    desc = "Documentación de PC Game Archive sobre preservación digital, compatibilidad, entornos de referencia, soportes físicos e historia de los videojuegos de PC."
     body = f'''<main>
   <section class="wrap page-head">
     <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / Documentación</nav>
     <p class="eyebrow">Conocimiento reproducible del archivo</p>
     <h1>Documentación</h1>
-    <p class="lead">Procedimientos, guías y contexto técnico para conservar, comprender y ejecutar las ediciones físicas documentadas por PC Game Archive.</p>
+    <p class="lead">Procedimientos, entornos de referencia, guías y contexto técnico para conservar, comprender y ejecutar las ediciones físicas documentadas por PC Game Archive.</p>
   </section>
   <section class="wrap documentation-section" aria-labelledby="documentation-areas-title">
     <div class="section-head"><h2 id="documentation-areas-title">Áreas documentales</h2></div>
@@ -3458,7 +3462,7 @@ def main() -> int:
     generate_sitemap(games, documents, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: post-f17-modelo-preservacion-2026-10-06")
+    print("Versión generador: post-f17-entornos-referencia-2026-10-18")
     print("Modelo de preservación: resumen verificado por pieza")
     print(f"Novedades procesadas: {len(news)}")
     print(f"Documentos indexados: {len(documents)}")

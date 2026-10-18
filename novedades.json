@@ -1,5 +1,11 @@
 [
   {
+    "fecha": "2026-10-18",
+    "titulo": "Publicamos nuestros entornos de referencia de preservación y compatibilidad",
+    "descripcion": "Documentamos PCGA-MASTER-01 y PCGA-LAB-01: las bases de hardware, software y procedimiento con las que creamos másteres verificables y probamos juegos en sistemas actuales.",
+    "url": "documentacion/"
+  },
+  {
     "fecha": "2026-10-07",
     "titulo": "A Sangre Fría funciona en Windows 10 desde sus tres CD",
     "descripcion": "Hemos probado la edición española Big Box conservada en el archivo: se instala desde los tres discos, solicita correctamente los cambios de CD y funciona en Windows 10 sin parches ni modos de compatibilidad.",

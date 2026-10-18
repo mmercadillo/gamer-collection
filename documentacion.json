@@ -1,5 +1,25 @@
 [
   {
+    "id": "entorno-pcga-master-01",
+    "titulo": "PCGA-MASTER-01 — estación de preservación de referencia",
+    "categoria": "laboratorio",
+    "fecha": "2026-10-18",
+    "descripcion": "Hardware, unidad óptica, software y reglas operativas del entorno de referencia con el que PC Game Archive crea y verifica sus másteres de preservación.",
+    "url": "documentacion/laboratorio/pcga-master-01/",
+    "contenido": "documentacion/fuentes/pcga-master-01.md",
+    "actualizado": "2026-10-18"
+  },
+  {
+    "id": "entorno-pcga-lab-01",
+    "titulo": "PCGA-LAB-01 — laboratorio de compatibilidad de referencia",
+    "categoria": "laboratorio",
+    "fecha": "2026-10-18",
+    "descripcion": "Hardware, software y criterios de prueba del entorno de referencia utilizado para instalar, ejecutar y validar juegos conservados por PC Game Archive.",
+    "url": "documentacion/laboratorio/pcga-lab-01/",
+    "contenido": "documentacion/fuentes/pcga-lab-01.md",
+    "actualizado": "2026-10-18"
+  },
+  {
     "id": "guia-a-sangre-fria-windows-10",
     "titulo": "Jugar a A Sangre Fría en Windows 10 — edición española Big Box",
     "categoria": "guias",
