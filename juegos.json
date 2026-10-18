@@ -17304,7 +17304,7 @@
       "Lanzamiento original"
     ],
     "preservacion": {
-      "resumen": ""
+      "resumen": "Preservación digital realizada y verificada mediante dos adquisiciones independientes coincidentes con MPF 3.10.0 y Redumper build b749. El CD consta de una pista MODE1/2352 y el escaneo realizado no detectó protección de copia. La compatibilidad se verificó desde una copia de trabajo derivada del máster, montando BIN/CUE con WinCDEmu 4.1: en Windows 10 Pro 22H2 x64 el instalador Win16 requiere otvdm 0.9.0 y la ejecución 3D funciona correctamente con DDrawCompat 0.7.2 configurado con FpsLimiter = flipend(30). DirectX 5 no es necesario y no se instaló. Estado: Correcto con limitaciones."
     }
   },
   {

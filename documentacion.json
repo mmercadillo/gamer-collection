@@ -1,5 +1,31 @@
 [
   {
+    "id": "guia-panzer-commander-windows-10",
+    "titulo": "Jugar a Panzer Commander en Windows 10 — edición española Big Box",
+    "categoria": "guias",
+    "fecha": "2026-10-18",
+    "descripcion": "Guía paso a paso probada para instalar la edición española Big Box en Windows 10 x64 mediante otvdm y ejecutar el juego de forma estable con DDrawCompat limitado a 30 FPS.",
+    "url": "documentacion/guias/panzer-commander-windows-10/",
+    "juegos": [
+      "juegos/panzer-commander-wwii-tank-simulator-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/guia-panzer-commander-windows-10.md",
+    "actualizado": "2026-10-18"
+  },
+  {
+    "id": "preservacion-panzer-commander-wwii-tank-simulator-bigbox",
+    "titulo": "Preservación digital de Panzer Commander: WWII Tank Simulator — edición española Big Box",
+    "categoria": "preservacion",
+    "fecha": "2026-10-07",
+    "descripcion": "Registro verificable de la preservación del CD-ROM de la edición española Big Box conservada por PC Game Archive, mediante dos adquisiciones independientes coincidentes y hashes SHA-256.",
+    "url": "documentacion/preservacion/panzer-commander-wwii-tank-simulator-bigbox/",
+    "juegos": [
+      "juegos/panzer-commander-wwii-tank-simulator-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-panzer-commander-wwii-tank-simulator-bigbox.md",
+    "actualizado": "2026-10-18"
+  },
+  {
     "id": "entorno-pcga-master-01",
     "titulo": "PCGA-MASTER-01 — estación de preservación de referencia",
     "categoria": "laboratorio",
