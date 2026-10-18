@@ -18042,7 +18042,7 @@
   {
     "num": "000216",
     "ig": "https://www.instagram.com/p/DeOhNdriKrn",
-    "video_intro": false,
+    "video_intro": true,
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",
@@ -18117,8 +18117,8 @@
     "preservacion": {
       "resumen": "Preservación digital realizada y verificada el 07/10/2026 sobre los tres CD-ROM de la edición española, mediante dos adquisiciones independientes coincidentes por soporte con MPF 3.10.0 y Redumper build b749. Los tres discos constan de una pista MODE2/2352 y el escaneo realizado no detectó protección de copia. La compatibilidad se verificó desde una copia de trabajo derivada de los másteres: la edición se instala correctamente desde los tres discos y funciona de forma nativa en Windows 10 Pro build 19045, montando BIN/CUE con WinCDEmu 4.1, sin parches, wrappers, modo de compatibilidad ni elevación administrativa."
     },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
+    "video_intro_fecha": "2026-10-18",
+    "video_intro_duracion": "PT2M26S"
   },
   {
     "num": "000217",
