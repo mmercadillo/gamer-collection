@@ -458,6 +458,18 @@
       "type": "boolean",
       "default": false,
       "description": "Indica si se muestra la introducción en vídeo disponible en videos/<slug>.mp4, donde slug se deriva de la URL de la ficha."
+    },
+    "video_intro_fecha": {
+      "type": "string",
+      "default": "",
+      "description": "Fecha REAL de publicación del vídeo (AAAA-MM-DD). Vacío si no se conoce.",
+      "pattern": "^$|^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "video_intro_duracion": {
+      "type": "string",
+      "default": "",
+      "description": "Duración verificada del vídeo en ISO 8601 (ej. PT2M27S). Vacío si no consta.",
+      "pattern": "^$|^PT(?:\\d+H)?(?:\\d+M)?(?:\\d+S)?$"
     }
   },
   "allOf": [

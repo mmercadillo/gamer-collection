@@ -3143,14 +3143,18 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
   </div>
   <a class="button" href="{h(support_href)}" data-game-support="1" data-game-title="{h(title)}" data-game-slug="{h(game_slug)}" data-game-num="{h(game.get('num') or '000000')}" data-game-format="{h(text(game.get('formato')))}">Apoyar la conservación de esta pieza</a>
 </section>'''
-        # Vídeo introductorio opcional: el nombre se deriva del slug existente.
-        # No se publica un reproductor roto si todavía no se ha incorporado el MP4.
+        # Los recursos multimedia se despliegan por separado del ZIP de código.
+        # video_intro es la declaración editorial de que el vídeo está publicado.
+        # No se comprueba su presencia física durante la generación.
         video_block = ""
+        video_jsonld = None
         if game.get("video_intro") is True:
             video_relpath = f"videos/{game_slug}.mp4"
-            if (project_root / video_relpath).is_file():
-                video_src = f"{prefix}{video_relpath}"
-                video_block = f'''<section class="game-intro-card" aria-label="Introducción original">
+            poster_relpath = f"videos/{game_slug}.webp"
+            video_src = f"{prefix}{video_relpath}"
+            video_date = str(game.get("video_intro_fecha") or "").strip()
+            video_duration = str(game.get("video_intro_duracion") or "").strip()
+            video_block = f'''<section class="game-intro-card" aria-label="Introducción original">
   <h2>Introducción original</h2>
   <p>Vídeo capturado a partir de la copia original del juego conservada en la colección de PC Game Archive.</p>
   <video controls preload="none" playsinline aria-label="Introducción original de {h(title)}">
@@ -3158,8 +3162,25 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
     Tu navegador no permite reproducir este vídeo.
   </video>
 </section>'''
+            # El marcado se deriva de metadatos declarados. El póster es una
+            # obligación del despliegue, nunca una condición del entorno fuente.
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", video_date):
+                video_jsonld = {
+                    "@context": "https://schema.org",
+                    "@type": "VideoObject",
+                    "@id": abs_url(base_url, url) + "#intro",
+                    "name": "Introducción original de " + title,
+                    "description": "Vídeo capturado a partir de la copia original del juego conservada en la colección de PC Game Archive.",
+                    "thumbnailUrl": abs_url(base_url, poster_relpath),
+                    "uploadDate": video_date,
+                    "contentUrl": abs_url(base_url, video_relpath),
+                    "embedUrl": abs_url(base_url, url),
+                    "isPartOf": {"@id": abs_url(base_url, url) + "#webpage"},
+                }
+                if re.fullmatch(r"PT(?=\d+[HMS])(?:\d+H)?(?:\d+M)?(?:\d+S)?", video_duration):
+                    video_jsonld["duration"] = video_duration
             else:
-                print(f"AVISO: video_intro=true para {game_slug}, pero falta {video_relpath}; se omite el reproductor.")
+                print(f"AVISO SEO vídeo {game_slug}: falta fecha real de publicación; VideoObject omitido.")
         body = f'''<main class="wrap game-detail">
   <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{h(format_href)}">{h(format_value)}</a> / <span>{h(title)}</span></nav>
   <article class="detail-grid">
@@ -3200,7 +3221,7 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
         page = layout(
             page_title, desc, abs_url(base_url, url), "", body, prefix=prefix, subtitle="Ficha documental",
             image=abs_url(base_url, hero_path),
-            jsonld=[game_page_jsonld(game, base_url, primary_image_path), game_jsonld(game, base_url, primary_image_path), breadcrumb_jsonld(game, base_url, taxonomy_lookup)],
+            jsonld=[game_page_jsonld(game, base_url, primary_image_path), game_jsonld(game, base_url, primary_image_path), breadcrumb_jsonld(game, base_url, taxonomy_lookup)] + ([video_jsonld] if video_jsonld else []),
             image_alt=hero_alt,
         )
         target = out / url / "index.html"
