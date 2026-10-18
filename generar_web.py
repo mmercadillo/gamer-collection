@@ -3143,6 +3143,23 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
   </div>
   <a class="button" href="{h(support_href)}" data-game-support="1" data-game-title="{h(title)}" data-game-slug="{h(game_slug)}" data-game-num="{h(game.get('num') or '000000')}" data-game-format="{h(text(game.get('formato')))}">Apoyar la conservación de esta pieza</a>
 </section>'''
+        # Vídeo introductorio opcional: el nombre se deriva del slug existente.
+        # No se publica un reproductor roto si todavía no se ha incorporado el MP4.
+        video_block = ""
+        if game.get("video_intro") is True:
+            video_relpath = f"videos/{game_slug}.mp4"
+            if (project_root / video_relpath).is_file():
+                video_src = f"{prefix}{video_relpath}"
+                video_block = f'''<section class="game-intro-card" aria-label="Introducción original">
+  <h2>Introducción original</h2>
+  <p>Vídeo capturado a partir de la copia original del juego conservada en la colección de PC Game Archive.</p>
+  <video controls preload="none" playsinline aria-label="Introducción original de {h(title)}">
+    <source src="{h(video_src)}" type="video/mp4">
+    Tu navegador no permite reproducir este vídeo.
+  </video>
+</section>'''
+            else:
+                print(f"AVISO: video_intro=true para {game_slug}, pero falta {video_relpath}; se omite el reproductor.")
         body = f'''<main class="wrap game-detail">
   <nav class="breadcrumbs"><a href="{home_href(prefix)}">Inicio</a> / <a href="{h(format_href)}">{h(format_value)}</a> / <span>{h(title)}</span></nav>
   <article class="detail-grid">
@@ -3156,6 +3173,7 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
         <div class="actions"><a class="button" href="{home_href(prefix)}">Volver al catálogo</a>{ig_btn}</div>
       </section>
       {support_block}
+      {video_block}
     </div>
     <section class="content-card">
       <p class="eyebrow">Ficha #{h(game.get('num') or '000000')}</p>
@@ -3844,6 +3862,14 @@ CSS += r'''
 
 CSS += r'''
 .documentation-section{padding-top:18px;padding-bottom:34px}.documentation-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.documentation-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:22px}.documentation-card h2{margin:0 0 8px}.documentation-card p:last-child{margin-bottom:0;color:#444}.documentation-principle{margin:20px 0 0;padding:18px 20px;background:var(--soft);border-left:4px solid #111;border-radius:0 14px 14px 0;max-width:980px}.documentation-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.documentation-entry{background:#fff;border:1px solid var(--bd);border-radius:18px;padding:18px}.documentation-entry h3{margin:0 0 8px}.documentation-entry h3 a{text-decoration:none}.documentation-entry h3 a:hover{text-decoration:underline}.documentation-entry p:last-child{margin-bottom:0;color:#444}@media(max-width:800px){.documentation-grid,.documentation-list{grid-template-columns:1fr}}
+'''
+
+CSS += r'''
+/* Vídeos introductorios opcionales en la ficha de juego */
+.game-intro-card{background:#fff;border:1px solid var(--bd);border-radius:20px;padding:20px;min-width:0}
+.game-intro-card h2{font-size:22px;line-height:1.2;margin:0 0 10px}
+.game-intro-card p{color:#444;font-size:14px;margin:0 0 14px}
+.game-intro-card video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111;border-radius:12px;object-fit:contain}
 '''
 
 if __name__ == "__main__":

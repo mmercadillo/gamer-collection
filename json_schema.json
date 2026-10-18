@@ -453,6 +453,11 @@
           "description": "Texto breve basado exclusivamente en resultados verificados del laboratorio. Cadena vacía mientras la pieza no haya sido preservada o estudiada."
         }
       }
+    },
+    "video_intro": {
+      "type": "boolean",
+      "default": false,
+      "description": "Indica si se muestra la introducción en vídeo disponible en videos/<slug>.mp4, donde slug se deriva de la URL de la ficha."
     }
   },
   "allOf": [
