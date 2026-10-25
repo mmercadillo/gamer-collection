@@ -38,3 +38,5 @@
 .game-intro-card h2{font-size:22px;line-height:1.2;margin:0 0 10px}
 .game-intro-card p{color:#444;font-size:14px;margin:0 0 14px}
 .game-intro-card video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111;border-radius:12px;object-fit:contain}
+
+.intro-list-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding-bottom:60px}.intro-list-card{min-width:0;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:20px}.intro-list-heading{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:16px}.intro-list-heading .eyebrow{margin:0;white-space:nowrap;flex:none}.intro-list-heading h2{font-size:18px;line-height:1.3;margin:0;text-align:right;min-width:0}.intro-list-heading h2 a{color:inherit}.intro-list-card video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111;border-radius:12px}@media(max-width:800px){.intro-list-grid{grid-template-columns:1fr}}

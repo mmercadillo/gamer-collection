@@ -1,10 +1,16 @@
 [
   {
-  "fecha": "2026-10-18",
-  "titulo": "Panzer Commander inaugura las intros en PC Game Archive",
-  "descripcion": "La ficha de Panzer Commander es la primera del archivo en incorporar su secuencia de introducción, capturada directamente de la copia original conservada en nuestra colección. Una nueva forma de revivir la experiencia de arranque de estos juegos.",
-  "url": "juegos/panzer-commander-wwii-tank-simulator-bigbox/"
-},
+    "fecha": "2026-10-25",
+    "titulo": "Las introducciones originales ya tienen su propio espacio en PC Game Archive",
+    "descripcion": "Estrenamos una sección de vídeos con las introducciones originales de nuestros juegos, vinculadas a sus fichas y ediciones físicas. Un nuevo espacio para revivir la historia del PC.",
+    "url": "videos/"
+  },
+  {
+    "fecha": "2026-10-18",
+    "titulo": "Panzer Commander inaugura las intros en PC Game Archive",
+    "descripcion": "La ficha de Panzer Commander es la primera del archivo en incorporar su secuencia de introducción, capturada directamente de la copia original conservada en nuestra colección. Una nueva forma de revivir la experiencia de arranque de estos juegos.",
+    "url": "juegos/panzer-commander-wwii-tank-simulator-bigbox/"
+  },
   {
     "fecha": "2026-10-18",
     "titulo": "Panzer Commander ya tiene guía de ejecución para Windows 10",

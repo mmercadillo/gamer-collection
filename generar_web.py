@@ -1054,6 +1054,7 @@ def nav(active: str, prefix: str = "") -> str:
     primary_items = [
         ("", "Inicio"),
         ("catalogo/", "Catálogo"),
+        ("videos/", "Vídeos"),
         ("novedades/", "Novedades"),
         ("documentacion/", "Documentación"),
     ]
@@ -1108,7 +1109,6 @@ def nav(active: str, prefix: str = "") -> str:
 </details>'''
     links.append(explore)
     links.extend(make_link(href, label) for href, label in utility_items)
-    links.append('<a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a>')
     return "\n".join(links)
 
 
@@ -1997,6 +1997,52 @@ def generate_documentation_hub(documents: list[dict[str, Any]], out: Path, base_
         layout("Documentación · PC Game Archive", desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación, compatibilidad y documentación técnica", jsonld=jsonld),
         encoding="utf-8",
     )
+
+
+def generate_videos(games: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
+    # Los ficheros audiovisuales se publican independientemente del ZIP de código.
+    route = "videos/"
+    prefix = rel_prefix_for(route + "index.html")
+    gallery_index = gallery_index or {}
+    selected = sorted(
+        (g for g in games if g.get("video_intro") is True and str(g.get("url") or "").startswith("juegos/")),
+        key=lambda g: (int(str(g.get("num") or "0")) if str(g.get("num") or "0").isdigit() else float("inf"), str(g.get("url") or "")),
+    )
+    entries = []
+    for game in selected:
+        game_url = str(game["url"]).strip()
+        slug = game_url.rstrip("/").split("/")[-1]
+        title = text(game.get("titulo"))
+        number = str(game.get("num") or "000000")
+        gallery = gallery_index.get(game_url, [])
+        primary_image_path = gallery[0] if gallery else None
+        poster = primary_image_path or resolved_primary_image(game)
+        entries.append(f'''<article class="intro-list-card">
+  <div class="intro-list-heading">
+    <p class="eyebrow">Ficha #{h(number)}</p>
+    <h2><a href="{prefix}{h(game_url)}">{h(title)}</a></h2>
+  </div>
+  <video controls preload="none" playsinline poster="{h(poster)}" aria-label="Introducción original de {h(title)}">
+    <source src="{prefix}videos/{h(slug)}.mp4" type="video/mp4">
+    Tu navegador no permite reproducir este vídeo.
+  </video>
+</article>''')
+    description = "Introducciones originales de los videojuegos de PC conservados y documentados en PC Game Archive."
+    listing = ''.join(entries) if entries else '<p>Actualmente no hay introducciones publicadas.</p>'
+    body = f'''<main>
+  <section class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / Vídeos</nav>
+    <p class="eyebrow">Archivo audiovisual</p>
+    <h1>Introducciones originales</h1>
+    <p class="lead">Revive las introducciones de los juegos conservados en PC Game Archive. Cada vídeo está vinculado a su edición física documentada.</p>
+    <p>{len(selected)} introducciones disponibles · Ordenadas por número de ficha</p>
+  </section>
+  <section class="wrap intro-list-grid" aria-label="Catálogo de introducciones">{listing}</section>
+</main>'''
+    structured = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Introducciones originales · PC Game Archive", "description": description, "url": abs_url(base_url, route)}]
+    target = out / route / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(layout("Vídeos · PC Game Archive", description, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Introducciones originales de videojuegos de PC", jsonld=structured), encoding="utf-8")
 
 
 def generate_index(games: list[dict[str, Any]], properties: dict[str, Any], news: list[dict[str, Any]], out: Path, base_url: str) -> None:
@@ -3157,7 +3203,7 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
             video_block = f'''<section class="game-intro-card" aria-label="Introducción original">
   <h2>Introducción original</h2>
   <p>Vídeo capturado a partir de la copia original del juego conservada en la colección de PC Game Archive.</p>
-  <video controls preload="none" playsinline aria-label="Introducción original de {h(title)}">
+  <video controls preload="none" playsinline poster="{h(hero)}" aria-label="Introducción original de {h(title)}">
     <source src="{h(video_src)}" type="video/mp4">
     Tu navegador no permite reproducir este vídeo.
   </video>
@@ -3230,7 +3276,7 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
 
 
 def generate_sitemap(games: list[dict[str, Any]], documents: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
-    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/", "novedades/", "documentacion/"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/", "novedades/", "documentacion/", "videos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
     urls.extend(document["url"] for document in documents)
     incorporation_count = len(dated_incorporations(games))
     if incorporation_count:
@@ -3485,6 +3531,7 @@ def main() -> int:
     generate_index(games, properties, news, out, args.base_url)
     generate_news(news, out, args.base_url)
     generate_documentation_hub(documents, out, args.base_url)
+    generate_videos(games, out, args.base_url, gallery_index)
     generate_documentation_pages(documents, games, out, project_root, args.base_url)
     generate_incorporations(games, out, args.base_url)
     generate_catalog_pages(games, out, args.base_url)
@@ -3892,6 +3939,10 @@ CSS += r'''
 .game-intro-card h2{font-size:22px;line-height:1.2;margin:0 0 10px}
 .game-intro-card p{color:#444;font-size:14px;margin:0 0 14px}
 .game-intro-card video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111;border-radius:12px;object-fit:contain}
+'''
+
+CSS += r'''
+.intro-list-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding-bottom:60px}.intro-list-card{min-width:0;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:20px}.intro-list-heading{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:16px}.intro-list-heading .eyebrow{margin:0;white-space:nowrap;flex:none}.intro-list-heading h2{font-size:18px;line-height:1.3;margin:0;text-align:right;min-width:0}.intro-list-heading h2 a{color:inherit}.intro-list-card video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111;border-radius:12px}@media(max-width:800px){.intro-list-grid{grid-template-columns:1fr}}
 '''
 
 if __name__ == "__main__":
