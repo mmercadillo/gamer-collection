@@ -4070,6 +4070,20 @@ CSS += r'''
 
 CSS += r'''
 .video-watch{max-width:1000px;margin-bottom:48px}.video-watch video{display:block;width:100%;max-height:75vh;aspect-ratio:16/9;object-fit:contain;background:#111;border-radius:16px}.video-watch .actions{margin-top:18px}.intro-list-heading h2{min-width:0;text-align:right}.intro-watch-link{font-size:13px;text-align:right;margin:10px 0 0}
+/* Mantener el margen lateral del catálogo audiovisual también en móviles.
+   La anchura explícita evita que el grid desborde por el tamaño intrínseco del vídeo. */
+@media(max-width:800px){
+  .intro-list-grid{width:calc(100% - 36px);max-width:calc(var(--max) - 36px);padding-left:0;padding-right:0;margin-left:auto;margin-right:auto;grid-template-columns:minmax(0,1fr)}
+  .intro-list-card{min-width:0;max-width:100%}
+  .intro-list-card video{max-width:100%}
+  .video-watch{width:calc(100% - 36px);max-width:calc(1000px - 36px);padding-left:0;padding-right:0;margin-left:auto;margin-right:auto}
+  .video-watch video{max-width:100%}
+}
+@media(max-width:480px){
+  .intro-list-card{padding:16px}
+  .intro-list-heading{gap:10px}
+  .intro-list-heading h2{overflow-wrap:anywhere}
+}
 '''
 
 if __name__ == "__main__":
