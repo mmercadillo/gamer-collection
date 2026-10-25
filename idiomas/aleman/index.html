@@ -364,6 +364,30 @@ if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathn
     game_slug:supportViewSlug
   });
 }
+
+(function(){
+  // Seguimiento de reproductores MP4 propios; GA4 Enhanced Measurement no los detecta como YouTube.
+  document.querySelectorAll('video[data-pcga-video]').forEach(function(video){
+    var started=false, milestones={};
+    var context={game_num:video.dataset.gameNum||'',game_slug:video.dataset.gameSlug||'',video_title:video.dataset.videoTitle||'',video_location:video.dataset.videoLocation||'',video_url:video.querySelector('source')?.src||'',source_page:location.pathname};
+    function send(name,extra){
+      if(typeof gtag!=='function') return;
+      gtag('event',name,Object.assign({},context,extra||{}));
+    }
+    video.addEventListener('play',function(){if(!started){started=true;send('video_start',{video_percent:0});}});
+    video.addEventListener('timeupdate',function(){
+      if(!isFinite(video.duration)||video.duration<=0)return;
+      var pct=100*video.currentTime/video.duration;
+      [25,50,75].forEach(function(n){if(pct>=n&&!milestones[n]){milestones[n]=true;send('video_progress',{video_percent:n});}});
+    });
+    video.addEventListener('pause',function(){if(!video.ended&&started)send('video_pause',{video_percent:video.duration>0?Math.round(100*video.currentTime/video.duration):0});});
+    video.addEventListener('ended',function(){send('video_complete',{video_percent:100});});
+  });
+  document.addEventListener('click',function(e){
+    var link=e.target.closest('a[data-video-game-link]');
+    if(link&&typeof gtag==='function')gtag('event','video_game_click',{game_num:link.dataset.gameNum||'',game_slug:link.dataset.gameSlug||'',video_location:link.dataset.videoLocation||'',source_page:location.pathname,link_url:link.href});
+  });
+})();
 </script>
 </body>
 </html>

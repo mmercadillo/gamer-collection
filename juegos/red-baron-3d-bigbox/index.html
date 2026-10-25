@@ -78,7 +78,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/#webpage","url":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/","name":"Red Baron 3-D","inLanguage":"es","mainEntity":{"@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/#videogame"},"primaryImageOfPage":{"@type":"ImageObject","@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/img/001.jpg#image","url":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/img/001.jpg","contentUrl":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/img/001.jpg","name":"Edición física de Red Baron 3-D, formato Big Box, para Windows 95, Windows 98","caption":"Red Baron 3-D · Big Box · Windows 95, Windows 98","representativeOfPage":true}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/#videogame","name":"Red Baron 3-D","url":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/","mainEntityOfPage":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/","description":"Red Baron 3-D es un simulador de combate aéreo ambientado en la Primera Guerra Mundial desarrollado por Dynamix y publicado por Sierra On-Line. Lanzado en 1998 como evolución tecnológica de Red Baron II, incorporó aceleración gráfica 3D para mejorar la representación de aeronaves, terrenos y combates, manteniendo el enfoque histórico y de simulación que caracterizaba a la serie. Permite pilotar numerosos aviones de las principales fuerzas enfrentadas, participar en campañas históricas, crear…","gamePlatform":["Win95","Win98"],"genre":["Simulación de vuelo","Simulación de combate aéreo","Simulación histórica"],"author":[{"@type":"Organization","name":"Dynamix"}],"publisher":[{"@type":"Organization","name":"Sierra On-Line"},{"@type":"Organization","name":"Coktel Educative"}],"image":{"@type":"ImageObject","@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/img/001.jpg#image","url":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/img/001.jpg","contentUrl":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/img/001.jpg","name":"Edición física de Red Baron 3-D, formato Big Box, para Windows 95, Windows 98","caption":"Red Baron 3-D · Big Box · Windows 95, Windows 98","representativeOfPage":true},"gtin":["3348542050372"],"datePublished":"1998","inLanguage":["Español"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Big Box","item":"https://www.pcgamearchive.org/juegos-pc-big-box.html"},{"@type":"ListItem","position":3,"name":"Red Baron 3-D","item":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/"}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/#intro","name":"Introducción original de Red Baron 3-D","description":"Vídeo capturado a partir de la copia original del juego conservada en la colección de PC Game Archive.","thumbnailUrl":"https://www.pcgamearchive.org/videos/red-baron-3d-bigbox.webp","uploadDate":"2026-10-18","contentUrl":"https://www.pcgamearchive.org/videos/red-baron-3d-bigbox.mp4","embedUrl":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/","isPartOf":{"@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/#webpage"},"duration":"PT1M13S"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/#intro","name":"Introducción original de Red Baron 3-D","description":"Vídeo capturado a partir de la copia original del juego conservada en la colección de PC Game Archive.","thumbnailUrl":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/img/001.jpg","uploadDate":"2026-10-18","contentUrl":"https://www.pcgamearchive.org/videos/red-baron-3d-bigbox.mp4","isPartOf":{"@id":"https://www.pcgamearchive.org/juegos/red-baron-3d-bigbox/#webpage"},"duration":"PT1M13S"}</script>
 </head>
 <body>
 <header id="top" class="site-header">
@@ -149,7 +149,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
         <section class="game-intro-card" aria-label="Introducción original">
   <h2>Introducción original</h2>
   <p>Vídeo capturado a partir de la copia original del juego conservada en la colección de PC Game Archive.</p>
-  <video controls preload="none" playsinline poster="/juegos/red-baron-3d-bigbox/img/001.jpg" aria-label="Introducción original de Red Baron 3-D">
+  <video controls preload="none" playsinline poster="/juegos/red-baron-3d-bigbox/img/001.jpg" data-pcga-video="1" data-game-num="000215" data-game-slug="red-baron-3d-bigbox" data-video-title="Red Baron 3-D" data-video-location="game_page" aria-label="Introducción original de Red Baron 3-D">
     <source src="../../videos/red-baron-3d-bigbox.mp4" type="video/mp4">
     Tu navegador no permite reproducir este vídeo.
   </video>
@@ -390,6 +390,30 @@ if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathn
     game_slug:supportViewSlug
   });
 }
+
+(function(){
+  // Seguimiento de reproductores MP4 propios; GA4 Enhanced Measurement no los detecta como YouTube.
+  document.querySelectorAll('video[data-pcga-video]').forEach(function(video){
+    var started=false, milestones={};
+    var context={game_num:video.dataset.gameNum||'',game_slug:video.dataset.gameSlug||'',video_title:video.dataset.videoTitle||'',video_location:video.dataset.videoLocation||'',video_url:video.querySelector('source')?.src||'',source_page:location.pathname};
+    function send(name,extra){
+      if(typeof gtag!=='function') return;
+      gtag('event',name,Object.assign({},context,extra||{}));
+    }
+    video.addEventListener('play',function(){if(!started){started=true;send('video_start',{video_percent:0});}});
+    video.addEventListener('timeupdate',function(){
+      if(!isFinite(video.duration)||video.duration<=0)return;
+      var pct=100*video.currentTime/video.duration;
+      [25,50,75].forEach(function(n){if(pct>=n&&!milestones[n]){milestones[n]=true;send('video_progress',{video_percent:n});}});
+    });
+    video.addEventListener('pause',function(){if(!video.ended&&started)send('video_pause',{video_percent:video.duration>0?Math.round(100*video.currentTime/video.duration):0});});
+    video.addEventListener('ended',function(){send('video_complete',{video_percent:100});});
+  });
+  document.addEventListener('click',function(e){
+    var link=e.target.closest('a[data-video-game-link]');
+    if(link&&typeof gtag==='function')gtag('event','video_game_click',{game_num:link.dataset.gameNum||'',game_slug:link.dataset.gameSlug||'',video_location:link.dataset.videoLocation||'',source_page:location.pathname,link_url:link.href});
+  });
+})();
 </script>
 </body>
 </html>

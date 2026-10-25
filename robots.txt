@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.pcgamearchive.org/sitemap.xml
+Sitemap: https://www.pcgamearchive.org/sitemap-videos.xml

@@ -1346,6 +1346,30 @@ if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathn
     game_slug:supportViewSlug
   }});
 }}
+
+(function(){{
+  // Seguimiento de reproductores MP4 propios; GA4 Enhanced Measurement no los detecta como YouTube.
+  document.querySelectorAll('video[data-pcga-video]').forEach(function(video){{
+    var started=false, milestones={{}};
+    var context={{game_num:video.dataset.gameNum||'',game_slug:video.dataset.gameSlug||'',video_title:video.dataset.videoTitle||'',video_location:video.dataset.videoLocation||'',video_url:video.querySelector('source')?.src||'',source_page:location.pathname}};
+    function send(name,extra){{
+      if(typeof gtag!=='function') return;
+      gtag('event',name,Object.assign({{}},context,extra||{{}}));
+    }}
+    video.addEventListener('play',function(){{if(!started){{started=true;send('video_start',{{video_percent:0}});}}}});
+    video.addEventListener('timeupdate',function(){{
+      if(!isFinite(video.duration)||video.duration<=0)return;
+      var pct=100*video.currentTime/video.duration;
+      [25,50,75].forEach(function(n){{if(pct>=n&&!milestones[n]){{milestones[n]=true;send('video_progress',{{video_percent:n}});}}}});
+    }});
+    video.addEventListener('pause',function(){{if(!video.ended&&started)send('video_pause',{{video_percent:video.duration>0?Math.round(100*video.currentTime/video.duration):0}});}});
+    video.addEventListener('ended',function(){{send('video_complete',{{video_percent:100}});}});
+  }});
+  document.addEventListener('click',function(e){{
+    var link=e.target.closest('a[data-video-game-link]');
+    if(link&&typeof gtag==='function')gtag('event','video_game_click',{{game_num:link.dataset.gameNum||'',game_slug:link.dataset.gameSlug||'',video_location:link.dataset.videoLocation||'',source_page:location.pathname,link_url:link.href}});
+  }});
+}})();
 </script>
 </body>
 </html>
@@ -1999,6 +2023,36 @@ def generate_documentation_hub(documents: list[dict[str, Any]], out: Path, base_
     )
 
 
+def intro_video_metadata(game: dict[str, Any], base_url: str, page_route: str, poster: str) -> dict[str, Any] | None:
+    """Metadatos verificables, no inventar fechas o duración."""
+    video_date = str(game.get("video_intro_fecha") or "").strip()
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", video_date):
+        return None
+    slug = str(game["url"]).strip("/").split("/")[-1]
+    title = text(game.get("titulo"))
+    result = {
+        "@context": "https://schema.org", "@type": "VideoObject",
+        "@id": abs_url(base_url, page_route) + "#video",
+        "name": "Introducción original de " + title,
+        "description": "Introducción original de " + title + " conservada por PC Game Archive, vinculada a su edición física documentada.",
+        "thumbnailUrl": abs_url(base_url, poster),
+        "uploadDate": video_date,
+        "contentUrl": abs_url(base_url, f"videos/{slug}.mp4"),
+        "isPartOf": {"@id": abs_url(base_url, page_route) + "#webpage"},
+    }
+    duration = str(game.get("video_intro_duracion") or "").strip()
+    if re.fullmatch(r"PT(?=\d+[HMS])(?:\d+H)?(?:\d+M)?(?:\d+S)?", duration):
+        result["duration"] = duration
+    return result
+
+
+def video_tracking_attrs(game: dict[str, Any], location: str) -> str:
+    slug = str(game.get("url") or "").strip("/").split("/")[-1]
+    return (f'data-pcga-video="1" data-game-num="{h(game.get("num") or "")}" '
+            f'data-game-slug="{h(slug)}" data-video-title="{h(text(game.get("titulo")))}" '
+            f'data-video-location="{h(location)}"')
+
+
 def generate_videos(games: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
     # Los ficheros audiovisuales se publican independientemente del ZIP de código.
     route = "videos/"
@@ -2017,15 +2071,17 @@ def generate_videos(games: list[dict[str, Any]], out: Path, base_url: str, galle
         gallery = gallery_index.get(game_url, [])
         primary_image_path = gallery[0] if gallery else None
         poster = primary_image_path or resolved_primary_image(game)
+        tracking = video_tracking_attrs(game, "videos")
         entries.append(f'''<article class="intro-list-card">
   <div class="intro-list-heading">
     <p class="eyebrow">Ficha #{h(number)}</p>
-    <h2><a href="{prefix}{h(game_url)}">{h(title)}</a></h2>
+    <h2><a href="{prefix}{h(game_url)}" data-video-game-link="1" data-game-num="{h(number)}" data-game-slug="{h(slug)}" data-video-location="videos">{h(title)}</a></h2>
   </div>
-  <video controls preload="none" playsinline poster="{h(poster)}" aria-label="Introducción original de {h(title)}">
+  <video controls preload="none" playsinline poster="{h(poster)}" {tracking} aria-label="Introducción original de {h(title)}">
     <source src="{prefix}videos/{h(slug)}.mp4" type="video/mp4">
     Tu navegador no permite reproducir este vídeo.
   </video>
+  <p class="intro-watch-link"><a href="{prefix}videos/{h(slug)}/">Abrir página de esta introducción</a></p>
 </article>''')
     description = "Introducciones originales de los videojuegos de PC conservados y documentados en PC Game Archive."
     listing = ''.join(entries) if entries else '<p>Actualmente no hay introducciones publicadas.</p>'
@@ -2043,6 +2099,45 @@ def generate_videos(games: list[dict[str, Any]], out: Path, base_url: str, galle
     target = out / route / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(layout("Vídeos · PC Game Archive", description, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Introducciones originales de videojuegos de PC", jsonld=structured), encoding="utf-8")
+    # Página de reproducción individual: el vídeo es el contenido principal.
+    for game in selected:
+        game_url = str(game["url"]).strip()
+        slug = game_url.strip("/").split("/")[-1]
+        title = text(game.get("titulo"))
+        number = str(game.get("num") or "000000")
+        watch_route = f"videos/{slug}/"
+        watch_prefix = rel_prefix_for(watch_route + "index.html")
+        gallery = gallery_index.get(game_url, [])
+        poster = gallery[0] if gallery else resolved_primary_image(game)
+        tracking = video_tracking_attrs(game, "video_page")
+        game_link = (f'<a class="button button-secondary" href="{watch_prefix}{h(game_url)}" '
+                     f'data-video-game-link="1" data-game-num="{h(number)}" data-game-slug="{h(slug)}" '
+                     f'data-video-location="video_page">Ver ficha de la edición física</a>')
+        watch_body = f'''<main>
+  <section class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(watch_prefix)}">Inicio</a> / <a href="{watch_prefix}videos/">Vídeos</a> / {h(title)}</nav>
+    <p class="eyebrow">Introducción original · Ficha #{h(number)}</p>
+    <h1>{h(title)}</h1>
+    <p class="lead">Introducción original de la edición física conservada y documentada en PC Game Archive.</p>
+  </section>
+  <section class="wrap video-watch" aria-label="Reproducción de {h(title)}">
+    <video controls preload="none" playsinline poster="{h(poster)}" {tracking} aria-label="Introducción original de {h(title)}">
+      <source src="{watch_prefix}videos/{h(slug)}.mp4" type="video/mp4">
+      Tu navegador no permite reproducir este vídeo.
+    </video>
+    <p>Este vídeo forma parte de la documentación audiovisual de una edición física del archivo.</p>
+    <div class="actions">{game_link}<a class="button button-secondary" href="{watch_prefix}videos/">Todas las introducciones</a></div>
+  </section>
+</main>'''
+        watch_description = f"Introducción original de {title}. Vídeo y ficha de la edición física conservada en PC Game Archive."
+        structured_video = intro_video_metadata(game, base_url, watch_route, poster)
+        structured_data = ([structured_video] if structured_video else [])
+        watch_target = out / watch_route / "index.html"
+        watch_target.parent.mkdir(parents=True, exist_ok=True)
+        watch_target.write_text(layout(f"Introducción original de {title} · PC Game Archive", watch_description,
+            abs_url(base_url, watch_route), "videos/", watch_body, prefix=watch_prefix,
+            jsonld=structured_data), encoding="utf-8")
+
 
 
 def generate_index(games: list[dict[str, Any]], properties: dict[str, Any], news: list[dict[str, Any]], out: Path, base_url: str) -> None:
@@ -3196,14 +3291,15 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
         video_jsonld = None
         if game.get("video_intro") is True:
             video_relpath = f"videos/{game_slug}.mp4"
-            poster_relpath = f"videos/{game_slug}.webp"
+            poster_relpath = hero
             video_src = f"{prefix}{video_relpath}"
             video_date = str(game.get("video_intro_fecha") or "").strip()
             video_duration = str(game.get("video_intro_duracion") or "").strip()
+            tracking = video_tracking_attrs(game, "game_page")
             video_block = f'''<section class="game-intro-card" aria-label="Introducción original">
   <h2>Introducción original</h2>
   <p>Vídeo capturado a partir de la copia original del juego conservada en la colección de PC Game Archive.</p>
-  <video controls preload="none" playsinline poster="{h(hero)}" aria-label="Introducción original de {h(title)}">
+  <video controls preload="none" playsinline poster="{h(hero)}" {tracking} aria-label="Introducción original de {h(title)}">
     <source src="{h(video_src)}" type="video/mp4">
     Tu navegador no permite reproducir este vídeo.
   </video>
@@ -3220,7 +3316,6 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
                     "thumbnailUrl": abs_url(base_url, poster_relpath),
                     "uploadDate": video_date,
                     "contentUrl": abs_url(base_url, video_relpath),
-                    "embedUrl": abs_url(base_url, url),
                     "isPartOf": {"@id": abs_url(base_url, url) + "#webpage"},
                 }
                 if re.fullmatch(r"PT(?=\d+[HMS])(?:\d+H)?(?:\d+M)?(?:\d+S)?", video_duration):
@@ -3308,6 +3403,13 @@ def generate_sitemap(games: list[dict[str, Any]], documents: list[dict[str, Any]
         if isinstance(url, str) and re.match(r"^juegos/[a-z0-9\-]+/$", url) and url not in seen:
             urls.append(url)
             seen.add(url)
+    for g in games:
+        u = str(g.get("url") or "")
+        if g.get("video_intro") is True and re.match(r"^juegos/[a-z0-9\-]+/$", u):
+            route = "videos/" + u.strip("/").split("/")[-1] + "/"
+            if route not in seen:
+                urls.append(route)
+                seen.add(route)
     gallery_index = gallery_index or {}
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -3328,10 +3430,30 @@ def generate_sitemap(games: list[dict[str, Any]], documents: list[dict[str, Any]
             lines.append(f"  <url><loc>{h(loc)}</loc></url>")
     lines.append("</urlset>")
     (out / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    # Sitemap audiovisual adicional con páginas de reproducción y miniatura consistente.
+    video_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">']
+    for game in games:
+        url = str(game.get("url") or "")
+        if game.get("video_intro") is not True or not re.match(r"^juegos/[a-z0-9\-]+/$", url):
+            continue
+        slug = url.strip("/").split("/")[-1]
+        gallery = gallery_index.get(url, [])
+        poster = gallery[0] if gallery else resolved_primary_image(game)
+        title = text(game.get("titulo"))
+        video_lines.extend([
+            '  <url>', f'    <loc>{h(abs_url(base_url, f"videos/{slug}/"))}</loc>',
+            '    <video:video>', f'      <video:thumbnail_loc>{h(abs_url(base_url, poster))}</video:thumbnail_loc>',
+            f'      <video:title>{h("Introducción original de " + title)}</video:title>',
+            f'      <video:description>{h("Introducción original de " + title + " conservada por PC Game Archive.")}</video:description>',
+            f'      <video:content_loc>{h(abs_url(base_url, f"videos/{slug}.mp4"))}</video:content_loc>',
+            '    </video:video>', '  </url>'])
+    video_lines.append('</urlset>')
+    (out / "sitemap-videos.xml").write_text("\n".join(video_lines) + "\n", encoding="utf-8")
 
 
 def generate_robots(out: Path, base_url: str) -> None:
-    (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base_url.rstrip('/')}/sitemap.xml\n", encoding="utf-8")
+    (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base_url.rstrip('/')}/sitemap.xml\nSitemap: {base_url.rstrip('/')}/sitemap-videos.xml\n", encoding="utf-8")
 
 
 def generate_static_redirect(out: Path, base_url: str, filename: str, target: str, title: str) -> None:
@@ -3943,6 +4065,11 @@ CSS += r'''
 
 CSS += r'''
 .intro-list-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding-bottom:60px}.intro-list-card{min-width:0;background:#fff;border:1px solid var(--bd);border-radius:20px;padding:20px}.intro-list-heading{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:16px}.intro-list-heading .eyebrow{margin:0;white-space:nowrap;flex:none}.intro-list-heading h2{font-size:18px;line-height:1.3;margin:0;text-align:right;min-width:0}.intro-list-heading h2 a{color:inherit}.intro-list-card video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111;border-radius:12px}@media(max-width:800px){.intro-list-grid{grid-template-columns:1fr}}
+'''
+
+
+CSS += r'''
+.video-watch{max-width:1000px;margin-bottom:48px}.video-watch video{display:block;width:100%;max-height:75vh;aspect-ratio:16/9;object-fit:contain;background:#111;border-radius:16px}.video-watch .actions{margin-top:18px}.intro-list-heading h2{min-width:0;text-align:right}.intro-watch-link{font-size:13px;text-align:right;margin:10px 0 0}
 '''
 
 if __name__ == "__main__":
