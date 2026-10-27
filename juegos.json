@@ -20106,7 +20106,7 @@
   },
   {
     "num": "000235",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/De_dCWVCG-o",
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",
@@ -20414,6 +20414,1117 @@
     "preservacion": {
       "resumen": ""
     },
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000237",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Kingpin: Life of Crime",
+    "url": "juegos/kingpin-life-of-crime-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Disparos en primera persona",
+      "FPS",
+      "Acción criminal",
+      "Shooter 3D"
+    ],
+    "desarrollador": [
+      "Xatrix Entertainment"
+    ],
+    "distribuidor": [
+      "Interplay Entertainment",
+      "Activision Spain"
+    ],
+    "ean": [
+      "5026102002273"
+    ],
+    "descripcion": "Kingpin: Life of Crime es un videojuego de acción y disparos en primera persona desarrollado por Xatrix Entertainment y publicado por Interplay Entertainment en 1999. Ambientado en un universo urbano decadente inspirado en el cine negro, las historias de gánsteres y la criminalidad estadounidense, propone una experiencia especialmente violenta y adulta que se distinguió de los shooters de ciencia ficción y militares predominantes a finales de los años noventa. El jugador encarna a un delincuente de bajo rango que, tras recibir una brutal paliza por orden de un poderoso jefe criminal conocido como Kingpin, emprende una campaña de venganza para ascender dentro del mundo del crimen organizado. La aventura combina enfrentamientos armados, exploración de barrios marginales, adquisición de armas, gestión de dinero y reclutamiento de delincuentes que pueden acompañar al protagonista durante determinadas misiones. Una de sus características más originales es el sistema de interacción con personajes no jugadores, que permite alternar entre actitudes amistosas y agresivas, además de contratar aliados y participar en situaciones que no se reducen exclusivamente al combate. Técnicamente utiliza una versión profundamente modificada del motor de Quake II, id Tech 2, con escenarios tridimensionales de estética industrial, iluminación atmosférica, texturas detalladas para su época, animaciones de personajes y un sistema de daños localizado que intensifica la representación de la violencia. Incorpora compatibilidad con aceleración gráfica OpenGL y tarjetas gráficas 3D de finales de los noventa. Su banda sonora incluye temas del grupo de hiphop Cypress Hill, procedentes del álbum Cypress Hill IV, cuya presencia contribuye decisivamente a la identidad sonora y callejera del juego. También ofrece multijugador competitivo mediante redes locales e Internet utilizando TCP/IP, con partidas de hasta 16 participantes. Kingpin fue objeto de controversia por su violencia explícita, su lenguaje adulto y su representación del crimen, convirtiéndose en uno de los lanzamientos más polémicos de 1999. La edición física europea documentada se comercializó en caja grande de cartón, con indicaciones comerciales en español, italiano y neerlandés, software en inglés y manual en castellano para el mercado español. Presenta la clasificación británica para mayores de 18 años y advertencias sobre su contenido violento. Su conservación resulta especialmente relevante para documentar la evolución de los shooters narrativos de finales de los noventa, la aplicación de motores 3D a ambientaciones urbanas realistas y la historia de la distribución europea de videojuegos para adultos en formato físico.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Estuche interior Jewel Case con carátula ilustrada",
+      "CD-ROM del juego",
+      "Manual de instrucciones en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Kingpin",
+      "Kingpin Life of Crime",
+      "Xatrix Entertainment",
+      "Interplay Entertainment",
+      "Activision",
+      "Diesel",
+      "id Software",
+      "id Tech 2",
+      "Quake II Engine",
+      "Cypress Hill",
+      "Cypress Hill IV",
+      "hip hop",
+      "crimen organizado",
+      "gánsteres",
+      "mafia",
+      "violencia explícita",
+      "videojuegos para adultos",
+      "clasificación 18",
+      "mundo criminal",
+      "ambientación urbana",
+      "cine negro",
+      "venganza",
+      "reclutamiento de aliados",
+      "inteligencia artificial",
+      "daño localizado",
+      "OpenGL",
+      "aceleración 3D",
+      "NVIDIA",
+      "multijugador LAN",
+      "TCP/IP",
+      "multijugador online",
+      "Windows 95",
+      "Windows 98",
+      "1999",
+      "edición europea",
+      "edición española",
+      "manual en castellano",
+      "software en inglés",
+      "Big Box PC",
+      "caja de cartón",
+      "CD-ROM",
+      "Jewel Case",
+      "PC clásico",
+      "videojuegos polémicos",
+      "coleccionismo PC",
+      "preservación digital",
+      "videojuegos físicos"
+    ],
+    "anio": "1999",
+    "mercado": [
+      "España",
+      "Italia",
+      "Países Bajos",
+      "Europa"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés",
+      "Italiano",
+      "Neerlandés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000238",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "The Gene Machine: La Gran Aventura Británica",
+    "url": "juegos/the-gene-machine-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Comedia",
+      "Ciencia ficción",
+      "Steampunk",
+      "Aventura de misterio"
+    ],
+    "desarrollador": [
+      "Divide By Zero"
+    ],
+    "distribuidor": [
+      "Vic Tokai Europe Ltd.",
+      "Virgin Interactive Entertainment (Europe) Ltd."
+    ],
+    "ean": [],
+    "descripcion": "The Gene Machine: La Gran Aventura Británica es una aventura gráfica point and click desarrollada por el estudio británico Divide By Zero y publicada en 1996 por Vic Tokai. Ambientada en la Inglaterra victoriana del siglo XIX, combina humor británico, ciencia ficción, aventuras y una estética steampunk inspirada en la literatura de Julio Verne y H. G. Wells. El protagonista, el excéntrico caballero Piers Featherstonehaugh, acompañado por su fiel criado Mossop, descubre una conspiración relacionada con experimentos genéticos y las peligrosas creaciones de un científico trastornado. La investigación lleva a los personajes a recorrer numerosos escenarios mientras resuelven enigmas, conversan con personajes extravagantes y descubren los secretos de la misteriosa Máquina Genética. El juego destaca por sus escenarios ilustrados a mano, gráficos SVGA, animaciones de personajes de estilo cinematográfico, diálogos humorísticos y una presentación visual inspirada en la ilustración y el cómic británicos. Utiliza una interfaz gráfica de interacción mediante ratón y el motor Interspective, desarrollado por Divide By Zero. Su propuesta combina las convenciones de la aventura gráfica clásica con una sátira de la sociedad victoriana, el colonialismo británico y los avances científicos de finales del siglo XIX. Esta edición física destinada al mercado español, presentada en caja grande de cartón con el subtítulo La Gran Aventura Británica, fue comercializada bajo el sello Vic Tokai con distribución europea de Virgin Interactive Entertainment. Conserva el formato CD-ROM y la presentación comercial característica de las aventuras gráficas para MS-DOS de mediados de los años noventa. Constituye una pieza de interés para la preservación de las aventuras gráficas europeas menos conocidas, especialmente por su dirección artística, su ambientación victoriana y su pertenencia al catálogo del desaparecido estudio Divide By Zero.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual de instrucciones ilustrado",
+      "CD-ROM original del juego",
+      "Estuche jewel case para CD-ROM"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Gene Machine",
+      "La Gran Aventura Británica",
+      "Divide By Zero",
+      "Vic Tokai",
+      "Vic Tokai Europe",
+      "Virgin Interactive",
+      "Piers Featherstonehaugh",
+      "Mossop",
+      "Interspective Engine",
+      "aventura gráfica británica",
+      "humor británico",
+      "época victoriana",
+      "Inglaterra victoriana",
+      "siglo XIX",
+      "steampunk",
+      "retro-futurismo",
+      "experimentos genéticos",
+      "científico loco",
+      "Julio Verne",
+      "H. G. Wells",
+      "animación tradicional",
+      "fondos pintados a mano",
+      "gráficos SVGA",
+      "motor gráfico 2D",
+      "MS-DOS",
+      "DOSBox",
+      "PC CD-ROM",
+      "edición española",
+      "caja grande",
+      "Big Box PC",
+      "1996",
+      "videojuego británico",
+      "aventuras gráficas de los 90",
+      "coleccionismo PC",
+      "preservación de videojuegos"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000239",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Shadow Man",
+    "url": "juegos/shadow-man-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción aventura",
+      "Terror",
+      "Aventura en tercera persona",
+      "Exploración 3D",
+      "Plataformas",
+      "Puzzle",
+      "Horror psicológico"
+    ],
+    "desarrollador": [
+      "Acclaim Studios Teesside"
+    ],
+    "distribuidor": [
+      "Acclaim Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Shadow Man es una aventura de acción y terror en tercera persona desarrollada por Acclaim Studios Teesside y publicada por Acclaim Entertainment en 1999. Basada en el personaje homónimo del universo de cómics de Valiant, la obra sigue a Michael LeRoi, un antiguo estudiante convertido en Shadow Man, un guerrero vudú capaz de viajar entre el mundo de los vivos (Liveside) y el reino de los muertos (Deadside). Guiado por la sacerdotisa Mama Nettie, el protagonista debe impedir que Legion reúna un ejército de almas oscuras y provoque el Apocalipsis. La aventura combina exploración tridimensional, combate, plataformas, resolución de enigmas y progresión mediante poderes sobrenaturales. Su estructura de escenarios interconectados exige regresar a determinadas zonas después de adquirir nuevas habilidades, anticipando algunas características que posteriormente se asociarían al diseño metroidvania en tres dimensiones. Destaca por su ambientación macabra, inspirada en el vudú de Luisiana, la mitología del más allá, el horror psicológico y las representaciones de asesinos históricos. Utiliza escenarios poligonales en tiempo real, aceleración gráfica mediante Direct3D, efectos de iluminación, sonido ambiental y una banda sonora atmosférica compuesta por Tim Haywood. La interpretación de Michael LeRoi corrió a cargo de Redd Pepper, cuya voz contribuyó a la identidad del personaje. Shadow Man fue una producción multiplataforma para PC, Nintendo 64, PlayStation y Dreamcast, aunque la presente edición corresponde específicamente a PC CD-ROM. Esta edición española de Acclaim conserva textos comerciales y documentación en castellano, incluyendo manual, guía de teclado, material cartográfico y documentación promocional. Su publicación representa una muestra característica de las grandes aventuras tridimensionales de finales de los años noventa, cuando los desarrolladores experimentaban con mundos extensos, narrativas adultas y ambientaciones de terror alejadas de las fórmulas tradicionales del survival horror. El interés histórico del título se vio renovado con Shadow Man Remastered, publicado por Nightdive Studios en 2021, que recuperó y amplió parte del contenido del juego original. La edición física española constituye una pieza relevante para documentar las adaptaciones de cómics al videojuego, la evolución tecnológica de las aventuras 3D y la distribución europea de Acclaim durante la última etapa del siglo XX.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Estuche Jewel Case con carátula original",
+      "CD-ROM del juego",
+      "Manual de instrucciones en castellano",
+      "Guía de teclado y controles",
+      "Material cartográfico ilustrado de Shadow Man",
+      "Folleto promocional de Acclaim"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Shadow Man",
+      "Shadowman",
+      "Michael LeRoi",
+      "Acclaim Entertainment",
+      "Acclaim Studios Teesside",
+      "Valiant Comics",
+      "Valiant Entertainment",
+      "Redd Pepper",
+      "Tim Haywood",
+      "Mama Nettie",
+      "Legion",
+      "Liveside",
+      "Deadside",
+      "Zona Viva",
+      "Zona Muerta",
+      "vudú",
+      "mitología vudú",
+      "Luisiana",
+      "Nueva Orleans",
+      "asesinos en serie",
+      "Jack el Destripador",
+      "Apocalipsis",
+      "sobrenatural",
+      "terror sobrenatural",
+      "aventura 3D clásica",
+      "exploración no lineal",
+      "mundos interconectados",
+      "cómics y videojuegos",
+      "adaptación de cómic",
+      "gráficos poligonales",
+      "Direct3D",
+      "aceleración gráfica 3D",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición española",
+      "documentación en castellano",
+      "caja de cartón",
+      "Big Box PC",
+      "videojuegos de 1999",
+      "PC clásico",
+      "retro PC",
+      "Shadow Man Remastered",
+      "preservación de videojuegos",
+      "coleccionismo PC",
+      "edición física"
+    ],
+    "anio": "1999",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000240",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Homeworld: Cataclysm",
+    "url": "juegos/homeworld-cataclysm-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98",
+      "WinNT",
+      "WinMe",
+      "Win2000"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "RTS",
+      "Estrategia espacial",
+      "Ciencia ficción",
+      "Estrategia en 3D",
+      "Combate espacial"
+    ],
+    "desarrollador": [
+      "Barking Dog Studios"
+    ],
+    "distribuidor": [
+      "Sierra Studios",
+      "Havas Interactive España"
+    ],
+    "ean": [],
+    "descripcion": "Homeworld: Cataclysm es un videojuego de estrategia en tiempo real ambientado en el espacio, desarrollado por el estudio canadiense Barking Dog Studios y publicado por Sierra Studios en el año 2000. Concebido inicialmente como una expansión de Homeworld (1999), evolucionó hasta convertirse en una entrega independiente que amplió el universo de ciencia ficción creado por Relic Entertainment, sin requerir el juego original para funcionar. Su historia transcurre aproximadamente quince años después de los acontecimientos de Homeworld y sigue a la flota minera del clan kiith Somtaaw, que descubre accidentalmente una entidad biomecánica conocida como la Bestia, capaz de infectar, transformar y asimilar naves espaciales. La campaña introduce una ambientación de terror y supervivencia espacial poco habitual en la estrategia de la época, combinando enfrentamientos tácticos, exploración y una narrativa de amenaza creciente. El juego conserva el innovador sistema tridimensional de Homeworld, que permite desplazar unidades y organizar combates en los tres ejes del espacio, con control de cámara, formaciones y gestión de recursos. Entre sus principales novedades destacan la evolución de la nave nodriza minera Kuun-Lan, la investigación tecnológica integrada, la especialización de unidades, la posibilidad de fusionar determinadas naves y un sistema de gestión de flotas orientado a reducir las operaciones repetitivas. Incorpora una campaña de 17 misiones y multijugador para hasta ocho participantes. Su tecnología gráfica admite renderizado mediante Direct3D y OpenGL, características representativas de los motores 3D de finales de los noventa. Esta edición física española en caja de cartón Big Box, distribuida por Havas Interactive España bajo el sello Sierra, incluye documentación en castellano y soporte CD-ROM para PC Windows. La presencia de los logotipos de Barking Dog Studios, Relic y Flipside documenta la participación de las distintas entidades vinculadas a la producción. Homeworld: Cataclysm constituye una pieza de especial interés histórico por su reinterpretación del universo Homeworld, su combinación de estrategia y terror espacial y su condición de entrega independiente desarrollada por un estudio diferente al creador del título original. Posteriormente fue recuperado comercialmente con el nombre Homeworld: Emergence debido a cuestiones relacionadas con la denominación Cataclysm.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Estuche jewel case del CD-ROM",
+      "CD-ROM del juego",
+      "Manual de instrucciones en castellano",
+      "Hoja de referencia rápida de comandos y controles en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Homeworld",
+      "Homeworld Cataclysm",
+      "Homeworld Emergence",
+      "Barking Dog Studios",
+      "Relic Entertainment",
+      "Sierra Studios",
+      "Sierra",
+      "Havas Interactive España",
+      "Flipside",
+      "Kiith Somtaaw",
+      "Kuun-Lan",
+      "La Bestia",
+      "Bentusi",
+      "Higara",
+      "ciencia ficción militar",
+      "terror espacial",
+      "combate de flotas",
+      "naves espaciales",
+      "estrategia tridimensional",
+      "control de flotas",
+      "investigación tecnológica",
+      "campaña narrativa",
+      "multijugador LAN",
+      "Direct3D",
+      "OpenGL",
+      "DirectX",
+      "Windows 95",
+      "Windows 98",
+      "Windows NT",
+      "PC CD-ROM",
+      "edición española",
+      "manual en castellano",
+      "caja de cartón",
+      "Big Box PC",
+      "juegos del año 2000",
+      "PC clásico",
+      "videojuegos de estrategia clásicos",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "formato físico"
+    ],
+    "anio": "2000",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000241",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Urban Chaos",
+    "url": "juegos/urban-chaos-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Aventura de acción",
+      "Acción en tercera persona",
+      "Mundo abierto",
+      "Beat 'em up",
+      "Combate cuerpo a cuerpo",
+      "Plataformas 3D"
+    ],
+    "desarrollador": [
+      "Mucky Foot Productions"
+    ],
+    "distribuidor": [
+      "Eidos Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "5032921008013"
+    ],
+    "descripcion": "Urban Chaos es un videojuego de acción y aventura en tercera persona desarrollado por el estudio británico Mucky Foot Productions y publicado por Eidos Interactive en 1999. Ambientado en Union City, una metrópolis ficticia sumida en una creciente ola de violencia a las puertas del nuevo milenio, combina investigación policial, conspiraciones, enfrentamientos entre bandas y elementos sobrenaturales relacionados con un misterioso culto apocalíptico. El jugador controla principalmente a D'Arci Stern, una joven agente de policía, y posteriormente a Roper McIntyre, un antiguo soldado, en una campaña estructurada en misiones que permite explorar diferentes distritos urbanos. Su propuesta destacó por combinar desplazamiento libre por escenarios tridimensionales, combate cuerpo a cuerpo mediante distintas técnicas de artes marciales, uso de armas de fuego, persecuciones y conducción de vehículos como coches policiales, motocicletas y ambulancias. Técnicamente, el juego incorporaba entornos urbanos 3D, iluminación dinámica, sombras proyectadas, efectos atmosféricos de lluvia, nieve y niebla, así como variaciones entre el día y la noche. Diseñado para ordenadores compatibles con Windows 95 y Windows 98 y aceleración gráfica mediante Direct3D, representó una de las primeras producciones de Mucky Foot y una propuesta singular dentro de la evolución de los juegos de acción urbanos anteriores a la popularización del mundo abierto tridimensional. Esta edición física española fue comercializada por Proein bajo el sello Eidos Interactive, en presentación de caja grande de cartón con estuche interior de CD-ROM. La cubierta identifica expresamente la localización del manual y los textos al castellano. Su interés para la preservación reside en documentar una producción británica de finales de los noventa que combinó exploración urbana, acción tridimensional y narrativa policial, además de conservar una edición localizada destinada al mercado español.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Estuche interior Jewel Case con carátula original"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Urban Chaos",
+      "Mucky Foot Productions",
+      "Eidos Interactive",
+      "Proein",
+      "D'Arci Stern",
+      "Roper McIntyre",
+      "Union City",
+      "acción urbana",
+      "aventura policial",
+      "mundo abierto 3D",
+      "exploración urbana",
+      "combate cuerpo a cuerpo",
+      "artes marciales",
+      "conducción de vehículos",
+      "conspiración apocalíptica",
+      "cultos misteriosos",
+      "tercera persona",
+      "gráficos tridimensionales",
+      "Direct3D",
+      "DirectX",
+      "iluminación dinámica",
+      "efectos meteorológicos",
+      "ciclo día noche",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "videojuegos británicos",
+      "1999",
+      "edición española",
+      "manual en castellano",
+      "textos en castellano",
+      "Big Box PC",
+      "caja de cartón",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación digital",
+      "videojuegos de los 90"
+    ],
+    "anio": "1999",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000242",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Tellurian Defence",
+    "url": "juegos/tellurian-defence-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de combate aéreo",
+      "Acción",
+      "Combate espacial",
+      "Shooter 3D",
+      "Ciencia ficción",
+      "Simulación de vuelo"
+    ],
+    "desarrollador": [
+      "Psygnosis"
+    ],
+    "distribuidor": [
+      "Psygnosis",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Tellurian Defence es un videojuego de acción y simulación de combate aéreo futurista desarrollado y publicado por Psygnosis a finales de los años noventa, con lanzamiento documentado en 1999. Ambientado en una Tierra devastada por una catástrofe medioambiental, presenta una humanidad que intenta reconstruir su civilización cuando una fuerza extraterrestre inicia una invasión. El jugador asume el papel de un piloto de la Organización de Defensa de la Tierra, encargado de realizar misiones de combate y resistencia contra los invasores. El título combina pilotaje de aeronaves futuristas en entornos tridimensionales, enfrentamientos aéreos, planificación estratégica y progresión tecnológica. Una de sus características distintivas es la posibilidad de mejorar las naves y desarrollar pilotos mediante técnicas genéticas, incorporando un componente de evolución de unidades poco habitual en los simuladores de combate arcade de la época. También integra misiones diseñadas por el guionista Morgan Gendel, vinculado a las series Star Trek: The Next Generation y Star Trek: Deep Space Nine. Su sistema de vuelo permite controlar armamento avanzado y realizar operaciones sobre paisajes terrestres reconstruidos mediante gráficos 3D acelerados. Incluye modalidades multijugador de hasta ocho participantes en red local y dos jugadores mediante conexión por Internet, según la información comercial de esta edición. Desde el punto de vista histórico, representa la experimentación de Psygnosis con simuladores de combate futuristas para PC durante la transición tecnológica hacia las tarjetas aceleradoras 3D, una etapa en la que la compañía también desarrolló títulos como G-Police y Colony Wars. Esta edición física española e italiana, comercializada en caja grande de cartón bajo los sellos Psygnosis y Erbe, destaca por su presentación bilingüe, documentación impresa en español e italiano y distribución en dos CD-ROM. La cubierta advierte expresamente de la necesidad de una tarjeta aceleradora gráfica 3D, un requisito tecnológico relevante para la preservación y futura ejecución del software en hardware histórico o entornos virtualizados compatibles.",
+    "incluye": [
+      "Caja grande de cartón Big Box",
+      "2 CD-ROM originales de Psygnosis (Disc One y Disc Two)",
+      "Manual de instrucciones en español e italiano",
+      "Hoja de bienvenida y registro de usuario de Erbe",
+      "Documentación impresa de Psygnosis con dirección postal de registro"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Tellurian Defence",
+      "Tellurian Defense",
+      "Psygnosis",
+      "Erbe Software",
+      "Studio Liverpool",
+      "simulador de combate futurista",
+      "combate aéreo 3D",
+      "invasión extraterrestre",
+      "defensa de la Tierra",
+      "apocalipsis medioambiental",
+      "ciencia ficción militar",
+      "aeronaves futuristas",
+      "combate arcade",
+      "aceleración gráfica 3D",
+      "tarjeta aceleradora 3D obligatoria",
+      "Direct3D",
+      "multijugador LAN",
+      "multijugador por Internet",
+      "mejoras genéticas",
+      "personalización de naves",
+      "Morgan Gendel",
+      "Star Trek",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "doble CD-ROM",
+      "edición española",
+      "edición italiana",
+      "manual bilingüe",
+      "caja grande",
+      "Big Box PC",
+      "videojuegos de 1999",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación digital",
+      "compatibilidad gráfica histórica"
+    ],
+    "anio": "",
+    "mercado": [
+      "España",
+      "Italia"
+    ],
+    "idioma": [
+      "Español",
+      "Italiano"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000243",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Uprising 2: Lead and Destroy",
+    "url": "juegos/uprising-2-lead-and-destroy-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Estrategia en tiempo real",
+      "RTS",
+      "Combate de vehículos",
+      "Acción en primera persona",
+      "Ciencia ficción",
+      "Simulación de combate"
+    ],
+    "desarrollador": [
+      "Cyclone Studios"
+    ],
+    "distribuidor": [
+      "The 3DO Company",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Uprising 2: Lead and Destroy es un videojuego de acción y estrategia en tiempo real desarrollado por Cyclone Studios y publicado por The 3DO Company en diciembre de 1998. Secuela directa de Uprising: Join or Die (1997), profundiza en una fórmula híbrida que combina el combate en primera persona desde un vehículo blindado futurista con la gestión estratégica de unidades militares y el control territorial. La historia transcurre después de un siglo de conflictos galácticos, cuando una especie extraterrestre conocida como Kri'iSara amenaza con exterminar a la humanidad. El jugador asume el mando de un tanque de combate Wraith de segunda generación y debe dirigir las fuerzas de las Nuevas Alianzas a lo largo de 28 misiones. Su principal característica jugable es la integración de combate directo y estrategia: mientras pilota el tanque y participa personalmente en los enfrentamientos, el jugador puede desplegar tropas, coordinar ataques, establecer bases y administrar recursos militares. Esta combinación permite alternar continuamente entre el papel de comandante y el de combatiente. Técnicamente, el título aprovecha las capacidades gráficas de los ordenadores de finales de los noventa mediante escenarios tridimensionales, iluminación dinámica, efectos de partículas, explosiones y compatibilidad con aceleración gráfica 3D. Utiliza DirectX 6.0 y ofrece soporte para tarjetas aceleradoras de la época, además de incorporar sonido envolvente mediante tecnologías como Dolby Surround. Incluye un editor de misiones que permite diseñar escenarios personalizados y modalidades multijugador mediante red local, Internet, módem o conexión directa, con partidas de hasta ocho participantes en red. Esta edición física española, comercializada por Proein en formato Big Box para PC CD-ROM, presenta la documentación y los textos en castellano, según indica expresamente su portada. Su interés histórico reside en representar una propuesta poco habitual dentro del mercado de videojuegos de finales de los noventa, al integrar el género de estrategia en tiempo real con el combate de vehículos en primera persona. Constituye una pieza significativa para documentar la experimentación con géneros híbridos durante la expansión de los gráficos 3D y del juego multijugador en PC.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Estuche Jewel Case del juego",
+      "CD-ROM del juego",
+      "Manual de instrucciones en castellano",
+      "Folleto promocional de Proein",
+      "Tarjeta de registro y encuesta de producto de Proein"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Uprising",
+      "Uprising 2",
+      "Lead and Destroy",
+      "Cyclone Studios",
+      "The 3DO Company",
+      "3DO",
+      "Proein",
+      "edición española",
+      "manual en castellano",
+      "textos en castellano",
+      "Wraith",
+      "Kri'iSara",
+      "Nuevas Alianzas",
+      "tanques futuristas",
+      "combate espacial",
+      "guerra futurista",
+      "estrategia híbrida",
+      "acción y estrategia",
+      "combate vehicular",
+      "control de unidades",
+      "gestión militar",
+      "ciencia ficción militar",
+      "multijugador LAN",
+      "multijugador por Internet",
+      "editor de misiones",
+      "28 misiones",
+      "gráficos 3D",
+      "aceleración 3D",
+      "DirectX 6",
+      "Glide",
+      "Dolby Surround",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "Big Box PC",
+      "videojuegos de 1998",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "formato físico"
+    ],
+    "anio": "1999",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000244",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Action Man: Asalto a la Isla",
+    "url": "juegos/action-man-asalto-a-la-isla-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Plataformas",
+      "Acción y aventura",
+      "Desplazamiento lateral",
+      "Arcade"
+    ],
+    "desarrollador": [
+      "Intelligent Games"
+    ],
+    "distribuidor": [
+      "Hasbro Interactive",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Action Man: Asalto a la Isla X es un videojuego de acción y plataformas para PC desarrollado por el estudio británico Intelligent Games y publicado originalmente por Hasbro Interactive en 1999 bajo el título internacional Action Man: Raid on Island X. Basado en la popular figura de acción de Hasbro, pertenece a la etapa de expansión de la franquicia hacia los videojuegos infantiles y juveniles de finales de los años noventa. La aventura enfrenta a Action Man con su archienemigo, el Doctor X, que ha secuestrado a Raid y a distintas especies animales para someterlas a experimentos y desarrollar sus planes de dominación mundial. El jugador debe explorar bases secretas distribuidas por diferentes islas y superar misiones de infiltración, combate y rescate, enfrentándose a enemigos como el Profesor Gangrene, Plague Locust y robots al servicio del Doctor X. Su jugabilidad combina plataformas de desplazamiento lateral, saltos, escalada, buceo, lanzamiento de bumeranes y utilización de vehículos y equipamiento característicos del universo Action Man. Incluye cinco islas explorables y seis aventuras de entrenamiento que permiten familiarizarse con los controles antes de afrontar las misiones principales. Técnicamente pertenece a la generación de juegos de acción bidimensionales para Windows 95 y 98, con gráficos de desplazamiento lateral y compatibilidad con DirectX 6.1. Esta edición física española en caja grande, comercializada en CD-ROM y con presencia de los sellos Hasbro Interactive, Intelligent Games y Proein, conserva especial interés documental como ejemplo de la adaptación de juguetes y franquicias infantiles al videojuego doméstico de PC durante el auge del software multimedia de finales de los noventa. Su presentación comercial localizada al castellano y su asociación directa con la línea de juguetes Action Man constituyen elementos relevantes para el coleccionismo y la preservación del videojuego físico europeo.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Estuche de CD-ROM tipo Jewel Case"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Action Man",
+      "Action Man Raid on Island X",
+      "Asalto a la Isla X",
+      "Hasbro",
+      "Hasbro Interactive",
+      "Intelligent Games",
+      "Proein",
+      "Doctor X",
+      "Profesor Gangrene",
+      "Plague Locust",
+      "Raid",
+      "videojuegos basados en juguetes",
+      "franquicia Action Man",
+      "acción infantil",
+      "aventura de espionaje",
+      "misiones de rescate",
+      "exploración de islas",
+      "entrenamiento",
+      "bumerán",
+      "buceo",
+      "escalada",
+      "desplazamiento lateral 2D",
+      "DirectX 6.1",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición española",
+      "caja en castellano",
+      "Big Box PC",
+      "videojuego físico",
+      "finales de los 90",
+      "juegos de 1999",
+      "retro PC",
+      "coleccionismo PC",
+      "preservación digital"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000245",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Martian Gothic: Unification",
+    "url": "juegos/martian-gothic-unification-bigbox/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Survival horror",
+      "Terror psicológico",
+      "Ciencia ficción",
+      "Acción aventura",
+      "Aventura en tercera persona",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "Creative Reality"
+    ],
+    "distribuidor": [
+      "Take-Two Interactive",
+      "Proein"
+    ],
+    "ean": [
+      "5026555031981"
+    ],
+    "descripcion": "Martian Gothic: Unification es un videojuego de terror y supervivencia desarrollado por el estudio británico Creative Reality y publicado para PC en el año 2000 por Take-Two Interactive en Europa. Ambientado en el año 2019, presenta un futuro en el que la humanidad ha establecido instalaciones científicas en Marte. Tras perderse las comunicaciones con la base de investigación Vita-01, tres especialistas son enviados a investigar los acontecimientos que han provocado el silencio de la estación. Los protagonistas, Martin Karne, Diane Matlock y Kenzo Uji, deberán descubrir el origen de una misteriosa amenaza biológica mientras exploran unas instalaciones marcianas sumidas en el caos. Su planteamiento combina elementos del survival horror clásico, exploración, combate, investigación y resolución de puzles, con una atmósfera de aislamiento y terror de ciencia ficción. Una de sus características más originales es el control alternativo de tres protagonistas que recorren diferentes sectores de la estación y deben colaborar mediante acciones coordinadas, intercambio de información y utilización de los sistemas de comunicación internos. La imposibilidad de reunir físicamente a los personajes constituye una de las principales reglas narrativas y jugables. Técnicamente, el juego utiliza personajes tridimensionales sobre escenarios prerenderizados, cámaras cinematográficas fijas, secuencias de vídeo y sonido ambiental para construir una experiencia próxima a títulos como Resident Evil y Alone in the Dark, aunque con una estructura narrativa más centrada en el misterio científico y la interacción entre personajes. Su ambientación incorpora elementos de horror corporal, experimentación biológica, inteligencia artificial y supervivencia espacial. Esta edición física europea para PC CD-ROM, comercializada en España por Proein, presenta una caja de cartón de formato Big Box, documentación multilingüe y software en inglés. Constituye una pieza representativa de la última etapa comercial del survival horror clásico en PC, antes de la progresiva implantación de escenarios completamente tridimensionales y sistemas de cámara libre. Su conservación resulta especialmente interesante para documentar las aventuras de terror europeas de comienzos del siglo XXI, la distribución física multilingüe y las tecnologías gráficas y audiovisuales utilizadas durante la transición entre Windows 95 y Windows 98.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Manual de instrucciones multilingüe en inglés, francés, alemán, español e italiano",
+      "Estuche plástico Jewel Case",
+      "CD-ROM del juego"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Martian Gothic",
+      "Martian Gothic Unification",
+      "Creative Reality",
+      "Take-Two Interactive",
+      "Take 2",
+      "Proein",
+      "survival horror clásico",
+      "terror espacial",
+      "terror psicológico",
+      "horror corporal",
+      "ciencia ficción",
+      "Marte",
+      "planeta rojo",
+      "Vita-01",
+      "Martin Karne",
+      "Diane Matlock",
+      "Kenzo Uji",
+      "supervivencia espacial",
+      "amenaza biológica",
+      "investigación científica",
+      "inteligencia artificial",
+      "tres protagonistas",
+      "narrativa múltiple",
+      "cámaras fijas",
+      "escenarios prerenderizados",
+      "personajes 3D",
+      "DirectX",
+      "Bink Video",
+      "QSound",
+      "Resident Evil",
+      "Alone in the Dark",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición europea",
+      "distribución española",
+      "manual multilingüe",
+      "software en inglés",
+      "Big Box PC",
+      "caja de cartón",
+      "videojuegos del año 2000",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "edición física"
+    ],
+    "anio": "2000",
+    "mercado": [
+      "España",
+      "Europa"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000246",
+    "ig": "",
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Jane's Combat Simulations: Flash Point Korea",
+    "url": "juegos/flash-point-korea-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de vuelo",
+      "Simulación militar",
+      "Simulación de combate",
+      "Simulación de helicópteros",
+      "Expansión"
+    ],
+    "desarrollador": [
+      "Origin Systems"
+    ],
+    "distribuidor": [
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Jane's Combat Simulations: Flash Point Korea es la expansión oficial del simulador de combate AH-64D Longbow, desarrollada por Origin Systems y publicada por Electronic Arts en 1996 para MS-DOS. Forma parte de la prestigiosa línea Jane's Combat Simulations, creada en colaboración con la reconocida editorial de información militar Jane's, especializada en aviación, armamento y sistemas de defensa. La expansión traslada al jugador a un conflicto hipotético en la península de Corea, donde deberá pilotar el helicóptero de ataque estadounidense AH-64D Apache Longbow en operaciones militares de alta intensidad. Introduce una campaña ambientada en una nueva guerra de Corea, con más de 140 misiones, nuevos escenarios y amenazas terrestres, así como mejoras en el comportamiento de las unidades enemigas. Una de sus principales novedades es la incorporación de la posición de copiloto/artillero, que permite controlar los sistemas de adquisición de objetivos y armamento desde una perspectiva distinta a la del piloto. También amplía los sistemas de aviónica, incorpora mejoras en los misiles Hellfire, nuevos cohetes, procedimientos de designación de objetivos, efectos de sonido digitalizados y una inteligencia artificial más elaborada para las fuerzas enemigas. La simulación combina modelado de vuelo, instrumentación militar, radares, navegación táctica y gestión de armamento, ofreciendo una experiencia exigente representativa de los simuladores de combate de mediados de los años noventa. El título original AH-64D Longbow es imprescindible para instalar y utilizar esta expansión. Esta edición norteamericana en caja grande, comercializada en CD-ROM y con documentación en inglés, conserva un importante valor histórico como testimonio de la época dorada de la simulación militar realista en PC. Su ejecución original está vinculada al entorno MS-DOS y a las configuraciones de hardware multimedia propias de 1996. La conservación del soporte óptico y de la documentación resulta especialmente relevante para estudiar sus procedimientos de instalación, la evolución técnica del simulador y las particularidades de las expansiones comerciales distribuidas antes de la generalización de las plataformas digitales.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "1 CD-ROM original Flash Point Korea",
+      "Estuche Jewel Case para CD-ROM",
+      "Manual impreso Flash Point Korea de 1996 con encuadernación en espiral",
+      "Guía de instalación impresa Flash Point Korea"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Jane's Combat Simulations",
+      "Jane's",
+      "Flash Point Korea",
+      "AH-64D Longbow",
+      "Longbow",
+      "Apache Longbow",
+      "Origin Systems",
+      "Electronic Arts",
+      "Andy Hollis",
+      "helicóptero de ataque",
+      "aviación militar",
+      "US Army",
+      "Corea",
+      "península de Corea",
+      "guerra de Corea hipotética",
+      "simulación militar realista",
+      "aviónica",
+      "radar Longbow",
+      "copiloto artillero",
+      "CPG",
+      "misiles Hellfire",
+      "inteligencia artificial militar",
+      "campaña dinámica",
+      "simulador de los años 90",
+      "MS-DOS",
+      "CD-ROM",
+      "edición norteamericana",
+      "versión en inglés",
+      "expansión oficial",
+      "requiere juego original",
+      "manual técnico",
+      "Big Box PC",
+      "1996",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación digital",
+      "simulación de combate"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "Estados Unidos",
+      "Norteamérica"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
     "video_intro_fecha": "",
     "video_intro_duracion": ""
   },
@@ -22406,61 +23517,6 @@
         "x": ""
       }
     },
-    "titulo": "Homeworld: Cataclysm",
-    "url": "juegos/homeworld-cataclysm-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Estrategia en tiempo real",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Barking Dog Studios"
-    ],
-    "distribuidor": [
-      "Sierra Studios"
-    ],
-    "ean": [],
-    "descripcion": "Expansión independiente de Homeworld lanzada en septiembre de 2000. Desarrollada por Barking Dog Studios (con ayuda de Relic para el motor), ofrece 17 misiones centradas en una amenaza de nanobots llamada 'la Bestia', combates espaciales tácticos, mejoras al motor gráfico y de interfaz, nueva capacidad de aceleración temporal hasta ×8, actualizaciones de naves y uso de la pantalla de sensores para dar órdenes de combate  .",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
     "titulo": "Hostile Waters: Antaeus Rising",
     "url": "juegos/hostile-waters-antaeus-rising-bigbox/",
     "plataforma": [
@@ -24174,60 +25230,6 @@
         "x": ""
       }
     },
-    "titulo": "Shadow Man",
-    "url": "juegos/shadow-man-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinXP"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Aventura",
-      "Horror"
-    ],
-    "desarrollador": [
-      "Acclaim Studios Teesside"
-    ],
-    "distribuidor": [
-      "Acclaim Entertainment"
-    ],
-    "ean": [],
-    "descripcion": "Lanzado originalmente el 31 de agosto de 1999 para Windows, *Shadow Man* adapta el cómic de Valiant Comics. Encarnas a Michael LeRoi, portador de la Máscara de las Sombras, que debe viajar entre Mundo de los Vivos y Mundo de los Muertos para detener a Legión y sus asesinos ‘Los Cinco’, evitando el apocalipsis. Ofrece entornos interconectados, atmósfera oscura, combate con armas y poderes vudú, además de ser considerado uno de los primeros metroidvania 3D.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
     "titulo": "SimCity 3000",
     "url": "juegos/simcity-3000-bigbox/",
     "plataforma": [
@@ -24392,25 +25394,25 @@
         "x": ""
       }
     },
-    "titulo": "The Gene Machine",
-    "url": "juegos/the-gene-machine-bigbox/",
+    "titulo": "Time Machine: Las Nuevas Aventuras de la Máquina del Tiempo",
+    "url": "juegos/time-machine-las-nuevas-aventuras-de-la-maquina-del-tiempo-bigbox/",
     "plataforma": [
-      "Win95"
+      "Win95",
+      "Win98"
     ],
     "formato": "Big Box",
     "genero": [
       "Aventura gráfica"
     ],
     "desarrollador": [
-      "Divide By Zero"
+      "Cryo Interactive"
     ],
     "distribuidor": [
-      "Vic Tokai",
-      "Coconuts Japan",
-      "DreamCatcher Interactive"
+      "Cryo Interactive",
+      "FX Interactive (España)"
     ],
     "ean": [],
-    "descripcion": "The Gene Machine es una aventura gráfica point-and-click ambientada en una versión victoriana alternativa, con toques de steampunk y humor británico. Sigues las andanzas del excéntrico Piers Featherstonehaugh y su fiel criado Mossop, mientras exploran inventos insólitos, experimentos genéticos y misterios internacionales. Inspirado en clásicos como Monkey Island y Sherlock Holmes.",
+    "descripcion": "Inspirado libremente en la obra de H.G. Wells, Time Machine es una aventura gráfica en tercera persona con ambientación steampunk. El jugador encarna a un viajero del tiempo que debe resolver puzles y restaurar el equilibrio entre distintas épocas. Destaca por sus entornos detallados, su atmósfera envolvente y una historia con tintes filosóficos y científicos.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -24565,58 +25567,6 @@
     ],
     "ean": [],
     "descripcion": "TILT es un juego de pinball digital que ofrece varias mesas temáticas con gráficos detallados y físicas realistas. Destaca por su ambientación variada, efectos visuales llamativos y una banda sonora adaptada a cada mesa. Fue uno de los títulos de pinball más completos en su época para PC.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Time Machine: Las Nuevas Aventuras de la Máquina del Tiempo",
-    "url": "juegos/time-machine-las-nuevas-aventuras-de-la-maquina-del-tiempo-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura gráfica"
-    ],
-    "desarrollador": [
-      "Cryo Interactive"
-    ],
-    "distribuidor": [
-      "Cryo Interactive",
-      "FX Interactive (España)"
-    ],
-    "ean": [],
-    "descripcion": "Inspirado libremente en la obra de H.G. Wells, Time Machine es una aventura gráfica en tercera persona con ambientación steampunk. El jugador encarna a un viajero del tiempo que debe resolver puzles y restaurar el equilibrio entre distintas épocas. Destaca por sus entornos detallados, su atmósfera envolvente y una historia con tintes filosóficos y científicos.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -25151,60 +26101,6 @@
     "tags": [
       "Big Box",
       "Multijugador"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Urban Chaos",
-    "url": "juegos/urban-chaos-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Aventura",
-      "Shooter"
-    ],
-    "desarrollador": [
-      "Mucky Foot Productions"
-    ],
-    "distribuidor": [
-      "Eidos Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Urban Chaos es un juego de acción-aventura en tercera persona lanzado en diciembre de 1999 para Windows. Ambientado en una ciudad al borde del nuevo milenio, en él encarnas a D’arci Stern (y más tarde a Roper McIntyre), enfrentándote a bandas callejeras, explorando entornos semilibre e interviniendo en tiroteos, persecuciones, combate cuerpo a cuerpo y misiones diversas. Destaca por su atmósfera urbana, ciclo día‑noche, climatología dinámica y posibilidad de arrestar o abatir criminales, además de ofrecer conducción de vehículos. Vendió alrededor de medio millón de copias y recibió críticas positivas en PC (72%), aunque tuvo ports más controvertidos :contentReference[oaicite:2]{index=2}.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
     ],
     "anio": "",
     "mercado": [],
@@ -26356,59 +27252,6 @@
     ],
     "ean": [],
     "descripcion": "Aventura gráfica lanzada en 2000. Controlas al cartógrafo Adrian Blake en una misión para salvar a su prometida Sophia en Pompeya días antes de la erupción del Vesubio en el año 79 d.C. Emplea gráficos prerenderizados, recorrido en point‑&‑click y una enciclopedia interactiva con datos históricos sobre la Pompeya romana.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Flash Point: Korea",
-    "url": "juegos/flash-point-korea-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Simulación",
-      "Combate aéreo",
-      "Bélico"
-    ],
-    "desarrollador": [
-      "G2 Interactive"
-    ],
-    "distribuidor": [
-      "Virgin Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Simulador de combate aéreo que recrea un conflicto ficticio entre Corea del Norte y del Sur. El jugador pilota cazas modernos como el F-16 Fighting Falcon en misiones que combinan realismo técnico con accesibilidad. Ofrece campañas con narrativa geopolítica, vuelo libre, entrenamiento y modo multijugador. Destaca por su enfoque táctico y representación del entorno coreano en los años 90.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -28606,59 +29449,6 @@
         "x": ""
       }
     },
-    "titulo": "Action Man: Asalto a la Isla",
-    "url": "juegos/action-man-asalto-a-la-isla-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Aventura"
-    ],
-    "desarrollador": [
-      "Interactive Studios"
-    ],
-    "distribuidor": [
-      "Hasbro Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Action Man: Asalto a la Isla es un juego de acción y aventuras basado en la popular serie de juguetes y dibujos animados. El jugador controla a Action Man en una misión para detener al malvado Dr. X, superando obstáculos, enemigos y pruebas en una isla repleta de desafíos.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
     "titulo": "O.D.T. (Or Die Trying)",
     "url": "juegos/odt-or-die-trying-bigbox/",
     "plataforma": [
@@ -28679,110 +29469,6 @@
     ],
     "ean": [],
     "descripcion": "O.D.T. (Or Die Trying) es un juego de acción y aventura en tercera persona con elementos de rol y plataformas. El jugador controla a uno de varios personajes en una misión para recuperar una esfera mágica, enfrentándose a criaturas mutantes y resolviendo desafíos en un entorno industrial y steampunk.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Kingpin: Life of Crime",
-    "url": "juegos/kingpin-life-of-crime-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter en primera persona"
-    ],
-    "desarrollador": [
-      "Xatrix Entertainment"
-    ],
-    "distribuidor": [
-      "Interplay"
-    ],
-    "ean": [],
-    "descripcion": "Kingpin: Life of Crime es un violento shooter en primera persona ambientado en un mundo de estilo gánster y urbano. Utiliza el motor de Quake II y combina acción intensa con lenguaje adulto, misiones abiertas y la posibilidad de reclutar aliados para las batallas callejeras.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Tellurian Defence",
-    "url": "juegos/tellurian-defence-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Shooter"
-    ],
-    "desarrollador": [
-      "Doka Studios"
-    ],
-    "distribuidor": [
-      "Doka"
-    ],
-    "ean": [],
-    "descripcion": "Tellurian Defence es un juego de disparos con ambientación espacial en el que el jugador defiende la Tierra de oleadas de invasores alienígenas. Combina acción arcade con gráficos 3D simples y una jugabilidad directa centrada en reflejos y puntería.",
     "incluye": [],
     "serie": [
       "Todos",
@@ -30013,66 +30699,6 @@
         "x": ""
       }
     },
-    "titulo": "Martian Gothic: Unification",
-    "url": "juegos/martian-gothic-unification-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe",
-      "Win2000"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Aventura",
-      "Survival horror",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Creative Reality"
-    ],
-    "distribuidor": [
-      "Take-Two Interactive"
-    ],
-    "ean": [],
-    "descripcion": "Martian Gothic: Unification es una aventura de terror y ciencia ficción ambientada en una base marciana donde una misteriosa infección ha acabado con toda la tripulación. El jugador controla a tres personajes que deben cooperar sin encontrarse físicamente, resolviendo puzles y descubriendo los oscuros secretos del lugar.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Aventura",
-      "Terror",
-      "Ciencia ficción",
-      "Survival horror",
-      "Marte",
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
     "titulo": "Lander",
     "url": "juegos/lander-bigbox/",
     "plataforma": [
@@ -30226,65 +30852,6 @@
       "Ciencia ficción",
       "Vehículos",
       "Combate futurista",
-      "Big Box"
-    ],
-    "anio": "",
-    "mercado": [],
-    "idioma": [],
-    "soporte": [],
-    "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
-    "ig": "",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Uprising 2: Lead and Destroy",
-    "url": "juegos/uprising-2-lead-and-destroy-bigbox/",
-    "plataforma": [
-      "Win95",
-      "Win98",
-      "WinMe"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Acción",
-      "Estrategia",
-      "Ciencia ficción"
-    ],
-    "desarrollador": [
-      "Cyclone Studios"
-    ],
-    "distribuidor": [
-      "3DO Company"
-    ],
-    "ean": [],
-    "descripcion": "Uprising 2: Lead and Destroy es un juego híbrido que combina estrategia en tiempo real con acción en primera persona. El jugador asume el control de un vehículo de combate futurista desde el que dirige y apoya directamente a sus tropas en el campo de batalla. Ambientado en un conflicto interplanetario, ofrece un enfoque único entre la táctica y la acción directa.",
-    "incluye": [],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Acción táctica",
-      "Estrategia en tiempo real",
-      "Shooter",
-      "Vehículos",
-      "Ciencia ficción",
       "Big Box"
     ],
     "anio": "",
