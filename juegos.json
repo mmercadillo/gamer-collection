@@ -1208,7 +1208,7 @@
   {
     "num": "000016",
     "ig": "https://www.instagram.com/p/DWHRwbviJB_",
-    "video_intro": false,
+    "video_intro": true,
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",
@@ -1277,8 +1277,8 @@
     "preservacion": {
       "resumen": ""
     },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
+    "video_intro_fecha": "2026-10-28",
+    "video_intro_duracion": "PT3M16S"
   },
   {
     "num": "000017",

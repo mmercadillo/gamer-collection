@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
+    <loc>https://www.pcgamearchive.org/videos/grim-fandango-bigbox/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/grim-fandango-bigbox/img/001.jpg</video:thumbnail_loc>
+      <video:title>Introducción original de Grim Fandango</video:title>
+      <video:description>Introducción original de Grim Fandango conservada por PC Game Archive.</video:description>
+      <video:content_loc>https://www.pcgamearchive.org/videos/grim-fandango-bigbox.mp4</video:content_loc>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/videos/panzer-commander-wwii-tank-simulator-bigbox/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/panzer-commander-wwii-tank-simulator-bigbox/img/001.jpg</video:thumbnail_loc>
