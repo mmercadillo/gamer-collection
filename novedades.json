@@ -1,5 +1,20 @@
 [
   {
+    "fecha": "2026-10-29",
+    "titulo": "Una colección con historia encuentra un nuevo hogar",
+    "descripcion": "Gracias a José Antonio Serrano Garcia, desde Cataluña, por confiar a PC Game Archive una parte de su colección de videojuegos de PC conservada durante décadas. Compartimos su historia y nuestro compromiso de conservación.",
+    "url": "novedades/donacion-jose-antonio-20261029/",
+    "destacado": true,
+    "imagen": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg"
+    ],
+    "contenido": "donacion-jose-antonio-20261029"
+  },
+  {
     "fecha": "2026-10-28",
     "titulo": "Revive la introducción original de Grim Fandango",
     "descripcion": "La introducción original de Grim Fandango (1998) ya está disponible en PC Game Archive. Recuperamos la inolvidable presentación de esta aventura de LucasArts, con su particular mezcla de cine negro, humor y estética del Día de Muertos.",

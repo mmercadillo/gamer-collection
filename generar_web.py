@@ -47,6 +47,7 @@ Notas:
 from __future__ import annotations
 
 import argparse
+import shutil
 import datetime as dt
 import hashlib
 import html
@@ -332,12 +333,50 @@ def load_news(path: Path) -> list[dict[str, Any]]:
                 f"(valor recibido: {raw_date!r})."
             ) from exc
 
+        featured = item.get("destacado", False)
+        if not isinstance(featured, bool):
+            raise ValueError(f"La novedad #{index}: 'destacado' debe ser booleano.")
+        # F18: "contenido" admite un identificador de carpeta autocontenida.
+        # También se toleran las rutas antiguas para preservar compatibilidad.
+        content = item.get("contenido", "")
+        if not isinstance(content, str):
+            raise ValueError(f"La novedad #{index}: 'contenido' debe ser una cadena.")
+        is_bundle = bool(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", content))
+        is_legacy_content = bool(re.fullmatch(r"contenidos/novedades/[a-zA-Z0-9_./-]+\.md", content)) and ".." not in Path(content).parts
+        if content and not (is_bundle or is_legacy_content):
+            raise ValueError(f"La novedad #{index}: identificador 'contenido' no válido.")
+        images = item.get("imagen", [])
+        if not isinstance(images, list) or any(not isinstance(img, str) for img in images):
+            raise ValueError(f"La novedad #{index}: 'imagen' debe ser un array de cadenas.")
+        image_paths = []
+        image_sources = []
+        for img in images:
+            if is_bundle:
+                if not re.fullmatch(r"[a-zA-Z0-9_-]+\.(?:jpg|jpeg|png|webp)", img, flags=re.IGNORECASE):
+                    raise ValueError(f"La novedad #{index}: imagen incorrecta: {img!r}.")
+                image_sources.append(f"contenido/novedades/{content}/img/{img}")
+                image_paths.append(f"contenido/novedades/{content}/img/{img}")
+            else:
+                if not re.fullmatch(r"img/novedades/[a-zA-Z0-9_./-]+\.(?:jpg|jpeg|png|webp)", img, flags=re.IGNORECASE) or ".." in Path(img).parts:
+                    raise ValueError(f"La novedad #{index}: imagen incorrecta: {img!r}.")
+                image_sources.append(img)
+                image_paths.append(img)
+        content_source = (f"contenido/novedades/{content}/contenido.md" if is_bundle else content)
+        url = str(item.get("url", "") or "").strip()
+        if is_bundle and not url:
+            url = f"novedades/{content}/"
+        if content and not re.fullmatch(r"novedades/[a-z0-9-]+/", url):
+            raise ValueError(f"La novedad #{index}: los artículos Markdown requieren URL novedades/<slug>/.")
         news.append({
+            "destacado": featured,
+            "imagen": image_paths,
+            "_imagen_fuente": image_sources,
+            "contenido": content_source,
             "fecha": raw_date,
             "_fecha": parsed,
             "titulo": title,
             "descripcion": str(item.get("descripcion", "") or "").strip(),
-            "url": str(item.get("url", "") or "").strip(),
+            "url": url,
         })
 
     return sorted(news, key=lambda item: item["_fecha"], reverse=True)
@@ -1712,10 +1751,31 @@ def build_search_index(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return index
 
 
+F18_CSS = """
+.news-feature{display:block;overflow:hidden;background:#fff;border:1px solid var(--bd);border-radius:20px;margin:16px 0 22px}
+.news-feature[hidden]{display:none!important}.news-feature-copy{padding:24px 26px}.news-feature-copy time{font-size:13px;color:#555}.news-feature-copy h3{font-size:clamp(23px,3vw,34px);line-height:1.17;margin:10px 0}.news-feature-copy p:not(.eyebrow){line-height:1.65}.pcga-news-card[hidden]{display:none!important}
+.news-article-page{padding-bottom:48px}.news-article-content{line-height:1.75}.news-article-content p{margin:0 0 18px}.news-article-content h2,.news-article-content h3{margin:28px 0 12px}.news-article-content h2:first-child{margin-top:0}.news-article-gallery{margin-top:28px}.news-article-back{margin-top:28px}
+@media(max-width:700px){.news-feature-copy{padding:20px}}
+.pcga-search-mode .news-feature{display:none!important}
+"""
+F18_JS = r"""(()=>{'use strict';
+const feature=document.getElementById('pcga-feature');if(!feature)return;
+const start=feature.dataset.start;if(!/^\d{4}-\d{2}-\d{2}$/.test(start))return;
+const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const day=(s)=>Date.parse(s+'T00:00:00Z')/86400000;
+const elapsed=day(today)-day(start);const active=elapsed>=0&&elapsed<14;
+feature.hidden=!active;
+const cards=[...document.querySelectorAll('.pcga-news-card')];
+if(active){const duplicate=cards.find(c=>c.dataset.newsUrl===feature.dataset.newsUrl);if(duplicate)duplicate.hidden=true;}
+let shown=0;for(const card of cards){if(card.hidden)continue;card.hidden=shown++>=4;}
+})();
+"""
+
 def write_assets(out: Path, games: list[dict[str, Any]]) -> None:
     (out / "assets/css").mkdir(parents=True, exist_ok=True)
     (out / "assets/js").mkdir(parents=True, exist_ok=True)
-    (out / "assets/css/styles.css").write_text(CSS, encoding="utf-8")
+    (out / "assets/css/styles.css").write_text(CSS + F18_CSS, encoding="utf-8")
+    (out / "assets/js/destacados.js").write_text(F18_JS, encoding="utf-8")
     search_index_js = "window.PCGA_SEARCH_INDEX=" + json.dumps(build_search_index(games), ensure_ascii=False, separators=(",", ":")) + ";\n"
     (out / "assets/js/search-index.js").write_text(search_index_js, encoding="utf-8")
     (out / "assets/js/catalogo.js").write_text(JS, encoding="utf-8")
@@ -1845,6 +1905,57 @@ def news_entry_html(item: dict[str, Any], prefix: str = "", compact: bool = Fals
         f'{action_html}'
         '</article>'
     )
+
+
+def featured_news(news: list[dict[str, Any]]) -> dict[str, Any] | None:
+    # Seleccionar la última marcada, NO rescatar noticias más antiguas al caducar.
+    marked = [item for item in news if item.get("destacado")]
+    return max(marked, key=lambda item: item["_fecha"]) if marked else None
+
+
+def validate_news_assets(news: list[dict[str, Any]], project_root: Path) -> None:
+    for item in news:
+        for image in item["_imagen_fuente"]:
+            if not (project_root / image).is_file():
+                raise ValueError(f"Imagen de novedad no encontrada: {image}")
+        if item["contenido"]:
+            source = project_root / item["contenido"]
+            if not source.is_file():
+                raise ValueError(f"Contenido de novedad no encontrado: {source}")
+            markdown_to_safe_html(source.read_text(encoding="utf-8"))
+
+
+def generate_news_articles(news: list[dict[str, Any]], out: Path, project_root: Path, base_url: str) -> None:
+    for item in news:
+        if not item["contenido"]:
+            continue
+        route = item["url"]
+        prefix = rel_prefix_for(route + "index.html")
+        content = markdown_to_safe_html((project_root / item["contenido"]).read_text(encoding="utf-8"))
+        images = item["imagen"]
+        gallery = "".join(
+            f'<figure class="gallery-item"><a class="gallery-link" href="{h(prefix + path)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir fotografía {i} de {len(images)} a tamaño completo">'
+            f'<img src="{h(prefix + path)}" alt="{h(item["titulo"])} — fotografía {i} de {len(images)}" loading="lazy" decoding="async" width="480" height="360"></a>'
+            f'<figcaption>Fotografía {i} de {len(images)}</figcaption></figure>'
+            for i, path in enumerate(images, 1)
+        )
+        gallery_html = f'<section class="content-card news-article-gallery" aria-label="Fotografías del acontecimiento"><h2>Galería fotográfica</h2><div class="gallery">{gallery}</div></section>' if gallery else ""
+        body = f"""<main class="wrap game-detail news-article-page">
+  <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / <a href="{prefix}novedades/">Novedades</a> / <span>{h(item["titulo"])}</span></nav>
+  <section class="content-card">
+    <p class="eyebrow">Acontecimientos del archivo</p>
+    <h1>{h(item["titulo"])}</h1>
+    <p class="lead">{h(item["descripcion"])}</p>
+    <p><time datetime="{h(item["fecha"])}">{h(format_spanish_date(item["fecha"]))}</time></p>
+    <div class="news-article-content">{content}</div>
+  </section>
+  {gallery_html}
+  <div class="news-article-back"><a class="button button-secondary" href="{prefix}novedades/">Volver a novedades</a></div>
+</main>"""
+        jsonld = [{"@context":"https://schema.org", "@type":"Article", "headline":item["titulo"], "description":item["descripcion"], "datePublished":item["fecha"], "mainEntityOfPage":abs_url(base_url, route)}]
+        output = out / route / "index.html"
+        output.parent.mkdir(parents=True,exist_ok=True)
+        output.write_text(layout(item["titulo"] + " · PC Game Archive", item["descripcion"], abs_url(base_url, route), "novedades/", body, prefix=prefix, image=abs_url(base_url, images[0]) if images else None, jsonld=jsonld), encoding="utf-8")
 
 
 def generate_news(news: list[dict[str, Any]], out: Path, base_url: str) -> None:
@@ -2146,18 +2257,35 @@ def generate_index(games: list[dict[str, Any]], properties: dict[str, Any], news
     jewel_case = sum(1 for g in games if g.get("formato") == "Jewel Case")
     initial_games = games[:24]
     cards = "\n".join(card(g) for g in initial_games)
-    home_news = news[:4]
+    chosen = featured_news(news)
+    # Excluir de tarjetas solo mientras el destacado esté activo: JS restaura su
+    # aparición normal al vencer, sin necesitar un despliegue adicional.
+    home_news = news[:5] if chosen else news[:4]
     news_section = ""
     if home_news:
-        news_cards = "\n".join(news_entry_html(item, "", compact=True) for item in home_news)
+        news_cards = "\n".join(
+            f'<div class="pcga-news-card" data-news-url="{h(item["url"])}">{news_entry_html(item, "", compact=True)}</div>'
+            for item in home_news
+        )
+        featured_html = ""
+        if chosen:
+            url = chosen["url"]
+            link = f'<a class="news-link" href="{h(news_href(url))}">Leer el artículo completo →</a>' if url else ""
+            featured_html = f'''<article class="news-feature" id="pcga-feature" hidden data-start="{h(chosen["fecha"])}" data-duration="14" data-news-url="{h(url)}">
+      <div class="news-feature-copy"><p class="eyebrow">Acontecimiento destacado</p><time datetime="{h(chosen["fecha"])}">{h(format_spanish_date(chosen["fecha"]))}</time>
+        <h3>{h(chosen["titulo"])}</h3><p>{h(chosen["descripcion"])}</p>{link}</div>
+    </article>'''
         news_section = f'''<section class="home-news" aria-labelledby="news-home-title">
   <div class="wrap">
     <p class="eyebrow">Actividad del archivo</p>
     <div class="section-head news-section-head"><h2 id="news-home-title">Novedades</h2><a href="novedades/">Ver todas las novedades</a></div>
     <p class="news-help">Incorporaciones, documentación, preservación y cambios relevantes en PC Game Archive.</p>
+    {featured_html}
     <div class="home-news-grid">{news_cards}</div>
   </div>
 </section>'''
+        if chosen:
+            news_section += '<script defer src="assets/js/destacados.js"></script>'
 
     recent = dated_incorporations(games)[:RECENT_INCORPORATIONS_LIMIT]
     recent_section = ""
@@ -3370,9 +3498,10 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
         target.write_text(page, encoding="utf-8")
 
 
-def generate_sitemap(games: list[dict[str, Any]], documents: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
+def generate_sitemap(games: list[dict[str, Any]], documents: list[dict[str, Any]], news: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
     urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/", "novedades/", "documentacion/", "videos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
     urls.extend(document["url"] for document in documents)
+    urls.extend(item["url"] for item in news if item["contenido"])
     incorporation_count = len(dated_incorporations(games))
     if incorporation_count:
         urls.append("incorporaciones/")
@@ -3634,6 +3763,7 @@ def main() -> int:
     documents = load_documentation(documentation_path)
     validate_documentation_relations(documents, games)
     validate_documentation_sources(documents, project_root)
+    validate_news_assets(news, project_root)
     gallery_index = build_gallery_index(project_root, games)
     # Metadato transitorio para que todas las tarjetas usen la misma imagen real
     # detectada. No se persiste en juegos.json.
@@ -3649,9 +3779,17 @@ def main() -> int:
     out.mkdir(parents=True, exist_ok=True)
     write_assets(out, games)
     copy_support_files(project_root, out)
+    for item in news:
+        for image_path, source_path in zip(item["imagen"], item["_imagen_fuente"]):
+            destination = out / image_path
+            source = project_root / source_path
+            if destination.resolve() != source.resolve():
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(source, destination)
     generate_favicons(project_root, out)
     generate_index(games, properties, news, out, args.base_url)
     generate_news(news, out, args.base_url)
+    generate_news_articles(news, out, project_root, args.base_url)
     generate_documentation_hub(documents, out, args.base_url)
     generate_videos(games, out, args.base_url, gallery_index)
     generate_documentation_pages(documents, games, out, project_root, args.base_url)
@@ -3667,7 +3805,7 @@ def main() -> int:
     generate_game_pages(games, documents, out, project_root, args.base_url, gallery_index)
     generate_static_redirect(out, args.base_url, "bigbox.html", "juegos-pc-big-box.html", "Big Box · PC Game Archive")
     generate_legacy_detail(out, args.base_url)
-    generate_sitemap(games, documents, out, args.base_url, gallery_index)
+    generate_sitemap(games, documents, news, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
     print("Versión generador: post-f17-entornos-referencia-2026-10-18")
