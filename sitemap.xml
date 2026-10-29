@@ -3400,21 +3400,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/</loc>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/003.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/004.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.pcgamearchive.org/juegos/kingpin-life-of-crime-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/kingpin-life-of-crime-bigbox/img/001.jpg</image:loc>
@@ -3532,6 +3517,21 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/flash-point-korea-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/003.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/img/004.jpg</image:loc>
     </image:image>
   </url>
   <url>
