@@ -21433,6 +21433,229 @@
   {
     "num": "000000",
     "ig": "",
+    "fecha_incorporacion": "2026-10-30",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Mad TV",
+    "url": "juegos/mad-tv-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de gestión",
+      "Simulación empresarial",
+      "Estrategia económica",
+      "Gestión televisiva",
+      "Comedia"
+    ],
+    "desarrollador": [
+      "Rainbow Arts Software GmbH"
+    ],
+    "distribuidor": [
+      "Rainbow Arts Software GmbH",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Mad TV es un videojuego de simulación empresarial y gestión televisiva desarrollado y publicado originalmente por la compañía alemana Rainbow Arts en 1991. Concebido bajo la dirección creativa de Ralph Stock, se convirtió en una de las propuestas más originales de la simulación económica europea de principios de los noventa, combinando administración de recursos, estrategia comercial, competencia empresarial y humor satírico. El jugador interpreta a Archie, un ejecutivo que asume la dirección de programación de una cadena de televisión con malos resultados de audiencia. Su misión consiste en transformar el canal en un negocio rentable mediante la adquisición de películas y series, la producción de contenidos, la contratación de publicidad y la elaboración de una parrilla televisiva capaz de superar a dos cadenas competidoras controladas por el ordenador. La gestión exige equilibrar presupuestos, ingresos publicitarios, preferencias de los espectadores y franjas horarias, teniendo en cuenta que los contratos publicitarios dependen de alcanzar determinados niveles de audiencia. Paralelamente, Archie intenta conquistar a Betty, una atractiva presentadora de televisión, introduciendo una trama romántica y humorística que aporta una dimensión narrativa poco habitual en los simuladores empresariales de su época. Una de sus características más reconocibles es la interfaz gráfica basada en un edificio de varias plantas, por el que el protagonista se desplaza para acceder a las distintas oficinas y departamentos de la cadena. La acción transcurre en tiempo real, con una jornada laboral limitada que obliga a planificar cuidadosamente cada actividad. Técnicamente, la versión para IBM PC y compatibles funciona bajo MS-DOS, utiliza gráficos VGA de 256 colores y contempla sonido mediante PC Speaker, AdLib y Sound Blaster. Su interfaz está diseñada para el manejo con ratón, considerado prácticamente indispensable para una experiencia adecuada. La edición española fue comercializada en 1992 por Erbe Software, con textos y contenidos traducidos al castellano, conservando la identidad gráfica de Rainbow Arts y la distribución en soporte magnético característica del periodo. Mad TV adquirió un notable reconocimiento entre los aficionados europeos a la estrategia y la simulación, dando lugar a una secuela en 1996 y a posteriores proyectos de homenaje y recreación de su fórmula jugable. Esta edición física española en caja grande constituye un testimonio relevante de la distribución de videojuegos alemanes en el mercado español, de los primeros simuladores de gestión televisiva y de la importancia de los materiales impresos y los disquetes en la experiencia original del videojuego para PC.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "Manual de instrucciones de Mad TV en castellano",
+      "Disquete o disquetes originales del juego en funda protectora ERBE",
+      "Folleto publicitario de productos especiales ERBE",
+      "Folleto publicitario de productos de sonido y multimedia ERBE"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Mad TV",
+      "Mad TV 1991",
+      "Rainbow Arts",
+      "Rainbow Arts Software",
+      "Erbe Software",
+      "Ralph Stock",
+      "Archie",
+      "Betty",
+      "simulación televisiva",
+      "gestión de cadenas de televisión",
+      "programación televisiva",
+      "audiencias de televisión",
+      "publicidad televisiva",
+      "gestión de presupuestos",
+      "competencia empresarial",
+      "estrategia económica",
+      "humor satírico",
+      "videojuegos alemanes",
+      "software europeo",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "VGA",
+      "256 colores",
+      "AdLib",
+      "Sound Blaster",
+      "PC Speaker",
+      "control con ratón",
+      "disquetes de 3,5 pulgadas",
+      "edición española",
+      "traducción al castellano",
+      "Erbe años 90",
+      "Big Box PC",
+      "juegos de 1991",
+      "edición española de 1992",
+      "simuladores clásicos",
+      "coleccionismo PC",
+      "software retro",
+      "preservación de videojuegos",
+      "archivo documental",
+      "formato físico"
+    ],
+    "anio": "1992",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-30",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "The Ancient Art of War",
+    "url": "juegos/the-ancient-art-of-war-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia en tiempo real",
+      "Táctica en tiempo real",
+      "Wargame",
+      "Estrategia militar",
+      "Simulación bélica",
+      "Estrategia histórica"
+    ],
+    "desarrollador": [
+      "Evryware"
+    ],
+    "distribuidor": [
+      "Brøderbund Software",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "The Ancient Art of War es un videojuego de estrategia militar desarrollado por Evryware, bajo el diseño de Dave Murry y Barry Murry, y publicado originalmente por Brøderbund Software en 1984. Inspirado en los principios estratégicos de El arte de la guerra, el célebre tratado atribuido al general y filósofo chino Sun Tzu, está considerado uno de los primeros videojuegos comerciales que combinaron la planificación estratégica con enfrentamientos tácticos desarrollados en tiempo real. El jugador asume el mando de un ejército y debe superar campañas militares mediante el desplazamiento de tropas, la ocupación de posiciones, la gestión de recursos y la elección de formaciones de combate. Sus unidades principales son caballeros, arqueros y bárbaros, con diferencias en movilidad, resistencia y capacidad ofensiva; determinados escenarios también permiten utilizar espías para obtener información sobre el enemigo. El sistema de juego alterna una representación estratégica del territorio con enfrentamientos tácticos donde resulta fundamental controlar las formaciones, los movimientos y la resistencia de los soldados. Incorpora diferentes escenarios y campañas, condiciones de victoria, características del terreno y adversarios inspirados en figuras militares históricas como Julio César, Gengis Kan, Napoleón y el propio Sun Tzu. Una de sus características más avanzadas para la época era la posibilidad de diseñar campañas personalizadas mediante herramientas integradas en el juego, modificando terrenos, posiciones de los ejércitos y condiciones de enfrentamiento. Su planteamiento anticipó elementos fundamentales de la estrategia en tiempo real que alcanzarían gran popularidad durante los años noventa. La edición física española distribuida por Dro Soft conserva la presentación comercial de Brøderbund con documentación traducida al castellano y soporte magnético de 3,5 pulgadas. Los tres disquetes identificados corresponden a una distribución para IBM PC y compatibles, incluyendo un disco específicamente identificado como EGA, asociado a la representación gráfica mejorada respecto a las primeras versiones CGA. Los soportes muestran una referencia de copyright de 1989, posterior al lanzamiento original del juego. Esta edición constituye un testimonio especialmente interesante de la comercialización española de videojuegos de estrategia estadounidenses durante la transición entre las décadas de 1980 y 1990. Su interés patrimonial reside tanto en la importancia histórica del título como precursor del género RTS como en la conservación de una edición localizada, con sus disquetes originales, manual en castellano y embalaje comercial, elementos fundamentales para estudiar y preservar las condiciones de distribución y utilización del software para PC de aquella época.",
+    "incluye": [
+      "Caja original de cartón con ilustración de portada de Brøderbund y distintivos de Dro Soft",
+      "Manual de usuario impreso en castellano",
+      "Disquete de 3,5 pulgadas identificado como DISCO 1",
+      "Disquete de 3,5 pulgadas identificado como DISCO 2",
+      "Disquete de 3,5 pulgadas identificado como DISCO 3 EGA",
+      "Fundas protectoras de papel para los tres disquetes"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "The Ancient Art of War",
+      "Ancient Art of War",
+      "Sun Tzu",
+      "El arte de la guerra",
+      "Dave Murry",
+      "Barry Murry",
+      "Evryware",
+      "Broderbund",
+      "Brøderbund Software",
+      "Dro Soft",
+      "edición española",
+      "software traducido al castellano",
+      "manual en castellano",
+      "historia de los videojuegos",
+      "pioneros de la estrategia en tiempo real",
+      "primeros RTS",
+      "wargames clásicos",
+      "estrategia militar clásica",
+      "tácticas militares",
+      "formaciones de combate",
+      "campañas personalizadas",
+      "editor de escenarios",
+      "inteligencia artificial",
+      "Julio César",
+      "Gengis Kan",
+      "Napoleón",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "disquetes de 3,5 pulgadas",
+      "soporte magnético",
+      "CGA",
+      "EGA",
+      "gráficos de 16 colores",
+      "PC Speaker",
+      "videojuegos de los años 80",
+      "1984",
+      "1989",
+      "caja de cartón",
+      "edición física",
+      "PC retro",
+      "coleccionismo de videojuegos",
+      "preservación de disquetes",
+      "preservación digital",
+      "historia del PC"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Reedición"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "video_intro": false,
     "fecha_incorporacion": "2026-10-04",
     "procedencia": {
@@ -95194,6 +95417,559 @@
     "preservacion": {
       "resumen": ""
     },
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-30",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Witchaven",
+    "url": "juegos/witchaven-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Acción en primera persona",
+      "First-person shooter",
+      "Fantasía oscura",
+      "Acción y aventura",
+      "Dungeon crawler",
+      "Elementos de rol"
+    ],
+    "desarrollador": [
+      "Capstone Software"
+    ],
+    "distribuidor": [
+      "IntraCorp",
+      "SoftKey"
+    ],
+    "ean": [],
+    "descripcion": "Witchaven es un videojuego de acción en primera persona y fantasía oscura desarrollado por Capstone Software y publicado originalmente por IntraCorp en 1995. Ambientado en un universo medieval poblado de brujas, demonios y criaturas sobrenaturales, sitúa al jugador en la isla de Char, donde debe adentrarse en una peligrosa red de mazmorras y fortalezas para alcanzar la guarida de Witchaven y poner fin al dominio de las fuerzas oscuras. A diferencia de los shooters tradicionales de la época, su sistema de combate concede especial protagonismo a las armas medievales, como espadas, hachas y otras armas cuerpo a cuerpo, complementadas por hechizos mágicos, pociones y elementos de progresión propios de los juegos de rol. Técnicamente destaca por utilizar una versión temprana del motor Build, tecnología desarrollada por Ken Silverman y posteriormente popularizada por Duke Nukem 3D. Este motor permitía construir escenarios tridimensionales mediante geometría basada en sectores, incorporando diferentes alturas, escaleras, plataformas, espacios superpuestos y entornos de arquitectura compleja. El juego también incorpora secuencias de vídeo, efectos sonoros digitalizados y música en calidad CD. Witchaven representa una interesante combinación entre el shooter en primera persona y el dungeon crawler de fantasía, dentro de la evolución del género durante la primera mitad de los años noventa. La edición física catalogada corresponde a una reedición europea comercializada por SoftKey, perteneciente a su distribución en España durante la segunda mitad de los noventa. Se presenta en estuche Jewel Case con carátula y contraportada en castellano y un CD-ROM de color rojo con serigrafía específica. El diseño de esta edición incorpora el reclamo comercial 'El último juego de Aventuras Medievales' y referencias a los requisitos de los ordenadores IBM PC compatibles de la época. Su interés documental reside tanto en la conservación de una obra temprana basada en el motor Build como en representar las reediciones económicas de videojuegos para PC que circularon por el mercado español durante la expansión comercial del CD-ROM.",
+    "incluye": [
+      "Estuche de plástico Jewel Case",
+      "Carátula frontal en castellano",
+      "Contraportada en castellano",
+      "1 CD-ROM original serigrafiado"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Witchaven",
+      "Capstone Software",
+      "IntraCorp",
+      "SoftKey",
+      "Ken Silverman",
+      "Build Engine",
+      "Motor Build",
+      "Witchaven II",
+      "Fantasía medieval",
+      "Fantasía oscura",
+      "Brujas",
+      "Demonios",
+      "Mazmorras",
+      "Combate cuerpo a cuerpo",
+      "Armas medievales",
+      "Hechizos mágicos",
+      "Exploración de mazmorras",
+      "FPS clásico",
+      "Shooter medieval",
+      "Elementos RPG",
+      "Gráficos 2.5D",
+      "MS-DOS",
+      "Windows 3.1",
+      "Windows 95",
+      "Sound Blaster",
+      "IBM PC compatibles",
+      "CD-ROM",
+      "Jewel Case",
+      "Reedición SoftKey",
+      "Edición española",
+      "Carátula en castellano",
+      "Videojuegos de 1995",
+      "Videojuegos de los 90",
+      "Retro PC",
+      "Coleccionismo PC",
+      "Preservación digital",
+      "Videojuego físico"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-30",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Secret Weapons of the Luftwaffe",
+    "url": "juegos/secret-weapons-of-the-luftwaffe-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación de vuelo",
+      "Simulación de combate aéreo",
+      "Simulación militar",
+      "Simulación histórica",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "Lucasfilm Games"
+    ],
+    "distribuidor": [
+      "LucasArts",
+      "Lucasfilm Games"
+    ],
+    "ean": [],
+    "descripcion": "Secret Weapons of the Luftwaffe es un simulador de combate aéreo de la Segunda Guerra Mundial desarrollado por Lucasfilm Games bajo la dirección de Lawrence Holland y publicado originalmente en 1991 para MS-DOS. Ambientado principalmente en el frente aéreo europeo entre 1943 y 1945, permite participar en operaciones militares desde la perspectiva de las fuerzas estadounidenses y alemanas, combinando el pilotaje de aviones de combate con la planificación estratégica de campañas. Su principal característica es la incorporación de aeronaves experimentales alemanas, como el Messerschmitt Me 262, el interceptor cohete Me 163 Komet y el ala volante Gotha Go 229, junto a modelos estadounidenses como el P-51 Mustang, el P-47 Thunderbolt y el bombardero B-17 Flying Fortress. El juego combina misiones individuales, campañas dinámicas, gestión de recursos militares, selección de objetivos y simulación de vuelo con modelos de daños y características diferenciadas para cada aeronave. Utiliza gráficos tridimensionales poligonales característicos de los simuladores de principios de los noventa y ofrece una experiencia que integra decisiones tácticas y estratégicas. Esta edición en CD-ROM, publicada en 1992, reúne el juego original y las cuatro ampliaciones oficiales Tour of Duty: P-38 Lightning, P-80 Shooting Star, He 162 Volksjäger y Do 335 Pfeil. Constituye una edición recopilatoria especialmente relevante porque consolida en un único soporte óptico el contenido que anteriormente se comercializaba mediante disquetes y expansiones independientes. Su importancia histórica reside también en la evolución de la tecnología de simulación desarrollada por Lawrence Holland, que posteriormente sería fundamental en títulos de combate espacial de LucasArts como Star Wars: X-Wing y Star Wars: TIE Fighter. La edición representa un ejemplo temprano de recopilación multimedia en CD-ROM y una pieza significativa para documentar la transición del mercado de simuladores de vuelo de PC desde el disquete hacia el soporte óptico.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original de Secret Weapons of the Luftwaffe",
+      "Juego base Secret Weapons of the Luftwaffe",
+      "Expansión Tour of Duty: P-38 Lightning",
+      "Expansión Tour of Duty: P-80 Shooting Star",
+      "Expansión Tour of Duty: He 162 Volksjäger",
+      "Expansión Tour of Duty: Do 335 Pfeil",
+      "Carátula frontal original",
+      "Carátula trasera original"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Secret Weapons of the Luftwaffe",
+      "SWOTL",
+      "LucasArts",
+      "Lucasfilm Games",
+      "Lucasfilm",
+      "Lawrence Holland",
+      "Segunda Guerra Mundial",
+      "World War II",
+      "US Army Air Forces",
+      "Luftwaffe",
+      "aviación militar",
+      "combate aéreo",
+      "simulador de vuelo clásico",
+      "flight simulator",
+      "aviones experimentales",
+      "armamento experimental alemán",
+      "Messerschmitt Me 262",
+      "Messerschmitt Me 163 Komet",
+      "Gotha Go 229",
+      "Dornier Do 335",
+      "Heinkel He 162",
+      "Lockheed P-38 Lightning",
+      "Lockheed P-80 Shooting Star",
+      "Boeing B-17 Flying Fortress",
+      "North American P-51 Mustang",
+      "Republic P-47 Thunderbolt",
+      "Tour of Duty",
+      "cuatro expansiones incluidas",
+      "campaña dinámica",
+      "simulación estratégica",
+      "gráficos 3D poligonales",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "PC CD-ROM",
+      "LucasArts simuladores",
+      "edición estadounidense",
+      "edición en inglés",
+      "Jewel Case",
+      "recopilación CD-ROM",
+      "videojuegos de 1992",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación digital",
+      "videojuego físico"
+    ],
+    "anio": "1992",
+    "mercado": [
+      "Estados Unidos"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Compilación"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-30",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "The Secret of Monkey Island",
+    "url": "juegos/the-secret-of-monkey-island-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Comedia",
+      "Aventura de piratas"
+    ],
+    "desarrollador": [
+      "Lucasfilm Games"
+    ],
+    "distribuidor": [
+      "LucasArts",
+      "The Software Toolworks"
+    ],
+    "ean": [],
+    "descripcion": "The Secret of Monkey Island es una de las aventuras gráficas más influyentes de la historia del videojuego para PC. Desarrollado por Lucasfilm Games bajo la dirección de Ron Gilbert, con la participación de Tim Schafer y Dave Grossman, apareció originalmente en 1990 y estableció numerosas convenciones narrativas y jugables que definirían la edad dorada del género point and click. La historia sigue a Guybrush Threepwood, un joven aspirante a pirata que llega a la isla de Mêlée decidido a convertirse en un auténtico bucanero. Para conseguirlo deberá superar las pruebas de los piratas locales, conquistar el corazón de la gobernadora Elaine Marley y enfrentarse al temible pirata fantasma LeChuck. Su combinación de humor absurdo, diálogos ingeniosos, exploración, duelos de insultos y puzles lógicos convirtió el juego en una referencia del diseño de aventuras. Utiliza el motor SCUMM, desarrollado originalmente para Maniac Mansion, y destaca por su filosofía de diseño orientada a evitar bloqueos irreversibles y castigos arbitrarios al jugador. La edición física catalogada corresponde a la versión mejorada en CD-ROM para IBM PC y compatibles MS-DOS, publicada en 1992. Esta revisión incorpora gráficos VGA de 256 colores, una interfaz renovada con inventario representado mediante iconos y una banda sonora reproducida desde pistas CD Audio, con composiciones originales de Michael Land. La adaptación utiliza una evolución del intérprete SCUMM empleado en Monkey Island 2 y conserva la presentación bidimensional clásica sin voces digitalizadas para los personajes. El disco integra cinco idiomas seleccionables: inglés, francés, alemán, italiano y español, tanto para el juego como para el manual electrónico. Su publicación representa un momento importante en la transición de las aventuras gráficas desde el disquete hacia el CD-ROM, aprovechando especialmente la capacidad del soporte óptico para ofrecer música de mayor calidad. Esta edición en estuche Jewel Case, comercializada bajo los sellos LucasArts y Lucasfilm Games, constituye una pieza de especial interés documental por conservar la versión multimedia original de uno de los grandes clásicos de la aventura gráfica, anterior a su posterior reinterpretación en The Secret of Monkey Island: Special Edition de 2009.",
+    "incluye": [
+      "Estuche Jewel Case original",
+      "1 CD-ROM original de The Secret of Monkey Island",
+      "Carátula frontal ilustrada",
+      "Contracarátula original en inglés"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "The Secret of Monkey Island",
+      "Monkey Island",
+      "Guybrush Threepwood",
+      "Elaine Marley",
+      "LeChuck",
+      "Ron Gilbert",
+      "Tim Schafer",
+      "Dave Grossman",
+      "Michael Land",
+      "Lucasfilm Games",
+      "LucasArts",
+      "The Software Toolworks",
+      "SCUMM",
+      "SCUMM v5",
+      "motor SCUMM",
+      "Meat Hook",
+      "isla de Mêlée",
+      "Caribe",
+      "piratas",
+      "duelos de insultos",
+      "humor absurdo",
+      "aventura gráfica clásica",
+      "edad dorada de las aventuras gráficas",
+      "CD-ROM Enhanced Version",
+      "versión CD-ROM 1992",
+      "VGA 256 colores",
+      "CD Audio",
+      "banda sonora digital",
+      "música de videojuegos",
+      "interfaz con iconos",
+      "versión multilingüe",
+      "cinco idiomas",
+      "textos en español",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "DOSBox",
+      "ScummVM",
+      "jewel case",
+      "edición europea",
+      "videojuegos de 1992",
+      "PC clásico",
+      "formato físico",
+      "coleccionismo PC",
+      "preservación digital",
+      "historia del videojuego"
+    ],
+    "anio": "1992",
+    "mercado": [
+      "Europa",
+      "Reino Unido",
+      "Francia",
+      "Alemania",
+      "Italia",
+      "España"
+    ],
+    "idioma": [
+      "Inglés",
+      "Francés",
+      "Alemán",
+      "Italiano",
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-30",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Mad Dog McCree",
+    "url": "juegos/mad-dog-mccree-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Acción",
+      "Shooter sobre raíles",
+      "Disparos en primera persona",
+      "Western",
+      "Arcade",
+      "Película interactiva"
+    ],
+    "desarrollador": [
+      "American Laser Games"
+    ],
+    "distribuidor": [
+      "American Laser Games",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Mad Dog McCree es un videojuego de disparos de ambientación western desarrollado por American Laser Games, lanzado originalmente para máquinas recreativas a comienzos de los años noventa y adaptado posteriormente a ordenadores personales. La versión para MS-DOS apareció en 1993 y trasladó al entorno doméstico una de las experiencias más representativas de los primeros videojuegos construidos sobre imágenes de acción real. La historia sitúa al jugador en una localidad del Lejano Oeste dominada por el forajido Mad Dog McCree y su banda, responsables del secuestro del alcalde y su hija y del encarcelamiento del sheriff. Para restaurar el orden, el protagonista debe superar sucesivos enfrentamientos armados, emboscadas y desafíos de puntería hasta alcanzar el escondite del villano. Su principal característica tecnológica es el empleo de secuencias de vídeo digitalizado con actores reales, conocidas como Full Motion Video (FMV), que sustituyen los gráficos tradicionales por escenas cinematográficas interactivas. El jugador interviene disparando contra objetivos que aparecen en pantalla, con una mecánica inspirada en las galerías de tiro y las películas del Oeste. La producción original utilizaba tecnología LaserDisc en recreativas, mientras que la adaptación doméstica distribuía el contenido audiovisual mediante CD-ROM. La edición para compatibles IBM PC requiere MS-DOS 3.3 o superior, procesador 286 a 16 MHz como mínimo, gráficos VGA, unidad de CD-ROM y tarjeta de sonido Sound Blaster o compatible. Esta edición física comercializada en España bajo el sello de Erbe presenta una caja Jewel Case con documentación impresa en castellano, aunque la contraportada conserva textos descriptivos en inglés. Mad Dog McCree constituye una pieza significativa para documentar la expansión del CD-ROM multimedia y la experimentación con vídeo interactivo durante la transición de las recreativas LaserDisc a los ordenadores domésticos de los años noventa. Su propuesta representa una etapa singular en la historia del videojuego, cuando diversas compañías exploraron la convergencia entre cine, televisión y entretenimiento interactivo.",
+    "incluye": [
+      "Caja Jewel Case de CD-ROM",
+      "1 CD-ROM original de Mad Dog McCree",
+      "Manual de instrucciones impreso"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Mad Dog McCree",
+      "American Laser Games",
+      "Erbe Software",
+      "FUN",
+      "Lejano Oeste",
+      "western interactivo",
+      "pistoleros",
+      "duelos de revólver",
+      "forajidos",
+      "película interactiva",
+      "Full Motion Video",
+      "FMV",
+      "vídeo digitalizado",
+      "actores reales",
+      "LaserDisc",
+      "arcade de disparos",
+      "light gun",
+      "shooting gallery",
+      "CD-ROM multimedia",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "VGA",
+      "Sound Blaster",
+      "edición española",
+      "instrucciones en castellano",
+      "caja Jewel Case",
+      "videojuegos de los años 90",
+      "adaptación de recreativa",
+      "historia del videojuego",
+      "coleccionismo PC",
+      "preservación digital",
+      "PC clásico"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "No determinado"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-30",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Loom",
+    "url": "juegos/loom-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Fantasía",
+      "Puzzle",
+      "Aventura narrativa"
+    ],
+    "desarrollador": [
+      "Lucasfilm Games"
+    ],
+    "distribuidor": [
+      "LucasArts",
+      "The Software Toolworks"
+    ],
+    "ean": [],
+    "descripcion": "Loom es una aventura gráfica de fantasía diseñada por Brian Moriarty y desarrollada por Lucasfilm Games, publicada originalmente en 1990. Considerada una de las obras más originales de la edad dorada de las aventuras gráficas, presenta un universo fantástico donde la magia se manifiesta mediante secuencias de notas musicales llamadas patrones o drafts. El jugador controla a Bobbin Threadbare, un joven perteneciente al gremio de los Tejedores, que debe descubrir el misterio de su origen y enfrentarse a una amenaza capaz de alterar el tejido de la realidad. A diferencia de las aventuras tradicionales de Lucasfilm Games, Loom prescinde del inventario convencional y de los comandos de acción habituales del motor SCUMM, sustituyéndolos por un innovador sistema de hechizos musicales que deben aprenderse mediante observación, experimentación y memoria. Su apartado musical está inspirado en el ballet El lago de los cisnes de Piotr Ilich Chaikovski, elemento fundamental de su identidad artística y narrativa. Esta edición estadounidense en CD-ROM de 1992, distribuida por The Software Toolworks bajo el sello LucasArts/Lucasfilm Games, pertenece a la revisión multimedia del juego para compatibles IBM PC con MS-DOS. Incorpora gráficos VGA de 256 colores, diálogos completamente digitalizados en inglés y una banda sonora reproducida mediante audio digital de CD, constituyendo una evolución audiovisual importante respecto al lanzamiento original en disquetes EGA de 16 colores. La versión CD-ROM también presenta diferencias narrativas y de montaje respecto a las primeras ediciones, con determinadas secuencias y diálogos abreviados. El ejemplar corresponde a una presentación comercial en estuche Jewel Case, acompañada de documentación impresa de garantía y correspondencia del distribuidor estadounidense. Loom ocupa un lugar fundamental en la historia del videojuego por su experimentación narrativa, su integración de música y mecánicas jugables y su singular interpretación del género de aventura gráfica. La edición CD-ROM resulta especialmente relevante para la preservación por sus diferencias técnicas, audiovisuales y de contenido frente a las versiones originales en disquete.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original del juego",
+      "Carátula frontal con ilustración original de Loom y logotipo LucasArts/Lucasfilm Games",
+      "Carátula posterior con catálogo de títulos Lucasfilm Games",
+      "Hoja impresa de garantía y condiciones de licencia de The Software Toolworks",
+      "Tarjeta o formulario postal de The Software Toolworks"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Loom",
+      "Lucasfilm Games",
+      "LucasArts",
+      "The Software Toolworks",
+      "Brian Moriarty",
+      "SCUMM",
+      "Bobbin Threadbare",
+      "gremio de los Tejedores",
+      "magia musical",
+      "hechizos musicales",
+      "patrones mágicos",
+      "El lago de los cisnes",
+      "Chaikovski",
+      "aventuras Lucasfilm",
+      "aventura gráfica clásica",
+      "narrativa interactiva",
+      "fantasía épica",
+      "1990",
+      "1992",
+      "edición CD-ROM",
+      "versión Talkie",
+      "VGA 256 colores",
+      "audio digital",
+      "CD audio",
+      "doblaje en inglés",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "edición estadounidense",
+      "distribución norteamericana",
+      "Jewel Case",
+      "reedición multimedia",
+      "PC clásico",
+      "juegos de los 90",
+      "videojuegos retro",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "preservación digital",
+      "historia del videojuego"
+    ],
+    "anio": "1992",
+    "mercado": [
+      "Estados Unidos",
+      "Norteamérica"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
     "video_intro_fecha": "",
     "video_intro_duracion": ""
   }
