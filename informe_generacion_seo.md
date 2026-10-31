@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-10-31T09:52:07
+- Fecha: 2026-10-31T10:00:34
 - Juegos en catálogo: 1582
 - Incorporaciones con fecha documentada: 33
 - URLs duplicadas detectadas: 1
@@ -16,8 +16,8 @@
 - Soportes documentados: 351 fichas (22.2%); entidades indexables: 5
 - Tipos de edición documentados: 196 fichas (12.4%); entidades indexables: 8
 - Páginas estáticas del catálogo: 66
-- Fichas con imágenes documentales detectadas: 1579
-- Imágenes documentales incluidas en el sitemap: 2628
+- Fichas con imágenes documentales detectadas: 1580
+- Imágenes documentales incluidas en el sitemap: 2632
 
 ## Observaciones
 

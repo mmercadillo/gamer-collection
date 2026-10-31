@@ -3572,7 +3572,21 @@
       <image:loc>https://www.pcgamearchive.org/juegos/lode-runner-the-legend-returns-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
-  <url><loc>https://www.pcgamearchive.org/juegos/silent-service-ii-bigbox/</loc></url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/silent-service-ii-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/silent-service-ii-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/silent-service-ii-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/silent-service-ii-bigbox/img/003.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/silent-service-ii-bigbox/img/004.jpg</image:loc>
+    </image:image>
+  </url>
   <url>
     <loc>https://www.pcgamearchive.org/juegos/the-perfect-general-ii-bigbox/</loc>
     <image:image>
