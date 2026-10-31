@@ -21656,6 +21656,345 @@
   {
     "num": "000000",
     "ig": "",
+    "fecha_incorporacion": "2026-10-31",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Kingmaker: La Búsqueda de la Corona",
+    "url": "juegos/kingmaker-la-busqueda-de-la-corona-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Estrategia por turnos",
+      "Wargame",
+      "Estrategia histórica",
+      "Simulación política",
+      "Juego de tablero"
+    ],
+    "desarrollador": [
+      "TM Games"
+    ],
+    "distribuidor": [
+      "U.S. Gold",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Kingmaker: La Búsqueda de la Corona es un videojuego de estrategia histórica por turnos desarrollado por TM Games y publicado por U.S. Gold en 1993, basado en el juego de tablero Kingmaker diseñado por Andrew McNeil y comercializado originalmente por Avalon Hill. Ambientado en la Inglaterra del siglo XV durante la Guerra de las Dos Rosas, enfrenta a las casas de Lancaster y York en una compleja lucha por el control de la monarquía inglesa. El jugador dirige una facción de nobles y debe reunir ejércitos, controlar territorios, conquistar castillos, obtener títulos, organizar alianzas y utilizar la influencia política para situar a un heredero en el trono. A diferencia de los juegos de estrategia centrados exclusivamente en la conquista militar, Kingmaker concede una importancia fundamental a la legitimidad dinástica, las relaciones entre familias nobles, el Parlamento y los acontecimientos históricos que alteran el equilibrio de poder. Su sistema reproduce numerosas mecánicas del juego de mesa original, incorporando una interfaz gráfica con mapas estratégicos, representación de unidades, gestión de personajes y resolución de enfrentamientos militares. La versión para IBM PC compatibles utiliza gráficos VGA de 256 colores, interfaz controlada mediante iconos y ratón, y compatibilidad con dispositivos de sonido como AdLib, Roland y Sound Blaster. Esta edición española, comercializada por Dro Soft en caja grande de cartón bajo licencia de U.S. Gold, presenta textos de caja y manual en castellano y lleva el distintivo 'Software traducido al castellano'. Se distribuye mediante dos disquetes de alta densidad de 3,5 pulgadas. Su interés histórico y documental reside en representar la adaptación informática de un influyente juego de estrategia política de tablero y en conservar una edición española de la primera mitad de los años noventa, anterior a la generalización del CD-ROM. Constituye una pieza especialmente representativa de los wargames y simuladores históricos clásicos para MS-DOS.",
+    "incluye": [
+      "Caja grande de cartón Big Box",
+      "Manual de usuario en castellano",
+      "Disquete de 3,5 pulgadas HD - Disk 1",
+      "Disquete de 3,5 pulgadas HD - Disk 2",
+      "Hoja de referencia rápida impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Kingmaker",
+      "Kingmaker The Quest for the Crown",
+      "La Búsqueda de la Corona",
+      "TM Games",
+      "U.S. Gold",
+      "Dro Soft",
+      "Avalon Hill",
+      "Andrew McNeil",
+      "Guerra de las Dos Rosas",
+      "Wars of the Roses",
+      "Lancaster",
+      "York",
+      "Inglaterra medieval",
+      "Siglo XV",
+      "Guerra civil inglesa",
+      "Nobleza medieval",
+      "Dinastías reales",
+      "Intriga política",
+      "Sucesión al trono",
+      "Diplomacia medieval",
+      "Parlamento inglés",
+      "Adaptación de juego de mesa",
+      "Wargame clásico",
+      "Estrategia política",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "VGA 256 colores",
+      "AdLib",
+      "Sound Blaster",
+      "Roland",
+      "Disquetes 3.5",
+      "Edición española",
+      "Software traducido al castellano",
+      "Manual en castellano",
+      "Big Box PC",
+      "1993",
+      "PC clásico",
+      "Coleccionismo PC",
+      "Preservación videojuegos"
+    ],
+    "anio": "1994",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-31",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Lode Runner: The Legend Returns",
+    "url": "juegos/lode-runner-the-legend-returns-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Plataformas",
+      "Arcade",
+      "Puzzle",
+      "Acción",
+      "Lógica"
+    ],
+    "desarrollador": [
+      "Presage Software"
+    ],
+    "distribuidor": [
+      "Sierra On-Line",
+      "Coktel Educative"
+    ],
+    "ean": [],
+    "descripcion": "Lode Runner: The Legend Returns es una reinterpretación del histórico videojuego de plataformas y lógica Lode Runner, creado originalmente por Douglas E. Smith y publicado por Brøderbund en 1983. Desarrollado por Presage Software y publicado por Sierra On-Line en 1994, recupera la fórmula clásica de recoger tesoros, evitar enemigos y abrir agujeros en el terreno, incorporando gráficos renovados, nuevos dispositivos, mayor variedad de escenarios y un completo editor de niveles. El jugador controla a un intrépido cazador de recompensas que debe recuperar las riquezas arrebatadas por un imperio subterráneo, atravesando laberintos repletos de escaleras, plataformas, trampas y enemigos conocidos como monjes locos. La aventura ofrece 150 niveles distribuidos en diez mundos diferenciados, con gráficos de hasta 256 colores y mecánicas que combinan reflejos, planificación y resolución de puzles. Entre sus novedades destacan las bombas, trampas, herramientas para modificar escenarios, bloques especiales y transportadores, que amplían considerablemente las posibilidades estratégicas del diseño original. Incorpora modalidades para uno y dos jugadores, tanto cooperativas como competitivas, además de un generador de niveles que permite crear desafíos personalizados. La edición física española conservada corresponde a la distribución comercial en CD-ROM bajo el sello Sierra, con intervención de Coktel Educative en su comercialización local. Presenta textos comerciales y documentación de instalación en castellano, así como requisitos técnicos asociados a los ordenadores compatibles IBM PC de mediados de los años noventa. Su presentación en caja grande representa la transición de los clásicos arcade de los años ochenta hacia producciones multimedia para PC, conservando las mecánicas originales y ampliándolas mediante nuevas posibilidades gráficas, sonoras y creativas. Es una pieza de especial interés para documentar la evolución de Lode Runner, la recuperación de franquicias históricas y la distribución española de videojuegos para Windows 3.x y MS-DOS durante la expansión del CD-ROM.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "CD-ROM del juego",
+      "Estuche Jewel Case",
+      "Manual de instrucciones en castellano",
+      "Hoja de instrucciones de instalación para Windows en castellano",
+      "Documentación impresa adicional sobre configuración del teclado"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Lode Runner",
+      "The Legend Returns",
+      "Lode Runner 1994",
+      "Douglas E. Smith",
+      "Presage Software",
+      "Sierra On-Line",
+      "Sierra",
+      "Coktel Educative",
+      "Brøderbund",
+      "Jeff Tunnell",
+      "Jeff Tunnell Productions",
+      "Jack Peril",
+      "Wes Reckless",
+      "plataformas clásicas",
+      "arcade de lógica",
+      "laberintos",
+      "recogida de tesoros",
+      "excavación de plataformas",
+      "monjes locos",
+      "150 niveles",
+      "diez mundos",
+      "editor de niveles",
+      "generador de niveles",
+      "niveles personalizados",
+      "modo cooperativo",
+      "modo competitivo",
+      "dos jugadores",
+      "multijugador local",
+      "puzles de plataformas",
+      "VGA",
+      "256 colores",
+      "Sound Blaster",
+      "Windows 3.1",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "CD-ROM",
+      "edición española",
+      "manual en castellano",
+      "caja grande",
+      "Big Box PC",
+      "videojuegos de 1994",
+      "arcade de los años 90",
+      "remake de videojuego clásico",
+      "videojuegos retro",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "software físico",
+      "historia del videojuego"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-10-31",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Silent Service II",
+    "url": "juegos/silent-service-ii-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación naval",
+      "Simulador de submarinos",
+      "Simulación bélica",
+      "Simulación histórica",
+      "Segunda Guerra Mundial"
+    ],
+    "desarrollador": [
+      "MPS Labs"
+    ],
+    "distribuidor": [
+      "MicroProse",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Silent Service II es un simulador de submarinos de la Segunda Guerra Mundial desarrollado por MPS Labs y publicado por MicroProse en 1990 para ordenadores IBM PC y compatibles. Continuación del influyente Silent Service de 1985, amplía considerablemente las posibilidades de simulación naval del original, trasladando al jugador al mando de un submarino estadounidense durante la campaña del Pacífico contra la Armada Imperial Japonesa. El juego permite participar en misiones de entrenamiento, patrullas de combate, ataques a convoyes y campañas completas, con escenarios históricos y libertad para decidir rutas, objetivos y tácticas de enfrentamiento. Su sistema de simulación reproduce aspectos fundamentales de la guerra submarina, como la navegación en superficie y en inmersión, el empleo del periscopio, el cálculo de soluciones de tiro, el lanzamiento de torpedos, la detección de contactos mediante sonar, la gestión de daños y la evasión de destructores enemigos. Incorpora diferentes clases de submarinos estadounidenses, buques mercantes y unidades militares japonesas, así como condiciones operativas que obligan a considerar la visibilidad, la profundidad, la velocidad y la posición relativa de los objetivos. En el apartado tecnológico destacó por mejorar notablemente la presentación audiovisual respecto a su predecesor, ofreciendo gráficos VGA de 256 colores, compatibilidad con EGA, CGA y Tandy, efectos sonoros digitalizados, música y soporte para tarjetas AdLib. También incorpora un sistema de repetición de acciones que permite revisar enfrentamientos anteriores. Su combinación de documentación histórica, procedimientos navales y decisiones tácticas lo convierte en uno de los representantes más destacados de la simulación militar para ordenadores personales de comienzos de los años noventa. Esta edición física española en caja grande, distribuida por Erbe Software bajo el sello MicroProse, conserva documentación en castellano, suplemento técnico, plantilla de teclado y materiales publicitarios de época. Constituye una pieza especialmente relevante para documentar la distribución española de simuladores militares para MS-DOS, la utilización de disquetes como soporte comercial y la importancia de los manuales y ayudas impresas en los videojuegos de simulación anteriores a la generalización del CD-ROM.",
+    "incluye": [
+      "Caja original de cartón Big Box",
+      "Manual de Silent Service II",
+      "Suplemento técnico en castellano",
+      "Plantilla de referencia para el teclado",
+      "Disquete de 5,25 pulgadas",
+      "Bolsa protectora para disquetes de Erbe",
+      "Folleto publicitario de AdLib",
+      "Material publicitario de videojuegos Progreso Espacial"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Silent Service",
+      "Silent Service II",
+      "MicroProse",
+      "MPS Labs",
+      "Erbe Software",
+      "Arnold Hendrick",
+      "Roy B. Gibson",
+      "guerra submarina",
+      "submarinos estadounidenses",
+      "US Navy",
+      "Armada Imperial Japonesa",
+      "Guerra del Pacífico",
+      "Segunda Guerra Mundial",
+      "Pacific War",
+      "simulación militar clásica",
+      "combate naval",
+      "torpedos",
+      "periscopio",
+      "sonar",
+      "patrullas submarinas",
+      "campaña del Pacífico",
+      "simuladores MicroProse",
+      "IBM PC compatibles",
+      "MS-DOS",
+      "VGA",
+      "EGA",
+      "CGA",
+      "Tandy",
+      "AdLib",
+      "sonido digitalizado",
+      "disquetes 5.25",
+      "edición española",
+      "manual en castellano",
+      "Erbe",
+      "caja grande",
+      "Big Box PC",
+      "videojuegos de 1990",
+      "retro PC",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "software histórico"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "video_intro": false,
     "fecha_incorporacion": "2026-10-04",
     "procedencia": {
