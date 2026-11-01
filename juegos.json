@@ -20665,7 +20665,7 @@
   },
   {
     "num": "000240",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DfMWeLECC2n",
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",
@@ -21981,6 +21981,451 @@
     ],
     "soporte": [
       "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Donacion",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "@mercadillogonzalez",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Angel Devoid: Face of the Enemy",
+    "url": "juegos/angel-devoid-face-of-the-enemy-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Aventura en primera persona",
+      "Point and click",
+      "Ciencia ficción",
+      "Cyberpunk",
+      "Thriller",
+      "Aventura cinematográfica",
+      "Full Motion Video",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "Electric Dreams Inc."
+    ],
+    "distribuidor": [
+      "Mindscape",
+      "Mindscape Inc."
+    ],
+    "ean": [],
+    "descripcion": "Angel Devoid: Face of the Enemy es una aventura gráfica cinematográfica de ciencia ficción desarrollada por Electric Dreams Inc. y publicada por Mindscape en 1996 para MS-DOS y Macintosh. Representa una de las producciones más características de la época de expansión del CD-ROM multimedia, cuando los estudios experimentaban con películas interactivas, actores reales, escenarios digitales y narrativas destinadas a un público adulto. La historia transcurre en Neo-City, una metrópolis futurista dominada por la violencia, el crimen organizado y una estética cyberpunk de marcado carácter oscuro. El protagonista, el detective Jake Hard, persigue al peligroso criminal Angel Devoid hasta sufrir un accidente que lo deja gravemente desfigurado. Tras una operación de reconstrucción facial descubre que su rostro ha sido sustituido por el de su enemigo, convirtiéndose inesperadamente en el hombre más buscado de la ciudad. A partir de ese momento deberá sobrevivir entre antiguos enemigos, delincuentes y personajes que lo confunden con Angel Devoid, mientras intenta descubrir la verdad sobre su nueva identidad. La experiencia combina exploración en primera persona, desplazamientos entre localizaciones, investigación, conversaciones, resolución de puzles y decisiones que pueden conducir a diferentes desenlaces. Una de sus características distintivas es el sistema de control de actitud, que permite modificar el comportamiento del protagonista durante determinadas interacciones. Técnicamente destaca por sus secuencias Full Motion Video con actores reales integrados en escenarios digitales, gráficos SVGA, sonido digital estéreo de 16 bits y una extensa presentación audiovisual distribuida en cuatro CD-ROM. Su producción contó con intérpretes como Joseph Pilato, conocido por su participación en el cine de terror. La edición física norteamericana en caja grande presenta clasificación ESRB Mature y constituye un ejemplo representativo de las ambiciosas aventuras multimedia de mediados de los noventa. Su valor documental reside tanto en su peculiar propuesta narrativa de identidad suplantada y thriller tecnológico como en la conservación de una producción distribuida en múltiples discos ópticos, característica de la transición desde las aventuras gráficas tradicionales hacia experiencias cinematográficas interactivas.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "4 CD-ROM originales del juego con sus fundas individuales",
+      "Manual de instrucciones impreso",
+      "Hoja de información e instrucciones previas a la instalación",
+      "Documentación adicional del juego",
+      "Folleto promocional de revista de videojuegos para PC",
+      "Folleto publicitario de pistas, secretos y soluciones"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Angel Devoid",
+      "Face of the Enemy",
+      "Electric Dreams",
+      "Mindscape",
+      "Jake Hard",
+      "Neo-City",
+      "Death Mask",
+      "Anthony Gomez",
+      "Joseph Pilato",
+      "aventura multimedia",
+      "aventura cinematográfica",
+      "cine interactivo",
+      "FMV",
+      "Full Motion Video",
+      "vídeo de acción real",
+      "actores reales",
+      "identidad suplantada",
+      "thriller futurista",
+      "distopía",
+      "neo-noir",
+      "cybergothic",
+      "control de actitud",
+      "decisiones narrativas",
+      "múltiples finales",
+      "investigación criminal",
+      "escenarios digitales",
+      "gráficos SVGA",
+      "VESA",
+      "Sound Blaster",
+      "sonido digital de 16 bits",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "PC CD-ROM",
+      "4 CD-ROM",
+      "edición norteamericana",
+      "caja grande",
+      "Big Box PC",
+      "ESRB Mature",
+      "videojuegos de 1996",
+      "aventuras de los 90",
+      "juegos multimedia de los 90",
+      "retro PC",
+      "coleccionismo PC",
+      "edición física",
+      "preservación de videojuegos",
+      "preservación digital",
+      "historia del videojuego"
+    ],
+    "anio": "",
+    "mercado": [
+      "Estados Unidos",
+      "Canadá",
+      "Norteamérica"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "F-117A Nighthawk Stealth Fighter 2.0",
+    "url": "juegos/f-117a-nighthawk-stealth-fighter-2-0-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación de vuelo",
+      "Simulación militar",
+      "Simulador de combate aéreo",
+      "Simulación táctica"
+    ],
+    "desarrollador": [
+      "MPS Labs",
+      "MicroProse Software"
+    ],
+    "distribuidor": [
+      "MicroProse",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "F-117A Nighthawk Stealth Fighter 2.0 es un simulador de combate aéreo desarrollado por MPS Labs y publicado por MicroProse en 1991 para ordenadores IBM PC compatibles con MS-DOS. Constituye una evolución del anterior F-19 Stealth Fighter y está dedicado al avión estadounidense Lockheed F-117A Nighthawk, célebre por su tecnología de baja observabilidad frente al radar. El juego apareció en un momento de especial interés internacional por la aviación furtiva, impulsado por la participación del F-117A en la guerra del Golfo de 1991. Su propuesta combina simulación de vuelo, navegación instrumental, planificación táctica, gestión de armamento y misiones de infiltración y ataque contra objetivos militares. La detección por radar, las condiciones de vuelo y la aproximación discreta a los blancos desempeñan un papel fundamental, diferenciándolo de los simuladores de combate aéreo más orientados a enfrentamientos directos. Permite realizar operaciones en distintos escenarios geográficos, como Libia, el golfo Pérsico, Europa Central, Corea del Norte y Cuba, con objetivos y amenazas específicos. Técnicamente destacó por sus gráficos tridimensionales poligonales, presentación VGA de 256 colores, cabina instrumental detallada, representación de sistemas de navegación y armamento, y compatibilidad con dispositivos de sonido de la época, como AdLib. La versión 2.0 introdujo mejoras gráficas, sonoras y de jugabilidad respecto a F-19 Stealth Fighter, además de adaptar la experiencia a la información pública sobre el verdadero avión furtivo. Esta edición física española en caja grande, comercializada bajo los sellos MicroProse y Erbe Software, conserva documentación en castellano y soporte magnético de 5,25 pulgadas. Representa una pieza significativa de la época dorada de los simuladores militares para MS-DOS, cuando MicroProse destacó por combinar complejidad técnica, recreación histórica y extensos manuales impresos. Su preservación resulta especialmente relevante por la dependencia de hardware y sistemas operativos de la época, así como por la importancia de conservar conjuntamente los disquetes originales, la documentación técnica y los materiales de distribución española.",
+    "incluye": [
+      "Caja exterior de cartón Big Box con textos en castellano",
+      "Manual de instrucciones de Nighthawk F-117A Stealth Fighter 2.0",
+      "Suplemento técnico en castellano",
+      "Disquete de 5,25 pulgadas con funda protectora",
+      "Hoja de referencia o plantilla de controles MicroProse",
+      "Folleto publicitario de Erbe Software y AdLib"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "F-117A Nighthawk",
+      "Stealth Fighter 2.0",
+      "F-19 Stealth Fighter",
+      "MicroProse",
+      "MPS Labs",
+      "Erbe Software",
+      "Lockheed F-117A",
+      "aviación militar",
+      "avión furtivo",
+      "tecnología stealth",
+      "invisibilidad al radar",
+      "simulación aérea clásica",
+      "combate aéreo táctico",
+      "misiones nocturnas",
+      "planificación de misiones",
+      "cabina de vuelo",
+      "navegación instrumental",
+      "guerra del Golfo",
+      "Libia",
+      "Corea del Norte",
+      "Guerra Fría",
+      "gráficos poligonales 3D",
+      "VGA 256 colores",
+      "AdLib",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "disquetes 5.25",
+      "edición española",
+      "manual en castellano",
+      "Big Box PC",
+      "videojuegos de 1991",
+      "simuladores MicroProse",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "software clásico"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "¿Quién mató a Taylor French? El caso de la reportera indefensa",
+    "url": "juegos/quien-mato-a-taylor-french-bigbox/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Aventura detectivesca",
+      "Misterio",
+      "Investigación criminal",
+      "Cine interactivo"
+    ],
+    "desarrollador": [
+      "Creative Multimedia Corporation"
+    ],
+    "distribuidor": [
+      "Creative Multimedia Corporation",
+      "System 4"
+    ],
+    "ean": [],
+    "descripcion": "¿Quién mató a Taylor French? El caso de la reportera indefensa es una aventura detectivesca multimedia desarrollada por Creative Multimedia Corporation y publicada originalmente en 1994 bajo el título Who Killed Taylor French?: The Case of the Undressed Reporter. Forma parte de la serie Virtual Murder, posteriormente comercializada como Murder Mystery, y representa una de las propuestas de investigación criminal interactiva surgidas durante la expansión del CD-ROM doméstico de los años noventa. La historia comienza con la muerte de Taylor French, una joven y controvertida periodista que había investigado asuntos delicados y acumulado numerosos enemigos. El jugador asume el papel de investigador y debe esclarecer el asesinato mediante interrogatorios, comprobación de coartadas, análisis de informes forenses, inspección de escenarios y recopilación de pruebas. La investigación está condicionada por un límite de seis horas de tiempo simulado, que disminuye conforme se realizan determinadas acciones. El juego incorpora tres variantes del caso, con diferentes pistas y soluciones, ampliando su rejugabilidad. Tras reunir las pruebas, el investigador debe presentar sus conclusiones y defender la acusación. Entre sus características más distintivas destaca la participación de Sheryl Lee, conocida internacionalmente por interpretar a Laura Palmer en Twin Peaks, que encarna a la asistente Lucie Fairwell. La obra combina fotografías digitalizadas, imágenes de actores reales, secuencias audiovisuales y una interfaz de investigación point and click, dentro de la corriente de aventuras multimedia que utilizaban tecnologías de autoría como Macromedia Director. Esta edición española en caja grande fue distribuida por System 4, con presentación comercial, textos y voces en castellano. Su interés para la preservación reside tanto en su condición de aventura detectivesca interactiva como en la conservación de una edición localizada perteneciente a una etapa experimental del entretenimiento multimedia para Windows, anterior a la generalización de los motores tridimensionales.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "CD-ROM del juego en estuche Jewel Case",
+      "Carátula impresa del CD-ROM",
+      "Hoja impresa de instrucciones y asistencia técnica en castellano",
+      "Formulario de colaboración y registro de System 4"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Quién mató a Taylor French",
+      "Who Killed Taylor French",
+      "The Case of the Undressed Reporter",
+      "Virtual Murder",
+      "Murder Mystery",
+      "Creative Multimedia Corporation",
+      "System 4",
+      "Shannon Gilligan",
+      "Sheryl Lee",
+      "Twin Peaks",
+      "Lucie Fairwell",
+      "periodismo de investigación",
+      "asesinato",
+      "investigación forense",
+      "interrogatorios",
+      "sospechosos",
+      "coartadas",
+      "novela policíaca interactiva",
+      "misterio criminal",
+      "FMV",
+      "actores reales",
+      "fotografía digitalizada",
+      "Macromedia Director",
+      "multimedia interactivo",
+      "CD-ROM multimedia",
+      "Windows 3.1",
+      "Windows 95",
+      "edición española",
+      "voces en castellano",
+      "textos en castellano",
+      "años 90",
+      "PC clásico",
+      "Big Box PC",
+      "coleccionismo PC",
+      "preservación de videojuegos"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Dragon's Lair: Escape from Singe's Castle",
+    "url": "juegos/dragons-lair-escape-from-singes-castle-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Aventura interactiva",
+      "Aventura cinematográfica",
+      "Arcade",
+      "Quick time events",
+      "Fantasía medieval"
+    ],
+    "desarrollador": [
+      "Sullivan Bluth Interactive Media",
+      "ReadySoft"
+    ],
+    "distribuidor": [
+      "ReadySoft Incorporated",
+      "Proein Soft Line"
+    ],
+    "ean": [],
+    "descripcion": "Dragon's Lair: Escape from Singe's Castle es una aventura de acción cinematográfica publicada para IBM PC y compatibles en 1991 por ReadySoft, basada en las célebres animaciones creadas por Don Bluth para el videojuego arcade Dragon's Lair de 1983. Esta continuación recupera escenas y situaciones que no habían aparecido en la primera adaptación de ReadySoft para ordenadores domésticos, ampliando las peripecias de Dirk el Temerario en su misión de rescatar a la princesa Daphne del castillo del dragón Singe. La mecánica se fundamenta en secuencias animadas durante las que el jugador debe introducir movimientos o acciones en momentos concretos, anticipándose al peligro y memorizando las respuestas correctas. Esta estructura, precursora de los modernos quick time events, convierte la aventura en una experiencia de reflejos, observación y ensayo y error. Su principal atractivo tecnológico reside en la adaptación de animaciones de estética cinematográfica a las limitaciones de los ordenadores personales de principios de los noventa, mediante gráficos digitalizados y secuencias de animación reproducidas desde disquetes. La edición física para IBM PC/Tandy pertenece a la distribución española de Proein Soft Line y conserva la presentación original en caja grande de cartón con ilustraciones de Dirk, Daphne y los personajes del castillo. Incluye seis disquetes de 3,5 pulgadas, documentación impresa y materiales promocionales, con un distintivo que anuncia manual en castellano y póster incluido. La caja mantiene buena parte de su rotulación comercial en inglés, característica de numerosas ediciones españolas de juegos importados durante este periodo. La presencia de una ficha de registro postal de ReadySoft, documentación adicional y materiales publicitarios aporta especial valor documental al conjunto. Esta edición constituye un testimonio de la transición entre el videojuego arcade basado en LaserDisc y las adaptaciones domésticas de animación interactiva anteriores a la generalización del CD-ROM. Su preservación resulta especialmente relevante por la dependencia del soporte magnético original, la sincronización temporal de las acciones y las particularidades de ejecución de los juegos desarrollados para MS-DOS.",
+    "incluye": [
+      "Caja grande de cartón Big Box",
+      "6 disquetes de 3,5 pulgadas numerados del Disk 1 al Disk 6",
+      "Manual de instrucciones en castellano",
+      "Documentación impresa de Dragon's Lair: Escape from Singe's Castle",
+      "Póster promocional anunciado en la caja",
+      "Catálogo publicitario de productos ReadySoft",
+      "Sobre o documentación de registro postal de ReadySoft",
+      "Material impreso adicional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Dragon's Lair",
+      "Escape from Singe's Castle",
+      "Dirk the Daring",
+      "Princesa Daphne",
+      "Singe",
+      "Don Bluth",
+      "Sullivan Bluth Interactive Media",
+      "ReadySoft",
+      "Proein",
+      "Proein Soft Line",
+      "IBM PC Tandy",
+      "MS-DOS",
+      "VGA",
+      "animación digitalizada",
+      "animación tradicional",
+      "dibujos animados interactivos",
+      "LaserDisc",
+      "adaptación de arcade",
+      "quick time events",
+      "reflejos",
+      "secuencias animadas",
+      "fantasía medieval",
+      "dragones",
+      "rescate de princesa",
+      "edición española",
+      "manual en castellano",
+      "caja en inglés",
+      "Big Box PC",
+      "disquetes de 3,5 pulgadas",
+      "seis disquetes",
+      "póster promocional",
+      "catálogo ReadySoft",
+      "juegos de 1991",
+      "videojuegos clásicos de PC",
+      "coleccionismo retro",
+      "preservación de disquetes",
+      "preservación digital",
+      "historia del videojuego"
+    ],
+    "anio": "1991",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
     ],
     "tipo_edicion": [
       "Lanzamiento original"
@@ -96304,6 +96749,512 @@
     ],
     "tipo_edicion": [
       "Reedición"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Sherlock Holmes: Consulting Detective - Volume I",
+    "url": "juegos/sherlock-holmes-consulting-detective-volume-i-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Aventura detectivesca",
+      "Investigación criminal",
+      "Misterio",
+      "Point and click",
+      "Cine interactivo",
+      "FMV"
+    ],
+    "desarrollador": [
+      "ICOM Simulations"
+    ],
+    "distribuidor": [
+      "ICOM Simulations"
+    ],
+    "ean": [],
+    "descripcion": "Sherlock Holmes: Consulting Detective - Volume I es una aventura de investigación detectivesca desarrollada y publicada por ICOM Simulations en 1991 para ordenadores compatibles IBM PC con MS-DOS. Inspirada en el universo literario de Sir Arthur Conan Doyle y en el juego de investigación Sherlock Holmes Consulting Detective de Sleuth Publications, constituye una de las primeras producciones multimedia concebidas específicamente para aprovechar la capacidad de almacenamiento del CD-ROM. Su principal innovación fue combinar secuencias de vídeo digitalizado con actores reales, diálogos grabados, documentación escrita y una estructura de investigación no lineal. Ambientado en el Londres victoriano de finales del siglo XIX, el jugador acompaña a Sherlock Holmes y al doctor Watson en la resolución de tres investigaciones independientes: The Case of the Mummy's Curse, The Case of the Tin Soldier y The Case of the Mystified Murderess. Cada caso exige reunir testimonios, visitar localizaciones, consultar informantes, examinar documentos y analizar noticias del periódico The Times para reconstruir los hechos e identificar a los responsables. A diferencia de las aventuras gráficas tradicionales basadas en inventarios y combinaciones de objetos, el juego sitúa el razonamiento deductivo en el centro de la experiencia. El jugador decide qué pistas investigar y cuándo presentar sus conclusiones ante el tribunal, donde debe responder correctamente a las preguntas del juez. La eficiencia de la investigación también influye en la puntuación, que puede compararse con la actuación del propio Holmes. Técnicamente, el título representa una etapa temprana del desarrollo del full motion video para ordenadores personales, cuando las limitaciones de transferencia de los lectores de CD-ROM, la resolución de vídeo y la capacidad de procesamiento condicionaban la presentación de las secuencias audiovisuales. Su combinación de imagen real, interpretación cinematográfica e interacción mediante interfaz gráfica lo convirtió en una referencia histórica de la primera generación de aventuras multimedia. Esta edición física en estuche Jewel Case para MS-DOS presenta el primer volumen de la serie y conserva un CD-ROM original acompañado de documentación impresa con formato de periódico victoriano. La reproducción de The Times tiene especial relevancia documental porque forma parte del sistema de investigación y demuestra cómo determinadas producciones multimedia integraban materiales físicos y digitales en una misma experiencia. La pieza constituye un testimonio significativo de la transición desde las aventuras gráficas convencionales hacia los videojuegos cinematográficos y de la expansión comercial del CD-ROM durante los primeros años de la década de 1990.",
+    "incluye": [
+      "Estuche plástico Jewel Case",
+      "Carátula frontal ilustrada",
+      "Contracarátula con descripción de los tres casos",
+      "1 CD-ROM original para MS-DOS",
+      "Documento impreso The Times con noticias y pistas para la investigación"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Sherlock Holmes",
+      "Sherlock Holmes Consulting Detective",
+      "Consulting Detective Volume I",
+      "ICOM Simulations",
+      "Sir Arthur Conan Doyle",
+      "Sleuth Publications",
+      "Doctor Watson",
+      "Londres victoriano",
+      "Baker Street",
+      "detective privado",
+      "investigación deductiva",
+      "novela detectivesca",
+      "The Mummy's Curse",
+      "The Tin Soldier",
+      "The Mystified Murderess",
+      "The Times",
+      "periódico interactivo",
+      "actores reales",
+      "vídeo digitalizado",
+      "full motion video",
+      "aventura multimedia",
+      "CD-ROM multimedia",
+      "multimedia de los 90",
+      "historia del CD-ROM",
+      "juegos FMV",
+      "IBM PC compatibles",
+      "MS-DOS",
+      "ICOM",
+      "edición en inglés",
+      "Jewel Case",
+      "videojuego físico PC",
+      "material impreso original",
+      "coleccionismo PC",
+      "preservación digital",
+      "patrimonio del videojuego"
+    ],
+    "anio": "",
+    "mercado": [
+      "No determinado"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "No determinado"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Banzai Bug",
+    "url": "juegos/banzai-bug-jewelcase/",
+    "plataforma": [
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Acción",
+      "Simulación de vuelo",
+      "Aventura de acción",
+      "Arcade",
+      "Exploración en 3D"
+    ],
+    "desarrollador": [
+      "Gravity, Inc."
+    ],
+    "distribuidor": [
+      "Grolier Interactive",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Banzai Bug es un videojuego de acción y simulación de vuelo arcade desarrollado por el estudio estadounidense Gravity, Inc. y publicado por Grolier Interactive en 1996 para Windows 95. El jugador controla a Banzai, un pequeño insecto volador que termina accidentalmente atrapado en la vivienda de un exterminador profesional. Lo que para un ser humano representa un entorno doméstico cotidiano se transforma en un enorme escenario lleno de obstáculos, peligros y desafíos vistos desde la perspectiva de un insecto. A lo largo de siete niveles, el protagonista debe explorar diferentes habitaciones, esquivar trampas, enfrentarse a amenazas y colaborar con otros insectos mientras reúne los objetos necesarios para organizar su escapatoria. Su principal característica jugable es un sistema de vuelo tridimensional en tercera persona que combina desplazamientos libres, maniobras de precisión y diferentes modalidades de control, incluyendo movimientos similares a los de un avión y un helicóptero. Técnicamente, el juego pertenece a la primera generación de títulos comerciales concebidos específicamente para Windows 95 y las bibliotecas DirectX, con gráficos tridimensionales, escenarios domésticos a escala exagerada, secuencias cinematográficas mediante tecnología Smacker y una presentación audiovisual de marcado carácter humorístico. Sus requisitos originales incluyen procesador Pentium a 90 MHz, 8 MB de memoria RAM, gráficos SVGA y lector de CD-ROM de doble velocidad. Aunque comercialmente se presentó como un simulador de vuelo desenfadado, su estructura combina elementos de acción arcade, exploración y resolución de pequeños objetivos. Esta edición española en formato Jewel Case, identificada mediante el código de disco BBCD/232 y comercializada bajo el sello Grolier Interactive, constituye un testimonio de las primeras distribuciones de juegos tridimensionales de Windows 95 localizados para el mercado español. Su interés para la preservación reside especialmente en las dependencias del entorno gráfico DirectX de primera generación, los ejecutables Windows de 32 bits y los formatos audiovisuales utilizados durante la transición tecnológica del PC multimedia de mediados de los años noventa.",
+    "incluye": [
+      "Estuche de plástico Jewel Case",
+      "Carátula frontal ilustrada",
+      "Contracarátula con información editorial",
+      "1 CD-ROM original en español con referencia BBCD/232"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Banzai Bug",
+      "Gravity Inc",
+      "Grolier Interactive",
+      "Erbe Software",
+      "edición española",
+      "versión en español",
+      "BBCD/232",
+      "Windows 95",
+      "DirectX 3",
+      "Direct3D",
+      "Smacker Video",
+      "SVGA",
+      "gráficos 3D",
+      "vuelo arcade",
+      "simulador de insectos",
+      "insectos",
+      "moscas",
+      "exterminador",
+      "perspectiva en tercera persona",
+      "exploración doméstica",
+      "humor",
+      "joystick",
+      "Pentium",
+      "PC multimedia",
+      "videojuegos de 1996",
+      "videojuegos de los 90",
+      "CD-ROM",
+      "Jewel Case",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación digital",
+      "software Windows 32 bits"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "International Tennis Open",
+    "url": "juegos/international-tennis-open-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Tenis",
+      "Simulación deportiva"
+    ],
+    "desarrollador": [
+      "Infogrames"
+    ],
+    "distribuidor": [
+      "Philips Interactive Media",
+      "Erbe Software",
+      "MCM Software"
+    ],
+    "ean": [],
+    "descripcion": "International Tennis Open es un simulador de tenis desarrollado por Infogrames y publicado originalmente en 1992 para el sistema multimedia CD-i de Philips. Su adaptación para ordenadores compatibles IBM PC llegó en 1994, aprovechando las posibilidades del CD-ROM para ofrecer una experiencia deportiva de presentación audiovisual especialmente ambiciosa para su época. El juego permite disputar encuentros individuales y participar en competiciones internacionales inspiradas en los grandes torneos del circuito profesional, con escenarios que recrean las superficies y ambientes de Wimbledon, Roland Garros y el Open de Estados Unidos. Entre sus características destacan los jugadores digitalizados, las animaciones de los movimientos deportivos, la representación de distintas superficies de pista y los comentarios sonoros que acompañan los partidos, buscando reproducir la atmósfera de una retransmisión televisiva. La jugabilidad contempla diferentes tipos de golpes, como servicios, voleas, derechas y reveses, además de modalidades de entrenamiento, partidos y torneos. Su planteamiento combina elementos de simulación con controles accesibles, en una etapa en la que los videojuegos deportivos comenzaban a incorporar imágenes digitalizadas y recursos multimedia para aumentar el realismo. La versión en CD-ROM conserva secuencias audiovisuales y comentarios que no estaban presentes de la misma manera en la distribución alternativa en disquetes. Esta edición española para PC se comercializó en estuche Jewel Case, con presentación y textos comerciales en castellano, bajo la marca Philips y con referencias a Erbe y MCM Software en los materiales de distribución. El juego constituye un ejemplo representativo de la expansión del formato CD-ROM durante la primera mitad de los años noventa y de la adaptación al ordenador personal de producciones originalmente concebidas para plataformas multimedia domésticas. Su conservación resulta especialmente interesante para documentar la evolución de los simuladores deportivos, las primeras experiencias de tenis con jugadores digitalizados y la actividad editorial de Philips Interactive Media en el mercado español de software para PC.",
+    "incluye": [
+      "Estuche Jewel Case transparente",
+      "Carátula frontal impresa",
+      "Contracarátula en castellano",
+      "1 CD-ROM original de International Tennis Open"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "International Tennis Open",
+      "Infogrames",
+      "Philips",
+      "Philips Interactive Media",
+      "Erbe Software",
+      "MCM Software",
+      "tenis profesional",
+      "simulador de tenis clásico",
+      "Wimbledon",
+      "Roland Garros",
+      "US Open",
+      "torneos internacionales",
+      "jugadores digitalizados",
+      "animación digital",
+      "comentarios deportivos",
+      "multimedia interactiva",
+      "Philips CD-i",
+      "conversión de CD-i a PC",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "VGA",
+      "Sound Blaster",
+      "CD-ROM multimedia",
+      "edición española",
+      "carátula en castellano",
+      "jewel case",
+      "videojuegos de los 90",
+      "1994",
+      "retro PC",
+      "coleccionismo de videojuegos",
+      "preservación de videojuegos físicos"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "The Chessmaster 3000",
+    "url": "juegos/the-chessmaster-3000-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Ajedrez",
+      "Juego de tablero",
+      "Estrategia por turnos",
+      "Simulación de ajedrez",
+      "Educativo"
+    ],
+    "desarrollador": [
+      "The Software Toolworks"
+    ],
+    "distribuidor": [
+      "Mindscape",
+      "Tring International"
+    ],
+    "ean": [],
+    "descripcion": "The Chessmaster 3000 es un simulador de ajedrez desarrollado originalmente por The Software Toolworks y publicado en 1991 para ordenadores personales. Tercera gran entrega de la reconocida serie Chessmaster, consolidó una de las franquicias más influyentes en la popularización del ajedrez informático durante los años ochenta y noventa. El programa combina un motor de juego competitivo, basado en el trabajo del programador David Kittinger, con herramientas de aprendizaje, análisis de partidas y entrenamiento para jugadores de distintos niveles. Ofrece oponentes de dificultad variable, tableros bidimensionales y tridimensionales, repertorios de aperturas, partidas históricas y funciones de tutoría que permiten estudiar errores y mejorar la técnica ajedrecística. Entre sus características más destacadas figura la incorporación de comentarios del gran maestro Anatoly Karpov, antiguo campeón mundial, especialmente relevantes en las versiones multimedia distribuidas en CD-ROM. Esta edición española comercializada en estuche Jewel Case bajo licencia de Mindscape y distribuida por Tring International pertenece a la etapa de reediciones económicas y multimedia del juego durante la primera mitad de los años noventa. Su presentación en castellano y su distribución óptica documentan la expansión del CD-ROM como soporte comercial para programas de entretenimiento, estrategia y aprendizaje. Constituye una pieza de interés para preservar la evolución de los motores de ajedrez, las interfaces gráficas de los primeros ordenadores multimedia y las ediciones localizadas de software clásico para PC.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "Carátula frontal",
+      "Carátula trasera con descripción y requisitos técnicos en castellano",
+      "1 CD-ROM original"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "The Chessmaster",
+      "Chessmaster 3000",
+      "Chessmaster",
+      "The Software Toolworks",
+      "Mindscape",
+      "Tring International",
+      "Anatoly Karpov",
+      "David Kittinger",
+      "ajedrez por ordenador",
+      "inteligencia artificial clásica",
+      "motor de ajedrez",
+      "entrenamiento ajedrecístico",
+      "análisis de partidas",
+      "aperturas de ajedrez",
+      "tableros 2D y 3D",
+      "comentarios de grandes maestros",
+      "software educativo",
+      "multimedia",
+      "ordenadores IBM PC compatibles",
+      "MS-DOS",
+      "Windows 3.x",
+      "edición española",
+      "carátula en castellano",
+      "CD-ROM para PC",
+      "Jewel Case",
+      "software clásico de los 90",
+      "preservación de videojuegos",
+      "coleccionismo PC"
+    ],
+    "anio": "1994",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-01",
+    "procedencia": {
+      "tipo": "Donacion",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "@mercadillogonzalez",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Project CARS: Limited Edition",
+    "url": "juegos/project-cars-limited-edition-cddvd/",
+    "plataforma": [
+      "Windows Vista",
+      "Win7",
+      "Win8",
+      "Win10"
+    ],
+    "formato": "DVD Case",
+    "genero": [
+      "Simulación de conducción",
+      "Simulador de carreras",
+      "Automovilismo",
+      "Carreras de circuitos",
+      "Deportes de motor"
+    ],
+    "desarrollador": [
+      "Slightly Mad Studios"
+    ],
+    "distribuidor": [
+      "Bandai Namco Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Project CARS: Limited Edition es una edición especial del simulador de conducción desarrollado por Slightly Mad Studios y publicado por Bandai Namco Entertainment en mayo de 2015. El título nació del proyecto Community Assisted Racing Simulator (CARS), una iniciativa de desarrollo colaborativo impulsada mediante la plataforma World of Mass Development (WMD), en la que participaron aficionados al automovilismo y pilotos reales aportando comentarios durante el proceso de producción. Concebido como un simulador de carreras orientado tanto a aficionados como a usuarios experimentados, combina un modelo de conducción basado en físicas, vehículos de distintas categorías competitivas, circuitos internacionales y opciones avanzadas de configuración mecánica. Incorpora condiciones meteorológicas dinámicas, ciclos de día y noche, variaciones en la adherencia de la pista, gestión de neumáticos, sesiones de clasificación, paradas en boxes y un modo carrera que permite progresar por diferentes disciplinas del automovilismo. Su apartado gráfico destacó por el uso de iluminación avanzada, efectos meteorológicos y escenarios tridimensionales detallados, junto con compatibilidad con DirectX 11, volantes con retroalimentación de fuerza y configuraciones de múltiples monitores. También ofrece competiciones multijugador y herramientas para ajustar la dificultad, las ayudas electrónicas y el comportamiento de los vehículos. La Limited Edition constituye una variante comercial de especial interés para el coleccionismo y la preservación física: se presenta en un estuche metálico SteelBook con ilustraciones exclusivas e incorpora documentación sobre el desarrollo del videojuego, además del Limited Edition Car Pack, compuesto por cinco automóviles adicionales: BMW M1 Pro Car, Ford GT40 Mk IV, McLaren F1, Mercedes-Benz AMG C-Coupe DTM y Sauber C9. La edición documentada conserva dos discos ópticos, el libreto de la edición limitada, material impreso con el lema '#BYRACERS4RACERS' y una tarjeta promocional de registro de Bandai Namco. Representa una etapa significativa de la simulación automovilística para PC, cuando las producciones de conducción comenzaron a combinar tecnologías gráficas de nueva generación, desarrollo participativo y una mayor orientación hacia las competiciones virtuales. Su presentación física resulta especialmente relevante por documentar la transición comercial hacia ediciones especiales que combinaban soportes ópticos tradicionales con contenido digital adicional.",
+    "incluye": [
+      "Estuche metálico SteelBook de Project CARS Limited Edition",
+      "2 discos ópticos originales del juego para PC",
+      "Libreto Project CARS Limited Edition Car Pack",
+      "Libro o folleto Project CARS #BYRACERS4RACERS",
+      "Tarjeta promocional de registro de Bandai Namco Games",
+      "Contenido adicional Limited Edition Car Pack con cinco vehículos"
+    ],
+    "serie": [
+      "Todos",
+      "DVD Case"
+    ],
+    "tags": [
+      "Project CARS",
+      "Project CARS Limited Edition",
+      "Community Assisted Racing Simulator",
+      "Slightly Mad Studios",
+      "Bandai Namco Entertainment",
+      "World of Mass Development",
+      "WMD",
+      "simracing",
+      "simulación automovilística",
+      "conducción realista",
+      "físicas de vehículos",
+      "automovilismo deportivo",
+      "circuitos internacionales",
+      "competición multijugador",
+      "modo carrera",
+      "climatología dinámica",
+      "ciclo día y noche",
+      "force feedback",
+      "volantes de simulación",
+      "DirectX 11",
+      "gráficos 3D",
+      "SteelBook",
+      "estuche metálico",
+      "edición limitada",
+      "edición especial",
+      "Limited Edition Car Pack",
+      "BMW M1 Pro Car",
+      "Ford GT40 Mk IV",
+      "McLaren F1",
+      "Mercedes-Benz AMG C-Coupe DTM",
+      "Sauber C9",
+      "By Racers 4 Racers",
+      "PEGI 3",
+      "PC DVD-ROM",
+      "edición física europea",
+      "coleccionismo de videojuegos",
+      "preservación de videojuegos",
+      "videojuegos de 2015"
+    ],
+    "anio": "2015",
+    "mercado": [
+      "Europa"
+    ],
+    "idioma": [
+      "Inglés",
+      "Español"
+    ],
+    "soporte": [
+      "DVD-ROM"
+    ],
+    "tipo_edicion": [
+      "Edición especial",
+      "Edición limitada"
     ],
     "preservacion": {
       "resumen": ""
