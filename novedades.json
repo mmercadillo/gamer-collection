@@ -1,5 +1,11 @@
 [
   {
+    "fecha": "2026-11-01",
+    "titulo": "LOOM: preservación digital documentada",
+    "descripcion": "Documentamos la preservación digital de LOOM — Jewel Case. Dos lecturas independientes verificadas mediante SHA-256 han permitido conservar sus pistas de datos y audio en formato BIN/CUE, registrando el procedimiento y sus limitaciones.",
+    "url": "documentacion/preservacion/loom-jewelcase/"
+  },
+  {
     "fecha": "2026-10-29",
     "titulo": "Una colección con historia encuentra un nuevo hogar",
     "descripcion": "Gracias a José Antonio Serrano Garcia, desde Cataluña, por confiar a PC Game Archive una parte de su colección de videojuegos de PC conservada durante décadas. Compartimos su historia y nuestro compromiso de conservación.",

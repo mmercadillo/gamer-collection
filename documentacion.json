@@ -1,5 +1,18 @@
 [
   {
+    "id": "preservacion-loom-jewelcase",
+    "titulo": "Preservación digital de Loom — edición estadounidense Jewel Case (CD-ROM)",
+    "categoria": "preservacion",
+    "fecha": "2026-11-01",
+    "descripcion": "Dos adquisiciones BIN/CUE independientes y coincidentes del CD mixto de Loom, con documentación del pregap de audio, hashes SHA-256 y límites de la representación.",
+    "url": "documentacion/preservacion/loom-jewelcase/",
+    "juegos": [
+      "juegos/loom-jewelcase/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-loom-jewelcase.md",
+    "actualizado": "2026-11-01"
+  },
+  {
     "id": "guia-panzer-commander-windows-10",
     "titulo": "Jugar a Panzer Commander en Windows 10 — edición española Big Box",
     "categoria": "guias",
