@@ -62,3 +62,23 @@
 .news-article-page{padding-bottom:48px}.news-article-content{line-height:1.75}.news-article-content p{margin:0 0 18px}.news-article-content h2,.news-article-content h3{margin:28px 0 12px}.news-article-content h2:first-child{margin-top:0}.news-article-gallery{margin-top:28px}.news-article-back{margin-top:28px}
 @media(max-width:700px){.news-feature-copy{padding:20px}}
 .pcga-search-mode .news-feature{display:none!important}
+
+/* Guías PCGA: las capturas no modifican nunca la anchura del documento. */
+.landing-editorial { min-width:0; max-width:100%; overflow-wrap:anywhere; }
+.landing-editorial p:has(> img.doc-inline-image) { max-width:100%; min-width:0; text-align:center; }
+.landing-editorial img.doc-inline-image {
+  display:block !important;
+  box-sizing:border-box;
+  width:auto !important;
+  height:auto !important;
+  max-width:100% !important;
+  max-height:440px !important;
+  object-fit:contain;
+  margin:18px auto;
+  border:1px solid var(--bd);
+  border-radius:12px;
+}
+.landing-editorial pre { max-width:100%; overflow-x:auto; }
+@media(max-width:700px) {
+  .landing-editorial img.doc-inline-image { max-height:300px !important; }
+}

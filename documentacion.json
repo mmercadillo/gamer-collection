@@ -13,6 +13,19 @@
     "actualizado": "2026-11-01"
   },
   {
+    "id": "guia-loom-jewelcase-windows-10",
+    "titulo": "Jugar a Loom en Windows 10 — edición estadounidense Jewel Case",
+    "categoria": "guias",
+    "fecha": "2026-11-02",
+    "descripcion": "Guía paso a paso probada para ejecutar la edición estadounidense Jewel Case de Loom en Windows 10 mediante IsoBuster 5.8 y ScummVM 2026.4.0.",
+    "url": "documentacion/guias/loom-jewelcase-windows-10/",
+    "juegos": [
+      "juegos/loom-jewelcase/"
+    ],
+    "contenido": "documentacion/fuentes/guia-loom-jewelcase-windows-10.md",
+    "actualizado": "2026-11-02"
+  },
+  {
     "id": "guia-panzer-commander-windows-10",
     "titulo": "Jugar a Panzer Commander en Windows 10 — edición española Big Box",
     "categoria": "guias",

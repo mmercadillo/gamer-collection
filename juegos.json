@@ -972,7 +972,6 @@
   {
     "num": "000013",
     "ig": "https://www.instagram.com/p/DV_q8uACH7H",
-    "video_intro": false,
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",
@@ -1043,8 +1042,9 @@
     "preservacion": {
       "resumen": ""
     },
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
+    "video_intro": true,
+    "video_intro_fecha": "2026-11-02",
+    "video_intro_duracion": "PT1M18S"
   },
   {
     "num": "000014",
@@ -97067,9 +97067,9 @@
     "preservacion": {
       "resumen": ""
     },
-    "video_intro": false,
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
+    "video_intro": true,
+    "video_intro_fecha": "2026-11-02",
+    "video_intro_duracion": "PT1M18S"
   },
   {
     "num": "000000",

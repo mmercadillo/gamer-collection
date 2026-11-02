@@ -1,5 +1,17 @@
 [
   {
+    "fecha": "2026-11-02",
+    "titulo": "Revive la introducción original de LOOM",
+    "descripcion": "La magia de LOOM vuelve a cobrar vida. Recuperamos su introducción original, capturada desde la edición física Jewel Case conservada por PC Game Archive y ejecutada mediante ScummVM. Una nueva pieza de la historia del PC que puedes revivir.",
+    "url": "juegos/loom-jewelcase/"
+  },
+  {
+    "fecha": "2026-11-02",
+    "titulo": "LOOM ya puede jugarse en Windows 10: guía paso a paso",
+    "descripcion": "Hemos recuperado la experiencia original de LOOM en Windows 10 mediante ScummVM. La nueva guía documenta cómo preparar los archivos del CD-ROM, conservar su música y voces, ejecutar el juego y guardar partidas.",
+    "url": "documentacion/guias/loom-jewelcase-windows-10/"
+  },
+  {
     "fecha": "2026-11-01",
     "titulo": "LOOM: preservación digital documentada",
     "descripcion": "Documentamos la preservación digital de LOOM — Jewel Case. Dos lecturas independientes verificadas mediante SHA-256 han permitido conservar sus pistas de datos y audio en formato BIN/CUE, registrando el procedimiento y sus limitaciones.",

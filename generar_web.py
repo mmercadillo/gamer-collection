@@ -591,6 +591,13 @@ def _markdown_inline(value: str) -> str:
         escaped,
     )
     escaped = re.sub(
+        r"!\[([^\]]*)\]\(((?:https?://|/|\.\.?/)[^\s)]+)\)",
+        lambda m: stash(
+            f'<img class="doc-inline-image" src="{html.escape(m.group(2), quote=True)}" alt="{html.escape(m.group(1), quote=True)}" loading="lazy">'
+        ),
+        escaped,
+    )
+    escaped = re.sub(
         r"\[([^\]]+)\]\(((?:https?://|/|\.\.?/)[^\s)]+)\)",
         lambda m: stash(
             f'<a href="{html.escape(m.group(2), quote=True)}" rel="noopener noreferrer">{m.group(1)}</a>'
@@ -1774,7 +1781,27 @@ let shown=0;for(const card of cards){if(card.hidden)continue;card.hidden=shown++
 def write_assets(out: Path, games: list[dict[str, Any]]) -> None:
     (out / "assets/css").mkdir(parents=True, exist_ok=True)
     (out / "assets/js").mkdir(parents=True, exist_ok=True)
-    (out / "assets/css/styles.css").write_text(CSS + F18_CSS, encoding="utf-8")
+    (out / "assets/css/styles.css").write_text(CSS + F18_CSS + """
+/* Guías PCGA: las capturas no modifican nunca la anchura del documento. */
+.landing-editorial { min-width:0; max-width:100%; overflow-wrap:anywhere; }
+.landing-editorial p:has(> img.doc-inline-image) { max-width:100%; min-width:0; text-align:center; }
+.landing-editorial img.doc-inline-image {
+  display:block !important;
+  box-sizing:border-box;
+  width:auto !important;
+  height:auto !important;
+  max-width:100% !important;
+  max-height:440px !important;
+  object-fit:contain;
+  margin:18px auto;
+  border:1px solid var(--bd);
+  border-radius:12px;
+}
+.landing-editorial pre { max-width:100%; overflow-x:auto; }
+@media(max-width:700px) {
+  .landing-editorial img.doc-inline-image { max-height:300px !important; }
+}
+""", encoding="utf-8")
     (out / "assets/js/destacados.js").write_text(F18_JS, encoding="utf-8")
     search_index_js = "window.PCGA_SEARCH_INDEX=" + json.dumps(build_search_index(games), ensure_ascii=False, separators=(",", ":")) + ";\n"
     (out / "assets/js/search-index.js").write_text(search_index_js, encoding="utf-8")

@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Jugar a Loom en Windows 10 — edición estadounidense Jewel Case · PC Game Archive</title>
+<meta name="description" content="Guía paso a paso probada para ejecutar la edición estadounidense Jewel Case de Loom en Windows 10 mediante IsoBuster 5.8 y ScummVM 2026.4.0." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="theme-color" content="#111111" />
+<link rel="canonical" href="https://www.pcgamearchive.org/documentacion/guias/loom-jewelcase-windows-10/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PC Game Archive" />
+<meta property="og:title" content="Jugar a Loom en Windows 10 — edición estadounidense Jewel Case · PC Game Archive" />
+<meta property="og:description" content="Guía paso a paso probada para ejecutar la edición estadounidense Jewel Case de Loom en Windows 10 mediante IsoBuster 5.8 y ScummVM 2026.4.0." />
+<meta property="og:url" content="https://www.pcgamearchive.org/documentacion/guias/loom-jewelcase-windows-10/" />
+<meta property="og:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Jugar a Loom en Windows 10 — edición estadounidense Jewel Case · PC Game Archive" />
+<meta name="twitter:description" content="Guía paso a paso probada para ejecutar la edición estadounidense Jewel Case de Loom en Windows 10 mediante IsoBuster 5.8 y ScummVM 2026.4.0." />
+<meta name="twitter:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<link rel="icon" href="../../../favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="48x48" href="../../../favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="../../../favicon-96x96.png" />
+<link rel="apple-touch-icon" href="../../../apple-touch-icon.png" />
+<link rel="manifest" href="../../../site.webmanifest" />
+<link rel="stylesheet" href="../../../assets/css/styles.css" />
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://www.pcgamearchive.org/documentacion/guias/loom-jewelcase-windows-10/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Jugar a Loom en Windows 10 — edición estadounidense Jewel Case","description":"Guía paso a paso probada para ejecutar la edición estadounidense Jewel Case de Loom en Windows 10 mediante IsoBuster 5.8 y ScummVM 2026.4.0.","datePublished":"2026-11-02","dateModified":"2026-11-02","url":"https://www.pcgamearchive.org/documentacion/guias/loom-jewelcase-windows-10/","publisher":{"@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Documentación","item":"https://www.pcgamearchive.org/documentacion/"},{"@type":"ListItem","position":3,"name":"Jugar a Loom en Windows 10 — edición estadounidense Jewel Case","item":"https://www.pcgamearchive.org/documentacion/guias/loom-jewelcase-windows-10/"}]}</script>
+</head>
+<body>
+<header id="top" class="site-header">
+  <div class="site-identity">
+    <div class="wrap brand-row">
+      <a class="brand" href="../../../" aria-label="PC Game Archive">
+        <img class="logo" src="../../../logo.png" alt="PC Game Archive logo">
+        <span><strong>PC Game Archive</strong><small>Guías de ejecución</small></span>
+      </a>
+    </div>
+  </div>
+  <div class="site-navigation">
+    <div class="wrap nav-row">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-nav-toggle>
+        <span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menú</span>
+      </button>
+      <nav class="nav" id="main-navigation" aria-label="Navegación principal">
+        <a href="../../../">Inicio</a>
+<a href="../../../catalogo/">Catálogo</a>
+<a href="../../../videos/">Vídeos</a>
+<a href="../../../novedades/">Novedades</a>
+<a href="../../../documentacion/">Documentación</a>
+<details class="nav-explore">
+  <summary>Explorar <span class="nav-caret" aria-hidden="true">▾</span></summary>
+  <div class="nav-dropdown">
+    <div class="nav-dropdown-group">
+      <strong>Colecciones</strong>
+      <a class="nav-dropdown-link" href="../../../incorporaciones/">Últimas incorporaciones</a>
+<a class="nav-dropdown-link" href="../../../videojuegos-clasicos-pc.html">PC clásico</a>
+<a class="nav-dropdown-link" href="../../../juegos-pc-big-box.html">Big Box PC</a>
+<a class="nav-dropdown-link" href="../../../juegos-msdos.html">MS-DOS</a>
+<a class="nav-dropdown-link" href="../../../juegos-windows-95-98.html">Windows 95/98</a>
+<a class="nav-dropdown-link" href="../../../aventuras-graficas-pc.html">Aventuras gráficas</a>
+<a class="nav-dropdown-link" href="../../../ediciones-espanolas-pc.html">Ediciones españolas</a>
+<a class="nav-dropdown-link" href="../../../series.html">Series</a>
+    </div>
+    <div class="nav-dropdown-group">
+      <strong>Datos del archivo</strong>
+      <a class="nav-dropdown-link" href="../../../desarrolladores/">Desarrolladores</a>
+<a class="nav-dropdown-link" href="../../../distribuidores/">Distribuidores</a>
+<a class="nav-dropdown-link" href="../../../generos/">Géneros</a>
+<a class="nav-dropdown-link" href="../../../plataformas/">Plataformas</a>
+<a class="nav-dropdown-link" href="../../../formatos/">Formatos</a>
+<a class="nav-dropdown-link" href="../../../mercados/">Mercados</a>
+<a class="nav-dropdown-link" href="../../../idiomas/">Idiomas</a>
+<a class="nav-dropdown-link" href="../../../soportes/">Soportes</a>
+<a class="nav-dropdown-link" href="../../../tipos-edicion/">Tipos de edición</a>
+    </div>
+  </div>
+</details>
+<a href="../../../proyecto/">El proyecto</a>
+<a href="../../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
+<a href="../../../apoyar/">Apoyar</a>
+<a href="../../../contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../../../">Inicio</a> / <a href="../../../documentacion/">Documentación</a> / <span>Jugar a Loom en Windows 10 — edición estadounidense Jewel Case</span></nav>
+    <p class="eyebrow">Guías de ejecución</p>
+    <h1>Jugar a Loom en Windows 10 — edición estadounidense Jewel Case</h1>
+    <p class="lead">Guía paso a paso probada para ejecutar la edición estadounidense Jewel Case de Loom en Windows 10 mediante IsoBuster 5.8 y ScummVM 2026.4.0.</p>
+    <p class="count">Publicado: 2 de noviembre de 2026 · Última revisión: 2 de noviembre de 2026</p>
+  </section>
+  <section class="wrap">
+    <article class="content-card landing-editorial"><p>Esta guía documenta el procedimiento probado por PC Game Archive para ejecutar <strong>Loom</strong> en un sistema actual utilizando <strong>la edición estadounidense Jewel Case en CD-ROM conservada en PC Game Archive</strong>.</p>
+<p>La secuencia final validada en <strong>Windows 10 Pro 22H2</strong> ha sido: <strong>extraer la pista de datos y la pista de audio con IsoBuster 5.8</strong> y <strong>ejecutar el juego con ScummVM 2026.4.0</strong>. No ha sido necesario aplicar parches, wrappers gráficos ni modos de compatibilidad de Windows.</p>
+<blockquote><p>Esta validación corresponde exclusivamente a la edición estadounidense Jewel Case de 1992 conservada por PC Game Archive. Otras ediciones de Loom, otros prensados del CD u otros sistemas pueden comportarse de forma diferente.</p></blockquote>
+<h2>Resultado esperado</h2>
+<p>Siguiendo esta guía, en el entorno probado se obtuvo el siguiente resultado:</p>
+<ul>
+<li>detección correcta del juego como <strong>Loom (VGA/DOS/English)</strong>;</li>
+<li>arranque correcto de la introducción;</li>
+<li>reproducción correcta de música, voces y efectos;</li>
+<li>interacción normal con personajes y objetos;</li>
+<li>guardado y carga correctos mediante el menú de ScummVM;</li>
+<li>regreso correcto al lanzador de ScummVM.</li>
+</ul>
+<p>El estado de compatibilidad de esta edición se considera <strong>Funcional con ajustes</strong>, porque la ejecución final validada no parte de un montaje directo de la imagen BIN/CUE, sino de la extracción controlada de los archivos y de la pista de audio hacia una carpeta de trabajo para ScummVM.</p>
+<h2>Entorno en el que se ha validado</h2>
+<p>La prueba final se realizó en el entorno de referencia <a href="../../laboratorio/pcga-lab-01/" rel="noopener noreferrer">PCGA-LAB-01</a>, con estas características principales:</p>
+<ul>
+<li>Windows 10 Pro 22H2 x64;</li>
+<li>build 19045.6466;</li>
+<li>AMD Ryzen 5 PRO 4650U;</li>
+<li>16 GB de RAM;</li>
+<li>AMD Radeon(TM) Graphics;</li>
+<li>controlador gráfico 31.0.21921.11005;</li>
+<li>resolución 1920 × 1080;</li>
+<li>escalado de Windows al 150 %.</li>
+</ul>
+<h2>Qué necesitas</h2>
+<h3>La copia de trabajo verificada</h3>
+<p>Esta guía parte de una <strong>copia de trabajo derivada del máster de preservación verificado</strong> de la misma pieza. Los ficheros utilizados fueron:</p>
+<pre><code>LOOMCD.BIN
+LOOMCD.CUE</code></pre>
+<p>Hashes SHA-256 de referencia del conjunto probado:</p>
+<pre><code>LOOMCD.BIN  70BA458BAC6C7D656B188940493FCF57FD65930C0E0F70A683ED1D5129897BD4
+LOOMCD.CUE  F25600C48612C0FBB0B957F0F84E02FB2E916EA41DBA90B45D7E4A71F64DF312</code></pre>
+<p>Puedes comprobarlos con PowerShell:</p>
+<pre><code>Get-FileHash .\LOOMCD.BIN -Algorithm SHA256
+Get-FileHash .\LOOMCD.CUE -Algorithm SHA256</code></pre>
+<h3>IsoBuster 5.8</h3>
+<p>Se utilizó <strong>IsoBuster 5.8</strong> para abrir la imagen BIN/CUE, acceder a la pista de datos y extraer la pista de audio a WAV.</p>
+<p>Descarga oficial: <a href="https://www.isobuster.com/" rel="noopener noreferrer">IsoBuster</a>.</p>
+<h3>ScummVM 2026.4.0</h3>
+<p>La ejecución final validada se realizó con <strong>ScummVM 2026.4.0</strong>, edición oficial para Windows.</p>
+<p>Descarga oficial: <a href="https://www.scummvm.org/downloads/" rel="noopener noreferrer">ScummVM</a>.</p>
+<p>En el entorno probado se utilizó la versión ZIP de 64 bits, extraída de forma portable.</p>
+<h2>1. Preparar la copia de trabajo</h2>
+<ol>
+<li>Crea una carpeta de trabajo separada del máster de preservación.</li>
+<li>Copia a ella <code>LOOMCD.BIN</code> y <code>LOOMCD.CUE</code>.</li>
+<li>Verifica ambos hashes SHA-256 antes de comenzar.</li>
+<li>No modifiques el máster de preservación ni trabajes directamente sobre él.</li>
+</ol>
+<p>Si quieres reproducir exactamente el flujo validado por PC Game Archive, puedes usar dos carpetas separadas:</p>
+<pre><code>ISO\loom-jewelcase-trabajo
+ISO\LOOM_SCUMMVM</code></pre>
+<h2>2. Abrir la imagen con IsoBuster</h2>
+<ol>
+<li>Abre IsoBuster 5.8.</li>
+<li>Selecciona <strong>Archivo → Abrir archivo de imagen</strong>.</li>
+<li>Elige <code>LOOMCD.CUE</code>, no el BIN directamente.</li>
+<li>Comprueba que IsoBuster reconoce una sesión con dos pistas: una de datos y otra de audio.</li>
+</ol>
+<p>La estructura identificada por PC Game Archive fue la siguiente:</p>
+<p><img class="doc-inline-image" src="./img/01-isobuster-pistas.png" alt="Vista de las pistas de Loom en IsoBuster 5.8" loading="lazy"></p>
+<h2>3. Extraer los archivos del juego</h2>
+<ol>
+<li>En el panel izquierdo, abre <code>Pista 01</code>.</li>
+<li>Haz doble clic sobre <code>LOOMCD</code> para ver el contenido ISO9660.</li>
+<li>Selecciona los siete archivos del juego.</li>
+<li>Extráelos a una carpeta nueva, por ejemplo <code>LOOM_SCUMMVM</code>.</li>
+</ol>
+<p>Los archivos extraídos en la validación fueron:</p>
+<ul>
+<li><code>000.LFL</code></li>
+<li><code>901.LFL</code></li>
+<li><code>902.LFL</code></li>
+<li><code>903.LFL</code></li>
+<li><code>904.LFL</code></li>
+<li><code>DISK01.LEC</code></li>
+<li><code>LOOM.EXE</code></li>
+</ul>
+<p>La pista de datos aparece así en IsoBuster:</p>
+<p><img class="doc-inline-image" src="./img/02-isobuster-archivos.png" alt="Archivos originales de Loom visibles en la pista de datos de la imagen" loading="lazy"></p>
+<h2>4. Extraer la pista de audio</h2>
+<ol>
+<li>Selecciona <code>Pista 02</code> en IsoBuster.</li>
+<li>Elige **Extraer Pista 02 → Extraer Audio a un archivo WAV (*.wav)**.</li>
+<li>Guarda el resultado en la misma carpeta <code>LOOM_SCUMMVM</code>.</li>
+<li>Asigna el nombre <code>track1.wav</code>.</li>
+</ol>
+<p><img class="doc-inline-image" src="./img/04-isobuster-extraer-audio.png" alt="Submenú de IsoBuster con la opción para extraer la pista 02 como WAV" loading="lazy"></p>
+<p><strong>Comprobación realizada:</strong> el archivo <code>track1.wav</code> obtenido ocupó <strong>578.415.644 bytes</strong>. Este tamaño corresponde a los sectores de audio extraídos más la cabecera WAV; la reproducción se verificó después dentro del juego.</p>
+<p>En la validación de PC Game Archive, <code>track1.wav</code> se extrajo correctamente y tuvo un tamaño coherente con la pista CDDA del disco.</p>
+<h2>5. Preparar ScummVM</h2>
+<ol>
+<li>Descarga ScummVM 2026.4.0 desde su web oficial.</li>
+<li>Extrae el ZIP en una carpeta estable de tu equipo.</li>
+<li>Ejecuta <code>scummvm.exe</code>.</li>
+<li>Pulsa <strong>Add Game...</strong>.</li>
+<li>Selecciona la carpeta <code>LOOM_SCUMMVM</code> donde están los siete archivos extraídos y <code>track1.wav</code>.</li>
+</ol>
+<p>ScummVM debe identificar el juego como <strong>Loom (VGA/DOS/English)</strong>:</p>
+<p><img class="doc-inline-image" src="./img/05-scummvm-deteccion.png" alt="Ventana de detección de Loom en ScummVM 2026.4.0 con identificador loom-vga" loading="lazy"></p>
+<h2>6. Ejecutar Loom</h2>
+<ol>
+<li>Acepta la detección de ScummVM.</li>
+<li>Mantén la configuración de audio por defecto, tal como se probó en el laboratorio.</li>
+</ol>
+<p><img class="doc-inline-image" src="./img/06-scummvm-audio.png" alt="Pestaña Audio de ScummVM con configuración global y Music device en default" loading="lazy"></p>
+<ol>
+<li>Selecciona <strong>Loom (VGA/DOS/English)</strong> en el lanzador.</li>
+<li>Pulsa <strong>Start</strong>.</li>
+</ol>
+<p>En el entorno probado el juego arrancó correctamente y reprodujo música, voces y efectos sin incidencias.</p>
+<h2>7. Guardar, cargar y salir</h2>
+<p>Durante la validación se utilizaron los controles del menú de ScummVM:</p>
+<ul>
+<li><code>Ctrl + F5</code>: abrir el menú de ScummVM;</li>
+<li><code>Save</code>: guardar partida;</li>
+<li><code>Load</code>: cargar partida;</li>
+<li><code>Resume</code>: volver al juego;</li>
+<li><code>Return to Launcher</code>: regresar al lanzador;</li>
+<li><code>Quit</code>: salir de ScummVM.</li>
+</ul>
+<p>La prueba de PC Game Archive confirmó que el guardado, la carga y el regreso al lanzador funcionan correctamente.</p>
+<h2>Procedimiento final reproducible</h2>
+<p>Esta es la secuencia final validada, sin intentos descartados intermedios:</p>
+<ol>
+<li>Verificar los SHA-256 de <code>LOOMCD.BIN</code> y <code>LOOMCD.CUE</code>.</li>
+<li>Abrir <code>LOOMCD.CUE</code> con IsoBuster 5.8.</li>
+<li>Extraer los siete archivos del juego a <code>LOOM_SCUMMVM</code>.</li>
+<li>Extraer <code>Pista 02</code> a <code>track1.wav</code> en esa misma carpeta.</li>
+<li>Descargar y extraer ScummVM 2026.4.0.</li>
+<li>Añadir la carpeta <code>LOOM_SCUMMVM</code> a ScummVM.</li>
+<li>Ejecutar <strong>Loom (VGA/DOS/English)</strong> desde el lanzador.</li>
+<li>Guardar y cargar partida con <code>Ctrl + F5</code> si se desea validar la persistencia.</li>
+</ol>
+<h2>Matriz de validación funcional</h2>
+<ul>
+<li><strong>Instalación:</strong> <code>No aplicable</code> — no hay instalación tradicional; la ejecución validada se realizó desde archivos extraídos y ScummVM.</li>
+<li><strong>Arranque:</strong> <code>Correcto</code> — ScummVM detectó y arrancó el juego sin incidencias.</li>
+<li><strong>Menús:</strong> <code>Correcto</code> — menús del lanzador y del juego operativos.</li>
+<li><strong>Vídeos/cinemáticas:</strong> <code>Correcto</code> — introducción reproducida correctamente en la prueba.</li>
+<li><strong>Gráficos 2D:</strong> <code>Correcto</code> — escenarios e interfaz correctos.</li>
+<li><strong>Gráficos 3D:</strong> <code>No aplicable</code> — el juego no utiliza gráficos 3D.</li>
+<li><strong>Sonido:</strong> <code>Correcto</code> — efectos y voces correctos.</li>
+<li><strong>Música:</strong> <code>Correcto</code> — música reproducida desde <code>track1.wav</code>.</li>
+<li><strong>Teclado/ratón:</strong> <code>Correcto</code> — interacción y atajos de ScummVM funcionales.</li>
+<li><strong>Gamepad/joystick:</strong> <code>No probado</code> — no se utilizó mando ni joystick.</li>
+<li><strong>Inicio de partida:</strong> <code>Correcto</code> — se pudo iniciar una partida sin incidencias.</li>
+<li><strong>Juego representativo:</strong> <code>Correcto</code> — interacción con personajes y objetos confirmada.</li>
+<li><strong>Guardado:</strong> <code>Correcto</code> — guardado correcto desde el menú de ScummVM.</li>
+<li><strong>Carga:</strong> <code>Correcto</code> — carga correcta desde el menú de ScummVM.</li>
+<li><strong>Cambio de nivel/escena:</strong> <code>Correcto</code> — el avance probado no presentó problemas.</li>
+<li><strong>Multijugador:</strong> <code>No aplicable</code> — Loom no dispone de multijugador.</li>
+<li><strong>Cierre:</strong> <code>Correcto</code> — regreso al lanzador y salida correctos.</li>
+</ul>
+<h2>Limitaciones conocidas</h2>
+<ul>
+<li>La guía está validada sobre <strong>la edición estadounidense Jewel Case de Loom</strong> conservada por PC Game Archive.</li>
+<li>El procedimiento final validado utiliza <strong>ScummVM</strong> y una carpeta de trabajo extraída desde la imagen BIN/CUE; no se ha validado aquí la ejecución desde un montaje directo del CD virtual.</li>
+<li>La validación se ha realizado en <strong>Windows 10 Pro 22H2</strong> dentro del entorno PCGA-LAB-01.</li>
+</ul>
+<h2>Elementos no probados</h2>
+<ul>
+<li>Otras ediciones o reediciones de Loom.</li>
+<li>Otros prensados del CD.</li>
+<li>Uso con gamepad o joystick.</li>
+<li>Partida completa de principio a fin.</li>
+</ul>
+<h2>Problemas descartados / intentos fallidos</h2>
+<p>Antes de llegar al procedimiento final se realizaron intentos que se descartaron:</p>
+<ul>
+<li><strong>WinCDEmu 4.1</strong> creó la unidad virtual, pero Windows no pudo acceder correctamente al contenido del CD mixto en el entorno probado.</li>
+<li><strong>WinRAR</strong> no reconoció <code>LOOMCD.BIN</code> como formato utilizable para esta tarea.</li>
+</ul>
+<p>Por ese motivo, la guía reproducible publicada por PC Game Archive se basa en <strong>IsoBuster + ScummVM</strong>, que fue la combinación finalmente funcional.</p>
+<h2>Fuentes externas utilizadas</h2>
+<ul>
+<li><a href="https://www.isobuster.com/" rel="noopener noreferrer">Web oficial de IsoBuster</a>.</li>
+<li><a href="https://www.scummvm.org/downloads/" rel="noopener noreferrer">Web oficial de ScummVM</a>.</li>
+</ul>
+<h2>Evidencias internas</h2>
+<ul>
+<li>hashes SHA-256 de <code>LOOMCD.BIN</code> y <code>LOOMCD.CUE</code> coincidentes con el máster de preservación;</li>
+<li>detección correcta de la estructura del CD en IsoBuster;</li>
+<li>extracción correcta de los siete archivos de datos;</li>
+<li>extracción correcta de la pista de audio como <code>track1.wav</code>;</li>
+<li>detección del juego como <code>loom-vga</code> en ScummVM 2026.4.0;</li>
+<li>prueba funcional de arranque, audio, interacción, guardado y carga.</li>
+</ul>
+<h2>Estado de compatibilidad</h2>
+<p><strong>Funcional con ajustes.</strong></p>
+<p>La edición estadounidense Jewel Case de <strong>Loom</strong> conservada por PC Game Archive pudo ejecutarse correctamente en Windows 10 Pro 22H2 utilizando <strong>IsoBuster 5.8</strong> para preparar la carpeta de trabajo y <strong>ScummVM 2026.4.0</strong> para la ejecución final.</p>
+<h2>Relación con la preservación</h2>
+<p>Esta guía utiliza una copia de trabajo derivada del máster digital verificado de la misma pieza. El procedimiento de adquisición y verificación puede consultarse en el <a href="../../preservacion/loom-jewelcase/" rel="noopener noreferrer">registro de preservación de Loom</a>.</p>
+<p><strong>Última prueba:</strong> 02/11/2026.</p></article>
+    <aside class="content-card text-section"><h2>Piezas relacionadas</h2><p>Este documento está vinculado explícitamente a las siguientes ediciones del archivo.</p><ul><li><a href="../../../juegos/loom-jewelcase/"><strong>Loom</strong></a><br><span class="count">Ficha #000000</span></li></ul></aside>
+  </section>
+</main>
+<footer>
+  <div class="wrap footrow">
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <button class="to-top" type="button" data-scroll-top>Subir</button>
+  </div>
+</footer>
+<script>
+(function(){
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var menu=document.getElementById('main-navigation');
+  if(!toggle || !menu) return;
+  toggle.addEventListener('click',function(){
+    var open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    menu.classList.toggle('is-open',!open);
+  });
+  menu.addEventListener('click',function(e){
+    if(!e.target.closest('a')) return;
+    menu.querySelectorAll('details[open]').forEach(function(item){item.removeAttribute('open');});
+    if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){
+      toggle.setAttribute('aria-expanded','false');
+      menu.classList.remove('is-open');
+    }
+  });
+  document.addEventListener('click',function(e){
+    menu.querySelectorAll('details.nav-explore[open]').forEach(function(item){
+      if(!item.contains(e.target)) item.removeAttribute('open');
+    });
+  });
+})();
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('[data-scroll-top]');
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    var offerEvent={
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
+  }
+
+  var gameSupport=link.getAttribute('data-game-support');
+  if(gameSupport){
+    gtag('event','game_support_click',{
+      game_title:link.getAttribute('data-game-title')||'',
+      game_slug:link.getAttribute('data-game-slug')||'',
+      game_num:link.getAttribute('data-game-num')||'',
+      game_format:link.getAttribute('data-game-format')||'',
+      source_page:location.pathname
+    });
+    return;
+  }
+
+  var supportProvider=link.getAttribute('data-support-provider');
+  if(supportProvider){
+    var supportParams=new URLSearchParams(location.search);
+    var supportSlug=(supportParams.get('juego')||'').trim();
+    gtag('event','support_click',{
+      provider:supportProvider,
+      link_url:href,
+      source_page:location.pathname,
+      support_context:supportSlug?'game':'general',
+      game_slug:supportSlug
+    });
+    return;
+  }
+
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  }
+});
+if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){
+  var supportViewParams=new URLSearchParams(location.search);
+  var supportViewSlug=(supportViewParams.get('juego')||'').trim();
+  gtag('event','support_page_view',{
+    support_provider:'ko-fi',
+    source_page:location.pathname,
+    support_context:supportViewSlug?'game':'general',
+    game_slug:supportViewSlug
+  });
+}
+
+(function(){
+  // Seguimiento de reproductores MP4 propios; GA4 Enhanced Measurement no los detecta como YouTube.
+  document.querySelectorAll('video[data-pcga-video]').forEach(function(video){
+    var started=false, milestones={};
+    var context={game_num:video.dataset.gameNum||'',game_slug:video.dataset.gameSlug||'',video_title:video.dataset.videoTitle||'',video_location:video.dataset.videoLocation||'',video_url:video.querySelector('source')?.src||'',source_page:location.pathname};
+    function send(name,extra){
+      if(typeof gtag!=='function') return;
+      gtag('event',name,Object.assign({},context,extra||{}));
+    }
+    video.addEventListener('play',function(){if(!started){started=true;send('video_start',{video_percent:0});}});
+    video.addEventListener('timeupdate',function(){
+      if(!isFinite(video.duration)||video.duration<=0)return;
+      var pct=100*video.currentTime/video.duration;
+      [25,50,75].forEach(function(n){if(pct>=n&&!milestones[n]){milestones[n]=true;send('video_progress',{video_percent:n});}});
+    });
+    video.addEventListener('pause',function(){if(!video.ended&&started)send('video_pause',{video_percent:video.duration>0?Math.round(100*video.currentTime/video.duration):0});});
+    video.addEventListener('ended',function(){send('video_complete',{video_percent:100});});
+  });
+  document.addEventListener('click',function(e){
+    var link=e.target.closest('a[data-video-game-link]');
+    if(link&&typeof gtag==='function')gtag('event','video_game_click',{game_num:link.dataset.gameNum||'',game_slug:link.dataset.gameSlug||'',video_location:link.dataset.videoLocation||'',source_page:location.pathname,link_url:link.href});
+  });
+})();
+</script>
+</body>
+</html>

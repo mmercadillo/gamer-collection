@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
+    <loc>https://www.pcgamearchive.org/videos/loom-bigbox/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/loom-bigbox/img/001.jpg</video:thumbnail_loc>
+      <video:title>Introducción original de Loom</video:title>
+      <video:description>Introducción original de Loom conservada por PC Game Archive.</video:description>
+      <video:content_loc>https://www.pcgamearchive.org/videos/loom-bigbox.mp4</video:content_loc>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/videos/grim-fandango-bigbox/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/grim-fandango-bigbox/img/001.jpg</video:thumbnail_loc>
@@ -34,6 +43,15 @@
       <video:title>Introducción original de A Sangre Fría</video:title>
       <video:description>Introducción original de A Sangre Fría conservada por PC Game Archive.</video:description>
       <video:content_loc>https://www.pcgamearchive.org/videos/a-sangre-fria-bigbox.mp4</video:content_loc>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/videos/loom-jewelcase/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/loom-jewelcase/img/001.jpg</video:thumbnail_loc>
+      <video:title>Introducción original de Loom</video:title>
+      <video:description>Introducción original de Loom conservada por PC Game Archive.</video:description>
+      <video:content_loc>https://www.pcgamearchive.org/videos/loom-jewelcase.mp4</video:content_loc>
     </video:video>
   </url>
 </urlset>
