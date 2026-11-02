@@ -97576,5 +97576,116 @@
     "video_intro": false,
     "video_intro_fecha": "",
     "video_intro_duracion": ""
-  }
+  },
+  {
+  "num": "000000",
+  "ig": "",
+  "fecha_incorporacion": "2026-11-02",
+  "procedencia": {
+    "tipo": "Cesión",
+    "nombre_publico": "José Antonio Serrano García",
+    "redes": {
+      "instagram": "",
+      "facebook": "",
+      "x": ""
+    }
+  },
+  "titulo": "Blade Runner",
+  "url": "juegos/blade-runner-jewelcase/",
+  "plataforma": [
+    "Win95",
+    "Win98"
+  ],
+  "formato": "Jewel Case",
+  "genero": [
+    "Aventura gráfica",
+    "Point and click",
+    "Aventura en tiempo real",
+    "Investigación detectivesca",
+    "Ciencia ficción",
+    "Cyberpunk",
+    "Misterio"
+  ],
+  "desarrollador": [
+    "Westwood Studios"
+  ],
+  "distribuidor": [
+    "Virgin Interactive Entertainment",
+    "Dinamic Multimedia"
+  ],
+  "ean": [
+    "8426239090551"
+  ],
+  "descripcion": "Blade Runner es una aventura gráfica de ciencia ficción desarrollada por Westwood Studios y publicada originalmente en 1997 por Virgin Interactive Entertainment. Inspirada en la película de Ridley Scott de 1982 y en el universo literario de Philip K. Dick, presenta una historia paralela a los acontecimientos cinematográficos, ambientada en un Los Ángeles distópico de 2019. El jugador interpreta a Ray McCoy, un agente especializado en la identificación y retirada de replicantes que investiga una serie de crímenes relacionados con androides fugitivos. La aventura destaca por su estructura narrativa no lineal, sus múltiples desenlaces y un sistema de acontecimientos dinámicos que modifica determinadas situaciones, comportamientos y relaciones entre personajes en cada partida. A diferencia de las aventuras gráficas tradicionales, incorpora personajes que desarrollan actividades independientes del jugador, investigación mediante entrevistas, análisis de pruebas, exploración de escenarios y utilización de herramientas detectivescas como el dispositivo ESPER y el test Voight-Kampff. Técnicamente fue una producción especialmente ambiciosa para su época, gracias a su motor gráfico Voxel Plus, que combinaba personajes tridimensionales construidos mediante vóxeles con escenarios prerenderizados, iluminación ambiental, efectos meteorológicos y una presentación audiovisual de fuerte inspiración cinematográfica. La banda sonora recreaba la atmósfera electrónica de la película original, mientras que las voces digitalizadas reforzaban su carácter narrativo. Esta edición española comercializada por Dinamic Multimedia presenta un formato compacto de cartón desplegable, diferente de la distribución tradicional en caja grande, y contiene los cuatro CD-ROM originales identificados individualmente. El material exterior está localizado al castellano y corresponde a una distribución destinada al mercado español. La edición conserva un especial interés documental por representar una variante comercial española de una de las aventuras gráficas más sofisticadas de finales de los noventa, además de constituir un ejemplo destacado de la transición tecnológica hacia experiencias narrativas cinematográficas para Windows 95 y Windows 98.",
+  "incluye": [
+    "Carpeta de cartón desplegable con portada y contraportada originales de Dinamic Multimedia",
+    "CD-ROM 1",
+    "CD-ROM 2",
+    "CD-ROM 3",
+    "CD-ROM 4"
+  ],
+  "serie": [
+    "Todos",
+    "Jewel Case",
+    "Dinamic multimedia"
+  ],
+  "tags": [
+    "Blade Runner",
+    "Westwood Studios",
+    "Virgin Interactive Entertainment",
+    "Dinamic Multimedia",
+    "Ray McCoy",
+    "Ridley Scott",
+    "Philip K. Dick",
+    "replicantes",
+    "Voight-Kampff",
+    "ESPER",
+    "Los Ángeles 2019",
+    "cyberpunk",
+    "neo-noir",
+    "distopía",
+    "investigación criminal",
+    "narrativa no lineal",
+    "múltiples finales",
+    "inteligencia artificial",
+    "Voxel Plus",
+    "gráficos voxel",
+    "escenarios prerenderizados",
+    "aventura cinematográfica",
+    "cine y videojuegos",
+    "Windows 95",
+    "Windows 98",
+    "DirectX 5",
+    "PC CD-ROM",
+    "cuatro CD-ROM",
+    "edición española",
+    "distribución española",
+    "formato compacto",
+    "carpeta desplegable",
+    "edición física",
+    "PC clásico",
+    "videojuegos de 1997",
+    "aventuras gráficas de los 90",
+    "coleccionismo PC",
+    "preservación de videojuegos",
+    "patrimonio digital"
+  ],
+  "anio": "",
+  "mercado": [
+    "España"
+  ],
+  "idioma": [
+    "Español"
+  ],
+  "soporte": [
+    "CD-ROM"
+  ],
+  "tipo_edicion": [],
+  "preservacion": {
+    "resumen": ""
+  },
+  "video_intro": false,
+  "video_intro_fecha": "",
+  "video_intro_duracion": ""
+}
 ]

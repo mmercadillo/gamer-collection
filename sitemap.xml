@@ -107,8 +107,8 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/codemasters/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ensemble-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/haemimont-games/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/sierra-on-line/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/westwood-studios/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/sierra-on-line/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/the-sims-studio/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/creative-assembly/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ea-canada/</loc></url>
@@ -281,8 +281,8 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/friendware/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/infogrames/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/mindscape/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-entertainment/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/mindscape/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/2k-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/empire-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microids/</loc></url>
@@ -448,6 +448,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-aerea/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/cyberpunk/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-deportiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/formula-1/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/guerra/</loc></url>
@@ -465,7 +466,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/aventura-cinematografica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-en-tercera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-y-gestion/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/cyberpunk/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-de-imperios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-y-slash/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rpg/</loc></url>
@@ -13352,6 +13352,18 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/project-cars-limited-edition-cddvd/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/blade-runner-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/blade-runner-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/blade-runner-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/blade-runner-jewelcase/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url><loc>https://www.pcgamearchive.org/videos/loom-bigbox/</loc></url>
