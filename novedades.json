@@ -1,6 +1,18 @@
 [
   {
     "fecha": "2026-11-02",
+    "titulo": "The Secret of Monkey Island: su introducción original",
+    "descripcion": "¡Volvemos a Mêlée Island! Revive la inolvidable introducción original de The Secret of Monkey Island, con su música y ambientación de 1992. Un viaje directo a la época dorada de las aventuras gráficas.",
+    "url": "juegos/the-secret-of-monkey-island-jewelcase/"
+  },
+  {
+    "fecha": "2026-11-02",
+    "titulo": "The Secret of Monkey Island ya funciona en Windows 10",
+    "descripcion": "¡Regresa a Mêlée Island! Hemos recuperado la edición CD-ROM de The Secret of Monkey Island, incluida su música original. Descubre nuestra nueva guía paso a paso para jugar en Windows 10 con ScummVM.",
+    "url": "documentacion/guias/the-secret-of-monkey-island-jewelcase-windows-10/"
+  },
+  {
+    "fecha": "2026-11-02",
     "titulo": "Revive la introducción original de LOOM",
     "descripcion": "La magia de LOOM vuelve a cobrar vida. Recuperamos su introducción original, capturada desde la edición física Jewel Case conservada por PC Game Archive y ejecutada mediante ScummVM. Una nueva pieza de la historia del PC que puedes revivir.",
     "url": "juegos/loom-jewelcase/"

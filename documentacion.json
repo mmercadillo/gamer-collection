@@ -1,5 +1,31 @@
 [
   {
+    "id": "guia-the-secret-of-monkey-island-jewelcase-windows-10",
+    "titulo": "Jugar a The Secret of Monkey Island en Windows 10 — edición Jewel Case",
+    "categoria": "guias",
+    "fecha": "2026-11-02",
+    "descripcion": "Guía reproducible de la edición Jewel Case en Windows 10 con IsoBuster 5.8 y ScummVM 2026.4.0; incluye solución comprobada de audio CD-DA con 24 WAV track01.wav–track24.wav.",
+    "url": "documentacion/guias/the-secret-of-monkey-island-jewelcase-windows-10/",
+    "juegos": [
+      "juegos/the-secret-of-monkey-island-jewelcase/"
+    ],
+    "contenido": "documentacion/fuentes/guia-the-secret-of-monkey-island-jewelcase-windows-10.md",
+    "actualizado": "2026-11-02"
+  },
+  {
+    "id": "preservacion-the-secret-of-monkey-island-jewelcase",
+    "titulo": "Preservación digital de The Secret of Monkey Island — edición Jewel Case (CD-ROM)",
+    "categoria": "preservacion",
+    "fecha": "2026-11-02",
+    "descripcion": "Preservación del CD mixto de The Secret of Monkey Island con 25 pistas, dos adquisiciones BIN/CUE coincidentes, hashes SHA-256 y limitaciones documentadas.",
+    "url": "documentacion/preservacion/the-secret-of-monkey-island-jewelcase/",
+    "juegos": [
+      "juegos/the-secret-of-monkey-island-jewelcase/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-the-secret-of-monkey-island-jewelcase.md",
+    "actualizado": "2026-11-02"
+  },
+  {
     "id": "preservacion-loom-jewelcase",
     "titulo": "Preservación digital de Loom — edición estadounidense Jewel Case (CD-ROM)",
     "categoria": "preservacion",

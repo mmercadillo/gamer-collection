@@ -2083,6 +2083,18 @@ def generate_documentation_pages(documents: list[dict[str, Any]], games: list[di
             },
             documentation_article_breadcrumb_jsonld(base_url, document),
         ]
+        # Conservar las imágenes locales referenciadas por la guía también cuando
+        # el generador se ejecuta con --out en un directorio independiente.
+        # La fuente de verdad de cada imagen es la carpeta img/ de la ruta
+        # documental, no la carpeta donde reside el Markdown.
+        for relative_image in set(re.findall(r'!\[[^\]]*\]\(\./(img/[A-Za-z0-9_.-]+\.(?:png|jpg|jpeg|webp))\)', source.read_text(encoding="utf-8"), flags=re.IGNORECASE)):
+            source_image = project_root / route / relative_image
+            target_image = out / route / relative_image
+            if not source_image.is_file():
+                raise FileNotFoundError(f"Imagen documental no encontrada: {source_image}")
+            if source_image.resolve() != target_image.resolve():
+                target_image.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(source_image, target_image)
         target = out / route / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(
