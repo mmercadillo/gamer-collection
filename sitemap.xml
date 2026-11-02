@@ -154,6 +154,7 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/blizzard-north/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/crystal-dynamics/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cyanide-studio/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/dma-design/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ea-sports/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/gas-powered-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/heavy-iron-studios/</loc></url>
@@ -217,7 +218,6 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/dice/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/digital-extremes/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/digitalmindsoft/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/dma-design/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ea-los-angeles/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/enlight-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/eurocom/</loc></url>
@@ -286,9 +286,9 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/empire-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microids/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft-game-studios/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/dro-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microprose/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategic-simulations-inc/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/dro-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/acclaim-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/cryo-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ea-sports/</loc></url>
@@ -298,6 +298,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/jowood-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/psygnosis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ubi-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/deep-silver/</loc></url>
@@ -306,7 +307,6 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/interplay-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/novalogic/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/paradox-interactive/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/psygnosis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/rockstar-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/cdv-software-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/coktel-educative/</loc></url>
@@ -397,8 +397,8 @@
   <url><loc>https://www.pcgamearchive.org/generos/belico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-deportiva/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/simulacion-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-deportiva/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/simulacion-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/plataformas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-belica/</loc></url>
@@ -473,6 +473,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/western/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-por-turnos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-3d/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/billar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/crimen/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/exploracion/</loc></url>
@@ -486,7 +487,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/accion-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-en-tercera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-para-adultos/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/billar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/carreras-arcade/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-en-tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-de-imperios/</loc></url>
@@ -518,6 +518,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/fantasia-medieval/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/full-motion-video/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-futbolistica/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/logica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multideporte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/piratas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/puzles/</loc></url>
@@ -544,8 +545,8 @@
   <url><loc>https://www.pcgamearchive.org/mercados/</loc></url>
   <url><loc>https://www.pcgamearchive.org/mercados/europa/</loc></url>
   <url><loc>https://www.pcgamearchive.org/mercados/italia/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/mercados/estados-unidos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/mercados/reino-unido/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/mercados/estados-unidos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/mercados/francia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/mercados/norteamerica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/</loc></url>
@@ -3641,6 +3642,42 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/dragons-lair-escape-from-singes-castle-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/lemmings-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/lemmings-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/lemmings-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/lemmings-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/oh-no-more-lemmings-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/oh-no-more-lemmings-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/oh-no-more-lemmings-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/oh-no-more-lemmings-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/3d-pool-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/3d-pool-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/3d-pool-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/3d-pool-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>

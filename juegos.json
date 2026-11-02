@@ -20778,7 +20778,7 @@
   },
   {
     "num": "000241",
-    "ig": "",
+    "ig": "https://www.instagram.com/p/DfO5pEZiKY0",
     "fecha_incorporacion": "",
     "procedencia": {
       "tipo": "",
@@ -22429,6 +22429,320 @@
     ],
     "tipo_edicion": [
       "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-02",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Lemmings",
+    "url": "juegos/lemmings-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Puzzle",
+      "Estrategia en tiempo real",
+      "Lógica",
+      "Rompecabezas",
+      "Acción y estrategia"
+    ],
+    "desarrollador": [
+      "DMA Design"
+    ],
+    "distribuidor": [
+      "Psygnosis",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Lemmings es uno de los videojuegos de lógica y estrategia más influyentes de principios de los años noventa. Desarrollado por el estudio escocés DMA Design y publicado originalmente por Psygnosis en 1991, propone salvar a grupos de pequeñas criaturas que avanzan automáticamente por escenarios llenos de obstáculos y peligros. El jugador debe asignar habilidades específicas a determinados lemmings para modificar el terreno, construir rutas y conseguir que un porcentaje mínimo alcance la salida antes de agotarse el tiempo. Entre las ocho habilidades disponibles se encuentran excavar, construir escaleras, bloquear el paso, escalar, utilizar paracaídas y provocar explosiones. Su originalidad reside en combinar planificación, coordinación temporal y resolución de problemas con un comportamiento colectivo que obliga a anticipar las consecuencias de cada decisión. La versión para IBM PC y compatibles funciona bajo MS-DOS y ofrece gráficos adaptados a diferentes estándares de vídeo, entre ellos CGA, EGA y VGA, además de compatibilidad con sistemas de sonido habituales de la época. Aunque Lemmings alcanzó inicialmente una enorme popularidad en Commodore Amiga, su adaptación para PC contribuyó decisivamente a convertirlo en un fenómeno internacional y en una de las franquicias más reconocibles de Psygnosis. Su diseño accesible, sus animaciones humorísticas, su música y la progresión de dificultad de sus niveles establecieron un modelo de puzle en tiempo real que inspiró numerosos videojuegos posteriores. Esta edición española en caja grande fue comercializada por Dro Soft bajo licencia de Psygnosis y pertenece a la primera etapa de distribución del juego en el mercado nacional. Destaca por su presentación física en disquetes, documentación ilustrada y materiales gráficos adicionales de los personajes. Constituye una pieza de especial interés para la preservación de las primeras ediciones españolas de videojuegos de PC, tanto por su relevancia histórica como por la necesidad de conservar los soportes magnéticos originales y documentar sus particularidades técnicas frente a las numerosas conversiones posteriores.",
+    "incluye": [
+      "Caja grande de cartón Big Box con ilustración original de Psygnosis",
+      "Manual de instrucciones ilustrado de Lemmings",
+      "2 disquetes originales de Lemmings para IBM PC y compatibles",
+      "Fundas protectoras de papel para los disquetes",
+      "Hojas ilustradas con personajes y animaciones de Lemmings"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Lemmings",
+      "DMA Design",
+      "Psygnosis",
+      "Dro Soft",
+      "David Jones",
+      "Mike Dailly",
+      "videojuegos escoceses",
+      "videojuegos británicos",
+      "clásicos de 1991",
+      "puzles en tiempo real",
+      "habilidades de los lemmings",
+      "construcción de caminos",
+      "resolución de problemas",
+      "criaturas de pelo verde",
+      "niveles contrarreloj",
+      "diseño de niveles",
+      "humor visual",
+      "inteligencia artificial clásica",
+      "IBM PC compatibles",
+      "Amstrad PC",
+      "Tandy PC",
+      "MS-DOS",
+      "CGA",
+      "EGA",
+      "VGA",
+      "AdLib",
+      "Sound Blaster",
+      "disquetes",
+      "soportes magnéticos",
+      "edición española",
+      "distribución Dro Soft",
+      "caja grande",
+      "Big Box PC",
+      "manual ilustrado",
+      "coleccionismo retro",
+      "historia del videojuego",
+      "preservación digital",
+      "preservación de disquetes",
+      "retro PC",
+      "juegos de los años 90"
+    ],
+    "anio": "1991",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-02",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Oh No! More Lemmings",
+    "url": "juegos/oh-no-more-lemmings-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Puzzle",
+      "Lógica",
+      "Estrategia",
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "DMA Design"
+    ],
+    "distribuidor": [
+      "Psygnosis",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "Oh No! More Lemmings es una expansión del célebre videojuego de lógica Lemmings, desarrollada por el estudio escocés DMA Design y publicada originalmente por Psygnosis en 1991. Su lanzamiento prolongó el éxito de uno de los títulos más influyentes de los primeros años noventa, cuya propuesta consistía en conducir a un grupo de pequeñas criaturas hasta la salida de cada escenario mediante la asignación estratégica de habilidades. Esta ampliación incorpora 100 niveles completamente nuevos, organizados en cinco categorías de dificultad: Tame, Crazy, Wild, Wicked y Havoc, con veinte escenarios cada una. Mantiene las mecánicas originales de construcción de escaleras y puentes, excavación, bloqueo y destrucción de obstáculos, pero introduce desafíos más elaborados, nuevas ambientaciones gráficas y composiciones musicales adicionales. Su estructura exige una planificación precisa y una administración cuidadosa de los lemmings disponibles, reforzando el carácter estratégico y la dificultad progresiva del título original. La edición española para IBM PC y compatibles fue comercializada por Dro Soft bajo licencia de Psygnosis, en formato Big Box y mediante disquetes de 3,5 pulgadas de doble densidad. A diferencia de determinadas versiones autónomas comercializadas en otros mercados, esta edición indica expresamente que requiere el juego original Lemmings. La contraportada documenta compatibilidad con ordenadores IBM PC, XT, AT y PS/2, un mínimo de 512 KB de memoria RAM, gráficos EGA y VGA, soporte para teclado y joystick, y sonido mediante AdLib y Sound Blaster. Constituye una pieza representativa del mercado español de videojuegos para MS-DOS de principios de los noventa, especialmente relevante para documentar la distribución de expansiones físicas, las primeras grandes franquicias de Psygnosis y la trayectoria de DMA Design, estudio que posteriormente alcanzaría reconocimiento internacional por la serie Grand Theft Auto.",
+    "incluye": [
+      "Caja de cartón Big Box",
+      "2 disquetes de 5,25 pulgadas DD",
+      "2 fundas protectoras de disquete",
+      "Hoja de documentación impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Oh No! More Lemmings",
+      "Lemmings",
+      "DMA Design",
+      "Psygnosis",
+      "Dro Soft",
+      "expansión",
+      "100 niveles adicionales",
+      "Tame",
+      "Crazy",
+      "Wild",
+      "Wicked",
+      "Havoc",
+      "videojuegos de lógica",
+      "puzles clásicos",
+      "gestión de habilidades",
+      "lemmings",
+      "videojuegos británicos",
+      "videojuegos de 1991",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "IBM PC XT AT PS2",
+      "EGA",
+      "VGA",
+      "AdLib",
+      "Sound Blaster",
+      "512 KB RAM",
+      "disquetes de doble densidad",
+      "disquetes 5.25",
+      "edición española",
+      "requiere Lemmings original",
+      "Big Box PC",
+      "caja de cartón",
+      "software clásico",
+      "retro PC",
+      "coleccionismo PC",
+      "preservación digital",
+      "videojuegos físicos"
+    ],
+    "anio": "1991",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-02",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "3D Pool",
+    "url": "juegos/3d-pool-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Billar",
+      "Simulación deportiva",
+      "Simulación 3D"
+    ],
+    "desarrollador": [
+      "Aardvark Software",
+      "Designer Software"
+    ],
+    "distribuidor": [
+      "Mirror Image",
+      "Mirrorsoft Ltd."
+    ],
+    "ean": [
+      "5020026910188"
+    ],
+    "descripcion": "3D Pool es un simulador de billar desarrollado originalmente por Aardvark Software, con diseño y programación asociados a Nick Pelling, y publicado inicialmente en 1989 bajo el sello Firebird. La adaptación para IBM PC y compatibles apareció en 1990, con trabajo de conversión realizado por Designer Software. Esta edición británica de 1991 corresponde a una reedición económica comercializada por Mirror Image, sello de Mirrorsoft, para ordenadores IBM PC y compatibles en disquete de 5,25 pulgadas. El título destacó por su innovadora representación tridimensional de la mesa de billar, que permitía modificar libremente el punto de vista, girar la cámara hasta 360 grados y ajustar los ángulos para preparar cada golpe. Frente a las representaciones cenitales habituales en los videojuegos deportivos de los años ochenta, ofrecía una aproximación visual especialmente avanzada para su época, combinando perspectiva tridimensional, simulación de trayectorias y control preciso de los tiros. Incluye modalidades de billar americano de ocho y nueve bolas, torneos, apuestas opcionales, siete adversarios controlados por el ordenador con distintos niveles de habilidad y una selección de tiros de exhibición o trick shots. Su propuesta permitía tanto competir como experimentar con las posibilidades geométricas y físicas del billar virtual. La edición Mirror Image conserva una presentación comercial característica de las reediciones británicas económicas de principios de los noventa, con referencias promocionales a publicaciones especializadas y una campaña de compra de varios títulos. La documentación exterior incluye descripciones en inglés, francés y alemán, mientras que el manual suministrado está identificado como English Version. Su interés histórico reside en representar una etapa temprana de la simulación deportiva tridimensional en ordenadores domésticos y en documentar la distribución comercial de videojuegos para MS-DOS mediante disquetes de 5,25 pulgadas, poco antes de la expansión definitiva del CD-ROM.",
+    "incluye": [
+      "Caja de cartón original Mirror Image",
+      "1 disquete de 5,25 pulgadas IBM PC y compatibles",
+      "Manual de instrucciones 3D Pool English Version"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "3D Pool",
+      "Sharkey's 3D Pool",
+      "Aardvark Software",
+      "Designer Software",
+      "Nick Pelling",
+      "Mirror Image",
+      "Mirrorsoft",
+      "Firebird",
+      "reedición británica",
+      "budget release",
+      "billiar americano",
+      "pool",
+      "snooker",
+      "8-ball",
+      "9-ball",
+      "perspectiva 3D",
+      "cámara 360 grados",
+      "simulación física",
+      "trick shots",
+      "torneos de billar",
+      "oponentes controlados por ordenador",
+      "IBM PC compatibles",
+      "MS-DOS",
+      "disquete 5.25 pulgadas",
+      "software británico",
+      "videojuegos de 1991",
+      "caja de cartón",
+      "edición física",
+      "coleccionismo PC",
+      "preservación de disquetes",
+      "preservación digital",
+      "retro PC"
+    ],
+    "anio": "1991",
+    "mercado": [
+      "Reino Unido"
+    ],
+    "idioma": [
+      "Inglés",
+      "Francés",
+      "Alemán"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget"
     ],
     "preservacion": {
       "resumen": ""
