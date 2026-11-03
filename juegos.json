@@ -22754,6 +22754,338 @@
   {
     "num": "000000",
     "ig": "",
+    "fecha_incorporacion": "2026-11-03",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Madden NFL 97",
+    "url": "juegos/madden-nfl-97-bigbox/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Fútbol americano",
+      "Simulación deportiva",
+      "Simulación de fútbol americano",
+      "Estrategia deportiva"
+    ],
+    "desarrollador": [
+      "High Score Productions",
+      "Stormfront Studios"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "Madden NFL 97 es un simulador de fútbol americano desarrollado por High Score Productions y Stormfront Studios y publicado por Electronic Arts bajo el sello EA Sports en 1996. Forma parte de la histórica franquicia Madden NFL, asociada al entrenador y comentarista John Madden, cuya participación contribuyó a popularizar una representación estratégica y relativamente realista del fútbol americano profesional en los videojuegos. Esta entrega para IBM PC y compatibles introduce mejoras audiovisuales y jugables características de la evolución de los simuladores deportivos durante la segunda mitad de los años noventa, incluyendo gráficos de alta resolución SVGA, animaciones de jugadores obtenidas mediante captura de movimiento y diferentes ángulos de cámara tridimensionales. El sistema de juego permite disputar temporadas completas de la NFL, eliminatorias y la Super Bowl, con más de cien equipos históricos y contemporáneos, estadísticas individuales y colectivas, creación e intercambio de jugadores y un repertorio de más de quinientas jugadas procedentes del libro táctico de Madden. Incorpora comentarios y presentación televisiva de John Madden y Pat Summerall, así como el modo de aprendizaje Madden University, con tutoriales interactivos y secuencias de vídeo procedentes de NFL Films. También ofrece enfrentamientos multijugador mediante módem y conexión de red. Su apartado técnico refleja la transición hacia el PC multimedia, con requisitos de procesador Pentium, 8 MB de memoria RAM, tarjeta gráfica SVGA y unidad de CD-ROM de doble velocidad, además de compatibilidad con tarjetas de sonido Sound Blaster y Gravis UltraSound. Esta edición española en formato Big Box fue comercializada por Electronic Arts Software en Madrid y conserva una presentación localizada al castellano en su embalaje y documentación comercial. Se distribuyó mediante dos CD-ROM para MS-DOS 6.x y Windows 95, este último con posible necesidad de configuración en modo MS-DOS. Constituye un testimonio representativo de la expansión de las licencias deportivas oficiales, la incorporación de vídeo digital y captura de movimiento y la consolidación de las franquicias anuales de EA Sports durante los años noventa.",
+    "incluye": [
+      "Caja grande de cartón Big Box",
+      "Manual de instrucciones impreso de Madden NFL 97",
+      "CD-ROM Disco 1",
+      "CD-ROM Disco 2",
+      "Estuche plástico para CD-ROM",
+      "Sobre de correspondencia de Electronic Arts Software"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "EA Sports"
+    ],
+    "tags": [
+      "Madden NFL",
+      "Madden NFL 97",
+      "John Madden",
+      "Pat Summerall",
+      "EA Sports",
+      "Electronic Arts",
+      "Electronic Arts Software",
+      "High Score Productions",
+      "Stormfront Studios",
+      "NFL",
+      "National Football League",
+      "Super Bowl",
+      "NFL Films",
+      "fútbol americano profesional",
+      "equipos oficiales NFL",
+      "licencia NFL",
+      "NFL Players",
+      "simulación deportiva clásica",
+      "estrategia y tácticas deportivas",
+      "Madden University",
+      "captura de movimiento",
+      "motion capture",
+      "gráficos SVGA",
+      "resolución 640x480",
+      "cámaras 3D",
+      "vídeo digital",
+      "multijugador por módem",
+      "multijugador en red",
+      "MS-DOS",
+      "Windows 95",
+      "Sound Blaster",
+      "Gravis UltraSound",
+      "Pentium",
+      "PC CD-ROM",
+      "dos discos",
+      "edición española",
+      "caja y documentación en castellano",
+      "Big Box PC",
+      "videojuegos deportivos de los 90",
+      "1996",
+      "retro PC",
+      "coleccionismo de videojuegos",
+      "preservación de videojuegos físicos"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-03",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "In the 1st Degree: Asesinato en Primer Grado",
+    "url": "juegos/in-the-1st-degree-asesinato-en-primer-grado-bigbox/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Aventura interactiva",
+      "Aventura cinematográfica",
+      "Investigación detectivesca",
+      "Misterio",
+      "Drama judicial",
+      "Full Motion Video"
+    ],
+    "desarrollador": [
+      "Brøderbund Software"
+    ],
+    "distribuidor": [
+      "Brøderbund Software",
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "In the 1st Degree: Asesinato en Primer Grado es una aventura cinematográfica de investigación criminal y drama judicial desarrollada y publicada originalmente por Brøderbund Software en 1995. La obra pertenece a la generación de videojuegos multimedia que aprovecharon la expansión del CD-ROM y la tecnología Full Motion Video (FMV) para construir experiencias interactivas interpretadas por actores reales. El jugador asume el papel de un fiscal de San Francisco encargado de investigar la muerte de Zachary Barnes, propietario de una galería de arte, en un caso que implica al artista James Tobin, principal sospechoso del asesinato. La investigación comienza con la recopilación de declaraciones y pruebas, el interrogatorio de testigos y el análisis de las relaciones personales y profesionales de los implicados. Posteriormente, el jugador debe presentar su caso ante un tribunal, seleccionar preguntas y construir una estrategia de acusación capaz de convencer al jurado. Una de sus características más distintivas es que las decisiones tomadas durante la investigación y el juicio pueden modificar el desarrollo del proceso y conducir a distintos veredictos. El juego utiliza secuencias de vídeo digitalizado, interpretaciones de actores profesionales, una interfaz de selección de preguntas y un sistema narrativo ramificado que permite reconstruir los acontecimientos desde diferentes perspectivas. Su planteamiento se aproxima al de una película interactiva de suspense judicial, con una marcada influencia de las series televisivas estadounidenses de investigación criminal y tribunales. La tecnología multimedia de Brøderbund, asociada al motor Mohawk y a la reproducción de vídeo mediante QuickTime, permitía integrar escenas filmadas, interfaces gráficas y decisiones interactivas en un mismo entorno. La edición española en caja grande, comercializada bajo la marca Brøderbund y distribuida por Electronic Arts Software, destaca por presentar el contenido traducido y doblado al castellano, un aspecto especialmente relevante en una aventura cuya mecánica depende de comprender las declaraciones, los testimonios y las pruebas judiciales. Su distribución en dos CD-ROM refleja las necesidades de almacenamiento de los videojuegos basados en vídeo digital de mediados de los noventa. Desde una perspectiva histórica, In the 1st Degree constituye un ejemplo representativo de la experimentación narrativa de la industria del PC durante el auge del formato multimedia, cuando numerosos estudios exploraron la combinación de cine, televisión y videojuegos. Su preservación resulta especialmente interesante por la localización audiovisual española, la dependencia de tecnologías multimedia de Windows de 16 bits y la conservación de una experiencia interactiva cuyo contenido filmado y estructura de interrogatorios forman parte de la historia del videojuego cinematográfico.",
+    "incluye": [
+      "Caja grande de cartón Big Box",
+      "Manual de usuario en castellano para Windows",
+      "Estuche plástico Jewel Case para 2 CD-ROM",
+      "2 CD-ROM del juego",
+      "Tarjeta de registro o respuesta comercial de Electronic Arts Software"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "In the 1st Degree",
+      "Asesinato en Primer Grado",
+      "Brøderbund",
+      "Brøderbund Software",
+      "Electronic Arts Software",
+      "Adair & Armstrong",
+      "Peter Adair",
+      "Haney Armstrong",
+      "FMV",
+      "Full Motion Video",
+      "película interactiva",
+      "cine interactivo",
+      "thriller judicial",
+      "investigación criminal",
+      "juicio interactivo",
+      "interrogatorio de testigos",
+      "pruebas judiciales",
+      "veredictos múltiples",
+      "narrativa ramificada",
+      "actores reales",
+      "vídeo digitalizado",
+      "QuickTime",
+      "motor Mohawk",
+      "San Francisco",
+      "James Tobin",
+      "Zachary Barnes",
+      "Windows 3.1",
+      "Windows 95",
+      "software de 16 bits",
+      "multimedia de los 90",
+      "era del CD-ROM",
+      "doblaje castellano",
+      "traducción al español",
+      "edición española",
+      "Big Box PC",
+      "doble CD-ROM",
+      "juego físico PC",
+      "videojuegos de 1995",
+      "preservación audiovisual",
+      "preservación PC",
+      "coleccionismo PC",
+      "retro PC"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-03",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "SSN-21 Seawolf",
+    "url": "juegos/ssn-21-seawolf-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Simulación naval",
+      "Simulador de submarinos",
+      "Simulación militar",
+      "Combate submarino",
+      "Estrategia táctica"
+    ],
+    "desarrollador": [
+      "Electronic Arts"
+    ],
+    "distribuidor": [
+      "Electronic Arts",
+      "Dro Soft"
+    ],
+    "ean": [],
+    "descripcion": "SSN-21 Seawolf es un simulador de combate submarino desarrollado y publicado por Electronic Arts en 1994 para IBM PC y compatibles con MS-DOS. Diseñado principalmente por John W. Ratcliff, constituye la continuación de 688 Attack Sub, uno de los simuladores navales más destacados de finales de los años ochenta. El juego sitúa al jugador al mando de un submarino nuclear estadounidense de la clase Seawolf, concebida durante los últimos años de la Guerra Fría como una de las plataformas de ataque submarino tecnológicamente más avanzadas de su generación. Su campaña plantea una crisis militar ficticia relacionada con Cuba y una escalada de enfrentamientos navales contra fuerzas soviéticas y rusas. A través de 33 misiones, el jugador debe localizar, identificar y neutralizar objetivos submarinos y de superficie, proteger unidades aliadas, realizar operaciones de vigilancia y gestionar situaciones de combate mediante los sistemas de detección y armamento de la nave. La simulación incorpora sonar activo y pasivo, análisis acústico de contactos, periscopio, comunicaciones, torpedos, misiles y procedimientos tácticos inspirados en la guerra submarina moderna. Entre sus características técnicas destacan los gráficos VGA, el sonido digital estéreo de 16 bits, las voces digitalizadas de los tripulantes y las secuencias audiovisuales utilizadas para desarrollar el contexto narrativo. También ofrece modalidades multijugador mediante conexión por módem o red local. Su combinación de simulación militar, instrumentos de navegación y presentación multimedia refleja la evolución del género durante la primera mitad de los años noventa, cuando los ordenadores personales comenzaron a ofrecer experiencias navales más complejas y audiovisualmente elaboradas. Esta edición española en caja grande fue editada y distribuida por Dro Soft bajo licencia de Electronic Arts. La presentación comercial conserva los textos exteriores y el manual de usuario en castellano, además del distintivo Software Traducido al Castellano. El ejemplar documentado contiene seis disquetes de 3,5 pulgadas identificados del disco 1 al disco 6. Su interés para la preservación reside tanto en la documentación de una distribución física española de 1994 como en el estudio de los sistemas de simulación, sonido y comunicación utilizados por los videojuegos militares para MS-DOS.",
+    "incluye": [
+      "Caja exterior de cartón Big Box",
+      "Manual de usuario en castellano",
+      "6 disquetes de 3,5 pulgadas identificados del disco 1 al disco 6"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "SSN-21 Seawolf",
+      "Seawolf",
+      "688 Attack Sub",
+      "Electronic Arts",
+      "Dro Soft",
+      "John W. Ratcliff",
+      "simulador naval clásico",
+      "submarino nuclear",
+      "clase Seawolf",
+      "US Navy",
+      "guerra submarina",
+      "combate naval moderno",
+      "Guerra Fría",
+      "crisis de Cuba",
+      "sonar activo",
+      "sonar pasivo",
+      "guerra antisubmarina",
+      "torpedos",
+      "misiles",
+      "simulación militar de los 90",
+      "multijugador por módem",
+      "red local",
+      "sonido digital de 16 bits",
+      "voces digitalizadas",
+      "VGA",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "disquetes de 3,5 pulgadas",
+      "edición española",
+      "manual en castellano",
+      "software traducido al castellano",
+      "Big Box PC",
+      "1994",
+      "videojuego físico",
+      "coleccionismo PC",
+      "preservación digital",
+      "simulación táctica"
+    ],
+    "anio": "1994",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "video_intro": false,
     "fecha_incorporacion": "2026-10-04",
     "procedencia": {
@@ -97578,114 +97910,114 @@
     "video_intro_duracion": ""
   },
   {
-  "num": "000000",
-  "ig": "",
-  "fecha_incorporacion": "2026-11-02",
-  "procedencia": {
-    "tipo": "Cesión",
-    "nombre_publico": "José Antonio Serrano García",
-    "redes": {
-      "instagram": "",
-      "facebook": "",
-      "x": ""
-    }
-  },
-  "titulo": "Blade Runner",
-  "url": "juegos/blade-runner-jewelcase/",
-  "plataforma": [
-    "Win95",
-    "Win98"
-  ],
-  "formato": "Jewel Case",
-  "genero": [
-    "Aventura gráfica",
-    "Point and click",
-    "Aventura en tiempo real",
-    "Investigación detectivesca",
-    "Ciencia ficción",
-    "Cyberpunk",
-    "Misterio"
-  ],
-  "desarrollador": [
-    "Westwood Studios"
-  ],
-  "distribuidor": [
-    "Virgin Interactive Entertainment",
-    "Dinamic Multimedia"
-  ],
-  "ean": [
-    "8426239090551"
-  ],
-  "descripcion": "Blade Runner es una aventura gráfica de ciencia ficción desarrollada por Westwood Studios y publicada originalmente en 1997 por Virgin Interactive Entertainment. Inspirada en la película de Ridley Scott de 1982 y en el universo literario de Philip K. Dick, presenta una historia paralela a los acontecimientos cinematográficos, ambientada en un Los Ángeles distópico de 2019. El jugador interpreta a Ray McCoy, un agente especializado en la identificación y retirada de replicantes que investiga una serie de crímenes relacionados con androides fugitivos. La aventura destaca por su estructura narrativa no lineal, sus múltiples desenlaces y un sistema de acontecimientos dinámicos que modifica determinadas situaciones, comportamientos y relaciones entre personajes en cada partida. A diferencia de las aventuras gráficas tradicionales, incorpora personajes que desarrollan actividades independientes del jugador, investigación mediante entrevistas, análisis de pruebas, exploración de escenarios y utilización de herramientas detectivescas como el dispositivo ESPER y el test Voight-Kampff. Técnicamente fue una producción especialmente ambiciosa para su época, gracias a su motor gráfico Voxel Plus, que combinaba personajes tridimensionales construidos mediante vóxeles con escenarios prerenderizados, iluminación ambiental, efectos meteorológicos y una presentación audiovisual de fuerte inspiración cinematográfica. La banda sonora recreaba la atmósfera electrónica de la película original, mientras que las voces digitalizadas reforzaban su carácter narrativo. Esta edición española comercializada por Dinamic Multimedia presenta un formato compacto de cartón desplegable, diferente de la distribución tradicional en caja grande, y contiene los cuatro CD-ROM originales identificados individualmente. El material exterior está localizado al castellano y corresponde a una distribución destinada al mercado español. La edición conserva un especial interés documental por representar una variante comercial española de una de las aventuras gráficas más sofisticadas de finales de los noventa, además de constituir un ejemplo destacado de la transición tecnológica hacia experiencias narrativas cinematográficas para Windows 95 y Windows 98.",
-  "incluye": [
-    "Carpeta de cartón desplegable con portada y contraportada originales de Dinamic Multimedia",
-    "CD-ROM 1",
-    "CD-ROM 2",
-    "CD-ROM 3",
-    "CD-ROM 4"
-  ],
-  "serie": [
-    "Todos",
-    "Jewel Case",
-    "Dinamic multimedia"
-  ],
-  "tags": [
-    "Blade Runner",
-    "Westwood Studios",
-    "Virgin Interactive Entertainment",
-    "Dinamic Multimedia",
-    "Ray McCoy",
-    "Ridley Scott",
-    "Philip K. Dick",
-    "replicantes",
-    "Voight-Kampff",
-    "ESPER",
-    "Los Ángeles 2019",
-    "cyberpunk",
-    "neo-noir",
-    "distopía",
-    "investigación criminal",
-    "narrativa no lineal",
-    "múltiples finales",
-    "inteligencia artificial",
-    "Voxel Plus",
-    "gráficos voxel",
-    "escenarios prerenderizados",
-    "aventura cinematográfica",
-    "cine y videojuegos",
-    "Windows 95",
-    "Windows 98",
-    "DirectX 5",
-    "PC CD-ROM",
-    "cuatro CD-ROM",
-    "edición española",
-    "distribución española",
-    "formato compacto",
-    "carpeta desplegable",
-    "edición física",
-    "PC clásico",
-    "videojuegos de 1997",
-    "aventuras gráficas de los 90",
-    "coleccionismo PC",
-    "preservación de videojuegos",
-    "patrimonio digital"
-  ],
-  "anio": "",
-  "mercado": [
-    "España"
-  ],
-  "idioma": [
-    "Español"
-  ],
-  "soporte": [
-    "CD-ROM"
-  ],
-  "tipo_edicion": [],
-  "preservacion": {
-    "resumen": ""
-  },
-  "video_intro": false,
-  "video_intro_fecha": "",
-  "video_intro_duracion": ""
-}
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-02",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Blade Runner",
+    "url": "juegos/blade-runner-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Aventura en tiempo real",
+      "Investigación detectivesca",
+      "Ciencia ficción",
+      "Cyberpunk",
+      "Misterio"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive Entertainment",
+      "Dinamic Multimedia"
+    ],
+    "ean": [
+      "8426239090551"
+    ],
+    "descripcion": "Blade Runner es una aventura gráfica de ciencia ficción desarrollada por Westwood Studios y publicada originalmente en 1997 por Virgin Interactive Entertainment. Inspirada en la película de Ridley Scott de 1982 y en el universo literario de Philip K. Dick, presenta una historia paralela a los acontecimientos cinematográficos, ambientada en un Los Ángeles distópico de 2019. El jugador interpreta a Ray McCoy, un agente especializado en la identificación y retirada de replicantes que investiga una serie de crímenes relacionados con androides fugitivos. La aventura destaca por su estructura narrativa no lineal, sus múltiples desenlaces y un sistema de acontecimientos dinámicos que modifica determinadas situaciones, comportamientos y relaciones entre personajes en cada partida. A diferencia de las aventuras gráficas tradicionales, incorpora personajes que desarrollan actividades independientes del jugador, investigación mediante entrevistas, análisis de pruebas, exploración de escenarios y utilización de herramientas detectivescas como el dispositivo ESPER y el test Voight-Kampff. Técnicamente fue una producción especialmente ambiciosa para su época, gracias a su motor gráfico Voxel Plus, que combinaba personajes tridimensionales construidos mediante vóxeles con escenarios prerenderizados, iluminación ambiental, efectos meteorológicos y una presentación audiovisual de fuerte inspiración cinematográfica. La banda sonora recreaba la atmósfera electrónica de la película original, mientras que las voces digitalizadas reforzaban su carácter narrativo. Esta edición española comercializada por Dinamic Multimedia presenta un formato compacto de cartón desplegable, diferente de la distribución tradicional en caja grande, y contiene los cuatro CD-ROM originales identificados individualmente. El material exterior está localizado al castellano y corresponde a una distribución destinada al mercado español. La edición conserva un especial interés documental por representar una variante comercial española de una de las aventuras gráficas más sofisticadas de finales de los noventa, además de constituir un ejemplo destacado de la transición tecnológica hacia experiencias narrativas cinematográficas para Windows 95 y Windows 98.",
+    "incluye": [
+      "Carpeta de cartón desplegable con portada y contraportada originales de Dinamic Multimedia",
+      "CD-ROM 1",
+      "CD-ROM 2",
+      "CD-ROM 3",
+      "CD-ROM 4"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "Blade Runner",
+      "Westwood Studios",
+      "Virgin Interactive Entertainment",
+      "Dinamic Multimedia",
+      "Ray McCoy",
+      "Ridley Scott",
+      "Philip K. Dick",
+      "replicantes",
+      "Voight-Kampff",
+      "ESPER",
+      "Los Ángeles 2019",
+      "cyberpunk",
+      "neo-noir",
+      "distopía",
+      "investigación criminal",
+      "narrativa no lineal",
+      "múltiples finales",
+      "inteligencia artificial",
+      "Voxel Plus",
+      "gráficos voxel",
+      "escenarios prerenderizados",
+      "aventura cinematográfica",
+      "cine y videojuegos",
+      "Windows 95",
+      "Windows 98",
+      "DirectX 5",
+      "PC CD-ROM",
+      "cuatro CD-ROM",
+      "edición española",
+      "distribución española",
+      "formato compacto",
+      "carpeta desplegable",
+      "edición física",
+      "PC clásico",
+      "videojuegos de 1997",
+      "aventuras gráficas de los 90",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "patrimonio digital"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  }
 ]

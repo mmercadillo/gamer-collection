@@ -1,23 +1,23 @@
 # Informe de generación SEO
 
-- Fecha: 2026-11-03T10:38:13
-- Juegos en catálogo: 1595
-- Incorporaciones con fecha documentada: 46
+- Fecha: 2026-11-03T10:59:06
+- Juegos en catálogo: 1598
+- Incorporaciones con fecha documentada: 49
 - URLs duplicadas detectadas: 1
 - URLs inválidas omitidas: 0
 - Desarrolladores con página/landing indexable: 163
 - Distribuidores con página/landing indexable: 108
-- Géneros con página/landing indexable: 160
+- Géneros con página/landing indexable: 163
 - Plataformas con página/landing indexable: 13
 - Formatos con página/landing indexable: 3
-- Años documentados: 100 fichas (6.3%); entidades indexables: 0
-- Mercados documentados: 364 fichas (22.8%); entidades indexables: 7
-- Idiomas documentados: 275 fichas (17.2%); entidades indexables: 7
-- Soportes documentados: 364 fichas (22.8%); entidades indexables: 5
-- Tipos de edición documentados: 207 fichas (13.0%); entidades indexables: 8
+- Años documentados: 102 fichas (6.4%); entidades indexables: 0
+- Mercados documentados: 367 fichas (23.0%); entidades indexables: 7
+- Idiomas documentados: 278 fichas (17.4%); entidades indexables: 7
+- Soportes documentados: 367 fichas (23.0%); entidades indexables: 5
+- Tipos de edición documentados: 210 fichas (13.1%); entidades indexables: 8
 - Páginas estáticas del catálogo: 67
-- Fichas con imágenes documentales detectadas: 1593
-- Imágenes documentales incluidas en el sitemap: 2671
+- Fichas con imágenes documentales detectadas: 1596
+- Imágenes documentales incluidas en el sitemap: 2680
 
 ## Observaciones
 
