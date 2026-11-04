@@ -23086,6 +23086,237 @@
   {
     "num": "000000",
     "ig": "",
+    "fecha_incorporacion": "2026-11-04",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Links: The Challenge of Golf",
+    "url": "juegos/links-the-challenge-of-golf-2-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Simulación deportiva",
+      "Simulador de golf"
+    ],
+    "desarrollador": [
+      "Access Software"
+    ],
+    "distribuidor": [
+      "Access Software",
+      "U.S. Gold",
+      "Erbe Software"
+    ],
+    "ean": [
+      "8420224911869"
+    ],
+    "descripcion": "Links: The Challenge of Golf es un simulador de golf desarrollado por Access Software y publicado originalmente en 1990 para IBM PC y compatibles con MS-DOS. Representó un importante avance tecnológico en los videojuegos deportivos de principios de los noventa gracias a su detallada recreación de campos reales, su motor gráfico con soporte para 256 colores y una simulación física que buscaba reproducir con precisión las trayectorias, los efectos y el comportamiento de la pelota. Diseñado bajo la dirección técnica de Bruce Carver y con aportaciones de Roger Carver, el juego destacó por sus escenarios digitalizados, sus perspectivas tridimensionales recreadas mediante gráficos bidimensionales y su capacidad para representar elementos del terreno como árboles, obstáculos, desniveles y superficies de juego. Su sistema de golpeo permitía seleccionar palos, ajustar dirección y potencia y controlar el swing, mientras que los diferentes niveles de dificultad facilitaban tanto el aprendizaje como la competición entre jugadores. Incorporaba además efectos de sonido digitalizados mediante la tecnología RealSound de Access Software, junto con compatibilidad con dispositivos como AdLib y Sound Blaster. El campo principal era Torrey Pines, en California, y el programa admitía campos adicionales comercializados posteriormente dentro de la línea Links Championship Courses. Esta edición española en caja grande, distribuida por Erbe Software bajo el sello internacional U.S. Gold, destaca por sus textos comerciales y documentación en castellano, su presentación en disquetes de 5,25 pulgadas y la inclusión promocional del campo Pinehurst Resort & Country Club. El ejemplar conserva también documentación de instalación de recorridos adicionales, entre ellos Firestone Country Club, así como material impreso relacionado con Hyatt Dorado Beach. Links se convirtió en una referencia de la simulación deportiva para ordenadores personales y sentó las bases de una extensa franquicia que continuaría con Links 386 Pro y posteriores entregas. Su preservación resulta especialmente relevante por las exigencias de hardware de la época, los formatos magnéticos empleados y el valor documental de las ediciones españolas de simuladores deportivos para MS-DOS.",
+    "incluye": [
+      "Caja grande de cartón Big Box",
+      "Manual del jugador Links: The Challenge of Golf en castellano",
+      "5 disquetes de 5,25 pulgadas Nashua MD2D con etiquetas de Erbe Software",
+      "5 disquetes adicionales de 5,25 pulgadas en fundas protectoras blancas",
+      "5 manuales de instalación de recorridos de campeonato Links",
+      "Manual de instalación del recorrido Firestone Country Club",
+      "Documentación impresa del campo Hyatt Dorado Beach",
+      "Folleto del campo Bay Hill Club & Lodge",
+      "Tarjetas y hojas de resultados de golf",
+      "Material impreso de referencia de recorridos de campeonato",
+      "Contenido promocional del campo Pinehurst Resort & Country Club"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Links",
+      "Links The Challenge of Golf",
+      "Access Software",
+      "U.S. Gold",
+      "Erbe Software",
+      "Bruce Carver",
+      "Roger Carver",
+      "Links Championship Courses",
+      "Torrey Pines",
+      "Pinehurst Resort",
+      "Firestone Country Club",
+      "Hyatt Dorado Beach",
+      "Bay Hill Club",
+      "golf profesional",
+      "simulación realista",
+      "física de la pelota",
+      "campos de golf reales",
+      "RealSound",
+      "gráficos de 256 colores",
+      "MCGA",
+      "VGA",
+      "AdLib",
+      "Sound Blaster",
+      "IBM PC compatibles",
+      "MS-DOS",
+      "disquetes 5.25 pulgadas",
+      "disquetes de alta densidad",
+      "disquetes de doble densidad",
+      "edición española",
+      "manual en castellano",
+      "software clásico",
+      "simulación deportiva clásica",
+      "videojuegos de 1990",
+      "Big Box PC",
+      "coleccionismo PC",
+      "preservación digital",
+      "soportes magnéticos",
+      "retro PC"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Bundle/Pack"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-04",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Guy Spy and the Crystals of Armageddon",
+    "url": "juegos/guy-spy-and-the-crystals-of-armageddon-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción",
+      "Arcade",
+      "Aventura de acción",
+      "Plataformas",
+      "Shoot 'em up",
+      "Aventura interactiva",
+      "Espionaje"
+    ],
+    "desarrollador": [
+      "ReadySoft Incorporated"
+    ],
+    "distribuidor": [
+      "ReadySoft Incorporated",
+      "Proein Soft Line"
+    ],
+    "ean": [],
+    "descripcion": "Guy Spy and the Crystals of Armageddon es un videojuego de acción y aventura interactiva desarrollado por la compañía canadiense ReadySoft y publicado para MS-DOS en 1992, aunque sus materiales originales incluyen referencias de copyright de 1991. Pertenece a la corriente de videojuegos de animación interactiva popularizada por títulos como Dragon's Lair y Space Ace, que buscaban trasladar la estética de los dibujos animados tradicionales a experiencias jugables de carácter cinematográfico. El jugador interpreta a Guy Spy, un agente secreto encargado de detener al malvado Barón Von Max, quien pretende utilizar los legendarios Cristales de Armagedón para alimentar una gigantesca máquina del fin del mundo. La aventura combina secuencias animadas con diferentes desafíos arcade, persecuciones, combates, disparos y plataformas, exigiendo reflejos y precisión para superar las situaciones planteadas. Su principal característica tecnológica es el empleo de animación bidimensional de gran calidad, con más de 1.500 fotogramas anunciados en la propia caja, acompañados de música y efectos sonoros originales. Frente a los juegos de plataformas convencionales de principios de los noventa, Guy Spy apuesta por una presentación audiovisual muy elaborada y una sucesión de escenas de acción de planteamiento variado, aunque con una interacción relativamente limitada y una dificultad basada principalmente en la ejecución. La versión para IBM PC y compatibles utiliza disquetes de 3,5 pulgadas, requiere 640 KB de memoria RAM y admite modos gráficos CGA, EGA y VGA, además de sonido mediante tarjetas compatibles con AdLib. Esta edición física en formato Big Box presenta una particularidad documental relevante: conserva la identidad editorial de ReadySoft junto con la distribución de Proein Soft Line y una indicación expresa de manual en castellano, aunque el embalaje mantiene sus textos comerciales principales en inglés. La inclusión de un póster promocional y documentación auxiliar refuerza el valor de esta edición como testimonio de la comercialización española de videojuegos de animación interactiva durante los primeros años de la década de 1990. Desde la perspectiva de la preservación, constituye una pieza representativa de la transición entre los juegos arcade tradicionales y las producciones que aspiraban a ofrecer una experiencia visual próxima a los dibujos animados cinematográficos, antes de la expansión generalizada del CD-ROM en el mercado doméstico de PC.",
+    "incluye": [
+      "Caja original de cartón Big Box",
+      "4 disquetes de 3,5 pulgadas",
+      "Manual de instrucciones en castellano",
+      "Póster original desplegable de ReadySoft",
+      "Tarjeta de registro de software",
+      "Documento de protección o referencia del juego",
+      "Documentación impresa adicional"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Guy Spy",
+      "Crystals of Armageddon",
+      "ReadySoft",
+      "ReadySoft Incorporated",
+      "Proein",
+      "Proein Soft Line",
+      "Baron Von Max",
+      "videojuegos de animación interactiva",
+      "interactive cartoon",
+      "dibujos animados",
+      "animación tradicional",
+      "animación 2D",
+      "full screen animation",
+      "más de 1500 fotogramas",
+      "espionaje",
+      "agentes secretos",
+      "aventura cinematográfica",
+      "arcade clásico",
+      "Dragon's Lair",
+      "Space Ace",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "Tandy",
+      "CGA",
+      "EGA",
+      "VGA",
+      "AdLib",
+      "640 KB RAM",
+      "disquetes de 3,5 pulgadas",
+      "cuatro disquetes",
+      "instalación en disco duro",
+      "edición española",
+      "manual en castellano",
+      "caja en inglés",
+      "póster original",
+      "ReadySoft poster",
+      "Big Box PC",
+      "juegos de 1992",
+      "videojuegos de los años 90",
+      "PC retro",
+      "coleccionismo de videojuegos",
+      "preservación de disquetes",
+      "preservación digital",
+      "software histórico"
+    ],
+    "anio": "1992",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "video_intro": false,
     "fecha_incorporacion": "2026-10-04",
     "procedencia": {
