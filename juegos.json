@@ -23314,6 +23314,122 @@
     "video_intro_fecha": "",
     "video_intro_duracion": ""
   },
+{
+  "num": "000000",
+  "ig": "",
+  "fecha_incorporacion": "2026-11-06",
+  "procedencia": {
+    "tipo": "Compra",
+    "nombre_publico": "",
+    "redes": {
+      "instagram": "",
+      "facebook": "",
+      "x": ""
+    }
+  },
+  "titulo": "Links LS 2000",
+  "url": "juegos/links-ls-2000-bigbox/",
+  "plataforma": [
+    "Win95",
+    "Win98",
+    "WinNT"
+  ],
+  "formato": "Big Box",
+  "genero": [
+    "Simulación deportiva",
+    "Simulador de golf",
+    "Deportes",
+    "Golf"
+  ],
+  "desarrollador": [
+    "Access Software"
+  ],
+  "distribuidor": [
+    "Microsoft"
+  ],
+  "ean": [],
+  "descripcion": "Links LS 2000 es un simulador de golf desarrollado por Access Software y publicado por Microsoft en 1999 para PC Windows. Pertenece a una de las franquicias más importantes de la simulación deportiva para ordenadores personales, reconocida desde comienzos de los años noventa por su búsqueda del realismo visual, la reproducción de campos profesionales y la precisión de su modelo físico. Esta entrega constituye un momento significativo en la historia de la serie, al ser la primera publicada bajo el sello Microsoft después de la adquisición de Access Software en 1999. El juego presenta cinco nuevos campos de golf de prestigio internacional: New Course y Jubilee Course de St Andrews Links, Covered Bridge de Indiana y los campos Mauna Kea y Hapuna de Hawái. Estos se suman al Old Course de St Andrews, incorporado anteriormente a la franquicia, y a otros recorridos disponibles. Entre sus principales características destacan la simulación de la trayectoria y el comportamiento de la pelota, las condiciones del terreno, la selección de palos y los sistemas de golpeo orientados a distintos niveles de experiencia. Incluye el sistema PowerStroke, que permite ejecutar golpes mediante movimientos del ratón, y la opción EasySwing, concebida como alternativa más accesible. Incorpora además nuevas características de asistencia, como consejos y lecciones de Links, mejoras en la representación de paisajes y vegetación y opciones SkyScape para obtener cielos más variados y realistas. La edición cuenta con doce golfistas seleccionables, entre ellos Arnold Palmer, figura histórica del golf profesional y protagonista de la portada. También incorpora comentarios de David Feherty y Craig Bollerjack, modos de competición y funciones multijugador mediante MSN Gaming Zone. Su tecnología de representación de campos, la atención al detalle de las superficies y la simulación de la física del golpe reflejan la evolución de los simuladores deportivos para Windows a finales de los años noventa. Esta edición comercial destinada al mercado español se presenta en caja grande de cartón, con manual de instrucciones en castellano y software en inglés, circunstancia expresamente indicada en la cubierta. El ejemplar conserva documentación complementaria de Microsoft y una guía impresa del sistema PowerStroke. Links LS 2000 representa una de las últimas entregas de la generación clásica Links LS antes de la renovación tecnológica introducida con Links 2001. Su edición física posee especial interés documental por testimoniar la integración de Access Software en Microsoft, la evolución de las interfaces de simulación deportiva y la distribución española de videojuegos de PC en formato Big Box durante el final del siglo XX.",
+  "incluye": [
+    "Caja exterior de cartón Big Box",
+    "Estuche de CD-ROM tipo jewel case con carátula original",
+    "CD-ROM del juego",
+    "Manual del jugador en español",
+    "Guía impresa del sistema de golpeo PowerStroke en español",
+    "Documento de garantía limitada de Microsoft",
+    "Hoja de registro de producto de Microsoft",
+    "Documento Microsoft Subsidiary Information"
+  ],
+  "serie": [
+    "Todos",
+    "Big Box"
+  ],
+  "tags": [
+    "Links",
+    "Links LS",
+    "Links LS 2000",
+    "Access Software",
+    "Microsoft",
+    "Microsoft Games",
+    "Arnold Palmer",
+    "David Feherty",
+    "Craig Bollerjack",
+    "golf profesional",
+    "simulación realista",
+    "física de la pelota",
+    "PowerStroke",
+    "EasySwing",
+    "SkyScape",
+    "St Andrews Links",
+    "Old Course",
+    "New Course",
+    "Jubilee Course",
+    "Covered Bridge",
+    "Mauna Kea",
+    "Hapuna",
+    "campos de golf reales",
+    "MSN Gaming Zone",
+    "multijugador online",
+    "simulación deportiva clásica",
+    "Windows 95",
+    "Windows 98",
+    "Windows NT",
+    "PC CD-ROM",
+    "edición española",
+    "manual en castellano",
+    "software en inglés",
+    "caja grande",
+    "Big Box PC",
+    "videojuegos de 1999",
+    "PC clásico",
+    "coleccionismo PC",
+    "preservación de videojuegos",
+    "videojuego físico"
+  ],
+  "anio": "1999",
+  "mercado": [
+    "España"
+  ],
+  "idioma": [
+    "Español",
+    "Inglés"
+  ],
+  "soporte": [
+    "CD-ROM"
+  ],
+  "tipo_edicion": [
+    "Lanzamiento original"
+  ],
+  "preservacion": {
+    "resumen": ""
+  },
+  "video_intro": false,
+  "video_intro_fecha": "",
+  "video_intro_duracion": ""
+},
+
+
+
+
   {
     "num": "000000",
     "ig": "",
