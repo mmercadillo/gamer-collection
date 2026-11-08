@@ -176,6 +176,7 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ubisoft-montpellier/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ubisoft-shanghai/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/4x-studios/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/access-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/adventure-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ascaron/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/bethesda-game-studios/</loc></url>
@@ -208,7 +209,6 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/the-3do-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/totally-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ubisoft-romania/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/access-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/alcachofa-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/anco-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/arenanet/</loc></url>
@@ -299,10 +299,10 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/gathering-of-developers/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/focus-home-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts-entertainment-company/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/electronic-arts-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/jowood-productions/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/psygnosis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ubi-soft/</loc></url>
@@ -400,8 +400,8 @@
   <url><loc>https://www.pcgamearchive.org/generos/construccion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/misterio/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/belico/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/estrategia-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-deportiva/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/estrategia-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-deportiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/plataformas/</loc></url>
@@ -471,6 +471,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/aventura-en-tercera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-y-gestion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-de-imperios/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/golf/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-y-slash/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-conduccion/</loc></url>
@@ -484,7 +485,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/espionaje/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/exploracion/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/golf/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/infantil/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/isometrico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/juego-de-tablero/</loc></url>
@@ -533,6 +533,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vida/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-policial/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/simulador-de-golf/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulador-de-submarinos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/superheroes/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/thriller/</loc></url>
@@ -3749,6 +3750,18 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/guy-spy-and-the-crystals-of-armageddon-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/links-ls-2000-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/links-ls-2000-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/links-ls-2000-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/links-ls-2000-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>
