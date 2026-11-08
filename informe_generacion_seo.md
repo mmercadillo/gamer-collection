@@ -1,23 +1,23 @@
 # Informe de generación SEO
 
-- Fecha: 2026-11-08T09:15:08
-- Juegos en catálogo: 1601
-- Incorporaciones con fecha documentada: 52
-- URLs duplicadas detectadas: 1
+- Fecha: 2026-11-08T10:19:13
+- Juegos en catálogo: 1611
+- Incorporaciones con fecha documentada: 62
+- URLs duplicadas detectadas: 3
 - URLs inválidas omitidas: 0
 - Desarrolladores con página/landing indexable: 164
-- Distribuidores con página/landing indexable: 109
-- Géneros con página/landing indexable: 164
+- Distribuidores con página/landing indexable: 112
+- Géneros con página/landing indexable: 166
 - Plataformas con página/landing indexable: 13
 - Formatos con página/landing indexable: 3
-- Años documentados: 104 fichas (6.5%); entidades indexables: 0
-- Mercados documentados: 370 fichas (23.1%); entidades indexables: 7
-- Idiomas documentados: 281 fichas (17.6%); entidades indexables: 7
-- Soportes documentados: 370 fichas (23.1%); entidades indexables: 5
-- Tipos de edición documentados: 213 fichas (13.3%); entidades indexables: 8
-- Páginas estáticas del catálogo: 67
-- Fichas con imágenes documentales detectadas: 1599
-- Imágenes documentales incluidas en el sitemap: 2690
+- Años documentados: 110 fichas (6.8%); entidades indexables: 0
+- Mercados documentados: 380 fichas (23.6%); entidades indexables: 7
+- Idiomas documentados: 291 fichas (18.1%); entidades indexables: 7
+- Soportes documentados: 380 fichas (23.6%); entidades indexables: 5
+- Tipos de edición documentados: 223 fichas (13.8%); entidades indexables: 9
+- Páginas estáticas del catálogo: 68
+- Fichas con imágenes documentales detectadas: 1607
+- Imágenes documentales incluidas en el sitemap: 2714
 
 ## Observaciones
 
@@ -52,3 +52,5 @@
 ## URLs duplicadas
 
 - `juegos/the-rise-and-rule-of-ancient-empires-bigbox/`
+- `juegos/terratopia-jewelcase/`
+- `juegos/megarace-jewelcase/`

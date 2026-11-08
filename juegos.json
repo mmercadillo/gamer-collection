@@ -98362,5 +98362,1059 @@
     "video_intro": false,
     "video_intro_fecha": "",
     "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Lands of Lore: The Throne of Chaos",
+    "url": "juegos/lands-of-lore-the-throne-of-chaos-2-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Rol",
+      "CRPG",
+      "Dungeon crawler",
+      "Rol en primera persona",
+      "Fantasía",
+      "Combate en tiempo real"
+    ],
+    "desarrollador": [
+      "Westwood Studios"
+    ],
+    "distribuidor": [
+      "Virgin Interactive Entertainment (Europe) Ltd."
+    ],
+    "ean": [],
+    "descripcion": "Lands of Lore: The Throne of Chaos es un videojuego de rol de fantasía en primera persona desarrollado por Westwood Studios y publicado originalmente en 1993 por Virgin Interactive. Concebido como una alternativa más accesible y narrativa a los juegos de rol tradicionales de ordenador, representa una de las producciones más destacadas de Westwood anteriores a la consolidación internacional de Command & Conquer. La historia transcurre en el reino de Gladstone, amenazado por Scotia, una poderosa hechicera que pretende dominar las tierras mediante la magia y el engaño. Tras el envenenamiento del rey Richard, el protagonista debe emprender una misión para encontrar una cura y detener los planes de la antagonista. El jugador puede elegir entre cuatro personajes iniciales, cada uno con diferentes características, y formar progresivamente un grupo de aventureros. Su sistema combina exploración de mazmorras en primera persona mediante desplazamiento por casillas, combates en tiempo real, hechizos, inventario, resolución de puzles y progresión automática de habilidades mediante su utilización. Destaca por eliminar buena parte de la complejidad estadística habitual del rol clásico, favoreciendo una experiencia cinematográfica y accesible sin renunciar a la exploración ni a la profundidad de sus escenarios. Técnicamente utiliza gráficos VGA de 256 colores, animaciones detalladas, escenarios dibujados y una interfaz visual especialmente elaborada para los estándares de MS-DOS. La edición en CD-ROM, comercializada en 1994, amplió notablemente la presentación audiovisual de la versión original en disquetes mediante diálogos digitalizados y secuencias narradas, destacando la participación del actor Patrick Stewart como voz del rey Richard. Esta edición física europea en inglés, publicada bajo el sello Virgin Interactive Entertainment y presentada en estuche Jewel Case para PC CD-ROM, constituye un testimonio del periodo de transición entre los videojuegos distribuidos en disquetes y las producciones multimedia de mediados de los noventa. Su conservación resulta especialmente relevante para documentar la evolución del rol occidental en primera persona, la expansión comercial del CD-ROM y la trayectoria creativa de Westwood Studios. El título inauguró una trilogía continuada posteriormente por Lands of Lore II: Guardians of Destiny y Lands of Lore III.",
+    "incluye": [
+      "Estuche Jewel Case con carátula original",
+      "Contracarátula original en inglés",
+      "1 CD-ROM original del juego"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Lands of Lore",
+      "The Throne of Chaos",
+      "Lands of Lore saga",
+      "Westwood Studios",
+      "Virgin Interactive",
+      "Virgin Interactive Entertainment Europe",
+      "Scotia",
+      "Rey Richard",
+      "Gladstone",
+      "Patrick Stewart",
+      "RPG occidental clásico",
+      "Rol en primera persona",
+      "Dungeon crawler clásico",
+      "Fantasía medieval",
+      "Exploración de mazmorras",
+      "Combate en tiempo real",
+      "Grupo de aventureros",
+      "Magia y hechizos",
+      "Progresión de habilidades",
+      "Gráficos VGA",
+      "256 colores",
+      "Voces digitalizadas",
+      "Multimedia interactiva",
+      "MS-DOS",
+      "DOSBox",
+      "ScummVM",
+      "PC CD-ROM",
+      "Edición europea",
+      "Edición británica",
+      "Versión en inglés",
+      "1994",
+      "Jewel Case",
+      "Westwood RPG",
+      "PC clásico",
+      "Videojuegos de los 90",
+      "Coleccionismo PC",
+      "Preservación digital",
+      "Preservación de videojuegos físicos"
+    ],
+    "anio": "1994",
+    "mercado": [
+      "Reino Unido"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Ripley's Believe It or Not!: The Riddle of Master Lu",
+    "url": "juegos/ripleys-believe-it-or-not-the-riddle-of-master-lu-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Misterio",
+      "Aventura histórica",
+      "Puzzle"
+    ],
+    "desarrollador": [
+      "Sanctuary Woods Multimedia Corporation"
+    ],
+    "distribuidor": [
+      "Sanctuary Woods Multimedia Corporation",
+      "U.S. Gold",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Ripley's Believe It or Not!: The Riddle of Master Lu es una aventura gráfica publicada originalmente en 1995, desarrollada por Sanctuary Woods Multimedia Corporation y basada en la figura histórica de Robert L. Ripley, célebre explorador, periodista y creador de la franquicia Believe It or Not!. Ambientada en 1936, durante los años previos a la Segunda Guerra Mundial, la historia sitúa al jugador en el papel de Ripley, quien debe investigar un antiguo misterio relacionado con el legendario Maestro Lu y un poderoso artefacto vinculado a la China imperial. La investigación conduce al protagonista por diferentes escenarios internacionales, combinando referencias arqueológicas, acontecimientos históricos, personajes singulares y elementos de ficción aventurera. Su planteamiento jugable responde al modelo clásico de aventura point and click, con exploración de escenarios, conversaciones con personajes, recopilación y combinación de objetos y resolución de numerosos enigmas. El juego destacó técnicamente por emplear actores digitalizados integrados en escenarios prerenderizados, animaciones detalladas, secuencias cinematográficas Full Motion Video y voces digitalizadas, características representativas de la expansión multimedia del CD-ROM durante los años noventa. Su dirección artística combina ambientaciones históricas, escenarios exóticos y una estética cinematográfica inspirada en las grandes aventuras arqueológicas. El diseño narrativo contó con la participación de Lee Sheldon y François Robillard, mientras que su estructura de puzles y la utilización de elementos históricos contribuyeron a diferenciarlo de otras aventuras gráficas contemporáneas. Esta edición física en formato Jewel Case para PC CD-ROM corresponde a la distribución comercial identificada mediante los sellos Sanctuary Woods y Erbe Software, vinculada al mercado español. Constituye una pieza de interés documental por representar una producción multimedia de mediados de los noventa que trasladó al videojuego una franquicia cultural preexistente, combinando ficción histórica, exploración internacional y técnicas de digitalización de actores características de la época. Su preservación permite estudiar tanto la evolución tecnológica de las aventuras gráficas para MS-DOS como las prácticas de distribución física y localización comercial del videojuego para PC en España.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original del juego",
+      "Carátula frontal impresa",
+      "Carátula posterior impresa"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Ripley's Believe It or Not!",
+      "The Riddle of Master Lu",
+      "Robert Ripley",
+      "Sanctuary Woods",
+      "Sanctuary Woods Multimedia",
+      "Erbe Software",
+      "U.S. Gold",
+      "Lee Sheldon",
+      "François Robillard",
+      "aventura gráfica clásica",
+      "aventura arqueológica",
+      "aventura cinematográfica",
+      "misterio histórico",
+      "exploración internacional",
+      "China imperial",
+      "años treinta",
+      "1936",
+      "actores digitalizados",
+      "Full Motion Video",
+      "FMV",
+      "escenarios prerenderizados",
+      "gráficos digitalizados",
+      "M.A.D.S.",
+      "MS-DOS",
+      "DOSBox",
+      "PC CD-ROM",
+      "edición española",
+      "distribución Erbe",
+      "Jewel Case",
+      "juegos de 1995",
+      "videojuegos de los 90",
+      "aventuras multimedia",
+      "coleccionismo PC",
+      "videojuego físico",
+      "preservación digital",
+      "PC clásico"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "TerraTopia",
+    "url": "juegos/terratopia-jewelcase/",
+    "plataforma": [
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Educativo",
+      "Infantil",
+      "Fantasía",
+      "Aventura en primera persona",
+      "Puzles"
+    ],
+    "desarrollador": [
+      "Funsoft",
+      "Virgin Sound and Vision"
+    ],
+    "distribuidor": [
+      "Creative Consultants",
+      "Virgin Interactive Entertainment",
+      "Virgin Sound and Vision"
+    ],
+    "ean": [],
+    "descripcion": "TerraTopia es una aventura gráfica educativa publicada en 1996 y vinculada al universo infantil de TerraTopia, una franquicia multimedia dedicada a la naturaleza, la biodiversidad y la protección del medioambiente. Desarrollada para ordenadores personales durante el auge del entretenimiento multimedia en CD-ROM, combina exploración, resolución de enigmas y aprendizaje ambiental en una aventura fantástica dirigida principalmente al público infantil. La historia comienza cuando el jugador es elegido por los Ancianos para convertirse en un nuevo Terrasoldado y viajar desde la Tierra hasta Terratopia mediante una llave libélula mágica. Allí descubre que sus compañeros están desapareciendo misteriosamente y que el Coyote Embustero podría estar detrás de los acontecimientos. Para avanzar debe explorar diferentes escenarios, recoger objetos, resolver puzles y utilizar los poderes de los amuletos animales. Estos poderes totémicos permiten transformarse en distintos animales y aprovechar sus habilidades para superar obstáculos. El juego utiliza una perspectiva en primera persona con escenarios bidimensionales, navegación mediante ratón, secuencias de animación y diálogos digitalizados. Su producción pertenece a la etapa de expansión del software ludoeducativo de mediados de los noventa, cuando numerosas compañías experimentaron con narrativas interactivas que combinaban entretenimiento y divulgación. La edición española presenta textos y voces en castellano y pertenece a la Serie de Aventuras comercializada bajo la marca Virgin Sound and Vision. Distribuida en un estuche Jewel Case para PC CD-ROM, requiere un procesador 486 a 25 MHz, 8 MB de memoria RAM, MS-DOS 5.0 o superior, unidad de CD-ROM de doble velocidad y pantalla VGA de 256 colores. La recomendación de 16 MB de RAM y la compatibilidad con tarjetas Sound Blaster reflejan las características de los ordenadores multimedia domésticos de su época. TerraTopia constituye una pieza representativa del patrimonio del videojuego educativo de los años noventa, especialmente por su combinación de conciencia ecológica, fantasía infantil y tecnología multimedia anterior a la generalización de Internet en los hogares.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM del juego",
+      "Carátula impresa en castellano",
+      "Contracarátula con argumento y requisitos del sistema"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "TerraTopia",
+      "Virgin Interactive",
+      "Virgin Sound and Vision",
+      "Creative Consultants",
+      "Funsoft",
+      "Virgin Adventure Series",
+      "Serie de Aventuras",
+      "videojuegos educativos",
+      "edutainment",
+      "educación ambiental",
+      "ecología",
+      "biodiversidad",
+      "naturaleza",
+      "protección del medioambiente",
+      "transformaciones animales",
+      "poderes totémicos",
+      "Terrasoldados",
+      "Coyote Embustero",
+      "aventura infantil",
+      "exploración interactiva",
+      "animación 2D",
+      "multimedia interactivo",
+      "Windows 3.1",
+      "Windows 95",
+      "VGA 256 colores",
+      "Sound Blaster",
+      "PC CD-ROM",
+      "edición española",
+      "voces en castellano",
+      "textos en castellano",
+      "software ludoeducativo",
+      "videojuegos de los 90",
+      "Jewel Case",
+      "juego físico PC",
+      "coleccionismo PC",
+      "preservación digital",
+      "retro PC"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Star Wars: X-Wing - CD-ROM para Coleccionistas",
+    "url": "juegos/star-wars-x-wing-cd-rom-para-coleccionistas-2-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Simulación espacial",
+      "Simulador de combate espacial",
+      "Acción",
+      "Ciencia ficción",
+      "Simulación de vuelo"
+    ],
+    "desarrollador": [
+      "Totally Games",
+      "LucasArts Entertainment Company"
+    ],
+    "distribuidor": [
+      "LucasArts Entertainment Company",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Star Wars: X-Wing - CD-ROM para Coleccionistas es una edición ampliada y mejorada del simulador de combate espacial Star Wars: X-Wing, desarrollado por Totally Games bajo la dirección de Lawrence Holland y publicado originalmente por LucasArts en 1993. La versión Collector's CD-ROM apareció en 1994 y reunió en un único disco el juego original, las expansiones Imperial Pursuit y B-Wing y seis misiones históricas adicionales. Esta recopilación permite pilotar cazas de la Alianza Rebelde, incluidos el X-Wing, Y-Wing, A-Wing y B-Wing, en operaciones militares contra las fuerzas del Imperio Galáctico. Su jugabilidad combina combate espacial tridimensional, gestión de escudos, energía de motores y armamento, selección de objetivos y cumplimiento de misiones con objetivos tácticos diversos. La edición en CD-ROM introdujo mejoras gráficas en los modelos poligonales y el sombreado, voces digitalizadas durante las reuniones informativas, efectos sonoros actualizados y modificaciones de determinadas misiones respecto a la versión original en disquetes. Conserva el sistema de presentación cinematográfica y la ambientación musical interactiva que contribuyeron a convertir X-Wing en uno de los simuladores espaciales más influyentes de los años noventa. La edición física española catalogada corresponde a la distribución de Erbe Software en estuche Jewel Case, comercializada en 1996, con presentación y documentación en castellano y software en inglés. La contraportada identifica expresamente los requisitos para MS-DOS 5.0 o superior, procesador 386DX/33 MHz, 4 MB de RAM, gráficos VGA de 256 colores y compatibilidad con tarjetas de sonido como Sound Blaster, AdLib y Roland MT-32. También exige unidad de CD-ROM de doble velocidad y dispositivo de control mediante teclado, ratón o joystick, siendo este último el recomendado. Esta edición constituye un testimonio relevante de la transición de los simuladores espaciales desde los disquetes al CD-ROM multimedia, así como de la distribución española de los grandes títulos de LucasArts durante la década de 1990. Su preservación permite documentar una versión técnicamente diferenciada tanto del lanzamiento inicial de 1993 como de las posteriores reediciones adaptadas a Windows y Direct3D.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "1 CD-ROM original",
+      "Carátula impresa en castellano",
+      "Contraportada impresa con requisitos técnicos en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Star Wars",
+      "Star Wars X-Wing",
+      "X-Wing Collector's CD-ROM",
+      "X-Wing CD-ROM para Coleccionistas",
+      "LucasArts",
+      "Lucasfilm Games",
+      "Totally Games",
+      "Erbe Software",
+      "Lawrence Holland",
+      "Edward Kilham",
+      "Alianza Rebelde",
+      "Imperio Galáctico",
+      "X-Wing",
+      "Y-Wing",
+      "A-Wing",
+      "B-Wing",
+      "Imperial Pursuit",
+      "B-Wing Tour of Duty",
+      "combate espacial",
+      "simulación de combate",
+      "universo Star Wars",
+      "misiones históricas",
+      "gráficos poligonales 3D",
+      "sombreado Gouraud",
+      "voces digitalizadas",
+      "iMUSE",
+      "VGA 256 colores",
+      "Sound Blaster",
+      "AdLib",
+      "Roland MT-32",
+      "General MIDI",
+      "MS-DOS",
+      "PC compatibles",
+      "CD-ROM multimedia",
+      "edición española",
+      "Erbe 1996",
+      "software en inglés",
+      "manual en castellano",
+      "Jewel Case",
+      "reedición española",
+      "coleccionismo Star Wars",
+      "videojuegos clásicos de PC",
+      "preservación digital",
+      "historia del videojuego",
+      "simuladores de los años 90"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Colección",
+      "Compilación"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Prisoner of Ice",
+    "url": "juegos/prisoner-of-ice-2-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Terror lovecraftiano",
+      "Misterio",
+      "Aventura de terror",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Infogrames Europe SA"
+    ],
+    "distribuidor": [
+      "Infogrames Multimedia",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Prisoner of Ice es una aventura gráfica de terror y misterio desarrollada por Infogrames y publicada originalmente en 1995 para PC compatibles con MS-DOS. Forma parte de la línea de videojuegos inspirados en los Mitos de Cthulhu de H. P. Lovecraft y mantiene vínculos narrativos con Shadow of the Comet, otra aventura de Infogrames basada en el universo del escritor estadounidense. La historia comienza en enero de 1937 y sigue al teniente Ryan, un oficial estadounidense embarcado en el submarino británico HMS Victoria, que transporta una carga misteriosa recuperada durante una expedición antártica. La aparición de criaturas sobrenaturales desencadena una conspiración relacionada con experimentos secretos, organizaciones ocultistas, viajes temporales y entidades procedentes de los Mitos de Cthulhu. Su argumento combina terror cósmico, espionaje, aventura histórica y elementos de ciencia ficción en el contexto previo a la Segunda Guerra Mundial. Jugablemente utiliza una interfaz point and click con perspectiva en tercera persona, exploración de escenarios, conversaciones, manipulación de objetos y resolución de enigmas. Su presentación audiovisual combina fondos bidimensionales elaborados, personajes animados, secuencias cinematográficas y sonido digitalizado. El programa ofrece modos gráficos VGA de 320 × 200 píxeles y SVGA de 640 × 480, con soporte para tarjetas de sonido habituales de la época, como Sound Blaster y compatibles. La versión original puede ejecutarse directamente desde CD-ROM bajo MS-DOS y contempla el lanzamiento desde Windows 3.x. Esta edición física española en estuche Jewel Case conserva la denominación internacional Prisoner of Ice, con textos comerciales en castellano y distribución bajo la marca Infogrames. El soporte óptico presenta referencias de copyright de 1995 a Infogrames Multimedia y a Chaosium, compañía responsable del universo de rol Call of Cthulhu. Su interés histórico reside en representar una de las adaptaciones europeas más reconocibles del terror lovecraftiano al género de aventura gráfica durante la expansión del CD-ROM multimedia. Constituye además un testimonio de la producción de Infogrames anterior al predominio de los entornos tridimensionales, cuando las aventuras narrativas todavía apostaban por ilustraciones detalladas, animación tradicional y una fuerte ambientación literaria.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original de Prisoner of Ice",
+      "Carátula frontal ilustrada",
+      "Contracarátula en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Prisoner of Ice",
+      "Call of Cthulhu",
+      "Chaosium",
+      "Infogrames",
+      "Infogrames Multimedia",
+      "Erbe Software",
+      "H. P. Lovecraft",
+      "Mitos de Cthulhu",
+      "Cthulhu Mythos",
+      "Shadow of the Comet",
+      "terror cósmico",
+      "horror lovecraftiano",
+      "aventura narrativa",
+      "investigación sobrenatural",
+      "ocultismo",
+      "conspiración",
+      "viajes en el tiempo",
+      "submarinos",
+      "HMS Victoria",
+      "Antártida",
+      "años treinta",
+      "Segunda Guerra Mundial",
+      "teniente Ryan",
+      "gráficos VGA",
+      "gráficos SVGA",
+      "640x480",
+      "Sound Blaster",
+      "MS-DOS",
+      "Windows 3.x",
+      "CD-ROM multimedia",
+      "edición española",
+      "carátula en castellano",
+      "Jewel Case",
+      "PC clásico",
+      "videojuegos de 1995",
+      "aventura gráfica europea",
+      "coleccionismo PC",
+      "preservación digital",
+      "videojuegos físicos"
+    ],
+    "anio": "1995",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Terminal Velocity",
+    "url": "juegos/terminal-velocity-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Acción",
+      "Combate espacial",
+      "Simulación de combate aéreo",
+      "Shooter 3D",
+      "Ciencia ficción",
+      "Arcade"
+    ],
+    "desarrollador": [
+      "Terminal Reality"
+    ],
+    "distribuidor": [
+      "3D Realms",
+      "FormGen",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Terminal Velocity es un videojuego de acción y combate aéreo futurista desarrollado por Terminal Reality y publicado originalmente en 1995 bajo el sello 3D Realms, con participación editorial de FormGen. Concebido como una alternativa eminentemente arcade a los simuladores de vuelo tradicionales, permite pilotar una nave de combate de alta velocidad sobre extensos escenarios tridimensionales de planetas alienígenas, enfrentándose a cazas enemigos, instalaciones militares, torretas defensivas y gigantescos adversarios mecánicos. Su jugabilidad combina desplazamiento libre, ataques con cañones de plasma, misiles y otras armas, misiones de destrucción de objetivos, exploración de cañones y desfiladeros y recorridos por túneles subterráneos. El juego destacó por su motor gráfico Photex, desarrollado por Terminal Reality, capaz de representar terrenos tridimensionales texturizados, efectos de iluminación, explosiones y combates a gran velocidad en ordenadores compatibles IBM PC. La edición en CD-ROM incorporaba contenido audiovisual adicional y aprovechaba las capacidades multimedia de los equipos de mediados de los noventa. Terminal Velocity pertenece a la generación de juegos de acción tridimensional anteriores a la generalización de la aceleración gráfica 3D doméstica y comparte planteamientos tecnológicos y jugables con Fury3, desarrollado posteriormente por el mismo estudio. Su diseño favorece la acción inmediata frente al realismo aerodinámico, con controles simplificados y una perspectiva de combate que permite apreciar tanto la nave como el entorno. Esta edición física española en formato Jewel Case fue distribuida por Friendware y presenta textos comerciales y requisitos técnicos en castellano. La contraportada documenta compatibilidad con procesadores 486 o superiores, 8 MB de memoria RAM, gráficos VGA de 256 colores y tarjetas de sonido Sound Blaster o compatibles. Constituye un testimonio de la distribución española de videojuegos multimedia para MS-DOS durante la transición tecnológica hacia Windows 95, especialmente relevante para la conservación de motores gráficos 3D basados en software y de los primeros títulos de combate aéreo arcade para PC.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "Carátula frontal",
+      "Carátula posterior en castellano",
+      "1 CD-ROM original"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Terminal Velocity",
+      "Terminal Reality",
+      "3D Realms",
+      "FormGen",
+      "Friendware",
+      "Photex Engine",
+      "Fury3",
+      "combate aéreo futurista",
+      "combate espacial arcade",
+      "naves de combate",
+      "planetas alienígenas",
+      "ciencia ficción militar",
+      "acción tridimensional",
+      "gráficos 3D por software",
+      "terrenos texturizados",
+      "vuelo a alta velocidad",
+      "combate con misiles",
+      "cañones de plasma",
+      "misiones de destrucción",
+      "juegos de 1995",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "procesador 486",
+      "VGA 256 colores",
+      "Sound Blaster",
+      "CD-ROM",
+      "edición española",
+      "distribución española Friendware",
+      "Jewel Case",
+      "videojuego físico PC",
+      "PC clásico",
+      "retro PC",
+      "coleccionismo PC",
+      "preservación digital"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "No determinado"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Speed Haste",
+    "url": "juegos/speed-haste-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Conducción",
+      "Carreras arcade",
+      "Simulación de carreras",
+      "Carreras de Fórmula 1",
+      "Carreras de stock cars",
+      "Deportes de motor"
+    ],
+    "desarrollador": [
+      "NoriaWorks Entertainment"
+    ],
+    "distribuidor": [
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Speed Haste es un videojuego español de carreras desarrollado por NoriaWorks Entertainment y publicado por Friendware en 1995 para ordenadores compatibles IBM PC bajo MS-DOS. Concebido durante la expansión de los motores gráficos tridimensionales en el videojuego de PC, propone una experiencia de conducción de orientación arcade que combina competiciones de monoplazas de Fórmula 1 con carreras de automóviles de tipo stock car, inspirados en las competiciones estadounidenses de NASCAR y Daytona. El jugador puede seleccionar diferentes vehículos, disputar carreras individuales y participar en campeonatos sobre circuitos de dificultad progresiva. Su principal característica técnica es el empleo de un motor gráfico 3D con vehículos y escenarios poligonales, acompañado de distintas perspectivas de conducción, entre ellas vistas interiores y exteriores. El juego permite competir contra pilotos controlados por el ordenador y ofrece modalidades multijugador, incluyendo pantalla dividida, conexión mediante cable serie y partidas en red local IPX, dependiendo de la configuración. Entre sus características se encuentran los diferentes comportamientos de conducción de las dos categorías de vehículos y la posibilidad de competir sobre una variedad de circuitos. Su desarrollo estuvo vinculado al programador español Javier Arévalo y al equipo de NoriaWorks, en colaboración con IV Team y Friendware. Speed Haste constituye un ejemplo relevante de la producción española de videojuegos para PC de mediados de los años noventa, especialmente por su apuesta por la tecnología tridimensional en un periodo dominado por grandes desarrolladoras internacionales. El título también se comercializó en otros mercados bajo denominaciones como Circuit Racer y Grand Prix Speed. Esta edición española en formato Jewel Case, distribuida por Friendware en CD-ROM, presenta textos comerciales en castellano y conserva una muestra de la distribución nacional de videojuegos de conducción durante la transición tecnológica hacia los entornos gráficos tridimensionales. Desde el punto de vista de la preservación, resulta especialmente interesante por su dependencia de MS-DOS, los modos gráficos VGA, la configuración de tarjetas de sonido compatibles con Sound Blaster y las particularidades de ejecución de los motores 3D de mediados de los noventa. Su código fuente fue publicado posteriormente por Javier Arévalo, circunstancia de especial relevancia para el estudio técnico y la conservación histórica del videojuego.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original de Speed Haste",
+      "Carátula frontal",
+      "Carátula posterior en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Speed Haste",
+      "Circuit Racer",
+      "Grand Prix Speed",
+      "NoriaWorks Entertainment",
+      "NoriaWorks",
+      "Friendware",
+      "IV Team",
+      "Javier Arévalo",
+      "videojuego español",
+      "software español",
+      "industria española del videojuego",
+      "1995",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "PC CD-ROM",
+      "Jewel Case",
+      "edición española",
+      "carreras 3D",
+      "motor gráfico 3D",
+      "gráficos poligonales",
+      "renderizado por software",
+      "Fórmula 1",
+      "stock cars",
+      "NASCAR",
+      "Daytona",
+      "campeonato",
+      "conducción arcade",
+      "multijugador local",
+      "pantalla dividida",
+      "red IPX",
+      "cable serie",
+      "VGA",
+      "Sound Blaster",
+      "DOSBox",
+      "GLSpeed",
+      "código fuente publicado",
+      "videojuegos de los 90",
+      "retro PC",
+      "coleccionismo PC",
+      "preservación digital",
+      "preservación de videojuegos",
+      "videojuego físico"
+    ],
+    "anio": "1995",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Pinball Mania",
+    "url": "juegos/pinball-mania-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Pinball",
+      "Simulación de pinball",
+      "Arcade"
+    ],
+    "desarrollador": [
+      "Spidersoft Limited"
+    ],
+    "distribuidor": [
+      "SoftKey Multimedia",
+      "21st Century Entertainment"
+    ],
+    "ean": [],
+    "descripcion": "Pinball Mania es un simulador de máquinas recreativas de pinball desarrollado por el estudio británico Spidersoft y publicado originalmente en 1995 por 21st Century Entertainment para MS-DOS y Amiga. Pertenece a la generación de juegos de pinball para ordenador que alcanzó gran popularidad durante la primera mitad de los años noventa, impulsada por títulos como Pinball Dreams, Pinball Fantasies y Pinball Illusions. A diferencia de estos, desarrollados originalmente por Digital Illusions, Pinball Mania fue creado por Spidersoft, compañía que anteriormente había trabajado en conversiones de juegos de pinball. El título ofrece cuatro mesas temáticas: Tarantula, ambientada en el terror y las arañas; Jail Break, inspirada en prisiones, delincuentes y tribunales; Kick Off, dedicada al fútbol; y Jackpot, centrada en los casinos y las máquinas de azar. Cada tablero incorpora objetivos específicos, rampas, multiplicadores, luces, bonificaciones y mecanismos de puntuación propios de las máquinas recreativas tradicionales. Su presentación utiliza gráficos bidimensionales con desplazamiento vertical para seguir el recorrido de la bola, efectos visuales y sonidos digitalizados que reproducen la estética de los salones recreativos. El juego destaca por trasladar al ordenador las reglas y mecanismos de distintas mesas de pinball sin necesidad de disponer de una máquina física. Esta edición española comercializada bajo el sello SoftKey Multimedia presenta el título en formato CD-ROM y estuche Jewel Case, con carátula y textos comerciales en castellano. La contraportada describe las cuatro mesas mediante sus denominaciones españolas, como La Celda, Campo de Fútbol y Jack Pot, y destaca los efectos de iluminación, rampas, atrapabolas y bonificaciones. La edición constituye un testimonio de la distribución económica de videojuegos clásicos para PC en España durante los años noventa, cuando numerosas compañías recuperaban títulos de catálogo para comercializarlos en CD-ROM a un precio accesible. Desde el punto de vista de la preservación, resulta interesante tanto por su origen en la etapa del pinball digital para MS-DOS como por su posterior distribución española bajo una marca de software multimedia, reflejando la evolución comercial de los videojuegos de PC desde sus lanzamientos originales hasta las reediciones de bajo coste.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original con serigrafía azul de Pinball Mania y logotipo SoftKey",
+      "Carátula frontal en castellano",
+      "Carátula trasera en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Pinball Mania",
+      "Spidersoft",
+      "Spidersoft Limited",
+      "21st Century Entertainment",
+      "SoftKey",
+      "SoftKey Multimedia",
+      "pinball clásico",
+      "flipper",
+      "máquinas recreativas",
+      "salones recreativos",
+      "Tarantula",
+      "Jail Break",
+      "Kick Off",
+      "Jackpot",
+      "cuatro mesas de pinball",
+      "simulación recreativa",
+      "física de la bola",
+      "puntuaciones récord",
+      "multiball",
+      "gráficos 2D",
+      "scroll vertical",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "años 90",
+      "1995",
+      "edición española",
+      "carátula en castellano",
+      "reedición económica",
+      "software multimedia",
+      "CD-ROM",
+      "Jewel Case",
+      "videojuego físico",
+      "coleccionismo PC",
+      "preservación digital",
+      "retro PC"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "SuperSki Pro",
+    "url": "juegos/superski-pro-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Simulación deportiva",
+      "Esquí alpino",
+      "Snowboard",
+      "Deportes de invierno"
+    ],
+    "desarrollador": [
+      "Microïds"
+    ],
+    "distribuidor": [
+      "Mindscape",
+      "Tring International plc",
+      "Ergo Software"
+    ],
+    "ean": [],
+    "descripcion": "SuperSki Pro es un videojuego de simulación deportiva de invierno desarrollado por el estudio francés Microïds y publicado originalmente en 1994 para ordenadores compatibles IBM PC con MS-DOS. También conocido como SuperSki III, continúa la serie de simuladores de esquí iniciada por Microïds a finales de los años ochenta. El título reproduce distintas disciplinas de competición sobre nieve, incluyendo descenso, eslalon, eslalon gigante, supergigante, salto de esquí y pruebas de snowboard. La versión en CD-ROM incorpora también la modalidad de bobsleigh. Su propuesta combina controles accesibles con elementos de simulación, como la selección del equipamiento, la elección de recorridos y la adaptación de la trayectoria a las características de cada disciplina. Ofrece modalidades de entrenamiento, competición individual y campeonatos, con diferentes niveles de dificultad y progresión desde categorías aficionadas hasta competiciones profesionales. Las pruebas utilizan principalmente una perspectiva en tercera persona situada detrás del deportista, con escenarios de montaña representados mediante gráficos VGA y animaciones que buscan transmitir la sensación de velocidad. El juego permite asimismo la participación de varios jugadores mediante turnos en un mismo ordenador. Esta edición física en CD-ROM corresponde a una distribución comercial europea comercializada bajo las marcas Mindscape, Tring International y Ergo Software, con presentación y textos exteriores en castellano. Su importancia documental reside en representar la evolución de los simuladores deportivos europeos durante la primera mitad de los noventa, cuando la distribución multimedia en CD-ROM permitió ampliar contenidos y mejorar la presentación audiovisual. Constituye un ejemplo de las ediciones económicas de videojuegos para MS-DOS comercializadas en España mediante estuches compactos, características de la transición del mercado de videojuegos físicos hacia formatos de distribución más reducidos.",
+    "incluye": [
+      "Estuche de plástico Jewel Case",
+      "CD-ROM original",
+      "Carátula frontal",
+      "Carátula trasera"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "SuperSki Pro",
+      "SuperSki III",
+      "SuperSki",
+      "Microïds",
+      "Mindscape",
+      "Tring International",
+      "Ergo Software",
+      "simulador de esquí",
+      "esquí alpino",
+      "eslalon",
+      "eslalon gigante",
+      "supergigante",
+      "descenso",
+      "salto de esquí",
+      "snowboard",
+      "bobsleigh",
+      "deportes de invierno",
+      "campeonatos de esquí",
+      "competición deportiva",
+      "multijugador por turnos",
+      "gráficos VGA",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "PC CD-ROM",
+      "edición española",
+      "distribución europea",
+      "software clásico",
+      "videojuego de 1994",
+      "Jewel Case",
+      "retro PC",
+      "coleccionismo PC",
+      "preservación digital",
+      "videojuego físico"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-08",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "MegaRace",
+    "url": "juegos/megarace-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Carreras",
+      "Combate vehicular",
+      "Arcade",
+      "Acción",
+      "FMV"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "The Software Toolworks",
+      "Mindscape",
+      "Siro Software"
+    ],
+    "ean": [],
+    "descripcion": "MegaRace es un videojuego de carreras futuristas y combate vehicular desarrollado por el estudio francés Cryo Interactive y publicado originalmente en 1993 por The Software Toolworks para PC compatibles con MS-DOS. Ambientado en un futuro dominado por el entretenimiento televisivo, presenta una competición virtual organizada como un espectáculo de masas y conducida por el extravagante Lance Boyle, interpretado mediante secuencias de vídeo digitalizado. El jugador debe competir contra vehículos controlados por el ordenador en circuitos futuristas, combinando velocidad, maniobras evasivas, colisiones y armamento para eliminar a sus adversarios. El juego ofrece 16 circuitos distribuidos en cinco entornos virtuales y seis vehículos seleccionables, con una estructura arcade que prioriza la acción sobre la simulación automovilística. Técnicamente destacó por utilizar escenarios tridimensionales prerenderizados, secuencias de vídeo de movimiento completo (FMV), una banda sonora electrónica compuesta por Stéphane Picq y una presentación audiovisual diseñada para aprovechar las capacidades multimedia del CD-ROM. Su particular combinación de carreras sobre fondos animados, violencia vehicular ficticia y sátira televisiva lo convirtió en uno de los títulos representativos de la primera generación de videojuegos multimedia para PC. Esta edición española en formato Jewel Case, comercializada bajo el sello Siro Software y vinculada a la distribución de Mindscape, presenta textos de cubierta y contracubierta en castellano. Constituye un testimonio de las reediciones económicas que facilitaron el acceso al catálogo multimedia de principios de los años noventa y conserva interés documental por su tecnología audiovisual, su distribución física en CD-ROM y su pertenencia a la primera etapa de Cryo Interactive.",
+    "incluye": [
+      "Caja Jewel Case",
+      "CD-ROM del juego"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "MegaRace",
+      "MegaRace 1",
+      "Cryo Interactive",
+      "The Software Toolworks",
+      "Mindscape",
+      "Siro Software",
+      "Lance Boyle",
+      "Stéphane Picq",
+      "carreras futuristas",
+      "combate vehicular",
+      "vehículos armados",
+      "televisión futurista",
+      "realidad virtual",
+      "vídeo digitalizado",
+      "full motion video",
+      "FMV",
+      "gráficos prerenderizados",
+      "circuitos virtuales",
+      "banda sonora electrónica",
+      "CD-ROM multimedia",
+      "MS-DOS",
+      "PC compatibles",
+      "edición española",
+      "reedición económica",
+      "jewel case",
+      "videojuegos franceses",
+      "años 90",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación digital",
+      "videojuego físico"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
   }
 ]
