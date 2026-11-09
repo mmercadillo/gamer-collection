@@ -98359,9 +98359,9 @@
     "preservacion": {
       "resumen": ""
     },
-    "video_intro": false,
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
+    "video_intro": true,
+    "video_intro_fecha": "2026-11-09",
+    "video_intro_duracion": "PT7M00S"
   },
   {
     "num": "000000",

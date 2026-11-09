@@ -1,5 +1,17 @@
 [
   {
+    "fecha": "2026-11-09",
+    "titulo": "Blade Runner: revive su introducción original",
+    "descripcion": "Regresamos al universo de Blade Runner con la introducción original de su edición española para PC, distribuida por Dinamic Multimedia. Una secuencia cinematográfica que recuperamos para conservar la memoria de este clásico de 1997.",
+    "url": "juegos/blade-runner-jewelcase/"
+  },
+  {
+    "fecha": "2026-11-09",
+    "titulo": "Blade Runner: preservada la edición española de Dinamic Multimedia",
+    "descripcion": "Recuperamos los cuatro CD-ROM de Blade Runner, superando problemas de lectura de su edición española. El juego vuelve a funcionar en Windows 10 mediante ScummVM, con voces originales, cinemáticas y partidas guardadas.",
+    "url": "documentacion/guias/blade-runner-jewelcase-scummvm-windows-10/"
+  },
+  {
     "fecha": "2026-11-02",
     "titulo": "The Secret of Monkey Island: su introducción original",
     "descripcion": "¡Volvemos a Mêlée Island! Revive la inolvidable introducción original de The Secret of Monkey Island, con su música y ambientación de 1992. Un viaje directo a la época dorada de las aventuras gráficas.",

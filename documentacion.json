@@ -1,5 +1,31 @@
 [
   {
+    "id": "preservacion-blade-runner-jewelcase",
+    "titulo": "Preservación funcional de Blade Runner — edición española Jewel Case (4 CD-ROM)",
+    "categoria": "preservacion",
+    "fecha": "2026-11-09",
+    "descripcion": "Recuperación funcional de la edición española de Dinamic Multimedia a partir de cuatro CD-ROM; incidencias de lectura y pruebas con ScummVM documentadas.",
+    "url": "documentacion/preservacion/blade-runner-jewelcase/",
+    "juegos": [
+      "juegos/blade-runner-jewelcase/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-blade-runner-jewelcase.md",
+    "actualizado": "2026-11-09"
+  },
+  {
+    "id": "guia-blade-runner-jewelcase-scummvm-windows-10",
+    "titulo": "Jugar a Blade Runner en Windows 10 — edición española Dinamic Multimedia con ScummVM",
+    "categoria": "guias",
+    "fecha": "2026-11-09",
+    "descripcion": "Guía de ejecución comprobada en ScummVM 2026.4.0 con datos reunidos de cuatro CD; audio español, juego y guardado/carga validados.",
+    "url": "documentacion/guias/blade-runner-jewelcase-scummvm-windows-10/",
+    "juegos": [
+      "juegos/blade-runner-jewelcase/"
+    ],
+    "contenido": "documentacion/fuentes/guia-blade-runner-jewelcase-scummvm-windows-10.md",
+    "actualizado": "2026-11-09"
+  },
+  {
     "id": "guia-the-secret-of-monkey-island-jewelcase-windows-10",
     "titulo": "Jugar a The Secret of Monkey Island en Windows 10 — edición Jewel Case",
     "categoria": "guias",

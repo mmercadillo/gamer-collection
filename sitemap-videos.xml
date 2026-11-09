@@ -63,4 +63,13 @@
       <video:content_loc>https://www.pcgamearchive.org/videos/loom-jewelcase.mp4</video:content_loc>
     </video:video>
   </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/videos/blade-runner-jewelcase/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/blade-runner-jewelcase/img/001.jpg</video:thumbnail_loc>
+      <video:title>Introducción original de Blade Runner</video:title>
+      <video:description>Introducción original de Blade Runner conservada por PC Game Archive.</video:description>
+      <video:content_loc>https://www.pcgamearchive.org/videos/blade-runner-jewelcase.mp4</video:content_loc>
+    </video:video>
+  </url>
 </urlset>

@@ -631,8 +631,36 @@ def markdown_to_safe_html(source: str) -> str:
             out.append(f"</{list_kind}>")
             list_kind = ""
 
-    for line in lines:
+    skip_table_lines = 0
+    for index, line in enumerate(lines):
+        if skip_table_lines:
+            skip_table_lines -= 1
+            continue
         stripped = line.strip()
+        # Tablas Markdown GFM: el renderizador documental anterior las
+        # convertía en un párrafo de texto con los separadores visibles.
+        if not in_code and stripped.startswith("|") and index + 1 < len(lines):
+            separator = lines[index + 1].strip()
+            def split_cells(value: str) -> list[str]:
+                return [part.strip() for part in value.strip().strip("|").split("|")]
+            headers = split_cells(stripped)
+            rules = split_cells(separator) if separator.startswith("|") else []
+            if (len(headers) >= 2 and len(rules) == len(headers)
+                    and all(re.fullmatch(r":?-{3,}:?", rule) for rule in rules)):
+                flush_paragraph()
+                close_list()
+                cells = ["<th scope=\"col\">" + _markdown_inline(c) + "</th>" for c in headers]
+                out.append('<div class="doc-table-scroll"><table class="doc-table"><thead><tr>' + ''.join(cells) + '</tr></thead><tbody>')
+                end = index + 2
+                while end < len(lines) and lines[end].strip().startswith("|"):
+                    row_cells = split_cells(lines[end])
+                    if len(row_cells) != len(headers):
+                        break
+                    out.append("<tr>" + ''.join("<td>" + _markdown_inline(c) + "</td>" for c in row_cells) + "</tr>")
+                    end += 1
+                out.append("</tbody></table></div>")
+                skip_table_lines = end - index - 1
+                continue
         if stripped.startswith("```"):
             flush_paragraph()
             close_list()
