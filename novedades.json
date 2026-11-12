@@ -1,5 +1,23 @@
 [
   {
+    "fecha": "2026-11-12",
+    "titulo": "Kingmaker: revive su introducción original",
+    "descripcion": "Regresamos a la Inglaterra medieval con la introducción original de Kingmaker (1993), recuperada de la edición española Big Box conservada en PC Game Archive. Una nueva pieza de la historia del PC que vuelve a cobrar vida.",
+    "url": "juegos/kingmaker-la-busqueda-de-la-corona-bigbox/"
+  },
+  {
+    "fecha": "2026-11-12",
+    "titulo": "Kingmaker ya funciona en Windows 10",
+    "descripcion": "La edición española de Kingmaker vuelve a funcionar con DOSBox Staging. Hemos comprobado instalación, sonido, partidas guardadas y ejecución portable.",
+    "url": "documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/"
+  },
+  {
+    "fecha": "2026-11-12",
+    "titulo": "Kingmaker: preservamos sus dos disquetes originales de 3,5 pulgadas",
+    "descripcion": "La edición española Big Box de Kingmaker ya cuenta con imágenes digitales de sus dos disquetes, obtenidas mediante dobles lecturas coincidentes y verificadas con SHA-256. Documentamos el procedimiento de preservación y sus límites.",
+    "url": "documentacion/preservacion/kingmaker-la-busqueda-de-la-corona-bigbox/"
+  },
+  {
     "fecha": "2026-11-09",
     "titulo": "Blade Runner: revive su introducción original",
     "descripcion": "Regresamos al universo de Blade Runner con la introducción original de su edición española para PC, distribuida por Dinamic Multimedia. Una secuencia cinematográfica que recuperamos para conservar la memoria de este clásico de 1997.",

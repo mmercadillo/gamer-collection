@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable · PC Game Archive</title>
+<meta name="description" content="Instalación desde dos disquetes IMA con DOSBox Staging 0.83.0 y creación de una versión portable; arranque, audio, guardado, carga y pantalla completa comprobados." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="theme-color" content="#111111" />
+<link rel="canonical" href="https://www.pcgamearchive.org/documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PC Game Archive" />
+<meta property="og:title" content="Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable · PC Game Archive" />
+<meta property="og:description" content="Instalación desde dos disquetes IMA con DOSBox Staging 0.83.0 y creación de una versión portable; arranque, audio, guardado, carga y pantalla completa comprobados." />
+<meta property="og:url" content="https://www.pcgamearchive.org/documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/" />
+<meta property="og:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable · PC Game Archive" />
+<meta name="twitter:description" content="Instalación desde dos disquetes IMA con DOSBox Staging 0.83.0 y creación de una versión portable; arranque, audio, guardado, carga y pantalla completa comprobados." />
+<meta name="twitter:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<link rel="icon" href="../../../favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="48x48" href="../../../favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="../../../favicon-96x96.png" />
+<link rel="apple-touch-icon" href="../../../apple-touch-icon.png" />
+<link rel="manifest" href="../../../site.webmanifest" />
+<link rel="stylesheet" href="../../../assets/css/styles.css" />
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://www.pcgamearchive.org/documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable","description":"Instalación desde dos disquetes IMA con DOSBox Staging 0.83.0 y creación de una versión portable; arranque, audio, guardado, carga y pantalla completa comprobados.","datePublished":"2026-11-12","dateModified":"2026-11-12","url":"https://www.pcgamearchive.org/documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/","publisher":{"@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Documentación","item":"https://www.pcgamearchive.org/documentacion/"},{"@type":"ListItem","position":3,"name":"Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable","item":"https://www.pcgamearchive.org/documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/"}]}</script>
+</head>
+<body>
+<header id="top" class="site-header">
+  <div class="site-identity">
+    <div class="wrap brand-row">
+      <a class="brand" href="../../../" aria-label="PC Game Archive">
+        <img class="logo" src="../../../logo.png" alt="PC Game Archive logo">
+        <span><strong>PC Game Archive</strong><small>Guías de ejecución</small></span>
+      </a>
+    </div>
+  </div>
+  <div class="site-navigation">
+    <div class="wrap nav-row">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-nav-toggle>
+        <span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menú</span>
+      </button>
+      <nav class="nav" id="main-navigation" aria-label="Navegación principal">
+        <a href="../../../">Inicio</a>
+<a href="../../../catalogo/">Catálogo</a>
+<a href="../../../videos/">Vídeos</a>
+<a href="../../../novedades/">Novedades</a>
+<a href="../../../documentacion/">Documentación</a>
+<details class="nav-explore">
+  <summary>Explorar <span class="nav-caret" aria-hidden="true">▾</span></summary>
+  <div class="nav-dropdown">
+    <div class="nav-dropdown-group">
+      <strong>Colecciones</strong>
+      <a class="nav-dropdown-link" href="../../../incorporaciones/">Últimas incorporaciones</a>
+<a class="nav-dropdown-link" href="../../../videojuegos-clasicos-pc.html">PC clásico</a>
+<a class="nav-dropdown-link" href="../../../juegos-pc-big-box.html">Big Box PC</a>
+<a class="nav-dropdown-link" href="../../../juegos-msdos.html">MS-DOS</a>
+<a class="nav-dropdown-link" href="../../../juegos-windows-95-98.html">Windows 95/98</a>
+<a class="nav-dropdown-link" href="../../../aventuras-graficas-pc.html">Aventuras gráficas</a>
+<a class="nav-dropdown-link" href="../../../ediciones-espanolas-pc.html">Ediciones españolas</a>
+<a class="nav-dropdown-link" href="../../../series.html">Series</a>
+    </div>
+    <div class="nav-dropdown-group">
+      <strong>Datos del archivo</strong>
+      <a class="nav-dropdown-link" href="../../../desarrolladores/">Desarrolladores</a>
+<a class="nav-dropdown-link" href="../../../distribuidores/">Distribuidores</a>
+<a class="nav-dropdown-link" href="../../../generos/">Géneros</a>
+<a class="nav-dropdown-link" href="../../../plataformas/">Plataformas</a>
+<a class="nav-dropdown-link" href="../../../formatos/">Formatos</a>
+<a class="nav-dropdown-link" href="../../../mercados/">Mercados</a>
+<a class="nav-dropdown-link" href="../../../idiomas/">Idiomas</a>
+<a class="nav-dropdown-link" href="../../../soportes/">Soportes</a>
+<a class="nav-dropdown-link" href="../../../tipos-edicion/">Tipos de edición</a>
+    </div>
+  </div>
+</details>
+<a href="../../../proyecto/">El proyecto</a>
+<a href="../../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
+<a href="../../../apoyar/">Apoyar</a>
+<a href="../../../contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../../../">Inicio</a> / <a href="../../../documentacion/">Documentación</a> / <span>Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable</span></nav>
+    <p class="eyebrow">Guías de ejecución</p>
+    <h1>Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable</h1>
+    <p class="lead">Instalación desde dos disquetes IMA con DOSBox Staging 0.83.0 y creación de una versión portable; arranque, audio, guardado, carga y pantalla completa comprobados.</p>
+    <p class="count">Publicado: 12 de noviembre de 2026 · Última revisión: 12 de noviembre de 2026</p>
+  </section>
+  <section class="wrap">
+    <article class="content-card landing-editorial"><p># Kingmaker: La Búsqueda de la Corona — instalación y versión portable en Windows 10</p>
+<p><strong>PC Game Archive · Guía de ejecución y compatibilidad</strong> <strong>Pieza:</strong> #000249 · Edición española Big Box · DOS <strong>Ficha:</strong> https://www.pcgamearchive.org/juegos/kingmaker-la-busqueda-de-la-corona-bigbox/ <strong>Fecha de pruebas:</strong> 12/11/2026 <strong>Estado:</strong> Funcional con emulación DOSBox Staging; portabilidad comprobada en Windows 10</p>
+<blockquote><p>Esta guía documenta el procedimiento probado con la edición física conservada por PC Game Archive. Está dirigida a quienes disponen legítimamente de su propia copia del juego. No incluye ni distribuye imágenes de disquetes, ejecutables propietarios ni archivos del juego. Las rutas usadas son ejemplos: deben adaptarse a cada equipo. La documentación de preservación física y digital se mantiene en un artículo independiente.</p></blockquote>
+<h2>1. Identificación de la edición</h2>
+<div class="doc-table-scroll"><table class="doc-table"><thead><tr><th scope="col">Dato</th><th scope="col">Valor</th></tr></thead><tbody>
+<tr><td>Juego</td><td>*Kingmaker: La Búsqueda de la Corona*</td></tr>
+<tr><td>Edición</td><td>Española Big Box</td></tr>
+<tr><td>Identificador PCGA</td><td><code>000249</code></td></tr>
+<tr><td>Soportes originales</td><td>2 disquetes de 3,5 pulgadas HD, 1,44 MB</td></tr>
+<tr><td>Disco 1</td><td><code>KING.LZH</code>, <code>INSTALL.EXE</code>, <code>LHA.EXE</code> (archivos principales observados)</td></tr>
+<tr><td>Disco 2</td><td><code>ESPEECH.LZH</code>, <code>EVOICE.LZH</code> (archivos principales observados)</td></tr>
+<tr><td>Versión mostrada por el juego</td><td>1.1</td></tr>
+<tr><td>Idioma verificado en pantalla</td><td>Español</td></tr>
+</tbody></table></div>
+<h2>2. Punto de partida y alcance</h2>
+<p>Las pruebas partieron de <strong>imágenes IMA de trabajo</strong> derivadas de adquisiciones digitales verificadas por dos lecturas independientes y coincidentes de cada disquete. Los másteres se conservan separadamente en el servidor de preservación; <strong>no se utilizan para instalaciones ni experimentos</strong>.</p>
+<div class="doc-table-scroll"><table class="doc-table"><thead><tr><th scope="col">Imagen de referencia de trabajo</th><th scope="col">Tamaño</th><th scope="col">SHA-256 registrado</th></tr></thead><tbody>
+<tr><td><code>KINGMAKER_DISCO_1.IMA</code></td><td>1.474.560 bytes</td><td><code>AC37AF63F1EEADF41749DF1CEB989EED902987D8E46D114380B446FC15BF8291</code></td></tr>
+<tr><td><code>KINGMAKER_DISCO_2.IMA</code></td><td>1.474.560 bytes</td><td><code>4272574B157D2AEC9A418FEEFC59D32B3A58BCFB4E8B4AD6AF21DC3EBB56D303</code></td></tr>
+</tbody></table></div>
+<p>Estos hashes corresponden <strong>a las imágenes concretas de PC Game Archive</strong>. No son valores esperables para todas las copias o ediciones de Kingmaker. La coincidencia entre adquisiciones acredita reproducibilidad de los archivos obtenidos, no fidelidad magnética completa.</p>
+<p>El resultado funcional de esta guía se refiere a <strong>Windows 10 con DOSBox Staging</strong>. No se ha probado Windows 11, ejecución nativa DOS en hardware original ni portabilidad a otros sistemas operativos.</p>
+<h2>3. Entorno probado</h2>
+<div class="doc-table-scroll"><table class="doc-table"><thead><tr><th scope="col">Componente</th><th scope="col">Configuración empleada</th></tr></thead><tbody>
+<tr><td>Identificador del laboratorio</td><td><code>PCGA-LAB-01</code></td></tr>
+<tr><td>Sistema anfitrión</td><td>Windows 10 Pro 22H2, x64</td></tr>
+<tr><td>Build de referencia del laboratorio</td><td>19045.6466</td></tr>
+<tr><td>CPU</td><td>AMD Ryzen 5 PRO 4650U</td></tr>
+<tr><td>Memoria</td><td>16 GB</td></tr>
+<tr><td>Gráficos</td><td>AMD Radeon Graphics</td></tr>
+<tr><td>Resolución de referencia</td><td>1920 × 1080</td></tr>
+<tr><td>Emulador</td><td><strong>DOSBox Staging 0.83.0</strong>, distribución portable</td></tr>
+<tr><td>Versión/build observada en arranque</td><td>0.83.0 (<code>7b400</code>)</td></tr>
+<tr><td>DOS emulado reportado por <code>VER</code></td><td>DOS 5.00</td></tr>
+<tr><td>Sonido seleccionado</td><td>AdLib / Sound Blaster</td></tr>
+<tr><td>Ajustes mostrados por instalador</td><td>Puerto <code>220</code>, IRQ <code>7</code>, DMA <code>1</code></td></tr>
+</tbody></table></div>
+<p>Las opciones de sonido mostradas por el instalador y la selección de AdLib/Sound Blaster fueron comprobadas durante el proceso. No se midió latencia ni se verificaron exhaustivamente todas las variantes de audio.</p>
+<h2>4. Herramientas y requisitos</h2>
+<ul>
+<li><strong>DOSBox Staging 0.83.0 para Windows (ZIP portable)</strong>: https://www.dosbox-staging.org/releases/windows/. Se copia el contenido completo de la distribución, incluidos archivos auxiliares.</li>
+<li><strong>Dos imágenes de trabajo</strong> de los disquetes originales, identificadas como <code>KINGMAKER_DISCO_1.IMA</code> y <code>KINGMAKER_DISCO_2.IMA</code>.</li>
+<li><strong>Windows 10 x64</strong> y permiso de escritura en una carpeta de trabajo y en la carpeta portable final.</li>
+<li><strong>WinImage 11.00 x64</strong> se utilizó previamente para la adquisición de los disquetes, pero <strong>no es necesario para ejecutar el paquete portable una vez instalado</strong>.</li>
+</ul>
+<p>No se ha registrado en esta prueba un hash de la distribución de DOSBox ni del ejecutable instalado; conviene conservar esa referencia si se pretende una réplica exacta del entorno en el futuro.</p>
+<h2>5. Preparación de las carpetas de trabajo</h2>
+<p>Las rutas siguientes son <strong>ejemplos anonimizados</strong>, no rutas obligatorias. En esta guía se utiliza <code>C:\PCGA\Kingmaker</code> como raíz de trabajo; puede sustituirse por otra carpeta local, incluidas rutas en otras unidades.</p>
+<pre><code>C:\PCGA\Kingmaker\
+├── discos\
+│   ├── KINGMAKER_DISCO_1.IMA
+│   └── KINGMAKER_DISCO_2.IMA
+└── DOS_C\                  ← inicialmente vacía</code></pre>
+<p>Las imágenes utilizadas deben ser copias de trabajo, no los másteres preservados. Las pruebas de instalación crearán archivos en <code>DOS_C</code>.</p>
+<p>Se puede preparar la carpeta de destino con PowerShell:</p>
+<pre><code>New-Item -ItemType Directory -Force -Path &quot;C:\PCGA\Kingmaker\DOS_C&quot;</code></pre>
+<h2>6. Comprobación nativa en Windows 10</h2>
+<p>Se extrajo <code>INSTALL.EXE</code> desde la imagen de trabajo del Disco 1. El archivo presentaba 22.392 bytes y fecha 09/11/1993. Al invocarlo directamente desde PowerShell de Windows 10 x64:</p>
+<pre><code>.\INSTALL.EXE</code></pre>
+<p>Windows devolvió el error de que el ejecutable especificado <strong>no era una aplicación válida para esta plataforma</strong>. Por tanto, <strong>la instalación nativa directa no funcionó en el entorno probado</strong>. No se aplicaron parches, permisos elevados ni modos de compatibilidad para intentar forzarla.</p>
+<h2>7. Instalación desde las imágenes en DOSBox Staging</h2>
+<h3>7.1. Arrancar DOSBox</h3>
+<p>Extraer el ZIP portable de DOSBox Staging a una carpeta temporal y abrir su ejecutable <code>dosbox.exe</code>. En la sesión de referencia el emulador arrancó y mostró <code>Z:\&gt;</code>; el comando <code>VER</code> informó de DOS 5.00.</p>
+<h3>7.2. Montar el disco duro virtual y los dos disquetes</h3>
+<p>En la consola de DOSBox, ejecutar <strong>adaptando la carpeta de ejemplo a la ubicación real de las imágenes</strong>:</p>
+<pre><code>MOUNT C &quot;C:\PCGA\Kingmaker\DOS_C&quot;
+MOUNT A &quot;C:\PCGA\Kingmaker\discos\KINGMAKER_DISCO_1.IMA&quot; &quot;C:\PCGA\Kingmaker\discos\KINGMAKER_DISCO_2.IMA&quot; -t floppy
+A:
+DIR</code></pre>
+<p>Se comprobó que el directorio <code>A:</code> mostraba <code>KING.LZH</code>, <code>INSTALL.EXE</code> y <code>LHA.EXE</code>. En DOSBox Staging 0.83.0 se utilizó <code>MOUNT</code>; el comando heredado <code>IMGMOUNT</code> mostró un aviso de obsolescencia en esta versión.</p>
+<p><strong>Incidencia observada durante el laboratorio:</strong> inicialmente la imagen no se montaba y se mostraba <code>Can't create drive from file</code>. Tras cerrar WinImage y repetir el montaje, la imagen se montó correctamente. Esto es una correlación observada; no se demostró que WinImage fuera la causa exacta del bloqueo. Si ocurre, comprobar ruta, accesibilidad del archivo y posibles programas que lo mantengan abierto antes de alterar la imagen.</p>
+<h3>7.3. Ejecutar el instalador</h3>
+<p>Con la unidad <code>A:</code> activa:</p>
+<pre><code>INSTALL</code></pre>
+<p>Se comprobó que el instalador original funcionaba en DOSBox y permitía usar esta configuración inicial:</p>
+<div class="doc-table-scroll"><table class="doc-table"><thead><tr><th scope="col">Parámetro del instalador</th><th scope="col">Valor empleado</th></tr></thead><tbody>
+<tr><td>Idioma</td><td><code>Spanish</code></td></tr>
+<tr><td>Voces</td><td><code>Enabled</code></td></tr>
+<tr><td>Tarjeta de sonido</td><td><code>Sound Blaster &amp; compatibles</code></td></tr>
+<tr><td>Puerto / IRQ / DMA</td><td><code>220</code> / <code>7</code> / <code>1</code></td></tr>
+<tr><td>Unidad de destino</td><td><code>C:</code></td></tr>
+<tr><td>Directorio de destino</td><td><code>C:\KING</code></td></tr>
+</tbody></table></div>
+<p>En el menú principal se seleccionó la opción de <strong>instalar Kingmaker en el disco duro</strong>. Cuando el instalador pidió la unidad, se eligió <code>C</code>; al proponer <code>C:\KING</code>, se aceptó el valor predeterminado.</p>
+<h3>7.4. Cambio al segundo disquete</h3>
+<p>Durante la instalación apareció la solicitud de insertar el <strong>disco 2</strong>. En la sesión verificada, con <strong>ambas imágenes ya declaradas en el mismo comando <code>MOUNT A</code></strong>, bastó pulsar <strong>Enter</strong> para que el instalador continuase: <strong>no fue necesario pulsar <code>Ctrl + F4</code> manualmente</strong>.</p>
+<p>Esta es la secuencia realmente observada. No se ha establecido que el mismo comportamiento esté garantizado en todas las versiones de DOSBox ni con otras ediciones. Si en otra instalación el cambio no se produce, comprobar la selección de imágenes antes de seguir; no repetir indefinidamente la lectura ni modificar los originales.</p>
+<h3>7.5. Comprobar la instalación</h3>
+<p>Al terminar el instalador, se verificó en DOSBox:</p>
+<pre><code>C:
+CD \KING
+DIR</code></pre>
+<p>Se identificaron <code>KING.EXE</code>, <code>DMA.CFG</code> y numerosos recursos del juego (<code>.VOC</code>, <code>.LBM</code>, <code>.MUS</code>, entre otros). El directorio creado en Windows corresponde a:</p>
+<pre><code>C:\PCGA\Kingmaker\DOS_C\KING\</code></pre>
+<p>El contenido instalado quedó disponible en el disco duro virtual sin necesidad de modificar las imágenes de preservación.</p>
+<h2>8. Primera ejecución y ajustes realmente necesarios</h2>
+<p>Desde DOSBox, con <code>C:\KING</code> como directorio actual:</p>
+<pre><code>KING</code></pre>
+<p>El juego se inició y mostró su configuración de sonido. Se seleccionó <strong>AdLib/Sound Blaster</strong>; se confirmó que la interfaz aparecía en español y que era posible iniciar una partida, con gráficos, música y audio funcionando durante la prueba.</p>
+<p><strong>No se necesitaron parches del juego, wrappers gráficos ni modificaciones de archivos originales</strong>. La intervención necesaria fue utilizar DOSBox Staging para proporcionar un entorno DOS. La primera prueba de ejecución nativa de <code>INSTALL.EXE</code> en Windows 10 x64 había fallado.</p>
+<h2>9. Construir Kingmaker Portable</h2>
+<p>Después de comprobar la instalación, se preparó un paquete autocontenido para uso local. <strong>Cerrar el juego y DOSBox antes de copiar los archivos</strong>, especialmente si existen partidas guardadas.</p>
+<h3>9.1. Estructura final</h3>
+<pre><code>Kingmaker-Portable\
+├── Kingmaker.bat
+├── DOSBox\
+│   ├── dosbox.exe
+│   └── ... resto de archivos y subcarpetas del ZIP portable ...
+├── config\
+│   └── kingmaker.conf
+└── juego\
+    └── KING\
+        ├── KING.EXE
+        ├── DMA.CFG
+        └── ... todos los archivos instalados y guardados ...</code></pre>
+<p><strong>Importante:</strong> no basta con copiar únicamente <code>KING.EXE</code>; debe copiarse <strong>todo el directorio <code>DOS_C\KING</code></strong>, incluidos recursos, configuración y archivos de guardado. En la versión portable funcional validada <strong>no fue necesario incluir las imágenes <code>.IMA</code></strong>, porque se ejecutó el juego ya instalado.</p>
+<p>Copiar el contenido completo del ZIP <strong>portable de DOSBox Staging 0.83.0</strong> dentro de <code>Kingmaker-Portable\DOSBox\</code>.</p>
+<h3>9.2. Archivo de configuración local</h3>
+<p>Crear <code>Kingmaker-Portable\config\kingmaker.conf</code> con la configuración usada y validada para arrancar a pantalla completa:</p>
+<pre><code># PC Game Archive - Kingmaker
+# DOSBox Staging 0.83.0
+
+[sdl]
+fullscreen = on
+fullscreen_mode = standard</code></pre>
+<p>El cambio a pantalla completa también puede alternarse durante la ejecución con <strong>Alt + Enter</strong>. Otros parámetros (escalado, filtros, emulación de sonido detallada) no se modificaron porque el comportamiento inicial fue satisfactorio.</p>
+<h3>9.3. Lanzador portable definitivo</h3>
+<p>Crear <code>Kingmaker-Portable\Kingmaker.bat</code> con el siguiente contenido, correspondiente al lanzador que finalmente funcionó, <strong>añadiendo la configuración local de pantalla completa que se comprobó posteriormente</strong>:</p>
+<pre><code>@echo off
+setlocal
+
+rem PC Game Archive - Kingmaker Portable
+rem DOSBox Staging 0.83.0
+
+set &quot;BASE=%~dp0&quot;
+
+&quot;%BASE%DOSBox\dosbox.exe&quot; ^
+    --noprimaryconf ^
+    --nolocalconf ^
+    --conf &quot;%BASE%config\kingmaker.conf&quot; ^
+    &quot;%BASE%juego\KING\KING.EXE&quot;
+
+endlocal</code></pre>
+<p><code>%~dp0</code> resuelve la carpeta que contiene el propio <code>.bat</code>, evitando rutas de usuario y letras de unidad fijas. El argumento final indica a DOSBox el ejecutable DOS a abrir; esta variante <strong>sí arrancó Kingmaker</strong>, a diferencia de una primera variante de lanzador con órdenes <code>-c MOUNT</code> y comillas anidadas que no inició el juego.</p>
+<p>La configuración del archivo <code>.conf</code> se carga expresamente; las opciones de línea de comandos impiden que las configuraciones primaria y local ajenas se utilicen en esta ejecución. El paquete debe conservar sus archivos unidos: no mover por separado <code>dosbox.exe</code>, <code>kingmaker.conf</code> o la carpeta <code>juego</code>.</p>
+<h3>9.4. Ejecución</h3>
+<p>Hacer doble clic en <code>Kingmaker.bat</code>. En la prueba, DOSBox arrancó Kingmaker correctamente desde el paquete y, tras añadir <code>kingmaker.conf</code>, lo hizo directamente a pantalla completa.</p>
+<p>Atajos útiles del entorno probado:</p>
+<div class="doc-table-scroll"><table class="doc-table"><thead><tr><th scope="col">Teclas</th><th scope="col">Acción</th></tr></thead><tbody>
+<tr><td><code>Alt + Enter</code></td><td>Alternar entre pantalla completa y ventana</td></tr>
+<tr><td><code>Ctrl + F10</code></td><td>Capturar o liberar el ratón</td></tr>
+<tr><td><code>Ctrl + F9</code></td><td>Cerrar DOSBox inmediatamente; utilizar preferentemente la salida normal del juego</td></tr>
+</tbody></table></div>
+<h2>10. Validación de portabilidad</h2>
+<p>La prueba de portabilidad se realizó <strong>copiando la carpeta completa <code>Kingmaker-Portable</code> a otra ubicación de Windows 10</strong> y lanzando allí <code>Kingmaker.bat</code>, sin cambiar ninguna ruta en los archivos de configuración.</p>
+<p><strong>Resultados comunicados y comprobados en la sesión de laboratorio:</strong></p>
+<ol>
+<li>El paquete arrancó el juego desde la ubicación original.</li>
+<li>El paquete volvió a arrancarlo tras trasladarlo a otra carpeta.</li>
+<li>El juego permitió iniciar una partida y utilizar música y sonido.</li>
+<li>Se probó el guardado y posteriormente se confirmó la <strong>carga de la partida guardada desde la nueva ubicación</strong>.</li>
+<li>Se probó el inicio directo a pantalla completa mediante <code>kingmaker.conf</code>.</li>
+</ol>
+<p>La prueba acredita independencia de la ruta original <strong>en el mismo entorno Windows 10 utilizado</strong>. No constituye una prueba de funcionamiento en todos los equipos, versiones de Windows o plataformas.</p>
+<h2>11. Matriz de validación funcional</h2>
+<p>Criterio: <code>Correcto</code>, <code>Correcto con limitaciones</code>, <code>No funcional</code>, <code>No probado</code>, <code>No aplicable</code>.</p>
+<div class="doc-table-scroll"><table class="doc-table"><thead><tr><th scope="col">Subsistema</th><th scope="col">Estado</th><th scope="col">Evidencia / alcance</th></tr></thead><tbody>
+<tr><td>Instalación nativa en Windows 10 x64</td><td>No funcional</td><td><code>INSTALL.EXE</code> rechazado por Windows</td></tr>
+<tr><td>Instalación mediante DOSBox Staging</td><td>Correcto</td><td>Instalación realizada con los dos disquetes</td></tr>
+<tr><td>Arranque</td><td>Correcto</td><td><code>KING.EXE</code> llega a la interfaz del juego</td></tr>
+<tr><td>Menús</td><td>Correcto</td><td>Selección de sonido e inicio de partida</td></tr>
+<tr><td>Vídeos / cinemáticas</td><td>No probado</td><td>No se registró prueba específica</td></tr>
+<tr><td>Gráficos 2D</td><td>Correcto</td><td>Gráficos visibles durante la partida</td></tr>
+<tr><td>Gráficos 3D</td><td>No probado</td><td>Sin prueba ni conclusión de aplicabilidad</td></tr>
+<tr><td>Sonido</td><td>Correcto</td><td>Audio perceptible durante la prueba</td></tr>
+<tr><td>Música</td><td>Correcto</td><td>Música perceptible durante la prueba</td></tr>
+<tr><td>Teclado / ratón</td><td>Correcto con limitaciones</td><td>Interacción con el juego posible; no se validaron todos los controles</td></tr>
+<tr><td>Gamepad / joystick</td><td>No probado</td><td>Sin prueba específica</td></tr>
+<tr><td>Inicio de partida</td><td>Correcto</td><td>Partida iniciada satisfactoriamente</td></tr>
+<tr><td>Juego representativo</td><td>Correcto con limitaciones</td><td>Se jugó, sin documentar una campaña extensa</td></tr>
+<tr><td>Guardado</td><td>Correcto</td><td>Guardado confirmado en laboratorio</td></tr>
+<tr><td>Carga</td><td>Correcto</td><td>Carga confirmada tras trasladar el paquete</td></tr>
+<tr><td>Cambio de nivel / escena</td><td>No probado</td><td>Sin prueba específica registrada</td></tr>
+<tr><td>Cambio de disquete durante instalación</td><td>Correcto</td><td>Solicitud del segundo disco resuelta pulsando Enter con las dos imágenes montadas</td></tr>
+<tr><td>Dependencia de discos durante el juego</td><td>Correcto con limitaciones</td><td>Arranque y partida en paquete sin IMA; no se probaron todos los escenarios de juego</td></tr>
+<tr><td>Multijugador</td><td>No probado</td><td>No se registró prueba específica</td></tr>
+<tr><td>Cierre normal del juego</td><td>No probado</td><td>Sin registro específico de comprobación</td></tr>
+<tr><td>Segundo arranque tras cerrar el juego</td><td>Correcto</td><td>Se arrancó tras trasladar el paquete</td></tr>
+<tr><td>Portabilidad de rutas</td><td>Correcto</td><td>Funcionó desde una segunda ubicación en Windows 10</td></tr>
+<tr><td>Pantalla completa</td><td>Correcto</td><td>Inicio directo mediante archivo de configuración</td></tr>
+</tbody></table></div>
+<h2>12. Limitaciones conocidas</h2>
+<ul>
+<li>Es necesaria una capa de emulación: el instalador original no se ejecutó directamente en Windows 10 x64.</li>
+<li>La reproducción funcional se ha validado con <strong>DOSBox Staging 0.83.0</strong>; otras versiones no se han ensayado en este expediente.</li>
+<li>La prueba se realizó en Windows 10; <strong>no hay resultados propios para Windows 11, Linux, macOS ni otros anfitriones</strong>.</li>
+<li>La portabilidad entre carpetas del mismo equipo no acredita automáticamente portabilidad entre ordenadores con hardware o configuraciones distintas.</li>
+<li>No se verificó cada rama, escenario, dispositivo de entrada o sistema secundario del juego.</li>
+<li>El paquete es un <strong>derivado privado de trabajo</strong>: la guía no autoriza la redistribución del software del juego o de sus imágenes.</li>
+</ul>
+<h2>13. Elementos no probados</h2>
+<ul>
+<li>Compatibilidad y comportamiento en Windows 11.</li>
+<li>Campaña completa y pruebas prolongadas de estabilidad.</li>
+<li>Cinemáticas, gráficos 3D, joystick/gamepad y multijugador, en su caso.</li>
+<li>Comportamiento de todos los modos de audio disponibles.</li>
+<li>Cierre normal repetido, reinstalación a partir de cero en un segundo ordenador o replicación mediante una versión distinta de DOSBox.</li>
+</ul>
+<h2>14. Problemas descartados e intentos fallidos (trazabilidad de laboratorio)</h2>
+<p>Estos datos se incluyen en el <strong>registro técnico</strong> de la experiencia, pero no forman parte de la secuencia final necesaria para el usuario:</p>
+<ul>
+<li><code>INSTALL.EXE</code> no pudo ejecutarse nativamente en Windows 10 x64.</li>
+<li>El montaje inicial de una imagen <code>.IMA</code> falló con <code>Can't create drive from file</code>; tras cerrar WinImage y reintentar, se montó.</li>
+<li>La primera instalación se interrumpió al solicitar el segundo disquete, porque inicialmente solo se había montado la primera imagen. Se limpió la carpeta de instalación y se repitió con ambas imágenes especificadas.</li>
+<li>Un primer <code>Kingmaker.bat</code> basado en una secuencia de opciones <code>-c</code> no arrancó el juego; se sustituyó por un lanzador que pasa la ruta del ejecutable directamente a DOSBox.</li>
+</ul>
+<h2>15. Fuentes y evidencias</h2>
+<p><strong>Evidencia propia PC Game Archive (12/11/2026):</strong> capturas del instalador español, del montaje en DOSBox, del directorio instalado, del menú de selección de sonido, pruebas de inicio de partida, guardado, carga, traslado del paquete y pantalla completa; hashes SHA-256 de las imágenes obtenidas previamente. Los resultados de guardado, traslado y reproducción sonora se confirmaron durante la sesión, aunque no se adjunta en esta guía un log automático de cada acción.</p>
+<p><strong>Referencia de software:</strong> <a href="https://www.dosbox-staging.org/" rel="noopener noreferrer">Sitio oficial de DOSBox Staging</a>, distribución portable de Windows 0.83.0. Esta referencia no sustituye los resultados de las pruebas propias.</p>
+<p><strong>Estado final:</strong> <strong>Funcional con ajustes / emulación</strong>, con <strong>paquete portable validado en Windows 10</strong> dentro del alcance de las pruebas indicadas. La versión portable y la instalación son derivados de uso privado, diferenciados de los másteres de preservación.</p>
+<hr>
+<p>*PC Game Archive — expediente de compatibilidad de Kingmaker, ficha #000249. Documento independiente del artículo de preservación de los disquetes.*</p></article>
+    <aside class="content-card text-section"><h2>Piezas relacionadas</h2><p>Este documento está vinculado explícitamente a las siguientes ediciones del archivo.</p><ul><li><a href="../../../juegos/kingmaker-la-busqueda-de-la-corona-bigbox/"><strong>Kingmaker: La Búsqueda de la Corona</strong></a><br><span class="count">Ficha #000249</span></li></ul></aside>
+  </section>
+</main>
+<footer>
+  <div class="wrap footrow">
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <button class="to-top" type="button" data-scroll-top>Subir</button>
+  </div>
+</footer>
+<script>
+(function(){
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var menu=document.getElementById('main-navigation');
+  if(!toggle || !menu) return;
+  toggle.addEventListener('click',function(){
+    var open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    menu.classList.toggle('is-open',!open);
+  });
+  menu.addEventListener('click',function(e){
+    if(!e.target.closest('a')) return;
+    menu.querySelectorAll('details[open]').forEach(function(item){item.removeAttribute('open');});
+    if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){
+      toggle.setAttribute('aria-expanded','false');
+      menu.classList.remove('is-open');
+    }
+  });
+  document.addEventListener('click',function(e){
+    menu.querySelectorAll('details.nav-explore[open]').forEach(function(item){
+      if(!item.contains(e.target)) item.removeAttribute('open');
+    });
+  });
+})();
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('[data-scroll-top]');
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    var offerEvent={
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
+  }
+
+  var gameSupport=link.getAttribute('data-game-support');
+  if(gameSupport){
+    gtag('event','game_support_click',{
+      game_title:link.getAttribute('data-game-title')||'',
+      game_slug:link.getAttribute('data-game-slug')||'',
+      game_num:link.getAttribute('data-game-num')||'',
+      game_format:link.getAttribute('data-game-format')||'',
+      source_page:location.pathname
+    });
+    return;
+  }
+
+  var supportProvider=link.getAttribute('data-support-provider');
+  if(supportProvider){
+    var supportParams=new URLSearchParams(location.search);
+    var supportSlug=(supportParams.get('juego')||'').trim();
+    gtag('event','support_click',{
+      provider:supportProvider,
+      link_url:href,
+      source_page:location.pathname,
+      support_context:supportSlug?'game':'general',
+      game_slug:supportSlug
+    });
+    return;
+  }
+
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  }
+});
+if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){
+  var supportViewParams=new URLSearchParams(location.search);
+  var supportViewSlug=(supportViewParams.get('juego')||'').trim();
+  gtag('event','support_page_view',{
+    support_provider:'ko-fi',
+    source_page:location.pathname,
+    support_context:supportViewSlug?'game':'general',
+    game_slug:supportViewSlug
+  });
+}
+
+(function(){
+  // Seguimiento de reproductores MP4 propios; GA4 Enhanced Measurement no los detecta como YouTube.
+  document.querySelectorAll('video[data-pcga-video]').forEach(function(video){
+    var started=false, milestones={};
+    var context={game_num:video.dataset.gameNum||'',game_slug:video.dataset.gameSlug||'',video_title:video.dataset.videoTitle||'',video_location:video.dataset.videoLocation||'',video_url:video.querySelector('source')?.src||'',source_page:location.pathname};
+    function send(name,extra){
+      if(typeof gtag!=='function') return;
+      gtag('event',name,Object.assign({},context,extra||{}));
+    }
+    video.addEventListener('play',function(){if(!started){started=true;send('video_start',{video_percent:0});}});
+    video.addEventListener('timeupdate',function(){
+      if(!isFinite(video.duration)||video.duration<=0)return;
+      var pct=100*video.currentTime/video.duration;
+      [25,50,75].forEach(function(n){if(pct>=n&&!milestones[n]){milestones[n]=true;send('video_progress',{video_percent:n});}});
+    });
+    video.addEventListener('pause',function(){if(!video.ended&&started)send('video_pause',{video_percent:video.duration>0?Math.round(100*video.currentTime/video.duration):0});});
+    video.addEventListener('ended',function(){send('video_complete',{video_percent:100});});
+  });
+  document.addEventListener('click',function(e){
+    var link=e.target.closest('a[data-video-game-link]');
+    if(link&&typeof gtag==='function')gtag('event','video_game_click',{game_num:link.dataset.gameNum||'',game_slug:link.dataset.gameSlug||'',video_location:link.dataset.videoLocation||'',source_page:location.pathname,link_url:link.href});
+  });
+})();
+</script>
+</body>
+</html>

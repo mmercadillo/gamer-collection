@@ -1,5 +1,31 @@
 [
   {
+    "id": "preservacion-kingmaker-la-busqueda-de-la-corona-bigbox",
+    "titulo": "Preservación digital de Kingmaker: La Búsqueda de la Corona — edición española Big Box (2 disquetes)",
+    "categoria": "preservacion",
+    "fecha": "2026-11-12",
+    "descripcion": "Dos disquetes de 3,5 pulgadas conservados como imágenes IMA mediante doble lectura independiente y hashes SHA-256 coincidentes, con límites de fidelidad magnética documentados.",
+    "url": "documentacion/preservacion/kingmaker-la-busqueda-de-la-corona-bigbox/",
+    "juegos": [
+      "juegos/kingmaker-la-busqueda-de-la-corona-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-kingmaker-la-busqueda-de-la-corona-bigbox.md",
+    "actualizado": "2026-11-12"
+  },
+  {
+    "id": "guia-kingmaker-la-busqueda-de-la-corona-bigbox-windows-10",
+    "titulo": "Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable",
+    "categoria": "guias",
+    "fecha": "2026-11-12",
+    "descripcion": "Instalación desde dos disquetes IMA con DOSBox Staging 0.83.0 y creación de una versión portable; arranque, audio, guardado, carga y pantalla completa comprobados.",
+    "url": "documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/",
+    "juegos": [
+      "juegos/kingmaker-la-busqueda-de-la-corona-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/guia-kingmaker-la-busqueda-de-la-corona-bigbox-windows-10.md",
+    "actualizado": "2026-11-12"
+  },
+  {
     "id": "preservacion-blade-runner-jewelcase",
     "titulo": "Preservación funcional de Blade Runner — edición española Jewel Case (4 CD-ROM)",
     "categoria": "preservacion",

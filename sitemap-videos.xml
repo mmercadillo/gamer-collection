@@ -46,6 +46,15 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.pcgamearchive.org/videos/kingmaker-la-busqueda-de-la-corona-bigbox/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/kingmaker-la-busqueda-de-la-corona-bigbox/img/001.jpg</video:thumbnail_loc>
+      <video:title>Introducción original de Kingmaker: La Búsqueda de la Corona</video:title>
+      <video:description>Introducción original de Kingmaker: La Búsqueda de la Corona conservada por PC Game Archive.</video:description>
+      <video:content_loc>https://www.pcgamearchive.org/videos/kingmaker-la-busqueda-de-la-corona-bigbox.mp4</video:content_loc>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/videos/the-secret-of-monkey-island-jewelcase/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/the-secret-of-monkey-island-jewelcase/img/001.jpg</video:thumbnail_loc>

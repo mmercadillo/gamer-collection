@@ -21757,9 +21757,9 @@
     "preservacion": {
       "resumen": ""
     },
-    "video_intro": false,
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
+    "video_intro": true,
+    "video_intro_fecha": "2026-11-12",
+    "video_intro_duracion": "PT3M15S"
   },
   {
     "num": "000250",
