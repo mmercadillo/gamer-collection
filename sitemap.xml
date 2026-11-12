@@ -296,8 +296,8 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft-game-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microprose/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/strategic-simulations-inc/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/acclaim-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/cryo-interactive/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/acclaim-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ea-sports/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/gathering-of-developers/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts-entertainment-company/</loc></url>
@@ -523,6 +523,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/accion-rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-y-aventura/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/atletismo/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/aventura-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/beat-em-up/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/ciclismo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-moderno/</loc></url>
@@ -532,6 +533,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/fantasia-medieval/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/futbol-americano/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-futbolistica/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/investigacion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/investigacion-detectivesca/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/logica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multideporte/</loc></url>
@@ -585,8 +587,8 @@
   <url><loc>https://www.pcgamearchive.org/tipos-edicion/compilacion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/tipos-edicion/edicion-especial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/tipos-edicion/reedicion/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/tipos-edicion/edicion-coleccionista/</loc></url>
   <url><loc>https://www.pcgamearchive.org/tipos-edicion/budget/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/tipos-edicion/edicion-coleccionista/</loc></url>
   <url><loc>https://www.pcgamearchive.org/tipos-edicion/bundle-pack/</loc></url>
   <url><loc>https://www.pcgamearchive.org/tipos-edicion/coleccion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/tipos-edicion/no-determinado/</loc></url>
@@ -13552,6 +13554,15 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/superski-pro-jewelcase/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-jewelcase/img/002.jpg</image:loc>
     </image:image>
   </url>
   <url><loc>https://www.pcgamearchive.org/videos/loom-bigbox/</loc></url>

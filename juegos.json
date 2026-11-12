@@ -21762,8 +21762,8 @@
     "video_intro_duracion": ""
   },
   {
-    "num": "000000",
-    "ig": "",
+    "num": "000250",
+    "ig": "https://www.instagram.com/p/Dfos99fCFtG",
     "fecha_incorporacion": "2026-10-31",
     "procedencia": {
       "tipo": "Cesión",
@@ -99409,6 +99409,122 @@
     "tipo_edicion": [
       "Reedición",
       "Budget"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-12",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Versalles: Complot a la Cort del Rei Sol",
+    "url": "juegos/versalles-complot-a-la-cort-del-rei-sol-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click",
+      "Aventura en primera persona",
+      "Aventura histórica",
+      "Aventura educativa",
+      "Misterio",
+      "Investigación"
+    ],
+    "desarrollador": [
+      "Cryo Interactive"
+    ],
+    "distribuidor": [
+      "Dinamic Multimedia",
+      "Cryo Interactive"
+    ],
+    "ean": [],
+    "descripcion": "Versalles: Complot a la Cort del Rei Sol es la edición comercial en catalán de Versailles: Complot à la Cour du Roi Soleil, conocido internacionalmente como Versailles 1685, una aventura histórica desarrollada por el estudio francés Cryo Interactive y publicada originalmente en 1996 con la participación de Canal+ Multimedia y la Réunion des Musées Nationaux de Francia. Esta edición catalana, fechada en 1999, se comercializó mediante dos entregas independientes en CD-ROM, identificadas como 'primera part' y 'segona part', dentro de la colección 'Jocs d'última generació', con presentación en estuches Jewel Case y distribución asociada a Dinamic Multimedia. La aventura transcurre en el Palacio de Versalles durante el reinado de Luis XIV, concretamente en 1685. El protagonista debe investigar una conspiración que amenaza con destruir el palacio antes de que termine el día. Para impedirlo, debe explorar las dependencias reales, conversar con personajes de la corte, examinar objetos, reunir pistas y resolver enigmas relacionados con la vida palaciega y las intrigas políticas del siglo XVII. El juego utiliza una perspectiva subjetiva con exploración mediante ratón, escenarios tridimensionales prerenderizados, vistas panorámicas, secuencias cinematográficas y recreaciones digitales de espacios arquitectónicos históricos. Su desarrollo combinó entretenimiento interactivo, documentación patrimonial y reconstrucción histórica, con especial atención a los interiores, jardines, obras artísticas y costumbres de la corte francesa. La producción original destacó por su colaboración con instituciones culturales francesas y por el empleo de tecnologías multimedia características de la expansión del CD-ROM durante los años noventa. La edición catalana reviste especial interés documental por representar una adaptación lingüística destinada al mercado de Cataluña y por su distribución fragmentada en dos partes, una modalidad comercial vinculada a determinadas colecciones económicas de software de finales de los noventa. Constituye una pieza relevante para estudiar la historia de la localización de videojuegos al catalán, la distribución regional de aventuras gráficas europeas y la preservación de producciones multimedia históricas anteriores a la generalización de los motores tridimensionales en tiempo real. Aunque las carátulas y la documentación comercial están en catalán, el idioma efectivo de las voces y los textos del programa requiere una comprobación directa de los discos. Desde el punto de vista de la preservación, resulta especialmente importante conservar ambas partes, documentar sus posibles dependencias y verificar su instalación y ejecución en un entorno compatible con MS-DOS o Windows 95.",
+    "incluye": [
+      "Estuche Jewel Case de Versalles: primera part",
+      "Estuche Jewel Case de Versalles: segona part",
+      "Carátula y contraportada en catalán de la primera parte",
+      "Carátula y contraportada en catalán de la segunda parte"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case",
+      "Dinamic multimedia"
+    ],
+    "tags": [
+      "Versalles",
+      "Versailles 1685",
+      "Complot a la Cort del Rei Sol",
+      "Versailles Complot à la Cour du Roi Soleil",
+      "Cryo Interactive",
+      "Dinamic Multimedia",
+      "Canal+ Multimedia",
+      "Réunion des Musées Nationaux",
+      "Jocs d'última generació",
+      "Luis XIV",
+      "Rey Sol",
+      "Palacio de Versalles",
+      "Francia siglo XVII",
+      "1685",
+      "corte francesa",
+      "intrigas palaciegas",
+      "conspiración histórica",
+      "patrimonio cultural",
+      "reconstrucción histórica",
+      "aventura multimedia",
+      "gráficos prerenderizados",
+      "exploración panorámica",
+      "perspectiva subjetiva",
+      "escenarios 3D",
+      "CD-ROM",
+      "MS-DOS",
+      "Windows 95",
+      "edición catalana",
+      "videojuegos en catalán",
+      "localización al catalán",
+      "mercado catalán",
+      "edición española",
+      "primera part",
+      "segona part",
+      "distribución en dos partes",
+      "jewel case",
+      "colección económica",
+      "videojuegos educativos",
+      "aventuras gráficas europeas",
+      "PC clásico",
+      "coleccionismo PC",
+      "preservación digital",
+      "preservación videojuegos físicos"
+    ],
+    "anio": "1999",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Catalán"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget",
+      "Colección"
     ],
     "preservacion": {
       "resumen": ""
