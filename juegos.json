@@ -23429,6 +23429,114 @@
   {
     "num": "000000",
     "ig": "",
+    "fecha_incorporacion": "2026-11-13",
+    "procedencia": {
+      "tipo": "Compra",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "@pc_game_archive",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Sleeping Gods Lie",
+    "url": "juegos/sleeping-gods-lie-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Acción y aventura",
+      "Rol",
+      "Action RPG",
+      "Aventura en primera persona",
+      "Fantasía",
+      "Exploración 3D"
+    ],
+    "desarrollador": [
+      "Oxford Digital Enterprises Ltd."
+    ],
+    "distribuidor": [
+      "Empire Software",
+      "Proein Soft Line"
+    ],
+    "ean": [],
+    "descripcion": "Sleeping Gods Lie es una aventura de acción y rol en primera persona desarrollada por Oxford Digital Enterprises y publicada por Empire Software en 1989 para IBM PC compatibles, Amiga y Atari ST. Diseñado por Steven W. Green y John G. Wood, el juego representa una de las primeras aproximaciones europeas a los mundos de fantasía explorables mediante gráficos tridimensionales simulados, combinando combate en tiempo real, exploración, resolución de situaciones y progresión del personaje. La historia transcurre en Tessera, un mundo creado por los antiguos dioses y dividido en ocho reinos, ahora devastados por el hambre, las enfermedades y el dominio de un poderoso archimago. El protagonista recibe una misión sagrada de un sacerdote kobold moribundo: encontrar y despertar a N'Gnir, un antiguo dios conocido como El Durmiente, para liberar a Tessera de la opresión. La aventura propone recorrer 94 localizaciones distribuidas entre los ocho reinos, enfrentarse a demonios y bandidos, establecer relaciones con personajes y descubrir el legendario Anillo de la Aniquilación. Su sistema de combate utiliza armas a distancia como hondas, arcos, ballestas y bastones mágicos, mientras que la experiencia obtenida permite mejorar las capacidades del protagonista. El juego incorpora un calendario propio y un mundo fantástico con diferentes paisajes, criaturas y situaciones. Técnicamente destacó por sus gráficos de perspectiva tridimensional simulada, el empleo de imágenes bitmap y una banda sonora generada por ordenador. La versión para IBM PC compatibles requiere 640 KB de memoria RAM y utiliza gráficos EGA, reflejando las capacidades de los ordenadores personales anteriores a la generalización del estándar VGA. Esta edición física de 1989, presentada en caja grande de cartón azul y distribuida en España mediante Proein Soft Line, corresponde a la versión para IBM PC compatibles suministrada en tres disquetes de 3,5 pulgadas. Conserva documentación original y materiales impresos relacionados con el universo del juego. Su interés histórico reside en documentar una etapa temprana de experimentación con aventuras tridimensionales de mundo abierto, anterior a la consolidación de los grandes RPG inmersivos para PC de los años noventa. Constituye además un testimonio de la distribución española de software británico mediante ediciones internacionales identificadas con adhesivos del distribuidor local.",
+    "incluye": [
+      "Caja grande de cartón Big Box",
+      "3 disquetes de 3,5 pulgadas",
+      "Disquete 1 - Program Disk",
+      "Disquete 2",
+      "Disquete 3",
+      "Manual de instrucciones original",
+      "Folleto ilustrado Sleeping Gods Lie",
+      "Documentación impresa del juego"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Sleeping Gods Lie",
+      "Oxford Digital Enterprises",
+      "Empire Software",
+      "Proein Soft Line",
+      "Steven W. Green",
+      "John G. Wood",
+      "Tessera",
+      "N'Gnir",
+      "The Sleeper",
+      "Ring of Annihilation",
+      "fantasía épica",
+      "mitología fantástica",
+      "aventura 3D clásica",
+      "perspectiva en primera persona",
+      "combate en tiempo real",
+      "exploración de mundo abierto",
+      "gráficos 3D simulados",
+      "bitmap",
+      "EGA",
+      "640 KB RAM",
+      "IBM PC compatibles",
+      "MS-DOS",
+      "1989",
+      "videojuego británico",
+      "software europeo de los 80",
+      "edición distribuida en España",
+      "disquetes de 3,5 pulgadas",
+      "tres disquetes",
+      "caja grande de cartón",
+      "Big Box PC",
+      "juego físico de PC",
+      "coleccionismo retro",
+      "preservación de disquetes",
+      "preservación de videojuegos",
+      "retro PC"
+    ],
+    "anio": "1989",
+    "mercado": [
+      "España",
+      "Reino Unido"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "video_intro": false,
     "fecha_incorporacion": "2026-10-04",
     "procedencia": {

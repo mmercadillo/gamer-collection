@@ -350,6 +350,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/kalypso-media/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/mcm-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/monte-cristo-multimedia/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/proein-soft-line/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/proein-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/puntosoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive-entertainment-espana/</loc></url>
@@ -373,7 +374,6 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/ncsoft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/new-world-computing/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/on-games/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/proein-soft-line/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/project-three-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/square-enix/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ssi/</loc></url>
@@ -420,9 +420,9 @@
   <url><loc>https://www.pcgamearchive.org/generos/fps/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/segunda-guerra-mundial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/comedia/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-aereo/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/aventura-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/fantasia-oscura/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vuelo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tactica-en-tiempo-real/</loc></url>
@@ -441,12 +441,12 @@
   <url><loc>https://www.pcgamearchive.org/generos/survival-horror/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tercera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/vuelo/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/action-rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-de-ciudades/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pinball/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-tactica/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/action-rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-de-accion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/crpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-and-slash/</loc></url>
@@ -504,6 +504,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/supervivencia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-en-tercera-persona/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/accion-y-aventura/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-para-adultos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/construccion-de-imperios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/disparos-en-primera-persona/</loc></url>
@@ -523,7 +524,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/tycoon/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tactica-por-turnos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-rpg/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/accion-y-aventura/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/atletismo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/beat-em-up/</loc></url>
@@ -3775,6 +3775,18 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/links-ls-2000-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/sleeping-gods-lie-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/sleeping-gods-lie-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/sleeping-gods-lie-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/sleeping-gods-lie-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url>

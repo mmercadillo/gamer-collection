@@ -95,9 +95,14 @@ No utilizar varias preguntas inconexas.
 
 ## HASHTAGS
 
-Utilizar entre 0 y 2 hashtags, únicamente cuando aporten valor.
+Usa entre 5 y 8 hashtags.
 
-No incorporar listas de hashtags.
+Reglas:
+* hashtags obligatorios: * #pcgamearchive #pcbigbox #pcgaming #retropc #retropcgames
+* el primero debe ser #pcgamearchive;
+* #pcbigbox solo si el juego documentado es realmente Big Box;
+* añade como máximo 1-3 hashtags realmente relacionados con el juego, saga, género, compañía o PC retro;
+* no añadas hashtags por rutina si no aportan valor.
 
 ## RIGOR
 

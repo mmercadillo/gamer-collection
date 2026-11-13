@@ -73,11 +73,18 @@ Esta extensión es específica de los Reels de intros y no sustituye las reglas 
 
 ## HASHTAGS
 
-Utilizar entre 4 y 7 hashtags pertinentes.
+Usa 8 hashtags como máximo.
 
-Incluir #PCGameArchive y, cuando corresponda, el nombre del juego y términos relacionados con videojuegos clásicos de PC.
+Reglas:
 
-Evitar hashtags genéricos sin relación.
+* hashtags obligatorios: * #pcgamearchive #pcbigbox #pcgaming #retropc #retropcgames 
+* el primer hashtag debe ser #pcgamearchive;
+* usa solo hashtags relacionados de verdad con el juego o la edición;
+* #pcbigbox solo si el formato es realmente Big Box;
+* evita repetir hashtags equivalentes;
+* mezcla marca, PC gaming retro y 1-3 etiquetas específicas del título, saga, género, compañía, soporte o edición cuando aporten descubrimiento.
+
+No uses bloques de 15-25 hashtags.
 
 ## RIGOR DOCUMENTAL
 
