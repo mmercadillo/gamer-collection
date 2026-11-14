@@ -1299,7 +1299,7 @@ def layout(title: str, description: str, canonical: str, active: str, body: str,
 {body}
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -1408,6 +1408,8 @@ document.addEventListener('click',function(e){{
     gtag('event','contact_click',{{method:'email',link_url:href,source_page:location.pathname}});
   }} else if(href.indexOf('instagram.com/')!==-1){{
     gtag('event','outbound_social_click',{{platform:'instagram',link_url:href,source_page:location.pathname}});
+  }} else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){{
+    gtag('event','outbound_social_click',{{platform:'youtube',link_url:href,source_page:location.pathname}});
   }}
 }});
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){{
@@ -2270,6 +2272,7 @@ def generate_videos(games: list[dict[str, Any]], out: Path, base_url: str, galle
     <h1>Introducciones originales</h1>
     <p class="lead">Revive las introducciones de los juegos conservados en PC Game Archive. Cada vídeo está vinculado a su edición física documentada.</p>
     <p>{len(selected)} introducciones disponibles · Ordenadas por número de ficha</p>
+    <p>También puedes seguir nuestras publicaciones audiovisuales en <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer"><strong>el canal de YouTube de PC Game Archive</strong></a>. Las introducciones siguen disponibles en el propio archivo y vinculadas a sus fichas documentales.</p>
   </section>
   <section class="wrap intro-list-grid" aria-label="Catálogo de introducciones">{listing}</section>
 </main>'''
@@ -2507,7 +2510,7 @@ def generate_incorporations(games: list[dict[str, Any]], out: Path, base_url: st
 
 
 def organization_jsonld(base_url: str) -> dict[str, Any]:
-    return {"@context":"https://schema.org","@type":"Organization","name":SITE_NAME,"url":base_url.rstrip("/") + "/","logo":abs_url(base_url,"logo.png"),"sameAs":["https://www.instagram.com/pc_game_archive/"]}
+    return {"@context":"https://schema.org","@type":"Organization","name":SITE_NAME,"url":base_url.rstrip("/") + "/","logo":abs_url(base_url,"logo.png"),"sameAs":["https://www.instagram.com/pc_game_archive/","https://www.youtube.com/@PC_Game_Archive"]}
 
 
 def collection_jsonld(base_url: str, path: str, name: str, description: str, games: list[dict[str, Any]]) -> dict[str, Any]:
@@ -3317,7 +3320,7 @@ def generate_contact(out: Path, base_url: str) -> None:
     <p>Si quieres conocer nuestra finalidad, el proceso de conservación y los siguientes hitos, consulta <a href="proyecto/"><strong>El proyecto</strong></a>.</p>
     <p>Para proponer correcciones del catálogo, aportar información adicional sobre una edición concreta o compartir documentación relacionada con algún título, puedes usar estos canales.</p>
     <p>Si quieres <strong>vender o donar videojuegos físicos de PC</strong>, consulta primero nuestra página de <a href="vender-videojuegos-pc-antiguos/">ofrecimiento de juegos y colecciones</a>.</p>
-    <dl class="kv"><dt>Email</dt><dd><a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a></dd><dt>Instagram</dt><dd><a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">@pc_game_archive</a></dd></dl>
+    <dl class="kv"><dt>Email</dt><dd><a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a></dd><dt>Instagram</dt><dd><a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">@pc_game_archive</a></dd><dt>YouTube</dt><dd><a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">@PC_Game_Archive</a></dd></dl>
   </article>
 </main>'''
     (out / "contacto.html").write_text(layout(title, desc, abs_url(base_url, "contacto.html"), "contacto.html", body), encoding="utf-8")

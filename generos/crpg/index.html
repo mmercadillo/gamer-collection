@@ -73,7 +73,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
   gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
 }
 </script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/","logo":"https://www.pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/","logo":"https://www.pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/","https://www.youtube.com/@PC_Game_Archive"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"CRPG: juegos de PC","url":"https://www.pcgamearchive.org/generos/crpg/","description":"10 ediciones físicas de videojuegos de PC relacionadas con CRPG, documentadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://www.pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":10,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://www.pcgamearchive.org/juegos/arcanum-hechizos-y-engranajes-bigbox/","name":"Arcanum: Hechizos y Engranajes"},{"@type":"ListItem","position":2,"url":"https://www.pcgamearchive.org/juegos/baldurs-gate-bigbox/","name":"Baldur's Gate"},{"@type":"ListItem","position":3,"url":"https://www.pcgamearchive.org/juegos/wizardry-crusaders-of-the-dark-savant-bigbox/","name":"Wizardry: Crusaders of the Dark Savant"},{"@type":"ListItem","position":4,"url":"https://www.pcgamearchive.org/juegos/dark-sun-shattered-lands-bigbox/","name":"Dark Sun: Shattered Lands"},{"@type":"ListItem","position":5,"url":"https://www.pcgamearchive.org/juegos/buck-rogers-matrix-cubed-bigbox/","name":"Buck Rogers: Matrix Cubed"},{"@type":"ListItem","position":6,"url":"https://www.pcgamearchive.org/juegos/shadowlands-bigbox/","name":"Shadowlands"},{"@type":"ListItem","position":7,"url":"https://www.pcgamearchive.org/juegos/la-sombra-sobre-riva-bigbox/","name":"La sombra sobre Riva"},{"@type":"ListItem","position":8,"url":"https://www.pcgamearchive.org/juegos/planescape-torment-bigbox/","name":"Planescape: Torment"},{"@type":"ListItem","position":9,"url":"https://www.pcgamearchive.org/juegos/neverwinter-nights-legends-cddvd/","name":"Neverwinter Nights Legends"},{"@type":"ListItem","position":10,"url":"https://www.pcgamearchive.org/juegos/lands-of-lore-the-throne-of-chaos-2-jewelcase/","name":"Lands of Lore: The Throne of Chaos"}]}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Géneros","item":"https://www.pcgamearchive.org/generos/"},{"@type":"ListItem","position":3,"name":"CRPG","item":"https://www.pcgamearchive.org/generos/crpg/"}]}</script>
 </head>
@@ -241,9 +241,9 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </a></div>
     <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
   </section>
-  <section class="text-section"><h2>Explorar otros géneros</h2><div class="taxonomy-grid"><a class="taxonomy-item" href="../../generos/accion/"><strong>Acción</strong><small>405 juegos</small></a>
+  <section class="text-section"><h2>Explorar otros géneros</h2><div class="taxonomy-grid"><a class="taxonomy-item" href="../../generos/accion/"><strong>Acción</strong><small>410 juegos</small></a>
 <a class="taxonomy-item" href="../../generos/simulacion/"><strong>Simulación</strong><small>258 juegos</small></a>
-<a class="taxonomy-item" href="../../generos/estrategia-en-tiempo-real/"><strong>Estrategia en tiempo real</strong><small>212 juegos</small></a>
+<a class="taxonomy-item" href="../../generos/estrategia-en-tiempo-real/"><strong>Estrategia en tiempo real</strong><small>213 juegos</small></a>
 <a class="taxonomy-item" href="../../aventuras-graficas-pc.html"><strong>Aventura gráfica</strong><small>187 juegos</small></a>
 <a class="taxonomy-item" href="../../generos/estrategia/"><strong>Estrategia</strong><small>163 juegos</small></a>
 <a class="taxonomy-item" href="../../generos/shooter/"><strong>Shooter</strong><small>159 juegos</small></a>
@@ -254,7 +254,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -363,6 +363,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

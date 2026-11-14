@@ -229,7 +229,7 @@ CD3 CUE  FF63F8D352C5D22041254E9A5153761A2021A1E3F7930AA87B07681F67B98A12</code>
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -338,6 +338,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

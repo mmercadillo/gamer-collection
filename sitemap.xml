@@ -34,6 +34,7 @@
   <url><loc>https://www.pcgamearchive.org/documentacion/preservacion/estandar-preservacion-digital/</loc></url>
   <url><loc>https://www.pcgamearchive.org/documentacion/guias/estandar-guias-ejecucion-compatibilidad/</loc></url>
   <url><loc>https://www.pcgamearchive.org/documentacion/preservacion/caracterizacion-soportes-opticos/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/novedades/canal-youtube-pc-game-archive-20261114/</loc></url>
   <url><loc>https://www.pcgamearchive.org/novedades/donacion-jose-antonio-20261029/</loc></url>
   <url><loc>https://www.pcgamearchive.org/incorporaciones/</loc></url>
   <url><loc>https://www.pcgamearchive.org/catalogo/</loc></url>
@@ -195,6 +196,7 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ea-black-box/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/fx-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/infinity-ward/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/infogrames-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/interplay-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/katauri-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/kuju-entertainment/</loc></url>
@@ -243,7 +245,6 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/iguana-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/image-space-incorporated/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/index/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/infogrames-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/jowood-productions/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/kheops-studio/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/legend-entertainment/</loc></url>
@@ -282,9 +283,9 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-on-line/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/codemasters/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/blizzard-entertainment/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/friendware/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sega/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-studios/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/friendware/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/thq/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/atari/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/infogrames/</loc></url>
@@ -347,6 +348,7 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/wanadoo-edition/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/zeta-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/fox-interactive/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/infogrames-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/kalypso-media/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/mcm-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/monte-cristo-multimedia/</loc></url>
@@ -368,7 +370,6 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/gt-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/id-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/infogrames-europe/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/infogrames-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/interplay/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/konami/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ncsoft/</loc></url>
@@ -433,28 +434,28 @@
   <url><loc>https://www.pcgamearchive.org/generos/rally/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/educativo/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/estrategia-militar/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/fmv/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multijugador/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/ajedrez/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/estrategia-militar/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/construccion-de-ciudades/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gran-estrategia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/survival-horror/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tercera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/vuelo/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/accion-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/action-rpg/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/construccion-de-ciudades/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pinball/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tiempo-real/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tactica/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/accion-tactica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-de-accion/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/crpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/hack-and-slash/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/point-y-click/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulador/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-espacial/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/combate-vehicular/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/gestion-de-recursos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/historico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/mmorpg/</loc></url>
@@ -469,6 +470,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/guerra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/manager-deportivo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/motociclismo/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/shoot-em-up/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shooter-en-tercera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shooter-sobre-railes/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/shooter-tactico/</loc></url>
@@ -500,7 +502,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/juego-de-tablero/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/plataformas-3d/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rol-de-accion/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/shoot-em-up/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/supervivencia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-en-primera-persona/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-en-tercera-persona/</loc></url>
@@ -514,7 +516,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/manager-de-futbol/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pelicula-interactiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/puzles/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/shooter-3d/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-economica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-tactica/</loc></url>
@@ -523,11 +525,13 @@
   <url><loc>https://www.pcgamearchive.org/generos/tiempo-real-con-pausa/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tycoon/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/tactica-por-turnos/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/accion-belica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/accion-rpg/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/atletismo/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/aventura-historica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/beat-em-up/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/ciclismo/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/city-builder/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-moderno/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/combate-tactico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-belica/</loc></url>
@@ -537,11 +541,12 @@
   <url><loc>https://www.pcgamearchive.org/generos/gestion-futbolistica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/investigacion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/investigacion-detectivesca/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/lucha/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/logica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multideporte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/piratas/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/rail-shooter/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rol-en-primera-persona/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/shooter-3d/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vida/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-policial/</loc></url>
@@ -556,9 +561,9 @@
   <url><loc>https://www.pcgamearchive.org/plataformas/windows-vista/</loc></url>
   <url><loc>https://www.pcgamearchive.org/plataformas/win7/</loc></url>
   <url><loc>https://www.pcgamearchive.org/plataformas/win8/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/plataformas/win3-x/</loc></url>
   <url><loc>https://www.pcgamearchive.org/plataformas/win10/</loc></url>
   <url><loc>https://www.pcgamearchive.org/plataformas/winnt/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/plataformas/win3-x/</loc></url>
   <url><loc>https://www.pcgamearchive.org/plataformas/macos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/formatos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/formatos/dvd-case/</loc></url>
@@ -569,6 +574,7 @@
   <url><loc>https://www.pcgamearchive.org/mercados/reino-unido/</loc></url>
   <url><loc>https://www.pcgamearchive.org/mercados/estados-unidos/</loc></url>
   <url><loc>https://www.pcgamearchive.org/mercados/francia/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/mercados/alemania/</loc></url>
   <url><loc>https://www.pcgamearchive.org/mercados/norteamerica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/idiomas/espanol/</loc></url>
@@ -13571,12 +13577,108 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-jewelcase/</loc>
+    <loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-cat-jewelcase/</loc>
     <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-jewelcase/img/001.jpg</image:loc>
+      <image:loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-cat-jewelcase/img/001.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-jewelcase/img/002.jpg</image:loc>
+      <image:loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-cat-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/versalles-complot-a-la-cort-del-rei-sol-cat-jewelcase/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/one-must-fall-2097-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/one-must-fall-2097-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/one-must-fall-2097-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/one-must-fall-2097-jewelcase/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/kick-off-96-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/kick-off-96-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/kick-off-96-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/kick-off-96-jewelcase/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/metal-rage-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/metal-rage-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/metal-rage-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/metal-rage-jewelcase/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/trolls-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/trolls-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/trolls-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/mundiales-98-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/mundiales-98-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/mundiales-98-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/mundiales-98-jewelcase/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/chaos-control-2-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/chaos-control-2-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/chaos-control-2-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/chaos-control-2-jewelcase/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/desert-strike-regresa-al-golfo-jewelcase/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/desert-strike-regresa-al-golfo-jewelcase/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/desert-strike-regresa-al-golfo-jewelcase/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/desert-strike-regresa-al-golfo-jewelcase/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/caesar-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/caesar-bigbox/img/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/caesar-bigbox/img/002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/caesar-bigbox/img/003.jpg</image:loc>
     </image:image>
   </url>
   <url><loc>https://www.pcgamearchive.org/videos/loom-bigbox/</loc></url>

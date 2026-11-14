@@ -139,7 +139,8 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <p class="lead">Un registro cronológico de las incorporaciones, guías, trabajos de preservación y cambios relevantes de PC Game Archive.</p>
   </section>
   <section class="wrap news-page" aria-label="Histórico de novedades">
-    <div class="news-list"><article class="news-item"><time datetime="2026-11-12">12 de noviembre de 2026</time><h3><a href="../juegos/kingmaker-la-busqueda-de-la-corona-bigbox/">Kingmaker: revive su introducción original</a></h3><p>Regresamos a la Inglaterra medieval con la introducción original de Kingmaker (1993), recuperada de la edición española Big Box conservada en PC Game Archive. Una nueva pieza de la historia del PC que vuelve a cobrar vida.</p><a class="news-link" href="../juegos/kingmaker-la-busqueda-de-la-corona-bigbox/">Ver más →</a></article>
+    <div class="news-list"><article class="news-item"><time datetime="2026-11-14">14 de noviembre de 2026</time><h3><a href="../novedades/canal-youtube-pc-game-archive-20261114/">PC Game Archive estrena canal oficial en YouTube</a></h3><p>Abrimos un nuevo espacio para compartir introducciones originales y material audiovisual vinculado a las ediciones físicas que conservamos y documentamos en PC Game Archive.</p><a class="news-link" href="../novedades/canal-youtube-pc-game-archive-20261114/">Ver más →</a></article>
+<article class="news-item"><time datetime="2026-11-12">12 de noviembre de 2026</time><h3><a href="../juegos/kingmaker-la-busqueda-de-la-corona-bigbox/">Kingmaker: revive su introducción original</a></h3><p>Regresamos a la Inglaterra medieval con la introducción original de Kingmaker (1993), recuperada de la edición española Big Box conservada en PC Game Archive. Una nueva pieza de la historia del PC que vuelve a cobrar vida.</p><a class="news-link" href="../juegos/kingmaker-la-busqueda-de-la-corona-bigbox/">Ver más →</a></article>
 <article class="news-item"><time datetime="2026-11-12">12 de noviembre de 2026</time><h3><a href="../documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/">Kingmaker ya funciona en Windows 10</a></h3><p>La edición española de Kingmaker vuelve a funcionar con DOSBox Staging. Hemos comprobado instalación, sonido, partidas guardadas y ejecución portable.</p><a class="news-link" href="../documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/">Ver más →</a></article>
 <article class="news-item"><time datetime="2026-11-12">12 de noviembre de 2026</time><h3><a href="../documentacion/preservacion/kingmaker-la-busqueda-de-la-corona-bigbox/">Kingmaker: preservamos sus dos disquetes originales de 3,5 pulgadas</a></h3><p>La edición española Big Box de Kingmaker ya cuenta con imágenes digitales de sus dos disquetes, obtenidas mediante dobles lecturas coincidentes y verificadas con SHA-256. Documentamos el procedimiento de preservación y sus límites.</p><a class="news-link" href="../documentacion/preservacion/kingmaker-la-busqueda-de-la-corona-bigbox/">Ver más →</a></article>
 <article class="news-item"><time datetime="2026-11-09">9 de noviembre de 2026</time><h3><a href="../juegos/blade-runner-jewelcase/">Blade Runner: revive su introducción original</a></h3><p>Regresamos al universo de Blade Runner con la introducción original de su edición española para PC, distribuida por Dinamic Multimedia. Una secuencia cinematográfica que recuperamos para conservar la memoria de este clásico de 1997.</p><a class="news-link" href="../juegos/blade-runner-jewelcase/">Ver más →</a></article>
@@ -172,7 +173,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -281,6 +282,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

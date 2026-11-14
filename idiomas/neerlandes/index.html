@@ -73,7 +73,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
   gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
 }
 </script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/","logo":"https://www.pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/","logo":"https://www.pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/","https://www.youtube.com/@PC_Game_Archive"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Neerlandés: juegos de PC","url":"https://www.pcgamearchive.org/idiomas/neerlandes/","description":"7 ediciones físicas de juegos de PC con contenido documentado en Neerlandés, catalogadas en PC Game Archive.","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://www.pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://www.pcgamearchive.org/juegos/dungeon-keeper-2-bigbox/","name":"Dungeon Keeper 2"},{"@type":"ListItem","position":2,"url":"https://www.pcgamearchive.org/juegos/fx-fighter-turbo-bigbox/","name":"FX Fighter Turbo"},{"@type":"ListItem","position":3,"url":"https://www.pcgamearchive.org/juegos/south-park-rally-bigbox/","name":"South Park Rally"},{"@type":"ListItem","position":4,"url":"https://www.pcgamearchive.org/juegos/dethkarz-bigbox/","name":"DethKarz"},{"@type":"ListItem","position":5,"url":"https://www.pcgamearchive.org/juegos/reah-face-the-unknown-bigbox/","name":"REAH: Face the Unknown"},{"@type":"ListItem","position":6,"url":"https://www.pcgamearchive.org/juegos/imperium-galactica-bigbox/","name":"Imperium Galactica"},{"@type":"ListItem","position":7,"url":"https://www.pcgamearchive.org/juegos/kingpin-life-of-crime-bigbox/","name":"Kingpin: Life of Crime"}]}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Idiomas","item":"https://www.pcgamearchive.org/idiomas/"},{"@type":"ListItem","position":3,"name":"Neerlandés","item":"https://www.pcgamearchive.org/idiomas/neerlandes/"}]}</script>
 </head>
@@ -214,18 +214,18 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </a></div>
     <div class="load-sentinel" data-load-sentinel aria-hidden="true"></div>
   </section>
-  <section class="text-section"><h2>Explorar otros idiomas</h2><div class="taxonomy-grid"><a class="taxonomy-item" href="../../idiomas/espanol/"><strong>Español</strong><small>267 juegos</small></a>
-<a class="taxonomy-item" href="../../idiomas/ingles/"><strong>Inglés</strong><small>68 juegos</small></a>
-<a class="taxonomy-item" href="../../idiomas/italiano/"><strong>Italiano</strong><small>20 juegos</small></a>
-<a class="taxonomy-item" href="../../idiomas/frances/"><strong>Francés</strong><small>14 juegos</small></a>
-<a class="taxonomy-item" href="../../idiomas/aleman/"><strong>Alemán</strong><small>12 juegos</small></a>
+  <section class="text-section"><h2>Explorar otros idiomas</h2><div class="taxonomy-grid"><a class="taxonomy-item" href="../../idiomas/espanol/"><strong>Español</strong><small>275 juegos</small></a>
+<a class="taxonomy-item" href="../../idiomas/ingles/"><strong>Inglés</strong><small>69 juegos</small></a>
+<a class="taxonomy-item" href="../../idiomas/italiano/"><strong>Italiano</strong><small>21 juegos</small></a>
+<a class="taxonomy-item" href="../../idiomas/frances/"><strong>Francés</strong><small>15 juegos</small></a>
+<a class="taxonomy-item" href="../../idiomas/aleman/"><strong>Alemán</strong><small>13 juegos</small></a>
 <a class="taxonomy-item" href="../../idiomas/multilingue/"><strong>Multilingüe</strong><small>8 juegos</small></a></div></section>
   <script src="../../assets/js/search-index.js"></script>
   <script src="../../assets/js/catalogo.js" defer></script>
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -334,6 +334,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

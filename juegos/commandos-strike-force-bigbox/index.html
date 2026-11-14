@@ -166,7 +166,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
       <dl class="kv">
         <dt>Formato</dt><dd class="tagrow"><a class="tag" href="../../juegos-pc-big-box.html">Big Box</a></dd>
         <dt>Plataforma</dt><dd class="tagrow"><a class="tag" href="../../plataformas/win2000/">Win2000</a> <a class="tag" href="../../plataformas/winxp/">WinXP</a></dd>
-        <dt>Género</dt><dd class="tagrow"><a class="tag" href="../../generos/shooter-en-primera-persona/">Shooter en primera persona</a> <a class="tag" href="../../generos/shooter-tactico/">Shooter táctico</a> <a class="tag" href="../../generos/sigilo/">Sigilo</a> <span class="tag">Acción bélica</span></dd>
+        <dt>Género</dt><dd class="tagrow"><a class="tag" href="../../generos/shooter-en-primera-persona/">Shooter en primera persona</a> <a class="tag" href="../../generos/shooter-tactico/">Shooter táctico</a> <a class="tag" href="../../generos/sigilo/">Sigilo</a> <a class="tag" href="../../generos/accion-belica/">Acción bélica</a></dd>
         <dt>Serie</dt><dd class="tagrow"><a class="tag" href="../../?serie=Todos">Todos</a> <a class="tag" href="../../?serie=Big%20Box">Big Box</a></dd>
         <dt>Desarrollador</dt><dd class="tagrow"><a class="tag" href="../../desarrolladores/pyro-studios/">Pyro Studios</a></dd>
         <dt>Distribuidor</dt><dd class="tagrow"><a class="tag" href="../../distribuidores/eidos-interactive/">Eidos Interactive</a> <a class="tag" href="../../distribuidores/proein/">Proein</a></dd>
@@ -274,7 +274,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -383,6 +383,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

@@ -156,11 +156,11 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <p>Esta edición de <strong>¿Quién mató a Taylor French? El caso de la reportera indefensa</strong> forma parte del fondo documental de PC Game Archive. Tu aportación ayuda a su conservación física, documentación, preservación digital y a la infraestructura necesaria para mantener el archivo accesible.</p>
     <p class="piece-support-note">Las aportaciones contribuyen al mantenimiento general de PC Game Archive y no quedan asignadas exclusivamente a una pieza concreta.</p>
   </div>
-  <a class="button" href="../../apoyar/?juego=quien-mato-a-taylor-french-bigbox" data-game-support="1" data-game-title="¿Quién mató a Taylor French? El caso de la reportera indefensa" data-game-slug="quien-mato-a-taylor-french-bigbox" data-game-num="000000" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
+  <a class="button" href="../../apoyar/?juego=quien-mato-a-taylor-french-bigbox" data-game-support="1" data-game-title="¿Quién mató a Taylor French? El caso de la reportera indefensa" data-game-slug="quien-mato-a-taylor-french-bigbox" data-game-num="000254" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
 </section>
     </div>
     <section class="content-card">
-      <p class="eyebrow">Ficha #000000</p>
+      <p class="eyebrow">Ficha #000254</p>
       <h1>¿Quién mató a Taylor French? El caso de la reportera indefensa</h1>
       <p class="lead">¿Quién mató a Taylor French? El caso de la reportera indefensa es una aventura detectivesca multimedia desarrollada por Creative Multimedia Corporation y publicada originalmente en 1994 bajo el título Who Killed Taylor French?: The Case of the Undressed Reporter. Forma parte de la serie Virtual Murder, posteriormente comercializada como Murder Mystery, y representa una de las propuestas de investigación criminal interactiva surgidas durante la expansión del CD-ROM doméstico de los años noventa. La historia comienza con la muerte de Taylor French, una joven y controvertida periodista que había investigado asuntos delicados y acumulado numerosos enemigos. El jugador asume el papel de investigador y debe esclarecer el asesinato mediante interrogatorios, comprobación de coartadas, análisis de informes forenses, inspección de escenarios y recopilación de pruebas. La investigación está condicionada por un límite de seis horas de tiempo simulado, que disminuye conforme se realizan determinadas acciones. El juego incorpora tres variantes del caso, con diferentes pistas y soluciones, ampliando su rejugabilidad. Tras reunir las pruebas, el investigador debe presentar sus conclusiones y defender la acusación. Entre sus características más distintivas destaca la participación de Sheryl Lee, conocida internacionalmente por interpretar a Laura Palmer en Twin Peaks, que encarna a la asistente Lucie Fairwell. La obra combina fotografías digitalizadas, imágenes de actores reales, secuencias audiovisuales y una interfaz de investigación point and click, dentro de la corriente de aventuras multimedia que utilizaban tecnologías de autoría como Macromedia Director. Esta edición española en caja grande fue distribuida por System 4, con presentación comercial, textos y voces en castellano. Su interés para la preservación reside tanto en su condición de aventura detectivesca interactiva como en la conservación de una edición localizada perteneciente a una etapa experimental del entretenimiento multimedia para Windows, anterior a la generalización de los motores tridimensionales.</p>
       <dl class="kv">
@@ -220,7 +220,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -329,6 +329,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

@@ -156,11 +156,11 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <p>Esta edición de <strong>Oh No! More Lemmings</strong> forma parte del fondo documental de PC Game Archive. Tu aportación ayuda a su conservación física, documentación, preservación digital y a la infraestructura necesaria para mantener el archivo accesible.</p>
     <p class="piece-support-note">Las aportaciones contribuyen al mantenimiento general de PC Game Archive y no quedan asignadas exclusivamente a una pieza concreta.</p>
   </div>
-  <a class="button" href="../../apoyar/?juego=oh-no-more-lemmings-bigbox" data-game-support="1" data-game-title="Oh No! More Lemmings" data-game-slug="oh-no-more-lemmings-bigbox" data-game-num="000000" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
+  <a class="button" href="../../apoyar/?juego=oh-no-more-lemmings-bigbox" data-game-support="1" data-game-title="Oh No! More Lemmings" data-game-slug="oh-no-more-lemmings-bigbox" data-game-num="000257" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
 </section>
     </div>
     <section class="content-card">
-      <p class="eyebrow">Ficha #000000</p>
+      <p class="eyebrow">Ficha #000257</p>
       <h1>Oh No! More Lemmings</h1>
       <p class="lead">Oh No! More Lemmings es una expansión del célebre videojuego de lógica Lemmings, desarrollada por el estudio escocés DMA Design y publicada originalmente por Psygnosis en 1991. Su lanzamiento prolongó el éxito de uno de los títulos más influyentes de los primeros años noventa, cuya propuesta consistía en conducir a un grupo de pequeñas criaturas hasta la salida de cada escenario mediante la asignación estratégica de habilidades. Esta ampliación incorpora 100 niveles completamente nuevos, organizados en cinco categorías de dificultad: Tame, Crazy, Wild, Wicked y Havoc, con veinte escenarios cada una. Mantiene las mecánicas originales de construcción de escaleras y puentes, excavación, bloqueo y destrucción de obstáculos, pero introduce desafíos más elaborados, nuevas ambientaciones gráficas y composiciones musicales adicionales. Su estructura exige una planificación precisa y una administración cuidadosa de los lemmings disponibles, reforzando el carácter estratégico y la dificultad progresiva del título original. La edición española para IBM PC y compatibles fue comercializada por Dro Soft bajo licencia de Psygnosis, en formato Big Box y mediante disquetes de 3,5 pulgadas de doble densidad. A diferencia de determinadas versiones autónomas comercializadas en otros mercados, esta edición indica expresamente que requiere el juego original Lemmings. La contraportada documenta compatibilidad con ordenadores IBM PC, XT, AT y PS/2, un mínimo de 512 KB de memoria RAM, gráficos EGA y VGA, soporte para teclado y joystick, y sonido mediante AdLib y Sound Blaster. Constituye una pieza representativa del mercado español de videojuegos para MS-DOS de principios de los noventa, especialmente relevante para documentar la distribución de expansiones físicas, las primeras grandes franquicias de Psygnosis y la trayectoria de DMA Design, estudio que posteriormente alcanzaría reconocimiento internacional por la serie Grand Theft Auto.</p>
       <dl class="kv">
@@ -247,7 +247,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -356,6 +356,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

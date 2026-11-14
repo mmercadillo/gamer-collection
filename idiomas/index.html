@@ -73,7 +73,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
   gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
 }
 </script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/","logo":"https://www.pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/","logo":"https://www.pcgamearchive.org/logo.png","sameAs":["https://www.instagram.com/pc_game_archive/","https://www.youtube.com/@PC_Game_Archive"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Idiomas · PC Game Archive","url":"https://www.pcgamearchive.org/idiomas/","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"PC Game Archive","url":"https://www.pcgamearchive.org/"},"mainEntity":{"@type":"ItemList","numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"name":"Español","url":"https://www.pcgamearchive.org/idiomas/espanol/"},{"@type":"ListItem","position":2,"name":"Inglés","url":"https://www.pcgamearchive.org/idiomas/ingles/"},{"@type":"ListItem","position":3,"name":"Italiano","url":"https://www.pcgamearchive.org/idiomas/italiano/"},{"@type":"ListItem","position":4,"name":"Francés","url":"https://www.pcgamearchive.org/idiomas/frances/"},{"@type":"ListItem","position":5,"name":"Alemán","url":"https://www.pcgamearchive.org/idiomas/aleman/"},{"@type":"ListItem","position":6,"name":"Multilingüe","url":"https://www.pcgamearchive.org/idiomas/multilingue/"},{"@type":"ListItem","position":7,"name":"Neerlandés","url":"https://www.pcgamearchive.org/idiomas/neerlandes/"}]}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Idiomas","item":"https://www.pcgamearchive.org/idiomas/"}]}</script>
 </head>
@@ -142,17 +142,17 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <p class="lead">Índice de idiomas presentes en PC Game Archive. Se muestran entidades con al menos 3 fichas documentadas y solo se publica el índice cuando el campo dispone de masa crítica suficiente.</p>
   </div>
   <p class="count">7 entidades disponibles.</p>
-  <div class="taxonomy-grid"><a class="taxonomy-item" href="../idiomas/espanol/"><strong>Español</strong><small>267 juegos</small></a>
-<a class="taxonomy-item" href="../idiomas/ingles/"><strong>Inglés</strong><small>68 juegos</small></a>
-<a class="taxonomy-item" href="../idiomas/italiano/"><strong>Italiano</strong><small>20 juegos</small></a>
-<a class="taxonomy-item" href="../idiomas/frances/"><strong>Francés</strong><small>14 juegos</small></a>
-<a class="taxonomy-item" href="../idiomas/aleman/"><strong>Alemán</strong><small>12 juegos</small></a>
+  <div class="taxonomy-grid"><a class="taxonomy-item" href="../idiomas/espanol/"><strong>Español</strong><small>275 juegos</small></a>
+<a class="taxonomy-item" href="../idiomas/ingles/"><strong>Inglés</strong><small>69 juegos</small></a>
+<a class="taxonomy-item" href="../idiomas/italiano/"><strong>Italiano</strong><small>21 juegos</small></a>
+<a class="taxonomy-item" href="../idiomas/frances/"><strong>Francés</strong><small>15 juegos</small></a>
+<a class="taxonomy-item" href="../idiomas/aleman/"><strong>Alemán</strong><small>13 juegos</small></a>
 <a class="taxonomy-item" href="../idiomas/multilingue/"><strong>Multilingüe</strong><small>8 juegos</small></a>
 <a class="taxonomy-item" href="../idiomas/neerlandes/"><strong>Neerlandés</strong><small>7 juegos</small></a></div>
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -261,6 +261,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

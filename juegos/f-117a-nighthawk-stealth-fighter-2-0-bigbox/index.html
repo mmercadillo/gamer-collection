@@ -156,11 +156,11 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <p>Esta edición de <strong>F-117A Nighthawk Stealth Fighter 2.0</strong> forma parte del fondo documental de PC Game Archive. Tu aportación ayuda a su conservación física, documentación, preservación digital y a la infraestructura necesaria para mantener el archivo accesible.</p>
     <p class="piece-support-note">Las aportaciones contribuyen al mantenimiento general de PC Game Archive y no quedan asignadas exclusivamente a una pieza concreta.</p>
   </div>
-  <a class="button" href="../../apoyar/?juego=f-117a-nighthawk-stealth-fighter-2-0-bigbox" data-game-support="1" data-game-title="F-117A Nighthawk Stealth Fighter 2.0" data-game-slug="f-117a-nighthawk-stealth-fighter-2-0-bigbox" data-game-num="000000" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
+  <a class="button" href="../../apoyar/?juego=f-117a-nighthawk-stealth-fighter-2-0-bigbox" data-game-support="1" data-game-title="F-117A Nighthawk Stealth Fighter 2.0" data-game-slug="f-117a-nighthawk-stealth-fighter-2-0-bigbox" data-game-num="000253" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
 </section>
     </div>
     <section class="content-card">
-      <p class="eyebrow">Ficha #000000</p>
+      <p class="eyebrow">Ficha #000253</p>
       <h1>F-117A Nighthawk Stealth Fighter 2.0</h1>
       <p class="lead">F-117A Nighthawk Stealth Fighter 2.0 es un simulador de combate aéreo desarrollado por MPS Labs y publicado por MicroProse en 1991 para ordenadores IBM PC compatibles con MS-DOS. Constituye una evolución del anterior F-19 Stealth Fighter y está dedicado al avión estadounidense Lockheed F-117A Nighthawk, célebre por su tecnología de baja observabilidad frente al radar. El juego apareció en un momento de especial interés internacional por la aviación furtiva, impulsado por la participación del F-117A en la guerra del Golfo de 1991. Su propuesta combina simulación de vuelo, navegación instrumental, planificación táctica, gestión de armamento y misiones de infiltración y ataque contra objetivos militares. La detección por radar, las condiciones de vuelo y la aproximación discreta a los blancos desempeñan un papel fundamental, diferenciándolo de los simuladores de combate aéreo más orientados a enfrentamientos directos. Permite realizar operaciones en distintos escenarios geográficos, como Libia, el golfo Pérsico, Europa Central, Corea del Norte y Cuba, con objetivos y amenazas específicos. Técnicamente destacó por sus gráficos tridimensionales poligonales, presentación VGA de 256 colores, cabina instrumental detallada, representación de sistemas de navegación y armamento, y compatibilidad con dispositivos de sonido de la época, como AdLib. La versión 2.0 introdujo mejoras gráficas, sonoras y de jugabilidad respecto a F-19 Stealth Fighter, además de adaptar la experiencia a la información pública sobre el verdadero avión furtivo. Esta edición física española en caja grande, comercializada bajo los sellos MicroProse y Erbe Software, conserva documentación en castellano y soporte magnético de 5,25 pulgadas. Representa una pieza significativa de la época dorada de los simuladores militares para MS-DOS, cuando MicroProse destacó por combinar complejidad técnica, recreación histórica y extensos manuales impresos. Su preservación resulta especialmente relevante por la dependencia de hardware y sistemas operativos de la época, así como por la importancia de conservar conjuntamente los disquetes originales, la documentación técnica y los materiales de distribución española.</p>
       <dl class="kv">
@@ -247,7 +247,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -356,6 +356,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

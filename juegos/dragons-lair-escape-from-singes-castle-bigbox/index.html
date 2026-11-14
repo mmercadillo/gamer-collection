@@ -156,11 +156,11 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <p>Esta edición de <strong>Dragon&#x27;s Lair: Escape from Singe&#x27;s Castle</strong> forma parte del fondo documental de PC Game Archive. Tu aportación ayuda a su conservación física, documentación, preservación digital y a la infraestructura necesaria para mantener el archivo accesible.</p>
     <p class="piece-support-note">Las aportaciones contribuyen al mantenimiento general de PC Game Archive y no quedan asignadas exclusivamente a una pieza concreta.</p>
   </div>
-  <a class="button" href="../../apoyar/?juego=dragons-lair-escape-from-singes-castle-bigbox" data-game-support="1" data-game-title="Dragon&#x27;s Lair: Escape from Singe&#x27;s Castle" data-game-slug="dragons-lair-escape-from-singes-castle-bigbox" data-game-num="000000" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
+  <a class="button" href="../../apoyar/?juego=dragons-lair-escape-from-singes-castle-bigbox" data-game-support="1" data-game-title="Dragon&#x27;s Lair: Escape from Singe&#x27;s Castle" data-game-slug="dragons-lair-escape-from-singes-castle-bigbox" data-game-num="000255" data-game-format="Big Box">Apoyar la conservación de esta pieza</a>
 </section>
     </div>
     <section class="content-card">
-      <p class="eyebrow">Ficha #000000</p>
+      <p class="eyebrow">Ficha #000255</p>
       <h1>Dragon&#x27;s Lair: Escape from Singe&#x27;s Castle</h1>
       <p class="lead">Dragon&#x27;s Lair: Escape from Singe&#x27;s Castle es una aventura de acción cinematográfica publicada para IBM PC y compatibles en 1991 por ReadySoft, basada en las célebres animaciones creadas por Don Bluth para el videojuego arcade Dragon&#x27;s Lair de 1983. Esta continuación recupera escenas y situaciones que no habían aparecido en la primera adaptación de ReadySoft para ordenadores domésticos, ampliando las peripecias de Dirk el Temerario en su misión de rescatar a la princesa Daphne del castillo del dragón Singe. La mecánica se fundamenta en secuencias animadas durante las que el jugador debe introducir movimientos o acciones en momentos concretos, anticipándose al peligro y memorizando las respuestas correctas. Esta estructura, precursora de los modernos quick time events, convierte la aventura en una experiencia de reflejos, observación y ensayo y error. Su principal atractivo tecnológico reside en la adaptación de animaciones de estética cinematográfica a las limitaciones de los ordenadores personales de principios de los noventa, mediante gráficos digitalizados y secuencias de animación reproducidas desde disquetes. La edición física para IBM PC/Tandy pertenece a la distribución española de Proein Soft Line y conserva la presentación original en caja grande de cartón con ilustraciones de Dirk, Daphne y los personajes del castillo. Incluye seis disquetes de 3,5 pulgadas, documentación impresa y materiales promocionales, con un distintivo que anuncia manual en castellano y póster incluido. La caja mantiene buena parte de su rotulación comercial en inglés, característica de numerosas ediciones españolas de juegos importados durante este periodo. La presencia de una ficha de registro postal de ReadySoft, documentación adicional y materiales publicitarios aporta especial valor documental al conjunto. Esta edición constituye un testimonio de la transición entre el videojuego arcade basado en LaserDisc y las adaptaciones domésticas de animación interactiva anteriores a la generalización del CD-ROM. Su preservación resulta especialmente relevante por la dependencia del soporte magnético original, la sincronización temporal de las acciones y las particularidades de ejecución de los juegos desarrollados para MS-DOS.</p>
       <dl class="kv">
@@ -256,7 +256,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
 </main>
 <footer>
   <div class="wrap footrow">
-    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a></p>
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
     <button class="to-top" type="button" data-scroll-top>Subir</button>
   </div>
 </footer>
@@ -365,6 +365,8 @@ document.addEventListener('click',function(e){
     gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
   } else if(href.indexOf('instagram.com/')!==-1){
     gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
   }
 });
 if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){

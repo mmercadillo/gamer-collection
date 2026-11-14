@@ -22116,7 +22116,7 @@
     "video_intro_duracion": ""
   },
   {
-    "num": "000000",
+    "num": "000253",
     "ig": "",
     "fecha_incorporacion": "2026-11-01",
     "procedencia": {
@@ -22221,7 +22221,7 @@
     "video_intro_duracion": ""
   },
   {
-    "num": "000000",
+    "num": "000254",
     "ig": "",
     "fecha_incorporacion": "2026-11-01",
     "procedencia": {
@@ -22326,7 +22326,7 @@
     "video_intro_duracion": ""
   },
   {
-    "num": "000000",
+    "num": "000255",
     "ig": "",
     "fecha_incorporacion": "2026-11-01",
     "procedencia": {
@@ -22438,7 +22438,7 @@
     "video_intro_duracion": ""
   },
   {
-    "num": "000000",
+    "num": "000256",
     "ig": "",
     "fecha_incorporacion": "2026-11-02",
     "procedencia": {
@@ -22546,7 +22546,7 @@
     "video_intro_duracion": ""
   },
   {
-    "num": "000000",
+    "num": "000257",
     "ig": "",
     "fecha_incorporacion": "2026-11-02",
     "procedencia": {
@@ -99539,7 +99539,7 @@
       }
     },
     "titulo": "Versalles: Complot a la Cort del Rei Sol",
-    "url": "juegos/versalles-complot-a-la-cort-del-rei-sol-jewelcase/",
+    "url": "juegos/versalles-complot-a-la-cort-del-rei-sol-cat-jewelcase/",
     "plataforma": [
       "MsDos",
       "Win95"
@@ -99633,6 +99633,869 @@
       "Reedición",
       "Budget",
       "Colección"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-14",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "One Must Fall: 2097",
+    "url": "juegos/one-must-fall-2097-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Lucha",
+      "Combate uno contra uno",
+      "Acción",
+      "Arcade",
+      "Ciencia ficción",
+      "Combate de robots"
+    ],
+    "desarrollador": [
+      "Diversions Entertainment"
+    ],
+    "distribuidor": [
+      "Epic MegaGames",
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "One Must Fall: 2097 es un videojuego de lucha protagonizado por robots gigantes, desarrollado por Diversions Entertainment y publicado originalmente por Epic MegaGames en 1994 para ordenadores compatibles IBM PC bajo MS-DOS. Diseñado y programado principalmente por Rob Elam, constituye una de las propuestas más características de la lucha bidimensional para PC durante la primera mitad de los años noventa. Ambientado en el año 2097, presenta un futuro en el que las competiciones entre robots controlados por pilotos humanos se han convertido en espectáculos deportivos de alta tecnología. Los combatientes utilizan máquinas conocidas como Human Assisted Robots (HAR), cada una con características, movimientos especiales, velocidad, potencia y estilos de combate diferenciados. Su sistema de juego combina enfrentamientos individuales, ataques especiales, combos y escenarios interactivos con peligros ambientales. Una de sus principales innovaciones fue el modo torneo, que permite seleccionar un piloto, adquirir un robot y participar en sucesivas competiciones para obtener dinero con el que reparar, mejorar y reforzar la máquina. Este sistema de progresión introduce elementos de gestión y personalización poco habituales en los juegos de lucha contemporáneos. Técnicamente destacó por sus gráficos VGA de 256 colores, animaciones de robots de gran tamaño, efectos visuales durante los impactos y una banda sonora electrónica compuesta por Kenny Chou. Su diseño audiovisual aprovechaba las capacidades multimedia de los PC compatibles de la época, con soporte para tarjetas de sonido como Sound Blaster. El título también incorporó opciones de enfrentamiento entre jugadores y, mediante actualizaciones, posibilidades de juego remoto. One Must Fall: 2097 alcanzó una considerable difusión internacional gracias al modelo shareware utilizado por Epic MegaGames, convirtiéndose en uno de los juegos de lucha más recordados del catálogo clásico de MS-DOS. En 1999 fue liberado como freeware por sus desarrolladores. La edición física española catalogada fue distribuida bajo licencia por Friendware en 1995, presentada en estuche Jewel Case con CD-ROM y documentación comercial en castellano. La contraportada identifica requisitos mínimos de procesador 386, 4 MB de memoria RAM, gráficos VGA de 256 colores, unidad de CD-ROM, disco duro y tarjeta Sound Blaster o compatible, además de indicar compatibilidad con joystick. La información impresa menciona Windows 3.1 y 3.11 y MS-DOS 5.0 o superior. Esta distribución representa un ejemplo de la comercialización española de videojuegos originalmente asociados al mercado shareware estadounidense, adaptados al circuito minorista mediante ediciones físicas económicas. Su preservación resulta relevante tanto para documentar la historia del combate entre robots en PC como para estudiar la expansión comercial de Epic MegaGames en España antes de su transformación en Epic Games.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original de One Must Fall",
+      "Carátula y contraportada impresas en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "One Must Fall",
+      "One Must Fall 2097",
+      "OMF 2097",
+      "Diversions Entertainment",
+      "Epic MegaGames",
+      "Epic Games",
+      "Friendware",
+      "Rob Elam",
+      "Kenny Chou",
+      "HAR",
+      "Human Assisted Robots",
+      "robots gigantes",
+      "mechas",
+      "combates futuristas",
+      "torneos de robots",
+      "personalización de robots",
+      "mejoras de combate",
+      "modo torneo",
+      "lucha bidimensional",
+      "combates arcade",
+      "multijugador local",
+      "shareware",
+      "freeware",
+      "juegos clásicos de MS-DOS",
+      "gráficos VGA",
+      "256 colores",
+      "Sound Blaster",
+      "joystick",
+      "IBM PC compatibles",
+      "Windows 3.1",
+      "MS-DOS 5.0",
+      "edición española",
+      "distribución española",
+      "CD-ROM para PC",
+      "Jewel Case",
+      "videojuegos de 1994",
+      "edición física de 1995",
+      "PC retro",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "historia del videojuego para PC"
+    ],
+    "anio": "1995",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-14",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Kick Off 96",
+    "url": "juegos/kick-off-96-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Simulación deportiva",
+      "Fútbol arcade"
+    ],
+    "desarrollador": [
+      "Anco Software Ltd."
+    ],
+    "distribuidor": [
+      "Anco Software Ltd."
+    ],
+    "ean": [],
+    "descripcion": "Kick Off 96 es un videojuego de fútbol desarrollado y publicado por la compañía británica Anco Software en 1996 para ordenadores compatibles PC y Amiga. La entrega recupera la identidad de una de las sagas deportivas europeas más reconocibles de finales de los años ochenta y principios de los noventa, caracterizada por su elevada velocidad de juego, controles exigentes y un tratamiento del balón que obliga al jugador a dominar los movimientos, pases y disparos. Lanzado coincidiendo con la Eurocopa de Inglaterra de 1996, permite disputar competiciones internacionales y encuentros entre clubes, con una amplia selección de equipos y futbolistas. Incorpora distintas perspectivas de cámara, incluyendo vistas cenitales e isométricas, y combina modalidades de juego arcade con opciones de simulación y organización de competiciones personalizadas. Su propuesta mantiene la importancia de la habilidad manual y los reflejos frente al realismo audiovisual que comenzaba a imponerse en otros simuladores futbolísticos de mediados de los noventa. La versión para PC utiliza gráficos VGA compatibles y se distribuyó en CD-ROM, con requisitos mínimos de procesador 486 DX2 a 66 MHz, 8 MB de memoria RAM y MS-DOS 5.0 o superior. La edición española catalogada presenta textos comerciales en castellano, el lema promocional '¡Más rápido que ninguno!' y la referencia de producto MG-40089. Su presentación en estuche Jewel Case constituye un testimonio de la distribución económica y compacta de videojuegos para PC durante la expansión comercial del CD-ROM. Desde una perspectiva histórica, Kick Off 96 documenta la evolución de una franquicia nacida en los ordenadores de 16 bits hacia el mercado multimedia de PC, en una etapa de intensa competencia entre los juegos de fútbol arcade tradicionales y las nuevas producciones deportivas tridimensionales.",
+    "incluye": [
+      "Estuche Jewel Case de CD-ROM",
+      "Carátula frontal en castellano",
+      "Carátula trasera con requisitos técnicos",
+      "CD-ROM original de Kick Off 96"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Kick Off",
+      "Kick Off 96",
+      "Anco Software",
+      "fútbol clásico",
+      "fútbol arcade",
+      "Eurocopa 1996",
+      "Euro 96",
+      "Inglaterra 1996",
+      "selecciones nacionales",
+      "clubes europeos",
+      "videojuegos deportivos de los 90",
+      "videojuego británico",
+      "PC compatibles",
+      "MS-DOS",
+      "VGA",
+      "SVGA",
+      "CD-ROM",
+      "486 DX2",
+      "Pentium",
+      "Gravis GamePad",
+      "joystick",
+      "multijugador local",
+      "edición española",
+      "carátula en castellano",
+      "Anco",
+      "MG-40089",
+      "Jewel Case PC",
+      "videojuego físico",
+      "coleccionismo PC",
+      "preservación digital",
+      "retro PC"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "No determinado"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-14",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Metal Rage",
+    "url": "juegos/metal-rage-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Acción",
+      "Shooter 3D",
+      "Combate vehicular",
+      "Simulación de combate",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Titus France SA"
+    ],
+    "distribuidor": [
+      "Titus France SA",
+      "Titus Interactive"
+    ],
+    "ean": [
+      "3417240953312"
+    ],
+    "descripcion": "Metal Rage, conocido también como Metal Rage: Defender of the Earth, es un videojuego de acción y combate vehicular tridimensional desarrollado y publicado por la compañía francesa Titus France en 1996 para ordenadores compatibles IBM PC. Ambientado en un futuro próximo, hacia el año 2030, plantea una Tierra amenazada por una invasión extraterrestre mientras gran parte de las fuerzas militares humanas se encuentran destinadas a proteger la colonización de otros planetas. El jugador asume el control del TK2003, un prototipo de carro de combate tecnológicamente avanzado cuyo nombre en clave es Metal Rage, y debe enfrentarse a las fuerzas invasoras con la ayuda de una resistencia que proporciona información, suministros y apoyo logístico. Su propuesta combina disparos en tiempo real, conducción de vehículos blindados, exploración de escenarios urbanos y objetivos tácticos. El tanque dispone de diferentes sistemas de armamento, entre ellos ametralladoras, cañones, misiles guiados, minas y dispositivos de reconocimiento, mientras que los enemigos incluyen helicópteros, vehículos militares, torretas y otros blindados. La progresión exige combatir, administrar munición, recoger suministros y localizar tarjetas de acceso que permiten desactivar barreras y avanzar por los niveles. Técnicamente destaca por su motor gráfico tridimensional desarrollado bajo la dirección de Éric Zmiro, capaz de representar entornos poligonales con perspectivas interiores y exteriores del vehículo, diferentes ángulos de cámara y elementos interactivos. El juego pertenece a la última etapa de los títulos de acción tridimensional concebidos para MS-DOS, cuando los motores 3D por software competían por ofrecer experiencias cada vez más cercanas a los simuladores de combate. Esta edición europea de Titus se distribuyó en un CD-ROM dentro de un estuche Jewel Case, con textos comerciales en varios idiomas y compatibilidad anunciada con DOS, Windows 3.1x y Windows 95. La contraportada presenta información en francés, alemán, inglés, español e italiano, característica de las distribuciones multinacionales de software para PC de mediados de los noventa. Su interés documental reside en conservar una producción menos conocida del catálogo de Titus, representativa de la experimentación con motores 3D propios, la acción militar futurista y la transición tecnológica entre MS-DOS y Windows 95. Para su preservación digital resulta especialmente relevante conservar una imagen íntegra del CD-ROM original y documentar su comportamiento en entornos DOS compatibles, incluyendo la posible ejecución mediante DOSBox, sin considerar verificada la compatibilidad del ejemplar hasta realizar las correspondientes pruebas de laboratorio.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original de Metal Rage",
+      "Carátula frontal",
+      "Contracarátula multilingüe"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Metal Rage",
+      "Metal Rage Defender of the Earth",
+      "Titus",
+      "Titus Interactive",
+      "Titus France",
+      "Éric Zmiro",
+      "TK2003",
+      "tanques futuristas",
+      "combate de tanques",
+      "combate vehicular 3D",
+      "invasión extraterrestre",
+      "defensa de la Tierra",
+      "vehículos blindados",
+      "acción militar futurista",
+      "motor gráfico 3D",
+      "gráficos poligonales",
+      "renderizado por software",
+      "vista en primera persona",
+      "vista en tercera persona",
+      "armamento futurista",
+      "misiles guiados",
+      "escenarios urbanos",
+      "PC CD-ROM",
+      "MS-DOS",
+      "Windows 3.1",
+      "Windows 95",
+      "DOSBox",
+      "SVGA",
+      "juego francés",
+      "edición europea",
+      "contraportada multilingüe",
+      "1996",
+      "Jewel Case",
+      "PC clásico",
+      "videojuego físico",
+      "coleccionismo PC",
+      "preservación digital"
+    ],
+    "anio": "1996",
+    "mercado": [
+      "Europa",
+      "España",
+      "Francia",
+      "Alemania",
+      "Reino Unido",
+      "Italia"
+    ],
+    "idioma": [
+      "Francés",
+      "Alemán",
+      "Inglés",
+      "Español",
+      "Italiano"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-14",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Trolls",
+    "url": "juegos/trolls-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Plataformas",
+      "Acción",
+      "Arcade",
+      "Plataformas 2D"
+    ],
+    "desarrollador": [
+      "Flair Software"
+    ],
+    "distribuidor": [
+      "Friendware"
+    ],
+    "ean": [],
+    "descripcion": "Trolls es un videojuego de plataformas y acción desarrollado originalmente por el estudio británico Flair Software y publicado en 1992 para ordenadores personales, con versiones para MS-DOS, Amiga y otras plataformas domésticas. Inspirado en las populares figuras de trolls de cabellos de colores que alcanzaron una enorme difusión comercial durante los años noventa, propone una aventura de desplazamiento lateral protagonizada por una de estas criaturas en escenarios de fantasía repletos de enemigos, obstáculos, objetos coleccionables y zonas secretas. El objetivo consiste en recorrer los niveles, rescatar pequeños trolls y alcanzar la salida correspondiente, combinando saltos de precisión, exploración y enfrentamientos con enemigos. Entre sus características distintivas destaca la utilización de un yoyó como herramienta ofensiva y de interacción con el escenario, además de una estructura de niveles que favorece la búsqueda de bonificaciones y rutas alternativas. El juego presenta gráficos bidimensionales de estética caricaturesca, animaciones coloridas y una ambientación musical característica de los títulos de plataformas de principios de los noventa. Esta edición española, comercializada en 1997 por Friendware dentro de su línea económica Golden Zone, recupera el título en formato CD-ROM para IBM PC y compatibles. Su presentación en estuche Jewel Case, la documentación comercial en castellano y la compatibilidad anunciada con MS-DOS, Windows 3.1, Windows 3.11 y Windows 95 reflejan la práctica habitual de reeditar juegos originalmente desarrollados para DOS durante la expansión del mercado multimedia de PC. La contraportada anuncia 32 niveles, escenarios secretos, objetos coleccionables y efectos sonoros compatibles con Sound Blaster. El disco conserva una identificación editorial propia, con depósito legal M-10577-97 y distribución bajo licencia de Friendware. Esta reedición constituye un testimonio del mercado español de videojuegos económicos en CD-ROM durante la segunda mitad de los años noventa, cuando numerosas producciones de generaciones anteriores encontraron una nueva vida comercial mediante colecciones de bajo precio.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "Carátula frontal Golden Zone",
+      "Contraportada con descripción y requisitos técnicos en castellano",
+      "1 CD-ROM original con serigrafía verde de Trolls y Friendware"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Trolls",
+      "Flair Software",
+      "Friendware",
+      "Golden Zone",
+      "reedición española",
+      "edición española",
+      "videojuegos económicos",
+      "juegos budget",
+      "plataformas clásicas",
+      "scroll lateral",
+      "plataformas 2D",
+      "trolls de juguete",
+      "muñecos trolls",
+      "yoyó",
+      "rescate de personajes",
+      "objetos coleccionables",
+      "niveles secretos",
+      "32 niveles",
+      "MS-DOS",
+      "Windows 3.1",
+      "Windows 3.11",
+      "Windows 95",
+      "IBM PC compatibles",
+      "procesador 386",
+      "Sound Blaster",
+      "CD-ROM",
+      "Jewel Case",
+      "retro PC",
+      "videojuegos de los 90",
+      "reedición de 1997",
+      "depósito legal M-10577-97",
+      "coleccionismo PC",
+      "preservación digital",
+      "videojuego físico"
+    ],
+    "anio": "1997",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Budget",
+      "Colección"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-14",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Mundiales '98",
+    "url": "juegos/mundiales-98-jewelcase/",
+    "plataforma": [
+      "Win95",
+      "Win98"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Deportes",
+      "Fútbol",
+      "Simulación deportiva",
+      "Fútbol en 3D"
+    ],
+    "desarrollador": [
+      "Z-Axis, Ltd."
+    ],
+    "distribuidor": [
+      "Take-Two Interactive Software Europe",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Mundiales '98 es un videojuego de fútbol tridimensional desarrollado por el estudio estadounidense Z-Axis y publicado por Take-Two Interactive en 1998, coincidiendo con la celebración de la Copa Mundial de la FIFA en Francia. Comercializado en España por Erbe Software, pertenece a una producción internacional que recibió diferentes denominaciones según el mercado: Three Lions en Reino Unido, Golden Goal 98 en Alemania, Pro:Foot Contest:98 en Francia, Bomba '98 en Italia y Alexi Lalas International Soccer en Norteamérica. Esta diversidad de títulos y presentaciones comerciales constituye uno de sus principales elementos de interés documental. El juego propone disputar encuentros internacionales con 50 selecciones nacionales, formaciones tácticas intercambiables y un sistema de juego centrado en el control directo de los futbolistas. Incorpora gráficos poligonales en 3D, animaciones de jugadores obtenidas mediante técnicas de captura de movimiento, equipaciones reconocibles, pases, disparos, regates, cambios tácticos y comunicación entre los jugadores y el árbitro. Entre sus características más destacadas figura la posibilidad de disputar encuentros con selecciones históricas como Inglaterra de 1966 y Brasil de 1970, así como la representación de movimientos individuales y comportamientos específicos de los futbolistas. Su motor gráfico permite jugar sin necesidad de una tarjeta aceleradora 3D, aunque admite configuraciones de hardware más avanzadas para mejorar la presentación visual. La edición española conserva los textos comerciales y la documentación exterior en castellano, con requisitos mínimos de Windows 95 y 16 MB de memoria RAM. Mundiales '98 representa la intensa competencia existente en el mercado de simuladores futbolísticos de finales de los noventa, cuando los estudios buscaban combinar gráficos tridimensionales, animación realista y accesibilidad jugable aprovechando la popularidad internacional del Mundial de Francia. Su conservación resulta especialmente interesante para estudiar las estrategias de localización comercial, las denominaciones regionales y la evolución tecnológica de los videojuegos deportivos para PC durante la transición hacia los gráficos 3D.",
+    "incluye": [
+      "Estuche Jewel Case",
+      "CD-ROM original del juego",
+      "Carátula frontal",
+      "Contracarátula en castellano"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Mundiales 98",
+      "Mundial 1998",
+      "Francia 98",
+      "Three Lions",
+      "Golden Goal 98",
+      "Pro Foot Contest 98",
+      "Bomba 98",
+      "Alexi Lalas International Soccer",
+      "Z-Axis",
+      "Take-Two Interactive",
+      "Erbe Software",
+      "selecciones nacionales",
+      "50 selecciones",
+      "Inglaterra 1966",
+      "Brasil 1970",
+      "captura de movimiento",
+      "Motion Capture",
+      "gráficos poligonales",
+      "motor gráfico 3D",
+      "inteligencia artificial deportiva",
+      "tácticas futbolísticas",
+      "multijugador local",
+      "Windows 95",
+      "Windows 98",
+      "PC CD-ROM",
+      "edición española",
+      "localización comercial",
+      "videojuegos deportivos de los 90",
+      "fútbol clásico de PC",
+      "Jewel Case",
+      "coleccionismo PC",
+      "preservación de videojuegos"
+    ],
+    "anio": "1998",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-14",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Chaos Control",
+    "url": "juegos/chaos-control-2-jewelcase/",
+    "plataforma": [
+      "MsDos",
+      "Win3.x",
+      "Win95"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Acción",
+      "Rail shooter",
+      "Shoot 'em up",
+      "Disparos sobre raíles",
+      "Arcade",
+      "Ciencia ficción"
+    ],
+    "desarrollador": [
+      "Infogrames Multimedia",
+      "Philips Interactive Media"
+    ],
+    "distribuidor": [
+      "Philips Media France",
+      "Infogrames Multimedia",
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Chaos Control es un videojuego de acción y disparos sobre raíles desarrollado por Infogrames Multimedia y publicado en 1995 en colaboración con Philips Interactive Media. Concebido durante el auge de las producciones multimedia en CD-ROM, propone una aventura futurista en la que la humanidad debe defender la Tierra frente a una invasión extraterrestre. El jugador controla el armamento de un caza espacial y debe destruir enemigos y objetivos que aparecen durante secuencias de desplazamiento predeterminadas, utilizando un punto de mira en pantalla. Su desarrollo combina reflejos, precisión y acción arcade con una presentación audiovisual inspirada en la animación japonesa, la estética cyberpunk y la ciencia ficción de los años noventa. Uno de sus elementos tecnológicos más representativos es la utilización de estaciones Silicon Graphics para producir imágenes tridimensionales prerenderizadas y secuencias animadas de gran espectacularidad para la época. La acción recorre escenarios urbanos futuristas, instalaciones tecnológicas y entornos espaciales mediante transiciones cinematográficas y gráficos a pantalla completa. Chaos Control apareció originalmente en el ecosistema multimedia Philips CD-i y también contó con versiones para MS-DOS, Macintosh, Sega Saturn y PlayStation, representando una etapa de experimentación en la que las compañías intentaban trasladar la experiencia audiovisual del CD-ROM a diferentes plataformas domésticas. Esta edición española para PC compatibles, comercializada en estuche Jewel Case bajo los sellos Philips, Infogrames y Erbe Software, pertenece a la distribución original de mediados de los años noventa. Su documentación comercial indica compatibilidad con procesadores 486 a 33 MHz o superiores, MS-DOS 5.0, Windows 3.1, Windows 3.11 y Windows 95, además de gráficos VGA de 256 colores, 4 MB de memoria RAM y tarjetas de sonido Sound Blaster o compatibles. El título conserva interés histórico y documental como ejemplo de los primeros shooters cinematográficos europeos, del empleo de tecnología gráfica profesional Silicon Graphics en videojuegos y de la expansión del CD-ROM como soporte para producciones de acción audiovisual.",
+    "incluye": [
+      "Estuche Jewel Case de plástico transparente",
+      "Carátula frontal en castellano",
+      "Carátula posterior con descripción y requisitos técnicos en castellano",
+      "1 CD-ROM original del juego"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Chaos Control",
+      "Infogrames",
+      "Infogrames Multimedia",
+      "Philips",
+      "Philips Interactive Media",
+      "Philips Media France",
+      "Erbe Software",
+      "edición española",
+      "videojuego francés",
+      "PC compatibles",
+      "MS-DOS",
+      "Windows 3.1",
+      "Windows 3.11",
+      "Windows 95",
+      "CD-ROM",
+      "Jewel Case",
+      "Silicon Graphics",
+      "gráficos prerenderizados",
+      "animación 3D",
+      "gráficos VGA",
+      "256 colores",
+      "Sound Blaster",
+      "shooting gallery",
+      "acción sobre raíles",
+      "caza espacial",
+      "invasión extraterrestre",
+      "combate espacial",
+      "cibercultura",
+      "estética manga",
+      "cyberpunk",
+      "Philips CD-i",
+      "videojuegos multimedia",
+      "era del CD-ROM",
+      "1995",
+      "años 90",
+      "PC clásico",
+      "videojuegos retro",
+      "edición física PC",
+      "coleccionismo PC",
+      "preservación de videojuegos"
+    ],
+    "anio": "1995",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-14",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Desert Strike: Regresa al Golfo",
+    "url": "juegos/desert-strike-regresa-al-golfo-jewelcase/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Jewel Case",
+    "genero": [
+      "Acción",
+      "Shoot 'em up",
+      "Combate de helicópteros",
+      "Acción táctica",
+      "Simulación arcade",
+      "Acción bélica"
+    ],
+    "desarrollador": [
+      "Electronic Arts",
+      "Cajji Software"
+    ],
+    "distribuidor": [
+      "Gremlin Interactive",
+      "Electronic Arts"
+    ],
+    "ean": [],
+    "descripcion": "Desert Strike: Regresa al Golfo es la edición española para PC CD-ROM de Desert Strike: Return to the Gulf, un videojuego de acción y combate aéreo creado originalmente por Electronic Arts en 1992 para Sega Mega Drive y adaptado a ordenadores compatibles IBM PC con MS-DOS en 1994. Esta conversión fue comercializada por Gremlin Interactive bajo licencia de Electronic Arts y trasladó al ordenador uno de los títulos más representativos de la acción militar con perspectiva isométrica de principios de los años noventa. Ambientado en un conflicto ficticio de Oriente Medio claramente inspirado en la Guerra del Golfo de 1990-1991, el argumento sitúa al jugador al mando de un helicóptero de ataque Apache enviado para detener los planes del general Kilbaba, un dictador que amenaza la estabilidad internacional mediante instalaciones militares, armamento químico y nuclear y operaciones contra la población civil. La experiencia combina combate arcade, planificación táctica y administración de recursos. El jugador debe completar objetivos militares, destruir instalaciones estratégicas, rescatar prisioneros y aliados, proteger unidades amigas y neutralizar defensas enemigas mientras controla las reservas de combustible, munición y blindaje del helicóptero. Su perspectiva isométrica permite representar escenarios extensos con desplazamiento multidireccional, unidades terrestres, estructuras y elementos destructibles. El sistema de juego incorpora distintas clases de armamento, selección de copiloto y rescate de personal, cuyas decisiones condicionan el desarrollo de las misiones. La edición para PC ofrece cinco campañas con más de treinta y cinco misiones, controles mediante teclado o joystick y compatibilidad con tarjetas de sonido Sound Blaster. Esta versión en CD-ROM destaca especialmente por incorporar el nivel adicional exclusivo Supergun, anunciado expresamente tanto en la carátula como en la contraportada y en la serigrafía del disco. El lanzamiento pertenece a la primera etapa de la serie Strike de Electronic Arts, continuada posteriormente por Jungle Strike, Urban Strike, Soviet Strike y Nuclear Strike. Su importancia histórica reside en haber popularizado una fórmula de acción táctica accesible que mezclaba el combate de vehículos, las misiones de rescate y la gestión de recursos, diferenciándose tanto de los simuladores de vuelo tradicionales como de los shoot 'em up convencionales. Esta edición física española de 1994, presentada en estuche Jewel Case con textos comerciales en castellano y distribuida en CD-ROM, constituye un testimonio de la transición de los grandes éxitos de consola al mercado de compatibles PC y de la expansión del formato óptico durante la primera mitad de los años noventa. Para su preservación resulta especialmente relevante documentar la variante española de la carátula, el nivel adicional Supergun, la identificación original del soporte y sus requisitos de ejecución bajo MS-DOS.",
+    "incluye": [
+      "Estuche Jewel Case de plástico transparente",
+      "Carátula frontal en castellano",
+      "Contraportada en castellano con instrucciones comerciales y requisitos mínimos",
+      "1 CD-ROM original con serigrafía de Desert Strike y distintivo del nivel exclusivo Supergun"
+    ],
+    "serie": [
+      "Todos",
+      "Jewel Case"
+    ],
+    "tags": [
+      "Desert Strike",
+      "Desert Strike Return to the Gulf",
+      "Regresa al Golfo",
+      "Strike series",
+      "Electronic Arts",
+      "Gremlin Interactive",
+      "Cajji Software",
+      "helicóptero Apache",
+      "AH-64 Apache",
+      "combate aéreo",
+      "helicópteros de combate",
+      "Guerra del Golfo",
+      "Oriente Medio",
+      "general Kilbaba",
+      "misiones de rescate",
+      "gestión de combustible",
+      "gestión de munición",
+      "combate isométrico",
+      "perspectiva isométrica",
+      "arcade militar",
+      "acción táctica",
+      "armamento militar",
+      "misiles",
+      "Supergun",
+      "nivel exclusivo Supergun",
+      "cinco campañas",
+      "35 misiones",
+      "MS-DOS",
+      "DOS 5.0",
+      "Sound Blaster",
+      "joystick",
+      "IBM PC compatibles",
+      "conversión de consola a PC",
+      "Sega Mega Drive",
+      "juegos de los años 90",
+      "1994",
+      "edición española",
+      "carátula en castellano",
+      "Electronic Arts Classics",
+      "PC CD-ROM",
+      "Jewel Case",
+      "formato físico",
+      "videojuego retro",
+      "coleccionismo PC",
+      "preservación de videojuegos",
+      "preservación digital",
+      "historia del videojuego"
+    ],
+    "anio": "1994",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Reedición",
+      "Edición especial"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "fecha_incorporacion": "2026-11-14",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Caesar",
+    "url": "juegos/caesar-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Construcción de ciudades",
+      "City builder",
+      "Estrategia en tiempo real",
+      "Gestión",
+      "Simulación histórica",
+      "Estrategia militar"
+    ],
+    "desarrollador": [
+      "Impressions Games"
+    ],
+    "distribuidor": [
+      "Impressions Games",
+      "Proein"
+    ],
+    "ean": [],
+    "descripcion": "Caesar es un videojuego de estrategia y simulación urbana desarrollado por Impressions Games y publicado originalmente en 1992. Ambientado en el Imperio romano, constituye la primera entrega de la serie Caesar y uno de los títulos pioneros en trasladar la fórmula de construcción y administración de ciudades popularizada por SimCity a un contexto histórico. El jugador asume el papel de gobernador de una provincia romana y debe desarrollar asentamientos prósperos mediante la planificación urbanística, la gestión económica y la defensa militar. El sistema de juego permite construir viviendas, carreteras, acueductos, baños públicos, foros, templos, teatros, anfiteatros, instalaciones productivas y otros edificios necesarios para mantener el crecimiento de la población. La administración provincial exige equilibrar los recursos económicos, la prosperidad, la cultura y la paz social, mientras se organizan legiones y fortificaciones para proteger el territorio de las incursiones de tribus enemigas. La progresión depende de cuatro indicadores fundamentales: paz, prosperidad, cultura e imperio, cuyo desarrollo permite acceder a nuevas responsabilidades hasta alcanzar el rango de César. Una de sus características históricas más interesantes es la integración opcional con Cohort II, otro título de Impressions Games que permite resolver mediante combates tácticos independientes los enfrentamientos militares de la provincia. Técnicamente, la versión para IBM PC y compatibles funciona bajo MS-DOS, utiliza una interfaz gráfica controlada mediante ratón y presenta ciudades mediante una perspectiva aérea oblicua, con edificios diferenciados y ciudadanos animados que recorren las calles. El título constituye el origen de una de las principales familias de simuladores históricos de construcción urbana para ordenador, posteriormente desarrollada mediante Caesar II, Caesar III y Caesar IV, e influyó en la evolución del catálogo de Impressions Games hacia obras como Pharaoh, Zeus y Emperor: Rise of the Middle Kingdom. Esta edición física española, comercializada por Proein bajo el sello Impressions, corresponde a la distribución en dos disquetes de 3,5 pulgadas identificados con la marca PC Games y acompañados de documentación impresa en castellano. Su presentación en caja de cartón conserva el diseño gráfico original con un legionario romano, un retrato de Julio César y una representación aérea de una ciudad antigua. La edición posee especial interés documental por pertenecer a la primera etapa comercial de la franquicia, anterior a la adquisición de Impressions Games por Sierra On-Line en 1995, y por representar la distribución española de videojuegos de estrategia para MS-DOS durante los primeros años de la década de 1990. La conservación de sus disquetes originales, manual y materiales promocionales resulta especialmente relevante para documentar las características técnicas, editoriales y comerciales de este periodo del videojuego para PC.",
+    "incluye": [
+      "Caja original de cartón",
+      "Manual de instrucciones en castellano",
+      "2 disquetes de 3,5 pulgadas HD identificados como DISQUETTE 1 y DISQUETTE 2",
+      "Folleto promocional de Silverball con información y requisitos técnicos"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Caesar",
+      "Caesar I",
+      "Saga Caesar",
+      "Impressions Games",
+      "Impressions",
+      "Proein",
+      "PC Games",
+      "David Lester",
+      "Simon Bradbury",
+      "Imperio romano",
+      "Antigua Roma",
+      "Julio César",
+      "Gobernador romano",
+      "Administración provincial",
+      "Urbanismo romano",
+      "Construcción de ciudades históricas",
+      "City building",
+      "Simulación económica",
+      "Gestión de recursos",
+      "Planificación urbana",
+      "Acueductos romanos",
+      "Legiones romanas",
+      "Defensa de ciudades",
+      "Cohort II",
+      "SimCity",
+      "Estrategia clásica",
+      "MS-DOS",
+      "IBM PC compatibles",
+      "Interfaz con ratón",
+      "Gráficos 2D",
+      "Disquetes de 3,5 pulgadas",
+      "Edición española",
+      "Manual en castellano",
+      "Proein España",
+      "Big Box",
+      "Caja de cartón",
+      "Videojuegos de 1992",
+      "PC clásico",
+      "Coleccionismo PC",
+      "Preservación de disquetes",
+      "Preservación digital",
+      "Historia del videojuego"
+    ],
+    "anio": "1992",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
     ],
     "preservacion": {
       "resumen": ""
