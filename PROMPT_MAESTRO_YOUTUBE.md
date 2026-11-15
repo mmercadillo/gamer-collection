@@ -229,23 +229,16 @@ Entrega las etiquetas en una sola línea, separadas por comas, listas para copia
 
 ## 8. HASHTAGS
 
-Utiliza preferentemente entre 3 y 5 hashtags.
+Usa 8 hashtags como máximo.
 
-El primero será siempre:
+Reglas:
 
-#pcgamearchive
-
-Selecciona los restantes según la publicación:
-
-- #pcgaming
-- #retropc
-- #retropcgames
-- #pcbigbox, exclusivamente para ediciones Big Box verificadas.
-- Hashtag específico del juego, saga o género, cuando aporte valor.
-
-No utilices todos los hashtags automáticamente.
-
-No repitas palabras equivalentes innecesariamente.
+* hashtags obligatorios: * #pcgamearchive #pcbigbox #pcgaming #retropc #retropcgames 
+* el primer hashtag debe ser #pcgamearchive;
+* usa solo hashtags relacionados de verdad con el juego o la edición;
+* #pcbigbox solo si el formato es realmente Big Box;
+* evita repetir hashtags equivalentes;
+* mezcla marca, PC gaming retro y 1-3 etiquetas específicas del título, saga, género, compañía, soporte o edición cuando aporten descubrimiento.
 
 Los hashtags deben aparecer al final de la descripción.
 

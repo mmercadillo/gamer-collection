@@ -1,5 +1,18 @@
 [
   {
+    "id": "guia-lode-runner-the-legend-returns-bigbox-portable",
+    "titulo": "Lode Runner: The Legend Returns en Windows 10 con DOSBox Staging y Windows 3.1",
+    "categoria": "guias",
+    "fecha": "2026-11-15",
+    "descripcion": "Crea una instalación portable de la edición española Big Box con 256 colores, música del CD, efectos de sonido y arranque a pantalla completa con un doble clic.",
+    "url": "documentacion/guias/lode-runner-the-legend-returns-bigbox-portable/",
+    "juegos": [
+      "juegos/lode-runner-the-legend-returns-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/guia-lode-runner-the-legend-returns-bigbox-portable.md",
+    "actualizado": "2026-11-15"
+  },
+  {
     "id": "guia-lode-runner-the-legend-returns-bigbox-windows-10",
     "titulo": "Jugar a Lode Runner: The Legend Returns en Windows 10 — edición española Big Box",
     "categoria": "guias",

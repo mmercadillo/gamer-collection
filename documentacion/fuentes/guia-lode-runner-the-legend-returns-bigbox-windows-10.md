@@ -2,6 +2,8 @@
 
 Guía para la edición española Big Box en CD-ROM, ficha #000250. Probada en **Windows 10 Pro 22H2 x64, compilación 19045.6466**, con **DAEMON Tools Lite 12.6** y **otvdm 0.9.0**. [Ficha del juego](../../../juegos/lode-runner-the-legend-returns-bigbox/) · [Preservación del CD](../../preservacion/lode-runner-the-legend-returns-bigbox/)
 
+[Ver la guía de instalación portable con DOSBox Staging y Windows 3.1](../lode-runner-the-legend-returns-bigbox-portable/)
+
 ## 1. Monta el CD en D:
 
 Mantén juntos los archivos `LODE_RUNNER_CD.CUE` y `LODE_RUNNER_CD.BIN`. En **DAEMON Tools Lite**, monta el archivo **CUE** en la unidad virtual **`D:`**. En el Explorador, abre `D:` y comprueba que aparecen `INSTALL.EXE` e `INSTALL.DAT`. Deja la imagen montada mientras instalas y juegas.

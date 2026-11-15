@@ -1,6 +1,12 @@
 [
   {
     "fecha": "2026-11-15",
+    "titulo": "Lode Runner en una carpeta portable con Windows 3.1",
+    "descripcion": "La nueva guía explica cómo abrir la edición española con un doble clic, a pantalla completa y con la música del CD y los efectos originales. Probamos también el guardado y la carga desde otra ubicación.",
+    "url": "documentacion/guias/lode-runner-the-legend-returns-bigbox-portable/"
+  },
+  {
+    "fecha": "2026-11-15",
     "titulo": "Lode Runner: The Legend Returns ya se puede jugar en Windows 10",
     "descripcion": "Probamos la edición española Big Box desde la imagen del CD, con música, efectos y partidas guardadas. La guía recoge cómo instalarla y hacer que Windows reconozca sus pistas de audio.",
     "url": "documentacion/guias/lode-runner-the-legend-returns-bigbox-windows-10/"
