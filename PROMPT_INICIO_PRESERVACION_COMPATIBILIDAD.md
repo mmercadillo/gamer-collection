@@ -22,7 +22,7 @@ Si la primera lectura termina sin errores registrados y la estructura es coheren
 
 Prepara primero el registro interno y el documento público de preservación con el procedimiento seguido, la evidencia y los límites. Si el alcance es solo preservación, detente tras entregar ambos. Si incluye las dos fases, espera mi revisión de esos documentos antes de pasar a compatibilidad.
 
-Para compatibilidad, parte de una preservación documentada. Usa una copia de trabajo separada y contrasta sus SHA-256 con los archivos de referencia antes de montar o instalar. Registra los resultados que se hayan probado en ese entorno.
+Para compatibilidad, parte de una preservación documentada. Si la edición Win16 usa CD-DA, consulta la referencia de DAEMON Tools Lite 12.6 en el maestro y comprueba desde el juego que se oye la música. Usa una copia de trabajo separada y contrasta sus SHA-256 con los archivos de referencia antes de montar o instalar. Registra los resultados que se hayan probado en ese entorno.
 
 Empieza resumiendo la pieza, el alcance, el último paso acreditado y la siguiente acción concreta.
 ```

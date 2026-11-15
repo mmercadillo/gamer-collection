@@ -71,7 +71,8 @@ La matriz funcional de cada juego indicará el resultado real de sonido y músic
 
 Software de referencia actual:
 
-- **WinCDEmu 4.1**.
+- **WinCDEmu 4.1** para montar imágenes cuando la prueba requiere acceso a los datos.
+- **DAEMON Tools Lite 12.6** para montar BIN/CUE de CD mixto cuando el juego requiere CD-DA. Validado con [Lode Runner: The Legend Returns](../../guias/lode-runner-the-legend-returns-bigbox-windows-10/), incluida la instalación y la reproducción de música durante el juego.
 
 Su presencia no implica que todas las piezas deban utilizarlo. Cada guía documentará la herramienta de montaje realmente empleada.
 
