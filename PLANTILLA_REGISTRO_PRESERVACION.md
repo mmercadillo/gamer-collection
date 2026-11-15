@@ -80,7 +80,8 @@ Antes de iniciar el trabajo debe registrarse la **versión vigente del Estándar
 - Logs:
 - Errores / incidencias:
 - Sectores omitidos, sustituidos o reconstruidos (rango, cantidad, valor de relleno y evidencia, si aplica):
-- Segunda adquisición realizada: sí / no
+- Método de verificación: adquisición única con revisión de log, estructura y SHA-256 / comparación entre adquisiciones independientes.
+- Segunda adquisición: omitida por primera lectura sin errores / realizada (indicar incidencia o indicios de fallo atribuible a la imagen).
 - Resultado de la comparación, si procede:
 
 ## 6. Verificación
@@ -118,6 +119,8 @@ SHA256  fichero
 **Nota:** `funcional_verificada` requiere evidencia de pruebas de juego, no solo una imagen generada o montable. No equivale automáticamente a `verificada` como adquisición fiel del soporte.
 
 ## 9. Copia de trabajo
+
+Preparar y revisar el registro interno y el documento público de preservación antes de iniciar las pruebas de compatibilidad.
 
 - Creada: sí / no
 - Derivada de:

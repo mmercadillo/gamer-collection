@@ -1,5 +1,5 @@
-**Versión vigente:** 1.0  
-**Fecha de entrada en vigor:** 05/10/2026
+**Versión vigente:** 2.0  
+**Fecha de entrada en vigor:** 15/11/2026
 
 ## Propósito
 
@@ -115,7 +115,7 @@ La adquisición debe realizarse con herramientas y hardware identificados y repr
 - logs producidos por la herramienta;
 - incidencias observadas.
 
-Siempre que el soporte y el procedimiento lo permitan, PC Game Archive buscará una segunda lectura independiente y comparará los resultados para reforzar la verificación.
+Si la primera lectura finaliza sin errores registrados y la revisión de estructura permite utilizar la imagen, se documenta una adquisición única y se continúa con los controles de verificación. Se reconsidera una segunda lectura si el log o la estructura aportan indicios de una adquisición defectuosa o si una prueba de instalación, arranque o jugabilidad señala un posible problema de la imagen. Conservar el primer volcado y registrar cualquier nueva lectura como una operación independiente.
 
 ## 6. Verificación
 
@@ -125,10 +125,12 @@ La verificación debe incluir, según proceda:
 
 - revisión del log de lectura;
 - comprobación de sectores con errores o comportamiento anómalo;
-- comparación entre adquisiciones independientes cuando sea posible;
+- comparación entre adquisiciones independientes si se ha justificado y realizado una nueva lectura;
 - comprobación de la estructura esperada;
 - hashes de los ficheros resultantes;
 - contraste con referencias externas fiables cuando existan, sin sustituir la evidencia de la pieza propia.
+
+Registrar el método realmente utilizado. Los hashes identifican los archivos obtenidos y permiten comprobar su integridad y la de sus copias. La reproducibilidad de la adquisición se comprueba comparando lecturas independientes.
 
 ### Hash de referencia
 
@@ -158,7 +160,7 @@ El máster:
 
 ## 8. Copia o derivado de trabajo
 
-Cuando sea necesario instalar, montar, convertir, parchear o modificar contenidos, se crea una copia de trabajo derivada del máster.
+Preparar y revisar el registro interno y el documento público de preservación antes de iniciar las pruebas de compatibilidad. Para instalar, montar, convertir, parchear o modificar contenidos, crear una copia de trabajo derivada del máster y verificar sus hashes respecto al origen antes de utilizarla.
 
 Debe mantenerse la trazabilidad:
 
@@ -249,6 +251,10 @@ Criterio de versionado:
 Los registros ya cerrados **no se reescriben para simular que aplicaron la versión nueva**. Solo se revisarán si se realiza una nueva adquisición o una reverificación formal, que deberá quedar documentada como una nueva intervención.
 
 ## Historial de versiones
+
+### 2.0 — 15/11/2026
+
+Introduce la adquisición única cuando el log y la estructura permiten continuar, condiciona la repetición a incidencias que puedan afectar a la imagen y sitúa la documentación de preservación antes de las pruebas de compatibilidad.
 
 ### 1.0 — 05/10/2026
 

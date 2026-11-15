@@ -1,5 +1,31 @@
 [
   {
+    "id": "guia-lode-runner-the-legend-returns-bigbox-windows-10",
+    "titulo": "Jugar a Lode Runner: The Legend Returns en Windows 10 — edición española Big Box",
+    "categoria": "guias",
+    "fecha": "2026-11-15",
+    "descripcion": "Instalación y ejecución del CD-ROM desde BIN/CUE con otvdm 0.9.0 y DAEMON Tools Lite 12.6. Primer nivel, teclado, música, efectos y guardado y carga comprobados.",
+    "url": "documentacion/guias/lode-runner-the-legend-returns-bigbox-windows-10/",
+    "juegos": [
+      "juegos/lode-runner-the-legend-returns-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/guia-lode-runner-the-legend-returns-bigbox-windows-10.md",
+    "actualizado": "2026-11-15"
+  },
+  {
+    "id": "preservacion-lode-runner-the-legend-returns-bigbox",
+    "titulo": "Preservación digital de Lode Runner: The Legend Returns — edición española Big Box",
+    "categoria": "preservacion",
+    "fecha": "2026-11-15",
+    "descripcion": "Adquisición en BIN/CUE del CD-ROM de la edición española Big Box, con una pista de datos y 32 de audio. Documentamos los ajustes de ImgBurn, el pregap y los SHA-256 de la primera lectura.",
+    "url": "documentacion/preservacion/lode-runner-the-legend-returns-bigbox/",
+    "juegos": [
+      "juegos/lode-runner-the-legend-returns-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-lode-runner-the-legend-returns-bigbox.md",
+    "actualizado": "2026-11-15"
+  },
+  {
     "id": "preservacion-kingmaker-la-busqueda-de-la-corona-bigbox",
     "titulo": "Preservación digital de Kingmaker: La Búsqueda de la Corona — edición española Big Box (2 disquetes)",
     "categoria": "preservacion",
@@ -208,7 +234,8 @@
     "fecha": "2026-10-04",
     "descripcion": "Criterios de PC Game Archive para documentar de forma reproducible cómo instalar, ajustar, probar y ejecutar una edición física concreta en sistemas actuales.",
     "url": "documentacion/guias/estandar-guias-ejecucion-compatibilidad/",
-    "contenido": "documentacion/fuentes/estandar-guias-ejecucion-compatibilidad.md"
+    "contenido": "documentacion/fuentes/estandar-guias-ejecucion-compatibilidad.md",
+    "actualizado": "2026-11-15"
   },
   {
     "id": "estandar-preservacion-digital-pc-game-archive",
@@ -218,7 +245,7 @@
     "descripcion": "Metodología versionada de PC Game Archive para identificar, caracterizar, adquirir, verificar y conservar digitalmente una pieza física sin confundir preservación con compatibilidad.",
     "url": "documentacion/preservacion/estandar-preservacion-digital/",
     "contenido": "documentacion/fuentes/estandar-preservacion-digital.md",
-    "actualizado": "2026-10-05"
+    "actualizado": "2026-11-15"
   },
   {
     "id": "caracterizacion-soportes-opticos",

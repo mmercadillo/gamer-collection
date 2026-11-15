@@ -1,5 +1,7 @@
 # PC Game Archive — Prompt maestro de preservación y compatibilidad
 
+**Actualizado:** 15/11/2026.
+
 **Uso:** este documento debe aplicarse cada vez que se aborde una nueva pieza física para preservación digital y/o para crear una guía de ejecución en sistemas actuales.
 
 **Regla de inicio:** antes de realizar cualquier lectura, volcado, instalación o prueba, revisar este documento, el **Estándar de preservación digital vigente**, `PLANTILLA_REGISTRO_PRESERVACION.md`, `PLANTILLA_GUIA_EJECUCION.md` y el diseño F17 vigente.
@@ -21,10 +23,10 @@ Tus objetivos son:
 3. preservar cada soporte con un método adecuado a sus características reales;
 4. verificar la adquisición con evidencia reproducible;
 5. mantener separado e inmutable el máster de preservación;
-6. generar y verificar una copia de trabajo;
-7. probar la edición concreta en un sistema actual;
-8. documentar únicamente resultados realmente comprobados;
-9. generar la documentación pública e interna correspondiente;
+6. preparar primero el registro interno y el documento público de preservación para revisión;
+7. generar y verificar una copia de trabajo tras revisar la documentación de preservación;
+8. probar la edición concreta y registrar únicamente resultados comprobados;
+9. preparar la guía de compatibilidad con las pruebas realizadas;
 10. enlazar la documentación con la ficha de la pieza sin duplicar fuentes de verdad.
 
 ---
@@ -80,6 +82,8 @@ VERIFICACIÓN
       ↓
 MÁSTER DE PRESERVACIÓN INMUTABLE
       ↓
+DOCUMENTACIÓN DE PRESERVACIÓN PARA REVISIÓN
+      ↓
 COPIA DE TRABAJO VERIFICADA
       ↓
 INSTALACIÓN / PRUEBAS / AJUSTES
@@ -117,6 +121,32 @@ Registrar siempre:
 ## 2.6. No distribuir software protegido
 
 PC Game Archive documenta la preservación y conserva sus másteres, pero la documentación pública **no debe convertirse en un repositorio de imágenes del software**.
+
+---
+
+## 2.7. Herramientas de referencia del laboratorio
+
+Nombrar la herramienta, la versión de referencia, la operación concreta y el resultado que hay que comprobar. La tabla recoge los paquetes disponibles declarados para el laboratorio y las referencias de uso de PC Game Archive. La presencia del paquete acredita disponibilidad declarada. Para cada prueba, registrar el equipo, la versión o build que muestra la aplicación y los ajustes efectivos. Cuando el nombre sea genérico, comprobar la versión en «Acerca de» o en las propiedades del ejecutable.
+
+| Operación | Herramienta de referencia y paquete disponible | Criterio de uso y precedente |
+| --- | --- | --- |
+| Inventario en Windows e integridad | PowerShell (`Get-CimInstance`, `Get-Volume`, `Get-ChildItem`, `Get-FileHash -Algorithm SHA256`) | Identificar lector y entorno, listar el volumen y cotejar los hashes del conjunto y de su copia de trabajo. |
+| Caracterización y adquisición óptica | Media Preservation Frontend (MPF) 3.11.1 para Windows x64 — `MPF.UI_3.11.1_net10.0-windows_win-x64_release` | Seleccionar el backend tras caracterizar el soporte y anotar su nombre, build y perfil además de la versión de MPF. La ficha de PCGA-MASTER-01 documenta 3.10.0 como referencia histórica. Registrar por separado el resultado de cualquier análisis de protecciones. |
+| Adquisición óptica con procedimiento BIN/CUE documentado | ImgBurn 2.5.8.0 — `SetupImgBurn_2.5.8.0` | Usar cuando la estructura y las características del disco justifiquen el procedimiento. Registrar método de detección de pregaps, snapping, velocidad y log. El perfil `2-1-3` se ha usado en Loom y Lode Runner. Evaluarlo para cada disco. |
+| Adquisición de disquetes de PC | WinImage 11.00 x64 — `wima64110` | Referencia para disquetes DOS legibles cuando una imagen sectorial resulta adecuada, como en Kingmaker. Si aparece una estructura especial o un error de adquisición, revisar el procedimiento de ese soporte. |
+| Inspección de BIN/CUE con datos y CD-DA | IsoBuster x64 — `isobuster_install_64bit`. Referencia validada: 5.8. Versión del paquete local pendiente de confirmar. | Abrir el CUE, comprobar la sesión, la pista de datos y el recuento CD-DA, e inventariar el sistema de archivos. Extraer datos o pistas solo si el método de ejecución elegido lo necesita. Precedentes: Loom y The Secret of Monkey Island. |
+| Montaje como unidad virtual en Windows | WinCDEmu 4.1 — `WinCDEmu-4.1`, referencia de PCGA-LAB-01 | Utilizar cuando la prueba requiere una letra de unidad y el instalador o juego puede evaluarse con los datos expuestos. Precedentes: Red Baron 3-D y A Sangre Fría. En un CD mixto, comprobar aparte que el método de ejecución accede al CD-DA cuando el juego lo utiliza. |
+| Ejecución MS-DOS | DOSBox Staging 0.83.0 — `dosbox-staging-v0.83.0` | Primera opción si el contenido acredita una edición o instalador DOS y el entorno anfitrión no lo ejecuta de forma nativa. Precedente: Kingmaker. Para un CD mixto, comprobar en la prueba el acceso a la imagen montada y la reproducción de música desde ella. |
+| Ejecución mediante motor compatible | ScummVM 2026.4.0 para Windows x86-64 — `scummvm-2026.4.0-win32-x86_64` | Aplicar cuando el motor y la edición concreta estén soportados y la detección identifique la variante correcta. Precedentes: Loom, The Secret of Monkey Island y Blade Runner. |
+| Instalador Win16 en Windows x64 | otvdm 0.9.0 — `otvdm-v0.9.0` | Aplicar si se identifica un instalador Win16 y se requiere ejecutar ese instalador. Precedente: Panzer Commander. |
+| Inspección o conversión alternativa de imágenes de datos | UltraISO Premium Edition 9.x — `uiso9_pe`. Build del paquete local pendiente de confirmar. | Evaluar únicamente cuando una operación concreta sobre una imagen de trabajo lo requiera. Guardar las conversiones como derivados separados y registrar su formato, contenido y hashes. Si el soporte contiene CD-DA, validar que el procedimiento mantiene las pistas necesarias para el uso previsto. |
+| Problemas de DirectDraw | DDrawCompat 0.7.2, precedente documentado. Disponibilidad local no confirmada. | Aplicar si se reproduce una incidencia atribuible a DirectDraw. Precedente: Panzer Commander. Registrar los ajustes efectivos, incluido cualquier límite de FPS. |
+
+Referencias de identificación de paquetes: [WinImage](https://www.winimage.com/download.htm), [UltraISO](https://www.ultraiso.com/download.html) e [IsoBuster](https://www.isobuster.com/es/download.php).
+
+Orden de trabajo para un CD mixto con copia verificada: inspeccionar primero el CUE en IsoBuster e identificar instaladores y ejecutables. Elegir después la vía de ejecución según la plataforma observada. Un listado de archivos o un montaje correcto sólo confirma el acceso a los datos. La música CD-DA se valida durante la prueba del juego.
+
+Si una herramienta de referencia no cubre la operación o una prueba demuestra una limitación, registrar el resultado y qué función falta. Seleccionar una alternativa para esa función, contrastar su documentación oficial y probar un cambio cada vez sobre la copia de trabajo. Anotar herramienta, versión, motivo del cambio, pasos y resultado. Incorporar al repertorio la alternativa cuando exista un procedimiento documentado y reproducible.
 
 ---
 
@@ -233,21 +263,13 @@ Get-FileHash .\FICHERO.cue -Algorithm SHA256
 
 Registrar también CRC/MD5/SHA-1 generados por la herramienta cuando existan, pero SHA-256 es el mínimo propio de PC Game Archive.
 
-## Paso 8 — Segunda adquisición independiente
+## Paso 8 — Verificación de la primera adquisición y repetición condicionada
 
-Cuando el procedimiento lo permita y sea razonable:
+Si la primera lectura finaliza sin errores registrados, revisar el log, contrastar la estructura y guardar el tamaño y SHA-256 de cada fichero del conjunto. Registrar el resultado como **adquisición única** y dejar constancia de las limitaciones y de que la reproducibilidad entre lecturas no se ha evaluado. Omitir la segunda adquisición de rutina.
 
-- realizar una segunda adquisición en otra carpeta;
-- usar el mismo soporte, hardware, firmware y parámetros;
-- no sobrescribir la primera;
-- calcular los mismos hashes;
-- comparar ambos resultados.
+Si se registran errores o el resultado estructural apunta a una captura incompleta o incoherente, diagnosticar la incidencia. Si durante la instalación, el arranque o la jugabilidad hay indicios de que el fallo procede de la imagen, reconsiderar la lectura del soporte original. Cuando esté justificado repetirla, usar otra carpeta, conservar la primera adquisición y registrar los parámetros, logs y SHA-256 de ambos conjuntos. Si las adquisiciones difieren, investigar y documentar la causa antes de elegir la referencia.
 
-Si los ficheros que forman el máster coinciden bit a bit, registrar **verificación por adquisición repetida coincidente**.
-
-Si no coinciden, **detener el cierre** y analizar la causa. No escoger arbitrariamente una de las dos copias.
-
-## Paso 9 — Constitución del máster
+## Paso 9 — Constitución del máster y documentación de preservación
 
 Solo después de verificar:
 
@@ -256,7 +278,8 @@ Solo después de verificar:
 - almacenar el máster como inmutable;
 - registrar su ubicación lógica;
 - mantener los logs y metadatos asociados;
-- registrar copias de seguridad cuando se hayan realizado.
+- registrar copias de seguridad cuando se hayan realizado;
+- preparar el registro interno y el documento público de preservación con el procedimiento ejecutado, la evidencia, el estado y sus límites. Revisar ambos antes de iniciar compatibilidad.
 
 ---
 
@@ -269,9 +292,9 @@ Para una edición de 3 CDs:
 ```text
 PIEZA: Juego X — edición concreta
 │
-├── CD 1 de 3 → caracterización + adquisición 01/02 + hashes + máster
-├── CD 2 de 3 → caracterización + adquisición 01/02 + hashes + máster
-└── CD 3 de 3 → caracterización + adquisición 01/02 + hashes + máster
+├── CD 1 de 3 → caracterización + adquisición + hashes + máster; repetir si procede
+├── CD 2 de 3 → caracterización + adquisición + hashes + máster; repetir si procede
+└── CD 3 de 3 → caracterización + adquisición + hashes + máster; repetir si procede
 ```
 
 Reglas obligatorias:
@@ -313,7 +336,7 @@ GAME_DISC_3.cue
 
 # 6. Creación de la copia de trabajo
 
-Una vez verificado el máster:
+Tras preparar y revisar la documentación de preservación y verificar el máster:
 
 1. crear una copia separada del conjunto necesario;
 2. calcular SHA-256 de la copia de trabajo;
@@ -438,7 +461,7 @@ Los intentos fallidos y ruido de laboratorio permanecen en el registro interno; 
 
 # 11. Documentación que debe producirse
 
-Al completar una pieza pueden existir hasta tres capas documentales:
+Preparar y revisar los documentos A y B en la fase de preservación. Iniciar la fase de compatibilidad después de esa revisión y documentar sus resultados en C.
 
 ## A. Registro interno de preservación
 
@@ -555,7 +578,8 @@ Una pieza no está terminada hasta que, según el alcance acordado, se cumpla:
 - [ ] Logs conservados.
 - [ ] Errores revisados.
 - [ ] SHA-256 calculados.
-- [ ] Verificación realizada.
+- [ ] Verificación realizada y método declarado: adquisición única o adquisiciones independientes comparadas.
+- [ ] Registro interno y documento público de preservación preparados y revisados antes de probar la ejecución.
 - [ ] Máster constituido e inmutable.
 - [ ] En multi‑CD, todos los discos requeridos tienen estado coherente.
 
@@ -609,11 +633,11 @@ Formato recomendado durante una sesión multi‑CD:
 ```text
 Estado de la pieza — Juego X (3 CD)
 
-CD 1/3  Caracterizado ✅  Adq. 1 ✅  Adq. 2 ✅  Verificado ✅
-CD 2/3  Caracterizado ⏳  Adq. 1 ⬜  Adq. 2 ⬜  Verificado ⬜
-CD 3/3  Caracterizado ⬜  Adq. 1 ⬜  Adq. 2 ⬜  Verificado ⬜
+CD 1/3  Caracterizado ✅  Adquisición única ✅  Log, estructura y hashes revisados ✅
+CD 2/3  Caracterización en curso
+CD 3/3  Pendiente
 
-Compatibilidad: pendiente hasta disponer de la copia de trabajo completa.
+Compatibilidad: pendiente de revisar la documentación de preservación y verificar la copia de trabajo completa.
 ```
 
 ---
@@ -622,7 +646,7 @@ Compatibilidad: pendiente hasta disponer de la copia de trabajo completa.
 
 Cuando se inicie una nueva prueba, utilizar conceptualmente este mandato:
 
-> Vamos a preservar y probar una nueva pieza de PC Game Archive. Aplica íntegramente `PROMPT_MAESTRO_PRESERVACION_COMPATIBILIDAD.md`, el Estándar de preservación digital vigente y las plantillas oficiales. No asumas información técnica no verificada. Guíame paso a paso, una acción cada vez, esperando mis resultados antes de continuar. Trata cada soporte físico como una unidad independiente de preservación, pero mantén la visión de la edición completa. Registra hardware, firmware, software, versiones, parámetros, logs, hashes y evidencia. Mantén el máster inmutable y trabaja solo sobre copias verificadas. Para compatibilidad, prueba primero el caso nativo sin ajustes y añade cambios únicamente cuando la evidencia los haga necesarios. Distingue siempre `no detectado`, `no evaluado`, `no probado` y `no funcional`. Al finalizar, genera o actualiza registros internos, documentación pública, relaciones en `documentacion.json`, Novedades y seguimiento correspondiente. No distribuyas imágenes del software preservado.
+> Vamos a preservar y probar una nueva pieza de PC Game Archive. Aplica íntegramente `PROMPT_MAESTRO_PRESERVACION_COMPATIBILIDAD.md`, el Estándar de preservación digital vigente y las plantillas oficiales. No asumas información técnica no verificada. Guíame paso a paso, una acción cada vez, esperando mis resultados antes de continuar. Trata cada soporte físico como una unidad independiente de preservación, pero mantén la visión de la edición completa. Registra hardware, firmware, software, versiones, parámetros, logs, hashes y evidencia. Si la primera lectura termina sin errores registrados, revisa log, estructura y hashes sin repetir la adquisición de rutina. Reconsidera la lectura si hay indicios de un problema en la imagen. Prepara y revisa primero el registro interno y el documento público de preservación. Después prepara una copia de trabajo verificada y mantén el máster inmutable. Para compatibilidad, indica primero la herramienta y versión de referencia de la sección 2.7 que corresponden a la operación. Prueba el caso nativo sin ajustes cuando la plataforma lo admita y cambia de herramienta o añade ajustes cuando la evidencia lo justifique. Distingue siempre `no detectado`, `no evaluado`, `no probado` y `no funcional`. Al finalizar, genera o actualiza registros internos, documentación pública, relaciones en `documentacion.json`, Novedades y seguimiento correspondiente. No distribuyas imágenes del software preservado.
 
 ---
 

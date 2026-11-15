@@ -73,7 +73,7 @@ if(window.PCGA_ANALYTICS_ENABLED){
   gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
 }
 </script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Estándar de preservación digital de PC Game Archive","description":"Metodología versionada de PC Game Archive para identificar, caracterizar, adquirir, verificar y conservar digitalmente una pieza física sin confundir preservación con compatibilidad.","datePublished":"2026-10-04","dateModified":"2026-10-05","url":"https://www.pcgamearchive.org/documentacion/preservacion/estandar-preservacion-digital/","publisher":{"@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Estándar de preservación digital de PC Game Archive","description":"Metodología versionada de PC Game Archive para identificar, caracterizar, adquirir, verificar y conservar digitalmente una pieza física sin confundir preservación con compatibilidad.","datePublished":"2026-10-04","dateModified":"2026-11-15","url":"https://www.pcgamearchive.org/documentacion/preservacion/estandar-preservacion-digital/","publisher":{"@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Documentación","item":"https://www.pcgamearchive.org/documentacion/"},{"@type":"ListItem","position":3,"name":"Estándar de preservación digital de PC Game Archive","item":"https://www.pcgamearchive.org/documentacion/preservacion/estandar-preservacion-digital/"}]}</script>
 </head>
 <body>
@@ -139,10 +139,10 @@ if(window.PCGA_ANALYTICS_ENABLED){
     <p class="eyebrow">Preservación digital</p>
     <h1>Estándar de preservación digital de PC Game Archive</h1>
     <p class="lead">Metodología versionada de PC Game Archive para identificar, caracterizar, adquirir, verificar y conservar digitalmente una pieza física sin confundir preservación con compatibilidad.</p>
-    <p class="count">Publicado: 4 de octubre de 2026 · Última revisión: 5 de octubre de 2026</p>
+    <p class="count">Publicado: 4 de octubre de 2026 · Última revisión: 15 de noviembre de 2026</p>
   </section>
   <section class="wrap">
-    <article class="content-card landing-editorial"><p><strong>Versión vigente:</strong> 1.0 <strong>Fecha de entrada en vigor:</strong> 05/10/2026</p>
+    <article class="content-card landing-editorial"><p><strong>Versión vigente:</strong> 2.0 <strong>Fecha de entrada en vigor:</strong> 15/11/2026</p>
 <h2>Propósito</h2>
 <p>Este estándar define cómo debe abordar PC Game Archive la preservación digital de una pieza física. Su finalidad es obtener una representación verificable del soporte original y conservar evidencia suficiente para comprender, repetir y auditar el proceso en el futuro.</p>
 <blockquote><p>La preservación no comienza eligiendo un formato de imagen. Comienza caracterizando la pieza y el soporte físico concreto.</p></blockquote>
@@ -240,18 +240,19 @@ INSTALACIÓN, PRUEBAS Y COMPATIBILIDAD</code></pre>
 <li>logs producidos por la herramienta;</li>
 <li>incidencias observadas.</li>
 </ul>
-<p>Siempre que el soporte y el procedimiento lo permitan, PC Game Archive buscará una segunda lectura independiente y comparará los resultados para reforzar la verificación.</p>
+<p>Si la primera lectura finaliza sin errores registrados y la revisión de estructura permite utilizar la imagen, se documenta una adquisición única y se continúa con los controles de verificación. Se reconsidera una segunda lectura si el log o la estructura aportan indicios de una adquisición defectuosa o si una prueba de instalación, arranque o jugabilidad señala un posible problema de la imagen. Conservar el primer volcado y registrar cualquier nueva lectura como una operación independiente.</p>
 <h2>6. Verificación</h2>
 <p>Una adquisición no se considera preservada únicamente porque el software haya terminado sin error.</p>
 <p>La verificación debe incluir, según proceda:</p>
 <ul>
 <li>revisión del log de lectura;</li>
 <li>comprobación de sectores con errores o comportamiento anómalo;</li>
-<li>comparación entre adquisiciones independientes cuando sea posible;</li>
+<li>comparación entre adquisiciones independientes si se ha justificado y realizado una nueva lectura;</li>
 <li>comprobación de la estructura esperada;</li>
 <li>hashes de los ficheros resultantes;</li>
 <li>contraste con referencias externas fiables cuando existan, sin sustituir la evidencia de la pieza propia.</li>
 </ul>
+<p>Registrar el método realmente utilizado. Los hashes identifican los archivos obtenidos y permiten comprobar su integridad y la de sus copias. La reproducibilidad de la adquisición se comprueba comparando lecturas independientes.</p>
 <h3>Hash de referencia</h3>
 <p>PC Game Archive utilizará <strong>SHA-256</strong> como hash mínimo de integridad para sus ficheros de preservación. Podrán conservarse hashes adicionales cuando una herramienta, una base de referencia o un procedimiento concreto los requiera.</p>
 <h2>7. Máster de preservación</h2>
@@ -272,7 +273,7 @@ INSTALACIÓN, PRUEBAS Y COMPATIBILIDAD</code></pre>
 <li>debe poder verificarse posteriormente mediante sus hashes.</li>
 </ul>
 <h2>8. Copia o derivado de trabajo</h2>
-<p>Cuando sea necesario instalar, montar, convertir, parchear o modificar contenidos, se crea una copia de trabajo derivada del máster.</p>
+<p>Preparar y revisar el registro interno y el documento público de preservación antes de iniciar las pruebas de compatibilidad. Para instalar, montar, convertir, parchear o modificar contenidos, crear una copia de trabajo derivada del máster y verificar sus hashes respecto al origen antes de utilizarla.</p>
 <p>Debe mantenerse la trazabilidad:</p>
 <pre><code>PIEZA → MÁSTER → DERIVADO DE TRABAJO → GUÍA DE EJECUCIÓN</code></pre>
 <p>Una guía de compatibilidad debe indicar de qué máster o registro de preservación procede su copia de trabajo.</p>
@@ -344,6 +345,8 @@ INSTALACIÓN, PRUEBAS Y COMPATIBILIDAD</code></pre>
 </ul>
 <p>Los registros ya cerrados <strong>no se reescriben para simular que aplicaron la versión nueva</strong>. Solo se revisarán si se realiza una nueva adquisición o una reverificación formal, que deberá quedar documentada como una nueva intervención.</p>
 <h2>Historial de versiones</h2>
+<h3>2.0 — 15/11/2026</h3>
+<p>Introduce la adquisición única cuando el log y la estructura permiten continuar, condiciona la repetición a incidencias que puedan afectar a la imagen y sitúa la documentación de preservación antes de las pruebas de compatibilidad.</p>
 <h3>1.0 — 05/10/2026</h3>
 <p>Primera versión formal del estándar. Validada durante el piloto de preservación de <strong>Red Baron 3-D, edición española Big Box (ficha #000215)</strong>. Define caracterización previa, adquisición documentada, SHA-256, verificación, separación entre máster y copia de trabajo y Definition of Done.</p>
 <h2>Referencias técnicas de apoyo</h2>

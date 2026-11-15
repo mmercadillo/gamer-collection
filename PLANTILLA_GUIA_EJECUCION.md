@@ -16,6 +16,8 @@
 
 ## 2. Punto de partida
 
+- Registro interno y documento público de preservación revisados antes de iniciar pruebas (referencias):
+
 - **Origen de la copia de trabajo:**
 - **Derivada de máster verificado:** Sí / No
 - **Identificador/hash de referencia del máster o derivado:**

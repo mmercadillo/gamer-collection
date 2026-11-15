@@ -6,6 +6,8 @@ No son tutoriales genéricos sobre un título. Siempre que sea posible parten de
 
 > Preservar y ejecutar son procesos distintos. El máster de preservación no se modifica para conseguir compatibilidad.
 
+El registro interno y el documento público de preservación se preparan y revisan antes de iniciar las pruebas de compatibilidad. La instalación y la jugabilidad se comprueban sobre una copia de trabajo verificada.
+
 ## Principios obligatorios
 
 ### 1. La edición concreta es parte del resultado
