@@ -11166,17 +11166,6 @@
   {
     "num": "000137",
     "ig": "https://www.instagram.com/p/DbFqfTgiN_a",
-    "video_intro": false,
-    "fecha_incorporacion": "",
-    "procedencia": {
-      "tipo": "",
-      "nombre_publico": "",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
     "titulo": "Star Wars: Rebel Assault",
     "url": "juegos/star-wars-rebel-assault-bigbox/",
     "plataforma": [
@@ -11193,22 +11182,24 @@
       "LucasArts"
     ],
     "distribuidor": [
-      "LucasArts",
       "Erbe Software"
     ],
     "ean": [],
-    "descripcion": "Star Wars: Rebel Assault es un juego de acción arcade publicado originalmente en 1993 y una de las primeras grandes producciones de LucasArts concebidas específicamente para aprovechar el CD-ROM. Bajo la dirección de Vince Lee, combina secuencias de vídeo digitalizado procedentes de la trilogía cinematográfica, gráficos tridimensionales prerenderizados, escenas animadas y fases de disparo sobre raíles. El jugador se incorpora a la Alianza Rebelde y participa en misiones espaciales y terrestres inspiradas en acontecimientos como la defensa de Hoth, los combates entre cazas X-Wing y TIE y el asalto a instalaciones imperiales. Su presentación audiovisual, apoyada en la música de John Williams interpretada por la London Symphony Orchestra, lo convirtió en uno de los títulos emblemáticos de la primera expansión multimedia del PC. Esta edición española en caja grande fue distribuida por Erbe Software e incorpora documentación en castellano junto al material original de LucasArts.",
+    "descripcion": "Publicado originalmente en 1993 y dirigido por Vince Lee, Star Wars: Rebel Assault fue el primer juego que LucasArts publicó exclusivamente en CD-ROM. El jugador encarna al piloto rebelde Rookie One en misiones de vuelo y tiro sobre raíles que recorren el cañón de Beggar, la batalla de Hoth y la trinchera de la Estrella de la Muerte. El juego combina fondos tridimensionales prerenderizados con fragmentos de las películas, voces y efectos digitalizados y música de John Williams interpretada por la London Symphony Orchestra. Su presentación ilustra el papel del CD-ROM en la expansión del PC multimedia. Esta edición española para MS-DOS fue publicada por LucasArts y distribuida en España por Erbe Software. Reúne documentación en castellano e inglés y un disquete corrector de Erbe con la mención M.C.M. Software, S.A. El juego se distribuyó en el CD-ROM y el disquete contiene material de corrección con instrucciones de instalación. No se ha determinado la protección anticopia de esta tirada. Para conservar ambos soportes, se recomienda una imagen BIN/CUE del CD-ROM y una imagen sectorial IMG del disquete. La versión para DOS cuenta con compatibilidad documentada en DOSBox. El año exacto de esta tirada queda por confirmar.",
     "incluye": [
       "Caja de cartón Big Box",
-      "CD-ROM",
+      "1 CD-ROM del juego",
+      "Funda de cartón del CD-ROM",
+      "1 disquete corrector Erbe de 3,5 pulgadas",
       "Manual original en inglés",
-      "Guía de usuario en castellano",
+      "Manual en castellano",
       "Tarjeta de referencia en inglés",
       "Tarjeta de referencia en castellano",
-      "Guía de solución de problemas",
-      "Revista promocional The Adventurer",
-      "Tarjeta de pedido de The Making of Rebel Assault",
-      "Carátula o folleto para el CD-ROM"
+      "Guía de solución de problemas en inglés",
+      "Guía de solución de problemas en castellano",
+      "Revista promocional The Adventurer, n.º 9, invierno de 1994/95",
+      "Folleto de pedido de The Making of Rebel Assault",
+      "Tarjeta de respuesta postal para un sorteo de LucasArts"
     ],
     "serie": [
       "Todos",
@@ -11219,23 +11210,26 @@
       "Rebel Assault",
       "LucasArts",
       "Erbe Software",
+      "M.C.M. Software",
       "Vince Lee",
+      "Rookie One",
       "Alianza Rebelde",
-      "Imperio Galáctico",
       "X-Wing",
-      "TIE Fighter",
       "Hoth",
-      "CD-ROM",
-      "vídeo digitalizado",
-      "gráficos prerenderizados",
+      "Estrella de la Muerte",
       "John Williams",
-      "MS-DOS",
+      "London Symphony Orchestra",
+      "PC multimedia",
+      "gráficos prerenderizados",
       "edición española",
       "manual en castellano",
-      "Big Box PC",
-      "PC multimedia",
-      "preservación PC"
+      "disco corrector",
+      "The Adventurer",
+      "DOSBox"
     ],
+    "preservacion": {
+      "resumen": ""
+    },
     "anio": "",
     "mercado": [
       "España"
@@ -11245,12 +11239,21 @@
       "Inglés"
     ],
     "soporte": [
-      "CD-ROM"
+      "CD-ROM",
+      "Disquete 3,5\""
     ],
     "tipo_edicion": [],
-    "preservacion": {
-      "resumen": ""
+    "fecha_incorporacion": "",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
     },
+    "video_intro": false,
     "video_intro_fecha": "",
     "video_intro_duracion": ""
   },
@@ -23529,6 +23532,154 @@
     ],
     "preservacion": {
       "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Indiana Jones and the Fate of Atlantis",
+    "url": "juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Aventura gráfica",
+      "Point and click"
+    ],
+    "desarrollador": [
+      "LucasArts"
+    ],
+    "distribuidor": [
+      "Erbe Software"
+    ],
+    "ean": [],
+    "descripcion": "Aventura gráfica de LucasArts diseñada por Hal Barwood y Noah Falstein y publicada en 1992. En una historia original ambientada en 1939, Indiana Jones y Sophia Hapgood siguen el rastro de la Atlántida y del oricalco antes de que los nazis se apoderen de él. El motor SCUMM combina una interfaz de verbos con inventario y diálogos, mientras que el sistema iMUSE adapta la música a la acción. La investigación se bifurca en tres rutas que cambian los puzles y las situaciones: colaborar con Sophia, recurrir al ingenio o resolver más obstáculos por la fuerza.\n\nLa edición española de Erbe Software se comercializó en caja grande con textos en castellano y cinco disquetes de 3,5 pulgadas de alta densidad. Los discos del ejemplar están numerados del 1 al 5 y llevan los depósitos legales M-22196-1992 a M-22200-1992. El manual original contiene los códigos que solicita el juego como verificación anticopia. La preservación de la edición puede reunir una imagen de cada disquete y una copia digital del manual. ScummVM admite la versión para DOS. Queda pendiente verificar la lectura y la ejecución con los datos de este ejemplar.",
+    "incluye": [
+      "5 disquetes de 3,5 pulgadas de alta densidad, numerados del 1 al 5"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Indiana Jones",
+      "Indiana Jones y el destino de la Atlántida",
+      "Indy IV",
+      "LucasArts",
+      "Erbe Software",
+      "Hal Barwood",
+      "Noah Falstein",
+      "SCUMM",
+      "iMUSE",
+      "ScummVM",
+      "MS-DOS",
+      "Atlántida",
+      "Arqueología",
+      "Rutas alternativas",
+      "Edición española",
+      "Disquetes de 3,5 pulgadas",
+      "Big Box PC",
+      "Protección documental"
+    ],
+    "fecha_incorporacion": "2026-11-19",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "anio": "1992",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
+    "titulo": "Lemmings",
+    "url": "juegos/lemmings-disquete-35-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Puzzle en tiempo real",
+      "Lógica"
+    ],
+    "desarrollador": [
+      "DMA Design"
+    ],
+    "distribuidor": [
+      "Psygnosis"
+    ],
+    "ean": [],
+    "descripcion": "Lemmings es un juego de puzles en tiempo real desarrollado por DMA Design y publicado por Psygnosis en 1991. Debutó en Amiga y llegó a los compatibles IBM PC ese mismo año. Los lemmings avanzan por su cuenta y el jugador dispone de un número limitado de habilidades para guiarlos. Asignar un bloqueador, tender una escalera o excavar en el momento oportuno permite que el porcentaje exigido del grupo alcance la salida antes de que se agote el tiempo. La versión para MS-DOS admite gráficos CGA, EGA y MCGA/VGA, además de sonido AdLib y Sound Blaster. La referencia Psygnosis P/N 0400000320, con el código ZC/37/93, identifica la variante inglesa en un disquete de 3,5 pulgadas y 720 KB. La clasificación como Big Box es provisional hasta identificar el embalaje de esta tirada. Las primeras ediciones para DOS emplearon Rob Northen Copylock con verificación del disquete original. Su presencia y el arranque en emulación están pendientes de comprobar en este ejemplar.",
+    "incluye": [
+      "1 disquete de 3,5 pulgadas y 720 KB (P/N 0400000320)"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Lemmings",
+      "DMA Design",
+      "Psygnosis",
+      "IBM PC compatibles",
+      "MS-DOS",
+      "CGA",
+      "EGA",
+      "VGA",
+      "AdLib",
+      "Sound Blaster",
+      "disquete de 3,5 pulgadas",
+      "720 KB",
+      "P/N 0400000320",
+      "ZC/37/93"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "anio": "",
+    "mercado": [],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [],
+    "fecha_incorporacion": "2026-11-19",
+    "procedencia": {
+      "tipo": "",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
     },
     "video_intro": false,
     "video_intro_fecha": "",

@@ -120,11 +120,11 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/westwood-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/haemimont-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/sierra-on-line/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/lucasarts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/the-sims-studio/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/creative-assembly/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ea-canada/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/firaxis-games/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/lucasarts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/novalogic/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/red-storm-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/gsc-game-world/</loc></url>
@@ -159,6 +159,7 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/city-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cryo-interactive-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cunning-developments/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/dma-design/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/pandemic-studios/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/quicksilver-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/activision/</loc></url>
@@ -166,7 +167,6 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/blizzard-north/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/crystal-dynamics/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cyanide-studio/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/desarrolladores/dma-design/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/ea-sports/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/gas-powered-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/heavy-iron-studios/</loc></url>
@@ -279,8 +279,8 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/electronic-arts/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/dinamic-multimedia/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/proein/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/eidos-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/erbe-software/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/eidos-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/activision/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra-on-line/</loc></url>
@@ -309,10 +309,10 @@
   <url><loc>https://www.pcgamearchive.org/distribuidores/lucasarts-entertainment-company/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/focus-home-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/microsoft/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/distribuidores/psygnosis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/virgin-interactive/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/electronic-arts-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/jowood-productions/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/distribuidores/psygnosis/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/sierra/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/ubi-soft/</loc></url>
   <url><loc>https://www.pcgamearchive.org/distribuidores/deep-silver/</loc></url>
@@ -516,6 +516,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-fantastica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/full-motion-video/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/historia-alternativa/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/logica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/manager-de-futbol/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pelicula-interactiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/puzles/</loc></url>
@@ -545,7 +546,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/investigacion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/investigacion-detectivesca/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/lucha/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/logica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/multideporte/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/piratas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rail-shooter/</loc></url>
@@ -2258,6 +2258,12 @@
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/star-wars-rebel-assault-bigbox/img/003.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/star-wars-rebel-assault-bigbox/img/004.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/star-wars-rebel-assault-bigbox/img/005.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.pcgamearchive.org/juegos/imperialism-bigbox/</loc>
@@ -3796,6 +3802,18 @@
     </image:image>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/sleeping-gods-lie-bigbox/img/003.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/img/001.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/lemmings-disquete-35-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/lemmings-disquete-35-bigbox/img/001.jpg</image:loc>
     </image:image>
   </url>
   <url>
