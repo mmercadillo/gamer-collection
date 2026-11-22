@@ -23540,6 +23540,85 @@
   {
     "num": "000000",
     "ig": "",
+    "fecha_incorporacion": "2026-11-22",
+    "procedencia": {
+      "tipo": "Compra",
+      "nombre_publico": "",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "FIFA Soccer 96",
+    "url": "juegos/fifa-soccer-96-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Simulación deportiva",
+      "Fútbol"
+    ],
+    "desarrollador": [
+      "Electronic Arts Canada"
+    ],
+    "distribuidor": [
+      "Electronic Arts Software"
+    ],
+    "ean": [],
+    "descripcion": "FIFA Soccer 96 (1995) llevó la saga de EA Sports a un terreno de juego tridimensional en PC. Su tecnología Virtual Stadium permitía cambiar el ángulo de cámara, y el modo SVGA ofrecía una resolución de 640 × 480. El juego reúne 12 ligas y más de 3.500 futbolistas reales, con modos de temporada, campeonato y playoff, equipos personalizables y juego por módem. Los comentarios en tiempo real acreditados a John Motson y las secuencias de fútbol en vídeo para el marcador del estadio acercaban los partidos a una retransmisión televisiva. Esta edición española en caja grande fue editada y distribuida por Electronic Arts Software. Se comercializó con traducción al castellano y su CD-ROM requiere MS-DOS 5.0 o superior, según las especificaciones originales.",
+    "incluye": [
+      "CD-ROM en estuche Jewel Case",
+      "Manual impreso",
+      "Catálogo de software de septiembre a diciembre de 1995",
+      "Formulario impreso con cuestionario"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box",
+      "EA Sports"
+    ],
+    "tags": [
+      "FIFA",
+      "FIFA Soccer 96",
+      "EA Sports",
+      "Electronic Arts Canada",
+      "Virtual Stadium",
+      "MotionDesign",
+      "SVGA",
+      "John Motson",
+      "Multijugador por módem",
+      "Fútbol de los noventa",
+      "Edición española",
+      "Castellano",
+      "Big Box",
+      "CD-ROM"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "anio": "1995",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "soporte": [
+      "CD-ROM"
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "titulo": "Indiana Jones and the Fate of Atlantis",
     "url": "juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/",
     "plataforma": [
