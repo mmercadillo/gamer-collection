@@ -1,5 +1,18 @@
 [
   {
+    "id": "preservacion-indiana-jones-and-the-fate-of-atlantis-bigbox",
+    "titulo": "Preservación digital de Indiana Jones and the Fate of Atlantis — edición española Big Box",
+    "categoria": "preservacion",
+    "fecha": "2026-11-22",
+    "descripcion": "Preservación de los cinco disquetes de la edición española de Erbe en imágenes IMA, cotejadas con los originales y verificadas con SHA-256.",
+    "url": "documentacion/preservacion/indiana-jones-and-the-fate-of-atlantis-bigbox/",
+    "juegos": [
+      "juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-indiana-jones-and-the-fate-of-atlantis-bigbox.md",
+    "actualizado": "2026-11-22"
+  },
+  {
     "id": "guia-lode-runner-the-legend-returns-bigbox-portable",
     "titulo": "Lode Runner: The Legend Returns en Windows 10 con DOSBox Staging y Windows 3.1",
     "categoria": "guias",

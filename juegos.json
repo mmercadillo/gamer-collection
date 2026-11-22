@@ -23636,7 +23636,7 @@
       "Erbe Software"
     ],
     "ean": [],
-    "descripcion": "Aventura gráfica de LucasArts diseñada por Hal Barwood y Noah Falstein y publicada en 1992. En una historia original ambientada en 1939, Indiana Jones y Sophia Hapgood siguen el rastro de la Atlántida y del oricalco antes de que los nazis se apoderen de él. El motor SCUMM combina una interfaz de verbos con inventario y diálogos, mientras que el sistema iMUSE adapta la música a la acción. La investigación se bifurca en tres rutas que cambian los puzles y las situaciones: colaborar con Sophia, recurrir al ingenio o resolver más obstáculos por la fuerza.\n\nLa edición española de Erbe Software se comercializó en caja grande con textos en castellano y cinco disquetes de 3,5 pulgadas de alta densidad. Los discos del ejemplar están numerados del 1 al 5 y llevan los depósitos legales M-22196-1992 a M-22200-1992. El manual original contiene los códigos que solicita el juego como verificación anticopia. La preservación de la edición puede reunir una imagen de cada disquete y una copia digital del manual. ScummVM admite la versión para DOS. Queda pendiente verificar la lectura y la ejecución con los datos de este ejemplar.",
+    "descripcion": "Aventura gráfica de LucasArts diseñada por Hal Barwood y Noah Falstein y publicada en 1992. En una historia original ambientada en 1939, Indiana Jones y Sophia Hapgood siguen el rastro de la Atlántida y del oricalco antes de que los nazis se apoderen de él. El motor SCUMM combina una interfaz de verbos con inventario y diálogos, mientras que el sistema iMUSE adapta la música a la acción. La investigación se bifurca en tres rutas que cambian los puzles y las situaciones: colaborar con Sophia, recurrir al ingenio o resolver más obstáculos por la fuerza.\n\nLa edición española de Erbe Software se comercializó en caja grande con textos en castellano y cinco disquetes de 3,5 pulgadas de alta densidad. Los discos del ejemplar están numerados del 1 al 5 y llevan los depósitos legales M-22196-1992 a M-22200-1992. El manual original contiene los códigos que solicita el juego como verificación anticopia. ScummVM admite la versión para DOS. Queda pendiente comprobar la instalación y la ejecución con los datos de este ejemplar.",
     "incluye": [
       "5 disquetes de 3,5 pulgadas de alta densidad, numerados del 1 al 5"
     ],
@@ -23688,7 +23688,7 @@
       "Lanzamiento original"
     ],
     "preservacion": {
-      "resumen": ""
+      "resumen": "Se obtuvieron y cotejaron cinco imágenes IMA, una por disquete, con sus huellas SHA-256. Las pruebas de ejecución quedan pendientes."
     },
     "video_intro": false,
     "video_intro_fecha": "",
