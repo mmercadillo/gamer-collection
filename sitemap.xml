@@ -226,6 +226,7 @@
   <url><loc>https://www.pcgamearchive.org/desarrolladores/arenanet/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/black-hole-entertainment/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/black-isle-studios/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/desarrolladores/blue-byte-software/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/blue-fang-games/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/cd-projekt-red/</loc></url>
   <url><loc>https://www.pcgamearchive.org/desarrolladores/climax-brighton/</loc></url>
@@ -504,6 +505,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/exploracion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/isometrico/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/juego-de-tablero/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/logica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/plataformas-3d/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rol-de-accion/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate/</loc></url>
@@ -517,7 +519,6 @@
   <url><loc>https://www.pcgamearchive.org/generos/estrategia-fantastica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/full-motion-video/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/historia-alternativa/</loc></url>
-  <url><loc>https://www.pcgamearchive.org/generos/logica/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/manager-de-futbol/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/pelicula-interactiva/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/puzles/</loc></url>
@@ -551,6 +552,7 @@
   <url><loc>https://www.pcgamearchive.org/generos/piratas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rail-shooter/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/rol-en-primera-persona/</loc></url>
+  <url><loc>https://www.pcgamearchive.org/generos/rompecabezas/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-combate-espacial/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-de-vida/</loc></url>
   <url><loc>https://www.pcgamearchive.org/generos/simulacion-policial/</loc></url>
@@ -3821,6 +3823,12 @@
     <loc>https://www.pcgamearchive.org/juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/</loc>
     <image:image>
       <image:loc>https://www.pcgamearchive.org/juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/img/001.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.pcgamearchive.org/juegos/atomino-bigbox/</loc>
+    <image:image>
+      <image:loc>https://www.pcgamearchive.org/juegos/atomino-bigbox/img/001.jpg</image:loc>
     </image:image>
   </url>
   <url>

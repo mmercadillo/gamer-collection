@@ -23697,6 +23697,103 @@
   {
     "num": "000000",
     "ig": "",
+    "fecha_incorporacion": "2026-11-23",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Atomino",
+    "url": "juegos/atomino-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Puzzle",
+      "Lógica",
+      "Rompecabezas",
+      "Estrategia en tiempo real"
+    ],
+    "desarrollador": [
+      "Blue Byte Software",
+      "Game-o-ware"
+    ],
+    "distribuidor": [
+      "Psygnosis Limited",
+      "Play Byte"
+    ],
+    "ean": [],
+    "descripcion": "Atomino es un videojuego de lógica y puzles desarrollado por el estudio alemán Blue Byte y comercializado por Psygnosis bajo el sello Play Byte a comienzos de los años noventa. Publicado originalmente para compatibles IBM PC en 1990, contó con distribuciones europeas fechadas en 1991 y versiones para Amiga, Atari ST y Commodore 64. Su propuesta combina conceptos inspirados en la química molecular con la presión temporal característica de los juegos de puzles de aquella época. El jugador debe colocar átomos sobre un tablero cuadriculado para construir moléculas estables mediante enlaces determinados por la valencia de cada pieza. Los átomos presentan entre uno y cuatro puntos de conexión, por lo que es necesario planificar cuidadosamente su posición y orientación para completar estructuras sin dejar enlaces abiertos. El juego ofrece un sistema de reglas sencillo de comprender, pero progresivamente exigente, que requiere razonamiento espacial, anticipación y capacidad de reacción. Su apartado visual utiliza gráficos bidimensionales de estética funcional y una interfaz centrada en el tablero, priorizando la claridad de las combinaciones moleculares frente al espectáculo gráfico. La versión para MS-DOS incorpora soporte de sonido para tarjetas AdLib, representativo de la evolución audiovisual del PC doméstico a comienzos de los noventa. La edición física de Psygnosis de 1991 está destinada a ordenadores IBM y 100 % compatibles, incluidos equipos Amstrad PC y Tandy PC. El ejemplar documentado conserva un disquete original de 3,5 pulgadas con impresión directa del título, copyright de Psygnosis de 1991 e identificación de las familias de ordenadores compatibles, acompañado de documentación impresa con cubierta naranja. Atomino constituye un ejemplo representativo de la diversificación del catálogo de Psygnosis más allá de sus conocidas producciones de acción y plataformas, así como de la popularización de los juegos de lógica europeos en el mercado de compatibles PC. Desde la perspectiva de la preservación, resulta especialmente relevante conservar la imagen íntegra del disquete original y documentar sus características de arranque, instalación, compatibilidad con MS-DOS y posibles mecanismos de protección, todavía pendientes de comprobación sobre el soporte físico.",
+    "incluye": [
+      "Disquete original de 3,5 pulgadas de Atomino para IBM PC y compatibles",
+      "Manual o documentación impresa original con cubierta naranja y título Atomino"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Atomino",
+      "Psygnosis",
+      "Psygnosis Limited",
+      "Blue Byte",
+      "Blue Byte Software",
+      "Game-o-ware",
+      "Play Byte",
+      "juegos de lógica",
+      "puzles moleculares",
+      "química",
+      "átomos",
+      "moléculas",
+      "enlaces químicos",
+      "valencia atómica",
+      "razonamiento espacial",
+      "juegos de puzles clásicos",
+      "videojuegos alemanes",
+      "1991",
+      "MS-DOS",
+      "IBM PC",
+      "IBM compatibles",
+      "Amstrad PC",
+      "Tandy PC",
+      "AdLib",
+      "disquete 3,5 pulgadas",
+      "software en disquete",
+      "PC clásico",
+      "Big Box",
+      "edición física",
+      "videojuegos europeos",
+      "preservación digital",
+      "preservación de disquetes",
+      "coleccionismo PC",
+      "retro PC"
+    ],
+    "anio": "1991",
+    "mercado": [],
+    "idioma": [
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 3,5\""
+    ],
+    "tipo_edicion": [
+      "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000000",
+    "ig": "",
     "titulo": "Lemmings",
     "url": "juegos/lemmings-disquete-35-bigbox/",
     "plataforma": [
