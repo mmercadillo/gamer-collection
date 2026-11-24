@@ -23088,120 +23088,6 @@
   },
   {
     "num": "000262",
-    "ig": "https://www.instagram.com/p/DgHqFAwiC9t",
-    "fecha_incorporacion": "2026-11-04",
-    "procedencia": {
-      "tipo": "Cesión",
-      "nombre_publico": "José Antonio Serrano García",
-      "redes": {
-        "instagram": "",
-        "facebook": "",
-        "x": ""
-      }
-    },
-    "titulo": "Links: The Challenge of Golf",
-    "url": "juegos/links-the-challenge-of-golf-2-bigbox/",
-    "plataforma": [
-      "MsDos"
-    ],
-    "formato": "Big Box",
-    "genero": [
-      "Deportes",
-      "Simulación deportiva",
-      "Simulador de golf"
-    ],
-    "desarrollador": [
-      "Access Software"
-    ],
-    "distribuidor": [
-      "Access Software",
-      "U.S. Gold",
-      "Erbe Software"
-    ],
-    "ean": [
-      "8420224911869"
-    ],
-    "descripcion": "Links: The Challenge of Golf es un simulador de golf desarrollado por Access Software y publicado originalmente en 1990 para IBM PC y compatibles con MS-DOS. Representó un importante avance tecnológico en los videojuegos deportivos de principios de los noventa gracias a su detallada recreación de campos reales, su motor gráfico con soporte para 256 colores y una simulación física que buscaba reproducir con precisión las trayectorias, los efectos y el comportamiento de la pelota. Diseñado bajo la dirección técnica de Bruce Carver y con aportaciones de Roger Carver, el juego destacó por sus escenarios digitalizados, sus perspectivas tridimensionales recreadas mediante gráficos bidimensionales y su capacidad para representar elementos del terreno como árboles, obstáculos, desniveles y superficies de juego. Su sistema de golpeo permitía seleccionar palos, ajustar dirección y potencia y controlar el swing, mientras que los diferentes niveles de dificultad facilitaban tanto el aprendizaje como la competición entre jugadores. Incorporaba además efectos de sonido digitalizados mediante la tecnología RealSound de Access Software, junto con compatibilidad con dispositivos como AdLib y Sound Blaster. El campo principal era Torrey Pines, en California, y el programa admitía campos adicionales comercializados posteriormente dentro de la línea Links Championship Courses. Esta edición española en caja grande, distribuida por Erbe Software bajo el sello internacional U.S. Gold, destaca por sus textos comerciales y documentación en castellano, su presentación en disquetes de 5,25 pulgadas y la inclusión promocional del campo Pinehurst Resort & Country Club. El ejemplar conserva también documentación de instalación de recorridos adicionales, entre ellos Firestone Country Club, así como material impreso relacionado con Hyatt Dorado Beach. Links se convirtió en una referencia de la simulación deportiva para ordenadores personales y sentó las bases de una extensa franquicia que continuaría con Links 386 Pro y posteriores entregas. Su preservación resulta especialmente relevante por las exigencias de hardware de la época, los formatos magnéticos empleados y el valor documental de las ediciones españolas de simuladores deportivos para MS-DOS.",
-    "incluye": [
-      "Caja grande de cartón Big Box",
-      "Manual del jugador Links: The Challenge of Golf en castellano",
-      "5 disquetes de 5,25 pulgadas Nashua MD2D con etiquetas de Erbe Software",
-      "5 disquetes adicionales de 5,25 pulgadas en fundas protectoras blancas",
-      "5 manuales de instalación de recorridos de campeonato Links",
-      "Manual de instalación del recorrido Firestone Country Club",
-      "Documentación impresa del campo Hyatt Dorado Beach",
-      "Folleto del campo Bay Hill Club & Lodge",
-      "Tarjetas y hojas de resultados de golf",
-      "Material impreso de referencia de recorridos de campeonato",
-      "Contenido promocional del campo Pinehurst Resort & Country Club"
-    ],
-    "serie": [
-      "Todos",
-      "Big Box"
-    ],
-    "tags": [
-      "Links",
-      "Links The Challenge of Golf",
-      "Access Software",
-      "U.S. Gold",
-      "Erbe Software",
-      "Bruce Carver",
-      "Roger Carver",
-      "Links Championship Courses",
-      "Torrey Pines",
-      "Pinehurst Resort",
-      "Firestone Country Club",
-      "Hyatt Dorado Beach",
-      "Bay Hill Club",
-      "golf profesional",
-      "simulación realista",
-      "física de la pelota",
-      "campos de golf reales",
-      "RealSound",
-      "gráficos de 256 colores",
-      "MCGA",
-      "VGA",
-      "AdLib",
-      "Sound Blaster",
-      "IBM PC compatibles",
-      "MS-DOS",
-      "disquetes 5.25 pulgadas",
-      "disquetes de alta densidad",
-      "disquetes de doble densidad",
-      "edición española",
-      "manual en castellano",
-      "software clásico",
-      "simulación deportiva clásica",
-      "videojuegos de 1990",
-      "Big Box PC",
-      "coleccionismo PC",
-      "preservación digital",
-      "soportes magnéticos",
-      "retro PC"
-    ],
-    "anio": "",
-    "mercado": [
-      "España"
-    ],
-    "idioma": [
-      "Español",
-      "Inglés"
-    ],
-    "soporte": [
-      "Disquete 5,25\""
-    ],
-    "tipo_edicion": [
-      "Bundle/Pack"
-    ],
-    "preservacion": {
-      "resumen": ""
-    },
-    "video_intro": false,
-    "video_intro_fecha": "",
-    "video_intro_duracion": ""
-  },
-  {
-    "num": "000000",
     "ig": "",
     "fecha_incorporacion": "2026-11-04",
     "procedencia": {
@@ -23309,6 +23195,120 @@
     ],
     "tipo_edicion": [
       "Lanzamiento original"
+    ],
+    "preservacion": {
+      "resumen": ""
+    },
+    "video_intro": false,
+    "video_intro_fecha": "",
+    "video_intro_duracion": ""
+  },
+  {
+    "num": "000263",
+    "ig": "https://www.instagram.com/p/DgHqFAwiC9t",
+    "fecha_incorporacion": "2026-11-04",
+    "procedencia": {
+      "tipo": "Cesión",
+      "nombre_publico": "José Antonio Serrano García",
+      "redes": {
+        "instagram": "",
+        "facebook": "",
+        "x": ""
+      }
+    },
+    "titulo": "Links: The Challenge of Golf",
+    "url": "juegos/links-the-challenge-of-golf-2-bigbox/",
+    "plataforma": [
+      "MsDos"
+    ],
+    "formato": "Big Box",
+    "genero": [
+      "Deportes",
+      "Simulación deportiva",
+      "Simulador de golf"
+    ],
+    "desarrollador": [
+      "Access Software"
+    ],
+    "distribuidor": [
+      "Access Software",
+      "U.S. Gold",
+      "Erbe Software"
+    ],
+    "ean": [
+      "8420224911869"
+    ],
+    "descripcion": "Links: The Challenge of Golf es un simulador de golf desarrollado por Access Software y publicado originalmente en 1990 para IBM PC y compatibles con MS-DOS. Representó un importante avance tecnológico en los videojuegos deportivos de principios de los noventa gracias a su detallada recreación de campos reales, su motor gráfico con soporte para 256 colores y una simulación física que buscaba reproducir con precisión las trayectorias, los efectos y el comportamiento de la pelota. Diseñado bajo la dirección técnica de Bruce Carver y con aportaciones de Roger Carver, el juego destacó por sus escenarios digitalizados, sus perspectivas tridimensionales recreadas mediante gráficos bidimensionales y su capacidad para representar elementos del terreno como árboles, obstáculos, desniveles y superficies de juego. Su sistema de golpeo permitía seleccionar palos, ajustar dirección y potencia y controlar el swing, mientras que los diferentes niveles de dificultad facilitaban tanto el aprendizaje como la competición entre jugadores. Incorporaba además efectos de sonido digitalizados mediante la tecnología RealSound de Access Software, junto con compatibilidad con dispositivos como AdLib y Sound Blaster. El campo principal era Torrey Pines, en California, y el programa admitía campos adicionales comercializados posteriormente dentro de la línea Links Championship Courses. Esta edición española en caja grande, distribuida por Erbe Software bajo el sello internacional U.S. Gold, destaca por sus textos comerciales y documentación en castellano, su presentación en disquetes de 5,25 pulgadas y la inclusión promocional del campo Pinehurst Resort & Country Club. El ejemplar conserva también documentación de instalación de recorridos adicionales, entre ellos Firestone Country Club, así como material impreso relacionado con Hyatt Dorado Beach. Links se convirtió en una referencia de la simulación deportiva para ordenadores personales y sentó las bases de una extensa franquicia que continuaría con Links 386 Pro y posteriores entregas. Su preservación resulta especialmente relevante por las exigencias de hardware de la época, los formatos magnéticos empleados y el valor documental de las ediciones españolas de simuladores deportivos para MS-DOS.",
+    "incluye": [
+      "Caja grande de cartón Big Box",
+      "Manual del jugador Links: The Challenge of Golf en castellano",
+      "5 disquetes de 5,25 pulgadas Nashua MD2D con etiquetas de Erbe Software",
+      "5 disquetes adicionales de 5,25 pulgadas en fundas protectoras blancas",
+      "5 manuales de instalación de recorridos de campeonato Links",
+      "Manual de instalación del recorrido Firestone Country Club",
+      "Documentación impresa del campo Hyatt Dorado Beach",
+      "Folleto del campo Bay Hill Club & Lodge",
+      "Tarjetas y hojas de resultados de golf",
+      "Material impreso de referencia de recorridos de campeonato",
+      "Contenido promocional del campo Pinehurst Resort & Country Club"
+    ],
+    "serie": [
+      "Todos",
+      "Big Box"
+    ],
+    "tags": [
+      "Links",
+      "Links The Challenge of Golf",
+      "Access Software",
+      "U.S. Gold",
+      "Erbe Software",
+      "Bruce Carver",
+      "Roger Carver",
+      "Links Championship Courses",
+      "Torrey Pines",
+      "Pinehurst Resort",
+      "Firestone Country Club",
+      "Hyatt Dorado Beach",
+      "Bay Hill Club",
+      "golf profesional",
+      "simulación realista",
+      "física de la pelota",
+      "campos de golf reales",
+      "RealSound",
+      "gráficos de 256 colores",
+      "MCGA",
+      "VGA",
+      "AdLib",
+      "Sound Blaster",
+      "IBM PC compatibles",
+      "MS-DOS",
+      "disquetes 5.25 pulgadas",
+      "disquetes de alta densidad",
+      "disquetes de doble densidad",
+      "edición española",
+      "manual en castellano",
+      "software clásico",
+      "simulación deportiva clásica",
+      "videojuegos de 1990",
+      "Big Box PC",
+      "coleccionismo PC",
+      "preservación digital",
+      "soportes magnéticos",
+      "retro PC"
+    ],
+    "anio": "",
+    "mercado": [
+      "España"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "soporte": [
+      "Disquete 5,25\""
+    ],
+    "tipo_edicion": [
+      "Bundle/Pack"
     ],
     "preservacion": {
       "resumen": ""
