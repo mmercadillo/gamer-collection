@@ -1,5 +1,11 @@
 [
   {
+    "fecha": "2026-11-27",
+    "titulo": "Indiana Jones and the Fate of Atlantis vuelve a funcionar desde sus cinco disquetes",
+    "descripcion": "La edición española Big Box se instala y juega en Windows 10 con DOSBox Staging. Documentamos el cambio de disquetes, un menú portable para instalar o jugar, sonido y partidas guardadas.",
+    "url": "documentacion/guias/indiana-jones-and-the-fate-of-atlantis-bigbox-windows-10-portable/"
+  },
+  {
     "fecha": "2026-11-22",
     "titulo": "Indiana Jones and the Fate of Atlantis: preservamos sus cinco disquetes",
     "descripcion": "La edición española Big Box de Erbe ya cuenta con cinco imágenes IMA verificadas. La guía recoge qué contiene cada disco, cómo se leyó y cómo se comprobó su integridad.",

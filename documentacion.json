@@ -1,5 +1,18 @@
 [
   {
+    "id": "guia-indiana-jones-and-the-fate-of-atlantis-bigbox-windows-10-portable",
+    "titulo": "Indiana Jones and the Fate of Atlantis: instalar y jugar en Windows 10 con DOSBox portable",
+    "categoria": "guias",
+    "fecha": "2026-11-27",
+    "descripcion": "Instala la edición española Big Box desde cinco disquetes y arráncala con un menú portable de DOSBox Staging. Música, efectos y partidas guardadas comprobados.",
+    "url": "documentacion/guias/indiana-jones-and-the-fate-of-atlantis-bigbox-windows-10-portable/",
+    "juegos": [
+      "juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/guia-indiana-jones-and-the-fate-of-atlantis-bigbox-windows-10-portable.md",
+    "actualizado": "2026-11-27"
+  },
+  {
     "id": "preservacion-indiana-jones-and-the-fate-of-atlantis-bigbox",
     "titulo": "Preservación digital de Indiana Jones and the Fate of Atlantis — edición española Big Box",
     "categoria": "preservacion",
