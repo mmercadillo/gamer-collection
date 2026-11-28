@@ -1,5 +1,18 @@
 [
   {
+    "id": "preservacion-in-the-1st-degree-asesinato-en-primer-grado-bigbox",
+    "titulo": "Preservación digital de In the 1st Degree: Asesinato en Primer Grado — edición española Big Box",
+    "categoria": "preservacion",
+    "fecha": "2026-11-28",
+    "descripcion": "Adquisición de los dos CD-ROM en formato ISO, sin errores registrados, con caracterización individual y hashes SHA-256. Compatibilidad pendiente de pruebas.",
+    "url": "documentacion/preservacion/in-the-1st-degree-asesinato-en-primer-grado-bigbox/",
+    "juegos": [
+      "juegos/in-the-1st-degree-asesinato-en-primer-grado-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/preservacion-in-the-1st-degree-asesinato-en-primer-grado-bigbox.md",
+    "actualizado": "2026-11-28"
+  },
+  {
     "id": "guia-indiana-jones-and-the-fate-of-atlantis-bigbox-windows-10-portable",
     "titulo": "Indiana Jones and the Fate of Atlantis: instalar y jugar en Windows 10 con DOSBox portable",
     "categoria": "guias",

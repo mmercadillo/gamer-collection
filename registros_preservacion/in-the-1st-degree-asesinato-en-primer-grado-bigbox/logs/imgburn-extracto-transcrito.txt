@@ -1,0 +1,5 @@
+Extracto transcrito de los logs aportados en la sesión (no archivo original).
+ImgBurn 2.5.8.0; HL-DT-ST DVDRAM GTB0N FU03 USB; Windows 8 reportado por aplicación, Windows 10 confirmado por CIM.
+CD1: 09:48:15 Operation Started!; 332797 sectors; 681568256 bytes; MODE1/2048 LBA 0–332796; Read Speed 4x/4x; Effective 10x; 09:58:08 Operation Successfully Completed! Duration 00:09:51; Average 1126 KiB/s (6.5x); Maximum 1597 KiB/s (9.3x).
+CD2: 10:16:48 Operation Started!; 325980 sectors; 667607040 bytes; MODE1/2048 LBA 0–325979; Read Speed 4x/4x; Effective 10x; 10:26:30 Operation Successfully Completed! Duration 00:09:40; Average 1124 KiB/s (6.5x); Maximum 1595 KiB/s (9.3x).
+Ambas operaciones registran exportación exitosa de gráficos .ibg; archivos .ibg no aportados. File Splitting: Auto; destino NTFS.

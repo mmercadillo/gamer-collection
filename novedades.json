@@ -1,5 +1,11 @@
 [
   {
+    "fecha": "2026-11-28",
+    "titulo": "In the 1st Degree: documentamos la adquisición de sus dos CD-ROM",
+    "descripcion": "La edición española Big Box cuenta con dos imágenes ISO obtenidas sin errores registrados y con sus huellas SHA-256. Documentamos cómo se leyeron ambos discos y qué queda por comprobar antes de volver a jugar.",
+    "url": "documentacion/preservacion/in-the-1st-degree-asesinato-en-primer-grado-bigbox/"
+  },
+  {
     "fecha": "2026-11-27",
     "titulo": "Indiana Jones and the Fate of Atlantis vuelve a funcionar desde sus cinco disquetes",
     "descripcion": "La edición española Big Box se instala y juega en Windows 10 con DOSBox Staging. Documentamos el cambio de disquetes, un menú portable para instalar o jugar, sonido y partidas guardadas.",
