@@ -55,6 +55,15 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.pcgamearchive.org/videos/in-the-1st-degree-asesinato-en-primer-grado-bigbox/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/in-the-1st-degree-asesinato-en-primer-grado-bigbox/img/001.jpg</video:thumbnail_loc>
+      <video:title>Introducción original de In the 1st Degree: Asesinato en Primer Grado</video:title>
+      <video:description>Introducción original de In the 1st Degree: Asesinato en Primer Grado conservada por PC Game Archive.</video:description>
+      <video:content_loc>https://www.pcgamearchive.org/videos/in-the-1st-degree-asesinato-en-primer-grado-bigbox.mp4</video:content_loc>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.pcgamearchive.org/videos/the-secret-of-monkey-island-jewelcase/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.pcgamearchive.org/juegos/the-secret-of-monkey-island-jewelcase/img/001.jpg</video:thumbnail_loc>
