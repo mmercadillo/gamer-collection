@@ -1,6 +1,6 @@
 # Informe de generación SEO
 
-- Fecha: 2026-11-27T19:10:05
+- Fecha: 2026-11-28T09:14:46
 - Juegos en catálogo: 1625
 - Incorporaciones con fecha documentada: 76
 - URLs duplicadas detectadas: 3
