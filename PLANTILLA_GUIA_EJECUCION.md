@@ -98,6 +98,8 @@ Documentar cada intervención por separado.
 
 Esta sección debe contener únicamente la secuencia final validada, sin mezclar intentos fallidos.
 
+Si se utiliza un entorno común ya documentado en `/documentacion/tecnica/`, indicar su ID y revisión, declarar la referencia en `documentacion.json` y describir aquí solo la preparación adicional y los pasos específicos de la edición. No sustituir la evidencia de la prueba por una referencia genérica.
+
 1.
 2.
 3.

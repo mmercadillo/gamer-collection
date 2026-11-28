@@ -1,6 +1,6 @@
 # Registro interno de preservación — In the 1st Degree: Asesinato en Primer Grado (Big Box)
 
-**Estándar:** v2.0, vigente desde 15/11/2026. **Fecha:** 28/11/2026. **Ficha:** #000260. **Estado técnico global:** `realizada` (controles de adquisición completados; separación y fijación definitiva del máster pendientes de acreditar). **Funcionalidad:** `no_probada`.
+**Estándar:** v2.0, vigente desde 15/11/2026. **Fecha:** 28/11/2026. **Ficha:** #000260. **Estado técnico global:** `realizada` (controles de adquisición completados; separación y fijación definitiva del máster pendientes de acreditar). **Funcionalidad:** `funcional_con_ajustes`.
 
 ## 1. Identificación
 
@@ -67,7 +67,7 @@ Se documentó una adquisición única por disco conforme al estándar v2.0. No s
 
 ## 9. Copia de trabajo y validación funcional
 
-No creada ni verificada en esta sesión. Instalación, arranque, juego, vídeos, sonido, guardado, carga y cambio de disco: no probados. No se declara preservación funcional completada.
+Copias de trabajo separadas y SHA-256 cotejados. Instalación, arranque, FMV, juego representativo, guardado, carga y cambio de CD validados con QuickTime 2.1.2. Véase el [registro de compatibilidad](../registros_compatibilidad/in-the-1st-degree-asesinato-en-primer-grado-bigbox.md).
 
 ## 10. Evidencia y cierre
 
@@ -75,4 +75,4 @@ No creada ni verificada en esta sesión. Instalación, arranque, juego, vídeos,
 - Logs originales de análisis MPF aportados: [in-the-1st-degree-asesinato-en-primer-grado-bigbox/logs](in-the-1st-degree-asesinato-en-primer-grado-bigbox/logs/). Extracto de ImgBurn transcrito de la conversación; archivo original y gráficos IBG no aportados.
 - PowerShell: tamaños reales coincidentes y hashes registrados arriba; `Get-CimInstance Win32_OperatingSystem` confirmó Microsoft Windows 10 Pro, 10.0.19045, build 19045, 64 bits.
 - Identificación, caracterización, análisis de protección, decisión ISO, adquisición y revisión de logs, tamaños y hashes: completados con los límites descritos.
-- Pendientes: confirmar separación/fijación y almacenamiento del máster, revisión de documentos, inspección lógica de las imágenes si procede, copia de trabajo y pruebas funcionales. No se asigna estado global `verificada` hasta acreditar la separación requerida por el estándar.
+- Pendientes: confirmar separación/fijación y almacenamiento del máster, revisión de documentos, inspección lógica de las imágenes si procede, validación en equipos adicionales. No se asigna estado global `verificada` hasta acreditar la separación requerida por el estándar.

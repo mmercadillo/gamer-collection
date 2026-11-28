@@ -1,0 +1,17 @@
+/* Biblioteca documental: mismo sistema visual que PCGA, índices compactos. */
+.doc-global-search,.doc-filter-panel{background:#fff;border:1px solid var(--bd);border-radius:18px;padding:18px;margin-top:20px;max-width:100%}
+.doc-global-search label,.doc-filter-panel label{display:block;font-weight:750;font-size:14px;margin-bottom:6px;color:var(--b)}
+.doc-search-line{display:flex;gap:10px;align-items:stretch}
+.doc-search-line input,.doc-filter-panel select{min-width:0;border:1px solid #b9b9b9;border-radius:12px;padding:12px;font:inherit;background:#fff;color:var(--b)}
+.doc-search-line input{flex:1;width:100%}.doc-filter-panel select{display:block;width:100%;font-size:14px;margin-top:6px}
+.doc-facets{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:14px;margin-top:16px}
+.doc-filter-actions{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-top:15px;flex-wrap:wrap}.doc-filter-actions label{margin:0;min-width:min(100%,230px)}
+.doc-secondary-button{font:inherit;font-weight:750;border:1px solid var(--bd);border-radius:12px;padding:10px 14px;background:#fff;color:var(--b);cursor:pointer}
+.doc-secondary-button:hover,.doc-area-nav a:hover,.doc-pagination a:hover{background:var(--soft)}
+.doc-area-nav{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 12px}.doc-area-nav a,.doc-pagination a{border:1px solid var(--bd);background:#fff;border-radius:12px;padding:8px 12px;text-decoration:none;font-weight:750;font-size:14px}
+.doc-area-nav a[aria-current],.doc-pagination a[aria-current]{background:#111;color:#fff;border-color:#111}
+.doc-compact-list{grid-template-columns:1fr;gap:10px}.doc-compact-list .documentation-entry{padding:15px 18px;overflow-wrap:anywhere}.doc-compact-list h3{font-size:18px;line-height:1.3}.doc-compact-list .eyebrow{font-size:11px;letter-spacing:.06em;margin-bottom:5px}.doc-compact-list .documentation-entry p:last-child{font-size:14px}
+.documentation-card h2 a{text-decoration:none}.documentation-card h2 a:hover{text-decoration:underline}.documentation-card{display:flex;flex-direction:column;align-items:start}.documentation-card .text-link-strong{margin-top:auto;padding-top:8px}.documentation-card h2{font-size:22px}.documentation-card:target{outline:2px solid #777;scroll-margin-top:160px}
+.doc-pagination{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center;margin:24px 0 0}.doc-empty{padding:18px;background:#fff;border:1px solid var(--bd);border-radius:12px}.doc-filter-panel[hidden]{display:none}
+.doc-search-line input:focus-visible,.doc-filter-panel select:focus-visible,.doc-filter-panel button:focus-visible,.doc-pagination a:focus-visible,.doc-area-nav a:focus-visible{outline:2px solid #111;outline-offset:3px}
+@media(max-width:520px){.doc-search-line{flex-direction:column}.doc-search-line .button{width:100%}.doc-global-search,.doc-filter-panel{padding:13px}.doc-filter-actions{align-items:stretch;flex-direction:column}.doc-area-nav a{font-size:12px;padding:7px 9px}.doc-compact-list .documentation-entry{padding:13px}}

@@ -22977,7 +22977,7 @@
       "Lanzamiento original"
     ],
     "preservacion": {
-      "resumen": "Los dos CD-ROM se adquirieron en formato ISO sin errores registrados, con tamaños coincidentes y SHA-256 de referencia. Validación funcional pendiente."
+      "resumen": "Los dos CD-ROM se adquirieron en formato ISO sin errores registrados, con tamaños coincidentes y SHA-256 de referencia. Ejecución funcional con DOSBox Staging, Windows 3.1 y QuickTime 2.1.2; vídeos, guardado/carga y cambio de CD comprobados."
     },
     "video_intro": false,
     "video_intro_fecha": "",

@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Guías de ejecución · PC Game Archive</title>
+<meta name="description" content="Procedimientos paso a paso, reproducibles y verificados para ejecutar ediciones concretas del archivo en sistemas actuales." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="theme-color" content="#111111" />
+<link rel="canonical" href="https://www.pcgamearchive.org/documentacion/guias/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PC Game Archive" />
+<meta property="og:title" content="Guías de ejecución · PC Game Archive" />
+<meta property="og:description" content="Procedimientos paso a paso, reproducibles y verificados para ejecutar ediciones concretas del archivo en sistemas actuales." />
+<meta property="og:url" content="https://www.pcgamearchive.org/documentacion/guias/" />
+<meta property="og:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Guías de ejecución · PC Game Archive" />
+<meta name="twitter:description" content="Procedimientos paso a paso, reproducibles y verificados para ejecutar ediciones concretas del archivo en sistemas actuales." />
+<meta name="twitter:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<link rel="icon" href="../../favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="48x48" href="../../favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="../../favicon-96x96.png" />
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
+<link rel="manifest" href="../../site.webmanifest" />
+<link rel="stylesheet" href="../../assets/css/styles.css" />
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://www.pcgamearchive.org/documentacion/guias/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Guías de ejecución","url":"https://www.pcgamearchive.org/documentacion/guias/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Documentación","item":"https://www.pcgamearchive.org/documentacion/"},{"@type":"ListItem","position":3,"name":"Guías de ejecución","item":"https://www.pcgamearchive.org/documentacion/guias/"}]}</script>
+<link rel="stylesheet" href="../../assets/css/documentacion.css" />
+</head>
+<body>
+<header id="top" class="site-header">
+  <div class="site-identity">
+    <div class="wrap brand-row">
+      <a class="brand" href="../../" aria-label="PC Game Archive">
+        <img class="logo" src="../../logo.png" alt="PC Game Archive logo">
+        <span><strong>PC Game Archive</strong><small>Biblioteca documental</small></span>
+      </a>
+    </div>
+  </div>
+  <div class="site-navigation">
+    <div class="wrap nav-row">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-nav-toggle>
+        <span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menú</span>
+      </button>
+      <nav class="nav" id="main-navigation" aria-label="Navegación principal">
+        <a href="../../">Inicio</a>
+<a href="../../catalogo/">Catálogo</a>
+<a href="../../videos/">Vídeos</a>
+<a href="../../novedades/">Novedades</a>
+<a class="active" href="../../documentacion/">Documentación</a>
+<details class="nav-explore">
+  <summary>Explorar <span class="nav-caret" aria-hidden="true">▾</span></summary>
+  <div class="nav-dropdown">
+    <div class="nav-dropdown-group">
+      <strong>Colecciones</strong>
+      <a class="nav-dropdown-link" href="../../incorporaciones/">Últimas incorporaciones</a>
+<a class="nav-dropdown-link" href="../../videojuegos-clasicos-pc.html">PC clásico</a>
+<a class="nav-dropdown-link" href="../../juegos-pc-big-box.html">Big Box PC</a>
+<a class="nav-dropdown-link" href="../../juegos-msdos.html">MS-DOS</a>
+<a class="nav-dropdown-link" href="../../juegos-windows-95-98.html">Windows 95/98</a>
+<a class="nav-dropdown-link" href="../../aventuras-graficas-pc.html">Aventuras gráficas</a>
+<a class="nav-dropdown-link" href="../../ediciones-espanolas-pc.html">Ediciones españolas</a>
+<a class="nav-dropdown-link" href="../../series.html">Series</a>
+    </div>
+    <div class="nav-dropdown-group">
+      <strong>Datos del archivo</strong>
+      <a class="nav-dropdown-link" href="../../desarrolladores/">Desarrolladores</a>
+<a class="nav-dropdown-link" href="../../distribuidores/">Distribuidores</a>
+<a class="nav-dropdown-link" href="../../generos/">Géneros</a>
+<a class="nav-dropdown-link" href="../../plataformas/">Plataformas</a>
+<a class="nav-dropdown-link" href="../../formatos/">Formatos</a>
+<a class="nav-dropdown-link" href="../../mercados/">Mercados</a>
+<a class="nav-dropdown-link" href="../../idiomas/">Idiomas</a>
+<a class="nav-dropdown-link" href="../../soportes/">Soportes</a>
+<a class="nav-dropdown-link" href="../../tipos-edicion/">Tipos de edición</a>
+    </div>
+  </div>
+</details>
+<a href="../../proyecto/">El proyecto</a>
+<a href="../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
+<a href="../../apoyar/">Apoyar</a>
+<a href="../../contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main><!-- PCGA_DOCUMENTATION_INDEX -->
+<section class="wrap page-head"><nav class="breadcrumbs" aria-label="Migas de pan"><a href="../../">Inicio</a> / <a href="../../documentacion/">Documentación</a> / <span>Guías de ejecución</span></nav><h1>Guías de ejecución</h1><p class="lead">Procedimientos paso a paso, reproducibles y verificados para ejecutar ediciones concretas del archivo en sistemas actuales.</p><nav class="doc-area-nav" aria-label="Áreas documentales"><a href="../../documentacion/preservacion/">Preservación digital (12)</a><a href="../../documentacion/guias/" aria-current="page">Guías de ejecución (12)</a><a href="../../documentacion/tecnica/">Entornos y procedimientos técnicos (2)</a><a href="../../documentacion/entornos/">Entornos de referencia (2)</a></nav><p><a class="text-link-strong" href="../../documentacion/buscar/">Buscar en toda la biblioteca</a></p></section>
+<section class="wrap documentation-section" id="doc-browser" data-root="../../" data-category="guias" data-base-route="documentacion/guias/" data-page="1">
+<form id="doc-filter-form" class="doc-filter-panel" role="search" hidden><label for="doc-query">Buscar en esta sección</label><div class="doc-search-line"><input type="search" id="doc-query" name="q" placeholder="Título, videojuego, herramienta…"><button type="submit" class="button">Buscar</button></div><div id="doc-facets" class="doc-facets"></div><div class="doc-filter-actions"><label for="doc-sort">Ordenar por <select id="doc-sort" name="orden"><option value="recientes">Publicación más reciente</option><option value="antiguos">Publicación más antigua</option><option value="az">Título A–Z</option><option value="anio">Año del juego (más reciente)</option></select></label><button type="button" id="doc-reset" class="doc-secondary-button">Limpiar filtros</button></div></form>
+<noscript><p>Los filtros requieren JavaScript. Puedes explorar los índices de las áreas documentales y sus páginas sin activarlo.</p></noscript>
+<p id="doc-count" class="count" role="status" aria-live="polite">12 documentos · página 1 de 1</p>
+<div class="documentation-list doc-compact-list" id="doc-results"><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 28 de noviembre de 2026</p><h3><a href="../../documentacion/guias/in-the-1st-degree-asesinato-en-primer-grado-bigbox-portable/">In the 1st Degree: Asesinato en Primer Grado en Windows 10 — DOSBox portable y QuickTime 2.1.2</a></h3><p>Instalación ilustrada de la edición española Big Box, solución al fallo FMV con QuickTime 2.1.2, cambio de CD, partidas guardadas y arranque portable.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 27 de noviembre de 2026</p><h3><a href="../../documentacion/guias/indiana-jones-and-the-fate-of-atlantis-bigbox-windows-10-portable/">Indiana Jones and the Fate of Atlantis: instalar y jugar en Windows 10 con DOSBox portable</a></h3><p>Instala la edición española Big Box desde cinco disquetes y arráncala con un menú portable de DOSBox Staging. Música, efectos y partidas guardadas comprobados.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 15 de noviembre de 2026</p><h3><a href="../../documentacion/guias/lode-runner-the-legend-returns-bigbox-portable/">Lode Runner: The Legend Returns en Windows 10 con DOSBox Staging y Windows 3.1</a></h3><p>Crea una instalación portable de la edición española Big Box con 256 colores, música del CD, efectos de sonido y arranque a pantalla completa con un doble clic.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 15 de noviembre de 2026</p><h3><a href="../../documentacion/guias/lode-runner-the-legend-returns-bigbox-windows-10/">Jugar a Lode Runner: The Legend Returns en Windows 10 — edición española Big Box</a></h3><p>Instalación y ejecución del CD-ROM desde BIN/CUE con otvdm 0.9.0 y DAEMON Tools Lite 12.6. Primer nivel, teclado, música, efectos y guardado y carga comprobados.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 12 de noviembre de 2026</p><h3><a href="../../documentacion/guias/kingmaker-la-busqueda-de-la-corona-bigbox-windows-10/">Jugar a Kingmaker: La Búsqueda de la Corona en Windows 10 — edición española y versión portable</a></h3><p>Instalación desde dos disquetes IMA con DOSBox Staging 0.83.0 y creación de una versión portable; arranque, audio, guardado, carga y pantalla completa comprobados.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 9 de noviembre de 2026</p><h3><a href="../../documentacion/guias/blade-runner-jewelcase-scummvm-windows-10/">Jugar a Blade Runner en Windows 10 — edición española Dinamic Multimedia con ScummVM</a></h3><p>Guía de ejecución comprobada en ScummVM 2026.4.0 con datos reunidos de cuatro CD; audio español, juego y guardado/carga validados.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 2 de noviembre de 2026</p><h3><a href="../../documentacion/guias/the-secret-of-monkey-island-jewelcase-windows-10/">Jugar a The Secret of Monkey Island en Windows 10 — edición Jewel Case</a></h3><p>Guía reproducible de la edición Jewel Case en Windows 10 con IsoBuster 5.8 y ScummVM 2026.4.0; incluye solución comprobada de audio CD-DA con 24 WAV track01.wav–track24.wav.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 2 de noviembre de 2026</p><h3><a href="../../documentacion/guias/loom-jewelcase-windows-10/">Jugar a Loom en Windows 10 — edición estadounidense Jewel Case</a></h3><p>Guía paso a paso probada para ejecutar la edición estadounidense Jewel Case de Loom en Windows 10 mediante IsoBuster 5.8 y ScummVM 2026.4.0.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 18 de octubre de 2026</p><h3><a href="../../documentacion/guias/panzer-commander-windows-10/">Jugar a Panzer Commander en Windows 10 — edición española Big Box</a></h3><p>Guía paso a paso probada para instalar la edición española Big Box en Windows 10 x64 mediante otvdm y ejecutar el juego de forma estable con DDrawCompat limitado a 30 FPS.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 7 de octubre de 2026</p><h3><a href="../../documentacion/guias/a-sangre-fria-windows-10/">Jugar a A Sangre Fría en Windows 10 — edición española Big Box</a></h3><p>Guía paso a paso probada sobre la edición española Big Box de tres CD conservada por PC Game Archive: montaje, instalación con cambios de disco y ejecución nativa en Windows 10 Pro.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 5 de octubre de 2026</p><h3><a href="../../documentacion/guias/red-baron-3d-windows-10/">Jugar a Red Baron 3-D en Windows 10 — edición española Big Box</a></h3><p>Guía paso a paso probada sobre la edición española Big Box conservada por PC Game Archive: montaje de la copia de trabajo, instalación y ejecución nativa en Windows 10 Pro 22H2.</p></article><article class="documentation-entry"><p class="eyebrow">Guías de ejecución · 4 de octubre de 2026</p><h3><a href="../../documentacion/guias/estandar-guias-ejecucion-compatibilidad/">Estándar de guías de ejecución y compatibilidad</a></h3><p>Criterios de PC Game Archive para documentar de forma reproducible cómo instalar, ajustar, probar y ejecutar una edición física concreta en sistemas actuales.</p></article></div><div id="doc-pages"></div></section>
+<script defer src="../../assets/js/documentacion-guias.js"></script><script defer src="../../assets/js/documentacion.js"></script></main>
+<footer>
+  <div class="wrap footrow">
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
+    <button class="to-top" type="button" data-scroll-top>Subir</button>
+  </div>
+</footer>
+<script>
+(function(){
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var menu=document.getElementById('main-navigation');
+  if(!toggle || !menu) return;
+  toggle.addEventListener('click',function(){
+    var open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    menu.classList.toggle('is-open',!open);
+  });
+  menu.addEventListener('click',function(e){
+    if(!e.target.closest('a')) return;
+    menu.querySelectorAll('details[open]').forEach(function(item){item.removeAttribute('open');});
+    if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){
+      toggle.setAttribute('aria-expanded','false');
+      menu.classList.remove('is-open');
+    }
+  });
+  document.addEventListener('click',function(e){
+    menu.querySelectorAll('details.nav-explore[open]').forEach(function(item){
+      if(!item.contains(e.target)) item.removeAttribute('open');
+    });
+  });
+})();
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('[data-scroll-top]');
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    var offerEvent={
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
+  }
+
+  var gameSupport=link.getAttribute('data-game-support');
+  if(gameSupport){
+    gtag('event','game_support_click',{
+      game_title:link.getAttribute('data-game-title')||'',
+      game_slug:link.getAttribute('data-game-slug')||'',
+      game_num:link.getAttribute('data-game-num')||'',
+      game_format:link.getAttribute('data-game-format')||'',
+      source_page:location.pathname
+    });
+    return;
+  }
+
+  var supportProvider=link.getAttribute('data-support-provider');
+  if(supportProvider){
+    var supportParams=new URLSearchParams(location.search);
+    var supportSlug=(supportParams.get('juego')||'').trim();
+    gtag('event','support_click',{
+      provider:supportProvider,
+      link_url:href,
+      source_page:location.pathname,
+      support_context:supportSlug?'game':'general',
+      game_slug:supportSlug
+    });
+    return;
+  }
+
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
+  }
+});
+if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){
+  var supportViewParams=new URLSearchParams(location.search);
+  var supportViewSlug=(supportViewParams.get('juego')||'').trim();
+  gtag('event','support_page_view',{
+    support_provider:'ko-fi',
+    source_page:location.pathname,
+    support_context:supportViewSlug?'game':'general',
+    game_slug:supportViewSlug
+  });
+}
+
+(function(){
+  // Seguimiento de reproductores MP4 propios; GA4 Enhanced Measurement no los detecta como YouTube.
+  document.querySelectorAll('video[data-pcga-video]').forEach(function(video){
+    var started=false, milestones={};
+    var context={game_num:video.dataset.gameNum||'',game_slug:video.dataset.gameSlug||'',video_title:video.dataset.videoTitle||'',video_location:video.dataset.videoLocation||'',video_url:video.querySelector('source')?.src||'',source_page:location.pathname};
+    function send(name,extra){
+      if(typeof gtag!=='function') return;
+      gtag('event',name,Object.assign({},context,extra||{}));
+    }
+    video.addEventListener('play',function(){if(!started){started=true;send('video_start',{video_percent:0});}});
+    video.addEventListener('timeupdate',function(){
+      if(!isFinite(video.duration)||video.duration<=0)return;
+      var pct=100*video.currentTime/video.duration;
+      [25,50,75].forEach(function(n){if(pct>=n&&!milestones[n]){milestones[n]=true;send('video_progress',{video_percent:n});}});
+    });
+    video.addEventListener('pause',function(){if(!video.ended&&started)send('video_pause',{video_percent:video.duration>0?Math.round(100*video.currentTime/video.duration):0});});
+    video.addEventListener('ended',function(){send('video_complete',{video_percent:100});});
+  });
+  document.addEventListener('click',function(e){
+    var link=e.target.closest('a[data-video-game-link]');
+    if(link&&typeof gtag==='function')gtag('event','video_game_click',{game_num:link.dataset.gameNum||'',game_slug:link.dataset.gameSlug||'',video_location:link.dataset.videoLocation||'',source_page:location.pathname,link_url:link.href});
+  });
+})();
+</script>
+</body>
+</html>

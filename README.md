@@ -116,6 +116,14 @@ Características:
 
 `documentacion.json` es el índice único de metadatos de la documentación pública. Cada documento declara su categoría, fecha, URL, fuente Markdown y, cuando proceda, las piezas relacionadas mediante sus URLs canónicas de `juegos.json`. Desde F17.4 esa relación es bidireccional: el documento enlaza a las piezas relacionadas y las fichas generan automáticamente su bloque **Preservación y compatibilidad**. La relación se declara una sola vez en `documentacion.json`; nunca debe duplicarse manualmente en `juegos.json`.
 
+### Documentación técnica transversal (28/11/2026)
+
+La categoría `tecnica` agrupa procedimientos reutilizables independientes de una pieza. El índice completo se publica en `/documentacion/tecnica/`; los documentos viven en `/documentacion/tecnica/<slug>/`, con fuente Markdown y carpeta `img/` igual que el resto de documentación. Se mantienen las categorías y rutas anteriores, incluida `laboratorio` para los equipos de referencia.
+
+Los documentos técnicos no llevan `juegos`. Las guías específicas pueden declarar `referencias_documentales`, una lista opcional de IDs de otros documentos de `documentacion.json`. El generador comprueba que existan y no estén duplicados ni apunten al propio documento, y crea enlaces en ambos sentidos sin asociar el procedimiento transversal a una ficha de videojuego. Las relaciones declaradas viven exclusivamente en `documentacion.json`; los enlaces editoriales de Markdown pueden remitir a las instrucciones concretas sin alterar esas relaciones. La categoría y su índice se generan automáticamente, con canonical, breadcrumbs y sitemap.
+
+La documentación transversal no equivale a una nueva prueba del laboratorio. Debe identificar las versiones, evidencias de origen, alcance y limitaciones; una receta consolidada no se declara reconstruida desde cero si no se ha realizado esa prueba. Las guías por pieza deben conservar sus ajustes específicos y las evidencias de su propia sesión.
+
 Desde F17.2 el cuerpo se mantiene en `documentacion/fuentes/*.md`. El generador renderiza un subconjunto controlado de Markdown (H2-H4, párrafos, listas, blockquotes, bloques de código, código inline, negrita y enlaces), sin admitir HTML crudo ni requerir librerías externas.
 
 F17.2 publica el estándar de preservación digital y la caracterización previa de soportes ópticos. `PLANTILLA_REGISTRO_PRESERVACION.md` es la checklist operativa que debe utilizarse al abordar cada pieza real.
@@ -456,3 +464,11 @@ La Fase 16.3 extiende la infraestructura de sostenibilidad de `/apoyar/` a todas
 - `support_page_view` y `support_click` conservan sus nombres para mantener continuidad analítica y añaden `support_context` y `game_slug`.
 - No se modifica el modelo de datos del catálogo: el apoyo contextual es una capacidad transversal del archivo, no un atributo de cada juego.
 
+
+### Biblioteca documental escalable (28/11/2026)
+
+`/documentacion/` es el portal de acceso: áreas activas, buscador global y cinco publicaciones recientes. Cada categoría tiene su índice propio, paginación estática de 24 documentos y filtros interactivos. El buscador global (`/documentacion/buscar/`) no se indexa; los índices estáticos y sus páginas sí se incorporan al sitemap. Se conservan las URL de los documentos individuales.
+
+Los metadatos opcionales `facetas` en `documentacion.json` contienen listas de valores documentados (por ejemplo, `tecnologias`, `herramientas`, `formatos_imagen`, `estado`, `temas`). Plataforma, soporte y año se obtienen de las fichas vinculadas cuando están informados. No se inventan datos ausentes. Los índices JavaScript y CSS se generan desde `biblioteca/`; no editar sus copias en `assets/` manualmente. No requiere backend. Los filtros necesitan JavaScript, pero los índices de categorías siguen disponibles sin él.
+
+Validación: `python TEST_DOCUMENTACION_TECNICA.py`, `python TEST_BIBLIOTECA.py` y, con Node.js, `node TEST_BIBLIOTECA_JS.cjs`. Esta última prueba ejecuta la lógica con un DOM simulado; no sustituye la comprobación visual y de navegación en navegador real.

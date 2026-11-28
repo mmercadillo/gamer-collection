@@ -391,6 +391,10 @@ DOCUMENTATION_CATEGORIES = {
         "label": "Guías de ejecución",
         "description": "Procedimientos paso a paso, reproducibles y verificados para ejecutar ediciones concretas del archivo en sistemas actuales.",
     },
+    "tecnica": {
+        "label": "Entornos y procedimientos técnicos",
+        "description": "Guías transversales para preparar entornos de ejecución, configurar herramientas y reproducir procedimientos de laboratorio sin depender de un videojuego concreto.",
+    },
     "formatos": {
         "label": "Formatos y soportes",
         "description": "Documentación técnica sobre CD-ROM, DVD-ROM, disquetes, cajas, soportes y otros elementos físicos relevantes para la preservación.",
@@ -404,6 +408,12 @@ DOCUMENTATION_CATEGORIES = {
         "description": "Hardware, software y reglas operativas de los entornos con los que PC Game Archive preserva soportes y valida compatibilidad de forma reproducible.",
     },
 }
+
+
+DOCUMENTATION_PAGE_SIZE = 24
+DOCUMENTATION_AREA_ROUTES = {key: f"documentacion/{'entornos' if key == 'laboratorio' else key}/" for key in DOCUMENTATION_CATEGORIES}
+DOCUMENTATION_SEARCH_ROUTE = "documentacion/buscar/"
+DOCUMENTATION_FACETS = {"tecnologias", "formatos_imagen", "herramientas", "estado", "temas"}
 
 
 def load_documentation(path: Path) -> list[dict[str, Any]]:
@@ -456,7 +466,7 @@ def load_documentation(path: Path) -> list[dict[str, Any]]:
             raise ValueError(
                 f"La URL documental de {doc_id!r} debe ser canónica, relativa y terminar en '/': {url!r}."
             )
-        if url == "documentacion/" or url in urls:
+        if url in {"documentacion/", DOCUMENTATION_SEARCH_ROUTE, *DOCUMENTATION_AREA_ROUTES.values()} or any(url.startswith(route + "pagina/") for route in DOCUMENTATION_AREA_ROUTES.values()) or url.startswith(DOCUMENTATION_SEARCH_ROUTE) or url in urls:
             raise ValueError(f"URL documental duplicada o reservada: {url!r}.")
         related_games = item.get("juegos", []) or []
         if not isinstance(related_games, list) or any(not isinstance(v, str) or not v.strip() for v in related_games):
@@ -464,7 +474,23 @@ def load_documentation(path: Path) -> list[dict[str, Any]]:
         normalized_related_games = [v.strip() for v in related_games]
         if len(normalized_related_games) != len(set(normalized_related_games)):
             raise ValueError(f"El documento {doc_id!r} contiene piezas relacionadas duplicadas.")
+        if category == "tecnica" and normalized_related_games:
+            raise ValueError(f"El documento transversal {doc_id!r} no debe asociarse directamente a piezas; utiliza referencias_documentales desde las guías específicas.")
+        if category == "tecnica" and not url.startswith("documentacion/tecnica/"):
+            raise ValueError(f"La URL del documento técnico {doc_id!r} debe comenzar por documentacion/tecnica/.")
+        if category != "tecnica" and url.startswith("documentacion/tecnica/"):
+            raise ValueError(f"La ruta técnica está reservada a la categoría tecnica: {doc_id!r}.")
+        references = item.get("referencias_documentales", [])
+        if not isinstance(references, list) or any(not isinstance(v, str) or not v.strip() for v in references):
+            raise ValueError(f"El campo referencias_documentales de {doc_id!r} debe ser una lista de identificadores documentales.")
+        references = [v.strip() for v in references]
+        if len(references) != len(set(references)) or doc_id in references:
+            raise ValueError(f"Referencias documentales duplicadas o autorreferencia en {doc_id!r}.")
+        facets = item.get("facetas", {})
+        if not isinstance(facets, dict) or any(k not in DOCUMENTATION_FACETS or not isinstance(v, list) or any(not isinstance(x, str) or not x.strip() for x in v) for k, v in facets.items()):
+            raise ValueError(f"Facetas documentales inválidas en {doc_id!r}.")
         documents.append({
+            "facetas": {k: sorted(set(x.strip() for x in v)) for k, v in facets.items()},
             "id": doc_id,
             "titulo": title,
             "categoria": category,
@@ -475,10 +501,15 @@ def load_documentation(path: Path) -> list[dict[str, Any]]:
             "descripcion": str(item.get("descripcion", "") or "").strip(),
             "url": url,
             "juegos": normalized_related_games,
+            "referencias_documentales": references,
             "contenido": str(item.get("contenido", "") or "").strip(),
         })
         ids.add(doc_id)
         urls.add(url)
+    for document in documents:
+        for reference in document["referencias_documentales"]:
+            if reference not in ids:
+                raise ValueError(f"El documento {document['id']!r} referencia un documento inexistente: {reference!r}.")
     return sorted(documents, key=lambda d: (d["_actualizado"] or d["_fecha"], d["titulo"].lower()), reverse=True)
 
 
@@ -1152,7 +1183,7 @@ def nav(active: str, prefix: str = "") -> str:
     ])
 
     def make_link(href: str, label: str, extra_class: str = "") -> str:
-        is_active = (not href and active == "index.html") or href == active
+        is_active = (not href and active == "index.html") or href == active or (href == "documentacion/" and active.startswith(href))
         classes = [c for c in [extra_class, "active" if is_active else ""] if c]
         cls = f' class="{" ".join(classes)}"' if classes else ""
         target = home_href(prefix) if not href else prefix + href
@@ -2056,13 +2087,19 @@ def documentation_article_breadcrumb_jsonld(base_url: str, document: dict[str, A
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Inicio", "item": abs_url(base_url, "")},
             {"@type": "ListItem", "position": 2, "name": "Documentación", "item": abs_url(base_url, "documentacion/")},
-            {"@type": "ListItem", "position": 3, "name": document["titulo"], "item": abs_url(base_url, document["url"])},
+            {"@type": "ListItem", "position": 3, "name": DOCUMENTATION_CATEGORIES[document["categoria"]]["label"], "item": abs_url(base_url, DOCUMENTATION_AREA_ROUTES[document["categoria"]])},
+            {"@type": "ListItem", "position": 4, "name": document["titulo"], "item": abs_url(base_url, document["url"])},
         ],
     }
 
 
 def generate_documentation_pages(documents: list[dict[str, Any]], games: list[dict[str, Any]], out: Path, project_root: Path, base_url: str) -> None:
     game_lookup = {str(g.get("url", "")).strip(): g for g in games}
+    document_lookup = {d["id"]: d for d in documents}
+    incoming: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for d in documents:
+        for reference in d["referencias_documentales"]:
+            incoming[reference].append(d)
     for document in documents:
         route = document["url"]
         prefix = rel_prefix_for(route + "index.html")
@@ -2087,9 +2124,21 @@ def generate_documentation_pages(documents: list[dict[str, Any]], games: list[di
                 '<p>Este documento está vinculado explícitamente a las siguientes ediciones del archivo.</p>'
                 f'<ul>{"".join(links)}</ul></aside>'
             )
+        def document_links(items: list[dict[str, Any]], heading: str) -> str:
+            if not items:
+                return ""
+            links = "".join(
+                f'<li><a href="{prefix}{h(d["url"])}"><strong>{h(d["titulo"])}</strong></a></li>'
+                for d in items
+            )
+            return f'<aside class="content-card text-section"><h2>{h(heading)}</h2><ul>{links}</ul></aside>'
+        references_html = document_links([document_lookup[r] for r in document["referencias_documentales"]], "Documentación de referencia")
+        incoming_html = document_links(incoming.get(document["id"], []), "Documentos que utilizan o citan esta guía")
+        technical_breadcrumb = f' / <a href="{prefix}{DOCUMENTATION_AREA_ROUTES[document["categoria"]]}">{h(cfg["label"])}</a>' 
+        related_sections = "\n    ".join(section for section in (references_html, incoming_html, related) if section)
         body = f"""<main>
   <section class="wrap page-head">
-    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / <a href="{prefix}documentacion/">Documentación</a> / <span>{h(document['titulo'])}</span></nav>
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / <a href="{prefix}documentacion/">Documentación</a>{technical_breadcrumb} / <span>{h(document['titulo'])}</span></nav>
     <p class="eyebrow">{h(cfg['label'])}</p>
     <h1>{h(document['titulo'])}</h1>
     <p class="lead">{h(description)}</p>
@@ -2097,7 +2146,7 @@ def generate_documentation_pages(documents: list[dict[str, Any]], games: list[di
   </section>
   <section class="wrap">
     <article class="content-card landing-editorial">{article_html}</article>
-    {related}
+    {related_sections}
   </section>
 </main>"""
         jsonld = [
@@ -2133,74 +2182,138 @@ def generate_documentation_pages(documents: list[dict[str, Any]], games: list[di
         )
 
 
+def documentation_page_route(key: str, page: int = 1) -> str:
+    route = DOCUMENTATION_AREA_ROUTES[key]
+    return route if page == 1 else f"{route}pagina/{page}/"
+
+
+def documentation_area_routes(documents: list[dict[str, Any]]) -> list[str]:
+    counts = Counter(d["categoria"] for d in documents)
+    return [documentation_page_route(key, page) for key in DOCUMENTATION_CATEGORIES
+            for page in range(1, math.ceil(counts[key] / DOCUMENTATION_PAGE_SIZE) + 1)]
+
+
+def documentation_records(documents: list[dict[str, Any]], games: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    lookup = {g["url"]: g for g in games if g.get("url")}
+    records = []
+    platform_labels = {"MsDos": "MS-DOS", "Win3.x": "Windows 3.x", "Win95": "Windows 95", "Win98": "Windows 98"}
+    for d in documents:
+        related = [lookup[u] for u in d.get("juegos", []) if u in lookup]
+        facets = {k: list(v) for k, v in d.get("facetas", {}).items()}
+        for key, field in (("plataforma", "plataforma"), ("soporte", "soporte"), ("anio", "anio")):
+            values = set()
+            for game in related:
+                value = game.get(field) or []
+                for item in (value if isinstance(value, list) else [value]):
+                    if str(item).strip():
+                        values.add(platform_labels.get(str(item), str(item)) if key == "plataforma" else str(item))
+            facets[key] = sorted(values)
+        facets["categoria"] = [d["categoria"]]
+        records.append({"id": d["id"], "titulo": d["titulo"], "descripcion": d.get("descripcion", ""), "url": d["url"],
+                        "categoria": d["categoria"], "label": DOCUMENTATION_CATEGORIES[d["categoria"]]["label"],
+                        "fecha": d["fecha"], "actualizado": d.get("actualizado") or d["fecha"],
+                        "fecha_texto": format_spanish_date(d["fecha"]), "juegos": [g.get("titulo", "") for g in related],
+                        "facetas": facets})
+    return sorted(records, key=lambda r: (r["fecha"], r["titulo"].casefold(), r["id"]), reverse=True)
+
+
+def documentation_entry(d: dict[str, Any], prefix: str) -> str:
+    return (f'<article class="documentation-entry"><p class="eyebrow">{h(DOCUMENTATION_CATEGORIES[d["categoria"]]["label"])} · {h(format_spanish_date(d["fecha"]))}</p>'
+            f'<h3><a href="{prefix}{h(d["url"])}">{h(d["titulo"])}</a></h3><p>{h(d.get("descripcion", ""))}</p></article>')
+
+
+def documentation_search_form(prefix: str) -> str:
+    return f'''<form class="doc-global-search" action="{prefix}{DOCUMENTATION_SEARCH_ROUTE}" method="get" role="search">
+<label for="doc-global-query">Buscar en toda la biblioteca</label><div class="doc-search-line"><input type="search" name="q" id="doc-global-query" placeholder="Título, videojuego, herramienta…"><button class="button" type="submit">Buscar</button></div></form>'''
+
+
+def documentation_category_links(documents: list[dict[str, Any]], prefix: str, active: str = "") -> str:
+    counts = Counter(d["categoria"] for d in documents)
+    return '<nav class="doc-area-nav" aria-label="Áreas documentales">' + "".join(
+        f'<a href="{prefix}{route}"' + (' aria-current="page"' if key == active else '') + f'>{h(DOCUMENTATION_CATEGORIES[key]["label"])} ({counts[key]})</a>'
+        for key, route in DOCUMENTATION_AREA_ROUTES.items() if counts[key]) + '</nav>'
+
+
 def generate_documentation_hub(documents: list[dict[str, Any]], out: Path, base_url: str) -> None:
     route = "documentacion/"
     prefix = rel_prefix_for(route + "index.html")
-    by_category: dict[str, list[dict[str, Any]]] = defaultdict(list)
-    for document in documents:
-        by_category[document["categoria"]].append(document)
-
-    category_cards = []
-    for key, cfg in DOCUMENTATION_CATEGORIES.items():
-        count = len(by_category.get(key, []))
-        count_label = f"{count} documento" if count == 1 else f"{count} documentos"
-        category_cards.append(
-            f'<article class="documentation-card">'
-            f'<p class="eyebrow">{h(count_label)}</p>'
-            f'<h2>{h(cfg["label"])}</h2>'
-            f'<p>{h(cfg["description"])}</p>'
-            f'</article>'
-        )
-
-    recent_html = ""
-    if documents:
-        entries = []
-        for document in documents[:8]:
-            cfg = DOCUMENTATION_CATEGORIES[document["categoria"]]
-            description = f'<p>{h(document["descripcion"])}</p>' if document["descripcion"] else ""
-            entries.append(
-                f'<article class="documentation-entry">'
-                f'<p class="eyebrow">{h(cfg["label"])} · {h(format_spanish_date(document["fecha"]))}</p>'
-                f'<h3><a href="{prefix}{h(document["url"])}">{h(document["titulo"])}</a></h3>'
-                f'{description}'
-                f'</article>'
-            )
-        recent_html = f'''<section class="wrap documentation-section" aria-labelledby="documentation-recent-title">
-  <div class="section-head"><h2 id="documentation-recent-title">Documentación publicada</h2></div>
-  <div class="documentation-list">{"".join(entries)}</div>
-</section>'''
-
-    desc = "Documentación de PC Game Archive sobre preservación digital, compatibilidad, entornos de referencia, soportes físicos e historia de los videojuegos de PC."
-    body = f'''<main>
-  <section class="wrap page-head">
-    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / Documentación</nav>
-    <p class="eyebrow">Conocimiento reproducible del archivo</p>
-    <h1>Documentación</h1>
-    <p class="lead">Procedimientos, entornos de referencia, guías y contexto técnico para conservar, comprender y ejecutar las ediciones físicas documentadas por PC Game Archive.</p>
-  </section>
-  <section class="wrap documentation-section" aria-labelledby="documentation-areas-title">
-    <div class="section-head"><h2 id="documentation-areas-title">Áreas documentales</h2></div>
-    <div class="documentation-grid">{"".join(category_cards)}</div>
-    <p class="documentation-principle"><strong>Principio de trabajo:</strong> la metodología de preservación puede ser reutilizable, pero la caracterización, la selección del método y la evidencia pertenecen siempre a la pieza o edición concreta tratada.</p>
-  </section>
-  {recent_html}
-</main>'''
-    jsonld = [
-        {
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            "name": "Documentación · PC Game Archive",
-            "description": desc,
-            "url": abs_url(base_url, route),
-        },
-        documentation_breadcrumb_jsonld(base_url),
-    ]
+    counts = Counter(d["categoria"] for d in documents)
+    cards = "".join(f'<article class="documentation-card" id="area-{key}"><p class="eyebrow">{counts[key]} {"documento" if counts[key] == 1 else "documentos"}</p>'
+                    f'<h2><a href="{prefix}{DOCUMENTATION_AREA_ROUTES[key]}">{h(cfg["label"])}</a></h2><p>{h(cfg["description"])}</p>'
+                    f'<a class="text-link-strong" href="{prefix}{DOCUMENTATION_AREA_ROUTES[key]}">Explorar sección →</a></article>'
+                    for key, cfg in DOCUMENTATION_CATEGORIES.items() if counts[key])
+    recent = sorted(documents, key=lambda d: (d["fecha"], d["titulo"].casefold(), d["id"]), reverse=True)[:5]
+    desc = "Biblioteca documental de PC Game Archive: preservación digital, guías de ejecución, procedimientos técnicos y entornos de referencia."
+    body = f'''<main><section class="wrap page-head"><nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / Documentación</nav>
+    <p class="eyebrow">Conocimiento reproducible del archivo</p><h1>Biblioteca documental</h1><p class="lead">{h(desc)}</p><p class="count">{len(documents)} documentos publicados · {len([v for v in counts.values() if v])} áreas documentales</p>{documentation_search_form(prefix)}</section>
+    <section class="wrap documentation-section"><h2>Áreas documentales</h2><div class="documentation-grid">{cards}</div></section>
+    <section class="wrap documentation-section"><h2>Últimas publicaciones</h2><div class="documentation-list doc-compact-list">{"".join(documentation_entry(d, prefix) for d in recent)}</div></section></main>'''
     target = out / route / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(
-        layout("Documentación · PC Game Archive", desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación, compatibilidad y documentación técnica", jsonld=jsonld),
-        encoding="utf-8",
-    )
+    target.write_text(layout("Biblioteca documental · PC Game Archive", desc, abs_url(base_url, route), route, body, prefix=prefix, subtitle="Preservación, compatibilidad y documentación técnica", jsonld=[{"@context":"https://schema.org", "@type":"CollectionPage", "name":"Biblioteca documental", "description":desc, "url":abs_url(base_url, route)}, documentation_breadcrumb_jsonld(base_url)]).replace("</head>", f'<link rel="stylesheet" href="{prefix}assets/css/documentacion.css" />\n</head>', 1), encoding="utf-8")
+
+
+def documentation_static_pagination(key: str, page: int, total: int, prefix: str) -> str:
+    if total <= 1: return ""
+    visible = sorted({1, total, *range(max(1, page-2), min(total, page+2)+1)})
+    def link(n: int, label: str) -> str:
+        return f'<a href="{prefix}{documentation_page_route(key, n)}"' + (' aria-current="page"' if n == page else '') + f'>{label}</a>'
+    parts = [link(page-1, "Anterior")] if page > 1 else []
+    for i, n in enumerate(visible):
+        if i and n > visible[i-1]+1: parts.append('<span aria-hidden="true">…</span>')
+        parts.append(link(n, str(n)))
+    if page < total: parts.append(link(page+1, "Siguiente"))
+    return '<nav class="doc-pagination" aria-label="Páginas de documentos">' + "".join(parts) + '</nav>'
+
+
+def generate_documentation_library(documents: list[dict[str, Any]], games: list[dict[str, Any]], out: Path, base_url: str) -> None:
+    records = documentation_records(documents, games)
+    by_id = {d["id"]:d for d in documents}
+    asset_dir = out / "assets/js"
+    asset_dir.mkdir(parents=True, exist_ok=True)
+    source_dir = Path(__file__).resolve().parent / "biblioteca"
+    shutil.copyfile(source_dir / "documentacion.js", asset_dir / "documentacion.js")
+    css_dir = out / "assets/css"; css_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(source_dir / "documentacion.css", css_dir / "documentacion.css")
+    counts = Counter(r["categoria"] for r in records)
+    # Limpiar exclusivamente páginas de índices generadas por este módulo que ya no corresponden al índice.
+    wanted = set(documentation_area_routes(documents)) | {DOCUMENTATION_SEARCH_ROUTE}
+    for area in DOCUMENTATION_AREA_ROUTES.values():
+        for old in [out / area / "index.html", *(out / area / "pagina").glob("*/index.html")]:
+            if old.is_file() and old.relative_to(out).parent.as_posix() + "/" not in wanted and '<!-- PCGA_DOCUMENTATION_INDEX -->' in old.read_text(encoding="utf-8"):
+                old.unlink()
+    for key in ["global", *DOCUMENTATION_CATEGORIES]:
+        rows = records if key == "global" else [r for r in records if r["categoria"] == key]
+        data_path = asset_dir / f"documentacion-{key}.js"
+        if key != "global" and not rows:
+            if data_path.exists(): data_path.unlink()
+            continue
+        payload = {"rows":rows, "categories":{k: {"label":c["label"],"route":DOCUMENTATION_AREA_ROUTES[k]} for k,c in DOCUMENTATION_CATEGORIES.items()}, "pageSize":DOCUMENTATION_PAGE_SIZE}
+        data_path.write_text("window.PCGA_DOCUMENTATION=" + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
+        total = max(1, math.ceil(len(rows)/DOCUMENTATION_PAGE_SIZE))
+        for page in range(1, (1 if key == "global" else total)+1):
+            route = DOCUMENTATION_SEARCH_ROUTE if key == "global" else documentation_page_route(key,page)
+            base_route = DOCUMENTATION_SEARCH_ROUTE if key == "global" else DOCUMENTATION_AREA_ROUTES[key]
+            prefix = rel_prefix_for(route + "index.html")
+            cfg = {"label":"Buscar documentos", "description":"Busca por título, videojuego, descripción o herramienta en todas las áreas documentales."} if key == "global" else DOCUMENTATION_CATEGORIES[key]
+            title = cfg["label"] + (f" · Página {page}" if page > 1 else "")
+            entries = "".join(documentation_entry(by_id[r["id"]], prefix) for r in rows[(page-1)*DOCUMENTATION_PAGE_SIZE:page*DOCUMENTATION_PAGE_SIZE])
+            pagination = "" if key == "global" else documentation_static_pagination(key,page,total,prefix)
+            body = f'''<main><!-- PCGA_DOCUMENTATION_INDEX -->
+<section class="wrap page-head"><nav class="breadcrumbs" aria-label="Migas de pan"><a href="{home_href(prefix)}">Inicio</a> / <a href="{prefix}documentacion/">Documentación</a> / <span>{h(title)}</span></nav><h1>{h(title)}</h1><p class="lead">{h(cfg["description"])}</p>{documentation_category_links(documents,prefix,key)}<p><a class="text-link-strong" href="{prefix}{DOCUMENTATION_SEARCH_ROUTE}">Buscar en toda la biblioteca</a></p></section>
+<section class="wrap documentation-section" id="doc-browser" data-root="{prefix}" data-category="{key}" data-base-route="{base_route}" data-page="{page}">
+<form id="doc-filter-form" class="doc-filter-panel" role="search" hidden><label for="doc-query">Buscar en {"toda la biblioteca" if key == "global" else "esta sección"}</label><div class="doc-search-line"><input type="search" id="doc-query" name="q" placeholder="Título, videojuego, herramienta…"><button type="submit" class="button">Buscar</button></div><div id="doc-facets" class="doc-facets"></div><div class="doc-filter-actions"><label for="doc-sort">Ordenar por <select id="doc-sort" name="orden"><option value="recientes">Publicación más reciente</option><option value="antiguos">Publicación más antigua</option><option value="az">Título A–Z</option><option value="anio">Año del juego (más reciente)</option></select></label><button type="button" id="doc-reset" class="doc-secondary-button">Limpiar filtros</button></div></form>
+<noscript><p>Los filtros requieren JavaScript. Puedes explorar los índices de las áreas documentales y sus páginas sin activarlo.</p></noscript>
+<p id="doc-count" class="count" role="status" aria-live="polite">{len(rows)} documentos · página {page}{f" de {total}" if key != "global" else ""}</p>
+<div class="documentation-list doc-compact-list" id="doc-results">{entries or "<p>No hay documentos publicados.</p>"}</div><div id="doc-pages">{pagination}</div></section>
+<script defer src="{prefix}assets/js/documentacion-{key}.js"></script><script defer src="{prefix}assets/js/documentacion.js"></script></main>'''
+            crumbs = documentation_breadcrumb_jsonld(base_url)
+            crumbs["itemListElement"].append({"@type":"ListItem", "position":3, "name":cfg["label"], "item":abs_url(base_url,base_route)})
+            if page > 1: crumbs["itemListElement"].append({"@type":"ListItem", "position":4, "name":f"Página {page}", "item":abs_url(base_url,route)})
+            result = layout(title+" · PC Game Archive", cfg["description"], abs_url(base_url,route), "documentacion/", body, prefix=prefix, subtitle="Biblioteca documental", jsonld=[{"@context":"https://schema.org","@type":"CollectionPage","name":title,"url":abs_url(base_url,route)},crumbs])
+            result = result.replace('</head>',f'<link rel="stylesheet" href="{prefix}assets/css/documentacion.css" />\n</head>',1)
+            if key == "global": result = result.replace('content="index,follow,max-image-preview:large"','content="noindex,follow"',1)
+            target = out / route / "index.html"; target.parent.mkdir(parents=True,exist_ok=True); target.write_text(result,encoding="utf-8")
 
 
 def intro_video_metadata(game: dict[str, Any], base_url: str, page_route: str, poster: str) -> dict[str, Any] | None:
@@ -3570,6 +3683,7 @@ def generate_game_pages(games: list[dict[str, Any]], documents: list[dict[str, A
 
 def generate_sitemap(games: list[dict[str, Any]], documents: list[dict[str, Any]], news: list[dict[str, Any]], out: Path, base_url: str, gallery_index: dict[str, list[str]] | None = None) -> None:
     urls = ["", "series.html", "contacto.html", "proyecto/", "vender-videojuegos-pc-antiguos/", "apoyar/", "novedades/", "documentacion/", "videos/"] + [p["filename"] for p in SEO_LANDING_PAGES]
+    urls.extend(documentation_area_routes(documents))
     urls.extend(document["url"] for document in documents)
     urls.extend(item["url"] for item in news if item["contenido"])
     incorporation_count = len(dated_incorporations(games))
@@ -3861,6 +3975,7 @@ def main() -> int:
     generate_news(news, out, args.base_url)
     generate_news_articles(news, out, project_root, args.base_url)
     generate_documentation_hub(documents, out, args.base_url)
+    generate_documentation_library(documents, games, out, args.base_url)
     generate_videos(games, out, args.base_url, gallery_index)
     generate_documentation_pages(documents, games, out, project_root, args.base_url)
     generate_incorporations(games, out, args.base_url)
@@ -3878,7 +3993,7 @@ def main() -> int:
     generate_sitemap(games, documents, news, out, args.base_url, gallery_index)
     generate_robots(out, args.base_url)
     build_report(games, out, gallery_index)
-    print("Versión generador: post-f17-entornos-referencia-2026-10-18")
+    print("Versión generador: biblioteca-documental-2026-11-28")
     print("Modelo de preservación: resumen verificado por pieza")
     print(f"Novedades procesadas: {len(news)}")
     print(f"Documentos indexados: {len(documents)}")

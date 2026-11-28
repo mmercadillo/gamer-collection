@@ -503,6 +503,9 @@ La guía pública contiene el procedimiento reproducible validado.
 
 Las relaciones entre documentación y piezas se declaran **solo en `documentacion.json`**.
 
+Desde el 28/11/2026, consultar también `/documentacion/tecnica/` y sus fuentes antes de redactar una guía. Los entornos y procedimientos comunes se documentan independientemente en la categoría `tecnica`, sin asociación directa a videojuegos. Las guías específicas declaran los IDs técnicos utilizados en `referencias_documentales` de `documentacion.json` y conservan sus propios ajustes, evidencias y resultados. No utilizar una guía de otro videojuego como requisito de instalación de un entorno común. Si se consolida conocimiento de varias sesiones, distinguir explícitamente los pasos probados de una reconstrucción integral pendiente.
+
+
 No duplicar relaciones manualmente en `juegos.json`.
 
 El generador debe resolver automáticamente:

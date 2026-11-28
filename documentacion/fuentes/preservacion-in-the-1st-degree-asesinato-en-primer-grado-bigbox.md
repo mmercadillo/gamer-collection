@@ -50,6 +50,6 @@ Se documentó una adquisición única por disco conforme al estándar v2.0. No s
 
 ## Estado y siguientes comprobaciones
 
-Los dos soportes cuentan con imágenes ISO adquiridas sin errores registrados, tamaños coincidentes y hashes de referencia. La fijación del máster en almacenamiento definitivo, su separación efectiva de la copia de trabajo y las copias de seguridad quedan pendientes de confirmación documental.
+Los dos soportes cuentan con imágenes ISO adquiridas sin errores registrados, tamaños coincidentes y hashes de referencia. La fijación del máster en almacenamiento definitivo, y las copias de seguridad quedan pendientes de confirmación documental. Se verificaron copias de trabajo separadas mediante SHA-256.
 
-El primer disco contiene el instalador, componentes QuickTime y recursos multimedia; el segundo contiene recursos `.MHK` y vídeos `.MOV`. La instalación, reproducción de vídeo y audio, cambios de disco, jugabilidad y guardado aún no se han probado. La guía de compatibilidad se elaborará a partir de una copia de trabajo verificada. PC Game Archive no distribuye las imágenes del software.
+El primer disco contiene el instalador, componentes QuickTime y recursos multimedia; el segundo contiene recursos `.MHK` y vídeos `.MOV`. La instalación, reproducción FMV, jugabilidad representativa, guardado/carga y cambio de disco se validaron el 28/11/2026 con Windows 3.1, DOSBox Staging 0.83.0 y QuickTime 2.1.2. Consulta la [guía de compatibilidad](https://www.pcgamearchive.org/documentacion/guias/in-the-1st-degree-asesinato-en-primer-grado-bigbox-portable/). PC Game Archive no distribuye las imágenes del software.

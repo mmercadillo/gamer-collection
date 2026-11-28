@@ -1,6 +1,19 @@
 [
   {
     "fecha": "2026-11-28",
+    "titulo": "PC Game Archive estrena su nueva biblioteca documental",
+    "descripcion": "Estrenamos una biblioteca documental especializada en preservación digital, compatibilidad y procedimientos técnicos. Incorporamos buscador, filtros, ordenación y navegación por áreas, preparando el archivo para su futuro crecimiento.",
+    "url": "documentacion/",
+    "destacado": true
+  },
+  {
+    "fecha": "2026-11-28",
+    "titulo": "In the 1st Degree vuelve a funcionar en un entorno portable",
+    "descripcion": "Recuperamos la edición española Big Box mediante DOSBox Staging, Windows 3.1 y QuickTime 2.1.2. Validamos la reproducción de vídeos originales, el guardado de partidas, el cambio de CD y la ejecución portable.",
+    "url": "documentacion/guias/in-the-1st-degree-asesinato-en-primer-grado-bigbox-portable/"
+  },
+  {
+    "fecha": "2026-11-28",
     "titulo": "In the 1st Degree: documentamos la adquisición de sus dos CD-ROM",
     "descripcion": "La edición española Big Box cuenta con dos imágenes ISO obtenidas sin errores registrados y con sus huellas SHA-256. Documentamos cómo se leyeron ambos discos y qué queda por comprobar antes de volver a jugar.",
     "url": "documentacion/preservacion/in-the-1st-degree-asesinato-en-primer-grado-bigbox/"

@@ -1,16 +1,101 @@
 [
   {
+    "id": "tecnica-quicktime-212-windows-31-dosbox-staging",
+    "titulo": "Instalación y configuración de Apple QuickTime 2.1.2 en Windows 3.1 con DOSBox Staging",
+    "categoria": "tecnica",
+    "fecha": "2026-11-28",
+    "descripcion": "Amplía el entorno portable Windows 3.1 con QuickTime 2.1.2 de 16 bits: instalación, SHA-256, reproducción MOV y diagnóstico de fallos FMV.",
+    "url": "documentacion/tecnica/quicktime-212-windows-31-dosbox-staging/",
+    "contenido": "documentacion/fuentes/tecnica-quicktime-212-windows-31-dosbox-staging.md",
+    "actualizado": "2026-11-28",
+    "referencias_documentales": [
+      "tecnica-windows-31-dosbox-staging-portable"
+    ],
+    "facetas": {
+      "temas": [
+        "Multimedia",
+        "Compatibilidad",
+        "Portabilidad"
+      ],
+      "tecnologias": [
+        "DOSBox Staging",
+        "QuickTime 2.1.2"
+      ],
+      "herramientas": [
+        "QuickTime Movie Player"
+      ]
+    }
+  },
+  {
+    "id": "tecnica-windows-31-dosbox-staging-portable",
+    "titulo": "Preparación de un entorno portable Windows 3.1 con DOSBox Staging",
+    "categoria": "tecnica",
+    "fecha": "2026-11-28",
+    "descripcion": "Instala Windows 3.1, S3 y Sound Blaster 16 en DOSBox Staging 0.83.0. Configura CD-ROM, MIDI, SmartDrive, QuickTime y arranque portable con rutas relativas.",
+    "url": "documentacion/tecnica/windows-31-dosbox-staging-portable/",
+    "contenido": "documentacion/fuentes/tecnica-windows-31-dosbox-staging-portable.md",
+    "actualizado": "2026-11-28",
+    "facetas": {
+      "temas": [
+        "Emulación",
+        "Multimedia",
+        "Portabilidad"
+      ],
+      "tecnologias": [
+        "DOSBox Staging",
+        "QuickTime 2.1.2"
+      ],
+      "herramientas": [
+        "DOSBox Staging"
+      ]
+    }
+  },
+  {
+    "id": "guia-in-the-1st-degree-asesinato-en-primer-grado-bigbox-portable",
+    "titulo": "In the 1st Degree: Asesinato en Primer Grado en Windows 10 — DOSBox portable y QuickTime 2.1.2",
+    "categoria": "guias",
+    "fecha": "2026-11-28",
+    "descripcion": "Instalación ilustrada de la edición española Big Box, solución al fallo FMV con QuickTime 2.1.2, cambio de CD, partidas guardadas y arranque portable.",
+    "url": "documentacion/guias/in-the-1st-degree-asesinato-en-primer-grado-bigbox-portable/",
+    "juegos": [
+      "juegos/in-the-1st-degree-asesinato-en-primer-grado-bigbox/"
+    ],
+    "contenido": "documentacion/fuentes/guia-in-the-1st-degree-asesinato-en-primer-grado-bigbox-portable.md",
+    "actualizado": "2026-11-28",
+    "referencias_documentales": [
+      "tecnica-windows-31-dosbox-staging-portable",
+      "tecnica-quicktime-212-windows-31-dosbox-staging"
+    ],
+    "facetas": {
+      "tecnologias": [
+        "DOSBox Staging",
+        "QuickTime 2.1.2"
+      ]
+    }
+  },
+  {
     "id": "preservacion-in-the-1st-degree-asesinato-en-primer-grado-bigbox",
     "titulo": "Preservación digital de In the 1st Degree: Asesinato en Primer Grado — edición española Big Box",
     "categoria": "preservacion",
     "fecha": "2026-11-28",
-    "descripcion": "Adquisición de los dos CD-ROM en formato ISO, sin errores registrados, con caracterización individual y hashes SHA-256. Compatibilidad pendiente de pruebas.",
+    "descripcion": "Adquisición de los dos CD-ROM en formato ISO, sin errores registrados, con caracterización individual y hashes SHA-256. Compatibilidad funcional con ajustes.",
     "url": "documentacion/preservacion/in-the-1st-degree-asesinato-en-primer-grado-bigbox/",
     "juegos": [
       "juegos/in-the-1st-degree-asesinato-en-primer-grado-bigbox/"
     ],
     "contenido": "documentacion/fuentes/preservacion-in-the-1st-degree-asesinato-en-primer-grado-bigbox.md",
-    "actualizado": "2026-11-28"
+    "actualizado": "2026-11-28",
+    "facetas": {
+      "formatos_imagen": [
+        "ISO"
+      ],
+      "herramientas": [
+        "ImgBurn"
+      ],
+      "estado": [
+        "Una lectura verificada"
+      ]
+    }
   },
   {
     "id": "guia-indiana-jones-and-the-fate-of-atlantis-bigbox-windows-10-portable",
@@ -23,7 +108,12 @@
       "juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/"
     ],
     "contenido": "documentacion/fuentes/guia-indiana-jones-and-the-fate-of-atlantis-bigbox-windows-10-portable.md",
-    "actualizado": "2026-11-27"
+    "actualizado": "2026-11-27",
+    "facetas": {
+      "tecnologias": [
+        "DOSBox Staging"
+      ]
+    }
   },
   {
     "id": "preservacion-indiana-jones-and-the-fate-of-atlantis-bigbox",
@@ -36,7 +126,18 @@
       "juegos/indiana-jones-and-the-fate-of-atlantis-bigbox/"
     ],
     "contenido": "documentacion/fuentes/preservacion-indiana-jones-and-the-fate-of-atlantis-bigbox.md",
-    "actualizado": "2026-11-22"
+    "actualizado": "2026-11-22",
+    "facetas": {
+      "formatos_imagen": [
+        "IMA"
+      ],
+      "herramientas": [
+        "WinImage"
+      ],
+      "estado": [
+        "Verificación por cotejo y SHA-256"
+      ]
+    }
   },
   {
     "id": "guia-lode-runner-the-legend-returns-bigbox-portable",
@@ -49,7 +150,15 @@
       "juegos/lode-runner-the-legend-returns-bigbox/"
     ],
     "contenido": "documentacion/fuentes/guia-lode-runner-the-legend-returns-bigbox-portable.md",
-    "actualizado": "2026-11-15"
+    "actualizado": "2026-11-28",
+    "referencias_documentales": [
+      "tecnica-windows-31-dosbox-staging-portable"
+    ],
+    "facetas": {
+      "tecnologias": [
+        "DOSBox Staging"
+      ]
+    }
   },
   {
     "id": "guia-lode-runner-the-legend-returns-bigbox-windows-10",
@@ -62,7 +171,13 @@
       "juegos/lode-runner-the-legend-returns-bigbox/"
     ],
     "contenido": "documentacion/fuentes/guia-lode-runner-the-legend-returns-bigbox-windows-10.md",
-    "actualizado": "2026-11-15"
+    "actualizado": "2026-11-15",
+    "facetas": {
+      "tecnologias": [
+        "otvdm",
+        "DAEMON Tools Lite"
+      ]
+    }
   },
   {
     "id": "preservacion-lode-runner-the-legend-returns-bigbox",
@@ -75,7 +190,18 @@
       "juegos/lode-runner-the-legend-returns-bigbox/"
     ],
     "contenido": "documentacion/fuentes/preservacion-lode-runner-the-legend-returns-bigbox.md",
-    "actualizado": "2026-11-15"
+    "actualizado": "2026-11-15",
+    "facetas": {
+      "formatos_imagen": [
+        "BIN/CUE"
+      ],
+      "herramientas": [
+        "ImgBurn"
+      ],
+      "estado": [
+        "Una lectura verificada"
+      ]
+    }
   },
   {
     "id": "preservacion-kingmaker-la-busqueda-de-la-corona-bigbox",
@@ -88,7 +214,18 @@
       "juegos/kingmaker-la-busqueda-de-la-corona-bigbox/"
     ],
     "contenido": "documentacion/fuentes/preservacion-kingmaker-la-busqueda-de-la-corona-bigbox.md",
-    "actualizado": "2026-11-12"
+    "actualizado": "2026-11-12",
+    "facetas": {
+      "formatos_imagen": [
+        "IMA"
+      ],
+      "herramientas": [
+        "WinImage"
+      ],
+      "estado": [
+        "Dos lecturas coincidentes"
+      ]
+    }
   },
   {
     "id": "guia-kingmaker-la-busqueda-de-la-corona-bigbox-windows-10",
@@ -101,7 +238,12 @@
       "juegos/kingmaker-la-busqueda-de-la-corona-bigbox/"
     ],
     "contenido": "documentacion/fuentes/guia-kingmaker-la-busqueda-de-la-corona-bigbox-windows-10.md",
-    "actualizado": "2026-11-12"
+    "actualizado": "2026-11-12",
+    "facetas": {
+      "tecnologias": [
+        "DOSBox Staging"
+      ]
+    }
   },
   {
     "id": "preservacion-blade-runner-jewelcase",
@@ -114,7 +256,17 @@
       "juegos/blade-runner-jewelcase/"
     ],
     "contenido": "documentacion/fuentes/preservacion-blade-runner-jewelcase.md",
-    "actualizado": "2026-11-09"
+    "actualizado": "2026-11-09",
+    "facetas": {
+      "estado": [
+        "Recuperación funcional; lectura incompleta"
+      ],
+      "herramientas": [
+        "Redumper",
+        "IsoBuster",
+        "MPF"
+      ]
+    }
   },
   {
     "id": "guia-blade-runner-jewelcase-scummvm-windows-10",
@@ -127,7 +279,12 @@
       "juegos/blade-runner-jewelcase/"
     ],
     "contenido": "documentacion/fuentes/guia-blade-runner-jewelcase-scummvm-windows-10.md",
-    "actualizado": "2026-11-09"
+    "actualizado": "2026-11-09",
+    "facetas": {
+      "tecnologias": [
+        "ScummVM"
+      ]
+    }
   },
   {
     "id": "guia-the-secret-of-monkey-island-jewelcase-windows-10",
@@ -140,7 +297,12 @@
       "juegos/the-secret-of-monkey-island-jewelcase/"
     ],
     "contenido": "documentacion/fuentes/guia-the-secret-of-monkey-island-jewelcase-windows-10.md",
-    "actualizado": "2026-11-02"
+    "actualizado": "2026-11-02",
+    "facetas": {
+      "tecnologias": [
+        "ScummVM"
+      ]
+    }
   },
   {
     "id": "preservacion-the-secret-of-monkey-island-jewelcase",
@@ -153,7 +315,18 @@
       "juegos/the-secret-of-monkey-island-jewelcase/"
     ],
     "contenido": "documentacion/fuentes/preservacion-the-secret-of-monkey-island-jewelcase.md",
-    "actualizado": "2026-11-02"
+    "actualizado": "2026-11-02",
+    "facetas": {
+      "formatos_imagen": [
+        "BIN/CUE"
+      ],
+      "herramientas": [
+        "ImgBurn"
+      ],
+      "estado": [
+        "Dos lecturas coincidentes"
+      ]
+    }
   },
   {
     "id": "preservacion-loom-jewelcase",
@@ -166,7 +339,18 @@
       "juegos/loom-jewelcase/"
     ],
     "contenido": "documentacion/fuentes/preservacion-loom-jewelcase.md",
-    "actualizado": "2026-11-01"
+    "actualizado": "2026-11-01",
+    "facetas": {
+      "formatos_imagen": [
+        "BIN/CUE"
+      ],
+      "herramientas": [
+        "ImgBurn"
+      ],
+      "estado": [
+        "Dos lecturas coincidentes"
+      ]
+    }
   },
   {
     "id": "guia-loom-jewelcase-windows-10",
@@ -179,7 +363,12 @@
       "juegos/loom-jewelcase/"
     ],
     "contenido": "documentacion/fuentes/guia-loom-jewelcase-windows-10.md",
-    "actualizado": "2026-11-02"
+    "actualizado": "2026-11-02",
+    "facetas": {
+      "tecnologias": [
+        "ScummVM"
+      ]
+    }
   },
   {
     "id": "guia-panzer-commander-windows-10",
@@ -192,7 +381,13 @@
       "juegos/panzer-commander-wwii-tank-simulator-bigbox/"
     ],
     "contenido": "documentacion/fuentes/guia-panzer-commander-windows-10.md",
-    "actualizado": "2026-10-18"
+    "actualizado": "2026-10-18",
+    "facetas": {
+      "tecnologias": [
+        "otvdm",
+        "DDrawCompat"
+      ]
+    }
   },
   {
     "id": "preservacion-panzer-commander-wwii-tank-simulator-bigbox",
@@ -205,7 +400,19 @@
       "juegos/panzer-commander-wwii-tank-simulator-bigbox/"
     ],
     "contenido": "documentacion/fuentes/preservacion-panzer-commander-wwii-tank-simulator-bigbox.md",
-    "actualizado": "2026-10-18"
+    "actualizado": "2026-10-18",
+    "facetas": {
+      "formatos_imagen": [
+        "BIN/CUE"
+      ],
+      "herramientas": [
+        "MPF",
+        "Redumper"
+      ],
+      "estado": [
+        "Dos lecturas coincidentes"
+      ]
+    }
   },
   {
     "id": "entorno-pcga-master-01",
@@ -215,7 +422,13 @@
     "descripcion": "Hardware, unidad óptica, software y reglas operativas del entorno de referencia con el que PC Game Archive crea y verifica sus másteres de preservación.",
     "url": "documentacion/laboratorio/pcga-master-01/",
     "contenido": "documentacion/fuentes/pcga-master-01.md",
-    "actualizado": "2026-10-18"
+    "actualizado": "2026-10-18",
+    "facetas": {
+      "temas": [
+        "Preservación",
+        "Infraestructura"
+      ]
+    }
   },
   {
     "id": "entorno-pcga-lab-01",
@@ -225,7 +438,13 @@
     "descripcion": "Hardware, software y criterios de prueba del entorno de referencia utilizado para instalar, ejecutar y validar juegos conservados por PC Game Archive.",
     "url": "documentacion/laboratorio/pcga-lab-01/",
     "contenido": "documentacion/fuentes/pcga-lab-01.md",
-    "actualizado": "2026-10-18"
+    "actualizado": "2026-10-18",
+    "facetas": {
+      "temas": [
+        "Compatibilidad",
+        "Infraestructura"
+      ]
+    }
   },
   {
     "id": "guia-a-sangre-fria-windows-10",
@@ -238,7 +457,12 @@
       "juegos/a-sangre-fria-bigbox/"
     ],
     "contenido": "documentacion/fuentes/guia-a-sangre-fria-windows-10.md",
-    "actualizado": "2026-10-07"
+    "actualizado": "2026-10-07",
+    "facetas": {
+      "tecnologias": [
+        "Ejecución nativa"
+      ]
+    }
   },
   {
     "id": "preservacion-a-sangre-fria-bigbox",
@@ -251,7 +475,19 @@
       "juegos/a-sangre-fria-bigbox/"
     ],
     "contenido": "documentacion/fuentes/preservacion-a-sangre-fria-bigbox.md",
-    "actualizado": "2026-10-07"
+    "actualizado": "2026-10-07",
+    "facetas": {
+      "formatos_imagen": [
+        "BIN/CUE"
+      ],
+      "herramientas": [
+        "MPF",
+        "Redumper"
+      ],
+      "estado": [
+        "Dos lecturas coincidentes"
+      ]
+    }
   },
   {
     "id": "guia-red-baron-3d-windows-10",
@@ -264,7 +500,12 @@
       "juegos/red-baron-3d-bigbox/"
     ],
     "contenido": "documentacion/fuentes/guia-red-baron-3d-windows-10.md",
-    "actualizado": "2026-10-05"
+    "actualizado": "2026-10-05",
+    "facetas": {
+      "tecnologias": [
+        "Ejecución nativa"
+      ]
+    }
   },
   {
     "id": "preservacion-red-baron-3d-bigbox",
@@ -277,7 +518,19 @@
       "juegos/red-baron-3d-bigbox/"
     ],
     "contenido": "documentacion/fuentes/preservacion-red-baron-3d-bigbox.md",
-    "actualizado": "2026-10-05"
+    "actualizado": "2026-10-05",
+    "facetas": {
+      "formatos_imagen": [
+        "BIN/CUE"
+      ],
+      "herramientas": [
+        "MPF",
+        "Redumper"
+      ],
+      "estado": [
+        "Dos lecturas coincidentes"
+      ]
+    }
   },
   {
     "id": "estandar-guias-ejecucion-compatibilidad",
@@ -287,7 +540,13 @@
     "descripcion": "Criterios de PC Game Archive para documentar de forma reproducible cómo instalar, ajustar, probar y ejecutar una edición física concreta en sistemas actuales.",
     "url": "documentacion/guias/estandar-guias-ejecucion-compatibilidad/",
     "contenido": "documentacion/fuentes/estandar-guias-ejecucion-compatibilidad.md",
-    "actualizado": "2026-11-15"
+    "actualizado": "2026-11-15",
+    "facetas": {
+      "temas": [
+        "Metodología",
+        "Compatibilidad"
+      ]
+    }
   },
   {
     "id": "estandar-preservacion-digital-pc-game-archive",
@@ -297,7 +556,13 @@
     "descripcion": "Metodología versionada de PC Game Archive para identificar, caracterizar, adquirir, verificar y conservar digitalmente una pieza física sin confundir preservación con compatibilidad.",
     "url": "documentacion/preservacion/estandar-preservacion-digital/",
     "contenido": "documentacion/fuentes/estandar-preservacion-digital.md",
-    "actualizado": "2026-11-15"
+    "actualizado": "2026-11-15",
+    "facetas": {
+      "temas": [
+        "Metodología",
+        "Preservación"
+      ]
+    }
   },
   {
     "id": "caracterizacion-soportes-opticos",
@@ -306,6 +571,12 @@
     "fecha": "2026-10-04",
     "descripcion": "Procedimiento previo para determinar estructura, pistas, sesiones, protecciones y otras características antes de elegir cómo preservar un CD-ROM o DVD-ROM.",
     "url": "documentacion/preservacion/caracterizacion-soportes-opticos/",
-    "contenido": "documentacion/fuentes/caracterizacion-soportes-opticos.md"
+    "contenido": "documentacion/fuentes/caracterizacion-soportes-opticos.md",
+    "facetas": {
+      "temas": [
+        "Caracterización",
+        "Soportes ópticos"
+      ]
+    }
   }
 ]

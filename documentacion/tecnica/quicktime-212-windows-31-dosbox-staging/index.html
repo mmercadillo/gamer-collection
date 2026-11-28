@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Instalación y configuración de Apple QuickTime 2.1.2 en Windows 3.1 con DOSBox Staging · PC Game Archive</title>
+<meta name="description" content="Amplía el entorno portable Windows 3.1 con QuickTime 2.1.2 de 16 bits: instalación, SHA-256, reproducción MOV y diagnóstico de fallos FMV." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="theme-color" content="#111111" />
+<link rel="canonical" href="https://www.pcgamearchive.org/documentacion/tecnica/quicktime-212-windows-31-dosbox-staging/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PC Game Archive" />
+<meta property="og:title" content="Instalación y configuración de Apple QuickTime 2.1.2 en Windows 3.1 con DOSBox Staging · PC Game Archive" />
+<meta property="og:description" content="Amplía el entorno portable Windows 3.1 con QuickTime 2.1.2 de 16 bits: instalación, SHA-256, reproducción MOV y diagnóstico de fallos FMV." />
+<meta property="og:url" content="https://www.pcgamearchive.org/documentacion/tecnica/quicktime-212-windows-31-dosbox-staging/" />
+<meta property="og:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Instalación y configuración de Apple QuickTime 2.1.2 en Windows 3.1 con DOSBox Staging · PC Game Archive" />
+<meta name="twitter:description" content="Amplía el entorno portable Windows 3.1 con QuickTime 2.1.2 de 16 bits: instalación, SHA-256, reproducción MOV y diagnóstico de fallos FMV." />
+<meta name="twitter:image" content="https://www.pcgamearchive.org/no_disponible.png" />
+<link rel="icon" href="../../../favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="48x48" href="../../../favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="../../../favicon-96x96.png" />
+<link rel="apple-touch-icon" href="../../../apple-touch-icon.png" />
+<link rel="manifest" href="../../../site.webmanifest" />
+<link rel="stylesheet" href="../../../assets/css/styles.css" />
+<script>
+(function(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  if(location.pathname.endsWith('/index.html')){
+    var cleanPath=location.pathname.slice(0,-'index.html'.length);
+    location.replace(cleanPath+location.search+location.hash);
+  }
+})();
+</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+window.PCGA_ANALYTICS_ENABLED=!['localhost','127.0.0.1','[::1]','::1'].includes(String(location.hostname||'').toLowerCase());
+if(window.PCGA_ANALYTICS_ENABLED){
+  var gaScript=document.createElement('script');
+  gaScript.async=true;
+  gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-SQN0WTMVP3';
+  document.head.appendChild(gaScript);
+}
+(function(){
+  var campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','gbraid','wbraid','dclid'];
+  var current=new URLSearchParams(location.search);
+  var tracking=new URLSearchParams();
+  var attribution={};
+  campaignKeys.forEach(function(key){
+    var value=current.get(key);
+    if(value){
+      tracking.set(key,value);
+      attribution[key]=value;
+    }
+  });
+  try{
+    if(Object.keys(attribution).length){
+      sessionStorage.setItem('pcga_campaign_attribution',JSON.stringify(attribution));
+    }
+    window.pcgaCampaignAttribution=function(){
+      try{return JSON.parse(sessionStorage.getItem('pcga_campaign_attribution')||'{}');}catch(e){return {};}
+    };
+  }catch(e){
+    window.pcgaCampaignAttribution=function(){return attribution;};
+  }
+  var canonical="https://www.pcgamearchive.org/documentacion/tecnica/quicktime-212-windows-31-dosbox-staging/";
+  window.PCGA_TRACKING_LOCATION=canonical+(tracking.toString()?'?'+tracking.toString():'');
+})();
+if(window.PCGA_ANALYTICS_ENABLED){
+  gtag('js',new Date());
+  gtag('config','G-SQN0WTMVP3',{page_location:window.PCGA_TRACKING_LOCATION});
+}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Instalación y configuración de Apple QuickTime 2.1.2 en Windows 3.1 con DOSBox Staging","description":"Amplía el entorno portable Windows 3.1 con QuickTime 2.1.2 de 16 bits: instalación, SHA-256, reproducción MOV y diagnóstico de fallos FMV.","datePublished":"2026-11-28","dateModified":"2026-11-28","url":"https://www.pcgamearchive.org/documentacion/tecnica/quicktime-212-windows-31-dosbox-staging/","publisher":{"@type":"Organization","name":"PC Game Archive","url":"https://www.pcgamearchive.org/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.pcgamearchive.org/"},{"@type":"ListItem","position":2,"name":"Documentación","item":"https://www.pcgamearchive.org/documentacion/"},{"@type":"ListItem","position":3,"name":"Entornos y procedimientos técnicos","item":"https://www.pcgamearchive.org/documentacion/tecnica/"},{"@type":"ListItem","position":4,"name":"Instalación y configuración de Apple QuickTime 2.1.2 en Windows 3.1 con DOSBox Staging","item":"https://www.pcgamearchive.org/documentacion/tecnica/quicktime-212-windows-31-dosbox-staging/"}]}</script>
+</head>
+<body>
+<header id="top" class="site-header">
+  <div class="site-identity">
+    <div class="wrap brand-row">
+      <a class="brand" href="../../../" aria-label="PC Game Archive">
+        <img class="logo" src="../../../logo.png" alt="PC Game Archive logo">
+        <span><strong>PC Game Archive</strong><small>Entornos y procedimientos técnicos</small></span>
+      </a>
+    </div>
+  </div>
+  <div class="site-navigation">
+    <div class="wrap nav-row">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-nav-toggle>
+        <span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menú</span>
+      </button>
+      <nav class="nav" id="main-navigation" aria-label="Navegación principal">
+        <a href="../../../">Inicio</a>
+<a href="../../../catalogo/">Catálogo</a>
+<a href="../../../videos/">Vídeos</a>
+<a href="../../../novedades/">Novedades</a>
+<a class="active" href="../../../documentacion/">Documentación</a>
+<details class="nav-explore">
+  <summary>Explorar <span class="nav-caret" aria-hidden="true">▾</span></summary>
+  <div class="nav-dropdown">
+    <div class="nav-dropdown-group">
+      <strong>Colecciones</strong>
+      <a class="nav-dropdown-link" href="../../../incorporaciones/">Últimas incorporaciones</a>
+<a class="nav-dropdown-link" href="../../../videojuegos-clasicos-pc.html">PC clásico</a>
+<a class="nav-dropdown-link" href="../../../juegos-pc-big-box.html">Big Box PC</a>
+<a class="nav-dropdown-link" href="../../../juegos-msdos.html">MS-DOS</a>
+<a class="nav-dropdown-link" href="../../../juegos-windows-95-98.html">Windows 95/98</a>
+<a class="nav-dropdown-link" href="../../../aventuras-graficas-pc.html">Aventuras gráficas</a>
+<a class="nav-dropdown-link" href="../../../ediciones-espanolas-pc.html">Ediciones españolas</a>
+<a class="nav-dropdown-link" href="../../../series.html">Series</a>
+    </div>
+    <div class="nav-dropdown-group">
+      <strong>Datos del archivo</strong>
+      <a class="nav-dropdown-link" href="../../../desarrolladores/">Desarrolladores</a>
+<a class="nav-dropdown-link" href="../../../distribuidores/">Distribuidores</a>
+<a class="nav-dropdown-link" href="../../../generos/">Géneros</a>
+<a class="nav-dropdown-link" href="../../../plataformas/">Plataformas</a>
+<a class="nav-dropdown-link" href="../../../formatos/">Formatos</a>
+<a class="nav-dropdown-link" href="../../../mercados/">Mercados</a>
+<a class="nav-dropdown-link" href="../../../idiomas/">Idiomas</a>
+<a class="nav-dropdown-link" href="../../../soportes/">Soportes</a>
+<a class="nav-dropdown-link" href="../../../tipos-edicion/">Tipos de edición</a>
+    </div>
+  </div>
+</details>
+<a href="../../../proyecto/">El proyecto</a>
+<a href="../../../vender-videojuegos-pc-antiguos/">Ofrecer juegos</a>
+<a href="../../../apoyar/">Apoyar</a>
+<a href="../../../contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="../../../">Inicio</a> / <a href="../../../documentacion/">Documentación</a> / <a href="../../../documentacion/tecnica/">Entornos y procedimientos técnicos</a> / <span>Instalación y configuración de Apple QuickTime 2.1.2 en Windows 3.1 con DOSBox Staging</span></nav>
+    <p class="eyebrow">Entornos y procedimientos técnicos</p>
+    <h1>Instalación y configuración de Apple QuickTime 2.1.2 en Windows 3.1 con DOSBox Staging</h1>
+    <p class="lead">Amplía el entorno portable Windows 3.1 con QuickTime 2.1.2 de 16 bits: instalación, SHA-256, reproducción MOV y diagnóstico de fallos FMV.</p>
+    <p class="count">Publicado: 28 de noviembre de 2026 · Última revisión: 28 de noviembre de 2026</p>
+  </section>
+  <section class="wrap">
+    <article class="content-card landing-editorial"><p>QuickTime for Windows permite reproducir archivos multimedia MOV utilizados por aplicaciones y videojuegos de Windows 3.x. Esta guía amplía el entorno portable de Windows 3.1 con <strong>QuickTime 2.1.2 de 16 bits</strong>, sin instalar componentes antiguos en el sistema anfitrión ni depender de ningún videojuego concreto.</p>
+<p>Procedimiento basado en las pruebas realizadas por PC Game Archive el 28 de noviembre de 2026. Se validó una actualización desde QuickTime 2.03, la reproducción independiente de vídeo y su integración en una aplicación multimedia. La instalación limpia de 2.1.2 sin versión previa queda pendiente de una prueba específica.</p>
+<h2>1. Requisitos y entorno de referencia</h2>
+<div class="doc-table-scroll"><table class="doc-table"><thead><tr><th scope="col">Componente</th><th scope="col">Configuración probada</th></tr></thead><tbody>
+<tr><td>Anfitrión</td><td>Windows 10 Pro 22H2 x64, build 19045</td></tr>
+<tr><td>Emulador</td><td>DOSBox Staging 0.83.0 (7b400)</td></tr>
+<tr><td>Invitado</td><td>Windows 3.1 en español</td></tr>
+<tr><td>Vídeo</td><td>S3 Trio64 emulada, controlador S3 964 v1.41B5, 640 × 480, 64K colores</td></tr>
+<tr><td>Sonido</td><td>Sound Blaster 16, puerto 220h, IRQ 7, DMA 1, HDMA 5</td></tr>
+<tr><td>CPU</td><td>Núcleo normal, 40.000 ciclos</td></tr>
+<tr><td>Memoria</td><td>32 MB</td></tr>
+<tr><td>Multimedia</td><td>QuickTime 2.1.2 para Windows de 16 bits</td></tr>
+</tbody></table></div>
+<p>Prepara primero el <a href="../windows-31-dosbox-staging-portable/" rel="noopener noreferrer">entorno portable de Windows 3.1</a>. Trabaja sobre una copia independiente con el emulador cerrado y conserva el entorno antiguo aislado de Internet. No necesitas instalar el controlador Audio CD [MCI] únicamente para reproducir MOV.</p>
+<h2>2. Elección de la versión</h2>
+<p>QuickTime 2.03 puede estar incluido en el instalador de una aplicación de la época. En nuestra prueba terminó de instalarse correctamente, pero Movie Player no pudo abrir los vídeos. La actualización a 2.1.2 permitió reproducirlos sin modificar los archivos originales. Esto justifica la versión seleccionada en este entorno, no una incompatibilidad universal de 2.03.</p>
+<p>No se conservó una captura del instalador de 2.1.2. Por rigor documental, esta guía no utiliza imágenes de la instalación de 2.03 como ilustraciones del procedimiento de actualización.</p>
+<h2>3. Instalación o actualización</h2>
+<ol>
+<li>Cierra Windows y DOSBox. Guarda una copia íntegra de <code>drives\c</code> en una ubicación nueva, fuera del entorno de trabajo. No sobrescribas un respaldo existente.</li>
+</ol>
+<p>Para realizar el respaldo desde PowerShell, situado en la carpeta del emulador:</p>
+<pre><code>$destino = &#x27;..\backup_c_quicktime_203&#x27;
+if (Test-Path -LiteralPath $destino) { throw &#x27;El respaldo ya existe&#x27; }
+Copy-Item -LiteralPath &#x27;.\drives\c&#x27; -Destination $destino -Recurse -ErrorAction Stop</code></pre>
+<ol>
+<li>Obtén QuickTime 2.1.2 para Windows 3.1, no QuickTime 32. El paquete utilizado procede del repositorio histórico de terceros <a href="https://winworldpc.com/product/quicktime/2x" rel="noopener noreferrer">WinWorld</a>. Su autenticidad no fue comprobada independientemente; verifica el origen y examina los archivos antes de ejecutar software antiguo.</li>
+<li>Descomprime el paquete en <code>drives\c\QT212</code>. La copia usada contenía <code>Setup\QTINSTAL.EXE</code>, de 2.037.248 bytes. Verifica su SHA-256 desde PowerShell en la carpeta del emulador.</li>
+</ol>
+<pre><code>Get-FileHash -LiteralPath &#x27;.\drives\c\QT212\Setup\QTINSTAL.EXE&#x27; -Algorithm SHA256</code></pre>
+<p>Para verificar también el tamaño:</p>
+<pre><code>(Get-Item -LiteralPath &#x27;.\drives\c\QT212\Setup\QTINSTAL.EXE&#x27;).Length</code></pre>
+<p>Huella registrada del instalador probado:</p>
+<pre><code>FE56FC8E421DD186A8367BC5BA690DB4E54FF166E7A5E11AD777BD9FCCA5A836</code></pre>
+<p>El hash identifica el ejemplar utilizado, no certifica por sí solo su autenticidad o seguridad. En esta prueba no fueron necesarios el complemento de navegador <code>NPQTW16.DLL</code> ni el componente adicional QuickTime VR <code>QTVRW.QTC</code>.</p>
+<h2>4. Ejecuta el instalador y verifica la versión</h2>
+<p>Inicia Windows. Desde el Administrador de programas, abre <strong>Archivo → Ejecutar</strong> e introduce:</p>
+<pre><code>C:\QT212\SETUP\QTINSTAL.EXE</code></pre>
+<p>Acepta la eliminación de componentes de versiones anteriores si el instalador lo solicita, como indica <code>README16.TXT</code> del paquete. Finaliza y reinicia Windows. Verifica la versión desde <strong>Principal → Panel de control → QuickTime</strong>, no QuickTime 32. La documentación original del paquete indica este método de comprobación; no se conservó una captura de la versión en el panel durante la sesión de actualización.</p>
+<h2>5. Prueba independiente del programa</h2>
+<p>Ejecuta <code>C:\WINDOWS\PLAYER.EXE</code> desde Archivo → Ejecutar. En <strong>File → Open</strong>, selecciona un archivo MOV legítimo y conocido que sea compatible con esta versión. Pulsa reproducir y comprueba imagen, continuidad, sonido y sincronización. El vídeo original de prueba desde CD se reprodujo correctamente después de actualizar QuickTime, y también se validó la reproducción integrada en una aplicación.</p>
+<p>Si no funciona, distingue una ruta errónea de un problema de lectura, formato o decodificación. Copiar temporalmente un vídeo al disco duro invitado y abrirlo desde allí permite comparar el comportamiento sin depender del CD. No cambies simultáneamente la versión de QuickTime, el controlador gráfico y los ciclos de CPU; conserva una copia del estado previo.</p>
+<h2>6. Diagnóstico de fallos de vídeo</h2>
+<p>Si una aplicación muestra una pantalla negra o no reproduce secuencias, abre primero un MOV conocido con Movie Player. La extensión no garantiza que el códec sea compatible. Comprueba la ruta y que el CD correcto esté montado. Si falla, copia un archivo de prueba al disco duro emulado y repite la apertura. Por ejemplo, desde DOS, reemplazando la ruta de origen por la real:</p>
+<pre><code>C:
+MD C:\QTTEST
+COPY D:\VIDEOS\PRUEBA.MOV C:\QTTEST\
+WIN</code></pre>
+<p>El nombre PRUEBA.MOV es ilustrativo; utiliza un archivo existente y de procedencia legítima. Abre la copia desde Movie Player. Si ambos intentos fallan, investiga QuickTime y el formato antes de modificar CPU o gráficos. Si solo falla desde CD, comprueba el montaje y la lectura. Si Movie Player funciona pero la aplicación no, investiga la integración específica.</p>
+<div class="doc-table-scroll"><table class="doc-table"><thead><tr><th scope="col">Prueba realizada</th><th scope="col">Resultado</th></tr></thead><tbody>
+<tr><td>QuickTime 2.03: apertura de dos MOV desde CD</td><td>Error</td></tr>
+<tr><td>QuickTime 2.03: apertura de un MOV copiado al disco duro</td><td>Error</td></tr>
+<tr><td>Aumento de ciclos y prueba del núcleo dinámico</td><td>Sin mejora significativa</td></tr>
+<tr><td>QuickTime 2.1.2: reproducción del MOV original desde CD</td><td>Correcta</td></tr>
+<tr><td>QuickTime 2.1.2: reproducción integrada en la aplicación</td><td>Correcta</td></tr>
+<tr><td>Traslado del entorno completo a otra ubicación</td><td>Correcto en el mismo equipo</td></tr>
+</tbody></table></div>
+<h3>Evidencia de funcionamiento tras la actualización</h3>
+<p>La siguiente captura corresponde a la aplicación multimedia utilizada en el laboratorio después de actualizar a QuickTime 2.1.2. Ilustra el resultado funcional, no la interfaz del instalador ni la pantalla de identificación de versión.</p>
+<p><img class="doc-inline-image" src="./img/intro.png" alt="Secuencia cinematográfica de In the 1st Degree tras actualizar a QuickTime 2.1.2" loading="lazy"></p>
+<p>La causa interna exacta del fallo no se determinó. Consulta la guía específica de la aplicación para requisitos de códec, resolución y sonido. No conviertas ni sobrescribas los recursos originales como primera medida.</p>
+<h2>7. Conservación del entorno ampliado</h2>
+<p>Cierra Windows y DOSBox antes de copiar el entorno. Mantén una base Windows 3.1 sin QuickTime y una variante multimedia identificada con su versión. Conserva la configuración local del emulador, sus recursos y <code>drives\c</code>; usa rutas relativas y <code>--noprimaryconf --conf dosbox.conf</code> como en la guía base. Conserva las partidas y configuraciones de cada aplicación en copias separadas.</p>
+<p>Si necesitas revertir la actualización, cierra el emulador, renombra la carpeta <code>drives\c</code> actual y restaura la copia previa en su ubicación original. No sobrescribas datos nuevos sin respaldarlos. La restauración no fue necesaria en esta sesión y no se probó de forma independiente.</p>
+<h2>8. Alcance y referencias</h2>
+<p>La actualización y reproducción se validaron en un único equipo Windows 10. No se ha comprobado esta instalación en Windows 11, otros equipos, todos los códecs ni todas las aplicaciones Windows 3.x. La salida MIDI Win32 depende del anfitrión. No se distribuyen Windows, QuickTime, archivos MOV de videojuegos ni imágenes ISO.</p>
+<ul>
+<li><a href="https://www.dosbox-staging.org/0.83/manual/using-dosbox-staging/windows-31/" rel="noopener noreferrer">Manual DOSBox Staging 0.83: Windows 3.1</a>.</li>
+<li><a href="https://leopard-adc.pepas.com/technotes/tn/tn1074.html" rel="noopener noreferrer">Apple TN1074: resolución de problemas de instalación de QuickTime (copia histórica)</a>.</li>
+<li><a href="https://web.mit.edu/unna/mirrors/www.mug.jhmi.edu/mirrors/InfoAlley/0996/27/quicktime.html" rel="noopener noreferrer">Apple: correcciones de QuickTime 2.1.2 (copia histórica)</a>.</li>
+<li><a href="https://winworldpc.com/product/quicktime/2x" rel="noopener noreferrer">WinWorld: QuickTime 2.x</a>, repositorio de terceros utilizado.</li>
+<li>Documentación original del paquete: README16.TXT y PROBS16.TXT (11 de diciembre de 1996), centrada principalmente en el complemento de navegador. Evidencias y registro de compatibilidad de PC Game Archive, 28 de noviembre de 2026.</li>
+</ul></article>
+    <aside class="content-card text-section"><h2>Documentación de referencia</h2><ul><li><a href="../../../documentacion/tecnica/windows-31-dosbox-staging-portable/"><strong>Preparación de un entorno portable Windows 3.1 con DOSBox Staging</strong></a></li></ul></aside>
+    <aside class="content-card text-section"><h2>Documentos que utilizan o citan esta guía</h2><ul><li><a href="../../../documentacion/guias/in-the-1st-degree-asesinato-en-primer-grado-bigbox-portable/"><strong>In the 1st Degree: Asesinato en Primer Grado en Windows 10 — DOSBox portable y QuickTime 2.1.2</strong></a></li></ul></aside>
+  </section>
+</main>
+<footer>
+  <div class="wrap footrow">
+    <p>PC Game Archive · <a href="mailto:contacto@pcgamearchive.org">contacto@pcgamearchive.org</a> · <a href="https://www.instagram.com/pc_game_archive/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@PC_Game_Archive" target="_blank" rel="noopener noreferrer">YouTube</a></p>
+    <button class="to-top" type="button" data-scroll-top>Subir</button>
+  </div>
+</footer>
+<script>
+(function(){
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var menu=document.getElementById('main-navigation');
+  if(!toggle || !menu) return;
+  toggle.addEventListener('click',function(){
+    var open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    menu.classList.toggle('is-open',!open);
+  });
+  menu.addEventListener('click',function(e){
+    if(!e.target.closest('a')) return;
+    menu.querySelectorAll('details[open]').forEach(function(item){item.removeAttribute('open');});
+    if(window.matchMedia && window.matchMedia('(max-width:900px)').matches){
+      toggle.setAttribute('aria-expanded','false');
+      menu.classList.remove('is-open');
+    }
+  });
+  document.addEventListener('click',function(e){
+    menu.querySelectorAll('details.nav-explore[open]').forEach(function(item){
+      if(!item.contains(e.target)) item.removeAttribute('open');
+    });
+  });
+})();
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('[data-scroll-top]');
+  if(btn){
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(history.replaceState){history.replaceState(null,'',location.pathname+location.search);}
+    return;
+  }
+
+  var link=e.target.closest('a');
+  if(!link || typeof gtag!=='function') return;
+
+  if(link.matches('[data-game-link]')){
+    gtag('event','select_content',{
+      content_type:'game',
+      content_id:link.getAttribute('data-game-id')||'game_unknown'
+    });
+  }
+
+  var href=link.getAttribute('href')||'';
+  var acquisition=link.getAttribute('data-acquisition-intent');
+  if(acquisition){
+    var offerEvent={
+      intent:acquisition,
+      channel:link.getAttribute('data-acquisition-channel')||'unknown',
+      link_url:href,
+      source_page:location.pathname
+    };
+
+    // En enlaces mailto damos un margen breve al Google tag para procesar el
+    // evento antes de abrir el cliente de correo. No duplicamos además el
+    // evento como contact_click: offer_games_click es la acción de captación.
+    if(href.indexOf('mailto:')===0){
+      e.preventDefault();
+      var followed=false;
+      var follow=function(){
+        if(followed) return;
+        followed=true;
+        location.href=href;
+      };
+      offerEvent.event_callback=follow;
+      offerEvent.event_timeout=900;
+      gtag('event','offer_games_click',offerEvent);
+      window.setTimeout(follow,1000);
+      return;
+    }
+
+    gtag('event','offer_games_click',offerEvent);
+    return;
+  }
+
+  var gameSupport=link.getAttribute('data-game-support');
+  if(gameSupport){
+    gtag('event','game_support_click',{
+      game_title:link.getAttribute('data-game-title')||'',
+      game_slug:link.getAttribute('data-game-slug')||'',
+      game_num:link.getAttribute('data-game-num')||'',
+      game_format:link.getAttribute('data-game-format')||'',
+      source_page:location.pathname
+    });
+    return;
+  }
+
+  var supportProvider=link.getAttribute('data-support-provider');
+  if(supportProvider){
+    var supportParams=new URLSearchParams(location.search);
+    var supportSlug=(supportParams.get('juego')||'').trim();
+    gtag('event','support_click',{
+      provider:supportProvider,
+      link_url:href,
+      source_page:location.pathname,
+      support_context:supportSlug?'game':'general',
+      game_slug:supportSlug
+    });
+    return;
+  }
+
+  if(href.indexOf('mailto:')===0){
+    gtag('event','contact_click',{method:'email',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('instagram.com/')!==-1){
+    gtag('event','outbound_social_click',{platform:'instagram',link_url:href,source_page:location.pathname});
+  } else if(href.indexOf('youtube.com/')!==-1 || href.indexOf('youtu.be/')!==-1){
+    gtag('event','outbound_social_click',{platform:'youtube',link_url:href,source_page:location.pathname});
+  }
+});
+if(typeof gtag==='function' && (location.pathname==='/apoyar/' || location.pathname==='/apoyar')){
+  var supportViewParams=new URLSearchParams(location.search);
+  var supportViewSlug=(supportViewParams.get('juego')||'').trim();
+  gtag('event','support_page_view',{
+    support_provider:'ko-fi',
+    source_page:location.pathname,
+    support_context:supportViewSlug?'game':'general',
+    game_slug:supportViewSlug
+  });
+}
+
+(function(){
+  // Seguimiento de reproductores MP4 propios; GA4 Enhanced Measurement no los detecta como YouTube.
+  document.querySelectorAll('video[data-pcga-video]').forEach(function(video){
+    var started=false, milestones={};
+    var context={game_num:video.dataset.gameNum||'',game_slug:video.dataset.gameSlug||'',video_title:video.dataset.videoTitle||'',video_location:video.dataset.videoLocation||'',video_url:video.querySelector('source')?.src||'',source_page:location.pathname};
+    function send(name,extra){
+      if(typeof gtag!=='function') return;
+      gtag('event',name,Object.assign({},context,extra||{}));
+    }
+    video.addEventListener('play',function(){if(!started){started=true;send('video_start',{video_percent:0});}});
+    video.addEventListener('timeupdate',function(){
+      if(!isFinite(video.duration)||video.duration<=0)return;
+      var pct=100*video.currentTime/video.duration;
+      [25,50,75].forEach(function(n){if(pct>=n&&!milestones[n]){milestones[n]=true;send('video_progress',{video_percent:n});}});
+    });
+    video.addEventListener('pause',function(){if(!video.ended&&started)send('video_pause',{video_percent:video.duration>0?Math.round(100*video.currentTime/video.duration):0});});
+    video.addEventListener('ended',function(){send('video_complete',{video_percent:100});});
+  });
+  document.addEventListener('click',function(e){
+    var link=e.target.closest('a[data-video-game-link]');
+    if(link&&typeof gtag==='function')gtag('event','video_game_click',{game_num:link.dataset.gameNum||'',game_slug:link.dataset.gameSlug||'',video_location:link.dataset.videoLocation||'',source_page:location.pathname,link_url:link.href});
+  });
+})();
+</script>
+</body>
+</html>
